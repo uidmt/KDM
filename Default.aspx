@@ -595,58 +595,207 @@
                     </script>
                 </div>
         </section>
-        <hr class="tall" />
-        <!-- Introduction Container Starts -->
-        <div class="container">
-            <div class="row custom-row">
-                <div class="col-md-8">
-                    <h2 align="center" style="margin-bottom:28px;">King of Digital Marketing</h2>
-                    <p align="justify">Since 2013, King of Digital Marketing has been helping businesses across India
-                        and 12+
-                        countries worldwide. We are a Delhi-based digital marketing company built on one simple belief:
-                        results
-                        matter more than reports. Over the past decade, our team has worked across 850+ projects from
-                        India and
-                        the United States, United Kingdom, Canada, Australia, Germany, UAE, Singapore, Turkey, Russia,
-                        and beyond.
-                        From domestic projects to international clients, we have helped small, mid-sized, and large
-                        businesses
-                        solve real problems like poor lead quality, low organic traffic, poor Google rankings, stagnant
-                        leads and
-                        flat conversion rates.
-                    <p align="justify"><b>What We Do?</b> We bring together professionalism, passion, and performance
-                        through
-                        our proven, <a href="lead-generation-company.aspx">Lead Generation Services</a> with <a
-                            href="social-media-marketing-services.aspx">Social Media Marketing</a> or <a
-                            href="blog/best-ppc-services-in-delhi.html">PPC Management (Google Ads)</a>. King of Digital
-                        Marketing
-                        is an integral part of <strong>Devweboic Tech. OPC Pvt. Ltd.</strong> - A group of digital
-                        marketing
-                        company, Digital Marketing Freelancer and Digital Marketing Training Institute. We are here to
-                        help you
-                        become the best in your industry. We assign a team of digital marketing experts to provide
-                        amplification
-                        for your brand. Our Dedicated digital marketing specialists are with over 10+ years of
-                        experienced in
-                        their field. They are passionate about growing your business by driving qualified leads,
-                        increasing sales
-                        and maximizing your visibility across Google and social media platforms. We are having experts
-                        for <a href="SEO-Services.aspx">SEO services</a>, <a href="SMO-Services.aspx">Social Media
-                            services</a> and
-                        Paid Ads Management, </a>who work for you 24x7 to increase sales and revenue.</p>
+        <!-- King of Digital Marketing Dark Section Starts -->
+        <section class="kdm-intro-dark-section">
+            <style>
+                .kdm-intro-dark-section {
+                    background: linear-gradient(135deg, #0b0f19 0%, #111827 50%, #0d1322 100%);
+                    color: #e2e8f0;
+                    padding: 70px 0;
+                    position: relative;
+                    overflow: hidden;
+                    border-top: 1px solid rgba(255, 255, 255, 0.08);
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+                    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+                }
+                .kdm-intro-dark-section::before {
+                    content: '';
+                    position: absolute;
+                    top: -150px;
+                    left: -150px;
+                    width: 400px;
+                    height: 400px;
+                    background: radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+                    pointer-events: none;
+                }
+                .kdm-intro-dark-section::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -150px;
+                    right: -150px;
+                    width: 450px;
+                    height: 450px;
+                    background: radial-gradient(circle, rgba(56, 189, 248, 0.12) 0%, rgba(0, 0, 0, 0) 70%);
+                    pointer-events: none;
+                }
+                .kdm-dark-badge {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                    background: rgba(245, 158, 11, 0.12);
+                    border: 1px solid rgba(245, 158, 11, 0.3);
+                    color: #fbbf24;
+                    font-size: 13px;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    padding: 6px 16px;
+                    border-radius: 50px;
+                    margin-bottom: 18px;
+                }
+                .kdm-dark-heading {
+                    color: #ffffff;
+                    font-size: 38px;
+                    font-weight: 800;
+                    margin-bottom: 24px;
+                    line-height: 1.25;
+                    text-align: left;
+                    letter-spacing: -0.5px;
+                }
+                .kdm-gold-gradient {
+                    background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #fef08a 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                .kdm-intro-dark-section p {
+                    color: #94a3b8;
+                    font-size: 15.5px;
+                    line-height: 1.8;
+                    margin-bottom: 18px;
+                }
+                .kdm-intro-dark-section p strong, 
+                .kdm-intro-dark-section p b {
+                    color: #f8fafc;
+                }
+                .kdm-intro-dark-section a:not(.btn):not(.kdm-btn-gold):not(.kdm-btn-glass) {
+                    color: #38bdf8;
+                    font-weight: 600;
+                    text-decoration: none;
+                    transition: all 0.2s ease;
+                    border-bottom: 1px dashed rgba(56, 189, 248, 0.4);
+                }
+                .kdm-intro-dark-section a:not(.btn):not(.kdm-btn-gold):not(.kdm-btn-glass):hover {
+                    color: #7dd3fc;
+                    border-bottom-color: #7dd3fc;
+                    text-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
+                }
+                .kdm-stats-pills {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 12px;
+                    margin: 22px 0 28px 0;
+                }
+                .kdm-stat-pill {
+                    background: rgba(255, 255, 255, 0.04);
+                    border: 1px solid rgba(255, 255, 255, 0.08);
+                    padding: 8px 16px;
+                    border-radius: 8px;
+                    font-size: 13.5px;
+                    color: #cbd5e1;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    backdrop-filter: blur(6px);
+                }
+                .kdm-stat-pill i {
+                    color: #f59e0b;
+                }
+                .kdm-btn-gold {
+                    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+                    color: #0f172a !important;
+                    font-weight: 700;
+                    padding: 13px 28px;
+                    border-radius: 8px;
+                    display: inline-block;
+                    text-decoration: none !important;
+                    box-shadow: 0 4px 20px rgba(245, 158, 11, 0.35);
+                    transition: all 0.3s ease;
+                    margin-right: 12px;
+                    margin-bottom: 10px;
+                    border: none;
+                }
+                .kdm-btn-gold:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 6px 25px rgba(245, 158, 11, 0.5);
+                    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+                    color: #020617 !important;
+                }
+                .kdm-btn-glass {
+                    background: rgba(255, 255, 255, 0.06);
+                    color: #f8fafc !important;
+                    font-weight: 600;
+                    padding: 13px 28px;
+                    border-radius: 8px;
+                    display: inline-block;
+                    text-decoration: none !important;
+                    border: 1px solid rgba(255, 255, 255, 0.15);
+                    backdrop-filter: blur(10px);
+                    transition: all 0.3s ease;
+                    margin-bottom: 10px;
+                }
+                .kdm-btn-glass:hover {
+                    background: rgba(255, 255, 255, 0.12);
+                    border-color: rgba(255, 255, 255, 0.3);
+                    transform: translateY(-2px);
+                    color: #ffffff !important;
+                }
+                .kdm-form-wrapper {
+                    background: rgba(15, 23, 42, 0.7);
+                    border: 1px solid rgba(255, 255, 255, 0.12);
+                    border-radius: 16px;
+                    padding: 12px;
+                    backdrop-filter: blur(12px);
+                    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(245, 158, 11, 0.08);
+                }
+                .kdm-form-wrapper iframe {
+                    border-radius: 10px;
+                }
+            </style>
 
-                    <a href="tel:+919821918208" target="_blank" class="btn btn-primary">Let's Talk About Your
-                        Business</a> <a href="/About-Us.aspx" target="_blank" class="btn btn-primary">Know More About
-                        Us</a>
-                </div>
-                <div class="col-md-4">
-                    <br />
-                    <iframe class="home-form" scrolling="no" src="contact.aspx" width="100%" loading="lazy"> </iframe>
+            <div class="container" style="position: relative; z-index: 2;">
+                <div class="row custom-row align-items-center">
+                    <div class="col-md-8">
+                        <div class="kdm-dark-badge">
+                            <i class="fa fa-crown"></i> ESTABLISHED SINCE 2013
+                        </div>
+                        <h2 class="kdm-dark-heading">
+                            King of <span class="kdm-gold-gradient">Digital Marketing</span>
+                        </h2>
+                        
+                        <p align="justify">
+                            Since 2013, King of Digital Marketing has been helping businesses across India and 12+ countries worldwide. We are a Delhi-based digital marketing company built on one simple belief: <b>results matter more than reports</b>. Over the past decade, our team has worked across <b>850+ projects</b> from India and the United States, United Kingdom, Canada, Australia, Germany, UAE, Singapore, Turkey, Russia, and beyond. From domestic projects to international clients, we have helped small, mid-sized, and large businesses solve real problems like poor lead quality, low organic traffic, poor Google rankings, stagnant leads and flat conversion rates.
+                        </p>
+
+                        <div class="kdm-stats-pills">
+                            <div class="kdm-stat-pill"><i class="fa fa-globe"></i> 12+ Countries Worldwide</div>
+                            <div class="kdm-stat-pill"><i class="fa fa-check-circle"></i> 850+ Completed Projects</div>
+                            <div class="kdm-stat-pill"><i class="fa fa-user-md"></i> 10+ Yrs Expert Marketers</div>
+                            <div class="kdm-stat-pill"><i class="fa fa-clock-o"></i> 24/7 Dedicated Support</div>
+                        </div>
+
+                        <p align="justify">
+                            <b>What We Do?</b> We bring together professionalism, passion, and performance through our proven <a href="lead-generation-company.aspx">Lead Generation Services</a> with <a href="social-media-marketing-services.aspx">Social Media Marketing</a> or <a href="blog/best-ppc-services-in-delhi.html">PPC Management (Google Ads)</a>. King of Digital Marketing is an integral part of <strong>Devweboic Tech. OPC Pvt. Ltd.</strong> - A group of digital marketing company, Digital Marketing Freelancer and Digital Marketing Training Institute. We are here to help you become the best in your industry. We assign a team of digital marketing experts to provide amplification for your brand. Our Dedicated digital marketing specialists are with over 10+ years of experience in their field. They are passionate about growing your business by driving qualified leads, increasing sales and maximizing your visibility across Google and social media platforms. We have experts for <a href="SEO-Services.aspx">SEO services</a>, <a href="SMO-Services.aspx">Social Media services</a> and Paid Ads Management, who work for you 24x7 to increase sales and revenue.
+                        </p>
+
+                        <div style="margin-top: 28px;">
+                            <a href="tel:+919821918208" target="_blank" class="kdm-btn-gold">
+                                <i class="fa fa-phone" style="margin-right: 6px;"></i> Let's Talk About Your Business
+                            </a>
+                            <a href="/About-Us.aspx" target="_blank" class="kdm-btn-glass">
+                                Know More About Us <i class="fa fa-arrow-right" style="margin-left: 6px;"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="kdm-form-wrapper">
+                            <iframe class="home-form" scrolling="no" src="contact.aspx" width="100%" loading="lazy"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Introduction Container Ends -->
-        <hr class="tall" />
+        </section>
+        <!-- King of Digital Marketing Dark Section Ends -->
         <!-- ===== HOW DO WE EMPOWER YOU DIGITALLY SECTION ===== -->
         <section class="empower-section">
             <div class="container">
