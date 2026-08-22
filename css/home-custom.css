@@ -4831,7 +4831,7 @@ svg.kdm-ppc-svg-icon {
 }
 
 /* ==========================================================================
-   King of Digital Marketing Dark Intro Section Styles
+   King of Digital Marketing Dark Intro Section & Founder Card Styles
    ========================================================================== */
 .kdm-intro-dark-section {
     background: linear-gradient(135deg, #0b0f19 0%, #111827 50%, #0d1322 100%);
@@ -4850,7 +4850,7 @@ svg.kdm-ppc-svg-icon {
     left: -150px;
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+    background: radial-gradient(circle, rgba(2, 132, 199, 0.18) 0%, rgba(0, 0, 0, 0) 70%);
     pointer-events: none;
 }
 .kdm-intro-dark-section::after {
@@ -4863,13 +4863,13 @@ svg.kdm-ppc-svg-icon {
     background: radial-gradient(circle, rgba(56, 189, 248, 0.12) 0%, rgba(0, 0, 0, 0) 70%);
     pointer-events: none;
 }
-.kdm-dark-badge {
+.kdm-theme-badge {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: rgba(245, 158, 11, 0.12);
-    border: 1px solid rgba(245, 158, 11, 0.3);
-    color: #fbbf24;
+    background: rgba(2, 132, 199, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.35);
+    color: #38bdf8;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -4887,8 +4887,8 @@ svg.kdm-ppc-svg-icon {
     text-align: left;
     letter-spacing: -0.5px;
 }
-.kdm-gold-gradient {
-    background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #fef08a 100%);
+.kdm-theme-gradient {
+    background: linear-gradient(135deg, #38bdf8 0%, #0284c7 50%, #60a5fa 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -4902,14 +4902,14 @@ svg.kdm-ppc-svg-icon {
 .kdm-intro-dark-section p b {
     color: #f8fafc;
 }
-.kdm-intro-dark-section a:not(.btn):not(.kdm-btn-gold):not(.kdm-btn-glass) {
+.kdm-intro-dark-section a:not(.btn):not(.kdm-btn-gold):not(.kdm-btn-glass):not(.kdm-founder-social-btn) {
     color: #38bdf8;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.2s ease;
     border-bottom: 1px dashed rgba(56, 189, 248, 0.4);
 }
-.kdm-intro-dark-section a:not(.btn):not(.kdm-btn-gold):not(.kdm-btn-glass):hover {
+.kdm-intro-dark-section a:not(.btn):not(.kdm-btn-gold):not(.kdm-btn-glass):not(.kdm-founder-social-btn):hover {
     color: #7dd3fc;
     border-bottom-color: #7dd3fc;
     text-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
@@ -4933,17 +4933,17 @@ svg.kdm-ppc-svg-icon {
     backdrop-filter: blur(6px);
 }
 .kdm-stat-pill i {
-    color: #f59e0b;
+    color: #0284c7;
 }
 .kdm-btn-gold {
-    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-    color: #0f172a !important;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: #ffffff !important;
     font-weight: 700;
     padding: 13px 28px;
     border-radius: 8px;
     display: inline-block;
     text-decoration: none !important;
-    box-shadow: 0 4px 20px rgba(245, 158, 11, 0.35);
+    box-shadow: 0 4px 20px rgba(2, 132, 199, 0.35);
     transition: all 0.3s ease;
     margin-right: 12px;
     margin-bottom: 10px;
@@ -4951,9 +4951,9 @@ svg.kdm-ppc-svg-icon {
 }
 .kdm-btn-gold:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(245, 158, 11, 0.5);
-    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
-    color: #020617 !important;
+    box-shadow: 0 6px 25px rgba(2, 132, 199, 0.5);
+    background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+    color: #ffffff !important;
 }
 .kdm-btn-glass {
     background: rgba(255, 255, 255, 0.06);
@@ -4974,17 +4974,91 @@ svg.kdm-ppc-svg-icon {
     transform: translateY(-2px);
     color: #ffffff !important;
 }
-.kdm-form-wrapper {
-    background: rgba(15, 23, 42, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 16px;
-    padding: 12px;
-    backdrop-filter: blur(12px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(245, 158, 11, 0.08);
+
+/* Founder Profile Card */
+.kdm-founder-card {
+    background: rgba(15, 23, 42, 0.75);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    border-radius: 20px;
+    padding: 26px 20px;
+    text-align: center;
+    backdrop-filter: blur(14px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(2, 132, 199, 0.12);
+    transition: all 0.3s ease;
 }
-.kdm-form-wrapper iframe {
-    border-radius: 10px;
+.kdm-founder-card:hover {
+    border-color: rgba(56, 189, 248, 0.45);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6), 0 0 40px rgba(2, 132, 199, 0.22);
 }
+.kdm-founder-img-wrapper {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px auto;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, #38bdf8 0%, #0284c7 50%, #f59e0b 100%);
+    box-shadow: 0 8px 25px rgba(2, 132, 199, 0.35);
+}
+.kdm-founder-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 50%;
+    background: #0f172a;
+    display: block;
+}
+.kdm-founder-name {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 0 6px 0;
+    letter-spacing: -0.3px;
+}
+.kdm-founder-title {
+    color: #38bdf8;
+    font-size: 13.5px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.kdm-founder-credential {
+    color: #94a3b8;
+    font-size: 13px;
+    line-height: 1.55;
+    margin-bottom: 16px;
+}
+.kdm-founder-socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 14px;
+}
+.kdm-founder-social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #f8fafc !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+.kdm-founder-social-btn:hover {
+    transform: translateY(-3px);
+}
+.kdm-founder-social-btn.linkedin:hover { background: #0a66c2; border-color: #0a66c2; color: #ffffff !important; box-shadow: 0 4px 15px rgba(10, 102, 194, 0.4); }
+.kdm-founder-social-btn.facebook:hover { background: #1877f2; border-color: #1877f2; color: #ffffff !important; box-shadow: 0 4px 15px rgba(24, 119, 242, 0.4); }
+.kdm-founder-social-btn.twitter:hover { background: #1da1f2; border-color: #1da1f2; color: #ffffff !important; box-shadow: 0 4px 15px rgba(29, 161, 242, 0.4); }
+.kdm-founder-social-btn.instagram:hover { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); border-color: transparent; color: #ffffff !important; box-shadow: 0 4px 15px rgba(220, 39, 67, 0.4); }
+.kdm-founder-social-btn.youtube:hover { background: #ff0000; border-color: #ff0000; color: #ffffff !important; box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4); }
+
 
 
 
