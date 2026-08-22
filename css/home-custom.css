@@ -4836,7 +4836,7 @@ svg.kdm-ppc-svg-icon {
 .kdm-intro-dark-section {
     background: linear-gradient(135deg, #070b14 0%, #0f172a 50%, #0a1120 100%);
     color: #e2e8f0;
-    padding: 70px 0;
+    padding: 85px 0;
     position: relative;
     overflow: hidden;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
@@ -4848,8 +4848,8 @@ svg.kdm-ppc-svg-icon {
     position: absolute;
     top: -150px;
     left: -150px;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     background: radial-gradient(circle, rgba(2, 132, 199, 0.22) 0%, rgba(0, 0, 0, 0) 70%);
     pointer-events: none;
 }
@@ -4858,10 +4858,19 @@ svg.kdm-ppc-svg-icon {
     position: absolute;
     bottom: -150px;
     right: -150px;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
     pointer-events: none;
+}
+
+@media (min-width: 992px) {
+    .kdm-intro-dark-section .col-md-7 {
+        padding-right: 40px !important;
+    }
+    .kdm-intro-dark-section .col-md-5 {
+        padding-left: 20px !important;
+    }
 }
 
 .kdm-theme-badge {
@@ -4877,13 +4886,13 @@ svg.kdm-ppc-svg-icon {
     text-transform: uppercase;
     padding: 6px 16px;
     border-radius: 50px;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 .kdm-dark-heading {
     color: #ffffff;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     line-height: 1.25;
     text-align: left;
     letter-spacing: -0.5px;
@@ -4895,9 +4904,9 @@ svg.kdm-ppc-svg-icon {
 }
 .kdm-intro-dark-section p {
     color: #94a3b8;
-    font-size: 15px;
-    line-height: 1.75;
-    margin-bottom: 18px;
+    font-size: 15.5px;
+    line-height: 1.8;
+    margin-bottom: 22px;
 }
 .kdm-intro-dark-section p strong, 
 .kdm-intro-dark-section p b {
@@ -4920,15 +4929,15 @@ svg.kdm-ppc-svg-icon {
 .kdm-left-stats-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 22px 0 24px 0;
+    gap: 14px;
+    margin: 26px 0 28px 0;
 }
 .kdm-left-stat-card {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-left: 3px solid #0284c7;
-    padding: 12px 14px;
-    border-radius: 10px;
+    padding: 14px 16px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -4941,23 +4950,23 @@ svg.kdm-ppc-svg-icon {
     transform: translateY(-2px);
 }
 .kdm-left-stat-icon {
-    width: 36px;
-    height: 36px;
-    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
     background: rgba(2, 132, 199, 0.15);
     color: #38bdf8;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 18px;
     flex-shrink: 0;
 }
 .kdm-left-stat-info strong {
     display: block;
     color: #f8fafc;
-    font-size: 14px;
+    font-size: 14.5px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.25;
 }
 .kdm-left-stat-info span {
     color: #94a3b8;
@@ -4968,7 +4977,7 @@ svg.kdm-ppc-svg-icon {
     background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
     color: #ffffff !important;
     font-weight: 700;
-    padding: 12px 24px;
+    padding: 13px 26px;
     border-radius: 8px;
     display: inline-flex;
     align-items: center;
@@ -4990,7 +4999,7 @@ svg.kdm-ppc-svg-icon {
     background: rgba(255, 255, 255, 0.06);
     color: #f8fafc !important;
     font-weight: 600;
-    padding: 12px 24px;
+    padding: 13px 26px;
     border-radius: 8px;
     display: inline-flex;
     align-items: center;
@@ -5008,15 +5017,15 @@ svg.kdm-ppc-svg-icon {
     color: #ffffff !important;
 }
 
-/* Perfect Symmetrical Founder Card */
+/* Expanded High-Executive Founder Card */
 .kdm-founder-card {
     background: rgba(15, 23, 42, 0.85);
     border: 1px solid rgba(56, 189, 248, 0.25);
-    border-radius: 20px;
-    padding: 26px 20px;
+    border-radius: 24px;
+    padding: 38px 26px;
     text-align: center;
     backdrop-filter: blur(16px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(2, 132, 199, 0.15);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55), 0 0 35px rgba(2, 132, 199, 0.15);
     transition: all 0.3s ease;
     height: 100%;
     display: flex;
@@ -5025,18 +5034,18 @@ svg.kdm-ppc-svg-icon {
     align-items: center;
 }
 .kdm-founder-card:hover {
-    border-color: rgba(56, 189, 248, 0.45);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.65), 0 0 45px rgba(2, 132, 199, 0.25);
+    border-color: rgba(56, 189, 248, 0.5);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7), 0 0 50px rgba(2, 132, 199, 0.25);
 }
 .kdm-founder-img-wrapper {
     position: relative;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto 14px auto;
+    width: 175px;
+    height: 175px;
+    margin: 0 auto 20px auto;
     border-radius: 50%;
-    padding: 4px;
+    padding: 5px;
     background: linear-gradient(135deg, #38bdf8 0%, #0284c7 50%, #f59e0b 100%);
-    box-shadow: 0 8px 25px rgba(2, 132, 199, 0.35);
+    box-shadow: 0 10px 30px rgba(2, 132, 199, 0.4);
 }
 .kdm-founder-img {
     width: 100%;
@@ -5049,34 +5058,50 @@ svg.kdm-ppc-svg-icon {
 }
 .kdm-verified-badge {
     position: absolute;
-    bottom: 4px;
-    right: 4px;
+    bottom: 6px;
+    right: 6px;
     background: #0284c7;
     color: #ffffff;
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
-    border: 2px solid #0f172a;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    border: 3px solid #0f172a;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 .kdm-founder-name {
     color: #ffffff;
-    font-size: 23px;
+    font-size: 26px;
     font-weight: 800;
-    margin: 0 0 4px 0;
+    margin: 0 0 6px 0;
     letter-spacing: -0.3px;
 }
 .kdm-founder-title {
     color: #38bdf8;
-    font-size: 13px;
+    font-size: 13.5px;
     font-weight: 700;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.6px;
+}
+.kdm-founder-quote {
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(56, 189, 248, 0.15);
+    border-radius: 12px;
+    padding: 12px 14px;
+    font-size: 13px;
+    color: #cbd5e1;
+    line-height: 1.55;
+    font-style: italic;
+    margin-bottom: 20px;
+    position: relative;
+}
+.kdm-founder-quote i {
+    color: #38bdf8;
+    margin-right: 4px;
 }
 .kdm-founder-stats-row {
     display: flex;
@@ -5085,9 +5110,9 @@ svg.kdm-ppc-svg-icon {
     width: 100%;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 12px;
-    padding: 10px 6px;
-    margin-bottom: 16px;
+    border-radius: 14px;
+    padding: 14px 8px;
+    margin-bottom: 20px;
 }
 .kdm-founder-stat-item {
     text-align: center;
@@ -5095,26 +5120,26 @@ svg.kdm-ppc-svg-icon {
 .kdm-founder-stat-item strong {
     display: block;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 800;
     line-height: 1.2;
 }
 .kdm-founder-stat-item span {
     color: #94a3b8;
-    font-size: 11px;
+    font-size: 11.5px;
     text-transform: uppercase;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.4px;
 }
 .kdm-founder-socials {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 16px;
+    gap: 12px;
+    margin-bottom: 22px;
     width: 100%;
 }
 .kdm-founder-social-btn {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -5122,7 +5147,7 @@ svg.kdm-ppc-svg-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 15px;
+    font-size: 17px;
     text-decoration: none !important;
     transition: all 0.3s ease;
 }
@@ -5141,12 +5166,12 @@ svg.kdm-ppc-svg-icon {
     justify-content: center;
     gap: 8px;
     width: 100%;
-    padding: 10px 16px;
+    padding: 12px 20px;
     background: rgba(2, 132, 199, 0.15);
-    border: 1px solid rgba(56, 189, 248, 0.3);
+    border: 1px solid rgba(56, 189, 248, 0.35);
     color: #38bdf8 !important;
-    border-radius: 10px;
-    font-size: 13px;
+    border-radius: 12px;
+    font-size: 14px;
     font-weight: 700;
     text-decoration: none !important;
     transition: all 0.3s ease;
@@ -5155,8 +5180,9 @@ svg.kdm-ppc-svg-icon {
     background: #0284c7;
     color: #ffffff !important;
     border-color: #0284c7;
-    box-shadow: 0 4px 15px rgba(2, 132, 199, 0.4);
+    box-shadow: 0 4px 20px rgba(2, 132, 199, 0.45);
 }
+
 
 
 
