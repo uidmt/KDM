@@ -4834,23 +4834,23 @@ svg.kdm-ppc-svg-icon {
    King of Digital Marketing Dark Intro Section & Founder Card Styles
    ========================================================================== */
 .kdm-intro-dark-section {
-    background: linear-gradient(135deg, #0b0f19 0%, #111827 50%, #0d1322 100%);
+    background: linear-gradient(135deg, #070b14 0%, #0f172a 50%, #0a1120 100%);
     color: #e2e8f0;
     padding: 70px 0;
     position: relative;
     overflow: hidden;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.6);
 }
 .kdm-intro-dark-section::before {
     content: '';
     position: absolute;
     top: -150px;
     left: -150px;
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(2, 132, 199, 0.18) 0%, rgba(0, 0, 0, 0) 70%);
+    width: 450px;
+    height: 450px;
+    background: radial-gradient(circle, rgba(2, 132, 199, 0.22) 0%, rgba(0, 0, 0, 0) 70%);
     pointer-events: none;
 }
 .kdm-intro-dark-section::after {
@@ -4858,11 +4858,12 @@ svg.kdm-ppc-svg-icon {
     position: absolute;
     bottom: -150px;
     right: -150px;
-    width: 450px;
-    height: 450px;
-    background: radial-gradient(circle, rgba(56, 189, 248, 0.12) 0%, rgba(0, 0, 0, 0) 70%);
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
     pointer-events: none;
 }
+
 .kdm-theme-badge {
     display: inline-flex;
     align-items: center;
@@ -4870,9 +4871,9 @@ svg.kdm-ppc-svg-icon {
     background: rgba(2, 132, 199, 0.15);
     border: 1px solid rgba(56, 189, 248, 0.35);
     color: #38bdf8;
-    font-size: 13px;
+    font-size: 12.5px;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
     padding: 6px 16px;
     border-radius: 50px;
@@ -4880,9 +4881,9 @@ svg.kdm-ppc-svg-icon {
 }
 .kdm-dark-heading {
     color: #ffffff;
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 800;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     line-height: 1.25;
     text-align: left;
     letter-spacing: -0.5px;
@@ -4894,54 +4895,84 @@ svg.kdm-ppc-svg-icon {
 }
 .kdm-intro-dark-section p {
     color: #94a3b8;
-    font-size: 15.5px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.75;
     margin-bottom: 18px;
 }
 .kdm-intro-dark-section p strong, 
 .kdm-intro-dark-section p b {
     color: #f8fafc;
 }
-.kdm-intro-dark-section a:not(.btn):not(.kdm-btn-gold):not(.kdm-btn-glass):not(.kdm-founder-social-btn) {
+.kdm-intro-dark-section a:not(.btn):not(.kdm-btn-primary-glow):not(.kdm-btn-glass):not(.kdm-founder-social-btn):not(.kdm-founder-profile-link) {
     color: #38bdf8;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.2s ease;
     border-bottom: 1px dashed rgba(56, 189, 248, 0.4);
 }
-.kdm-intro-dark-section a:not(.btn):not(.kdm-btn-gold):not(.kdm-btn-glass):not(.kdm-founder-social-btn):hover {
+.kdm-intro-dark-section a:not(.btn):not(.kdm-btn-primary-glow):not(.kdm-btn-glass):not(.kdm-founder-social-btn):not(.kdm-founder-profile-link):hover {
     color: #7dd3fc;
     border-bottom-color: #7dd3fc;
     text-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
 }
-.kdm-stats-pills {
-    display: flex;
-    flex-wrap: wrap;
+
+/* Symmetrical Left Stats Grid */
+.kdm-left-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
-    margin: 22px 0 28px 0;
+    margin: 22px 0 24px 0;
 }
-.kdm-stat-pill {
-    background: rgba(255, 255, 255, 0.04);
+.kdm-left-stat-card {
+    background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 8px 16px;
-    border-radius: 8px;
-    font-size: 13.5px;
-    color: #cbd5e1;
+    border-left: 3px solid #0284c7;
+    padding: 12px 14px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
     backdrop-filter: blur(6px);
+    transition: all 0.25s ease;
 }
-.kdm-stat-pill i {
-    color: #0284c7;
+.kdm-left-stat-card:hover {
+    background: rgba(2, 132, 199, 0.08);
+    border-color: rgba(56, 189, 248, 0.3);
+    transform: translateY(-2px);
 }
-.kdm-btn-gold {
+.kdm-left-stat-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: rgba(2, 132, 199, 0.15);
+    color: #38bdf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+.kdm-left-stat-info strong {
+    display: block;
+    color: #f8fafc;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.kdm-left-stat-info span {
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+.kdm-btn-primary-glow {
     background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
     color: #ffffff !important;
     font-weight: 700;
-    padding: 13px 28px;
+    padding: 12px 24px;
     border-radius: 8px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     text-decoration: none !important;
     box-shadow: 0 4px 20px rgba(2, 132, 199, 0.35);
     transition: all 0.3s ease;
@@ -4949,9 +4980,9 @@ svg.kdm-ppc-svg-icon {
     margin-bottom: 10px;
     border: none;
 }
-.kdm-btn-gold:hover {
+.kdm-btn-primary-glow:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(2, 132, 199, 0.5);
+    box-shadow: 0 6px 25px rgba(2, 132, 199, 0.55);
     background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
     color: #ffffff !important;
 }
@@ -4959,9 +4990,11 @@ svg.kdm-ppc-svg-icon {
     background: rgba(255, 255, 255, 0.06);
     color: #f8fafc !important;
     font-weight: 600;
-    padding: 13px 28px;
+    padding: 12px 24px;
     border-radius: 8px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     text-decoration: none !important;
     border: 1px solid rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
@@ -4975,26 +5008,31 @@ svg.kdm-ppc-svg-icon {
     color: #ffffff !important;
 }
 
-/* Founder Profile Card */
+/* Perfect Symmetrical Founder Card */
 .kdm-founder-card {
-    background: rgba(15, 23, 42, 0.75);
+    background: rgba(15, 23, 42, 0.85);
     border: 1px solid rgba(56, 189, 248, 0.25);
     border-radius: 20px;
     padding: 26px 20px;
     text-align: center;
-    backdrop-filter: blur(14px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(2, 132, 199, 0.12);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(2, 132, 199, 0.15);
     transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .kdm-founder-card:hover {
     border-color: rgba(56, 189, 248, 0.45);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6), 0 0 40px rgba(2, 132, 199, 0.22);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.65), 0 0 45px rgba(2, 132, 199, 0.25);
 }
 .kdm-founder-img-wrapper {
     position: relative;
-    width: 160px;
-    height: 160px;
-    margin: 0 auto 18px auto;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 14px auto;
     border-radius: 50%;
     padding: 4px;
     background: linear-gradient(135deg, #38bdf8 0%, #0284c7 50%, #f59e0b 100%);
@@ -5009,36 +5047,74 @@ svg.kdm-ppc-svg-icon {
     background: #0f172a;
     display: block;
 }
+.kdm-verified-badge {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    background: #0284c7;
+    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border: 2px solid #0f172a;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
 .kdm-founder-name {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 800;
-    margin: 0 0 6px 0;
+    margin: 0 0 4px 0;
     letter-spacing: -0.3px;
 }
 .kdm-founder-title {
     color: #38bdf8;
-    font-size: 13.5px;
+    font-size: 13px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-.kdm-founder-credential {
-    color: #94a3b8;
-    font-size: 13px;
-    line-height: 1.55;
+.kdm-founder-stats-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 10px 6px;
     margin-bottom: 16px;
+}
+.kdm-founder-stat-item {
+    text-align: center;
+}
+.kdm-founder-stat-item strong {
+    display: block;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+.kdm-founder-stat-item span {
+    color: #94a3b8;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
 }
 .kdm-founder-socials {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 14px;
+    margin-bottom: 16px;
+    width: 100%;
 }
 .kdm-founder-social-btn {
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -5046,7 +5122,7 @@ svg.kdm-ppc-svg-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none !important;
     transition: all 0.3s ease;
 }
@@ -5058,6 +5134,30 @@ svg.kdm-ppc-svg-icon {
 .kdm-founder-social-btn.twitter:hover { background: #1da1f2; border-color: #1da1f2; color: #ffffff !important; box-shadow: 0 4px 15px rgba(29, 161, 242, 0.4); }
 .kdm-founder-social-btn.instagram:hover { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); border-color: transparent; color: #ffffff !important; box-shadow: 0 4px 15px rgba(220, 39, 67, 0.4); }
 .kdm-founder-social-btn.youtube:hover { background: #ff0000; border-color: #ff0000; color: #ffffff !important; box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4); }
+
+.kdm-founder-profile-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 16px;
+    background: rgba(2, 132, 199, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: #38bdf8 !important;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+.kdm-founder-profile-link:hover {
+    background: #0284c7;
+    color: #ffffff !important;
+    border-color: #0284c7;
+    box-shadow: 0 4px 15px rgba(2, 132, 199, 0.4);
+}
+
 
 
 
