@@ -5138,27 +5138,80 @@ svg.kdm-ppc-svg-icon {
     width: 100%;
 }
 .kdm-founder-social-btn {
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    color: #f8fafc !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none !important;
     transition: all 0.3s ease;
 }
-.kdm-founder-social-btn:hover {
+.kdm-founder-social-btn i {
+    font-size: 18px;
+    display: inline-block;
+}
+.kdm-founder-social-btn.linkedin {
+    background: rgba(10, 102, 194, 0.2);
+    border: 1px solid rgba(10, 102, 194, 0.5);
+    color: #38bdf8 !important;
+}
+.kdm-founder-social-btn.linkedin:hover {
+    background: #0a66c2;
+    border-color: #0a66c2;
+    color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(10, 102, 194, 0.6);
     transform: translateY(-3px);
 }
-.kdm-founder-social-btn.linkedin:hover { background: #0a66c2; border-color: #0a66c2; color: #ffffff !important; box-shadow: 0 4px 15px rgba(10, 102, 194, 0.4); }
-.kdm-founder-social-btn.facebook:hover { background: #1877f2; border-color: #1877f2; color: #ffffff !important; box-shadow: 0 4px 15px rgba(24, 119, 242, 0.4); }
-.kdm-founder-social-btn.twitter:hover { background: #1da1f2; border-color: #1da1f2; color: #ffffff !important; box-shadow: 0 4px 15px rgba(29, 161, 242, 0.4); }
-.kdm-founder-social-btn.instagram:hover { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); border-color: transparent; color: #ffffff !important; box-shadow: 0 4px 15px rgba(220, 39, 67, 0.4); }
-.kdm-founder-social-btn.youtube:hover { background: #ff0000; border-color: #ff0000; color: #ffffff !important; box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4); }
+.kdm-founder-social-btn.facebook {
+    background: rgba(24, 119, 242, 0.2);
+    border: 1px solid rgba(24, 119, 242, 0.5);
+    color: #60a5fa !important;
+}
+.kdm-founder-social-btn.facebook:hover {
+    background: #1877f2;
+    border-color: #1877f2;
+    color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(24, 119, 242, 0.6);
+    transform: translateY(-3px);
+}
+.kdm-founder-social-btn.twitter {
+    background: rgba(56, 189, 248, 0.2);
+    border: 1px solid rgba(56, 189, 248, 0.5);
+    color: #38bdf8 !important;
+}
+.kdm-founder-social-btn.twitter:hover {
+    background: #1da1f2;
+    border-color: #1da1f2;
+    color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(29, 161, 242, 0.6);
+    transform: translateY(-3px);
+}
+.kdm-founder-social-btn.instagram {
+    background: rgba(225, 48, 108, 0.2);
+    border: 1px solid rgba(225, 48, 108, 0.5);
+    color: #f472b6 !important;
+}
+.kdm-founder-social-btn.instagram:hover {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border-color: transparent;
+    color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(220, 39, 67, 0.6);
+    transform: translateY(-3px);
+}
+.kdm-founder-social-btn.youtube {
+    background: rgba(255, 0, 0, 0.2);
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    color: #f87171 !important;
+}
+.kdm-founder-social-btn.youtube:hover {
+    background: #ff0000;
+    border-color: #ff0000;
+    color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.6);
+    transform: translateY(-3px);
+}
 
 .kdm-founder-profile-link {
     display: inline-flex;
