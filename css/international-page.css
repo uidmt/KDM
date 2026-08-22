@@ -1,0 +1,212 @@
+     /* 
+            location desgin css */
+                .locationdetails-hero-section {
+  display: flex;
+  background: linear-gradient(135deg, #0f172a 0%, #0f2744 40%, #005580 85%, #0088cc 100%) !important;
+  color: #fff;
+  padding: 60px 32px !important;
+}
+
+.ip-shape-divider {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.ip-shape-divider svg {
+  position: relative;
+  display: block;
+  width: calc(132% + 1.3px);
+  height: 120px;
+}
+.ip-shape-divider path {
+  transform-origin: center;
+}
+.whatsapp_float2 {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 9999 !important;
+}
+
+@media (max-width: 768px) {
+    .credentials-text {
+        padding: 0 !important;  /* mobile friendly */
+    }
+}
+
+
+/* industry */
+
+
+
+
+/* ====== Main Section ====== */
+.industry-slider-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.industry-heading {
+  font-size: 2.4em;
+  margin-bottom: 50px;
+  font-weight: 800;
+}
+
+/* ===== Slider Container ===== */
+.industry-slider {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.industry-track {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.8s ease-in-out;
+  will-change: transform;
+}
+
+/* ===== Card ===== */
+.industry-card {
+  flex: 0 0 calc(33.333% - 13.333px);
+  min-width: 0;
+  height: 320px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+/* Background Image Hover Effect */
+.industry-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  transition: 0.4s ease;
+}
+
+.industry-card:hover::before {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+/* ===== Overlay ===== */
+.industry-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), #000000c7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+/* ===== TEXT BOX ===== */
+.text-box {
+  position: relative;
+  color: #fff;
+  max-width: 420px;
+  z-index: 2;
+}
+
+.text-box h3 {
+  color: #ffd86b;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.text-box p {
+  color: #eee;
+  font-size: 1em;
+}
+
+/* ===== RUNNING GOLD BORDER ===== */
+.text-box::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 16px;
+  background:
+    linear-gradient(90deg, transparent 40%, #ffd86b, transparent 60%) top,
+    linear-gradient(180deg, transparent 40%, #ffd86b, transparent 60%) right,
+    linear-gradient(270deg, transparent 40%, #ffd86b, transparent 60%) bottom,
+    linear-gradient(360deg, transparent 40%, #ffd86b, transparent 60%) left;
+  background-size: 200% 2px, 2px 200%, 200% 2px, 2px 200%;
+  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Hover Trigger */
+.industry-card:hover .text-box::before {
+  opacity: 1;
+  animation: borderRun 2.5s linear infinite;
+}
+
+/* ===== Animation ===== */
+@keyframes borderRun {
+  0% {
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  }
+  100% {
+    background-position: 200% 0, 100% 200%, -200% 100%, 0 -200%;
+  }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .industry-card {
+    flex: 0 0 100%;
+  }
+}
+
+.package-btn {
+  background: linear-gradient(135deg, #111441, #337ab7);
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+
+
+
+#why-card {
+  width:80px;height:80px;
+  background:linear-gradient(135deg,#ff512f,#dd2476);
+  border-radius:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto 20px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+div#iocn-color{
+  width:80px;height:80px;
+  background:linear-gradient(135deg,#00c851,#33b5e5);
+  border-radius:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto 20px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.icon-box svg {
+  stroke: #fff;
+}

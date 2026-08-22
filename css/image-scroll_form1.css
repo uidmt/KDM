@@ -1,0 +1,433 @@
+.image-scroll-box{
+	width:100%;
+	min-height:400px;
+	border:5px solid white;
+	box-shadow:0px 1px 5px 1px rgb(0,136,204,0.5);
+	background-size:cover;
+	background-position:top;
+	transition:10s;
+}
+
+.image-scroll-box:hover{
+	background-position:bottom;
+}
+
+.padding-tob{padding-top:10px;
+				padding-bottom:10px;}
+
+.margin-tob{margin-top: 10px;
+				margin-bottom:10px;}
+
+@media only screen and (max-width:450px){
+	.image-scroll-box{
+		background-attachment:scroll;
+	}
+}
+
+/*Website Designing Portfolio*/
+.astrologycourses{background-image: url('images/portfolio/webdesign portfolio/astrologycourse.jpg');}
+
+.chavan{background-image: url('images/portfolio/webdesign portfolio/chavan.jpg');}
+
+.visakingsindia{background-image: url('images/portfolio/webdesign portfolio/visakingsindia.png');}
+
+.zotails{background-image: url('images/portfolio/webdesign portfolio/zotails.jpg');}
+
+.vlcc-hair{background-image: url('images/portfolio/webdesign portfolio/vlcc-hair.jpg');}
+
+.kljplatinumheight{background-image: url('images/portfolio/webdesign portfolio/kljplatinumheight.jpg');}
+
+.afodd{
+	background-image:url('images/portfolio/webdesign portfolio/afodd.jpeg');
+}
+
+.astrologysangam{
+	
+	background-image:url('images/portfolio/webdesign portfolio/astrologysangam.jpeg');
+}
+
+.auqual-hair-services{
+	
+	background-image:url('images/portfolio/webdesign portfolio/auqual-hair-services.jpeg');
+}
+
+.difa{
+	
+	background-image:url('images/portfolio/webdesign portfolio/difa.jpeg');
+}
+
+.dkcastrology{
+	
+	background-image:url('images/portfolio/webdesign portfolio/dkcastrology.jpeg');
+}
+
+
+
+.dr-pk-talwar{
+	
+	background-image:url('images/portfolio/webdesign portfolio/dr pk talwar.jpg');
+}
+
+.health-first-wellness-center{
+	
+	background-image:url('images/portfolio/webdesign portfolio/health-first-wellness-center.jpeg');
+}
+
+.kan-visa-direction{
+	
+	background-image:url('images/portfolio/webdesign portfolio/kan-visa-direction.jpeg');
+}
+
+.kodesware{
+	
+	background-image:url('images/portfolio/webdesign portfolio/kodesware.png');
+}
+
+.kundali-expert{
+	
+	background-image:url('images/portfolio/webdesign portfolio/kundali expert.jpg');
+}
+
+.marvelous-aesthetics{
+	
+	background-image:url('images/portfolio/webdesign portfolio/marvelous-aesthetics.jpeg');
+}
+
+.medispa-hair-transplant{
+	
+	background-image:url('images/portfolio/webdesign portfolio/Medispa Hair Transplant.jpg');
+}
+
+.meena-bazaar{
+	
+	background-image:url('images/portfolio/webdesign portfolio/meena bazaar.jpg');
+}
+
+.ruketu{
+	
+	background-image:url('images/portfolio/webdesign portfolio/ruketu.jpeg');
+}
+
+.tanuj-astroseer{
+	
+	background-image:url('images/portfolio/webdesign portfolio/Tanuj Astroseer.jpg');
+}
+
+.topfillings{
+	
+	background-image:url('images/portfolio/webdesign portfolio/Topfillings.png');
+}
+
+.wolk-coworking{
+	
+	background-image:url('images/portfolio/webdesign portfolio/wolk coworking.jpg');
+}
+
+.gm-corporate-solution{
+	
+	background-image:url('images/portfolio/webdesign portfolio/gm-corporate-solution.jpeg');
+}
+
+.vijeta-travels{
+	
+	background-image:url('images/portfolio/webdesign portfolio/vijeta-travels.jpeg');
+}
+
+.koncept-academy{
+	
+	background-image:url('images/portfolio/webdesign portfolio/koncept-academy.jpeg');
+}
+
+.dreamzone{
+	
+	background-image:url('images/portfolio/webdesign portfolio/dreamzone.jpeg');
+}
+
+.asedutech{
+	
+	background-image:url('images/portfolio/webdesign portfolio/asedutech.jpeg');
+}
+
+.happy-pet-solution{
+	
+	background-image:url('images/portfolio/webdesign portfolio/happy-pet-solution.jpeg');
+}
+
+.kundali-shop{
+	
+	background-image:url('images/portfolio/webdesign portfolio/kundali-shop.jpeg');
+}
+
+.the-global-hues{
+	
+	background-image:url('images/portfolio/webdesign portfolio/the-global-hues.jpeg');
+}
+
+.healthsolutiongym{
+	
+	background-image:url('images/portfolio/webdesign portfolio/healthsolutiongym.jpeg');
+}
+
+.swarvandana{
+	
+	background-image:url('images/portfolio/webdesign portfolio/swarvandana.jpeg');
+}
+
+.renderbrix {
+	
+	background-image:url('images/portfolio/webdesign portfolio/renderbrix.jpg');
+}
+
+.dietwithroshni {
+	
+	background-image:url('images/portfolio/webdesign portfolio/dietwithroshni.jpg');
+}
+
+
+.retouchingglobal {
+	
+	background-image:url('images/portfolio/webdesign portfolio/retouchingglobal.jpg');
+}
+
+.sanjaytondon {
+	
+	background-image:url('images/portfolio/webdesign portfolio/sanjaytondon.jpg');
+}
+
+.rnpskincarehairtransplant {
+	
+	background-image:url('images/portfolio/webdesign portfolio/rnpskincarehairtransplant.jpg');
+}
+
+.visakingsindia {
+	
+	background-image:url('images/portfolio/webdesign portfolio/visakingsindia.png');
+}
+
+
+.monickaaguptanumerologist {	
+	background-image:url('images/portfolio/webdesign portfolio/monickaaguptanumerologist.jpg');
+}
+
+.theacharyamuktiastrologer {
+	
+	background-image:url('images/portfolio/webdesign portfolio/theacharyamuktiastrologer.jpg');
+}
+
+.sareenhairclinic {
+	
+	background-image:url('images/portfolio/webdesign portfolio/sareenhairclinic.jpg');
+}
+
+
+.ramincrediblesolution {	
+	background-image:url('images/portfolio/webdesign portfolio/ramincrediblesolution.png');
+}
+
+.planeteducationnoida {
+	
+	background-image:url('images/portfolio/webdesign portfolio/planeteducationnoida.jpg');
+}
+
+.panditjimahakalpuja {
+	
+	background-image:url('images/portfolio/webdesign portfolio/panditjimahakalpuja.jpg');
+}
+
+
+.nurturers {
+	
+	background-image:url('images/portfolio/webdesign portfolio/nurturers.jpg');
+}
+
+.getstudyvisa {
+	
+	background-image:url('images/portfolio/webdesign portfolio/getstudyvisa.jpg');
+}
+
+.heal24clinicpune {
+	
+	background-image:url('images/portfolio/webdesign portfolio/heal24clinicpune.jpg');
+}
+
+
+.hair-transplant-in-varanasi {
+	
+	background-image:url('images/portfolio/webdesign portfolio/hair transplant in varanasi.jpg');
+}
+.medhair {
+	
+	background-image:url('images/portfolio/webdesign portfolio/medhair.jpg');
+}
+
+.marvelousaesthetics {
+	
+	background-image:url('images/portfolio/webdesign portfolio/marvelousaesthetics.jpg');
+}
+
+.marble-polishing {
+	
+	background-image:url('images/portfolio/webdesign portfolio/marble polishing.jpg');
+}
+
+.lojiqs-services {
+	
+	background-image:url('images/portfolio/webdesign portfolio/lojiqs services.jpg');
+}
+
+.epaterdesignstudio {
+	
+	background-image:url('images/portfolio/webdesign portfolio/epaterdesignstudio.jpg');
+}
+
+.Enhance-Clinic {
+	
+	background-image:url('images/portfolio/webdesign portfolio/Enhance Clinic.jpg');
+}
+
+.cliniqhairclinichyderabad {
+	
+	background-image:url('images/portfolio/webdesign portfolio/cliniqhairclinichyderabad.jpg');
+}
+
+
+.astrovijayujjain {
+	
+	background-image:url('images/portfolio/webdesign portfolio/astrovijayujjain.jpg');
+}
+
+.astrosatva {
+	
+	background-image:url('images/portfolio/webdesign portfolio/astrosatva.jpg');
+}
+
+.astrologerhassija {
+	
+	background-image:url('images/portfolio/webdesign portfolio/astrologerhassija.jpg');
+}
+
+.Astrobestlandingpage {
+	
+	background-image:url('images/portfolio/webdesign portfolio/Astrobestlandingpage.jpg');
+}
+
+
+.astrobest {
+	
+	background-image:url('images/portfolio/webdesign portfolio/astrobest.jpg');
+}
+
+.ankitadhingrapermanentmakeup {
+	
+	background-image:url('images/portfolio/webdesign portfolio/ankitadhingrapermanentmakeup.jpg');
+}
+
+.allaboutfinances {
+	
+	background-image:url('images/portfolio/webdesign portfolio/allaboutfinances.jpg');
+}
+
+
+.afflatusglobalvisa {
+	
+	background-image:url('images/portfolio/webdesign portfolio/afflatusglobalvisa.jpg');
+}
+
+.dnaksha {
+	
+	background-image:url('images/portfolio/webdesign portfolio/3dnaksha.jpg');
+}
+.Enhance-Clinic {
+	
+	background-image:url('images/portfolio/webdesign portfolio/Enhance Clinic.jpg');
+}
+
+.eianholidays {
+	
+	background-image:url('images/portfolio/webdesign portfolio/eianholidays.jpg');
+}
+
+.click2astrology {
+	
+	background-image:url('images/portfolio/webdesign portfolio/click2astrology.jpg');
+}
+
+.enrolbuddy {
+	
+	background-image:url('images/portfolio/webdesign portfolio/enrolbuddy.jpg');
+}
+
+.envisionoverseas {
+	
+	background-image:url('images/portfolio/webdesign portfolio/envisionoverseas.jpg');
+}
+
+.iresshh {
+	
+	background-image:url('images/portfolio/webdesign portfolio/iresshh.jpg');
+}
+
+.vijayjoshiastro {
+	
+	background-image:url('images/portfolio/webdesign portfolio/vijayjoshiastro.jpg');
+}
+
+.meoimmigration {
+	
+	background-image:url('images/portfolio/webdesign portfolio/meoimmigration.jpg');
+}
+
+.eventsolutionservice {
+	
+	background-image:url('images/portfolio/webdesign portfolio/eventsolutionservice.jpg');
+}
+
+.myastrologeryogesh {
+	
+	background-image:url('images/portfolio/webdesign portfolio/myastrologeryogesh.jpg');
+}
+
+.astrorightsolution {
+	
+	background-image:url('images/portfolio/webdesign portfolio/astrorightsolution.jpg');
+}
+
+.drhiranmayijhaplasticsurgeon {
+	
+	background-image:url('images/portfolio/webdesign portfolio/drhiranmayijhaplasticsurgeon.jpg');
+}
+
+.dncc {
+	
+	background-image:url('images/portfolio/webdesign portfolio/dncc.jpg');
+}
+
+.ihoroscopegpt {
+	
+	background-image:url('images/portfolio/webdesign portfolio/ihoroscopegpt.jpg');
+}
+
+.unipathinternational {
+	
+	background-image:url('images/portfolio/webdesign portfolio/unipathinternational.jpg');
+}
+
+.thealchamii {
+	
+	background-image:url('images/portfolio/webdesign portfolio/thealchamii.jpg');
+}
+
+.astromother {
+	
+	background-image:url('images/portfolio/webdesign portfolio/astromother.jpg');
+}
+
+.hairtransplantdrcompass {
+	
+	background-image:url('images/portfolio/webdesign portfolio/hairtransplantdrcompass.jpg');
+}
+
+.qhthyderabad {
+	
+	background-image:url('images/portfolio/webdesign portfolio/qhthyderabad.jpg');
+}

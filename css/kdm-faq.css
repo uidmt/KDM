@@ -1,0 +1,268 @@
+/* ==========================================================================
+   KDM Global FAQ Component - Modern, Compact & Reusable CSS
+   Applies to all root pages across King of Digital Marketing website
+   ========================================================================== */
+
+.kdm-faq-section {
+    padding: 35px 0 45px 0 !important;
+    background: #f8fafc !important;
+    border-radius: 16px !important;
+    margin: 35px 0 !important;
+}
+
+.kdm-faq-container {
+    max-width: 1140px !important;
+    margin: 0 auto !important;
+    padding: 0 15px !important;
+}
+
+.kdm-faq-layout-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 340px !important;
+    gap: 30px !important;
+    align-items: start !important;
+}
+
+.kdm-faq-title {
+    text-align: left !important;
+    font-size: 26px !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    margin-bottom: 8px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+.kdm-faq-title strong {
+    color: #0284c7 !important;
+}
+
+.kdm-faq-subtitle {
+    text-align: left !important;
+    font-size: 14.5px !important;
+    color: #64748b !important;
+    margin-bottom: 25px !important;
+}
+
+/* Accordion Container */
+.kdm-faq-accordion {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+}
+
+/* FAQ Accordion Item Card */
+.kdm-faq-item {
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    transition: all 0.25s ease !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03) !important;
+}
+
+.kdm-faq-item:hover {
+    border-color: #cbd5e1 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06) !important;
+}
+
+.kdm-faq-item.active {
+    border-color: #38bdf8 !important;
+    box-shadow: 0 4px 16px rgba(2, 132, 199, 0.12) !important;
+}
+
+/* FAQ Header Toggle Button */
+.kdm-faq-header {
+    width: 100% !important;
+    padding: 13px 18px !important;
+    background: #ffffff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    transition: background 0.2s ease !important;
+    border: none !important;
+    text-align: left !important;
+}
+
+.kdm-faq-item.active .kdm-faq-header {
+    background: #f0f9ff !important;
+}
+
+.kdm-faq-question {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    margin: 0 !important;
+    line-height: 1.35 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+}
+
+.kdm-faq-item.active .kdm-faq-question {
+    color: #0284c7 !important;
+}
+
+.kdm-faq-icon {
+    width: 22px !important;
+    height: 22px !important;
+    min-width: 22px !important;
+    border-radius: 50% !important;
+    background: #f1f5f9 !important;
+    color: #0284c7 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    transition: all 0.3s ease !important;
+    flex-shrink: 0 !important;
+}
+
+.kdm-faq-item.active .kdm-faq-icon {
+    background: #0284c7 !important;
+    color: #ffffff !important;
+    transform: rotate(45deg) !important;
+}
+
+/* FAQ Answer Content Body */
+.kdm-faq-body {
+    max-height: 0 !important;
+    overflow: hidden !important;
+    transition: all 0.3s cubic-bezier(0, 1, 0, 1) !important;
+    background: #ffffff !important;
+}
+
+.kdm-faq-item.active .kdm-faq-body {
+    max-height: 500px !important;
+    transition: all 0.3s cubic-bezier(1, 0, 1, 0) !important;
+    border-top: 1px solid #f1f5f9 !important;
+}
+
+.kdm-faq-answer {
+    padding: 14px 18px !important;
+    font-size: 14px !important;
+    color: #475569 !important;
+    margin: 0 !important;
+    line-height: 1.55 !important;
+}
+
+.kdm-ans-badge {
+    background: #e0f2fe !important;
+    color: #0369a1 !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    padding: 2px 7px !important;
+    border-radius: 4px !important;
+    margin-right: 6px !important;
+    display: inline-block !important;
+}
+
+/* FAQ Side Offer Card */
+.kdm-faq-offer-card {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%) !important;
+    border-radius: 20px !important;
+    padding: 30px 24px !important;
+    color: #ffffff !important;
+    box-shadow: 0 12px 35px rgba(15, 23, 42, 0.25) !important;
+    text-align: center !important;
+    position: relative !important;
+    overflow: hidden !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.kdm-faq-offer-card .offer-badge-img {
+    width: 85px !important;
+    height: auto !important;
+    margin: 0 auto 16px auto !important;
+    display: block !important;
+    filter: drop-shadow(0 6px 15px rgba(0, 0, 0, 0.3)) !important;
+}
+
+.kdm-faq-offer-card h4 {
+    color: #ffffff !important;
+    font-size: 21px !important;
+    font-weight: 800 !important;
+    margin: 0 0 10px 0 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+.kdm-faq-offer-card .box-styling {
+    background: #ff6600 !important;
+    color: #ffffff !important;
+    font-size: 18px !important;
+    font-weight: 800 !important;
+    padding: 8px 20px !important;
+    border-radius: 30px !important;
+    display: inline-block !important;
+    margin: 0 0 14px 0 !important;
+    box-shadow: 0 6px 18px rgba(255, 102, 0, 0.4) !important;
+    text-transform: uppercase !important;
+}
+
+.kdm-faq-offer-card .box-offer {
+    color: #cbd5e1 !important;
+    font-size: 14.5px !important;
+    font-weight: 600 !important;
+    margin: 0 0 6px 0 !important;
+    line-height: 1.4 !important;
+}
+
+.kdm-faq-offer-btn {
+    background: #ffffff !important;
+    color: #0284c7 !important;
+    font-size: 14.5px !important;
+    font-weight: 800 !important;
+    padding: 11px 24px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    cursor: pointer !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
+    transition: all 0.3s ease !important;
+    margin-top: 16px !important;
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+.kdm-faq-offer-btn:hover {
+    background: #f8fafc !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 991px) {
+    .kdm-faq-layout-grid {
+        grid-template-columns: 1fr !important;
+        gap: 25px !important;
+    }
+}
+@media (max-width: 767px) {
+    .kdm-faq-section {
+        padding: 25px 0 30px 0 !important;
+        margin: 25px 0 !important;
+        border-radius: 12px !important;
+    }
+    .kdm-faq-title {
+        font-size: 21px !important;
+    }
+    .kdm-faq-subtitle {
+        font-size: 13px !important;
+        margin-bottom: 18px !important;
+    }
+    .kdm-faq-header {
+        padding: 11px 14px !important;
+    }
+    .kdm-faq-question {
+        font-size: 13.5px !important;
+    }
+    .kdm-faq-answer {
+        font-size: 13px !important;
+    }
+    .kdm-faq-item.active .kdm-faq-body {
+        padding: 10px 14px 14px 14px !important;
+    }
+}

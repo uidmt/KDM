@@ -1,0 +1,4 @@
+# robots.txt for https://www.kingofdigitalmarketing.com/
+User-agent: *
+Allow: /
+Sitemap: https://www.kingofdigitalmarketing.com/sitemap.xml

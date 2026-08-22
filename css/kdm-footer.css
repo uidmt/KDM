@@ -1,0 +1,592 @@
+/* ==========================================================================
+   KDM Premium & Ultra-Attractive Footer System (Desktop & Mobile Clean Links)
+   File: css/kdm-footer.css
+   ========================================================================== */
+
+#footer,
+footer#footer,
+footer.kdm-vibrant-footer {
+  background: radial-gradient(circle at 50% 0%, #1e293b 0%, #0f172a 50%, #060913 100%) !important;
+  border: none !important;
+  border-top: 4px solid transparent !important;
+  border-image: linear-gradient(90deg, #0088cc 0%, #ff6600 50%, #10b981 100%) 1 0 0 0 !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  color: #cbd5e1 !important;
+  padding: 55px 0 0 0 !important;
+  margin-bottom: 0 !important;
+  position: relative !important;
+  clear: both !important;
+  display: block !important;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  box-shadow: 0 -12px 35px rgba(0, 0, 0, 0.4) !important;
+}
+
+#footer .footer-ribbon {
+  background: linear-gradient(135deg, #0088cc 0%, #0284c7 100%) !important;
+  position: absolute !important;
+  margin: -70px 0 0 14px !important;
+  padding: 9px 24px 7px 24px !important;
+  border-radius: 0 0 8px 8px !important;
+  z-index: 10 !important;
+  box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4) !important;
+}
+
+#footer .footer-ribbon:before {
+  border-right: 10px solid #005580 !important;
+  border-top: 16px solid transparent !important;
+  content: "" !important;
+  display: block !important;
+  height: 0 !important;
+  left: -10px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 7px !important;
+}
+
+#footer .footer-ribbon span {
+  color: #ffffff !important;
+  font-size: 1.65em !important;
+  font-family: "Shadows Into Light", cursive, sans-serif !important;
+  line-height: 1 !important;
+  display: inline-block !important;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) !important;
+}
+
+#footer .kdm-footer-col {
+  margin-bottom: 30px !important;
+}
+
+#footer .kdm-footer-heading {
+  color: #ffffff !important;
+  font-size: 15.5px !important;
+  font-weight: 800 !important;
+  font-family: inherit !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.8px !important;
+  position: relative !important;
+  padding-bottom: 8px !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+#footer .kdm-footer-heading::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 38px !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, #38bdf8, #ff8800) !important;
+  border-radius: 2px !important;
+}
+
+#footer .kdm-footer-links {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#footer .kdm-footer-links li {
+  margin-bottom: 7px !important;
+  font-size: 12.5px !important;
+  line-height: 1.5 !important;
+}
+
+#footer .kdm-footer-links a {
+  color: #cbd5e1 !important;
+  text-decoration: none !important;
+  font-size: 12.5px !important;
+  transition: all 0.22s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+#footer .kdm-footer-links a:hover {
+  color: #38bdf8 !important;
+  transform: translateX(4px) !important;
+}
+
+#footer .kdm-highlight-link {
+  color: #38bdf8 !important;
+  font-weight: 800 !important;
+}
+
+#footer .kdm-quick-links-section {
+  margin-top: 20px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+#footer .kdm-sub-heading {
+  display: block !important;
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 10px !important;
+}
+
+#footer .kdm-blue-label {
+  color: #38bdf8 !important;
+}
+
+#footer .kdm-contact-info-card {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 14px !important;
+  padding: 18px !important;
+  margin-bottom: 18px !important;
+  backdrop-filter: blur(12px) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+#footer .kdm-contact-info-card .contact-item {
+  margin-bottom: 12px !important;
+  font-size: 12.5px !important;
+  line-height: 1.5 !important;
+  color: #e2e8f0 !important;
+}
+
+#footer .kdm-contact-info-card .contact-item:last-child {
+  margin-bottom: 0 !important;
+}
+
+#footer .kdm-contact-info-card a {
+  color: #38bdf8 !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  transition: color 0.2s ease !important;
+}
+
+#footer .kdm-contact-info-card a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+/* SVG Vector Social Media Buttons */
+#footer .kdm-footer-social .social-btn-group {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  margin-top: 14px !important;
+  margin-bottom: 16px !important;
+}
+
+#footer .kdm-footer-social .social-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+#footer .kdm-footer-social .social-btn svg {
+  width: 18px !important;
+  height: 18px !important;
+  fill: #ffffff !important;
+  transition: fill 0.25s ease !important;
+}
+
+#footer .kdm-footer-social .social-btn:hover {
+  transform: translateY(-4px) scale(1.12) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45) !important;
+}
+
+#footer .kdm-footer-social .social-btn.fb:hover { background: #1877f2 !important; border-color: #1877f2 !important; }
+#footer .kdm-footer-social .social-btn.tw:hover { background: #000000 !important; border-color: #333333 !important; }
+#footer .kdm-footer-social .social-btn.li:hover { background: #0a66c2 !important; border-color: #0a66c2 !important; }
+#footer .kdm-footer-social .social-btn.ig:hover { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888) !important; border-color: #dc2743 !important; }
+#footer .kdm-footer-social .social-btn.yt:hover { background: #ff0000 !important; border-color: #ff0000 !important; }
+
+/* High-Converting SVG Make Online Payment Button */
+#footer .kdm-payment-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  width: 100% !important;
+  background: linear-gradient(135deg, #0284c7 0%, #1d4ed8 100%) !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  font-size: 13px !important;
+  padding: 11px 16px !important;
+  border-radius: 8px !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+  box-shadow: 0 4px 16px rgba(2, 132, 199, 0.35) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  transition: all 0.25s ease !important;
+}
+
+#footer .kdm-payment-link svg {
+  width: 18px !important;
+  height: 18px !important;
+  stroke: #ffffff !important;
+  transition: transform 0.25s ease !important;
+}
+
+#footer .kdm-payment-link:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 22px rgba(37, 99, 235, 0.5) !important;
+}
+
+#footer .kdm-payment-link:hover svg {
+  transform: scale(1.15) !important;
+}
+
+/* Ultra-Sleek Single-Line Copyright Bar */
+#footer .footer-copyright {
+  background: #040711 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  padding: 14px 0 !important;
+  margin-top: 25px !important;
+  margin-bottom: 0 !important;
+}
+
+#footer .footer-copyright p {
+  color: #94a3b8 !important;
+  font-size: 12px !important;
+  margin: 0 !important;
+  line-height: 1.4 !important;
+  white-space: nowrap !important;
+}
+
+#footer .footer-copyright p a {
+  color: #38bdf8 !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  transition: color 0.2s ease !important;
+}
+
+#footer .footer-copyright p a:hover {
+  color: #7dd3fc !important;
+  text-decoration: underline !important;
+}
+
+#footer #sub-menu {
+  display: block !important;
+}
+
+#footer #sub-menu ul {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+#footer #sub-menu ul li {
+  display: inline-flex !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#footer #sub-menu ul li:not(:last-child)::after {
+  content: "|" !important;
+  color: #475569 !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  font-size: 11px !important;
+  opacity: 0.5 !important;
+}
+
+#footer #sub-menu ul li a {
+  color: #cbd5e1 !important;
+  text-decoration: none !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  white-space: nowrap !important;
+  transition: all 0.2s ease !important;
+}
+
+#footer #sub-menu ul li a:hover {
+  color: #38bdf8 !important;
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.4) !important;
+}
+
+/* Animated Pulse Ring Effect for Desktop Floating Buttons (WhatsApp & Call) */
+@keyframes kdmPulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
+  70% { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+@keyframes kdmPulseBlue {
+  0% { box-shadow: 0 0 0 0 rgba(0, 136, 204, 0.6); }
+  70% { box-shadow: 0 0 0 12px rgba(0, 136, 204, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 136, 204, 0); }
+}
+
+.whatsapp_float {
+  position: fixed !important;
+  bottom: 42px !important;
+  right: 25px !important;
+  z-index: 99999 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  animation: kdmPulse 2.5s infinite !important;
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+.whatsapp_float2 {
+  position: fixed !important;
+  bottom: 42px !important;
+  right: 76px !important;
+  z-index: 99999 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  animation: kdmPulseBlue 2.5s infinite 0.4s !important;
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+.whatsapp_float3 {
+  display: none !important;
+}
+
+.whatsapp_float a,
+.whatsapp_float2 a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  text-decoration: none !important;
+}
+
+.whatsapp_float img,
+.whatsapp_float2 svg {
+  display: block !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.3)) !important;
+  transition: filter 0.25s ease, transform 0.25s ease !important;
+}
+
+.whatsapp_float:hover img,
+.whatsapp_float2:hover svg {
+  filter: drop-shadow(0px 8px 18px rgba(0, 0, 0, 0.45)) !important;
+  transform: scale(1.1) !important;
+}
+
+.whatsapp_float:hover,
+.whatsapp_float2:hover {
+  transform: scale(1.1) translateY(-3px) !important;
+}
+
+/* Mobile Sticky Bottom Action Bar (Exact Design from Screenshot: 3 Pill Buttons) */
+.kdm-mobile-sticky-bar {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 60px !important;
+  }
+
+  .kdm-mobile-sticky-bar {
+    display: flex !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    height: 58px !important;
+    background: #091322 !important;
+    z-index: 999999 !important;
+    box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.5) !important;
+    padding: 6px 8px !important;
+    gap: 8px !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .kdm-mobile-sticky-bar .sticky-btn {
+    flex: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    color: #ffffff !important;
+    font-size: 13.5px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    height: 46px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) !important;
+    transition: transform 0.15s ease, filter 0.15s ease !important;
+    white-space: nowrap !important;
+  }
+
+  .kdm-mobile-sticky-bar .sticky-call {
+    background: #0088cc !important;
+  }
+
+  .kdm-mobile-sticky-bar .sticky-whatsapp {
+    background: #25d366 !important;
+  }
+
+  .kdm-mobile-sticky-bar .sticky-book {
+    background: #ff6600 !important;
+  }
+
+  .kdm-mobile-sticky-bar .sticky-btn:active {
+    transform: scale(0.97) !important;
+    filter: brightness(0.9) !important;
+  }
+
+  .kdm-mobile-sticky-bar .sticky-btn svg,
+  .kdm-mobile-sticky-bar .sticky-btn img {
+    width: 16px !important;
+    height: 16px !important;
+    display: block !important;
+    flex-shrink: 0 !important;
+  }
+
+  .whatsapp_float,
+  .whatsapp_float2,
+  .whatsapp_float3 {
+    display: none !important;
+  }
+
+  #footer,
+  footer#footer,
+  footer.kdm-vibrant-footer {
+    padding-top: 40px !important;
+    padding-bottom: 0 !important;
+    text-align: left !important;
+  }
+
+  #footer .footer-ribbon {
+    position: relative !important;
+    margin: -50px auto 25px auto !important;
+    display: table !important;
+    left: auto !important;
+    transform: none !important;
+    border-radius: 6px !important;
+    text-align: center !important;
+  }
+
+  #footer .footer-ribbon:before {
+    display: none !important;
+  }
+
+  #footer .kdm-footer-col {
+    margin-bottom: 25px !important;
+    padding: 0 15px !important;
+  }
+
+  #footer .kdm-footer-heading {
+    font-size: 15px !important;
+    margin-bottom: 14px !important;
+  }
+
+  #footer .kdm-footer-heading::after {
+    left: 0 !important;
+    transform: none !important;
+    width: 32px !important;
+  }
+
+  /* 2-Column Clean Text Grid on Mobile (No Buttons or Boxes!) */
+  #footer .kdm-footer-links {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px 14px !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #footer .kdm-footer-links li {
+    font-size: 11.5px !important;
+    line-height: 1.45 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+  }
+
+  #footer .kdm-footer-links a {
+    display: block !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    color: #cbd5e1 !important;
+    text-align: left !important;
+    font-size: 11.5px !important;
+    font-weight: 500 !important;
+    transition: color 0.2s ease !important;
+    word-break: break-word !important;
+  }
+
+  #footer .kdm-footer-links a:hover,
+  #footer .kdm-footer-links a:active {
+    color: #38bdf8 !important;
+    background: transparent !important;
+  }
+
+  #footer .kdm-contact-info-card {
+    text-align: left !important;
+    padding: 16px !important;
+    margin-bottom: 16px !important;
+  }
+
+  #footer .kdm-footer-social .social-btn-group {
+    justify-content: flex-start !important;
+    margin-top: 10px !important;
+    margin-bottom: 14px !important;
+  }
+
+  #footer .footer-copyright {
+    padding: 14px 10px !important;
+    margin-top: 20px !important;
+  }
+
+  #footer .footer-copyright p {
+    white-space: normal !important;
+    text-align: center !important;
+    font-size: 11.5px !important;
+  }
+
+  #footer #sub-menu ul {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  #footer #sub-menu ul li a {
+    font-size: 11.5px !important;
+    white-space: nowrap !important;
+  }
+
+  #footer #sub-menu ul li:not(:last-child)::after {
+    margin-left: 6px !important;
+    margin-right: 6px !important;
+  }
+}

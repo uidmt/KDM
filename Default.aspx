@@ -1,0 +1,2080 @@
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs"
+    Inherits="_Default" %>
+    <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <title>King of Digital Marketing | Digital Marketing Company Delhi</title>
+        <meta name="keywords"
+            content="Digital Marketing Company, Digital Marketing Services, Digital Marketing Agency, Digital Marketing Firm, Digital Marketing in Delhi, Digital Marketing Services in India, Digital Marketing Agency in Delhi, Digital Marketing Services in Delhi, Digital Marketing Company in India, Best Digital Marketing Agency in Delhi">
+
+        <meta name="description"
+            content="India's Best Digital Marketing Services Company in Delhi. 850+ Domestic &amp; International Clients Since 2013. Top Digital Marketing Agency in India.">
+
+        <meta property="og:title" content="King of Digital Marketing | Digital Marketing Company in Delhi, India" />
+        <meta property="og:description"
+            content="Result Driven Digital Marketing Services Company in Delhi. Empowered 850+ Domestic, International Clients By Expert Marketers in 12+ Years of Experience." />
+
+        <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.png">
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.kingofdigitalmarketing.com/" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="Robots" content="index,follow">
+        <meta name="googlebot" content="Default, follow " />
+        <meta name="Author" content="Digital Marketing Company in Delhi, https://www.kingofdigitalmarketing.com">
+        <link rel="canonical" href="https://www.kingofdigitalmarketing.com" />
+        <link rel="shortcut icon" type="image/x-icon" href="fevicon.png">
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+        <link rel="dns-prefetch" href="https://www.youtube.com">
+        <link rel="dns-prefetch" href="https://www.google-analytics.com">
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+        <!-- Web Fonts  -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light"
+            rel="stylesheet" type="text/css">
+        <!-- Page-Specific Head Libs & Scripts -->
+
+        <!-- megamenu css -->
+        <script src="vendor/modernizr/modernizr.js"></script>
+        <!--Schema Markup For Professional Service-->
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "King of Digital Marketing",
+  "url": "https://www.kingofdigitalmarketing.com/",
+  "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
+  "telephone": "+919555696058",
+  "priceRange": "$$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1800/09, Govindpuri Extension, 1st Floor, Kalkaji",
+    "addressLocality": "New Delhi",
+    "addressRegion": "Delhi",
+    "postalCode": "110019",
+    "addressCountry": "IN"
+  },
+  "openingHours": "Mo-Fr 09:00-19:00, Sa 09:00-19:00",
+  "sameAs": [
+    "https://www.facebook.com/kingofdigitalmarket",
+    "https://twitter.com/kingofdgtlmrkt",
+    "https://www.linkedin.com/company/king-of-digital-marketing",
+    "https://www.instagram.com/kingofdigitalmarketing/",
+    "https://www.youtube.com/channel/UCD9lzE6O-6pOB7S_3MQkHYQ",
+    "https://in.pinterest.com/kingofdgtlmktng/"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "119"
+  }
+}
+</script>
+        <!--Schema Markup For Professional Services Ended-->
+        <!-- Google Ads Tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17892113137"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'AW-17892113137');
+        </script>
+        <!-- Google Analytics Tag -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VRK6TTWH4K"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-VRK6TTWH4K');
+        </script>
+
+        <!-- Bootstrap icon code -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
+            integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Meta Pixel Code -->
+        <script>
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) return; n = f.fbq = function () {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+                n.queue = []; t = b.createElement(e); t.async = !0;
+                t.src = v; s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '407876911984372');
+            fbq('track', 'PageView');
+        </script>
+        <noscript>
+            <img height="1" width="1" src="https://www.facebook.com/tr?id=407876911984372&ev=PageView
+	&noscript=1" />
+        </noscript>
+        <!-- End Meta Pixel Code -->
+    </asp:Content>
+    <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+        <!--Slider Starts-->
+        <div role="main" class="main">
+            <section class="hero-section-unique">
+
+                <!-- Animated Flag GIF -->
+                <div class="hero-flag-unique">
+                    <img src="images/indian-tiranga.gif" alt="Waving Flag">
+                </div>
+                <!-- Text -->
+                <div class="hero-text-unique">
+                    <h2 id="hero-line1-unique">
+                        Results Driven
+                    </h2>
+                    <h2 id="hero-line2-unique">
+                        Digital Marketing Services
+                    </h2>
+                    <h3 id="hero-line3-unique">
+                        TRUSTED BY 850+ BRANDS WORLDWIDE TO DRIVE TRAFFIC, LEADS & GROWTH
+                    </h3>
+                </div>
+
+                <!-- Button -->
+                <a id="hero-contactBtn-unique" href="javascript:void(0);" onclick="openGlobalPopupForm()">
+                    REQUEST A CALL
+                </a>
+
+                <!-- Popup Modal -->
+                <div id="hero-popupModal-unique"
+                    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(15,23,42,0.85); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); z-index:999999; align-items:center; justify-content:center; padding:15px;">
+                    <div
+                        style="position:relative; width:100%; max-width:600px; background:linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #0284c7 100%); border-radius:22px; box-shadow:0 25px 60px rgba(0,0,0,0.5); border:1px solid rgba(255,255,255,0.25); overflow:hidden;">
+                        <button onclick="closeGlobalPopupForm()" type="button"
+                            style="position:absolute; top:12px; right:14px; width:34px; height:34px; background:rgba(255,255,255,0.2); border:1px solid rgba(255,255,255,0.3); border-radius:50%; color:#ffffff; font-size:20px; font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:10; transition:all 0.2s ease;"
+                            onmouseover="this.style.background='rgba(255,255,255,0.4)'"
+                            onmouseout="this.style.background='rgba(255,255,255,0.2)'">&times;</button>
+                        <div style="padding:20px 20px 8px 20px; text-align:center; color:#ffffff;">
+                            <span
+                                style="background:rgba(56,189,248,0.2); border:1px solid rgba(56,189,248,0.5); color:#38bdf8; font-size:11px; font-weight:800; padding:4px 14px; border-radius:20px; text-transform:uppercase; letter-spacing:1px; display:inline-block;">FAST
+                                15-MIN RESPONSE</span>
+                            <h3
+                                style="color:#ffffff; font-size:22px; font-weight:800; margin-top:8px; margin-bottom:4px;">
+                                Book Free
+                                Strategic Growth Call</h3>
+                            <p style="color:#cbd5e1; font-size:13px; margin:0;">Fill out the form below to get
+                                customized marketing
+                                &amp;
+                                lead strategy recommendations.</p>
+                        </div>
+                        <div style="padding:10px 16px 16px 16px; background:#ffffff;">
+                            <iframe scrolling="no" src="contact.aspx"
+                                style="width:100%; height:500px; border:none; border-radius:12px;"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <script>
+
+                    // Open Popup
+                    document.getElementById("hero-contactBtn-unique").addEventListener("click", function (e) {
+                        e.preventDefault();
+                        openGlobalPopupForm();
+                    });
+
+                    // Close Popup
+                    function heroClosePopup() {
+                        closeGlobalPopupForm();
+                    }
+
+
+                </script>
+                <script>
+
+                    const heroLines = [
+                        { l1: "Results Driven", l2: "Digital Marketing Services", l3: "TRUSTED BY 850+ BRANDS WORLDWIDE TO DRIVE TRAFFIC, LEADS & GROWTH" },
+                        { l1: "PERFORMANCE FOCUSED", l2: "LEAD GENERATION SERVICES", l3: "Helped 400+ Clients Achieve Over 10Lakh+ Qualified Leads Since 2013" },
+                        { l1: "SMART SALES STRATEGIES FOR", l2: "ECOMMERCE MARKETING", l3: "Maximizing Conversions & ROI with Meta, Google, Flipkart, Amazon Ads" },
+                        { l1: "LATEST ALGORITHM DRIVEN", l2: "SEO SERVICES", l3: "500+ SEO Projects Delivered, 60% Achieving Top 10 Rankings" },
+                        { l1: "INNOVATIVE STRATEGIES FOR", l2: "SOCIAL MEDIA SERVICES", l3: "Helping Brands Boost Engagement, Grow Followers, and Maximize ROI" }
+
+                    ];
+
+                    let heroIndex = 0;
+                    const hL1 = document.getElementById("hero-line1-unique");
+                    const hL2 = document.getElementById("hero-line2-unique");
+                    const hL3 = document.getElementById("hero-line3-unique");
+
+                    function heroUpdateText() {
+                        hL1.style.animation = "heroFadeOut .5s ease forwards";
+                        hL2.style.animation = "heroFadeOut .5s ease forwards";
+                        hL3.style.animation = "heroFadeOut .5s ease forwards";
+
+                        setTimeout(() => {
+                            heroIndex = (heroIndex + 1) % heroLines.length;
+                            hL1.textContent = heroLines[heroIndex].l1;
+                            hL2.textContent = heroLines[heroIndex].l2;
+                            hL3.textContent = heroLines[heroIndex].l3;
+
+                            hL1.style.animation = "heroFadeIn .8s ease forwards";
+                            hL2.style.animation = "heroFadeIn .8s .3s ease forwards";
+                            hL3.style.animation = "heroFadeIn .8s .6s ease forwards";
+                        }, 500);
+                    }
+
+                    setInterval(heroUpdateText, 4000);
+                </script>
+            </section>
+
+
+        </div>
+        <!--Strip Below Slider-->
+        <div id="strip"></div>
+        <div class="home-intro">
+            <div class="container ">
+                <div class="row custom-row">
+                    <div class="col-md-8">
+                        <p>Your Business and Goals, Our Solution and Results <em>We Strictly Focus on ROI</em>
+                            <span>Let's Take
+                                Your Business Global With Performance Driven Digital Marketing Services.</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Strip Below Slider Ends-->
+        <!--Expertise Carousel Starts-->
+        <!-- Services Carousel Section -->
+        <section class="top">
+            <div class="container ">
+                <div class="row push-top" id="projects">
+                    <h1 align="center">BEST DIGITAL MARKETING COMPANY IN DELHI, INDIA</h1>
+                    <div class="col-md-12">
+                        <div class="col-md-12">
+                            <h2 align="center"><strong>Our Expertise</strong></h2>
+                        </div>
+                    </div>
+
+                    <div class="services-images-section">
+                        <div class="services-images-container">
+                            <div class="container ">
+                                <div class="row">
+                                    <div class="services-images-track">
+
+                                        <!-- Service 1 -->
+                                        <div class="service-images-item">
+                                            <div class="service-images-box text-center">
+                                                <div class="service-icon">
+                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                        stroke="#4ecdc4" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                        <circle cx="12" cy="12" r="10" />
+                                                        <circle cx="12" cy="12" r="6" />
+                                                        <circle cx="12" cy="12" r="2" />
+                                                    </svg>
+                                                </div>
+                                                <h3 class="service-name">Lead Generation</h3>
+                                                <div class="projects-done" style="color:#4ecdc4;">620+</div>
+                                                <div class="projects-label">Projects Done</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Service 2 -->
+                                        <div class="service-images-item">
+                                            <div class="service-images-box text-center">
+                                                <div class="service-icon">
+                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                        stroke="#4ecdc4" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                        <circle cx="11" cy="11" r="8" />
+                                                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                                        <polyline points="7 14 10 11 13 13 16 9" />
+                                                    </svg>
+                                                </div>
+                                                <h3 class="service-name">SEO Services</h3>
+                                                <div class="projects-done" style="color:#4ecdc4;">550+</div>
+                                                <div class="projects-label">Projects Done</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Service 3 -->
+                                        <div class="service-images-item">
+                                            <div class="service-images-box text-center">
+                                                <div class="service-icon">
+                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="#a78bfa">
+                                                        <path
+                                                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                                    </svg>
+                                                </div>
+                                                <h3 class="service-name">Meta Ads Services</h3>
+                                                <div class="projects-done" style="color:#a78bfa;">370+</div>
+                                                <div class="projects-label">Projects Done</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Service 4 -->
+                                        <div class="service-images-item">
+                                            <div class="service-images-box text-center">
+                                                <div class="service-icon">
+                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="#06d6a0">
+                                                        <path
+                                                            d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                                                    </svg>
+                                                </div>
+                                                <h3 class="service-name">LinkedIn Ads</h3>
+                                                <div class="projects-done" style="color:#06d6a0;">25+</div>
+                                                <div class="projects-label">Projects Done</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Service 5 -->
+                                        <div class="service-images-item">
+                                            <div class="service-images-box text-center">
+                                                <div class="service-icon">
+                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                        stroke="#ffd166" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                        <circle cx="11" cy="11" r="8" />
+                                                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                                        <line x1="11" y1="8" x2="11" y2="14" />
+                                                        <line x1="8" y1="11" x2="14" y2="11" />
+                                                    </svg>
+                                                </div>
+                                                <h3 class="service-name">Google Ads Services</h3>
+                                                <div class="projects-done" style="color:#ffd166;">220+</div>
+                                                <div class="projects-label">Projects Done</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Service 6 -->
+                                        <div class="service-images-item">
+                                            <div class="service-images-box text-center">
+                                                <div class="service-icon">
+                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                        stroke="#ff9f1c" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                                        <circle cx="9" cy="7" r="4" />
+                                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                                    </svg>
+                                                </div>
+                                                <h3 class="service-name">Social Media Management</h3>
+                                                <div class="projects-done" style="color:#ff9f1c;">700+</div>
+                                                <div class="projects-label">Projects Done</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Service 7 -->
+                                        <div class="service-images-item">
+                                            <div class="service-images-box text-center">
+                                                <div class="service-icon">
+                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                        stroke="#118ab2" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                        <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                                                        <line x1="12" y1="18" x2="12.01" y2="18" />
+                                                    </svg>
+                                                </div>
+                                                <h3 class="service-name">Mobile App Promotion</h3>
+                                                <div class="projects-done" style="color:#118ab2;">75+</div>
+                                                <div class="projects-label">Projects Done</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Service 8 -->
+                                        <div class="service-images-item">
+                                            <div class="service-images-box text-center">
+                                                <div class="service-icon">
+                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                        stroke="#ef476f" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                        <circle cx="9" cy="21" r="1" />
+                                                        <circle cx="20" cy="21" r="1" />
+                                                        <path
+                                                            d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                                                    </svg>
+                                                </div>
+                                                <h3 class="service-name">Amazon/Flipkart Marketing</h3>
+                                                <div class="projects-done" style="color:#ef476f;">45+</div>
+                                                <div class="projects-label">Projects Done</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Navigation -->
+                            <div class="services-images-nav">
+                                <button class="services-images-btn services-images-prev">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                                    </svg>
+                                </button>
+
+                                <button class="services-images-btn services-images-next">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        // Services Carousel JavaScript
+                        document.addEventListener('DOMContentLoaded', function () {
+                            const container = document.querySelector('.services-images-container');
+                            const track = document.querySelector('.services-images-track');
+                            const prevBtn = document.querySelector('.services-images-prev');
+                            const nextBtn = document.querySelector('.services-images-next');
+                            const items = document.querySelectorAll('.service-images-item');
+
+                            let currentIndex = 0;
+                            const totalItems = items.length;
+                            let visibleItems = 5; // Desktop
+                            let itemWidth = 0;
+                            let gap = 20;
+
+                            // Initialize images
+                            function initCarousel() {
+                                updateVisibleItems();
+                                calculateItemWidth();
+                                updateCarouselPosition();
+                                setupEventListeners();
+                            }
+
+                            // Update number of visible items based on screen size
+                            function updateVisibleItems() {
+                                if (window.innerWidth <= 768) {
+                                    visibleItems = 1; // Mobile
+                                } else if (window.innerWidth <= 1024) {
+                                    visibleItems = 2; // Tablet
+                                } else {
+                                    visibleItems = 5; // Desktop
+                                }
+                            }
+
+                            // Calculate item width based on visible items and container width
+                            function calculateItemWidth() {
+                                const containerWidth = container.offsetWidth;
+                                itemWidth = (containerWidth - (gap * (visibleItems - 1))) / visibleItems;
+
+                                // Apply width to all items
+                                items.forEach(item => {
+                                    item.style.flex = `0 0 ${itemWidth}px`;
+                                });
+                            }
+
+                            // Update images position
+                            function updateCarouselPosition() {
+                                const translateX = -currentIndex * (itemWidth + gap);
+                                track.style.transform = `translateX(${translateX}px)`;
+
+                                // Update button states
+                                updateButtonStates();
+                            }
+
+                            // Update button states (enabled/disabled)
+                            function updateButtonStates() {
+                                const maxIndex = Math.max(0, totalItems - visibleItems);
+
+                                prevBtn.disabled = currentIndex === 0;
+                                nextBtn.disabled = currentIndex >= maxIndex;
+
+                                // Add disabled styles
+                                if (prevBtn.disabled) {
+                                    prevBtn.style.opacity = '0.5';
+                                    prevBtn.style.cursor = 'not-allowed';
+                                } else {
+                                    prevBtn.style.opacity = '1';
+                                    prevBtn.style.cursor = 'pointer';
+                                }
+
+                                if (nextBtn.disabled) {
+                                    nextBtn.style.opacity = '0.5';
+                                    nextBtn.style.cursor = 'not-allowed';
+                                } else {
+                                    nextBtn.style.opacity = '1';
+                                    nextBtn.style.cursor = 'pointer';
+                                }
+                            }
+
+                            // Next button click
+                            function nextSlide() {
+                                const maxIndex = Math.max(0, totalItems - visibleItems);
+                                if (currentIndex < maxIndex) {
+                                    currentIndex++;
+                                    updateCarouselPosition();
+                                }
+                            }
+
+                            // Previous button click
+                            function prevSlide() {
+                                if (currentIndex > 0) {
+                                    currentIndex--;
+                                    updateCarouselPosition();
+                                }
+                            }
+
+                            // Setup event listeners
+                            function setupEventListeners() {
+                                nextBtn.addEventListener('click', nextSlide);
+                                prevBtn.addEventListener('click', prevSlide);
+
+                                // Handle window resize
+                                window.addEventListener('resize', function () {
+                                    updateVisibleItems();
+                                    calculateItemWidth();
+
+                                    // Adjust current index if needed
+                                    const maxIndex = Math.max(0, totalItems - visibleItems);
+                                    if (currentIndex > maxIndex) {
+                                        currentIndex = maxIndex;
+                                    }
+
+                                    updateCarouselPosition();
+                                });
+
+                                // Touch support for mobile
+                                let touchStartX = 0;
+                                let touchEndX = 0;
+
+                                container.addEventListener('touchstart', function (e) {
+                                    touchStartX = e.touches[0].clientX;
+                                });
+
+                                container.addEventListener('touchend', function (e) {
+                                    touchEndX = e.changedTouches[0].clientX;
+                                    handleSwipe();
+                                });
+
+                                function handleSwipe() {
+                                    const swipeThreshold = 50;
+                                    const diff = touchStartX - touchEndX;
+
+                                    if (Math.abs(diff) > swipeThreshold) {
+                                        if (diff > 0) {
+                                            // Swipe left - next
+                                            nextSlide();
+                                        } else {
+                                            // Swipe right - previous
+                                            prevSlide();
+                                        }
+                                    }
+                                }
+
+                                // Mouse wheel support
+                                container.addEventListener('wheel', function (e) {
+                                    if (e.deltaY > 0) {
+                                        nextSlide();
+                                    } else {
+                                        prevSlide();
+                                    }
+                                    e.preventDefault();
+                                }, { passive: false });
+                            }
+
+                            // Initialize the images
+                            initCarousel();
+
+                            // Auto-slide functionality (optional)
+                            /*
+                            setInterval(() => {
+                                if (currentIndex < Math.max(0, totalItems - visibleItems)) {
+                                    nextSlide();
+                                } else {
+                                    currentIndex = 0;
+                                    updateCarouselPosition();
+                                }
+                            }, 5000);
+                            */
+                        });
+                    </script>
+                </div>
+        </section>
+        <hr class="tall" />
+        <!-- Introduction Container Starts -->
+        <div class="container">
+            <div class="row custom-row">
+                <div class="col-md-8">
+                    <h2 align="center" style="margin-bottom:28px;">King of Digital Marketing</h2>
+                    <p align="justify">Since 2013, King of Digital Marketing has been helping businesses across India
+                        and 12+
+                        countries worldwide. We are a Delhi-based digital marketing company built on one simple belief:
+                        results
+                        matter more than reports. Over the past decade, our team has worked across 850+ projects from
+                        India and
+                        the United States, United Kingdom, Canada, Australia, Germany, UAE, Singapore, Turkey, Russia,
+                        and beyond.
+                        From domestic projects to international clients, we have helped small, mid-sized, and large
+                        businesses
+                        solve real problems like poor lead quality, low organic traffic, poor Google rankings, stagnant
+                        leads and
+                        flat conversion rates.
+                    <p align="justify"><b>What We Do?</b> We bring together professionalism, passion, and performance
+                        through
+                        our proven, <a href="lead-generation-company.aspx">Lead Generation Services</a> with <a
+                            href="social-media-marketing-services.aspx">Social Media Marketing</a> or <a
+                            href="blog/best-ppc-services-in-delhi.html">PPC Management (Google Ads)</a>. King of Digital
+                        Marketing
+                        is an integral part of <strong>Devweboic Tech. OPC Pvt. Ltd.</strong> - A group of digital
+                        marketing
+                        company, Digital Marketing Freelancer and Digital Marketing Training Institute. We are here to
+                        help you
+                        become the best in your industry. We assign a team of digital marketing experts to provide
+                        amplification
+                        for your brand. Our Dedicated digital marketing specialists are with over 10+ years of
+                        experienced in
+                        their field. They are passionate about growing your business by driving qualified leads,
+                        increasing sales
+                        and maximizing your visibility across Google and social media platforms. We are having experts
+                        for <a href="SEO-Services.aspx">SEO services</a>, <a href="SMO-Services.aspx">Social Media
+                            services</a> and
+                        Paid Ads Management, </a>who work for you 24x7 to increase sales and revenue.</p>
+
+                    <a href="tel:+919821918208" target="_blank" class="btn btn-primary">Let's Talk About Your
+                        Business</a> <a href="/About-Us.aspx" target="_blank" class="btn btn-primary">Know More About
+                        Us</a>
+                </div>
+                <div class="col-md-4">
+                    <br />
+                    <iframe class="home-form" scrolling="no" src="contact.aspx" width="100%" loading="lazy"> </iframe>
+                </div>
+            </div>
+        </div>
+        <!-- Introduction Container Ends -->
+        <hr class="tall" />
+        <!-- ===== HOW DO WE EMPOWER YOU DIGITALLY SECTION ===== -->
+        <section class="empower-section">
+            <div class="container">
+                <div class="empower-header text-center">
+                    <span class="empower-badge"><i class="fa fa-star"></i> OUR CORE SPECIALIZATIONS</span>
+                    <h2 class="empower-title">How Do We Empower You <span
+                            class="empower-title-gradient">Digitally</span></h2>
+                    <p class="empower-subtitle">
+                        At <strong>King of Digital Marketing</strong>, we build high-performing digital ecosystems
+                        designed to
+                        dominate your market. Driven by 12+ years of expertise, AI technology, and top strategist
+                        talent, explore
+                        our premier specialized services below.
+                    </p>
+                </div>
+
+                <div class="empower-grid">
+
+                    <!-- Card 1: Lead Generation -->
+                    <div class="empower-card card-emerald">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-emerald">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 12A10 10 0 1 1 12 2a10 10 0 0 1 10 10z" />
+                                    <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
+                                    <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">HIGH CONVERSION</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="lead-generation-company.aspx">Lead Generation</a></h3>
+                        <p class="empower-card-text">
+                            Increase quality leads with targeted sales funnels. We identify, create, engage, and convert
+                            high-intent
+                            prospects into loyal buyers across paid &amp; organic channels.
+                        </p>
+                        <a href="lead-generation-company.aspx" class="empower-card-btn btn-emerald">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 2: Google Ads Services -->
+                    <div class="empower-card card-blue">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-blue">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8" />
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                    <line x1="11" y1="8" x2="11" y2="14" />
+                                    <line x1="8" y1="11" x2="14" y2="11" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">INSTANT TRAFFIC</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="blog/best-ppc-services-in-delhi.html">Google Ads
+                                Services</a></h3>
+                        <p class="empower-card-text">
+                            Rank on Page 1 of Google immediately. Stand out before active search buyers to capture
+                            maximum high-value
+                            sales inquiries with optimized ROI packages.
+                        </p>
+                        <a href="blog/best-ppc-services-in-delhi.html" class="empower-card-btn btn-blue">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 3: SEO Services -->
+                    <div class="empower-card card-purple">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-purple">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+                                    <polyline points="17 6 23 6 23 12" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">TOP RANKINGS</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="SEO-Services.aspx">SEO Services</a></h3>
+                        <p class="empower-card-text">
+                            Scale organic search engine rankings and compound long-term website traffic. Our technical
+                            &amp; content
+                            SEO experts audit, optimize, and build domain authority.
+                        </p>
+                        <a href="SEO-Services.aspx" class="empower-card-btn btn-purple">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 4: SMO Services -->
+                    <div class="empower-card card-pink">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-pink">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="18" cy="5" r="3" />
+                                    <circle cx="6" cy="12" r="3" />
+                                    <circle cx="18" cy="19" r="3" />
+                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">BRAND VIRALITY</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="SMO-Services.aspx">SMO Services</a></h3>
+                        <p class="empower-card-text">
+                            Engage target audiences and build brand clout across social networks. Our Social Media
+                            Optimization
+                            strategies ensure your business builds active, loyal followers.
+                        </p>
+                        <a href="SMO-Services.aspx" class="empower-card-btn btn-pink">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 5: PPC Services -->
+                    <div class="empower-card card-amber">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-amber">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                    <line x1="8" y1="21" x2="16" y2="21" />
+                                    <line x1="12" y1="17" x2="12" y2="21" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">MAXIMIZED ROI</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="blog/best-ppc-services-in-delhi.html">PPC Services</a>
+                        </h3>
+                        <p class="empower-card-text">
+                            Ranked #1 PPC agency. Our pay-per-click management across Google, Meta, and Bing ensures
+                            immediate sales
+                            and leads at the absolute lowest cost-per-acquisition.
+                        </p>
+                        <a href="blog/best-ppc-services-in-delhi.html" class="empower-card-btn btn-amber">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 6: ORM Services -->
+                    <div class="empower-card card-teal">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-teal">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                    <path d="M9 12l2 2 4-4" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">24/7 PROTECTION</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="ORM-Services.aspx">ORM Services</a></h3>
+                        <p class="empower-card-text">
+                            Protect and elevate your online brand image. Our Online Reputation Management specialists
+                            monitor reviews,
+                            counter negative PR, and maintain positive brand perception.
+                        </p>
+                        <a href="ORM-Services.aspx" class="empower-card-btn btn-teal">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 7: Mobile App Development -->
+                    <div class="empower-card card-indigo">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-indigo">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                                    <line x1="12" y1="18" x2="12.01" y2="18" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">iOS &amp; ANDROID</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="Android-Application-Development-company.aspx">Mobile App
+                                Development</a></h3>
+                        <p class="empower-card-text">
+                            High-performance Android, iOS, and Flutter mobile applications engineered for ultra-fast
+                            load speed, sleek
+                            UI/UX design, and seamless user interaction.
+                        </p>
+                        <a href="Android-Application-Development-company.aspx" class="empower-card-btn btn-indigo">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 8: Web Development Services -->
+                    <div class="empower-card card-sky">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-sky">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6" />
+                                    <polyline points="8 6 2 12 8 18" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">FAST &amp; SECURE</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="Website-Development.aspx">Web Development Services</a>
+                        </h3>
+                        <p class="empower-card-text">
+                            Conversion-focused custom website design &amp; web application development. We craft
+                            responsive, secure,
+                            and modern websites tailored to generate revenue.
+                        </p>
+                        <a href="Website-Development.aspx" class="empower-card-btn btn-sky">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 9: Flipkart Marketing -->
+                    <div class="empower-card card-royal">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-royal">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                                    <line x1="3" y1="6" x2="21" y2="6" />
+                                    <path d="M16 10a4 4 0 0 1-8 0" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">E-COMMERCE SCALE</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="flipkart-marketing-services.aspx">Flipkart Marketing</a>
+                        </h3>
+                        <p class="empower-card-text">
+                            Dominate Flipkart seller search rankings. We handle product cataloging, listing
+                            optimization, account
+                            growth, and sponsored ad management to boost orders.
+                        </p>
+                        <a href="flipkart-marketing-services.aspx" class="empower-card-btn btn-royal">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 10: Amazon Marketing Services -->
+                    <div class="empower-card card-orange">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-orange">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1" />
+                                    <circle cx="20" cy="21" r="1" />
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">SELLER GROWTH</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="amazon-marketing-services.aspx">Amazon Marketing
+                                Services</a></h3>
+                        <p class="empower-card-text">
+                            Amazon Advertising (AMS) experts. Drive active shopper purchases, optimize product listings,
+                            run Sponsored
+                            Products, and scale Amazon store revenue.
+                        </p>
+                        <a href="amazon-marketing-services.aspx" class="empower-card-btn btn-orange">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 11: Facebook Marketing Services -->
+                    <div class="empower-card card-cobalt">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-cobalt">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">META ADS EXPERT</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="facebook-marketing-services.aspx">Facebook Marketing
+                                Services</a>
+                        </h3>
+                        <p class="empower-card-text">
+                            Target exact customer demographics with Meta Ads. We create high-converting ad copy, visual
+                            assets, custom
+                            retargeting audiences, and lead generation campaigns.
+                        </p>
+                        <a href="facebook-marketing-services.aspx" class="empower-card-btn btn-cobalt">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Card 12: Mobile App Promotion -->
+                    <div class="empower-card card-cyan">
+                        <div class="empower-card-top">
+                            <div class="empower-icon-hub icon-cyan">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.1-1.63 1.1-2.5 0-1.1-.9-2-2-2-.87 0-1.79.39-2.5 1.1z" />
+                                    <path d="M12 15l-3-3 7.5-7.5.78.78c.84.84.84 2.2 0 3.04L12 15z" />
+                                    <path d="M16 11l2.5-2.5" />
+                                    <path d="M8.5 18.5L6 21" />
+                                </svg>
+                            </div>
+                            <span class="empower-tag">MORE INSTALLS</span>
+                        </div>
+                        <h3 class="empower-card-title"><a href="mobile-app-promotion-services.aspx">Mobile App
+                                Promotion</a></h3>
+                        <p class="empower-card-text">
+                            App Store Optimization (ASO) &amp; paid app installation campaigns. Increase daily installs,
+                            active user
+                            retention, and store keyword ranks for Play Store &amp; App Store.
+                        </p>
+                        <a href="mobile-app-promotion-services.aspx" class="empower-card-btn btn-cyan">
+                            Explore Service <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <hr class="tall" />
+        <!-- ===== DIGITAL MARKETING PROCESS SECTION ===== -->
+        <section class="process-section">
+            <div class="animated-pattern"></div>
+            <div class="process-container">
+
+                <!-- Header -->
+                <div class="process-header">
+                    <div class="process-badge">
+                        <span>Our Proven Approach</span>
+                    </div>
+
+                    <h2 class="process-title">DIGITAL MARKETING PROCESS</h2>
+
+                    <p class="process-subtitle">
+                        From strategy to execution, our systematic 4-step process delivers measurable results for your
+                        business
+                    </p>
+                </div>
+
+                <!-- Steps -->
+                <div class="process-steps">
+
+                    <!-- Step 1 -->
+                    <div class="process-step">
+                        <div class="process-card">
+                            <div class="step-badge"><span>1</span></div>
+
+                            <div class="process-icon">
+                                <i class="fa fa-users"></i>
+                            </div>
+
+                            <h3>Workshops</h3>
+                            <div class="divider"></div>
+
+                            <ul class="process-list">
+                                <li><i class="fa fa-check-circle"></i>Business Analysis</li>
+                                <li><i class="fa fa-check-circle"></i>Campaign Objective</li>
+                                <li><i class="fa fa-check-circle"></i>Preparing Proposal</li>
+                                <li><i class="fa fa-check-circle"></i>Deciding Deliverables</li>
+                            </ul>
+                        </div>
+                        <div class="arrow-connector">
+                            <div class="arrow-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="arrow-head"></div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="process-step">
+                        <div class="process-card">
+                            <div class="step-badge"><span>2</span></div>
+
+                            <div class="process-icon">
+                                <i class="fa fa-clipboard"></i>
+                            </div>
+
+                            <h3>Planning</h3>
+                            <div class="divider"></div>
+
+                            <ul class="process-list">
+                                <li><i class="fa fa-check-circle"></i>Industry Research</li>
+                                <li><i class="fa fa-check-circle"></i>Competitor Research</li>
+                                <li><i class="fa fa-check-circle"></i>Selecting Marketing Channels</li>
+                                <li><i class="fa fa-check-circle"></i>Strategy Development</li>
+                            </ul>
+                        </div>
+                        <div class="arrow-connector">
+                            <div class="arrow-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="arrow-head"></div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="process-step">
+                        <div class="process-card">
+                            <div class="step-badge"><span>3</span></div>
+
+                            <div class="process-icon">
+                                <i class="fa fa-flask"></i>
+                            </div>
+
+                            <h3>A/B Testing</h3>
+                            <div class="divider"></div>
+
+                            <ul class="process-list">
+                                <li><i class="fa fa-check-circle"></i>Experimenting with Ads</li>
+                                <li><i class="fa fa-check-circle"></i>Experimenting with Content</li>
+                                <li><i class="fa fa-check-circle"></i>Testing SEO Techniques</li>
+                                <li><i class="fa fa-check-circle"></i>Analyzing Audience Behavior</li>
+                            </ul>
+                        </div>
+                        <div class="arrow-connector">
+                            <div class="arrow-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="arrow-head"></div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="process-step">
+                        <div class="process-card">
+                            <div class="step-badge"><span>4</span></div>
+
+                            <div class="process-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+
+                            <h3>Execution</h3>
+                            <div class="divider"></div>
+
+                            <ul class="process-list">
+                                <li><i class="fa fa-check-circle"></i>Creating Campaign</li>
+                                <li><i class="fa fa-check-circle"></i>Content Production</li>
+                                <li><i class="fa fa-check-circle"></i>Strategy Optimization</li>
+                                <li><i class="fa fa-check-circle"></i>Analysis & Reporting</li>
+                            </ul>
+
+                            <div class="process-final">
+                                <span><i class="fa fa-check"></i> Final Step</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- CTA -->
+                <div class="process-cta">
+                    <h3>Ready to Transform Your Digital Presence?</h3>
+                    <p>Let's discuss how our proven process can drive results for your business</p>
+
+                    <a href="javascript:void(0);" onclick="openPopup()" class="process-btn">
+                        Get Started Today <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===== END DIGITAL MARKETING PROCESS SECTION ===== -->
+
+
+
+        <!-- ===== POPUP MODAL ===== -->
+        <div id="popupModal" class="popup-modal"
+            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(15,23,42,0.85); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); z-index:999999; align-items:center; justify-content:center; padding:15px;">
+            <div
+                style="position:relative; width:100%; max-width:600px; background:linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #0284c7 100%); border-radius:22px; box-shadow:0 25px 60px rgba(0,0,0,0.5); border:1px solid rgba(255,255,255,0.25); overflow:hidden;">
+                <button onclick="closeGlobalPopupForm()" type="button"
+                    style="position:absolute; top:12px; right:14px; width:34px; height:34px; background:rgba(255,255,255,0.2); border:1px solid rgba(255,255,255,0.3); border-radius:50%; color:#ffffff; font-size:20px; font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:10; transition:all 0.2s ease;"
+                    onmouseover="this.style.background='rgba(255,255,255,0.4)'"
+                    onmouseout="this.style.background='rgba(255,255,255,0.2)'">&times;</button>
+                <div style="padding:20px 20px 8px 20px; text-align:center; color:#ffffff;">
+                    <span
+                        style="background:rgba(56,189,248,0.2); border:1px solid rgba(56,189,248,0.5); color:#38bdf8; font-size:11px; font-weight:800; padding:4px 14px; border-radius:20px; text-transform:uppercase; letter-spacing:1px; display:inline-block;">FAST
+                        15-MIN RESPONSE</span>
+                    <h3 style="color:#ffffff; font-size:22px; font-weight:800; margin-top:8px; margin-bottom:4px;">Book
+                        Free
+                        Strategic Growth Call</h3>
+                    <p style="color:#cbd5e1; font-size:13px; margin:0;">Fill out the form below to get customized
+                        marketing &amp;
+                        lead strategy recommendations.</p>
+                </div>
+                <div style="padding:10px 16px 16px 16px; background:#ffffff;">
+                    <iframe scrolling="no" src="contact.aspx"
+                        style="width:100%; height:500px; border:none; border-radius:12px;"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== SCRIPT ===== -->
+        <script>
+
+            function openPopup() {
+                openGlobalPopupForm();
+            }
+
+            function closePopup() {
+                closeGlobalPopupForm();
+            }
+        </script>
+
+
+        <!-- Services Icons Ends -->
+
+
+        <!--SEO Result Section Starts-->
+
+        <section class="seo-results">
+
+            <h2> AWESOME SEO RESULTS</h2>
+            <P align="center" class="color-black">The best feeling ever, When SEO experts are able to bring your website
+                at
+                top 5 ranking of searh engine result page. If You have the vision, You have come to the right
+                <strong>digital
+                    marketing company</strong>. We have the ability to optimize your website to get more traffic leads
+                and sales.
+                - "If not We then Who". Tell us about your digital goals and challenges, Our digital marketing experts
+                will
+                share our strategy and the best approach for your requirements. Our SEO results speak for our Search
+                Engine
+                Optimization services. <b>See the SEO results.
+            </P>
+            <h3 align="center" class="result">We have best solutions for </h3>
+            <h4 align="center" class="result"><b> 1.</b> Low Organic Traffic <b>2.</b> No Organic Leads <b>3.</b> No
+                keywords
+                in 1st Page Ranking <b>4. </b>Low Backlinks <b>5.</b> Poor Domain Authority </h3>
+
+                <div class="slider">
+                    <div class="slides">
+                        <!-- Box 1 -->
+                        <div class="seo-card">
+                            <div class="card-inner">
+                                <div class="card-header">
+                                    <h< /h4>QHT Hair Clinic</h3>
+                                        <span>QHT is one of the premium hair transplant clinic in India, We have been
+                                            working for SEO since
+                                            2024
+                                            and we have achieved top ranking related to hair transplant keywords in
+                                            almost all top cities of
+                                            India. Helped to generate high quality leads and direct calls through SEO
+                                            services.</span>
+                                </div>
+                                <div class="keyword-list">
+                                    <div class="keyword-item">Dense hair implantation in Hyderabad<span
+                                            class="rank">#1</span></div>
+                                    <div class="keyword-item">Hair transplant in Hyderabad<span class="rank">#3</span>
+                                    </div>
+                                    <div class="keyword-item">Dense Hair Implantation Clinic in Hyderabad<span
+                                            class="rank">#2</span>
+                                    </div>
+                                    <div class="keyword-item">FUE Hair Transplant clinic in Hyderabad<span
+                                            class="rank">#4</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 2 -->
+                        <div class="seo-card">
+                            <div class="card-inner">
+                                <div class="card-header">
+                                    <h3>Dr. PK Talwar - Cosmetic Surgeon</h3>
+                                    <span>Dr. PK Talwar is one of the most experienced cosmetic and plastic surgeons in
+                                        Delhi, India. King
+                                        of Digital Marketing started digital marketing in 2020 and helped to get top
+                                        ranking in Google with
+                                        more than 100 keywords, generated high quality leads organically and promoted
+                                        YouTube also.</span>
+                                </div>
+                                <div class="keyword-list">
+                                    <div class="keyword-item">Gynaecomastia Surgery in Delhi<span class="rank">#3</span>
+                                    </div>
+                                    <div class="keyword-item">Liposuction Surgery in Delhi<span class="rank">#4</span>
+                                    </div>
+                                    <div class="keyword-item">Cosmetic Surgeon in Delhi <span class="rank">#6</span>
+                                    </div>
+                                    <div class="keyword-item">Hair Transplant in South Delhi<span class="rank">#5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 3 -->
+                        <div class="seo-card">
+                            <div class="card-inner">
+                                <div class="card-header">
+                                    <h3>Kidney Care Centre</h3>
+                                    <span>Kidney Care Centre is led by popular nephrologist in Delhi Dr. Rajesh Goel.
+                                        King of Digital
+                                        Marketing has worked for his website to rank in Google top 10. We worked and got
+                                        result
+                                        successfully.
+                                        Ourteam promoted his Google My Business Pages also to rank in top 3.
+                                        India</span>
+                                </div>
+                                <div class="keyword-list">
+                                    <div class="keyword-item">Kidney specialist doctor in Delhi<span
+                                            class="rank">#3</span></div>
+                                    <div class="keyword-item">best nephrologist in delhi<span class="rank">#6</span>
+                                    </div>
+                                    <div class="keyword-item">Kidney doctor in Delhi<span class="rank">#5</span></div>
+                                    <div class="keyword-item">best dialysis centre in Delhi<span class="rank">#4</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box 4 -->
+                        <div class="seo-card">
+                            <div class="card-inner">
+                                <div class="card-header">
+                                    <h3>Contact Combat India</h3>
+                                    <span>Contact Combat India is training centre for Krav Maga and Kickboxing. Our
+                                        Social Media Experts
+                                        and
+                                        SEO Experts had worked on this project for brand awarensss and ranking in search
+                                        engine. We got
+                                        tremendous results for this website.</span>
+                                </div>
+                                <div class="keyword-list">
+                                    <div class="keyword-item">Krav maga in delhi<span class="rank">#3</span></div>
+                                    <div class="keyword-item">Krav maga classes in delhi<span class="rank">#4</span>
+                                    </div>
+                                    <div class="keyword-item">Kids self defense in delhi<span class="rank">#9</span>
+                                    </div>
+                                    <div class="keyword-item">Krav maga near me<span class="rank">#6</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box 5 -->
+                        <div class="seo-card">
+                            <div class="card-inner">
+                                <div class="card-header">
+                                    <h3>Wolk Coworking Space</h3>
+                                    <span>Wolk - A Coworking Community We have worked for Wolk Search Engine
+                                        Optimization Services, Wolk
+                                        provides the best coworking spaces and shared office space solutions in South
+                                        Delhi. This website
+                                        ranks in Delhi, Nehru Place and South Delhi based Keywords now.</span>
+                                </div>
+                                <div class="keyword-list">
+                                    <div class="keyword-item">Coworking Space in Nehru Place<span class="rank">#3</span>
+                                    </div>
+                                    <div class="keyword-item">Coworking Space in South Delhi<span class="rank">#5</span>
+                                    </div>
+                                    <div class="keyword-item">Coworking Space in Delhi<span class="rank">#6</span></div>
+                                    <div class="keyword-item">Shared Office Space in South Delhi<span
+                                            class="rank">#7</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box 6 -->
+                        <div class="seo-card">
+                            <div class="card-inner">
+                                <div class="card-header">
+                                    <h3>Geographia IAS</h3>
+                                    <span>Geographia IAS - SEO Services We have worked for Ajay Raj Singh Sir, Best
+                                        Geography Optional
+                                        Teacher for IAs and UPSC aspirants. We have ranked 5 - 6 Keywords. Maximum we
+                                        have done paid
+                                        advertisement(Google Ad - Search and Display) for this website.</span>
+                                </div>
+                                <div class="keyword-list">
+                                    <div class="keyword-item">Geography Coaching in Delhi<span class="rank">#3</span>
+                                    </div>
+                                    <div class="keyword-item">Best Geography Institute for IAS<span
+                                            class="rank">#5</span></div>
+                                    <div class="keyword-item">Geography Coaching for IAS<span class="rank">#6</span>
+                                    </div>
+                                    <div class="keyword-item">Online Geography Coaching for IAS<span
+                                            class="rank">#3</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box 7 -->
+                        <div class="seo-card">
+                            <div class="card-inner">
+                                <div class="card-header">
+                                    <h3>DIFA: Delhi Institute of Film & Acting</h3>
+                                    <span>DIFA (Delhi Institute of Film & Acting) - SEO/PPC Services SEO team worked of
+                                        DIFA project 4
+                                        months to bring its major keywords in 1st page of Google. Almost 80% keywords
+                                        are in 1st page. Our
+                                        PPC
+                                        team provided 350 leads through paid ads in a month for DIFA.</span>
+                                </div>
+                                <div class="keyword-list">
+                                    <div class="keyword-item">Acting School in Delhi<span class="rank">#6</span></div>
+                                    <div class="keyword-item">Acting School in South Delhi<span class="rank">#5</span>
+                                    </div>
+                                    <div class="keyword-item">Acting Institute in Delhi<span class="rank">#3</span>
+                                    </div>
+                                    <div class="keyword-item">Acting Course in Delhi <span class="rank">#4</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slider buttons -->
+                    <button class="nav-btn prev">&#10094;</button>
+                    <button class="nav-btn next">&#10095;</button>
+                </div>
+        </section>
+
+        <script>
+            // seo result slider script
+            const slides = document.querySelector('.slides');
+            const prevBtn = document.querySelector('.nav-btn.prev');
+            const nextBtn = document.querySelector('.nav-btn.next');
+            let index = 0;
+
+            function showSlide() {
+                const slideWidth = document.querySelector('.seo-card').clientWidth;
+                slides.style.transform = `translateX(${-index * slideWidth}px)`;
+            }
+
+            nextBtn.addEventListener('click', () => {
+                if (window.innerWidth < 768) {
+                    if (index < 6) index++;
+                    showSlide();
+                } else {
+                    if (index < 5) index++;
+                    showSlide();
+                }
+
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (index > 0) index--;
+                showSlide();
+            });
+
+            window.addEventListener('resize', showSlide);
+        </script>
+        <!-- Results Section -->
+        <!--SEO Result Section Ends-->
+
+        <!-- ===== STRIP SECTION ===== -->
+        <div class="strip-section">
+            <h2 class="strip-title">
+                Let's Kickstart Your Digital Success Today!
+            </h2>
+            <p class="strip-text">
+                For over 12 years, King of Digital Marketing has delivered consistent growth through digital marketing
+                services
+                like SEO, PPC, and lead generation campaigns. Let's create a winning plan for your business.
+            </p>
+            <a href="javascript:void(0);" onclick="openPopup()" class="strip-btn">
+                Send Me a Proposal!
+            </a>
+        </div>
+
+        <hr class="tall" />
+
+        <!-- Clients Logos Portfolio Container -->
+        <div class="container ">
+            <div class="row custom-row">
+                <div class="col-md-12 col-sm-12 ">
+                    <h2 align="center">Your Trust Made Us Top Digital Marketing Company To Help Flourish Your Business
+                    </h2>
+                    <p align="center">What made us distinct is our valuable customers, for which we strive day in day
+                        out to
+                        secure their branding, promotion, online reputation, online visibility, traffic, leads and most
+                        important
+                        conversion. We are enjoying being king of this digital kingdom.</p>
+                    <h4 align="center" style="color: black;"> We are ambitious, We are Experts, We are Shepherd So, We
+                        are King
+                        </h3>
+                        <br>
+
+                        <div class="happy" id="images">
+                            <div class="track">
+                                <!-- put your original set of slides here (JS will clone as needed) -->
+                                <div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
+                                <div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg">
+                                </div>
+                                <div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
+                                <div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg">
+                                </div>
+                                <div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+                                <div class="slide"><img alt="Save-Trees" src="images/Save-Trees--logo.jpg"></div>
+                                <div class="slide"><img alt="Prep-guru" src="images/Prep-guru-logo.jpg"></div>
+                                <div class="slide"><img alt="tradeFD" src="images/trade.jpg"></div>
+                                <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg"></div>
+                                <div class="slide"><img alt="Astro Gagan Sharma" src="images/Astro Gagan Sharma.jpg">
+                                </div>
+                                <div class="slide"><img alt="Art of Making Money" src="images/Art of Making Money.jpg">
+                                </div>
+                                <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.jpg"></div>
+                                <div class="slide"><img alt="One Wellness Fitness Club"
+                                        src="images/One Wellness Fitness Club.jpg">
+                                </div>
+                                <div class="slide"> <img alt="solar farmer" src="images/solar farmer.jpg"></div>
+                                <div class="slide"><img alt="aliff" src="images/aliff_img.jpeg"></div>
+                                <div class="slide"><img alt="tradeFD" src="images/Beyond-Borders--logo.jpg"></div>
+                                <div class="slide"><img alt="fractionate" src="images/fractionate_img.jpeg"></div>
+                                <div class="slide"><img alt="Trusted Astro" src="images/Trusted Astro_img.jpg"></div>
+                                <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg"></div>
+                                <div class="slide"><img alt="jashvi consultant" src="images/jashvi consultant_img.jpg">
+                                </div>
+                                <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.jpeg">
+                                </div>
+                                <div class="slide"><img alt="MTel" src="images/MTel_img.jpeg"></div>
+                                <div class="slide"><img alt="Pinnacle Consulting"
+                                        src="images/Pinnacle Consulting_img.jpg"></div>
+                                <div class="slide"><img alt="Preetiesdeitclinic" src="images/Preetiesdeitclinic.jpeg">
+                                </div>
+                                <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.jpg"></div>
+                                <div class="slide"><img alt="Moral Research" src="images/Moralresearch.jpeg"></div>
+                                <div class="slide"><img alt="Global Talent Visa" src="images/Global Talent Visa.jpg">
+                                </div>
+                                <div class="slide"><img alt="Rudra Remedies" src="images/Rudra Remedies.jpg"></div>
+                                <div class="slide"><img alt="Akin Health" src="images/Akin Health.jpg"></div>
+                                <div class="slide"><img src="images/Digital Marketing Services.jpg" alt="Logo 6"></div>
+                                <div class="slide"><img alt="arcade-hospitalty" src="images/arcade-hospitalty.jpg">
+                                </div>
+                                <div class="slide"><img alt="Nebulacrafttech" src="images/Nebulacrafttech.jpg"></div>
+                                <div class="slide"><img alt="herahairsolutions" src="images/herahairsolutions.jpg">
+                                </div>
+                                <div class="slide"><img alt="mysticai" src="images/mysticai.jpg"></div>
+                                <div class="slide"><img alt="heartland" src="images/heartland.jpg"></div>
+                                <div class="slide"><img alt="Ojaswin-Yoga-School" src="images/Ojaswin-Yoga-School.jpeg">
+                                </div>
+                                <div class="slide"><img alt="falcon" src="images/falcon.jpg"></div>
+                                <div class="slide"><img alt="Vivaaaesthetics" src="images/Vivaaaesthetics.jpg"></div>
+                                <div class="slide"><img alt="cloudadata" src="images/cloudadata.jpg"></div>
+                                <div class="slide"><img alt="visagurujiglobal" src="images/visagurujiglobal.jpg"></div>
+                                <div class="slide"><img alt="Morocco-Tourism" src="images/Morocco-Tourism.jpeg"></div>
+                                <div class="slide"><img alt="Davesar" src="images/Davesar.jpeg"></div>
+                                <div class="slide"><img alt="salient" src="images/salient.jpeg"></div>
+                                <div class="slide"><img alt="Master Nifty" src="images/Master Nifty.jpg"></div>
+                                <div class="slide"><img alt="Statsenei" src="images/Statsenei.jpeg"></div>
+                                <div class="slide"><img alt="Diamond Salon" src="images/Diamond Salon.jpg"></div>
+                                <div class="slide"><img alt="cocoona" src="images/cocoona.jpeg"></div>
+                                <div class="slide"><img alt="adgrohair" src="images/adgrohair.jpeg"></div>
+                                <div class="slide"><img alt="advick app" src="images/advick app_img.jpg"></div>
+                                <div class="slide"><img alt="freestockstips" src="images/freestockstips.jpg"></div>
+                                <div class="slide"><img alt="afflatus" src="images/afflatus.jpeg"></div>
+                                <div class="slide"><img alt="cara" src="images/cara_img.jpeg"></div>
+                                <div class="slide"><img alt="MindYourTax" src="images/MindYourTax.jpeg"></div>
+                                <div class="slide"><img alt="ContinentalImmigration"
+                                        src="images/ContinentalImmigration.jpeg"></div>
+                                <div class="slide"><img alt="BuildngNeeds" src="images/BuildngNeeds.jpeg"></div>
+                                <div class="slide"><img alt="AudioCity" src="images/AudioCity_img.jpeg"></div>
+                                <div class="slide"><img alt="IMG" src="images/IMG_img.jpeg"></div>
+                                <div class="slide"><img alt="Stellar" src="images/Stellar.jpeg"></div>
+                                <div class="slide"><img alt="agehair" src="images/agehair.jpg"></div>
+                                <div class="slide"><img alt="Olympus" src="images/Olympus_img.jpeg"></div>
+                                <div class="slide"><img alt="advisely" src="images/advisely_img.jpeg"></div>
+                                <div class="slide"><img alt="rwics" src="images/rwics.jpeg"></div>
+                                <div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
+                                <div class="slide"><img alt="ihoroscopegpt" src="images/IEAC.jpeg"></div>
+                                <div class="slide"><img alt="drcompass" src="images/bnps_img.jpeg"></div>
+                                <div class="slide"><img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.jpeg"></div>
+                                <div class="slide"><img alt="drcompass" src="images/drcompass.jpeg"></div>
+                                <div class="slide"><img alt="heal24" src="images/vijayjoshiastro.jpg"></div>
+                                <div class="slide"><img alt="heal24" src="images/meo_img.jpeg"></div>
+                                <div class="slide"> <img alt="heal24" src="images/astrorightsolution_img.jpeg"></div>
+                                <div class="slide"><img alt="heal24" src="images/myastrologeryogesh.jpg"></div>
+                                <div class="slide"><img alt="heal24" src="images/eva_img.jpeg"></div>
+                                <div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.jpeg"></div>
+                                <div class="slide"><img alt="heal24" src="images/cliniq_img.jpeg"></div>
+                                <div class="slide"><img alt="city clinics" src="images/dncc_img.jpeg"></div>
+                                <div class="slide"><img alt="get study visa" src="images/afflatusglobalvisa_img.jpeg">
+                                </div>
+                                <div class="slide"><img alt="heal24" src="images/monickaagupta_img.jpeg"></div>
+                                <div class="slide"><img alt="city clinics" src="images/aicsimmigration.jpeg"></div>
+                                <div class="slide"><img alt="get study visa" src="images/get.png"></div>
+                                <div class="slide"><img alt="Planet education" src="images/pl.png"></div>
+                                <div class="slide"><img alt="R&P" src="images/rp.png"></div>
+                                <div class="slide"><img alt="canx" src="images/canx.png"></div>
+                                <div class="slide"><img alt="Meena Bazar" src="images/mb-Meena-Bazar_img.png"></div>
+                                <div class="slide"><img alt="Lakhotia" src="images/lakhotia_img.png"></div>
+                                <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.jpg"></div>
+                                <div class="slide"> <img alt="Kidney Care Centre"
+                                        src="images/kidney care centre_img.jpg"></div>
+                                <div class="slide"><img alt="Iskcon Delhi" src="images/KAN_VISA_DIRECTIOn_img.png">
+                                </div>
+                                <div class="slide"><img alt="Website Development in delhi"
+                                        src="images/iskcon delhi_img.jpg"></div>
+                                <div class="slide"><img alt="Hair Transplant Medispa"
+                                        src="images/hair transplant medispa_img.jpg">
+                                </div>
+                                <div class="slide"><img alt="Dreamzone Allahabad" src="images/dreamzone allahabad.jpg">
+                                </div>
+                                <div class="slide"><img alt="Dr Pk Talwar" src="images/dr pk talwar_img.jpg"></div>
+                                <div class="slide"><img alt="go to university" src="images/go to university_img.jpg">
+                                </div>
+                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.jpg"></div>
+                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.png"></div>
+                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.png"></div>
+                                <div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.jpg"></div>
+                                <div class="slide"><img alt="tradeFD" src="images/trade.jpg"></div>
+                                <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg"></div>
+                                <div class="slide"><img alt="Astro Gagan Sharma" src="images/Astro Gagan Sharma.jpg">
+                                </div>
+                                <div class="slide"><img alt="Art of Making Money" src="images/Art of Making Money.jpg">
+                                </div>
+                                <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.jpg"></div>
+                                <div class="slide"><img alt="One Wellness Fitness Club"
+                                        src="images/One Wellness Fitness Club.jpg">
+                                </div>
+                                <div class="slide"><img alt="solar farmer" src="images/solar farmer.jpg"></div>
+                                <div class="slide"><img alt="aliff" src="images/aliff_img.jpeg"></div>
+                                <div class="slide"><img alt="fractionate" src="images/fractionate_img.jpeg"></div>
+                                <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg"></div>
+                                <div class="slide"> <img alt="Dr" src="images/Dr.jpg"></div>
+                                <div class="slide"><img alt="dirish sharma" src="images/dirish-sharma-logo.jpg"></div>
+                                <div class="slide"><img alt="City House" src="images/City-House-PG-logo.jpg"></div>
+                                <div class="slide"><img alt="Amazing Holidays" src="images/Amazing-Holidays-logo.jpg">
+                                </div>
+                                <div class="slide"><img alt="Aksira education" src="images/Aksira-education-logo.jpg">
+                                </div>
+                                <div class="slide"><img alt="jashvi consultant" src="images/jashvi consultant_img.jpg">
+                                </div>
+                                <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.jpeg">
+                                </div>
+                                <div class="slide"><img alt="MTel" src="images/MTel_img.jpeg"></div>
+                                <div class="slide"><img alt="Pinnacle Consulting"
+                                        src="images/Pinnacle Consulting_img.jpg"></div>
+                                <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.jpg"></div>
+                                <div class="slide"><img alt="Preetiesdeitclinic" src="images/Preetiesdeitclinic.jpeg">
+                                </div>
+
+
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Clients Logos Portfolio Container -->
+
+
+        <!-- NUMBERS DO SPEAK A LOT ! -->
+        <div class="container  ">
+
+            <div class="row custom-row">
+                <div class="col-md-12 col-sm-12 col-lg-12 box-cotainer">
+                    <h2 align="center" class="box-heading">NUMBERS DO SPEAK A LOT !</h2>
+                    <p align="center">King of Digital Marketing is one of India's best digital marketing services
+                        company. Having
+                        12+ years of experience proves that we have a professional and result oriented digital marketing
+                        team who
+                        has nailed the power of consulting, discovering, planning, executing and reporting. With the
+                        experience of
+                        working for over 900+ companies worldwide, we have achieved the confidence to take care of
+                        digital marketing
+                        strategies for your company. We have worked with more than 400 case of success with our
+                        determination to
+                        provide the best. Some of those companies are VLCC, Meena Bazaar, ISKCON, SkinLab by Dr. Jamuna
+                        Pai, QHT,
+                        SkinMumma, Dr. A's Clinic, Planet Education, Aliff, Global Opportunies and the list is
+                        everlasting. With
+                        more than 400 case studies we have created consistent growth on multi channel digital platforms.
+                        Last but
+                        not least, gaining the trust and reviews of 410+ individuals with 4.9 ratings on Google,
+                        Facebook, Glassdoor
+                        & JustDial, we have the confidence to say that King of Digital Marketing has the whole package
+                        for your
+                        growing company to ace the Digital Market with excellence.</p>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-md-6">
+                    <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="numbers-link">
+                        <div class="numbers-Speak">
+                            <div class="numbers-icon">
+                                <img src="images/icons8-experience-80.png" alt="images">
+                            </div>
+                            <div>
+                                <h4>Experience of Working on Different Projects</h4>
+                                <p class="numbers-value">250+ Industries</p>
+                                <h5 class="numbers-subtext">For More Than 12 Countries</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="https://www.kingofdigitalmarketing.com/Our-Portfolio.aspx" class="numbers-link">
+                        <div class="numbers-Speak">
+                            <div class="numbers-icon">
+                                <img src="images/icons8-success-80.png" alt="images">
+                            </div>
+                            <div>
+                                <h4>Few Brands We've Worked With</h4>
+                                <p class="numbers-value">150+ Success Stories</p>
+                                <h5 class="numbers-subtext">Of Most Influential Brands</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="https://www.kingofdigitalmarketing.com/seo-case-study.aspx" class="numbers-link">
+                        <div class="numbers-Speak">
+                            <div class="numbers-icon">
+                                <img src="images/icons8-view-80.png" alt="images">
+                            </div>
+                            <div>
+                                <h4>Growth We've Driven In Numbers</h4>
+                                <p class="numbers-value">400+ Case Studies</p>
+                                <h5 class="numbers-subtext">Created Consistent Growth on Multi-channel</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="#" class="numbers-link">
+                        <div class="numbers-Speak">
+                            <div class="numbers-icon">
+                                <img src="images/icons8-review-80.png" alt="images">
+                            </div>
+                            <div>
+                                <h4>We're a 4.9 Rated Agency</h4>
+                                <p class="numbers-value">410+ Reviews</p>
+                                <h5 class="numbers-subtext">On Google, Facebook & Others</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="https://www.kingofdigitalmarketing.com/team.aspx" class="numbers-link">
+                        <div class="numbers-Speak">
+                            <div class="numbers-icon">
+                                <img src="images/icons8-team-80.png" alt="images">
+                            </div>
+                            <div>
+                                <h4>Discovery, Planning & Execution</h4>
+                                <p class="numbers-value">12+ Years Experience</p>
+                                <h5 class="numbers-subtext">Team for Your Success</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" class="numbers-link">
+                        <div class="numbers-Speak">
+                            <div class="numbers-icon">
+                                <img src="images/icons8-student-80.png" alt="images">
+                            </div>
+                            <div>
+                                <h4>Experience That Speaks</h4>
+                                <p class="numbers-value">850+ Projects Done</p>
+                                <h5 class="numbers-subtext">Delivering Excellence Across Worldwide</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- End of NUMBERS DO SPEAK A LOT ! -->
+        <hr class="tall" />
+
+        <!-- Credential Container Starts-->
+
+        <div class="container ">
+            <h2 align="center">CREDENTIALS</h2>
+            <p align="center">These Numbers Speak Alot about Our Experience</p>
+
+            <div class="row center counters dark counters-row">
+
+                <div class="ip-result-card col-md-3 col-sm-6">
+                    <i class="fa fa-user counter-icon"></i>
+                    <strong class="counter-value" data-to="780" data-append="+">0</strong>
+                    <label class="counter-label">Happy Clients</label>
+                </div>
+
+                <div class="ip-result-card col-md-3 col-sm-6">
+                    <i class="fa fa-star counter-icon"></i>
+                    <strong class="counter-value" data-to="4.9" data-append="+">0</strong>
+                    <label class="counter-label">Ratings</label>
+                </div>
+
+                <div class="ip-result-card col-md-3 col-sm-6">
+                    <i class="fas fa-bullseye counter-icon"></i>
+                    <strong class="counter-value" data-to="850" data-append="+">0</strong>
+                    <label class="counter-label">Projects Completed</label>
+                </div>
+
+                <div class="ip-result-card col-md-3 col-sm-6">
+                    <i class="fas fa-chart-line counter-icon"></i>
+                    <strong class="counter-value" data-to="12" data-append="+">0</strong>
+                    <label class="counter-label">Years in Business</label>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- End Credential Container -->
+
+        <hr class="tall" />
+
+        <!-- Section for FAQ -->
+        <section class="kdm-v2-faq-default-section">
+            <!-- Col md 12 Starts -->
+            <div class="container">
+                <div class="row custom-row">
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <h2 align="center">Any Doubt?<strong> Here are FAQ's</strong></h2>
+
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Q.1.
+                                                How Do You Help Solving
+                                                My Digital Marketing Problems?
+
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse in">
+                                        <div class="panel-body"><strong>Ans.</strong>
+                                            <p>We solve challenges of not low ranking, low traffic, low quality leads
+                                                leads, facing sales &
+                                                conversion and reaching targeted audience. Our Digital marketing
+                                                strategies connects businesses
+                                                with targeted people to generate more leads and revenue by using various
+                                                activities such as SEO,
+                                                GEO, AEO, Social Media, Meta Ads, Google ads, website designing and
+                                                development.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Q.2.
+                                                Would My Business Get
+                                                Benefit From Digital Marketing?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                        <div class="panel-body"><strong>Ans.</strong>
+                                            <p>It is a definite YES. Your business definitely requires digital
+                                                marketing. Digital marketing is
+                                                the need of today's world, as it enables companies to reach and interact
+                                                with their target
+                                                audience in real-time and maximize brand awareness for their business at
+                                                an affordable cost with
+                                                unlimited reach.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Q.3.
+                                                Why Should I Hire
+                                                Digital Marketing Company?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse">
+                                        <div class="panel-body"><strong>Ans.</strong>
+                                            <p>The main purpose of any business, whether small, medium, or
+                                                multinational, is to attract more
+                                                customers. Businesses use various marketing techniques, including
+                                                traditional marketing and
+                                                digital marketing. Digital marketing offers numerous advantages over
+                                                traditional methods, which
+                                                is why many businesses prefer it for promotion. Here are some key
+                                                advantages of digital
+                                                marketing:
+                                            <ul>
+                                                <li>Advertise, where you are being searched</li>
+                                                <li>Ability to reach global customers</li>
+                                                <li>Cost-effective, reach more customers in less money</li>
+                                                <li>Create a brand knowing your customers personally</li>
+                                                <li>Able to track all expenses, sales, conversion everything</li>
+                                                <li>Time savvy</li>
+                                                <li>Much more...</li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Q.4.
+                                                What does a Digital
+                                                Marketing Agency Do?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse4" class="panel-collapse collapse">
+                                        <div class="panel-body"><strong>Ans.</strong>
+                                            <p>A digital marketing agency understands the requirements of their clients
+                                                and give suggestion
+                                                about how they can help them in fulfilling them. They drive result
+                                                oriented marketing strategies
+                                                for their clients by focusing on delivering ROI using their digital
+                                                skills and technologies.
+                                                They spread brand awareness for your business to the targeted audience
+                                                to generate quality leads
+                                                so that the objective of the business can be filled and maintain a
+                                                balance in user experience
+                                                with brand perspective.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Q.5.
+                                                What is brand awareness
+                                                in digital marketing?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse5" class="panel-collapse collapse">
+                                        <div class="panel-body"><strong>Ans.</strong>
+                                            <p>In digital marketing, brand awareness means creating a solid digital
+                                                identity for your company
+                                                for your target customers. It helps you build and disseminate
+                                                information about your
+                                                service/product and your brand. This activity is considered more useful
+                                                and results-oriented
+                                                whenever a new product is launched or a brand-related new item is
+                                                introduced.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Q.6.
+                                                How Can I Get The
+                                                Services Started?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse6" class="panel-collapse collapse">
+                                        <div class="panel-body"><strong>Ans.</strong>
+                                            <p>Find one of the best digital marketing companies in your area. List your
+                                                requirements and
+                                                discuss them with a <a
+                                                    href="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx">digital
+                                                    marketing consultant</a>. Before signing a contract, you need to
+                                                know about their portfolio,
+                                                past work, results, delivery dates and digital marketing packages. If
+                                                you are happy with their
+                                                work and report, go ahead. If not, stop the service and move to another
+                                                digital marketing
+                                                agency.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Q.7.
+                                                How much do you charge
+                                                for digital marketing?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse7" class="panel-collapse collapse">
+                                        <div class="panel-body"><strong>Ans.</strong>
+                                            <p>Digital marketing packages are determined by knowing the requirements of
+                                                the project. Every
+                                                project has specific requirements. Not all companies create similar
+                                                packages. Each project is
+                                                customized with individual pricing by knowing the goals you want to
+                                                achieve. Yes, there are
+                                                packages specific to a particular service, such as SEO packages, SMO
+                                                packages, PPC packages, web
+                                                design packages, content creation packages, and link building packages,
+                                                etc. The Digital
+                                                Marketing Package contains all or part of these services. Talk to our
+                                                experts, he / she will
+                                                help you create bespoke combined packages for your own business.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <h2 style="color:#0f172a;text-align:center;">Recent <strong>News & Blog</strong></h2>
+
+                            <div class="col-sm-12">
+                                <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-for-lands-and-plot-selling.aspx"
+                                    target="_blank">
+                                    <h4 style="font-size:18px;margin-bottom:6px;"><strong>Lead Generation for Lands and
+                                            Plots
+                                            Selling</strong></h4>
+                                </a>
+                                <p class="testimonial_subtitle" style="margin-bottom:4px;">Blog Topics</p>
+                                <p class="testimonial_para"><b>Date: July 15, 2026</b></p>
+                            </div>
+                            <hr class="line">
+                            <div class="col-sm-12">
+                                <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-services-for-cruise-booking.aspx"
+                                    target="_blank">
+                                    <h4 style="font-size:18px;margin-bottom:6px;"><strong>Lead Generation Services for
+                                            Cruise
+                                            Booking</strong></h4>
+                                </a>
+                                <p class="testimonial_subtitle" style="margin-bottom:4px;">Blog Topics</p>
+                                <p class="testimonial_para"><b>Date: june 20, 2026</b></p>
+                            </div>
+
+                            <hr class="line">
+                            <div class="col-sm-12">
+                                <a href="https://www.kingofdigitalmarketing.com/blog/digital-marketing-company-vs.aspx"
+                                    target="_blank">
+                                    <h4 style="font-size:18px;margin-bottom:6px;"><strong>Digital Marketing Company vs.
+                                            In-House Team:
+                                            Which is Better for Your Business?</strong></h4>
+                                </a>
+                                <p class="testimonial_subtitle" style="margin-bottom:4px;">Blog Topics</p>
+                                <p class="testimonial_para"><b>Date: June 10, 2026</b></p>
+                            </div>
+                            <hr class="line">
+                            <div class="col-sm-12">
+                                <a href="https://www.kingofdigitalmarketing.com/blog/how-to-optimize-your-website-for-ai-search-engines.aspx"
+                                    target="_blank">
+                                    <h4 style="font-size:18px;margin-bottom:6px;"><strong>How to Optimize Your Website
+                                            for AI Search
+                                            Engines</strong></h4>
+                                </a>
+                                <p class="testimonial_subtitle" style="margin-bottom:4px;">Blog Topics</p>
+                                <p class="testimonial_para"><b>Date: May 20, 2026</b></p>
+                            </div>
+
+                            <hr class="line">
+                            <div class="col-sm-12">
+                                <div class="testimonial-review-button">
+                                    <a href="https://www.kingofdigitalmarketing.com/blog/" target="_blank">
+                                        <div class="testimonial-style-button">
+                                            <div class="testimonial-button-text">
+                                                Read More Blogs
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section for FAQ Ends -->
+
+        <!-- Get Started Section Starts -->
+        <section class="call-to-action featured footer">
+            <div class="container ">
+                <div class="row">
+                    <div class="center">
+                        <h< /h4>GET STARTED <strong>WITH US</strong> TODAY!<a href="Contact-Us.aspx" target="_blank"
+                                class="btn btn-lg btn-primary" data-appear-animation="bounceIn">Free Website Audit!</a>
+                            <span class="arrow hlb hidden-xs hidden-sm hidden-md" data-appear-animation="rotateInUpLeft"
+                                style="top: -22px;"></span></h3>
+                            <h3>Helping Brands Grow <strong>Revenue & Profit</strong> With <strong>Digital Marketing
+                                    Services!
+                                </strong><a href="Our-Portfolio.aspx" target="_blank" class="btn btn-lg btn-primary"
+                                    data-appear-animation="bounceIn">Our Works!</a> <span
+                                    class="arrow hlb hidden-xs hidden-sm hidden-md"
+                                    data-appear-animation="rotateInUpLeft" style="top: -22px;"></span></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Get Started Section Ends -->
+        <!--Footer Starts-->
+
+
+
+
+
+        <!-- Vendor -->
+
+        <script src="vendor/jquery/jquery.js"></script>
+
+        <script src="vendor/jquery.appear/jquery.appear.js"></script>
+
+        <script src="vendor/jquery.easing/jquery.easing.js"></script>
+
+        <script src="vendor/jquery-cookie/jquery-cookie.js"></script>
+
+        <script src="vendor/bootstrap/bootstrap.js"></script>
+
+        <script src="vendor/common/common.js"></script>
+
+        <script src="vendor/owlimages/owl.images.js"></script>
+
+        <!-- Theme Base, Components and Settings -->
+
+        <script src="js/theme.js"></script>
+
+        <!-- Theme Custom -->
+
+        <script src="js/custom.js"></script>
+
+        <!-- Theme Initialization Files -->
+
+        <script src="js/theme.init.js"></script>
+
+        <script src="js/kdm-mega-menu-v2.js"></script>
+        <script src="js/carsousel.js"></script>
+        <!--Floating Whatsapp Call in Desktop-->
+    </asp:Content>
