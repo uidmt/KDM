@@ -601,11 +601,11 @@
             <div class="container" style="position: relative; z-index: 2;">
                 <div class="row custom-row align-items-center">
                     <div class="col-md-8">
-                        <div class="kdm-dark-badge">
+                        <div class="kdm-theme-badge">
                             <i class="fa fa-crown"></i> ESTABLISHED SINCE 2013
                         </div>
                         <h2 class="kdm-dark-heading">
-                            King of <span class="kdm-gold-gradient">Digital Marketing</span>
+                            King of <span class="kdm-theme-gradient">Digital Marketing</span>
                         </h2>
                         
                         <p align="justify">
@@ -634,8 +634,23 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="kdm-form-wrapper">
-                            <iframe class="home-form" scrolling="no" src="contact.aspx" width="100%" loading="lazy"></iframe>
+                        <div class="kdm-founder-card">
+                            <div class="kdm-founder-img-wrapper">
+                                <img src="images/Gaurav Dubey Digital Marketing trainer.png" alt="Gaurav Dubey - Founder & CEO" class="kdm-founder-img" />
+                            </div>
+                            <h3 class="kdm-founder-name">Gaurav Dubey</h3>
+                            <div class="kdm-founder-title">Founder &amp; CEO</div>
+                            <p class="kdm-founder-credential">
+                                Senior Digital Marketing Consultant &amp; Trainer<br />
+                                <b>13+ Yrs Exp</b> | <b>900+ Projects</b> | <b>1,850+ Students</b>
+                            </p>
+                            <div class="kdm-founder-socials">
+                                <a href="https://www.linkedin.com/in/the-gaurav-dubey/" target="_blank" class="kdm-founder-social-btn linkedin" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/gauravdubey.in/" target="_blank" class="kdm-founder-social-btn facebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/iamgauravdubey" target="_blank" class="kdm-founder-social-btn twitter" title="Twitter / X"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/thegauravdubey/" target="_blank" class="kdm-founder-social-btn instagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/channel/UCkGU7-8u1zCLRHb5spjUaLQ" target="_blank" class="kdm-founder-social-btn youtube" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
