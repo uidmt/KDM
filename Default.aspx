@@ -1353,25 +1353,29 @@
 
         <!--SEO Result Section Starts-->
 
-        <section class="seo-results">
+        <!--SEO Result Section Starts-->
+        <section class="kdm-seo-results-section seo-results">
+            <div class="container">
+                <div class="kdm-seo-header">
+                    <div class="kdm-seo-badge">
+                        <i class="fa fa-line-chart fa-solid fa-chart-line"></i> PROVEN ORGANIC RANKINGS
+                    </div>
+                    <h2 class="kdm-seo-title">AWESOME <span class="kdm-blue-gradient">SEO RESULTS</span></h2>
+                    <p class="kdm-seo-description">
+                        The best feeling ever, When SEO experts are able to bring your website at top 5 ranking of searh engine result page. If You have the vision, You have come to the right <strong>digital marketing company</strong>. We have the ability to optimize your website to get more traffic leads and sales. - "If not We then Who". Tell us about your digital goals and challenges, Our digital marketing experts will share our strategy and the best approach for your requirements. Our SEO results speak for our Search Engine Optimization services. <b>See the SEO results.</b>
+                    </p>
 
-            <h2> AWESOME SEO RESULTS</h2>
-            <P align="center" class="color-black">The best feeling ever, When SEO experts are able to bring your website
-                at
-                top 5 ranking of searh engine result page. If You have the vision, You have come to the right
-                <strong>digital
-                    marketing company</strong>. We have the ability to optimize your website to get more traffic leads
-                and sales.
-                - "If not We then Who". Tell us about your digital goals and challenges, Our digital marketing experts
-                will
-                share our strategy and the best approach for your requirements. Our SEO results speak for our Search
-                Engine
-                Optimization services. <b>See the SEO results.
-            </P>
-            <h3 align="center" class="result">We have best solutions for </h3>
-            <h4 align="center" class="result"><b> 1.</b> Low Organic Traffic <b>2.</b> No Organic Leads <b>3.</b> No
-                keywords
-                in 1st Page Ranking <b>4. </b>Low Backlinks <b>5.</b> Poor Domain Authority </h3>
+                    <div class="kdm-seo-solutions-box">
+                        <h3 class="kdm-seo-solutions-title">We Have Best Solutions For</h3>
+                        <div class="kdm-seo-solutions-grid">
+                            <span class="kdm-seo-solution-item"><b>1.</b> Low Organic Traffic</span>
+                            <span class="kdm-seo-solution-item"><b>2.</b> No Organic Leads</span>
+                            <span class="kdm-seo-solution-item"><b>3.</b> No Keywords in 1st Page Ranking</span>
+                            <span class="kdm-seo-solution-item"><b>4.</b> Low Backlinks</span>
+                            <span class="kdm-seo-solution-item"><b>5.</b> Poor Domain Authority</span>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="slider">
                     <div class="slides">
@@ -1379,7 +1383,7 @@
                         <div class="seo-card">
                             <div class="card-inner">
                                 <div class="card-header">
-                                    <h< /h4>QHT Hair Clinic</h3>
+                                    <h3>QHT Hair Clinic</h3>
                                         <span>QHT is one of the premium hair transplant clinic in India, We have been
                                             working for SEO since
                                             2024
@@ -1548,6 +1552,7 @@
                     <button class="nav-btn prev">&#10094;</button>
                     <button class="nav-btn next">&#10095;</button>
                 </div>
+            </div>
         </section>
 
         <script>
