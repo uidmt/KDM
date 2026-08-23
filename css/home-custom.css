@@ -1499,32 +1499,76 @@ h2.kdm-process-title {
   }
 
   .hero-section-unique {
-    min-height: 45vh !important;
-    padding: 20px 10px;
+    min-height: auto !important;
+    padding: 25px 15px 35px 15px !important;
+  }
+
+  .hero-flag-unique {
+    width: 85px !important;
+    height: 55px !important;
+    margin-bottom: 16px !important;
   }
 
   #hero-line1-unique {
-    font-size: 18px !important;
+    font-size: 14px !important;
+    letter-spacing: 1.5px !important;
+    margin: 0 0 10px 0 !important;
+    color: #38bdf8 !important;
+    font-weight: 700 !important;
   }
 
   #hero-line2-unique {
     font-size: 24px !important;
-    margin-bottom: 10px;
+    line-height: 1.3 !important;
+    margin-bottom: 12px !important;
+    font-weight: 900 !important;
   }
 
   #hero-line3-unique {
-    font-size: 14px !important;
-    margin: 10px 0 0 0;
+    font-size: 12.5px !important;
+    line-height: 1.45 !important;
+    margin: 0 !important;
+    color: #94a3b8 !important;
+    padding: 0 5px;
   }
 
   #hero-contactBtn-unique {
-    margin-top: 20px !important;
-    padding: 10px 25px !important;
-    font-size: 14px !important;
+    margin-top: 18px !important;
+    padding: 10px 24px !important;
+    font-size: 13px !important;
+    border-radius: 50px !important;
   }
 
   .hero-text-unique {
     line-height: 1.3;
+  }
+
+  .kdm-hero-trust-wrapper {
+    margin-top: 20px !important;
+  }
+
+  .kdm-tb-headline {
+    font-size: 9.5px !important;
+    letter-spacing: 0.8px !important;
+    padding: 3px 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .kdm-hero-trust-badges {
+    gap: 7px !important;
+  }
+
+  .kdm-trust-badge-pill {
+    padding: 5px 10px !important;
+    gap: 6px !important;
+  }
+
+  .kdm-tb-name {
+    font-size: 11.5px !important;
+  }
+
+  .kdm-tb-rating {
+    font-size: 11.5px !important;
   }
 
   .service-name {
