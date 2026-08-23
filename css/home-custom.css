@@ -5996,17 +5996,17 @@ svg.kdm-ppc-svg-icon {
     display: block;
     color: #ffffff;
     font-family: 'Montserrat', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    font-size: 28px;
-    font-weight: 800;
+    font-size: 21px;
+    font-weight: 700;
     line-height: 1.15;
-    margin-bottom: 6px;
-    letter-spacing: -0.5px;
+    margin-bottom: 3px;
+    letter-spacing: -0.3px;
 }
 
 .kdm-cred-label {
-    color: #cbd5e1;
+    color: #94a3b8;
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     margin: 0;
     text-transform: none;
