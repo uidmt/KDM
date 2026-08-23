@@ -180,9 +180,9 @@
                     <!-- Clutch 4.6 -->
                     <div class="kdm-trust-badge-pill clutch-badge">
                         <div class="kdm-tb-icon">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z" fill="#FF4742"/>
-                                <circle cx="17.5" cy="6.5" r="2.5" fill="#173947"/>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.89 6.11a5.5 5.5 0 1 0 0 7.78.8.8 0 1 0-1.13-1.13 3.9 3.9 0 1 1 0-5.52.8.8 0 0 0 1.13-1.13z" fill="#ffffff"/>
+                                <circle cx="17.5" cy="6.5" r="2.8" fill="#FF4742"/>
                             </svg>
                         </div>
                         <div class="kdm-tb-info">
