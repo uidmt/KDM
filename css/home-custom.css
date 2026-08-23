@@ -6030,6 +6030,239 @@ svg.kdm-ppc-svg-icon {
     }
 }
 
+/* ==========================================================================
+   Redesigned FAQ & Recent Blogs Section (Compact, Reusable Component)
+   ========================================================================== */
+.kdm-v2-faq-default-section {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    padding: 65px 0;
+    border-top: 1px solid #e2e8f0;
+    position: relative;
+}
+
+.kdm-faq-column-header,
+.kdm-blog-column-header {
+    margin-bottom: 22px;
+}
+
+.kdm-faq-column-header h2,
+.kdm-blog-column-header h2 {
+    color: #0f172a;
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0 0 6px 0;
+    letter-spacing: -0.3px;
+}
+
+.kdm-faq-column-header p,
+.kdm-blog-column-header p {
+    color: #64748b;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Compact Reusable FAQ Accordion System (Applies to all .panel-group / .kdm-faq-accordion across site) */
+.kdm-faq-default-section .panel-group,
+.kdm-v2-faq-default-section .panel-group,
+.panel-group.kdm-faq-accordion {
+    margin-bottom: 0;
+}
+
+.kdm-v2-faq-default-section .panel-default,
+.kdm-faq-default-section .panel-default,
+.panel-group .panel-default {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px !important;
+    margin-bottom: 10px !important;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.03);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.kdm-v2-faq-default-section .panel-default:hover,
+.panel-group .panel-default:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+.kdm-v2-faq-default-section .panel-heading,
+.panel-group .panel-heading {
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+
+.kdm-v2-faq-default-section .panel-title a,
+.panel-group .panel-title a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 18px;
+    color: #0f172a !important;
+    font-size: 14.5px;
+    font-weight: 600;
+    text-decoration: none !important;
+    line-height: 1.4;
+    transition: all 0.25s ease;
+    position: relative;
+}
+
+.kdm-v2-faq-default-section .panel-title a:hover,
+.panel-group .panel-title a:hover {
+    color: #0284c7 !important;
+    background: rgba(2, 132, 199, 0.03);
+}
+
+.kdm-v2-faq-default-section .panel-title a:not(.collapsed),
+.panel-group .panel-title a:not(.collapsed) {
+    color: #0284c7 !important;
+    background: rgba(2, 132, 199, 0.05);
+    border-left: 3.5px solid #0284c7;
+}
+
+/* Accordion indicator icon */
+.kdm-v2-faq-default-section .panel-title a::after,
+.panel-group .panel-title a::after {
+    content: '\f067'; /* FontAwesome fa-plus */
+    font-family: 'FontAwesome';
+    font-size: 11px;
+    color: #0284c7;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: rgba(2, 132, 199, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 12px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.kdm-v2-faq-default-section .panel-title a:not(.collapsed)::after,
+.panel-group .panel-title a:not(.collapsed)::after {
+    content: '\f068'; /* FontAwesome fa-minus */
+    background: #0284c7;
+    color: #ffffff;
+}
+
+.kdm-v2-faq-default-section .panel-body,
+.panel-group .panel-body {
+    padding: 12px 18px 16px 18px;
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: #475569;
+    border-top: 1px solid #f1f5f9 !important;
+    background: #fafafa;
+}
+
+.kdm-v2-faq-default-section .panel-body strong,
+.panel-group .panel-body strong {
+    color: #0284c7;
+    font-weight: 700;
+}
+
+.kdm-v2-faq-default-section .panel-body ul,
+.panel-group .panel-body ul {
+    margin: 8px 0 0 18px;
+    padding: 0;
+}
+
+.kdm-v2-faq-default-section .panel-body ul li,
+.panel-group .panel-body ul li {
+    margin-bottom: 4px;
+}
+
+
+/* Compact Recent Blogs Cards Component */
+.kdm-blogs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kdm-blog-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 14px 18px;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    display: block;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.03);
+}
+
+.kdm-blog-card:hover {
+    transform: translateX(4px);
+    border-color: #0284c7;
+    box-shadow: 0 6px 18px rgba(2, 132, 199, 0.12);
+}
+
+.kdm-blog-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.kdm-blog-category {
+    background: rgba(2, 132, 199, 0.08);
+    color: #0284c7;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.kdm-blog-date {
+    color: #94a3b8;
+    font-size: 11.5px;
+    font-weight: 500;
+}
+
+.kdm-blog-card-title {
+    color: #0f172a;
+    font-size: 14.5px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0;
+    transition: color 0.25s ease;
+}
+
+.kdm-blog-card:hover .kdm-blog-card-title {
+    color: #0284c7;
+}
+
+.kdm-more-blogs-btn-wrap {
+    margin-top: 14px;
+    text-align: center;
+}
+
+.kdm-more-blogs-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: #ffffff !important;
+    font-size: 13.5px;
+    font-weight: 700;
+    padding: 10px 24px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.25);
+    transition: all 0.3s ease;
+}
+
+.kdm-more-blogs-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(2, 132, 199, 0.38);
+    background: linear-gradient(135deg, #0369a1 0%, #0284c7 100%);
+}
+
 
 
 
