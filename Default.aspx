@@ -2035,20 +2035,31 @@
         <!-- Section for FAQ Ends -->
 
         <!-- Get Started Section Starts -->
-        <section class="call-to-action featured footer">
-            <div class="container ">
-                <div class="row">
-                    <div class="center">
-                        <h< /h4>GET STARTED <strong>WITH US</strong> TODAY!<a href="Contact-Us.aspx" target="_blank"
-                                class="btn btn-lg btn-primary" data-appear-animation="bounceIn">Free Website Audit!</a>
-                            <span class="arrow hlb hidden-xs hidden-sm hidden-md" data-appear-animation="rotateInUpLeft"
-                                style="top: -22px;"></span></h3>
-                            <h3>Helping Brands Grow <strong>Revenue & Profit</strong> With <strong>Digital Marketing
-                                    Services!
-                                </strong><a href="Our-Portfolio.aspx" target="_blank" class="btn btn-lg btn-primary"
-                                    data-appear-animation="bounceIn">Our Works!</a> <span
-                                    class="arrow hlb hidden-xs hidden-sm hidden-md"
-                                    data-appear-animation="rotateInUpLeft" style="top: -22px;"></span></h3>
+        <section class="kdm-v2-cta-banner-section">
+            <div class="container">
+                <div class="kdm-cta-cards-row">
+                    <!-- CTA Card 1 -->
+                    <div class="kdm-cta-box-card">
+                        <div>
+                            <span class="kdm-cta-badge"><i class="fa fa-rocket"></i> GET STARTED TODAY</span>
+                            <h3 class="kdm-cta-card-title">GET STARTED <strong>WITH US TODAY!</strong></h3>
+                            <p class="kdm-cta-card-desc">Request a 100% Free Website Audit &amp; Custom Growth Blueprint from our experts.</p>
+                        </div>
+                        <a href="Contact-Us.aspx" target="_blank" class="kdm-cta-btn-glow">
+                            <span>Free Website Audit!</span> <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- CTA Card 2 -->
+                    <div class="kdm-cta-box-card">
+                        <div>
+                            <span class="kdm-cta-badge"><i class="fa fa-trophy"></i> PROVEN RESULTS</span>
+                            <h3 class="kdm-cta-card-title">Helping Brands Grow <strong>Revenue &amp; Profit!</strong></h3>
+                            <p class="kdm-cta-card-desc">Explore 900+ successful client works, case studies, and digital marketing results.</p>
+                        </div>
+                        <a href="Our-Portfolio.aspx" target="_blank" class="kdm-cta-btn-outline">
+                            <span>Our Works!</span> <i class="fa fa-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -6373,6 +6373,141 @@ svg.kdm-ppc-svg-icon {
     background: linear-gradient(135deg, #0369a1 0%, #0284c7 100%);
 }
 
+/* ==========================================================================
+   Redesigned Get Started CTA Section (Dark Theme Accent Component)
+   ========================================================================== */
+.kdm-v2-cta-banner-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    padding: 50px 0;
+    position: relative;
+    border-top: 1px solid #1e293b;
+    border-bottom: 1px solid #1e293b;
+    overflow: hidden;
+}
+
+.kdm-cta-cards-row {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.kdm-cta-box-card {
+    flex: 1;
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-top: 3.5px solid #0284c7;
+    border-radius: 16px;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: all 0.35s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.kdm-cta-box-card:hover {
+    transform: translateY(-4px);
+    border-color: #0284c7;
+    box-shadow: 0 16px 40px rgba(2, 132, 199, 0.25);
+    background: rgba(30, 41, 59, 0.9);
+}
+
+.kdm-cta-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: #38bdf8;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+}
+
+.kdm-cta-card-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 0 0 8px 0;
+    letter-spacing: -0.3px;
+}
+
+.kdm-cta-card-title strong {
+    color: #38bdf8;
+}
+
+.kdm-cta-card-desc {
+    color: #94a3b8;
+    font-size: 13.5px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}
+
+.kdm-cta-btn-glow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: #ffffff !important;
+    font-size: 13.5px;
+    font-weight: 700;
+    padding: 10px 24px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    box-shadow: 0 4px 16px rgba(2, 132, 199, 0.35);
+    transition: all 0.3s ease;
+}
+
+.kdm-cta-btn-glow:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(2, 132, 199, 0.5);
+    background: linear-gradient(135deg, #0369a1 0%, #0284c7 100%);
+}
+
+.kdm-cta-btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #ffffff !important;
+    font-size: 13.5px;
+    font-weight: 700;
+    padding: 10px 24px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+
+.kdm-cta-btn-outline:hover {
+    background: #ffffff;
+    color: #0f172a !important;
+    border-color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 767px) {
+    .kdm-cta-cards-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .kdm-cta-box-card {
+        padding: 22px 18px;
+    }
+    .kdm-cta-card-title {
+        font-size: 18px;
+    }
+}
+
 
 
 
