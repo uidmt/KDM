@@ -82,33 +82,90 @@
             </div>
         </section>
 
-        <!-- Credentials Counters Section -->
-        <section class="locationdetails-numbers-section">
-	<div class="container">
-		<div class="row center counters dark counters-row">
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-line-chart counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
-				<label class="counter-label" style="color: #ffffff;">Years in Business</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-bullseye counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
-				<label class="counter-label" style="color: #ffffff;">Projects Completed</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-globe counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">15+</strong>
-				<label class="counter-label" style="color: #ffffff;">Countries Served</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-laptop counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">32+</strong>
-				<label class="counter-label" style="color: #ffffff;">Digital Experts</label>
-			</div>
-		</div>
-	</div>
-</section>
+        <!-- ===== CREDENTIALS SECTION (COPIED DIRECTLY FROM DEFAULT.ASPX) ===== -->
+        <section class="kdm-credentials-white-section">
+            <div class="container">
+                <div class="kdm-credentials-header">
+                    <div class="kdm-credentials-badge">
+                        <i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
+                    </div>
+                    <h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+                    <p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
+                </div>
+
+                <div class="kdm-credentials-5grid counters dark counters-row">
+                    <!-- Box 1: 13+ Years of Experience -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
+                        <label class="kdm-cred-label">Years of Experience</label>
+                    </div>
+
+                    <!-- Box 2: 900+ Projects Completed -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
+                        <label class="kdm-cred-label">Projects Completed</label>
+                    </div>
+
+                    <!-- Box 3: 15+ Countries Served -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path
+                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                </path>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
+                        <label class="kdm-cred-label">Countries Served</label>
+                    </div>
+
+                    <!-- Box 4: 4.9 Overall Rating -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon
+                                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                </polygon>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1"
+                            data-append="★">4.9★</strong>
+                        <label class="kdm-cred-label">Overall Rating</label>
+                    </div>
+
+                    <!-- Box 5: 150+ Industries Served -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
+                        <label class="kdm-cred-label">Industries Served</label>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Limited Time Offer Countdown Banner -->
         <div class="kdm-package-countdown-banner">
