@@ -614,38 +614,6 @@
                             Since 2013, King of Digital Marketing has been helping businesses across India and 15+ countries worldwide. We are a Delhi-based digital marketing company built on one simple belief: <b>results matter more than reports</b>. Over the past decade, our team has worked across <b>900+ projects</b> from India and the United States, United Kingdom, Canada, Australia, Germany, UAE, Singapore, Turkey, Russia, and beyond. From domestic projects to international clients, we have helped small, mid-sized, and large businesses solve real problems like poor lead quality, low organic traffic, poor Google rankings, stagnant leads and flat conversion rates.
                         </p>
 
-                        <!-- Symmetrical Feature Cards Grid -->
-                        <div class="kdm-left-stats-grid">
-                            <div class="kdm-left-stat-card">
-                                <div class="kdm-left-stat-icon"><i class="fa fa-user-md fa-solid fa-user-tie"></i></div>
-                                <div class="kdm-left-stat-info">
-                                    <strong>13+ Yrs Exp.</strong>
-                                    <span>Senior Consultants</span>
-                                </div>
-                            </div>
-                            <div class="kdm-left-stat-card">
-                                <div class="kdm-left-stat-icon"><i class="fa fa-check-circle fa-solid fa-circle-check"></i></div>
-                                <div class="kdm-left-stat-info">
-                                    <strong>900+ Projects</strong>
-                                    <span>High ROI Delivered</span>
-                                </div>
-                            </div>
-                            <div class="kdm-left-stat-card">
-                                <div class="kdm-left-stat-icon"><i class="fa fa-globe fa-solid fa-globe"></i></div>
-                                <div class="kdm-left-stat-info">
-                                    <strong>15+ Countries</strong>
-                                    <span>Global Clients Served</span>
-                                </div>
-                            </div>
-                            <div class="kdm-left-stat-card">
-                                <div class="kdm-left-stat-icon"><i class="fa fa-graduation-cap fa-solid fa-graduation-cap"></i></div>
-                                <div class="kdm-left-stat-info">
-                                    <strong>1,850+ Students</strong>
-                                    <span>Trained Professionals</span>
-                                </div>
-                            </div>
-                        </div>
-
                         <p align="justify">
                             <b>What We Do?</b> We bring together professionalism, passion, and performance through our proven <a href="lead-generation-company.aspx">Lead Generation Services</a> with <a href="social-media-marketing-services.aspx">Social Media Marketing</a> or <a href="blog/best-ppc-services-in-delhi.html">PPC Management (Google Ads)</a>. King of Digital Marketing is an integral part of <strong>Devweboic Tech. OPC Pvt. Ltd.</strong> - A group of digital marketing company, Digital Marketing Freelancer and Digital Marketing Training Institute. We are here to help you become the best in your industry. We assign a team of digital marketing experts to provide amplification for your brand. Our Dedicated digital marketing specialists are with over 13+ years of experience in their field. They are passionate about growing your business by driving qualified leads, increasing sales and maximizing your visibility across Google and social media platforms. We have experts for <a href="SEO-Services.aspx">SEO services</a>, <a href="SMO-Services.aspx">Social Media services</a> and Paid Ads Management, who work for you 24x7 to increase sales and revenue.
                         </p>
