@@ -1957,37 +1957,69 @@
                             <p>Stay updated with our latest digital marketing trends &amp; insights</p>
                         </div>
 
-                        <div class="kdm-blogs-list">
-                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-for-lands-and-plot-selling.aspx" target="_blank" class="kdm-blog-card">
-                                <div class="kdm-blog-card-meta">
-                                    <span class="kdm-blog-category">Blog Topics</span>
-                                    <span class="kdm-blog-date"><i class="fa fa-calendar"></i> July 15, 2026</span>
+                        <div class="kdm-blogs-v2-container">
+                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-for-lands-and-plot-selling.aspx" target="_blank" class="kdm-blog-card-v2">
+                                <div class="kdm-blog-icon-hub">
+                                    <i class="fa fa-building-o"></i>
                                 </div>
-                                <h4 class="kdm-blog-card-title">Lead Generation for Lands and Plots Selling</h4>
+                                <div class="kdm-blog-content-body">
+                                    <div class="kdm-blog-meta-bar">
+                                        <span class="kdm-blog-pill">Real Estate</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> July 15, 2026</span>
+                                    </div>
+                                    <h4 class="kdm-blog-heading">Lead Generation for Lands and Plots Selling</h4>
+                                </div>
+                                <div class="kdm-blog-arrow-hub">
+                                    <i class="fa fa-chevron-right"></i>
+                                </div>
                             </a>
 
-                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-services-for-cruise-booking.aspx" target="_blank" class="kdm-blog-card">
-                                <div class="kdm-blog-card-meta">
-                                    <span class="kdm-blog-category">Blog Topics</span>
-                                    <span class="kdm-blog-date"><i class="fa fa-calendar"></i> June 20, 2026</span>
+                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-services-for-cruise-booking.aspx" target="_blank" class="kdm-blog-card-v2">
+                                <div class="kdm-blog-icon-hub">
+                                    <i class="fa fa-ship"></i>
                                 </div>
-                                <h4 class="kdm-blog-card-title">Lead Generation Services for Cruise Booking</h4>
+                                <div class="kdm-blog-content-body">
+                                    <div class="kdm-blog-meta-bar">
+                                        <span class="kdm-blog-pill">Hospitality</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> June 20, 2026</span>
+                                    </div>
+                                    <h4 class="kdm-blog-heading">Lead Generation Services for Cruise Booking</h4>
+                                </div>
+                                <div class="kdm-blog-arrow-hub">
+                                    <i class="fa fa-chevron-right"></i>
+                                </div>
                             </a>
 
-                            <a href="https://www.kingofdigitalmarketing.com/blog/digital-marketing-company-vs.aspx" target="_blank" class="kdm-blog-card">
-                                <div class="kdm-blog-card-meta">
-                                    <span class="kdm-blog-category">Blog Topics</span>
-                                    <span class="kdm-blog-date"><i class="fa fa-calendar"></i> June 10, 2026</span>
+                            <a href="https://www.kingofdigitalmarketing.com/blog/digital-marketing-company-vs.aspx" target="_blank" class="kdm-blog-card-v2">
+                                <div class="kdm-blog-icon-hub">
+                                    <i class="fa fa-line-chart"></i>
                                 </div>
-                                <h4 class="kdm-blog-card-title">Digital Marketing Company vs. In-House Team: Which is Better for Your Business?</h4>
+                                <div class="kdm-blog-content-body">
+                                    <div class="kdm-blog-meta-bar">
+                                        <span class="kdm-blog-pill">Strategy</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> June 10, 2026</span>
+                                    </div>
+                                    <h4 class="kdm-blog-heading">Digital Marketing Agency vs. In-House Team: Which is Better?</h4>
+                                </div>
+                                <div class="kdm-blog-arrow-hub">
+                                    <i class="fa fa-chevron-right"></i>
+                                </div>
                             </a>
 
-                            <a href="https://www.kingofdigitalmarketing.com/blog/how-to-optimize-your-website-for-ai-search-engines.aspx" target="_blank" class="kdm-blog-card">
-                                <div class="kdm-blog-card-meta">
-                                    <span class="kdm-blog-category">Blog Topics</span>
-                                    <span class="kdm-blog-date"><i class="fa fa-calendar"></i> May 20, 2026</span>
+                            <a href="https://www.kingofdigitalmarketing.com/blog/how-to-optimize-your-website-for-ai-search-engines.aspx" target="_blank" class="kdm-blog-card-v2">
+                                <div class="kdm-blog-icon-hub">
+                                    <i class="fa fa-laptop"></i>
                                 </div>
-                                <h4 class="kdm-blog-card-title">How to Optimize Your Website for AI Search Engines</h4>
+                                <div class="kdm-blog-content-body">
+                                    <div class="kdm-blog-meta-bar">
+                                        <span class="kdm-blog-pill">AI &amp; SEO</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> May 20, 2026</span>
+                                    </div>
+                                    <h4 class="kdm-blog-heading">How to Optimize Your Website for AI Search Engines</h4>
+                                </div>
+                                <div class="kdm-blog-arrow-hub">
+                                    <i class="fa fa-chevron-right"></i>
+                                </div>
                             </a>
                         </div>
 
