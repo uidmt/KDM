@@ -34,7 +34,7 @@
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="#38bdf8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                     #1 RESULT-DRIVEN SEO AGENCY
                 </div>
-                <h1>SEO Packages & Pricing in India</h1>
+                <h1>SEO Packages &amp; Pricing in India</h1>
                 <p class="hero-subtitle">Affordable, Result-Oriented Search Engine Optimization Packages Tailored to Drive Organic Traffic, Top 10 Google Rankings &amp; High Quality Leads.</p>
 
                 <div class="kdm-benefits-grid">
@@ -59,7 +59,7 @@
             </div>
         </section>
 
-        <!-- Credentials & Numbers Section -->
+        <!-- Redesigned Hero Section for Packages Pages -->
         <section class="locationdetails-numbers-section">
 	<div class="container">
 		<div class="row center counters dark counters-row">
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                     <div class="kdm-countdown-cta">
-                        <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Special Offer (15% OFF)')" class="kdm-countdown-btn">
+                        <a href="javascript:void(0);" onclick="openPackageModal('SEO Special Offer (15% OFF)')" class="kdm-countdown-btn">
                             <span>Claim Offer Now</span> <i class="fa fa-arrow-right"></i>
                         </a>
                     </div>
@@ -928,104 +928,6 @@
         </div>
       </div>
     </div>
-
-    <hr class="tall" />
-
-    <!-- ===== 6 USPs OF AVAILING OUR SEO PACKAGES ===== -->
-    <section class="kdm-usp-section">
-        <div class="container">
-            <div class="kdm-usp-header">
-                <div class="kdm-usp-badge">
-                    <i class="fa fa-star fa-solid fa-star"></i> WHY CHOOSE OUR SEO PACKAGES
-                </div>
-                <h2 class="kdm-usp-title">6 USPs OF AVAILING OUR <span class="kdm-blue-gradient">SEO PACKAGES</span></h2>
-                <p class="kdm-usp-subtitle">Discover why 900+ brands trust King of Digital Marketing for high-ROI Search Engine Optimization</p>
-            </div>
-
-            <div class="kdm-usp-grid">
-                <!-- USP 1 -->
-                <div class="kdm-usp-card">
-                    <div class="kdm-usp-icon-hub icon-cyan">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                            <path d="M2 12h20"></path>
-                        </svg>
-                    </div>
-                    <h3 class="kdm-usp-card-title">AI &amp; Search Intent Optimization</h3>
-                    <p class="kdm-usp-card-desc">We optimize your site for Google's latest algorithms, ChatGPT, Perplexity &amp; AI Overviews to capture future-ready organic traffic.</p>
-                </div>
-
-                <!-- USP 2 -->
-                <div class="kdm-usp-card">
-                    <div class="kdm-usp-icon-hub icon-blue">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="20" x2="18" y2="10"></line>
-                            <line x1="12" y1="20" x2="12" y2="4"></line>
-                            <line x1="6" y1="20" x2="6" y2="14"></line>
-                            <polyline points="18 6 12 2 6 8"></polyline>
-                        </svg>
-                    </div>
-                    <h3 class="kdm-usp-card-title">Guaranteed Top 10 Ranking Focus</h3>
-                    <p class="kdm-usp-card-desc">Our proven On-Page &amp; Off-Page strategies have successfully placed over 80% of targeted keywords on Page 1 of Google.</p>
-                </div>
-
-                <!-- USP 3 -->
-                <div class="kdm-usp-card">
-                    <div class="kdm-usp-icon-hub icon-green">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                            <path d="M9 12l2 2 4-4"></path>
-                        </svg>
-                    </div>
-                    <h3 class="kdm-usp-card-title">100% White-Hat &amp; Ethical SEO</h3>
-                    <p class="kdm-usp-card-desc">We strictly follow Google Webmaster Quality Guidelines to build penalty-safe, long-term organic authority for your domain.</p>
-                </div>
-
-                <!-- USP 4 -->
-                <div class="kdm-usp-card">
-                    <div class="kdm-usp-icon-hub icon-purple">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#9333ea" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <circle cx="12" cy="12" r="6"></circle>
-                            <circle cx="12" cy="12" r="2"></circle>
-                        </svg>
-                    </div>
-                    <h3 class="kdm-usp-card-title">High Lead &amp; Revenue Conversion</h3>
-                    <p class="kdm-usp-card-desc">We don't just target vanity traffic; we optimize for high-intent keywords that convert visitors into direct inquiries and sales.</p>
-                </div>
-
-                <!-- USP 5 -->
-                <div class="kdm-usp-card">
-                    <div class="kdm-usp-icon-hub icon-orange">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
-                    </div>
-                    <h3 class="kdm-usp-card-title">Transparent Monthly Reporting</h3>
-                    <p class="kdm-usp-card-desc">Get comprehensive monthly ranking reports, Traffic Analytics, Google Search Console audits, and roadmap updates with 0 hidden costs.</p>
-                </div>
-
-                <!-- USP 6 -->
-                <div class="kdm-usp-card">
-                    <div class="kdm-usp-icon-hub icon-amber">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="9" cy="7" r="4"></circle>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                        </svg>
-                    </div>
-                    <h3 class="kdm-usp-card-title">Dedicated SEO Specialist Support</h3>
-                    <p class="kdm-usp-card-desc">Assigned senior SEO consultant for customized campaign strategy, ongoing consultations, and 15-minute quick response support.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <hr class="tall" />
 
