@@ -73,11 +73,9 @@
                     <div class="kdm-pkg-stat-pill"><strong>4.9/5★</strong> Client Rating</div>
                 </div>
 
-                <!-- CTA Group with Popup Form Trigger -->
+                <!-- Single Pill CTA Button -->
                 <div class="kdm-pkg-cta-group">
-                    <a href="javascript:void(0);" onclick="openPackageModal('App Promotion Package Consultation')" class="kdm-btn-hero-primary"><i class="fa fa-paper-plane"></i> Request Free Consultation</a>
-                    <a href="tel:+919821918208" class="kdm-btn-hero-call"><i class="fa fa-phone"></i> Call +91 9821918208</a>
-                    <a href="https://api.whatsapp.com/send?phone=919821918208&text=Hi%20King%20of%20Digital%20Marketing,%20I%20am%20interested%20in%20your%20App%20Promotion%20packages." target="_blank" class="kdm-btn-hero-whatsapp"><i class="fa fa-whatsapp"></i> Instant WhatsApp Chat</a>
+                    <a href="javascript:void(0);" onclick="openPackageModal('App Promotion Audit')" class="kdm-btn-hero-single"><i class="fa fa-file-text-o"></i> Get Free App Growth Audit</a>
                 </div>
             </div>
         </section>

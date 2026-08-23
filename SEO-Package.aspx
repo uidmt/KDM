@@ -73,11 +73,13 @@
                     <div class="kdm-pkg-stat-pill"><strong>4.9/5★</strong> Client Rating</div>
                 </div>
 
-                <!-- CTA Group with Popup Form Trigger -->
+                <!-- Single Pill CTA Button -->
                 <div class="kdm-pkg-cta-group">
-                    <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Consultation')" class="kdm-btn-hero-primary"><i class="fa fa-paper-plane"></i> Request Free Consultation</a>
-                    <a href="tel:+919821918208" class="kdm-btn-hero-call"><i class="fa fa-phone"></i> Call +91 9821918208</a>
-                    <a href="https://api.whatsapp.com/send?phone=919821918208&text=Hi%20King%20of%20Digital%20Marketing,%20I%20am%20interested%20in%20your%20SEO%20packages." target="_blank" class="kdm-btn-hero-whatsapp"><i class="fa fa-whatsapp"></i> Instant WhatsApp Chat</a>
+                    <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Growth Audit')" class="kdm-btn-hero-single">
+                        <span class="kdm-cta-icon-badge"><i class="fa fa-file-text-o"></i></span>
+                        <span>Get Free SEO Growth Audit</span>
+                        <i class="fa fa-arrow-right kdm-cta-arrow"></i>
+                    </a>
                 </div>
             </div>
         </section>
@@ -123,6 +125,40 @@
           </p>
         </div>
       </section>
+
+      <!-- Limited Time Offer Countdown Banner -->
+      <div class="kdm-package-countdown-banner">
+        <div class="container">
+          <div class="kdm-countdown-flex-wrap">
+            <div class="kdm-countdown-info">
+              <span class="kdm-countdown-badge"><i class="fa fa-clock-o"></i> LIMITED TIME SPECIAL OFFER</span>
+              <h3 class="kdm-countdown-title">Get <strong>Instant 15% OFF</strong> On All SEO Packages Today!</h3>
+            </div>
+            <div class="kdm-countdown-timer">
+              <div class="kdm-timer-unit">
+                <span class="kdm-timer-num kdm-timer-hours">08</span>
+                <span class="kdm-timer-lbl">Hours</span>
+              </div>
+              <span class="kdm-timer-colon">:</span>
+              <div class="kdm-timer-unit">
+                <span class="kdm-timer-num kdm-timer-mins">42</span>
+                <span class="kdm-timer-lbl">Mins</span>
+              </div>
+              <span class="kdm-timer-colon">:</span>
+              <div class="kdm-timer-unit">
+                <span class="kdm-timer-num kdm-timer-secs">19</span>
+                <span class="kdm-timer-lbl">Secs</span>
+              </div>
+            </div>
+            <div class="kdm-countdown-cta">
+              <a href="javascript:void(0);" onclick="openPackageModal('SEO Special Offer (15% OFF)')"
+                class="kdm-countdown-btn">
+                <span>Claim Offer Now</span> <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--
   <div style="text-align: center; margin-bottom: 30px;">
     <span class="kdm-pkg-badge"><i class="fa fa-trophy"></i> PROVEN TRACK RECORD</span>

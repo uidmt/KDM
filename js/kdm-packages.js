@@ -234,4 +234,39 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 5. Start SEO Results Card Carousel
     initSeoResultsSlider();
+
+    // 6. Start Live Offer Countdown Timer
+    initPackageCountdown();
 });
+
+/* ==========================================================================
+   Dynamic Countdown Timer for Package Banners
+   ========================================================================== */
+function initPackageCountdown() {
+    var hoursEls = document.querySelectorAll('.kdm-timer-hours');
+    var minsEls = document.querySelectorAll('.kdm-timer-mins');
+    var secsEls = document.querySelectorAll('.kdm-timer-secs');
+    if (!hoursEls.length && !minsEls.length && !secsEls.length) return;
+
+    var totalSeconds = 8 * 3600 + 42 * 60 + 19;
+
+    setInterval(function () {
+        if (totalSeconds <= 0) {
+            totalSeconds = 12 * 3600;
+        } else {
+            totalSeconds--;
+        }
+
+        var hrs = Math.floor(totalSeconds / 3600);
+        var mins = Math.floor((totalSeconds % 3600) / 60);
+        var secs = totalSeconds % 60;
+
+        var hrsStr = (hrs < 10 ? '0' : '') + hrs;
+        var minsStr = (mins < 10 ? '0' : '') + mins;
+        var secsStr = (secs < 10 ? '0' : '') + secs;
+
+        hoursEls.forEach(function (el) { el.textContent = hrsStr; });
+        minsEls.forEach(function (el) { el.textContent = minsStr; });
+        secsEls.forEach(function (el) { el.textContent = secsStr; });
+    }, 1000);
+}
