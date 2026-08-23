@@ -634,7 +634,6 @@
                             <div>
                                 <div class="kdm-founder-img-wrapper">
                                     <img src="images/Gaurav Dubey Digital Marketing trainer.png" alt="Gaurav Dubey - Founder & CEO" class="kdm-founder-img" />
-                                    <div class="kdm-verified-badge" title="Verified Founder & CEO"><i class="fa fa-check fa-solid fa-check"></i></div>
                                 </div>
                                 <h3 class="kdm-founder-name">Gaurav Dubey</h3>
                                 <div class="kdm-founder-title">Founder &amp; CEO</div>
