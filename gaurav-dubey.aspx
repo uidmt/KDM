@@ -28,7 +28,7 @@
 
 		<meta name="Robots" content="index, follow">
 		<meta name="googlebot" content="index, follow">
-		<link rel="author" href="https://www.linkedin.com/in/the-gaurav-dubey" />
+		<link rel="author" href="https://www.linkedin.com/in/iam-gaurav-dubey/" />
 
 		<!-- JSON-LD Schemas -->
 		<!-- 1. Person Schema -->
@@ -57,7 +57,7 @@
 	  "image": "https://www.kingofdigitalmarketing.com/images/gauravdubey/gaurav%20dubey%20digital%20marketing.png",
 	  "sameAs": [
 	    "https://www.facebook.com/gauravdubey.in/",
-	    "https://www.linkedin.com/in/the-gaurav-dubey/",
+	    "https://www.linkedin.com/in/iam-gaurav-dubey/",
 	    "https://twitter.com/iamgauravdubey",
 	    "https://www.instagram.com/thegauravdubey/",
 	    "https://www.youtube.com/channel/UCkGU7-8u1zCLRHb5spjUaLQ"

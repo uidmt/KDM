@@ -675,7 +675,7 @@
                             </div>
 
                             <div class="kdm-founder-socials">
-                                <a href="https://www.linkedin.com/in/the-gaurav-dubey/" target="_blank" class="kdm-founder-social-btn linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" class="kdm-founder-social-btn linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-brands fa-linkedin"></i></a>
                                 <a href="https://www.facebook.com/gauravdubey.in/" target="_blank" class="kdm-founder-social-btn facebook" title="Facebook"><i class="fa fa-facebook fa-brands fa-facebook-f"></i></a>
                                 <a href="https://twitter.com/iamgauravdubey" target="_blank" class="kdm-founder-social-btn twitter" title="Twitter / X"><i class="fa fa-twitter fa-brands fa-x-twitter"></i></a>
                                 <a href="https://www.instagram.com/thegauravdubey/" target="_blank" class="kdm-founder-social-btn instagram" title="Instagram"><i class="fa fa-instagram fa-brands fa-instagram"></i></a>
