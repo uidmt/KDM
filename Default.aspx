@@ -739,14 +739,20 @@
                             <h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">Digital
                                     Marketing Company</span> To Help Flourish Your Business</h2>
                             <p class="kdm-clients-subtitle">
-                                What makes us distinct is our valuable clients. We strive day in and day out to secure their branding, online reputation, visibility, high-converting traffic, and qualified lead generation.
+                                What makes us distinct is our valuable clients. We strive day in and day out to secure
+                                their branding, online reputation, visibility, high-converting traffic, and qualified
+                                lead generation.
                             </p>
                             <div class="kdm-clients-motto-wrapper">
                                 <div class="kdm-clients-motto">
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Ambitious</span>
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Experts</span>
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Shepherd</span>
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are King</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+                                        Ambitious</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+                                        Experts</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+                                        Shepherd</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are
+                                        King</span>
                                 </div>
                             </div>
                         </div>
@@ -1179,7 +1185,6 @@
                 </div>
             </div>
         </section>
-        <hr class="tall" />
         <!-- ===== DIGITAL MARKETING PROCESS SECTION (WHITE THEME) ===== -->
         <section class="kdm-process-white-section">
             <div class="container" style="position: relative; z-index: 2;">
@@ -1593,7 +1598,6 @@
             </a>
         </div>
 
-        <hr class="tall" />
 
 
         <!-- NUMBERS DO SPEAK A LOT ! -->
