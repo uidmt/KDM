@@ -5997,11 +5997,11 @@ svg.kdm-ppc-svg-icon {
     display: block !important;
     color: #ffffff !important;
     font-family: 'Montserrat', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
-    font-size: 23px !important;
-    font-weight: 700 !important;
-    line-height: 1.2 !important;
+    font-size: 26px !important;
+    font-weight: 800 !important;
+    line-height: 1.15 !important;
     margin-bottom: 4px !important;
-    letter-spacing: -0.3px !important;
+    letter-spacing: -0.4px !important;
 }
 
 .kdm-credentials-5grid .kdm-cred-label,
