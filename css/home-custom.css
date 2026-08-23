@@ -6175,18 +6175,56 @@ svg.kdm-ppc-svg-icon {
 }
 
 
+/* Desktop Flex Alignment to match FAQ and Recent Blogs columns 100% */
+@media (min-width: 992px) {
+    .kdm-v2-faq-default-section .custom-row {
+        display: flex;
+        align-items: stretch;
+    }
+    .kdm-v2-faq-default-section .kdm-blog-col-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.kdm-faq-column-header,
+.kdm-blog-column-header {
+    margin-bottom: 12px;
+    min-height: 48px;
+}
+
+.kdm-faq-column-header h2,
+.kdm-blog-column-header h2 {
+    color: #0f172a;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0 0 3px 0;
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+}
+
+.kdm-faq-column-header p,
+.kdm-blog-column-header p {
+    color: #64748b;
+    font-size: 12.5px;
+    margin: 0;
+    line-height: 1.35;
+}
+
 /* Executive Recent Blogs Component (V2 Redesign) */
 .kdm-blogs-v2-container {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 7px;
+    flex: 1;
 }
 
 .kdm-blog-card-v2 {
     background: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 9px;
-    padding: 8px 12px;
+    padding: 9px 12px;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -6219,16 +6257,16 @@ svg.kdm-ppc-svg-icon {
 }
 
 .kdm-blog-icon-hub {
-    width: 32px;
-    height: 32px;
-    min-width: 32px;
-    border-radius: 7px;
+    width: 34px;
+    height: 34px;
+    min-width: 34px;
+    border-radius: 8px;
     background: rgba(2, 132, 199, 0.08);
     color: #0284c7;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 13.5px;
+    font-size: 14px;
     transition: all 0.25s ease;
 }
 
@@ -6257,7 +6295,7 @@ svg.kdm-ppc-svg-icon {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.4px;
-    padding: 1px 5px;
+    padding: 1px 6px;
     border-radius: 4px;
 }
 
@@ -6272,10 +6310,10 @@ svg.kdm-ppc-svg-icon {
     font-size: 13px;
     font-weight: 700;
     margin: 0;
-    line-height: 1.3;
+    line-height: 1.35;
     transition: color 0.2s ease;
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -6305,7 +6343,7 @@ svg.kdm-ppc-svg-icon {
 }
 
 .kdm-more-blogs-btn-wrap {
-    margin-top: 10px;
+    margin-top: 12px;
     text-align: center;
 }
 
@@ -6318,7 +6356,7 @@ svg.kdm-ppc-svg-icon {
     color: #ffffff !important;
     font-size: 12.5px;
     font-weight: 700;
-    padding: 8px 20px;
+    padding: 8px 22px;
     border-radius: 50px;
     text-decoration: none !important;
     box-shadow: 0 3px 10px rgba(2, 132, 199, 0.2);
