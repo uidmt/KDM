@@ -6509,62 +6509,95 @@ svg.kdm-ppc-svg-icon {
 }
 
 /* ==========================================================================
-   Vibrant Hero Trust Badges (Google 4.9, Facebook 4.8, Clutch 4.6, Justdial 4.7, GoodWork 4.4)
+   Vibrant Hero Trust Badges (Google 4.9, Facebook 4.8, Clutch 4.6, Justdial 4.7, GoodFirms 4.4)
    ========================================================================== */
+.kdm-hero-trust-wrapper {
+    margin-top: 26px;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    background: radial-gradient(circle at center, rgba(56, 189, 248, 0.08) 0%, transparent 75%);
+    padding: 12px 10px;
+    border-radius: 20px;
+}
+
+.kdm-tb-headline {
+    color: #94a3b8;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 4px 14px;
+    border-radius: 50px;
+}
+
+.kdm-tb-headline strong {
+    color: #38bdf8;
+}
+
+.kdm-tb-pulse-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 10px #22c55e;
+    animation: kdmPulse 2s infinite ease-in-out;
+}
+
+@keyframes kdmPulse {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+
 .kdm-hero-trust-badges {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 22px;
-    position: relative;
-    z-index: 5;
+    gap: 12px;
 }
 
 .kdm-trust-badge-pill {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    background: rgba(15, 23, 42, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 6px 14px;
+    gap: 9px;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.85) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 7px 15px;
     border-radius: 50px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 .kdm-trust-badge-pill:hover {
-    transform: translateY(-3px);
-    background: rgba(15, 23, 42, 0.95);
+    transform: translateY(-4px) scale(1.03);
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.95) 100%);
 }
 
-.kdm-trust-badge-pill.google-badge:hover {
-    border-color: #4285F4;
-    box-shadow: 0 6px 20px rgba(66, 133, 244, 0.35);
-}
+.kdm-trust-badge-pill.google-badge { border-color: rgba(66, 133, 244, 0.35); }
+.kdm-trust-badge-pill.google-badge:hover { border-color: #4285F4; box-shadow: 0 8px 24px rgba(66, 133, 244, 0.45); }
 
-.kdm-trust-badge-pill.facebook-badge:hover {
-    border-color: #1877F2;
-    box-shadow: 0 6px 20px rgba(24, 119, 242, 0.35);
-}
+.kdm-trust-badge-pill.facebook-badge { border-color: rgba(24, 119, 242, 0.35); }
+.kdm-trust-badge-pill.facebook-badge:hover { border-color: #1877F2; box-shadow: 0 8px 24px rgba(24, 119, 242, 0.45); }
 
-.kdm-trust-badge-pill.clutch-badge:hover {
-    border-color: #FF4742;
-    box-shadow: 0 6px 20px rgba(255, 71, 66, 0.35);
-}
+.kdm-trust-badge-pill.clutch-badge { border-color: rgba(255, 71, 66, 0.35); }
+.kdm-trust-badge-pill.clutch-badge:hover { border-color: #FF4742; box-shadow: 0 8px 24px rgba(255, 71, 66, 0.45); }
 
-.kdm-trust-badge-pill.justdial-badge:hover {
-    border-color: #FF6600;
-    box-shadow: 0 6px 20px rgba(255, 102, 0, 0.35);
-}
+.kdm-trust-badge-pill.justdial-badge { border-color: rgba(255, 102, 0, 0.35); }
+.kdm-trust-badge-pill.justdial-badge:hover { border-color: #FF6600; box-shadow: 0 8px 24px rgba(255, 102, 0, 0.45); }
 
-.kdm-trust-badge-pill.goodwork-badge:hover {
-    border-color: #1C61AC;
-    box-shadow: 0 6px 20px rgba(28, 97, 172, 0.35);
-}
+.kdm-trust-badge-pill.goodwork-badge { border-color: rgba(0, 180, 216, 0.35); }
+.kdm-trust-badge-pill.goodwork-badge:hover { border-color: #00B4D8; box-shadow: 0 8px 24px rgba(0, 180, 216, 0.45); }
 
 .kdm-tb-icon {
     display: flex;
@@ -6580,8 +6613,8 @@ svg.kdm-ppc-svg-icon {
 }
 
 .kdm-tb-name {
-    color: #e2e8f0;
-    font-size: 12.5px;
+    color: #f8fafc;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: -0.2px;
 }
@@ -6593,15 +6626,16 @@ svg.kdm-ppc-svg-icon {
     display: flex;
     align-items: center;
     gap: 3px;
-    background: rgba(250, 204, 21, 0.12);
-    padding: 2px 7px;
+    background: rgba(250, 204, 21, 0.15);
+    padding: 2.5px 8px;
     border-radius: 20px;
-    border: 1px solid rgba(250, 204, 21, 0.25);
+    border: 1px solid rgba(250, 204, 21, 0.35);
+    box-shadow: inset 0 1px 2px rgba(250, 204, 21, 0.2);
 }
 
 .kdm-tb-star {
     color: #facc15;
-    font-size: 10.5px;
+    font-size: 11px;
 }
 
 
