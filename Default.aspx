@@ -1435,7 +1435,28 @@
 
                         <div class="happy" id="images">
                             <div class="track">
-                                <!-- put your original set of slides here (JS will clone as needed) -->
+                                <!-- Featured Priority Client Logos -->
+                                <div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
+                                <div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
+                                <div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
+                                <div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
+                                <div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
+                                <div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+                                <div class="slide"><img alt="Global Opportunities" src="images/global_2344005.png"></div>
+                                <div class="slide"><img alt="Planet Education" src="images/planeteducationnoida.png"></div>
+                                <div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+                                <div class="slide"><img alt="Aliff" src="images/aliff.jpeg"></div>
+                                <div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+                                <div class="slide"><img alt="Scala" src="images/scala.png"></div>
+                                <div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
+                                <div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
+                                <div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+                                <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
+                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+                                <div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
+                                <div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
+
+                                <!-- Additional Client Logos -->
                                 <div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
                                 <div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg">
                                 </div>
