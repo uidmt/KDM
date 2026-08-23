@@ -27,50 +27,59 @@
   </asp:Content>
   <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div role="main" class="main">
-      <!-- Executive Hero Banner Section -->
-      <section class="kdm-pkg-hero">
-        <div class="kdm-pkg-hero-content">
-          <div class="kdm-top-badge">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="#38bdf8">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-            </svg>
-            #1 RESULT-DRIVEN SEO AGENCY
-          </div>
-          <h1>SEO Packages &amp; Pricing in India</h1>
-          <p class="hero-subtitle">Affordable, Result-Oriented Search Engine Optimization Packages Tailored to Drive
-            Organic Traffic, Top 10 Google Rankings &amp; High Quality Leads.</p>
+        <!-- Executive Hero Banner Section -->
+        <section class="kdm-pkg-hero">
+            <div class="kdm-pkg-hero-content">
+                <div class="kdm-top-badge">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="#38bdf8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    #1 RESULT-DRIVEN SEO AGENCY
+                </div>
+                <h1>SEO Packages &amp; Pricing in India</h1>
+                <p class="hero-subtitle">Affordable, Result-Oriented Search Engine Optimization Packages Tailored to Drive Organic Traffic, Top 10 Google Rankings &amp; High Quality Leads.</p>
 
-          <div class="kdm-benefits-grid">
-            <div class="kdm-benefit-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              Dedicated SEO Account Manager
-            </div>
-            <div class="kdm-benefit-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              100% Transparent Monthly ROI Reports
-            </div>
-            <div class="kdm-benefit-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              AI &amp; Algorithm-Driven Keyword Strategy
-            </div>
-          </div>
+                <!-- 6 USPs Grid -->
+                <div class="kdm-benefits-grid">
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Dedicated SEO Account Manager
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        100% Transparent Monthly ROI Reports
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        AI &amp; Algorithm-Driven Keyword Strategy
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Guaranteed Top 10 Google Rankings
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        100% White-Hat &amp; Penalty-Safe SEO
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        High-Intent Organic Lead Generation
+                    </div>
+                </div>
 
-          <div class="kdm-pkg-cta-group">
-            <a href="tel:+919821918208" class="kdm-btn-hero-primary"><i class="fa fa-phone"></i> Call +91 9821918208</a>
-            <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Consultation')"
-              class="kdm-btn-hero-whatsapp"><i class="fa fa-calendar"></i> Request Free SEO Audit</a>
-          </div>
-        </div>
-      </section>
+                <!-- 4 Key Stats Pills -->
+                <div class="kdm-pkg-stats">
+                    <div class="kdm-pkg-stat-pill"><strong>900+</strong> Global Brands</div>
+                    <div class="kdm-pkg-stat-pill"><strong>900+</strong> Success Stories</div>
+                    <div class="kdm-pkg-stat-pill"><strong>13+</strong> Years Experience</div>
+                    <div class="kdm-pkg-stat-pill"><strong>4.9/5★</strong> Client Rating</div>
+                </div>
+
+                <!-- CTA Group with Popup Form Trigger -->
+                <div class="kdm-pkg-cta-group">
+                    <a href="tel:+919821918208" class="kdm-btn-hero-primary"><i class="fa fa-phone"></i> Call +91 9821918208</a>
+                    <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Free Audit Consultation')" class="kdm-btn-hero-whatsapp"><i class="fa fa-calendar"></i> Request Free SEO Audit</a>
+                </div>
+            </div>
+        </section>
 
       <!-- Redesigned Hero Section for Packages Pages -->
       <section class="locationdetails-numbers-section">

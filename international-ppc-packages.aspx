@@ -28,37 +28,120 @@
   </asp:Content>
   <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div role="main" class="main">
-      <!-- Hero Section -->
-      <section class="locationdetails-numbers-section">
-        <div class="container">
-          <div class="row center counters dark counters-row">
-            <div class="col-md-3 col-sm-6">
-              <i class="fa fa-line-chart counter-icon"></i>
-              <strong class="counter-value"
-                style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">780+</strong>
-              <label class="counter-label" style="color: #ffffff;">Happy Clients</label>
+        <!-- Executive Hero Banner Section -->
+        <section class="kdm-pkg-hero">
+            <div class="kdm-pkg-hero-content">
+                <div class="kdm-top-badge">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="#38bdf8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    GLOBAL PPC &amp; GOOGLE ADS MANAGEMENT
+                </div>
+                <h1>International PPC Packages</h1>
+                <p class="hero-subtitle">Target High-Intent Global Audiences Across USA, UK, UAE, Canada, Australia &amp; Europe with Result-Driven Paid Search &amp; Display Campaigns.</p>
+
+                <!-- 6 USPs Grid -->
+                <div class="kdm-benefits-grid">
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Global Audience Geo-Targeting
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Multi-Currency Conversion Bidding
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Dedicated International Ad Specialist
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Multi-Language Ad Copy &amp; Extensions
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Cross-Border Conversion Tracking &amp; ROI
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Fraud Shield &amp; Click Budget Protection
+                    </div>
+                </div>
+
+                <!-- 4 Key Stats Pills -->
+                <div class="kdm-pkg-stats">
+                    <div class="kdm-pkg-stat-pill"><strong>900+</strong> Global Brands</div>
+                    <div class="kdm-pkg-stat-pill"><strong>900+</strong> Success Stories</div>
+                    <div class="kdm-pkg-stat-pill"><strong>13+</strong> Years Experience</div>
+                    <div class="kdm-pkg-stat-pill"><strong>4.9/5★</strong> Client Rating</div>
+                </div>
+
+                <!-- CTA Group with Popup Form Trigger -->
+                <div class="kdm-pkg-cta-group">
+                    <a href="tel:+919821918208" class="kdm-btn-hero-primary"><i class="fa fa-phone"></i> Call +91 9821918208</a>
+                    <a href="javascript:void(0);" onclick="openPackageModal('Global PPC Package Free Audit Consultation')" class="kdm-btn-hero-whatsapp"><i class="fa fa-calendar"></i> Request Free PPC Audit</a>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-              <i class="fa fa-star counter-icon"></i>
-              <strong class="counter-value"
-                style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">4.9/5★</strong>
-              <label class="counter-label" style="color: #ffffff;">Client Rating</label>
+        </section>
+
+        <!-- Credentials Counters Section -->
+        <section class="locationdetails-numbers-section">
+	<div class="container">
+		<div class="row center counters dark counters-row">
+			<div class="col-md-3 col-sm-6">
+				<i class="fa fa-line-chart counter-icon"></i>
+				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
+				<label class="counter-label" style="color: #ffffff;">Years in Business</label>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<i class="fa fa-bullseye counter-icon"></i>
+				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
+				<label class="counter-label" style="color: #ffffff;">Projects Completed</label>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<i class="fa fa-globe counter-icon"></i>
+				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">15+</strong>
+				<label class="counter-label" style="color: #ffffff;">Countries Served</label>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<i class="fa fa-laptop counter-icon"></i>
+				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">32+</strong>
+				<label class="counter-label" style="color: #ffffff;">Digital Experts</label>
+			</div>
+		</div>
+	</div>
+</section>
+
+        <!-- Limited Time Offer Countdown Banner -->
+        <div class="kdm-package-countdown-banner">
+            <div class="container">
+                <div class="kdm-countdown-flex-wrap">
+                    <div class="kdm-countdown-info">
+                        <span class="kdm-countdown-badge"><i class="fa fa-clock-o"></i> LIMITED TIME SPECIAL OFFER</span>
+                        <h3 class="kdm-countdown-title">Get <strong>Instant 15% OFF</strong> On All Global PPC Packages Today!</h3>
+                    </div>
+                    <div class="kdm-countdown-timer">
+                        <div class="kdm-timer-unit">
+                            <span class="kdm-timer-num kdm-timer-hours">08</span>
+                            <span class="kdm-timer-lbl">Hours</span>
+                        </div>
+                        <span class="kdm-timer-colon">:</span>
+                        <div class="kdm-timer-unit">
+                            <span class="kdm-timer-num kdm-timer-mins">42</span>
+                            <span class="kdm-timer-lbl">Mins</span>
+                        </div>
+                        <span class="kdm-timer-colon">:</span>
+                        <div class="kdm-timer-unit">
+                            <span class="kdm-timer-num kdm-timer-secs">19</span>
+                            <span class="kdm-timer-lbl">Secs</span>
+                        </div>
+                    </div>
+                    <div class="kdm-countdown-cta">
+                        <a href="javascript:void(0);" onclick="openPackageModal('Global PPC Special Offer (15% OFF)')" class="kdm-countdown-btn">
+                            <span>Claim Offer Now</span> <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-              <i class="fa fa-bullseye counter-icon"></i>
-              <strong class="counter-value"
-                style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
-              <label class="counter-label" style="color: #ffffff;">Projects Done</label>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <i class="fa fa-trophy counter-icon"></i>
-              <strong class="counter-value"
-                style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
-              <label class="counter-label" style="color: #ffffff;">Years Exp.</label>
-            </div>
-          </div>
         </div>
-      </section>
       <!--
   <div style="text-align: center; margin-bottom: 30px;">
     <span class="kdm-pkg-badge"><i class="fa fa-trophy"></i> PROVEN TRACK RECORD</span>
