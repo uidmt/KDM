@@ -1738,41 +1738,60 @@
         </section>
         <!-- End of NUMBERS DO SPEAK A LOT ! -->
 
-        <!-- Credential Container Starts-->
-
-        <div class="container ">
-            <h2 align="center">CREDENTIALS</h2>
-            <p align="center">These Numbers Speak Alot about Our Experience</p>
-
-            <div class="row center counters dark counters-row">
-
-                <div class="ip-result-card col-md-3 col-sm-6">
-                    <i class="fa fa-user counter-icon"></i>
-                    <strong class="counter-value" data-to="780" data-append="+">0</strong>
-                    <label class="counter-label">Happy Clients</label>
+        <!-- ===== CREDENTIALS SECTION (REUSABLE WHITE THEME COMPONENT) ===== -->
+        <section class="kdm-credentials-white-section">
+            <div class="container">
+                <div class="kdm-credentials-header">
+                    <div class="kdm-credentials-badge">
+                        <i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
+                    </div>
+                    <h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+                    <p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
                 </div>
 
-                <div class="ip-result-card col-md-3 col-sm-6">
-                    <i class="fa fa-star counter-icon"></i>
-                    <strong class="counter-value" data-to="4.9" data-append="+">0</strong>
-                    <label class="counter-label">Ratings</label>
-                </div>
+                <div class="row custom-row center counters dark counters-row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="kdm-credentials-card">
+                            <div class="kdm-credentials-icon-box">
+                                <i class="fa fa-user counter-icon"></i>
+                            </div>
+                            <strong class="counter-value kdm-credentials-num" data-to="780" data-append="+">780+</strong>
+                            <label class="kdm-credentials-label">Happy Clients</label>
+                        </div>
+                    </div>
 
-                <div class="ip-result-card col-md-3 col-sm-6">
-                    <i class="fas fa-bullseye counter-icon"></i>
-                    <strong class="counter-value" data-to="850" data-append="+">0</strong>
-                    <label class="counter-label">Projects Completed</label>
-                </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="kdm-credentials-card">
+                            <div class="kdm-credentials-icon-box">
+                                <i class="fa fa-star counter-icon"></i>
+                            </div>
+                            <strong class="counter-value kdm-credentials-num" data-to="4.9" data-append="+">4.9/5★</strong>
+                            <label class="kdm-credentials-label">Ratings</label>
+                        </div>
+                    </div>
 
-                <div class="ip-result-card col-md-3 col-sm-6">
-                    <i class="fas fa-chart-line counter-icon"></i>
-                    <strong class="counter-value" data-to="12" data-append="+">0</strong>
-                    <label class="counter-label">Years in Business</label>
-                </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="kdm-credentials-card">
+                            <div class="kdm-credentials-icon-box">
+                                <i class="fa fa-bullseye counter-icon"></i>
+                            </div>
+                            <strong class="counter-value kdm-credentials-num" data-to="900" data-append="+">900+</strong>
+                            <label class="kdm-credentials-label">Projects Completed</label>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="kdm-credentials-card">
+                            <div class="kdm-credentials-icon-box">
+                                <i class="fa fa-line-chart counter-icon"></i>
+                            </div>
+                            <strong class="counter-value kdm-credentials-num" data-to="13" data-append="+">13+</strong>
+                            <label class="kdm-credentials-label">Years in Business</label>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-
+        </section>
         <!-- End Credential Container -->
 
         <hr class="tall" />

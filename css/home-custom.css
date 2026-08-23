@@ -5888,6 +5888,121 @@ svg.kdm-ppc-svg-icon {
     margin: 0;
 }
 
+/* ==========================================================================
+   Redesigned Credentials Section (Reusable White Theme Component)
+   ========================================================================== */
+.kdm-credentials-white-section {
+    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 50%, #f8fafc 100%);
+    padding: 75px 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    position: relative;
+}
+
+.kdm-credentials-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.kdm-credentials-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(2, 132, 199, 0.25);
+    color: #0284c7;
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 50px;
+    margin-bottom: 14px;
+}
+
+.kdm-credentials-title {
+    color: #0f172a;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.kdm-credentials-subtitle {
+    color: #475569;
+    font-size: 15.5px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.kdm-credentials-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-top: 4px solid #0284c7;
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.35s ease;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    margin-bottom: 24px;
+    height: calc(100% - 24px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kdm-credentials-card:hover {
+    transform: translateY(-6px);
+    border-color: #0284c7;
+    box-shadow: 0 20px 45px rgba(2, 132, 199, 0.15);
+}
+
+.kdm-credentials-icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(2, 132, 199, 0.2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #0284c7;
+    font-size: 24px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+}
+
+.kdm-credentials-card:hover .kdm-credentials-icon-box {
+    background: #0284c7;
+    color: #ffffff;
+    border-color: #0284c7;
+    box-shadow: 0 0 20px rgba(2, 132, 199, 0.4);
+}
+
+.kdm-credentials-num {
+    display: block;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+
+.kdm-credentials-label {
+    color: #475569;
+    font-size: 14.5px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.2px;
+}
+
 
 
 
