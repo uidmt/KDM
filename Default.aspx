@@ -1467,13 +1467,22 @@
                 <div class="row custom-row">
                     <div class="col-md-12 col-sm-12">
                         <div class="kdm-clients-header">
+                            <div class="kdm-clients-badge">
+                                <i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
+                            </div>
                             <h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">Digital Marketing Company</span> To Help Flourish Your Business</h2>
                             <p class="kdm-clients-subtitle">
-                                What made us distinct is our valuable customers, for which we strive day in day out to secure their branding, promotion, online reputation, online visibility, traffic, leads and most important conversion. We are enjoying being king of this digital kingdom.
+                                What makes us distinct is our valuable clients. We strive day in and day out to secure their branding, online reputation, visibility, high-converting traffic, and qualified lead generation.
                             </p>
-                            <h4 class="kdm-clients-subheading">
-                                We are ambitious, We are Experts, We are Shepherd So, We are King
-                            </h4>
+                            <div class="kdm-clients-motto-wrapper">
+                                <div class="kdm-clients-motto">
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Ambitious</span>
+                                    <span>&bull;</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Experts</span>
+                                    <span>&bull;</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Performance Driven Leaders</span>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="happy" id="images">
