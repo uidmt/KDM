@@ -30,27 +30,60 @@
 		<div class="row center counters dark counters-row">
 			<div class="col-md-3 col-sm-6">
 				<i class="fa fa-line-chart counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">780+</strong>
-				<label class="counter-label" style="color: #ffffff;">Happy Clients</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-star counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">4.9/5★</strong>
-				<label class="counter-label" style="color: #ffffff;">Client Rating</label>
+				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
+				<label class="counter-label" style="color: #ffffff;">Years in Business</label>
 			</div>
 			<div class="col-md-3 col-sm-6">
 				<i class="fa fa-bullseye counter-icon"></i>
 				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
-				<label class="counter-label" style="color: #ffffff;">Projects Done</label>
+				<label class="counter-label" style="color: #ffffff;">Projects Completed</label>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-trophy counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
-				<label class="counter-label" style="color: #ffffff;">Years Exp.</label>
+				<i class="fa fa-globe counter-icon"></i>
+				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">15+</strong>
+				<label class="counter-label" style="color: #ffffff;">Countries Served</label>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<i class="fa fa-laptop counter-icon"></i>
+				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">32+</strong>
+				<label class="counter-label" style="color: #ffffff;">Digital Experts</label>
 			</div>
 		</div>
 	</div>
 </section>
+
+        <!-- Limited Time Offer Countdown Banner -->
+        <div class="kdm-package-countdown-banner">
+            <div class="container">
+                <div class="kdm-countdown-flex-wrap">
+                    <div class="kdm-countdown-info">
+                        <span class="kdm-countdown-badge"><i class="fa fa-clock-o"></i> LIMITED TIME SPECIAL OFFER</span>
+                        <h3 class="kdm-countdown-title">Get <strong>Instant 15% OFF</strong> On All International Web Design Packages!</h3>
+                    </div>
+                    <div class="kdm-countdown-timer">
+                        <div class="kdm-timer-unit">
+                            <span class="kdm-timer-num kdm-timer-hours">08</span>
+                            <span class="kdm-timer-lbl">Hours</span>
+                        </div>
+                        <span class="kdm-timer-colon">:</span>
+                        <div class="kdm-timer-unit">
+                            <span class="kdm-timer-num kdm-timer-mins">42</span>
+                            <span class="kdm-timer-lbl">Mins</span>
+                        </div>
+                        <span class="kdm-timer-colon">:</span>
+                        <div class="kdm-timer-unit">
+                            <span class="kdm-timer-num kdm-timer-secs">19</span>
+                            <span class="kdm-timer-lbl">Secs</span>
+                        </div>
+                    </div>
+                    <div class="kdm-countdown-cta">
+                        <a href="javascript:void(0);" onclick="openPackageModal('Global Web Design Offer (15% OFF)')" class="kdm-countdown-btn">
+                            <span>Claim Offer Now</span> <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 <!--
   <div style="text-align: center; margin-bottom: 30px;">
     <span class="kdm-pkg-badge"><i class="fa fa-trophy"></i> PROVEN TRACK RECORD</span>

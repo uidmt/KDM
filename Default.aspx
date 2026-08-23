@@ -149,17 +149,26 @@
                 <!-- Vibrant Trust Badges -->
                 <div class="kdm-hero-trust-wrapper">
                     <div class="kdm-tb-headline">
-                        <span class="kdm-tb-pulse-dot"></span> RATED <strong>4.8/5 OVERALL</strong> ACROSS TOP REVIEW PLATFORMS
+                        <span class="kdm-tb-pulse-dot"></span> RATED <strong>4.8/5 OVERALL</strong> ACROSS TOP REVIEW
+                        PLATFORMS
                     </div>
                     <div class="kdm-hero-trust-badges">
                         <!-- Google 4.9 -->
                         <div class="kdm-trust-badge-pill google-badge">
                             <div class="kdm-tb-icon">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-                                    <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-                                    <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
-                                    <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+                                    <path
+                                        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                                        fill="#4285F4" />
+                                    <path
+                                        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                                        fill="#34A853" />
+                                    <path
+                                        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
+                                        fill="#FBBC05" />
+                                    <path
+                                        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
+                                        fill="#EA4335" />
                                 </svg>
                             </div>
                             <div class="kdm-tb-info">
@@ -172,7 +181,8 @@
                         <div class="kdm-trust-badge-pill facebook-badge">
                             <div class="kdm-tb-icon">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="#1877F2">
-                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    <path
+                                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                                 </svg>
                             </div>
                             <div class="kdm-tb-info">
@@ -185,8 +195,10 @@
                         <div class="kdm-trust-badge-pill clutch-badge">
                             <div class="kdm-tb-icon">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.89 6.11a5.5 5.5 0 1 0 0 7.78.8.8 0 1 0-1.13-1.13 3.9 3.9 0 1 1 0-5.52.8.8 0 0 0 1.13-1.13z" fill="#ffffff"/>
-                                    <circle cx="17.5" cy="6.5" r="2.8" fill="#FF4742"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.89 6.11a5.5 5.5 0 1 0 0 7.78.8.8 0 1 0-1.13-1.13 3.9 3.9 0 1 1 0-5.52.8.8 0 0 0 1.13-1.13z"
+                                        fill="#ffffff" />
+                                    <circle cx="17.5" cy="6.5" r="2.8" fill="#FF4742" />
                                 </svg>
                             </div>
                             <div class="kdm-tb-info">
@@ -199,8 +211,9 @@
                         <div class="kdm-trust-badge-pill justdial-badge">
                             <div class="kdm-tb-icon">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                    <rect width="24" height="24" rx="6" fill="#FF6600"/>
-                                    <text x="12" y="16.5" font-family="Arial, sans-serif" font-weight="900" font-size="13" fill="#FFFFFF" text-anchor="middle">JD</text>
+                                    <rect width="24" height="24" rx="6" fill="#FF6600" />
+                                    <text x="12" y="16.5" font-family="Arial, sans-serif" font-weight="900"
+                                        font-size="13" fill="#FFFFFF" text-anchor="middle">JD</text>
                                 </svg>
                             </div>
                             <div class="kdm-tb-info">
@@ -213,8 +226,9 @@
                         <div class="kdm-trust-badge-pill goodwork-badge">
                             <div class="kdm-tb-icon">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                    <rect width="24" height="24" rx="6" fill="#1C61AC"/>
-                                    <path d="M7 12.5l3.2 3.2L17 8.5" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <rect width="24" height="24" rx="6" fill="#1C61AC" />
+                                    <path d="M7 12.5l3.2 3.2L17 8.5" stroke="#FFFFFF" stroke-width="2.8"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </div>
                             <div class="kdm-tb-info">
@@ -1950,32 +1964,44 @@
                         <div class="kdm-faq-accordion">
                             <div class="kdm-faq-item active">
                                 <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.1. How Do You Help Solving My Digital Marketing Problems?</span>
+                                    <span class="kdm-faq-question">Q.1. How Do You Help Solving My Digital Marketing
+                                        Problems?</span>
                                     <span class="kdm-faq-icon">+</span>
                                 </button>
                                 <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We solve challenges of low ranking, low traffic, low quality leads, sales &amp; conversion issues and reaching targeted audiences. Our digital marketing strategies connect businesses with targeted audiences to generate more leads and revenue using activities such as SEO, GEO, AEO, Social Media, Meta Ads, Google Ads, website designing, and development.</p>
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We solve challenges
+                                        of low ranking, low traffic, low quality leads, sales &amp; conversion issues
+                                        and reaching targeted audiences. Our digital marketing strategies connect
+                                        businesses with targeted audiences to generate more leads and revenue using
+                                        activities such as SEO, GEO, AEO, Social Media, Meta Ads, Google Ads, website
+                                        designing, and development.</p>
                                 </div>
                             </div>
 
                             <div class="kdm-faq-item">
                                 <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.2. Would My Business Benefit From Digital Marketing?</span>
+                                    <span class="kdm-faq-question">Q.2. Would My Business Benefit From Digital
+                                        Marketing?</span>
                                     <span class="kdm-faq-icon">+</span>
                                 </button>
                                 <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> It is a definite YES. Your business definitely requires digital marketing. It enables companies to reach and interact with their target audience in real-time and maximize brand awareness at an affordable cost with unlimited reach.</p>
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> It is a definite
+                                        YES. Your business definitely requires digital marketing. It enables companies
+                                        to reach and interact with their target audience in real-time and maximize brand
+                                        awareness at an affordable cost with unlimited reach.</p>
                                 </div>
                             </div>
 
                             <div class="kdm-faq-item">
                                 <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.3. Why Should I Hire a Digital Marketing Company?</span>
+                                    <span class="kdm-faq-question">Q.3. Why Should I Hire a Digital Marketing
+                                        Company?</span>
                                     <span class="kdm-faq-icon">+</span>
                                 </button>
                                 <div class="kdm-faq-body">
                                     <div class="kdm-faq-answer">
-                                        <span class="kdm-ans-badge">Ans</span> Digital marketing offers numerous advantages over traditional methods to attract more customers:
+                                        <span class="kdm-ans-badge">Ans</span> Digital marketing offers numerous
+                                        advantages over traditional methods to attract more customers:
                                         <ul>
                                             <li>Advertise where you are actively being searched</li>
                                             <li>Ability to reach global customers</li>
@@ -1994,17 +2020,25 @@
                                     <span class="kdm-faq-icon">+</span>
                                 </button>
                                 <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> A digital marketing agency understands client requirements and creates result-oriented marketing strategies. They focus on delivering ROI, spreading brand awareness to targeted audiences, and driving quality lead generation while maintaining user experience excellence.</p>
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> A digital marketing
+                                        agency understands client requirements and creates result-oriented marketing
+                                        strategies. They focus on delivering ROI, spreading brand awareness to targeted
+                                        audiences, and driving quality lead generation while maintaining user experience
+                                        excellence.</p>
                                 </div>
                             </div>
 
                             <div class="kdm-faq-item">
                                 <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.5. What is brand awareness in digital marketing?</span>
+                                    <span class="kdm-faq-question">Q.5. What is brand awareness in digital
+                                        marketing?</span>
                                     <span class="kdm-faq-icon">+</span>
                                 </button>
                                 <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> In digital marketing, brand awareness means creating a solid digital identity for your company among target customers. It builds and disseminates key information about your products/services when launching new offerings.</p>
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> In digital
+                                        marketing, brand awareness means creating a solid digital identity for your
+                                        company among target customers. It builds and disseminates key information about
+                                        your products/services when launching new offerings.</p>
                                 </div>
                             </div>
 
@@ -2014,17 +2048,25 @@
                                     <span class="kdm-faq-icon">+</span>
                                 </button>
                                 <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Find top digital marketing experts, list your requirements, and consult a <a href="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx">digital marketing consultant</a>. Review past work, results, timelines, and digital marketing packages before signing a contract to ensure complete confidence.</p>
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Find top digital
+                                        marketing experts, list your requirements, and consult a <a
+                                            href="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx">digital
+                                            marketing consultant</a>. Review past work, results, timelines, and digital
+                                        marketing packages before signing a contract to ensure complete confidence.</p>
                                 </div>
                             </div>
 
                             <div class="kdm-faq-item">
                                 <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.7. How much do you charge for digital marketing?</span>
+                                    <span class="kdm-faq-question">Q.7. How much do you charge for digital
+                                        marketing?</span>
                                     <span class="kdm-faq-icon">+</span>
                                 </button>
                                 <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing packages are tailored to project requirements. We offer bespoke combined packages covering SEO, SMO, PPC, Web Design, Content Creation, and Link Building tailored specifically for your business goals.</p>
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing
+                                        packages are tailored to project requirements. We offer bespoke combined
+                                        packages covering SEO, SMO, PPC, Web Design, Content Creation, and Link Building
+                                        tailored specifically for your business goals.</p>
                                 </div>
                             </div>
                         </div>
@@ -2037,14 +2079,16 @@
                         </div>
 
                         <div class="kdm-blogs-v2-container">
-                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-for-lands-and-plot-selling.aspx" target="_blank" class="kdm-blog-card-v2">
+                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-for-lands-and-plot-selling.aspx"
+                                target="_blank" class="kdm-blog-card-v2">
                                 <div class="kdm-blog-icon-hub">
                                     <i class="fa fa-building-o"></i>
                                 </div>
                                 <div class="kdm-blog-content-body">
                                     <div class="kdm-blog-meta-bar">
                                         <span class="kdm-blog-pill">Real Estate</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> July 15, 2026</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> July 15,
+                                            2026</span>
                                     </div>
                                     <h4 class="kdm-blog-heading">Lead Generation for Lands and Plots Selling</h4>
                                 </div>
@@ -2053,14 +2097,16 @@
                                 </div>
                             </a>
 
-                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-services-for-cruise-booking.aspx" target="_blank" class="kdm-blog-card-v2">
+                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-services-for-cruise-booking.aspx"
+                                target="_blank" class="kdm-blog-card-v2">
                                 <div class="kdm-blog-icon-hub">
                                     <i class="fa fa-ship"></i>
                                 </div>
                                 <div class="kdm-blog-content-body">
                                     <div class="kdm-blog-meta-bar">
                                         <span class="kdm-blog-pill">Hospitality</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> June 20, 2026</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> June 20,
+                                            2026</span>
                                     </div>
                                     <h4 class="kdm-blog-heading">Lead Generation Services for Cruise Booking</h4>
                                 </div>
@@ -2069,30 +2115,35 @@
                                 </div>
                             </a>
 
-                            <a href="https://www.kingofdigitalmarketing.com/blog/digital-marketing-company-vs.aspx" target="_blank" class="kdm-blog-card-v2">
+                            <a href="https://www.kingofdigitalmarketing.com/blog/digital-marketing-company-vs.aspx"
+                                target="_blank" class="kdm-blog-card-v2">
                                 <div class="kdm-blog-icon-hub">
                                     <i class="fa fa-line-chart"></i>
                                 </div>
                                 <div class="kdm-blog-content-body">
                                     <div class="kdm-blog-meta-bar">
                                         <span class="kdm-blog-pill">Strategy</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> June 10, 2026</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> June 10,
+                                            2026</span>
                                     </div>
-                                    <h4 class="kdm-blog-heading">Digital Marketing Agency vs. In-House Team: Which is Better?</h4>
+                                    <h4 class="kdm-blog-heading">Digital Marketing Agency vs. In-House Team: Which is
+                                        Better?</h4>
                                 </div>
                                 <div class="kdm-blog-arrow-hub">
                                     <i class="fa fa-chevron-right"></i>
                                 </div>
                             </a>
 
-                            <a href="https://www.kingofdigitalmarketing.com/blog/how-to-optimize-your-website-for-ai-search-engines.aspx" target="_blank" class="kdm-blog-card-v2">
+                            <a href="https://www.kingofdigitalmarketing.com/blog/how-to-optimize-your-website-for-ai-search-engines.aspx"
+                                target="_blank" class="kdm-blog-card-v2">
                                 <div class="kdm-blog-icon-hub">
                                     <i class="fa fa-laptop"></i>
                                 </div>
                                 <div class="kdm-blog-content-body">
                                     <div class="kdm-blog-meta-bar">
                                         <span class="kdm-blog-pill">AI &amp; SEO</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> May 20, 2026</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> May 20,
+                                            2026</span>
                                     </div>
                                     <h4 class="kdm-blog-heading">How to Optimize Your Website for AI Search Engines</h4>
                                 </div>
@@ -2103,7 +2154,8 @@
                         </div>
 
                         <div class="kdm-more-blogs-btn-wrap">
-                            <a href="https://www.kingofdigitalmarketing.com/blog/" target="_blank" class="kdm-more-blogs-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/blog/" target="_blank"
+                                class="kdm-more-blogs-btn">
                                 <span>Read More Blogs</span> <i class="fa fa-arrow-right"></i>
                             </a>
                         </div>
@@ -2122,9 +2174,10 @@
                         <div>
                             <span class="kdm-cta-badge"><i class="fa fa-rocket"></i> GET STARTED TODAY</span>
                             <h3 class="kdm-cta-card-title">GET STARTED <strong>WITH US TODAY!</strong></h3>
-                            <p class="kdm-cta-card-desc">Request a 100% Free Website Audit &amp; Custom Growth Blueprint from our experts.</p>
+                            <p class="kdm-cta-card-desc">Request a 100% Free Website Audit &amp; Custom Growth Blueprint
+                                from our experts.</p>
                         </div>
-                        <a href="Contact-Us.aspx" target="_blank" class="kdm-cta-btn-glow">
+                        <a href="free-seo-audit.aspx" target="_blank" class="kdm-cta-btn-glow">
                             <span>Free Website Audit!</span> <i class="fa fa-arrow-right"></i>
                         </a>
                     </div>
@@ -2133,8 +2186,10 @@
                     <div class="kdm-cta-box-card">
                         <div>
                             <span class="kdm-cta-badge"><i class="fa fa-trophy"></i> PROVEN RESULTS</span>
-                            <h3 class="kdm-cta-card-title">Helping Brands Grow <strong>Revenue &amp; Profit!</strong></h3>
-                            <p class="kdm-cta-card-desc">Explore 900+ successful client works, case studies, and digital marketing results.</p>
+                            <h3 class="kdm-cta-card-title">Helping Brands Grow <strong>Revenue &amp; Profit!</strong>
+                            </h3>
+                            <p class="kdm-cta-card-desc">Explore 900+ successful client works, case studies, and digital
+                                marketing results.</p>
                         </div>
                         <a href="Our-Portfolio.aspx" target="_blank" class="kdm-cta-btn-outline">
                             <span>Our Works!</span> <i class="fa fa-arrow-right"></i>
