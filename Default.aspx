@@ -164,7 +164,6 @@
                             </div>
                             <div class="kdm-tb-info">
                                 <span class="kdm-tb-name">Google</span>
-                                <span class="kdm-tb-sep"></span>
                                 <span class="kdm-tb-rating">4.9 <i class="fa fa-star kdm-tb-star"></i></span>
                             </div>
                         </div>
@@ -178,7 +177,6 @@
                             </div>
                             <div class="kdm-tb-info">
                                 <span class="kdm-tb-name">Facebook</span>
-                                <span class="kdm-tb-sep"></span>
                                 <span class="kdm-tb-rating">4.8 <i class="fa fa-star kdm-tb-star"></i></span>
                             </div>
                         </div>
@@ -193,7 +191,6 @@
                             </div>
                             <div class="kdm-tb-info">
                                 <span class="kdm-tb-name">Clutch</span>
-                                <span class="kdm-tb-sep"></span>
                                 <span class="kdm-tb-rating">4.6 <i class="fa fa-star kdm-tb-star"></i></span>
                             </div>
                         </div>
@@ -208,7 +205,6 @@
                             </div>
                             <div class="kdm-tb-info">
                                 <span class="kdm-tb-name">Justdial</span>
-                                <span class="kdm-tb-sep"></span>
                                 <span class="kdm-tb-rating">4.7 <i class="fa fa-star kdm-tb-star"></i></span>
                             </div>
                         </div>
@@ -223,7 +219,6 @@
                             </div>
                             <div class="kdm-tb-info">
                                 <span class="kdm-tb-name">GoodFirms</span>
-                                <span class="kdm-tb-sep"></span>
                                 <span class="kdm-tb-rating">4.4 <i class="fa fa-star kdm-tb-star"></i></span>
                             </div>
                         </div>
