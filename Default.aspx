@@ -600,7 +600,7 @@
 
             <div class="container" style="position: relative; z-index: 2;">
                 <div class="row custom-row align-items-center">
-                    
+
                     <!-- Left Column: Agency Overview & Highlights -->
                     <div class="col-md-7">
                         <div class="kdm-theme-badge">
@@ -609,13 +609,33 @@
                         <h2 class="kdm-dark-heading">
                             King of <span class="kdm-theme-gradient">Digital Marketing</span>
                         </h2>
-                        
+
                         <p align="justify">
-                            Since 2013, King of Digital Marketing has been helping businesses across India and 15+ countries worldwide. We are a Delhi-based digital marketing company built on one simple belief: <b>results matter more than reports</b>. Over the past decade, our team has worked across <b>900+ projects</b> from India and the United States, United Kingdom, Canada, Australia, Germany, UAE, Singapore, Turkey, Russia, and beyond. From domestic projects to international clients, we have helped small, mid-sized, and large businesses solve real problems like poor lead quality, low organic traffic, poor Google rankings, stagnant leads and flat conversion rates.
+                            Since 2013, King of Digital Marketing has been helping businesses across India and 15+
+                            countries worldwide. We are a Delhi-based digital marketing company built on one simple
+                            belief: <b>results matter more than reports</b>. Over the past decade, our team has worked
+                            across <b>900+ projects</b> from India and the United States, United Kingdom, Canada,
+                            Australia, Germany, UAE, Singapore, Turkey, Russia, and beyond. From domestic projects to
+                            international clients, we have helped small, mid-sized, and large businesses solve real
+                            problems like poor lead quality, low organic traffic, poor Google rankings, stagnant leads
+                            and flat conversion rates.
                         </p>
 
                         <p align="justify">
-                            <b>What We Do?</b> We bring together professionalism, passion, and performance through our proven <a href="lead-generation-company.aspx">Lead Generation Services</a> with <a href="social-media-marketing-services.aspx">Social Media Marketing</a> or <a href="blog/best-ppc-services-in-delhi.html">PPC Management (Google Ads)</a>. King of Digital Marketing is an integral part of <strong>Devweboic Tech. OPC Pvt. Ltd.</strong> - A group of digital marketing company, Digital Marketing Freelancer and Digital Marketing Training Institute. We are here to help you become the best in your industry. We assign a team of digital marketing experts to provide amplification for your brand. Our Dedicated digital marketing specialists are with over 13+ years of experience in their field. They are passionate about growing your business by driving qualified leads, increasing sales and maximizing your visibility across Google and social media platforms. We have experts for <a href="SEO-Services.aspx">SEO services</a>, <a href="SMO-Services.aspx">Social Media services</a> and Paid Ads Management, who work for you 24x7 to increase sales and revenue.
+                            <b>What We Do?</b> We bring together professionalism, passion, and performance through our
+                            proven <a href="lead-generation-company.aspx">Lead Generation Services</a> with <a
+                                href="social-media-marketing-services.aspx">Social Media Marketing</a> or <a
+                                href="blog/best-ppc-services-in-delhi.html">PPC Management (Google Ads)</a>. King of
+                            Digital Marketing is an integral part of <strong>Devweboic Tech. OPC Pvt. Ltd.</strong> - A
+                            group of digital marketing company, Digital Marketing Freelancer and Digital Marketing
+                            Training Institute. We are here to help you become the best in your industry. We assign a
+                            team of digital marketing experts to provide amplification for your brand. Our Dedicated
+                            digital marketing specialists are with over 13+ years of experience in their field. They are
+                            passionate about growing your business by driving qualified leads, increasing sales and
+                            maximizing your visibility across Google and social media platforms. We have experts for <a
+                                href="SEO-Services.aspx">SEO services</a>, <a href="SMO-Services.aspx">Social Media
+                                services</a> and Paid Ads Management, who work for you 24x7 to increase sales and
+                            revenue.
                         </p>
 
                         <div style="margin-top: 24px;">
@@ -633,26 +653,30 @@
                         <div class="kdm-founder-card">
                             <div>
                                 <div class="kdm-founder-img-wrapper">
-                                    <img src="images/Gaurav Dubey Digital Marketing trainer.png" alt="Gaurav Dubey - Founder & CEO" class="kdm-founder-img" />
+                                    <img src="images/Gaurav Dubey Digital Marketing trainer.png"
+                                        alt="Gaurav Dubey - Founder & CEO" class="kdm-founder-img" />
                                 </div>
                                 <h3 class="kdm-founder-name">Gaurav Dubey</h3>
                                 <div class="kdm-founder-title">Founder &amp; CEO</div>
                                 <div class="kdm-founder-quote">
-                                    <i class="fa fa-quote-left fa-solid fa-quote-left"></i> Driving data-driven digital growth, high ROI &amp; lead ecosystems across 15+ countries since 2013.
+                                    <i class="fa fa-quote-left fa-solid fa-quote-left"></i> Driving data-driven digital
+                                    growth, high ROI &amp; lead ecosystems across 15+ countries since 2013.
                                 </div>
                             </div>
 
                             <!-- 4 Stats Cards Grid Above Social Icons -->
                             <div class="kdm-left-stats-grid kdm-founder-stats-grid">
                                 <div class="kdm-left-stat-card">
-                                    <div class="kdm-left-stat-icon"><i class="fa fa-user-md fa-solid fa-user-tie"></i></div>
+                                    <div class="kdm-left-stat-icon"><i class="fa fa-user-md fa-solid fa-user-tie"></i>
+                                    </div>
                                     <div class="kdm-left-stat-info">
                                         <strong>13+ Yrs Exp.</strong>
                                         <span>Senior Consultants</span>
                                     </div>
                                 </div>
                                 <div class="kdm-left-stat-card">
-                                    <div class="kdm-left-stat-icon"><i class="fa fa-check-circle fa-solid fa-circle-check"></i></div>
+                                    <div class="kdm-left-stat-icon"><i
+                                            class="fa fa-check-circle fa-solid fa-circle-check"></i></div>
                                     <div class="kdm-left-stat-info">
                                         <strong>900+ Projects</strong>
                                         <span>High ROI Delivered</span>
@@ -666,7 +690,8 @@
                                     </div>
                                 </div>
                                 <div class="kdm-left-stat-card">
-                                    <div class="kdm-left-stat-icon"><i class="fa fa-graduation-cap fa-solid fa-graduation-cap"></i></div>
+                                    <div class="kdm-left-stat-icon"><i
+                                            class="fa fa-graduation-cap fa-solid fa-graduation-cap"></i></div>
                                     <div class="kdm-left-stat-info">
                                         <strong>1,850+ Students</strong>
                                         <span>Trained Professionals</span>
@@ -675,15 +700,26 @@
                             </div>
 
                             <div class="kdm-founder-socials">
-                                <a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" class="kdm-founder-social-btn linkedin" title="LinkedIn"><i class="fa fa-linkedin fa-brands fa-linkedin"></i></a>
-                                <a href="https://www.facebook.com/gauravdubey.in/" target="_blank" class="kdm-founder-social-btn facebook" title="Facebook"><i class="fa fa-facebook fa-brands fa-facebook-f"></i></a>
-                                <a href="https://twitter.com/iamgauravdubey" target="_blank" class="kdm-founder-social-btn twitter" title="Twitter / X"><i class="fa fa-twitter fa-brands fa-x-twitter"></i></a>
-                                <a href="https://www.instagram.com/thegauravdubey/" target="_blank" class="kdm-founder-social-btn instagram" title="Instagram"><i class="fa fa-instagram fa-brands fa-instagram"></i></a>
-                                <a href="https://www.youtube.com/channel/UCkGU7-8u1zCLRHb5spjUaLQ" target="_blank" class="kdm-founder-social-btn youtube" title="YouTube"><i class="fa fa-youtube-play fa-brands fa-youtube"></i></a>
+                                <a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank"
+                                    class="kdm-founder-social-btn linkedin" title="LinkedIn"><i
+                                        class="fa fa-linkedin fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/gauravdubey.in/" target="_blank"
+                                    class="kdm-founder-social-btn facebook" title="Facebook"><i
+                                        class="fa fa-facebook fa-brands fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/iamgauravdubey" target="_blank"
+                                    class="kdm-founder-social-btn twitter" title="Twitter / X"><i
+                                        class="fa fa-twitter fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.instagram.com/thegauravdubey/" target="_blank"
+                                    class="kdm-founder-social-btn instagram" title="Instagram"><i
+                                        class="fa fa-instagram fa-brands fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/channel/UCkGU7-8u1zCLRHb5spjUaLQ" target="_blank"
+                                    class="kdm-founder-social-btn youtube" title="YouTube"><i
+                                        class="fa fa-youtube-play fa-brands fa-youtube"></i></a>
                             </div>
 
                             <a href="gaurav-dubey.aspx" target="_blank" class="kdm-founder-profile-link">
-                                <i class="fa fa-user-circle fa-solid fa-circle-user"></i> View Gaurav Dubey's Full Profile
+                                <i class="fa fa-user-circle fa-solid fa-circle-user"></i> View Gaurav Dubey's Full
+                                Profile
                             </a>
                         </div>
                     </div>
@@ -1019,9 +1055,11 @@
                     <div class="kdm-process-light-badge">
                         <i class="fa fa-cogs fa-solid fa-gears"></i> OUR PROVEN APPROACH
                     </div>
-                    <h2 class="kdm-process-light-title">DIGITAL MARKETING <span class="kdm-process-blue-gradient">PROCESS</span></h2>
+                    <h2 class="kdm-process-light-title">DIGITAL MARKETING <span
+                            class="kdm-process-blue-gradient">PROCESS</span></h2>
                     <p class="kdm-process-light-subtitle">
-                        From strategy to execution, our systematic 4-step process delivers measurable growth and scalable ROI for your business.
+                        From strategy to execution, our systematic 4-step process delivers measurable growth and
+                        scalable ROI for your business.
                     </p>
                 </div>
 
@@ -1041,7 +1079,8 @@
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Business Analysis</li>
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Campaign Objective</li>
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Preparing Proposal</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Deciding Deliverables</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Deciding Deliverables
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1059,7 +1098,8 @@
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Industry Research</li>
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Competitor Research</li>
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Selecting Channels</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy Development</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy Development
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1074,7 +1114,8 @@
                             <h3 class="kdm-process-light-card-title">A/B Testing</h3>
                             <div class="kdm-process-light-divider"></div>
                             <ul class="kdm-process-light-bullets">
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Experimenting with Ads</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Experimenting with Ads
+                                </li>
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Content Variation</li>
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> SEO Experiments</li>
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Audience Analysis</li>
@@ -1094,8 +1135,10 @@
                             <ul class="kdm-process-light-bullets">
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Creating Campaign</li>
                                 <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Content Production</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy Optimization</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Analysis &amp; Reporting</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy Optimization
+                                </li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Analysis &amp; Reporting
+                                </li>
                             </ul>
                             <div class="kdm-process-light-final-tag">
                                 <i class="fa fa-check fa-solid fa-check"></i> Maximum ROI Step
@@ -1108,7 +1151,8 @@
                 <!-- Process Call To Action -->
                 <div class="kdm-process-light-cta-box">
                     <h3 class="kdm-process-light-cta-title">Ready to Transform Your Digital Presence?</h3>
-                    <p class="kdm-process-light-cta-text">Let's discuss how our proven 4-step process can drive growth and qualified leads for your business.</p>
+                    <p class="kdm-process-light-cta-text">Let's discuss how our proven 4-step process can drive growth
+                        and qualified leads for your business.</p>
                     <div>
                         <a href="tel:+919821918208" target="_blank" class="kdm-btn-primary-glow">
                             <i class="fa fa-phone fa-solid fa-phone"></i> Let's Talk About Your Business
@@ -1417,41 +1461,56 @@
 
         <hr class="tall" />
 
-        <!-- Clients Logos Portfolio Container -->
-        <div class="container ">
-            <div class="row custom-row">
-                <div class="col-md-12 col-sm-12 ">
-                    <h2 align="center">Your Trust Made Us Top Digital Marketing Company To Help Flourish Your Business
-                    </h2>
-                    <p align="center">What made us distinct is our valuable customers, for which we strive day in day
-                        out to
-                        secure their branding, promotion, online reputation, online visibility, traffic, leads and most
-                        important
-                        conversion. We are enjoying being king of this digital kingdom.</p>
-                    <h4 align="center" style="color: black;"> We are ambitious, We are Experts, We are Shepherd So, We
-                        are King
-                        </h3>
-                        <br>
+        <!-- ===== CLIENTS TRUST & LOGOS SECTION (WHITE THEME) ===== -->
+        <section class="kdm-clients-white-section">
+            <div class="container">
+                <div class="row custom-row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="kdm-clients-header">
+                            <div class="kdm-clients-badge">
+                                <i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
+                            </div>
+                            <h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">Digital Marketing Company</span> To Help Flourish Your Business</h2>
+                            <p class="kdm-clients-subtitle">
+                                What makes us distinct is our valuable clients. We strive day in and day out to secure their branding, online reputation, visibility, high-converting traffic, and qualified lead generation.
+                            </p>
+                            <div class="kdm-clients-motto-wrapper">
+                                <div class="kdm-clients-motto">
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Ambitious</span>
+                                    <span>&bull;</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Experts</span>
+                                    <span>&bull;</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Performance Driven Leaders</span>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="happy" id="images">
                             <div class="track">
                                 <!-- Featured Priority Client Logos -->
                                 <div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
                                 <div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-                                <div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
+                                <div class="slide"><img alt="SkinLab Jamuna Pai"
+                                        src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
                                 <div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
                                 <div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
                                 <div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
-                                <div class="slide"><img alt="Global Opportunities" src="images/global_2344005.png"></div>
-                                <div class="slide"><img alt="Planet Education" src="images/planeteducationnoida.png"></div>
+                                <div class="slide"><img alt="Global Opportunities"
+                                        src="images/client/global opportunies.jpeg">
+                                </div>
+                                <div class="slide"><img alt="Planet Education" src="images/client/planet education.jpg">
+                                </div>
                                 <div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
-                                <div class="slide"><img alt="Aliff" src="images/aliff.jpeg"></div>
-                                <div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+                                <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.jpeg"></div>
+                                <div class="slide"><img alt="Continental Immigration"
+                                        src="images/ContinentalImmigration.jpeg"></div>
                                 <div class="slide"><img alt="Scala" src="images/scala.png"></div>
                                 <div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-                                <div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
+                                <div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png">
+                                </div>
                                 <div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
-                                <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
+                                <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png">
+                                </div>
                                 <div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
                                 <div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
                                 <div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
@@ -1464,86 +1523,7 @@
                                 <div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg">
                                 </div>
                                 <div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
-                                <div class="slide"><img alt="Save-Trees" src="images/Save-Trees--logo.jpg"></div>
-                                <div class="slide"><img alt="Prep-guru" src="images/Prep-guru-logo.jpg"></div>
-                                <div class="slide"><img alt="tradeFD" src="images/trade.jpg"></div>
-                                <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg"></div>
-                                <div class="slide"><img alt="Astro Gagan Sharma" src="images/Astro Gagan Sharma.jpg">
-                                </div>
-                                <div class="slide"><img alt="Art of Making Money" src="images/Art of Making Money.jpg">
-                                </div>
-                                <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.jpg"></div>
-                                <div class="slide"><img alt="One Wellness Fitness Club"
-                                        src="images/One Wellness Fitness Club.jpg">
-                                </div>
-                                <div class="slide"> <img alt="solar farmer" src="images/solar farmer.jpg"></div>
-                                <div class="slide"><img alt="aliff" src="images/aliff_img.jpeg"></div>
-                                <div class="slide"><img alt="tradeFD" src="images/Beyond-Borders--logo.jpg"></div>
-                                <div class="slide"><img alt="fractionate" src="images/fractionate_img.jpeg"></div>
-                                <div class="slide"><img alt="Trusted Astro" src="images/Trusted Astro_img.jpg"></div>
-                                <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg"></div>
-                                <div class="slide"><img alt="jashvi consultant" src="images/jashvi consultant_img.jpg">
-                                </div>
-                                <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.jpeg">
-                                </div>
-                                <div class="slide"><img alt="MTel" src="images/MTel_img.jpeg"></div>
-                                <div class="slide"><img alt="Pinnacle Consulting"
-                                        src="images/Pinnacle Consulting_img.jpg"></div>
-                                <div class="slide"><img alt="Preetiesdeitclinic" src="images/Preetiesdeitclinic.jpeg">
-                                </div>
-                                <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.jpg"></div>
-                                <div class="slide"><img alt="Moral Research" src="images/Moralresearch.jpeg"></div>
-                                <div class="slide"><img alt="Global Talent Visa" src="images/Global Talent Visa.jpg">
-                                </div>
-                                <div class="slide"><img alt="Rudra Remedies" src="images/Rudra Remedies.jpg"></div>
-                                <div class="slide"><img alt="Akin Health" src="images/Akin Health.jpg"></div>
-                                <div class="slide"><img src="images/Digital Marketing Services.jpg" alt="Logo 6"></div>
-                                <div class="slide"><img alt="arcade-hospitalty" src="images/arcade-hospitalty.jpg">
-                                </div>
-                                <div class="slide"><img alt="Nebulacrafttech" src="images/Nebulacrafttech.jpg"></div>
-                                <div class="slide"><img alt="herahairsolutions" src="images/herahairsolutions.jpg">
-                                </div>
-                                <div class="slide"><img alt="mysticai" src="images/mysticai.jpg"></div>
-                                <div class="slide"><img alt="heartland" src="images/heartland.jpg"></div>
-                                <div class="slide"><img alt="Ojaswin-Yoga-School" src="images/Ojaswin-Yoga-School.jpeg">
-                                </div>
-                                <div class="slide"><img alt="falcon" src="images/falcon.jpg"></div>
-                                <div class="slide"><img alt="Vivaaaesthetics" src="images/Vivaaaesthetics.jpg"></div>
-                                <div class="slide"><img alt="cloudadata" src="images/cloudadata.jpg"></div>
-                                <div class="slide"><img alt="visagurujiglobal" src="images/visagurujiglobal.jpg"></div>
-                                <div class="slide"><img alt="Morocco-Tourism" src="images/Morocco-Tourism.jpeg"></div>
-                                <div class="slide"><img alt="Davesar" src="images/Davesar.jpeg"></div>
-                                <div class="slide"><img alt="salient" src="images/salient.jpeg"></div>
-                                <div class="slide"><img alt="Master Nifty" src="images/Master Nifty.jpg"></div>
-                                <div class="slide"><img alt="Statsenei" src="images/Statsenei.jpeg"></div>
-                                <div class="slide"><img alt="Diamond Salon" src="images/Diamond Salon.jpg"></div>
-                                <div class="slide"><img alt="cocoona" src="images/cocoona.jpeg"></div>
-                                <div class="slide"><img alt="adgrohair" src="images/adgrohair.jpeg"></div>
-                                <div class="slide"><img alt="advick app" src="images/advick app_img.jpg"></div>
-                                <div class="slide"><img alt="freestockstips" src="images/freestockstips.jpg"></div>
-                                <div class="slide"><img alt="afflatus" src="images/afflatus.jpeg"></div>
-                                <div class="slide"><img alt="cara" src="images/cara_img.jpeg"></div>
-                                <div class="slide"><img alt="MindYourTax" src="images/MindYourTax.jpeg"></div>
-                                <div class="slide"><img alt="ContinentalImmigration"
-                                        src="images/ContinentalImmigration.jpeg"></div>
-                                <div class="slide"><img alt="BuildngNeeds" src="images/BuildngNeeds.jpeg"></div>
-                                <div class="slide"><img alt="AudioCity" src="images/AudioCity_img.jpeg"></div>
-                                <div class="slide"><img alt="IMG" src="images/IMG_img.jpeg"></div>
-                                <div class="slide"><img alt="Stellar" src="images/Stellar.jpeg"></div>
-                                <div class="slide"><img alt="agehair" src="images/agehair.jpg"></div>
-                                <div class="slide"><img alt="Olympus" src="images/Olympus_img.jpeg"></div>
-                                <div class="slide"><img alt="advisely" src="images/advisely_img.jpeg"></div>
-                                <div class="slide"><img alt="rwics" src="images/rwics.jpeg"></div>
-                                <div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-                                <div class="slide"><img alt="ihoroscopegpt" src="images/IEAC.jpeg"></div>
-                                <div class="slide"><img alt="drcompass" src="images/bnps_img.jpeg"></div>
-                                <div class="slide"><img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.jpeg"></div>
-                                <div class="slide"><img alt="drcompass" src="images/drcompass.jpeg"></div>
-                                <div class="slide"><img alt="heal24" src="images/vijayjoshiastro.jpg"></div>
-                                <div class="slide"><img alt="heal24" src="images/meo_img.jpeg"></div>
-                                <div class="slide"> <img alt="heal24" src="images/astrorightsolution_img.jpeg"></div>
-                                <div class="slide"><img alt="heal24" src="images/myastrologeryogesh.jpg"></div>
-                                <div class="slide"><img alt="heal24" src="images/eva_img.jpeg"></div>
+
                                 <div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.jpeg"></div>
                                 <div class="slide"><img alt="heal24" src="images/cliniq_img.jpeg"></div>
                                 <div class="slide"><img alt="city clinics" src="images/dncc_img.jpeg"></div>
@@ -1611,9 +1591,10 @@
 
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- End of Clients Logos Portfolio Container -->
 
 
