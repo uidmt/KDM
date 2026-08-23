@@ -377,9 +377,12 @@ textarea.kdm-input {
 }
 
 @keyframes btnGlow {
-    0%, 100% {
+
+    0%,
+    100% {
         box-shadow: 0 4px 15px rgba(0, 136, 204, 0.4) !important;
     }
+
     50% {
         box-shadow: 0 6px 25px rgba(0, 136, 204, 0.7) !important;
     }
@@ -439,6 +442,7 @@ textarea.kdm-input {
         grid-template-columns: 1fr !important;
         gap: 10px !important;
     }
+
     .kdm-field-group.full-width,
     .trust-line {
         grid-column: span 1 !important;
@@ -456,13 +460,25 @@ textarea.kdm-input {
 }
 
 @keyframes kdmFadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes kdmSlideUp {
-    from { transform: translateY(30px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /* Offer Banner Section */
@@ -668,9 +684,11 @@ textarea.kdm-input {
         padding: 40px 15px 45px 15px !important;
         margin-bottom: 30px !important;
     }
+
     .kdm-pkg-hero h1 {
         font-size: 28px !important;
     }
+
     .kdm-benefits-grid {
         grid-template-columns: repeat(2, 1fr) !important;
     }
@@ -682,16 +700,19 @@ textarea.kdm-input {
         border-radius: 0 0 16px 16px !important;
         margin-bottom: 20px !important;
     }
+
     .kdm-top-badge {
         font-size: 10.5px !important;
         padding: 4px 10px !important;
         margin-bottom: 10px !important;
     }
+
     .kdm-pkg-hero h1 {
         font-size: 21px !important;
         line-height: 1.25 !important;
         margin-bottom: 8px !important;
     }
+
     .kdm-pkg-hero p.hero-subtitle {
         font-size: 13px !important;
         line-height: 1.45 !important;
@@ -701,11 +722,13 @@ textarea.kdm-input {
         -webkit-box-orient: vertical !important;
         overflow: hidden !important;
     }
+
     .kdm-benefits-grid {
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 6px 8px !important;
         margin-bottom: 16px !important;
     }
+
     .kdm-benefit-item {
         font-size: 11.5px !important;
         padding: 4px 8px !important;
@@ -713,28 +736,33 @@ textarea.kdm-input {
         gap: 5px !important;
         line-height: 1.25 !important;
     }
+
     .kdm-benefit-item svg {
         width: 14px !important;
         height: 14px !important;
         min-width: 14px !important;
     }
+
     .kdm-pkg-stats {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 6px !important;
         margin-bottom: 16px !important;
     }
+
     .kdm-pkg-stat-pill {
         padding: 5px 8px !important;
         font-size: 11.5px !important;
         text-align: center !important;
         justify-content: center !important;
     }
+
     .kdm-pkg-cta-group {
         flex-direction: column !important;
         width: 100% !important;
         gap: 8px !important;
     }
+
     .kdm-btn-hero-primary,
     .kdm-btn-hero-whatsapp {
         width: 100% !important;
@@ -748,149 +776,17 @@ textarea.kdm-input {
     .kdm-pkg-hero h1 {
         font-size: 19px !important;
     }
+
     .kdm-pkg-stats {
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
         gap: 8px !important;
     }
+
     .kdm-pkg-stat-pill {
         width: 100% !important;
         justify-content: center !important;
         box-sizing: border-box !important;
-    }
-}
-
-/* ==========================================================================
-   Limited Time Offer Countdown Banner
-   ========================================================================== */
-.kdm-package-countdown-banner {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    border: 1px solid rgba(56, 189, 248, 0.2);
-    border-radius: 16px;
-    padding: 16px 24px;
-    margin: 20px auto 30px auto;
-    max-width: 1140px;
-    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.12);
-}
-
-.kdm-countdown-flex-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.kdm-countdown-info {
-    flex: 1;
-    min-width: 260px;
-}
-
-.kdm-countdown-badge {
-    background: rgba(239, 68, 68, 0.15);
-    border: 1px solid rgba(239, 68, 68, 0.35);
-    color: #ef4444;
-    font-size: 11px;
-    font-weight: 800;
-    padding: 3.5px 10px;
-    border-radius: 50px;
-    letter-spacing: 0.5px;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 6px;
-}
-
-.kdm-countdown-title {
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0;
-    line-height: 1.3;
-}
-
-.kdm-countdown-title strong {
-    color: #38bdf8;
-}
-
-.kdm-countdown-timer {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    padding: 8px 16px;
-    border-radius: 14px;
-}
-
-.kdm-timer-unit {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 40px;
-}
-
-.kdm-timer-num {
-    color: #F59E0B;
-    font-size: 22px;
-    font-weight: 800;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1;
-}
-
-.kdm-timer-lbl {
-    color: #94a3b8;
-    font-size: 9.5px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-weight: 600;
-    margin-top: 2px;
-}
-
-.kdm-timer-colon {
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.kdm-countdown-btn {
-    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
-    color: #ffffff !important;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 50px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none !important;
-    box-shadow: 0 4px 15px rgba(2, 132, 199, 0.35);
-    transition: all 0.3s ease;
-}
-
-.kdm-countdown-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 22px rgba(2, 132, 199, 0.45);
-    color: #ffffff !important;
-}
-
-@media (max-width: 767px) {
-    .kdm-package-countdown-banner {
-        padding: 14px 14px !important;
-        margin: 15px 10px 25px 10px !important;
-    }
-    .kdm-countdown-flex-wrap {
-        flex-direction: column !important;
-        text-align: center !important;
-        gap: 12px !important;
-    }
-    .kdm-countdown-title {
-        font-size: 15px !important;
-    }
-    .kdm-countdown-btn {
-        width: 100% !important;
-        justify-content: center !important;
     }
 }
 
@@ -970,12 +866,29 @@ textarea.kdm-input {
     margin-bottom: 16px;
 }
 
-.icon-cyan { background: rgba(2, 132, 199, 0.1); }
-.icon-blue { background: rgba(37, 99, 235, 0.1); }
-.icon-green { background: rgba(22, 163, 74, 0.1); }
-.icon-purple { background: rgba(147, 51, 234, 0.1); }
-.icon-orange { background: rgba(234, 88, 12, 0.1); }
-.icon-amber { background: rgba(217, 119, 6, 0.1); }
+.icon-cyan {
+    background: rgba(2, 132, 199, 0.1);
+}
+
+.icon-blue {
+    background: rgba(37, 99, 235, 0.1);
+}
+
+.icon-green {
+    background: rgba(22, 163, 74, 0.1);
+}
+
+.icon-purple {
+    background: rgba(147, 51, 234, 0.1);
+}
+
+.icon-orange {
+    background: rgba(234, 88, 12, 0.1);
+}
+
+.icon-amber {
+    background: rgba(217, 119, 6, 0.1);
+}
 
 .kdm-usp-card-title {
     color: #0f172a;
@@ -1003,6 +916,7 @@ textarea.kdm-input {
         grid-template-columns: 1fr;
         gap: 14px;
     }
+
     .kdm-usp-title {
         font-size: 22px !important;
     }

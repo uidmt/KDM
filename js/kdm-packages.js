@@ -174,55 +174,6 @@ function initSeoResultsSlider() {
     });
 }
 
-/* ==========================================================================
-   Dynamic Countdown Timer for Package Offer Banners
-   ========================================================================== */
-function initPackageCountdown() {
-    var timerElements = document.querySelectorAll('.kdm-countdown-timer');
-    if (!timerElements || timerElements.length === 0) return;
-
-    function getTargetTime() {
-        var now = new Date();
-        var target = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59).getTime();
-        if (target - now.getTime() < 3600000) {
-            target += 86400000;
-        }
-        return target;
-    }
-
-    var endTime = getTargetTime();
-
-    function updateTimer() {
-        var now = new Date().getTime();
-        var distance = endTime - now;
-
-        if (distance < 0) {
-            endTime = getTargetTime();
-            distance = endTime - now;
-        }
-
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        var hStr = hours < 10 ? "0" + hours : hours;
-        var mStr = minutes < 10 ? "0" + minutes : minutes;
-        var sStr = seconds < 10 ? "0" + seconds : seconds;
-
-        timerElements.forEach(function (el) {
-            var hEl = el.querySelector('.kdm-timer-hours');
-            var mEl = el.querySelector('.kdm-timer-mins');
-            var sEl = el.querySelector('.kdm-timer-secs');
-            if (hEl) hEl.textContent = hStr;
-            if (mEl) mEl.textContent = mStr;
-            if (sEl) sEl.textContent = sStr;
-        });
-    }
-
-    updateTimer();
-    setInterval(updateTimer, 1000);
-}
-
 // Initialize on DOM Ready
 document.addEventListener("DOMContentLoaded", function () {
     // 1. Modal event listeners
@@ -248,7 +199,7 @@ document.addEventListener("DOMContentLoaded", function () {
             e.preventDefault();
             var name = document.getElementById("kdmFormName") ? document.getElementById("kdmFormName").value : "";
             var phone = document.getElementById("kdmFormPhone") ? document.getElementById("kdmFormPhone").value : "";
-            
+
             if (!name || !phone) {
                 alert("Please enter your name and phone number.");
                 return;
@@ -283,7 +234,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 5. Start SEO Results Card Carousel
     initSeoResultsSlider();
-
-    // 6. Start Package Countdown Banner Timer
-    initPackageCountdown();
 });
