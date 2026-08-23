@@ -1738,7 +1738,7 @@
         </section>
         <!-- End of NUMBERS DO SPEAK A LOT ! -->
 
-        <!-- ===== CREDENTIALS SECTION (REUSABLE WHITE THEME COMPONENT) ===== -->
+        <!-- ===== CREDENTIALS SECTION (UNIFIED SINGLE ROW GLASS BAR) ===== -->
         <section class="kdm-credentials-white-section">
             <div class="container">
                 <div class="kdm-credentials-header">
@@ -1749,44 +1749,44 @@
                     <p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
                 </div>
 
-                <div class="row custom-row center counters dark counters-row">
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="kdm-credentials-card">
-                            <div class="kdm-credentials-icon-box">
-                                <i class="fa fa-user counter-icon"></i>
-                            </div>
-                            <strong class="counter-value kdm-credentials-num" data-to="780" data-append="+">780+</strong>
-                            <label class="kdm-credentials-label">Happy Clients</label>
+                <div class="kdm-credentials-unified-bar counters dark counters-row">
+                    <div class="kdm-credential-bar-item">
+                        <div class="kdm-bar-icon-box">
+                            <i class="fa fa-user counter-icon"></i>
+                        </div>
+                        <div class="kdm-bar-info">
+                            <strong class="counter-value kdm-bar-num" data-to="780" data-append="+">780+</strong>
+                            <span class="kdm-bar-label">Happy Clients</span>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="kdm-credentials-card">
-                            <div class="kdm-credentials-icon-box">
-                                <i class="fa fa-star counter-icon"></i>
-                            </div>
-                            <strong class="counter-value kdm-credentials-num" data-to="4.9" data-append="+">4.9/5★</strong>
-                            <label class="kdm-credentials-label">Ratings</label>
+                    <div class="kdm-credential-bar-item">
+                        <div class="kdm-bar-icon-box">
+                            <i class="fa fa-star counter-icon"></i>
+                        </div>
+                        <div class="kdm-bar-info">
+                            <strong class="counter-value kdm-bar-num" data-to="4.9" data-append="+">4.9/5★</strong>
+                            <span class="kdm-bar-label">Ratings</span>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="kdm-credentials-card">
-                            <div class="kdm-credentials-icon-box">
-                                <i class="fa fa-bullseye counter-icon"></i>
-                            </div>
-                            <strong class="counter-value kdm-credentials-num" data-to="900" data-append="+">900+</strong>
-                            <label class="kdm-credentials-label">Projects Completed</label>
+                    <div class="kdm-credential-bar-item">
+                        <div class="kdm-bar-icon-box">
+                            <i class="fa fa-bullseye counter-icon"></i>
+                        </div>
+                        <div class="kdm-bar-info">
+                            <strong class="counter-value kdm-bar-num" data-to="900" data-append="+">900+</strong>
+                            <span class="kdm-bar-label">Projects Completed</span>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="kdm-credentials-card">
-                            <div class="kdm-credentials-icon-box">
-                                <i class="fa fa-line-chart counter-icon"></i>
-                            </div>
-                            <strong class="counter-value kdm-credentials-num" data-to="13" data-append="+">13+</strong>
-                            <label class="kdm-credentials-label">Years in Business</label>
+                    <div class="kdm-credential-bar-item">
+                        <div class="kdm-bar-icon-box">
+                            <i class="fa fa-line-chart counter-icon"></i>
+                        </div>
+                        <div class="kdm-bar-info">
+                            <strong class="counter-value kdm-bar-num" data-to="13" data-append="+">13+</strong>
+                            <span class="kdm-bar-label">Years in Business</span>
                         </div>
                     </div>
                 </div>
