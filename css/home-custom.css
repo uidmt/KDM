@@ -5755,38 +5755,16 @@ svg.kdm-ppc-svg-icon {
 }
 
 /* ==========================================================================
-   Redesigned Numbers Do Speak A Lot Section (Dark Theme with SVGs)
+   Redesigned Numbers Do Speak A Lot Section (White BG + Dark Blocks with SVGs)
    ========================================================================== */
 .kdm-numbers-dark-section {
-    background: linear-gradient(135deg, #0b132b 0%, #0f172a 50%, #020617 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
     padding: 85px 0;
     position: relative;
     overflow: hidden;
-    color: #ffffff;
-}
-
-.kdm-numbers-dark-section::before {
-    content: '';
-    position: absolute;
-    top: -150px;
-    left: -150px;
-    width: 500px;
-    height: 500px;
-    background: radial-gradient(circle, rgba(56, 189, 248, 0.12) 0%, rgba(56, 189, 248, 0) 70%);
-    border-radius: 50%;
-    pointer-events: none;
-}
-
-.kdm-numbers-dark-section::after {
-    content: '';
-    position: absolute;
-    bottom: -150px;
-    right: -150px;
-    width: 500px;
-    height: 500px;
-    background: radial-gradient(circle, rgba(3, 105, 161, 0.15) 0%, rgba(3, 105, 161, 0) 70%);
-    border-radius: 50%;
-    pointer-events: none;
+    color: #0f172a;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
 }
 
 .kdm-numbers-header-dark {
@@ -5801,9 +5779,9 @@ svg.kdm-ppc-svg-icon {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: rgba(56, 189, 248, 0.12);
-    border: 1px solid rgba(56, 189, 248, 0.3);
-    color: #38bdf8;
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(2, 132, 199, 0.25);
+    color: #0284c7;
     font-size: 12.5px;
     font-weight: 700;
     letter-spacing: 1.2px;
@@ -5814,7 +5792,7 @@ svg.kdm-ppc-svg-icon {
 }
 
 .kdm-numbers-title-dark {
-    color: #ffffff;
+    color: #0f172a;
     font-size: 36px;
     font-weight: 800;
     line-height: 1.3;
@@ -5824,7 +5802,7 @@ svg.kdm-ppc-svg-icon {
 }
 
 .kdm-numbers-subtitle-dark {
-    color: #94a3b8;
+    color: #475569;
     font-size: 15.5px;
     line-height: 1.75;
     text-align: center;
@@ -5839,33 +5817,32 @@ svg.kdm-ppc-svg-icon {
 }
 
 .kdm-number-card-dark {
-    background: rgba(15, 23, 42, 0.75);
-    border: 1px solid rgba(56, 189, 248, 0.18);
-    border-left: 4px solid #38bdf8;
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    border-left: 4px solid #0284c7;
     border-radius: 20px;
     padding: 24px 26px;
     display: flex;
     align-items: center;
     gap: 20px;
     transition: all 0.35s ease;
-    backdrop-filter: blur(14px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
     position: relative;
     z-index: 2;
 }
 
 .kdm-number-card-dark-link:hover .kdm-number-card-dark {
     transform: translateY(-6px);
-    border-color: #38bdf8;
-    box-shadow: 0 20px 45px rgba(56, 189, 248, 0.22);
-    background: rgba(15, 23, 42, 0.95);
+    border-color: #0284c7;
+    box-shadow: 0 20px 45px rgba(2, 132, 199, 0.25);
+    background: #1e293b;
 }
 
 .kdm-number-svg-box {
     width: 65px;
     height: 65px;
     border-radius: 16px;
-    background: rgba(56, 189, 248, 0.12);
+    background: rgba(2, 132, 199, 0.15);
     border: 1px solid rgba(56, 189, 248, 0.3);
     display: flex;
     align-items: center;
