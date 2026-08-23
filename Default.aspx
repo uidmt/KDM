@@ -675,18 +675,35 @@
                                 </div>
                             </div>
 
-                            <div class="kdm-founder-stats-row">
-                                <div class="kdm-founder-stat-item">
-                                    <strong>13+ Yrs</strong>
-                                    <span>Experience</span>
+                            <!-- 4 Stats Cards Grid Above Social Icons -->
+                            <div class="kdm-left-stats-grid kdm-founder-stats-grid">
+                                <div class="kdm-left-stat-card">
+                                    <div class="kdm-left-stat-icon"><i class="fa fa-user-md fa-solid fa-user-tie"></i></div>
+                                    <div class="kdm-left-stat-info">
+                                        <strong>13+ Yrs Exp.</strong>
+                                        <span>Senior Consultants</span>
+                                    </div>
                                 </div>
-                                <div class="kdm-founder-stat-item">
-                                    <strong>900+</strong>
-                                    <span>Projects</span>
+                                <div class="kdm-left-stat-card">
+                                    <div class="kdm-left-stat-icon"><i class="fa fa-check-circle fa-solid fa-circle-check"></i></div>
+                                    <div class="kdm-left-stat-info">
+                                        <strong>900+ Projects</strong>
+                                        <span>High ROI Delivered</span>
+                                    </div>
                                 </div>
-                                <div class="kdm-founder-stat-item">
-                                    <strong>1,850+</strong>
-                                    <span>Trained</span>
+                                <div class="kdm-left-stat-card">
+                                    <div class="kdm-left-stat-icon"><i class="fa fa-globe fa-solid fa-globe"></i></div>
+                                    <div class="kdm-left-stat-info">
+                                        <strong>15+ Countries</strong>
+                                        <span>Global Clients Served</span>
+                                    </div>
+                                </div>
+                                <div class="kdm-left-stat-card">
+                                    <div class="kdm-left-stat-icon"><i class="fa fa-graduation-cap fa-solid fa-graduation-cap"></i></div>
+                                    <div class="kdm-left-stat-info">
+                                        <strong>1,850+ Students</strong>
+                                        <span>Trained Professionals</span>
+                                    </div>
                                 </div>
                             </div>
 

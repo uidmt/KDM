@@ -4973,6 +4973,29 @@ svg.kdm-ppc-svg-icon {
     font-size: 12px;
 }
 
+/* Founder Card 4-Stats Grid Above Social Icons */
+.kdm-founder-stats-grid {
+    width: 100%;
+    margin: 16px 0 20px 0;
+    gap: 10px;
+}
+.kdm-founder-stats-grid .kdm-left-stat-card {
+    text-align: left;
+    padding: 10px 12px;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-left: 3px solid #38bdf8;
+    border-radius: 12px;
+}
+.kdm-founder-stats-grid .kdm-left-stat-info strong {
+    font-size: 13px;
+    color: #ffffff;
+}
+.kdm-founder-stats-grid .kdm-left-stat-info span {
+    font-size: 11px;
+    color: #94a3b8;
+}
+
 .kdm-btn-primary-glow {
     background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
     color: #ffffff !important;
