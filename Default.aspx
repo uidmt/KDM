@@ -1450,7 +1450,7 @@
                     </p>
 
                     <div class="kdm-seo-solutions-box">
-                        <h3 class="kdm-seo-solutions-title">We Have Best Solutions For</h3>
+                        <h3 class="kdm-seo-solutions-title">We Have Best Solutions For:</h3>
                         <div class="kdm-seo-solutions-grid">
                             <span class="kdm-seo-solution-item"><b>1.</b> Low Organic Traffic</span>
                             <span class="kdm-seo-solution-item"><b>2.</b> No Organic Leads</span>
