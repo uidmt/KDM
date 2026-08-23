@@ -1510,30 +1510,34 @@ h2.kdm-process-title {
   }
 
   #hero-line1-unique {
-    font-size: 14px !important;
+    font-size: 13.5px !important;
     letter-spacing: 1.5px !important;
-    margin: 0 0 10px 0 !important;
+    margin: 0 0 8px 0 !important;
     color: #38bdf8 !important;
     font-weight: 700 !important;
   }
 
   #hero-line2-unique {
-    font-size: 24px !important;
-    line-height: 1.3 !important;
+    font-size: 23px !important;
+    line-height: 1.35 !important;
     margin-bottom: 12px !important;
+    margin-top: 4px !important;
     font-weight: 900 !important;
+    padding-bottom: 8px !important;
+    border-bottom: 1px solid rgba(56, 189, 248, 0.15) !important;
   }
 
   #hero-line3-unique {
-    font-size: 12.5px !important;
-    line-height: 1.45 !important;
-    margin: 0 !important;
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+    margin: 10px 0 0 0 !important;
     color: #94a3b8 !important;
-    padding: 0 5px;
+    padding: 0 5px !important;
+    letter-spacing: 0.4px !important;
   }
 
   #hero-contactBtn-unique {
-    margin-top: 18px !important;
+    margin-top: 20px !important;
     padding: 10px 24px !important;
     font-size: 13px !important;
     border-radius: 50px !important;
@@ -1544,7 +1548,10 @@ h2.kdm-process-title {
   }
 
   .kdm-hero-trust-wrapper {
-    margin-top: 20px !important;
+    margin-top: 22px !important;
+    padding-top: 16px !important;
+    border-top: 1px dashed rgba(255, 255, 255, 0.12) !important;
+    width: 100% !important;
   }
 
   .kdm-tb-headline {
@@ -1569,6 +1576,11 @@ h2.kdm-process-title {
 
   .kdm-tb-rating {
     font-size: 11.5px !important;
+  }
+
+  .kdm-tb-sep {
+    height: 9px !important;
+    background: rgba(255, 255, 255, 0.25) !important;
   }
 
   .service-name {
@@ -6660,6 +6672,15 @@ svg.kdm-ppc-svg-icon {
     font-size: 13px;
     font-weight: 700;
     letter-spacing: -0.2px;
+}
+
+.kdm-tb-sep {
+    width: 1px;
+    height: 11px;
+    background: rgba(255, 255, 255, 0.22);
+    display: inline-block;
+    flex-shrink: 0;
+    margin: 0 1px;
 }
 
 .kdm-tb-rating {
