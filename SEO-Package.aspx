@@ -75,8 +75,9 @@
 
                 <!-- CTA Group with Popup Form Trigger -->
                 <div class="kdm-pkg-cta-group">
-                    <a href="tel:+919821918208" class="kdm-btn-hero-primary"><i class="fa fa-phone"></i> Call +91 9821918208</a>
-                    <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Free Audit Consultation')" class="kdm-btn-hero-whatsapp"><i class="fa fa-calendar"></i> Request Free SEO Audit</a>
+                    <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Consultation')" class="kdm-btn-hero-primary"><i class="fa fa-paper-plane"></i> Request Free Consultation</a>
+                    <a href="tel:+919821918208" class="kdm-btn-hero-call"><i class="fa fa-phone"></i> Call +91 9821918208</a>
+                    <a href="https://api.whatsapp.com/send?phone=919821918208&text=Hi%20King%20of%20Digital%20Marketing,%20I%20am%20interested%20in%20your%20SEO%20packages." target="_blank" class="kdm-btn-hero-whatsapp"><i class="fa fa-whatsapp"></i> Instant WhatsApp Chat</a>
                 </div>
             </div>
         </section>
@@ -113,39 +114,15 @@
         </div>
       </section>
 
-      <!-- Limited Time Offer Countdown Banner -->
-      <div class="kdm-package-countdown-banner">
+      <!-- Intro SEO Content Section for Keyword Optimization -->
+      <section class="kdm-intro-content-section" style="padding: 35px 0 25px 0; background: #ffffff; color: #333;">
         <div class="container">
-          <div class="kdm-countdown-flex-wrap">
-            <div class="kdm-countdown-info">
-              <span class="kdm-countdown-badge"><i class="fa fa-clock-o"></i> LIMITED TIME SPECIAL OFFER</span>
-              <h3 class="kdm-countdown-title">Get <strong>Instant 15% OFF</strong> On All SEO Packages Today!</h3>
-            </div>
-            <div class="kdm-countdown-timer">
-              <div class="kdm-timer-unit">
-                <span class="kdm-timer-num kdm-timer-hours">08</span>
-                <span class="kdm-timer-lbl">Hours</span>
-              </div>
-              <span class="kdm-timer-colon">:</span>
-              <div class="kdm-timer-unit">
-                <span class="kdm-timer-num kdm-timer-mins">42</span>
-                <span class="kdm-timer-lbl">Mins</span>
-              </div>
-              <span class="kdm-timer-colon">:</span>
-              <div class="kdm-timer-unit">
-                <span class="kdm-timer-num kdm-timer-secs">19</span>
-                <span class="kdm-timer-lbl">Secs</span>
-              </div>
-            </div>
-            <div class="kdm-countdown-cta">
-              <a href="javascript:void(0);" onclick="openPackageModal('SEO Special Offer (15% OFF)')"
-                class="kdm-countdown-btn">
-                <span>Claim Offer Now</span> <i class="fa fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+          <h2 style="font-size: 26px; font-weight: 800; color: #0f172a; margin-bottom: 15px; text-align: center;">Best SEO Packages in Delhi, India to Grow Your Business Online</h2>
+          <p style="font-size: 15px; line-height: 1.75; color: #475569; max-width: 1050px; margin: 0 auto; text-align: center;">
+            Are you in search of best SEO packages in Delhi, India to grow your business online? King of Digital Marketing offers affordable SEO packages that deliver top ranking and real results. Whether you're a small local business or a large enterprise, our monthly SEO plans are designed to improve your Google rankings, drive organic traffic and boost your conversions (leads or sales). Each SEO package includes complete services like on page optimization, technical SEO, backlink building, content updates, and performance reporting. We also offer specialized Local SEO packages to help you dominate your local market and attract local nearby customers. If you're wondering about the SEO cost for your business, our pricing is affordable, transparent, flexible and based on your goals and industry. Our SEO plans start as low as INR 19,999/Month, making them ideal for startups and growing brands. Choose our result oriented SEO package and take the first step toward long term online growth and visibility. Contact us today to find the right SEO plan for your business!
+          </p>
         </div>
-      </div>
+      </section>
       <!--
   <div style="text-align: center; margin-bottom: 30px;">
     <span class="kdm-pkg-badge"><i class="fa fa-trophy"></i> PROVEN TRACK RECORD</span>
