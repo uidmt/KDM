@@ -734,6 +734,134 @@
             </div>
         </section>
         <!-- King of Digital Marketing Dark Section Ends -->
+
+        <!-- ===== CLIENTS TRUST & LOGOS SECTION (WHITE THEME) ===== -->
+        <section class="kdm-clients-white-section">
+            <div class="container">
+                <div class="row custom-row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="kdm-clients-header">
+                            <div class="kdm-clients-badge">
+                                <i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
+                            </div>
+                            <h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">Digital
+                                    Marketing Company</span> To Help Flourish Your Business</h2>
+                            <p class="kdm-clients-subtitle">
+                                What makes us distinct is our valuable clients. We strive day in and day out to secure their branding, online reputation, visibility, high-converting traffic, and qualified lead generation.
+                            </p>
+                        </div>
+
+                        <div class="happy" id="images">
+                            <div class="track">
+                                <!-- Featured Priority Client Logos -->
+                                <div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
+                                <div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
+                                <div class="slide"><img alt="SkinLab Jamuna Pai"
+                                        src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
+                                <div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
+                                <div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
+                                <div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+                                <div class="slide"><img alt="Global Opportunities"
+                                        src="images/client/global opportunies.jpeg">
+                                </div>
+                                <div class="slide"><img alt="Planet Education" src="images/client/planet education.jpg">
+                                </div>
+                                <div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+                                <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.jpeg"></div>
+                                <div class="slide"><img alt="Continental Immigration"
+                                        src="images/ContinentalImmigration.jpeg"></div>
+                                <div class="slide"><img alt="Scala" src="images/scala.png"></div>
+                                <div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
+                                <div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png">
+                                </div>
+                                <div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+                                <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png">
+                                </div>
+                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+                                <div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
+                                <div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
+
+                                <!-- Additional Client Logos -->
+                                <div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
+                                <div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg">
+                                </div>
+                                <div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
+                                <div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg">
+                                </div>
+                                <div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+
+                                <div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.jpeg"></div>
+                                <div class="slide"><img alt="heal24" src="images/cliniq_img.jpeg"></div>
+                                <div class="slide"><img alt="city clinics" src="images/dncc_img.jpeg"></div>
+                                <div class="slide"><img alt="get study visa" src="images/afflatusglobalvisa_img.jpeg">
+                                </div>
+                                <div class="slide"><img alt="heal24" src="images/monickaagupta_img.jpeg"></div>
+                                <div class="slide"><img alt="city clinics" src="images/aicsimmigration.jpeg"></div>
+                                <div class="slide"><img alt="get study visa" src="images/get.png"></div>
+                                <div class="slide"><img alt="Planet education" src="images/pl.png"></div>
+                                <div class="slide"><img alt="R&P" src="images/rp.png"></div>
+                                <div class="slide"><img alt="canx" src="images/canx.png"></div>
+                                <div class="slide"><img alt="Meena Bazar" src="images/mb-Meena-Bazar_img.png"></div>
+                                <div class="slide"><img alt="Lakhotia" src="images/lakhotia_img.png"></div>
+                                <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.jpg"></div>
+                                <div class="slide"> <img alt="Kidney Care Centre"
+                                        src="images/kidney care centre_img.jpg"></div>
+                                <div class="slide"><img alt="Iskcon Delhi" src="images/KAN_VISA_DIRECTIOn_img.png">
+                                </div>
+                                <div class="slide"><img alt="Website Development in delhi"
+                                        src="images/iskcon delhi_img.jpg"></div>
+                                <div class="slide"><img alt="Hair Transplant Medispa"
+                                        src="images/hair transplant medispa_img.jpg">
+                                </div>
+                                <div class="slide"><img alt="Dreamzone Allahabad" src="images/dreamzone allahabad.jpg">
+                                </div>
+                                <div class="slide"><img alt="Dr Pk Talwar" src="images/dr pk talwar_img.jpg"></div>
+                                <div class="slide"><img alt="go to university" src="images/go to university_img.jpg">
+                                </div>
+                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.jpg"></div>
+                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.png"></div>
+                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.png"></div>
+                                <div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.jpg"></div>
+                                <div class="slide"><img alt="tradeFD" src="images/trade.jpg"></div>
+                                <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg"></div>
+                                <div class="slide"><img alt="Astro Gagan Sharma" src="images/Astro Gagan Sharma.jpg">
+                                </div>
+                                <div class="slide"><img alt="Art of Making Money" src="images/Art of Making Money.jpg">
+                                </div>
+                                <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.jpg"></div>
+                                <div class="slide"><img alt="One Wellness Fitness Club"
+                                        src="images/One Wellness Fitness Club.jpg">
+                                </div>
+                                <div class="slide"><img alt="solar farmer" src="images/solar farmer.jpg"></div>
+                                <div class="slide"><img alt="aliff" src="images/aliff_img.jpeg"></div>
+                                <div class="slide"><img alt="fractionate" src="images/fractionate_img.jpeg"></div>
+                                <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg"></div>
+                                <div class="slide"> <img alt="Dr" src="images/Dr.jpg"></div>
+                                <div class="slide"><img alt="dirish sharma" src="images/dirish-sharma-logo.jpg"></div>
+                                <div class="slide"><img alt="City House" src="images/City-House-PG-logo.jpg"></div>
+                                <div class="slide"><img alt="Amazing Holidays" src="images/Amazing-Holidays-logo.jpg">
+                                </div>
+                                <div class="slide"><img alt="Aksira education" src="images/Aksira-education-logo.jpg">
+                                </div>
+                                <div class="slide"><img alt="jashvi consultant" src="images/jashvi consultant_img.jpg">
+                                </div>
+                                <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.jpeg">
+                                </div>
+                                <div class="slide"><img alt="MTel" src="images/MTel_img.jpeg"></div>
+                                <div class="slide"><img alt="Pinnacle Consulting"
+                                        src="images/Pinnacle Consulting_img.jpg"></div>
+                                <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.jpg"></div>
+                                <div class="slide"><img alt="Preetiesdeitclinic" src="images/Preetiesdeitclinic.jpeg">
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Clients Logos Portfolio Container -->
         <!-- ===== HOW DO WE EMPOWER YOU DIGITALLY SECTION ===== -->
         <section class="empower-section">
             <div class="container">
@@ -1466,134 +1594,6 @@
         </div>
 
         <hr class="tall" />
-
-        <!-- ===== CLIENTS TRUST & LOGOS SECTION (WHITE THEME) ===== -->
-        <section class="kdm-clients-white-section">
-            <div class="container">
-                <div class="row custom-row">
-                    <div class="col-md-12 col-sm-12">
-                        <div class="kdm-clients-header">
-                            <div class="kdm-clients-badge">
-                                <i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
-                            </div>
-                            <h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">Digital
-                                    Marketing Company</span> To Help Flourish Your Business</h2>
-                            <p class="kdm-clients-subtitle">
-                                What makes us distinct is our valuable clients. We strive day in and day out to secure their branding, online reputation, visibility, high-converting traffic, and qualified lead generation.
-                            </p>
-                        </div>
-
-                        <div class="happy" id="images">
-                            <div class="track">
-                                <!-- Featured Priority Client Logos -->
-                                <div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-                                <div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-                                <div class="slide"><img alt="SkinLab Jamuna Pai"
-                                        src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-                                <div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-                                <div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-                                <div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
-                                <div class="slide"><img alt="Global Opportunities"
-                                        src="images/client/global opportunies.jpeg">
-                                </div>
-                                <div class="slide"><img alt="Planet Education" src="images/client/planet education.jpg">
-                                </div>
-                                <div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
-                                <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.jpeg"></div>
-                                <div class="slide"><img alt="Continental Immigration"
-                                        src="images/ContinentalImmigration.jpeg"></div>
-                                <div class="slide"><img alt="Scala" src="images/scala.png"></div>
-                                <div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-                                <div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png">
-                                </div>
-                                <div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
-                                <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png">
-                                </div>
-                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
-                                <div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-                                <div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
-
-                                <!-- Additional Client Logos -->
-                                <div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
-                                <div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg">
-                                </div>
-                                <div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
-                                <div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg">
-                                </div>
-                                <div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
-
-                                <div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.jpeg"></div>
-                                <div class="slide"><img alt="heal24" src="images/cliniq_img.jpeg"></div>
-                                <div class="slide"><img alt="city clinics" src="images/dncc_img.jpeg"></div>
-                                <div class="slide"><img alt="get study visa" src="images/afflatusglobalvisa_img.jpeg">
-                                </div>
-                                <div class="slide"><img alt="heal24" src="images/monickaagupta_img.jpeg"></div>
-                                <div class="slide"><img alt="city clinics" src="images/aicsimmigration.jpeg"></div>
-                                <div class="slide"><img alt="get study visa" src="images/get.png"></div>
-                                <div class="slide"><img alt="Planet education" src="images/pl.png"></div>
-                                <div class="slide"><img alt="R&P" src="images/rp.png"></div>
-                                <div class="slide"><img alt="canx" src="images/canx.png"></div>
-                                <div class="slide"><img alt="Meena Bazar" src="images/mb-Meena-Bazar_img.png"></div>
-                                <div class="slide"><img alt="Lakhotia" src="images/lakhotia_img.png"></div>
-                                <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.jpg"></div>
-                                <div class="slide"> <img alt="Kidney Care Centre"
-                                        src="images/kidney care centre_img.jpg"></div>
-                                <div class="slide"><img alt="Iskcon Delhi" src="images/KAN_VISA_DIRECTIOn_img.png">
-                                </div>
-                                <div class="slide"><img alt="Website Development in delhi"
-                                        src="images/iskcon delhi_img.jpg"></div>
-                                <div class="slide"><img alt="Hair Transplant Medispa"
-                                        src="images/hair transplant medispa_img.jpg">
-                                </div>
-                                <div class="slide"><img alt="Dreamzone Allahabad" src="images/dreamzone allahabad.jpg">
-                                </div>
-                                <div class="slide"><img alt="Dr Pk Talwar" src="images/dr pk talwar_img.jpg"></div>
-                                <div class="slide"><img alt="go to university" src="images/go to university_img.jpg">
-                                </div>
-                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.jpg"></div>
-                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.png"></div>
-                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.png"></div>
-                                <div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.jpg"></div>
-                                <div class="slide"><img alt="tradeFD" src="images/trade.jpg"></div>
-                                <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg"></div>
-                                <div class="slide"><img alt="Astro Gagan Sharma" src="images/Astro Gagan Sharma.jpg">
-                                </div>
-                                <div class="slide"><img alt="Art of Making Money" src="images/Art of Making Money.jpg">
-                                </div>
-                                <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.jpg"></div>
-                                <div class="slide"><img alt="One Wellness Fitness Club"
-                                        src="images/One Wellness Fitness Club.jpg">
-                                </div>
-                                <div class="slide"><img alt="solar farmer" src="images/solar farmer.jpg"></div>
-                                <div class="slide"><img alt="aliff" src="images/aliff_img.jpeg"></div>
-                                <div class="slide"><img alt="fractionate" src="images/fractionate_img.jpeg"></div>
-                                <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg"></div>
-                                <div class="slide"> <img alt="Dr" src="images/Dr.jpg"></div>
-                                <div class="slide"><img alt="dirish sharma" src="images/dirish-sharma-logo.jpg"></div>
-                                <div class="slide"><img alt="City House" src="images/City-House-PG-logo.jpg"></div>
-                                <div class="slide"><img alt="Amazing Holidays" src="images/Amazing-Holidays-logo.jpg">
-                                </div>
-                                <div class="slide"><img alt="Aksira education" src="images/Aksira-education-logo.jpg">
-                                </div>
-                                <div class="slide"><img alt="jashvi consultant" src="images/jashvi consultant_img.jpg">
-                                </div>
-                                <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.jpeg">
-                                </div>
-                                <div class="slide"><img alt="MTel" src="images/MTel_img.jpeg"></div>
-                                <div class="slide"><img alt="Pinnacle Consulting"
-                                        src="images/Pinnacle Consulting_img.jpg"></div>
-                                <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.jpg"></div>
-                                <div class="slide"><img alt="Preetiesdeitclinic" src="images/Preetiesdeitclinic.jpeg">
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of Clients Logos Portfolio Container -->
 
 
         <!-- NUMBERS DO SPEAK A LOT ! -->
