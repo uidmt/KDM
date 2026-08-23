@@ -27,99 +27,117 @@
   </asp:Content>
   <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div role="main" class="main">
-        <!-- Executive Hero Banner Section -->
-        <section class="kdm-pkg-hero">
-            <div class="kdm-pkg-hero-content">
-                <div class="kdm-top-badge">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="#38bdf8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                    #1 RESULT-DRIVEN SEO AGENCY
-                </div>
-                <h1>SEO Packages & Pricing in India</h1>
-                <p class="hero-subtitle">Affordable, Result-Oriented Search Engine Optimization Packages Tailored to Drive Organic Traffic, Top 10 Google Rankings &amp; High Quality Leads.</p>
+      <!-- Executive Hero Banner Section -->
+      <section class="kdm-pkg-hero">
+        <div class="kdm-pkg-hero-content">
+          <div class="kdm-top-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#38bdf8">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            #1 RESULT-DRIVEN SEO AGENCY
+          </div>
+          <h1>SEO Packages & Pricing in India</h1>
+          <p class="hero-subtitle">Affordable, Result-Oriented Search Engine Optimization Packages Tailored to Drive
+            Organic Traffic, Top 10 Google Rankings &amp; High Quality Leads.</p>
 
-                <div class="kdm-benefits-grid">
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Dedicated SEO Account Manager
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        100% Transparent Monthly ROI Reports
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        AI &amp; Algorithm-Driven Keyword Strategy
-                    </div>
-                </div>
-
-                <div class="kdm-pkg-cta-group">
-                    <a href="tel:+919821918208" class="kdm-btn-hero-primary"><i class="fa fa-phone"></i> Call +91 9821918208</a>
-                    <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Consultation')" class="kdm-btn-hero-whatsapp"><i class="fa fa-calendar"></i> Request Free SEO Audit</a>
-                </div>
+          <div class="kdm-benefits-grid">
+            <div class="kdm-benefit-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Dedicated SEO Account Manager
             </div>
-        </section>
-
-        <!-- Credentials & Numbers Section -->
-        <section class="locationdetails-numbers-section">
-	<div class="container">
-		<div class="row center counters dark counters-row">
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-line-chart counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
-				<label class="counter-label" style="color: #ffffff;">Years in Business</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-bullseye counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
-				<label class="counter-label" style="color: #ffffff;">Projects Completed</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-globe counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">15+</strong>
-				<label class="counter-label" style="color: #ffffff;">Countries Served</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-laptop counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">32+</strong>
-				<label class="counter-label" style="color: #ffffff;">Digital Experts</label>
-			</div>
-		</div>
-	</div>
-</section>
-
-        <!-- Limited Time Offer Countdown Banner -->
-        <div class="kdm-package-countdown-banner">
-            <div class="container">
-                <div class="kdm-countdown-flex-wrap">
-                    <div class="kdm-countdown-info">
-                        <span class="kdm-countdown-badge"><i class="fa fa-clock-o"></i> LIMITED TIME SPECIAL OFFER</span>
-                        <h3 class="kdm-countdown-title">Get <strong>Instant 15% OFF</strong> On All SEO Packages Today!</h3>
-                    </div>
-                    <div class="kdm-countdown-timer">
-                        <div class="kdm-timer-unit">
-                            <span class="kdm-timer-num kdm-timer-hours">08</span>
-                            <span class="kdm-timer-lbl">Hours</span>
-                        </div>
-                        <span class="kdm-timer-colon">:</span>
-                        <div class="kdm-timer-unit">
-                            <span class="kdm-timer-num kdm-timer-mins">42</span>
-                            <span class="kdm-timer-lbl">Mins</span>
-                        </div>
-                        <span class="kdm-timer-colon">:</span>
-                        <div class="kdm-timer-unit">
-                            <span class="kdm-timer-num kdm-timer-secs">19</span>
-                            <span class="kdm-timer-lbl">Secs</span>
-                        </div>
-                    </div>
-                    <div class="kdm-countdown-cta">
-                        <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Special Offer (15% OFF)')" class="kdm-countdown-btn">
-                            <span>Claim Offer Now</span> <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
+            <div class="kdm-benefit-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              100% Transparent Monthly ROI Reports
             </div>
+            <div class="kdm-benefit-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              AI &amp; Algorithm-Driven Keyword Strategy
+            </div>
+          </div>
+
+          <div class="kdm-pkg-cta-group">
+            <a href="tel:+919821918208" class="kdm-btn-hero-primary"><i class="fa fa-phone"></i> Call +91 9821918208</a>
+            <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Consultation')"
+              class="kdm-btn-hero-whatsapp"><i class="fa fa-calendar"></i> Request Free SEO Audit</a>
+          </div>
         </div>
-<!--
+      </section>
+
+      <!-- Credentials & Numbers Section -->
+      <section class="locationdetails-numbers-section">
+        <div class="container">
+          <div class="row center counters dark counters-row">
+            <div class="col-md-3 col-sm-6">
+              <i class="fa fa-line-chart counter-icon"></i>
+              <strong class="counter-value"
+                style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
+              <label class="counter-label" style="color: #ffffff;">Years in Business</label>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <i class="fa fa-bullseye counter-icon"></i>
+              <strong class="counter-value"
+                style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
+              <label class="counter-label" style="color: #ffffff;">Projects Completed</label>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <i class="fa fa-globe counter-icon"></i>
+              <strong class="counter-value"
+                style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">15+</strong>
+              <label class="counter-label" style="color: #ffffff;">Countries Served</label>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <i class="fa fa-laptop counter-icon"></i>
+              <strong class="counter-value"
+                style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">32+</strong>
+              <label class="counter-label" style="color: #ffffff;">Digital Experts</label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Limited Time Offer Countdown Banner -->
+      <div class="kdm-package-countdown-banner">
+        <div class="container">
+          <div class="kdm-countdown-flex-wrap">
+            <div class="kdm-countdown-info">
+              <span class="kdm-countdown-badge"><i class="fa fa-clock-o"></i> LIMITED TIME SPECIAL OFFER</span>
+              <h3 class="kdm-countdown-title">Get <strong>Instant 15% OFF</strong> On All SEO Packages Today!</h3>
+            </div>
+            <div class="kdm-countdown-timer">
+              <div class="kdm-timer-unit">
+                <span class="kdm-timer-num kdm-timer-hours">08</span>
+                <span class="kdm-timer-lbl">Hours</span>
+              </div>
+              <span class="kdm-timer-colon">:</span>
+              <div class="kdm-timer-unit">
+                <span class="kdm-timer-num kdm-timer-mins">42</span>
+                <span class="kdm-timer-lbl">Mins</span>
+              </div>
+              <span class="kdm-timer-colon">:</span>
+              <div class="kdm-timer-unit">
+                <span class="kdm-timer-num kdm-timer-secs">19</span>
+                <span class="kdm-timer-lbl">Secs</span>
+              </div>
+            </div>
+            <div class="kdm-countdown-cta">
+              <a href="javascript:void(0);" onclick="openPackageModal('SEO Package Special Offer (15% OFF)')"
+                class="kdm-countdown-btn">
+                <span>Claim Offer Now</span> <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--
   <div style="text-align: center; margin-bottom: 30px;">
     <span class="kdm-pkg-badge"><i class="fa fa-trophy"></i> PROVEN TRACK RECORD</span>
     <h2 class="kdm-pkg-title">OUR CREDENTIALS & <strong>IMPACT</strong></h2>
@@ -154,56 +172,549 @@
 </section>
 
     <!-- SEO Results Card Slider Section -->
-    <section class="seo-results">
-      <h2 class="ip-results-h2" style="margin-bottom: 10px;">Awesome SEO Results We Deliver</h2>
-      <p align="center" style="color: #64748b; font-size: 14.5px; margin-bottom: 25px;">See how our SEO strategies drove
-        #1 rankings & high-quality leads for top brands across India</p>
+      <section class="seo-results">
+        <h2 class="ip-results-h2" style="margin-bottom: 10px;">Awesome SEO Results We Deliver</h2>
+        <p align="center" style="color: #64748b; font-size: 14.5px; margin-bottom: 25px;">See how our SEO strategies
+          drove
+          #1 rankings & high-quality leads for top brands across India</p>
+        <div class="slider">
+          <div class="slides">
+            <!-- Card 1: QHT Hair Clinic -->
+            <div class="seo-card">
+              <div class="card-inner">
+                <div class="card-header">
+                  <h3>QHT Hair Clinic</h3>
+                  <span>QHT is one of the premium hair transplant clinic in India, We have been working for SEO since
+                    2024
+                    and we have achieved top ranking related to hair transplant keywords in almost all top cities of
+                    India. Helped to generate high quality leads and direct calls through SEO services.</span>
+                </div>
+                <div class="keyword-list">
+                  <div class="keyword-item">Dense hair implantation in Hyderabad<span class="rank">#1</span></div>
+                  <div class="keyword-item">Hair transplant in Hyderabad<span class="rank">#3</span></div>
+                  <div class="keyword-item">Dense Hair Implantation Clinic in Hyderabad<span class="rank">#2</span>
+                  </div>
+                  <div class="keyword-item">FUE Hair Transplant clinic in Hyderabad<span class="rank">#4</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Dr. PK Talwar -->
+            <div class="seo-card">
+              <div class="card-inner">
+                <div class="card-header">
+                  <h3>Dr. PK Talwar - Cosmetic Surgeon</h3>
+                  <span>Dr. PK Talwar is one of the most experienced cosmetic and plastic surgeons in Delhi, India. King
+                    of Digital Marketing started digital marketing in 2020 and helped to get top ranking in Google with
+                    more than 100 keywords, generated high quality leads organically and promoted YouTube also.</span>
+                </div>
+                <div class="keyword-list">
+                  <div class="keyword-item">Gynaecomastia Surgery in Delhi<span class="rank">#3</span></div>
+                  <div class="keyword-item">Liposuction Surgery in Delhi<span class="rank">#4</span></div>
+                  <div class="keyword-item">Cosmetic Surgeon in Delhi <span class="rank">#6</span></div>
+                  <div class="keyword-item">Hair Transplant in South Delhi<span class="rank">#5</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: Kidney Care Centre -->
+            <div class="seo-card">
+              <div class="card-inner">
+                <div class="card-header">
+                  <h3>Kidney Care Centre</h3>
+                  <span>Kidney Care Centre is led by popular nephrologist in Delhi Dr. Rajesh Goel. King of Digital
+                    Marketing has worked for his website to rank in Google top 10. We worked and got result
+                    successfully.
+                    Ourteam promoted his Google My Business Pages also to rank in top 3. India</span>
+                </div>
+                <div class="keyword-list">
+                  <div class="keyword-item">Kidney specialist doctor in Delhi<span class="rank">#3</span></div>
+                  <div class="keyword-item">best nephrologist in delhi<span class="rank">#6</span></div>
+                  <div class="keyword-item">Kidney doctor in Delhi<span class="rank">#5</span></div>
+                  <div class="keyword-item">best dialysis centre in Delhi<span class="rank">#4</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4: Contact Combat India -->
+            <div class="seo-card">
+              <div class="card-inner">
+                <div class="card-header">
+                  <h3>Contact Combat India</h3>
+                  <span>Contact Combat India is training centre for Krav Maga and Kickboxing. Our Social Media Experts
+                    and
+                    SEO Experts had worked on this project for brand awarensss and ranking in search engine. We got
+                    tremendous results for this website.</span>
+                </div>
+                <div class="keyword-list">
+                  <div class="keyword-item">Krav maga in delhi<span class="rank">#3</span></div>
+                  <div class="keyword-item">Krav maga classes in delhi<span class="rank">#4</span></div>
+                  <div class="keyword-item">Kids self defense in delhi<span class="rank">#9</span></div>
+                  <div class="keyword-item">Krav maga near me<span class="rank">#6</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5: Wolk Coworking Space -->
+            <div class="seo-card">
+              <div class="card-inner">
+                <div class="card-header">
+                  <h3>Wolk Coworking Space</h3>
+                  <span>Wolk - A Coworking Community We have worked for Wolk Search Engine Optimization Services, Wolk
+                    provides the best coworking spaces and shared office space solutions in South Delhi. This website
+                    ranks in Delhi, Nehru Place and South Delhi based Keywords now.</span>
+                </div>
+                <div class="keyword-list">
+                  <div class="keyword-item">Coworking Space in Nehru Place<span class="rank">#3</span></div>
+                  <div class="keyword-item">Coworking Space in South Delhi<span class="rank">#5</span></div>
+                  <div class="keyword-item">Coworking Space in Delhi<span class="rank">#6</span></div>
+                  <div class="keyword-item">Shared Office Space in South Delhi<span class="rank">#7</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6: Geographia IAS -->
+            <div class="seo-card">
+              <div class="card-inner">
+                <div class="card-header">
+                  <h3>Geographia IAS</h3>
+                  <span>Geographia IAS - SEO Services We have worked for Ajay Raj Singh Sir, Best Geography Optional
+                    Teacher for IAs and UPSC aspirants. We have ranked 5 - 6 Keywords. Maximum we have done paid
+                    advertisement(Google Ad - Search and Display) for this website.</span>
+                </div>
+                <div class="keyword-list">
+                  <div class="keyword-item">Geography Coaching in Delhi<span class="rank">#3</span></div>
+                  <div class="keyword-item">Best Geography Institute for IAS<span class="rank">#5</span></div>
+                  <div class="keyword-item">Geography Coaching for IAS<span class="rank">#6</span></div>
+                  <div class="keyword-item">Online Geography Coaching for IAS<span class="rank">#3</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 7: DIFA -->
+            <div class="seo-card">
+              <div class="card-inner">
+                <div class="card-header">
+                  <h3>DIFA: Delhi Institute of Film & Acting</h3>
+                  <span>DIFA (Delhi Institute of Film & Acting) - SEO/PPC Services SEO team worked of DIFA project 4
+                    months to bring its major keywords in 1st page of Google. Almost 80% keywords are in 1st page. Our
+                    PPC
+                    team provided 350 leads through paid ads in a month for DIFA.</span>
+                </div>
+                <div class="keyword-list">
+                  <div class="keyword-item">Acting School in Delhi<span class="rank">#6</span></div>
+                  <div class="keyword-item">Acting School in South Delhi<span class="rank">#5</span></div>
+                  <div class="keyword-item">Acting Institute in Delhi<span class="rank">#3</span></div>
+                  <div class="keyword-item">Acting Course in Delhi <span class="rank">#4</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Nav Buttons -->
+          <button type="button" class="nav-btn prev">&#10094;</button>
+          <button type="button" class="nav-btn next">&#10095;</button>
+        </div>
+      </section>
+
+
+      <section class="packages-section">
+        <h2>SEO Packages</h2>
+        <div class="packages-container">
+
+          <!-- Basic SMO Plan -->
+          <div class="new">
+            <div class="package-box">
+              <div class="package-header">Basic SEO Package <br><i class="fa fa-inr"></i>19,999/Month</div>
+              <div class="package-subheader">20 Keywords</div>
+              <div class="package-content">
+                <h4><i class="fas fa-chart-line"></i> Initial Research And Analysis</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Business Analysis</li>
+                  <li><i class="fas fa-check"></i>In-depth Website Study</li>
+                  <li><i class="fas fa-check"></i>Competitor Analysis</li>
+                  <li><i class="fas fa-check"></i>Content Duplicacy Check</li>
+                  <li><i class="fas fa-check"></i>Initial Backlinks Analysis</li>
+                  <li><i class="fas fa-check"></i>Google Penalty Check</li>
+                  <li><i class="fas fa-check"></i>Website Speed Analysis</li>
+                  <li><i class="fas fa-check"></i>Keyword Research</li>
+                  <li><i class="fas fa-check"></i>Canonicalization</li>
+                  <li><i class="fas fa-check"></i>Website Page Load Optimization</li>
+                  <li><i class="fas fa-check"></i>Initial Report</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>On Page SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Title Tags Optimization</li>
+                  <li><i class="fas fa-check"></i>URL Optimization</li>
+                  <li><i class="fas fa-check"></i>Internal linking & Optimization</li>
+                  <li><i class="fas fa-check"></i>Image & ALT Tag Optimization</li>
+                  <li><i class="fas fa-check"></i>Content Optimization</li>
+                  <li><i class="fas fa-check"></i>Robots.txt Creation</li>
+                  <li><i class="fas fa-check"></i>HTML & XML Sitemap Submission</li>
+                  <li><i class="fas fa-times"></i>Schema For Contact</li>
+                  <li><i class="fas fa-check"></i>Google Search Console</li>
+                  <li><i class="fas fa-times"></i>Bing Webmaster Tools</li>
+                  <li><i class="fas fa-check"></i>Google Analytics</li>
+                  <li><i class="fas fa-times"></i>HTML Code Cleanup & Optimization</li>
+                  <li><i class="fas fa-check"></i>Location Based Page Optimisation</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>Local SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Google My Business Setup and Verification</li>
+                  <li><i class="fas fa-check"></i>Google Places Optimization</li>
+                  <li><i class="fas fa-check"></i>Google My Business Customer Reviews/ratings</li>
+                  <li><i class="fas fa-times"></i>Bing local listing</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>Off Page SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Content Writing & Submission</li>
+                  <li><i class="fas fa-check"></i>PDF/Doc Submission</li>
+                  <li><i class="fas fa-check"></i>Classifieds</li>
+                  <li><i class="fas fa-check"></i>Blog Commenting</li>
+                  <li><i class="fas fa-check"></i>Q & A</li>
+                  <li><i class="fas fa-check"></i>Informational Article Writing & Submission</li>
+                  <li><i class="fas fa-times"></i>Press Release Writing & Submission</li>
+                  <li><i class="fas fa-times"></i>Guest Blog Posting</li>
+                  <li><i class="fas fa-check"></i>Infographic Creation & Distribution</li>
+                  <li><i class="fas fa-check"></i>6 Blogs Posting*</li>
+                  <li><i class="fas fa-check"></i>Social Bookmarking</li>
+                </ul>
+
+                <h4><i class="fas fa-chart-pie"></i>Status And Report</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Search Engine Rank Report</li>
+                  <li><i class="fas fa-check"></i>SEO Reports</li>
+                  <li><i class="fas fa-check"></i>Google Analytics Report</li>
+                  <li><i class="fas fa-check"></i>Activitiy Report</li>
+                  <li><i class="fas fa-times"></i>Monthly Action Plan</li>
+                  <li><i class="fas fa-check"></i>Email/Chat/Online</li>
+                  <li><i class="fas fa-times"></i>24/7 Live Project Tracking</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <a href="#" class="package-btn" onclick="openHeroPopup(event)">
+                Choose Plan
+              </a>
+
+              <!-- Popup -->
+              <div id="hero-popupModal" class="hero-popup"
+                style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
+                <div class="hero-popup-box">
+                  <span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
+
+                  <iframe src="contact.aspx" class="hero-popup-frame"></iframe>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="new">
+            <div class="package-box">
+              <div class="package-header">Standard SEO Package <br><i class="fa fa-inr"></i>39,999/Month</div>
+              <div class="package-subheader">45 Keywords</div>
+              <div class="package-content">
+                <h4><i class="fas fa-chart-line"></i> Initial Research And Analysis</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Business Analysis</li>
+                  <li><i class="fas fa-check"></i>In-depth Website Study</li>
+                  <li><i class="fas fa-check"></i>Competitor Analysis</li>
+                  <li><i class="fas fa-check"></i>Content Duplicacy Check</li>
+                  <li><i class="fas fa-check"></i>Initial Backlinks Analysis</li>
+                  <li><i class="fas fa-check"></i>Google Penalty Check</li>
+                  <li><i class="fas fa-check"></i>Website Speed Analysis</li>
+                  <li><i class="fas fa-check"></i>Keyword Research</li>
+                  <li><i class="fas fa-check"></i>Canonicalization</li>
+                  <li><i class="fas fa-check"></i>Website Page Load Optimization</li>
+                  <li><i class="fas fa-check"></i>Initial Report</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>On Page SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Title Tags Optimization</li>
+                  <li><i class="fas fa-check"></i>URL Optimization</li>
+                  <li><i class="fas fa-check"></i>Internal linking & Optimization</li>
+                  <li><i class="fas fa-check"></i>Image & ALT Tag Optimization</li>
+                  <li><i class="fas fa-check"></i>Content Optimization</li>
+                  <li><i class="fas fa-check"></i>Robots.txt Creation</li>
+                  <li><i class="fas fa-check"></i>HTML & XML Sitemap Submission</li>
+                  <li><i class="fas fa-check"></i>Schema For Contact</li>
+                  <li><i class="fas fa-check"></i>Google Search Console</li>
+                  <li><i class="fas fa-times"></i>Bing Webmaster Tools</li>
+                  <li><i class="fas fa-check"></i>Google Analytics</li>
+                  <li><i class="fas fa-times"></i>HTML Code Cleanup & Optimization</li>
+                  <li><i class="fas fa-check"></i>Location Based Page Optimisation</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>Local SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Google My Business Setup and Verification</li>
+                  <li><i class="fas fa-check"></i>Google Places Optimization</li>
+                  <li><i class="fas fa-check"></i>Google My Business Customer Reviews/ratings</li>
+                  <li><i class="fas fa-times"></i>Bing local listing</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>Off Page SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Content Writing & Submission</li>
+                  <li><i class="fas fa-check"></i>PDF/Doc Submission</li>
+                  <li><i class="fas fa-check"></i>Classifieds</li>
+                  <li><i class="fas fa-check"></i>Blog Commenting</li>
+                  <li><i class="fas fa-check"></i>Q & A</li>
+                  <li><i class="fas fa-check"></i>Informational Article Writing & Submission</li>
+                  <li><i class="fas fa-check"></i> Blog Posting*</li>
+                  <li><i class="fas fa-check"></i>Guest Blog Posting</li>
+                  <li><i class="fas fa-check"></i>Infographic Creation & Distribution</li>
+                  <li><i class="fas fa-check"></i>10 Blogs Posting*</li>
+                  <li><i class="fas fa-check"></i>Social Bookmarking</li>
+                </ul>
+
+                <h4><i class="fas fa-chart-pie"></i>Status And Report</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Search Engine Rank Report</li>
+                  <li><i class="fas fa-check"></i>SEO Reports</li>
+                  <li><i class="fas fa-check"></i>Google Analytics Report</li>
+                  <li><i class="fas fa-check"></i>Activitiy Report</li>
+                  <li><i class="fas fa-check"></i>Monthly Action Plan</li>
+                  <li><i class="fas fa-check"></i>Email/Chat/Online</li>
+                  <li><i class="fas fa-times"></i>24/7 Live Project Tracking</li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <a href="#" class="package-btn" onclick="openHeroPopup(event)">
+                Choose Plan
+              </a>
+
+              <!-- Popup -->
+              <div id="hero-popupModal" class="hero-popup"
+                style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
+                <div class="hero-popup-box">
+                  <span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
+
+                  <iframe src="contact.aspx" class="hero-popup-frame"></iframe>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="new">
+            <div class="package-box">
+              <div class="package-header">Professional SEO Package <br><i class="fa fa-inr"></i>59,999/Month</div>
+              <div class="package-subheader">70 Keywords</div>
+              <div class="package-content">
+                <h4><i class="fas fa-chart-line"></i> Initial Research And Analysis</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Business Analysis</li>
+                  <li><i class="fas fa-check"></i>In-depth Website Study</li>
+                  <li><i class="fas fa-check"></i>Competitor Analysis</li>
+                  <li><i class="fas fa-check"></i>Content Duplicacy Check</li>
+                  <li><i class="fas fa-check"></i>Initial Backlinks Analysis</li>
+                  <li><i class="fas fa-check"></i>Google Penalty Check</li>
+                  <li><i class="fas fa-check"></i>Website Speed Analysis</li>
+                  <li><i class="fas fa-check"></i>Keyword Research</li>
+                  <li><i class="fas fa-check"></i>Canonicalization</li>
+                  <li><i class="fas fa-check"></i>Website Page Load Optimization</li>
+                  <li><i class="fas fa-check"></i>Initial Report</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>On Page SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Title Tags Optimization</li>
+                  <li><i class="fas fa-check"></i>URL Optimization</li>
+                  <li><i class="fas fa-check"></i>Internal linking & Optimization</li>
+                  <li><i class="fas fa-check"></i>Image & ALT Tag Optimization</li>
+                  <li><i class="fas fa-check"></i>Content Optimization</li>
+                  <li><i class="fas fa-check"></i>Robots.txt Creation</li>
+                  <li><i class="fas fa-check"></i>HTML & XML Sitemap Submission</li>
+                  <li><i class="fas fa-check"></i>Schema For Contact</li>
+                  <li><i class="fas fa-check"></i>Google Search Console</li>
+                  <li><i class="fas fa-check"></i>Bing Webmaster Tools</li>
+                  <li><i class="fas fa-check"></i>Google Analytics</li>
+                  <li><i class="fas fa-times"></i>HTML Code Cleanup & Optimization</li>
+                  <li><i class="fas fa-check"></i>Location Based Page Optimisation</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>Local SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Google My Business Setup and Verification</li>
+                  <li><i class="fas fa-check"></i>Google Places Optimization</li>
+                  <li><i class="fas fa-check"></i>Google My Business Customer Reviews/ratings</li>
+                  <li><i class="fas fa-check"></i>Bing local listing</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>Off Page SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Content Writing & Submission</li>
+                  <li><i class="fas fa-check"></i>PDF/Doc Submission</li>
+                  <li><i class="fas fa-check"></i>Classifieds</li>
+                  <li><i class="fas fa-check"></i>Blog Commenting</li>
+                  <li><i class="fas fa-check"></i>Q & A</li>
+                  <li><i class="fas fa-check"></i>Informational Article Writing & Submission</li>
+                  <li><i class="fas fa-check"></i>Press Release Writing & Submission</li>
+                  <li><i class="fas fa-check"></i>Guest Blog Posting</li>
+                  <li><i class="fas fa-check"></i>Infographic Creation & Distribution</li>
+                  <li><i class="fas fa-check"></i>20 Blogs Posting*</li>
+                  <li><i class="fas fa-check"></i>Social Bookmarking</li>
+                </ul>
+
+                <h4><i class="fas fa-chart-pie"></i>Status And Report</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Search Engine Rank Report</li>
+                  <li><i class="fas fa-check"></i>SEO Reports</li>
+                  <li><i class="fas fa-check"></i>Google Analytics Report</li>
+                  <li><i class="fas fa-check"></i>Activitiy Report</li>
+                  <li><i class="fas fa-check"></i>Monthly Action Plan</li>
+                  <li><i class="fas fa-check"></i>Email/Chat/Online</li>
+                  <li><i class="fas fa-times"></i>24/7 Live Project Tracking</li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <a href="#" class="package-btn" onclick="openHeroPopup(event)">
+                Choose Plan
+              </a>
+
+              <!-- Popup -->
+              <div id="hero-popupModal" class="hero-popup"
+                style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
+                <div class="hero-popup-box">
+                  <span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
+
+                  <iframe src="contact.aspx" class="hero-popup-frame"></iframe>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="new">
+            <div class="package-box">
+              <div class="package-header">Enterprise SEO Package <br><i class="fa fa-inr"></i>99,999/Month</div>
+              <div class="package-subheader">150 Keywords</div>
+              <div class="package-content">
+
+                <h4><i class="fas fa-chart-line"></i> Initial Research And Analysis</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Business Analysis</li>
+                  <li><i class="fas fa-check"></i>In-depth Website Study</li>
+                  <li><i class="fas fa-check"></i>Competitor Analysis</li>
+                  <li><i class="fas fa-check"></i>Content Duplicacy Check</li>
+                  <li><i class="fas fa-check"></i>Initial Backlinks Analysis</li>
+                  <li><i class="fas fa-check"></i>Google Penalty Check</li>
+                  <li><i class="fas fa-check"></i>Website Speed Analysis</li>
+                  <li><i class="fas fa-check"></i>Keyword Research</li>
+                  <li><i class="fas fa-check"></i>Canonicalization</li>
+                  <li><i class="fas fa-check"></i>Website Page Load Optimization</li>
+                  <li><i class="fas fa-check"></i>Initial Report</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>On Page SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Title Tags Optimization</li>
+                  <li><i class="fas fa-check"></i>URL Optimization</li>
+                  <li><i class="fas fa-check"></i>Internal linking & Optimization</li>
+                  <li><i class="fas fa-check"></i>Image & ALT Tag Optimization</li>
+                  <li><i class="fas fa-check"></i>Content Optimization</li>
+                  <li><i class="fas fa-check"></i>Robots.txt Creation</li>
+                  <li><i class="fas fa-check"></i>HTML & XML Sitemap Submission</li>
+                  <li><i class="fas fa-check"></i>Schema For Contact</li>
+                  <li><i class="fas fa-check"></i>Google Search Console</li>
+                  <li><i class="fas fa-check"></i>Bing Webmaster Tools</li>
+                  <li><i class="fas fa-check"></i>Google Analytics</li>
+                  <li><i class="fas fa-check"></i>HTML Code Cleanup & Optimization</li>
+                  <li><i class="fas fa-check"></i>Location Based Page Optimisation</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>Local SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Google My Business Setup and Verification</li>
+                  <li><i class="fas fa-check"></i>Google Places Optimization</li>
+                  <li><i class="fas fa-check"></i>Google My Business Customer Reviews/ratings</li>
+                  <li><i class="fas fa-check"></i>Bing local listing</li>
+                </ul>
+
+                <h4><i class="fas fa-search"></i>Off Page SEO</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Content Writing & Submission</li>
+                  <li><i class="fas fa-check"></i>PDF/Doc Submission</li>
+                  <li><i class="fas fa-check"></i>Classifieds</li>
+                  <li><i class="fas fa-check"></i>Blog Commenting</li>
+                  <li><i class="fas fa-check"></i>Q & A</li>
+                  <li><i class="fas fa-check"></i>Informational Article Writing & Submission</li>
+                  <li><i class="fas fa-check"></i>Guest Blog Posting</li>
+                  <li><i class="fas fa-check"></i>Infographic Creation & Distribution</li>
+                  <li><i class="fas fa-check"></i>50 Blogs Posting*</li>
+                  <li><i class="fas fa-check"></i>Social Bookmarking</li>
+                </ul>
+
+                <h4><i class="fas fa-chart-pie"></i>Status And Report</h4>
+                <ul>
+                  <li><i class="fas fa-check"></i>Search Engine Rank Report</li>
+                  <li><i class="fas fa-check"></i>SEO Reports</li>
+                  <li><i class="fas fa-check"></i>Google Analytics Report</li>
+                  <li><i class="fas fa-check"></i>Activitiy Report</li>
+                  <li><i class="fas fa-check"></i>Monthly Action Plan</li>
+                  <li><i class="fas fa-check"></i>Email/Chat/Online</li>
+                  <li><i class="fas fa-check"></i>24/7 Live Project Tracking</li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <a href="#" class="package-btn" onclick="openHeroPopup(event)">
+                Choose Plan
+              </a>
+
+              <!-- Popup -->
+              <div id="hero-popupModal" class="hero-popup"
+                style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
+                <div class="hero-popup-box">
+                  <span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
+
+                  <iframe src="contact.aspx" class="hero-popup-frame"></iframe>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="tall" />
+      <h2 style="text-align: center;"> AWESOME SEO RESULTS</h2>
+      <P align="center" class="color-black">The best feeling ever, When SEO experts are able to bring your website
+        at top 5 ranking of searh engine result page. If You have the vision, You have come to the right
+        <strong>digital marketing company</strong>. We have the ability to optimize your website to get more traffic
+        leads and sales. - "If not We then Who". Tell us about your digital goals and challenges, Our digital
+        marketing experts will share our strategy and the best approach for your requirements. Our SEO results speak
+        for our Search Engine Optimization services. <b>See the SEO results.
+      </P>
+      <h3 align="center" class="result">We have best solutions for </h3>
+      <h4 align="center" class="result"><b> 1.</b> Low Organic Traffic <b>2.</b> No Organic Leads <b>3.</b> No
+        keywords in 1st Page Ranking <b>4. </b>Low Backlinks <b>5.</b> Poor Domain Authority </h4>
+
       <div class="slider">
         <div class="slides">
-          <!-- Card 1: QHT Hair Clinic -->
+          <!-- Box 1 -->
           <div class="seo-card">
             <div class="card-inner">
               <div class="card-header">
-                <h3>QHT Hair Clinic</h3>
-                <span>QHT is one of the premium hair transplant clinic in India, We have been working for SEO since 2024
-                  and we have achieved top ranking related to hair transplant keywords in almost all top cities of
-                  India. Helped to generate high quality leads and direct calls through SEO services.</span>
-              </div>
-              <div class="keyword-list">
-                <div class="keyword-item">Dense hair implantation in Hyderabad<span class="rank">#1</span></div>
-                <div class="keyword-item">Hair transplant in Hyderabad<span class="rank">#3</span></div>
-                <div class="keyword-item">Dense Hair Implantation Clinic in Hyderabad<span class="rank">#2</span></div>
-                <div class="keyword-item">FUE Hair Transplant clinic in Hyderabad<span class="rank">#4</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 2: Dr. PK Talwar -->
-          <div class="seo-card">
-            <div class="card-inner">
-              <div class="card-header">
-                <h3>Dr. PK Talwar - Cosmetic Surgeon</h3>
-                <span>Dr. PK Talwar is one of the most experienced cosmetic and plastic surgeons in Delhi, India. King
-                  of Digital Marketing started digital marketing in 2020 and helped to get top ranking in Google with
-                  more than 100 keywords, generated high quality leads organically and promoted YouTube also.</span>
-              </div>
-              <div class="keyword-list">
-                <div class="keyword-item">Gynaecomastia Surgery in Delhi<span class="rank">#3</span></div>
-                <div class="keyword-item">Liposuction Surgery in Delhi<span class="rank">#4</span></div>
-                <div class="keyword-item">Cosmetic Surgeon in Delhi <span class="rank">#6</span></div>
-                <div class="keyword-item">Hair Transplant in South Delhi<span class="rank">#5</span></div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 3: Kidney Care Centre -->
-          <div class="seo-card">
-            <div class="card-inner">
-              <div class="card-header">
-                <h3>Kidney Care Centre</h3>
-                <span>Kidney Care Centre is led by popular nephrologist in Delhi Dr. Rajesh Goel. King of Digital
-                  Marketing has worked for his website to rank in Google top 10. We worked and got result successfully.
-                  Ourteam promoted his Google My Business Pages also to rank in top 3. India</span>
+                <h4>Kidney Care Centre</h3>
+                  <span>Kidney Care Centre is led by popular nephrologist in Delhi Dr. Rajesh Goel. King of Digital
+                    Marketing has worked for his website to rank in Google top 10. We worked and got result
+                    successfully. Ourteam promoted his Google My Business Pages also to rank in top 3.
+                    India</span>
               </div>
               <div class="keyword-list">
                 <div class="keyword-item">Kidney specialist doctor in Delhi<span class="rank">#3</span></div>
@@ -214,14 +725,14 @@
             </div>
           </div>
 
-          <!-- Card 4: Contact Combat India -->
+          <!-- Box 2 -->
           <div class="seo-card">
             <div class="card-inner">
               <div class="card-header">
                 <h3>Contact Combat India</h3>
-                <span>Contact Combat India is training centre for Krav Maga and Kickboxing. Our Social Media Experts and
-                  SEO Experts had worked on this project for brand awarensss and ranking in search engine. We got
-                  tremendous results for this website.</span>
+                <span>Contact Combat India is training centre for Krav Maga and Kickboxing. Our Social Media Experts
+                  and SEO Experts had worked on this project for brand awarensss and ranking in search engine. We
+                  got tremendous results for this website.</span>
               </div>
               <div class="keyword-list">
                 <div class="keyword-item">Krav maga in delhi<span class="rank">#3</span></div>
@@ -232,7 +743,7 @@
             </div>
           </div>
 
-          <!-- Card 5: Wolk Coworking Space -->
+          <!-- Box 3 -->
           <div class="seo-card">
             <div class="card-inner">
               <div class="card-header">
@@ -250,7 +761,7 @@
             </div>
           </div>
 
-          <!-- Card 6: Geographia IAS -->
+          <!-- Box 4 -->
           <div class="seo-card">
             <div class="card-inner">
               <div class="card-header">
@@ -268,14 +779,14 @@
             </div>
           </div>
 
-          <!-- Card 7: DIFA -->
+          <!-- Box 5 -->
           <div class="seo-card">
             <div class="card-inner">
               <div class="card-header">
                 <h3>DIFA: Delhi Institute of Film & Acting</h3>
                 <span>DIFA (Delhi Institute of Film & Acting) - SEO/PPC Services SEO team worked of DIFA project 4
-                  months to bring its major keywords in 1st page of Google. Almost 80% keywords are in 1st page. Our PPC
-                  team provided 350 leads through paid ads in a month for DIFA.</span>
+                  months to bring its major keywords in 1st page of Google. Almost 80% keywords are in 1st page. Our
+                  PPC team provided 350 leads through paid ads in a month for DIFA.</span>
               </div>
               <div class="keyword-list">
                 <div class="keyword-item">Acting School in Delhi<span class="rank">#6</span></div>
@@ -287,1085 +798,723 @@
           </div>
         </div>
 
-        <!-- Slider Nav Buttons -->
-        <button type="button" class="nav-btn prev">&#10094;</button>
-        <button type="button" class="nav-btn next">&#10095;</button>
-      </div>
-    </section>
+        <!-- Slider buttons -->
+        <button class="nav-btn prev">&#10094;</button>
+        <button class="nav-btn next">&#10095;</button>
+        </section>
 
-
-    <section class="packages-section">
-      <h2>SEO Packages</h2>
-      <div class="packages-container">
-
-        <!-- Basic SMO Plan -->
-        <div class="new">
-          <div class="package-box">
-            <div class="package-header">Basic SEO Package <br><i class="fa fa-inr"></i>19,999/Month</div>
-            <div class="package-subheader">20 Keywords</div>
-            <div class="package-content">
-              <h4><i class="fas fa-chart-line"></i> Initial Research And Analysis</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Business Analysis</li>
-                <li><i class="fas fa-check"></i>In-depth Website Study</li>
-                <li><i class="fas fa-check"></i>Competitor Analysis</li>
-                <li><i class="fas fa-check"></i>Content Duplicacy Check</li>
-                <li><i class="fas fa-check"></i>Initial Backlinks Analysis</li>
-                <li><i class="fas fa-check"></i>Google Penalty Check</li>
-                <li><i class="fas fa-check"></i>Website Speed Analysis</li>
-                <li><i class="fas fa-check"></i>Keyword Research</li>
-                <li><i class="fas fa-check"></i>Canonicalization</li>
-                <li><i class="fas fa-check"></i>Website Page Load Optimization</li>
-                <li><i class="fas fa-check"></i>Initial Report</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>On Page SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Title Tags Optimization</li>
-                <li><i class="fas fa-check"></i>URL Optimization</li>
-                <li><i class="fas fa-check"></i>Internal linking & Optimization</li>
-                <li><i class="fas fa-check"></i>Image & ALT Tag Optimization</li>
-                <li><i class="fas fa-check"></i>Content Optimization</li>
-                <li><i class="fas fa-check"></i>Robots.txt Creation</li>
-                <li><i class="fas fa-check"></i>HTML & XML Sitemap Submission</li>
-                <li><i class="fas fa-times"></i>Schema For Contact</li>
-                <li><i class="fas fa-check"></i>Google Search Console</li>
-                <li><i class="fas fa-times"></i>Bing Webmaster Tools</li>
-                <li><i class="fas fa-check"></i>Google Analytics</li>
-                <li><i class="fas fa-times"></i>HTML Code Cleanup & Optimization</li>
-                <li><i class="fas fa-check"></i>Location Based Page Optimisation</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>Local SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Google My Business Setup and Verification</li>
-                <li><i class="fas fa-check"></i>Google Places Optimization</li>
-                <li><i class="fas fa-check"></i>Google My Business Customer Reviews/ratings</li>
-                <li><i class="fas fa-times"></i>Bing local listing</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>Off Page SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Content Writing & Submission</li>
-                <li><i class="fas fa-check"></i>PDF/Doc Submission</li>
-                <li><i class="fas fa-check"></i>Classifieds</li>
-                <li><i class="fas fa-check"></i>Blog Commenting</li>
-                <li><i class="fas fa-check"></i>Q & A</li>
-                <li><i class="fas fa-check"></i>Informational Article Writing & Submission</li>
-                <li><i class="fas fa-times"></i>Press Release Writing & Submission</li>
-                <li><i class="fas fa-times"></i>Guest Blog Posting</li>
-                <li><i class="fas fa-check"></i>Infographic Creation & Distribution</li>
-                <li><i class="fas fa-check"></i>6 Blogs Posting*</li>
-                <li><i class="fas fa-check"></i>Social Bookmarking</li>
-              </ul>
-
-              <h4><i class="fas fa-chart-pie"></i>Status And Report</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Search Engine Rank Report</li>
-                <li><i class="fas fa-check"></i>SEO Reports</li>
-                <li><i class="fas fa-check"></i>Google Analytics Report</li>
-                <li><i class="fas fa-check"></i>Activitiy Report</li>
-                <li><i class="fas fa-times"></i>Monthly Action Plan</li>
-                <li><i class="fas fa-check"></i>Email/Chat/Online</li>
-                <li><i class="fas fa-times"></i>24/7 Live Project Tracking</li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <a href="#" class="package-btn" onclick="openHeroPopup(event)">
-              Choose Plan
-            </a>
-
-            <!-- Popup -->
-            <div id="hero-popupModal" class="hero-popup"
-              style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-              <div class="hero-popup-box">
-                <span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
-
-                <iframe src="contact.aspx" class="hero-popup-frame"></iframe>
+        <!-- ===== 6 USPs OF AVAILING OUR SEO PACKAGES ===== -->
+        <section class="kdm-usp-section">
+          <div class="container">
+            <div class="kdm-usp-header">
+              <div class="kdm-usp-badge">
+                <i class="fa fa-star fa-solid fa-star"></i> WHY CHOOSE OUR SEO PACKAGES
               </div>
+              <h2 class="kdm-usp-title">6 USPs OF AVAILING OUR <span class="kdm-blue-gradient">SEO PACKAGES</span></h2>
+              <p class="kdm-usp-subtitle">Discover why 900+ brands trust King of Digital Marketing for high-ROI Search
+                Engine Optimization</p>
             </div>
 
-          </div>
-        </div>
-
-        <div class="new">
-          <div class="package-box">
-            <div class="package-header">Standard SEO Package <br><i class="fa fa-inr"></i>39,999/Month</div>
-            <div class="package-subheader">45 Keywords</div>
-            <div class="package-content">
-              <h4><i class="fas fa-chart-line"></i> Initial Research And Analysis</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Business Analysis</li>
-                <li><i class="fas fa-check"></i>In-depth Website Study</li>
-                <li><i class="fas fa-check"></i>Competitor Analysis</li>
-                <li><i class="fas fa-check"></i>Content Duplicacy Check</li>
-                <li><i class="fas fa-check"></i>Initial Backlinks Analysis</li>
-                <li><i class="fas fa-check"></i>Google Penalty Check</li>
-                <li><i class="fas fa-check"></i>Website Speed Analysis</li>
-                <li><i class="fas fa-check"></i>Keyword Research</li>
-                <li><i class="fas fa-check"></i>Canonicalization</li>
-                <li><i class="fas fa-check"></i>Website Page Load Optimization</li>
-                <li><i class="fas fa-check"></i>Initial Report</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>On Page SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Title Tags Optimization</li>
-                <li><i class="fas fa-check"></i>URL Optimization</li>
-                <li><i class="fas fa-check"></i>Internal linking & Optimization</li>
-                <li><i class="fas fa-check"></i>Image & ALT Tag Optimization</li>
-                <li><i class="fas fa-check"></i>Content Optimization</li>
-                <li><i class="fas fa-check"></i>Robots.txt Creation</li>
-                <li><i class="fas fa-check"></i>HTML & XML Sitemap Submission</li>
-                <li><i class="fas fa-check"></i>Schema For Contact</li>
-                <li><i class="fas fa-check"></i>Google Search Console</li>
-                <li><i class="fas fa-times"></i>Bing Webmaster Tools</li>
-                <li><i class="fas fa-check"></i>Google Analytics</li>
-                <li><i class="fas fa-times"></i>HTML Code Cleanup & Optimization</li>
-                <li><i class="fas fa-check"></i>Location Based Page Optimisation</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>Local SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Google My Business Setup and Verification</li>
-                <li><i class="fas fa-check"></i>Google Places Optimization</li>
-                <li><i class="fas fa-check"></i>Google My Business Customer Reviews/ratings</li>
-                <li><i class="fas fa-times"></i>Bing local listing</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>Off Page SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Content Writing & Submission</li>
-                <li><i class="fas fa-check"></i>PDF/Doc Submission</li>
-                <li><i class="fas fa-check"></i>Classifieds</li>
-                <li><i class="fas fa-check"></i>Blog Commenting</li>
-                <li><i class="fas fa-check"></i>Q & A</li>
-                <li><i class="fas fa-check"></i>Informational Article Writing & Submission</li>
-                <li><i class="fas fa-check"></i> Blog Posting*</li>
-                <li><i class="fas fa-check"></i>Guest Blog Posting</li>
-                <li><i class="fas fa-check"></i>Infographic Creation & Distribution</li>
-                <li><i class="fas fa-check"></i>10 Blogs Posting*</li>
-                <li><i class="fas fa-check"></i>Social Bookmarking</li>
-              </ul>
-
-              <h4><i class="fas fa-chart-pie"></i>Status And Report</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Search Engine Rank Report</li>
-                <li><i class="fas fa-check"></i>SEO Reports</li>
-                <li><i class="fas fa-check"></i>Google Analytics Report</li>
-                <li><i class="fas fa-check"></i>Activitiy Report</li>
-                <li><i class="fas fa-check"></i>Monthly Action Plan</li>
-                <li><i class="fas fa-check"></i>Email/Chat/Online</li>
-                <li><i class="fas fa-times"></i>24/7 Live Project Tracking</li>
-              </ul>
-            </div>
-          </div>
-
-          <div>
-            <a href="#" class="package-btn" onclick="openHeroPopup(event)">
-              Choose Plan
-            </a>
-
-            <!-- Popup -->
-            <div id="hero-popupModal" class="hero-popup"
-              style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-              <div class="hero-popup-box">
-                <span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
-
-                <iframe src="contact.aspx" class="hero-popup-frame"></iframe>
+            <div class="kdm-usp-grid">
+              <!-- USP 1 -->
+              <div class="kdm-usp-card">
+                <div class="kdm-usp-icon-hub icon-cyan">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                    <path d="M2 12h20"></path>
+                  </svg>
+                </div>
+                <h3 class="kdm-usp-card-title">AI &amp; Search Intent Optimization</h3>
+                <p class="kdm-usp-card-desc">We optimize your site for Google's latest algorithms, ChatGPT, Perplexity
+                  &amp; AI Overviews to capture future-ready organic traffic.</p>
               </div>
-            </div>
 
-
-
-          </div>
-        </div>
-
-        <div class="new">
-          <div class="package-box">
-            <div class="package-header">Professional SEO Package <br><i class="fa fa-inr"></i>59,999/Month</div>
-            <div class="package-subheader">70 Keywords</div>
-            <div class="package-content">
-              <h4><i class="fas fa-chart-line"></i> Initial Research And Analysis</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Business Analysis</li>
-                <li><i class="fas fa-check"></i>In-depth Website Study</li>
-                <li><i class="fas fa-check"></i>Competitor Analysis</li>
-                <li><i class="fas fa-check"></i>Content Duplicacy Check</li>
-                <li><i class="fas fa-check"></i>Initial Backlinks Analysis</li>
-                <li><i class="fas fa-check"></i>Google Penalty Check</li>
-                <li><i class="fas fa-check"></i>Website Speed Analysis</li>
-                <li><i class="fas fa-check"></i>Keyword Research</li>
-                <li><i class="fas fa-check"></i>Canonicalization</li>
-                <li><i class="fas fa-check"></i>Website Page Load Optimization</li>
-                <li><i class="fas fa-check"></i>Initial Report</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>On Page SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Title Tags Optimization</li>
-                <li><i class="fas fa-check"></i>URL Optimization</li>
-                <li><i class="fas fa-check"></i>Internal linking & Optimization</li>
-                <li><i class="fas fa-check"></i>Image & ALT Tag Optimization</li>
-                <li><i class="fas fa-check"></i>Content Optimization</li>
-                <li><i class="fas fa-check"></i>Robots.txt Creation</li>
-                <li><i class="fas fa-check"></i>HTML & XML Sitemap Submission</li>
-                <li><i class="fas fa-check"></i>Schema For Contact</li>
-                <li><i class="fas fa-check"></i>Google Search Console</li>
-                <li><i class="fas fa-check"></i>Bing Webmaster Tools</li>
-                <li><i class="fas fa-check"></i>Google Analytics</li>
-                <li><i class="fas fa-times"></i>HTML Code Cleanup & Optimization</li>
-                <li><i class="fas fa-check"></i>Location Based Page Optimisation</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>Local SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Google My Business Setup and Verification</li>
-                <li><i class="fas fa-check"></i>Google Places Optimization</li>
-                <li><i class="fas fa-check"></i>Google My Business Customer Reviews/ratings</li>
-                <li><i class="fas fa-check"></i>Bing local listing</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>Off Page SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Content Writing & Submission</li>
-                <li><i class="fas fa-check"></i>PDF/Doc Submission</li>
-                <li><i class="fas fa-check"></i>Classifieds</li>
-                <li><i class="fas fa-check"></i>Blog Commenting</li>
-                <li><i class="fas fa-check"></i>Q & A</li>
-                <li><i class="fas fa-check"></i>Informational Article Writing & Submission</li>
-                <li><i class="fas fa-check"></i>Press Release Writing & Submission</li>
-                <li><i class="fas fa-check"></i>Guest Blog Posting</li>
-                <li><i class="fas fa-check"></i>Infographic Creation & Distribution</li>
-                <li><i class="fas fa-check"></i>20 Blogs Posting*</li>
-                <li><i class="fas fa-check"></i>Social Bookmarking</li>
-              </ul>
-
-              <h4><i class="fas fa-chart-pie"></i>Status And Report</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Search Engine Rank Report</li>
-                <li><i class="fas fa-check"></i>SEO Reports</li>
-                <li><i class="fas fa-check"></i>Google Analytics Report</li>
-                <li><i class="fas fa-check"></i>Activitiy Report</li>
-                <li><i class="fas fa-check"></i>Monthly Action Plan</li>
-                <li><i class="fas fa-check"></i>Email/Chat/Online</li>
-                <li><i class="fas fa-times"></i>24/7 Live Project Tracking</li>
-              </ul>
-            </div>
-          </div>
-
-          <div>
-            <a href="#" class="package-btn" onclick="openHeroPopup(event)">
-              Choose Plan
-            </a>
-
-            <!-- Popup -->
-            <div id="hero-popupModal" class="hero-popup"
-              style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-              <div class="hero-popup-box">
-                <span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
-
-                <iframe src="contact.aspx" class="hero-popup-frame"></iframe>
+              <!-- USP 2 -->
+              <div class="kdm-usp-card">
+                <div class="kdm-usp-icon-hub icon-blue">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                    <polyline points="18 6 12 2 6 8"></polyline>
+                  </svg>
+                </div>
+                <h3 class="kdm-usp-card-title">Guaranteed Top 10 Ranking Focus</h3>
+                <p class="kdm-usp-card-desc">Our proven On-Page &amp; Off-Page strategies have successfully placed over
+                  80% of targeted keywords on Page 1 of Google.</p>
               </div>
-            </div>
 
-
-          </div>
-        </div>
-
-        <div class="new">
-          <div class="package-box">
-            <div class="package-header">Enterprise SEO Package <br><i class="fa fa-inr"></i>99,999/Month</div>
-            <div class="package-subheader">150 Keywords</div>
-            <div class="package-content">
-
-              <h4><i class="fas fa-chart-line"></i> Initial Research And Analysis</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Business Analysis</li>
-                <li><i class="fas fa-check"></i>In-depth Website Study</li>
-                <li><i class="fas fa-check"></i>Competitor Analysis</li>
-                <li><i class="fas fa-check"></i>Content Duplicacy Check</li>
-                <li><i class="fas fa-check"></i>Initial Backlinks Analysis</li>
-                <li><i class="fas fa-check"></i>Google Penalty Check</li>
-                <li><i class="fas fa-check"></i>Website Speed Analysis</li>
-                <li><i class="fas fa-check"></i>Keyword Research</li>
-                <li><i class="fas fa-check"></i>Canonicalization</li>
-                <li><i class="fas fa-check"></i>Website Page Load Optimization</li>
-                <li><i class="fas fa-check"></i>Initial Report</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>On Page SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Title Tags Optimization</li>
-                <li><i class="fas fa-check"></i>URL Optimization</li>
-                <li><i class="fas fa-check"></i>Internal linking & Optimization</li>
-                <li><i class="fas fa-check"></i>Image & ALT Tag Optimization</li>
-                <li><i class="fas fa-check"></i>Content Optimization</li>
-                <li><i class="fas fa-check"></i>Robots.txt Creation</li>
-                <li><i class="fas fa-check"></i>HTML & XML Sitemap Submission</li>
-                <li><i class="fas fa-check"></i>Schema For Contact</li>
-                <li><i class="fas fa-check"></i>Google Search Console</li>
-                <li><i class="fas fa-check"></i>Bing Webmaster Tools</li>
-                <li><i class="fas fa-check"></i>Google Analytics</li>
-                <li><i class="fas fa-check"></i>HTML Code Cleanup & Optimization</li>
-                <li><i class="fas fa-check"></i>Location Based Page Optimisation</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>Local SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Google My Business Setup and Verification</li>
-                <li><i class="fas fa-check"></i>Google Places Optimization</li>
-                <li><i class="fas fa-check"></i>Google My Business Customer Reviews/ratings</li>
-                <li><i class="fas fa-check"></i>Bing local listing</li>
-              </ul>
-
-              <h4><i class="fas fa-search"></i>Off Page SEO</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Content Writing & Submission</li>
-                <li><i class="fas fa-check"></i>PDF/Doc Submission</li>
-                <li><i class="fas fa-check"></i>Classifieds</li>
-                <li><i class="fas fa-check"></i>Blog Commenting</li>
-                <li><i class="fas fa-check"></i>Q & A</li>
-                <li><i class="fas fa-check"></i>Informational Article Writing & Submission</li>
-                <li><i class="fas fa-check"></i>Guest Blog Posting</li>
-                <li><i class="fas fa-check"></i>Infographic Creation & Distribution</li>
-                <li><i class="fas fa-check"></i>50 Blogs Posting*</li>
-                <li><i class="fas fa-check"></i>Social Bookmarking</li>
-              </ul>
-
-              <h4><i class="fas fa-chart-pie"></i>Status And Report</h4>
-              <ul>
-                <li><i class="fas fa-check"></i>Search Engine Rank Report</li>
-                <li><i class="fas fa-check"></i>SEO Reports</li>
-                <li><i class="fas fa-check"></i>Google Analytics Report</li>
-                <li><i class="fas fa-check"></i>Activitiy Report</li>
-                <li><i class="fas fa-check"></i>Monthly Action Plan</li>
-                <li><i class="fas fa-check"></i>Email/Chat/Online</li>
-                <li><i class="fas fa-check"></i>24/7 Live Project Tracking</li>
-              </ul>
-            </div>
-          </div>
-
-          <div>
-            <a href="#" class="package-btn" onclick="openHeroPopup(event)">
-              Choose Plan
-            </a>
-
-            <!-- Popup -->
-            <div id="hero-popupModal" class="hero-popup"
-              style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-              <div class="hero-popup-box">
-                <span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
-
-                <iframe src="contact.aspx" class="hero-popup-frame"></iframe>
+              <!-- USP 3 -->
+              <div class="kdm-usp-card">
+                <div class="kdm-usp-icon-hub icon-green">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <path d="M9 12l2 2 4-4"></path>
+                  </svg>
+                </div>
+                <h3 class="kdm-usp-card-title">100% White-Hat &amp; Ethical SEO</h3>
+                <p class="kdm-usp-card-desc">We strictly follow Google Webmaster Quality Guidelines to build
+                  penalty-safe, long-term organic authority for your domain.</p>
               </div>
-            </div>
 
+              <!-- USP 4 -->
+              <div class="kdm-usp-card">
+                <div class="kdm-usp-icon-hub icon-purple">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#9333ea" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle cx="12" cy="12" r="6"></circle>
+                    <circle cx="12" cy="12" r="2"></circle>
+                  </svg>
+                </div>
+                <h3 class="kdm-usp-card-title">High Lead &amp; Revenue Conversion</h3>
+                <p class="kdm-usp-card-desc">We don't just target vanity traffic; we optimize for high-intent keywords
+                  that convert visitors into direct inquiries and sales.</p>
+              </div>
 
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr class="tall" />
-    <h2 style="text-align: center;"> AWESOME SEO RESULTS</h2>
-    <P align="center" class="color-black">The best feeling ever, When SEO experts are able to bring your website
-      at top 5 ranking of searh engine result page. If You have the vision, You have come to the right
-      <strong>digital marketing company</strong>. We have the ability to optimize your website to get more traffic
-      leads and sales. - "If not We then Who". Tell us about your digital goals and challenges, Our digital
-      marketing experts will share our strategy and the best approach for your requirements. Our SEO results speak
-      for our Search Engine Optimization services. <b>See the SEO results.
-    </P>
-    <h3 align="center" class="result">We have best solutions for </h3>
-    <h4 align="center" class="result"><b> 1.</b> Low Organic Traffic <b>2.</b> No Organic Leads <b>3.</b> No
-      keywords in 1st Page Ranking <b>4. </b>Low Backlinks <b>5.</b> Poor Domain Authority </h4>
+              <!-- USP 5 -->
+              <div class="kdm-usp-card">
+                <div class="kdm-usp-icon-hub icon-orange">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                  </svg>
+                </div>
+                <h3 class="kdm-usp-card-title">Transparent Monthly Reporting</h3>
+                <p class="kdm-usp-card-desc">Get comprehensive monthly ranking reports, Traffic Analytics, Google Search
+                  Console audits, and roadmap updates with 0 hidden costs.</p>
+              </div>
 
-    <div class="slider">
-      <div class="slides">
-        <!-- Box 1 -->
-        <div class="seo-card">
-          <div class="card-inner">
-            <div class="card-header">
-              <h4>Kidney Care Centre</h3>
-                <span>Kidney Care Centre is led by popular nephrologist in Delhi Dr. Rajesh Goel. King of Digital
-                  Marketing has worked for his website to rank in Google top 10. We worked and got result
-                  successfully. Ourteam promoted his Google My Business Pages also to rank in top 3.
-                  India</span>
-            </div>
-            <div class="keyword-list">
-              <div class="keyword-item">Kidney specialist doctor in Delhi<span class="rank">#3</span></div>
-              <div class="keyword-item">best nephrologist in delhi<span class="rank">#6</span></div>
-              <div class="keyword-item">Kidney doctor in Delhi<span class="rank">#5</span></div>
-              <div class="keyword-item">best dialysis centre in Delhi<span class="rank">#4</span></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Box 2 -->
-        <div class="seo-card">
-          <div class="card-inner">
-            <div class="card-header">
-              <h3>Contact Combat India</h3>
-              <span>Contact Combat India is training centre for Krav Maga and Kickboxing. Our Social Media Experts
-                and SEO Experts had worked on this project for brand awarensss and ranking in search engine. We
-                got tremendous results for this website.</span>
-            </div>
-            <div class="keyword-list">
-              <div class="keyword-item">Krav maga in delhi<span class="rank">#3</span></div>
-              <div class="keyword-item">Krav maga classes in delhi<span class="rank">#4</span></div>
-              <div class="keyword-item">Kids self defense in delhi<span class="rank">#9</span></div>
-              <div class="keyword-item">Krav maga near me<span class="rank">#6</span></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Box 3 -->
-        <div class="seo-card">
-          <div class="card-inner">
-            <div class="card-header">
-              <h3>Wolk Coworking Space</h3>
-              <span>Wolk - A Coworking Community We have worked for Wolk Search Engine Optimization Services, Wolk
-                provides the best coworking spaces and shared office space solutions in South Delhi. This website
-                ranks in Delhi, Nehru Place and South Delhi based Keywords now.</span>
-            </div>
-            <div class="keyword-list">
-              <div class="keyword-item">Coworking Space in Nehru Place<span class="rank">#3</span></div>
-              <div class="keyword-item">Coworking Space in South Delhi<span class="rank">#5</span></div>
-              <div class="keyword-item">Coworking Space in Delhi<span class="rank">#6</span></div>
-              <div class="keyword-item">Shared Office Space in South Delhi<span class="rank">#7</span></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Box 4 -->
-        <div class="seo-card">
-          <div class="card-inner">
-            <div class="card-header">
-              <h3>Geographia IAS</h3>
-              <span>Geographia IAS - SEO Services We have worked for Ajay Raj Singh Sir, Best Geography Optional
-                Teacher for IAs and UPSC aspirants. We have ranked 5 - 6 Keywords. Maximum we have done paid
-                advertisement(Google Ad - Search and Display) for this website.</span>
-            </div>
-            <div class="keyword-list">
-              <div class="keyword-item">Geography Coaching in Delhi<span class="rank">#3</span></div>
-              <div class="keyword-item">Best Geography Institute for IAS<span class="rank">#5</span></div>
-              <div class="keyword-item">Geography Coaching for IAS<span class="rank">#6</span></div>
-              <div class="keyword-item">Online Geography Coaching for IAS<span class="rank">#3</span></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Box 5 -->
-        <div class="seo-card">
-          <div class="card-inner">
-            <div class="card-header">
-              <h3>DIFA: Delhi Institute of Film & Acting</h3>
-              <span>DIFA (Delhi Institute of Film & Acting) - SEO/PPC Services SEO team worked of DIFA project 4
-                months to bring its major keywords in 1st page of Google. Almost 80% keywords are in 1st page. Our
-                PPC team provided 350 leads through paid ads in a month for DIFA.</span>
-            </div>
-            <div class="keyword-list">
-              <div class="keyword-item">Acting School in Delhi<span class="rank">#6</span></div>
-              <div class="keyword-item">Acting School in South Delhi<span class="rank">#5</span></div>
-              <div class="keyword-item">Acting Institute in Delhi<span class="rank">#3</span></div>
-              <div class="keyword-item">Acting Course in Delhi <span class="rank">#4</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Slider buttons -->
-      <button class="nav-btn prev">&#10094;</button>
-      <button class="nav-btn next">&#10095;</button>
-    </div>
-    </section>
-
-
-    <section class="industry-slider-section">
-      <h2 class="industry-heading">Most Popular Industries <strong>We Work With</strong></h2>
-
-      <div class="industry-slider">
-        <div class="industry-track">
-
-          <div class="industry-card industry-bg1">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3>Astrology</h3>
-                <p>Successfully handled 60+ astrology projects for lead generation, app installs, and sales
-                  growth.</p>
+              <!-- USP 6 -->
+              <div class="kdm-usp-card">
+                <div class="kdm-usp-icon-hub icon-amber">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <h3 class="kdm-usp-card-title">Dedicated SEO Specialist Support</h3>
+                <p class="kdm-usp-card-desc">Assigned senior SEO consultant for customized campaign strategy, ongoing
+                  consultations, and 15-minute quick response support.</p>
               </div>
             </div>
           </div>
-          <div class="industry-card industry-bg10">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3>Hair Transplant</h3>
-                <p>Successfully managed 50+ hair transplant lead generation, SEO, Social Media with consistent
-                  results.</p>
+        </section>
+
+        <section class="industry-slider-section">
+          <h2 class="industry-heading">Most Popular Industries <strong>We Work With</strong></h2>
+
+          <div class="industry-slider">
+            <div class="industry-track">
+
+              <div class="industry-card industry-bg1">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3>Astrology</h3>
+                    <p>Successfully handled 60+ astrology projects for lead generation, app installs, and sales
+                      growth.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="industry-card industry-bg10">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3>Hair Transplant</h3>
+                    <p>Successfully managed 50+ hair transplant lead generation, SEO, Social Media with consistent
+                      results.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="industry-card industry-bg11">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3>Study Abroad Consultant</h3>
+                    <p>Trusted by 30+ study abroad consultants for high-quality student lead generation, SEO & Social
+                      Media.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="industry-card industry-bg4">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3>Cosmetic Surgeon</h3>
+                    <p>Helped 25+ cosmetic surgeons grow their practice with high-quality leads, strong SEO, YouTube &
+                      social media</p>
+                  </div>
+                </div>
+              </div>
+              <div class="industry-card industry-bg5">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3>CA firms</h3>
+                    <p>20+ CA firms served with expert digital marketing, SEO lead generation and social media growth.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="industry-card industry-bg6">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3>immigration consulting</h3>
+                    <p>Strong experience of delivering SEO leads and digital marketing growth for 25+ immigration
+                      consulting firms.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="industry-card industry-bg7">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3>Ecommerce</h3>
+                    <p>Successfully completed 20+ ecommerce projects with proven sales, organic traffic and social
+                      media growth.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="industry-card industry-bg8">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3>Healthcare</h3>
+                    <p>We have helped 25+ healthcare brands including doctors and Ayurvedic medicines in SEO & lead
+                      generation.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="industry-card industry-bg15">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3> yoga studios</h3>
+                    <p>15+ yoga studios served with website SEO strategies focused on quality lead generation.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="industry-card industry-bg14">
+                <div class="industry-overlay">
+                  <div class="text-box">
+                    <h3>Institutes</h3>
+                    <p>Successfully handled 10+ institutes for course promotions using SEO, social media and
+                      performance marketing.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="industry-card industry-bg11">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3>Study Abroad Consultant</h3>
-                <p>Trusted by 30+ study abroad consultants for high-quality student lead generation, SEO & Social
-                  Media.</p>
-              </div>
+
+          <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn"
+            style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px; border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:25px;">See
+            More Industries & Our Records</a>
+        </section>
+
+        <hr class="tall" />
+
+        <div class="mainprocess">
+          <h2 class="process-title">9 Steps SEO Package Process That Delivers Real Results</h2>
+
+          <div class="roadmap-flow">
+            <div class="roadmap-box" data-step="1">
+              <h3>Website Audit</h3>
+              <p>Analyze current performance, technical errors, and SEO health of your website.</p>
+            </div>
+            <div class="roadmap-box" data-step="2">
+              <h3>Keyword Research</h3>
+              <p>Find the best keywords your target audience is searching for.</p>
+            </div>
+            <div class="roadmap-box" data-step="3">
+              <h3>Competitor Analysis</h3>
+              <p>Check what your competitors are ranking for and doing better.</p>
+            </div>
+            <div class="roadmap-box" data-step="4">
+              <h3>On-Page SEO</h3>
+              <p>Optimize titles, meta tags, URLs, headings, and content for keywords.</p>
+            </div>
+            <div class="roadmap-box" data-step="5">
+              <h3>Technical SEO</h3>
+              <p>Improve site speed, mobile-friendliness, indexing, and crawlability</p>
+            </div>
+            <div class="roadmap-box" data-step="6">
+              <h3>Content Optimization</h3>
+              <p>Update old content and create new, keyword-rich pages.</p>
+            </div>
+            <div class="roadmap-box" data-step="7">
+              <h3>Off-Page SEO</h3>
+              <p>Build backlinks from high-authority and relevant websites.</p>
+            </div>
+            <div class="roadmap-box" data-step="8">
+              <h3>Tracking & Reporting</h3>
+              <p>Monitor rankings, traffic, and share monthly progress reports.</p>
+            </div>
+            <div class="roadmap-box" data-step="9">
+              <h3>Strategy Adjustment</h3>
+              <p>Refine your SEO strategy based on performance data regularly.</p>
             </div>
           </div>
-          <div class="industry-card industry-bg4">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3>Cosmetic Surgeon</h3>
-                <p>Helped 25+ cosmetic surgeons grow their practice with high-quality leads, strong SEO, YouTube &
-                  social media</p>
+        </div>
+
+        <hr class="tall" />
+
+        <section class="locationdetails-why-section">
+          <div class="locationdetails-why-container">
+            <h2 class="locationdetails-why-heading" style="color: #ffffff !important;">Why Choose King of Digital
+              Marketing
+              for SEO Packages?</h2>
+            <p>Are you in search of best SEO packages in Delhi, India to grow your business online? King of Digital
+              Marketing offers affordable SEO packages that deliver top ranking and real results. Whether you're a
+              small local business or a large enterprise, our monthly SEO plans are designed to improve your Google
+              rankings, drive organic traffic and boost your conversions (leads or sales). Each SEO package includes
+              complete services like on page optimization, technical SEO, backlink building, content updates, and
+              performance reporting. We also offer specialized Local SEO packages to help you dominate your local
+              market and attract local nearby customers. We will enahance local presence among those who are searching
+              for your services in near by areas. If you're wondering about the SEO cost for your business, our
+              pricing is affordable, transparent, flexible and based on your goals and industry. Our SEO plans start
+              as low as INR 19,999/Month, making them ideal for startups and growing brands. We asssign a dedicated
+              SEO expert to your SEO project, you get regular updates, strategy support and measurable improvements
+              month after month. Choose our result oriented SEO package and take the first step toward long term
+              online growth and visibility. Contact us today to find the right SEO plan for your business!
+            </p>
+
+            <div class="locationdetails-why-cards">
+              <div class="why-card" style="--accent: #FF6F00">
+                <div class="icon-box icon-1">
+
+                  <!-- Award / Medal Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="white" width="40" height="40">
+                    <!-- Circle background -->
+                    <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round" />
+                    <!-- Check mark -->
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+                  </svg>
+
+                </div>
+                <h3>Customized Packages</h3>
+                <p>We have created multiple SEO Packages as per business needs. Get SEO packages created to your
+                  business goals, industry and audience for higher ranking, better results and higher ROI through
+                  search engine.</p>
               </div>
-            </div>
-          </div>
-          <div class="industry-card industry-bg5">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3>CA firms</h3>
-                <p>20+ CA firms served with expert digital marketing, SEO lead generation and social media growth.
+
+              <div class="why-card" style="--accent: #008DC2">
+                <div class="icon-box icon-2">
+
+                  <!-- Projects Delivered Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="white" width="40" height="40">
+                    <!-- Magnifying glass (search) -->
+                    <circle cx="11" cy="11" r="6" stroke-linecap="round" stroke-linejoin="round" />
+                    <line x1="16" y1="16" x2="21" y2="21" stroke-linecap="round" stroke-linejoin="round" />
+                    <!-- Upward arrow for growth -->
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h4l2-3 4 6 4-5" />
+                  </svg>
+                </div>
+                <h3>White Hat SEO</h3>
+                <p>We commit to follow 100% ethical SEO Guidelines. White hat SEO practices are approved by Google
+                  webmaster to ensure safe, long term rankings without any risks or penalties.
                 </p>
               </div>
-            </div>
-          </div>
-          <div class="industry-card industry-bg6">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3>immigration consulting</h3>
-                <p>Strong experience of delivering SEO leads and digital marketing growth for 25+ immigration
-                  consulting firms.</p>
+
+              <div class="why-card" style="--accent: #0B456A">
+                <div class="review-image">
+                  <div class="icon-box icon-3">
+
+                    <!-- Globe Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                      stroke="white" width="40" height="40">
+                      <path d="M12 1v22M17 5H9a3 3 0 0 0 0 6h6a3 3 0 0 1 0 6H7" />
+                    </svg>
+                  </div>
+
+                </div>
+                <h3>Affordable Packages</h3>
+                <p>Since, its for Indian market thats why we have most affordable SEO packages in India. Our SEO Plans
+                  are budget friendly and result driven, which is perfect for small to large businesses looking to
+                  increase search engine visibility.</p>
+              </div>
+
+              <div class="why-card" style="--accent: #6A829A">
+                <div class="icon-box icon-4">
+
+                  <!-- Report / Document Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="white" width="40" height="40">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                  </svg>
+
+                </div>
+
+                <h3>Complete SEO</h3>
+                <p>Our Package includes A-Z SEO activities from on page and off-page to technical SEO and content
+                  optimization, our SEO packages cover everything your website needs to rank better in SERP.</p>
+              </div>
+
+              <div class="why-card" style="--accent: #009688">
+                <div class="icon-box icon-5">
+
+                  <!-- Team Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="white" width="40" height="40">
+                    <path d="M9 2h6l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
+                    <path d="M9 12h6M9 16h4M9 8h1" stroke-linecap="round" />
+                  </svg>
+                </div>
+
+                <h3>100% Transparent Report</h3>
+                <p>Our SEO Experts analyse and create kneat and clean SEO reprot. Monthly SEO reports contains your
+                  keyword rankings, traffic growth as per Google analytics and searcn console and all additional tasks
+                  completed.</p>
+              </div>
+
+              <div class="why-card" style="--accent: #cfba1f">
+                <div class="icon-box icon-6">
+
+                  <!-- Star / Satisfaction Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="white" width="40" height="40">
+                    <circle cx="9" cy="7" r="3" />
+                    <circle cx="17" cy="7" r="3" />
+                    <path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2" />
+                    <path d="M14 21v-2a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v2" />
+                  </svg>
+                </div>
+
+                <h3>Dedicated Support</h3>
+                <p>We assign a SEO Manager to Work with a dedicated SEO expert who understands your business, answers
+                  your queries and ensures your SEO works stays on track.</p>
               </div>
             </div>
           </div>
-          <div class="industry-card industry-bg7">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3>Ecommerce</h3>
-                <p>Successfully completed 20+ ecommerce projects with proven sales, organic traffic and social
-                  media growth.</p>
+        </section>
+
+
+
+        <hr class="tall" />
+        <h2 align="center">Testimonials</h2>
+        <div class="ts-wrapper">
+          <div class="ts-slider-container">
+            <div class="ts-testimonial ts-active">
+              <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
+              <p>"I hired King of Digital Marketing for SEO services a few months ago, and I am really happy with the
+                results. My website is now ranking on the first page of Google. Gaurav Dubey and his team were always
+                available to guide me and answer my doubts"</p>
+              <div class="ts-stars"><i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
               </div>
+              <div class="ts-author">- Aji Jeeva (Founder - www.smgains.com - UK)</div>
             </div>
-          </div>
-          <div class="industry-card industry-bg8">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3>Healthcare</h3>
-                <p>We have helped 25+ healthcare brands including doctors and Ayurvedic medicines in SEO & lead
-                  generation.</p>
+
+            <div class="ts-testimonial">
+              <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
+              <p>"King of Digital Marketing helped increase my website traffic with their SEO strategies. They kept
+                everything clear and gave regular updates. Thanks to Gaurav Dubey and his hardworking team, my
+                business is getting more leads from Google now. "</p>
+              <div class="ts-stars"><i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
               </div>
+              <div class="ts-author">- Roopak (Founder - www.gotouniversity.com - Dubai)</div>
             </div>
-          </div>
-          <div class="industry-card industry-bg15">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3> yoga studios</h3>
-                <p>15+ yoga studios served with website SEO strategies focused on quality lead generation.</p>
+
+            <div class="ts-testimonial">
+              <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
+              <p>"I didn't know much about SEO before, but the team at King of Digital Marketing explained things in a
+                simple way. They helped improve my website ranking and gave monthly reports. Gaurav Dubey made sure
+                the work was always on track."</p>
+              <div class="ts-stars"><i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
               </div>
+              <div class="ts-author">- Younus (Founder - moroccotourismagency.com - Morocco)</div>
             </div>
-          </div>
-          <div class="industry-card industry-bg14">
-            <div class="industry-overlay">
-              <div class="text-box">
-                <h3>Institutes</h3>
-                <p>Successfully handled 10+ institutes for course promotions using SEO, social media and
-                  performance marketing.</p>
+
+            <div class="ts-testimonial">
+              <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
+              <p>"It's been a great experience working with King of Digital Marketing. They helped my website show up
+                on the first page of Google. Their SEO services are professional, affordable, and result-driven. I'm
+                glad I chose them for my business."</p>
+              <div class="ts-stars"><i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
               </div>
+              <div class="ts-author">- Kejsi (Founder - herahairsolutions.com - Turkey)</div>
+            </div>
+
+            <div class="ts-testimonial">
+              <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
+              <p>"Gaurav Dubey and his SEO team at King of Digital Marketing worked hard on my website. Within a few
+                months, I started seeing a good rise in traffic and rankings. They really know what they are doing and
+                deliver what they promise."</p>
+              <div class="ts-stars"><i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+              </div>
+              <div class="ts-author">- David (Founder - audiocityusa.com - USA)</div>
+            </div>
+
+            <div class="ts-testimonial">
+              <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
+              <p>"After hiring King of Digital Marketing, I noticed real improvement in my search engine rankings.
+                Their SEO team is experienced and friendly. Gaurav Dubey personally ensured the project was handled
+                with care and kept me updated regularly."</p>
+              <div class="ts-stars"><i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+                <i class="fa fa-star clrright"></i>
+              </div>
+              <div class="ts-author">- Dr. Sanjay (Founder - cocoona.in - Dubai)</div>
+            </div>
+
+
+
+            <div class="ts-arrows">
+              <button class="ts-arrow" onclick="tsChangeSlide(-1)">&#10094;</button>
+              <button class="ts-arrow" onclick="tsChangeSlide(1)">&#10095;</button>
             </div>
           </div>
         </div>
+
+
+        <hr class="tall" />
+
+        <section class="kdm-faq-section">
+          <div class="container">
+            <div class="row">
+              <!-- Left Side: FAQ Accordion -->
+              <div class="col-md-6">
+                <h2 align="center">FAQs <strong>for SEO Packages</strong></h2>
+                <div class="kdm-faq-accordion">
+                  <div class="kdm-faq-item active">
+                    <button type="button" class="kdm-faq-header">
+                      <span class="kdm-faq-question">Q.1. Why is SEO needed?</span>
+                      <span class="kdm-faq-icon">+</span>
+                    </button>
+                    <div class="kdm-faq-body">
+                      <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Only organic search is a primary
+                        source of traffic. You can get lots of paid traffic but as long as you pay for it. If your
+                        website
+                        is well optimized, you get Rank in search engine and gain organic traffic. Search Engine
+                        Optimization is the practice of improving the rankings of your website in search engines -
+                        Google,
+                        Bing and so on. It is one of the most effective digital marketing techniques which can help in
+                        increasing your sales.</p>
+                    </div>
+                  </div>
+                  <div class="kdm-faq-item">
+                    <button type="button" class="kdm-faq-header">
+                      <span class="kdm-faq-question">Q.2. Which is better for my business SEO or PPC?</span>
+                      <span class="kdm-faq-icon">+</span>
+                    </button>
+                    <div class="kdm-faq-body">
+                      <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Both are crucial to win online.
+                        SEO
+                        gives you authority, trust flow, and organic online presence, while PPC gives you targeted,
+                        niche,
+                        demographic, and behavior-based marketing options.</p>
+                    </div>
+                  </div>
+                  <div class="kdm-faq-item">
+                    <button type="button" class="kdm-faq-header">
+                      <span class="kdm-faq-question">Q.3. How to choose the best SEO Package?</span>
+                      <span class="kdm-faq-icon">+</span>
+                    </button>
+                    <div class="kdm-faq-body">
+                      <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Search for top SEO packages, get
+                        a
+                        list of ranking companies, explain your requirements, and compare pricing, duration, and
+                        previous
+                        work portfolios to choose the package that fits your business needs.</p>
+                    </div>
+                  </div>
+                  <div class="kdm-faq-item">
+                    <button type="button" class="kdm-faq-header">
+                      <span class="kdm-faq-question">Q.4. Is SEO dead?</span>
+                      <span class="kdm-faq-icon">+</span>
+                    </button>
+                    <div class="kdm-faq-body">
+                      <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No, never! SEO remains a vital
+                        core
+                        of internet marketing. As long as people search online for products and content, SEO will
+                        continue
+                        to drive organic business growth.</p>
+                    </div>
+                  </div>
+                  <div class="kdm-faq-item">
+                    <button type="button" class="kdm-faq-header">
+                      <span class="kdm-faq-question">Q.5. What is the minimum duration of an SEO Contract?</span>
+                      <span class="kdm-faq-icon">+</span>
+                    </button>
+                    <div class="kdm-faq-body">
+                      <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our Basic SEO Package has a
+                        minimum
+                        duration of 4 months. We assure 60% of keywords rank on page 1 within this duration. You can
+                        extend
+                        or stop the contract after 4 months.</p>
+                    </div>
+                  </div>
+                  <div class="kdm-faq-item">
+                    <button type="button" class="kdm-faq-header">
+                      <span class="kdm-faq-question">Q.6. What if my website does not rank on any keywords?</span>
+                      <span class="kdm-faq-icon">+</span>
+                    </button>
+                    <div class="kdm-faq-body">
+                      <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We send monthly keyword ranking
+                        reports showing clear progress. If you do not see improvement in rankings, you can quit or
+                        cancel
+                        our monthly services anytime without long-term locks.</p>
+                    </div>
+                  </div>
+                  <div class="kdm-faq-item">
+                    <button type="button" class="kdm-faq-header">
+                      <span class="kdm-faq-question">Q.7. Can we change keywords during the SEO contract
+                        duration?</span>
+                      <span class="kdm-faq-icon">+</span>
+                    </button>
+                    <div class="kdm-faq-body">
+                      <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We recommend locking in targeted
+                        keywords upfront since SEO is a long-term ranking process. Once initial keywords reach page 1,
+                        new
+                        keywords can be added to the project.</p>
+                    </div>
+                  </div>
+                  <div class="kdm-faq-item">
+                    <button type="button" class="kdm-faq-header">
+                      <span class="kdm-faq-question">Q.8. What techniques are used by your SEO experts, Black Hat or
+                        White
+                        Hat?</span>
+                      <span class="kdm-faq-icon">+</span>
+                    </button>
+                    <div class="kdm-faq-body">
+                      <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We are a 100% White Hat SEO
+                        agency.
+                        We strictly follow Google Search Essentials and Webmaster guidelines to protect your domain
+                        authority and ensure long-term organic success.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 High-Converting Dark Theme SVG Offers next to FAQ -->
+              <div class="col-md-6">
+                <h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups & Businesses</strong></h2>
+
+                <div class="kdm-offer-dark-list">
+                  <!-- Offer 1 -->
+                  <div class="kdm-offer-dark-card" onclick="openPackageModal('Startup SEO Booster Offer (10% OFF)')">
+                    <div class="kdm-offer-dark-icon">
+                      <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="60" height="60" rx="14" fill="url(#num_grad_d1)" />
+                        <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81"
+                          transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+                        <path
+                          d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z"
+                          transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+                        <defs>
+                          <linearGradient id="num_grad_d1" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#0284c7" />
+                            <stop offset="1" stop-color="#0369a1" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </div>
+                    <div class="kdm-offer-dark-content">
+                      <h4>Startup SEO Booster Offer</h4>
+                      <p class="kdm-offer-dark-value">Get 10% OFF</p>
+                      <h5 class="kdm-offer-dark-sub">On Quarterly SEO Package</h5>
+                      <h5 class="kdm-offer-dark-desc">Sign up for any 3-month package & get instant 10% OFF!</h5>
+                    </div>
+                  </div>
+
+                  <!-- Offer 2 -->
+                  <div class="kdm-offer-dark-card" onclick="openPackageModal('Growth SEO Plan Offer (15% OFF)')">
+                    <div class="kdm-offer-dark-icon">
+                      <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="60" height="60" rx="14" fill="url(#num_grad_d2)" />
+                        <line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white"
+                          stroke-width="2.5" stroke-linecap="round" />
+                        <line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white"
+                          stroke-width="2.5" stroke-linecap="round" />
+                        <line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white"
+                          stroke-width="2.5" stroke-linecap="round" />
+                        <polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B"
+                          stroke-width="2.5" stroke-linecap="round" />
+                        <defs>
+                          <linearGradient id="num_grad_d2" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#0ea5e9" />
+                            <stop offset="1" stop-color="#0284c7" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </div>
+                    <div class="kdm-offer-dark-content">
+                      <h4>Growth SEO Plan Offer</h4>
+                      <p class="kdm-offer-dark-value">Get 15% OFF</p>
+                      <h5 class="kdm-offer-dark-sub">On 6-Months SEO Package</h5>
+                      <h5 class="kdm-offer-dark-desc">Lock in long-term organic growth and save BIG!</h5>
+                    </div>
+                  </div>
+
+                  <!-- Offer 3 -->
+                  <div class="kdm-offer-dark-card" onclick="openPackageModal('Premium SEO Plan Offer (20% OFF)')">
+                    <div class="kdm-offer-dark-icon">
+                      <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="60" height="60" rx="14" fill="url(#num_grad_d3)" />
+                        <polygon
+                          points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5" />
+                        <defs>
+                          <linearGradient id="num_grad_d3" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#1e293b" />
+                            <stop offset="1" stop-color="#0f172a" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </div>
+                    <div class="kdm-offer-dark-content">
+                      <h4>Premium SEO Plan Offer</h4>
+                      <p class="kdm-offer-dark-value">Get 20% OFF</p>
+                      <h5 class="kdm-offer-dark-sub">On 12-Month SEO Package</h5>
+                      <h5 class="kdm-offer-dark-desc">Let your business rank #1 and grow all year while saving BIG!</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bootstrap JS -->
+        <script src="js/international-page.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
       </div>
+      <!-- Main Closed -->
+      <!-- Form Container Start -->
 
-      <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn"
-        style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px; border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:25px;">See
-        More Industries & Our Records</a>
-    </section>
-
-    <hr class="tall" />
-
-    <div class="mainprocess">
-      <h2 class="process-title">9 Steps SEO Package Process That Delivers Real Results</h2>
-
-      <div class="roadmap-flow">
-        <div class="roadmap-box" data-step="1">
-          <h3>Website Audit</h3>
-          <p>Analyze current performance, technical errors, and SEO health of your website.</p>
-        </div>
-        <div class="roadmap-box" data-step="2">
-          <h3>Keyword Research</h3>
-          <p>Find the best keywords your target audience is searching for.</p>
-        </div>
-        <div class="roadmap-box" data-step="3">
-          <h3>Competitor Analysis</h3>
-          <p>Check what your competitors are ranking for and doing better.</p>
-        </div>
-        <div class="roadmap-box" data-step="4">
-          <h3>On-Page SEO</h3>
-          <p>Optimize titles, meta tags, URLs, headings, and content for keywords.</p>
-        </div>
-        <div class="roadmap-box" data-step="5">
-          <h3>Technical SEO</h3>
-          <p>Improve site speed, mobile-friendliness, indexing, and crawlability</p>
-        </div>
-        <div class="roadmap-box" data-step="6">
-          <h3>Content Optimization</h3>
-          <p>Update old content and create new, keyword-rich pages.</p>
-        </div>
-        <div class="roadmap-box" data-step="7">
-          <h3>Off-Page SEO</h3>
-          <p>Build backlinks from high-authority and relevant websites.</p>
-        </div>
-        <div class="roadmap-box" data-step="8">
-          <h3>Tracking & Reporting</h3>
-          <p>Monitor rankings, traffic, and share monthly progress reports.</p>
-        </div>
-        <div class="roadmap-box" data-step="9">
-          <h3>Strategy Adjustment</h3>
-          <p>Refine your SEO strategy based on performance data regularly.</p>
-        </div>
-      </div>
-    </div>
-
-    <hr class="tall" />
-
-    <section class="locationdetails-why-section">
-      <div class="locationdetails-why-container">
-        <h2 class="locationdetails-why-heading" style="color: #ffffff !important;">Why Choose King of Digital Marketing
-          for SEO Packages?</h2>
-        <p>Are you in search of best SEO packages in Delhi, India to grow your business online? King of Digital
-          Marketing offers affordable SEO packages that deliver top ranking and real results. Whether you're a
-          small local business or a large enterprise, our monthly SEO plans are designed to improve your Google
-          rankings, drive organic traffic and boost your conversions (leads or sales). Each SEO package includes
-          complete services like on page optimization, technical SEO, backlink building, content updates, and
-          performance reporting. We also offer specialized Local SEO packages to help you dominate your local
-          market and attract local nearby customers. We will enahance local presence among those who are searching
-          for your services in near by areas. If you're wondering about the SEO cost for your business, our
-          pricing is affordable, transparent, flexible and based on your goals and industry. Our SEO plans start
-          as low as INR 19,999/Month, making them ideal for startups and growing brands. We asssign a dedicated
-          SEO expert to your SEO project, you get regular updates, strategy support and measurable improvements
-          month after month. Choose our result oriented SEO package and take the first step toward long term
-          online growth and visibility. Contact us today to find the right SEO plan for your business!
-        </p>
-
-        <div class="locationdetails-why-cards">
-          <div class="why-card" style="--accent: #FF6F00">
-            <div class="icon-box icon-1">
-
-              <!-- Award / Medal Icon -->
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
-                width="40" height="40">
-                <!-- Circle background -->
-                <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round" />
-                <!-- Check mark -->
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
-              </svg>
-
-            </div>
-            <h3>Customized Packages</h3>
-            <p>We have created multiple SEO Packages as per business needs. Get SEO packages created to your
-              business goals, industry and audience for higher ranking, better results and higher ROI through
-              search engine.</p>
-          </div>
-
-          <div class="why-card" style="--accent: #008DC2">
-            <div class="icon-box icon-2">
-
-              <!-- Projects Delivered Icon -->
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
-                width="40" height="40">
-                <!-- Magnifying glass (search) -->
-                <circle cx="11" cy="11" r="6" stroke-linecap="round" stroke-linejoin="round" />
-                <line x1="16" y1="16" x2="21" y2="21" stroke-linecap="round" stroke-linejoin="round" />
-                <!-- Upward arrow for growth -->
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h4l2-3 4 6 4-5" />
-              </svg>
-            </div>
-            <h3>White Hat SEO</h3>
-            <p>We commit to follow 100% ethical SEO Guidelines. White hat SEO practices are approved by Google
-              webmaster to ensure safe, long term rankings without any risks or penalties.
-            </p>
-          </div>
-
-          <div class="why-card" style="--accent: #0B456A">
-            <div class="review-image">
-              <div class="icon-box icon-3">
-
-                <!-- Globe Icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
-                  width="40" height="40">
-                  <path d="M12 1v22M17 5H9a3 3 0 0 0 0 6h6a3 3 0 0 1 0 6H7" />
-                </svg>
-              </div>
-
-            </div>
-            <h3>Affordable Packages</h3>
-            <p>Since, its for Indian market thats why we have most affordable SEO packages in India. Our SEO Plans
-              are budget friendly and result driven, which is perfect for small to large businesses looking to
-              increase search engine visibility.</p>
-          </div>
-
-          <div class="why-card" style="--accent: #6A829A">
-            <div class="icon-box icon-4">
-
-              <!-- Report / Document Icon -->
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
-                width="40" height="40">
-                <circle cx="11" cy="11" r="8" />
-                <line x1="21" y1="21" x2="16.65" y2="16.65" />
-              </svg>
-
-            </div>
-
-            <h3>Complete SEO</h3>
-            <p>Our Package includes A-Z SEO activities from on page and off-page to technical SEO and content
-              optimization, our SEO packages cover everything your website needs to rank better in SERP.</p>
-          </div>
-
-          <div class="why-card" style="--accent: #009688">
-            <div class="icon-box icon-5">
-
-              <!-- Team Icon -->
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
-                width="40" height="40">
-                <path d="M9 2h6l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
-                <path d="M9 12h6M9 16h4M9 8h1" stroke-linecap="round" />
-              </svg>
-            </div>
-
-            <h3>100% Transparent Report</h3>
-            <p>Our SEO Experts analyse and create kneat and clean SEO reprot. Monthly SEO reports contains your
-              keyword rankings, traffic growth as per Google analytics and searcn console and all additional tasks
-              completed.</p>
-          </div>
-
-          <div class="why-card" style="--accent: #cfba1f">
-            <div class="icon-box icon-6">
-
-              <!-- Star / Satisfaction Icon -->
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
-                width="40" height="40">
-                <circle cx="9" cy="7" r="3" />
-                <circle cx="17" cy="7" r="3" />
-                <path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2" />
-                <path d="M14 21v-2a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v2" />
-              </svg>
-            </div>
-
-            <h3>Dedicated Support</h3>
-            <p>We assign a SEO Manager to Work with a dedicated SEO expert who understands your business, answers
-              your queries and ensures your SEO works stays on track.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <hr class="tall" />
-    <h2 align="center">Testimonials</h2>
-    <div class="ts-wrapper">
-      <div class="ts-slider-container">
-        <div class="ts-testimonial ts-active">
-          <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-          <p>"I hired King of Digital Marketing for SEO services a few months ago, and I am really happy with the
-            results. My website is now ranking on the first page of Google. Gaurav Dubey and his team were always
-            available to guide me and answer my doubts"</p>
-          <div class="ts-stars"><i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-          </div>
-          <div class="ts-author">- Aji Jeeva (Founder - www.smgains.com - UK)</div>
-        </div>
-
-        <div class="ts-testimonial">
-          <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-          <p>"King of Digital Marketing helped increase my website traffic with their SEO strategies. They kept
-            everything clear and gave regular updates. Thanks to Gaurav Dubey and his hardworking team, my
-            business is getting more leads from Google now. "</p>
-          <div class="ts-stars"><i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-          </div>
-          <div class="ts-author">- Roopak (Founder - www.gotouniversity.com - Dubai)</div>
-        </div>
-
-        <div class="ts-testimonial">
-          <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-          <p>"I didn't know much about SEO before, but the team at King of Digital Marketing explained things in a
-            simple way. They helped improve my website ranking and gave monthly reports. Gaurav Dubey made sure
-            the work was always on track."</p>
-          <div class="ts-stars"><i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-          </div>
-          <div class="ts-author">- Younus (Founder - moroccotourismagency.com - Morocco)</div>
-        </div>
-
-        <div class="ts-testimonial">
-          <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-          <p>"It's been a great experience working with King of Digital Marketing. They helped my website show up
-            on the first page of Google. Their SEO services are professional, affordable, and result-driven. I'm
-            glad I chose them for my business."</p>
-          <div class="ts-stars"><i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-          </div>
-          <div class="ts-author">- Kejsi (Founder - herahairsolutions.com - Turkey)</div>
-        </div>
-
-        <div class="ts-testimonial">
-          <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-          <p>"Gaurav Dubey and his SEO team at King of Digital Marketing worked hard on my website. Within a few
-            months, I started seeing a good rise in traffic and rankings. They really know what they are doing and
-            deliver what they promise."</p>
-          <div class="ts-stars"><i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-          </div>
-          <div class="ts-author">- David (Founder - audiocityusa.com - USA)</div>
-        </div>
-
-        <div class="ts-testimonial">
-          <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-          <p>"After hiring King of Digital Marketing, I noticed real improvement in my search engine rankings.
-            Their SEO team is experienced and friendly. Gaurav Dubey personally ensured the project was handled
-            with care and kept me updated regularly."</p>
-          <div class="ts-stars"><i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-            <i class="fa fa-star clrright"></i>
-          </div>
-          <div class="ts-author">- Dr. Sanjay (Founder - cocoona.in - Dubai)</div>
-        </div>
-
-
-
-        <div class="ts-arrows">
-          <button class="ts-arrow" onclick="tsChangeSlide(-1)">&#10094;</button>
-          <button class="ts-arrow" onclick="tsChangeSlide(1)">&#10095;</button>
-        </div>
-      </div>
-    </div>
-
-
-    <hr class="tall" />
-
-    <section class="kdm-faq-section">
       <div class="container">
-        <div class="row">
-          <!-- Left Side: FAQ Accordion -->
-          <div class="col-md-6">
-            <h2 align="center">FAQs <strong>for SEO Packages</strong></h2>
-            <div class="kdm-faq-accordion">
-              <div class="kdm-faq-item active">
-                <button type="button" class="kdm-faq-header">
-                  <span class="kdm-faq-question">Q.1. Why is SEO needed?</span>
-                  <span class="kdm-faq-icon">+</span>
-                </button>
-                <div class="kdm-faq-body">
-                  <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Only organic search is a primary
-                    source of traffic. You can get lots of paid traffic but as long as you pay for it. If your website
-                    is well optimized, you get Rank in search engine and gain organic traffic. Search Engine
-                    Optimization is the practice of improving the rankings of your website in search engines - Google,
-                    Bing and so on. It is one of the most effective digital marketing techniques which can help in
-                    increasing your sales.</p>
-                </div>
-              </div>
-              <div class="kdm-faq-item">
-                <button type="button" class="kdm-faq-header">
-                  <span class="kdm-faq-question">Q.2. Which is better for my business SEO or PPC?</span>
-                  <span class="kdm-faq-icon">+</span>
-                </button>
-                <div class="kdm-faq-body">
-                  <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Both are crucial to win online. SEO
-                    gives you authority, trust flow, and organic online presence, while PPC gives you targeted, niche,
-                    demographic, and behavior-based marketing options.</p>
-                </div>
-              </div>
-              <div class="kdm-faq-item">
-                <button type="button" class="kdm-faq-header">
-                  <span class="kdm-faq-question">Q.3. How to choose the best SEO Package?</span>
-                  <span class="kdm-faq-icon">+</span>
-                </button>
-                <div class="kdm-faq-body">
-                  <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Search for top SEO packages, get a
-                    list of ranking companies, explain your requirements, and compare pricing, duration, and previous
-                    work portfolios to choose the package that fits your business needs.</p>
-                </div>
-              </div>
-              <div class="kdm-faq-item">
-                <button type="button" class="kdm-faq-header">
-                  <span class="kdm-faq-question">Q.4. Is SEO dead?</span>
-                  <span class="kdm-faq-icon">+</span>
-                </button>
-                <div class="kdm-faq-body">
-                  <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No, never! SEO remains a vital core
-                    of internet marketing. As long as people search online for products and content, SEO will continue
-                    to drive organic business growth.</p>
-                </div>
-              </div>
-              <div class="kdm-faq-item">
-                <button type="button" class="kdm-faq-header">
-                  <span class="kdm-faq-question">Q.5. What is the minimum duration of an SEO Contract?</span>
-                  <span class="kdm-faq-icon">+</span>
-                </button>
-                <div class="kdm-faq-body">
-                  <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our Basic SEO Package has a minimum
-                    duration of 4 months. We assure 60% of keywords rank on page 1 within this duration. You can extend
-                    or stop the contract after 4 months.</p>
-                </div>
-              </div>
-              <div class="kdm-faq-item">
-                <button type="button" class="kdm-faq-header">
-                  <span class="kdm-faq-question">Q.6. What if my website does not rank on any keywords?</span>
-                  <span class="kdm-faq-icon">+</span>
-                </button>
-                <div class="kdm-faq-body">
-                  <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We send monthly keyword ranking
-                    reports showing clear progress. If you do not see improvement in rankings, you can quit or cancel
-                    our monthly services anytime without long-term locks.</p>
-                </div>
-              </div>
-              <div class="kdm-faq-item">
-                <button type="button" class="kdm-faq-header">
-                  <span class="kdm-faq-question">Q.7. Can we change keywords during the SEO contract duration?</span>
-                  <span class="kdm-faq-icon">+</span>
-                </button>
-                <div class="kdm-faq-body">
-                  <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We recommend locking in targeted
-                    keywords upfront since SEO is a long-term ranking process. Once initial keywords reach page 1, new
-                    keywords can be added to the project.</p>
-                </div>
-              </div>
-              <div class="kdm-faq-item">
-                <button type="button" class="kdm-faq-header">
-                  <span class="kdm-faq-question">Q.8. What techniques are used by your SEO experts, Black Hat or White
-                    Hat?</span>
-                  <span class="kdm-faq-icon">+</span>
-                </button>
-                <div class="kdm-faq-body">
-                  <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We are a 100% White Hat SEO agency.
-                    We strictly follow Google Search Essentials and Webmaster guidelines to protect your domain
-                    authority and ensure long-term organic success.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 3 High-Converting Dark Theme SVG Offers next to FAQ -->
-          <div class="col-md-6">
-            <h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups & Businesses</strong></h2>
-
-            <div class="kdm-offer-dark-list">
-              <!-- Offer 1 -->
-              <div class="kdm-offer-dark-card" onclick="openPackageModal('Startup SEO Booster Offer (10% OFF)')">
-                <div class="kdm-offer-dark-icon">
-                  <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="60" height="60" rx="14" fill="url(#num_grad_d1)" />
-                    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81"
-                      transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
-                    <path
-                      d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z"
-                      transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
-                    <defs>
-                      <linearGradient id="num_grad_d1" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#0284c7" />
-                        <stop offset="1" stop-color="#0369a1" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </div>
-                <div class="kdm-offer-dark-content">
-                  <h4>Startup SEO Booster Offer</h4>
-                  <p class="kdm-offer-dark-value">Get 10% OFF</p>
-                  <h5 class="kdm-offer-dark-sub">On Quarterly SEO Package</h5>
-                  <h5 class="kdm-offer-dark-desc">Sign up for any 3-month package & get instant 10% OFF!</h5>
-                </div>
-              </div>
-
-              <!-- Offer 2 -->
-              <div class="kdm-offer-dark-card" onclick="openPackageModal('Growth SEO Plan Offer (15% OFF)')">
-                <div class="kdm-offer-dark-icon">
-                  <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="60" height="60" rx="14" fill="url(#num_grad_d2)" />
-                    <line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white"
-                      stroke-width="2.5" stroke-linecap="round" />
-                    <line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white" stroke-width="2.5"
-                      stroke-linecap="round" />
-                    <line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white" stroke-width="2.5"
-                      stroke-linecap="round" />
-                    <polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B" stroke-width="2.5"
-                      stroke-linecap="round" />
-                    <defs>
-                      <linearGradient id="num_grad_d2" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#0ea5e9" />
-                        <stop offset="1" stop-color="#0284c7" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </div>
-                <div class="kdm-offer-dark-content">
-                  <h4>Growth SEO Plan Offer</h4>
-                  <p class="kdm-offer-dark-value">Get 15% OFF</p>
-                  <h5 class="kdm-offer-dark-sub">On 6-Months SEO Package</h5>
-                  <h5 class="kdm-offer-dark-desc">Lock in long-term organic growth and save BIG!</h5>
-                </div>
-              </div>
-
-              <!-- Offer 3 -->
-              <div class="kdm-offer-dark-card" onclick="openPackageModal('Premium SEO Plan Offer (20% OFF)')">
-                <div class="kdm-offer-dark-icon">
-                  <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="60" height="60" rx="14" fill="url(#num_grad_d3)" />
-                    <polygon
-                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-                      transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5" />
-                    <defs>
-                      <linearGradient id="num_grad_d3" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#1e293b" />
-                        <stop offset="1" stop-color="#0f172a" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </div>
-                <div class="kdm-offer-dark-content">
-                  <h4>Premium SEO Plan Offer</h4>
-                  <p class="kdm-offer-dark-value">Get 20% OFF</p>
-                  <h5 class="kdm-offer-dark-sub">On 12-Month SEO Package</h5>
-                  <h5 class="kdm-offer-dark-desc">Let your business rank #1 and grow all year while saving BIG!</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <hr class="tall">
       </div>
-    </section>
 
-    <!-- Bootstrap JS -->
-    <script src="js/international-page.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    </div>
-    <!-- Main Closed -->
-    <!-- Form Container Start -->
-
-    <div class="container">
-      <hr class="tall">
-    </div>
-
-    <script src="js/kdm-packages.js"></script>
-    <script src="js/kdm-faq.js"></script>
+      <script src="js/kdm-packages.js"></script>
+      <script src="js/kdm-faq.js"></script>
   </asp:Content>
