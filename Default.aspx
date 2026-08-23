@@ -1011,157 +1011,116 @@
         </section>
         <hr class="tall" />
         <!-- ===== DIGITAL MARKETING PROCESS SECTION ===== -->
-        <section class="process-section">
-            <div class="animated-pattern"></div>
-            <div class="process-container">
+        <section class="kdm-process-dark-section">
+            <div class="container" style="position: relative; z-index: 2;">
 
                 <!-- Header -->
-                <div class="process-header">
-                    <div class="process-badge">
-                        <span>Our Proven Approach</span>
+                <div class="kdm-process-header">
+                    <div class="kdm-theme-badge">
+                        <i class="fa fa-cogs fa-solid fa-gears"></i> OUR PROVEN APPROACH
                     </div>
-
-                    <h2 class="process-title">DIGITAL MARKETING PROCESS</h2>
-
-                    <p class="process-subtitle">
-                        From strategy to execution, our systematic 4-step process delivers measurable results for your
-                        business
+                    <h2 class="kdm-process-title">DIGITAL MARKETING <span class="kdm-theme-gradient">PROCESS</span></h2>
+                    <p class="kdm-process-subtitle">
+                        From strategy to execution, our systematic 4-step process delivers measurable growth and scalable ROI for your business.
                     </p>
                 </div>
 
-                <!-- Steps -->
-                <div class="process-steps">
+                <!-- 4 Steps Grid -->
+                <div class="kdm-process-grid">
 
                     <!-- Step 1 -->
-                    <div class="process-step">
-                        <div class="process-card">
-                            <div class="step-badge"><span>1</span></div>
-
-                            <div class="process-icon">
-                                <i class="fa fa-users"></i>
+                    <div class="kdm-process-card-wrapper">
+                        <div class="kdm-process-card">
+                            <div class="kdm-process-num">01</div>
+                            <div class="kdm-process-icon-box">
+                                <i class="fa fa-users fa-solid fa-people-group"></i>
                             </div>
-
-                            <h3>Workshops</h3>
-                            <div class="divider"></div>
-
-                            <ul class="process-list">
-                                <li><i class="fa fa-check-circle"></i>Business Analysis</li>
-                                <li><i class="fa fa-check-circle"></i>Campaign Objective</li>
-                                <li><i class="fa fa-check-circle"></i>Preparing Proposal</li>
-                                <li><i class="fa fa-check-circle"></i>Deciding Deliverables</li>
+                            <h3 class="kdm-process-card-title">Workshops</h3>
+                            <div class="kdm-process-divider"></div>
+                            <ul class="kdm-process-bullets">
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Business Analysis</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Campaign Objective</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Preparing Proposal</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Deciding Deliverables</li>
                             </ul>
-                        </div>
-                        <div class="arrow-connector">
-                            <div class="arrow-dots">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                            <div class="arrow-head"></div>
                         </div>
                     </div>
 
                     <!-- Step 2 -->
-                    <div class="process-step">
-                        <div class="process-card">
-                            <div class="step-badge"><span>2</span></div>
-
-                            <div class="process-icon">
-                                <i class="fa fa-clipboard"></i>
+                    <div class="kdm-process-card-wrapper">
+                        <div class="kdm-process-card">
+                            <div class="kdm-process-num">02</div>
+                            <div class="kdm-process-icon-box">
+                                <i class="fa fa-clipboard fa-solid fa-clipboard-list"></i>
                             </div>
-
-                            <h3>Planning</h3>
-                            <div class="divider"></div>
-
-                            <ul class="process-list">
-                                <li><i class="fa fa-check-circle"></i>Industry Research</li>
-                                <li><i class="fa fa-check-circle"></i>Competitor Research</li>
-                                <li><i class="fa fa-check-circle"></i>Selecting Marketing Channels</li>
-                                <li><i class="fa fa-check-circle"></i>Strategy Development</li>
+                            <h3 class="kdm-process-card-title">Planning</h3>
+                            <div class="kdm-process-divider"></div>
+                            <ul class="kdm-process-bullets">
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Industry Research</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Competitor Research</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Selecting Channels</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy Development</li>
                             </ul>
-                        </div>
-                        <div class="arrow-connector">
-                            <div class="arrow-dots">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-
-                            <div class="arrow-head"></div>
                         </div>
                     </div>
 
                     <!-- Step 3 -->
-                    <div class="process-step">
-                        <div class="process-card">
-                            <div class="step-badge"><span>3</span></div>
-
-                            <div class="process-icon">
-                                <i class="fa fa-flask"></i>
+                    <div class="kdm-process-card-wrapper">
+                        <div class="kdm-process-card">
+                            <div class="kdm-process-num">03</div>
+                            <div class="kdm-process-icon-box">
+                                <i class="fa fa-flask fa-solid fa-vial"></i>
                             </div>
-
-                            <h3>A/B Testing</h3>
-                            <div class="divider"></div>
-
-                            <ul class="process-list">
-                                <li><i class="fa fa-check-circle"></i>Experimenting with Ads</li>
-                                <li><i class="fa fa-check-circle"></i>Experimenting with Content</li>
-                                <li><i class="fa fa-check-circle"></i>Testing SEO Techniques</li>
-                                <li><i class="fa fa-check-circle"></i>Analyzing Audience Behavior</li>
+                            <h3 class="kdm-process-card-title">A/B Testing</h3>
+                            <div class="kdm-process-divider"></div>
+                            <ul class="kdm-process-bullets">
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Experimenting with Ads</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Content Variation</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> SEO Experiments</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Audience Analysis</li>
                             </ul>
-                        </div>
-                        <div class="arrow-connector">
-                            <div class="arrow-dots">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                            <div class="arrow-head"></div>
                         </div>
                     </div>
 
                     <!-- Step 4 -->
-                    <div class="process-step">
-                        <div class="process-card">
-                            <div class="step-badge"><span>4</span></div>
-
-                            <div class="process-icon">
-                                <i class="fa fa-rocket"></i>
+                    <div class="kdm-process-card-wrapper">
+                        <div class="kdm-process-card">
+                            <div class="kdm-process-num">04</div>
+                            <div class="kdm-process-icon-box">
+                                <i class="fa fa-rocket fa-solid fa-rocket"></i>
                             </div>
-
-                            <h3>Execution</h3>
-                            <div class="divider"></div>
-
-                            <ul class="process-list">
-                                <li><i class="fa fa-check-circle"></i>Creating Campaign</li>
-                                <li><i class="fa fa-check-circle"></i>Content Production</li>
-                                <li><i class="fa fa-check-circle"></i>Strategy Optimization</li>
-                                <li><i class="fa fa-check-circle"></i>Analysis & Reporting</li>
+                            <h3 class="kdm-process-card-title">Execution</h3>
+                            <div class="kdm-process-divider"></div>
+                            <ul class="kdm-process-bullets">
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Creating Campaign</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Content Production</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy Optimization</li>
+                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Analysis &amp; Reporting</li>
                             </ul>
-
-                            <div class="process-final">
-                                <span><i class="fa fa-check"></i> Final Step</span>
+                            <div class="kdm-process-final-tag">
+                                <i class="fa fa-check fa-solid fa-check"></i> Maximum ROI Step
                             </div>
-
                         </div>
                     </div>
 
                 </div>
 
-                <!-- CTA -->
-                <div class="process-cta">
-                    <h3>Ready to Transform Your Digital Presence?</h3>
-                    <p>Let's discuss how our proven process can drive results for your business</p>
-
-                    <a href="javascript:void(0);" onclick="openPopup()" class="process-btn">
-                        Get Started Today <i class="fa fa-arrow-right"></i>
-                    </a>
+                <!-- Process Call To Action -->
+                <div class="kdm-process-cta-box">
+                    <h3 class="kdm-process-cta-title">Ready to Transform Your Digital Presence?</h3>
+                    <p class="kdm-process-cta-text">Let's discuss how our proven 4-step process can drive growth and qualified leads for your business.</p>
+                    <div>
+                        <a href="tel:+919821918208" target="_blank" class="kdm-btn-primary-glow">
+                            <i class="fa fa-phone fa-solid fa-phone"></i> Let's Talk About Your Business
+                        </a>
+                        <a href="javascript:void(0);" onclick="openPopup()" class="kdm-btn-glass">
+                            Get Started Today <i class="fa fa-arrow-right fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
 
             </div>
-
         </section>
-
         <!-- ===== END DIGITAL MARKETING PROCESS SECTION ===== -->
 
 
