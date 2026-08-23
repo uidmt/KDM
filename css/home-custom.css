@@ -5546,6 +5546,133 @@ svg.kdm-ppc-svg-icon {
     margin-bottom: 24px;
 }
 
+/* Mobile Responsive Optimizations for Digital Marketing Process */
+@media (max-width: 767px) {
+    .kdm-process-white-section {
+        padding: 40px 0 35px 0 !important;
+    }
+
+    .kdm-process-header {
+        margin-bottom: 28px !important;
+    }
+
+    .kdm-process-light-badge {
+        font-size: 10.5px !important;
+        padding: 3.5px 12px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .kdm-process-light-title {
+        font-size: 24px !important;
+        line-height: 1.25 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .kdm-process-light-subtitle {
+        font-size: 13px !important;
+        line-height: 1.55 !important;
+        color: #64748b !important;
+        padding: 0 5px;
+    }
+
+    .kdm-process-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .kdm-process-card-wrapper {
+        position: relative;
+    }
+
+    .kdm-process-light-card {
+        border-radius: 14px !important;
+        padding: 18px 16px 16px 16px !important;
+        border-top: 3.5px solid #0284c7 !important;
+        box-shadow: 0 4px 15px rgba(15, 23, 42, 0.04) !important;
+    }
+
+    .kdm-process-light-num {
+        top: 14px !important;
+        right: 14px !important;
+        width: 32px !important;
+        height: 32px !important;
+        font-size: 12px !important;
+        border-width: 2px !important;
+    }
+
+    .kdm-process-light-icon-box {
+        width: 44px !important;
+        height: 44px !important;
+        border-radius: 10px !important;
+        font-size: 18px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .kdm-process-light-card-title {
+        font-size: 18px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .kdm-process-light-divider {
+        width: 30px !important;
+        height: 2.5px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .kdm-process-light-bullets {
+        margin-bottom: 10px !important;
+    }
+
+    .kdm-process-light-bullets li {
+        font-size: 13px !important;
+        margin-bottom: 8px !important;
+        gap: 8px !important;
+    }
+
+    .kdm-process-light-bullets li i {
+        font-size: 13px !important;
+    }
+
+    .kdm-process-light-final-tag {
+        font-size: 10.5px !important;
+        padding: 4px 10px !important;
+        margin-top: 4px !important;
+    }
+
+    .kdm-process-light-cta-box {
+        border-radius: 16px !important;
+        padding: 24px 16px !important;
+    }
+
+    .kdm-process-light-cta-title {
+        font-size: 20px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .kdm-process-light-cta-text {
+        font-size: 13px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 18px !important;
+    }
+
+    .kdm-process-light-cta-box div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .kdm-process-light-cta-box .kdm-btn-primary-glow,
+    .kdm-process-light-cta-box .kdm-btn-glass {
+        width: 100% !important;
+        justify-content: center !important;
+        box-sizing: border-box !important;
+        font-size: 13px !important;
+        padding: 10px 16px !important;
+    }
+}
+
 /* ==========================================================================
    Redesigned Clients Trust & Logo Section (White Theme)
    ========================================================================== */
