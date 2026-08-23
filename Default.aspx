@@ -275,7 +275,7 @@
                         // { l1: "Results Driven", l2: "Digital Marketing Services", l3: "TRUSTED BY 850+ BRANDS WORLDWIDE TO DRIVE TRAFFIC, LEADS & GROWTH" },
                         { l1: "PERFORMANCE FOCUSED", l2: "LEAD GENERATION SERVICES", l3: "Helped 400+ Clients Achieve Over 10Lakh+ Qualified Leads Since 2013" },
                         { l1: "SMART SALES STRATEGIES FOR", l2: "ECOMMERCE MARKETING", l3: "Maximizing Conversions & ROI with Meta, Google, Flipkart, Amazon Ads" },
-                        { l1: "LATEST ALGORITHM DRIVEN", l2: "SEO SERVICES", l3: "500+ SEO Projects Delivered, 60% Achieving Top 10 Rankings" },
+                        { l1: "NEXT-GEN & AI-ORIENTED", l2: "AI ORIENTED SEO SERVICES", l3: "OPTIMIZING FOR GOOGLE, CHATGPT, PERPLEXITY & AI OVERVIEWS WITH TOP RANKINGS" },
                         { l1: "INNOVATIVE STRATEGIES FOR", l2: "SOCIAL MEDIA SERVICES", l3: "Helping Brands Boost Engagement, Grow Followers, and Maximize ROI" }
                     ];
 
