@@ -5889,7 +5889,7 @@ svg.kdm-ppc-svg-icon {
 }
 
 /* ==========================================================================
-   Redesigned Credentials Section (Unified Single-Row Executive Glass Bar)
+   Redesigned Credentials Section (5 Separate Dark Boxes with SVGs in 1 Row)
    ========================================================================== */
 .kdm-credentials-white-section {
     background: linear-gradient(180deg, #f8fafc 0%, #ffffff 50%, #f8fafc 100%);
@@ -5939,38 +5939,41 @@ svg.kdm-ppc-svg-icon {
     margin: 0;
 }
 
-.kdm-credentials-unified-bar {
+.kdm-credentials-5grid {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: nowrap;
+}
+
+.kdm-credentials-box {
+    flex: 1 1 0%;
+    min-width: 0;
     background: #0f172a;
     border: 1px solid #1e293b;
-    border-top: 4px solid #0284c7;
-    border-radius: 24px;
-    padding: 24px 20px;
-    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.15);
+    border-top: 3px solid #0284c7;
+    border-radius: 18px;
+    padding: 24px 12px;
+    text-align: center;
+    transition: all 0.35s ease;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.12);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-}
-
-.kdm-credential-bar-item {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 10px 20px;
-    flex: 1 1 0%;
     justify-content: center;
-    border-right: 1px solid rgba(255, 255, 255, 0.08);
-    transition: all 0.3s ease;
-}
-.kdm-credential-bar-item:last-child {
-    border-right: none;
-}
-.kdm-credential-bar-item:hover {
-    transform: translateY(-3px);
 }
 
-.kdm-bar-icon-box {
-    width: 52px;
-    height: 52px;
+.kdm-credentials-box:hover {
+    transform: translateY(-5px);
+    border-color: #0284c7;
+    box-shadow: 0 16px 35px rgba(2, 132, 199, 0.25);
+    background: #1e293b;
+}
+
+.kdm-cred-svg-hub {
+    width: 48px;
+    height: 48px;
     border-radius: 14px;
     background: rgba(56, 189, 248, 0.12);
     border: 1px solid rgba(56, 189, 248, 0.25);
@@ -5978,64 +5981,50 @@ svg.kdm-ppc-svg-icon {
     align-items: center;
     justify-content: center;
     color: #38bdf8;
-    font-size: 22px;
-    flex-shrink: 0;
+    margin-bottom: 12px;
     transition: all 0.3s ease;
 }
-.kdm-credential-bar-item:hover .kdm-bar-icon-box {
+
+.kdm-credentials-box:hover .kdm-cred-svg-hub {
     background: #0284c7;
     color: #ffffff;
     border-color: #0284c7;
-    box-shadow: 0 0 20px rgba(2, 132, 199, 0.5);
+    box-shadow: 0 0 16px rgba(2, 132, 199, 0.5);
 }
 
-.kdm-bar-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.kdm-bar-num {
+.kdm-cred-num {
+    display: block;
     background: linear-gradient(135deg, #ffffff 0%, #38bdf8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 800;
     line-height: 1.1;
+    margin-bottom: 6px;
     letter-spacing: -0.5px;
 }
 
-.kdm-bar-label {
+.kdm-cred-label {
     color: #94a3b8;
-    font-size: 13px;
+    font-size: 12.5px;
     font-weight: 700;
+    margin: 0;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin: 4px 0 0 0;
+    letter-spacing: 0.3px;
+    line-height: 1.35;
 }
 
 @media (max-width: 991px) {
-    .kdm-credentials-unified-bar {
+    .kdm-credentials-5grid {
         flex-wrap: wrap;
-        padding: 15px;
     }
-    .kdm-credential-bar-item {
-        flex: 0 0 50%;
-        border-right: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-        padding: 15px 10px;
-    }
-    .kdm-credential-bar-item:nth-child(3),
-    .kdm-credential-bar-item:nth-child(4) {
-        border-bottom: none;
+    .kdm-credentials-box {
+        flex: 0 0 calc(33.333% - 12px);
     }
 }
 @media (max-width: 576px) {
-    .kdm-credential-bar-item {
-        flex: 0 0 100%;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    }
-    .kdm-credential-bar-item:last-child {
-        border-bottom: none;
+    .kdm-credentials-box {
+        flex: 0 0 calc(50% - 8px);
     }
 }
 
