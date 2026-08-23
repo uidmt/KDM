@@ -27,7 +27,39 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div role="main" class="main">
-        <!-- Hero Section -->
+        <!-- Executive Hero Banner Section -->
+        <section class="kdm-pkg-hero">
+            <div class="kdm-pkg-hero-content">
+                <div class="kdm-top-badge">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="#38bdf8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    #1 SOCIAL MEDIA MARKETING AGENCY
+                </div>
+                <h1>Social Media Marketing Packages</h1>
+                <p class="hero-subtitle">Grow Your Brand &amp; Engage Customers With Result-Driven SMM Packages. Boost Your Social Media Presence Across Facebook, Instagram, LinkedIn &amp; YouTube.</p>
+
+                <div class="kdm-benefits-grid">
+                    <div class="kdm-benefit-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Targeted Social Media Campaigns
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Custom Content &amp; Reel Creation
+                    </div>
+                    <div class="kdm-benefit-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        Audience Engagement &amp; Growth
+                    </div>
+                </div>
+
+                <div class="kdm-pkg-cta-group">
+                    <a href="tel:+919821918208" class="kdm-btn-hero-primary"><i class="fa fa-phone"></i> Call +91 9821918208</a>
+                    <a href="javascript:void(0);" onclick="openPackageModal('SMM Package Consultation')" class="kdm-btn-hero-whatsapp"><i class="fa fa-calendar"></i> Request Free Consultation</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Credentials & Numbers Section -->
         <section class="locationdetails-numbers-section">
 	<div class="container">
 		<div class="row center counters dark counters-row">
