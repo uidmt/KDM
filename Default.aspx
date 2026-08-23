@@ -1868,51 +1868,35 @@
                             <p>Quick answers to common questions about our services</p>
                         </div>
 
-                        <div class="panel-group kdm-faq-accordion" id="accordion">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                            Q.1. How Do You Help Solving My Digital Marketing Problems?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse1" class="panel-collapse collapse in">
-                                    <div class="panel-body">
-                                        <strong>Ans.</strong>
-                                        <p>We solve challenges of low ranking, low traffic, low quality leads, sales &amp; conversion issues and reaching targeted audiences. Our digital marketing strategies connect businesses with targeted audiences to generate more leads and revenue using activities such as SEO, GEO, AEO, Social Media, Meta Ads, Google Ads, website designing, and development.</p>
-                                    </div>
+                        <div class="kdm-faq-accordion">
+                            <div class="kdm-faq-item active">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.1. How Do You Help Solving My Digital Marketing Problems?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We solve challenges of low ranking, low traffic, low quality leads, sales &amp; conversion issues and reaching targeted audiences. Our digital marketing strategies connect businesses with targeted audiences to generate more leads and revenue using activities such as SEO, GEO, AEO, Social Media, Meta Ads, Google Ads, website designing, and development.</p>
                                 </div>
                             </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">
-                                            Q.2. Would My Business Benefit From Digital Marketing?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse2" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <strong>Ans.</strong>
-                                        <p>It is a definite YES. Your business definitely requires digital marketing. It enables companies to reach and interact with their target audience in real-time and maximize brand awareness at an affordable cost with unlimited reach.</p>
-                                    </div>
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.2. Would My Business Benefit From Digital Marketing?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> It is a definite YES. Your business definitely requires digital marketing. It enables companies to reach and interact with their target audience in real-time and maximize brand awareness at an affordable cost with unlimited reach.</p>
                                 </div>
                             </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">
-                                            Q.3. Why Should I Hire a Digital Marketing Company?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse3" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <strong>Ans.</strong>
-                                        <p>Digital marketing offers numerous advantages over traditional methods to attract more customers:</p>
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.3. Why Should I Hire a Digital Marketing Company?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <div class="kdm-faq-answer">
+                                        <span class="kdm-ans-badge">Ans</span> Digital marketing offers numerous advantages over traditional methods to attract more customers:
                                         <ul>
                                             <li>Advertise where you are actively being searched</li>
                                             <li>Ability to reach global customers</li>
@@ -1925,67 +1909,43 @@
                                 </div>
                             </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="collapsed">
-                                            Q.4. What does a Digital Marketing Agency Do?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse4" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <strong>Ans.</strong>
-                                        <p>A digital marketing agency understands client requirements and creates result-oriented marketing strategies. They focus on delivering ROI, spreading brand awareness to targeted audiences, and driving quality lead generation while maintaining user experience excellence.</p>
-                                    </div>
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.4. What does a Digital Marketing Agency Do?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> A digital marketing agency understands client requirements and creates result-oriented marketing strategies. They focus on delivering ROI, spreading brand awareness to targeted audiences, and driving quality lead generation while maintaining user experience excellence.</p>
                                 </div>
                             </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed">
-                                            Q.5. What is brand awareness in digital marketing?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse5" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <strong>Ans.</strong>
-                                        <p>In digital marketing, brand awareness means creating a solid digital identity for your company among target customers. It builds and disseminates key information about your products/services when launching new offerings.</p>
-                                    </div>
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.5. What is brand awareness in digital marketing?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> In digital marketing, brand awareness means creating a solid digital identity for your company among target customers. It builds and disseminates key information about your products/services when launching new offerings.</p>
                                 </div>
                             </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="collapsed">
-                                            Q.6. How Can I Get The Services Started?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse6" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <strong>Ans.</strong>
-                                        <p>Find top digital marketing experts, list your requirements, and consult a <a href="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx">digital marketing consultant</a>. Review past work, results, timelines, and digital marketing packages before signing a contract to ensure complete confidence.</p>
-                                    </div>
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.6. How Can I Get The Services Started?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Find top digital marketing experts, list your requirements, and consult a <a href="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx">digital marketing consultant</a>. Review past work, results, timelines, and digital marketing packages before signing a contract to ensure complete confidence.</p>
                                 </div>
                             </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="collapsed">
-                                            Q.7. How much do you charge for digital marketing?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse7" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <strong>Ans.</strong>
-                                        <p>Digital marketing packages are tailored to project requirements. We offer bespoke combined packages covering SEO, SMO, PPC, Web Design, Content Creation, and Link Building tailored specifically for your business goals.</p>
-                                    </div>
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.7. How much do you charge for digital marketing?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing packages are tailored to project requirements. We offer bespoke combined packages covering SEO, SMO, PPC, Web Design, Content Creation, and Link Building tailored specifically for your business goals.</p>
                                 </div>
                             </div>
                         </div>
