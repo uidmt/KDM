@@ -5754,6 +5754,128 @@ svg.kdm-ppc-svg-icon {
     font-size: 12px;
 }
 
+/* ==========================================================================
+   Redesigned Numbers Do Speak A Lot Section (White Theme)
+   ========================================================================== */
+.kdm-numbers-white-section {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    padding: 85px 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    position: relative;
+}
+
+.kdm-numbers-header {
+    text-align: center;
+    max-width: 950px;
+    margin: 0 auto 45px auto;
+}
+
+.kdm-numbers-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(2, 132, 199, 0.25);
+    color: #0284c7;
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+}
+
+.kdm-numbers-title {
+    color: #0f172a;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.kdm-numbers-subtitle {
+    color: #475569;
+    font-size: 15.5px;
+    line-height: 1.75;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 920px;
+}
+
+.kdm-number-card-link {
+    text-decoration: none !important;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.kdm-number-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid #0284c7;
+    border-radius: 20px;
+    padding: 24px 26px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.35s ease;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+.kdm-number-card-link:hover .kdm-number-card {
+    transform: translateY(-6px);
+    border-color: #0284c7;
+    box-shadow: 0 20px 45px rgba(2, 132, 199, 0.15);
+}
+
+.kdm-number-icon-box {
+    width: 65px;
+    height: 65px;
+    border-radius: 16px;
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(2, 132, 199, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+.kdm-number-card-link:hover .kdm-number-icon-box {
+    background: #0284c7;
+    border-color: #0284c7;
+}
+.kdm-number-card-link:hover .kdm-number-icon-box img {
+    filter: brightness(0) invert(1);
+}
+
+.kdm-number-info {
+    flex-grow: 1;
+}
+.kdm-number-info h4 {
+    color: #0f172a;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+    line-height: 1.3;
+}
+.kdm-number-val {
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 0 4px 0;
+    line-height: 1.2;
+}
+.kdm-number-sub {
+    color: #64748b;
+    font-size: 13.5px;
+    font-weight: 600;
+    margin: 0;
+}
+
 
 
 
