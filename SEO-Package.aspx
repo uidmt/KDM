@@ -178,40 +178,6 @@
           </p>
         </div>
       </section>
-
-      <!-- Limited Time Offer Countdown Banner -->
-      <div class="kdm-package-countdown-banner">
-        <div class="container">
-          <div class="kdm-countdown-flex-wrap">
-            <div class="kdm-countdown-info">
-              <span class="kdm-countdown-badge"><i class="fa fa-clock-o"></i> LIMITED TIME SPECIAL OFFER</span>
-              <h3 class="kdm-countdown-title">Get <strong>Instant 15% OFF</strong> On All SEO Packages Today!</h3>
-            </div>
-            <div class="kdm-countdown-timer">
-              <div class="kdm-timer-unit">
-                <span class="kdm-timer-num kdm-timer-hours">08</span>
-                <span class="kdm-timer-lbl">Hours</span>
-              </div>
-              <span class="kdm-timer-colon">:</span>
-              <div class="kdm-timer-unit">
-                <span class="kdm-timer-num kdm-timer-mins">42</span>
-                <span class="kdm-timer-lbl">Mins</span>
-              </div>
-              <span class="kdm-timer-colon">:</span>
-              <div class="kdm-timer-unit">
-                <span class="kdm-timer-num kdm-timer-secs">19</span>
-                <span class="kdm-timer-lbl">Secs</span>
-              </div>
-            </div>
-            <div class="kdm-countdown-cta">
-              <a href="javascript:void(0);" onclick="openPackageModal('SEO Special Offer (15% OFF)')"
-                class="kdm-countdown-btn">
-                <span>Claim Offer Now</span> <i class="fa fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
       <!--
   <div style="text-align: center; margin-bottom: 30px;">
     <span class="kdm-pkg-badge"><i class="fa fa-trophy"></i> PROVEN TRACK RECORD</span>
