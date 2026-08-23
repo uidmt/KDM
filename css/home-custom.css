@@ -5889,11 +5889,11 @@ svg.kdm-ppc-svg-icon {
 }
 
 /* ==========================================================================
-   Redesigned Credentials Section (Reusable White Theme Component)
+   Redesigned Credentials Section (Single Row Executive Stat Counters)
    ========================================================================== */
 .kdm-credentials-white-section {
     background: linear-gradient(180deg, #f8fafc 0%, #ffffff 50%, #f8fafc 100%);
-    padding: 75px 0;
+    padding: 70px 0;
     border-top: 1px solid #e2e8f0;
     border-bottom: 1px solid #e2e8f0;
     position: relative;
@@ -5902,7 +5902,7 @@ svg.kdm-ppc-svg-icon {
 .kdm-credentials-header {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 35px auto;
 }
 
 .kdm-credentials-badge {
@@ -5912,28 +5912,28 @@ svg.kdm-ppc-svg-icon {
     background: rgba(2, 132, 199, 0.08);
     border: 1px solid rgba(2, 132, 199, 0.25);
     color: #0284c7;
-    font-size: 12.5px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    padding: 6px 18px;
+    padding: 5px 16px;
     border-radius: 50px;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
 
 .kdm-credentials-title {
     color: #0f172a;
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 800;
     line-height: 1.3;
     letter-spacing: -0.5px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .kdm-credentials-subtitle {
     color: #475569;
-    font-size: 15.5px;
+    font-size: 15px;
     font-weight: 500;
     text-align: center;
     margin: 0;
@@ -5942,14 +5942,13 @@ svg.kdm-ppc-svg-icon {
 .kdm-credentials-card {
     background: #0f172a;
     border: 1px solid #1e293b;
-    border-top: 4px solid #0284c7;
-    border-radius: 20px;
-    padding: 30px 20px;
+    border-top: 3px solid #0284c7;
+    border-radius: 18px;
+    padding: 22px 14px;
     text-align: center;
     transition: all 0.35s ease;
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.15);
-    margin-bottom: 24px;
-    height: calc(100% - 24px);
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.12);
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -5957,24 +5956,24 @@ svg.kdm-ppc-svg-icon {
 }
 
 .kdm-credentials-card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-5px);
     border-color: #0284c7;
-    box-shadow: 0 20px 45px rgba(2, 132, 199, 0.25);
+    box-shadow: 0 16px 35px rgba(2, 132, 199, 0.22);
     background: #1e293b;
 }
 
 .kdm-credentials-icon-box {
-    width: 60px;
-    height: 60px;
-    border-radius: 16px;
-    background: rgba(2, 132, 199, 0.15);
-    border: 1px solid rgba(56, 189, 248, 0.3);
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.25);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     color: #38bdf8;
-    font-size: 24px;
-    margin-bottom: 16px;
+    font-size: 20px;
+    margin-bottom: 12px;
     transition: all 0.3s ease;
 }
 
@@ -5982,7 +5981,7 @@ svg.kdm-ppc-svg-icon {
     background: #0284c7;
     color: #ffffff;
     border-color: #0284c7;
-    box-shadow: 0 0 20px rgba(2, 132, 199, 0.5);
+    box-shadow: 0 0 16px rgba(2, 132, 199, 0.5);
 }
 
 .kdm-credentials-num {
@@ -5990,18 +5989,20 @@ svg.kdm-ppc-svg-icon {
     background: linear-gradient(135deg, #ffffff 0%, #38bdf8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 800;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 6px;
+    letter-spacing: -0.5px;
 }
 
 .kdm-credentials-label {
     color: #94a3b8;
-    font-size: 14.5px;
+    font-size: 13px;
     font-weight: 700;
     margin: 0;
-    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 

@@ -1750,7 +1750,7 @@
                 </div>
 
                 <div class="row custom-row center counters dark counters-row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
                         <div class="kdm-credentials-card">
                             <div class="kdm-credentials-icon-box">
                                 <i class="fa fa-user counter-icon"></i>
@@ -1760,7 +1760,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
                         <div class="kdm-credentials-card">
                             <div class="kdm-credentials-icon-box">
                                 <i class="fa fa-star counter-icon"></i>
@@ -1770,7 +1770,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
                         <div class="kdm-credentials-card">
                             <div class="kdm-credentials-icon-box">
                                 <i class="fa fa-bullseye counter-icon"></i>
@@ -1780,7 +1780,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
                         <div class="kdm-credentials-card">
                             <div class="kdm-credentials-icon-box">
                                 <i class="fa fa-line-chart counter-icon"></i>
