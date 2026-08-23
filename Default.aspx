@@ -1470,17 +1470,26 @@
                             <div class="kdm-clients-badge">
                                 <i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
                             </div>
-                            <h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">Digital Marketing Company</span> To Help Flourish Your Business</h2>
+                            <h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">Digital
+                                    Marketing Company</span> To Help Flourish Your Business</h2>
                             <p class="kdm-clients-subtitle">
-                                What makes us distinct is our valuable clients. We strive day in and day out to secure their branding, online reputation, visibility, high-converting traffic, and qualified lead generation.
+                                What makes us distinct is our valuable clients. We strive day in and day out to secure
+                                their branding, online reputation, visibility, high-converting traffic, and qualified
+                                lead generation.
                             </p>
                             <div class="kdm-clients-motto-wrapper">
                                 <div class="kdm-clients-motto">
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Ambitious</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+                                        Ambitious</span>
                                     <span>&bull;</span>
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Experts</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+                                        Experts</span>
                                     <span>&bull;</span>
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Performance Driven Leaders</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We are
+                                        Shepherd</span>
+                                    <span>&bull;</span>
+                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We are
+                                        King</span>
                                 </div>
                             </div>
                         </div>
