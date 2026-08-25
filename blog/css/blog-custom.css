@@ -13,13 +13,19 @@
   margin-top: 10px;
 }
 
-/* Remove unwanted outer borders from blog content containers */
+/* Remove unwanted outer borders, white lines & outlines from blog page containers */
+.page-top,
+section.page-top,
+.main,
+div[role="main"],
 .content,
 .container > .content,
 .content-left,
 .content-right,
 .single-page,
-.print-main {
+.print-main,
+.body,
+html.boxed .body {
   border: none !important;
   border-left: none !important;
   border-right: none !important;
@@ -27,6 +33,32 @@
   border-bottom: none !important;
   box-shadow: none !important;
   outline: none !important;
+}
+
+@media (max-width: 991px) {
+  .page-top,
+  section.page-top,
+  .main,
+  div[role="main"],
+  .container,
+  .row,
+  .content,
+  .content-left,
+  .content-right,
+  .single-page,
+  .print-main,
+  .sidebar,
+  .col-md-12,
+  .col-md-8,
+  .col-md-4 {
+    border: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
 }
 
 /* Blog Container & Layout */
