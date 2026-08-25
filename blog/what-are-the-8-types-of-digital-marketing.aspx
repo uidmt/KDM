@@ -169,7 +169,7 @@
                      <section class="kdm-v2-faq-section">
                         <h2>Any Doubt? Here are FAQ's</h2>
                         <div class="faq-item">
-                            <h</h4>Q.1 Which kinds of digital marketing are there?</h3>
+                            <h3>Q.1 Which kinds of digital marketing are there?</h3>
                             <p>SEO, SEM, social media marketing, content marketing, email marketing, influencer marketing, affiliate marketing, and mobile marketing are the eight categories of digital marketing.</p>
                         </div>
                         <div class="faq-item">

@@ -40,6 +40,7 @@
 		<link rel="stylesheet" href="css/home-custom.css?v=25.0">
 		<!-- Blog Custom CSS (Scoped strictly to blog folder) -->
 		<link rel="stylesheet" href="css/blog-custom.css?v=2.0">
+		<link rel="stylesheet" href="../css/kdm-faq.css?v=2.0">
 		<link rel="stylesheet" href="../css/kdm-footer.css?v=3.0">
 
 		<!-- Current Page CSS -->
@@ -595,6 +596,7 @@
 <script src="js/carsousel.js"></script>
 
 <!-- Centralized Footer & Sticky Bar Component -->
+<script src="../js/kdm-faq.js?v=2.0"></script>
 <script src="../js/kdm-footer-component.js?v=3.0"></script>
 <script src="../js/kdm-header-component.js?v=3.0"></script>
 </body>
