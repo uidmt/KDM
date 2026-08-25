@@ -125,9 +125,9 @@
                         <p class="span">Effective SEO content writing calls for knowledge of search intent, good structure, and creation of user trust, not only keyword optimization. Reliable qualified leads result from SEO ideas combined with human-centered writing. Companies can use organic traffic for long-term expansion by giving clarity, relevancy, and user experience first priority.</p><br>
                         
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

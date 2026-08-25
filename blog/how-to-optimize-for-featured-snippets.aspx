@@ -168,9 +168,9 @@
                         <p class="span">Because Featured Snippets provide a box of text at the top of the SERPs instead of a link to other results, they improve visibility for the website. Featured snippets can improve credibility and, most importantly, traffic to your website. Learning to improve your chances of obtaining the Featured Snippets will most likely improve your SEO strategy as a whole. It is one of the most important aspects of modern-day SEO. With time and experience, the ongoing effort will refine your approach to the situation, which will be beneficial.</p><br>
                         
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

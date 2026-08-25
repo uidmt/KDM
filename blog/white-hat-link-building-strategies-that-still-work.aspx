@@ -184,9 +184,9 @@
                         <p class="span">SEO does not seek after algorithms. It is a matter of gaining credibility- one connection at a time.</p>
                         
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

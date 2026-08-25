@@ -199,9 +199,9 @@
                         
                         <p class="span">Rather than posing the question, How can I rank this keyword?, you should begin to pose the question, What does the user actually want? It is that change of perspective that makes the difference in the <strong>success of SEO.</strong></p><br>
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

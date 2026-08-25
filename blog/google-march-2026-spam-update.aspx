@@ -156,9 +156,9 @@
                         The main elements that lead to successful SEO results for 2026 and beyond require continuous learning together with rapid adaptation skills and commitment to producing exceptional results.</p>
                         
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

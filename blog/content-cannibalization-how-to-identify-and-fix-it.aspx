@@ -186,9 +186,9 @@
                         <p class="span">When your rankings are unsteady or your traffic is not increasing even with the regular publishing, content cannibalization is something to look into and resolve.</p><br>
                         
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

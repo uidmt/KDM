@@ -143,9 +143,9 @@
                         Businesses can enhance their search visibility and attract specific visitors and expand their online presence by studying Google search engine operation and executing effective SEO techniques. Organizations can develop effective SEO strategies which produce long-term online results through their partnership with the leading SEO company based in Delhi.</p>
                         
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

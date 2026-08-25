@@ -184,9 +184,9 @@
                         Websites gain credibility, which is productively reinforced by the search algorithms by keeping the backlink profile clean and prioritizing ethical development. The current success of SEO is not a shortcut one. It has to do with credibility, relevancy and sustainability.</p>
                         
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

@@ -220,9 +220,9 @@
                         <p class="span">It may be overwhelming to have <strong>Google indexing issues,</strong> but most of the problems are solvable through the right approach.Through the identification of mistakes followed by their correction, you would be able to make sure that your site is crawled, indexed, and ranked accordingly.</p>
                         <p class="span">A healthy site in technical sense not only enhances visibility but also generates long term trust with the search engines.</p>
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

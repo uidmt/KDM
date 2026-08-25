@@ -216,9 +216,9 @@
 
                             <p class="span">There is a natural consequence of this: by aligning your content with these principles Google AI Overviews will automatically reward your efforts.</p>
                         </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

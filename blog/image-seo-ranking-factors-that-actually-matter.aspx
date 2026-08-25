@@ -210,9 +210,9 @@
                             <p class="span">You will be able to increase your visibility, user experience, and organic traffic very much.</p>
                             <p class="span">Begin implementing these stepwise <strong>Image SEO methods</strong> and you will be enjoying the long term SEO benefits which most of your competitors are still neglecting.</p>
                         </div>
-                    </section>
-                    </div>
                 </div>
+
+                
 
                     <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

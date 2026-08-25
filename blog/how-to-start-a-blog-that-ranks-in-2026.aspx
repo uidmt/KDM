@@ -192,9 +192,9 @@
                         The steps you take will help you create a blog which achieves high search engine rankings while generating actual visitor traffic and user interaction and business expansion.</p>
                         
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->

@@ -239,9 +239,9 @@
 
                         <p class="span">Rather than pursuing keywords, own topics. Rankings naturally follow when search engines consider your site as the best one in relation to the information on a topic.</p>
                     </div>
-                    </section>
                 </div>
-            </div>
+
+                
 
             <div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
