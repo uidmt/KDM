@@ -593,6 +593,7 @@
 <!-- Modern V2 Mega Menu Controller -->
 <script src="js/kdm-mega-menu-v2.js?v=20.0"></script>
 <script src="js/carsousel.js"></script>
+<script src="js/master-custom.js"></script>
 
 <!-- Centralized Footer & Sticky Bar Component -->
 <script src="../js/kdm-footer-component.js?v=3.0"></script>

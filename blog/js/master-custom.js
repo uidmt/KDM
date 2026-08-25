@@ -33,6 +33,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Sticky Sidebar Parent Row Class Helper
+    var sidebars = document.querySelectorAll('.sidebar, .content-right, .content-right-top');
+    sidebars.forEach(function(sb) {
+        var parentRow = sb.closest('.row');
+        if (parentRow) {
+            parentRow.classList.add('kdm-sticky-sidebar-parent');
+        }
+    });
+
     document.addEventListener('click', function(e) {
         var target = e.target.closest('a, button, input[type="button"]');
         if (target) {
