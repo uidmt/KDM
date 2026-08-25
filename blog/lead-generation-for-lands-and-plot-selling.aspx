@@ -136,8 +136,8 @@ Our team blends strong SEO Services, performance-driven paid advertising, conver
 <p class="span">
 The process of selling land or plots in the current market is much more than newspapers, brokers or roadside signage. If you're looking to expand your business or land with tangible outcomes, KDM can help you create a successful digital marketing strategy that's tailored to your needs. Directed by Gaurav Dubey, a reputable Digital Marketing Specialist with more than 13 years of experience, and 950+ successful projects executed across 15 countries from 2013 onwards, KDM offers results-driven <a href="https://www.kingofdigitalmarketing.com/lead-generation-company.aspx"> Lead Generation Services </a>that connect your business to genuine buyers who are ready to buy. Join with KDM today to turn more inquiries about property into sales that are successful through clever digital marketing that is based on data.
 </p>
-<h</h3>FAQs</h4><section class="kdm-v2-faq-section"><div class="container">
-<div class="panel-group" id="accordion">
+<h3 class="text-tranf paragraph-space">Frequently Asked Questions (FAQs)</h3>
+<div class="panel-group" id="accordion" style="width: 100%; max-width: 100%;">
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -153,7 +153,7 @@ The process of selling land or plots in the current market is much more than new
                 <p>They attract buyers who are qualified and make them potential buyers for properties.</p>
             </div>
         </div>
-    </div></div></section>
+    </div>
 
     <div class="panel panel-default">
         <div class="panel-heading">
