@@ -13,7 +13,7 @@
   margin-top: 10px;
 }
 
-/* Remove boxed layout corner white borders, outer lines & outlines from blog page containers */
+/* Ultimate Zero-Border & Zero White Corner Override for Blog Folder Pages */
 html,
 body,
 .body,
@@ -29,17 +29,42 @@ section.page-top,
 .content-left,
 .content-right,
 .single-page,
-.print-main {
-  border-radius: 0 !important;
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
+.print-main,
+.container,
+.row,
+.col-md-12,
+.col-md-8,
+.col-md-4,
+.sidebar,
+.cus-bullet,
+.posted-by,
+.header-bottom,
+.navigation {
   border: none !important;
   border-left: none !important;
   border-right: none !important;
   border-top: none !important;
   border-bottom: none !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
   box-shadow: none !important;
   outline: none !important;
+}
+
+/* Remove pseudo-element borders that create lines/corners */
+.page-top::before,
+.page-top::after,
+.content::before,
+.content::after,
+.single-page::before,
+.single-page::after,
+.print-main::before,
+.print-main::after,
+.container::before,
+.container::after {
+  border: none !important;
+  box-shadow: none !important;
 }
 
 @media (max-width: 991px) {
@@ -67,17 +92,18 @@ section.page-top,
     border-radius: 0 !important;
     -webkit-border-radius: 0 !important;
     border: none !important;
-    border-top: none !important;
-    border-bottom: none !important;
-    border-left: none !important;
-    border-right: none !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
     outline: none !important;
     box-shadow: none !important;
   }
 
   .print-main img,
   .single-page img,
-  .article img {
+  .article img,
+  .content img {
     border: none !important;
     box-shadow: none !important;
   }
