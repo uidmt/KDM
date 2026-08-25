@@ -526,35 +526,36 @@
             .kdm-verified-badge {
                 display: inline-flex !important;
                 align-items: center !important;
-                gap: 6px !important;
-                background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%) !important;
-                color: #047857 !important;
-                border: 1px solid #a7f3d0 !important;
-                padding: 4px 11px !important;
-                border-radius: 20px !important;
+                gap: 7px !important;
+                background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
+                color: #ffffff !important;
+                border: 1px solid rgba(255, 255, 255, 0.15) !important;
+                padding: 5px 13px !important;
+                border-radius: 30px !important;
                 font-size: 11.5px !important;
-                font-weight: 800 !important;
+                font-weight: 700 !important;
                 letter-spacing: 0.3px !important;
-                box-shadow: 0 2px 6px rgba(16, 185, 129, 0.12) !important;
+                box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15) !important;
                 transition: all 0.25s ease !important;
                 cursor: pointer !important;
                 user-select: none !important;
             }
 
             .kdm-verified-badge:hover {
-                background: #10b981 !important;
+                background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;
                 color: #ffffff !important;
-                border-color: #10b981 !important;
-                transform: translateY(-1px) !important;
-                box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35) !important;
+                border-color: #38bdf8 !important;
+                transform: translateY(-2px) !important;
+                box-shadow: 0 6px 18px rgba(2, 132, 199, 0.35) !important;
             }
 
             .kdm-verified-badge svg {
-                stroke: currentColor !important;
-                transition: transform 0.25s ease !important;
+                stroke: #10b981 !important;
+                transition: all 0.25s ease !important;
             }
 
             .kdm-verified-badge:hover svg {
+                stroke: #ffffff !important;
                 transform: scale(1.15) !important;
             }
 
