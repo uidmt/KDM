@@ -33,12 +33,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Sticky Sidebar Parent Row Class Helper
+    // Sticky Sidebar Parent Wrapper Class Helper
     var sidebars = document.querySelectorAll('.sidebar, .content-right, .content-right-top');
     sidebars.forEach(function(sb) {
-        var parentRow = sb.closest('.row');
-        if (parentRow) {
-            parentRow.classList.add('kdm-sticky-sidebar-parent');
+        var parentWrapper = sb.closest('.content') || sb.closest('.row') || sb.parentElement;
+        if (parentWrapper) {
+            parentWrapper.classList.add('kdm-sticky-sidebar-parent');
         }
     });
 

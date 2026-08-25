@@ -40,12 +40,10 @@
   width: 340px;
 }
 
-/* Fixed Sticky Sidebar for All Blog Pages */
+/* Safe Fixed Sticky Sidebar for All Blog Pages */
 @media (min-width: 992px) {
   .kdm-sticky-sidebar-parent,
-  .row:has(.sidebar),
-  .row:has(.content-right),
-  .main .container > .row {
+  .container > .content {
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: flex-start !important;
@@ -60,7 +58,7 @@
     position: -webkit-sticky !important;
     position: sticky !important;
     top: 90px !important;
-    z-index: 99 !important;
+    z-index: 90 !important;
     align-self: flex-start !important;
     height: auto !important;
     float: none !important;
@@ -79,11 +77,14 @@
   }
   .sidebar,
   .content-right,
-  .col-md-4.sidebar {
+  .content-right-top,
+  .col-md-4.sidebar,
+  .col-md-4.content-right {
     flex: 1 1 100%;
-    width: 100%;
+    width: 100% !important;
     position: static !important;
     max-height: none !important;
+    float: none !important;
   }
 }
 
