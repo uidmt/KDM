@@ -13,6 +13,22 @@
   margin-top: 10px;
 }
 
+/* Remove unwanted outer borders from blog content containers */
+.content,
+.container > .content,
+.content-left,
+.content-right,
+.single-page,
+.print-main {
+  border: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
 /* Blog Container & Layout */
 .blog-container {
   display: flex;
