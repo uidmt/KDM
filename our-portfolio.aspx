@@ -526,10 +526,36 @@
             .kdm-verified-badge {
                 display: inline-flex !important;
                 align-items: center !important;
-                gap: 5px !important;
-                color: #10b981 !important;
-                font-size: 12.5px !important;
-                font-weight: 700 !important;
+                gap: 6px !important;
+                background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%) !important;
+                color: #047857 !important;
+                border: 1px solid #a7f3d0 !important;
+                padding: 4px 11px !important;
+                border-radius: 20px !important;
+                font-size: 11.5px !important;
+                font-weight: 800 !important;
+                letter-spacing: 0.3px !important;
+                box-shadow: 0 2px 6px rgba(16, 185, 129, 0.12) !important;
+                transition: all 0.25s ease !important;
+                cursor: pointer !important;
+                user-select: none !important;
+            }
+
+            .kdm-verified-badge:hover {
+                background: #10b981 !important;
+                color: #ffffff !important;
+                border-color: #10b981 !important;
+                transform: translateY(-1px) !important;
+                box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35) !important;
+            }
+
+            .kdm-verified-badge svg {
+                stroke: currentColor !important;
+                transition: transform 0.25s ease !important;
+            }
+
+            .kdm-verified-badge:hover svg {
+                transform: scale(1.15) !important;
             }
 
             .no-port-results {
@@ -4939,12 +4965,13 @@
                 cards.forEach(function (card) {
                     var brand = card.getAttribute('data-brand') || '';
                     var services = card.getAttribute('data-services') || '';
+                    var fullContent = (card.textContent || '').toLowerCase();
 
-                    var matchesText = (textFilter === '' || brand.indexOf(textFilter) !== -1 || services.indexOf(textFilter) !== -1);
+                    var matchesText = (textFilter === '' || brand.indexOf(textFilter) !== -1 || services.indexOf(textFilter) !== -1 || fullContent.indexOf(textFilter) !== -1);
 
                     var matchesCategory = true;
                     if (currentCategory !== 'ALL') {
-                        matchesCategory = (services.indexOf(currentCategory.toLowerCase()) !== -1);
+                        matchesCategory = (services.indexOf(currentCategory.toLowerCase()) !== -1 || fullContent.indexOf(currentCategory.toLowerCase()) !== -1);
                     }
 
                     if (matchesText && matchesCategory) {
@@ -4963,6 +4990,17 @@
                     noResults.style.display = (visibleCount === 0) ? 'block' : 'none';
                 }
             }
+
+            document.addEventListener('DOMContentLoaded', function() {
+                document.addEventListener('click', function(e) {
+                    var badge = e.target.closest('.kdm-verified-badge');
+                    if (badge) {
+                        if (typeof openGlobalPopupForm === 'function') {
+                            openGlobalPopupForm();
+                        }
+                    }
+                });
+            });
         </script>
         <script src="js/kdm-faq.js"></script>
 </asp:Content>
