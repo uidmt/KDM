@@ -40,7 +40,7 @@
   width: 340px;
 }
 
-/* Universal Sticky Sidebar for All Blog Pages */
+/* Fixed Sticky Sidebar for All Blog Pages */
 @media (min-width: 992px) {
   .kdm-sticky-sidebar-parent,
   .row:has(.sidebar),
@@ -64,19 +64,8 @@
     align-self: flex-start !important;
     height: auto !important;
     float: none !important;
-    max-height: calc(100vh - 105px) !important;
-    overflow-y: auto !important;
-    scrollbar-width: thin !important;
-  }
-
-  .sidebar::-webkit-scrollbar,
-  .content-right::-webkit-scrollbar {
-    width: 4px;
-  }
-  .sidebar::-webkit-scrollbar-thumb,
-  .content-right::-webkit-scrollbar-thumb {
-    background: rgba(2, 132, 199, 0.25);
-    border-radius: 4px;
+    max-height: none !important;
+    overflow: visible !important;
   }
 }
 
