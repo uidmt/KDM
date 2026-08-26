@@ -517,46 +517,24 @@
 
             .kdm-card-footer {
                 border-top: 1px solid #f1f5f9 !important;
-                padding-top: 12px !important;
+                padding-top: 10px !important;
+                margin-top: 5px !important;
                 display: flex !important;
                 align-items: center !important;
-                justify-content: space-between !important;
+                justify-content: flex-end !important;
             }
 
-            .kdm-verified-badge {
+            .kdm-verified-client-tag {
                 display: inline-flex !important;
                 align-items: center !important;
-                gap: 7px !important;
-                background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
-                color: #ffffff !important;
-                border: 1px solid rgba(255, 255, 255, 0.15) !important;
-                padding: 5px 13px !important;
-                border-radius: 30px !important;
-                font-size: 11.5px !important;
+                gap: 5px !important;
+                font-size: 12.5px !important;
+                color: #64748b !important;
                 font-weight: 700 !important;
-                letter-spacing: 0.3px !important;
-                box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15) !important;
-                transition: all 0.25s ease !important;
-                cursor: pointer !important;
-                user-select: none !important;
-            }
-
-            .kdm-verified-badge:hover {
-                background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;
-                color: #ffffff !important;
-                border-color: #38bdf8 !important;
-                transform: translateY(-2px) !important;
-                box-shadow: 0 6px 18px rgba(2, 132, 199, 0.35) !important;
-            }
-
-            .kdm-verified-badge svg {
-                stroke: #10b981 !important;
-                transition: all 0.25s ease !important;
-            }
-
-            .kdm-verified-badge:hover svg {
-                stroke: #ffffff !important;
-                transform: scale(1.15) !important;
+                background: #f8fafc !important;
+                padding: 4px 10px !important;
+                border-radius: 20px !important;
+                border: 1px solid #f1f5f9 !important;
             }
 
             .no-port-results {
@@ -652,14 +630,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -691,14 +668,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -733,14 +709,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -773,14 +748,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -813,14 +787,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -855,14 +828,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -894,14 +866,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -933,14 +904,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -969,14 +939,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1010,14 +979,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1043,14 +1011,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1082,14 +1049,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1121,14 +1087,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1160,14 +1125,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1201,14 +1165,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1234,14 +1197,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1274,14 +1236,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1317,14 +1278,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1356,14 +1316,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1395,14 +1354,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1435,14 +1393,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1476,14 +1433,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1517,14 +1473,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1558,14 +1513,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1597,14 +1551,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1640,14 +1593,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1681,14 +1633,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1722,14 +1673,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1763,14 +1713,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1804,14 +1753,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1846,14 +1794,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1887,14 +1834,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1929,14 +1875,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -1970,14 +1915,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2009,14 +1953,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2051,14 +1994,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2090,14 +2032,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2129,14 +2070,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2172,14 +2112,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2211,14 +2150,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2250,14 +2188,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2289,14 +2226,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2328,14 +2264,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2368,14 +2303,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2407,14 +2341,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2448,14 +2381,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2483,14 +2415,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2518,14 +2449,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2558,14 +2488,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2600,14 +2529,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2640,14 +2568,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2681,14 +2608,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2714,14 +2640,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2753,14 +2678,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2786,14 +2710,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2825,14 +2748,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2864,14 +2786,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2904,14 +2825,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2943,14 +2863,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -2976,14 +2895,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3016,14 +2934,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3055,14 +2972,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3088,14 +3004,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3130,14 +3045,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3165,14 +3079,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3199,14 +3112,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3238,14 +3150,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3271,14 +3182,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3304,14 +3214,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3337,14 +3246,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3377,14 +3285,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3419,14 +3326,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3452,14 +3358,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3494,14 +3399,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3536,14 +3440,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3569,14 +3472,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3609,14 +3511,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3642,14 +3543,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3682,14 +3582,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3715,14 +3614,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3748,14 +3646,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3781,14 +3678,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3820,14 +3716,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3860,14 +3755,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3893,14 +3787,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3932,14 +3825,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -3965,14 +3857,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4005,14 +3896,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4046,14 +3936,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4081,14 +3970,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4115,14 +4003,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4156,14 +4043,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4189,14 +4075,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4230,14 +4115,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4270,14 +4154,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4311,14 +4194,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4351,14 +4233,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4391,14 +4272,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4424,14 +4304,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4466,14 +4345,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4507,14 +4385,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4548,14 +4425,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4589,14 +4465,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4629,14 +4504,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4669,14 +4543,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4711,14 +4584,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4751,14 +4623,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4792,14 +4663,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4834,14 +4704,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4876,14 +4745,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
@@ -4915,14 +4783,13 @@
                             </div>
                         </div>
                         <div class="kdm-card-footer">
-                            <span class="kdm-verified-badge">
-                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
+                            <span class="kdm-verified-client-tag">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                 </svg>
-                                Proven Success
+                                Verified Client
                             </span>
-                            <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">Verified Client</span>
                         </div>
                     </div>
                 </div>
