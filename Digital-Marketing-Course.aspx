@@ -2938,80 +2938,144 @@
 			<!-- Various Courses Section Starts -->
 			<style>
 				.various-courses-section {
-					padding: 55px 0;
+					padding: 65px 0 55px 0;
 					background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+					position: relative;
+				}
+
+				.various-courses-header {
+					text-align: center;
+					max-width: 820px;
+					margin: 0 auto 45px auto;
+				}
+
+				.various-courses-badge {
+					display: inline-flex;
+					align-items: center;
+					gap: 6px;
+					padding: 6px 14px;
+					background: rgba(2, 132, 199, 0.08);
+					border: 1px solid rgba(2, 132, 199, 0.25);
+					border-radius: 30px;
+					font-size: 12px;
+					font-weight: 700;
+					color: #0284c7;
+					text-transform: uppercase;
+					letter-spacing: 0.8px;
+					margin-bottom: 12px;
 				}
 
 				.various-courses-header h2 {
-					font-size: 30px;
+					font-size: 32px;
 					font-weight: 800;
 					color: #0f172a;
-					text-align: center;
-					margin-bottom: 10px;
+					margin-bottom: 12px;
+					line-height: 1.25;
 				}
 
 				.various-courses-header p {
 					color: #64748b;
-					font-size: 15px;
-					text-align: center;
-					margin-bottom: 35px;
+					font-size: 16px;
+					line-height: 1.6;
+					margin: 0;
 				}
 
 				.various-courses-grid {
 					display: grid;
-					grid-template-columns: repeat(4, 1fr);
-					gap: 24px;
+					grid-template-columns: repeat(2, 1fr);
+					gap: 32px;
+					max-width: 1050px;
+					margin: 0 auto;
+					align-items: stretch;
 				}
 
 				.course-pkg-card {
 					background: #ffffff;
 					border: 1px solid #e2e8f0;
-					border-radius: 18px;
-					padding: 30px 22px;
+					border-radius: 22px;
+					padding: 36px 30px;
 					display: flex;
 					flex-direction: column;
 					justify-content: space-between;
-					box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-					transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+					box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+					transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 					position: relative;
 					overflow: hidden;
-				}
-
-				.course-pkg-card.featured {
-					border: 2px solid #0284c7;
-					box-shadow: 0 12px 30px rgba(2, 132, 199, 0.18);
 				}
 
 				.course-pkg-card:hover {
 					transform: translateY(-8px);
 					border-color: #38bdf8;
-					box-shadow: 0 16px 35px rgba(56, 189, 248, 0.2);
+					box-shadow: 0 20px 45px rgba(2, 132, 199, 0.16);
 				}
 
-				.course-pkg-popular-tag {
+				.course-pkg-card.featured {
+					border: 2px solid #0284c7;
+					background: linear-gradient(180deg, #ffffff 0%, #f0f9ff 100%);
+					box-shadow: 0 16px 40px rgba(2, 132, 199, 0.18);
+				}
+
+				.course-pkg-card.featured:hover {
+					box-shadow: 0 24px 55px rgba(2, 132, 199, 0.28);
+				}
+
+				.course-pkg-ribbon {
 					position: absolute;
-					top: 15px;
-					right: 15px;
-					background: linear-gradient(135deg, #0284c7, #38bdf8);
+					top: 0;
+					right: 0;
+					left: 0;
+					background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
 					color: #ffffff;
-					font-size: 10px;
+					font-size: 11px;
 					font-weight: 800;
 					letter-spacing: 1px;
 					text-transform: uppercase;
+					padding: 6px 12px;
+					text-align: center;
+				}
+
+				.course-pkg-top-badge {
+					display: inline-flex;
+					align-items: center;
+					gap: 5px;
 					padding: 4px 10px;
-					border-radius: 12px;
+					border-radius: 8px;
+					font-size: 11px;
+					font-weight: 800;
+					letter-spacing: 0.5px;
+					text-transform: uppercase;
+					margin-bottom: 15px;
+				}
+
+				.badge-powerplay {
+					background: #fef3c7;
+					color: #b45309;
+					border: 1px solid #fde68a;
+				}
+
+				.badge-mastery {
+					background: #e0f2fe;
+					color: #0369a1;
+					border: 1px solid #bae6fd;
+				}
+
+				.course-pkg-header-row {
+					display: flex;
+					align-items: center;
+					gap: 16px;
+					margin-bottom: 16px;
 				}
 
 				.course-pkg-icon-wrap {
-					width: 52px;
-					height: 52px;
-					border-radius: 14px;
+					width: 56px;
+					height: 56px;
+					border-radius: 16px;
 					background: linear-gradient(135deg, rgba(56, 189, 248, 0.12), rgba(2, 132, 199, 0.18));
 					display: flex;
 					align-items: center;
 					justify-content: center;
-					margin-bottom: 18px;
-					transition: background 0.3s ease;
+					flex-shrink: 0;
+					transition: all 0.3s ease;
 				}
 
 				.course-pkg-card:hover .course-pkg-icon-wrap {
@@ -3023,52 +3087,122 @@
 				}
 
 				.course-pkg-title {
-					font-size: 19px;
-					font-weight: 700;
+					font-size: 22px;
+					font-weight: 800;
 					color: #0f172a;
-					margin-bottom: 12px;
-					line-height: 1.35;
+					margin: 0;
+					line-height: 1.3;
+				}
+
+				.course-pkg-specs-grid {
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
+					gap: 8px;
+					background: #f8fafc;
+					border: 1px solid #e2e8f0;
+					border-radius: 12px;
+					padding: 12px;
+					margin-bottom: 20px;
+				}
+
+				.course-pkg-card.featured .course-pkg-specs-grid {
+					background: #ffffff;
+					border-color: #bae6fd;
+				}
+
+				.course-spec-item {
+					display: flex;
+					align-items: center;
+					gap: 6px;
+					font-size: 12.5px;
+					font-weight: 600;
+					color: #334155;
+				}
+
+				.course-spec-item svg {
+					color: #0284c7;
+					flex-shrink: 0;
 				}
 
 				.course-pkg-price-box {
-					margin-bottom: 18px;
-					padding-bottom: 14px;
-					border-bottom: 1px dashed #e2e8f0;
+					margin-bottom: 22px;
+					padding-bottom: 18px;
+					border-bottom: 1px dashed #cbd5e1;
+					display: flex;
+					align-items: baseline;
+					justify-content: space-between;
+					flex-wrap: wrap;
+					gap: 8px;
+				}
+
+				.course-pkg-price-left {
+					display: flex;
+					align-items: baseline;
+					gap: 8px;
 				}
 
 				.course-pkg-fee-label {
 					font-size: 12px;
 					color: #64748b;
 					text-transform: uppercase;
+					font-weight: 700;
 					letter-spacing: 0.5px;
-					margin-bottom: 2px;
 				}
 
 				.course-pkg-price {
-					font-size: 28px;
-					font-weight: 800;
+					font-size: 32px;
+					font-weight: 900;
 					color: #0284c7;
+					line-height: 1;
+				}
+
+				.course-pkg-old-price {
+					font-size: 15px;
+					color: #94a3b8;
+					text-decoration: line-through;
+					font-weight: 600;
+				}
+
+				.course-pkg-save-badge {
+					background: #ecfdf5;
+					color: #059669;
+					border: 1px solid #a7f3d0;
+					padding: 3px 8px;
+					border-radius: 6px;
+					font-size: 11px;
+					font-weight: 800;
+				}
+
+				.course-pkg-list-title {
+					font-size: 13px;
+					font-weight: 800;
+					color: #0f172a;
+					text-transform: uppercase;
+					letter-spacing: 0.5px;
+					margin-bottom: 14px;
 				}
 
 				.course-pkg-list {
 					list-style: none;
 					padding: 0;
-					margin: 0 0 25px 0;
+					margin: 0 0 28px 0;
 					flex-grow: 1;
 				}
 
 				.course-pkg-list li {
 					display: flex;
-					align-items: center;
+					align-items: flex-start;
 					gap: 10px;
-					font-size: 13.5px;
+					font-size: 14px;
 					color: #334155;
-					margin-bottom: 10px;
-					line-height: 1.4;
+					margin-bottom: 12px;
+					line-height: 1.45;
 				}
 
 				.course-pkg-list li svg {
 					flex-shrink: 0;
+					margin-top: 2px;
+					color: #0284c7;
 				}
 
 				.course-pkg-btn {
@@ -3077,20 +3211,31 @@
 					justify-content: center;
 					gap: 8px;
 					width: 100%;
-					padding: 12px 18px;
+					padding: 14px 20px;
 					background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
 					color: #ffffff !important;
-					font-weight: 700;
-					font-size: 14px;
-					border-radius: 10px;
+					font-weight: 800;
+					font-size: 15px;
+					border-radius: 12px;
 					text-decoration: none !important;
 					transition: all 0.3s ease;
-					box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+					box-shadow: 0 6px 18px rgba(2, 132, 199, 0.28);
 				}
 
 				.course-pkg-btn:hover {
 					background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
-					box-shadow: 0 6px 18px rgba(56, 189, 248, 0.4);
+					box-shadow: 0 10px 24px rgba(56, 189, 248, 0.45);
+					transform: translateY(-2px);
+				}
+
+				.course-pkg-btn.btn-featured {
+					background: linear-gradient(135deg, #ff7a18 0%, #e65100 100%);
+					box-shadow: 0 6px 20px rgba(230, 81, 0, 0.35);
+				}
+
+				.course-pkg-btn.btn-featured:hover {
+					background: linear-gradient(135deg, #ff9800 0%, #ff5722 100%);
+					box-shadow: 0 10px 28px rgba(255, 107, 0, 0.5);
 				}
 
 				.course-pkg-btn svg {
@@ -3098,91 +3243,93 @@
 				}
 
 				.course-pkg-btn:hover svg {
-					transform: translateX(4px);
+					transform: translateX(5px);
 				}
 
-				@media (max-width: 1100px) {
-					.various-courses-grid {
-						grid-template-columns: repeat(2, 1fr);
-					}
-				}
-
-				@media (max-width: 600px) {
+				@media (max-width: 900px) {
 					.various-courses-grid {
 						grid-template-columns: 1fr;
+						max-width: 580px;
+					}
+					.various-courses-header h2 {
+						font-size: 26px;
+					}
+					.course-pkg-card {
+						padding: 30px 22px;
 					}
 				}
 			</style>
 
-			<div class="various-courses-section">
+			<div class="various-courses-section" id="course-packages">
 				<div class="container">
 					<div class="various-courses-header">
-						<h2>Various Courses in Digital Marketing</h2>
-						<p>Choose the perfect career path tailored to your learning goals and professional aspiration
-						</p>
+						<div class="various-courses-badge">🎓 Choose Your Fast-Track Learning Path</div>
+						<h2>Flagship <span class="kdm-title-gradient">Digital Marketing Courses</span></h2>
+						<p>Industry-recognized, 100% practical, agency-backed training designed for students, job seekers, working professionals, freelancers, and entrepreneurs.</p>
 					</div>
 
 					<div class="various-courses-grid">
-						<!-- Course 1: Launchpad -->
+						<!-- Course 1: Digital Marketing PowerPlay Course -->
 						<div class="course-pkg-card">
 							<div>
-								<div class="course-pkg-icon-wrap">
-									<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-										stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-										<polygon
-											points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-										</polygon>
-									</svg>
+								<div class="course-pkg-top-badge badge-powerplay">⚡ 45-Day Fast-Track Accelerator</div>
+								<div class="course-pkg-header-row">
+									<div class="course-pkg-icon-wrap">
+										<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+											<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+										</svg>
+									</div>
+									<div>
+										<h3 class="course-pkg-title">Digital Marketing PowerPlay Course</h3>
+									</div>
 								</div>
-								<h3 class="course-pkg-title">Digital Marketing Launchpad Course</h3>
+
+								<div class="course-pkg-specs-grid">
+									<div class="course-spec-item">
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+										<span>45 Days Duration</span>
+									</div>
+									<div class="course-spec-item">
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+										<span>25+ Core Modules</span>
+									</div>
+									<div class="course-spec-item">
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+										<span>1 Month Internship</span>
+									</div>
+									<div class="course-spec-item">
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+										<span>Online / Offline</span>
+									</div>
+								</div>
+
 								<div class="course-pkg-price-box">
-									<div class="course-pkg-fee-label">Total Fee</div>
-									<div class="course-pkg-price">INR 19,999</div>
+									<div>
+										<div class="course-pkg-fee-label">Total Fee</div>
+										<div class="course-pkg-price-left">
+											<div class="course-pkg-price">INR 24,999</div>
+											<div class="course-pkg-old-price">₹35,000</div>
+										</div>
+									</div>
+									<div class="course-pkg-save-badge">Save ₹10,000 (28% OFF)</div>
 								</div>
+
+								<div class="course-pkg-list-title">What You'll Learn & Receive:</div>
 								<ul class="course-pkg-list">
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 2 Months Course</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 15 Modules</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 1 Month Internship</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Online / Offline Mode</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 100% Practical Course</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 5 Case Studies</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Mock Interview</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 100% Placement Assistance</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Lifetime Support</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>100% Practical Course</strong> on Live Client Accounts</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>AI-Powered Copywriting & ChatGPT</strong> Marketing Prompts</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Google Ads & Meta (Facebook/IG) Ads</strong> Setup & Optimization</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Core SEO Foundations:</strong> Keyword Research & On-Page SEO</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>10 Live Case Studies</strong> & Real Campaign Reports</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Mock Interviews & Resume Preparation</strong></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>100% Placement Assistance</strong> & Career Mentorship</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Lifetime LMS & Community Support</strong></li>
 								</ul>
 							</div>
 							<div>
-								<a href="" class="course-pkg-btn">
-									View Course
-									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
-										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+								<a href="#kdm-hero-lead-form" class="course-pkg-btn">
+									Enroll in PowerPlay Course
+									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 										<line x1="5" y1="12" x2="19" y2="12"></line>
 										<polyline points="12 5 19 12 12 19"></polyline>
 									</svg>
@@ -3190,198 +3337,69 @@
 							</div>
 						</div>
 
-						<!-- Course 2: Advanced (Featured) -->
-						<div class="course-pkg-card featured">
-							<span class="course-pkg-popular-tag">Most Popular</span>
+						<!-- Course 2: Digital Marketing Mastery Course (Featured) -->
+						<div class="course-pkg-card featured" style="padding-top: 45px;">
+							<div class="course-pkg-ribbon">👑 Most Popular • 100% Recommended</div>
 							<div>
-								<div class="course-pkg-icon-wrap">
-									<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-										stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-										<path
-											d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
-										</path>
-									</svg>
+								<div class="course-pkg-top-badge badge-mastery">🎓 4-Month Comprehensive Mastery</div>
+								<div class="course-pkg-header-row">
+									<div class="course-pkg-icon-wrap" style="background: linear-gradient(135deg, #0284c7, #2563eb);">
+										<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+											<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+											<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+										</svg>
+									</div>
+									<div>
+										<h3 class="course-pkg-title">Digital Marketing Mastery Course</h3>
+									</div>
 								</div>
-								<h3 class="course-pkg-title">Digital Marketing Advanced Course</h3>
-								<div class="course-pkg-price-box">
-									<div class="course-pkg-fee-label">Total Fee</div>
-									<div class="course-pkg-price">INR 29,999</div>
-								</div>
-								<ul class="course-pkg-list">
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 3 Months Course</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 1 Month Internship</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 34 Modules</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Online / Offline Mode</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 100% Practical Course</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 8 Real Time Case Studies</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Mock Interview</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 100% Placement Assistance</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Lifetime Support</li>
-								</ul>
-							</div>
-							<div>
-								<a href="" class="course-pkg-btn">
-									View Course
-									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
-										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<line x1="5" y1="12" x2="19" y2="12"></line>
-										<polyline points="12 5 19 12 12 19"></polyline>
-									</svg>
-								</a>
-							</div>
-						</div>
 
-						<!-- Course 3: Mastery -->
-						<div class="course-pkg-card">
-							<div>
-								<div class="course-pkg-icon-wrap">
-									<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-										stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-										<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-									</svg>
+								<div class="course-pkg-specs-grid">
+									<div class="course-spec-item">
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+										<span>4 Months Deep-Dive</span>
+									</div>
+									<div class="course-spec-item">
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+										<span>60+ Advanced Modules</span>
+									</div>
+									<div class="course-spec-item">
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+										<span>2 Months Agency Internship</span>
+									</div>
+									<div class="course-spec-item">
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+										<span>Online / Offline Mode</span>
+									</div>
 								</div>
-								<h3 class="course-pkg-title">Digital Marketing Mastery Course</h3>
-								<div class="course-pkg-price-box">
-									<div class="course-pkg-fee-label">Total Fee</div>
-									<div class="course-pkg-price">INR 39,999</div>
-								</div>
-								<ul class="course-pkg-list">
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 4 Months Course</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 2 Month Internship</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 60 Modules</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Online / Offline Mode</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 100% Practical Course</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 10+ Real Time Case Studies</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Mock Interview</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 100% Placement Assistance</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Lifetime Support</li>
-								</ul>
-							</div>
-							<div>
-								<a href="" class="course-pkg-btn">
-									View Course
-									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
-										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<line x1="5" y1="12" x2="19" y2="12"></line>
-										<polyline points="12 5 19 12 12 19"></polyline>
-									</svg>
-								</a>
-							</div>
-						</div>
 
-						<!-- Course 4: PowerPlay -->
-						<div class="course-pkg-card">
-							<div>
-								<div class="course-pkg-icon-wrap">
-									<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-										stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-										<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-									</svg>
-								</div>
-								<h3 class="course-pkg-title">Digital Marketing PowerPlay Course</h3>
 								<div class="course-pkg-price-box">
-									<div class="course-pkg-fee-label">Total Fee</div>
-									<div class="course-pkg-price">INR 24,999</div>
+									<div>
+										<div class="course-pkg-fee-label">Total Fee</div>
+										<div class="course-pkg-price-left">
+											<div class="course-pkg-price" style="color: #0284c7;">INR 39,999</div>
+											<div class="course-pkg-old-price">₹55,000</div>
+										</div>
+									</div>
+									<div class="course-pkg-save-badge" style="background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe;">Save ₹15,000 (27% OFF)</div>
 								</div>
+
+								<div class="course-pkg-list-title">Everything in PowerPlay Plus:</div>
 								<ul class="course-pkg-list">
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 45 Days Fasttrack Course</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Optional Internship</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 5 Modules</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Online / Offline Mode</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 100% Practical Course</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 10 Case Studies</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Mock Interview</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> 100% Placement Assistance</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-											stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> Lifetime Support</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>60+ Complete Modules</strong> (SEO, SMM, PPC, Email, Affiliate, CRO)</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Advanced Generative AI Suite</strong> (ChatGPT-4, Midjourney, Claude)</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Topical Authority SEO, Semantic SEO & Technical Audits</strong></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Marketing Automation</strong> (HubSpot, Zapier, WhatsApp CRM)</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>15+ Global Certifications</strong> (Google, Meta, HubSpot, KDM)</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>15+ Live Client Budgets</strong> & End-to-End Campaign Execution</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Guaranteed 100% Placement & 1-on-1 Mentorship</strong> by Gaurav Dubey</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Freelancing & Agency Launchpad:</strong> Client Acquisition Training</li>
 								</ul>
 							</div>
 							<div>
-								<a href="" class="course-pkg-btn">
-									View Course
-									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
-										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+								<a href="#kdm-hero-lead-form" class="course-pkg-btn btn-featured">
+									Enroll in Mastery Course (Featured)
+									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 										<line x1="5" y1="12" x2="19" y2="12"></line>
 										<polyline points="12 5 19 12 12 19"></polyline>
 									</svg>
