@@ -6070,7 +6070,7 @@
 							<div class="kdm-faq-accordion">
 								<!-- FAQ 1 -->
 								<div class="kdm-faq-item active">
-									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+									<button type="button" class="kdm-faq-header">
 										<span class="kdm-faq-question">Q.1. What is the Digital Marketing Course fee in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
@@ -6081,7 +6081,7 @@
 
 								<!-- FAQ 2 -->
 								<div class="kdm-faq-item">
-									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+									<button type="button" class="kdm-faq-header">
 										<span class="kdm-faq-question">Q.2. What are the advantages of enrolling in this digital marketing course in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
@@ -6092,7 +6092,7 @@
 
 								<!-- FAQ 3 -->
 								<div class="kdm-faq-item">
-									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+									<button type="button" class="kdm-faq-header">
 										<span class="kdm-faq-question">Q.3. What is the duration of the digital marketing course in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
@@ -6103,7 +6103,7 @@
 
 								<!-- FAQ 4 -->
 								<div class="kdm-faq-item">
-									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+									<button type="button" class="kdm-faq-header">
 										<span class="kdm-faq-question">Q.4. Can I attend classes online or classroom in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
@@ -6114,7 +6114,7 @@
 
 								<!-- FAQ 5 -->
 								<div class="kdm-faq-item">
-									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+									<button type="button" class="kdm-faq-header">
 										<span class="kdm-faq-question">Q.5. Will I get guaranteed job placement after completing the course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
@@ -6125,7 +6125,7 @@
 
 								<!-- FAQ 6 -->
 								<div class="kdm-faq-item">
-									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+									<button type="button" class="kdm-faq-header">
 										<span class="kdm-faq-question">Q.6. Can I attend a free demo class before enrollment?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
@@ -6136,7 +6136,7 @@
 
 								<!-- FAQ 7 -->
 								<div class="kdm-faq-item">
-									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+									<button type="button" class="kdm-faq-header">
 										<span class="kdm-faq-question">Q.7. Which certifications will I receive upon course completion?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
@@ -6147,7 +6147,7 @@
 
 								<!-- FAQ 8 -->
 								<div class="kdm-faq-item">
-									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+									<button type="button" class="kdm-faq-header">
 										<span class="kdm-faq-question">Q.8. Who can join this digital marketing course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
