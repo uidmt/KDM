@@ -5633,7 +5633,7 @@
 						Presently envision when a country's Prime Minister is making awareness of Digital Marketing,
 						Think!
 						what might be the scope of digital marketing in India.</p>
-		
+
 					<h2 align="center">How Can Digital Marketing Course Help You to Grow Your Career?</h2>
 					<p align="justify">Digital marketing is a career that has ample of room for creatives, techs, and
 						business people. There are so many roads that you can follow; it is best to focus on one or two
@@ -6065,7 +6065,9 @@
 						<!-- Left Column: FAQ Accordion -->
 						<div>
 							<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our AI-powered digital marketing course in South Delhi, fees, syllabus, and placement support.</p>
+							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our
+								AI-powered digital marketing course in South Delhi, fees, syllabus, and placement
+								support.</p>
 
 							<div class="kdm-faq-accordion">
 								<!-- FAQ 1 -->
@@ -6161,11 +6163,14 @@
 						<!-- Right Column: Course Counseling & Special Scholarship Card -->
 						<div>
 							<div class="kdm-faq-offer-card">
-								<div style="font-size: 11px; font-weight: 800; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+								<div
+									style="font-size: 11px; font-weight: 800; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
 									🎓 ADMISSION OPEN 2026
 								</div>
 								<h4>Talk to Course Mentor</h4>
-								<p style="font-size: 13px; color: #cbd5e1; margin-bottom: 12px; line-height: 1.45;">Get 1-on-1 career guidance and special scholarship offers for upcoming weekday &amp; weekend batches.</p>
+								<p style="font-size: 13px; color: #cbd5e1; margin-bottom: 12px; line-height: 1.45;">Get
+									1-on-1 career guidance and special scholarship offers for upcoming weekday &amp;
+									weekend batches.</p>
 								<div class="box-styling">Special 28% Scholarship</div>
 								<div class="box-offer">✅ 100% Practical Live Projects</div>
 								<div class="box-offer">✅ 60+ AI &amp; Marketing Modules</div>
