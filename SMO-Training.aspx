@@ -1,625 +1,995 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>SMO Training in Delhi | Best Social Media Optimization Certification Course</title>
-<meta name="keywords" content="SMO Training in Delhi, Social Media Optimization Course in Delhi, Best SMO Training Institute, Facebook Instagram Marketing Course, Meta Ads Training Delhi">
-<meta name="description" content="Best SMO Course in Delhi. Master Social Media Optimization, Instagram Reels creation, Meta Business Suite, LinkedIn B2B marketing, YouTube Growth, and AI content tools with 100% practical training.">
-<meta property="og:title" content="Best AI-Driven SMO Training Course in Delhi | Social Media Institute"/>
-<meta property="og:description" content="Master Social Media Optimization (SMO) with 100% practical, agency-based AI-integrated training. Learn Instagram Reels, Meta Ads, YouTube SEO, and 100% placement support." />
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://www.kingofdigitalmarketing.com/SMO-Training.aspx" />
-<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/SMO-Training.png" />
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://www.kingofdigitalmarketing.com/SMO-Training.aspx" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://cdnjs.cloudflare.com">
-<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
-<link rel="stylesheet" href="css/location-page.css">
-<link rel="stylesheet" href="css/international-page.css">
-<link rel="stylesheet" href="css/packages.css">
-<link rel="stylesheet" href="css/images.css">
-<link rel="stylesheet" href="css/slider.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/home-custom.css?v=25.0">
-<script src="js/kdm-faq.js"></script>
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<div role="main" class="main">
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs"
+	Inherits="PPC_Services" %>
+	<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+		<title>SMO Training in Delhi | Social Media Optimization Course | KDM</title>
+		<meta name="keywords" content="SMO Training in Delhi, Social Media Optimization Course in Delhi, Social Media Marketing Training, Instagram Marketing Course, Meta Ads Training Delhi, Best SMO Institute">
+		<meta name="description" content="Best SMO Course in Delhi. Master Social Media Optimization, Instagram Growth, Viral Reels, Meta Ads, LinkedIn B2B, YouTube SEO, and 100% Placement Support.">
+		<meta property="og:title" content="Best AI-Driven SMO & Social Media Marketing Course in Delhi | KDM" />
+		<meta property="og:description" content="Master organic social media optimization, viral video creation, paid ad funnels, and brand engagement with 100% practical live agency training." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.kingofdigitalmarketing.com/SMO-Training.aspx" />
+		<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/SMO-Training.png" />
+		<meta name="twitter:card" content="summary_large_image">
+		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/SMO-Training.aspx" />
+		<meta name="Author" content="King of Digital Marketing, https://www.kingofdigitalmarketing.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+		<link rel="dns-prefetch" href="https://www.youtube.com">
+		<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/location-page.css">
+		<link rel="stylesheet" href="css/international-page.css">
+		<link rel="stylesheet" href="css/packages.css">
+		<link rel="stylesheet" href="css/images.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/home-custom.css?v=25.0">
+		<link rel="stylesheet" href="css/kdm-industry.css">
+		<link rel="stylesheet" href="css/kdm-course.css">
+		<link rel="stylesheet" href="css/kdm-faq.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+		<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "1. What will I learn in the SMO Course at King of Digital Marketing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You will learn complete organic Social Media Optimization (SMO) across Instagram, Facebook, LinkedIn, YouTube, and X (Twitter), along with graphic design in Canva, short-form video editing in CapCut, viral copywriting with AI, and Meta Ads fundamentals."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "2. Do I need design or video editing skills before joining?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No! We teach all graphic design and video editing skills from scratch using user-friendly modern tools like Canva Pro, CapCut, and AI creative generators. Anyone can learn and create professional brand content."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "3. Will I get practical assignments on real social media accounts?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! You will create live posts, design reels, run engagement campaigns, and analyze real insights on active social media channels during the course."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "4. What are the job opportunities after completing SMO training?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can work as a Social Media Executive, Community Manager, Content Creator, Instagram Strategist, LinkedIn Specialist, or Social Media Manager in agencies, e-commerce brands, and corporate marketing departments."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "5. Can I work as a freelance social media manager after this course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! We dedicate a full module on how to pitch clients, package monthly social media management services (\u20b915,000 - \u20b950,000/month per client), and manage multiple client accounts easily."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "6. What is the batch timing and duration for SMO classes?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We offer fast-track 45-day weekday batches as well as weekend batches (Saturdays & Sundays) designed specifically for college students and working professionals."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "7. Does KDM offer placement assistance for SMO students?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, we provide 100% placement support with portfolio building, resume revamps, interview prep, and direct job interviews across Delhi NCR agencies and corporate brands."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "8. How can I book a free demo session for SMO training?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Simply fill out the demo form on this page or call our South Delhi center to reserve your seat for the upcoming free demo class with mentor Mr. Gaurav Dubey."
+            }
+        }
+    ]
+}
+		</script>
+	</asp:Content>
+	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+		<div class="main" role="main">
 
-	<!-- ===== DIGITAL MARKETING COURSE HERO SECTION FORMAT FOR SMO TRAINING ===== -->
-	<div class="locationdetails-hero-section">
-		<div class="locationdetails-intro-content">
-			<span style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 10px;">
-				<i class="fa fa-robot" style="color:#38bdf8;"></i> #1 RATED AI-POWERED SMO TRAINING INSTITUTE IN DELHI
-			</span>
-			<h1 class="ip-h1" style="font-size: 34px; margin-bottom: 12px; line-height: 1.25; font-weight: 900; color: #ffffff;">
-				Best AI-Driven <span style="background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SMO Training Course</span> in Delhi
-			</h1>
-			<p style="font-size: 14px; line-height: 1.5; color: #e2e8f0; margin-bottom: 12px;">
-				King of Digital Marketing is rated #1 Social Media Optimization (SMO) training institute in Delhi, providing a 100% practical, agency-based AI-integrated training approach. Master Facebook, Instagram Reels, LinkedIn B2B, YouTube Growth, ChatGPT & AI social media tools.
-			</p>
-
-			<div style="display: flex; align-items: center; gap: 15px; background: rgba(255, 255, 255, 0.08); padding: 8px 14px; border-radius: 10px; width: fit-content; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.12);">
-				<span style="font-weight: 700; color: #ffd86b; font-size: 13px; text-transform: uppercase;">Trained 1850+ Students</span>
-				<span style="color: rgba(255,255,255,0.3);">|</span>
-				<span style="font-weight: 700; color: #38bdf8; font-size: 13px;">⭐ 4.8 / 5 Rating</span>
-				<span style="color: rgba(255,255,255,0.3);">|</span>
-				<span style="font-weight: 700; color: #4ade80; font-size: 13px;">🤖 100% Practical SMO</span>
-			</div>
-
-			<p style="font-weight: 800; color: #ffffff; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 10px; margin-bottom: 10px;">
-				KEY BENEFITS TO OUR SMO STUDENTS:
-			</p>
-
-			<ul class="locationdetails-benefits-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 6px 12px; margin-top: 5px; padding-left: 0; list-style: none;">
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Profile & Page Optimization</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Viral Reels & Shorts Strategy</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> ChatGPT & AI Social Content</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Meta Business Suite Setup</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Hashtag & Trend Engineering</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Facebook & Instagram Ads</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> LinkedIn B2B Branding</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> YouTube Channel Growth</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 100% Practical Training</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Live Client Page Management</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Guaranteed Internship</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 100% Placement Support</li>
-			</ul>
-		</div>
-
-		<div style="flex: 0 0 380px; max-width: 100%;">
-			<iframe scrolling="no" src="digital-course-form.aspx" style="height: 385px; width: 100%; border: none; overflow: hidden;" width="100%"></iframe>
-		</div>
-	</div>
-	<!-- ===== END DIGITAL MARKETING COURSE HERO SECTION ===== -->
-
-	<!-- Overview Intro Section Starts -->
-	<div class="kdm-intro-ppc-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="kdm-intro-card">
-						<div class="kdm-intro-header-row">
-							<span class="kdm-badge-pill">AGENCY-BASED SOCIAL MEDIA MASTERY</span>
-							<h2 class="kdm-intro-heading">Master Social Media Optimization With <strong class="kdm-highlight">Live Brand Accounts</strong></h2>
-						</div>
-						
-						<p class="kdm-intro-lead-text">
-							Social Media Optimization (SMO) is the art and science of leveraging Facebook, Instagram, LinkedIn, YouTube, and X to build strong organic brand equity, engage targeted demographics, and drive high-intent web traffic.
-						</p>
-
-						<p class="kdm-intro-body-text">
-							At <strong>King of Digital Marketing</strong>, our SMO training course in Delhi is crafted to give you real agency exposure under senior guidance from <strong>Gaurav Dubey</strong>. You will learn content calendar planning, viral reels creation, hashtag architecture, community management, influencer outreach, and AI-assisted social media design.
-						</p>
-
-						<!-- Callout Banner -->
-						<div class="kdm-intro-callout-box">
-							<div class="kdm-callout-icon-wrap">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-								</svg>
+			<!-- ==========================================================================
+			     1. HERO SECTION WITH FLOATING LEAD FORM
+			     ========================================================================== -->
+			<section class="kdm-course-hero-wrapper">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-7 col-lg-7">
+							<div class="kdm-hero-badge">
+								<span class="badge-pulse"></span> 🔥 #1 RATED PRACTICAL SMO & SOCIAL MEDIA COURSE IN SOUTH DELHI
 							</div>
-							<div class="kdm-callout-content">
-								<h4 class="kdm-callout-title">100% Practical Social Media Optimization On Live Client Handles</h4>
-								<p class="kdm-callout-text">
-									Get hands-on experience managing active corporate social media profiles, creating carousel designs in Canva, scheduling posts via Meta Business Suite, and measuring real-time engagement analytics.
+							<h1 class="kdm-hero-title">
+								Advanced SMO Training Course &amp; <span class="highlight-text">Viral Social Media Mastery</span>
+							</h1>
+							<p class="kdm-hero-lead-text">
+								Master Instagram Algorithm Hacks, Viral Reels Production, Meta Ads Funnels, LinkedIn B2B Lead Generation &amp; 100% Placement Support.
+							</p>
+
+							<div class="kdm-hero-features-grid">
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>100% Practical Social Media Optimization &amp; Content Funnels</span>
+								</div>
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>Master Instagram Reels, Meta Business Suite, Canva &amp; CapCut</span>
+								</div>
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>Live Brand Campaigns, Influencer Strategy &amp; Community Building</span>
+								</div>
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>100% Placement Assistance with High-Growth Agency Roles</span>
+								</div>
+							</div>
+
+							<!-- Course Quick Stats Pill -->
+							<div class="kdm-hero-stats-bar">
+								<div class="hero-stat-box">
+									<span class="stat-digit">100%</span>
+									<span class="stat-label">Practical Live Projects</span>
+								</div>
+								<div class="hero-stat-divider"></div>
+								<div class="hero-stat-box">
+									<span class="stat-digit">15+</span>
+									<span class="stat-label">Global Certifications</span>
+								</div>
+								<div class="hero-stat-divider"></div>
+								<div class="hero-stat-box">
+									<span class="stat-digit">4.9★</span>
+									<span class="stat-label">Verified Student Rating</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- Right Column: Quick Admission / Demo Class Lead Form -->
+						<div class="col-md-5 col-lg-5">
+							<div class="kdm-hero-form-card" id="kdm-hero-lead-form">
+								<div class="form-header-badge">🎓 ADMISSIONS OPEN 2026</div>
+								<h3>Book Free SMO Demo Class</h3>
+								<p>Fill details to get course syllabus, free trial class &amp; special scholarship voucher.</p>
+								<div class="hero-form-inner">
+									<div class="form-group mb-3">
+										<input type="text" class="form-control kdm-input" name="txtName"
+											placeholder="Your Full Name *" required />
+									</div>
+									<div class="form-group mb-3">
+										<input type="tel" class="form-control kdm-input" name="txtPhone"
+											placeholder="Mobile Number (WhatsApp) *" required />
+									</div>
+									<div class="form-group mb-3">
+										<input type="email" class="form-control kdm-input" name="txtEmail"
+											placeholder="Email Address *" required />
+									</div>
+									<div class="form-group mb-3">
+										<select class="form-control kdm-input" name="ddlBatch">
+											<option value="">Preferred Batch Timing</option>
+											<option value="Weekday Morning">Weekday Morning (10:00 AM - 12:00 PM)</option>
+											<option value="Weekday Afternoon">Weekday Afternoon (02:00 PM - 04:00 PM)</option>
+											<option value="Weekend Special">Weekend Special (Sat &amp; Sun)</option>
+											<option value="Online Interactive">Online Live Interactive Batch</option>
+										</select>
+									</div>
+									<button type="submit" class="btn btn-kdm-hero-submit w-100">
+										<i class="fa fa-paper-plane mr-2"></i> Book Free Demo Class Now
+									</button>
+									<div class="form-privacy-note">
+										<i class="fa fa-lock"></i> 100% Privacy Protected. No Spam Guaranteed.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     2. SECTION 5 CREDENTIALS & STATS BAR
+			     ========================================================================== -->
+			<section class="kdm-credentials-white-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">10+</div>
+								<div class="kdm-credentials-label">Years of Social Media Excellence</div>
+								<div class="kdm-credentials-sub">Managed 500+ brand campaigns</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">8,200+</div>
+								<div class="kdm-credentials-label">Social Media Marketers Trained</div>
+								<div class="kdm-credentials-sub">Working in top agencies & brands</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">100%</div>
+								<div class="kdm-credentials-label">Hands-On Live Brand Projects</div>
+								<div class="kdm-credentials-sub">Create real viral content</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">4.9/5</div>
+								<div class="kdm-credentials-label">Student Rating</div>
+								<div class="kdm-credentials-sub">Over 1,150+ glowing reviews</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     3. CLASSROOM & CAMPUS LIFE GALLERY
+			     ========================================================================== -->
+			<section class="students-gallery-section">
+				<div class="container">
+					<div class="students-gallery-header">
+						<h2>Life at King of Digital Marketing Institute</h2>
+						<p>Experience real agency culture, hands-on masterclasses, live client audits, and collaborative learning.</p>
+					</div>
+					<div class="gallery-grid">
+						<div class="gallery-card">
+							<img src="img/course/1.jpg" alt="Practical Training Session" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Hands-On Practice</span>
+								<h4>Live Campaign Workshop</h4>
+							</div>
+						</div>
+						<div class="gallery-card">
+							<img src="img/course/2.jpg" alt="Student Presentation" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Strategy</span>
+								<h4>Agency Pitch &amp; Audit</h4>
+							</div>
+						</div>
+						<div class="gallery-card">
+							<img src="img/course/3.jpg" alt="Classroom Interactive" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Mentorship</span>
+								<h4>1-on-1 Guidance</h4>
+							</div>
+						</div>
+						<div class="gallery-card">
+							<img src="img/course/4.jpg" alt="Certificate Celebration" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Success</span>
+								<h4>Placement &amp; Convocation</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     4. COMPREHENSIVE CURRICULUM & MODULES GRID
+			     ========================================================================== -->
+			<section class="career-opportunities-section">
+				<div class="container">
+					<div class="career-header-box">
+						<span class="career-badge">VIRAL GROWTH SYLLABUS</span>
+						<h2 class="career-title">Comprehensive <span class="highlight-gradient">SMO Training Modules</span> &amp; Creative Playbook</h2>
+						<p class="career-subtitle">From aesthetic content creation to algorithm monetization and B2B growth, master every major social media platform with practical hands-on exercises.</p>
+					</div>
+
+					<div class="kdm-about-careers-grid">
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">01</span>
+								</div>
+								<h3 class="kdm-career-role-title">Social Media Architecture &amp; Brand Positioning</h3>
+							</div>
+							<p class="kdm-career-role-desc">Understanding social media algorithms, target audience persona building, competitor brand teardowns, and brand tone guidelines.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">02</span>
+								</div>
+								<h3 class="kdm-career-role-title">Instagram Organic Growth &amp; Viral Reels Strategy</h3>
+							</div>
+							<p class="kdm-career-role-desc">Mastering the 2026 Instagram algorithm, hook writing, trending audio research, carousel storytelling, and hashtag indexing.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">03</span>
+								</div>
+								<h3 class="kdm-career-role-title">Meta Business Suite &amp; Facebook Ecosystem</h3>
+							</div>
+							<p class="kdm-career-role-desc">Managing Facebook pages, groups community building, automated inbox replies, creator studio insights, and cross-platform scheduling.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">04</span>
+								</div>
+								<h3 class="kdm-career-role-title">Creative Content Design with Canva &amp; CapCut</h3>
+							</div>
+							<p class="kdm-career-role-desc">Designing high-engagement visual assets, brand templates, typography rules, fast video editing, transitions, and auto-captions.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">05</span>
+								</div>
+								<h3 class="kdm-career-role-title">LinkedIn B2B Marketing &amp; Thought Leadership</h3>
+							</div>
+							<p class="kdm-career-role-desc">Optimizing personal profiles, company pages, B2B lead funnels, LinkedIn newsletters, viral text posts, and outreach strategies.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">06</span>
+								</div>
+								<h3 class="kdm-career-role-title">YouTube Channel Growth &amp; Video SEO</h3>
+							</div>
+							<p class="kdm-career-role-desc">Channel branding, video SEO tags & descriptions, high-CTR thumbnail psychology, YouTube Shorts distribution, and monetization.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">07</span>
+								</div>
+								<h3 class="kdm-career-role-title">X (Twitter), Pinterest &amp; Emerging Platforms</h3>
+							</div>
+							<p class="kdm-career-role-desc">Trend jacking on X/Twitter, viral tweet threads, Pinterest visual discovery SEO, and multi-channel content syndication.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">08</span>
+								</div>
+								<h3 class="kdm-career-role-title">AI for Social Media &amp; Viral Copywriting</h3>
+							</div>
+							<p class="kdm-career-role-desc">Generating monthly content calendars, viral hooks, scriptwriting with ChatGPT, Midjourney/DALL-E image prompts, and AI avatars.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">09</span>
+								</div>
+								<h3 class="kdm-career-role-title">Paid Meta Ads Fundamentals for SMOs</h3>
+							</div>
+							<p class="kdm-career-role-desc">Boosted posts vs Ads Manager, lookalike audiences, retargeting funnels, lead generation ad forms, and ROAS tracking.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">10</span>
+								</div>
+								<h3 class="kdm-career-role-title">Influencer Marketing &amp; Brand Collaborations</h3>
+							</div>
+							<p class="kdm-career-role-desc">Finding niche influencers, negotiation scripts, campaign tracking, UGC (User-Generated Content) strategies, and ROI measurement.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">11</span>
+								</div>
+								<h3 class="kdm-career-role-title">Social Media Analytics, ORM &amp; Crisis Control</h3>
+							</div>
+							<p class="kdm-career-role-desc">Tracking reach, engagement rates, sentiment analysis, brand reputation management, handling negative comments, and client reporting.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">12</span>
+								</div>
+								<h3 class="kdm-career-role-title">Freelance Social Media Agency Setup</h3>
+							</div>
+							<p class="kdm-career-role-desc">Building a winning portfolio, pricing social media packages, pitching clients, creating onboarding decks, and scaling as a freelancer.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     5. TOOLS WE COVER SECTION
+			     ========================================================================== -->
+			<section class="tools-covered-section">
+				<div class="container">
+					<div class="text-center mb-5">
+						<span class="kdm-section-badge">INDUSTRY STANDARD STACK</span>
+						<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 10px;">
+							Master 20+ Premium <span class="highlight-text">Software &amp; AI Tools</span>
+						</h2>
+						<p style="font-size: 16px; color: #64748b; max-width: 700px; margin: 0 auto;">
+							Gain hands-on proficiency on enterprise software used daily by top digital agencies and global brands.
+						</p>
+					</div>
+
+					<div class="tools-grid-container">
+						<div class="tool-pill">
+							<i class="fa fa-camera-retro"></i>
+							<span>Instagram Creator Studio</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-facebook"></i>
+							<span>Meta Business Suite</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-palette"></i>
+							<span>Canva Pro</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-video"></i>
+							<span>CapCut / Premiere Rush</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-linkedin"></i>
+							<span>LinkedIn Sales Navigator</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-youtube"></i>
+							<span>YouTube Studio & VidIQ</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-clock"></i>
+							<span>Buffer / Hootsuite</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-robot"></i>
+							<span>ChatGPT Content Creator</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-paint-brush"></i>
+							<span>Midjourney / DALL-E</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-chart-bar"></i>
+							<span>Meta Insights</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-hashtag"></i>
+							<span>Hashtagify / Flick</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-envelope"></i>
+							<span>Mailchimp Newsletter</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     6. BATCH SCHEDULE & ADMISSION DETAILS
+			     ========================================================================== -->
+			<section class="batches-section">
+				<div class="container">
+					<div class="batches-header">
+						<h2>Upcoming Training Batches &amp; Timings</h2>
+						<p>Choose the batch schedule that fits your routine. Small batch size (8-10 students) for 100% individual attention.</p>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4 mb-4">
+							<div class="batch-card">
+								<span class="batch-type">WEEKDAY REGULAR</span>
+								<h4>Morning Batch</h4>
+								<div class="batch-time"><i class="fa fa-clock-o"></i> 10:00 AM - 12:00 PM</div>
+								<p class="batch-days">Monday to Friday (2 Hours Daily)</p>
+								<div class="batch-status status-open">Seats Available (Admissions Open)</div>
+								<a href="#kdm-hero-lead-form" class="btn btn-batch">Reserve Seat</a>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="batch-card popular">
+								<div class="batch-badge-hot">MOST POPULAR</div>
+								<span class="batch-type">WEEKDAY AFTERNOON</span>
+								<h4>Professional Batch</h4>
+								<div class="batch-time"><i class="fa fa-clock-o"></i> 02:00 PM - 04:00 PM</div>
+								<p class="batch-days">Monday to Friday (2 Hours Daily)</p>
+								<div class="batch-status status-filling">Fast Filling (Only 3 Seats Left)</div>
+								<a href="#kdm-hero-lead-form" class="btn btn-batch">Reserve Seat</a>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="batch-card">
+								<span class="batch-type">WEEKEND SPECIAL</span>
+								<h4>Working Professionals</h4>
+								<div class="batch-time"><i class="fa fa-clock-o"></i> 11:00 AM - 03:00 PM</div>
+								<p class="batch-days">Saturday &amp; Sunday (4 Hours Daily)</p>
+								<div class="batch-status status-open">Seats Available (Admissions Open)</div>
+								<a href="#kdm-hero-lead-form" class="btn btn-batch">Reserve Seat</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     7. 2-PACKAGE PRICING COMPARISON GRID
+			     ========================================================================== -->
+			<section class="various-courses-section">
+				<div class="container">
+					<div class="various-courses-header">
+						<span class="pkg-header-badge">TRAINING PACKAGES</span>
+						<h2>Choose Your Training Program</h2>
+						<p>Flexible packages designed to match your immediate career goals, whether rapid fast-track skills or complete mastery with agency internship.</p>
+					</div>
+
+					<div class="row justify-content-center">
+						<!-- Package 1: PowerPlay -->
+						<div class="col-lg-6 col-md-6 mb-4">
+							<div class="course-pkg-card h-100">
+								<div class="course-pkg-top">
+									<div class="course-pkg-badge">⚡ FAST-TRACK PROGRAM</div>
+									<h3 class="course-pkg-name">SMO PowerPlay Course</h3>
+									<p class="course-pkg-tagline">Fast-Track Social Media & Content Mastery</p>
+									<div class="course-pkg-price-wrap">
+										<span class="course-pkg-price">₹18,999</span>
+										<span class="course-pkg-orig">₹28,000</span>
+										<span class="course-pkg-tax">+ GST</span>
+									</div>
+									<div class="course-pkg-duration"><i class="fa fa-calendar-check-o"></i> Duration: 45 Days (Daily 2 Hrs) / Weekend 2.5 Months</div>
+									<p class="course-pkg-desc">Perfect for creators, freelancers, small business owners & freshers seeking rapid hands-on organic social media skills.</p>
+								</div>
+
+								<div class="course-pkg-features-wrap">
+									<div class="course-pkg-subgroup-title">What You'll Learn &amp; Receive:</div>
+									<ul class="course-pkg-list">
+										<li><i class="fa fa-check-circle"></i> <span>Full Instagram, Facebook, LinkedIn & YouTube Modules</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Canva Pro & CapCut Video Editing Training</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Content Calendar Planning & AI Prompt Systems</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>5+ Live Brand Campaign Assignments</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>King of Digital Marketing SMO Course Certificate</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Resume Preparation & Job Interview Guidance</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>100% Placement Assistance</span></li>
+									</ul>
+								</div>
+
+								<div class="course-pkg-action">
+									<a href="#kdm-hero-lead-form" class="btn-course-pkg">Enroll in PowerPlay <i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Package 2: Mastery -->
+						<div class="col-lg-6 col-md-6 mb-4">
+							<div class="course-pkg-card featured h-100">
+								<div class="course-pkg-featured-badge">MOST RECOMMENDED</div>
+								<div class="course-pkg-top">
+									<div class="course-pkg-badge hot">🏆 MOST POPULAR & ADVANCED</div>
+									<h3 class="course-pkg-name">SMO Mastery & Influencer Agency Internship</h3>
+									<p class="course-pkg-tagline">Complete End-to-End Social Media Leadership</p>
+									<div class="course-pkg-price-wrap">
+										<span class="course-pkg-price highlight">₹29,999</span>
+										<span class="course-pkg-orig">₹45,000</span>
+										<span class="course-pkg-tax">+ GST</span>
+									</div>
+									<div class="course-pkg-duration"><i class="fa fa-calendar-check-o"></i> Duration: 3 Months + 1 Month Guaranteed Agency Internship</div>
+									<p class="course-pkg-desc">Designed for professionals aiming for high-paying Social Media Manager, Creative Director, or independent Agency Founder roles.</p>
+								</div>
+
+								<div class="course-pkg-features-wrap">
+									<div class="course-pkg-subgroup-title">Complete Mastery &amp; Agency Suite:</div>
+									<ul class="course-pkg-list">
+										<li><i class="fa fa-check-circle"></i> <span>Everything in PowerPlay Course Included</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Advanced Meta Ads Funnels & Retargeting Mastery</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>B2B LinkedIn Lead Generation & High-Ticket Outreach</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Viral Video Production, Scripts & UGC Frameworks</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Influencer Marketing Campaign Execution & Contracts</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Guaranteed 1-Month Agency Live Brand Internship</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>12+ Industry Certifications (Meta, HubSpot, KDM)</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Dedicated 1-on-1 Mentorship with Gaurav Dubey</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>100% Guaranteed Placement Assistance with Mock Interviews</span></li>
+									</ul>
+								</div>
+
+								<div class="course-pkg-action">
+									<a href="#kdm-hero-lead-form" class="btn-course-pkg pulse-btn">Enroll in Mastery &amp; Internship <i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     8. BONUS SECTION (DARK)
+			     ========================================================================== -->
+			<section class="bonus-section-dark">
+				<div class="container">
+					<div class="bonus-header">
+						<span class="bonus-badge">EXCLUSIVE BONUS GIFTS</span>
+						<h2>Complimentary Career Boosters Worth ₹25,000+</h2>
+						<p>Enroll this month and unlock high-value premium bonuses designed to supercharge your career and freelancing success.</p>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4 mb-4">
+							<div class="bonus-card-dark">
+								<div class="bonus-icon"><i class="fa fa-robot"></i></div>
+								<h4>AI Masterclass &amp; Prompt Pack</h4>
+								<p>500+ curated AI prompts and workflow automation scripts for 10x faster campaign execution.</p>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="bonus-card-dark">
+								<div class="bonus-icon"><i class="fa fa-briefcase"></i></div>
+								<h4>Freelancing Blueprint</h4>
+								<p>Client proposal templates, contract agreements, rate cards, and international client acquisition secrets.</p>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="bonus-card-dark">
+								<div class="bonus-icon"><i class="fa fa-users"></i></div>
+								<h4>Lifetime Alumni Community</h4>
+								<p>Continuous algorithm updates, job openings channel, agency referral network, and mentor access.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     9. STARTING SALARY MATRIX
+			     ========================================================================== -->
+			<section class="container">
+				<div class="job-opportunities-wrapper">
+					<div class="text-center mb-5">
+						<span class="kdm-section-badge">CAREER GROWTH &amp; ROI</span>
+						<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 10px;">
+							Salary Progression &amp; <span class="highlight-text">Job Opportunities</span>
+						</h2>
+						<p style="font-size: 16px; color: #64748b; max-width: 750px; margin: 0 auto;">
+							Understand exact career designations, expected starting salary bands, and career growth trajectories in top digital agencies and enterprises.
+						</p>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">Social Media Executive</h4>
+									<span class="salary-exp-badge">0 - 1 Year</span>
+								</div>
+								<div class="salary-amount-highlight">₹3.0 LPA - ₹4.5 LPA</div>
+								<p class="salary-desc-text">Post scheduling, basic graphic creation, caption writing, community comments</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">Social Media Specialist / Creator</h4>
+									<span class="salary-exp-badge">1 - 3 Years</span>
+								</div>
+								<div class="salary-amount-highlight">₹4.5 LPA - ₹7.0 LPA</div>
+								<p class="salary-desc-text">Reels production, influencer management, Meta ad boosts, monthly reports</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">Social Media Strategist / Team Lead</h4>
+									<span class="salary-exp-badge">3 - 5 Years</span>
+								</div>
+								<div class="salary-amount-highlight">₹7.0 LPA - ₹11.5 LPA</div>
+								<p class="salary-desc-text">Brand positioning, multi-platform campaigns, viral content pipelines</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">Social Media Manager / Creative Head</h4>
+									<span class="salary-exp-badge">5+ Years</span>
+								</div>
+								<div class="salary-amount-highlight">₹11.5 LPA - ₹20.0+ LPA</div>
+								<p class="salary-desc-text">Leading social agency accounts, omni-channel campaigns, enterprise brand growth</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     10. LEAD TRAINER PROFILE
+			     ========================================================================== -->
+			<section class="container">
+				<div class="trainer-section-wrapper">
+					<div class="row align-items-center">
+						<div class="col-md-4 text-center mb-4 mb-md-0">
+							<div class="trainer-photo-frame">
+								<img src="img/about/Gaurav-Dubey.jpg" alt="Mr. Gaurav Dubey - Lead Trainer" class="img-fluid rounded-circle" style="max-width: 220px; border: 4px solid rgba(56, 189, 248, 0.4);" />
+							</div>
+							<h3 style="color: #ffffff; font-size: 24px; font-weight: 800; margin-top: 15px; margin-bottom: 4px;">Mr. Gaurav Dubey</h3>
+							<span style="color: #38bdf8; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Founder &amp; Agency Director</span>
+						</div>
+						<div class="col-md-8">
+							<div class="trainer-bio-content">
+								<span class="badge-trainer-highlight">10+ YEARS REAL AGENCY EXPERIENCE</span>
+								<h2 style="color: #ffffff; font-size: 28px; font-weight: 800; margin-top: 10px; margin-bottom: 15px;">
+									Learn Directly from a Real Agency Founder, Not Just a Classroom Theorist
+								</h2>
+								<p style="color: #cbd5e1; font-size: 15.5px; line-height: 1.65; margin-bottom: 18px;">
+									Mr. Gaurav Dubey has personally handled 500+ client projects across India, USA, UK, UAE, and Australia. As the founder of King of Digital Marketing &amp; Devweboic Technologies, he delivers agency-tested frameworks, secret algorithmic strategies, and 100% practical live case studies.
 								</p>
+								<div class="trainer-highlights-grid">
+									<div class="trainer-pill"><i class="fa fa-google text-warning"></i> Google Certified Professional</div>
+									<div class="trainer-pill"><i class="fa fa-award text-info"></i> 10,000+ Alumni Mentored</div>
+									<div class="trainer-pill"><i class="fa fa-chart-line text-success"></i> ₹10+ Crore Ad Spends Managed</div>
+									<div class="trainer-pill"><i class="fa fa-building text-primary"></i> 500+ Brand Case Studies</div>
+								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</section>
 
-						<!-- Key Pillars -->
-						<div class="kdm-intro-pillars-grid">
-							<div class="kdm-pillar-item">
-								<div class="kdm-pillar-icon">
-									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-										<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-										<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+			<!-- ==========================================================================
+			     11. WORDS OF STUDENTS TESTIMONIAL SLIDER
+			     ========================================================================== -->
+			<section class="kdm-testimonial-section">
+				<div class="container">
+					<div class="kdm-testimonial-header">
+						<span class="kdm-badge-pill">STUDENT SUCCESS STORIES</span>
+						<h2 class="kdm-testimonial-title">Words of Our Successful Students</h2>
+						<p class="kdm-testimonial-subtitle">Hear genuine reviews and placement experiences from graduates who launched high-growth careers with King of Digital Marketing.</p>
+					</div>
+
+					<div class="kdm-testimonial-wrapper">
+						<div class="kdm-testimonial-slides">
+
+							<!-- Slide 1 -->
+							<div class="kdm-testimonial-card active">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
-								<div class="kdm-pillar-text">
-									<strong>Instagram & Reels Mastery</strong>
-									<span>Master short-form video scripts, trending audio hooks, thumbnail design & viral reach algorithms.</span>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"King of Digital Marketing is undoubtedly the best training institute in Delhi. The practical approach, live client audits, and Gaurav sir's step-by-step guidance gave me the exact agency experience needed. I got placed within 2 weeks of completing the course!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-1">KP</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Kritika Pandey</h4>
+										<span class="kdm-testimonial-role">Digital Marketing Executive — Delhi</span>
+									</div>
 								</div>
 							</div>
 
-							<div class="kdm-pillar-item">
-								<div class="kdm-pillar-icon">
-									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-										<rect x="2" y="9" width="4" height="12"></rect>
-										<circle cx="4" cy="4" r="2"></circle>
+							<!-- Slide 2 -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
-								<div class="kdm-pillar-text">
-									<strong>LinkedIn B2B Lead Branding</strong>
-									<span>Personal branding, thought-leadership posts, connection outreach & corporate B2B engagement.</span>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"The 100% practical training on live ad accounts and enterprise tools like Ahrefs and SEMrush set this course apart. Gaurav Dubey sir explains difficult algorithmic concepts in the simplest way possible. Highly recommended!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-2">RP</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Rohit Pal</h4>
+										<span class="kdm-testimonial-role">Performance Marketing Specialist — Noida</span>
+									</div>
 								</div>
 							</div>
 
-							<div class="kdm-pillar-item">
-								<div class="kdm-pillar-icon">
-									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
-										<polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+							<!-- Slide 3 -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
-								<div class="kdm-pillar-text">
-									<strong>YouTube SEO & Video Growth</strong>
-									<span>Channel customization, high-CTR thumbnails, video title optimization & YouTube Shorts strategy.</span>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
+								<p class="kdm-testimonial-quote">
+									"I was able to switch my career into digital marketing smoothly thanks to the internship support and mock interviews. The team provided interview opportunities with top agencies until I secured my dream offer!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-3">MS</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Mehak Sharma</h4>
+										<span class="kdm-testimonial-role">SEO &amp; Content Strategist — Gurgaon</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Navigation Arrows -->
+						<button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+							<i class="fa fa-chevron-left"></i>
+						</button>
+						<button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+							<i class="fa fa-chevron-right"></i>
+						</button>
+
+						<!-- Pagination Dots -->
+						<div class="kdm-testimonial-dots"></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     12. STUDENT VIDEO REVIEWS SHOWCASE
+			     ========================================================================== -->
+			<section class="container">
+				<div class="student-reviews-showcase">
+					<div class="text-center mb-4">
+						<span class="kdm-section-badge">STUDENT VIDEO REVIEWS</span>
+						<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-top: 10px;">
+							Watch Alumni Speak About Their Journey
+						</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-4 mb-3">
+							<div class="review-video-card">
+								<iframe width="100%" height="215" src="https://www.youtube.com/embed/nU_y884y-Z0"
+									title="Student Review 1" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen loading="lazy"></iframe>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<div class="review-video-card">
+								<iframe width="100%" height="215" src="https://www.youtube.com/embed/Z0oY1pY_h9o"
+									title="Student Review 2" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen loading="lazy"></iframe>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<div class="review-video-card">
+								<iframe width="100%" height="215" src="https://www.youtube.com/embed/Y0zY6LgNfFw"
+									title="Student Review 3" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen loading="lazy"></iframe>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+
+			<!-- ==========================================================================
+			     13. CENTRALIZED FAQ SECTION
+			     ========================================================================== -->
+			<section class="kdm-faq-section" id="kdm-faq-section">
+				<div class="container">
+					<div class="kdm-faq-header">
+						<span class="kdm-faq-badge">FREQUENTLY ASKED QUESTIONS</span>
+						<h2>Got Questions? We Have Answers</h2>
+						<p>Everything you need to know about course syllabus, batch schedules, fees, placement assistance, and certifications.</p>
+					</div>
+
+					<div class="kdm-faq-grid">
+						<!-- Left Column: FAQ Accordion List -->
+						<div>
+							<div class="kdm-faq-accordion" id="kdmFaqAccordion">
+								<div class="kdm-faq-item open">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">1. What will I learn in the SMO Course at King of Digital Marketing?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-up"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will learn complete organic Social Media Optimization (SMO) across Instagram, Facebook, LinkedIn, YouTube, and X (Twitter), along with graphic design in Canva, short-form video editing in CapCut, viral copywriting with AI, and Meta Ads fundamentals.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">2. Do I need design or video editing skills before joining?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No! We teach all graphic design and video editing skills from scratch using user-friendly modern tools like Canva Pro, CapCut, and AI creative generators. Anyone can learn and create professional brand content.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">3. Will I get practical assignments on real social media accounts?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! You will create live posts, design reels, run engagement campaigns, and analyze real insights on active social media channels during the course.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">4. What are the job opportunities after completing SMO training?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can work as a Social Media Executive, Community Manager, Content Creator, Instagram Strategist, LinkedIn Specialist, or Social Media Manager in agencies, e-commerce brands, and corporate marketing departments.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">5. Can I work as a freelance social media manager after this course?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We dedicate a full module on how to pitch clients, package monthly social media management services (₹15,000 - ₹50,000/month per client), and manage multiple client accounts easily.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">6. What is the batch timing and duration for SMO classes?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer fast-track 45-day weekday batches as well as weekend batches (Saturdays & Sundays) designed specifically for college students and working professionals.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">7. Does KDM offer placement assistance for SMO students?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide 100% placement support with portfolio building, resume revamps, interview prep, and direct job interviews across Delhi NCR agencies and corporate brands.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">8. How can I book a free demo session for SMO training?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Simply fill out the demo form on this page or call our South Delhi center to reserve your seat for the upcoming free demo class with mentor Mr. Gaurav Dubey.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Right Column: Course Counseling & Special Scholarship Card -->
+						<div>
+							<div class="kdm-faq-offer-card">
+								<div style="font-size: 11px; font-weight: 800; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+									🎓 ADMISSION OPEN 2026
+								</div>
+								<h4>Talk to Course Mentor</h4>
+								<p style="font-size: 13px; color: #cbd5e1; margin-bottom: 12px; line-height: 1.45;">
+									Get 1-on-1 career guidance and special scholarship offers for upcoming weekday &amp; weekend batches.
+								</p>
+								<div class="box-styling">Special 28% Scholarship</div>
+								<div class="box-offer">✅ 100% Practical Live Projects</div>
+								<div class="box-offer">✅ 20+ Enterprise Tools Covered</div>
+								<div class="box-offer">✅ Agency Internship &amp; Placement</div>
+								<div class="box-offer">✅ 15+ Global Certifications</div>
+								<a href="#kdm-hero-lead-form" class="kdm-faq-offer-btn">
+									Book Free Demo Class <i class="fa fa-arrow-right" style="margin-left: 4px;"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 		</div>
-	</div>
 
-	<!-- Client Logos Section Starts -->
-	<div class="kdm-ppc-clients-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h3 class="kdm-clients-title">Trusted By 800+ Brands & 1850+ Trained Students</h3>
-					<p class="kdm-clients-subtitle">Empowering Careers & Building Viral Social Media Presence Worldwide</p>
-				</div>
-			</div>
-			<div class="slide-container">
-				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
-					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
-					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
-					<img alt="Olympus" src="images/Olympus_img.webp">
-					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
-				</div>
-				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
-					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
-					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
-					<img alt="Olympus" src="images/Olympus_img.webp">
-					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Curriculum Modules Section Starts -->
-	<div class="kdm-ppc-process-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">COMPREHENSIVE SMO CURRICULUM</span>
-						<h2 class="kdm-ppc-heading">Core Components of <strong class="kdm-highlight">Our SMO Training Course</strong></h2>
-						<p class="kdm-ppc-subheading">An 8-stage practical roadmap designed to transform you into an expert social media strategist.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-ppc-process-grid-3">
-				<!-- 1 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">01</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Social Media Platform Demographics</h3>
-					<p class="kdm-ppc-process-desc">Deep dive into Facebook, Instagram, LinkedIn, YouTube, X, and Pinterest algorithms, user demographics, and brand positioning.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-								<circle cx="12" cy="7" r="4"></circle>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">02</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Profile & Brand Page Optimization</h3>
-					<p class="kdm-ppc-process-desc">Learn how to create high-converting bio descriptions, branded cover graphics, custom usernames, and verification setups.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-								<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">03</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Content Strategy & Reels Creation</h3>
-					<p class="kdm-ppc-process-desc">Master content calendar design, Canva graphics creation, viral Instagram Reels scripts, video editing, and AI graphic generation.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">04</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Audience Targeting & Hashtags</h3>
-					<p class="kdm-ppc-process-desc">Research high-reach hashtags, viral trends, audience interest segmentation, and optimal posting time schedules.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">05</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Community Management & Engagement</h3>
-					<p class="kdm-ppc-process-desc">Learn professional comment moderation, DM handling, group engagement, reputation protection, and follower loyalty building.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
-								<path d="M15 10l2 7 2-3 3 2-7-6z"></path>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">06</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Meta Ads & Paid Social Campaigns</h3>
-					<p class="kdm-ppc-process-desc">Introduction to Meta Business Manager, boosted posts vs Ads Manager, custom audience creation, and lead generation ad setups.</p>
-				</div>
-
-				<!-- 7 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-								<circle cx="9" cy="7" r="4"></circle>
-								<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-								<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">07</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Influencer Collaboration & Partnerships</h3>
-					<p class="kdm-ppc-process-desc">Identify relevant micro & macro influencers, structure barter or paid collaboration deals, and evaluate influencer campaign ROI.</p>
-				</div>
-
-				<!-- 8 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<line x1="18" y1="20" x2="18" y2="10"></line>
-								<line x1="12" y1="20" x2="12" y2="4"></line>
-								<line x1="6" y1="20" x2="6" y2="14"></line>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">08</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Analytics & Social ROI Tracking</h3>
-					<p class="kdm-ppc-process-desc">Track engagement rate, reach, impression metrics, link clicks, conversion tracking, and monthly performance reporting.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Course Benefits Grid Section Starts -->
-	<div class="kdm-ppc-services-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">STUDENT ADVANTAGES</span>
-						<h2 class="kdm-ppc-heading">Benefits of Enrolling In <strong class="kdm-highlight">Our SMO Course</strong></h2>
-						<p class="kdm-ppc-subheading">Practical social media skills engineered to launch rewarding agency & freelance careers.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-ppc-grid">
-				<!-- 1 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Enhanced Brand Awareness</h3>
-					<p class="kdm-ppc-card-desc">Build thousands of organic followers and viral video views for personal brands or client businesses.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-							<polyline points="22 4 12 14.01 9 11.01"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">100% Placement Assistance</h3>
-					<p class="kdm-ppc-card-desc">Resume preparation, mock interviews, portfolio creation, and direct placement support in social media agencies.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<line x1="12" y1="1" x2="12" y2="23"></line>
-							<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Cost-Effective Lead Generation</h3>
-					<p class="kdm-ppc-card-desc">Drive consistent organic leads and customer inquiries without spending heavily on paid advertisements.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Freelancing & Social Management</h3>
-					<p class="kdm-ppc-card-desc">Learn how to pitch monthly social media management packages to local clients and international businesses.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-							<line x1="8" y1="21" x2="16" y2="21"></line>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Canva & AI Design Mastery</h3>
-					<p class="kdm-ppc-card-desc">Hands-on training on graphic templates, video editing tools, CapCut, Canva Pro, and AI content assistants.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="8" r="5"></circle>
-							<path d="M12 13v9m-4-5l4-4 4 4"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Mentorship by Gaurav Dubey</h3>
-					<p class="kdm-ppc-card-desc">Direct strategy guidance from Gaurav Dubey, director of King of Digital Marketing with 13+ Years experience.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Why Choose Us Section Starts -->
-	<div class="kdm-why-hire-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">AGENCY PROOF</span>
-						<h2 class="kdm-why-hire-heading">Why Choose Our <strong class="kdm-highlight">SMO Training Institute?</strong></h2>
-						<p class="kdm-why-hire-subheading">With 1850+ trained students and 100% practical agency exposure, we provide the ultimate career launchpad.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-why-hire-grid">
-				<!-- 1 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="8" r="5"></circle>
-							<path d="M12 13v9m-4-5l4-4 4 4"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Agency-Driven Training</h3>
-					<p class="kdm-why-hire-card-desc">Work directly on real brand social media accounts rather than theoretical institute slides.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-							<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">AI & Reels Creation</h3>
-					<p class="kdm-why-hire-card-desc">Learn how to leverage AI tools for viral reel scriptwriting, caption generation, and hashtag research.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">100% Practical Page Audits</h3>
-					<p class="kdm-why-hire-card-desc">Audit live Facebook pages and Instagram profiles to identify optimization gaps and growth opportunities.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="12" r="10"></circle>
-							<polyline points="12 6 12 12 16 14"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Flexible Batches & Backup Classes</h3>
-					<p class="kdm-why-hire-card-desc">Choose weekday or weekend batches with recorded backup sessions for working professionals.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-							<polyline points="22 4 12 14.01 9 11.01"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Verified Experience Certificate</h3>
-					<p class="kdm-why-hire-card-desc">Receive a recognized SMO training certificate and internship experience letter to strengthen your resume.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-							<circle cx="9" cy="7" r="4"></circle>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Lifetime Mentorship Support</h3>
-					<p class="kdm-why-hire-card-desc">Get continuous guidance from Gaurav Dubey and senior agency experts even after course completion.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- FAQ Section Starts -->
-	<section class="kdm-faq-section">
-		<div class="kdm-faq-container">
-			<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-			<p class="kdm-faq-subtitle">Got questions about our SMO training course? Find clear answers below.</p>
-			
-			<div class="kdm-faq-accordion">
-				<div class="kdm-faq-item active">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.1. What is Social Media Optimization (SMO), and why is it important?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> SMO involves optimizing social media profiles and content to increase organic reach, engagement, and brand visibility across platforms like Instagram, Facebook, and LinkedIn.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.2. Who can join this SMO training course?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Students, job seekers, digital marketers, content creators, business owners, and freelancers looking to master social media management can join.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.3. Does the course cover Instagram Reels & Shorts editing?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! You will learn short-form video scripting, reel editing in CapCut/Canva, trending audio selection, and hook writing for maximum engagement.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.4. Do you provide 100% placement assistance?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide resume creation, mock interview sessions, portfolio development, and direct placement support in leading social media agencies.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.5. Are online and offline classroom options available?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We conduct in-person classroom training in Govindpuri, Kalkaji, Delhi, as well as live online classes accessible from anywhere.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.6. Will I learn AI tools for social media content?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! You will learn ChatGPT prompt engineering for captions, AI image generators, and automated scheduling via Meta Business Suite.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.7. Will I get to work on live brand social media pages?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! You will work directly on real client handles, creating posts, managing campaigns, and evaluating engagement metrics.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.8. How can I book a free demo session?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Submit the inquiry form on this page or call us directly at +91 9555696058 to reserve your free demo class seat.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</div>
-<script src="js/kdm-faq.js"></script>
-</asp:Content>
+		<script src="js/international-page.js"></script>
+		<script src="js/slider.webp" defer></script>
+		<script src="js/kdm-faq.js"></script>
+		<script src="js/kdm-course.js"></script>
+	</asp:Content>

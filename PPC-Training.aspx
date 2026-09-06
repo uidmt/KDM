@@ -1,625 +1,995 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>PPC Training in Delhi | Google Ads Course | Best AdWords Institute</title>
-<meta name="keywords" content="PPC Training in Delhi, Google Ads Course in Delhi, Google AdWords Training Institute, Pay Per Click Course Delhi, Performance Max Ads Training">
-<meta name="description" content="Best PPC Course in Delhi. Learn Google Ads, AdWords, Search Ads, Performance Max, Display Ads, Bidding strategies, and AI ad automation with 100% practical agency projects.">
-<meta property="og:title" content="Best AI-Driven PPC & Google Ads Training Course in Delhi | PPC Institute"/>
-<meta property="og:description" content="Master Pay-Per-Click (PPC) & Google Ads with 100% practical, agency-based AI-integrated training. Learn Search Ads, Performance Max, CRO, and 100% placement support." />
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://www.kingofdigitalmarketing.com/PPC-Training.aspx" />
-<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/PPC-Training_img.png" />
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://www.kingofdigitalmarketing.com/PPC-Training.aspx" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://cdnjs.cloudflare.com">
-<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
-<link rel="stylesheet" href="css/location-page.css">
-<link rel="stylesheet" href="css/international-page.css">
-<link rel="stylesheet" href="css/packages.css">
-<link rel="stylesheet" href="css/images.css">
-<link rel="stylesheet" href="css/slider.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/home-custom.css?v=25.0">
-<script src="js/kdm-faq.js"></script>
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<div role="main" class="main">
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs"
+	Inherits="PPC_Services" %>
+	<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+		<title>PPC Training in Delhi | Google Ads Course | Best AdWords Institute | KDM</title>
+		<meta name="keywords" content="PPC Training in Delhi, Google Ads Course Delhi, Best PPC Training Institute, Google AdWords Course, Performance Max Ads Training, Performance Marketing Course Delhi">
+		<meta name="description" content="Best PPC Course in Delhi. Master Google Ads, Performance Max, Search Ads, Display & YouTube Video Ads, Conversion Rate Optimization (CRO) & 100% Placement.">
+		<meta property="og:title" content="Best AI-Driven PPC & Performance Marketing Course in Delhi | KDM" />
+		<meta property="og:description" content="Master Pay-Per-Click advertising, high-ROI Google Ads, Performance Max, Conversion Tracking, and Live Agency Ad Budgets with 100% placement support." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.kingofdigitalmarketing.com/PPC-Training.aspx" />
+		<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/PPC-Training_img.png" />
+		<meta name="twitter:card" content="summary_large_image">
+		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/PPC-Training.aspx" />
+		<meta name="Author" content="King of Digital Marketing, https://www.kingofdigitalmarketing.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+		<link rel="dns-prefetch" href="https://www.youtube.com">
+		<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/location-page.css">
+		<link rel="stylesheet" href="css/international-page.css">
+		<link rel="stylesheet" href="css/packages.css">
+		<link rel="stylesheet" href="css/images.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/home-custom.css?v=25.0">
+		<link rel="stylesheet" href="css/kdm-industry.css">
+		<link rel="stylesheet" href="css/kdm-course.css">
+		<link rel="stylesheet" href="css/kdm-faq.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+		<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "1. What will I learn in the PPC & Google Ads Course in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You will learn complete paid advertising across Google Search Ads, Display Network, YouTube Video Ads, Google Shopping, Performance Max (PMax), Google Tag Manager (GTM), GA4 conversion tracking, and Landing Page CRO."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "2. Will I get to run ads on live Google accounts during the course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Unlike institutes that only show theory, King of Digital Marketing gives you live budget practice to create campaigns, test ad copies, configure conversion tracking, and analyze actual real-time ad data."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "3. What is the difference between SEO and PPC?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SEO focuses on gaining organic, non-paid rankings on Google over time, whereas PPC (Pay-Per-Click) involves running paid ads on Google and YouTube to generate instant high-intent leads and sales."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "4. Which certifications will I earn after completing the PPC training?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You will earn official Google Ads Search Certification, Google Ads Display Certification, Google Ads Video Certification, Google Analytics 4 Certification, and the King of Digital Marketing Advanced PPC Specialist Certificate."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "5. What is the average starting salary for a PPC Specialist in Delhi NCR?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Fresher PPC Executives typically start between \u20b93.5 LPA to \u20b95.0 LPA. With 2-3 years of proven experience managing ad budgets profitably, salaries quickly scale to \u20b98.0 LPA - \u20b915.0+ LPA."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "6. What are the batch timings for working professionals?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We offer flexible weekday morning/evening batches as well as dedicated weekend batches (Saturday & Sunday) tailored for working professionals and business owners."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "7. Does King of Digital Marketing guarantee job placement support?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! We provide 100% placement assistance, including mock interview rounds with senior agency media buyers, Google Ads case study presentations, resume building, and interview calls until you get placed."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "8. How can I attend a free demo class before enrolling?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can book a free demo session by submitting the lead form on this page or reaching out directly to our South Delhi training center."
+            }
+        }
+    ]
+}
+		</script>
+	</asp:Content>
+	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+		<div class="main" role="main">
 
-	<!-- ===== DIGITAL MARKETING COURSE HERO SECTION FORMAT FOR PPC TRAINING ===== -->
-	<div class="locationdetails-hero-section">
-		<div class="locationdetails-intro-content">
-			<span style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 10px;">
-				<i class="fa fa-robot" style="color:#38bdf8;"></i> #1 RATED AI-POWERED PPC & GOOGLE ADS INSTITUTE IN DELHI
-			</span>
-			<h1 class="ip-h1" style="font-size: 34px; margin-bottom: 12px; line-height: 1.25; font-weight: 900; color: #ffffff;">
-				Best AI-Driven <span style="background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">PPC & Google Ads Course</span> in Delhi
-			</h1>
-			<p style="font-size: 14px; line-height: 1.5; color: #e2e8f0; margin-bottom: 12px;">
-				King of Digital Marketing is rated #1 PPC & Google AdWords training institute in Delhi, providing a 100% practical, agency-based AI-integrated training approach. Master Search Ads, Performance Max, Display, Remarketing, Quality Score & ChatGPT Ad Copywriting.
-			</p>
-
-			<div style="display: flex; align-items: center; gap: 15px; background: rgba(255, 255, 255, 0.08); padding: 8px 14px; border-radius: 10px; width: fit-content; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.12);">
-				<span style="font-weight: 700; color: #ffd86b; font-size: 13px; text-transform: uppercase;">Trained 1850+ Students</span>
-				<span style="color: rgba(255,255,255,0.3);">|</span>
-				<span style="font-weight: 700; color: #38bdf8; font-size: 13px;">⭐ 4.8 / 5 Rating</span>
-				<span style="color: rgba(255,255,255,0.3);">|</span>
-				<span style="font-weight: 700; color: #4ade80; font-size: 13px;">🤖 100% Practical PPC</span>
-			</div>
-
-			<p style="font-weight: 800; color: #ffffff; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 10px; margin-bottom: 10px;">
-				KEY BENEFITS TO OUR PPC STUDENTS:
-			</p>
-
-			<ul class="locationdetails-benefits-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 6px 12px; margin-top: 5px; padding-left: 0; list-style: none;">
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Google Search & Shopping Ads</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Performance Max (PMax)</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Bidding Strategy & Quality Score</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Match Types & Negative Lists</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Conversion Tracking & GA4</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Display & Video Remarketing</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> ChatGPT & AI Ad Copywriting</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Landing Page CRO Optimization</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 100% Practical Training</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Live Agency Client Budgets</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Internship Guaranteed</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 100% Placement Support</li>
-			</ul>
-		</div>
-
-		<div style="flex: 0 0 380px; max-width: 100%;">
-			<iframe scrolling="no" src="digital-course-form.aspx" style="height: 385px; width: 100%; border: none; overflow: hidden;" width="100%"></iframe>
-		</div>
-	</div>
-	<!-- ===== END DIGITAL MARKETING COURSE HERO SECTION ===== -->
-
-	<!-- Overview Intro Section Starts -->
-	<div class="kdm-intro-ppc-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="kdm-intro-card">
-						<div class="kdm-intro-header-row">
-							<span class="kdm-badge-pill">AGENCY-BASED PPC & GOOGLE ADS MASTERY</span>
-							<h2 class="kdm-intro-heading">Master Pay-Per-Click Advertising With <strong class="kdm-highlight">Live Client Ad Budgets</strong></h2>
-						</div>
-						
-						<p class="kdm-intro-lead-text">
-							Pay-Per-Click (PPC) advertising is the fastest way to drive high-intent commercial traffic, acquire sales leads, and maximize return on ad spend (ROAS) across search engines and display networks.
-						</p>
-
-						<p class="kdm-intro-body-text">
-							At <strong>King of Digital Marketing</strong>, our PPC training course in Delhi is led by founder <strong>Gaurav Dubey</strong>. You will gain hands-on agency experience creating Search campaigns, Performance Max ads, display remarketing banners, negative keyword negative lists, Smart bidding, and landing page conversion rate optimization (CRO).
-						</p>
-
-						<!-- Callout Banner -->
-						<div class="kdm-intro-callout-box">
-							<div class="kdm-callout-icon-wrap">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
-									<path d="M15 10l2 7 2-3 3 2-7-6z"></path>
-								</svg>
+			<!-- ==========================================================================
+			     1. HERO SECTION WITH FLOATING LEAD FORM
+			     ========================================================================== -->
+			<section class="kdm-course-hero-wrapper">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-7 col-lg-7">
+							<div class="kdm-hero-badge">
+								<span class="badge-pulse"></span> 🔥 #1 RATED PRACTICAL PPC & GOOGLE ADS COURSE IN SOUTH DELHI
 							</div>
-							<div class="kdm-callout-content">
-								<h4 class="kdm-callout-title">100% Practical Google Ads Training On Live Client Accounts</h4>
-								<p class="kdm-callout-text">
-									Gain real-world experience setting up active Google Ads accounts, managing real campaign budgets, analyzing Cost Per Click (CPC), and optimizing Quality Scores for maximum conversion rate.
+							<h1 class="kdm-hero-title">
+								Advanced PPC Training Course &amp; <span class="highlight-text">Performance Marketing Mastery</span>
+							</h1>
+							<p class="kdm-hero-lead-text">
+								Master Google Search Ads, Performance Max (PMax), YouTube Video Ads, Conversion Tracking, ROAS Optimization &amp; 100% Placement Support.
+							</p>
+
+							<div class="kdm-hero-features-grid">
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>100% Practical Live Google Ads Budget Management</span>
+								</div>
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>Master Search, Display, Shopping, YouTube &amp; Performance Max</span>
+								</div>
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>GTM, GA4 Server-Side Conversion Tracking &amp; Landing Page CRO</span>
+								</div>
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>100% Placement Assistance with High-Paying Media Buyer Roles</span>
+								</div>
+							</div>
+
+							<!-- Course Quick Stats Pill -->
+							<div class="kdm-hero-stats-bar">
+								<div class="hero-stat-box">
+									<span class="stat-digit">100%</span>
+									<span class="stat-label">Practical Live Projects</span>
+								</div>
+								<div class="hero-stat-divider"></div>
+								<div class="hero-stat-box">
+									<span class="stat-digit">15+</span>
+									<span class="stat-label">Global Certifications</span>
+								</div>
+								<div class="hero-stat-divider"></div>
+								<div class="hero-stat-box">
+									<span class="stat-digit">4.9★</span>
+									<span class="stat-label">Verified Student Rating</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- Right Column: Quick Admission / Demo Class Lead Form -->
+						<div class="col-md-5 col-lg-5">
+							<div class="kdm-hero-form-card" id="kdm-hero-lead-form">
+								<div class="form-header-badge">🎓 ADMISSIONS OPEN 2026</div>
+								<h3>Book Free PPC Demo Class</h3>
+								<p>Fill details to get course syllabus, free trial class &amp; special scholarship voucher.</p>
+								<div class="hero-form-inner">
+									<div class="form-group mb-3">
+										<input type="text" class="form-control kdm-input" name="txtName"
+											placeholder="Your Full Name *" required />
+									</div>
+									<div class="form-group mb-3">
+										<input type="tel" class="form-control kdm-input" name="txtPhone"
+											placeholder="Mobile Number (WhatsApp) *" required />
+									</div>
+									<div class="form-group mb-3">
+										<input type="email" class="form-control kdm-input" name="txtEmail"
+											placeholder="Email Address *" required />
+									</div>
+									<div class="form-group mb-3">
+										<select class="form-control kdm-input" name="ddlBatch">
+											<option value="">Preferred Batch Timing</option>
+											<option value="Weekday Morning">Weekday Morning (10:00 AM - 12:00 PM)</option>
+											<option value="Weekday Afternoon">Weekday Afternoon (02:00 PM - 04:00 PM)</option>
+											<option value="Weekend Special">Weekend Special (Sat &amp; Sun)</option>
+											<option value="Online Interactive">Online Live Interactive Batch</option>
+										</select>
+									</div>
+									<button type="submit" class="btn btn-kdm-hero-submit w-100">
+										<i class="fa fa-paper-plane mr-2"></i> Book Free Demo Class Now
+									</button>
+									<div class="form-privacy-note">
+										<i class="fa fa-lock"></i> 100% Privacy Protected. No Spam Guaranteed.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     2. SECTION 5 CREDENTIALS & STATS BAR
+			     ========================================================================== -->
+			<section class="kdm-credentials-white-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">10+</div>
+								<div class="kdm-credentials-label">Years of Performance Marketing</div>
+								<div class="kdm-credentials-sub">Over ₹10+ Cr ad spend managed</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">8,000+</div>
+								<div class="kdm-credentials-label">PPC & Google Ads Specialists Placed</div>
+								<div class="kdm-credentials-sub">In top performance agencies</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">100%</div>
+								<div class="kdm-credentials-label">Live Ad Budget Practice</div>
+								<div class="kdm-credentials-sub">Run real campaigns & track conversions</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">4.9/5</div>
+								<div class="kdm-credentials-label">Student Rating</div>
+								<div class="kdm-credentials-sub">Over 1,180+ verified reviews</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     3. CLASSROOM & CAMPUS LIFE GALLERY
+			     ========================================================================== -->
+			<section class="students-gallery-section">
+				<div class="container">
+					<div class="students-gallery-header">
+						<h2>Life at King of Digital Marketing Institute</h2>
+						<p>Experience real agency culture, hands-on masterclasses, live client audits, and collaborative learning.</p>
+					</div>
+					<div class="gallery-grid">
+						<div class="gallery-card">
+							<img src="img/course/1.jpg" alt="Practical Training Session" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Hands-On Practice</span>
+								<h4>Live Campaign Workshop</h4>
+							</div>
+						</div>
+						<div class="gallery-card">
+							<img src="img/course/2.jpg" alt="Student Presentation" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Strategy</span>
+								<h4>Agency Pitch &amp; Audit</h4>
+							</div>
+						</div>
+						<div class="gallery-card">
+							<img src="img/course/3.jpg" alt="Classroom Interactive" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Mentorship</span>
+								<h4>1-on-1 Guidance</h4>
+							</div>
+						</div>
+						<div class="gallery-card">
+							<img src="img/course/4.jpg" alt="Certificate Celebration" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Success</span>
+								<h4>Placement &amp; Convocation</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     4. COMPREHENSIVE CURRICULUM & MODULES GRID
+			     ========================================================================== -->
+			<section class="career-opportunities-section">
+				<div class="container">
+					<div class="career-header-box">
+						<span class="career-badge">HIGH-ROI ADVERTISING SYLLABUS</span>
+						<h2 class="career-title">Comprehensive <span class="highlight-gradient">PPC &amp; Google Ads Modules</span> &amp; Media Buying Framework</h2>
+						<p class="career-subtitle">Engineered by senior performance marketing directors to transform you into an expert media buyer capable of scaling campaigns profitably.</p>
+					</div>
+
+					<div class="kdm-about-careers-grid">
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">01</span>
+								</div>
+								<h3 class="kdm-career-role-title">PPC Fundamentals &amp; Google Ads Ecosystem</h3>
+							</div>
+							<p class="kdm-career-role-desc">Understanding paid search auction mechanics, Ad Rank, Quality Score formula, Cost-Per-Click (CPC) dynamics, and Google Ads account hierarchy.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">02</span>
+								</div>
+								<h3 class="kdm-career-role-title">High-Converting Keyword Research &amp; Match Types</h3>
+							</div>
+							<p class="kdm-career-role-desc">Exact, Phrase, and Broad Match strategies, negative keyword master lists, search term audits, and competitor ad teardowns using SpyFu.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">03</span>
+								</div>
+								<h3 class="kdm-career-role-title">Google Search Ads &amp; Responsive Search Ads (RSA)</h3>
+							</div>
+							<p class="kdm-career-role-desc">Writing high-CTR ad copy, headline formulas, dynamic keyword insertion (DKI), asset extensions (sitelinks, callouts, lead forms).</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">04</span>
+								</div>
+								<h3 class="kdm-career-role-title">Bidding Strategies &amp; Smart Bidding Algorithms</h3>
+							</div>
+							<p class="kdm-career-role-desc">Manual CPC vs Enhanced CPC, Target CPA (tCPA), Target ROAS (tROAS), Maximize Conversions, and portfolio bid strategies.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">05</span>
+								</div>
+								<h3 class="kdm-career-role-title">Performance Max (PMax) Campaigns</h3>
+							</div>
+							<p class="kdm-career-role-desc">Asset groups, audience signals, product feed integration, URL expansion rules, and optimizing PMax for leads and e-commerce.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">06</span>
+								</div>
+								<h3 class="kdm-career-role-title">Google Display Network (GDN) &amp; Remarketing</h3>
+							</div>
+							<p class="kdm-career-role-desc">Audience segments, custom intent, in-market audiences, dynamic remarketing banners, frequency capping, and placement exclusions.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">07</span>
+								</div>
+								<h3 class="kdm-career-role-title">YouTube Video Advertising &amp; In-Stream Ads</h3>
+							</div>
+							<p class="kdm-career-role-desc">Skippable vs non-skippable ads, bumper ads, YouTube Shorts ads, video action campaigns (VAC), and hook-story-offer video frameworks.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">08</span>
+								</div>
+								<h3 class="kdm-career-role-title">Google Shopping Ads &amp; Merchant Center</h3>
+							</div>
+							<p class="kdm-career-role-desc">Setting up Google Merchant Center (GMC), product feed approval, supplemental feeds, feed optimization, and standard vs PMax shopping.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">09</span>
+								</div>
+								<h3 class="kdm-career-role-title">Conversion Tracking with GTM &amp; GA4</h3>
+							</div>
+							<p class="kdm-career-role-desc">Google Tag Manager container setup, custom event triggers, form submit tracking, WhatsApp click tracking, enhanced conversions & GA4.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">10</span>
+								</div>
+								<h3 class="kdm-career-role-title">Landing Page CRO &amp; A/B Testing</h3>
+							</div>
+							<p class="kdm-career-role-desc">High-converting landing page layouts, friction reduction, trust signals, heatmaps analysis with Microsoft Clarity, and split URL testing.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">11</span>
+								</div>
+								<h3 class="kdm-career-role-title">AI-Powered Ad Automation &amp; Scripts</h3>
+							</div>
+							<p class="kdm-career-role-desc">Using ChatGPT for 50+ ad copies in minutes, automated bidding rules, budget anomaly alerts, and Google Ads JavaScript automation scripts.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">12</span>
+								</div>
+								<h3 class="kdm-career-role-title">Agency Media Buying &amp; Live Client Audits</h3>
+							</div>
+							<p class="kdm-career-role-desc">Auditing live ad accounts, diagnosing wasted spend, scaling profitable campaigns 5x, client reporting dashboards in Looker Studio.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     5. TOOLS WE COVER SECTION
+			     ========================================================================== -->
+			<section class="tools-covered-section">
+				<div class="container">
+					<div class="text-center mb-5">
+						<span class="kdm-section-badge">INDUSTRY STANDARD STACK</span>
+						<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 10px;">
+							Master 20+ Premium <span class="highlight-text">Software &amp; AI Tools</span>
+						</h2>
+						<p style="font-size: 16px; color: #64748b; max-width: 700px; margin: 0 auto;">
+							Gain hands-on proficiency on enterprise software used daily by top digital agencies and global brands.
+						</p>
+					</div>
+
+					<div class="tools-grid-container">
+						<div class="tool-pill">
+							<i class="fa fa-google"></i>
+							<span>Google Ads Manager</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-tag"></i>
+							<span>Google Tag Manager (GTM)</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-chart-pie"></i>
+							<span>Google Analytics 4 (GA4)</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-shopping-cart"></i>
+							<span>Google Merchant Center</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-youtube"></i>
+							<span>YouTube Video Ads</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-chart-line"></i>
+							<span>Looker Studio Dashboards</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-eye"></i>
+							<span>Microsoft Clarity Heatmaps</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-robot"></i>
+							<span>ChatGPT Ad Copy Generator</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-search-dollar"></i>
+							<span>SpyFu / SEMrush Ads</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-key"></i>
+							<span>Google Keyword Planner</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-sliders-h"></i>
+							<span>Optmyzr / Ad Scripts</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-file-invoice-dollar"></i>
+							<span>Google Ads Editor</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     6. BATCH SCHEDULE & ADMISSION DETAILS
+			     ========================================================================== -->
+			<section class="batches-section">
+				<div class="container">
+					<div class="batches-header">
+						<h2>Upcoming Training Batches &amp; Timings</h2>
+						<p>Choose the batch schedule that fits your routine. Small batch size (8-10 students) for 100% individual attention.</p>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4 mb-4">
+							<div class="batch-card">
+								<span class="batch-type">WEEKDAY REGULAR</span>
+								<h4>Morning Batch</h4>
+								<div class="batch-time"><i class="fa fa-clock-o"></i> 10:00 AM - 12:00 PM</div>
+								<p class="batch-days">Monday to Friday (2 Hours Daily)</p>
+								<div class="batch-status status-open">Seats Available (Admissions Open)</div>
+								<a href="#kdm-hero-lead-form" class="btn btn-batch">Reserve Seat</a>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="batch-card popular">
+								<div class="batch-badge-hot">MOST POPULAR</div>
+								<span class="batch-type">WEEKDAY AFTERNOON</span>
+								<h4>Professional Batch</h4>
+								<div class="batch-time"><i class="fa fa-clock-o"></i> 02:00 PM - 04:00 PM</div>
+								<p class="batch-days">Monday to Friday (2 Hours Daily)</p>
+								<div class="batch-status status-filling">Fast Filling (Only 3 Seats Left)</div>
+								<a href="#kdm-hero-lead-form" class="btn btn-batch">Reserve Seat</a>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="batch-card">
+								<span class="batch-type">WEEKEND SPECIAL</span>
+								<h4>Working Professionals</h4>
+								<div class="batch-time"><i class="fa fa-clock-o"></i> 11:00 AM - 03:00 PM</div>
+								<p class="batch-days">Saturday &amp; Sunday (4 Hours Daily)</p>
+								<div class="batch-status status-open">Seats Available (Admissions Open)</div>
+								<a href="#kdm-hero-lead-form" class="btn btn-batch">Reserve Seat</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     7. 2-PACKAGE PRICING COMPARISON GRID
+			     ========================================================================== -->
+			<section class="various-courses-section">
+				<div class="container">
+					<div class="various-courses-header">
+						<span class="pkg-header-badge">TRAINING PACKAGES</span>
+						<h2>Choose Your Training Program</h2>
+						<p>Flexible packages designed to match your immediate career goals, whether rapid fast-track skills or complete mastery with agency internship.</p>
+					</div>
+
+					<div class="row justify-content-center">
+						<!-- Package 1: PowerPlay -->
+						<div class="col-lg-6 col-md-6 mb-4">
+							<div class="course-pkg-card h-100">
+								<div class="course-pkg-top">
+									<div class="course-pkg-badge">⚡ FAST-TRACK PROGRAM</div>
+									<h3 class="course-pkg-name">PPC PowerPlay Course</h3>
+									<p class="course-pkg-tagline">Fast-Track Google Ads & Lead Gen Mastery</p>
+									<div class="course-pkg-price-wrap">
+										<span class="course-pkg-price">₹18,999</span>
+										<span class="course-pkg-orig">₹28,000</span>
+										<span class="course-pkg-tax">+ GST</span>
+									</div>
+									<div class="course-pkg-duration"><i class="fa fa-calendar-check-o"></i> Duration: 45 Days (Daily 2 Hrs) / Weekend 2.5 Months</div>
+									<p class="course-pkg-desc">Perfect for business owners, sales heads, freelancers & freshers wanting immediate mastery of profitable paid search campaigns.</p>
+								</div>
+
+								<div class="course-pkg-features-wrap">
+									<div class="course-pkg-subgroup-title">What You'll Learn &amp; Receive:</div>
+									<ul class="course-pkg-list">
+										<li><i class="fa fa-check-circle"></i> <span>Full Google Search Ads & Keyword Match Types</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Display, YouTube & Performance Max Campaigns</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>GTM & Google Analytics 4 Conversion Tracking</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>5+ Live Ad Campaign Setup Assignments</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>King of Digital Marketing PPC Course Certificate</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Resume Preparation & Job Interview Guidance</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>100% Placement Assistance</span></li>
+									</ul>
+								</div>
+
+								<div class="course-pkg-action">
+									<a href="#kdm-hero-lead-form" class="btn-course-pkg">Enroll in PowerPlay <i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Package 2: Mastery -->
+						<div class="col-lg-6 col-md-6 mb-4">
+							<div class="course-pkg-card featured h-100">
+								<div class="course-pkg-featured-badge">MOST RECOMMENDED</div>
+								<div class="course-pkg-top">
+									<div class="course-pkg-badge hot">🏆 MOST POPULAR & ADVANCED</div>
+									<h3 class="course-pkg-name">PPC Mastery & Performance Agency Internship</h3>
+									<p class="course-pkg-tagline">Complete End-to-End Media Buying Leadership</p>
+									<div class="course-pkg-price-wrap">
+										<span class="course-pkg-price highlight">₹29,999</span>
+										<span class="course-pkg-orig">₹45,000</span>
+										<span class="course-pkg-tax">+ GST</span>
+									</div>
+									<div class="course-pkg-duration"><i class="fa fa-calendar-check-o"></i> Duration: 3 Months + 1 Month Guaranteed Agency Internship</div>
+									<p class="course-pkg-desc">Designed for professionals aiming for high-paying Performance Marketer, Media Buyer, or PPC Agency Director roles.</p>
+								</div>
+
+								<div class="course-pkg-features-wrap">
+									<div class="course-pkg-subgroup-title">Complete Mastery &amp; Agency Suite:</div>
+									<ul class="course-pkg-list">
+										<li><i class="fa fa-check-circle"></i> <span>Everything in PowerPlay Course Included</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Advanced Performance Max & E-Commerce Shopping Ads</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Server-Side Enhanced Conversion Tracking & GTM DataLayers</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Landing Page CRO, A/B Testing & Heatmap Optimization</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Managing Real Live Agency Ad Budgets & Looker Dashboards</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Guaranteed 1-Month Agency Live Account Internship</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>15+ Google Ads & HubSpot Certifications (Search, Display, Video, Apps)</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Dedicated 1-on-1 Mentorship with Gaurav Dubey</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>100% Guaranteed Placement Assistance with Mock Interviews</span></li>
+									</ul>
+								</div>
+
+								<div class="course-pkg-action">
+									<a href="#kdm-hero-lead-form" class="btn-course-pkg pulse-btn">Enroll in Mastery &amp; Internship <i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     8. BONUS SECTION (DARK)
+			     ========================================================================== -->
+			<section class="bonus-section-dark">
+				<div class="container">
+					<div class="bonus-header">
+						<span class="bonus-badge">EXCLUSIVE BONUS GIFTS</span>
+						<h2>Complimentary Career Boosters Worth ₹25,000+</h2>
+						<p>Enroll this month and unlock high-value premium bonuses designed to supercharge your career and freelancing success.</p>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4 mb-4">
+							<div class="bonus-card-dark">
+								<div class="bonus-icon"><i class="fa fa-robot"></i></div>
+								<h4>AI Masterclass &amp; Prompt Pack</h4>
+								<p>500+ curated AI prompts and workflow automation scripts for 10x faster campaign execution.</p>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="bonus-card-dark">
+								<div class="bonus-icon"><i class="fa fa-briefcase"></i></div>
+								<h4>Freelancing Blueprint</h4>
+								<p>Client proposal templates, contract agreements, rate cards, and international client acquisition secrets.</p>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="bonus-card-dark">
+								<div class="bonus-icon"><i class="fa fa-users"></i></div>
+								<h4>Lifetime Alumni Community</h4>
+								<p>Continuous algorithm updates, job openings channel, agency referral network, and mentor access.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     9. STARTING SALARY MATRIX
+			     ========================================================================== -->
+			<section class="container">
+				<div class="job-opportunities-wrapper">
+					<div class="text-center mb-5">
+						<span class="kdm-section-badge">CAREER GROWTH &amp; ROI</span>
+						<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 10px;">
+							Salary Progression &amp; <span class="highlight-text">Job Opportunities</span>
+						</h2>
+						<p style="font-size: 16px; color: #64748b; max-width: 750px; margin: 0 auto;">
+							Understand exact career designations, expected starting salary bands, and career growth trajectories in top digital agencies and enterprises.
+						</p>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">Junior PPC Executive</h4>
+									<span class="salary-exp-badge">0 - 1 Year</span>
+								</div>
+								<div class="salary-amount-highlight">₹3.5 LPA - ₹5.0 LPA</div>
+								<p class="salary-desc-text">Keyword additions, negative list maintenance, ad copy testing, weekly search term reviews</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">PPC / Performance Marketing Specialist</h4>
+									<span class="salary-exp-badge">1 - 3 Years</span>
+								</div>
+								<div class="salary-amount-highlight">₹5.0 LPA - ₹8.5 LPA</div>
+								<p class="salary-desc-text">Managing Search & PMax campaigns, conversion tracking, bid adjustments, CRO</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">Senior Media Buyer / PPC Team Lead</h4>
+									<span class="salary-exp-badge">3 - 5 Years</span>
+								</div>
+								<div class="salary-amount-highlight">₹8.5 LPA - ₹14.0 LPA</div>
+								<p class="salary-desc-text">Scaling ₹10L+ monthly ad spends, full-funnel remarketing, multi-channel attribution</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">Head of Performance Marketing / PPC Director</h4>
+									<span class="salary-exp-badge">5+ Years</span>
+								</div>
+								<div class="salary-amount-highlight">₹14.0 LPA - ₹25.0+ LPA</div>
+								<p class="salary-desc-text">P&L responsibility, scaling multi-million revenue for brands, leading agency media teams</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     10. LEAD TRAINER PROFILE
+			     ========================================================================== -->
+			<section class="container">
+				<div class="trainer-section-wrapper">
+					<div class="row align-items-center">
+						<div class="col-md-4 text-center mb-4 mb-md-0">
+							<div class="trainer-photo-frame">
+								<img src="img/about/Gaurav-Dubey.jpg" alt="Mr. Gaurav Dubey - Lead Trainer" class="img-fluid rounded-circle" style="max-width: 220px; border: 4px solid rgba(56, 189, 248, 0.4);" />
+							</div>
+							<h3 style="color: #ffffff; font-size: 24px; font-weight: 800; margin-top: 15px; margin-bottom: 4px;">Mr. Gaurav Dubey</h3>
+							<span style="color: #38bdf8; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Founder &amp; Agency Director</span>
+						</div>
+						<div class="col-md-8">
+							<div class="trainer-bio-content">
+								<span class="badge-trainer-highlight">10+ YEARS REAL AGENCY EXPERIENCE</span>
+								<h2 style="color: #ffffff; font-size: 28px; font-weight: 800; margin-top: 10px; margin-bottom: 15px;">
+									Learn Directly from a Real Agency Founder, Not Just a Classroom Theorist
+								</h2>
+								<p style="color: #cbd5e1; font-size: 15.5px; line-height: 1.65; margin-bottom: 18px;">
+									Mr. Gaurav Dubey has personally handled 500+ client projects across India, USA, UK, UAE, and Australia. As the founder of King of Digital Marketing &amp; Devweboic Technologies, he delivers agency-tested frameworks, secret algorithmic strategies, and 100% practical live case studies.
 								</p>
+								<div class="trainer-highlights-grid">
+									<div class="trainer-pill"><i class="fa fa-google text-warning"></i> Google Certified Professional</div>
+									<div class="trainer-pill"><i class="fa fa-award text-info"></i> 10,000+ Alumni Mentored</div>
+									<div class="trainer-pill"><i class="fa fa-chart-line text-success"></i> ₹10+ Crore Ad Spends Managed</div>
+									<div class="trainer-pill"><i class="fa fa-building text-primary"></i> 500+ Brand Case Studies</div>
+								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</section>
 
-						<!-- Key Pillars -->
-						<div class="kdm-intro-pillars-grid">
-							<div class="kdm-pillar-item">
-								<div class="kdm-pillar-icon">
-									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<circle cx="11" cy="11" r="8"></circle>
-										<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+			<!-- ==========================================================================
+			     11. WORDS OF STUDENTS TESTIMONIAL SLIDER
+			     ========================================================================== -->
+			<section class="kdm-testimonial-section">
+				<div class="container">
+					<div class="kdm-testimonial-header">
+						<span class="kdm-badge-pill">STUDENT SUCCESS STORIES</span>
+						<h2 class="kdm-testimonial-title">Words of Our Successful Students</h2>
+						<p class="kdm-testimonial-subtitle">Hear genuine reviews and placement experiences from graduates who launched high-growth careers with King of Digital Marketing.</p>
+					</div>
+
+					<div class="kdm-testimonial-wrapper">
+						<div class="kdm-testimonial-slides">
+
+							<!-- Slide 1 -->
+							<div class="kdm-testimonial-card active">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
-								<div class="kdm-pillar-text">
-									<strong>Search Ads & Keyword Match Types</strong>
-									<span>Master exact, phrase, and broad match targeting, negative keyword sculpting, and ad extensions.</span>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"King of Digital Marketing is undoubtedly the best training institute in Delhi. The practical approach, live client audits, and Gaurav sir's step-by-step guidance gave me the exact agency experience needed. I got placed within 2 weeks of completing the course!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-1">KP</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Kritika Pandey</h4>
+										<span class="kdm-testimonial-role">Digital Marketing Executive — Delhi</span>
+									</div>
 								</div>
 							</div>
 
-							<div class="kdm-pillar-item">
-								<div class="kdm-pillar-icon">
-									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+							<!-- Slide 2 -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
-								<div class="kdm-pillar-text">
-									<strong>Smart Bidding & ROAS Optimization</strong>
-									<span>Target CPA, Target ROAS, Maximize Conversions, and automated bidding algorithms.</span>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"The 100% practical training on live ad accounts and enterprise tools like Ahrefs and SEMrush set this course apart. Gaurav Dubey sir explains difficult algorithmic concepts in the simplest way possible. Highly recommended!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-2">RP</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Rohit Pal</h4>
+										<span class="kdm-testimonial-role">Performance Marketing Specialist — Noida</span>
+									</div>
 								</div>
 							</div>
 
-							<div class="kdm-pillar-item">
-								<div class="kdm-pillar-icon">
-									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-										<line x1="8" y1="21" x2="16" y2="21"></line>
+							<!-- Slide 3 -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
-								<div class="kdm-pillar-text">
-									<strong>Performance Max & Remarketing</strong>
-									<span>Omnichannel Google asset groups, YouTube video ads, Display retargeting, and Google Shopping.</span>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
+								<p class="kdm-testimonial-quote">
+									"I was able to switch my career into digital marketing smoothly thanks to the internship support and mock interviews. The team provided interview opportunities with top agencies until I secured my dream offer!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-3">MS</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Mehak Sharma</h4>
+										<span class="kdm-testimonial-role">SEO &amp; Content Strategist — Gurgaon</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Navigation Arrows -->
+						<button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+							<i class="fa fa-chevron-left"></i>
+						</button>
+						<button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+							<i class="fa fa-chevron-right"></i>
+						</button>
+
+						<!-- Pagination Dots -->
+						<div class="kdm-testimonial-dots"></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     12. STUDENT VIDEO REVIEWS SHOWCASE
+			     ========================================================================== -->
+			<section class="container">
+				<div class="student-reviews-showcase">
+					<div class="text-center mb-4">
+						<span class="kdm-section-badge">STUDENT VIDEO REVIEWS</span>
+						<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-top: 10px;">
+							Watch Alumni Speak About Their Journey
+						</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-4 mb-3">
+							<div class="review-video-card">
+								<iframe width="100%" height="215" src="https://www.youtube.com/embed/nU_y884y-Z0"
+									title="Student Review 1" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen loading="lazy"></iframe>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<div class="review-video-card">
+								<iframe width="100%" height="215" src="https://www.youtube.com/embed/Z0oY1pY_h9o"
+									title="Student Review 2" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen loading="lazy"></iframe>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<div class="review-video-card">
+								<iframe width="100%" height="215" src="https://www.youtube.com/embed/Y0zY6LgNfFw"
+									title="Student Review 3" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen loading="lazy"></iframe>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+
+			<!-- ==========================================================================
+			     13. CENTRALIZED FAQ SECTION
+			     ========================================================================== -->
+			<section class="kdm-faq-section" id="kdm-faq-section">
+				<div class="container">
+					<div class="kdm-faq-header">
+						<span class="kdm-faq-badge">FREQUENTLY ASKED QUESTIONS</span>
+						<h2>Got Questions? We Have Answers</h2>
+						<p>Everything you need to know about course syllabus, batch schedules, fees, placement assistance, and certifications.</p>
+					</div>
+
+					<div class="kdm-faq-grid">
+						<!-- Left Column: FAQ Accordion List -->
+						<div>
+							<div class="kdm-faq-accordion" id="kdmFaqAccordion">
+								<div class="kdm-faq-item open">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">1. What will I learn in the PPC & Google Ads Course in Delhi?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-up"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will learn complete paid advertising across Google Search Ads, Display Network, YouTube Video Ads, Google Shopping, Performance Max (PMax), Google Tag Manager (GTM), GA4 conversion tracking, and Landing Page CRO.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">2. Will I get to run ads on live Google accounts during the course?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Unlike institutes that only show theory, King of Digital Marketing gives you live budget practice to create campaigns, test ad copies, configure conversion tracking, and analyze actual real-time ad data.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">3. What is the difference between SEO and PPC?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> SEO focuses on gaining organic, non-paid rankings on Google over time, whereas PPC (Pay-Per-Click) involves running paid ads on Google and YouTube to generate instant high-intent leads and sales.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">4. Which certifications will I earn after completing the PPC training?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will earn official Google Ads Search Certification, Google Ads Display Certification, Google Ads Video Certification, Google Analytics 4 Certification, and the King of Digital Marketing Advanced PPC Specialist Certificate.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">5. What is the average starting salary for a PPC Specialist in Delhi NCR?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Fresher PPC Executives typically start between ₹3.5 LPA to ₹5.0 LPA. With 2-3 years of proven experience managing ad budgets profitably, salaries quickly scale to ₹8.0 LPA - ₹15.0+ LPA.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">6. What are the batch timings for working professionals?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer flexible weekday morning/evening batches as well as dedicated weekend batches (Saturday & Sunday) tailored for working professionals and business owners.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">7. Does King of Digital Marketing guarantee job placement support?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide 100% placement assistance, including mock interview rounds with senior agency media buyers, Google Ads case study presentations, resume building, and interview calls until you get placed.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">8. How can I attend a free demo class before enrolling?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can book a free demo session by submitting the lead form on this page or reaching out directly to our South Delhi training center.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Right Column: Course Counseling & Special Scholarship Card -->
+						<div>
+							<div class="kdm-faq-offer-card">
+								<div style="font-size: 11px; font-weight: 800; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+									🎓 ADMISSION OPEN 2026
+								</div>
+								<h4>Talk to Course Mentor</h4>
+								<p style="font-size: 13px; color: #cbd5e1; margin-bottom: 12px; line-height: 1.45;">
+									Get 1-on-1 career guidance and special scholarship offers for upcoming weekday &amp; weekend batches.
+								</p>
+								<div class="box-styling">Special 28% Scholarship</div>
+								<div class="box-offer">✅ 100% Practical Live Projects</div>
+								<div class="box-offer">✅ 20+ Enterprise Tools Covered</div>
+								<div class="box-offer">✅ Agency Internship &amp; Placement</div>
+								<div class="box-offer">✅ 15+ Global Certifications</div>
+								<a href="#kdm-hero-lead-form" class="kdm-faq-offer-btn">
+									Book Free Demo Class <i class="fa fa-arrow-right" style="margin-left: 4px;"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 		</div>
-	</div>
 
-	<!-- Client Logos Section Starts -->
-	<div class="kdm-ppc-clients-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h3 class="kdm-clients-title">Trusted By 800+ Brands & 1850+ Trained Students</h3>
-					<p class="kdm-clients-subtitle">Empowering Careers & Delivering High-ROI Google Ads Campaigns Worldwide</p>
-				</div>
-			</div>
-			<div class="slide-container">
-				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
-					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
-					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
-					<img alt="Olympus" src="images/Olympus_img.webp">
-					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
-				</div>
-				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
-					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
-					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
-					<img alt="Olympus" src="images/Olympus_img.webp">
-					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Curriculum Modules Section Starts -->
-	<div class="kdm-ppc-process-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">COMPREHENSIVE PPC CURRICULUM</span>
-						<h2 class="kdm-ppc-heading">Core Components of <strong class="kdm-highlight">Our PPC Training Course</strong></h2>
-						<p class="kdm-ppc-subheading">An 8-stage practical roadmap designed to transform you into a certified Google Ads specialist.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-ppc-process-grid-3">
-				<!-- 1 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
-								<path d="M15 10l2 7 2-3 3 2-7-6z"></path>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">01</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">PPC Fundamentals & Auction Model</h3>
-					<p class="kdm-ppc-process-desc">Introduction to Pay-Per-Click advertising, Google Ads architecture, Ad Rank equation, Quality Score factors, and CPC bidding mechanics.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<circle cx="11" cy="11" r="8"></circle>
-								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">02</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Keyword Match Types & Negative Lists</h3>
-					<p class="kdm-ppc-process-desc">Broad, phrase, and exact match keyword targeting, negative keyword sculpting, search terms report analysis, and intent filtering.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-								<polyline points="14 2 14 8 20 8"></polyline>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">03</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">High-CTR Ad Copywriting & Extensions</h3>
-					<p class="kdm-ppc-process-desc">Responsive Search Ads (RSA), ad headline hooks, sitelink extensions, callouts, call assets, and AI-driven ad copywriting.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<line x1="12" y1="1" x2="12" y2="23"></line>
-								<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">04</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Bid Strategies & Quality Score</h3>
-					<p class="kdm-ppc-process-desc">Manual CPC vs Smart Bidding (Target CPA, Target ROAS, Maximize Clicks), Quality Score optimization, and landing page relevance.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">05</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Performance Max & Shopping Campaigns</h3>
-					<p class="kdm-ppc-process-desc">Google Merchant Center integration, Performance Max asset group creation, product feed optimization, and e-commerce shopping ads.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-								<circle cx="9" cy="7" r="4"></circle>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">06</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Remarketing & Audience Targeting</h3>
-					<p class="kdm-ppc-process-desc">Google Tag Manager audience pixels, dynamic retargeting banner ads, customer match lists, and in-market demographic segmentation.</p>
-				</div>
-
-				<!-- 7 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<line x1="18" y1="20" x2="18" y2="10"></line>
-								<line x1="12" y1="20" x2="12" y2="4"></line>
-								<line x1="6" y1="20" x2="6" y2="14"></line>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">07</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Conversion Tracking & GA4 Attribution</h3>
-					<p class="kdm-ppc-process-desc">Google Tag Manager conversion setup, call tracking, GA4 event attribution, custom conversion actions, and ROAS calculations.</p>
-				</div>
-
-				<!-- 8 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-								<circle cx="8.5" cy="7" r="4"></circle>
-								<polyline points="17 11 19 13 23 9"></polyline>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">08</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Campaign Audit & Portfolio Building</h3>
-					<p class="kdm-ppc-process-desc">Performing comprehensive Google Ads account audits, client proposal generation, Google Ads Certification, and 100% placement support.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Course Benefits Grid Section Starts -->
-	<div class="kdm-ppc-services-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">STUDENT ADVANTAGES</span>
-						<h2 class="kdm-ppc-heading">Benefits of Enrolling In <strong class="kdm-highlight">Our PPC Course</strong></h2>
-						<p class="kdm-ppc-subheading">Practical pay-per-click skills engineered to launch lucrative agency & media buyer careers.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-ppc-grid">
-				<!-- 1 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
-							<path d="M15 10l2 7 2-3 3 2-7-6z"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Immediate Lead Generation</h3>
-					<p class="kdm-ppc-card-desc">Master techniques to launch live PPC campaigns that drive high-intent sales leads on Day 1.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-							<polyline points="22 4 12 14.01 9 11.01"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">100% Placement Assistance</h3>
-					<p class="kdm-ppc-card-desc">Resume preparation, mock interviews, agency portfolio showcase, and direct hiring in top performance agencies.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<line x1="12" y1="1" x2="12" y2="23"></line>
-							<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Maximized Ad Budget Efficiency</h3>
-					<p class="kdm-ppc-card-desc">Learn negative keyword sculpting and bid adjustments to eliminate wasted ad spend and lower Cost Per Lead (CPL).</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Freelancing & Media Buying</h3>
-					<p class="kdm-ppc-card-desc">Learn how to manage monthly Google Ads retainer accounts for domestic and international clients.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-							<line x1="8" y1="21" x2="16" y2="21"></line>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Google Ads Certification Prep</h3>
-					<p class="kdm-ppc-card-desc">Pass official Google Ads Search, Display, Measurement, and Video certification exams with expert guidance.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="8" r="5"></circle>
-							<path d="M12 13v9m-4-5l4-4 4 4"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Mentorship by Gaurav Dubey</h3>
-					<p class="kdm-ppc-card-desc">Direct strategy guidance from Gaurav Dubey, director of King of Digital Marketing with 13+ Years experience.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Why Choose Us Section Starts -->
-	<div class="kdm-why-hire-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">AGENCY PROOF</span>
-						<h2 class="kdm-why-hire-heading">Why Choose Our <strong class="kdm-highlight">PPC Training Institute?</strong></h2>
-						<p class="kdm-why-hire-subheading">With 1850+ trained students and 100% practical agency exposure, we provide the ultimate career launchpad.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-why-hire-grid">
-				<!-- 1 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="8" r="5"></circle>
-							<path d="M12 13v9m-4-5l4-4 4 4"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Agency-Driven Training</h3>
-					<p class="kdm-why-hire-card-desc">Work directly on active client Google Ads accounts and real advertising budgets.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-							<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">AI & ChatGPT Integration</h3>
-					<p class="kdm-why-hire-card-desc">Learn how to leverage AI tools for ad copy generation, headline variations, and keyword expansion.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">100% Practical Account Audits</h3>
-					<p class="kdm-why-hire-card-desc">Audit live Google Ads accounts to spot wasted budget, low Quality Scores, and expansion opportunities.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="12" r="10"></circle>
-							<polyline points="12 6 12 12 16 14"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Flexible Batches & Backup Classes</h3>
-					<p class="kdm-why-hire-card-desc">Choose weekday or weekend batches with recorded backup sessions for working professionals.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-							<polyline points="22 4 12 14.01 9 11.01"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Verified Experience Certificate</h3>
-					<p class="kdm-why-hire-card-desc">Receive a recognized PPC training certificate and Google Ads certification letter to strengthen your resume.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-							<circle cx="9" cy="7" r="4"></circle>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Lifetime Mentorship Support</h3>
-					<p class="kdm-why-hire-card-desc">Get continuous guidance from Gaurav Dubey and senior performance marketers even after course completion.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- FAQ Section Starts -->
-	<section class="kdm-faq-section">
-		<div class="kdm-faq-container">
-			<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-			<p class="kdm-faq-subtitle">Got questions about our PPC training course? Find clear answers below.</p>
-			
-			<div class="kdm-faq-accordion">
-				<div class="kdm-faq-item active">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.1. What is Pay-per-Click (PPC) advertising, and why is it important?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> PPC is a digital ad model where advertisers pay only when a user clicks their ad. It provides instant visibility on Google search and yields high-ROI leads.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.2. Who can join this PPC & Google Ads training course?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketers, students, entrepreneurs, business owners, and media buyers who want to master Google Ads and performance campaigns.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.3. Will I learn Performance Max (PMax) & Google Shopping Ads?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! The course covers Performance Max asset groups, Merchant Center feed setup, Search Ads, Display Retargeting, and YouTube Video ads.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.4. Do you provide 100% placement assistance?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide complete resume creation, mock interview prep, campaign portfolio showcase, and direct hiring support in top performance agencies.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.5. Are online and offline classroom classes available?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We conduct classroom sessions in Govindpuri, Kalkaji, Delhi, as well as live online interactive classes accessible globally.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.6. Will I get official Google Ads Certification guidance?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We prepare you step-by-step to pass official Google Ads Search, Display, and Video certification exams.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.7. Will I work on real client advertising budgets?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! As an agency-driven institute, you gain hands-on practice managing real client ad accounts, keyword bidding, and campaign optimization.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.8. How can I book a free demo session?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Fill out the inquiry form on this page or call us directly at +91 9555696058 to reserve your free demo class seat.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</div>
-<script src="js/kdm-faq.js"></script>
-</asp:Content>
+		<script src="js/international-page.js"></script>
+		<script src="js/slider.webp" defer></script>
+		<script src="js/kdm-faq.js"></script>
+		<script src="js/kdm-course.js"></script>
+	</asp:Content>

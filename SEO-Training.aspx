@@ -1,643 +1,995 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>SEO Course in Delhi | Best SEO Training Institute in India | King of Digital Marketing</title>
-<meta name="keywords" content="SEO training in Delhi, SEO training course in Delhi, Best SEO Training, Online SEO Training, Best SEO Training in Delhi Mumbai, google certified trainer, Best SEO Course in Delhi">
-<meta name="description" content="Best SEO Course in Delhi. Learn advanced SEO training with Google certified experts online and offline. Master On-Page SEO, Technical Audits, Link Building, AI SEO tools, and Live Agency Projects.">
-<meta property="og:title" content="Best AI-Driven SEO Training Course in Delhi | SEO Institute"/>
-<meta property="og:description" content="Master search engine optimization with 100% practical, agency-based AI-integrated training. Learn Technical SEO, Keyword Research, ChatGPT AI tools, and 100% placement support." />
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://www.kingofdigitalmarketing.com/SEO-Training.aspx" />
-<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/SEO-Training_img.png" />
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://www.kingofdigitalmarketing.com/SEO-Training.aspx" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://cdnjs.cloudflare.com">
-<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
-<link rel="stylesheet" href="css/location-page.css">
-<link rel="stylesheet" href="css/international-page.css">
-<link rel="stylesheet" href="css/packages.css">
-<link rel="stylesheet" href="css/images.css">
-<link rel="stylesheet" href="css/slider.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/home-custom.css?v=25.0">
-<script src="js/kdm-faq.js"></script>
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<div role="main" class="main">
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs"
+	Inherits="PPC_Services" %>
+	<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+		<title>SEO Course in Delhi | Best SEO Training Institute in South Delhi | KDM</title>
+		<meta name="keywords" content="SEO training in Delhi, SEO course in South Delhi, Best SEO Training Institute Delhi, Advanced SEO Course, Technical SEO Training, AI SEO Course Delhi">
+		<meta name="description" content="Best SEO Course in Delhi with 100% Practical Agency Projects. Master Technical SEO, Keyword Research, Link Building, Core Web Vitals, AI SEO & 100% Job Placement.">
+		<meta property="og:title" content="Best AI-Driven SEO Training Course in Delhi | King of Digital Marketing" />
+		<meta property="og:description" content="Master Search Engine Optimization with Google certified experts. 100% practical live projects, technical audits, high-authority backlink building, and placement assistance." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.kingofdigitalmarketing.com/SEO-Training.aspx" />
+		<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/SEO-Training_img.png" />
+		<meta name="twitter:card" content="summary_large_image">
+		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/SEO-Training.aspx" />
+		<meta name="Author" content="King of Digital Marketing, https://www.kingofdigitalmarketing.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+		<link rel="dns-prefetch" href="https://www.youtube.com">
+		<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/location-page.css">
+		<link rel="stylesheet" href="css/international-page.css">
+		<link rel="stylesheet" href="css/packages.css">
+		<link rel="stylesheet" href="css/images.css">
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/home-custom.css?v=25.0">
+		<link rel="stylesheet" href="css/kdm-industry.css">
+		<link rel="stylesheet" href="css/kdm-course.css">
+		<link rel="stylesheet" href="css/kdm-faq.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+		<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "1. What are the prerequisites to join the SEO Training Course in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No prior coding or technical background is required! Basic computer and internet browsing knowledge is all you need. We teach everything from complete search fundamentals to advanced technical SEO step-by-step."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "2. Will I get to work on live client websites during the SEO course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, absolutely! At King of Digital Marketing, training is 100% practical. You will work on live client projects, perform real-time technical audits using tools like Ahrefs and Screaming Frog, and optimize actual web pages for Google ranking."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "3. What is the duration and class schedule for the SEO course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We offer flexible learning options: Fast-Track PowerPlay batch (45 Days), Mastery & Internship batch (3 to 4 Months), as well as Weekend batches specially tailored for working professionals and college students."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "4. Does King of Digital Marketing provide 100% job placement assistance?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We provide complete 100% placement support including professional SEO resume preparation, LinkedIn profile optimization, agency mock technical interviews, and direct interview scheduling with top digital marketing agencies and MNCs in Delhi NCR."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "5. What SEO tools will I learn to use during the training?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You will gain hands-on expertise with 20+ top industry tools including Ahrefs, SEMrush, Screaming Frog SEO Spider, Google Search Console, Google Analytics 4, PageSpeed Insights, Moz Pro, SurferSEO, and AI search tools."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "6. Can I start freelancing or take client SEO projects after this course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Our curriculum includes a dedicated module on Client Acquisition, SEO Proposals, Pricing Structures, and Monthly Deliverable Reporting, enabling you to take on global freelance SEO clients independently."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "7. Will I receive a recognized certification after completing the course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You will receive the prestigious King of Digital Marketing SEO Specialist Certification, along with preparation and guidance for Google Search, Google Analytics, HubSpot, and SEMrush certifications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "8. Can I attend a free demo class before paying the fees?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! You can reserve a free 1-on-1 demo session with our lead instructor Mr. Gaurav Dubey to review the syllabus, discuss your career goals, and inspect our live training methodology."
+            }
+        }
+    ]
+}
+		</script>
+	</asp:Content>
+	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+		<div class="main" role="main">
 
-	<!-- ===== DIGITAL MARKETING COURSE HERO SECTION FORMAT FOR SEO TRAINING ===== -->
-	<div class="locationdetails-hero-section">
-		<div class="locationdetails-intro-content">
-			<span style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 10px;">
-				<i class="fa fa-robot" style="color:#38bdf8;"></i> #1 RATED AI-POWERED SEO TRAINING INSTITUTE IN DELHI
-			</span>
-			<h1 class="ip-h1" style="font-size: 34px; margin-bottom: 12px; line-height: 1.25; font-weight: 900; color: #ffffff;">
-				Best AI-Driven <span style="background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SEO Training Course</span> in Delhi
-			</h1>
-			<p style="font-size: 14px; line-height: 1.5; color: #e2e8f0; margin-bottom: 12px;">
-				King of Digital Marketing is rated #1 SEO training institute in Delhi, providing a 100% practical, agency-based AI-integrated training approach. Master On-Page SEO, Technical Audits, Backlink Engineering, Keyword Research, ChatGPT & AI SEO tools alongside core search engine optimization modules.
-			</p>
-
-			<div style="display: flex; align-items: center; gap: 15px; background: rgba(255, 255, 255, 0.08); padding: 8px 14px; border-radius: 10px; width: fit-content; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.12);">
-				<span style="font-weight: 700; color: #ffd86b; font-size: 13px; text-transform: uppercase;">Trained 1850+ Students</span>
-				<span style="color: rgba(255,255,255,0.3);">|</span>
-				<span style="font-weight: 700; color: #38bdf8; font-size: 13px;">⭐ 4.8 / 5 Rating</span>
-				<span style="color: rgba(255,255,255,0.3);">|</span>
-				<span style="font-weight: 700; color: #4ade80; font-size: 13px;">🤖 100% Practical SEO</span>
-			</div>
-
-			<p style="font-weight: 800; color: #ffffff; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 10px; margin-bottom: 10px;">
-				KEY BENEFITS TO OUR SEO STUDENTS:
-			</p>
-
-			<ul class="locationdetails-benefits-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 6px 12px; margin-top: 5px; padding-left: 0; list-style: none;">
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Advanced Technical SEO</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Keyword & Intent Analysis</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> ChatGPT & AI SEO Tools</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> On-Page & Schema Markup</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> High-DA Link Building</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Google Search Console</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Ahrefs & SEMrush Mastery</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Local SEO & GMB Optimization</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 100% Practical Training</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Live Agency Projects</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Internship Opportunities</li>
-				<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;"><i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 100% Placement Support</li>
-			</ul>
-		</div>
-
-		<div style="flex: 0 0 380px; max-width: 100%;">
-			<iframe scrolling="no" src="digital-course-form.aspx" style="height: 385px; width: 100%; border: none; overflow: hidden;" width="100%"></iframe>
-		</div>
-	</div>
-	<!-- ===== END DIGITAL MARKETING COURSE HERO SECTION ===== -->
-
-	<!-- Overview Intro Section Starts -->
-	<div class="kdm-intro-ppc-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="kdm-intro-card">
-						<div class="kdm-intro-header-row">
-							<span class="kdm-badge-pill">AGENCY-BASED SEO MASTERY</span>
-							<h2 class="kdm-intro-heading">Master Search Engine Optimization With <strong class="kdm-highlight">Live Agency Projects</strong></h2>
-						</div>
-						
-						<p class="kdm-intro-lead-text">
-							In the digital age, search engine optimization (SEO) is the single most critical skill for digital marketers, entrepreneurs, and website owners seeking sustained organic traffic.
-						</p>
-
-						<p class="kdm-intro-body-text">
-							Recognizing the evolving nature of search engine algorithms, <strong>King of Digital Marketing</strong> provides an agency-integrated SEO training course in Delhi. Led by founder <strong>Gaurav Dubey</strong>, you will master technical audits, keyword intent research, on-page content optimization, authority link building, and AI-powered SEO automation using real client websites.
-						</p>
-
-						<!-- Callout Banner -->
-						<div class="kdm-intro-callout-box">
-							<div class="kdm-callout-icon-wrap">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="11" cy="11" r="8"></circle>
-									<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-								</svg>
+			<!-- ==========================================================================
+			     1. HERO SECTION WITH FLOATING LEAD FORM
+			     ========================================================================== -->
+			<section class="kdm-course-hero-wrapper">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-7 col-lg-7">
+							<div class="kdm-hero-badge">
+								<span class="badge-pulse"></span> 🔥 #1 RATED PRACTICAL SEO COURSE IN SOUTH DELHI
 							</div>
-							<div class="kdm-callout-content">
-								<h4 class="kdm-callout-title">100% Practical SEO Training On Active Client Domains</h4>
-								<p class="kdm-callout-text">
-									Learn by doing—get hands-on access to live Google Search Console accounts, Ahrefs keyword databases, SEMrush competitor analysis, and real backlink outreach campaigns.
+							<h1 class="kdm-hero-title">
+								Advanced SEO Training Course &amp; <span class="highlight-text">AI Search Mastery</span>
+							</h1>
+							<p class="kdm-hero-lead-text">
+								Master High-Authority Ranking Strategies, Technical Audits, Generative Engine Optimization (GEO), and Live Agency Projects with 100% Placement Assistance.
+							</p>
+
+							<div class="kdm-hero-features-grid">
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>100% Practical On-Page, Off-Page &amp; Technical SEO Audits</span>
+								</div>
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>Master 20+ Premium SEO Tools (Ahrefs, SEMrush, Screaming Frog)</span>
+								</div>
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>Live Client Ranking Projects &amp; Guaranteed Agency Internship</span>
+								</div>
+								<div class="hero-feature-item">
+									<i class="fa fa-check-circle"></i>
+									<span>100% Placement Support with ₹3.5 LPA - ₹10 LPA Salary Packages</span>
+								</div>
+							</div>
+
+							<!-- Course Quick Stats Pill -->
+							<div class="kdm-hero-stats-bar">
+								<div class="hero-stat-box">
+									<span class="stat-digit">100%</span>
+									<span class="stat-label">Practical Live Projects</span>
+								</div>
+								<div class="hero-stat-divider"></div>
+								<div class="hero-stat-box">
+									<span class="stat-digit">15+</span>
+									<span class="stat-label">Global Certifications</span>
+								</div>
+								<div class="hero-stat-divider"></div>
+								<div class="hero-stat-box">
+									<span class="stat-digit">4.9★</span>
+									<span class="stat-label">Verified Student Rating</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- Right Column: Quick Admission / Demo Class Lead Form -->
+						<div class="col-md-5 col-lg-5">
+							<div class="kdm-hero-form-card" id="kdm-hero-lead-form">
+								<div class="form-header-badge">🎓 ADMISSIONS OPEN 2026</div>
+								<h3>Book Free SEO Demo Class</h3>
+								<p>Fill details to get course syllabus, free trial class &amp; special scholarship voucher.</p>
+								<div class="hero-form-inner">
+									<div class="form-group mb-3">
+										<input type="text" class="form-control kdm-input" name="txtName"
+											placeholder="Your Full Name *" required />
+									</div>
+									<div class="form-group mb-3">
+										<input type="tel" class="form-control kdm-input" name="txtPhone"
+											placeholder="Mobile Number (WhatsApp) *" required />
+									</div>
+									<div class="form-group mb-3">
+										<input type="email" class="form-control kdm-input" name="txtEmail"
+											placeholder="Email Address *" required />
+									</div>
+									<div class="form-group mb-3">
+										<select class="form-control kdm-input" name="ddlBatch">
+											<option value="">Preferred Batch Timing</option>
+											<option value="Weekday Morning">Weekday Morning (10:00 AM - 12:00 PM)</option>
+											<option value="Weekday Afternoon">Weekday Afternoon (02:00 PM - 04:00 PM)</option>
+											<option value="Weekend Special">Weekend Special (Sat &amp; Sun)</option>
+											<option value="Online Interactive">Online Live Interactive Batch</option>
+										</select>
+									</div>
+									<button type="submit" class="btn btn-kdm-hero-submit w-100">
+										<i class="fa fa-paper-plane mr-2"></i> Book Free Demo Class Now
+									</button>
+									<div class="form-privacy-note">
+										<i class="fa fa-lock"></i> 100% Privacy Protected. No Spam Guaranteed.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     2. SECTION 5 CREDENTIALS & STATS BAR
+			     ========================================================================== -->
+			<section class="kdm-credentials-white-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">10+</div>
+								<div class="kdm-credentials-label">Years of SEO Agency Excellence</div>
+								<div class="kdm-credentials-sub">Google certified trainers</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">8,500+</div>
+								<div class="kdm-credentials-label">SEO Specialists Trained</div>
+								<div class="kdm-credentials-sub">Placed across top agencies</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">100%</div>
+								<div class="kdm-credentials-label">Practical Live Audits</div>
+								<div class="kdm-credentials-sub">Work on active client domains</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 mb-4">
+							<div class="kdm-credentials-box">
+								<div class="kdm-credentials-number">4.9/5</div>
+								<div class="kdm-credentials-label">Student Satisfaction Rating</div>
+								<div class="kdm-credentials-sub">Based on 1,200+ student reviews</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     3. CLASSROOM & CAMPUS LIFE GALLERY
+			     ========================================================================== -->
+			<section class="students-gallery-section">
+				<div class="container">
+					<div class="students-gallery-header">
+						<h2>Life at King of Digital Marketing Institute</h2>
+						<p>Experience real agency culture, hands-on masterclasses, live client audits, and collaborative learning.</p>
+					</div>
+					<div class="gallery-grid">
+						<div class="gallery-card">
+							<img src="img/course/1.jpg" alt="Practical Training Session" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Hands-On Practice</span>
+								<h4>Live Campaign Workshop</h4>
+							</div>
+						</div>
+						<div class="gallery-card">
+							<img src="img/course/2.jpg" alt="Student Presentation" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Strategy</span>
+								<h4>Agency Pitch &amp; Audit</h4>
+							</div>
+						</div>
+						<div class="gallery-card">
+							<img src="img/course/3.jpg" alt="Classroom Interactive" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Mentorship</span>
+								<h4>1-on-1 Guidance</h4>
+							</div>
+						</div>
+						<div class="gallery-card">
+							<img src="img/course/4.jpg" alt="Certificate Celebration" loading="lazy">
+							<div class="gallery-overlay">
+								<span class="gallery-tag">Success</span>
+								<h4>Placement &amp; Convocation</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     4. COMPREHENSIVE CURRICULUM & MODULES GRID
+			     ========================================================================== -->
+			<section class="career-opportunities-section">
+				<div class="container">
+					<div class="career-header-box">
+						<span class="career-badge">PROVEN AGENCY SYLLABUS</span>
+						<h2 class="career-title">Comprehensive <span class="highlight-gradient">SEO Training Modules</span> &amp; Career Roadmap</h2>
+						<p class="career-subtitle">Step-by-step master curriculum designed by senior SEO directors covering modern organic ranking algorithms, AI search, and technical infrastructure.</p>
+					</div>
+
+					<div class="kdm-about-careers-grid">
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">01</span>
+								</div>
+								<h3 class="kdm-career-role-title">SEO Fundamentals &amp; Search Architecture</h3>
+							</div>
+							<p class="kdm-career-role-desc">How search engines crawl, index, render, and rank web pages. Understanding Google algorithms (Helpful Content, Core Updates, RankBrain).</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">02</span>
+								</div>
+								<h3 class="kdm-career-role-title">Advanced Keyword Research &amp; Search Intent</h3>
+							</div>
+							<p class="kdm-career-role-desc">Competitor gap analysis, transactional vs informational intent mapping, long-tail keyword clustering using Ahrefs &amp; SEMrush.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">03</span>
+								</div>
+								<h3 class="kdm-career-role-title">On-Page SEO &amp; Content Optimization</h3>
+							</div>
+							<p class="kdm-career-role-desc">Meta tags, schema-ready heading hierarchy, content depth optimization, keyword density, NLP optimization, and internal link silos.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">04</span>
+								</div>
+								<h3 class="kdm-career-role-title">Technical SEO &amp; Core Web Vitals</h3>
+							</div>
+							<p class="kdm-career-role-desc">XML Sitemaps, Robots.txt, Canonicalization, Index Coverage, 404/301 redirects, LCP, INP, CLS page speed optimization.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">05</span>
+								</div>
+								<h3 class="kdm-career-role-title">Schema Markup &amp; Structured Data</h3>
+							</div>
+							<p class="kdm-career-role-desc">JSON-LD structured data implementation for FAQs, Articles, Local Business, Products, Breadcrumbs, and Rich Snippet generation.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">06</span>
+								</div>
+								<h3 class="kdm-career-role-title">High-Authority Link Building &amp; Outreach</h3>
+							</div>
+							<p class="kdm-career-role-desc">White-hat backlink acquisition, guest posting outreach, digital PR, skyscraper technique, broken link reclamation, and Tier-1 link velocity.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">07</span>
+								</div>
+								<h3 class="kdm-career-role-title">Local SEO &amp; Google Business Profile (GBP)</h3>
+							</div>
+							<p class="kdm-career-role-desc">Google Map 3-Pack rankings, NAP consistency, local citation building, review automation, and geo-targeted landing page structure.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">08</span>
+								</div>
+								<h3 class="kdm-career-role-title">eCommerce SEO &amp; Marketplace Optimization</h3>
+							</div>
+							<p class="kdm-career-role-desc">Optimizing Shopify, WooCommerce, and Magento stores for high-converting category filters, product schema, and faceted navigation.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">09</span>
+								</div>
+								<h3 class="kdm-career-role-title">International &amp; Multilingual SEO</h3>
+							</div>
+							<p class="kdm-career-role-desc">Hreflang tags, ccTLD vs subdirectory setup, geo-targeting in Google Search Console, and localized search query analysis.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">10</span>
+								</div>
+								<h3 class="kdm-career-role-title">AI-Powered SEO &amp; Generative Engine Search (GEO)</h3>
+							</div>
+							<p class="kdm-career-role-desc">Using ChatGPT, Claude, and Perplexity for content briefs, automated audit scripts, semantic search alignment, and SGE optimization.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">11</span>
+								</div>
+								<h3 class="kdm-career-role-title">Google Search Console &amp; Analytics (GA4)</h3>
+							</div>
+							<p class="kdm-career-role-desc">Performance reports, crawl stats, search queries CTR optimization, custom conversion events, and organic traffic attribution.</p>
+						</div>
+						<div class="kdm-career-role-card">
+							<div class="kdm-career-role-header">
+								<div class="kdm-career-role-icon">
+									<span class="role-num">12</span>
+								</div>
+								<h3 class="kdm-career-role-title">Live Agency Project &amp; Client SEO Reporting</h3>
+							</div>
+							<p class="kdm-career-role-desc">Full end-to-end SEO audit for a live business, creating professional client pitch decks, ranking reports, and agency workflow.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     5. TOOLS WE COVER SECTION
+			     ========================================================================== -->
+			<section class="tools-covered-section">
+				<div class="container">
+					<div class="text-center mb-5">
+						<span class="kdm-section-badge">INDUSTRY STANDARD STACK</span>
+						<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 10px;">
+							Master 20+ Premium <span class="highlight-text">Software &amp; AI Tools</span>
+						</h2>
+						<p style="font-size: 16px; color: #64748b; max-width: 700px; margin: 0 auto;">
+							Gain hands-on proficiency on enterprise software used daily by top digital agencies and global brands.
+						</p>
+					</div>
+
+					<div class="tools-grid-container">
+						<div class="tool-pill">
+							<i class="fa fa-search"></i>
+							<span>Ahrefs</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-chart-line"></i>
+							<span>SEMrush</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-spider"></i>
+							<span>Screaming Frog</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-google"></i>
+							<span>Google Search Console</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-chart-pie"></i>
+							<span>Google Analytics 4</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-bolt"></i>
+							<span>PageSpeed Insights</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-robot"></i>
+							<span>ChatGPT SEO Pro</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-map-marker-alt"></i>
+							<span>Google Business Profile</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-code"></i>
+							<span>Schema Generator</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-file-alt"></i>
+							<span>SurferSEO / Frase</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-globe"></i>
+							<span>Moz Pro</span>
+						</div>
+						<div class="tool-pill">
+							<i class="fa fa-key"></i>
+							<span>Ubersuggest</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     6. BATCH SCHEDULE & ADMISSION DETAILS
+			     ========================================================================== -->
+			<section class="batches-section">
+				<div class="container">
+					<div class="batches-header">
+						<h2>Upcoming Training Batches &amp; Timings</h2>
+						<p>Choose the batch schedule that fits your routine. Small batch size (8-10 students) for 100% individual attention.</p>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4 mb-4">
+							<div class="batch-card">
+								<span class="batch-type">WEEKDAY REGULAR</span>
+								<h4>Morning Batch</h4>
+								<div class="batch-time"><i class="fa fa-clock-o"></i> 10:00 AM - 12:00 PM</div>
+								<p class="batch-days">Monday to Friday (2 Hours Daily)</p>
+								<div class="batch-status status-open">Seats Available (Admissions Open)</div>
+								<a href="#kdm-hero-lead-form" class="btn btn-batch">Reserve Seat</a>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="batch-card popular">
+								<div class="batch-badge-hot">MOST POPULAR</div>
+								<span class="batch-type">WEEKDAY AFTERNOON</span>
+								<h4>Professional Batch</h4>
+								<div class="batch-time"><i class="fa fa-clock-o"></i> 02:00 PM - 04:00 PM</div>
+								<p class="batch-days">Monday to Friday (2 Hours Daily)</p>
+								<div class="batch-status status-filling">Fast Filling (Only 3 Seats Left)</div>
+								<a href="#kdm-hero-lead-form" class="btn btn-batch">Reserve Seat</a>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="batch-card">
+								<span class="batch-type">WEEKEND SPECIAL</span>
+								<h4>Working Professionals</h4>
+								<div class="batch-time"><i class="fa fa-clock-o"></i> 11:00 AM - 03:00 PM</div>
+								<p class="batch-days">Saturday &amp; Sunday (4 Hours Daily)</p>
+								<div class="batch-status status-open">Seats Available (Admissions Open)</div>
+								<a href="#kdm-hero-lead-form" class="btn btn-batch">Reserve Seat</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     7. 2-PACKAGE PRICING COMPARISON GRID
+			     ========================================================================== -->
+			<section class="various-courses-section">
+				<div class="container">
+					<div class="various-courses-header">
+						<span class="pkg-header-badge">TRAINING PACKAGES</span>
+						<h2>Choose Your Training Program</h2>
+						<p>Flexible packages designed to match your immediate career goals, whether rapid fast-track skills or complete mastery with agency internship.</p>
+					</div>
+
+					<div class="row justify-content-center">
+						<!-- Package 1: PowerPlay -->
+						<div class="col-lg-6 col-md-6 mb-4">
+							<div class="course-pkg-card h-100">
+								<div class="course-pkg-top">
+									<div class="course-pkg-badge">⚡ FAST-TRACK PROGRAM</div>
+									<h3 class="course-pkg-name">SEO PowerPlay Course</h3>
+									<p class="course-pkg-tagline">Fast-Track Practical SEO Mastery</p>
+									<div class="course-pkg-price-wrap">
+										<span class="course-pkg-price">₹18,999</span>
+										<span class="course-pkg-orig">₹28,000</span>
+										<span class="course-pkg-tax">+ GST</span>
+									</div>
+									<div class="course-pkg-duration"><i class="fa fa-calendar-check-o"></i> Duration: 45 Days (Daily 2 Hrs) / Weekend 2.5 Months</div>
+									<p class="course-pkg-desc">Perfect for freelancers, content writers, website owners & freshers seeking rapid hands-on practical SEO skills.</p>
+								</div>
+
+								<div class="course-pkg-features-wrap">
+									<div class="course-pkg-subgroup-title">What You'll Learn &amp; Receive:</div>
+									<ul class="course-pkg-list">
+										<li><i class="fa fa-check-circle"></i> <span>Full On-Page, Off-Page & Local SEO Curriculum</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Ahrefs, SEMrush & Screaming Frog Live Practice</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Google Search Console & GA4 Setup</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>5+ Live Website Optimization Assignments</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>King of Digital Marketing SEO Course Certificate</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Resume Preparation & Job Interview Guidance</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>100% Placement Assistance</span></li>
+									</ul>
+								</div>
+
+								<div class="course-pkg-action">
+									<a href="#kdm-hero-lead-form" class="btn-course-pkg">Enroll in PowerPlay <i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Package 2: Mastery -->
+						<div class="col-lg-6 col-md-6 mb-4">
+							<div class="course-pkg-card featured h-100">
+								<div class="course-pkg-featured-badge">MOST RECOMMENDED</div>
+								<div class="course-pkg-top">
+									<div class="course-pkg-badge hot">🏆 MOST POPULAR & ADVANCED</div>
+									<h3 class="course-pkg-name">SEO Mastery & Agency Internship</h3>
+									<p class="course-pkg-tagline">Complete End-to-End Enterprise SEO Mastery</p>
+									<div class="course-pkg-price-wrap">
+										<span class="course-pkg-price highlight">₹29,999</span>
+										<span class="course-pkg-orig">₹45,000</span>
+										<span class="course-pkg-tax">+ GST</span>
+									</div>
+									<div class="course-pkg-duration"><i class="fa fa-calendar-check-o"></i> Duration: 3 Months + 1 Month Guaranteed Agency Internship</div>
+									<p class="course-pkg-desc">Designed for professionals aiming for high-paying SEO Manager, Lead Specialist, or independent SEO Agency Director roles.</p>
+								</div>
+
+								<div class="course-pkg-features-wrap">
+									<div class="course-pkg-subgroup-title">Complete Mastery &amp; Agency Suite:</div>
+									<ul class="course-pkg-list">
+										<li><i class="fa fa-check-circle"></i> <span>Everything in PowerPlay Course Included</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Advanced Technical SEO & Enterprise Website Audits</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Core Web Vitals & Server-Level Performance Fixes</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Generative AI SEO & Perplexity / SGE Optimization</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>High-Authority Backlink Outreach & Digital PR Systems</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Guaranteed 1-Month Agency Live Account Internship</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>15+ Global Certifications (Google, HubSpot, SEMrush, KDM)</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>Dedicated 1-on-1 Mentorship with Gaurav Dubey</span></li>
+										<li><i class="fa fa-check-circle"></i> <span>100% Guaranteed Placement Assistance with Mock Interviews</span></li>
+									</ul>
+								</div>
+
+								<div class="course-pkg-action">
+									<a href="#kdm-hero-lead-form" class="btn-course-pkg pulse-btn">Enroll in Mastery &amp; Internship <i class="fa fa-arrow-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     8. BONUS SECTION (DARK)
+			     ========================================================================== -->
+			<section class="bonus-section-dark">
+				<div class="container">
+					<div class="bonus-header">
+						<span class="bonus-badge">EXCLUSIVE BONUS GIFTS</span>
+						<h2>Complimentary Career Boosters Worth ₹25,000+</h2>
+						<p>Enroll this month and unlock high-value premium bonuses designed to supercharge your career and freelancing success.</p>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4 mb-4">
+							<div class="bonus-card-dark">
+								<div class="bonus-icon"><i class="fa fa-robot"></i></div>
+								<h4>AI Masterclass &amp; Prompt Pack</h4>
+								<p>500+ curated AI prompts and workflow automation scripts for 10x faster campaign execution.</p>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="bonus-card-dark">
+								<div class="bonus-icon"><i class="fa fa-briefcase"></i></div>
+								<h4>Freelancing Blueprint</h4>
+								<p>Client proposal templates, contract agreements, rate cards, and international client acquisition secrets.</p>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="bonus-card-dark">
+								<div class="bonus-icon"><i class="fa fa-users"></i></div>
+								<h4>Lifetime Alumni Community</h4>
+								<p>Continuous algorithm updates, job openings channel, agency referral network, and mentor access.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     9. STARTING SALARY MATRIX
+			     ========================================================================== -->
+			<section class="container">
+				<div class="job-opportunities-wrapper">
+					<div class="text-center mb-5">
+						<span class="kdm-section-badge">CAREER GROWTH &amp; ROI</span>
+						<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 10px;">
+							Salary Progression &amp; <span class="highlight-text">Job Opportunities</span>
+						</h2>
+						<p style="font-size: 16px; color: #64748b; max-width: 750px; margin: 0 auto;">
+							Understand exact career designations, expected starting salary bands, and career growth trajectories in top digital agencies and enterprises.
+						</p>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">Junior SEO Executive</h4>
+									<span class="salary-exp-badge">0 - 1 Year</span>
+								</div>
+								<div class="salary-amount-highlight">₹3.0 LPA - ₹4.5 LPA</div>
+								<p class="salary-desc-text">Keyword research, On-Page updates, citation building, blog formatting</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">SEO Specialist / Analyst</h4>
+									<span class="salary-exp-badge">1 - 3 Years</span>
+								</div>
+								<div class="salary-amount-highlight">₹4.5 LPA - ₹7.5 LPA</div>
+								<p class="salary-desc-text">Technical site audits, backlink strategy, GA4 reporting, competitor teardowns</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">Senior SEO Strategist / Team Lead</h4>
+									<span class="salary-exp-badge">3 - 5 Years</span>
+								</div>
+								<div class="salary-amount-highlight">₹7.5 LPA - ₹12.0 LPA</div>
+								<p class="salary-desc-text">Enterprise site migrations, international SEO, AI workflow automation</p>
+							</div>
+						</div>
+						<div class="col-md-6 mb-4">
+							<div class="salary-level-card">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<h4 class="salary-role-title">SEO Manager / Head of Organic Growth</h4>
+									<span class="salary-exp-badge">5+ Years</span>
+								</div>
+								<div class="salary-amount-highlight">₹12.0 LPA - ₹22.0+ LPA</div>
+								<p class="salary-desc-text">Leading multi-member SEO teams, multi-million traffic growth roadmaps</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     10. LEAD TRAINER PROFILE
+			     ========================================================================== -->
+			<section class="container">
+				<div class="trainer-section-wrapper">
+					<div class="row align-items-center">
+						<div class="col-md-4 text-center mb-4 mb-md-0">
+							<div class="trainer-photo-frame">
+								<img src="img/about/Gaurav-Dubey.jpg" alt="Mr. Gaurav Dubey - Lead Trainer" class="img-fluid rounded-circle" style="max-width: 220px; border: 4px solid rgba(56, 189, 248, 0.4);" />
+							</div>
+							<h3 style="color: #ffffff; font-size: 24px; font-weight: 800; margin-top: 15px; margin-bottom: 4px;">Mr. Gaurav Dubey</h3>
+							<span style="color: #38bdf8; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Founder &amp; Agency Director</span>
+						</div>
+						<div class="col-md-8">
+							<div class="trainer-bio-content">
+								<span class="badge-trainer-highlight">10+ YEARS REAL AGENCY EXPERIENCE</span>
+								<h2 style="color: #ffffff; font-size: 28px; font-weight: 800; margin-top: 10px; margin-bottom: 15px;">
+									Learn Directly from a Real Agency Founder, Not Just a Classroom Theorist
+								</h2>
+								<p style="color: #cbd5e1; font-size: 15.5px; line-height: 1.65; margin-bottom: 18px;">
+									Mr. Gaurav Dubey has personally handled 500+ client projects across India, USA, UK, UAE, and Australia. As the founder of King of Digital Marketing &amp; Devweboic Technologies, he delivers agency-tested frameworks, secret algorithmic strategies, and 100% practical live case studies.
 								</p>
+								<div class="trainer-highlights-grid">
+									<div class="trainer-pill"><i class="fa fa-google text-warning"></i> Google Certified Professional</div>
+									<div class="trainer-pill"><i class="fa fa-award text-info"></i> 10,000+ Alumni Mentored</div>
+									<div class="trainer-pill"><i class="fa fa-chart-line text-success"></i> ₹10+ Crore Ad Spends Managed</div>
+									<div class="trainer-pill"><i class="fa fa-building text-primary"></i> 500+ Brand Case Studies</div>
+								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</section>
 
-						<!-- Key Pillars -->
-						<div class="kdm-intro-pillars-grid">
-							<div class="kdm-pillar-item">
-								<div class="kdm-pillar-icon">
-									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<circle cx="11" cy="11" r="8"></circle>
-										<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+			<!-- ==========================================================================
+			     11. WORDS OF STUDENTS TESTIMONIAL SLIDER
+			     ========================================================================== -->
+			<section class="kdm-testimonial-section">
+				<div class="container">
+					<div class="kdm-testimonial-header">
+						<span class="kdm-badge-pill">STUDENT SUCCESS STORIES</span>
+						<h2 class="kdm-testimonial-title">Words of Our Successful Students</h2>
+						<p class="kdm-testimonial-subtitle">Hear genuine reviews and placement experiences from graduates who launched high-growth careers with King of Digital Marketing.</p>
+					</div>
+
+					<div class="kdm-testimonial-wrapper">
+						<div class="kdm-testimonial-slides">
+
+							<!-- Slide 1 -->
+							<div class="kdm-testimonial-card active">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
-								<div class="kdm-pillar-text">
-									<strong>Technical SEO Audits</strong>
-									<span>Master crawl budget leaks, site speed optimization, schema markup & Core Web Vitals.</span>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"King of Digital Marketing is undoubtedly the best training institute in Delhi. The practical approach, live client audits, and Gaurav sir's step-by-step guidance gave me the exact agency experience needed. I got placed within 2 weeks of completing the course!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-1">KP</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Kritika Pandey</h4>
+										<span class="kdm-testimonial-role">Digital Marketing Executive — Delhi</span>
+									</div>
 								</div>
 							</div>
 
-							<div class="kdm-pillar-item">
-								<div class="kdm-pillar-icon">
-									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-										<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+							<!-- Slide 2 -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
-								<div class="kdm-pillar-text">
-									<strong>White-Hat Backlink Engineering</strong>
-									<span>Learn guest blogging, editorial PR outreach, Web 2.0 authority, and competitor link building.</span>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"The 100% practical training on live ad accounts and enterprise tools like Ahrefs and SEMrush set this course apart. Gaurav Dubey sir explains difficult algorithmic concepts in the simplest way possible. Highly recommended!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-2">RP</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Rohit Pal</h4>
+										<span class="kdm-testimonial-role">Performance Marketing Specialist — Noida</span>
+									</div>
 								</div>
 							</div>
 
-							<div class="kdm-pillar-item">
-								<div class="kdm-pillar-icon">
-									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-										<polyline points="22 4 12 14.01 9 11.01"></polyline>
+							<!-- Slide 3 -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
-								<div class="kdm-pillar-text">
-									<strong>AI Tools & ChatGPT SEO</strong>
-									<span>Leverage AI for keyword clustering, automated content outlines & SERP intent analysis.</span>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
+								<p class="kdm-testimonial-quote">
+									"I was able to switch my career into digital marketing smoothly thanks to the internship support and mock interviews. The team provided interview opportunities with top agencies until I secured my dream offer!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-3">MS</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Mehak Sharma</h4>
+										<span class="kdm-testimonial-role">SEO &amp; Content Strategist — Gurgaon</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Navigation Arrows -->
+						<button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+							<i class="fa fa-chevron-left"></i>
+						</button>
+						<button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+							<i class="fa fa-chevron-right"></i>
+						</button>
+
+						<!-- Pagination Dots -->
+						<div class="kdm-testimonial-dots"></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==========================================================================
+			     12. STUDENT VIDEO REVIEWS SHOWCASE
+			     ========================================================================== -->
+			<section class="container">
+				<div class="student-reviews-showcase">
+					<div class="text-center mb-4">
+						<span class="kdm-section-badge">STUDENT VIDEO REVIEWS</span>
+						<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-top: 10px;">
+							Watch Alumni Speak About Their Journey
+						</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-4 mb-3">
+							<div class="review-video-card">
+								<iframe width="100%" height="215" src="https://www.youtube.com/embed/nU_y884y-Z0"
+									title="Student Review 1" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen loading="lazy"></iframe>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<div class="review-video-card">
+								<iframe width="100%" height="215" src="https://www.youtube.com/embed/Z0oY1pY_h9o"
+									title="Student Review 2" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen loading="lazy"></iframe>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<div class="review-video-card">
+								<iframe width="100%" height="215" src="https://www.youtube.com/embed/Y0zY6LgNfFw"
+									title="Student Review 3" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen loading="lazy"></iframe>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
+
+			<!-- ==========================================================================
+			     13. CENTRALIZED FAQ SECTION
+			     ========================================================================== -->
+			<section class="kdm-faq-section" id="kdm-faq-section">
+				<div class="container">
+					<div class="kdm-faq-header">
+						<span class="kdm-faq-badge">FREQUENTLY ASKED QUESTIONS</span>
+						<h2>Got Questions? We Have Answers</h2>
+						<p>Everything you need to know about course syllabus, batch schedules, fees, placement assistance, and certifications.</p>
+					</div>
+
+					<div class="kdm-faq-grid">
+						<!-- Left Column: FAQ Accordion List -->
+						<div>
+							<div class="kdm-faq-accordion" id="kdmFaqAccordion">
+								<div class="kdm-faq-item open">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">1. What are the prerequisites to join the SEO Training Course in Delhi?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-up"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No prior coding or technical background is required! Basic computer and internet browsing knowledge is all you need. We teach everything from complete search fundamentals to advanced technical SEO step-by-step.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">2. Will I get to work on live client websites during the SEO course?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, absolutely! At King of Digital Marketing, training is 100% practical. You will work on live client projects, perform real-time technical audits using tools like Ahrefs and Screaming Frog, and optimize actual web pages for Google ranking.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">3. What is the duration and class schedule for the SEO course?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer flexible learning options: Fast-Track PowerPlay batch (45 Days), Mastery & Internship batch (3 to 4 Months), as well as Weekend batches specially tailored for working professionals and college students.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">4. Does King of Digital Marketing provide 100% job placement assistance?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We provide complete 100% placement support including professional SEO resume preparation, LinkedIn profile optimization, agency mock technical interviews, and direct interview scheduling with top digital marketing agencies and MNCs in Delhi NCR.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">5. What SEO tools will I learn to use during the training?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will gain hands-on expertise with 20+ top industry tools including Ahrefs, SEMrush, Screaming Frog SEO Spider, Google Search Console, Google Analytics 4, PageSpeed Insights, Moz Pro, SurferSEO, and AI search tools.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">6. Can I start freelancing or take client SEO projects after this course?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Our curriculum includes a dedicated module on Client Acquisition, SEO Proposals, Pricing Structures, and Monthly Deliverable Reporting, enabling you to take on global freelance SEO clients independently.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">7. Will I receive a recognized certification after completing the course?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. You will receive the prestigious King of Digital Marketing SEO Specialist Certification, along with preparation and guidance for Google Search, Google Analytics, HubSpot, and SEMrush certifications.</p>
+									</div>
+								</div>
+								<div class="kdm-faq-item ">
+									<button class="kdm-faq-question" type="button">
+										<span class="kdm-q-text">8. Can I attend a free demo class before paying the fees?</span>
+										<span class="kdm-q-icon"><i class="fa fa-chevron-down"></i></span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! You can reserve a free 1-on-1 demo session with our lead instructor Mr. Gaurav Dubey to review the syllabus, discuss your career goals, and inspect our live training methodology.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Right Column: Course Counseling & Special Scholarship Card -->
+						<div>
+							<div class="kdm-faq-offer-card">
+								<div style="font-size: 11px; font-weight: 800; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+									🎓 ADMISSION OPEN 2026
+								</div>
+								<h4>Talk to Course Mentor</h4>
+								<p style="font-size: 13px; color: #cbd5e1; margin-bottom: 12px; line-height: 1.45;">
+									Get 1-on-1 career guidance and special scholarship offers for upcoming weekday &amp; weekend batches.
+								</p>
+								<div class="box-styling">Special 28% Scholarship</div>
+								<div class="box-offer">✅ 100% Practical Live Projects</div>
+								<div class="box-offer">✅ 20+ Enterprise Tools Covered</div>
+								<div class="box-offer">✅ Agency Internship &amp; Placement</div>
+								<div class="box-offer">✅ 15+ Global Certifications</div>
+								<a href="#kdm-hero-lead-form" class="kdm-faq-offer-btn">
+									Book Free Demo Class <i class="fa fa-arrow-right" style="margin-left: 4px;"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 		</div>
-	</div>
 
-	<!-- Client Logos Section Starts -->
-	<div class="kdm-ppc-clients-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h3 class="kdm-clients-title">Trusted By 800+ Brands & 1850+ Trained Students</h3>
-					<p class="kdm-clients-subtitle">Empowering Careers & Ranking Websites #1 on Google Worldwide</p>
-				</div>
-			</div>
-			<div class="slide-container">
-				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
-					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
-					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
-					<img alt="Olympus" src="images/Olympus_img.webp">
-					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
-				</div>
-				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
-					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
-					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
-					<img alt="Olympus" src="images/Olympus_img.webp">
-					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Curriculum Modules Section Starts -->
-	<div class="kdm-ppc-process-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">COMPREHENSIVE SEO CURRICULUM</span>
-						<h2 class="kdm-ppc-heading">Core Components of <strong class="kdm-highlight">Our SEO Training Course</strong></h2>
-						<p class="kdm-ppc-subheading">A 9-stage practical roadmap designed to transform you into an expert SEO strategist.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-ppc-process-grid-3">
-				<!-- 1 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<circle cx="11" cy="11" r="8"></circle>
-								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">01</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Fundamentals of SEO & Algorithms</h3>
-					<p class="kdm-ppc-process-desc">Learn how search engine crawlers work, indexing principles, algorithm updates (Panda, Penguin, Helpful Content), and core SEO terminology.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">02</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Keyword Research & Intent Analysis</h3>
-					<p class="kdm-ppc-process-desc">Master Google Keyword Planner, Ahrefs, SEMrush, long-tail keyword selection, search intent grouping, and competitor gap analysis.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-								<polyline points="14 2 14 8 20 8"></polyline>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">03</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">On-Page SEO & Content Optimization</h3>
-					<p class="kdm-ppc-process-desc">Title & Meta tag creation, H1-H6 structure, URL slug optimization, internal linking, image alt tags, and keyword density rules.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-								<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">04</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Off-Page Authority Link Building</h3>
-					<p class="kdm-ppc-process-desc">High-DA backlink strategies, guest blogging, PR submission, Web 2.0 creation, broken link building, and toxicity audits.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-								<circle cx="12" cy="10" r="3"></circle>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">05</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Local SEO & Google My Business (GMB)</h3>
-					<p class="kdm-ppc-process-desc">Optimizing GMB profiles, local citations, NAP consistency, local reviews management, and ranking in Google Maps 3-Pack.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-								<line x1="8" y1="21" x2="16" y2="21"></line>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">06</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Technical SEO & Web Vitals</h3>
-					<p class="kdm-ppc-process-desc">XML sitemaps, robots.txt, canonicalization, mobile usability, page speed optimization, SSL, and Schema structured data.</p>
-				</div>
-
-				<!-- 7 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M12 2l7 4v6c0 5-3 9-7 10-4-1-7-5-7-10V6l7-4z"></path>
-								<path d="M9 12l2 2 4-4"></path>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">07</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">AI Tools & ChatGPT For SEO</h3>
-					<p class="kdm-ppc-process-desc">Using ChatGPT, Gemini, Midjourney, and AI content assistants for keyword clustering, schema generation, and SERP analysis.</p>
-				</div>
-
-				<!-- 8 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<line x1="18" y1="20" x2="18" y2="10"></line>
-								<line x1="12" y1="20" x2="12" y2="4"></line>
-								<line x1="6" y1="20" x2="6" y2="14"></line>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">08</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">SEO Analytics & Search Console</h3>
-					<p class="kdm-ppc-process-desc">Google Analytics (GA4), Search Console setup, tracking organic impressions, click-through rates (CTR), and conversion goals.</p>
-				</div>
-
-				<!-- 9 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-								<circle cx="8.5" cy="7" r="4"></circle>
-								<polyline points="17 11 19 13 23 9"></polyline>
-							</svg>
-						</div>
-						<span class="kdm-ppc-process-step-num">09</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Live Audit Projects & Placement</h3>
-					<p class="kdm-ppc-process-desc">Conducting full website SEO audits, crafting client proposals, resume preparation, mock interviews, and 100% placement support.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Course Benefits Grid Section Starts -->
-	<div class="kdm-ppc-services-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">STUDENT ADVANTAGES</span>
-						<h2 class="kdm-ppc-heading">Benefits of Enrolling In <strong class="kdm-highlight">Our SEO Course</strong></h2>
-						<p class="kdm-ppc-subheading">Practical skills engineered to launch high-paying digital marketing careers.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-ppc-grid">
-				<!-- 1 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<line x1="18" y1="20" x2="18" y2="10"></line>
-							<line x1="12" y1="20" x2="12" y2="4"></line>
-							<line x1="6" y1="20" x2="6" y2="14"></line>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Enhanced Search Ranking</h3>
-					<p class="kdm-ppc-card-desc">Master techniques to rank websites at the top of Google search results, driving free organic traffic.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-							<polyline points="22 4 12 14.01 9 11.01"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">100% Placement Assistance</h3>
-					<p class="kdm-ppc-card-desc">Resume preparation, mock interviews, agency portfolio showcase, and direct hiring in top companies.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<line x1="12" y1="1" x2="12" y2="23"></line>
-							<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Cost-Effective Marketing</h3>
-					<p class="kdm-ppc-card-desc">SEO offers sustainable, long-term traffic without relying heavily on paid ad budgets.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Freelancing & Client Pitching</h3>
-					<p class="kdm-ppc-card-desc">Learn project cost estimation, proposal creation, client communication, and freelancing lead generation.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-							<line x1="8" y1="21" x2="16" y2="21"></line>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Access to Premium Paid Tools</h3>
-					<p class="kdm-ppc-card-desc">Gain practical experience on paid industry tools like Ahrefs, SEMrush, Google Analytics, and Canva Pro.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-ppc-card">
-					<div class="kdm-ppc-card-accent"></div>
-					<div class="kdm-ppc-icon-box">
-						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="8" r="5"></circle>
-							<path d="M12 13v9m-4-5l4-4 4 4"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-ppc-card-title">Mentorship by Gaurav Dubey</h3>
-					<p class="kdm-ppc-card-desc">Learn strategy directly from Gaurav Dubey, director of King of Digital Marketing with 13+ Years experience.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Why Choose Us Section Starts -->
-	<div class="kdm-why-hire-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">AGENCY PROOF</span>
-						<h2 class="kdm-why-hire-heading">Why Choose Our <strong class="kdm-highlight">SEO Training Institute?</strong></h2>
-						<p class="kdm-why-hire-subheading">With 1850+ trained students and 100% practical agency exposure, we provide the ultimate career launchpad.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-why-hire-grid">
-				<!-- 1 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="8" r="5"></circle>
-							<path d="M12 13v9m-4-5l4-4 4 4"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Agency-Driven Training</h3>
-					<p class="kdm-why-hire-card-desc">Work directly on real client accounts and active website domains rather than theoretical institute slides.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-							<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">AI & ChatGPT Integration</h3>
-					<p class="kdm-why-hire-card-desc">Learn how to leverage AI tools for keyword clustering, content generation, and technical schema creation.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">100% White-Hat Practices</h3>
-					<p class="kdm-why-hire-card-desc">Learn Google Search Essentials compliant SEO tactics that protect websites from algorithm penalties.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="12" r="10"></circle>
-							<polyline points="12 6 12 12 16 14"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Flexible Batches & Backup Classes</h3>
-					<p class="kdm-why-hire-card-desc">Choose weekday or weekend classes with recorded backup sessions for working professionals.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-							<polyline points="22 4 12 14.01 9 11.01"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Verified Experience Certificate</h3>
-					<p class="kdm-why-hire-card-desc">Receive a recognized SEO training certificate and internship credential letter to boost your resume.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-							<circle cx="9" cy="7" r="4"></circle>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Lifetime Mentorship Support</h3>
-					<p class="kdm-why-hire-card-desc">Get continuous guidance from Gaurav Dubey and senior agency experts even after course completion.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- FAQ Section Starts -->
-	<section class="kdm-faq-section">
-		<div class="kdm-faq-container">
-			<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-			<p class="kdm-faq-subtitle">Got questions about our SEO training course? Find clear answers below.</p>
-			
-			<div class="kdm-faq-accordion">
-				<div class="kdm-faq-item active">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.1. What is search engine optimization (SEO), and why is it important?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> SEO involves strategies to improve a website's visibility and ranking in search engine results, driving organic traffic and enhancing online presence. It is essential because higher rankings drive free, continuous lead flow.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.2. Who can join this SEO training course?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our SEO course is designed for students, freshers, digital marketing aspirants, business owners, freelancers, and working professionals looking to upskill.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.3. Does this course include AI tools like ChatGPT for SEO?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Our training is 100% AI-integrated, teaching you how to use ChatGPT, Gemini, and AI SEO tools for keyword research, content clustering, and schema generation.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.4. Do you offer 100% placement assistance after course completion?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide full resume grooming, mock interviews, portfolio creation, and direct placement support in top agencies and companies.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.5. Are classes available online and offline?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We offer work-from-office classroom sessions in Govindpuri, Kalkaji, New Delhi, as well as live interactive online classes accessible from anywhere.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.6. What is the duration of the SEO training course?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The course duration is approximately 2 to 3 months with flexible weekday and weekend batch options.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.7. Will I get to work on live agency client projects?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! As an agency-driven institute, you gain hands-on access to active client website accounts, Google Search Console, and real backlink campaigns.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.8. How can I book a free demo session?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Fill out the enquiry form on this page or call us directly at +91 9555696058 to reserve your free demo class seat.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</div>
-<script src="js/kdm-faq.js"></script>
-</asp:Content>
+		<script src="js/international-page.js"></script>
+		<script src="js/slider.webp" defer></script>
+		<script src="js/kdm-faq.js"></script>
+		<script src="js/kdm-course.js"></script>
+	</asp:Content>
