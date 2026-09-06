@@ -5556,27 +5556,6 @@
 
 
 
-			<hr class="tall" />
-
-
-			<section class="call-to-action featured footer">
-				<div class="container">
-					<div class="row">
-						<div class="center">
-							<h< /h4>GET STARTED <strong>WITH US</strong> TODAY!<a href="#form" target="_self"
-									class="btn btn-lg btn-primary" data-appear-animation="bounceIn">Free Demo Class!</a>
-								<span class="arrow hlb hidden-xs hidden-sm hidden-md"
-									data-appear-animation="rotateInUpLeft" style="top: -22px;"></span>
-								</h3>
-								<h3>We not only <strong>Teach,</strong> We Make <strong>Professional! </strong><a
-										href="#kdm-hero-lead-form" target="_self" class="btn btn-lg btn-primary"
-										data-appear-animation="bounceIn">Join
-										Now!</a> <span class="arrow hlb hidden-xs hidden-sm hidden-md"
-										data-appear-animation="rotateInUpLeft" style="top: -22px;"></span></h3>
-						</div>
-					</div>
-				</div>
-			</section>
 		</div>
 
 			<script src="js/international-page.js"></script>
