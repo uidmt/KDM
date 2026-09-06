@@ -91,131 +91,499 @@
     }
     </script>
 		<script src="js/kdm-faq.js"></script>
-	</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+    <style>
+        /* ==========================================================================
+           KDM Course Hero Section - Attractive, Vibrant & Fully Responsive
+           ========================================================================== */
+        .kdm-course-hero-wrapper {
+            position: relative;
+            background: linear-gradient(135deg, #050a18 0%, #0c1833 50%, #060e20 100%);
+            padding: 45px 0 50px 0;
+            overflow: hidden;
+            color: #ffffff;
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+        }
+        .kdm-course-hero-wrapper::before {
+            content: '';
+            position: absolute;
+            top: -20%;
+            left: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(14, 165, 233, 0.24) 0%, rgba(59, 130, 246, 0.12) 40%, transparent 70%);
+            border-radius: 50%;
+            filter: blur(60px);
+            pointer-events: none;
+            z-index: 1;
+        }
+        .kdm-course-hero-wrapper::after {
+            content: '';
+            position: absolute;
+            bottom: -20%;
+            right: -10%;
+            width: 650px;
+            height: 650px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.22) 0%, rgba(236, 72, 153, 0.12) 40%, transparent 70%);
+            border-radius: 50%;
+            filter: blur(70px);
+            pointer-events: none;
+            z-index: 1;
+        }
+        .kdm-hero-grid-bg {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+            background-size: 36px 36px;
+            pointer-events: none;
+            z-index: 1;
+        }
+        .kdm-course-hero-container {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            gap: 36px;
+        }
+        .kdm-course-hero-left {
+            flex: 1 1 62%;
+            min-width: 0;
+        }
+        .kdm-course-hero-right {
+            flex: 0 0 380px;
+            max-width: 100%;
+        }
+
+        /* Breadcrumbs */
+        .kdm-hero-breadcrumb {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: #94a3b8;
+            margin-bottom: 12px;
+        }
+        .kdm-hero-breadcrumb a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        .kdm-hero-breadcrumb a:hover {
+            color: #38bdf8;
+        }
+        .kdm-hero-breadcrumb i {
+            font-size: 9px;
+            color: #64748b;
+        }
+
+        /* Live Pulse Badge */
+        .kdm-hero-pulse-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, rgba(14, 165, 233, 0.18) 0%, rgba(99, 102, 241, 0.18) 100%);
+            border: 1px solid rgba(56, 189, 248, 0.45);
+            color: #38bdf8;
+            font-size: 11px;
+            font-weight: 800;
+            padding: 6px 14px;
+            border-radius: 9999px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 14px;
+            box-shadow: 0 0 18px rgba(56, 189, 248, 0.2);
+        }
+        .kdm-hero-pulse-badge .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background: #10b981;
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+            animation: kdmPulse 1.8s infinite;
+        }
+        @keyframes kdmPulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+
+        /* Typography */
+        .kdm-course-hero-title {
+            font-size: 36px;
+            line-height: 1.22;
+            font-weight: 900;
+            color: #ffffff;
+            margin: 0 0 14px 0;
+            letter-spacing: -0.6px;
+        }
+        .kdm-hero-gradient-text {
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline;
+        }
+        .kdm-course-hero-subtitle {
+            font-size: 14.5px;
+            line-height: 1.6;
+            color: #cbd5e1;
+            margin: 0 0 18px 0;
+        }
+        .kdm-course-hero-subtitle strong {
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        /* Stats Bar */
+        .kdm-hero-stats-bar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px 16px;
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 12px;
+            padding: 9px 16px;
+            margin-bottom: 22px;
+            width: fit-content;
+        }
+        .kdm-stat-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #e2e8f0;
+        }
+        .kdm-stat-divider {
+            color: rgba(255, 255, 255, 0.22);
+        }
+
+        /* 6 Value Highlights Grid */
+        .kdm-hero-features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+        .kdm-hero-feat-card {
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            border-radius: 10px;
+            padding: 10px 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            transition: all 0.25s ease;
+        }
+        .kdm-hero-feat-card:hover {
+            background: linear-gradient(145deg, rgba(56, 189, 248, 0.12) 0%, rgba(99, 102, 241, 0.08) 100%);
+            border-color: rgba(56, 189, 248, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+        }
+        .kdm-feat-icon-box {
+            width: 32px;
+            height: 32px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: linear-gradient(135deg, rgba(14, 165, 233, 0.25) 0%, rgba(99, 102, 241, 0.25) 100%);
+            border: 1px solid rgba(56, 189, 248, 0.35);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #38bdf8;
+            font-size: 13px;
+        }
+        .kdm-feat-content {
+            min-width: 0;
+        }
+        .kdm-feat-title {
+            font-size: 12.5px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.3;
+            margin-bottom: 2px;
+        }
+        .kdm-feat-desc {
+            font-size: 11px;
+            color: #94a3b8;
+            line-height: 1.3;
+        }
+
+        /* CTAs */
+        .kdm-hero-cta-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 12px;
+        }
+        .kdm-btn-hero-primary {
+            background: linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #4f46e5 100%);
+            color: #ffffff !important;
+            font-size: 14px;
+            font-weight: 800;
+            padding: 12px 22px;
+            border-radius: 10px;
+            text-decoration: none !important;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.25s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+        .kdm-btn-hero-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px rgba(37, 99, 235, 0.6);
+            background: linear-gradient(135deg, #0369a1 0%, #1d4ed8 50%, #4338ca 100%);
+        }
+        .kdm-btn-hero-whatsapp {
+            background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+            color: #ffffff !important;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 12px 18px;
+            border-radius: 10px;
+            text-decoration: none !important;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+            transition: all 0.25s ease;
+        }
+        .kdm-btn-hero-whatsapp:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 24px rgba(16, 185, 129, 0.5);
+            background: linear-gradient(135deg, #047857 0%, #059669 100%);
+        }
+        .kdm-hero-call-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #e2e8f0;
+            font-size: 13px;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 10px 14px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.2s ease;
+        }
+        .kdm-hero-call-link:hover {
+            color: #38bdf8;
+            background: rgba(255, 255, 255, 0.12);
+            border-color: rgba(56, 189, 248, 0.35);
+        }
+
+        /* Right Card Container */
+        .kdm-hero-form-card {
+            background: linear-gradient(145deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.92));
+            border: 1px solid rgba(56, 189, 248, 0.35);
+            border-radius: 18px;
+            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55), 0 0 25px rgba(56, 189, 248, 0.18);
+            overflow: hidden;
+            position: relative;
+        }
+        .kdm-hero-form-header {
+            background: linear-gradient(135deg, rgba(14, 165, 233, 0.18) 0%, rgba(99, 102, 241, 0.18) 100%);
+            padding: 12px 18px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .kdm-form-header-title {
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            color: #38bdf8;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .kdm-form-seat-tag {
+            font-size: 10px;
+            font-weight: 800;
+            background: rgba(245, 158, 11, 0.2);
+            border: 1px solid rgba(245, 158, 11, 0.5);
+            color: #fbbf24;
+            padding: 2px 8px;
+            border-radius: 12px;
+            text-transform: uppercase;
+        }
+        .kdm-hero-form-iframe {
+            width: 100%;
+            height: 405px;
+            border: none;
+            display: block;
+            overflow: hidden;
+        }
+
+        /* Responsive */
+        @media (max-width: 1199px) {
+            .kdm-course-hero-title { font-size: 32px; }
+            .kdm-hero-features-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 991px) {
+            .kdm-course-hero-container {
+                flex-direction: column;
+                gap: 32px;
+            }
+            .kdm-course-hero-left, .kdm-course-hero-right {
+                width: 100%;
+                flex: 1 1 100%;
+            }
+            .kdm-course-hero-right {
+                max-width: 480px;
+                margin: 0 auto;
+            }
+        }
+        @media (max-width: 767px) {
+            .kdm-course-hero-wrapper { padding: 30px 0 40px 0; }
+            .kdm-course-hero-title { font-size: 25px; line-height: 1.25; }
+            .kdm-course-hero-subtitle { font-size: 13.5px; }
+            .kdm-hero-features-grid { grid-template-columns: 1fr; gap: 8px; }
+            .kdm-hero-stats-bar { width: 100%; justify-content: space-between; font-size: 11.5px; padding: 8px 12px; }
+            .kdm-stat-pill { font-size: 11.5px; }
+            .kdm-hero-cta-row { flex-direction: column; width: 100%; }
+            .kdm-btn-hero-primary, .kdm-btn-hero-whatsapp, .kdm-hero-call-link {
+                width: 100%;
+                justify-content: center;
+                text-align: center;
+            }
+            .kdm-hero-form-iframe { height: 410px; }
+        }
+    </style>
 </asp:Content>
-	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 		<div role="main" class="main">
 			<!-- Page Main Hero Section Starts -->
+			<div class="kdm-course-hero-wrapper">
+				<div class="kdm-hero-grid-bg"></div>
+				<div class="kdm-course-hero-container">
+					<!-- Left Content Column -->
+					<div class="kdm-course-hero-left">
+						<div class="kdm-hero-breadcrumb">
+							<a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a>
+							<i class="fa fa-chevron-right"></i>
+							<a href="digital-marketing-course.aspx">Courses</a>
+							<i class="fa fa-chevron-right"></i>
+							<span>South Delhi</span>
+						</div>
 
-			<div class="locationdetails-hero-section">
-				<div class="locationdetails-intro-content">
-					<span
-						style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 10px;">
-						<i class="fa fa-robot" style="color:#38bdf8;"></i> #1 RATED AI-POWERED DIGITAL MARKETING
-						INSTITUTE
-						IN DELHI
-					</span>
-					<h1 class="ip-h1"
-						style="font-size: 34px; margin-bottom: 12px; line-height: 1.25; font-weight: 900; color: #ffffff;">
-						Best AI-Driven <span
-							style="background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Digital
-							Marketing Course</span> in South Delhi
-					</h1>
-					<p style="font-size: 14px; line-height: 1.5; color: #e2e8f0; margin-bottom: 12px;">King of Digital
-						Marketing is rated #1 Digital Marketing institute in South Delhi, providing a 100% practical,
-						agency-based AI-integrated training approach. Master ChatGPT, Gemini, Midjourney, AI SEO, and
-						Automated PPC Ads alongside core marketing modules.</p>
+						<div class="kdm-hero-pulse-badge">
+							<span class="pulse-dot"></span>
+							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN DELHI
+						</div>
 
-					<div
-						style="display: flex; align-items: center; gap: 15px; background: rgba(255, 255, 255, 0.08); padding: 8px 14px; border-radius: 10px; width: fit-content; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.12);">
-						<span
-							style="font-weight: 700; color: #ffd86b; font-size: 13px; text-transform: uppercase;">Trained
-							1850+ Students</span>
-						<span style="color: rgba(255,255,255,0.3);">|</span>
-						<span style="font-weight: 700; color: #38bdf8; font-size: 13px;">⭐ 4.8 / 5 Rating</span>
-						<span style="color: rgba(255,255,255,0.3);">|</span>
-						<span style="font-weight: 700; color: #4ade80; font-size: 13px;">🤖 100% AI Integrated</span>
+						<h1 class="kdm-course-hero-title">
+							Master AI-Driven <span class="kdm-hero-gradient-text">Digital Marketing</span> & Launch a 6-Figure Career
+						</h1>
+
+						<p class="kdm-course-hero-subtitle">
+							Join Delhi NCR's top agency-based digital marketing training by <strong>UIDMT & Devweboic</strong>, mentored by <strong>Gaurav Dubey (13+ Yrs Exp.)</strong>. Work on live client accounts, master <strong>60+ Generative AI & Performance Marketing Modules</strong>, and gain guaranteed placement assistance with paid internships.
+						</p>
+
+						<div class="kdm-hero-stats-bar">
+							<div class="kdm-stat-pill">
+								<span style="color: #ffd86b;">🎓 1,850+</span> Placed
+							</div>
+							<span class="kdm-stat-divider">|</span>
+							<div class="kdm-stat-pill">
+								<span style="color: #38bdf8;">⭐ 4.9 / 5.0</span> Rating
+							</div>
+							<span class="kdm-stat-divider">|</span>
+							<div class="kdm-stat-pill">
+								<span style="color: #4ade80;">🤖 100%</span> AI Integrated
+							</div>
+							<span class="kdm-stat-divider">|</span>
+							<div class="kdm-stat-pill">
+								<span style="color: #c084fc;">💼 100%</span> Placement Support
+							</div>
+						</div>
+
+						<!-- 6 Key Benefit Feature Cards -->
+						<div class="kdm-hero-features-grid">
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-layer-group"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">60+ Core & AI Modules</div>
+									<div class="kdm-feat-desc">SEO, Google Ads, Meta Ads, Funnels & CRO</div>
+								</div>
+							</div>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-microchip"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">Generative AI & ChatGPT</div>
+									<div class="kdm-feat-desc">Prompt Engineering, Midjourney & AI Automation</div>
+								</div>
+							</div>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-briefcase"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">100% Placement & Paid Internship</div>
+									<div class="kdm-feat-desc">Live Client Accounts with Real Ad Budgets</div>
+								</div>
+							</div>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-calendar-alt"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">Weekend & Weekday Batches</div>
+									<div class="kdm-feat-desc">South Delhi Classroom + Live Interactive Online</div>
+								</div>
+							</div>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-certificate"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">15+ Global Certifications</div>
+									<div class="kdm-feat-desc">Google, Meta, HubSpot, Semrush & UIDMT</div>
+								</div>
+							</div>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-user-tie"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">13+ Yrs Agency Mentor</div>
+									<div class="kdm-feat-desc">Direct Coaching by Gaurav Dubey</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- CTA Buttons Row -->
+						<div class="kdm-hero-cta-row">
+							<a href="#kdm-hero-lead-form" class="kdm-btn-hero-primary">
+								<i class="fa fa-paper-plane"></i> Book Free Demo Class
+							</a>
+							<a href="https://wa.me/919555696058?text=Hi%20King%20of%20Digital%20Marketing,%20I%20want%20to%20enquire%20about%20the%20AI%20Digital%20Marketing%20Course" target="_blank" class="kdm-btn-hero-whatsapp">
+								<i class="fab fa-whatsapp"></i> Chat On WhatsApp
+							</a>
+							<a href="tel:+919555696058" class="kdm-hero-call-link">
+								<i class="fa fa-phone-alt" style="color: #38bdf8;"></i> +91 9555696058
+							</a>
+						</div>
 					</div>
 
-					<p
-						style="font-weight: 800; color: #ffffff; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 10px; margin-bottom: 10px;">
-						KEY BENEFITS TO OUR STUDENTS:
-					</p>
-
-					<ul class="locationdetails-benefits-list"
-						style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 6px 12px; margin-top: 5px; padding-left: 0; list-style: none;">
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 60+ AI & Core
-							Modules
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> ChatGPT & AI
-							Tools
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> AI SEO & Ad
-							Automation
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 100+ Hours
-							Training
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: gap: 6px;"><i
-								class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Weekend/Weekday
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Live Case
-							Studies
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Feedback Session
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Practical
-							Assignments
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Internship
-							Guaranteed
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Live Online
-							Classes
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Learn with Live
-							Projects
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 14+ AI & SEO
-							Tools
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 100% Practical
-							Course
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Lifetime Support
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Placement
-							Assistance
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Help Become
-							Freelancer
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> Backup Classes
-						</li>
-						<li style="font-size: 13px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
-							<i class="fa fa-check-circle" style="color: #38bdf8; font-size: 14px;"></i> 10 Yrs+ Trainer
-							Exp.
-						</li>
-					</ul>
-				</div>
-
-				<div style="flex: 0 0 380px; max-width: 100%;">
-					<iframe scrolling="no" src="digital-course-form.aspx"
-						style="height: 385px; width: 100%; border: none; overflow: hidden;" width="100%"></iframe>
+					<!-- Right Form Column -->
+					<div class="kdm-course-hero-right" id="kdm-hero-lead-form">
+						<div class="kdm-hero-form-card">
+							<div class="kdm-hero-form-header">
+								<span class="kdm-form-header-title"><i class="fa fa-bolt"></i> Fast-Track Admission</span>
+								<span class="kdm-form-seat-tag">🔥 Only 5 Seats Left</span>
+							</div>
+							<iframe scrolling="no" src="digital-course-form.aspx" class="kdm-hero-form-iframe" title="Digital Marketing Course Enquiry Form"></iframe>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- Page Main Hero Section Ends -->
@@ -5152,21 +5520,17 @@
 									data-appear-animation="rotateInUpLeft" style="top: -22px;"></span>
 								</h3>
 								<h3>We not only <strong>Teach,</strong> We Make <strong>Professional! </strong><a
-										href="#form" target="_self" class="btn btn-lg btn-primary"
+										href="#kdm-hero-lead-form" target="_self" class="btn btn-lg btn-primary"
 										data-appear-animation="bounceIn">Join
 										Now!</a> <span class="arrow hlb hidden-xs hidden-sm hidden-md"
 										data-appear-animation="rotateInUpLeft" style="top: -22px;"></span></h3>
-
-
-
+						</div>
+					</div>
+				</div>
 			</section>
-
-
-
-
+		</div>
 
 			<script src="js/international-page.js"></script>
 			<script src="js/slider.webp" defer></script>
-
 			<script src="js/kdm-faq.js"></script>
 	</asp:Content>
