@@ -1,5 +1,19 @@
-function toggleFaqItem(headerEl) {
+var lastFaqToggleTime = 0;
+var lastFaqToggleTarget = null;
+
+function toggleFaqItem(headerEl, e) {
+    if (e && typeof e.stopPropagation === 'function') {
+        e.stopPropagation();
+    }
     if (!headerEl) return;
+
+    var now = Date.now();
+    if (lastFaqToggleTarget === headerEl && (now - lastFaqToggleTime) < 300) {
+        return; // Prevent duplicate toggle from inline onclick + event bubbling
+    }
+    lastFaqToggleTime = now;
+    lastFaqToggleTarget = headerEl;
+
     var item = headerEl.closest(".kdm-faq-item");
     if (!item) return;
 
@@ -22,8 +36,7 @@ document.addEventListener("click", function (e) {
     // 1. Standard KDM FAQ Header Click
     var header = e.target.closest(".kdm-faq-header");
     if (header) {
-        e.preventDefault();
-        toggleFaqItem(header);
+        toggleFaqItem(header, e);
         return;
     }
 
@@ -54,3 +67,4 @@ document.addEventListener("click", function (e) {
         }
     }
 });
+
