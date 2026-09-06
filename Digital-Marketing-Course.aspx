@@ -4977,316 +4977,217 @@
 			</div>
 			<!-- About Trainer Section Ends -->
 
-			<!-- Students Text Testimonials Starts -->
-			<hr class="tall" />
-			<h2 align="center">Words of <strong>Digital Marketing Students</strong></h2>
-			<div class="ts-wrapper">
-				<div class="ts-slider-container">
-					<!-- Testimonial 1 -->
-					<div class="ts-testimonial ts-active">
-						<img src="images/digital marketing student1.webp" class="ts-profile-pic" alt="Kritika Pandey"
-							loading="lazy" decoding="async" />
-						<p>"When it comes to digital marketing i remmber one name King of Digital Marketing and Gaurav
-							Sir.
-							It's amazing to learn Digital marketing here at devweboic. I have completed my Training from
-							here and got lots of knowledge which is beneficial for me. After learning digital marketing
-							i
-							started working as freelancer and now i am doing best for my clients."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Kritika Pandey (Digital Marketing Executive - Delhi)</div>
+			<!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ===== -->
+			<section class="kdm-testimonial-section">
+				<div class="container">
+					<div class="kdm-testimonial-header">
+						<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> STUDENT SUCCESS STORIES</span>
+						<h2 class="kdm-testimonial-title">Words of <strong>Digital Marketing Students</strong></h2>
+						<p class="kdm-testimonial-subtitle">Real feedback and career reviews from students, freelancers, and working professionals trained at King of Digital Marketing.</p>
 					</div>
 
-					<!-- Testimonial 2 -->
-					<div class="ts-testimonial">
-						<img src="images/shubendu.webp" class="ts-profile-pic" alt="Subhendu" loading="lazy"
-							decoding="async" />
-						<p>"At King of Digital Marketing Institute, I got to discover the different ways of mastery of
-							the
-							digital marketing world. I am very thankful for all the members of this Institute to teach
-							all
-							modules of digital marketing."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Subhendu (Digital Marketing Manager - Delhi)</div>
-					</div>
+					<div class="kdm-testimonial-wrapper">
+						<div class="kdm-testimonial-slides">
 
-					<!-- Testimonial 3 -->
-					<div class="ts-testimonial">
-						<img src="images/sapna digital marketing student.webp" class="ts-profile-pic" alt="Sapna"
-							loading="lazy" decoding="async" />
-						<p>"King of Digital Marketing is one of the best reputed digital marketing institute in South
-							Delhi
-							situated in Kalkaji Govindpuri. All the teachers and staff are wonderful and supportive. We
-							have
-							worked on live projects during course and learnt to implement SEO SMO PPC elements."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Sapna (SEO Executive - Delhi)</div>
-					</div>
+							<!-- Slide 1: Kritika Pandey -->
+							<div class="kdm-testimonial-card active">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"When it comes to digital marketing I remember one name: King of Digital Marketing and Gaurav Sir. It's amazing to learn Digital marketing here at Devweboic. I completed my training here and gained practical knowledge that transformed my career. After learning digital marketing I started working as a freelancer and now I am delivering great results for my clients."
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-1">KP</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Kritika Pandey</h4>
+										<span class="kdm-testimonial-role">Digital Marketing Executive — Delhi</span>
+									</div>
+								</div>
+							</div>
 
-					<!-- Testimonial 4 -->
-					<div class="ts-testimonial">
-						<img src="images/dheeraj studnet of digital marketing.webp" class="ts-profile-pic" alt="Dheeraj"
-							loading="lazy" decoding="async" />
-						<p>"It was very difficult for me because I was new to the digital world and I had no technical
-							knowledge but after completing a course from Devweboic digital marketing Institute, my
-							self-confidence increased and I am ready to work as a digital marketer. Thank you all
-							members
-							and Gaurav sir."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Dheeraj (SEO & PPC Expert - Delhi)</div>
-					</div>
+							<!-- Slide 2: Subhendu -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"At King of Digital Marketing Institute, I got to discover the different ways of mastery in the digital marketing world. I am very thankful to all the members and faculty of this Institute for teaching all modules of digital marketing with real live campaigns."
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-2">S</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Subhendu</h4>
+										<span class="kdm-testimonial-role">Digital Marketing Manager — Delhi</span>
+									</div>
+								</div>
+							</div>
 
-					<!-- Testimonial 5 -->
-					<div class="ts-testimonial">
-						<img src="images/rajeev digital marketing student.webp" class="ts-profile-pic"
-							alt="Rajeev Kumar" loading="lazy" decoding="async" />
-						<p>"I have started my carrier as a YouTuber one year ago, but my youtube channel was not growing
-							and
-							then I decided to be an expert in YouTube marketing so that I can rise and promote my
-							channel. I
-							did a digital marketing course from King of Digital Marketing which made me an expert in
-							youtube
-							marketing and now I also have my own website and I am really happy and very thankful to best
-							Institute."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Rajeev Kumar (SEO Executive & YouTube Expert - Delhi)</div>
-					</div>
+							<!-- Slide 3: Sapna -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"King of Digital Marketing is one of the most reputed digital marketing institutes in South Delhi situated in Kalkaji Govindpuri. All the teachers and staff are wonderful and supportive. We worked on live agency projects during the course and learned to implement SEO, SMO, and PPC elements practically."
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-3">S</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Sapna</h4>
+										<span class="kdm-testimonial-role">SEO Executive — Delhi</span>
+									</div>
+								</div>
+							</div>
 
-					<!-- Testimonial 6 -->
-					<div class="ts-testimonial">
-						<img src="images/preety studnet of digital marketing.webp" class="ts-profile-pic"
-							alt="Prity Shrivastav" />
-						<p>"The digital marketing course by King of Digital Marketing institute was the right choice of
-							me.
-							It was a very enjoyable experience to learn digital marketing at DDMI by expert trainers."
-						</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Prity Shrivastav (Digital Marketer - Delhi)</div>
-					</div>
+							<!-- Slide 4: Dheeraj -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"It was very difficult for me initially because I was new to the digital world and had zero technical knowledge. But after completing the course from Devweboic / King of Digital Marketing, my self-confidence boosted and I am now successfully working as a performance digital marketer. Thank you Gaurav sir!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-4">D</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Dheeraj</h4>
+										<span class="kdm-testimonial-role">SEO &amp; PPC Expert — Delhi</span>
+									</div>
+								</div>
+							</div>
 
-					<!-- Testimonial 7 -->
-					<div class="ts-testimonial">
-						<img src="images/karan.webp" class="ts-profile-pic" alt="Karan Singh" />
-						<p>"Pursuing the digital marketing course at King fo Digital Marketing Institute and I had a
-							great
-							learning experience. In the beginning, it was very difficult for me because I was not able
-							to
-							decide where I should have to do digital marketing course. My friend told me to take
-							admission
-							in devweboic. Now after learning from here, I have polished my skills and I am ready to
-							start my
-							job as a digital marketer. All the members of King of Digital Marketing are very supportive
-							and
-							professional. Thank you so much for everything."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Karan Singh (Digital Marketing Manager - Delhi)</div>
-					</div>
+							<!-- Slide 5: Rajeev Kumar -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"I started my career as a YouTuber, but my channel was not growing. I decided to master YouTube &amp; Video marketing at King of Digital Marketing. The course made me an expert in video SEO, algorithms, and funnel promotion. Now I also monetize my own website and get great results."
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-5">RK</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Rajeev Kumar</h4>
+										<span class="kdm-testimonial-role">SEO Executive &amp; YouTube Strategist — Delhi</span>
+									</div>
+								</div>
+							</div>
 
-					<!-- Testimonial 8 -->
-					<div class="ts-testimonial">
-						<img src="images/cheshta meha.webp" class="ts-profile-pic" alt="Cheshta Mehta" />
-						<p>"Hello Everyone, myself Cheshta Mehta, pursuing digital marketing course at King of Digital
-							Marketing Institute. Digital marketing is one of the most demanding course and everyone
-							wants to
-							do this course. There are so many institutes for digital marketing in South Delhi but from
-							my
-							experience kings of digital marketing is best for the course. Mr Gaurav Dubey Sir is
-							providing
-							best knowledge of digital marketing that how it works, how we get rank and how we can do SEO
-							to
-							get rank in SERP. I suggest you to join this digital marketing institute in South Delhi to
-							explore your career."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Cheshta Mehta (Digital Marketing Intern - Delhi)</div>
-					</div>
+							<!-- Slide 6: Karan Singh -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"Pursued the digital marketing course at King of Digital Marketing Institute and had a fantastic learning experience. My friend recommended Devweboic / KDM. After completing practical training and live agency assignments here, I polished my skills and secured a managerial digital marketing role."
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-6">KS</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Karan Singh</h4>
+										<span class="kdm-testimonial-role">Digital Marketing Manager — Delhi</span>
+									</div>
+								</div>
+							</div>
 
-					<!-- Testimonial 9 -->
-					<div class="ts-testimonial">
-						<img src="images/neha subedi.webp" class="ts-profile-pic" alt="Neha Subedi" />
-						<p>"I am Neha Subedi, i am digital marketing student of King of Digital Marketing. After digital
-							marketing internship i got job at this organization and working as SEO Executive. One thing
-							is
-							here that if you are good in skill then you may be hired for the same organization also."
-						</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Neha Subedi (SEO Executive - Delhi)</div>
-					</div>
+							<!-- Slide 7: Shivani Jain -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"If you are looking to join the best digital marketing institute in South Delhi then must join King of Digital Marketing. They teach everything in depth with 100% practicals. Immediately after the 3-month course, I got hired by a digital marketing agency in West Delhi. Thank you Gaurav sir for making every concept easy to master!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-1">SJ</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Shivani Jain</h4>
+										<span class="kdm-testimonial-role">Digital Marketing Executive — Delhi</span>
+									</div>
+								</div>
+							</div>
 
-					<!-- Testimonial 10 -->
-					<div class="ts-testimonial">
-						<img src="images/shivani jain.webp" class="ts-profile-pic" alt="Shivani Jain" />
-						<p>"If you are looking to join best digital marketing institute in Kalkaji South Delhi then must
-							join this institute, they teach you each and everything in details. you become expert after
-							three month course, i did course from here and now after course only i am earning 22000 per
-							month in a digital marketing agency in west delhi. Thank you gaurav sir for your everytype
-							of
-							support i appreciate your efforts for each thing made easy to learn. Thank you"</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Shivani Jain (Digital Marketing Executive - Delhi)</div>
-					</div>
+							<!-- Slide 8: Cheshta Mehta -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"Mr. Gaurav Dubey sir provides top-tier real agency knowledge of digital marketing — how algorithms work, how websites rank, and how to execute high-ROI Google &amp; Meta ad campaigns. I strongly recommend King of Digital Marketing in South Delhi to anyone aiming to build a solid career."
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-2">CM</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Cheshta Mehta</h4>
+										<span class="kdm-testimonial-role">Performance Marketing Specialist — Delhi</span>
+									</div>
+								</div>
+							</div>
 
-					<!-- Testimonial 11 -->
-					<div class="ts-testimonial">
-						<img src="images/mohit saini.webp" class="ts-profile-pic" alt="Mohit Saini" />
-						<p>"Doing digital marketing course at King of digital marketing institute at Delhi Govindpuri
-							Branch. Learnt everything in details and now doing SEO specialization as digital marketing
-							intern here. I recommend all students willing to learn digital marketing must join King fo
-							Digital Marketing for best career and be expert of digital marketing"</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
 						</div>
-						<div class="ts-author">- Mohit Saini (SEO Executive - Delhi)</div>
-					</div>
 
-					<!-- Testimonial 12 -->
-					<div class="ts-testimonial">
-						<img src="images/manish sharma.webp" class="ts-profile-pic" alt="Manish Sharma" />
-						<p>"I am Manish Sharma, former student of King of Digital Marketing Institute, i got opportunity
-							to
-							work with the expert team of KDM as SEO intern and got chance to learn many techniques of
-							SEO.
-							currently i am working in reputed gym in South Delhi as SEO team leader. If you want to
-							learn
-							digital marketing, must join this institute in Govinspuri and Allahabad."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Manish Sharma (SEO Executive - Delhi)</div>
-					</div>
+						<!-- Navigation Arrows -->
+						<button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+							<i class="fa fa-chevron-left"></i>
+						</button>
+						<button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+							<i class="fa fa-chevron-right"></i>
+						</button>
 
-					<!-- Testimonial 13 -->
-					<div class="ts-testimonial">
-						<img src="images/slok gambhir.webp" class="ts-profile-pic" alt="Slok Gambhir" />
-						<p>"I finished digital marketing internship from King of Digital Marketing, i found that this
-							institute is best digital marketing institute in south Delhi to provide course and free
-							internship. I had finished course from somewhere else but got all knowledge of digital
-							marketing
-							from Gaurav sir only here. i highly recommend this digital marketing institute."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Slok Gambhir (Digital Marketing Executive - Delhi)</div>
-					</div>
-
-					<!-- Testimonial 14 -->
-					<div class="ts-testimonial">
-						<img src="images/digital marketing student ashwani.webp" class="ts-profile-pic" alt="Ashwini" />
-						<p>"Just before few days I had completed digital marketing course from King of Digital
-							Marketing.
-							Now I am placed in digital marketing company as SEO executive and getting good salary as
-							fresher. Thanks this institute to make my career."</p>
-						<div class="ts-stars">
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-							<i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-						</div>
-						<div class="ts-author">- Ashwini (SEO Executive - Delhi)</div>
-					</div>
-
-					<!-- Navigation Arrows -->
-					<div class="ts-arrows">
-						<button class="ts-arrow" onclick="tsChangeSlide(-1)">&#10094;</button>
-						<button class="ts-arrow" onclick="tsChangeSlide(1)">&#10095;</button>
+						<!-- Pagination Dots -->
+						<div class="kdm-testimonial-dots"></div>
 					</div>
 				</div>
-			</div>
-
+			</section>
+			<!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ENDS ===== -->
 			<script>
-				let tsCurrentIndex = 0;
-				const tsTestimonials = document.querySelectorAll('.ts-testimonial');
-
-				function tsShowSlide(index) {
-					tsTestimonials.forEach((t, i) => {
-						t.classList.remove('ts-active');
-						if (i === index) t.classList.add('ts-active');
-					});
-				}
-
-				function tsChangeSlide(dir) {
-					tsCurrentIndex += dir;
-					if (tsCurrentIndex < 0) tsCurrentIndex = tsTestimonials.length - 1;
-					if (tsCurrentIndex >= tsTestimonials.length) tsCurrentIndex = 0;
-					tsShowSlide(tsCurrentIndex);
-				}
-
-				setInterval(() => {
-					tsChangeSlide(1);
-				}, 6000);
+				document.addEventListener('DOMContentLoaded', function() {
+					if (typeof initTestimonialSliders === 'function') {
+						initTestimonialSliders();
+					}
+				});
 			</script>
-			<!-- Students Text Testimonials Ends -->
 			<div class="container">
 				<div class="col-md-12">
 					<h3 align="center">Scope of Digital Marketing in India</h3>
