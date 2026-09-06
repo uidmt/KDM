@@ -3852,59 +3852,156 @@
 					flex-shrink: 0;
 				}
 
-				/* Redesigned Salary Breakdown Section */
+				/* Redesigned Premium Salary Breakdown Section */
 				.salary-breakdown-box {
-					background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+					background: linear-gradient(145deg, #090e1f 0%, #0f1936 50%, #080d1e 100%);
 					color: #ffffff;
-					border-radius: 20px;
-					padding: 40px 30px;
-					box-shadow: 0 15px 40px rgba(15, 23, 42, 0.2);
+					border-radius: 24px;
+					padding: 42px 36px;
+					box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45), 0 0 25px rgba(56, 189, 248, 0.12);
+					border: 1px solid rgba(56, 189, 248, 0.28);
+					position: relative;
+					overflow: hidden;
+					margin-top: 30px;
+				}
+
+				.salary-breakdown-box::before {
+					content: '';
+					position: absolute;
+					top: -30%;
+					right: -10%;
+					width: 450px;
+					height: 450px;
+					background: radial-gradient(circle, rgba(14, 165, 233, 0.2) 0%, transparent 70%);
+					filter: blur(60px);
+					pointer-events: none;
 				}
 
 				.salary-header {
 					text-align: center;
-					margin-bottom: 30px;
+					max-width: 820px;
+					margin: 0 auto 28px auto;
+					position: relative;
+					z-index: 2;
+				}
+
+				.salary-pill-badge {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					background: linear-gradient(135deg, rgba(14, 165, 233, 0.15) 0%, rgba(99, 102, 241, 0.15) 100%);
+					border: 1px solid rgba(56, 189, 248, 0.4);
+					color: #38bdf8;
+					font-size: 11px;
+					font-weight: 800;
+					padding: 5px 14px;
+					border-radius: 9999px;
+					text-transform: uppercase;
+					letter-spacing: 0.8px;
+					margin-bottom: 12px;
 				}
 
 				.salary-header h3 {
-					font-size: 26px;
-					font-weight: 800;
+					font-size: 30px;
+					font-weight: 900;
 					color: #ffffff;
-					margin: 0 0 8px 0;
+					margin: 0 0 10px 0;
+					letter-spacing: -0.5px;
+					line-height: 1.25;
 				}
 
 				.salary-header p {
 					color: #94a3b8;
-					font-size: 14px;
+					font-size: 14.5px;
 					margin: 0;
+					line-height: 1.5;
+				}
+
+				.salary-quick-stats-grid {
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+					gap: 14px;
+					margin-bottom: 28px;
+					position: relative;
+					z-index: 2;
+				}
+
+				.salary-stat-card {
+					background: rgba(255, 255, 255, 0.04);
+					border: 1px solid rgba(255, 255, 255, 0.09);
+					border-radius: 14px;
+					padding: 14px 16px;
+					text-align: center;
+					transition: all 0.3s ease;
+				}
+
+				.salary-stat-card:hover {
+					background: rgba(56, 189, 248, 0.1);
+					border-color: rgba(56, 189, 248, 0.35);
+					transform: translateY(-3px);
+				}
+
+				.salary-stat-level {
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 0.6px;
+					color: #94a3b8;
+					margin-bottom: 4px;
+				}
+
+				.salary-stat-pkg {
+					font-size: 20px;
+					font-weight: 900;
+					color: #ffffff;
+					line-height: 1.2;
+					margin-bottom: 3px;
+				}
+
+				.salary-stat-exp {
+					font-size: 11px;
+					color: #38bdf8;
+					font-weight: 600;
+				}
+
+				.salary-table-responsive {
+					position: relative;
+					z-index: 2;
+					overflow-x: auto;
+					border-radius: 16px;
+					border: 1px solid rgba(255, 255, 255, 0.12);
+					background: rgba(15, 23, 42, 0.65);
+					backdrop-filter: blur(10px);
 				}
 
 				.modern-salary-table {
 					width: 100%;
-					border-collapse: separate;
-					border-spacing: 0;
-					border-radius: 14px;
-					overflow: hidden;
-					border: 1px solid rgba(255, 255, 255, 0.12);
+					border-collapse: collapse;
+					min-width: 680px;
 				}
 
 				.modern-salary-table th {
-					background: rgba(255, 255, 255, 0.08);
+					background: linear-gradient(135deg, rgba(14, 165, 233, 0.2) 0%, rgba(99, 102, 241, 0.15) 100%);
 					color: #38bdf8;
-					font-size: 14px;
+					font-size: 13px;
 					font-weight: 800;
 					text-transform: uppercase;
-					letter-spacing: 0.5px;
-					padding: 14px 18px;
+					letter-spacing: 0.6px;
+					padding: 16px 20px;
 					text-align: left;
-					border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+					border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+				}
+
+				.modern-salary-table th.text-center {
+					text-align: center;
 				}
 
 				.modern-salary-table td {
-					padding: 14px 18px;
-					font-size: 14px;
+					padding: 15px 20px;
+					font-size: 13.5px;
 					color: #e2e8f0;
 					border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+					vertical-align: middle;
 				}
 
 				.modern-salary-table tr:last-child td {
@@ -3912,34 +4009,131 @@
 				}
 
 				.modern-salary-table tr:hover td {
-					background: rgba(255, 255, 255, 0.05);
+					background: rgba(56, 189, 248, 0.05);
+				}
+
+				.salary-role-info {
+					display: flex;
+					align-items: center;
+					gap: 12px;
+				}
+
+				.salary-role-icon {
+					width: 34px;
+					height: 34px;
+					border-radius: 8px;
+					background: rgba(56, 189, 248, 0.12);
+					border: 1px solid rgba(56, 189, 248, 0.25);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: #38bdf8;
+					font-size: 14px;
+					flex-shrink: 0;
+				}
+
+				.salary-role-name {
+					font-weight: 800;
+					color: #ffffff;
+					font-size: 14px;
+					line-height: 1.3;
+				}
+
+				.salary-role-skills {
+					font-size: 11.5px;
+					color: #94a3b8;
+					margin-top: 2px;
 				}
 
 				.salary-badge-fresher {
-					background: rgba(56, 189, 248, 0.15);
+					background: linear-gradient(135deg, rgba(56, 189, 248, 0.2) 0%, rgba(14, 165, 233, 0.12) 100%);
+					border: 1px solid rgba(56, 189, 248, 0.4);
 					color: #38bdf8;
-					font-weight: 700;
-					padding: 4px 12px;
+					font-weight: 800;
+					font-size: 13px;
+					padding: 6px 14px;
 					border-radius: 8px;
-					display: inline-block;
+					display: inline-flex;
+					align-items: center;
+					gap: 5px;
+					box-shadow: 0 2px 8px rgba(56, 189, 248, 0.15);
 				}
 
 				.salary-badge-mid {
-					background: rgba(251, 191, 36, 0.15);
+					background: linear-gradient(135deg, rgba(251, 191, 36, 0.2) 0%, rgba(245, 158, 11, 0.12) 100%);
+					border: 1px solid rgba(251, 191, 36, 0.4);
 					color: #fbbf24;
-					font-weight: 700;
-					padding: 4px 12px;
+					font-weight: 800;
+					font-size: 13px;
+					padding: 6px 14px;
 					border-radius: 8px;
-					display: inline-block;
+					display: inline-flex;
+					align-items: center;
+					gap: 5px;
+					box-shadow: 0 2px 8px rgba(251, 191, 36, 0.15);
 				}
 
 				.salary-badge-senior {
-					background: rgba(74, 222, 128, 0.15);
+					background: linear-gradient(135deg, rgba(74, 222, 128, 0.2) 0%, rgba(34, 197, 94, 0.12) 100%);
+					border: 1px solid rgba(74, 222, 128, 0.4);
 					color: #4ade80;
 					font-weight: 800;
-					padding: 4px 12px;
+					font-size: 13px;
+					padding: 6px 14px;
 					border-radius: 8px;
-					display: inline-block;
+					display: inline-flex;
+					align-items: center;
+					gap: 5px;
+					box-shadow: 0 2px 8px rgba(74, 222, 128, 0.15);
+				}
+
+				.salary-footer-note {
+					position: relative;
+					z-index: 2;
+					margin-top: 24px;
+					padding: 14px 20px;
+					background: rgba(255, 255, 255, 0.04);
+					border: 1px dashed rgba(56, 189, 248, 0.35);
+					border-radius: 12px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					gap: 16px;
+					flex-wrap: wrap;
+				}
+
+				.salary-note-text {
+					font-size: 12.5px;
+					color: #cbd5e1;
+					display: flex;
+					align-items: center;
+					gap: 8px;
+				}
+
+				.salary-note-text strong {
+					color: #38bdf8;
+				}
+
+				.salary-note-cta {
+					background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+					color: #ffffff !important;
+					font-size: 12px;
+					font-weight: 800;
+					padding: 8px 18px;
+					border-radius: 8px;
+					text-decoration: none !important;
+					display: inline-flex;
+					align-items: center;
+					gap: 6px;
+					text-transform: uppercase;
+					letter-spacing: 0.4px;
+					transition: all 0.25s ease;
+					border: 1px solid rgba(255, 255, 255, 0.2);
+				}
+
+				.salary-note-cta:hover {
+					transform: translateY(-2px);
+					box-shadow: 0 6px 16px rgba(37, 99, 235, 0.45);
 				}
 
 				@media (max-width: 992px) {
@@ -3951,15 +4145,33 @@
 						padding: 35px 20px;
 					}
 
-					.salary-breakdown-box {
-						padding: 25px 15px;
-						overflow-x: auto;
+					.salary-quick-stats-grid {
+						grid-template-columns: repeat(2, 1fr);
+						gap: 10px;
 					}
 
-					.modern-salary-table th,
-					.modern-salary-table td {
-						padding: 10px 12px;
-						font-size: 12.5px;
+					.salary-breakdown-box {
+						padding: 30px 20px;
+					}
+
+					.salary-header h3 {
+						font-size: 24px;
+					}
+				}
+
+				@media (max-width: 576px) {
+					.salary-quick-stats-grid {
+						grid-template-columns: 1fr;
+					}
+
+					.salary-footer-note {
+						flex-direction: column;
+						align-items: flex-start;
+					}
+
+					.salary-note-cta {
+						width: 100%;
+						justify-content: center;
 					}
 				}
 			</style>
@@ -4195,65 +4407,146 @@
 					<!-- Salary Breakdown Box -->
 					<div class="salary-breakdown-box">
 						<div class="salary-header">
-							<h3>Starting Salary After Digital Marketing Course</h3>
-							<p>Estimated average annual packages (LPA) based on industry standards & experience levels
-							</p>
+							<div class="salary-pill-badge">
+								<i class="fa fa-chart-line"></i> INDUSTRY COMPENSATION BENCHMARK 2026
+							</div>
+							<h3>Starting Salary After <span class="kdm-hero-gradient-text">Digital Marketing Course</span></h3>
+							<p>Estimated average annual compensation packages (LPA) based on top hiring agencies, tech companies, and direct campus placements.</p>
 						</div>
 
-						<table class="modern-salary-table">
-							<thead>
-								<tr>
-									<th>Job Profile</th>
-									<th>Fresher Level</th>
-									<th>Mid-Senior Level</th>
-									<th>Senior Level</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td><strong>Pay Per Click (PPC) Analyst</strong></td>
-									<td><span class="salary-badge-fresher">₹ 2.5 LPA</span></td>
-									<td><span class="salary-badge-mid">₹ 6.0 LPA</span></td>
-									<td><span class="salary-badge-senior">₹ 10.0 LPA</span></td>
-								</tr>
-								<tr>
-									<td><strong>SEO Specialist / Analyst</strong></td>
-									<td><span class="salary-badge-fresher">₹ 2.2 LPA</span></td>
-									<td><span class="salary-badge-mid">₹ 4.6 LPA</span></td>
-									<td><span class="salary-badge-senior">₹ 12.0 LPA</span></td>
-								</tr>
-								<tr>
-									<td><strong>Social Media Marketing Lead</strong></td>
-									<td><span class="salary-badge-fresher">₹ 2.0 LPA</span></td>
-									<td><span class="salary-badge-mid">₹ 5.6 LPA</span></td>
-									<td><span class="salary-badge-senior">₹ 10.5 LPA</span></td>
-								</tr>
-								<tr>
-									<td><strong>Content Marketing Manager</strong></td>
-									<td><span class="salary-badge-fresher">₹ 2.0 LPA</span></td>
-									<td><span class="salary-badge-mid">₹ 6.5 LPA</span></td>
-									<td><span class="salary-badge-senior">₹ 12.5 LPA</span></td>
-								</tr>
-								<tr>
-									<td><strong>Marketing Automation Specialist</strong></td>
-									<td><span class="salary-badge-fresher">₹ 4.0 LPA</span></td>
-									<td><span class="salary-badge-mid">₹ 6.0 LPA</span></td>
-									<td><span class="salary-badge-senior">₹ 15.0 LPA</span></td>
-								</tr>
-								<tr>
-									<td><strong>Search Engine Marketing Specialist</strong></td>
-									<td><span class="salary-badge-fresher">₹ 2.8 LPA</span></td>
-									<td><span class="salary-badge-mid">₹ 3.6 LPA</span></td>
-									<td><span class="salary-badge-senior">₹ 12.0 LPA</span></td>
-								</tr>
-								<tr>
-									<td><strong>Paid Media & Performance Specialist</strong></td>
-									<td><span class="salary-badge-fresher">₹ 3.0 LPA</span></td>
-									<td><span class="salary-badge-mid">₹ 4.0 LPA</span></td>
-									<td><span class="salary-badge-senior">₹ 15.0 LPA</span></td>
-								</tr>
-							</tbody>
-						</table>
+						<!-- 4 Quick Salary Level Highlight Cards -->
+						<div class="salary-quick-stats-grid">
+							<div class="salary-stat-card">
+								<div class="salary-stat-level">Fresher / Entry Level</div>
+								<div class="salary-stat-pkg" style="color: #38bdf8;">₹ 3.0 - 5.0 LPA</div>
+								<div class="salary-stat-exp">0 - 1 Years Experience</div>
+							</div>
+							<div class="salary-stat-card">
+								<div class="salary-stat-level">Mid-Senior Specialist</div>
+								<div class="salary-stat-pkg" style="color: #fbbf24;">₹ 6.0 - 10.5 LPA</div>
+								<div class="salary-stat-exp">2 - 4 Years Experience</div>
+							</div>
+							<div class="salary-stat-card">
+								<div class="salary-stat-level">Lead / Manager Level</div>
+								<div class="salary-stat-pkg" style="color: #4ade80;">₹ 12.0 - 20.0+ LPA</div>
+								<div class="salary-stat-exp">5+ Years Experience</div>
+							</div>
+							<div class="salary-stat-card">
+								<div class="salary-stat-level">Global Remote Marketer</div>
+								<div class="salary-stat-pkg" style="color: #c084fc;">$3,000 - $8,000/mo</div>
+								<div class="salary-stat-exp">US / UK / Gulf Clients</div>
+							</div>
+						</div>
+
+						<div class="salary-table-responsive">
+							<table class="modern-salary-table">
+								<thead>
+									<tr>
+										<th>Job Profile &amp; Core Skillset</th>
+										<th class="text-center">Fresher Level (0-1 Yr)</th>
+										<th class="text-center">Mid-Senior (2-4 Yrs)</th>
+										<th class="text-center">Senior / Lead (5+ Yrs)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="salary-role-info">
+												<div class="salary-role-icon"><i class="fa fa-bullseye"></i></div>
+												<div>
+													<div class="salary-role-name">AI Performance Marketer &amp; PPC Specialist</div>
+													<div class="salary-role-skills">Google Search Ads, Meta Ads, Funnels &amp; ROAS Optimization</div>
+												</div>
+											</div>
+										</td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 3.0 - 4.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 6.5 - 9.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 14.0 - 20.0+ LPA</span></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="salary-role-info">
+												<div class="salary-role-icon"><i class="fa fa-search"></i></div>
+												<div>
+													<div class="salary-role-name">AI SEO Specialist &amp; Search Strategist</div>
+													<div class="salary-role-skills">Technical SEO, Topical Authority, Semrush, Generative Engine SEO</div>
+												</div>
+											</div>
+										</td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 2.8 - 4.2 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 12.0 - 18.0 LPA</span></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="salary-role-info">
+												<div class="salary-role-icon"><i class="fa fa-share-nodes"></i></div>
+												<div>
+													<div class="salary-role-name">Social Media &amp; Brand Growth Manager</div>
+													<div class="salary-role-skills">Viral Reels, LinkedIn Funnels, Community Building, Brand Strategy</div>
+												</div>
+											</div>
+										</td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 2.5 - 4.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 5.8 - 8.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 11.0 - 16.0 LPA</span></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="salary-role-info">
+												<div class="salary-role-icon"><i class="fa fa-robot"></i></div>
+												<div>
+													<div class="salary-role-name">Marketing Automation &amp; CRM Specialist</div>
+													<div class="salary-role-skills">HubSpot, WhatsApp API, Zapier, Drip Email Funnels &amp; Lead Scoring</div>
+												</div>
+											</div>
+										</td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 3.8 - 5.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 7.0 - 11.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 16.0 - 24.0+ LPA</span></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="salary-role-info">
+												<div class="salary-role-icon"><i class="fa fa-pen-fancy"></i></div>
+												<div>
+													<div class="salary-role-name">AI Content Strategist &amp; Copywriter</div>
+													<div class="salary-role-skills">Prompt Engineering, High-Converting Landing Copy, Midjourney Visuals</div>
+												</div>
+											</div>
+										</td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 2.6 - 4.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 11.5 - 16.0 LPA</span></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="salary-role-info">
+												<div class="salary-role-icon"><i class="fa fa-crown"></i></div>
+												<div>
+													<div class="salary-role-name">Digital Marketing Director / Growth Head</div>
+													<div class="salary-role-skills">Omnichannel Strategy, Team Leadership, Multi-Crore Budget Allocation</div>
+												</div>
+											</div>
+										</td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 4.0 - 6.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 9.0 - 15.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 20.0 - 35.0+ LPA</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<!-- Bottom Insights & CTA Note -->
+						<div class="salary-footer-note">
+							<div class="salary-note-text">
+								<i class="fa fa-lightbulb" style="color: #fbbf24; font-size: 16px;"></i>
+								<span><strong>AI Salary Advantage:</strong> Candidates proficient in Generative AI tools (ChatGPT, Gemini, Midjourney) command <strong>35% to 50% higher</strong> starting compensation.</span>
+							</div>
+							<a href="#kdm-hero-lead-form" class="salary-note-cta">
+								<i class="fa fa-paper-plane"></i> Get Placement Assistance
+							</a>
+						</div>
 					</div>
 
 				</div>
