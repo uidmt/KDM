@@ -97,25 +97,29 @@ window.tsChangeSlide = function (direction) {
    Awesome Results Counter Animation
    ========================================================================== */
 function animateResultCounters() {
-    var counters = document.querySelectorAll('.ip-result-card-h3');
+    var counters = document.querySelectorAll('.ip-result-card-h3, .kdm-credentials-number, .kdm-cred-num, .counter-value');
     if (!counters || counters.length === 0) return;
 
-    var speed = 80;
+    var speed = 60;
 
     counters.forEach(function (counter) {
-        var target = parseInt(counter.getAttribute('data-target'), 10);
+        if (counter.getAttribute('data-counter-done') === 'true') return;
+        var targetText = counter.getAttribute('data-target') || counter.getAttribute('data-to') || counter.innerText;
+        var target = parseInt(targetText, 10);
         if (isNaN(target)) return;
 
+        counter.setAttribute('data-counter-done', 'true');
         var count = 0;
         var inc = Math.ceil(target / speed) || 1;
+        var appendStr = counter.getAttribute('data-append') || (counter.innerText.includes('★') ? '★' : '+');
 
         var updateCount = function () {
             count += inc;
             if (count < target) {
-                counter.innerText = count + "+";
+                counter.innerText = count + appendStr;
                 setTimeout(updateCount, 25);
             } else {
-                counter.innerText = target + "+";
+                counter.innerText = target + appendStr;
             }
         };
         updateCount();

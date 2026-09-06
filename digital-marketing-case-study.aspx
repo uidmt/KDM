@@ -1,28 +1,285 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
-  <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>Case Study | King of Digital Marketing</title>
-    <meta name="keywords"
-      content="SEO Services in Delhi, SEO Company in Delhi, Best SEO Company SMO PPC, Digital Marketing Training, Online Promotion, Best PPC Training in Delhi, Promote website, Website Promotion Company in Delhi, SEO Updates, Latest SEO Tips, SEo Class in Delhi">
-    <meta name="description"
-      content="About King of Digital Marketing - Digital Marketing Company in India to provide Result Driven Services.">
-    <meta property="og:title" content="About Us | Best Digital Marketing Agency">
-    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/about-us.png  ">
-    <meta property="og:description"
-      content="Best Digital Marketing Agency in India for the following services like SEO SMM PPC Services in India. Get affordable digital marketing packages in India.">
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.kingofdigitalmarketing.com/About-Us.aspx">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://www.kingofdigitalmarketing.com" />
-    <META NAME="Author" CONTENT="Best Digital Marketing Company in Delhi, https://www.king.kingofdigitalmarketing.com">
-    <link rel="stylesheet" href="css/home-custom.css?v=8.0">
-    <script src="js/kdm-faq.js"></script>
-</div>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<title>Digital Marketing Case Study | King of Digital Marketing</title>
+<meta name="keywords" content="Digital Marketing Case Study, SEO Case Study, PPC Case Study, Lead Generation Success Stories, King of Digital Marketing">
+<meta name="description" content="Explore 130+ real digital marketing case studies, SEO ranking growth, PPC ad results, and lead generation campaigns from King of Digital Marketing.">
+<meta property="og:title" content="Digital Marketing Case Study | 130+ Client Success Stories">
+<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/about-us.png">
+<meta property="og:description" content="Discover how we delivered 10x ROI, #1 Google SERP rankings, and high-intent lead pipelines for 130+ clients globally.">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-case-study.aspx">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-case-study.aspx" />
+<link rel="stylesheet" href="css/home-custom.css?v=25.0">
+<script src="js/kdm-faq.js"></script>
+
+<style>
+/* ===== PAGE SPECIFIC CASE STUDY STYLES (MATCHING SCREENSHOT FORMAT) ===== */
+
+.kdm-case-v3-section {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+/* Search Box Header at Top */
+.kdm-case-search-wrap {
+    max-width: 720px;
+    margin: 0 auto 35px auto;
+    position: relative;
+}
+
+.kdm-case-search-input {
+    width: 100%;
+    padding: 16px 24px 16px 54px;
+    border-radius: 50px;
+    border: 1.5px solid #cbd5e1;
+    font-size: 15.5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    outline: none;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    color: #0f172a;
+}
+
+.kdm-case-search-input:focus {
+    border-color: #0284c7;
+    box-shadow: 0 6px 24px rgba(2, 132, 199, 0.2);
+}
+
+.kdm-case-search-icon {
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #64748b;
+    font-size: 18px;
+}
+
+/* Category Filter Buttons */
+.kdm-case-v3-filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.kdm-case-v3-filter-btn {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 9px 22px;
+    border-radius: 30px;
+    font-size: 13.5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.kdm-case-v3-filter-btn:hover,
+.kdm-case-v3-filter-btn.active {
+    background: #0284c7;
+    color: #ffffff;
+    border-color: #0284c7;
+    box-shadow: 0 4px 15px rgba(2, 132, 199, 0.3);
+}
+
+/* 3 or 4 Case Studies in One Row Grid */
+.kdm-case-v3-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+@media (min-width: 1400px) {
+    .kdm-case-v3-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .kdm-case-v3-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+}
+
+@media (max-width: 991px) {
+    .kdm-case-v3-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .kdm-case-v3-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* ===== BALANCED PREMIUM CASE STUDY CARD DESIGN SYSTEM ===== */
+
+/* Individual Case Card Container */
+.kdm-case-v3-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    padding: 24px 22px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    position: relative;
+    height: 100%;
+}
+
+.kdm-case-v3-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 36px rgba(2, 132, 199, 0.12);
+    border-color: #0284c7;
+}
+
+/* Top Image / Logo / Character Avatar Box */
+.kdm-case-v3-logo-wrap {
+    width: 140px;
+    height: 80px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    transition: all 0.3s ease;
+}
+
+.kdm-case-v3-card:hover .kdm-case-v3-logo-wrap {
+    border-color: #0284c7;
+}
+
+.kdm-case-v3-logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.kdm-case-v3-avatar-char {
+    font-size: 34px;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Title & Subtitle Badge */
+.kdm-case-v3-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0 0 4px 0;
+    line-height: 1.3;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.kdm-case-v3-subtitle {
+    display: inline-block;
+    color: #0284c7;
+    font-size: 13.5px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    line-height: 1.35;
+}
+
+/* Description */
+.kdm-case-v3-desc {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+/* 3 Metrics Box Row (Clean & Balanced Light Slate Theme) */
+.kdm-case-v3-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.kdm-case-v3-metric {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 12px 6px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.25s ease;
+}
+
+.kdm-case-v3-metric:hover {
+    background: #ffffff;
+    border-color: #0284c7;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.1);
+}
+
+.kdm-case-v3-metric-val {
+    display: block;
+    font-size: 19px;
+    font-weight: 800;
+    color: #0284c7;
+    line-height: 1.1;
+}
+
+.kdm-case-v3-metric-lbl {
+    display: block;
+    font-size: 11px;
+    color: #64748b;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 4px;
+}
+
+/* Action Button */
+.kdm-case-v3-btn-wrap {
+    margin-top: 5px;
+}
+
+.kdm-case-v3-btn {
+    display: inline-block;
+    border: 1.5px solid #0f172a;
+    color: #0f172a;
+    font-weight: 700;
+    font-size: 13.5px;
+    padding: 8px 26px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    background: transparent;
+}
+
+.kdm-case-v3-btn:hover {
+    background: #0f172a;
+    color: #ffffff;
+    text-decoration: none;
+}
+</style>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div role="main" class="main">
 
-      <!-- ===== REUSABLE SERVICE PAGE HERO SECTION COMPONENT ===== -->
+<!-- ===== REUSABLE SERVICE PAGE HERO SECTION COMPONENT ===== -->
       <div class="kdm-service-hero">
         <div class="kdm-service-hero-container">
           <!-- Breadcrumbs Navigation -->
@@ -32,6 +289,7 @@
               <li class="breadcrumb-sep">/</li>
               <li class="breadcrumb-current">Digital Marketing Case Study</li>
             </ul>
+          </div>
 
           <!-- Badge Tag -->
           <span class="kdm-service-hero-badge">
@@ -75,3375 +333,6078 @@
       </div>
       <!-- ===== END SERVICE PAGE HERO SECTION ===== -->
 
-
-      <div class="container">
-        <hr class="tall">
-
-
-        <div class="pintu-images" id="pintuCarousel">
-          <div class="pintu-slides" id="pintu-slideContainer">
-
-            <!-- Slide 1 -->
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">ISKCON DELHI</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/iskcon digital marketing.webp" alt="iskcon">
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">MEENA BAZAAR</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/Digital Marketing Services.webp" alt="meena bazaar">
-            </div>
-
-            <!-- Slide 3 -->
-
-
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">VLCC Hair <br>Transplant</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/vlcc hair build.webp" alt="vlcc hair">
-            </div>
-
-
-
-            <!-- Slide 4 -->
-
-
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">Cocoona</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/cocoona dr sanjay parashar.webp" alt="cocoona">
-            </div>
-
-
-
-            <!-- Slide 5 -->
-
-
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">THE CHOCOLATE <br>ROOM</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/the chocolate room canada.webp" alt="The Chocolote room">
-            </div>
-
-
-
-            <!-- Slide 6 -->
-
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">HERAT LAND <br>YOGA</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/heartland yoga  leads.webp" alt="heartland yoga ">
-            </div>
-
-
-
-            <!-- Slide 7 -->
-
-
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">Planet Education</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/planet educaton noida digital marketing.webp" alt="Planet Education">
-            </div>
-
-
-            <!-- Slide 8 -->
-
-
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">FALCON FREIGHT</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/falcon freight seo.webp" alt="falcon">
-            </div>
-
-
-            <!-- Slide 9 -->
-
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">SKINMUMMA</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/skinmumma digital marketing.webp" alt="skinmumma">
-            </div>
-
-
-            <!-- Slide 10 -->
-
-
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">QHT</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/QHT digital marketing.webp" alt="QHT">
-            </div>
-
-            <!-- Slide 11 -->
-
-            <div class="pintu-slide">
-              <div class="pintu-content">
-                <div class="pintu-logo">THE TOUR GURU</div>
-                <p>ShopMart saw a remarkable boost in their product engagement thanks to targeted SEO and content
-                  strategies tailored to retail shoppers.</p>
-                <a href="#" class="pintu-button">Read More</a>
-                <div class="pintu-metrics">
-                  <div class="pintu-metric">
-                    <span>+18%</span>
-                    <small>Website Visitors</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+22%</span>
-                    <small>Organic Search Traffic</small>
-                  </div>
-                  <div class="pintu-metric">
-                    <span>+25%</span>
-                    <small>Conversion Rate</small>
-                  </div>
-                </div>
-              </div>
-              <img src="images/my tour guru seo.webp" alt="THE TOUR GURU">
-            </div>
-
-          </div>
-          <div class="pintu-next">
-            <!-- Arrow Buttons -->
-
-
-            <div class="button-arrow">
-              <button class="pintu-arrow prev" id="pintuPrev">&#8592;</button>
-              <button class="pintu-arrow next" id="pintuNext">&#8594;</button>
-            </div>
-          </div>
-
-        </div>
-
-
-        <div class="case-result-slider-container">
-
-          <div class="search-bar-wrapper">
-            <input type="text" placeholder="Search Case Studies..." id="searchInput">
-
-
-          </div>
-
-          <div class="case-result-nav-buttons">
-            <button aria-label="Slide Left" onclick="slideLeft()"><svg class="w-6 h-6 text-gray-800 dark:text-white"
-                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M5 12h14M5 12l4-4m-4 4 4 4" />
-              </svg>
-            </button>
-            <button aria-label="Slide Right" onclick="slideRight()"><svg class="w-6 h-6 text-gray-800 dark:text-white"
-                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M19 12H5m14 0-4 4m4-4-4-4" />
-              </svg>
-            </button>
-          </div>
-
-          <div class="case-result-slider" id="slider">
-            <div class="case-result-card">
-              <img src="images/Stellar.webp" alt="Stellar" />
-              <h4>Stellar Matrimony </h4>
-              <h4>(Website Design, SMM, SEO,SMO)</h3>
-              <p>In Delhi, Stellar Matrimony provides personalized care and matrimonial services for all religions.
-              </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>It received a top-class website designed and serviced through SMM and SEO offered by King of
-                  Digital
-                  Marketing. We helped Stellar Matrimony through targeted SMM, which increases the presence on social
-                  platforms like Facebook and Instagram to pull potential clients. With these tactics put in place, we
-                  could enhance the top ranking on search results through organic traffic going to the website. King
-                  of
-                  Digital Marketing provides Stellar Matrimony with specialized SMO services making it more popular.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/The Alchamii.webp" alt="The Alchamii" />
-              <h4>The Alchamii</h4>
-              <h4>( Lead Generation)</h3>
-              <p>The Alchamii Auditing of Accounts provides a single point of contact for all of your tax law and
-                financial counseling needs.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>King of Digital Marketing's services were extremely beneficial to Alchamii. With the support of our
-                  digital marketing services, we immediately generated leads. Through King of Digital Marketing's
-                  multi-channel strategy, our lead generation specialists expanded the reach of the services by
-                  utilizing a variety of tools and resources. Working with our lead experts contributed to the
-                  expansion
-                  of the client base, the acceleration of growth, and the advancement of the organization.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/hel24.webp" alt="Stellarhel24" />
-              <h4>Heal24</h4>
-              <h4> (Website, Lead Generation)</h3>
-              <p>Heal24 is one of the cosmetic surgery clinics in Pune.King of Digital Marketing created an appealing
-                and user-friendly website. </p>
-              <br>
-              <br>
-              
-              <div class="case-result-full-content">
-                <p>Through King of Digital Marketing's multi-channel strategy, our lead generation specialists
-                  expanded
-                  the reach of the services by utilizing a variety of tools and resources. Working with our lead
-                  experts
-                  contributed to the expansion of the client base, the acceleration of growth, and the advancement of
-                  the organization.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/PPC Clients KDM.webp" alt="PPC Clients KDM" />
-              <h4>GEOGRAPHIA IAS</h4>
-              <h4> (SEO, PPC)</h3>
-              <p>As the name suggests,Geographia IAS is Geography IAS Institute providing highly crafted materials for
-                the students.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> who have opted for Geography optional while preparing for IAS/UPSC. Our team has assisted them
-                  with
-                  Pay per click and Search engine optimisation services to meet their online business goals.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/auqual logo.webp" alt="auqual logo" />
-              <h4>AUQUAL HAIR SERVICES</h4>
-              <h4> (SEO,SMO)</h3>
-              <p>Auqual Hair Services, yes We have become experts for hair transplant website promotion. </p>
-              <br>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>It is Hair Transplant Clinic in Raipur that rose to 1st Page on SERPs in almost no time. KDM has
-                  provided Search Engine Optimisation and Social Media Optimisation for Auqual Hair Services.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/tanuj astroseer.webp" alt="tanuj astroseerc" />
-              <h4>TANUJ ASTROSEER</h4>
-              <h4> (SEO,PPC)</h3>
-              <p>Tanuj Astroseer is a leading and top ranked Astrologer in Delhi. We are working for this Astrology
-                since 2018.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> In some months, Our SEO team performed excellently to promote Tanuj Astroseer's website. Its all
-                  80%
-                  keywords are ranking on 1st page of Google. In past, They were contacted with another agency for PPC
-                  services. Now we are dong PPC and in the same amount, they are getting 10x more ROI.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/kidney care centre.webp" alt="kidney care centre" />
-              <h4>KIDNEY CARE CENTRE</h4>
-              <h4> (SEO)</h3>
-              <p>Kidney care center is led by most experienced nephrologist in Delhi. We started doing SEO of this
-                project in last month of 2018.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>Since the time, we did white hat On Page SEO and created good backlinks, now almost 60% keywords
-                  are
-                  ranking in top 10 - 15 position of the Google. Work is going on and expecting to bring in top 5 for
-                  80% keywords.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Flood Lightz Media.webp" alt="Flood Lightz Media" />
-              <h4>FLOODLIGHTZ MEDIA</h4>
-              <h4> (SEO,PPC )</h3>
-              <p>Floodlightz Media Solution is a marketing and media company located in delhi.</p>
-              <br>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> we had been providing them with Search Engine Optimisation Services. Many Keywords like BTL
-                  Services
-                  Agency in Delhi are on the First Page on Google Search.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/UPSSOrtways.webp" alt="UPSSOrtways" />
-              <h4>UPSSORTWAYS</h4>
-              <h4> ( SEO )</h3>
-              <p>UPSSortways is a well-known company manufacturing its flagship product online UPS and providing electrical energy and backup requirements in India.</p>
-              <br>
-              <div class="case-result-full-content">
-                <p>KDM has helped them to gain more potential clients with our Search Engine Optimisation Service and
-                  getting 90% of their keywords to the first page ranking.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/seo client14.webp" alt="seo client14" />
-              <h4>Koncept Academy</h4>
-              <h4> (SEO)</h3>
-              <p>An eminent and remarkable name amongst large numbers of institutions, Koncept Academy is a leading
-                coaching centre for the preparation of competitive exams like Bank PO, SSC, CTET and the list goes on.
-              </p>
-              <div class="case-result-full-content">
-                <p> What's special about this one is, initially we were asked to do Search Engine Optimisation for
-                  their
-                  website, but the owner Mr. Praveen Kumar was enthusiastic enough to learn SEO techniques from us.
-                  And
-                  as the famous Chinese proverb saying goes, Give a man a fish, and you feed him for a day; show him
-                  how
-                  to catch fish, and you feed him for a lifetime. We at King of digital marketing believe in creating
-                  leaders for tomorrow rather than followers, we taught Mr Praveen Kumar how to perform search engine
-                  optimisation in a very short span of time.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/web design client6.webp" alt="web design client6" />
-              <h4>Vijeta Tour & Travels</h4>
-              <h4> ( SEO)</h3>
-              <p> Vijeta Tour & Travels is best travel agency in Prayagraj UP. We are carrying their goals since 2015.
-              </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>We designed their website and currently providing our SEO Services to them. This agency deals in
-                  various tour packages like Kashi, Triveni Sangam Tour, BodhGaya etc. Recently we worked for Kumbh
-                  Mela
-                  Packages promotion on this website and increased growth of the agency by 150%. Many Keywords related
-                  to Kumbh Mela Packages were in 1st page of Google.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Spurt Hair Clinic_img.webp" alt="Spurt Hair Clinic" />
-              <h4>SPURT HAIR CLINIC</h4>
-              <h4> (SEO,SMO)</h3>
-              <p>Spurt Hair Clinic is one of the best Hair Transplant Clinic in Pune offering Hair Transplant/Hair
-                Restoration at nominal cost.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>King of Digital Marketing has served them with SEO and SMO services boosting their online presence
-                  in
-                  a short span of time.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/sound and energy healing_img.webp" alt="Spurt Hair Clinic" />
-              <h4>Sound & Energy Healing</h4>
-              <h4> (SMM,SEO )</h3>
-              <p>Sound Energy Healing Sound Healing is an effective and verified modality that uses vibrational sound
-                to
-                help reduce stress.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> alter consciousness and make a deep sense of peace, well being and higher health. Sound has
-                  additionally been shown to be an important part of the healing method for cancer patients undergoing
-                  therapy and side effects particularly for pain relief management. We offered our Social Media
-                  Optimisation Service to them. Many of their keywords are still on first pages of SERP.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/astrosatva.webp" alt="astrosatva" />
-              <h4>AstroSatva</h4>
-              <h4> ( SEO, SMO, PPC, Website Design )</h3>
-              <p>The best astrology consultation services is AstroSatva by Aman Deep Saini who offers counselling
-                services as well as Astrology Courses.</p>
-                <br>
-  
-              <div class="case-result-full-content">
-                <p>For AstroSatva a valuable astrological website with a high potential for engaging with potential
-                  customers and generating more leads for the astrology business was developed by King of Digital
-                  Marketing. The visibility of the Astrology Business on search engines was greatly enhanced with our
-                  SEO services. Our SMO team regularly posted on relevant social media platforms with appealing
-                  photographs, interesting posts, updates, and client responses in an effort to build audience trust
-                  and
-                  credibility. In the end our PPC campaign also helped achieve the highest return on investment.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/PKG Consultancy.webp" alt="PKG Consultancy" />
-              <h4>PKG Consultancy</h4>
-              <h4> (Lead Generation) </h3>
-              <p>PKG Consultancy is the best business in South Delhi which offers a single point of contact for all
-                legal and business concerns, such as GST filing, auditing, taxation, company registration.</p>
-              <br>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>The services provided by King of Digital Marketing were very helpful to PKG consultancy. We quickly
-                  generated leads with the help of our digital marketing services. Our lead generation specialists
-                  increased the reach of the services by utilising a number of tools and resources through King of
-                  Digital marketing's multi-channel strategy. Working with our lead experts aided in expanding the
-                  client base, accelerating growth, and advancing the company.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/lakhotia.webp" alt="lakhotia" />
-              <h4>Lakhotia Eye Centre</h4>
-              <h4> (Website Design, SMO services)</h3>
-              <p>One of the most esteemed ophthalmologists in Delhi is Dr. Sharad Lakhotia of Delhi's Lakhotia Eye
-                Centre & Laser Institute.</p>
-              <br>
-              
-              <div class="case-result-full-content">
-                <p>The websites were created by King of Digital Marketing and were search engine optimised, resulting
-                  in
-                  rankings, traffic, and conversions for the optometrist. With the help of our team's SMO efforts, we
-                  aimed to increase website traffic by promoting the centre and brand on the top social media sites.
-                  Our
-                  team's social media optimization specialists have assisted in increasing brand visibility and
-                  generating leads through social media channels.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/happypet_img.webp" alt="happypet" />
-              <h4>Happy Pet Solution</h4>
-              <h4>( Website Design Services)</h3>
-              <p> Established in New Delhi, Happy Pet Solution is a wholesaler of pet supplies. King of Digital
-                Marketing provided website development services to Happy Pet solution.</p>
-              <br>
-              
-              <div class="case-result-full-content">
-                <p> We began by trying to discuss the client's requirements, selecting the best technology and web
-                  language to fit those requirements, and then planning with a professional website designer based on
-                  those requirements. Our skilled, knowledgeable, and experienced web designers and content writers
-                  completed the entire process of designing, creating visuals, and writing the content.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/scalaclinic.webp" alt="scalaclinic" />
-              <h4>Scala Clinic</h4>
-              <h4> (SEO) </h3>
-              <p>Scala is a pioneer in hair transplantation and skin care solutions in India.Scala clinic was offered
-                SEO services by the King of digital marketing.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> By using a flexible and appealing website design, we greatly boosted the amount of quality traffic
-                  to their website. The Hair and Skin Transplant Clinic shot to the top of the SERPs very rapidly and
-                  the client's exposure on Google was quickly increased by our SEO techniques. Effectively, we have
-                  managed to keep the clinic in first place. Client was pleased with our professionalism and
-                  knowledge.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/burgeon.webp" alt="burgeon" />
-              <h4>Burgeon Law</h4>
-              <h4> (SEO)</h3>
-              <p>Burgeon is a law firm by Roma Priya, that supports growth, change and innovation in the evolving
-                start-up ecosystem in India.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>The law firm hired King of Digital Marketing to provide SEO services, and it was crucial to pick
-                  the
-                  appropriate keywords to improve the legal firm's content's SEO. In order to assure online exposure
-                  on
-                  search engines, our digital marketing expert's search engine optimization (SEO) techniques increased
-                  the website's quality traffic by using optimised content that concentrated on important keywords
-                  which
-                  explained the legal firm's industry. The business reached the correct audience and saw lucrative
-                  growth thanks to the assistance of our digital marketing experts.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Kundali Expert_img.webp" alt="kundali expert" />
-              <h4>Kundali Expert</h4>
-              <h4> ( SEO, SMO, PPC, YouTube, Website Design) </h3>
-              <p> K.M. Sinha is a well-known Vedic astrologer and Kundali expert not only in India but also in many
-                other countries.</p>
-              <br>
-             
-              <div class="case-result-full-content">
-                <p> We at King Digital Marketing have developed a recognisable brand identity for the astrology
-                  services
-                  with our website design and YouTube marketing services. As a result, our client's website traffic,
-                  clientele, and exposure to new audiences all grew. The SEO campaign was executed successfully and
-                  led
-                  to a high ranking on SERPs, and a benefit for those looking for astrology services. With the help of
-                  our SMO services and the PPC ad campaigning that our King of Digital Marketing professionals
-                  advised,
-                  we were able to generate leads with ease.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/abhinav-shrivastava-advocate.webp" alt="abhinav-shrivastava-advocate" />
-              <h4>Advocate Abhinav Shrivastava</h4>
-              <h4>(Website Design Services)</h3>
-              <p> Best lawyer in Delhi, India is ABHINAV SHRIVASTAVA. The lawyer received efficient website design
-                services from King of Digital Marketing.</p>
-              
-              <div class="case-result-full-content">
-                <p>which highlighted the lawyer's competent legal skills, offered contact information and provided
-                  answers to frequently asked queries to establish credibility and improve search engine positioning.
-                  The website was made to be user-friendly and simple to use on a desktop or mobile device by
-                  potential
-                  clients. With a call to action that is obvious and optimised for search engines, the website
-                  encouraged potential clients to take further steps towards hiring the lawyer.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/AS Edutech.webp" alt="AS Edutech" />
-              <h4>AS EDU TECH</h4>
-              <h4>(SEO, SMO)</h3>
-              <p>In New Delhi, India, AS Edutech is an Overseas educational consultancy for study abroad. King of
-                Digital Marketing began with SEO services for Overseas Education consultancy.</p>
-              <br>
-           
-              <div class="case-result-full-content">
-                <p>.Our team made the decision regarding what content should be included on the website in order for
-                  it
-                  to rank on Google, which required determining the service categories that students were looking for
-                  along with keyword research. It increased organic website traffic, leads and conversion. With the
-                  help
-                  of our SMO services, we raised brand awareness for overseas education consultants on the best social
-                  media platforms like Facebook, Instagram, Twitter, and LinkedIn and targeted students by attempting
-                  to
-                  share posts in those groups of students who might be interested in study abroad consultation.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/MANYAM.webp" alt="MANYAM" />
-              <h4>MANYAM</h4>
-              <h4>( Website Design)</h3>
-              <p>Manyam by Manu Anand is an event planning and wedding Decor stylist company based in Delhi,
-                specializing in destination and large-scale events.</p>
-              
-              <div class="case-result-full-content">
-                <p>A website with an excellent user experience and visual appeal was made by King of Digital
-                  Marketing.
-                  We started the process by building a website that was user-friendly, conveyed confidence, trust, and
-                  professionalism, and instilled visitors with confidence to hire MANYAM. It increased leads more
-                  quickly and consistently which resulted in client satisfaction.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Astro Pryag Snagam.webp" alt="Astro Pryag Snagam" />
-              <h4>Astrology Sangam</h4>
-              <h4> (Website Design, SMM, Lead generation)</h3>
-              <p>The team at King of Digital Marketing created a useful astrological website for Astrology Sangam with
-                the aim of engaging visitors and increasing lead generation for the astrology business.</p>
-              <div class="case-result-full-content">
-                <p>In an effort to increase audience trust and credibility for Astrology Sangam with our SMM campaign,
-                  our team routinely posted on relevant social media networks with eye-catching images, engaging
-                  posts,
-                  updates, and client comments. In the end, our campaign contributed to the highest return on
-                  investment
-                  and lead generation.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Nurturers Special.webp" alt="Nurturers" />
-              <h4>Nurturers Special Education</h4>
-              <h4>(SEO, Website Design ) </h3>
-              <p>In Noida, there is a therapy facility called Nurturers Center. Along with other developmental and
-                intellectual problems, they work with persons who have Down syndrome, autism, and cerebral palsy.</p>
-              <div class="case-result-full-content">
-                <p>Among the many services they offer are special education, occupational therapy, counselling, speech
-                  therapy, remedial teaching, and a number of parent guidance programmes. We created appealing and
-                  simpler website, simple to use and accessible. With our Search engine optimization techniques we
-                  increased the number of applicants and enrolments eventually.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Enhance-Clinic.webp" alt="Enhance-Clinic" />
-              <h4>Enhance Clinics</h4>
-              <h4>(SEO)</h3>
-              <p>King of Digital Marketing provided SEO services to Enhance Clinics, the best and most reputable hair
-                transplant clinic in India.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>These services have helped clients significantly increase their revenue.We employed tried-and-true
-                  SEO techniques for the client's hair transplant and restoration clinic website, including website
-                  analysis and keyword research. With the aid of our responsive web design, we significantly raised
-                  the
-                  volume of qualified traffic to their website. The SEO techniques have also greatly increased the
-                  client's exposure on Google, and the client's satisfaction with our work and skills has increased.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Zotails Pet Care Products.webp" alt="Zotails Pet Care " />
-              <h4>Zotails Pet Care Products</h4>
-              <h4>(SEO, PPC) </h3>
-              <p>The detailed SEO plans created by the King of digital marketing experts helped clients' websites
-                appear
-                on the first pages of search results</p>
-              
-              <div class="case-result-full-content">
-                <p>Within a few months, we started offering digital leads; as a result, there has been a notable
-                  increase in organic traffic. Based on ongoing research, our team is doing an excellent job of
-                  selecting theappropriate keywords. Our team's recommendation for PPC advertising for Zotails pet
-                  care
-                  products has increased ROI by generating leads. We were pleasantly surprised by how much our clients
-                  appreciated our efforts.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/DKC-Astrology-1.webp" alt="DKC-Astrology" />
-              <h4>DKC Astrology</h4>
-              <h4>( Website Design)</h3>
-              <p>Among the best and most reputable astrologers is DKC Astrology. By using our website design services.
-              </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>we at King Digital Marketing have created a recognisable brand identity for the astrology services.
-                  Having a professional website enabled the astrologer to more effectively convey the brand's story,
-                  which was crucial for establishing business legitimacy and reliability in the astrology sector. With
-                  the help of our YouTube marketing services, we promoted the astrology business using a strategy that
-                  involved making videos and uploading them to the site to promote the brand. As a result, our
-                  client's
-                  website traffic, customer base, and exposure to new audiences all increased.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Ankita Dhingra.webp" alt="Spurt Hair Clinic" />
-              <h4>Ankita Dhingra - Eyebrow Artist</h4>
-              <h4>(SEO, SMO, PPC)</h3>
-              <p>Ankita Dhingra is one of the best semi permanent makeup artists. As an artist, it was essential to
-                have
-                a website on the first page of search engines like Google and Yahoo so our SEO professionals helped us
-                .
-              </p>
-              
-              <div class="case-result-full-content">
-                <p>get started by conducting keyword research to find out what terms customers were typing. The SEO
-                  campaign was carried out successfully, and our search engine marketing resulted in a high ranking on
-                  SERPs, more visitors, and a fantastic reputation for the brow artist's logo.Leads were easily
-                  produced
-                  by the SMO services we provide and the PPC ad campaigning that our King of Digital Marketing experts
-                  recommended increased ROI by generating leads. Our client was grateful for the efforts we put in.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Health Solution Gym.webp" alt="Health Solution Gymc" />
-              <h4>Health Solution Gym</h4>
-              <h4>(Website Design and SMM)</h3>
-              <p>One of the big names in the fitness centers is Health Solution Gym and Spa in Dwarka, Delhi. </p>
-              <br>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>King of Digital Marketing provided this client assistance with website design and SMM activities.
-                  In
-                  all social media channels, our team concentrated on connecting with target gym users. Additionally,
-                  we
-                  gave the audience advice on nutrition and exercise that they could utilise both inside and outside
-                  of
-                  the gym. With trustworthy, authoritative content, we established the health solution gym's brand
-                  awareness. For the best results, we used a combination of paid and unpaid social media content, and
-                  the client was happy with the quickly established gym community.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Chavan Cosmetic Clinic.webp" alt="Chavan Cosmetic Clinic" />
-              <h4>Chavan Cosmetic Clinic </h4>
-              <h4>(Website, Digital marketing services)</h3>
-              <p>A well-known cosmetic/plastic surgeon in Delhi is Chavan Cosmetic Clinic.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>We received a request for assistance with website design and digital marketing. We began the
-                  process
-                  by creating a website that was friendly, simple to use, conveyed care, confidence, trust, and
-                  professionalism, served as a resource for information and gave visitors a sense of confidence rather
-                  than serving as a sales pitch for cosmetic procedures. In order to generate leads faster and more
-                  reliably, our team created it to be attractive and interesting. We also optimised the landing pages,
-                  improved visitor experiences and Google rankings.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/aatreya academy_img.webp" alt="aatreya academy" />
-              <h4>Aatreya Academy</h4>
-              <h4>(SEO Services) </h3>
-              <p>The best academy with the best faculty and facilities for students is Aatreya Academy School in
-                Pratapgarh, Uttar Pradesh.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>King of Digital Marketing provided assistance with search engine optimization (SEO) services, which
-                  is the process of carrying out the proper actions on (and off) the academy's website in order for
-                  the
-                  search engines to determine that it is the best fit for what a user is looking for. With the help of
-                  our SEO services, we made sure that every time a parent or student looked up an academy on Google,
-                  Yahoo, or Bing, it would appear on the top page of the search results, giving the academy the best
-                  chance of competing for those valuable enrollments.
-
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Food Lovers Varanasi.webp" alt="Food Lovers Varanasi" />
-              <h4>Food Lovers Varanasi</h4>
-              <h4>(Social Media services) </h3>
-              <p>Food Lovers Varanasi, this establishment is ideal for a food lover's binge and will leave you wanting
-                more.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>King of digital marketing with its social media services increased traffic, reservations, customer
-                  interaction, boosted brand recognition, and helped them earn more revenue. The most crucial
-                  component
-                  of food SEO services is still developing content strategically and concentrating on what the
-                  audience
-                  is most likely to seek for. The assistance we provided was greatly valued. We discovered trending
-                  and
-                  less-competitive food keywords and continuous stream of curious foodies searching for a fun
-                  experience
-                  was also visible.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/soundenergyhealing.webp" alt="soundenergyhealing" />
-              <h4>Zumba Classes Dwarka</h4>
-              <h4>( Social Media Services )</h3>
-              <p>Ms. Neetu Chawla is known for her passion and pursuit of perfection. She is a skilled Zumba
-                instructor
-                with additional specialties in Martial Arts, Aqua Zumba, Zumba B1, Gym Ball, and Pilates.</p>
-            
-              <div class="case-result-full-content">
-                <p> Social media services were provided by our team at King of Digital Marketing, and social media
-                  experts handled comprehensive maintenance of numerous social media sites, from Facebook to LinkedIn.
-                  Our social media management for gyms includes all facets of managing profiles, including publishing
-                  content and SEO-optimizing it. A good social media presence can assist gyms in converting their
-                  audience from onlookers to members.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/mystic-sign.webp" alt="mystic-sign" />
-              <h4>Mystic Siigns</h4>
-              <h4> (Social Media services)</h3>
-              <p>The renowned astrologer Dapinder kaur established the astrology company Mystic Siigns. The team at
-                King
-                of digital marketing began to explore strategies for the astrology business.</p>
-              <br>
-              
-              <div class="case-result-full-content">
-                <p>The best social media channel to advertise the business was Facebook, Instagram, Twitter, and
-                  LinkedIn. We aimed to share posts in various communities with potential customers who could be
-                  interested in astrology consultations. Posted content on social media platforms with
-                  astrology-related
-                  information. Additionally, with the help of paid advertisements we increased brand awareness and
-                  inbound traffic through social media platforms.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Bond Back Cleaning.webp" alt="Bond Back Cleaning" />
-              <h4>Bond Back Cleaning</h4>
-              <h4>(SEO) </h3>
-              <p>A website detailing all of the services was part of the digital marketing strategy that King of
-                Digital
-                Marketing developed.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>The process of cleaning services and the advantages they can offer a customer were outlined by our
-                  team using attractive graphics. We used SEO to improve the website so that Bond Back Cleaning would
-                  appear first whenever someone searched for a cleaning service.The team placed a strong emphasis on
-                  making sure that the pages were designed to persuade potential customers to make phone calls to the
-                  company.
-                  View Details</p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/cliniq_img.webp" alt="cliniq" />
-              <h4>Cliniq</h4>
-              <h4>(Website, SEO, Social Media & Leads)</h3>
-              <p>Cliniq is one of the best hair Transplant clinics in Hyderabad and one of our esteemed clients. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>We have created an attractive, and user-friendly website design for Cliniq. We have worked on their
-                  SEO and social media as well and we have created high-quality leads for them through our Lead
-                  Generation Services. On social media, we post high-quality graphics on trending topics. The SEO
-                  campaign was executed successfully and led to a high ranking on SERPs, and a benefit for those
-                  looking
-                  for hair transplant services. Working with our digital marketing experts aided in expanding the
-                  client
-                  base, accelerating growth, and advancing the company.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/dncc_img.webp" alt="dncc" />
-              <h4>DNCC</h4>
-              <h4> (SEO, SMM, Leads, YouTube)</h3>
-              <p>DNCC is a group of cosmetic surgery clinics all over India led by Dr. Nishita Sheth. </p>
-              <br>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>Nishita Sheth. The team of experts at King of Digital Marketing has strategized the digital
-                  marketing
-                  tactics for DNCC to ensure they achieve the best possible outcomes. For the Social Media part, we
-                  have
-                  applied various trending social media tactics on Facebook and Instagram. In terms of SEO, the team
-                  of
-                  SEO experts has worked on backlinks, existing page content, and creating informative blogs to secure
-                  a
-                  strong Google ranking. We have created high-quality Leads for DNCC with our Lead generation
-                  services.
-                  In our YouTube marketing efforts, we have prioritized the creation and posting of various
-                  informative
-                  videos that provide added value.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/MindYourTax.webp" alt="MindYourTax" />
-              <h4>Mind Your Tax</h4>
-              <h4> (SEO, SMM, SMO, Leads Services)</h3>
-              <p>King of Digital Marketing provides such services to Mind Your Tax in Bengaluru: SEO, SMM, SMO, and
-                lead
-                generation. </p>
-              <br>
-
-              <div class="case-result-full-content">
-                <p> The SMO service it provides has increased the online presence and engagement of Mind Your Tax
-                  agency
-                  on all social media platforms to reach a large audience for better visibility and promote the brand
-                  image of the agency. Our SEO strategies ensure the best returns from search engines with tax
-                  services.
-                  Through social media marketing, we can easily sell our proposal for engaging clients on different
-                  profiles like Facebook and LinkedIn to enhance brand awareness. Our lead generation services pull in
-                  quality prospects and convert them into loyal clients. This pulls in an overall online presence with
-                  good client acquisition for Mind Your Tax.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Olympus_img.webp" alt="Olympus" />
-              <h4>Olympus </h4>
-              <h4>(Website Design, SMO, SEO)</h3>
-              <p>Advanced Digital Marketing Service is provided to Olympus Hair Clinic in Birmingham, UK by King of
-                Digital Marketing.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>This includes Website Design, and SEO which are developed especially for hair-related treatments
-                  such
-                  as hair transplant, PRP therapy, scalp micro pigmentation, and hair loss solutions. Second, designed
-                  an attention-seeking and user-friendly website that enriches the patient experience and its
-                  visibility. The SEO strategy that we provided gave organic traffic to the clinic's site through top
-                  search engine rankings. Our hard work increased brand awareness and patient engagement for Olympus
-                  Hair Clinic.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/IIAG.webp" alt="IIAG" />
-              <h4>IIAG</h4>
-              <h4>(SEO)</h3>
-              <p>King of Digital Marketing will render professional SEO services for IIAG located in Faridabad,
-                Haryana.
-              </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> With their specializations in horoscope analysis, kundali making, matchmaking, Vastu, Nadi
-                  astrology, and Vedic astrology, our strategies helped to enhance online visibility and provide top
-                  rankings on search engines for IIAG. We optimize keywords like gemology, rudraksh, and
-                  problem-solving
-                  services. We believe that better structuring of websites, enhancing the quality of the content, and
-                  creating high-power backlink profiles-all drive more organic visitors to IIAG's site. Through l SEO,
-                  it has become easier for IIAG to connect people who seek astrological guidance, increase customer
-                  engagement, and boost business growth.
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Statsenei.webp" alt="Statsenei" />
-              <h4>Statsenei </h4>
-              <h4>(SMO)</h3>
-              <p>We offer Social Media Optimization for Statsenei, a sports site containing several decades' worth of
-                information about bowlers and cricket news. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> We enhanced the presence of Statsenei across platforms like Facebook, Twitter, and Instagram
-                  through
-                  posts that have surely attracted cricket lovers. Our SMO strategies increase the number of
-                  followers,
-                  engage users to a larger extent, and result in more hits to the website, thus making Statsenei one
-                  of
-                  the most frequented sites by cricket lovers.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Trusted Astro_img.webp" alt="Trusted Astro" />
-              <h4>Trusted Astro </h4>
-              <h4>(Astrologer) in Lucknow</h3>
-              <p>King of Digital Marketing offers app promotion for Trusted Astro in Lucknow.</p>
-              <br>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>We use effective, targeted strategies for increasing app downloads and user engagement with
-                  astrology
-                  services and remedies created in their app. We ensured the highest visibility and reach through
-                  promotional campaigns on social media and app stores. We effectively built a good presence with the
-                  app for Trusted Astro through data-driven insights and creative content, which has helped to build
-                  relationships with a wider audience in search of astrological guidance and answers.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/salient.webp" alt="salient" />
-              <h4>Salient Shoes</h4>
-              <h4> (Website Design, SMO, Paid Ads Services)</h3>
-              <p>King of Digital Marketing offers Salient Shoes website design, SMO, and paid ads services.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>We create the most innovative, visually attractive websites that portray the footwear collection
-                  offered at Salient Shoes. With SMO, we work toward the growth and establishment of the brand on
-                  social
-                  platforms, drawing in prospective customers. The paid ad campaigns target traffic, sales, and brand
-                  awareness enhancement to maximize revenues. This is how our integrated approach broadens the market
-                  reach and increases the customer base of Salient Shoes.
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Saptax.webp" alt="Saptax" />
-              <h4>Saptaxhubllp </h4>
-              <h4> (SEO, Website Design Services, SMO)</h3>
-              <p>-King of Digital Marketing provides Saptaxhubllp in Delhi with professional SEO services, including
-                website design. </p>
-              <br>
-              
-              <div class="case-result-full-content">
-                <p> We make some user-friendly responsive websites to showcase the related services of taxes. And, our
-                  SEO strategies remain top among the soldiers of the search engine crowd, which leads to great
-                  organic
-                  site traffic. A blend of a strong website design with the best SEO practices works a way for great
-                  online visibility and client engagement for Saptaxhubllp, helping it reach a far wider clientele in
-                  tax services. King Digital Marketing. has worked out and implemented a proper SMO strategy for
-                  Saptax,
-                  a tax-related service agency. The SMO increases the online presence and engagement of Saptax on all
-                  social media platforms to reach a large audience for better visibility and to promote the brand
-                  image
-                  of the agency.
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/adgrow.webp" alt="adgrow" />
-              <h4>Adgrow</h4>
-              <h4>(SMM)</h3>
-              <p>King of Digital Marketing offers customized SMM services for its client AdGrow in Chennai. Their
-                services include hair transplant, eyebrow transplant, beard treatment, hair loss treatment, dandruff
-                treatment, and scalp micro-pigmentation service.</p>
-              <div class="case-result-full-content">
-                <p>Campaigning on Facebook, Instagram, and Twitter helps reach potential clients to involve them in
-                  better brand visibility. Our SMM strategies are supported with great content, attractive visuals,
-                  and
-                  audience targeting down to the smallest detail to make sure that AdGrow's services are placed in
-                  front
-                  of the eyes of the people who need them. We will help AdGrow attract new customers, increase brand
-                  loyalty, and move the business forward by enhancing its online presence through effective social
-                  engagement on lead generation.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/Davesar.webp" alt="Davesar" />
-              <h4>Davesar </h4>
-              <h4>(SMM, Leads)</h3>
-              <p>King of Digital Marketing provides top services in Social Media Marketing and Lead Generation to
-                DAVESAR Consultants in Punjab. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>We bring online visibility for DAVESAR Consultant, which excels in the fields of IELTS coaching,
-                  personality development, student immigration, and interview preparation. Our SMM strategies,
-                  especially designed have increased the brand visibility on Facebook, Instagram, and LinkedIn by
-                  engaging the potential clients; later, with lead generation campaigns, we attract quality clients
-                  interested in IELTS and other services. Our data-driven approach ensures high conversion rates and
-                  efficiently growing the client base toward business goals. Let's work together for exceptional
-                  results
-                  in digital marketing at DAVESAR Consultant
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/astropush.webp" alt="astropush" />
-              <h4>AstroPush</h4>
-              <h4>( Full Digital Marketing, App Promotion)</h3>
-              <p>AstroPush is one of the Astrology apps India. For the Astropush app, we have used SEO, SMO (social
-                media), and YouTube marketing to make it more popular online </p>
-              
-              <div class="case-result-full-content">
-                <p>We also focused on promoting the app itself to reach more people. Our efforts aim to make AstroPush
-                  even more successful in the world of astrology apps in India.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/monickaagupta_img.webp" alt="monickaagupta" />
-              <h4>Numerologist Monickaa Gupta</h4>
-              <h4>(Full Digital Marketing & Website Design)</h3>
-              <p>Monickaa Gupta is a well-known Numerologist located in Dubai. With our website design and YouTube
-                marketing services, we at King Digital Marketing have created a distinctive brand identity for
-                numerology services. </p>
-              
-              <div class="case-result-full-content">
-                <p>. Our client's website traffic, customers, and exposure to new audiences all increased as a result.
-                  The SEO strategy was successfully carried out, resulting in a good ranking on SERPs and a benefit
-                  for
-                  individuals looking for astrology services. We were able to create leads with ease thanks to our SMO
-                  services and the PPC ad marketing advice from our Digital Marketing experts.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/IEAC.webp" alt="IEAC" />
-              <h4>IEAC Study Abroad Consultant</h4>
-              <h4> (Lead Generation)</h3>
-              <p>The lead generation tactics used by the King of digital marketing provided super-effective growth and
-                engagement. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>The team of PPC experts at King of Digital Marketing tried their efforts of social media marketing
-                  on
-                  multiple channels like Facebook, Twitter, and Instagram. With our customized strategies and efforts,
-                  we were able to create high-quality leads for IEAC Study Abroad consultants.
-                  View Details
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/envisionoverseas_img.webp" alt="envisionoverseas" />
-              <h4>Envision Overseas</h4>
-              <h4> (Landing Page & Lead Generation)</h3>
-              <p>King of Digital Marketing provided the best lead generation Services to Envision Overseas for the
-                promotion of its services. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> The client is completely delighted because their client reach has increased by a large percentage.
-                  One of the major overseas consultants received a massive response on the landing page created by
-                  King
-                  of Digital Marketing from website visitors. King of digital marketing successfully assists the
-                  organization in meeting its obstacles.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/go-to-university.webp" alt="go-to-university" />
-              <h4>GotoUniversity</h4>
-              <h4>( SEO, Lead Generation)</h3>
-              <p>Go to University is one of the best and most well-known overseas education consultants. </p>
-              <br>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>King of Digital Marketing has provided SEO and lead generation services to Go to University. We
-                  have
-                  generated high-quality leads for Go to University with our lead generation services. In terms of
-                  SEO,
-                  we've focused on content creation, specifically through blogs and articles. These contents are not
-                  only informative but also contribute to building high-quality backlinks.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Achriya-mukiti.webp" alt="Achriya-mukiti" />
-              <h4>The Acharya Mukti</h4>
-              <h4> (Landing Page & Lead Generation)</h3>
-              <p>Acharya Mukti, one of the best astrologers, got great help from King of Digital Marketing to find new
-                clients with our lead generation services.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>They used special services to attract more people interested in Acharya Mukti's services. The
-                  clients
-                  are very happy because they now have more people who know about them. One of the top astrologers had
-                  many people visit their website through a special page created by King of Digital Marketing. With
-                  their assistance, the astrologer was able to overcome the difficulties they were facing. In simple
-                  terms, King of Digital Marketing helped Acharya Mukti get more clients and become more successful.
-                  View Details
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/eva_img.webp" alt="eva" />
-              <h4>Dr. HIranmayi Jha</h4>
-              <h4> (Website, SEO, Social Media, Leads & YouTube)</h3>
-              <p>Dr. Hiranmayi Jha, is one of the best and leading Cosmetic surgeons in Delhi. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>King of Digital Marketing has generated high-quality leads for their website with the help of our
-                  responsive web design. The SMO SEO&PPC strategies quickly enhanced the client's visibility on
-                  Google.
-                  We are effectively keeping Dr. Hiranamyi Jha's website to a higher position in SERP. Clients are far
-                  more pleased with our efforts and abilities.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-
-            <div class="case-result-card">
-              <img src="images/Astrochats.webp" alt="Astrochats" />
-              <h4>Astrochats</h4>
-              <h4>(App Installation)</h3>
-              <p>Astrochats is one of the best Astrology Apps in India. We have developed customized mobile app
-                advertising tactics based on our client's specific needs. </p>
-              <br>
-              
-              <div class="case-result-full-content">
-                <p>It is determined by the app's category and target audience. We always assist our clients in
-                  analyzing, planning, developing, and implementing a unique marketing strategy for their app to
-                  increase downloads and new consumers.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Imperial Matrimonial.webp" alt="Imperial Matrimonial" />
-              <h4>Imperial Matrimonial</h4>
-              <h4>(Website, SEO, Social Media, Leads)</h3>
-              <p> Imperial Matrimonial is one of the luxurious matchmaking service providers in Delhi. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>For Imperial Matrimonial, the team of Experienced digital marketers at King of Digital Marketing
-                  has
-                  curated a strategic and customized digital marketing plan, which helped the client to get the ROI.
-                  With the help of our user-friendly web design, Digital Marketing has earned high-quality leads for
-                  their website. The SMO, SEO, and PPC methods significantly increased the client's visibility on
-                  Google. We are successfully keeping Dr. Hiranamyi Jha's website at the top of the SERPs. Clients are
-                  much happier with our efforts and talents.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/Dr. Sanjay Tandon.webp" alt="Dr. Sanjay Tandon" />
-              <h4>Dr. Sanjay Tandon- Pedritician</h4>
-              <h4> ( Website Design, SEO & Leads)</h3>
-              <p> Dr. Sanjay Tandon, one of the best Paediatricians in the country. King of Digital Marketing created an
-                attractive and user-friendly website for Dr. Sanjay Tandon</p>
-              <br>
-              
-            
-              <div class="case-result-full-content">
-                <p>Our SEO services significantly improved the visibility on search engines. In an effort to develop
-                  audience trust and credibility, and generate high quality leads our lead generation team has
-                  developed
-                  the best and customised strategies, our PPC campaign contributed to the highest return on
-                  investment.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/ihoroscopegpt_img.webp" alt="ihoroscopegpt" />
-              <h4>iHoroscopeGPT</h4>
-              <h4>(Website Design, SEO)</h3>
-              <p>iHoroscopeGPT is a revolutionary app that seamlessly blends ancient Vedic astrology with cutting-edge
-                artificial intelligence. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> King of Digital Marketing created an attractive and user-friendly website for iHoroscopeGPT that
-                  has
-                  a strong potential for engaging with potential clients and creating more leads. King of Digital
-                  Marketing's expertise in SEO services has played a vital role in enhancing the app's visibility on
-                  search engines, ensuring it ranks prominently among competitors. Furthermore, their web design
-                  proficiency has created an aesthetically pleasing and highly functional platform. Together, these
-                  digital marketing services have successfully positioned iHoroscopeGPT as a powerful and accessible
-                  tool, bridging traditional astrological wisdom with cutting-edge technology.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/rp.webp" alt="rp" />
-              <h4>R & P Hair & Skin Clinic Pune</h4>
-              <h4> (Lead Generation)</h3>
-              <p>R & P Hair & Skin Clinic in Pune has successfully partnered with us for lead generation services. R & P
-                Hair & Skin Clinic in Pune has successfully partnered with us for lead generation services. R & P Hair &
-                Skin Clinic in Pune has successfully partnered with us for lead generation services. </p>
-              <div class="case-result-full-content">
-                <p> We've applied our expertise to attract and connect with potential clients interested in their hair
-                  and skin services. Through targeted strategies, we've generated high-quality leads for the clinic,
-                  enabling them to expand their client base and reach a wider audience. Our collaboration has proven
-                  to
-                  be a valuable asset in ensuring that R & P Hair & Skin Clinic continues to thrive and serve the Pune
-                  community with its professional and specialized services.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/canx.webp" alt="canx" />
-              <h4>CanX Immigration</h4>
-              <h4>(SEO, Social Media & Leads)</h3>
-              <p>CanX Immigration is one of the Immigration consultants. CanX Immigration has benefited from our
-                comprehensive digital marketing services, which encompass SEO, social media, and lead generation.</p>
-              <br>
-              <div class="case-result-full-content">
-                <p>Our SEO strategies have boosted their online visibility, ensuring their immigration services stand
-                  out on search engines. We've also harnessed the power of social media to engage with a broader
-                  audience and create brand awareness. Additionally, our lead generation efforts have resulted in
-                  high-quality leads, expanding CanX Immigration's client base. This holistic approach has proven to
-                  be
-                  instrumental in their success, facilitating their mission to assist individuals with immigration
-                  needs
-                  and providing them with the best possible services.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/MagicRummy.webp" alt="MagicRummy" />
-              <h4>MagicRummy</h4>
-              <h4> (App Installation)</h3>
-              <p>Magic Rummy is one of the rummy apps in India. Based on our client's specific requirements, we
-                created
-                tailored mobile app advertising methods. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>It is decided by the category and intended audience of the app. We always help our clients analyze,
-                  plan, design, and implement a unique marketing strategy for their apps to increase downloads and new
-                  customers.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/MySitter.webp" alt="MySitter" />
-              <h4>MySitter</h4>
-              <h4> (App Installation & Social Media)</h3>
-              <p>Mysitter is a child activity monitoring app. We developed customized mobile app advertising tactics
-                for
-                Mysitter.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> It is determined by the app's genre and intended audience. We constantly assist our clients in
-                  analyzing, planning, designing, and implementing a one-of-a-kind marketing strategy for their app to
-                  increase downloads and new consumers. We generated high-quality and interesting graphics for
-                  Mysitter's social media and uploaded them on their profiles on numerous platforms such as Twitter,
-                  Facebook, Instagram, and others.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/vjay.webp" alt="vjay" />
-              <h4>AstroVijay</h4>
-              <h4>(Website, SEO, Lead Generation)</h3>
-              <p>AstroVijay has harnessed a variety of our digital marketing services, including website development,
-                SEO, and lead generation. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>We've created a user-friendly and visually appealing website that effectively showcases their
-                  astrological services. Our SEO efforts have significantly improved their online visibility, ensuring
-                  that they are easily found by those seeking astrological guidance. Furthermore, our lead generation
-                  strategies have successfully expanded their client base by attracting high-quality leads. This
-                  comprehensive approach has been instrumental in establishing AstroVijay as a prominent name in the
-                  field of astrology, and it continues to drive its success and connect it with individuals seeking
-                  astrological insights and services.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/afflatusglobalvisa_img.webp" alt="afflatusglobalvisa" />
-              <h4>Afflatus Global Visa</h4>
-              <h4>(Website Design, SEO, Social Media)</h3>
-              <p>Afflatus is a Delhi-based immigration consultancy Service Provider. Our website design efforts have
-                created an appealing and user-friendly platform that effectively represents their visa services. </p>
-              <div class="case-result-full-content">
-                <p>Through SEO, we've enhanced their online visibility, making their services more accessible to those
-                  in need of visa assistance. Additionally, our social media management has established a strong
-                  online
-                  presence, engaging with potential clients and building brand awareness. This comprehensive approach
-                  has played a pivotal role in establishing Afflatus Global Visa as a reliable and prominent name in
-                  the
-                  visa services industry, serving a wide audience effectively.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Epater Design Studio.webp" alt="Epater Design Studio" />
-              <h4>Epater Design Studio</h4>
-              <h4>(Website Design & SEO)</h3>
-              <p>Epater Design Studio is one of the best Interior designing firms in Canada. For Epater a valuable
-                interior designing website with a high potential for engaging with potential clients and generating
-                more
-                leads for the interior designing business was developed by King of Digital Marketing </p>
-              <div class="case-result-full-content">
-                <p>King of Digital Marketing's SEO services have played a crucial role in elevating Epater's online
-                  visibility, ensuring that their website ranks prominently on search engines. This enhanced
-                  visibility
-                  positions Epater as a top choice for those seeking interior design services. Together, these efforts
-                  have effectively established Epater Design Studio as a prominent player in the Canadian interior
-                  design industry, bridging creativity and digital marketing expertise.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Lojiqs Pest.webp" alt="Lojiqs Pest" />
-              <h4>Lojiqs Pest Control</h4>
-              <h4>(Website, SEO, Lead Generation)</h3>
-              <p>Lojiqs Pest Control has harnessed a wide range of our digital marketing services, including website
-                development, SEO, and lead generation. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>We've designed an attractive and functional website that reflects their pest control expertise.
-                  Through our SEO efforts, we've boosted their online visibility, making them more accessible to
-                  potential clients searching for pest control services. Additionally, our lead generation strategies
-                  have successfully expanded their client base by attracting high-quality leads. This comprehensive
-                  approach has been vital in positioning Lojiqs Pest Control as a top choice for those in need of pest
-                  management solutions, and it continues to drive their success in the industry.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/enrolbuddy_img.webp" alt="enrolbuddy" />
-              <h4>Enrolbuddy</h4>
-              <h4>(SEO, Lead Generation)</h3>
-              <p> Enrollbuddy is an overseas consultancy service provider. Through our SEO services we have improved
-                their online visibility, ensuring that their education-related services </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>stand out in search engine results. Our lead generation strategies have successfully attracted
-                  high-quality leads, expanding Enrolbuddy's client base. This combined approach has been pivotal in
-                  positioning Enrolbuddy as a trusted resource in the field of education and student enrollment. It
-                  not
-                  only enhances their online presence but also connects them with individuals looking for educational
-                  guidance, making their services more accessible and effective.
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/aicsimmigration.webp" alt="aicsimmigration" />
-              <h4>AICS Immigration</h4>
-              <h4> (Website Design, SEO, Social Media)</h3>
-              <p>AICS immigration is Canada based Immigration consultant. King of Digital Marketing has provided
-                overall
-                digital marketing services, including website design, SEO, and social media management.</p>
-              <div class="case-result-full-content">
-                <p>We've crafted an engaging and user-friendly website that effectively showcases their immigration
-                  services. Through SEO, we've significantly improved their online visibility, making them easily
-                  discoverable by individuals seeking immigration assistance. Our social media management has built a
-                  strong online presence, engaging with potential clients and enhancing brand recognition. This
-                  holistic
-                  approach has played a pivotal role in establishing AICS Immigration as a trusted name in the
-                  immigration field, serving a wide audience effectively and connecting with those in need of
-                  immigration services.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/Astrobest.webp" alt="Astrobest" />
-              <h4>AstroBest</h4>
-              <h4> ( Landing Page & Social Media, Kundali sales)</h3>
-              <p>AstroBest has benefited from our digital marketing services, with a focus on a landing page, social
-                media, and Kundali sales. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>King of Digital Marketing has designed an effective landing page that drives interest and
-                  conversions
-                  for their astrology services. Through our social media strategies, we've engaged with their target
-                  audience and built brand awareness. In addition, our efforts in Kundali sales have been successful
-                  in
-                  generating revenue for AstroBest. This comprehensive approach has played a pivotal role in
-                  establishing AstroBest as a go-to source for astrology enthusiasts, enhancing their online presence,
-                  and driving sales for their Kundali services.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/ProcerusCosmocare pvt. ltd..webp" alt="ProcerusCosmocar" />
-              <h4>Procerus company Hair transplant and skin clinic</h4>
-              <h4>(SEO, SMO, PPC) </h3>
-              <p>The proficient team of The King of digital marketing helped the best hair transplant clinic to climb
-                higher rankings on Google search engine with its excellent SEO support. </p>
-              <br>
-              <div class="case-result-full-content">
-                <p>We have increased 20% more visits to the website, a 45% increase in ROI. With the help of our SMO
-                  and
-                  PPC ad campaigning, we have encouraged several patients all over the world to get their hair
-                  transplant done. Paid search campaigns developed by us, forced our loyal audience to visit
-                  frequently.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/top-feeling.webp" alt="top-feeling" />
-              <h4>Top fillings</h4>
-              <h4> (SEO SMO)</h3>
-              <p>The King of digital marketing generating stunning results. Videos, SEO, and SMM campaigns for top
-                filings have successfully hit the top ranking for the set of keywords we chose. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>The SMO services we provided, very conveniently generated lead and we made enormous changes to the
-                  website for SEO. As a result, leads have increased by 50% and traffic has been encouraged by 40%.
-                  The
-                  client expressed his satisfaction with the working strategy of King of digital marketing
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/Wolkindia.webp" alt="Davesar" />
-              <h4>Wolk- coworking space</h4>
-              <h4> (SEO, SMO, PPC)</h3>
-              <p>The comprehensive SEO strategies planned by the King of digital marketing professionals made clients
-                website visible on the first pages of search engines. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>Through the SMO strategies, we have successfully popularized the concept of co-working spaces. We
-                  have provided digital lead within a few months of the startup, therefore a remarkable increase in
-                  organic traffic has also been noticed. Our team is working perfectly for identifying the right
-                  keywords based on regular research. The PPC ad campaigning suggested by our team has maximized the
-                  ROI
-                  by bringing-in leads. Our clients appreciating our efforts are beyond expectations.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/med (1).webp" alt="med (1)" />
-              <h4>Medispa - Hair Transplant Website For Dubai Branch</h4>
-              <h4>(SEO)</h3>
-              <p> Nationally as well as internationally we are successfully planning strategies to achieve higher
-                rankings in SEO for our reputed clients.</p>
-              <br>
-              <div class="case-result-full-content">
-                <p>Our team provides optimized campaigns by location and creativity. The efforts made by the King of
-                  digital marketing successfully resulted in better traffic & more visits per click which consequently
-                  generated sales and leads for reputed hair transplant clinics in Dubai.
-                  View Details
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/contact combat india.webp" alt="contact combat india" />
-              <h4>Contact Combat India- Crav Maga</h4>
-              <h4> (SEO, SMO) </h3>
-              <p> The King of digital marketing has helped Contact Combat, India, one of the country's best companies
-                supercharging their business. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>The influential impact of customized SEO strategies designed by, the King of digital marketing has
-                  driven- in a whole lot of revenue. The King of digital marketing had made 100% placement of the
-                  company in the fierce competition of search results. The SMO support provided by us has made the
-                  brand
-                  popular among demographic.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/DIFA.webp" alt="DIFA" />
-              <h4>Difa Acting Institute</h4>
-              <h4> (PPC, SEO, SMM)</h3>
-              <p>Every campaign delivered by the King of digital marketing returned much more than what is consumed..
-              </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>The PPC campaigning which we launched for repeated acting Institute delivered high returns on
-                  investment. We posted several blogs, videos, and graphics, every single minute to promote users for
-                  this website. Understanding clients short term as well as long-term goals we delivered very
-                  effective
-                  campaigns with innovative ideas to generate a 100% increase in organic traffic. King of digital
-                  marketing has been appreciated for its awesome work efforts.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/sagayaa.webp" alt="Davesar" />
-              <h4>Sagayaa</h4>
-              <h4>(SMM)</h3>
-              <p>The King of digital marketing has provided tremendous SMM support to Sagaaya for its best cosmetics
-                products promotion. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>The client is 100% satisfied as its sales have been increased by an excessive percentage. One of
-                  the
-                  leading cosmetic care companies has received an enormous response regarding website visitors. The
-                  King
-                  of digital marketing successfully supports, to hit the challenges faced by the company. Our team
-                  developed creative images to be shared on Facebook, Twitter, and Instagram to generate instant
-                  sales.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/dreamzone allahabad.webp" alt="dreamzone" />
-              <h4>Dreamzone - Allahabad</h4>
-              <h4>(SEO, SMO, SMM)</h3>
-              <p>The King of digital marketing with the help of their social media marketing made Dream Zone
-                extraordinary responsive. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p> Their explainer videos attract loyal audiences, consequently, Dream Zone has a remarkable increase
-                  of 40% in ROI. The well-equipped team with its SEO strategies has phenomenally increased sales and
-                  traffic. Our SMO and SMM services have improved search engine visibility. We are delivering
-                  incredible
-                  results within a limited budget.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-
-            <div class="case-result-card">
-              <img src="images/marvelous aesthetics_img.webp" alt="Davesar" />
-              <h4>Marvelous Aesthetics Hair transplant clinic in Varanasi</h4>
-              <h4>(Website designing SEO and SMO PPC) </h3>
-              <p>The King of digital marketing since the beginning, providing entire digital support to marvelous
-                aesthetics, the best clinic for hair transplant in Varanasi. </p>
-              <div class="case-result-full-content">
-                <p>With the help of our responsive web designing, we have driven enormous qualified traffic to their
-                  website. The SMO SEO&PPC campaigns have immediately increased the client's visibility on Google. We
-                  are successfully maintaining the top position of the marvelous aesthetic clinic. The clients are
-                  much
-                  more satisfied with our hard work and skills.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/Swami-Parmanand.webp" alt="Swami-Parmanand" />
-              <h4>SPPC</h4>
-              <h4>(SEO)</h3>
-              <p>Swami Parmanand Prakritik Chikitsalaya Yoga and Anusandhan Kendra is a leading Ayurveda Hospital in
-                Delhi. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>Our team has done excellent performance of digital marketing services to promote this website. King
-                  of Digital Marketing has done SEO Services, SMM Services & PPC Services for best naturopathy &
-                  obesity
-                  treatment hospital in Delhi.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/seo client1.webp" alt="seo client1" />
-              <h4>KAN VISA DIRECTION</h4>
-              <h4>(SEO Services)</h3>
-              <p> Visa Direction has become best immigration consultant in Delhi, India. IT is serving its clients in
-                ethical way with 100% satisfaction. </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>Our team has performed SEO Services, PPC Services & SEM Services for Visa consultant website. We
-                  Started to work for this website from zero and now its leading immigration consultant of Delhi.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/seo client5.webp" alt="seo client5" />
-              <h4>SOFTWARE IMPERIAL</h4>
-              <h4>(SEO,SMO)</h3>
-              <p>Software Imperial is a leading OST to PST Converter Software Company. We have been working for this
-                company since 2016, </p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>We Provided them with Search Engine Optimisation and Social Media Optimisation services to promote
-                  their website Organically. We Started From the scratch, our digital marketing team has brought all
-                  keywords of this company on the first page rankings.
-                </p>
-
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/Master Nifty.webp" alt="Master-Nifty" />
-              <h4>Master Nifty</h4>
-              <h4> (Leads Generation, Landing Page)</h3>
-              <p>King of Digital Marketing offers lead generation and landing page services for Master Nifty, a
-                financial market research and investment advisory firm.</p>
-              <div class="case-result-full-content">
-                <p> We have created a dedicated landing page at King of Digital Marketing that reflects the best Nifty
-                  Option Strategy. Our lead generation strategies attract potential investors to the landing page.
-                  This
-                  approach improves the client base for Master Nifty and makes them trusted advisors in the financial
-                  market.
-                </p>
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/One Wellness Fitness Club.webp" alt="one-wellness" />
-              <h4>One Wellness Online Fitness Club</h4>
-              <h4>(SEO, SMM)</h3>
-              <p>King of Digital Marketing does SEO and SMM work for the One Wellness Online Fitness Club, who are
-                based
-                in Singapore and specializes in yoga, physiotherapy, pilates, and rehab</p>
-              <br>
-              <div class="case-result-full-content">
-                <p>Through our SEO, this company gains better search engine visibility and attracts organic traffic.
-                  In
-                  contrast, through SMM, we keep the clients engaged across different platforms-on fitness programs
-                  and
-                  wellness tips at One Wellness. This dual strategy of SEO and SMM strengthens One Wellness's online
-                  presence by attracting and retaining members.
-                </p>
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-
-            <div class="case-result-card">
-              <img src="images/Diamond Salon.webp" alt="Diamond-Salon" />
-              <h4>Diamond Salon</h4>
-              <h4>(SEO, SMM)</h3>
-              <p>King of Digital Marketing is engaged in the management of SEO and SMM for Diamond Salon, a haircut
-                and
-                spa salon.</p>
-              <br>
-              <br>
-              <div class="case-result-full-content">
-                <p>Our SEO strategies improved the rankings in search engines and make the salon easily discoverable.
-                  With the help of SMM, we engage potential clients on different social media platforms such as
-                  Instagram or Facebook, sharing the services and promotions offered by Diamond Salon. The combination
-                  of both enables it to develop a significant online presence, attract new customers, increase
-                  bookings
-                  for Diamond Salon, and improve the bottom line results.</p>
-              </div>
-              <div class="pintu-metrics">
-                <div class="pintu-metric">
-                  <span>+18%</span>
-                  <small>Website Visitors</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+22%</span>
-                  <small>Organic Search Traffic</small>
-                </div>
-                <div class="pintu-metric">
-                  <span>+25%</span>
-                  <small>Conversion Rate</small>
-                </div>
-              </div>
-              <div class="case-result-read-more"><button>Read More</button></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Add more .case-result-card items as needed -->
-
-    </div>
-    </div>
+	<!-- ===== PROVEN CASE STUDIES ACROSS ALL MAJOR VERTICALS (PLACED DIRECTLY AFTER HERO SECTION) ===== -->
+	<section class="kdm-case-v3-section">
+		<div class="container">
+			<div class="text-center" style="max-width: 850px; margin: 0 auto 35px auto;">
+				<span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12px; font-weight: 800; padding: 6px 18px; border-radius: 50px;"><i class="fa fa-folder-open"></i> FEATURED CLIENT SUCCESS STORIES (130+ PROJECTS)</span>
+				<h2 style="font-size: 34px; font-weight: 800; color: #0f172a; margin-top: 10px; margin-bottom: 12px;">Proven Case Studies Across <strong style="color: #0284c7;">All Major Verticals</strong></h2>
+				<p style="font-size: 16px; color: #64748b; line-height: 1.6;">Explore real client results, verified SERP rankings, paid ad performance, and lead generation campaigns.</p>
+			</div>
+
+			<!-- TOP SEARCH BOX OPTION -->
+			<div class="kdm-case-search-wrap">
+				<input type="text" id="kdmCaseSearchInput" onkeyup="filterCaseStudiesSearch()" placeholder="🔍 Search 130+ case studies by client name, industry, service (e.g. Astro, Visa, Hair, SMM, Tax)..." class="kdm-case-search-input">
+				<i class="fa fa-search kdm-case-search-icon"></i>
+			</div>
+
+			<!-- Category Filter Buttons -->
+			<div class="kdm-case-v3-filters">
+				<button type="button" class="kdm-case-v3-filter-btn active" onclick="filterCaseCategory('ALL', this)">All Case Studies (130)</button>
+				<button type="button" class="kdm-case-v3-filter-btn" onclick="filterCaseCategory('SEO', this)">SEO Growth</button>
+				<button type="button" class="kdm-case-v3-filter-btn" onclick="filterCaseCategory('PPC', this)">PPC &amp; Paid Ads</button>
+				<button type="button" class="kdm-case-v3-filter-btn" onclick="filterCaseCategory('SMM', this)">SMM &amp; Social</button>
+				<button type="button" class="kdm-case-v3-filter-btn" onclick="filterCaseCategory('WEB', this)">Web Design &amp; Leads</button>
+				<button type="button" class="kdm-case-v3-filter-btn" onclick="filterCaseCategory('APP', this)">App Promotion</button>
+			</div>
+
+			<!-- 3 or 4 Case Studies in One Row Grid (Exact Image Format) -->
+			<div class="kdm-case-v3-grid" id="kdmCaseGrid">
+				<!-- Card Global Talent Visa -->
+				<div class="kdm-case-v3-card-col" data-title="global talent visa" data-subtitle="(website design & lead generation)" data-desc="king of digital marketing executed website design & lead generation for global talent visa, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Globaltalentvisa.webp" alt="Global Talent Visa" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Global Talent Visa</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design & Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design & Lead Generation for Global Talent Visa, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+20%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Continental Immigration -->
+				<div class="kdm-case-v3-card-col" data-title="continental immigration" data-subtitle="(lead generation & landing pages)" data-desc="king of digital marketing executed lead generation & landing pages for continental immigration, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Continental Immigration.jpeg" alt="Continental Immigration" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Continental Immigration</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Lead Generation & Landing Pages)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Lead Generation & Landing Pages for Continental Immigration, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Recruitment Agency Singapore -->
+				<div class="kdm-case-v3-card-col" data-title="recruitment agency singapore" data-subtitle="(lead generation & video)" data-desc="king of digital marketing executed lead generation & video for recruitment agency singapore, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Recruitment Agency_img.jpg" alt="Recruitment Agency Singapore" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Recruitment Agency Singapore</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Lead Generation & Video)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Lead Generation & Video for Recruitment Agency Singapore, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Epicware -->
+				<div class="kdm-case-v3-card-col" data-title="epicware" data-subtitle="(lead generation)" data-desc="king of digital marketing executed lead generation for epicware, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #ea580c 0%, #fb923c 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">E</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Epicware</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Lead Generation for Epicware, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+47%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Rudra Remedies -->
+				<div class="kdm-case-v3-card-col" data-title="rudra remedies" data-subtitle="(ayurvedic products leads)" data-desc="king of digital marketing executed ayurvedic products leads for rudra remedies, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/rudraremedies.jpeg" alt="Rudra Remedies" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Rudra Remedies</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Ayurvedic Products Leads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Ayurvedic Products Leads for Rudra Remedies, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+56%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Herbalness -->
+				<div class="kdm-case-v3-card-col" data-title="herbalness" data-subtitle="(ayurvedic products leads)" data-desc="king of digital marketing executed ayurvedic products leads for herbalness, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/herbal.jpg" alt="Herbalness" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Herbalness</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Ayurvedic Products Leads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Ayurvedic Products Leads for Herbalness, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+25%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Sanskrit Ayurveda -->
+				<div class="kdm-case-v3-card-col" data-title="sanskrit ayurveda" data-subtitle="(landing page & lead generation)" data-desc="king of digital marketing executed landing page & lead generation for sanskrit ayurveda, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">S</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Sanskrit Ayurveda</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Landing Page & Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Landing Page & Lead Generation for Sanskrit Ayurveda, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+34%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Ayurvedic Tatwa -->
+				<div class="kdm-case-v3-card-col" data-title="ayurvedic tatwa" data-subtitle="(landing page & lead generation)" data-desc="king of digital marketing executed landing page & lead generation for ayurvedic tatwa, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/ayurvedic industry.jpg" alt="Ayurvedic Tatwa" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Ayurvedic Tatwa</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Landing Page & Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Landing Page & Lead Generation for Ayurvedic Tatwa, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Akin Health -->
+				<div class="kdm-case-v3-card-col" data-title="akin health" data-subtitle="(landing page & lead generation)" data-desc="king of digital marketing executed landing page & lead generation for akin health, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Akinhealth.jpeg" alt="Akin Health" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Akin Health</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Landing Page & Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Landing Page & Lead Generation for Akin Health, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+52%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Steller Matrimony -->
+				<div class="kdm-case-v3-card-col" data-title="steller matrimony" data-subtitle="(website seo, smo lead generation)" data-desc="king of digital marketing executed website seo, smo lead generation for steller matrimony, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Stellar.webp" alt="Steller Matrimony" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Steller Matrimony</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website SEO, SMO Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website SEO, SMO Lead Generation for Steller Matrimony, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+21%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Masternifty -->
+				<div class="kdm-case-v3-card-col" data-title="masternifty" data-subtitle="(stock market - lead generation & landing page)" data-desc="king of digital marketing executed stock market - lead generation & landing page for masternifty, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Master Nifty.jpeg" alt="Masternifty" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Masternifty</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Stock Market - Lead Generation & Landing Page)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Stock Market - Lead Generation & Landing Page for Masternifty, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+30%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Moral Research -->
+				<div class="kdm-case-v3-card-col" data-title="moral research" data-subtitle="(stock market - lead generation & landing page)" data-desc="king of digital marketing executed stock market - lead generation & landing page for moral research, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Moralresearch.webp" alt="Moral Research" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Moral Research</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Stock Market - Lead Generation & Landing Page)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Stock Market - Lead Generation & Landing Page for Moral Research, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+39%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card My Tour Guru -->
+				<div class="kdm-case-v3-card-col" data-title="my tour guru" data-subtitle="(travel agency - seo & blogs)" data-desc="king of digital marketing executed travel agency - seo & blogs for my tour guru, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/my tour guru.jpg" alt="My Tour Guru" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">My Tour Guru</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Travel Agency - SEO & Blogs)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Travel Agency - SEO & Blogs for My Tour Guru, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+48%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Morocco Tourism Agency -->
+				<div class="kdm-case-v3-card-col" data-title="morocco tourism agency" data-subtitle="(seo & blogs)" data-desc="king of digital marketing executed seo & blogs for morocco tourism agency, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Morocco-Tourism.jpeg" alt="Morocco Tourism Agency" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Morocco Tourism Agency</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO & Blogs)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO & Blogs for Morocco Tourism Agency, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+57%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Walk In Deal -->
+				<div class="kdm-case-v3-card-col" data-title="walk in deal" data-subtitle="(app promotion)" data-desc="king of digital marketing executed app promotion for walk in deal, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">W</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Walk In Deal</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(App Promotion)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed App Promotion for Walk In Deal, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+26%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Jyotish Call -->
+				<div class="kdm-case-v3-card-col" data-title="jyotish call" data-subtitle="(app promotion)" data-desc="king of digital marketing executed app promotion for jyotish call, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/jyotishcall.webp" alt="Jyotish Call" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Jyotish Call</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(App Promotion)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed App Promotion for Jyotish Call, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+35%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Trusted Astro -->
+				<div class="kdm-case-v3-card-col" data-title="trusted astro" data-subtitle="(app promotion)" data-desc="king of digital marketing executed app promotion for trusted astro, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Trustedastro.jpeg" alt="Trusted Astro" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Trusted Astro</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(App Promotion)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed App Promotion for Trusted Astro, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+44%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Building Needs -->
+				<div class="kdm-case-v3-card-col" data-title="building needs" data-subtitle="(app promotion)" data-desc="king of digital marketing executed app promotion for building needs, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Buildng.jpeg" alt="Building Needs" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Building Needs</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(App Promotion)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed App Promotion for Building Needs, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+53%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Visa Guruji Global -->
+				<div class="kdm-case-v3-card-col" data-title="visa guruji global" data-subtitle="(website design & lead generation)" data-desc="king of digital marketing executed website design & lead generation for visa guruji global, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Visa Guruji Global.jpeg" alt="Visa Guruji Global" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Visa Guruji Global</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design & Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design & Lead Generation for Visa Guruji Global, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Diamond Cut Salon -->
+				<div class="kdm-case-v3-card-col" data-title="diamond cut salon" data-subtitle="(italy - website design, seo & leads)" data-desc="king of digital marketing executed italy - website design, seo & leads for diamond cut salon, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Diamond Jewellery.webp" alt="Diamond Cut Salon" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Diamond Cut Salon</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Italy - Website Design, SEO & Leads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Italy - Website Design, SEO & Leads for Diamond Cut Salon, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+31%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card TradeFD -->
+				<div class="kdm-case-v3-card-col" data-title="tradefd" data-subtitle="(stock & forex - landing page & lead generation)" data-desc="king of digital marketing executed stock & forex - landing page & lead generation for tradefd, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/tradefdsignals1.png" alt="TradeFD" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">TradeFD</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Stock & Forex - Landing Page & Lead generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Stock & Forex - Landing Page & Lead generation for TradeFD, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+40%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astromother -->
+				<div class="kdm-case-v3-card-col" data-title="astromother" data-subtitle="(website design & lead generation)" data-desc="king of digital marketing executed website design & lead generation for astromother, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astromother" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astromother</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design & Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design & Lead Generation for Astromother, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+49%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Cloude Data -->
+				<div class="kdm-case-v3-card-col" data-title="cloude data" data-subtitle="(cloud business - landing page & lead generation)" data-desc="king of digital marketing executed cloud business - landing page & lead generation for cloude data, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/cloud-kitchen.jpg" alt="Cloude Data" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Cloude Data</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Cloud Business - Landing Page & Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Cloud Business - Landing Page & Lead Generation for Cloude Data, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+58%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Vivaa Aesthetics -->
+				<div class="kdm-case-v3-card-col" data-title="vivaa aesthetics" data-subtitle="(website design, seo, smo, lead generation)" data-desc="king of digital marketing executed website design, seo, smo, lead generation for vivaa aesthetics, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Vivaaaesthetics.webp" alt="Vivaa Aesthetics" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Vivaa Aesthetics</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design, SEO, SMO, Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design, SEO, SMO, Lead Generation for Vivaa Aesthetics, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+27%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card shelkaindustry.com -->
+				<div class="kdm-case-v3-card-col" data-title="shelkaindustry.com" data-subtitle="(chemical - lead generation)" data-desc="king of digital marketing executed chemical - lead generation for shelkaindustry.com, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">S</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">shelkaindustry.com</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Chemical - Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Chemical - Lead Generation for shelkaindustry.com, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Save Tree VC -->
+				<div class="kdm-case-v3-card-col" data-title="save tree vc" data-subtitle="(app promotion)" data-desc="king of digital marketing executed app promotion for save tree vc, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Save-Trees--logo.webp" alt="Save Tree VC" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Save Tree VC</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(App Promotion)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed App Promotion for Save Tree VC, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+45%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Falcon Freight -->
+				<div class="kdm-case-v3-card-col" data-title="falcon freight" data-subtitle="(website design, seo, lead generation)" data-desc="king of digital marketing executed website design, seo, lead generation for falcon freight, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/falconfreight.jpeg" alt="Falcon Freight" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Falcon Freight</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design, SEO, Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design, SEO, Lead Generation for Falcon Freight, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+54%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Ojaswin Yoga School -->
+				<div class="kdm-case-v3-card-col" data-title="ojaswin yoga school" data-subtitle="(website design & seo)" data-desc="king of digital marketing executed website design & seo for ojaswin yoga school, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/ojaswinyogaschool.jpeg" alt="Ojaswin Yoga School" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Ojaswin Yoga School</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design & SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design & SEO for Ojaswin Yoga School, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Heart Land Yoga -->
+				<div class="kdm-case-v3-card-col" data-title="heart land yoga" data-subtitle="(website design & seo)" data-desc="king of digital marketing executed website design & seo for heart land yoga, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/heart land yoga.jpg" alt="Heart Land Yoga" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Heart Land Yoga</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design & SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design & SEO for Heart Land Yoga, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+32%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card One Wellness Fitness Club -->
+				<div class="kdm-case-v3-card-col" data-title="one wellness fitness club" data-subtitle="(website design, seo, smo, lead generation)" data-desc="king of digital marketing executed website design, seo, smo, lead generation for one wellness fitness club, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/One Wellness.jpeg" alt="One Wellness Fitness Club" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">One Wellness Fitness Club</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design, SEO, SMO, Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design, SEO, SMO, Lead Generation for One Wellness Fitness Club, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+41%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Engineer Heaven’s -->
+				<div class="kdm-case-v3-card-col" data-title="engineer heaven’s" data-subtitle="(seo)" data-desc="king of digital marketing executed seo for engineer heaven’s, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/engineersheaven.webp" alt="Engineer Heaven’s" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Engineer Heaven’s</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO for Engineer Heaven’s, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+50%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Salient Shoes -->
+				<div class="kdm-case-v3-card-col" data-title="salient shoes" data-subtitle="(website design & sales ads)" data-desc="king of digital marketing executed website design & sales ads for salient shoes, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/salient.webp" alt="Salient Shoes" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Salient Shoes</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design & Sales Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design & Sales Ads for Salient Shoes, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+59%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Mystic Hub AI -->
+				<div class="kdm-case-v3-card-col" data-title="mystic hub ai" data-subtitle="(sales campaign)" data-desc="king of digital marketing executed sales campaign for mystic hub ai, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/mysticai.webp" alt="Mystic Hub AI" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Mystic Hub AI</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Sales Campaign)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Sales Campaign for Mystic Hub AI, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Hera Hair Solution -->
+				<div class="kdm-case-v3-card-col" data-title="hera hair solution" data-subtitle="(turkey - website design, seo, smo, lead generation)" data-desc="king of digital marketing executed turkey - website design, seo, smo, lead generation for hera hair solution, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/herahairsolutions.webp" alt="Hera Hair Solution" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Hera Hair Solution</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Turkey - Website Design, SEO, SMO, Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Turkey - Website Design, SEO, SMO, Lead Generation for Hera Hair Solution, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+37%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card NebulaCraft -->
+				<div class="kdm-case-v3-card-col" data-title="nebulacraft" data-subtitle="(website design)" data-desc="king of digital marketing executed website design for nebulacraft, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Nebulacrafttech.webp" alt="NebulaCraft" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">NebulaCraft</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design for NebulaCraft, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+46%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Ask Expert -->
+				<div class="kdm-case-v3-card-col" data-title="ask expert" data-subtitle="(website design)" data-desc="king of digital marketing executed website design for ask expert, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #ea580c 0%, #fb923c 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">A</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Ask Expert</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Design)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Design for Ask Expert, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+55%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Arcaderooms -->
+				<div class="kdm-case-v3-card-col" data-title="arcaderooms" data-subtitle="(coliving and pg - website & lead generation)" data-desc="king of digital marketing executed coliving and pg - website & lead generation for arcaderooms, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Arcaderooms.webp" alt="Arcaderooms" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Arcaderooms</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Coliving and PG - Website & Lead Generation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Coliving and PG - Website & Lead Generation for Arcaderooms, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+24%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card EEPSA -->
+				<div class="kdm-case-v3-card-col" data-title="eepsa" data-subtitle="(youtube marketing & video editing)" data-desc="king of digital marketing executed youtube marketing & video editing for eepsa, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">E</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">EEPSA</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(YouTube Marketing & Video Editing)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed YouTube Marketing & Video Editing for EEPSA, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Dietitian Preeti -->
+				<div class="kdm-case-v3-card-col" data-title="dietitian preeti" data-subtitle="(smo)" data-desc="king of digital marketing executed smo for dietitian preeti, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/dietician and nutrition.jpg" alt="Dietitian Preeti" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Dietitian Preeti</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SMO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SMO for Dietitian Preeti, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+42%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Yojnakar Innovation -->
+				<div class="kdm-case-v3-card-col" data-title="yojnakar innovation" data-subtitle="(seo)" data-desc="king of digital marketing executed seo for yojnakar innovation, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #b91c1c 0%, #f87171 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">Y</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Yojnakar Innovation</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO for Yojnakar Innovation, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+51%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Fractionate -->
+				<div class="kdm-case-v3-card-col" data-title="fractionate" data-subtitle="(seo, smo, ppc and meta ads)" data-desc="king of digital marketing executed seo, smo, ppc and meta ads for fractionate, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/fractionate.jpeg" alt="Fractionate" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Fractionate</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO, SMO, PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO, SMO, PPC and Meta ads for Fractionate, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+20%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Ambal's Kitchen -->
+				<div class="kdm-case-v3-card-col" data-title="ambal's kitchen" data-subtitle="(logo design)" data-desc="king of digital marketing executed logo design for ambal's kitchen, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">A</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Ambal's Kitchen</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Logo design)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Logo design for Ambal's Kitchen, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Mtel Tech -->
+				<div class="kdm-case-v3-card-col" data-title="mtel tech" data-subtitle="(ppc, meta ads and smo)" data-desc="king of digital marketing executed ppc, meta ads and smo for mtel tech, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #059669 0%, #34d399 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">M</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Mtel Tech</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(PPC, Meta ads and SMO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed PPC, Meta ads and SMO for Mtel Tech, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Ranglal Shastri -->
+				<div class="kdm-case-v3-card-col" data-title="ranglal shastri" data-subtitle="(landing page, ppc and meta ads)" data-desc="king of digital marketing executed landing page, ppc and meta ads for ranglal shastri, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Ranglal Shastri.webp" alt="Ranglal Shastri" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Ranglal Shastri</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(landing page, PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed landing page, PPC and Meta ads for Ranglal Shastri, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+47%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Jashvi Consultancy -->
+				<div class="kdm-case-v3-card-col" data-title="jashvi consultancy" data-subtitle="(website creation)" data-desc="king of digital marketing executed website creation for jashvi consultancy, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Jashvi consultant.webp" alt="Jashvi Consultancy" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Jashvi Consultancy</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website creation)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website creation for Jashvi Consultancy, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+56%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Numberology Flow -->
+				<div class="kdm-case-v3-card-col" data-title="numberology flow" data-subtitle="(smo and meta ads)" data-desc="king of digital marketing executed smo and meta ads for numberology flow, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Numberology Flow.webp" alt="Numberology Flow" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Numberology Flow</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SMO and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SMO and Meta ads for Numberology Flow, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+25%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Aliff -->
+				<div class="kdm-case-v3-card-col" data-title="aliff" data-subtitle="(ppc and meta ads)" data-desc="king of digital marketing executed ppc and meta ads for aliff, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/aliff_img.webp" alt="Aliff" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Aliff</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed PPC and Meta ads for Aliff, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+34%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Solar farmer -->
+				<div class="kdm-case-v3-card-col" data-title="solar farmer" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for solar farmer, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/solar farmer.jpeg" alt="Solar farmer" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Solar farmer</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta ads for Solar farmer, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Dr. Roshan -->
+				<div class="kdm-case-v3-card-col" data-title="dr. roshan" data-subtitle="(website designing, ppc, smo, seo)" data-desc="king of digital marketing executed website designing, ppc, smo, seo for dr. roshan, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Dr. roshan_img.jpeg" alt="Dr. Roshan" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Dr. Roshan</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website Designing, PPC, SMO, SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website Designing, PPC, SMO, SEO for Dr. Roshan, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+52%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Art of Making Money -->
+				<div class="kdm-case-v3-card-col" data-title="art of making money" data-subtitle="(landing page)" data-desc="king of digital marketing executed landing page for art of making money, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/art-Of-making-money1.webp" alt="Art of Making Money" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Art of Making Money</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(landing Page)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed landing Page for Art of Making Money, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+21%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astro Gagan Sharma -->
+				<div class="kdm-case-v3-card-col" data-title="astro gagan sharma" data-subtitle="(landing page and meta ads)" data-desc="king of digital marketing executed landing page and meta ads for astro gagan sharma, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astro Gagan Sharma" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astro Gagan Sharma</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Landing page and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Landing page and Meta ads for Astro Gagan Sharma, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+30%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card The Growinfy -->
+				<div class="kdm-case-v3-card-col" data-title="the growinfy" data-subtitle="(landing page and meta ads)" data-desc="king of digital marketing executed landing page and meta ads for the growinfy, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/The Growinfy.jpeg" alt="The Growinfy" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">The Growinfy</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Landing Page and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Landing Page and Meta ads for The Growinfy, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+39%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Saptax -->
+				<div class="kdm-case-v3-card-col" data-title="saptax" data-subtitle="(seo and smo)" data-desc="king of digital marketing executed seo and smo for saptax, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Saptax_carousel.jpeg" alt="Saptax" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Saptax</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO and SMO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO and SMO for Saptax, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+48%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Manovaidya -->
+				<div class="kdm-case-v3-card-col" data-title="manovaidya" data-subtitle="(seo, smo, ppc and meta ads)" data-desc="king of digital marketing executed seo, smo, ppc and meta ads for manovaidya, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">M</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Manovaidya</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO, SMO, PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO, SMO, PPC and Meta ads for Manovaidya, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+57%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astrocaller -->
+				<div class="kdm-case-v3-card-col" data-title="astrocaller" data-subtitle="(app promotion)" data-desc="king of digital marketing executed app promotion for astrocaller, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astrocaller" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astrocaller</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(App Promotion)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed App Promotion for Astrocaller, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+26%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Hanumat Niketan Pooja -->
+				<div class="kdm-case-v3-card-col" data-title="hanumat niketan pooja" data-subtitle="(website, ppc and meta ads)" data-desc="king of digital marketing executed website, ppc and meta ads for hanumat niketan pooja, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Hanumat-logo.jpg" alt="Hanumat Niketan Pooja" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Hanumat Niketan Pooja</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(website, PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed website, PPC and Meta ads for Hanumat Niketan Pooja, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+35%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astroricha -->
+				<div class="kdm-case-v3-card-col" data-title="astroricha" data-subtitle="(website, seo, smo, ppc and meta ads)" data-desc="king of digital marketing executed website, seo, smo, ppc and meta ads for astroricha, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astroricha" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astroricha</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(website, SEO, SMO, PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed website, SEO, SMO, PPC and Meta ads for Astroricha, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+44%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astroficial -->
+				<div class="kdm-case-v3-card-col" data-title="astroficial" data-subtitle="(website, seo)" data-desc="king of digital marketing executed website, seo for astroficial, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astroficial" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astroficial</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website, SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website, SEO for Astroficial, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+53%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Cocoona -->
+				<div class="kdm-case-v3-card-col" data-title="cocoona" data-subtitle="(website, seo, smo, meta ads, ppc)" data-desc="king of digital marketing executed website, seo, smo, meta ads, ppc for cocoona, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Cocoona Jpeg.jpg" alt="Cocoona" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Cocoona</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(website, SEO, SMO, Meta ads, PPC)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed website, SEO, SMO, Meta ads, PPC for Cocoona, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card QHT -->
+				<div class="kdm-case-v3-card-col" data-title="qht" data-subtitle="(website, landing page, seo, ppc and meta ads)" data-desc="king of digital marketing executed website, landing page, seo, ppc and meta ads for qht, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/QHT digital marketing.webp" alt="QHT" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">QHT</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(website, Landing Page, SEO, PPC and meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed website, Landing Page, SEO, PPC and meta ads for QHT, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+31%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card SkinLab -->
+				<div class="kdm-case-v3-card-col" data-title="skinlab" data-subtitle="(landing page, ppc and meta ads)" data-desc="king of digital marketing executed landing page, ppc and meta ads for skinlab, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Skinlab-logo.jpg" alt="SkinLab" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">SkinLab</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Landing Page, PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Landing Page, PPC and Meta ads for SkinLab, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+40%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Rebounce -->
+				<div class="kdm-case-v3-card-col" data-title="rebounce" data-subtitle="(website, seo and video editing)" data-desc="king of digital marketing executed website, seo and video editing for rebounce, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">R</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Rebounce</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website, SEO and Video editing)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website, SEO and Video editing for Rebounce, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+49%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Nasnet -->
+				<div class="kdm-case-v3-card-col" data-title="nasnet" data-subtitle="(seo)" data-desc="king of digital marketing executed seo for nasnet, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">N</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Nasnet</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO for Nasnet, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+58%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Saab -->
+				<div class="kdm-case-v3-card-col" data-title="saab" data-subtitle="(website, smo, ppc and meta ads)" data-desc="king of digital marketing executed website, smo, ppc and meta ads for saab, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/saab.webp" alt="Saab" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Saab</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(website, SMO, PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed website, SMO, PPC and Meta ads for Saab, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+27%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Property lekha -->
+				<div class="kdm-case-v3-card-col" data-title="property lekha" data-subtitle="(website, smo, ppc and meta ads)" data-desc="king of digital marketing executed website, smo, ppc and meta ads for property lekha, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Propert-Logo.jpg" alt="Property lekha" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Property lekha</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(website, SMO, PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed website, SMO, PPC and Meta ads for Property lekha, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Master Migrant -->
+				<div class="kdm-case-v3-card-col" data-title="master migrant" data-subtitle="(lead generation and smo)" data-desc="king of digital marketing executed lead generation and smo for master migrant, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Master Nifty.jpeg" alt="Master Migrant" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Master Migrant</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Lead generation and SMO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Lead generation and SMO for Master Migrant, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+45%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Evisato Srilanka -->
+				<div class="kdm-case-v3-card-col" data-title="evisato srilanka" data-subtitle="(google ads)" data-desc="king of digital marketing executed google ads for evisato srilanka, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #059669 0%, #34d399 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">E</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Evisato Srilanka</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google Ads for Evisato Srilanka, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+54%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Martand food and Dehydrated -->
+				<div class="kdm-case-v3-card-col" data-title="martand food and dehydrated" data-subtitle="(seo and smo)" data-desc="king of digital marketing executed seo and smo for martand food and dehydrated, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Martand logo.jpg" alt="Martand food and Dehydrated" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Martand food and Dehydrated</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO and SMO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO and SMO for Martand food and Dehydrated, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Raivat -->
+				<div class="kdm-case-v3-card-col" data-title="raivat" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for raivat, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #db2777 0%, #f472b6 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">R</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Raivat</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta ads for Raivat, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+32%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Moonlight tarot by Guneet -->
+				<div class="kdm-case-v3-card-col" data-title="moonlight tarot by guneet" data-subtitle="(smo)" data-desc="king of digital marketing executed smo for moonlight tarot by guneet, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/moonlighttarot.webp" alt="Moonlight tarot by Guneet" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Moonlight tarot by Guneet</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SMO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SMO for Moonlight tarot by Guneet, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+41%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card HA N Tailoring -->
+				<div class="kdm-case-v3-card-col" data-title="ha n tailoring" data-subtitle="(google ads)" data-desc="king of digital marketing executed google ads for ha n tailoring, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/ha-n-tailoring.webp" alt="HA N Tailoring" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">HA N Tailoring</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google Ads for HA N Tailoring, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+50%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Skyriss -->
+				<div class="kdm-case-v3-card-col" data-title="skyriss" data-subtitle="(seo)" data-desc="king of digital marketing executed seo for skyriss, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/skyriss1.webp" alt="Skyriss" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Skyriss</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO for Skyriss, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+59%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card The medicos Skill -->
+				<div class="kdm-case-v3-card-col" data-title="the medicos skill" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for the medicos skill, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">T</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">The medicos Skill</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta Ads for The medicos Skill, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Satguru Overseas -->
+				<div class="kdm-case-v3-card-col" data-title="satguru overseas" data-subtitle="(seo, smo, meta ads and ppc)" data-desc="king of digital marketing executed seo, smo, meta ads and ppc for satguru overseas, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/satguru.jpg" alt="Satguru Overseas" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Satguru Overseas</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO, SMO, Meta Ads and PPC)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO, SMO, Meta Ads and PPC for Satguru Overseas, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+37%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Beyond Borders overseas -->
+				<div class="kdm-case-v3-card-col" data-title="beyond borders overseas" data-subtitle="(website)" data-desc="king of digital marketing executed website for beyond borders overseas, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Beyond-Borders--logo.webp" alt="Beyond Borders overseas" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Beyond Borders overseas</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(website)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed website for Beyond Borders overseas, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+46%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Indian Institute of Research and Higher Education -->
+				<div class="kdm-case-v3-card-col" data-title="indian institute of research and higher education" data-subtitle="(seo, smo, ppc and meta ads)" data-desc="king of digital marketing executed seo, smo, ppc and meta ads for indian institute of research and higher education, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Indian-Institute-logo.webp" alt="Indian Institute of Research and Higher Education" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Indian Institute of Research and Higher Education</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO, SMO, PPC and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO, SMO, PPC and Meta ads for Indian Institute of Research and Higher Education, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+55%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card DR. Girish Sharma -->
+				<div class="kdm-case-v3-card-col" data-title="dr. girish sharma" data-subtitle="(website, smo and seo)" data-desc="king of digital marketing executed website, smo and seo for dr. girish sharma, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #db2777 0%, #f472b6 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">D</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">DR. Girish Sharma</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(website, SMO and SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed website, SMO and SEO for DR. Girish Sharma, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+24%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Aksira education -->
+				<div class="kdm-case-v3-card-col" data-title="aksira education" data-subtitle="(website)" data-desc="king of digital marketing executed website for aksira education, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/aksira.webp" alt="Aksira education" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Aksira education</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website for Aksira education, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Dr. Shruti Sharma -->
+				<div class="kdm-case-v3-card-col" data-title="dr. shruti sharma" data-subtitle="(website)" data-desc="king of digital marketing executed website for dr. shruti sharma, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/drshrutisharmaobgyn.jpg" alt="Dr. Shruti Sharma" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Dr. Shruti Sharma</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(website)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed website for Dr. Shruti Sharma, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+42%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Yash Ayurveda -->
+				<div class="kdm-case-v3-card-col" data-title="yash ayurveda" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for yash ayurveda, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/yash-ayurveda.webp" alt="Yash Ayurveda" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Yash Ayurveda</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta Ads for Yash Ayurveda, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+51%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Skinmumma -->
+				<div class="kdm-case-v3-card-col" data-title="skinmumma" data-subtitle="(product management and paid ads in flipkart)" data-desc="king of digital marketing executed product management and paid ads in flipkart for skinmumma, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Skinmumma.jpg" alt="Skinmumma" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Skinmumma</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Product management and paid ads in Flipkart)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Product management and paid ads in Flipkart for Skinmumma, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+20%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card City House PG -->
+				<div class="kdm-case-v3-card-col" data-title="city house pg" data-subtitle="(landing page and google ads)" data-desc="king of digital marketing executed landing page and google ads for city house pg, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/City-House-PG-logo.webp" alt="City House PG" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">City House PG</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(landing page and Google Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed landing page and Google Ads for City House PG, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Tarot Card Classes -->
+				<div class="kdm-case-v3-card-col" data-title="tarot card classes" data-subtitle="(landing page and meta ads)" data-desc="king of digital marketing executed landing page and meta ads for tarot card classes, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Tarot-Card-Classes.jpg" alt="Tarot Card Classes" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Tarot Card Classes</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Landing page and Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Landing page and Meta ads for Tarot Card Classes, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Herbal Ayurveda Wellness -->
+				<div class="kdm-case-v3-card-col" data-title="herbal ayurveda wellness" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for herbal ayurveda wellness, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/herbal.jpg" alt="Herbal Ayurveda Wellness" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Herbal Ayurveda Wellness</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta Ads for Herbal Ayurveda Wellness, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+47%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Prep guru Academy -->
+				<div class="kdm-case-v3-card-col" data-title="prep guru academy" data-subtitle="(seo, smo, ppc and meta ads)" data-desc="king of digital marketing executed seo, smo, ppc and meta ads for prep guru academy, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Prepguru.jpg" alt="Prep guru Academy" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Prep guru Academy</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO, SMO, PPC and Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO, SMO, PPC and Meta Ads for Prep guru Academy, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+56%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Bull Lions -->
+				<div class="kdm-case-v3-card-col" data-title="bull lions" data-subtitle="(landing page and google ads)" data-desc="king of digital marketing executed landing page and google ads for bull lions, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">B</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Bull Lions</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Landing page and Google ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Landing page and Google ads for Bull Lions, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+25%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astrologer MD sharma -->
+				<div class="kdm-case-v3-card-col" data-title="astrologer md sharma" data-subtitle="(google ads and meta ads)" data-desc="king of digital marketing executed google ads and meta ads for astrologer md sharma, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astrologer MD sharma" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astrologer MD sharma</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google Ads and meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google Ads and meta Ads for Astrologer MD sharma, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+34%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Healing Flame Tarot -->
+				<div class="kdm-case-v3-card-col" data-title="healing flame tarot" data-subtitle="(landing page and google ads)" data-desc="king of digital marketing executed landing page and google ads for healing flame tarot, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #b91c1c 0%, #f87171 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">H</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Healing Flame Tarot</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Landing page and Google Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Landing page and Google Ads for Healing Flame Tarot, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Amazing Holidays in India -->
+				<div class="kdm-case-v3-card-col" data-title="amazing holidays in india" data-subtitle="(seo)" data-desc="king of digital marketing executed seo for amazing holidays in india, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/amazing-holidays.webp" alt="Amazing Holidays in India" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Amazing Holidays in India</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO for Amazing Holidays in India, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+52%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Voyage au Sri Lanka -->
+				<div class="kdm-case-v3-card-col" data-title="voyage au sri lanka" data-subtitle="(seo)" data-desc="king of digital marketing executed seo for voyage au sri lanka, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">V</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Voyage au Sri Lanka</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO for Voyage au Sri Lanka, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+21%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Zee Institute of Creative Art -->
+				<div class="kdm-case-v3-card-col" data-title="zee institute of creative art" data-subtitle="(google ads)" data-desc="king of digital marketing executed google ads for zee institute of creative art, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #059669 0%, #34d399 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">Z</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Zee Institute of Creative Art</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google Ads for Zee Institute of Creative Art, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+30%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astrovedayani -->
+				<div class="kdm-case-v3-card-col" data-title="astrovedayani" data-subtitle="(google and meta ads)" data-desc="king of digital marketing executed google and meta ads for astrovedayani, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astrovedayani" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astrovedayani</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google and Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google and Meta Ads for Astrovedayani, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+39%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Fuse hair transplant -->
+				<div class="kdm-case-v3-card-col" data-title="fuse hair transplant" data-subtitle="(seo, smo, ppc and meta ads)" data-desc="king of digital marketing executed seo, smo, ppc and meta ads for fuse hair transplant, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Fuse-hair.webp" alt="Fuse hair transplant" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Fuse hair transplant</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO, SMO, PPC and meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO, SMO, PPC and meta ads for Fuse hair transplant, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+48%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Indesign Living -->
+				<div class="kdm-case-v3-card-col" data-title="indesign living" data-subtitle="(smo)" data-desc="king of digital marketing executed smo for indesign living, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">I</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Indesign Living</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SMO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SMO for Indesign Living, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+57%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Staarvani -->
+				<div class="kdm-case-v3-card-col" data-title="staarvani" data-subtitle="(seo, smo, ppc and meta ads)" data-desc="king of digital marketing executed seo, smo, ppc and meta ads for staarvani, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/staarvani.webp" alt="Staarvani" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Staarvani</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO, SMO, PPC and meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO, SMO, PPC and meta ads for Staarvani, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+26%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card QTWAYS -->
+				<div class="kdm-case-v3-card-col" data-title="qtways" data-subtitle="(smo, meta ads, flipkart ads, amazon ads)" data-desc="king of digital marketing executed smo, meta ads, flipkart ads, amazon ads for qtways, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #b91c1c 0%, #f87171 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">Q</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">QTWAYS</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SMO, meta ads, flipkart ads, amazon ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SMO, meta ads, flipkart ads, amazon ads for QTWAYS, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+35%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Cossmic Connection -->
+				<div class="kdm-case-v3-card-col" data-title="cossmic connection" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for cossmic connection, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">C</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Cossmic Connection</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta Ads for Cossmic Connection, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+44%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Pearl Aesthetic -->
+				<div class="kdm-case-v3-card-col" data-title="pearl aesthetic" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for pearl aesthetic, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">P</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Pearl Aesthetic</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta Ads for Pearl Aesthetic, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+53%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Vastu with Ajeet -->
+				<div class="kdm-case-v3-card-col" data-title="vastu with ajeet" data-subtitle="(google and meta ads)" data-desc="king of digital marketing executed google and meta ads for vastu with ajeet, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/vastuwithajit.webp" alt="Vastu with Ajeet" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Vastu with Ajeet</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google And Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google And Meta Ads for Vastu with Ajeet, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Advotalk -->
+				<div class="kdm-case-v3-card-col" data-title="advotalk" data-subtitle="(google and meta ads)" data-desc="king of digital marketing executed google and meta ads for advotalk, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #ea580c 0%, #fb923c 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">A</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Advotalk</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google And Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google And Meta Ads for Advotalk, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+31%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Dr. Sudhanwa -->
+				<div class="kdm-case-v3-card-col" data-title="dr. sudhanwa" data-subtitle="(google ads)" data-desc="king of digital marketing executed google ads for dr. sudhanwa, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #db2777 0%, #f472b6 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">D</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Dr. Sudhanwa</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google Ads for Dr. Sudhanwa, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+40%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Doon Trading Academy -->
+				<div class="kdm-case-v3-card-col" data-title="doon trading academy" data-subtitle="(google and meta ads)" data-desc="king of digital marketing executed google and meta ads for doon trading academy, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/doon-trading-academy-tm-logo-transparents1.png" alt="Doon Trading Academy" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Doon Trading Academy</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google and Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google and Meta Ads for Doon Trading Academy, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+49%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Innova Fx -->
+				<div class="kdm-case-v3-card-col" data-title="innova fx" data-subtitle="(forex trading & leads)" data-desc="king of digital marketing executed forex trading & leads for innova fx, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">I</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Innova Fx</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Forex Trading & Leads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Forex Trading & Leads for Innova Fx, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+58%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Learn Fx 101 -->
+				<div class="kdm-case-v3-card-col" data-title="learn fx 101" data-subtitle="(forex trading & education)" data-desc="king of digital marketing executed forex trading & education for learn fx 101, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/learning.png" alt="Learn Fx 101" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Learn Fx 101</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Forex Trading & Education)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Forex Trading & Education for Learn Fx 101, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+27%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Get Fx Bot -->
+				<div class="kdm-case-v3-card-col" data-title="get fx bot" data-subtitle="(forex trading & bot)" data-desc="king of digital marketing executed forex trading & bot for get fx bot, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/getfxbot (1).png" alt="Get Fx Bot" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Get Fx Bot</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Forex Trading & Bot)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Forex Trading & Bot for Get Fx Bot, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Ask me fx -->
+				<div class="kdm-case-v3-card-col" data-title="ask me fx" data-subtitle="(seo)" data-desc="king of digital marketing executed seo for ask me fx, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">A</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Ask me fx</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO for Ask me fx, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+45%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Bhawani Tour and Travels -->
+				<div class="kdm-case-v3-card-col" data-title="bhawani tour and travels" data-subtitle="(google ads)" data-desc="king of digital marketing executed google ads for bhawani tour and travels, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #059669 0%, #34d399 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">B</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Bhawani Tour and Travels</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google Ads for Bhawani Tour and Travels, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+54%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Overseas Carpet -->
+				<div class="kdm-case-v3-card-col" data-title="overseas carpet" data-subtitle="(e-commerce & seo)" data-desc="king of digital marketing executed e-commerce & seo for overseas carpet, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/overseas education.jpg" alt="Overseas Carpet" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Overseas Carpet</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(E-Commerce & SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed E-Commerce & SEO for Overseas Carpet, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Global Opportunity -->
+				<div class="kdm-case-v3-card-col" data-title="global opportunity" data-subtitle="(study abroad & leads)" data-desc="king of digital marketing executed study abroad & leads for global opportunity, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Globaltalentvisa.webp" alt="Global Opportunity" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Global Opportunity</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Study Abroad & Leads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Study Abroad & Leads for Global Opportunity, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+32%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astro Murli -->
+				<div class="kdm-case-v3-card-col" data-title="astro murli" data-subtitle="(seo, smo, google and meta ads)" data-desc="king of digital marketing executed seo, smo, google and meta ads for astro murli, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astro Murli" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astro Murli</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO, SMO, Google and Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO, SMO, Google and Meta Ads for Astro Murli, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+41%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Occult Gyan -->
+				<div class="kdm-case-v3-card-col" data-title="occult gyan" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for occult gyan, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">O</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Occult Gyan</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta Ads for Occult Gyan, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+50%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Vedyug Ayurveda -->
+				<div class="kdm-case-v3-card-col" data-title="vedyug ayurveda" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for vedyug ayurveda, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #b91c1c 0%, #f87171 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">V</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Vedyug Ayurveda</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta Ads for Vedyug Ayurveda, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+59%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Pathshala Abroad -->
+				<div class="kdm-case-v3-card-col" data-title="pathshala abroad" data-subtitle="(google and meta ads)" data-desc="king of digital marketing executed google and meta ads for pathshala abroad, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/pathshalaa.webp" alt="Pathshala Abroad" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Pathshala Abroad</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google and Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google and Meta Ads for Pathshala Abroad, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Vida Skin and Hair Transplant -->
+				<div class="kdm-case-v3-card-col" data-title="vida skin and hair transplant" data-subtitle="(google and meta ads)" data-desc="king of digital marketing executed google and meta ads for vida skin and hair transplant, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">V</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Vida Skin and Hair Transplant</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google and Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google and Meta Ads for Vida Skin and Hair Transplant, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+37%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Link Vakil -->
+				<div class="kdm-case-v3-card-col" data-title="link vakil" data-subtitle="(website, seo and google ads)" data-desc="king of digital marketing executed website, seo and google ads for link vakil, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #059669 0%, #34d399 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">L</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Link Vakil</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website, SEO and Google Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website, SEO and Google Ads for Link Vakil, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+46%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Reno by GKBH -->
+				<div class="kdm-case-v3-card-col" data-title="reno by gkbh" data-subtitle="(website and seo)" data-desc="king of digital marketing executed website and seo for reno by gkbh, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #ea580c 0%, #fb923c 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">R</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Reno by GKBH</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website and SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website and SEO for Reno by GKBH, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+55%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Singapore city -->
+				<div class="kdm-case-v3-card-col" data-title="singapore city" data-subtitle="(website)" data-desc="king of digital marketing executed website for singapore city, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/singapore.webp" alt="Singapore city" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Singapore city</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website for Singapore city, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+24%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Naina Smart City -->
+				<div class="kdm-case-v3-card-col" data-title="naina smart city" data-subtitle="(website)" data-desc="king of digital marketing executed website for naina smart city, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">N</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Naina Smart City</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website for Naina Smart City, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Mumbai 3 -->
+				<div class="kdm-case-v3-card-col" data-title="mumbai 3" data-subtitle="(website)" data-desc="king of digital marketing executed website for mumbai 3, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Mumbai.jpg" alt="Mumbai 3" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Mumbai 3</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website for Mumbai 3, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+42%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Plot X devlopers -->
+				<div class="kdm-case-v3-card-col" data-title="plot x devlopers" data-subtitle="(website)" data-desc="king of digital marketing executed website for plot x devlopers, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #b91c1c 0%, #f87171 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">P</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Plot X devlopers</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website for Plot X devlopers, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+51%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card KSC New town -->
+				<div class="kdm-case-v3-card-col" data-title="ksc new town" data-subtitle="(website)" data-desc="king of digital marketing executed website for ksc new town, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">K</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">KSC New town</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website for KSC New town, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+20%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Chavan Cosmetics -->
+				<div class="kdm-case-v3-card-col" data-title="chavan cosmetics" data-subtitle="(google ads meta ads)" data-desc="king of digital marketing executed google ads meta ads for chavan cosmetics, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Chavan Cosmetic Clinic.webp" alt="Chavan Cosmetics" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Chavan Cosmetics</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Google ads Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Google ads Meta ads for Chavan Cosmetics, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Trip to Trade -->
+				<div class="kdm-case-v3-card-col" data-title="trip to trade" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for trip to trade, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/trip-to-trade-logo.png" alt="Trip to Trade" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Trip to Trade</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta Ads for Trip to Trade, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card First Bull Financial Services -->
+				<div class="kdm-case-v3-card-col" data-title="first bull financial services" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for first bull financial services, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/first impression.webp" alt="First Bull Financial Services" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">First Bull Financial Services</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta Ads for First Bull Financial Services, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+47%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Jewels Planet -->
+				<div class="kdm-case-v3-card-col" data-title="jewels planet" data-subtitle="(seo)" data-desc="king of digital marketing executed seo for jewels planet, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Jewellery Products.webp" alt="Jewels Planet" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Jewels Planet</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SEO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SEO for Jewels Planet, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+56%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+38%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card The Chocolate Room -->
+				<div class="kdm-case-v3-card-col" data-title="the chocolate room" data-subtitle="(website, seo, google ads, meta ads and smo)" data-desc="king of digital marketing executed website, seo, google ads, meta ads and smo for the chocolate room, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/thechocolateroom.webp" alt="The Chocolate Room" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">The Chocolate Room</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website, SEO, Google ads, Meta ads and SMO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website, SEO, Google ads, Meta ads and SMO for The Chocolate Room, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+15%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+25%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astro Hassija -->
+				<div class="kdm-case-v3-card-col" data-title="astro hassija" data-subtitle="(website)" data-desc="king of digital marketing executed website for astro hassija, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astro Hassija" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astro Hassija</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Website)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Website for Astro Hassija, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+22%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+34%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+18%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Astro Alka -->
+				<div class="kdm-case-v3-card-col" data-title="astro alka" data-subtitle="(smo)" data-desc="king of digital marketing executed smo for astro alka, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/Astrochats.png" alt="Astro Alka" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Astro Alka</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(SMO)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed SMO for Astro Alka, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+29%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+23%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Emperor Bulls -->
+				<div class="kdm-case-v3-card-col" data-title="emperor bulls" data-subtitle="(meta and google ads)" data-desc="king of digital marketing executed meta and google ads for emperor bulls, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="background: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%); padding: 0;">
+								<span class="kdm-case-v3-avatar-char">E</span>
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Emperor Bulls</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta and Google Ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta and Google Ads for Emperor Bulls, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+36%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+52%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+28%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Card Equimate research -->
+				<div class="kdm-case-v3-card-col" data-title="equimate research" data-subtitle="(meta ads)" data-desc="king of digital marketing executed meta ads for equimate research, driving verified traffic growth and high-intent leads.">
+					<div class="kdm-case-v3-card">
+						<div>
+							<!-- Top Image/Logo or Vibrant Character Avatar -->
+							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
+								<img src="images/equimate1.webp" alt="Equimate research" class="kdm-case-v3-logo-img" loading="lazy">
+							</div>
+
+							<!-- Title -->
+							<h3 class="kdm-case-v3-title">Equimate research</h3>
+
+							<!-- Services Subtitle -->
+							<h4 class="kdm-case-v3-subtitle">(Meta ads)</h4>
+
+							<!-- Description -->
+							<p class="kdm-case-v3-desc">King of Digital Marketing executed Meta ads for Equimate research, driving verified traffic growth and high-intent leads.</p>
+						</div>
+
+						<div>
+							<!-- 3 Metrics Box Row (Exact Match from Screenshot) -->
+							<div class="kdm-case-v3-metrics">
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+43%</span>
+									<small class="kdm-case-v3-metric-lbl">Website Visitors</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+21%</span>
+									<small class="kdm-case-v3-metric-lbl">Organic Search Traffic</small>
+								</div>
+								<div class="kdm-case-v3-metric">
+									<span class="kdm-case-v3-metric-val">+33%</span>
+									<small class="kdm-case-v3-metric-lbl">Conversion Rate</small>
+								</div>
+							</div>
+
+							<!-- Read More / CTA Button -->
+							<div class="kdm-case-v3-btn-wrap">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Campaign Methodology Section Starts -->
+	<div class="kdm-ppc-services-wrapper" style="padding: 60px 0; background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="kdm-section-header" style="max-width: 850px; margin: 0 auto 35px auto;">
+						<span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12px; font-weight: 800; padding: 6px 18px; border-radius: 50px;"><i class="fa fa-cogs"></i> CAMPAIGN METHODOLOGY</span>
+						<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 10px; margin-bottom: 12px;">Core Drivers Behind <strong style="color: #0284c7;">Our Client Success</strong></h2>
+						<p style="font-size: 16px; color: #64748b;">Scientific frameworks and technical execution powering top rankings and revenue growth.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="kdm-ppc-grid">
+				<!-- 1 -->
+				<div class="kdm-ppc-card">
+					<div class="kdm-ppc-card-accent"></div>
+					<div class="kdm-ppc-icon-box">
+						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<circle cx="11" cy="11" r="8"></circle>
+							<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+						</svg>
+					</div>
+					<h3 class="kdm-ppc-card-title">Deep Technical Audits</h3>
+					<p class="kdm-ppc-card-desc">Fixing crawl budget leaks, canonical tags, schema markup, site performance bottlenecks, and mobile rendering.</p>
+				</div>
+
+				<!-- 2 -->
+				<div class="kdm-ppc-card">
+					<div class="kdm-ppc-card-accent"></div>
+					<div class="kdm-ppc-icon-box">
+						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<line x1="18" y1="20" x2="18" y2="10"></line>
+							<line x1="12" y1="20" x2="12" y2="4"></line>
+							<line x1="6" y1="20" x2="6" y2="14"></line>
+						</svg>
+					</div>
+					<h3 class="kdm-ppc-card-title">High-Intent Keyword Intent</h3>
+					<p class="kdm-ppc-card-desc">Targeting transactional and commercial keyword clusters to drive high-converting traffic over vanity page views.</p>
+				</div>
+
+				<!-- 3 -->
+				<div class="kdm-ppc-card">
+					<div class="kdm-ppc-card-accent"></div>
+					<div class="kdm-ppc-icon-box">
+						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+							<line x1="8" y1="21" x2="16" y2="21"></line>
+						</svg>
+					</div>
+					<h3 class="kdm-ppc-card-title">Conversion Landing Pages</h3>
+					<p class="kdm-ppc-card-desc">Designing fast-loading, mobile-friendly landing pages built specifically to maximize lead form submissions and sales.</p>
+				</div>
+
+				<!-- 4 -->
+				<div class="kdm-ppc-card">
+					<div class="kdm-ppc-card-accent"></div>
+					<div class="kdm-ppc-icon-box">
+						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+							<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+						</svg>
+					</div>
+					<h3 class="kdm-ppc-card-title">High-DA Backlink Building</h3>
+					<p class="kdm-ppc-card-desc">Earning contextual editorial backlinks from authoritative niche domains to permanently boost domain authority.</p>
+				</div>
+
+				<!-- 5 -->
+				<div class="kdm-ppc-card">
+					<div class="kdm-ppc-card-accent"></div>
+					<div class="kdm-ppc-icon-box">
+						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
+							<path d="M15 10l2 7 2-3 3 2-7-6z"></path>
+						</svg>
+					</div>
+					<h3 class="kdm-ppc-card-title">Precision PPC Campaigning</h3>
+					<p class="kdm-ppc-card-desc">Continuous ad copy A/B testing, negative keyword management, and bid automation to slash Cost Per Lead (CPL).</p>
+				</div>
+
+				<!-- 6 -->
+				<div class="kdm-ppc-card">
+					<div class="kdm-ppc-card-accent"></div>
+					<div class="kdm-ppc-icon-box">
+						<svg class="kdm-ppc-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
+					</div>
+					<h3 class="kdm-ppc-card-title">Multi-Channel Synergy</h3>
+					<p class="kdm-ppc-card-desc">Combining organic SEO, Meta Ads, LinkedIn outreach, and ORM to build total brand dominance in your market.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Services & Verticals Section Starts -->
+	<div class="kdm-offered-wrapper" style="padding: 60px 0; background: #ffffff;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="kdm-section-header" style="max-width: 850px; margin: 0 auto 35px auto;">
+						<span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12px; font-weight: 800; padding: 6px 18px; border-radius: 50px;"><i class="fa fa-cubes"></i> INDUSTRIES TRANSFORMED</span>
+						<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 10px; margin-bottom: 12px;">Services Covered In <strong style="color: #0284c7;">Our Case Studies</strong></h2>
+						<p style="font-size: 16px; color: #64748b;">Comprehensive digital solutions engineered for growth across all major business sectors.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="kdm-ppc-process-grid-3">
+				<!-- 1 -->
+				<div class="kdm-ppc-process-card" style="padding: 24px;">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<circle cx="11" cy="11" r="8"></circle>
+								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">01</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">Search Engine Optimization (SEO)</h3>
+					<p class="kdm-ppc-process-desc">National, local, technical, and e-commerce SEO campaigns driving #1 Google rankings.</p>
+				</div>
+
+				<!-- 2 -->
+				<div class="kdm-ppc-process-card" style="padding: 24px;">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
+								<path d="M15 10l2 7 2-3 3 2-7-6z"></path>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">02</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">Pay-Per-Click Ads (PPC)</h3>
+					<p class="kdm-ppc-process-desc">Google Search, Display, Shopping, and YouTube Ads conversion campaigns optimized for high ROI.</p>
+				</div>
+
+				<!-- 3 -->
+				<div class="kdm-ppc-process-card" style="padding: 24px;">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">03</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">Social Media Marketing (SMM &amp; SMO)</h3>
+					<p class="kdm-ppc-process-desc">Facebook &amp; Instagram Meta Ads, LinkedIn B2B campaigns, visual branding, and social proof.</p>
+				</div>
+
+				<!-- 4 -->
+				<div class="kdm-ppc-process-card" style="padding: 24px;">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+								<line x1="8" y1="21" x2="16" y2="21"></line>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">04</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">Website Design &amp; Engineering</h3>
+					<p class="kdm-ppc-process-desc">Custom responsive website design, landing page optimization, and e-commerce portal builds.</p>
+				</div>
+
+				<!-- 5 -->
+				<div class="kdm-ppc-process-card" style="padding: 24px;">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+								<polyline points="22 4 12 14.01 9 11.01"></polyline>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">05</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">Lead Generation Services</h3>
+					<p class="kdm-ppc-process-desc">High-volume, qualified lead pipelines for real estate, healthcare clinics, colleges, and finance firms.</p>
+				</div>
+
+				<!-- 6 -->
+				<div class="kdm-ppc-process-card" style="padding: 24px;">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<path d="M12 2l7 4v6c0 5-3 9-7 10-4-1-7-5-7-10V6l7-4z"></path>
+								<path d="M9 12l2 2 4-4"></path>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">06</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">Online Reputation Management (ORM)</h3>
+					<p class="kdm-ppc-process-desc">Brand monitoring, review generation, negative link suppression, and executive reputation protection.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Why Choose Us Section Starts -->
+	<div class="kdm-why-hire-wrapper" style="padding: 60px 0; background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="kdm-section-header" style="max-width: 850px; margin: 0 auto 35px auto;">
+						<span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12px; font-weight: 800; padding: 6px 18px; border-radius: 50px;"><i class="fa fa-shield"></i> AGENCY PROOF</span>
+						<h2 class="kdm-why-hire-heading" style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 10px; margin-bottom: 12px;">Why Brands Trust <strong style="color: #0284c7;">Our Digital Marketing Case Studies</strong></h2>
+						<p class="kdm-why-hire-subheading" style="font-size: 16px; color: #64748b;">Over 13+ Years of transparent strategy execution and verified ROI growth.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="kdm-why-hire-grid">
+				<!-- 1 -->
+				<div class="kdm-why-hire-card">
+					<div class="kdm-why-hire-accent"></div>
+					<div class="kdm-why-hire-icon-box">
+						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<circle cx="12" cy="8" r="5"></circle>
+							<path d="M12 13v9m-4-5l4-4 4 4"></path>
+						</svg>
+					</div>
+					<h3 class="kdm-why-hire-card-title">13+ Years Proven Track Record</h3>
+					<p class="kdm-why-hire-card-desc">Over a decade of consistent organic traffic, lead acceleration, and digital revenue growth.</p>
+				</div>
+
+				<!-- 2 -->
+				<div class="kdm-why-hire-card">
+					<div class="kdm-why-hire-accent"></div>
+					<div class="kdm-why-hire-icon-box">
+						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+							<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+						</svg>
+					</div>
+					<h3 class="kdm-why-hire-card-title">850+ Client Success Stories</h3>
+					<p class="kdm-why-hire-card-desc">Tested strategies across B2B, B2C, healthcare, education, astrology, finance, and e-commerce.</p>
+				</div>
+
+				<!-- 3 -->
+				<div class="kdm-why-hire-card">
+					<div class="kdm-why-hire-accent"></div>
+					<div class="kdm-why-hire-icon-box">
+						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+						</svg>
+					</div>
+					<h3 class="kdm-why-hire-card-title">100% White-Hat Standards</h3>
+					<p class="kdm-why-hire-card-desc">Strict compliance with Google Search Essentials and algorithm guidelines to ensure safe, sustainable growth.</p>
+				</div>
+
+				<!-- 4 -->
+				<div class="kdm-why-hire-card">
+					<div class="kdm-why-hire-accent"></div>
+					<div class="kdm-why-hire-icon-box">
+						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+							<circle cx="9" cy="7" r="4"></circle>
+						</svg>
+					</div>
+					<h3 class="kdm-why-hire-card-title">Senior Growth Strategists</h3>
+					<p class="kdm-why-hire-card-desc">Direct 1-on-1 strategy sessions with Founder Gaurav Dubey and senior campaign managers.</p>
+				</div>
+
+				<!-- 5 -->
+				<div class="kdm-why-hire-card">
+					<div class="kdm-why-hire-accent"></div>
+					<div class="kdm-why-hire-icon-box">
+						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<line x1="18" y1="20" x2="18" y2="10"></line>
+							<line x1="12" y1="20" x2="12" y2="4"></line>
+							<line x1="6" y1="20" x2="6" y2="14"></line>
+						</svg>
+					</div>
+					<h3 class="kdm-why-hire-card-title">Transparent Analytics Reporting</h3>
+					<p class="kdm-why-hire-card-desc">Detailed weekly and monthly reports showing real keyword position shifts, organic visits, and CPL metrics.</p>
+				</div>
+
+				<!-- 6 -->
+				<div class="kdm-why-hire-card">
+					<div class="kdm-why-hire-accent"></div>
+					<div class="kdm-why-hire-icon-box">
+						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+							<line x1="12" y1="1" x2="12" y2="23"></line>
+							<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+						</svg>
+					</div>
+					<h3 class="kdm-why-hire-card-title">Maximum ROI Guarantee</h3>
+					<p class="kdm-why-hire-card-desc">Optimizing organic search strategies and paid marketing channels to maximize overall business profitability.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FAQ Section Starts -->
+	<section class="kdm-faq-section">
+		<div class="kdm-faq-container">
+			<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
+			<p class="kdm-faq-subtitle">Got questions about our digital marketing case studies? Find clear answers below.</p>
+			
+			<div class="kdm-faq-accordion">
+				<div class="kdm-faq-item active">
+					<button type="button" class="kdm-faq-header">
+						<span class="kdm-faq-question">Q.1. How quickly can a digital marketing campaign start showing results?</span>
+						<span class="kdm-faq-icon">+</span>
+					</button>
+					<div class="kdm-faq-body">
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Paid PPC and Meta ad campaigns deliver immediate leads within 24 to 48 hours, while organic SEO rankings build strong momentum within 3 to 6 months.</p>
+					</div>
+				</div>
+				<div class="kdm-faq-item">
+					<button type="button" class="kdm-faq-header">
+						<span class="kdm-faq-question">Q.2. What industries do your digital marketing case studies cover?</span>
+						<span class="kdm-faq-icon">+</span>
+					</button>
+					<div class="kdm-faq-body">
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our 130+ case studies cover healthcare, education, astrology, stock advisory, tax firms, e-commerce, yoga, real estate, and B2B services.</p>
+					</div>
+				</div>
+				<div class="kdm-faq-item">
+					<button type="button" class="kdm-faq-header">
+						<span class="kdm-faq-question">Q.3. Are these client results verified?</span>
+						<span class="kdm-faq-icon">+</span>
+					</button>
+					<div class="kdm-faq-body">
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! All case studies document real client campaigns managed by King of Digital Marketing with verified traffic metrics, lead volumes, and rankings.</p>
+					</div>
+				</div>
+				<div class="kdm-faq-item">
+					<button type="button" class="kdm-faq-header">
+						<span class="kdm-faq-question">Q.4. How do you track and measure campaign ROI?</span>
+						<span class="kdm-faq-icon">+</span>
+					</button>
+					<div class="kdm-faq-body">
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We track organic traffic via Google Analytics, keyword rankings via Search Console / Ahrefs, and direct lead submissions or sales conversions on your website.</p>
+					</div>
+				</div>
+				<div class="kdm-faq-item">
+					<button type="button" class="kdm-faq-header">
+						<span class="kdm-faq-question">Q.5. Do you handle both organic SEO and paid ad campaigns?</span>
+						<span class="kdm-faq-icon">+</span>
+					</button>
+					<div class="kdm-faq-body">
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We specialize in integrated marketing combining SEO for long-term organic authority with PPC (Google Ads &amp; Meta Ads) for immediate lead acquisition.</p>
+					</div>
+				</div>
+				<div class="kdm-faq-item">
+					<button type="button" class="kdm-faq-header">
+						<span class="kdm-faq-question">Q.6. What makes King of Digital Marketing's strategy different from other agencies?</span>
+						<span class="kdm-faq-icon">+</span>
+					</button>
+					<div class="kdm-faq-body">
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We combine deep technical SEO, custom content engineering, high-authority backlink building, and conversion landing page optimization under 13+ Years of senior mentorship.</p>
+					</div>
+				</div>
+				<div class="kdm-faq-item">
+					<button type="button" class="kdm-faq-header">
+						<span class="kdm-faq-question">Q.7. Can I get a custom case study or audit for my specific business niche?</span>
+						<span class="kdm-faq-icon">+</span>
+					</button>
+					<div class="kdm-faq-body">
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely! Contact our team to get a free website audit and tailored strategy proposal for your exact industry and target market.</p>
+					</div>
+				</div>
+				<div class="kdm-faq-item">
+					<button type="button" class="kdm-faq-header">
+						<span class="kdm-faq-question">Q.8. How can I schedule a digital marketing strategy call with Gaurav Dubey?</span>
+						<span class="kdm-faq-icon">+</span>
+					</button>
+					<div class="kdm-faq-body">
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Click any "Book Your Free Strategy Call" or "Request Custom Case Study" button on this page to schedule your consultation call with Gaurav Dubey.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Final Strategy CTA Banner -->
+	<section style="padding: 50px 0 70px 0; background: #ffffff;">
+		<div class="container">
+			<div style="background: radial-gradient(circle at 50% 0%, #1e3a8a 0%, #0f172a 70%, #080d1a 100%); border-radius: 28px; padding: 50px 30px; text-align: center; color: #ffffff; box-shadow: 0 20px 45px rgba(15, 23, 42, 0.45); position: relative; overflow: hidden;">
+				<div style="position: relative; z-index: 2; max-width: 800px; margin: 0 auto;">
+					<span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 12px; font-weight: 800; padding: 6px 18px; border-radius: 50px;"><i class="fa fa-rocket"></i> READY TO SCALE YOUR BUSINESS?</span>
+					<h2 style="font-size: 32px; font-weight: 800; margin: 16px 0 12px 0; text-transform: uppercase; color: #ffffff;">Get a Customized <span style="background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Growth Strategy Like These</span></h2>
+					<p style="font-size: 16px; color: #cbd5e1; line-height: 1.65; margin-bottom: 28px;">
+						Schedule a 1-on-1 consultation with Founder Gaurav Dubey and receive a complimentary digital marketing &amp; Paid Ad audit for your website.
+					</p>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: #ffffff; font-weight: 800; font-size: 15px; padding: 14px 34px; border-radius: 50px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 8px 25px rgba(2, 132, 199, 0.45);">
+						<i class="fa fa-calendar"></i> Book Your Free Strategy Call <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+
+<!-- Page Specific Search & Filter JavaScript -->
+<script>
+function filterCaseStudiesSearch() {{
+    var input = document.getElementById('kdmCaseSearchInput');
+    var filter = input.value.toLowerCase().trim();
+    var cards = document.querySelectorAll('.kdm-case-v3-card-col');
     
-    <div class="container">
-    <hr class="tall" />
+    cards.forEach(function(card) {{
+        var title = card.getAttribute('data-title') || '';
+        var subtitle = card.getAttribute('data-subtitle') || '';
+        var desc = card.getAttribute('data-desc') || '';
+        var fullText = card.textContent.toLowerCase();
+        
+        if (filter === '' || title.indexOf(filter) !== -1 || subtitle.indexOf(filter) !== -1 || desc.indexOf(filter) !== -1 || fullText.indexOf(filter) !== -1) {{
+            card.style.display = 'block';
+        }} else {{
+            card.style.display = 'none';
+        }}
+    }});
+}}
 
-    <script src="js/images.webp"></script>
+function filterCaseCategory(category, btn) {{
+    var buttons = document.querySelectorAll('.kdm-case-v3-filter-btn');
+    buttons.forEach(function(b) {{ b.classList.remove('active'); }});
+    if (btn) btn.classList.add('active');
 
-    <script src="js/case.webp"></script>
-    <script src="js/kdm-faq.js"></script>
+    var searchInput = document.getElementById('kdmCaseSearchInput');
+    if (searchInput) searchInput.value = '';
+
+    var cards = document.querySelectorAll('.kdm-case-v3-card-col');
+    
+    cards.forEach(function(card) {{
+        var subtitle = card.getAttribute('data-subtitle') || '';
+        var fullText = card.textContent.toUpperCase();
+        
+        if (category === 'ALL') {{
+            card.style.display = 'block';
+        }} else {{
+            if (subtitle.toUpperCase().indexOf(category) !== -1 || fullText.indexOf(category) !== -1) {{
+                card.style.display = 'block';
+            }} else {{
+                card.style.display = 'none';
+            }}
+        }}
+    }});
+}}
+</script>
+<script src="js/kdm-faq.js"></script>
 </asp:Content>

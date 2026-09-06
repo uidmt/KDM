@@ -516,176 +516,7 @@
                         </div>
                     </div>
 
-                    <script>
-                        // Services Carousel JavaScript
-                        document.addEventListener('DOMContentLoaded', function () {
-                            const container = document.querySelector('.services-images-container');
-                            const track = document.querySelector('.services-images-track');
-                            const prevBtn = document.querySelector('.services-images-prev');
-                            const nextBtn = document.querySelector('.services-images-next');
-                            const items = document.querySelectorAll('.service-images-item');
-
-                            let currentIndex = 0;
-                            const totalItems = items.length;
-                            let visibleItems = 5; // Desktop
-                            let itemWidth = 0;
-                            let gap = 20;
-
-                            // Initialize images
-                            function initCarousel() {
-                                updateVisibleItems();
-                                calculateItemWidth();
-                                updateCarouselPosition();
-                                setupEventListeners();
-                            }
-
-                            // Update number of visible items based on screen size
-                            function updateVisibleItems() {
-                                if (window.innerWidth <= 768) {
-                                    visibleItems = 1; // Mobile
-                                } else if (window.innerWidth <= 1024) {
-                                    visibleItems = 2; // Tablet
-                                } else {
-                                    visibleItems = 5; // Desktop
-                                }
-                            }
-
-                            // Calculate item width based on visible items and container width
-                            function calculateItemWidth() {
-                                const containerWidth = container.offsetWidth;
-                                itemWidth = (containerWidth - (gap * (visibleItems - 1))) / visibleItems;
-
-                                // Apply width to all items
-                                items.forEach(item => {
-                                    item.style.flex = `0 0 ${itemWidth}px`;
-                                });
-                            }
-
-                            // Update images position
-                            function updateCarouselPosition() {
-                                const translateX = -currentIndex * (itemWidth + gap);
-                                track.style.transform = `translateX(${translateX}px)`;
-
-                                // Update button states
-                                updateButtonStates();
-                            }
-
-                            // Update button states (enabled/disabled)
-                            function updateButtonStates() {
-                                const maxIndex = Math.max(0, totalItems - visibleItems);
-
-                                prevBtn.disabled = currentIndex === 0;
-                                nextBtn.disabled = currentIndex >= maxIndex;
-
-                                // Add disabled styles
-                                if (prevBtn.disabled) {
-                                    prevBtn.style.opacity = '0.5';
-                                    prevBtn.style.cursor = 'not-allowed';
-                                } else {
-                                    prevBtn.style.opacity = '1';
-                                    prevBtn.style.cursor = 'pointer';
-                                }
-
-                                if (nextBtn.disabled) {
-                                    nextBtn.style.opacity = '0.5';
-                                    nextBtn.style.cursor = 'not-allowed';
-                                } else {
-                                    nextBtn.style.opacity = '1';
-                                    nextBtn.style.cursor = 'pointer';
-                                }
-                            }
-
-                            // Next button click
-                            function nextSlide() {
-                                const maxIndex = Math.max(0, totalItems - visibleItems);
-                                if (currentIndex < maxIndex) {
-                                    currentIndex++;
-                                    updateCarouselPosition();
-                                }
-                            }
-
-                            // Previous button click
-                            function prevSlide() {
-                                if (currentIndex > 0) {
-                                    currentIndex--;
-                                    updateCarouselPosition();
-                                }
-                            }
-
-                            // Setup event listeners
-                            function setupEventListeners() {
-                                nextBtn.addEventListener('click', nextSlide);
-                                prevBtn.addEventListener('click', prevSlide);
-
-                                // Handle window resize
-                                window.addEventListener('resize', function () {
-                                    updateVisibleItems();
-                                    calculateItemWidth();
-
-                                    // Adjust current index if needed
-                                    const maxIndex = Math.max(0, totalItems - visibleItems);
-                                    if (currentIndex > maxIndex) {
-                                        currentIndex = maxIndex;
-                                    }
-
-                                    updateCarouselPosition();
-                                });
-
-                                // Touch support for mobile
-                                let touchStartX = 0;
-                                let touchEndX = 0;
-
-                                container.addEventListener('touchstart', function (e) {
-                                    touchStartX = e.touches[0].clientX;
-                                });
-
-                                container.addEventListener('touchend', function (e) {
-                                    touchEndX = e.changedTouches[0].clientX;
-                                    handleSwipe();
-                                });
-
-                                function handleSwipe() {
-                                    const swipeThreshold = 50;
-                                    const diff = touchStartX - touchEndX;
-
-                                    if (Math.abs(diff) > swipeThreshold) {
-                                        if (diff > 0) {
-                                            // Swipe left - next
-                                            nextSlide();
-                                        } else {
-                                            // Swipe right - previous
-                                            prevSlide();
-                                        }
-                                    }
-                                }
-
-                                // Mouse wheel support
-                                container.addEventListener('wheel', function (e) {
-                                    if (e.deltaY > 0) {
-                                        nextSlide();
-                                    } else {
-                                        prevSlide();
-                                    }
-                                    e.preventDefault();
-                                }, { passive: false });
-                            }
-
-                            // Initialize the images
-                            initCarousel();
-
-                            // Auto-slide functionality (optional)
-                            /*
-                            setInterval(() => {
-                                if (currentIndex < Math.max(0, totalItems - visibleItems)) {
-                                    nextSlide();
-                                } else {
-                                    currentIndex = 0;
-                                    updateCarouselPosition();
-                                }
-                            }, 5000);
-                            */
-                        });
-                    </script>
+                    </div>
                 </div>
         </section>
         <!-- King of Digital Marketing Dark Section Starts -->
@@ -744,7 +575,7 @@
                         <div class="kdm-founder-card">
                             <div>
                                 <div class="kdm-founder-img-wrapper">
-                                    <img src="images/Gaurav Dubey Digital Marketing trainer.png"
+                                    <img src="images/Gaurav Dubey Digital Marketing trainer.webp"
                                         alt="Gaurav Dubey - Founder & CEO" class="kdm-founder-img" />
                                 </div>
                                 <h3 class="kdm-founder-name">Gaurav Dubey</h3>
@@ -861,12 +692,12 @@
                                 <div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
                                 <div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
                                 <div class="slide"><img alt="Global Opportunities"
-                                        src="images/client/global opportunies.jpeg">
+                                        src="images/client/global-opportunies.webp">
                                 </div>
-                                <div class="slide"><img alt="Planet Education" src="images/client/planet education.jpg">
+                                <div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp">
                                 </div>
                                 <div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
-                                <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.jpeg"></div>
+                                <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
                                 <div class="slide"><img alt="Continental Immigration"
                                         src="images/ContinentalImmigration.jpeg"></div>
                                 <div class="slide"><img alt="Scala" src="images/scala.png"></div>
@@ -1653,38 +1484,7 @@
             </div>
         </section>
 
-        <script>
-            // seo result slider script
-            const slides = document.querySelector('.slides');
-            const prevBtn = document.querySelector('.nav-btn.prev');
-            const nextBtn = document.querySelector('.nav-btn.next');
-            let index = 0;
-
-            function showSlide() {
-                const slideWidth = document.querySelector('.seo-card').clientWidth;
-                slides.style.transform = `translateX(${-index * slideWidth}px)`;
-            }
-
-            nextBtn.addEventListener('click', () => {
-                if (window.innerWidth < 768) {
-                    if (index < 6) index++;
-                    showSlide();
-                } else {
-                    if (index < 5) index++;
-                    showSlide();
-                }
-
-            });
-
-            prevBtn.addEventListener('click', () => {
-                if (index > 0) index--;
-                showSlide();
-            });
-
-            window.addEventListener('resize', showSlide);
-        </script>
-        <!-- Results Section -->
-        <!--SEO Result Section Ends-->
+        </section>
 
         <!-- ===== STRIP SECTION ===== -->
         <div class="strip-section">
@@ -2234,6 +2034,5 @@
         <script src="js/theme.init.js"></script>
 
         <script src="js/kdm-mega-menu-v2.js"></script>
-        <script src="js/carsousel.js"></script>
         <!--Floating Whatsapp Call in Desktop-->
     </asp:Content>

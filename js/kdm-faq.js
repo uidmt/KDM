@@ -1,30 +1,29 @@
-/* ==========================================================================
-   KDM Global FAQ Component - Universal Event-Delegated Toggle Logic
-   Applies to all root pages across King of Digital Marketing website
-   ========================================================================== */
+function toggleFaqItem(headerEl) {
+    if (!headerEl) return;
+    var item = headerEl.closest(".kdm-faq-item");
+    if (!item) return;
+
+    var isOpen = item.classList.contains("active");
+    var parentAccordion = item.closest(".kdm-faq-accordion");
+    if (parentAccordion) {
+        var siblingItems = parentAccordion.querySelectorAll(".kdm-faq-item");
+        siblingItems.forEach(function (sib) {
+            sib.classList.remove("active");
+        });
+    }
+
+    if (!isOpen) {
+        item.classList.add("active");
+    }
+}
+window.toggleFaqItem = toggleFaqItem;
 
 document.addEventListener("click", function (e) {
     // 1. Standard KDM FAQ Header Click
     var header = e.target.closest(".kdm-faq-header");
     if (header) {
-        var item = header.closest(".kdm-faq-item");
-        if (!item) return;
-
-        var isOpen = item.classList.contains("active");
-
-        // Close all sibling FAQ items in the same accordion container
-        var parentAccordion = item.closest(".kdm-faq-accordion");
-        if (parentAccordion) {
-            var siblingItems = parentAccordion.querySelectorAll(".kdm-faq-item");
-            siblingItems.forEach(function (sib) {
-                sib.classList.remove("active");
-            });
-        }
-
-        // Toggle active state
-        if (!isOpen) {
-            item.classList.add("active");
-        }
+        e.preventDefault();
+        toggleFaqItem(header);
         return;
     }
 

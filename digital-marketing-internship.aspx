@@ -32,6 +32,7 @@
 							<li class="breadcrumb-sep">/</li>
 							<li class="breadcrumb-current">Digital Marketing Internship</li>
 						</ul>
+					</div>
 
 					<!-- Badge Tag -->
 					<span class="kdm-service-hero-badge">

@@ -885,6 +885,24 @@ body.sticky-menu-active #header .logo img,
   will-change: transform;
 }
 
+.service-images-item {
+  flex: 0 0 calc((100% - 80px) / 5);
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .service-images-item {
+    flex: 0 0 calc((100% - 20px) / 2);
+  }
+}
+
+@media (max-width: 768px) {
+  .service-images-item {
+    flex: 0 0 100%;
+  }
+}
+
 .service-images-box {
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
   border-radius: 12px;

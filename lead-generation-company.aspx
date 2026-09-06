@@ -27,6 +27,7 @@
 									<li class="breadcrumb-sep">/</li>
 									<li class="breadcrumb-current">Lead Generation Services</li>
 								</ul>
+							</div>
 
 							<!-- Badge Tag -->
 							<span class="kdm-service-hero-badge">

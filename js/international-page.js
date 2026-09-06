@@ -89,21 +89,23 @@ if (section) {
 
 
 /************ TESTIMONIAL ************/
-const tsTestimonials = document.querySelectorAll('.ts-testimonial');
-let tsCurrentIndex = 0;
+(function() {
+  const tsTestimonials = document.querySelectorAll('.ts-testimonial');
+  let tsCurrentIndex = 0;
 
-function tsShowSlide(index) {
-  tsTestimonials.forEach((t, i) => {
-    t.classList.toggle('ts-active', i === index);
-  });
-}
+  function tsShowSlide(index) {
+    tsTestimonials.forEach((t, i) => {
+      t.classList.toggle('ts-active', i === index);
+    });
+  }
 
-if (tsTestimonials.length) {
-  setInterval(() => {
-    tsCurrentIndex = (tsCurrentIndex + 1) % tsTestimonials.length;
-    tsShowSlide(tsCurrentIndex);
-  }, 6000);
-}
+  if (tsTestimonials.length) {
+    setInterval(() => {
+      tsCurrentIndex = (tsCurrentIndex + 1) % tsTestimonials.length;
+      tsShowSlide(tsCurrentIndex);
+    }, 6000);
+  }
+})();
 /************ TESTIMONIAL CLOSED ************/
 
 
@@ -125,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function updateSlideWidth() {
-    if (cards[0]) {
+    if (cards[0] && cards[0].offsetWidth > 0) {
       return cards[0].offsetWidth + gap;
     }
     return 0;
@@ -136,6 +138,11 @@ document.addEventListener("DOMContentLoaded", function () {
   function slide() {
     if (isTransitioning) return;
     
+    if (!slideWidth || slideWidth <= gap) {
+      slideWidth = updateSlideWidth();
+    }
+    if (!slideWidth || slideWidth <= gap) return;
+
     index++;
     track.style.transition = "transform 0.8s ease-in-out";
     track.style.transform = `translateX(-${index * slideWidth}px)`;

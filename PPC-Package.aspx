@@ -1,17 +1,13 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs"
-	Inherits="PPC_Services" %>
-	<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-		<title>PPC Packages in Delhi, Google Ads Management Price India</title>
-		<meta name="keywords"
-			content="PPC Package, PPC Packages india, PPC Packages, PPC Plan, PPC Pricing, PPC Price, PPC Costs pay per click Packages,Professional PPC Service Package, Quality PPC prices india, PPC price delhi India, PPC Packages in India, PPC Package in Delhi, PPC Package in Mumbai, Affordable PPC Package">
-		<meta name="description"
-			content="Result Driven PPC Packages in Delhi Starting from INR 14999. Expert Google Ads Management Team in India is Committed for Higher ROI, Leads and Sales. Get Best PPC Packages in Bangalore, Hyderabad, Chennai, Kolkata.">
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+		<title>PPC Packages in Delhi | Google Ads Management Price & Cost India</title>
+		<meta name="keywords" content="PPC Package, PPC Packages india, PPC Packages, PPC Plan, PPC Pricing, PPC Price, PPC Costs pay per click Packages, Professional PPC Service Package, Quality PPC prices india, PPC price delhi India, PPC Packages in India, PPC Package in Delhi, PPC Package in Mumbai, Affordable PPC Package">
+		<meta name="description" content="Result Driven PPC Packages in Delhi Starting from INR 14,999. Expert Google Certified Ads Management Team in India Committed for Higher ROI, Leads & Sales. Get Best PPC Packages.">
 		<meta name="author" content="Gaurav Dubey | King of Digital Marketing">
 		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/PPC-Package.aspx" />
-		<meta property="og:title" content="PPC Packages in Delhi, Google Ads Management Price India">
+		<meta property="og:title" content="PPC Packages in Delhi | Google Ads Management Price India">
 		<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/PPC-Package.png">
-		<meta property="og:description"
-			content="PPC Packages in Delhi, Pay per click Packages India, Get best pay per click Google ads management at best price in delhi. We have google certified ppc management team at valued packages. PPC Packages in Bangalore, PPC Packages in Hyderabad, PPC Packages in Chennai, PPC Packages in Kolkata.">
+		<meta property="og:description" content="PPC Packages in Delhi, Pay per click Packages India, Get best pay per click Google ads management at best price in delhi. Certified Google Ads team.">
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://www.kingofdigitalmarketing.com/PPC-Package.aspx">
 		<meta name="twitter:card" content="summary_large_image">
@@ -24,171 +20,180 @@
 		<link rel="stylesheet" href="css/images.css">
 		<script src="js/kdm-packages.js"></script>
 		<script src="js/kdm-faq.js"></script>
+</asp:Content>
 
-		<style>
-			/* Centered Ocean Hero Styles */
-			.locationdetails-hero-centered {
-				background: linear-gradient(135deg, #0f172a 0%, #0f2744 40%, #005580 85%, #0088cc 100%) !important;
-				padding: 65px 25px 60px 25px !important;
-				color: #ffffff !important;
-				text-align: center !important;
-				border-radius: 0 0 24px 24px !important;
-				box-shadow: 0 15px 40px rgba(15, 23, 42, 0.35) !important;
-				margin-bottom: 40px !important;
-			}
-
-			.locationdetails-hero-centered .hero-content-inner {
-				max-width: 920px !important;
-				margin: 0 auto !important;
-			}
-
-			.locationdetails-hero-centered h1 {
-				font-size: 36px !important;
-				font-weight: 800 !important;
-				color: #ffffff !important;
-				margin-bottom: 18px !important;
-				line-height: 1.25 !important;
-				letter-spacing: -0.5px !important;
-				background: linear-gradient(180deg, #ffffff 0%, #e0f2fe 100%) !important;
-				-webkit-background-clip: text !important;
-				-webkit-text-fill-color: transparent !important;
-			}
-
-			.locationdetails-hero-centered p.hero-subtitle {
-				font-size: 17px !important;
-				line-height: 1.65 !important;
-				color: #cbd5e1 !important;
-				max-width: 820px !important;
-				margin: 0 auto 25px auto !important;
-			}
-
-			.locationdetails-benefits-grid {
-				display: flex !important;
-				flex-wrap: wrap !important;
-				justify-content: center !important;
-				gap: 12px !important;
-				max-width: 880px !important;
-				margin: 0 auto 30px auto !important;
-				padding: 0 !important;
-				list-style: none !important;
-			}
-
-			.locationdetails-benefits-grid li {
-				background: rgba(255, 255, 255, 0.1) !important;
-				backdrop-filter: blur(10px) !important;
-				border: 1px solid rgba(255, 255, 255, 0.18) !important;
-				border-radius: 30px !important;
-				padding: 8px 20px !important;
-				font-size: 14px !important;
-				font-weight: 600 !important;
-				color: #f8fafc !important;
-				display: inline-flex !important;
-				align-items: center !important;
-				gap: 8px !important;
-				transition: all 0.25s ease !important;
-			}
-
-			.locationdetails-benefits-grid li:hover {
-				transform: translateY(-2px) !important;
-				background: rgba(255, 255, 255, 0.2) !important;
-				border-color: #38bdf8 !important;
-			}
-
-			@media (max-width: 767px) {
-				.locationdetails-hero-centered h1 {
-					font-size: 26px !important;
-				}
-
-				.locationdetails-hero-centered p.hero-subtitle {
-					font-size: 14.5px !important;
-				}
-			}
-		</style>
-
-	</asp:Content>
-	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 		<div role="main" class="main">
-			<!-- Hero Section -->
-			<!-- Hero Section -->
-			<section class="locationdetails-numbers-section">
-	<div class="container">
-		<div class="row center counters dark counters-row">
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-line-chart counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
-				<label class="counter-label" style="color: #ffffff;">Years in Business</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-bullseye counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
-				<label class="counter-label" style="color: #ffffff;">Projects Completed</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-globe counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">15+</strong>
-				<label class="counter-label" style="color: #ffffff;">Countries Served</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-laptop counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">32+</strong>
-				<label class="counter-label" style="color: #ffffff;">Digital Experts</label>
-			</div>
-		</div>
-	</div>
-</section>
-<!--
-  <div style="text-align: center; margin-bottom: 30px;">
-    <span class="kdm-pkg-badge"><i class="fa fa-trophy"></i> PROVEN TRACK RECORD</span>
-    <h2 class="kdm-pkg-title">OUR CREDENTIALS & <strong>IMPACT</strong></h2>
-    <p class="kdm-pkg-subtitle">These numbers demonstrate our 13+ years of agency performance, client trust, and campaign results.</p>
-  </div>
-  <section class="locationdetails-numbers-section">
-	<div class="container">
-		<div class="row center counters dark counters-row">
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-line-chart counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
-				<label class="counter-label" style="color: #ffffff;">Years in Business</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-bullseye counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
-				<label class="counter-label" style="color: #ffffff;">Projects Completed</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-globe counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">15+</strong>
-				<label class="counter-label" style="color: #ffffff;">Countries Served</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-laptop counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">32+</strong>
-				<label class="counter-label" style="color: #ffffff;">Digital Experts</label>
-			</div>
-		</div>
-	</div>
-</section>
-</section>
 
-			<div class="container" style="margin-top: 35px; margin-bottom: 15px;">
-				<div style="text-align: center; margin-bottom: 30px;">
-					<span class="kdm-pkg-badge"><i class="fa fa-tags"></i> TRANSPARENT PRICING</span>
-					<h2 class="kdm-pkg-title">PPC Packages in <strong>Delhi, India</strong></h2>
-					<p class="kdm-pkg-subtitle" style="max-width: 850px; margin: 0 auto;">Drive instant high-intent
-						traffic, leads, and maximum ROAS with our certified Google Ads management plans.</p>
-				</div>
-			</div>
+      <!-- ===== HERO BANNER SECTION (SAME THEME & DESIGN AS SEO-PACKAGE.ASPX & SMO-PACKAGE.ASPX) ===== -->
+      <div class="kdm-service-hero">
+        <div class="kdm-service-hero-container">
+          
+          <!-- Breadcrumb Trail -->
+          <div class="kdm-service-hero-breadcrumbs">
+            <ul>
+              <li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-sep">/</li>
+              <li class="breadcrumb-current">PPC Packages in India</li>
+            </ul>
+          </div>
+
+          <!-- Top Badge Tag -->
+          <div class="kdm-service-hero-badge">
+            <i class="fa fa-trophy"></i> #1 RESULT-DRIVEN GOOGLE ADS &amp; PPC PACKAGES IN INDIA
+          </div>
+
+          <!-- Main Hero Title -->
+          <h1 class="kdm-service-hero-title">
+            Pay Per Click (PPC) &amp; <span class="kdm-gradient-highlight">Google Ads Packages in India</span>
+          </h1>
+
+          <!-- Subtitle / Meta Description -->
+          <p class="kdm-service-hero-subtitle">
+            Maximize Inbound Leads, High-Intent Conversions &amp; Immediate ROI with Google Search Ads, Display, Performance Max (PMax), YouTube Ads &amp; Performance Retargeting Campaigns.
+          </p>
+
+          <!-- Social Proof & Trust Stats Bar -->
+          <div class="kdm-service-hero-stats-bar">
+            <span class="kdm-service-hero-stat-highlight">🏆 Google Certified PPC Team</span>
+            <span class="kdm-service-hero-stat-divider">|</span>
+            <span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
+            <span class="kdm-service-hero-stat-divider">|</span>
+            <span class="kdm-service-hero-stat-green">🚀 5.2x Average ROAS</span>
+          </div>
+
+          <!-- Action CTA Button -->
+          <div class="kdm-service-hero-cta-wrap">
+            <a href="javascript:void(0);" onclick="openPackageModal('PPC Package Growth Audit')" class="kdm-service-hero-cta-btn">
+              <i class="fa fa-rocket"></i> Get Free PPC &amp; Google Ads Audit <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Value Highlights Row -->
+          <div class="kdm-service-hero-highlights">
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Dedicated Google Ads Account Manager</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Conversion Tagging &amp; GA4 Event Setup</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> A/B Ad Copywriting &amp; Landing Page CRO</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 100% Transparent Weekly ROI Reports</div>
+          </div>
+        </div>
+      </div>
+      <!-- ===== END HERO BANNER SECTION ===== -->
+
+      <!-- Intro PPC Content Section for Keyword Optimization -->
+      <section class="kdm-intro-content-section" style="padding: 40px 0 30px 0; background: #ffffff; color: #333;">
+        <div class="container">
+          <h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-bottom: 16px; text-align: center;">
+            Best Google Ads &amp; PPC Packages in Delhi, India to Maximize Your Business ROI
+          </h2>
+          <p style="font-size: 15.5px; line-height: 1.75; color: #475569; max-width: 1050px; margin: 0 auto; text-align: center;">
+            Looking for the best PPC packages in Delhi, India to drive targeted inquiries and instant website sales? King of Digital Marketing offers affordable, performance-driven Google Ads packages designed to maximize click-through rates (CTR), optimize quality scores, reduce cost-per-click (CPC), and increase ROI. Whether you need Google Search Ads, Performance Max, Display Retargeting, or Shopping Ads, our Google certified PPC managers build data-backed campaigns that convert high-intent searchers into paying customers. Starting at just INR 19,999/Month, our pay-per-click packages deliver immediate leads and measurable sales growth for startups, SMEs, and enterprise brands worldwide.
+          </p>
+        </div>
+      </section>
+
+      <!-- ===== OUR CREDENTIALS SECTION ===== -->
+      <section class="kdm-credentials-white-section">
+        <div class="container">
+          <div class="kdm-credentials-header">
+            <div class="kdm-credentials-badge">
+              <i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
+            </div>
+            <h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+            <p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
+          </div>
+
+          <div class="kdm-credentials-5grid counters dark counters-row">
+            <!-- Box 1: 13+ Years of Experience -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
+              <label class="kdm-cred-label">Years of Experience</label>
+            </div>
+
+            <!-- Box 2: 900+ Projects Completed -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
+              <label class="kdm-cred-label">Projects Completed</label>
+            </div>
+
+            <!-- Box 3: 15+ Countries Served -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                  </path>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
+              <label class="kdm-cred-label">Countries Served</label>
+            </div>
+
+            <!-- Box 4: 4.9 Overall Rating -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
+              <label class="kdm-cred-label">Overall Rating</label>
+            </div>
+
+            <!-- Box 5: 150+ Industries Served -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
+              <label class="kdm-cred-label">Industries Served</label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PACKAGES PRICING SECTION ===== -->
+      <div class="container" style="margin-top: 35px; margin-bottom: 15px;">
+        <div style="text-align: center; margin-bottom: 30px;">
+          <span class="kdm-pkg-badge"><i class="fa fa-tags"></i> TRANSPARENT PRICING</span>
+          <h2 class="kdm-pkg-title">Affordable &amp; Result-Oriented <strong>PPC Packages in India</strong></h2>
+          <p class="kdm-pkg-subtitle" style="max-width: 850px; margin: 0 auto;">Drive instant high-intent traffic, leads, and maximum ROAS with our certified Google Ads management plans.</p>
+        </div>
+      </div>
+
 			<section class="packages-section" style="color: #0f172a; margin-top: 0; padding-top: 0;">
 				<div class="packages-container">
 
-					<!-- Basic SMO Plan -->
-					<div class="new">
-						<div class="package-box">
-							<div class="package-header">Basic PPC Package <br><i class="fa fa-inr"></i>19,999/Month
+<div class="new">
+    <div class="package-box">
+        <div class="package-header">Basic PPC Package <br><i class="fa fa-inr"></i>19,999/Month
 							</div>
-							<div class="package-subheader">Ad Budget Max. <i class="fa fa-inr"></i>200,000</div>
-							<div class="package-content">
-								<h4><i class="fas fa-user-cog"></i>Account & Technical Setup</h4>
+        <div class="package-subheader">Ad Budget Max. <i class="fa fa-inr"></i>200,000</div>
+        <div class="package-content">
+            <h4><i class="fas fa-user-cog"></i>Account & Technical Setup</h4>
 								<ul>
 									<li><i class="fas fa-check"></i>Google Ads Account Setup</li>
 									<li><i class="fas fa-times"></i>GA4 Event Setup</li>
@@ -376,30 +381,21 @@
 									<li><i class="fas fa-check"></i>Growth Roadmap</li>
 									</li>
 								</ul>
-							</div>
-						</div>
-						<div>
-							<a href="#" class="package-btn" onclick="openHeroPopup(event)">Choose Plan</a>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Basic PPC Package 19,999/Month')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-							<!-- Popup (keep it just below the button or at the end of your HTML body) -->
-							<div id="hero-popupModal" class="hero-popup"
-								style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-								<div class="hero-popup-box">
-									<span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
-									<iframe src="contact.aspx" class="hero-popup-frame"></iframe>
-								</div>
+<div class="new">
+    <div class="package-box">
+        <div class="package-header">Standard PPC Package <br><i class="fa fa-inr"></i>39,999/Month
 							</div>
-						</div>
-					</div>
-
-					<div class="new">
-						<div class="package-box">
-							<div class="package-header">Standard PPC Package <br><i class="fa fa-inr"></i>39,999/Month
+        <div class="package-subheader">Ad Budget Max. <i class="fa fa-inr"></i>500,000
 							</div>
-							<div class="package-subheader">Ad Budget Max. <i class="fa fa-inr"></i>500,000
-							</div>
-							<div class="package-content">
-								<h4><i class="fas fa-user-cog"></i>Account & Technical Setup</h4>
+        <div class="package-content">
+            <h4><i class="fas fa-user-cog"></i>Account & Technical Setup</h4>
 								<ul>
 									<li><i class="fas fa-check"></i>Google Ads Account Setup</li>
 									<li><i class="fas fa-check"></i>GA4 Event Setup</li>
@@ -588,31 +584,21 @@
 									<li><i class="fas fa-check"></i>Growth Roadmap</li>
 									</li>
 								</ul>
-							</div>
-						</div>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Standard PPC Package 39,999/Month')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-						<div>
-							<a href="#" class="package-btn" onclick="openHeroPopup(event)">Choose Plan</a>
-
-							<!-- Popup (keep it just below the button or at the end of your HTML body) -->
-							<div id="hero-popupModal" class="hero-popup"
-								style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-								<div class="hero-popup-box">
-									<span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
-									<iframe src="contact.aspx" class="hero-popup-frame"></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="new">
-						<div class="package-box">
-							<div class="package-header">Professional PPC Package <br><i
+<div class="new">
+    <div class="package-box">
+        <div class="package-header">Professional PPC Package <br><i
 									class="fa fa-inr"></i>59,999/Month</div>
-							<div class="package-subheader">Ad Budget Max. <i class="fa fa-inr"></i>700,000
+        <div class="package-subheader">Ad Budget Max. <i class="fa fa-inr"></i>700,000
 							</div>
-							<div class="package-content">
-								<h4><i class="fas fa-user-cog"></i>Account & Technical Setup</h4>
+        <div class="package-content">
+            <h4><i class="fas fa-user-cog"></i>Account & Technical Setup</h4>
 								<ul>
 									<li><i class="fas fa-check"></i>Google Ads Account Setup</li>
 									<li><i class="fas fa-check"></i>GA4 Event Setup</li>
@@ -801,31 +787,20 @@
 									<li><i class="fas fa-check"></i>Growth Roadmap</li>
 									</li>
 								</ul>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Professional PPC Package 59,999/Month')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="new">
+    <div class="package-box">
+        <div class="package-header">Enterprise PPC Package <br><i class="fa fa-inr"></i>99,999/Month
 							</div>
-						</div>
-
-						<div>
-							<a href="#" class="package-btn" onclick="openHeroPopup(event)">Choose Plan</a>
-
-							<!-- Popup (keep it just below the button or at the end of your HTML body) -->
-							<div id="hero-popupModal" class="hero-popup"
-								style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-								<div class="hero-popup-box">
-									<span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
-									<iframe src="contact.aspx" class="hero-popup-frame"></iframe>
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-					<div class="new">
-						<div class="package-box">
-							<div class="package-header">Enterprise PPC Package <br><i class="fa fa-inr"></i>99,999/Month
-							</div>
-							<div class="package-subheader">Ad Budget Max. <i class="fa fa-inr"></i>900,000</div>
-							<div class="package-content">
-								<h4><i class="fas fa-user-cog"></i>Account & Technical Setup</h4>
+        <div class="package-subheader">Ad Budget Max. <i class="fa fa-inr"></i>900,000</div>
+        <div class="package-content">
+            <h4><i class="fas fa-user-cog"></i>Account & Technical Setup</h4>
 								<ul>
 									<li><i class="fas fa-check"></i>Google Ads Account Setup</li>
 									<li><i class="fas fa-check"></i>GA4 Event Setup</li>
@@ -1014,651 +989,963 @@
 									<li><i class="fas fa-check"></i>Growth Roadmap</li>
 									</li>
 								</ul>
-							</div>
-						</div>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Enterprise PPC Package 99,999/Month')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-						<div>
-							<a href="#" class="package-btn" onclick="openHeroPopup(event)">Choose Plan</a>
+</div></section>
 
-							<!-- Popup (keep it just below the button or at the end of your HTML body) -->
-							<div id="hero-popupModal" class="hero-popup"
-								style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-								<div class="hero-popup-box">
-									<span class="hero-popup-close" onclick="closeHeroPopup()">&times;</span>
-									<iframe src="contact.aspx" class="hero-popup-frame"></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+      <!-- ===== WHAT RESULTS DO WE MEASURE IN OUR PPC PACKAGES? (DARK THEME) ===== -->
+      <section class="kdm-seo-metrics-section">
+        <div class="container">
+          <div class="kdm-metrics-header">
+            <span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 12px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 16px;">
+              <i class="fa fa-line-chart"></i> TRANSPARENT PPC METRICS &amp; ROI
+            </span>
+            <h2 class="kdm-metrics-title">
+              What Results Do We <span>Measure in Our PPC Packages?</span>
+            </h2>
+            <p class="kdm-metrics-subtitle">
+              Pay-per-click advertising is 100% data-driven. We track and report essential campaign metrics every single week so you see exact return on ad spend (ROAS) and cost per conversion.
+            </p>
+          </div>
 
-			<!-- Results Section -->
+          <div class="kdm-metrics-grid">
+            
+            <!-- Metric 1 -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap">
+                <i class="fa fa-mouse-pointer"></i>
+              </div>
+              <h3 class="kdm-metrics-card-title">Click-Through Rate (CTR)</h3>
+              <p class="kdm-metrics-card-desc">
+                Optimizing ad relevance, headlines, and site-link extensions to maximize high-intent clicks and boost Google Ads CTR above industry benchmarks.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> High CTR Ad Copies</span>
+            </div>
 
-			<!-- Industry Section -->
-			<!-- Swiper CSS -->
-			<!-- Swiper CSS -->
-			<section class="industry-slider-section">
-				<div style="text-align: center; margin-bottom: 30px;">
-					<span class="kdm-pkg-badge"><i class="fa fa-briefcase"></i> INDUSTRY EXPERTISE</span>
-					<h2 class="industry-heading">Most Popular Industries <strong>We Work With</strong></h2>
-					<p class="kdm-pkg-subtitle">Tailored PPC ad strategies for high-converting business verticals and
-						specialized sectors.</p>
-				</div>
+            <!-- Metric 2 -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap">
+                <i class="fa fa-inr"></i>
+              </div>
+              <h3 class="kdm-metrics-card-title">Cost Per Click (CPC) &amp; Budget</h3>
+              <p class="kdm-metrics-card-desc">
+                Minimizing average CPC through smart bid strategies, negative keyword filtering, and search query scrubbing to maximize clicks per Rupee.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Reduced CPC &amp; Wasted Spend</span>
+            </div>
 
-				<div class="industry-slider">
-					<div class="industry-track">
+            <!-- Metric 3 -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap">
+                <i class="fa fa-star"></i>
+              </div>
+              <h3 class="kdm-metrics-card-title">Quality Score Optimization</h3>
+              <p class="kdm-metrics-card-desc">
+                Improving expected CTR, ad relevance, and landing page user experience to achieve 8/10 to 10/10 Quality Scores for top ad placements.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Top Google Quality Scores</span>
+            </div>
 
-						<div class="industry-card industry-bg1">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h4>Astrology</h3>
-										<p>Successfully handled 60+ astrology projects for lead generation, app
-											installs, and sales growth.</p>
-								</div>
-							</div>
-						</div>
-						<div class="industry-card industry-bg10">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h3>Hair Transplant</h3>
-									<p>Successfully managed 50+ hair transplant lead generation, SEO, Social Media with
-										consistent results.</p>
-								</div>
-							</div>
-						</div>
-						<div class="industry-card industry-bg11">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h3>Study Abroad Consultant</h3>
-									<p>Trusted by 30+ study abroad consultants for high-quality student lead generation,
-										SEO & Social Media.</p>
-								</div>
-							</div>
-						</div>
-						<div class="industry-card industry-bg4">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h3>Cosmetic Surgeon</h3>
-									<p>Helped 25+ cosmetic surgeons grow their practice with high-quality leads, strong
-										SEO, YouTube & social media</p>
-								</div>
-							</div>
-						</div>
-						<div class="industry-card industry-bg5">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h3>CA firms</h3>
-									<p>20+ CA firms served with expert digital marketing, SEO lead generation and social
-										media growth.</p>
-								</div>
-							</div>
-						</div>
-						<div class="industry-card industry-bg6">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h3>immigration consulting</h3>
-									<p>Strong experience of delivering SEO leads and digital marketing growth for 25+
-										immigration consulting firms.</p>
-								</div>
-							</div>
-						</div>
-						<div class="industry-card industry-bg7">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h3>Ecommerce</h3>
-									<p>Successfully completed 20+ ecommerce projects with proven sales, organic traffic
-										and social media growth.</p>
-								</div>
-							</div>
-						</div>
-						<div class="industry-card industry-bg8">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h3>Healthcare</h3>
-									<p>We have helped 25+ healthcare brands including doctors and Ayurvedic medicines in
-										SEO & lead generation.</p>
-								</div>
-							</div>
-						</div>
-						<div class="industry-card industry-bg15">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h3>yoga studios</h3>
-									<p>15+ yoga studios served with website SEO strategies focused on quality lead
-										generation.</p>
-								</div>
-							</div>
-						</div>
-						<div class="industry-card industry-bg14">
-							<div class="industry-overlay">
-								<div class="text-box">
-									<h3>Institutes</h3>
-									<p>Successfully handled 10+ institutes for course promotions using SEO, social media
-										and performance marketing.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+            <!-- Metric 4 -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap">
+                <i class="fa fa-bullseye"></i>
+              </div>
+              <h3 class="kdm-metrics-card-title">Conversion Rate &amp; CPA</h3>
+              <p class="kdm-metrics-card-desc">
+                Tracking incoming phone calls, lead form fills, WhatsApp button clicks, and reducing overall Cost Per Acquisition (CPA).
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Lower Lead Acquisition Cost</span>
+            </div>
 
-				<a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn"
-					style="background: linear-gradient(135deg, #0f172a 0%, #0284c7 100%);color:#fff;padding:12px 25px; border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:25px;">See
-					More Industries & Our Records</a>
-			</section>
-			<hr class="tall" />
+            <!-- Metric 5 -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap">
+                <i class="fa fa-trophy"></i>
+              </div>
+              <h3 class="kdm-metrics-card-title">Return on Ad Spend (ROAS)</h3>
+              <p class="kdm-metrics-card-desc">
+                Measuring real e-commerce revenue and high-value lead conversions generated per Rupee invested in Google Ads &amp; Paid PPC channels.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> High ROAS &amp; Revenue</span>
+            </div>
 
-			<div class="mainprocess">
-				<div style="text-align: center; margin-bottom: 30px;">
-					<span class="kdm-pkg-badge"
-						style="background: rgba(255,255,255,0.15); color: #38bdf8; border-color: rgba(56, 189, 248, 0.4);"><i
-							class="fa fa-cogs"></i> OUR METHODOLOGY</span>
-					<h2 class="kdm-pkg-title" style="color: #ffffff !important;">9-Step Campaign Process for <strong
-							style="color: #38bdf8 !important;">Maximum PPC ROI</strong></h2>
-					<p class="kdm-pkg-subtitle" style="color: #cbd5e1 !important;">Our structured campaign lifecycle
-						engineered to lower cost-per-lead and maximize conversions.</p>
-				</div>
-				<div class="roadmap-flow">
-					<div class="roadmap-box" data-step="1">
-						<h3>In Depth Business & Market Research</h3>
-						<p>We analyze your business goals, competitors and audiences to design a customized PPC
-							roadmap.</p>
-					</div>
-					<div class="roadmap-box" data-step="2">
-						<h3>Keyword Research and Targeting</h3>
-						<p>Extensive keyword analysis to identify high performance for maximum visibility,
-							intent-driven search terms.</p>
-					</div>
-					<div class="roadmap-box" data-step="3">
-						<h3>Campaign Structure & Plan</h3>
-						<p>Design strategic ads groups and campaigns to improve quality score and optimize
-							performance.</p>
-					</div>
-					<div class="roadmap-box" data-step="4">
-						<h3>Ad Copy Writing and Creative Design</h3>
-						<p>Engaging Ad copies and creatives that attract attention, create faith and conversion.
-						</p>
-					</div>
-					<div class="roadmap-box" data-step="5">
-						<h3>Campaign Structure and Planning </h3>
-						<p>Apply campaigns on Google ads, bing ads and social media platforms for multi-channel
-							exposure.</p>
-					</div>
-					<div class="roadmap-box" data-step="6">
-						<h3>Bid Management and Optimization </h3>
-						<p>Smart dialect strategy to reduce cost per click and maximize ROI.</p>
-					</div>
-					<div class="roadmap-box" data-step="7">
-						<h3>Landing Page Optimization </h3>
-						<p>Create and customize the aligned highly-converted landing pages with your ads
-							campaigns.</p>
-					</div>
-					<div class="roadmap-box" data-step="8">
-						<h3>Performance Tracking and Reporting</h3>
-						<p>Click, conversion and real-time tracking of ROI with transparent monthly reports.</p>
-					</div>
-					<div class="roadmap-box" data-step="9">
-						<h3>Continuous Testing and Scaling</h3>
-						<p>A/B testing and ongoing adaptation to improve performance and scale results.</p>
-					</div>
-				</div>
-			</div>
+            <!-- Metric 6 -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap">
+                <i class="fa fa-code"></i>
+              </div>
+              <h3 class="kdm-metrics-card-title">GA4 &amp; Conversion Tracking</h3>
+              <p class="kdm-metrics-card-desc">
+                100% accurate GTM conversion tag installation, enhanced conversion tracking, and Google Analytics 4 event attribution mapping.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Accurate Conversion Tagging</span>
+            </div>
 
-			<hr class="tall" />
+          </div>
+        </div>
+      </section>
 
-			<section class="locationdetails-why-section">
-				<div class="locationdetails-why-container">
-					<div style="text-align: center; margin-bottom: 35px;">
-						<span class="kdm-pkg-badge"
-							style="background: rgba(255,255,255,0.15); color: #38bdf8; border-color: rgba(56, 189, 248, 0.4);"><i
-								class="fa fa-star"></i> AGENCY ADVANTAGE</span>
-						<h2 class="kdm-pkg-title" style="color: #ffffff !important;">Why Choose King of Digital
-							Marketing for <strong>PPC Packages?</strong></h2>
-						<p class="kdm-pkg-subtitle" style="color: #cbd5e1 !important;">More than 13 years of experience
-							delivering 30%+ higher lead conversions.</p>
-					</div>
-					<p>With more than 13+ Years of expertise, 850+ successful digital marketing projects
-						completion and customers in 12+ countries, we are a reliable name in <a
-							href="https://www.kingofdigitalmarketing.com/blog/best-ppc-services-in-delhi.html">PPC
-							Services</a>. Our <a href="https://gauravdubey.in/ppc-consultant/">certified PPC
-							experts</a> create ROI driven strategies in Google ads and other platforms. From
-						keyword research to advertising adaptation, we ensure targeted traffic, higher
-						conversion and maximum return on advertising expenses globally. </p>
+      <!-- ===== HOW FAST DO PPC & GOOGLE ADS SHOW RESULTS? REALISTIC TIMELINE SECTION (WHITE THEME) ===== -->
+      <section class="kdm-seo-timeline-section" style="background: #ffffff !important; width: 100% !important; padding: 75px 0 !important; color: #0f172a !important; position: relative; z-index: 5;">
+        <div class="container">
+          <div class="kdm-timeline-header">
+            <span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+              <i class="fa fa-clock-o"></i> REALISTIC PPC TIMELINE &amp; EXPECTATIONS
+            </span>
+            <h2 class="kdm-timeline-title">
+              How Fast Do <span>PPC &amp; Google Ads Show Results?</span>
+            </h2>
+            <p class="kdm-timeline-subtitle">
+              PPC delivers instant top-of-page visibility within 24 to 48 hours. Here is how our campaign optimization process scales your leads and ROAS week after week.
+            </p>
+          </div>
 
-					<div class="locationdetails-why-cards">
-						<div class="why-card" style="--accent: #FF6F00">
-							<div class="icon-box icon-1">
-								<!-- Award / Medal Icon -->
-								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-									stroke="white" width="40" height="40">
-									<circle cx="12" cy="8" r="5" />
-									<path d="M12 13v9m-4-5l4-4 4 4" stroke-linecap="round" stroke-linejoin="round" />
-								</svg>
-							</div>
-							<h3>13+ Years of PPC Experience</h3>
-							<p>With 13+ Years in PPC ads, we create a ROI driven campaign in Google ads or other
-								search engine, which ensure average growth in lead and conversions.</p>
-						</div>
+          <div class="kdm-timeline-grid">
+            
+            <!-- Phase 1: Month 1 -->
+            <div class="kdm-timeline-card month-1">
+              <span class="kdm-timeline-badge">MONTH 1</span>
+              <div class="kdm-timeline-icon">
+                <i class="fa fa-rocket"></i>
+              </div>
+              <h3 class="kdm-timeline-card-title">Audit, Keywords &amp; Immediate Launch</h3>
+              <p class="kdm-timeline-card-desc">
+                Conversion setup, high-intent keyword mining, responsive search ad creation, and initial Google Ads campaign launch.
+              </p>
+              <ul class="kdm-timeline-list">
+                <li><i class="fa fa-check-circle"></i> Instant Top 1 Google Search visibility</li>
+                <li><i class="fa fa-check-circle"></i> GTM &amp; GA4 conversion tag installation</li>
+                <li><i class="fa fa-check-circle"></i> First batch of inbound calls &amp; form leads</li>
+                <li><i class="fa fa-check-circle"></i> Negative keyword list implementation</li>
+              </ul>
+            </div>
 
-						<div class="why-card" style="--accent: #008DC2">
-							<div class="icon-box icon-2">
+            <!-- Phase 2: Month 2-3 -->
+            <div class="kdm-timeline-card month-2">
+              <span class="kdm-timeline-badge">MONTH 2–3</span>
+              <div class="kdm-timeline-icon">
+                <i class="fa fa-sliders"></i>
+              </div>
+              <h3 class="kdm-timeline-card-title">Data Optimization &amp; Quality Score</h3>
+              <p class="kdm-timeline-card-desc">
+                Analyzing search term reports, removing non-converting keywords, A/B testing ad copies, and boosting Quality Scores.
+              </p>
+              <ul class="kdm-timeline-list">
+                <li><i class="fa fa-check-circle"></i> Reduction in average Cost Per Click (CPC)</li>
+                <li><i class="fa fa-check-circle"></i> Quality Score improvement to 8/10+</li>
+                <li><i class="fa fa-check-circle"></i> Negative keyword scrubbing</li>
+                <li><i class="fa fa-check-circle"></i> Device &amp; geo bid adjustments</li>
+              </ul>
+            </div>
 
-								<!-- Projects Delivered Icon -->
-								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-									stroke="white" width="40" height="40">
-									<path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
-									<path stroke-linecap="round" stroke-linejoin="round"
-										d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
-								</svg>
-							</div>
-							<h3>900+ Successful Projects Done</h3>
-							<p>We have worked on 850+ Digital Marketing projects which includes PPC campaigns
-								that promote traffic, maximize clicks, and increase brand visibility with budget
-								optimized ad strategies in many platforms worldwide.</p>
-						</div>
+            <!-- Phase 3: Month 4-6 -->
+            <div class="kdm-timeline-card month-3">
+              <span class="kdm-timeline-badge">MONTH 4–6</span>
+              <div class="kdm-timeline-icon">
+                <i class="fa fa-line-chart"></i>
+              </div>
+              <h3 class="kdm-timeline-card-title">ROAS Scaling &amp; Display Retargeting</h3>
+              <p class="kdm-timeline-card-desc">
+                Scaling Performance Max (PMax) campaigns, launch display remarketing, and reducing Cost Per Acquisition (CPA).
+              </p>
+              <ul class="kdm-timeline-list">
+                <li><i class="fa fa-check-circle"></i> Display &amp; YouTube retargeting ads</li>
+                <li><i class="fa fa-check-circle"></i> Lower lead acquisition costs (CPA)</li>
+                <li><i class="fa fa-check-circle"></i> Performance Max asset optimization</li>
+                <li><i class="fa fa-check-circle"></i> High-converting audience signals</li>
+              </ul>
+            </div>
 
-						<div class="why-card" style="--accent: #0B456A">
-							<div class="review-image">
-								<div class="icon-box  icon-3">
-									<!-- Globe Icon -->
-									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-										stroke-width="2" stroke="white" width="40" height="40">
-										<circle cx="12" cy="12" r="10" stroke="white" />
-										<path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20" stroke="white"
-											stroke-linecap="round" />
-									</svg>
-								</div>
-							</div>
-							<h3>Customers in 15+ Countries</h3>
-							<p>Apart from India, we are serving businesses in the USA, UK, UAE, Canada and
-								Australia, our PPC expertise considers strategies for diverse markets to achieve
-								high performance international advertising results.</p>
-						</div>
-						<div class="why-card" style="--accent: #6A829A">
-							<div class="icon-box icon-4">
-								<!-- Report / Document Icon -->
-								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-									stroke="white" width="40" height="40">
-									<path d="M9 2h6l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
-									<path d="M9 12h6M9 16h4M9 8h1" stroke-linecap="round" />
-								</svg>
-							</div>
-							<h3>100% Transparent PPC Reporting</h3>
-							<p>Our clients get real time daily insight into ads expenses, clicks, conversions
-								and ROIs, total transparency, zero hidden costs and complete accountability for
-								every campaign.</p>
-						</div>
+            <!-- Phase 4: Month 6-12+ -->
+            <div class="kdm-timeline-card month-4">
+              <span class="kdm-timeline-badge">MONTH 6–12+</span>
+              <div class="kdm-timeline-icon">
+                <i class="fa fa-trophy"></i>
+              </div>
+              <h3 class="kdm-timeline-card-title">High-Volume Lead Scaling &amp; Max ROI</h3>
+              <p class="kdm-timeline-card-desc">
+                Dominating top industry keywords, automated smart bidding strategies, landing page CRO, and maximum sales volume.
+              </p>
+              <ul class="kdm-timeline-list">
+                <li><i class="fa fa-check-circle"></i> Dominant impression share in search</li>
+                <li><i class="fa fa-check-circle"></i> Automated Target CPA / Target ROAS bidding</li>
+                <li><i class="fa fa-check-circle"></i> Omni-channel PPC campaign dominance</li>
+                <li><i class="fa fa-check-circle"></i> Maximum lead volume &amp; consistent ROAS</li>
+              </ul>
+            </div>
 
-						<div class="why-card" style="--accent: #009688">
-							<div class="icon-box icon-5">
-								<!-- Team Icon -->
-								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-									stroke="white" width="40" height="40">
-									<circle cx="9" cy="7" r="3" />
-									<circle cx="17" cy="7" r="3" />
-									<path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2" />
-									<path d="M14 21v-2a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v2" />
-								</svg>
-							</div>
-							<h3>Expert In House PPC team</h3>
-							<p>Our in house certified PPC experts designed campaigns, monitors and optimizes,
-								quick performance, guarantee of personal strategies, and outsourcing or better
-								results without relying on third parties.</p>
-						</div>
+          </div>
 
-						<div class="why-card" style="--accent: #cfba1f">
-							<div class="icon-box icon 6">
-								<!-- Star / Satisfaction Icon -->
-								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-									stroke="white" width="40" height="40">
-									<path
-										d="M12 2l2.9 6.26 6.9.5-5.2 4.73 1.6 6.76L12 17.77 5.8 20.25l1.6-6.76-5.2-4.73 6.9-.5L12 2z" />
-								</svg>
-							</div>
-							<h3>Custom PPC Packages for Businesses</h3>
-							<p>We customize PPC ads packages based on your business size, industry, audience and
-								goal, which help startups and enterprises to maximize ROI with precise targeting
-								and impressive campaigns.</p>
-						</div>
-					</div>
-				</div>
-			</section>
+          <!-- Timeline Disclaimer Box -->
+          <div class="kdm-timeline-disclaimer">
+            <div class="kdm-timeline-disclaimer-icon">
+              <i class="fa fa-info-circle"></i>
+            </div>
+            <p class="kdm-timeline-disclaimer-text">
+              <strong>Important Note on PPC Performance:</strong> Unlike organic SEO which takes months, PPC generates immediate leads within 24 hours. Campaign profitability increases significantly over Months 2 to 4 as negative keywords and bidding algorithms optimize for maximum conversions.
+            </p>
+          </div>
 
-			<hr class="tall" />
-			<div style="text-align: center; margin-bottom: 30px;">
-				<span class="kdm-pkg-badge"><i class="fa fa-quote-left"></i> CLIENT REVIEWS</span>
-				<h2 class="kdm-pkg-title">What Our Clients Say About Our <strong>PPC Packages</strong></h2>
-				<p class="kdm-pkg-subtitle">Real feedback from business owners and founders across India and abroad.</p>
-			</div>
-			<div class="ts-wrapper">
-				<div class="ts-slider-container">
-					<div class="ts-testimonial ts-active">
-						<img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-						<p>"I hired King of Digital Marketing for SEO services a few months ago, and I am really
-							happy with the results. My website is now ranking on the first page of Google.
-							Gaurav Dubey and his team were always available to guide me and answer my doubts"
-						</p>
-						<div class="ts-stars"><i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-						</div>
-						<div class="ts-author">- Aji Jeeva (Founder - www.smgains.com - UK)</div>
-					</div>
+        </div>
+      </section>
 
-					<div class="ts-testimonial">
-						<img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-						<p>"King of Digital Marketing helped increase my website traffic with their SEO
-							strategies. They kept everything clear and gave regular updates. Thanks to Gaurav
-							Dubey and his hardworking team, my business is getting more leads from Google now. "
-						</p>
-						<div class="ts-stars"><i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-						</div>
-						<div class="ts-author">- Roopak (Founder - www.gotouniversity.com - Dubai)</div>
-					</div>
+      <!-- ===== 9 STEPS PPC PACKAGE PROCESS SECTION ===== -->
+      <div class="mainprocess">
+        <div style="text-align: center; max-width: 900px; margin: 0 auto 50px auto;">
+          <div class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 12px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 16px;">
+            <i class="fa fa-cogs"></i> PROVEN WORKFLOW &amp; METHODOLOGY
+          </div>
+          <h2 class="process-title">9 Steps PPC Package System <span>That Delivers Real ROI</span></h2>
+          <p class="process-subtitle" style="font-size: 16px; color: #94a3b8; line-height: 1.7; margin: 0 auto;">
+            Our systematic 9-step PPC campaign framework ensures every keyword bid, ad copy headline, landing page experience, and remarketing signal is optimized to minimize wasted ad spend and maximize conversions.
+          </p>
+        </div>
 
-					<div class="ts-testimonial">
-						<img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-						<p>"I didn't know much about SEO before, but the team at King of Digital Marketing
-							explained things in a simple way. They helped improve my website ranking and gave
-							monthly reports. Gaurav Dubey made sure the work was always on track."</p>
-						<div class="ts-stars"><i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-						</div>
-						<div class="ts-author">- Younus (Founder - moroccotourismagency.com - Morocco)</div>
-					</div>
+        <div class="roadmap-flow">
+          
+          <!-- Step 1 -->
+          <div class="roadmap-box" data-step="1">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 01</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+            <h3>Competitor &amp; PPC Audit</h3>
+            <p>Analyze competitor ad strategies, landing pages, search impression share, and campaign gaps.</p>
+          </div>
 
-					<div class="ts-testimonial">
-						<img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-						<p>"It's been a great experience working with King of Digital Marketing. They helped my
-							website show up on the first page of Google. Their SEO services are professional,
-							affordable, and result-driven. I'm glad I chose them for my business."</p>
-						<div class="ts-stars"><i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-						</div>
-						<div class="ts-author">- Kejsi (Founder - herahairsolutions.com - Turkey)</div>
-					</div>
+          <!-- Step 2 -->
+          <div class="roadmap-box" data-step="2">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 02</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-key"></i>
+              </div>
+            </div>
+            <h3>High-Intent Keyword Selection</h3>
+            <p>Mine commercial &amp; transactional intent search terms with estimated CPC forecasts.</p>
+          </div>
 
-					<div class="ts-testimonial">
-						<img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-						<p>"Gaurav Dubey and his SEO team at King of Digital Marketing worked hard on my
-							website. Within a few months, I started seeing a good rise in traffic and rankings.
-							They really know what they are doing and deliver what they promise."</p>
-						<div class="ts-stars"><i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-						</div>
-						<div class="ts-author">- David (Founder - audiocityusa.com - USA)</div>
-					</div>
+          <!-- Step 3 -->
+          <div class="roadmap-box" data-step="3">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 03</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-desktop"></i>
+              </div>
+            </div>
+            <h3>Landing Page &amp; Conversion Setup</h3>
+            <p>Audit landing page conversion elements, form fields, call buttons, and load speed.</p>
+          </div>
 
-					<div class="ts-testimonial">
-						<img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-						<p>"After hiring King of Digital Marketing, I noticed real improvement in my search
-							engine rankings. Their SEO team is experienced and friendly. Gaurav Dubey personally
-							ensured the project was handled with care and kept me updated regularly."</p>
-						<div class="ts-stars"><i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-							<i class="fa fa-star clrright"></i>
-						</div>
-						<div class="ts-author">- Dr. Sanjay (Founder - cocoona.in - Dubai)</div>
-					</div>
+          <!-- Step 4 -->
+          <div class="roadmap-box" data-step="4">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 04</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-pencil-square-o"></i>
+              </div>
+            </div>
+            <h3>Ad Copywriting &amp; Extensions</h3>
+            <p>Write high-CTR responsive search ad headlines, descriptions, and sitelink extensions.</p>
+          </div>
 
-					<div class="ts-arrows">
-						<button class="ts-arrow" onclick="tsChangeSlide(-1)">&#10094;</button>
-						<button class="ts-arrow" onclick="tsChangeSlide(1)">&#10095;</button>
-					</div>
-				</div>
-			</div>
-		</div>
+          <!-- Step 5 -->
+          <div class="roadmap-box" data-step="5">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 05</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-sliders"></i>
+              </div>
+            </div>
+            <h3>Campaign Structure &amp; Bidding</h3>
+            <p>Structure tight ad groups, match types, and choose initial smart bid strategies.</p>
+          </div>
 
-		<hr class="tall" />
+          <!-- Step 6 -->
+          <div class="roadmap-box" data-step="6">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 06</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-code"></i>
+              </div>
+            </div>
+            <h3>GA4 &amp; Conversion Tagging</h3>
+            <p>Install Google Tag Manager, form submit tags, call tracking, and GA4 event goals.</p>
+          </div>
 
-		<section class="kdm-faq-section" style="margin-bottom: 0; padding-bottom: 20px;">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div style="margin-bottom: 25px;">
-							<span class="kdm-pkg-badge"><i class="fa fa-question-circle"></i> GOT QUESTIONS?</span>
-							<h2 class="kdm-faq-title" style="margin-top: 8px;">Frequently Asked <strong>Questions
-									(FAQs)</strong></h2>
-							<p class="kdm-faq-subtitle">Clear answers to common queries about our Google Ads &amp; PPC
-								packages in India.</p>
-						</div>
-						<div class="kdm-faq-accordion">
-							<div class="kdm-faq-item active">
-								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.1. Why do I need PPC Package?</span>
-									<span class="kdm-faq-icon">+</span>
-								</button>
-								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> PPC Package helps
-										you to run your campaign by a PPC expert of any organization. PPC Expert gives
-										you expected planning for cost, clicks and expected conversion and ROI of your
-										campaign.</p>
-								</div>
-							</div>
-							<div class="kdm-faq-item">
-								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.2. How much do i need to pay for PPC?</span>
-									<span class="kdm-faq-icon">+</span>
-								</button>
-								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> It totally depends
-										on your business objectives. The more you spend the more you get leads/sales.
-										You need to pay a fixed % of amount to a PPC agency as well as daily budget of
-										campaign.</p>
-								</div>
-							</div>
-							<div class="kdm-faq-item">
-								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.3. What is Daily Budget?</span>
-									<span class="kdm-faq-icon">+</span>
-								</button>
-								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Daily budget is an
-										amount you invest for each ad campaign in a single day. You can invest according
-										to your goals. Starting from INR 100 to unlimited amount, you can invest for
-										daily budget.</p>
-								</div>
-							</div>
-							<div class="kdm-faq-item">
-								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.4. How much do i pay for clicks?</span>
-									<span class="kdm-faq-icon">+</span>
-								</button>
-								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> This is called CPC
-										(Cost Per Click). This is the cost you pay for per clicks on your ad showing in
-										various platforms. It can be reduced optimizing your campagn quality score, if
-										your campaign is in PPC expert hand.</p>
-								</div>
-							</div>
-							<div class="kdm-faq-item">
-								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.5. How do you find the best keywords to use in an
-										ad?</span>
-									<span class="kdm-faq-icon">+</span>
-								</button>
-								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Try Google Keyword
-										Planner, Keyword Tool or check out the list of keyword tools.</p>
-								</div>
-							</div>
-							<div class="kdm-faq-item">
-								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.6. How much to pay for PPC Package to your
-										agency?</span>
-									<span class="kdm-faq-icon">+</span>
-								</button>
-								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> In Package table,
-										our pricing is given for three types of packages. You need to pay separately for
-										daily budget of campaign.</p>
-								</div>
-							</div>
-							<div class="kdm-faq-item">
-								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.7. How is PPC beneficial?</span>
-									<span class="kdm-faq-icon">+</span>
-								</button>
-								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> It's scalable,
-										measureable, flexible, faster than SEO, easier than SEO, taking over the SERPs,
-										engaging, converts and most important that your competitors are doing it.</p>
-								</div>
-							</div>
-							<div class="kdm-faq-item">
-								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.8. What are various types of Google Ads?</span>
-									<span class="kdm-faq-icon">+</span>
-								</button>
-								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Every time Google
-										Ads some more advert types in its dashboard. Currently these are the major types
-										of Google Ads.<br>
-										<li> Search Ads - Text ads on Google search results</li>
-										<li>Display Ads - Image ads on Google Partner websites or on Gmail.</li>
-										<li>Video - Video ads on YouTube.</li>
-										<li>Shopping - Product listings on Google.</li>
-										<li>App Installation or Engagement Ads - Your app promotion on many channels.
-										</li>
-										<li>Smart Campaign - Simplified automated ads on Google and across the web.</li>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- Step 7 -->
+          <div class="roadmap-box" data-step="7">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 07</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-filter"></i>
+              </div>
+            </div>
+            <h3>Negative Keyword Scrubbing</h3>
+            <p>Review search query logs weekly to add negative keywords and eliminate irrelevant clicks.</p>
+          </div>
 
-					<!-- 3 High-Converting Dark Theme SVG Offers next to FAQ -->
-					<div class="col-md-6">
-						<div style="margin-bottom: 25px;">
-							<span class="kdm-pkg-badge"><i class="fa fa-gift"></i> SPECIAL SAVINGS</span>
-							<h2 class="kdm-offer-section-title" style="margin-top: 8px;">Grand Offers <strong>for
-									Startups &amp; Businesses</strong></h2>
-							<p class="kdm-pkg-subtitle" style="text-align: left; margin-bottom: 20px;">Save big on our
-								performance-driven Google Ads management packages.</p>
-						</div>
+          <!-- Step 8 -->
+          <div class="roadmap-box" data-step="8">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 08</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-flask"></i>
+              </div>
+            </div>
+            <h3>A/B Testing &amp; Quality Score</h3>
+            <p>Test new ad variations, optimize expected CTR, and improve Quality Score to 8/10+.</p>
+          </div>
 
-						<div class="kdm-offer-dark-list">
-							<!-- Offer 1 -->
-							<div class="kdm-offer-dark-card"
-								onclick="openPackageModal('Startup PPC Booster Offer (10% OFF)')">
-								<div class="kdm-offer-dark-icon">
-									<svg width="56" height="56" viewBox="0 0 60 60" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<rect width="60" height="60" rx="14" fill="url(#num_grad_d1)" />
-										<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81"
-											transform="translate(18, 14)" stroke="white" stroke-width="2.5"
-											stroke-linecap="round" />
-										<path
-											d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z"
-											transform="translate(18, 14)" stroke="white" stroke-width="2.5"
-											stroke-linecap="round" />
-										<defs>
-											<linearGradient id="num_grad_d1" x1="0" y1="0" x2="60" y2="60"
-												gradientUnits="userSpaceOnUse">
-												<stop stop-color="#0284c7" />
-												<stop offset="1" stop-color="#0369a1" />
-											</linearGradient>
-										</defs>
-									</svg>
-								</div>
-								<div class="kdm-offer-dark-content">
-									<h4>Startup PPC Booster Offer</h4>
-									<p class="kdm-offer-dark-value">Get 10% OFF</p>
-									<h5 class="kdm-offer-dark-sub">On Quarterly PPC Package</h5>
-									<h5 class="kdm-offer-dark-desc">Sign up for any 3-month package & get instant 10%
-										OFF!</h5>
-								</div>
-							</div>
+          <!-- Step 9 -->
+          <div class="roadmap-box" data-step="9">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 09</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-line-chart"></i>
+              </div>
+            </div>
+            <h3>Weekly ROI Reporting &amp; Scaling</h3>
+            <p>Deliver transparent weekly lead reports, optimize CPA, and scale high-performing campaigns.</p>
+          </div>
 
-							<!-- Offer 2 -->
-							<div class="kdm-offer-dark-card"
-								onclick="openPackageModal('Growth PPC Plan Offer (15% OFF)')">
-								<div class="kdm-offer-dark-icon">
-									<svg width="56" height="56" viewBox="0 0 60 60" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<rect width="60" height="60" rx="14" fill="url(#num_grad_d2)" />
-										<line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)"
-											stroke="white" stroke-width="2.5" stroke-linecap="round" />
-										<line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)"
-											stroke="white" stroke-width="2.5" stroke-linecap="round" />
-										<line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white"
-											stroke-width="2.5" stroke-linecap="round" />
-										<polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B"
-											stroke-width="2.5" stroke-linecap="round" />
-										<defs>
-											<linearGradient id="num_grad_d2" x1="0" y1="0" x2="60" y2="60"
-												gradientUnits="userSpaceOnUse">
-												<stop stop-color="#0ea5e9" />
-												<stop offset="1" stop-color="#0284c7" />
-											</linearGradient>
-										</defs>
-									</svg>
-								</div>
-								<div class="kdm-offer-dark-content">
-									<h4>Growth PPC Plan Offer</h4>
-									<p class="kdm-offer-dark-value">Get 15% OFF</p>
-									<h5 class="kdm-offer-dark-sub">On 6-Months PPC Package</h5>
-									<h5 class="kdm-offer-dark-desc">Lock in long-term paid ad performance and save BIG!
-									</h5>
-								</div>
-							</div>
+        </div>
+      </div>
 
-							<!-- Offer 3 -->
-							<div class="kdm-offer-dark-card"
-								onclick="openPackageModal('Premium PPC Plan Offer (20% OFF)')">
-								<div class="kdm-offer-dark-icon">
-									<svg width="56" height="56" viewBox="0 0 60 60" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<rect width="60" height="60" rx="14" fill="url(#num_grad_d3)" />
-										<polygon
-											points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-											transform="translate(18, 14)" fill="#F59E0B" stroke="white"
-											stroke-width="1.5" />
-										<defs>
-											<linearGradient id="num_grad_d3" x1="0" y1="0" x2="60" y2="60"
-												gradientUnits="userSpaceOnUse">
-												<stop stop-color="#1e293b" />
-												<stop offset="1" stop-color="#0f172a" />
-											</linearGradient>
-										</defs>
-									</svg>
-								</div>
-								<div class="kdm-offer-dark-content">
-									<h4>Premium PPC Plan Offer</h4>
-									<p class="kdm-offer-dark-value">Get 20% OFF</p>
-									<h5 class="kdm-offer-dark-sub">On 12-Month PPC Package</h5>
-									<h5 class="kdm-offer-dark-desc">Dominate search results & conversions all year while
-										saving BIG!</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-		</section>
+      <!-- ===== ABOUT THE EXPERTS BEHIND YOUR CAMPAIGN SECTION (WHITE THEME) ===== -->
+      <section class="kdm-experts-section">
+        <div class="container">
+          <div class="kdm-experts-header">
+            <span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+              <i class="fa fa-user-circle-o"></i> LEADERSHIP &amp; EXPERT TEAM
+            </span>
+            <h2 class="kdm-experts-title">
+              About the Experts <span>Behind Your Campaign</span>
+            </h2>
+            <p class="kdm-experts-subtitle">
+              Your Google Ads campaigns are managed by Google Certified PPC specialists, performance copywriters, conversion rate experts, and data analysts focused on lowering your Cost Per Lead.
+            </p>
+          </div>
 
-		<!-- Bootstrap JS -->
-		<script src="js/international-page.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-		</div>
-		<!-- Main Closed -->
-		<!-- Form Container Start -->
+          <div class="kdm-experts-grid">
 
-		<script src="js/kdm-faq.js"></script>
-	</asp:Content>
+            <!-- Expert 1: Gaurav Dubey -->
+            <div class="kdm-expert-card">
+              <div class="kdm-expert-header-box">
+                <div class="kdm-expert-avatar-img">
+                  <img src="images/gaurav%20dubey%20digital%20marketing.webp" alt="Gaurav Dubey - Founder &amp; Senior SEO Expert" title="Gaurav Dubey - Founder &amp; Senior SEO Expert" class="kdm-expert-img">
+                </div>
+                <div class="kdm-expert-name-title">
+                  <h3 class="kdm-expert-name">Gaurav Dubey</h3>
+                  <span class="kdm-expert-role">Founder &amp; Senior Digital Marketing Strategist (13+ Yrs Exp)</span>
+                </div>
+              </div>
+              <p class="kdm-expert-bio">
+                With over 13+ years of digital marketing and paid media leadership, Gaurav Dubey has managed 900+ successful PPC &amp; performance ad campaigns across India, USA, UK, UAE &amp; global markets. Specialist in Google Ads, Search intent, lead conversion, and ROAS scaling.
+              </p>
+              <ul class="kdm-expert-list">
+                <li><i class="fa fa-check-circle"></i> 13+ Years Google Certified PPC Strategy Leadership</li>
+                <li><i class="fa fa-check-circle"></i> 900+ Search, PMax &amp; Performance Ad Projects</li>
+                <li><i class="fa fa-check-circle"></i> Data-Backed Conversion Tracking &amp; ROI Scaling</li>
+              </ul>
+            </div>
+
+            <!-- Expert 2: Delhi Branch Team -->
+            <div class="kdm-expert-card">
+              <div class="kdm-expert-header-box">
+                <div class="kdm-expert-avatar team">12+</div>
+                <div class="kdm-expert-name-title">
+                  <h3 class="kdm-expert-name">In-House Google Ads PPC Team</h3>
+                  <span class="kdm-expert-role">Delhi Branch Headquarters</span>
+                </div>
+              </div>
+              <p class="kdm-expert-bio">
+                Our in-house team of 12 certified Google Ads managers at our Delhi branch includes Search Campaign Specialists, PMax Managers, Graphic Designers for Display Banner Ads, Landing Page CRO Developers, and Analytics Tracking Experts working full-time on your account.
+              </p>
+              <ul class="kdm-expert-list">
+                <li><i class="fa fa-check-circle"></i> 12+ Google Certified PPC &amp; GA4 Specialists</li>
+                <li><i class="fa fa-check-circle"></i> Dedicated Google Ads Account Managers</li>
+                <li><i class="fa fa-check-circle"></i> Transparent Weekly Reporting &amp; Campaign Audits</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== REDESIGNED POPULAR INDUSTRIES WE WORK WITH (SVG ICONS) ===== -->
+      <section class="industry-slider-section">
+        <div class="container">
+          <h2 class="industry-heading">Most Popular Industries <strong>We Work With</strong></h2>
+
+          <div class="industry-slider">
+            <div class="industry-track">
+
+              <!-- Industry 1: Astrology -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub" style="background: rgba(56, 189, 248, 0.12); border-color: rgba(56, 189, 248, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Astrology</h3>
+                    <p>Successfully handled 60+ astrology projects for lead generation, app installs, and sales growth.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 2: Hair Transplant -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub" style="background: rgba(45, 212, 191, 0.12); border-color: rgba(45, 212, 191, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Hair Transplant</h3>
+                    <p>Successfully managed 50+ hair transplant lead generation, PPC, Google Ads with consistent results.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 3: Study Abroad Consultant -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub" style="background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                      <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Study Abroad</h3>
+                    <p>Trusted by 30+ study abroad consultants for high-quality student lead generation &amp; Google Ads.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 4: Cosmetic Surgeon -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub" style="background: rgba(244, 63, 94, 0.12); border-color: rgba(244, 63, 94, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.72-8.72 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Cosmetic Surgeon</h3>
+                    <p>Helped 25+ cosmetic surgeons grow their practice with high-quality patient leads &amp; Google Ads.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 5: CA Firms -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub" style="background: rgba(99, 102, 241, 0.12); border-color: rgba(99, 102, 241, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                      <line x1="8" y1="21" x2="16" y2="21" />
+                      <line x1="12" y1="17" x2="12" y2="21" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>CA Firms</h3>
+                    <p>20+ CA firms served with expert digital marketing, PPC lead generation, and Google Search Ads.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 6: Ecommerce -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub" style="background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="9" cy="21" r="1" />
+                      <circle cx="20" cy="21" r="1" />
+                      <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Ecommerce</h3>
+                    <p>Successfully completed 20+ ecommerce projects with Google Shopping, PMax, and proven ROAS growth.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div style="text-align: center; margin-top: 35px;">
+            <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn"
+              style="background: linear-gradient(135deg, #0284c7, #3b82f6); color: #fff; padding: 14px 32px; border-radius: 50px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 8px 25px rgba(2, 132, 199, 0.35);">See
+              More Industries &amp; Our Records <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== WHY CHOOSE KING OF DIGITAL MARKETING FOR PPC PACKAGES? (WHITE THEME) ===== -->
+      <section class="locationdetails-why-section">
+        <div class="locationdetails-why-container">
+          <div style="text-align: center; margin-bottom: 25px;">
+            <span class="kdm-seo-badge"
+              style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 14px;">
+              <i class="fa fa-trophy"></i> INDUSTRY LEADERS IN PPC &amp; GOOGLE ADS
+            </span>
+            <h2 class="locationdetails-why-heading"
+              style="color: #0f172a !important; -webkit-text-fill-color: #0f172a !important; font-size: 36px !important; font-weight: 800 !important; line-height: 1.3 !important; letter-spacing: -0.5px !important; margin-bottom: 16px !important;">
+              Why Choose <span style="color: #0284c7 !important; -webkit-text-fill-color: #0284c7 !important;">King of
+                Digital Marketing</span> for PPC Packages?
+            </h2>
+          </div>
+          <p>We have 13+ Years of experience in digital marketing and Google Ads services. We have successfully managed 900+ PPC projects across multiple industries in India, USA, UK, UAE, and global markets. Our PPC campaigns are led by Google certified strategists, conversion copywriters, and analytics experts. We follow an audit-first methodology to ensure every Rupee of your ad budget is directed towards high-intent searchers and maximum ROI. We follow our proven 9-step PPC process to ensure every campaign is continuously optimized for lower Cost Per Acquisition (CPA) and higher sales volume.</p>
+
+          <!-- 6 Why Choose Pointers Grid -->
+          <div class="locationdetails-why-cards">
+            
+            <!-- Pointer 1: Customized Packages -->
+            <div class="why-card" style="--accent: #FF6F00">
+              <div class="icon-box icon-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" width="40" height="40">
+                  <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+                </svg>
+              </div>
+              <h3>Customized PPC Packages</h3>
+              <p>We tailor our monthly Google Ads packages to match your specific industry, ad budget, and conversion targets for maximum ROI and lead volume.</p>
+            </div>
+
+            <!-- Pointer 2: 100% Certified Google Ads Team -->
+            <div class="why-card" style="--accent: #008DC2">
+              <div class="icon-box icon-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" width="40" height="40">
+                  <circle cx="11" cy="11" r="6" stroke-linecap="round" stroke-linejoin="round" />
+                  <line x1="16" y1="16" x2="21" y2="21" stroke-linecap="round" stroke-linejoin="round" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h4l2-3 4 6 4-5" />
+                </svg>
+              </div>
+              <h3>100% Google Certified Specialists</h3>
+              <p>Your campaigns are managed by certified Google Ads experts skilled in Search, PMax, Display, YouTube Ads, and smart bidding strategies.</p>
+            </div>
+
+            <!-- Pointer 3: Affordable Campaign Fee -->
+            <div class="why-card" style="--accent: #0B456A">
+              <div class="review-image">
+                <div class="icon-box icon-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" width="40" height="40">
+                    <path d="M12 1v22M17 5H9a3 3 0 0 0 0 6h6a3 3 0 0 1 0 6H7" />
+                  </svg>
+                </div>
+              </div>
+              <h3>Affordable Pricing</h3>
+              <p>Our monthly PPC management plans start as low as INR 19,999/Month, offering budget-friendly pricing perfect for startups and SMEs.</p>
+            </div>
+
+            <!-- Pointer 4: Complete Conversion Optimization (CRO) -->
+            <div class="why-card" style="--accent: #6A829A">
+              <div class="icon-box icon-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" width="40" height="40">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+              </div>
+              <h3>Complete CRO &amp; Landing Page Setup</h3>
+              <p>We optimize landing page copy, form fields, call-to-action buttons, and GTM conversion tagging to turn ad clicks into actual paying leads.</p>
+            </div>
+
+            <!-- Pointer 5: 100% Transparent Report -->
+            <div class="why-card" style="--accent: #009688">
+              <div class="icon-box icon-5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" width="40" height="40">
+                  <path d="M9 2h6l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
+                  <path d="M9 12h6M9 16h4M9 8h1" stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3>100% Transparent Weekly Reports</h3>
+              <p>Receive clear weekly reports detailing total ad spend, impressions, clicks, CPC, Cost Per Lead (CPA), and overall campaign ROAS.</p>
+            </div>
+
+            <!-- Pointer 6: Dedicated PPC Manager -->
+            <div class="why-card" style="--accent: #cfba1f">
+              <div class="icon-box icon-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" width="40" height="40">
+                  <circle cx="9" cy="7" r="3" />
+                  <circle cx="17" cy="7" r="3" />
+                  <path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2" />
+                  <path d="M14 21v-2a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v2" />
+                </svg>
+              </div>
+              <h3>Dedicated PPC Manager</h3>
+              <p>Work with a dedicated PPC Account Manager who monitors search queries daily, answers queries, and conducts weekly strategy performance calls.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ===== -->
+      <section class="kdm-testimonial-section">
+        <div class="container">
+          <div class="kdm-testimonial-header">
+            <span class="kdm-testimonial-badge"><i class="fa fa-star"></i> CLIENT TESTIMONIALS</span>
+            <h2 class="kdm-testimonial-title">What Our Global Clients <strong>Say About Our PPC &amp; Google Ads ROI</strong></h2>
+            <p class="kdm-testimonial-subtitle">Real feedback from founders and business owners who generated high-intent leads and scaled revenues with King of Digital Marketing.</p>
+          </div>
+
+          <div class="kdm-testimonial-wrapper">
+            <div class="kdm-testimonial-slides">
+
+              <!-- Slide 1: Aji Jeeva -->
+              <div class="kdm-testimonial-card active">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "I hired King of Digital Marketing for Google Ads PPC management. Within the first 2 weeks, our cost per lead dropped by 40% while conversion volume doubled. Gaurav Dubey and his team are true PPC experts."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-1">AJ</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Aji Jeeva</h4>
+                    <span class="kdm-testimonial-role">Founder — smgains.com (UK)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2: Roopak -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "King of Digital Marketing helped increase our student lead inquiries with targeted Google Search &amp; Display campaigns. Thanks to Gaurav Dubey and his dedicated team for high ROAS."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-2">R</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Roopak</h4>
+                    <span class="kdm-testimonial-role">Founder — gotouniversity.com (Dubai)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3: Younus -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "The PPC team at King of Digital Marketing explained everything in a simple way. They set up conversion tracking in GA4 and gave weekly performance updates. Excellent Google Ads service!"
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-3">Y</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Younus</h4>
+                    <span class="kdm-testimonial-role">Founder — moroccotourismagency.com (Morocco)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4: Kejsi -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "It's been a great experience working with King of Digital Marketing for PPC packages. Our Google Search Ads show at the top and drive high-intent consultation bookings every day."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-4">K</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Kejsi</h4>
+                    <span class="kdm-testimonial-role">Founder — herahairsolutions.com (Turkey)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 5: David -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "Gaurav Dubey and his PPC team worked on our ecommerce store Google Shopping &amp; Performance Max campaigns. Within a few months, our online revenue increased by 3.8x."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-5">D</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">David</h4>
+                    <span class="kdm-testimonial-role">Founder — audiocityusa.com (USA)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 6: Dr. Sanjay -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "Their Google Ads team is experienced and highly responsive. Gaurav Dubey personally ensured our campaign structure was optimal. We get consistent patient inquiries daily."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-6">DS</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Dr. Sanjay</h4>
+                    <span class="kdm-testimonial-role">Founder — cocoona.in (Dubai)</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+              <i class="fa fa-chevron-left"></i>
+            </button>
+            <button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+              <i class="fa fa-chevron-right"></i>
+            </button>
+
+            <!-- Pagination Dots -->
+            <div class="kdm-testimonial-dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 10 CUSTOM FAQS FOR PPC PACKAGES ===== -->
+      <section class="kdm-faq-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 align="center">FAQs <strong>for PPC Packages</strong></h2>
+              <div class="kdm-faq-accordion">
+                
+                <!-- Q1 -->
+                <div class="kdm-faq-item active">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.1. How fast will Google Ads generate leads for my business?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Google Ads campaigns go live within 24 to 48 hours. Unlike organic SEO, you start receiving targeted phone calls, form inquiries, and website traffic on Day 1 of campaign launch.</p>
+                  </div>
+                </div>
+
+                <!-- Q2 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.2. Is the Google Ads budget included in your monthly management fee?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No. Our monthly PPC package fee covers account management, keyword research, ad copywriting, bid strategy, and weekly optimization. Ad spend is paid directly to Google from your billing card.</p>
+                  </div>
+                </div>
+
+                <!-- Q3 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.3. Do you optimize landing pages for better conversion rates (CRO)?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100%. We audit your landing page load speed, form placement, headlines, call-to-action buttons, and trust badges to ensure maximum lead conversions from ad clicks.</p>
+                  </div>
+                </div>
+
+                <!-- Q4 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.4. Which PPC channels do you manage (Search, Display, Shopping, PMax)?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We manage all major Google Ads channels including Search Ads, Performance Max (PMax), Display Retargeting, YouTube Video Ads, Local Call-Only Ads, and Google Shopping Ads.</p>
+                  </div>
+                </div>
+
+                <!-- Q5 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.5. How do you prevent wasted ad spend and invalid clicks?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We build comprehensive negative keyword lists, scrub search query logs weekly, filter out non-converting locations, set IP exclusion rules, and monitor bot click activity.</p>
+                  </div>
+                </div>
+
+                <!-- Q6 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.6. Do I get full admin access to my Google Ads account?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. You retain 100% ownership and full administrative access to your Google Ads, GA4, and Google Tag Manager accounts with complete transparency.</p>
+                  </div>
+                </div>
+
+                <!-- Q7 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.7. Is there a long-term contract or lock-in period?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No forced long-term lock-in contracts. We offer month-to-month plans so you can scale or adjust your ad budget based on business demand and seasonal cycles.</p>
+                  </div>
+                </div>
+
+                <!-- Q8 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.8. What is a good Quality Score and how do you improve it?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> A Quality Score of 8/10 to 10/10 significantly reduces your Cost Per Click (CPC). We improve score by tightening ad group keyword alignment, testing high-CTR ad copies, and improving landing page relevance.</p>
+                  </div>
+                </div>
+
+                <!-- Q9 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.9. How do you measure and report monthly PPC ROI &amp; CPA?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We track every conversion via GTM &amp; GA4. At the end of each week and month, we deliver a detailed report detailing total ad spend, impressions, clicks, CPC, Cost Per Lead (CPA), and ROAS.</p>
+                  </div>
+                </div>
+
+                <!-- Q10 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.10. Why choose King of Digital Marketing for Google Ads management?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of digital marketing experience, 900+ completed projects, founder leadership from Gaurav Dubey, and a dedicated team of 12 in-house Google certified PPC managers, we deliver maximum ROAS starting at INR 19,999/Month.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- 3 High-Converting Dark Theme SVG Offers next to FAQ -->
+            <div class="col-md-6">
+              <h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups &amp; Businesses</strong></h2>
+              
+              <div class="kdm-offer-dark-list">
+                <!-- Offer 1 -->
+                <div class="kdm-offer-dark-card" onclick="openPackageModal('Startup PPC Booster Offer (10% OFF)')">
+                  <div class="kdm-offer-dark-icon">
+                    <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="60" height="60" rx="14" fill="url(#num_grad_d1)"/>
+                      <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                      <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                      <defs><linearGradient id="num_grad_d1" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#0284c7"/><stop offset="1" stop-color="#0369a1"/></linearGradient></defs>
+                    </svg>
+                  </div>
+                  <div class="kdm-offer-dark-content">
+                    <h4>Startup PPC Booster Offer</h4>
+                    <p class="kdm-offer-dark-value">Get 10% OFF</p>
+                    <h5 class="kdm-offer-dark-sub">On Quarterly PPC Package</h5>
+                    <h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF!</h5>
+                  </div>
+                </div>
+
+                <!-- Offer 2 -->
+                <div class="kdm-offer-dark-card" onclick="openPackageModal('Growth PPC Plan Offer (15% OFF)')">
+                  <div class="kdm-offer-dark-icon">
+                    <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="60" height="60" rx="14" fill="url(#num_grad_d2)"/>
+                      <line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                      <line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                      <line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                      <polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+                      <defs><linearGradient id="num_grad_d2" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#0ea5e9"/><stop offset="1" stop-color="#0284c7"/></linearGradient></defs>
+                    </svg>
+                  </div>
+                  <div class="kdm-offer-dark-content">
+                    <h4>Growth PPC Plan Offer</h4>
+                    <p class="kdm-offer-dark-value">Get 15% OFF</p>
+                    <h5 class="kdm-offer-dark-sub">On 6-Months PPC Package</h5>
+                    <h5 class="kdm-offer-dark-desc">Lock in long-term paid ad performance and save BIG!</h5>
+                  </div>
+                </div>
+
+                <!-- Offer 3 -->
+                <div class="kdm-offer-dark-card" onclick="openPackageModal('Premium PPC Plan Offer (20% OFF)')">
+                  <div class="kdm-offer-dark-icon">
+                    <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="60" height="60" rx="14" fill="url(#num_grad_d3)"/>
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5"/>
+                      <defs><linearGradient id="num_grad_d3" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
+                    </svg>
+                  </div>
+                  <div class="kdm-offer-dark-content">
+                    <h4>Premium PPC Plan Offer</h4>
+                    <p class="kdm-offer-dark-value">Get 20% OFF</p>
+                    <h5 class="kdm-offer-dark-sub">On 12-Month PPC Package</h5>
+                    <h5 class="kdm-offer-dark-desc">Dominate search results &amp; conversions all year while saving BIG!</h5>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+</div>
+
+    <!-- Bootstrap JS -->
+    <script src="js/international-page.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/kdm-faq.js"></script>
+</asp:Content>

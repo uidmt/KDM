@@ -5,7 +5,7 @@
 
 .kdm-faq-section {
     padding: 30px 0 35px 0 !important;
-    background: #f8fafc !important;
+    background: #ffffff !important;
     border-radius: 14px !important;
     margin: 25px 0 !important;
 }
@@ -130,14 +130,12 @@
 
 /* FAQ Answer Content Body */
 .kdm-faq-body {
-    max-height: 0 !important;
-    overflow: hidden !important;
-    transition: max-height 0.3s ease-in-out !important;
+    display: none !important;
     background: #fafafa !important;
 }
 
 .kdm-faq-item.active .kdm-faq-body {
-    max-height: 600px !important;
+    display: block !important;
     border-top: 1px solid #f1f5f9 !important;
 }
 

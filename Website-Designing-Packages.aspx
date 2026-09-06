@@ -1,19 +1,17 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>Website Designing Packages in Delhi | Web Design Package in India</title>
-    <meta name="keywords"
-      content="Web Design Package, Website Designing Package in Delhi, Web Development Package in India, Web Design Development Price in india, Best price of Web Development, Web Development cost in India, Price of Web Design">
-    <meta name="description"
-      content="Get Affordable Website Design Packages in Delhi,India which shuits your budget. We Provide best pricing for Web Development WordPress, Magento, E-Commerce, Static and Dynamic Website.">
-    <link rel="canonical" href="https://www.kingofdigitalmarketing.com/Website-Designing-Packages.aspx">
-    <meta property="og:title" content="Website Designing Packages in Delhi | Web Design Package in India Price">
-    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/Website-Designing.jpg">
-    <meta property="og:description"
-      content="Get Affordable Website Design Packages in Delhi,India which shuits your budget. We Provide best pricing for Web Development WordPress, Magento, E-Commerce, Static and Dynamic Website.">
+    <title>Website Designing Packages in Delhi, India | Custom Pricing & Plans</title>
+    <meta name="keywords" content="Web Design Package, Website Designing Package in Delhi, Web Development Package in India, Web Design Development Price in india, Best price of Web Development, Web Development cost in India, Price of Web Design">
+    <meta name="description" content="Get Affordable Website Design Packages in Delhi, India tailored to your budget. WordPress, Shopify, Magento, E-Commerce, Static, and Dynamic Web Development pricing.">
+    <meta name="author" content="Gaurav Dubey | King of Digital Marketing">
+    <link rel="canonical" href="https://www.kingofdigitalmarketing.com/Website-Designing-Packages.aspx" />
+    <meta property="og:title" content="Website Designing Packages in Delhi, India | Custom Pricing & Plans" />
+    <meta property="og:description" content="Get Affordable Website Design Packages in Delhi, India tailored to your budget. WordPress, Shopify, E-Commerce, Static, and Dynamic Web Development pricing." />
     <meta property="og:url" content="https://www.kingofdigitalmarketing.com/Website-Designing-Packages.aspx" />
+    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/Website-Designing.jpg" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image">
-    <link href="css/main.css" rel="stylesheet">
+
     <link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/location-page.css">
     <link rel="stylesheet" href="css/international-page.css">
@@ -23,233 +21,245 @@
     <link rel="stylesheet" href="css/images.css">
     <script src="js/kdm-packages.js"></script>
     <script src="js/kdm-faq.js"></script>
+
+    <!-- ===== FAQPAGE JSON-LD STRUCTURED DATA SCHEMA ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What Is Included in the Website Design Package?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our web design packages include full layout design, mobile responsiveness, content setup, contact & quick inquiry forms, basic SEO optimization, and 45 days free post-launch support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I Need to Buy Domain and Hosting Separately?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, domain and hosting are generally purchased directly by the client to ensure 100% ownership. Our team provides complete guidance on selecting the best domain and cloud hosting providers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who Will Provide Website Content and Images?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can provide your business content and images, or our in-house content writers can craft researched website content and source high-quality royalty-free images."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Technology or Tech Stack Will Be Used?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We build websites using modern frameworks including WordPress, Shopify, Next.js, React, Core PHP, and HTML/CSS based on your specific requirements and budget."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How Much Time Will It Take to Complete the Website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Development timelines depend on project scope. Basic corporate websites take 2 to 3 weeks, while custom E-commerce stores and web applications take 3 to 5 weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will the Website Be Mobile-Friendly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, 100%. All websites designed by King of Digital Marketing are fully responsive and tested to run smoothly across smartphones, tablets, laptops, and desktop screens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do You Provide Support After Website Launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We provide 45 days of free post-launch technical support, bug fixing, and admin panel training to ensure your website operates seamlessly."
+          }
+        }
+      ]
+    }
+    </script>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<div role="main" class="main">
-        <!-- Hero Section -->
-        <section class="kdm-pkg-hero">
-            <div class="kdm-pkg-hero-content">
-                <ul class="breadcrumb" style="background: transparent; padding: 0; justify-content: center; display: flex; gap: 8px; margin-bottom: 16px;">
-                    <li><a href="https://www.kingofdigitalmarketing.com/" style="color: #94a3b8; text-decoration: none;">Home</a></li>
-                    <li class="active" style="color: #38bdf8;">Website Designing Packages</li>
-                </ul>
+    <div role="main" class="main">
 
-                <div class="kdm-top-badge">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="#38bdf8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                    #1 TOP RANKED WEB DESIGN AGENCY IN INDIA
+        <!-- ===== HERO BANNER SECTION ===== -->
+        <section class="kdm-service-hero">
+            <div class="kdm-service-hero-container">
+                <!-- Breadcrumbs -->
+                <nav class="kdm-service-hero-breadcrumbs" aria-label="Breadcrumb">
+                    <ul>
+                        <li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
+                        <li class="breadcrumb-sep">/</li>
+                        <li class="breadcrumb-current">Website Designing Packages</li>
+                    </ul>
+                </nav>
+
+                <!-- Top Badge Tag -->
+                <div class="kdm-service-hero-badge">
+                    <i class="fa fa-trophy"></i> #1 RESULT-DRIVEN WEBSITE DESIGNING PACKAGES IN INDIA
                 </div>
 
-                <h1>Website Designing Packages in Delhi, India</h1>
-                <p class="hero-subtitle">Get Stunning, Fast-Loading & High-Converting Websites Custom Built for Your Business. Our Affordable Web Design Packages Include Responsive UI/UX, SEO Optimization & Mobile Compatibility.</p>
+                <!-- Main Hero Heading -->
+                <h1 class="kdm-service-hero-title">
+                    Website Designing Packages &amp; Pricing <span class="kdm-gradient-highlight">in India</span>
+                </h1>
 
-                <!-- Benefit Highlights -->
-                <div class="kdm-benefits-grid">
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        100% Responsive Mobile-Friendly Design
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        SEO-Friendly Architecture & Code
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Fast Page Speed & Security Setup
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Custom Graphics & UI/UX Layouts
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Free Domain, SSL & Hosting Support
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Dedicated Web Designer Support
-                    </div>
+                <!-- Subtitle / Meta Description -->
+                <p class="kdm-service-hero-subtitle">
+                    Build High-Converting Corporate Websites, E-Commerce Shopify/WooCommerce Stores &amp; Custom Next.js/React Web Apps with Ultra-Fast Speed &amp; 100% Mobile Responsiveness.
+                </p>
+
+                <!-- Trust Bar -->
+                <div class="kdm-service-hero-stats-bar">
+                    <span class="kdm-service-hero-stat-highlight">🏆 850+ Websites Delivered</span>
+                    <span class="kdm-service-hero-stat-divider">|</span>
+                    <span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
+                    <span class="kdm-service-hero-stat-divider">|</span>
+                    <span class="kdm-service-hero-stat-green">🚀 32+ Digital Experts</span>
                 </div>
 
-                <!-- Stats -->
-                <div class="kdm-pkg-stats">
-                    <div class="kdm-pkg-stat-pill"><strong>900+</strong> Global Brands</div>
-                    <div class="kdm-pkg-stat-pill"><strong>850+</strong> Success Stories</div>
-                    <div class="kdm-pkg-stat-pill"><strong>13+</strong> Years Experience</div>
-                    <div class="kdm-pkg-stat-pill"><strong>4.9/5★</strong> Client Rating</div>
+                <!-- Hero Action CTA -->
+                <div class="kdm-service-hero-cta-wrap">
+                    <a href="javascript:void(0);" onclick="openPackageModal('Free Web Design Proposal')" class="kdm-service-hero-cta-btn">
+                        <i class="fa fa-paper-plane"></i> Get Free Web Design Proposal &amp; Consultation <i class="fa fa-arrow-right"></i>
+                    </a>
                 </div>
 
-                <!-- Call To Action Group -->
-                <div class="kdm-pkg-cta-group">
-                    <button type="button" class="kdm-btn-primary-form" onclick="openPackageModal('Website Designing Package')">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                        Get Free Web Design Proposal
-                    </button>
+                <!-- 4 Value Highlight Pills -->
+                <div class="kdm-service-hero-highlights">
+                    <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 100% Mobile Responsive</div>
+                    <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> SEO-Friendly Architecture</div>
+                    <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Fast Speed &amp; SSL Security</div>
+                    <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 45 Days Free Post-Launch Support</div>
                 </div>
             </div>
         </section>
-        
 
-
-
-
-          <div class="altra-sub-hero">
-            <div class="altra-sub-hero-new">
-              <div class="content-box">
-                <h2 style="text-align: center;">Website Designing and Development Packages in Delhi, India</h2>
-                <p align="justify">Confused chasing the best website design packages for your business? Here are some
-                  facts - A website is no longer optional for a successful business in today's digital world - it is a
-                  basic necessity. Most customers search online before making any buying decision, and a business
-                  without a website often loses trust and visibility. A professional website helps you build
-                  credibility, showcase your services, products and stay available to customers 24/7. If you have AI
-                  chatbot enabled in website even it acts as your digital office sales person, where people can learn
-                  about your brand, contact you easily, and decide whether to do business with you. A well designed
-                  website also supports marketing, improves customer engagement, and helps generate consistent enquiries
-                  and sales.<br>
-                  King of Digital Marketing is a leading website designing and development company in India, based in
-                  Delhi, helping businesses create a strong and effective online presence. We design responsive and
-                  dynamic websites that work smoothly on all devices and provide a great user experience. Our focus is
-                  on building websites that not only look good but also help businesses grow and generate revenue.<br>
-
-                  We offer affordable website designing and development packages in Delhi, India for startups, small
-                  businesses, and established brands. Each package is planned to match different business needs and
-                  budgets. If you need a custom website, you can share your requirements with us. Our team carefully
-                  analyzes your goals and prepares a clear proposal with the right features and pricing.</p>
-
-
-              </div>
-
-
+        <!-- ===== SEO INTRO CONTENT SECTION ===== -->
+        <section class="kdm-intro-content-section" style="padding: 40px 0 30px 0; background: #ffffff; color: #333;">
+            <div class="container">
+                <h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-bottom: 16px; text-align: center;">
+                    Website Designing &amp; Development Packages in Delhi, India
+                </h2>
+                <p style="font-size: 15.5px; line-height: 1.75; color: #475569; max-width: 1050px; margin: 0 auto; text-align: center;">
+                    A professional website is the foundation of your digital presence. King of Digital Marketing offers affordable, high-performing <strong>Website Designing Packages</strong> in India for startups, small businesses, and enterprise brands. Whether you need a corporate <strong>WordPress website</strong>, a full-fledged <strong>Shopify or WooCommerce E-commerce store</strong>, or a custom <strong>Next.js / React dynamic web application</strong>, our packages deliver clean UI/UX, ultra-fast page speeds, mobile responsiveness, and SEO-friendly code to convert website traffic into sales inquiries.
+                </p>
             </div>
-          </div>
+        </section>
 
+        <!-- ===== CREDENTIALS & IMPACT SECTION ===== -->
+        <section class="kdm-credentials-white-section">
+            <div class="container">
+                <div class="kdm-credentials-header">
+                    <div class="kdm-credentials-badge">
+                        <i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
+                    </div>
+                    <h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+                    <p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
+                </div>
 
-          <!--Main Content Starts-->
-          <div class="container">
-            <h2 align="center">Brands That Have Trusted Us</h2>
-            <div class="slide-container">
-              <div class="slide-now">
-                <img alt="dcompass" src="images/satguru--logo.webp">
-                <img alt="Morocco-Tourism" src="images/Skinmumma-logo.webp">
-                <img alt="novasc" src="images/Prep-guru-logo.webp">
-                <img alt="Nebulacrafttech" src="images/cara_img.webp">
-                <img alt="Olympus" src="images/Olympus_img.webp">
-                <img alt="Diamond Salon" src="images/cocoona.webp">
-                <img alt="Monickaa gupta" src="images/monickaagupta_img.webp">
-                <img alt="The Alchamii" src="images/ihoroscopegpt_img.webp">
-                <img alt="Hera hair solutions" src="images/herahairsolutions.webp">
-                <img alt="SAAB" src="images/MTel_img.webp">
-                <img alt="Propert" src="images/Propert-Logo.webp">
-                <img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-                <img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-                <img alt="go to university." src="images/go to university.webp">
-                <img alt="Cityc Clinic" src="images/CitycClinic.webp">
-                <img alt="thechocolateroom" src="images/thechocolateroom.webp">
-              </div>
+                <div class="kdm-credentials-5grid counters dark counters-row">
+                    <!-- Box 1 -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
+                        <label class="kdm-cred-label">Years Experience</label>
+                    </div>
 
-              <div class="slide-now">
-                <img alt="dcompass" src="images/satguru--logo.webp">
-                <img alt="Morocco-Tourism" src="images/Skinmumma-logo.webp">
-                <img alt="novasc" src="images/Prep-guru-logo.webp">
-                <img alt="Nebulacrafttech" src="images/cara_img.webp">
-                <img alt="Olympus" src="images/Olympus_img.webp">
-                <img alt="Diamond Salon" src="images/cocoona.webp">
-                <img alt="Monickaa gupta" src="images/monickaagupta_img.webp">
-                <img alt="The Alchamii" src="images/ihoroscopegpt_img.webp">
-                <img alt="Hera hair solutions" src="images/herahairsolutions.webp">
-                <img alt="SAAB" src="images/MTel_img.webp">
-                <img alt="Propert" src="images/Propert-Logo.webp">
-                <img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-                <img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-                <img alt="go to university." src="images/go to university.webp">
-                <img alt="Cityc Clinic" src="images/CitycClinic.webp">
-                <img alt="thechocolateroom" src="images/thechocolateroom.webp">
-              </div>
+                    <!-- Box 2 -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="850" data-append="+">850+</strong>
+                        <label class="kdm-cred-label">Websites Delivered</label>
+                    </div>
+
+                    <!-- Box 3 -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
+                        <label class="kdm-cred-label">Countries Served</label>
+                    </div>
+
+                    <!-- Box 4 -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
+                        <label class="kdm-cred-label">Overall Rating</label>
+                    </div>
+
+                    <!-- Box 5 -->
+                    <div class="kdm-credentials-box">
+                        <div class="kdm-cred-svg-hub">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <strong class="counter-value kdm-cred-num" data-to="32" data-append="+">32+</strong>
+                        <label class="kdm-cred-label">Digital Experts</label>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
 
-          <hr class="tall" />
-
-          <!-- Results Section -->
-          <section class="ip-section ip-results" style="background:#ffffff; padding:0px 0 60px; margin-top:0;">
-            <h2 class="ip-results-h2" style="color:#000000; margin-top:10px; margin-bottom:30px; ">CREDENTIALS</h2>
-            <p style="color: #000000;">These Numbers Speak Alot about Our Experience</p>
-            <div class="ip-result-cards">
-              <div class="ip-result-card" style="background: linear-gradient(135deg, #111441, #337ab7);">
-                <i class="fas fa-chart-line"></i>
-                <h3 class="ip-result-card-h3" data-target="12">0+</h3>
-                <p class="ip-result-card-p">Years in Business</p>
-              </div>
-              <div class="ip-result-card" style="background: linear-gradient(135deg, #111441, #337ab7);">
-                <i class="fas fa-bullseye"></i>
-                <h3 class="ip-result-card-h3" data-target="850">0+</h3>
-                <p class="ip-result-card-p">Projects Completed</p>
-              </div>
-              <div class="ip-result-card" style="background: linear-gradient(135deg, #111441, #337ab7);">
-                <i class="fas fa-globe"></i>
-                <h3 class="ip-result-card-h3" data-target="15">0+</h3>
-                <p class="ip-result-card-p">Countries Served</p>
-              </div>
-              <div class="ip-result-card" style="background: linear-gradient(135deg, #111441, #337ab7);">
-                <i class="fa fa-laptop"></i>
-                <h3 class="ip-result-card-h3" data-target="32">0+</h3>
-                <p class="ip-result-card-p">Digital Experts</p>
-              </div>
+        <!-- ===== PACKAGES PRICING SECTION ===== -->
+        <section class="packages-section" style="color: #000000;">
+            <div style="text-align: center; margin-bottom: 35px;">
+                <div class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+                    <i class="fa fa-trophy"></i> AFFORDABLE &amp; TRANSPARENT PRICING
+                </div>
+                <h2>Website Designing <span>Packages &amp; Plans</span></h2>
+                <p style="max-width: 900px; margin: 0 auto; color: #475569; font-size: 15.5px; line-height: 1.7;">
+                    Flexible website development plans designed to fit your business size, feature set, and budget.
+                </p>
             </div>
-          </section>
 
-          <script>
-            // Count-up animation when section appears
-            const counters = document.querySelectorAll('.ip-result-card-h3');
-            const speed = 200; // lower is faster
+<div class="packages-container">
 
-            const animateCounters = () => {
-              counters.forEach(counter => {
-                const updateCount = () => {
-                  const target = +counter.getAttribute('data-target');
-                  const count = +counter.innerText.replace(/\D/g, ''); // remove non-digits
-                  const inc = target / speed;
-
-                  if (count < target) {
-                    counter.innerText = Math.ceil(count + inc) + (counter.innerText.includes('%') ? '%' : '+');
-                    setTimeout(updateCount, 20);
-                  } else {
-                    counter.innerText = target + (counter.innerText.includes('%') ? '%' : '+');
-                  }
-                };
-                updateCount();
-              });
-            };
-
-            // Trigger animation only once when visible
-            const section = document.querySelector('.ip-results');
-            let started = false;
-            window.addEventListener('scroll', () => {
-              const rect = section.getBoundingClientRect();
-              if (!started && rect.top < window.innerHeight - 100) {
-                started = true;
-                animateCounters();
-              }
-            });
-          </script>
-
-
-
-          <section class="packages-section" style="color: #000000;">
-            <h2>Website Design Packages</h2>
-            <div class="packages-container">
-
-              <!-- Basic SMO Plan -->
-              <div class="new">
-                <div class="package-box">
-                  <div class="package-header" style="padding: 20px;
+<div class="new">
+    <div class="package-box">
+        <div class="package-header" style="padding: 20px;
   text-align: center;
   background:linear-gradient(135deg, #111441, #337ab7);
   color: #fff;
   font-size: 20px;
-  font-weight: 700;">Basic Website Design Package <br><i class="fa fa-inr"></i>19,999/Month</div>
-                  <div class="package-subheader" style="color:#337ab7;">HTML / Core PHP / WordPress</div>
-                  <div class="package-content">
-                    <h4 style="color:#337ab7;"><i class="fas fa-copy" style="color:#337ab7;"></i>Pages & Structure</h3>
+  font-weight: 700;">Basic Website Design Package <br><i class="fa fa-inr"></i>19,999</div>
+        <div class="package-subheader" style="color:#337ab7;">HTML / Core PHP / WordPress</div>
+        <div class="package-content">
+            <h4 style="color:#337ab7;"><i class="fas fa-copy" style="color:#337ab7;"></i>Pages & Structure</h3>
                     <ul>
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Up to 20 Pages</li>
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Home, About, Multiple
@@ -384,58 +394,24 @@
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Client Must Keep Backup
                       </li>
                     </ul>
-                  </div>
-                </div>
-                <div>
-                  <a href="#" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px;
-   border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:15px;"
-                    onclick="openHeroPopup(event)">Choose Plan</a>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Basic Website Design Package 19,999')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-                  <!-- Popup (keep it just below the button or at the end of your HTML body) -->
-                  <div id="hero-popupModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
-background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-                    <div style="position:relative;width:90%;max-width:600px;background:#317dd3;border-radius:10px;
-  padding:10px;box-shadow:0 0 25px rgba(0,0,0,0.4);">
-                      <span onclick="closeHeroPopup()" style="position:absolute;top:8px;right:15px;font-size:32px;color:#111441;cursor:pointer;
-      background:#fff;padding:0 8px;border-radius:4px;line-height:1;">&times;</span>
-                      <iframe src="contact.aspx"
-                        style="width:100%;height:500px;border:none;border-radius:6px;"></iframe>
-                    </div>
-                  </div>
-
-                  <script>
-                    function openHeroPopup(e) {
-                      e.preventDefault();
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "flex"; // center popup
-                      document.body.style.overflow = "hidden"; // stop background scroll
-                    }
-                    function closeHeroPopup() {
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "none";
-                      document.body.style.overflow = "auto";
-                    }
-                    // close when clicking outside
-                    window.addEventListener("click", function (e) {
-                      const popup = document.getElementById("hero-popupModal");
-                      if (e.target === popup) { closeHeroPopup(); }
-                    });
-                  </script>
-
-                </div>
-              </div>
-
-              <div class="new">
-                <div class="package-box">
-                  <div class="package-header" style="padding: 20px;
+<div class="new">
+    <div class="package-box">
+        <div class="package-header" style="padding: 20px;
         text-align: center;
         background:linear-gradient(135deg, #111441, #337ab7);
         color: #fff;
         font-size: 20px;
-          font-weight: 700;">Standard E-commerce Website<br><i class="fa fa-inr"></i>39,999/Month</div>
-                  <div class="package-subheader" style="color:#337ab7;">Shopify or WordPress (WooCommerce)</div>
-                  <div class="package-content">
-                    <h4 style="color:#337ab7;"><i class="fas fa-tools" style="color:#337ab7;"></i>Platform & Technology
+          font-weight: 700;">Standard E-commerce Website<br><i class="fa fa-inr"></i>39,999</div>
+        <div class="package-subheader" style="color:#337ab7;">Shopify or WordPress (WooCommerce)</div>
+        <div class="package-content">
+            <h4 style="color:#337ab7;"><i class="fas fa-tools" style="color:#337ab7;"></i>Platform & Technology
                     </h4>
                     <ul>
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Shopify or WordPress
@@ -726,58 +702,24 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Single point of contact
                         from client side</li>
                     </ul>
-                  </div>
-                </div>
-                <div>
-                  <a href="#" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px;
-   border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:15px;"
-                    onclick="openHeroPopup(event)">Choose Plan</a>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Standard E-commerce Website 39,999')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-                  <!-- Popup (keep it just below the button or at the end of your HTML body) -->
-                  <div id="hero-popupModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
-background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-                    <div style="position:relative;width:90%;max-width:600px;background:#317dd3;border-radius:10px;
-  padding:10px;box-shadow:0 0 25px rgba(0,0,0,0.4);">
-                      <span onclick="closeHeroPopup()" style="position:absolute;top:8px;right:15px;font-size:32px;color:#111441;cursor:pointer;
-      background:#fff;padding:0 8px;border-radius:4px;line-height:1;">&times;</span>
-                      <iframe src="contact.aspx"
-                        style="width:100%;height:500px;border:none;border-radius:6px;"></iframe>
-                    </div>
-                  </div>
-
-                  <script>
-                    function openHeroPopup(e) {
-                      e.preventDefault();
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "flex"; // center popup
-                      document.body.style.overflow = "hidden"; // stop background scroll
-                    }
-                    function closeHeroPopup() {
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "none";
-                      document.body.style.overflow = "auto";
-                    }
-                    // close when clicking outside
-                    window.addEventListener("click", function (e) {
-                      const popup = document.getElementById("hero-popupModal");
-                      if (e.target === popup) { closeHeroPopup(); }
-                    });
-                  </script>
-
-                </div>
-              </div>
-
-              <div class="new">
-                <div class="package-box">
-                  <div class="package-header" style="padding: 20px;
+<div class="new">
+    <div class="package-box">
+        <div class="package-header" style="padding: 20px;
   text-align: center;
   background:linear-gradient(135deg, #111441, #337ab7);
   color: #fff;
   font-size: 20px;
-  font-weight: 700;">Dynamic Website Development Package<br><i class="fa fa-inr"></i>79999/Month</div>
-                  <div class="package-subheader" style="color:#337ab7;">Next.js / React / Modern JavaScript</div>
-                  <div class="package-content">
-                    <h4 style="color:#337ab7;"><i class="fas fa-tools" style="color:#337ab7;"></i>Technology & Platform
+  font-weight: 700;">Dynamic Website Development Package<br><i class="fa fa-inr"></i>79,999</div>
+        <div class="package-subheader" style="color:#337ab7;">Next.js / React / Modern JavaScript</div>
+        <div class="package-content">
+            <h4 style="color:#337ab7;"><i class="fas fa-tools" style="color:#337ab7;"></i>Technology & Platform
                     </h4>
                     <ul>
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Next.js / React / Modern
@@ -997,58 +939,24 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Single Point of Contact
                       </li>
                     </ul>
-                  </div>
-                </div>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Dynamic Website Development Package 79,999')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-                <div>
-                  <a href="#" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px;
-   border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:15px;"
-                    onclick="openHeroPopup(event)">Choose Plan</a>
-
-                  <!-- Popup (keep it just below the button or at the end of your HTML body) -->
-                  <div id="hero-popupModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
-background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-                    <div style="position:relative;width:90%;max-width:600px;background:#317dd3;border-radius:10px;
-  padding:10px;box-shadow:0 0 25px rgba(0,0,0,0.4);">
-                      <span onclick="closeHeroPopup()" style="position:absolute;top:8px;right:15px;font-size:32px;color:#111441;cursor:pointer;
-      background:#fff;padding:0 8px;border-radius:4px;line-height:1;">&times;</span>
-                      <iframe src="contact.aspx"
-                        style="width:100%;height:500px;border:none;border-radius:6px;"></iframe>
-                    </div>
-                  </div>
-
-                  <script>
-                    function openHeroPopup(e) {
-                      e.preventDefault();
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "flex"; // center popup
-                      document.body.style.overflow = "hidden"; // stop background scroll
-                    }
-                    function closeHeroPopup() {
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "none";
-                      document.body.style.overflow = "auto";
-                    }
-                    // close when clicking outside
-                    window.addEventListener("click", function (e) {
-                      const popup = document.getElementById("hero-popupModal");
-                      if (e.target === popup) { closeHeroPopup(); }
-                    });
-                  </script>
-                </div>
-              </div>
-
-              <div class="new">
-                <div class="package-box">
-                  <div class="package-header" style="padding: 20px;
+<div class="new">
+    <div class="package-box">
+        <div class="package-header" style="padding: 20px;
   text-align: center;
   background:linear-gradient(135deg, #111441, #337ab7);
   color: #fff;
   font-size: 20px;
   font-weight: 700;">Advanced E-commerce Website Package<br>Cost on Demand</div>
-                  <div class="package-subheader" style="color:#337ab7;">Next.js + React based website</div>
-                  <div class="package-content">
-                    <h4 style="color:#337ab7;"><i class="fas fa-tools" style="color:#337ab7;"></i>Platform & Technology
+        <div class="package-subheader" style="color:#337ab7;">Next.js + React based website</div>
+        <div class="package-content">
+            <h4 style="color:#337ab7;"><i class="fas fa-tools" style="color:#337ab7;"></i>Platform & Technology
                     </h4>
                     <ul>
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Next.js + React based
@@ -1383,663 +1291,887 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Multi-Language or
                         Multi-Currency</li>
                     </ul>
-                  </div>
-                </div>
-
-                <div>
-                  <a href="#" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px;
-   border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:15px;"
-                    onclick="openHeroPopup(event)">Choose Plan</a>
-
-                  <!-- Popup (keep it just below the button or at the end of your HTML body) -->
-                  <div id="hero-popupModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
-background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-                    <div style="position:relative;width:90%;max-width:600px;background:#317dd3;border-radius:10px;
-  padding:10px;box-shadow:0 0 25px rgba(0,0,0,0.4);">
-                      <span onclick="closeHeroPopup()" style="position:absolute;top:8px;right:15px;font-size:32px;color:#111441;cursor:pointer;
-      background:#fff;padding:0 8px;border-radius:4px;line-height:1;">&times;</span>
-                      <iframe src="contact.aspx"
-                        style="width:100%;height:500px;border:none;border-radius:6px;"></iframe>
-                    </div>
-                  </div>
-
-                  <script>
-                    function openHeroPopup(e) {
-                      e.preventDefault();
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "flex"; // center popup
-                      document.body.style.overflow = "hidden"; // stop background scroll
-                    }
-                    function closeHeroPopup() {
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "none";
-                      document.body.style.overflow = "auto";
-                    }
-                    // close when clicking outside
-                    window.addEventListener("click", function (e) {
-                      const popup = document.getElementById("hero-popupModal");
-                      if (e.target === popup) { closeHeroPopup(); }
-                    });
-                  </script>
-                </div>
-              </div>
-          </section>
-
-          <!-- Results Section -->
-
-          <!-- Industry Section -->
-          <!-- Swiper CSS -->
-          <!-- Swiper CSS -->
-          <section class="industry-slider-section">
-            <h2 class="industry-heading">Most Popular Industries We Work With</h2>
-
-            <div class="industry-slider">
-              <div class="industry-track">
-
-                <div class="industry-card industry-bg1">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h4>Astrology</h3>
-                      <p>Successfully handled 60+ astrology projects for lead generation, app installs, and sales
-                        growth.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg10">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Hair Transplant</h3>
-                      <p>Successfully managed 50+ hair transplant lead generation, SEO, Social Media with consistent
-                        results.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg11">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Study Abroad Consultant</h3>
-                      <p>Trusted by 30+ study abroad consultants for high-quality student lead generation, SEO & Social
-                        Media.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg4">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Cosmetic Surgeon</h3>
-                      <p>Helped 25+ cosmetic surgeons grow their practice with high-quality leads, strong SEO, YouTube &
-                        social media</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg5">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>CA firms</h3>
-                      <p>20+ CA firms served with expert digital marketing, SEO lead generation and social media growth.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg6">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>immigration consulting</h3>
-                      <p>Strong experience of delivering SEO leads and digital marketing growth for 25+ immigration
-                        consulting firms.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg7">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Ecommerce</h3>
-                      <p>Successfully completed 20+ ecommerce projects with proven sales, organic traffic and social
-                        media growth.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg8">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Healthcare</h3>
-                      <p>We have helped 25+ healthcare brands including doctors and Ayurvedic medicines in SEO & lead
-                        generation.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg15">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>yoga studios</h3>
-                      <p>15+ yoga studios served with website SEO strategies focused on quality lead generation.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg14">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Institutes</h3>
-                      <p>Successfully handled 10+ institutes for course promotions using SEO, social media and
-                        performance marketing.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px; border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:25px;">See More Industries & Our Records</a>
-          </section>
-
-          <hr class="tall" />
-
-          <div class="mainprocess">
-            <h2 class="process-title">9 Steps to a Professional Website Design Package</h2>
-            <div class="roadmap-flow">
-              <div class="roadmap-box" data-step="1">
-                <h3>Requirement Understanding</h3>
-                <p>Web Design team understands your business goals, target audience, competitors and expectations. We
-                  finalise tech stack as per budget and plan a website design and development.</p>
-              </div>
-              <div class="roadmap-box" data-step="2">
-                <h3>Website Planning & Structure</h3>
-                <p>We finalise whole website and all pages structure, navigation flow, and content layout to ensure
-                  users find information easily and move toward sales, enquiry or action.</p>
-              </div>
-              <div class="roadmap-box" data-step="3">
-                <h3>UI/UX Design Direction</h3>
-                <p>We design clean, modern layouts with brand colors, fonts, and visuals that build trust, improve
-                  usability, and enhance user experience. We ask real images and video to enhance UI.</p>
-              </div>
-              <div class="roadmap-box" data-step="4">
-                <h3>Content & Page Finalization</h3>
-                <p>Since AI content is not helpful in long run, Our writer work on fresh researched contents, which
-                  clearly show your message in simple, professional and easy way for visitors to understand.</p>
-              </div>
-              <div class="roadmap-box" data-step="5">
-                <h3>Website Development</h3>
-                <p>Many website are based on design part only but if development is needed, our developer work on chosen
-                  technology with responsive design and functioning development. </p>
-              </div>
-              <div class="roadmap-box" data-step="6">
-                <h3>API, Forms & Feature Integration</h3>
-                <p>If 3rd party API is needed, we integrate APIs, contact forms, enquiry buttons, WhatsApp, call
-                  options, and required features to support lead generation and sales.</p>
-              </div>
-              <div class="roadmap-box" data-step="7">
-                <h3>SEO & Performance Setup</h3>
-                <p>We don't offer full SEO service with website design but optimize pages URLs for search engines,
-                  speed, and mobile friendly to ensure better visibility and smooth user experience.
-                </p>
-              </div>
-              <div class="roadmap-box" data-step="8">
-                <h3>Testing & Quality Check</h3>
-                <p>We test the website on all devices and browsers to fix errors, improve performance, and ensure
-                  everything works properly. Before going live we check all links, contents images.
-                </p>
-              </div>
-              <div class="roadmap-box" data-step="9">
-                <h3>Launch & Support</h3>
-                <p>We work under timeline and then send website for final approval, then launch the website and provide
-                  basic training, guidance, and post launch support for smooth usage along with 45 days support.</p>
-              </div>
-            </div>
-          </div>
-
-          <hr class="tall" />
-
-          <section class="locationdetails-why-section">
-            <div class="locationdetails-why-container">
-              <h2 style="color: #ffffff !important;">Why Choose Website Designing Packages from King of Digital Marketing?</h2>
-
-              <p>Choosing the right website design package for your business is important for long term business growth.
-                King of Digital Marketing offers website design and development packages in Delhi, India that focus on
-                quality, performance and real business results. We don't just create good looking websites but we build
-                websites that are easy to use, fully responsive and designed to generate enquiries and sales. Every
-                project starts with understanding your business goals, target audience, and industry, so the website is
-                designed and developed with purpose, not random trials.<br>
-                Our website designers use latest technologies for development and clean design tech to ensure fast
-                loading speed, smooth navigation and scalability for future growth. We offer flexible packages for
-                WordPress, Shopify, PHP Frameworks, React, Next JS as well as custom solutions to match different
-                business needs and budgets. Transparency, timely delivery, and clear communication are part of our
-                working process. With years of experience and a result driven approach, King of Digital Marketing
-                becomes more than a service provider. We become a reliable website design partner for your business
-                success.
-              </p>
-
-              <div class="locationdetails-why-cards">
-                <div class="why-card" style="--accent: #FF6F00">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#ff512f,#dd2476);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Award / Medal Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white"
-                      stroke-width="2" width="40" height="40">
-                      <rect x="3" y="4" width="18" height="12" rx="2" />
-                      <path d="M8 20h8" />
-                      <path d="M12 16v4" />
-                    </svg>
-
-                  </div>
-                  <h3>Business Focused Websites</h3>
-                  <p>Websites designed to support branding, leads, and real business growth.
-
-                  </p>
-                </div>
-
-                <div class="why-card" style="--accent: #008DC2">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#0072ff,#00c6ff);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Projects Delivered Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white"
-                      stroke-width="2" width="40" height="40">
-                      <ellipse cx="12" cy="5" rx="8" ry="3" />
-                      <path d="M4 5v4c0 1.7 3.6 3 8 3s8-1.3 8-3V5" />
-                      <path d="M4 9v4c0 1.7 3.6 3 8 3s8-1.3 8-3v-4" />
-                    </svg>
-
-                  </div>
-                  <h3>Modern & Scalable Technology</h3>
-                  <p>Built using updated tech stacks that ensure speed, security, and future expansion.
-                  </p>
-                </div>
-
-                <div class="why-card" style="--accent: #0B456A">
-                  <div class="review-image">
-                    <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#00c851,#33b5e5);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                      <!-- Globe Icon -->
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white"
-                        stroke-width="2" width="40" height="40">
-                        <rect x="2" y="3" width="20" height="14" rx="2" />
-                        <rect x="7" y="19" width="10" height="3" rx="1" />
-                        <path d="M8 3v14" />
-                        <path d="M16 3v14" />
-                      </svg>
-                    </div>
-
-                  </div>
-                  <h3>User Friendly Design Approach</h3>
-                  <p>Clean layouts and smooth navigation that improve user experience on all devices.
-                  </p>
-                </div>
-
-                <div class="why-card" style="--accent: #6A829A">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#ff6b6b,#feca57);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Report / Document Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="white" width="40" height="40">
-                      <path d="M12 1v22M17 5H9a3 3 0 0 0 0 6h6a3 3 0 0 1 0 6H7" />
-                    </svg>
-                  </div>
-
-                  <h3>Flexible & Affordable Packages</h3>
-                  <p>Four Website packages we have for different needs, budgets, and business sizes.
-                  </p>
-                </div>
-
-                <div class="why-card" style="--accent: #009688">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#5f27cd,#341f97);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Team Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white"
-                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="42" height="42">
-
-                      <!-- Circular arrows -->
-                      <path d="M3 12a9 9 0 0 1 15-6" />
-                      <path d="M21 12a9 9 0 0 1-15 6" />
-                      <path d="M18 3v3h-3" />
-                      <path d="M6 21v-3h3" />
-
-                      <!-- Gear -->
-                      <circle cx="12" cy="12" r="3" />
-                      <path d="M15 12h2M12 15v2M9 12H7M12 9V7" />
-                    </svg>
-
-                  </div>
-
-                  <h3>Transparent Process & Support</h3>
-                  <p>Our developers make a clear communication, timely delivery, and reliable post launch support.
-
-                  </p>
-                </div>
-
-                <div class="why-card" style="--accent: #cfba1f">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#f39c12,#e67e22);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Star / Satisfaction Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white"
-                      stroke-width="2" width="40" height="40">
-                      <path d="M12 3l7 4v5c0 5-3.5 8-7 9-3.5-1-7-4-7-9V7l7-4z" />
-                      <path d="M9 12l2 2 4-4" />
-                    </svg>
-                  </div>
-
-                  <h3> Experience You Can Trust</h3>
-                  <p>Years of hands on experience, we are delivering websites for multiple industries across world.</p>
-                </div>
-              </div>
-          </section>
-
-
-          <hr class="tall" />
-          <h2 align="center">Testimonials</h2>
-          <div class="ts-wrapper">
-            <div class="ts-slider-container">
-              <div class="ts-testimonial ts-active">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"I hired King of Digital Marketing for SEO services a few months ago, and I am really happy with the
-                  results. My website is now ranking on the first page of Google. Gaurav Dubey and his team were always
-                  available to guide me and answer my doubts"</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Aji Jeeva (Founder - www.smgains.com - UK)</div>
-              </div>
-
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"King of Digital Marketing helped increase my website traffic with their SEO strategies. They kept
-                  everything clear and gave regular updates. Thanks to Gaurav Dubey and his hardworking team, my
-                  business is getting more leads from Google now. "</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Roopak (Founder - www.gotouniversity.com - Dubai)</div>
-              </div>
-
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"I didn't know much about SEO before, but the team at King of Digital Marketing explained things in a
-                  simple way. They helped improve my website ranking and gave monthly reports. Gaurav Dubey made sure
-                  the work was always on track."</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Younus (Founder - moroccotourismagency.com - Morocco)</div>
-              </div>
-
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"It's been a great experience working with King of Digital Marketing. They helped my website show up
-                  on the first page of Google. Their SEO services are professional, affordable, and result-driven. I'm
-                  glad I chose them for my business."</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Kejsi (Founder - herahairsolutions.com - Turkey)</div>
-              </div>
-
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"Gaurav Dubey and his SEO team at King of Digital Marketing worked hard on my website. Within a few
-                  months, I started seeing a good rise in traffic and rankings. They really know what they are doing and
-                  deliver what they promise."</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- David (Founder - audiocityusa.com - USA)</div>
-              </div>
-
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"After hiring King of Digital Marketing, I noticed real improvement in my search engine rankings.
-                  Their SEO team is experienced and friendly. Gaurav Dubey personally ensured the project was handled
-                  with care and kept me updated regularly."</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Dr. Sanjay (Founder - cocoona.in - Dubai)</div>
-              </div>
-
-
-
-              <div class="ts-arrows">
-                <button class="ts-arrow" onclick="tsChangeSlide(-1)">&#10094;</button>
-                <button class="ts-arrow" onclick="tsChangeSlide(1)">&#10095;</button>
-              </div>
-            </div>
-          </div>
-          <script>
-            let tsCurrentIndex = 0;
-            const tsTestimonials = document.querySelectorAll('.ts-testimonial');
-
-            function tsShowSlide(index) {
-              tsTestimonials.forEach((t, i) => {
-                t.classList.remove('ts-active');
-                if (i === index) t.classList.add('ts-active');
-              });
-            }
-
-            function tsChangeSlide(dir) {
-              tsCurrentIndex += dir;
-              if (tsCurrentIndex < 0) tsCurrentIndex = tsTestimonials.length - 1;
-              if (tsCurrentIndex >= tsTestimonials.length) tsCurrentIndex = 0;
-              tsShowSlide(tsCurrentIndex);
-            }
-
-            setInterval(() => {
-              tsChangeSlide(1);
-            }, 6000);
-          </script>
-      </div>
-
-
-      <hr class="tall" />
-
-      <section class="kdm-faq-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h2 align="center">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-              <div class="kdm-faq-accordion">
-                <div class="kdm-faq-item active">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.1. What Is Included in the Website Design Package?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The package includes web design, layout, content setup, contact forms, and basic SEO friendliness.</p>
-                    </div>
-                </div>
-                <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.2. Do I Need to Buy Domain and Hosting Separately?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, domain and hosting are generally purchased by the client so you remain the owner. We can guide you on the best options.</p>
-                    </div>
-                </div>
-                <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.3. Who Will Provide Website Content and Images?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can provide content and images, or we can help create simple content and use professional free images.</p>
-                    </div>
-                </div>
-                <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.4. Which Technology or Tech Stack Will Be Used?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We build websites using WordPress, Shopify, Next.js, or HTML/CSS based on your requirements.</p>
-                    </div>
-                </div>
-                <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.5. How Much Time Will It Take to Complete the Website?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Timelines depend on project size. Basic websites take 2 to 3 weeks; custom web apps take 4 to 6 weeks.</p>
-                    </div>
-                </div>
-                <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.6. Will the Website Be Mobile-Friendly?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, all websites are fully responsive and work smoothly on mobile, tablet, and desktop devices.</p>
-                    </div>
-                </div>
-                <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.7. Do You Provide Support After Website Launch?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 45-day free post-launch support & technical maintenance guidance is included.</p>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 3 High-Converting Dark Theme SVG Offers next to FAQ -->
-            <div class="col-md-6">
-              <h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups & Businesses</strong></h2>
-              
-              <div class="kdm-offer-dark-list">
-                <!-- Offer 1 -->
-                <div class="kdm-offer-dark-card" onclick="openPackageModal('Startup Website Booster Offer (10% OFF)')">
-                  <div class="kdm-offer-dark-icon">
-                    <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="60" height="60" rx="14" fill="url(#num_grad_d1)"/>
-                      <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-                      <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-                      <defs><linearGradient id="num_grad_d1" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#0284c7"/><stop offset="1" stop-color="#0369a1"/></linearGradient></defs>
-                    </svg>
-                  </div>
-                  <div class="kdm-offer-dark-content">
-                    <h4>Startup Web Booster Offer</h4>
-                    <p class="kdm-offer-dark-value">Get 10% OFF</p>
-                    <h5 class="kdm-offer-dark-sub">On Basic Web Package</h5>
-                    <h5 class="kdm-offer-dark-desc">Order your website design today & get instant 10% OFF!</h5>
-                  </div>
-                </div>
-
-                <!-- Offer 2 -->
-                <div class="kdm-offer-dark-card" onclick="openPackageModal('Growth Web Plan Offer (15% OFF)')">
-                  <div class="kdm-offer-dark-icon">
-                    <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="60" height="60" rx="14" fill="url(#num_grad_d2)"/>
-                      <line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-                      <line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-                      <line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-                      <polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
-                      <defs><linearGradient id="num_grad_d2" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#0ea5e9"/><stop offset="1" stop-color="#0284c7"/></linearGradient></defs>
-                    </svg>
-                  </div>
-                  <div class="kdm-offer-dark-content">
-                    <h4>Growth Business Web Offer</h4>
-                    <p class="kdm-offer-dark-value">Get 15% OFF</p>
-                    <h5 class="kdm-offer-dark-sub">On Advance Corporate Package</h5>
-                    <h5 class="kdm-offer-dark-desc">Build a high-converting website & save BIG!</h5>
-                  </div>
-                </div>
-
-                <!-- Offer 3 -->
-                <div class="kdm-offer-dark-card" onclick="openPackageModal('E-Commerce Web Offer (20% OFF)')">
-                  <div class="kdm-offer-dark-icon">
-                    <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="60" height="60" rx="14" fill="url(#num_grad_d3)"/>
-                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5"/>
-                      <defs><linearGradient id="num_grad_d3" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
-                    </svg>
-                  </div>
-                  <div class="kdm-offer-dark-content">
-                    <h4>Premium E-Commerce Offer</h4>
-                    <p class="kdm-offer-dark-value">Get 20% OFF</p>
-                    <h5 class="kdm-offer-dark-sub">On Full Online Store Package</h5>
-                    <h5 class="kdm-offer-dark-desc">Launch your complete online store & save maximum!</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-    </section>
-
-    <!-- Bootstrap JS -->
-    <script src="js/international-page.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Advanced E-commerce Website Package Cost on Demand')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
     </div>
-    <!-- Main Closed -->
-    <!-- Form Container Start -->
+</div>
 
-    <div class="container">
-      <hr class="tall">
+</div></section>
+
+        <!-- ===== METRICS & RESULTS SECTION ===== -->
+        <section class="kdm-seo-metrics-section">
+            <div class="container">
+                <div class="kdm-metrics-header">
+                    <span class="kdm-top-badge" style="background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 12px; font-weight: 800; padding: 6px 20px; border-radius: 50px; text-transform: uppercase; letter-spacing: 1.2px; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+                        <i class="fa fa-line-chart"></i> MEASURABLE STANDARDS
+                    </span>
+                    <h2 class="kdm-metrics-title">
+                        Key Web Performance Metrics <span>We Guarantee</span>
+                    </h2>
+                    <p class="kdm-metrics-subtitle">
+                        Every website we engineer is built to perform impeccably on all modern web benchmarks.
+                    </p>
+                </div>
+
+                <div class="kdm-metrics-grid">
+                    <!-- Metric Card 1 -->
+                    <div class="kdm-metrics-card">
+                        <div class="kdm-metrics-icon-wrap" style="background: rgba(56, 189, 248, 0.12); border-color: rgba(56, 189, 248, 0.3); color: #38bdf8;">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <h3 class="kdm-metrics-card-title">100% Mobile Responsiveness</h3>
+                        <p class="kdm-metrics-card-desc">Flawless rendering and UI navigation across smartphones, tablets, laptops, and 4K displays.</p>
+                        <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Mobile-First UI</span>
+                    </div>
+
+                    <!-- Metric Card 2 -->
+                    <div class="kdm-metrics-card">
+                        <div class="kdm-metrics-icon-wrap" style="background: rgba(45, 212, 191, 0.12); border-color: rgba(45, 212, 191, 0.3); color: #2dd4bf;">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        <h3 class="kdm-metrics-card-title">Ultra-Fast Page Loading</h3>
+                        <p class="kdm-metrics-card-desc">Optimized image compression, clean CSS/JS code, and CDN setup ensuring page load under 2 seconds.</p>
+                        <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Core Web Vitals 90+</span>
+                    </div>
+
+                    <!-- Metric Card 3 -->
+                    <div class="kdm-metrics-card">
+                        <div class="kdm-metrics-icon-wrap" style="background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3); color: #fbbf24;">
+                            <i class="fa fa-mouse-pointer"></i>
+                        </div>
+                        <h3 class="kdm-metrics-card-title">High-Converting UI/UX Flow</h3>
+                        <p class="kdm-metrics-card-desc">Strategic call-to-action buttons, WhatsApp widgets, and instant forms designed to convert visitors into inquiries.</p>
+                        <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Lead Generation UI</span>
+                    </div>
+
+                    <!-- Metric Card 4 -->
+                    <div class="kdm-metrics-card">
+                        <div class="kdm-metrics-icon-wrap" style="background: rgba(168, 85, 247, 0.12); border-color: rgba(168, 85, 247, 0.3); color: #a855f7;">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <h3 class="kdm-metrics-card-title">SEO-Friendly Architecture</h3>
+                        <p class="kdm-metrics-card-desc">Clean HTML5 structure, XML sitemaps, canonical tags, and schema readiness for fast Google indexing.</p>
+                        <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Search Engine Ready</span>
+                    </div>
+
+                    <!-- Metric Card 5 -->
+                    <div class="kdm-metrics-card">
+                        <div class="kdm-metrics-icon-wrap" style="background: rgba(244, 63, 94, 0.12); border-color: rgba(244, 63, 94, 0.3); color: #f43f5e;">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <h3 class="kdm-metrics-card-title">Secure SSL &amp; API Setup</h3>
+                        <p class="kdm-metrics-card-desc">Encrypted SSL certificates, secure payment gateways (Razorpay/Stripe), and protected form submission endpoints.</p>
+                        <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Encrypted Security</span>
+                    </div>
+
+                    <!-- Metric Card 6 -->
+                    <div class="kdm-metrics-card">
+                        <div class="kdm-metrics-icon-wrap" style="background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3); color: #10b981;">
+                            <i class="fa fa-headphones"></i>
+                        </div>
+                        <h3 class="kdm-metrics-card-title">45 Days Post-Launch Support</h3>
+                        <p class="kdm-metrics-card-desc">Free technical assistance, content updates guidance, and admin dashboard training after going live.</p>
+                        <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Free Maintenance</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== DEVELOPMENT TIMELINE SECTION ===== -->
+        <section class="kdm-seo-timeline-section" style="background: #ffffff !important; width: 100% !important; padding: 75px 0 !important; color: #0f172a !important; position: relative; z-index: 5;">
+            <div class="container">
+                <div class="kdm-timeline-header">
+                    <span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+                        <i class="fa fa-clock-o"></i> PROJECT TIMELINE
+                    </span>
+                    <h2 class="kdm-timeline-title">
+                        Website Design &amp; Development <span>Timeline</span>
+                    </h2>
+                    <p class="kdm-timeline-subtitle">A clear step-by-step timeline of how your website moves from initial wireframe to live launch.</p>
+                </div>
+
+                <div class="kdm-timeline-grid">
+                    <!-- Phase 1 -->
+                    <div class="kdm-timeline-card month-1">
+                        <span class="kdm-timeline-badge">DAYS 1–5</span>
+                        <div class="kdm-timeline-icon">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <h3 class="kdm-timeline-card-title">Requirement Audit &amp; Sitemap Planning</h3>
+                        <p class="kdm-timeline-card-desc">Business requirement discovery, domain &amp; hosting setup, sitemap structuring, and tech stack selection based on your package plan.</p>
+                        <ul class="kdm-timeline-list">
+                            <li><i class="fa fa-check-circle"></i> Business audit &amp; sitemap wireframe</li>
+                            <li><i class="fa fa-check-circle"></i> Domain &amp; cloud server setup</li>
+                            <li><i class="fa fa-check-circle"></i> Technology stack finalization</li>
+                        </ul>
+                    </div>
+
+                    <!-- Phase 2 -->
+                    <div class="kdm-timeline-card month-2">
+                        <span class="kdm-timeline-badge">DAYS 6–12</span>
+                        <div class="kdm-timeline-icon">
+                            <i class="fa fa-paint-brush"></i>
+                        </div>
+                        <h3 class="kdm-timeline-card-title">UI/UX Wireframing &amp; Visual Approval</h3>
+                        <p class="kdm-timeline-card-desc">Design of home page and key inner pages with custom brand colors, typography, call-to-action buttons, and visual graphics for your review.</p>
+                        <ul class="kdm-timeline-list">
+                            <li><i class="fa fa-check-circle"></i> Home page UI mockups approved</li>
+                            <li><i class="fa fa-check-circle"></i> Mobile &amp; desktop design layouts</li>
+                            <li><i class="fa fa-check-circle"></i> Brand assets &amp; color palette</li>
+                        </ul>
+                    </div>
+
+                    <!-- Phase 3 -->
+                    <div class="kdm-timeline-card month-3">
+                        <span class="kdm-timeline-badge">DAYS 13–22</span>
+                        <div class="kdm-timeline-icon">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <h3 class="kdm-timeline-card-title">Frontend, Backend &amp; CMS Development</h3>
+                        <p class="kdm-timeline-card-desc">Responsive coding, CMS database setup, product/content integration, contact form &amp; payment gateway API connections.</p>
+                        <ul class="kdm-timeline-list">
+                            <li><i class="fa fa-check-circle"></i> Responsive frontend development</li>
+                            <li><i class="fa fa-check-circle"></i> Payment gateway &amp; API setup</li>
+                            <li><i class="fa fa-check-circle"></i> CMS content &amp; product uploads</li>
+                        </ul>
+                    </div>
+
+                    <!-- Phase 4 -->
+                    <div class="kdm-timeline-card month-4">
+                        <span class="kdm-timeline-badge">DAYS 23–30</span>
+                        <div class="kdm-timeline-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <h3 class="kdm-timeline-card-title">Testing, SEO Optimization &amp; Live Launch</h3>
+                        <p class="kdm-timeline-card-desc">Cross-browser and mobile device testing, speed optimization, Google Search Console indexing, final approval, and official website launch.</p>
+                        <ul class="kdm-timeline-list">
+                            <li><i class="fa fa-check-circle"></i> 100% Cross-browser QA testing</li>
+                            <li><i class="fa fa-check-circle"></i> Page speed &amp; Core Web Vitals audit</li>
+                            <li><i class="fa fa-check-circle"></i> Official live website launch</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="kdm-timeline-disclaimer">
+                    <div class="kdm-timeline-disclaimer-icon">
+                        <i class="fa fa-info-circle"></i>
+                    </div>
+                    <p class="kdm-timeline-disclaimer-text">
+                        <strong>Important Note on Web Development:</strong> Standard corporate websites complete within 2 to 3 weeks, while custom E-commerce stores and web apps launch within 4 to 5 weeks with 45 days post-launch support included.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 9-STEP PROCESS SECTION ===== -->
+        <div class="mainprocess">
+            <div style="text-align: center; max-width: 900px; margin: 0 auto 50px auto;">
+                <div class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 12px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 16px;">
+                    <i class="fa fa-cogs"></i> DEVELOPMENT ROADMAP
+                </div>
+                <h2 class="process-title">9 Steps to a Professional <span>Website Design Package</span></h2>
+                <p class="process-subtitle">Our structured web engineering methodology ensuring high visual appeal and lead performance.</p>
+            </div>
+
+            <div class="roadmap-flow">
+                <!-- Step 1 -->
+                <div class="roadmap-box" data-step="1">
+                    <div class="roadmap-box-top">
+                        <span class="roadmap-step-badge">STEP 01</span>
+                        <div class="roadmap-icon-hub">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                    <h3>Requirement Understanding</h3>
+                    <p>Web Design team understands your business goals, target audience, competitors, and expectations to finalize tech stack and package plan.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="roadmap-box" data-step="2">
+                    <div class="roadmap-box-top">
+                        <span class="roadmap-step-badge">STEP 02</span>
+                        <div class="roadmap-icon-hub">
+                            <i class="fa fa-sitemap"></i>
+                        </div>
+                    </div>
+                    <h3>Website Planning &amp; Structure</h3>
+                    <p>We finalize the complete website and page hierarchy, navigation flow, and layout to ensure visitors find information effortlessly.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="roadmap-box" data-step="3">
+                    <div class="roadmap-box-top">
+                        <span class="roadmap-step-badge">STEP 03</span>
+                        <div class="roadmap-icon-hub">
+                            <i class="fa fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <h3>UI/UX Design Direction</h3>
+                    <p>We design clean, modern layouts with custom brand colors, fonts, and high-quality visual graphics that build trust and usability.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="roadmap-box" data-step="4">
+                    <div class="roadmap-box-top">
+                        <span class="roadmap-step-badge">STEP 04</span>
+                        <div class="roadmap-icon-hub">
+                            <i class="fa fa-pencil-square-o"></i>
+                        </div>
+                    </div>
+                    <h3>Content &amp; Page Finalization</h3>
+                    <p>Our copywriters curate clear, professional website content that communicates your value proposition effectively to visitors.</p>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="roadmap-box" data-step="5">
+                    <div class="roadmap-box-top">
+                        <span class="roadmap-step-badge">STEP 05</span>
+                        <div class="roadmap-icon-hub">
+                            <i class="fa fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Our web developers program your chosen framework (WordPress, Shopify, Next.js, PHP) with clean, responsive code.</p>
+                </div>
+
+                <!-- Step 6 -->
+                <div class="roadmap-box" data-step="6">
+                    <div class="roadmap-box-top">
+                        <span class="roadmap-step-badge">STEP 06</span>
+                        <div class="roadmap-icon-hub">
+                            <i class="fa fa-plug"></i>
+                        </div>
+                    </div>
+                    <h3>API, Forms &amp; Feature Integration</h3>
+                    <p>We integrate payment gateways, contact forms, enquiry buttons, WhatsApp widgets, and click-to-call buttons for instant leads.</p>
+                </div>
+
+                <!-- Step 7 -->
+                <div class="roadmap-box" data-step="7">
+                    <div class="roadmap-box-top">
+                        <span class="roadmap-step-badge">STEP 07</span>
+                        <div class="roadmap-icon-hub">
+                            <i class="fa fa-line-chart"></i>
+                        </div>
+                    </div>
+                    <h3>SEO &amp; Performance Setup</h3>
+                    <p>We optimize website URLs, page load speeds, meta tags, and mobile responsiveness to ensure search engine visibility.</p>
+                </div>
+
+                <!-- Step 8 -->
+                <div class="roadmap-box" data-step="8">
+                    <div class="roadmap-box-top">
+                        <span class="roadmap-step-badge">STEP 08</span>
+                        <div class="roadmap-icon-hub">
+                            <i class="fa fa-check-square-o"></i>
+                        </div>
+                    </div>
+                    <h3>Testing &amp; Quality Check</h3>
+                    <p>We conduct rigorous quality assurance across devices, screen resolutions, and browsers to eliminate bugs before launch.</p>
+                </div>
+
+                <!-- Step 9 -->
+                <div class="roadmap-box" data-step="9">
+                    <div class="roadmap-box-top">
+                        <span class="roadmap-step-badge">STEP 09</span>
+                        <div class="roadmap-icon-hub">
+                            <i class="fa fa-rocket"></i>
+                        </div>
+                    </div>
+                    <h3>Launch &amp; Post-Support</h3>
+                    <p>Upon final approval, we publish your website live and provide admin dashboard training along with 45 days free technical support.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== EXPERTS & LEADERSHIP SECTION ===== -->
+        <section class="kdm-experts-section">
+            <div class="container">
+                <div class="kdm-experts-header">
+                    <span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+                        <i class="fa fa-user-circle-o"></i> LEADERSHIP &amp; EXPERT TEAM
+                    </span>
+                    <h2 class="kdm-experts-title">
+                        Managed by Experienced <span>Web Developers</span>
+                    </h2>
+                    <p class="kdm-experts-subtitle">Your website project is supervised by seasoned web architects with over 13+ years of industry experience.</p>
+                </div>
+
+                <div class="kdm-experts-grid">
+                    <!-- Expert Card 1: Gaurav Dubey -->
+                    <div class="kdm-expert-card">
+                        <div class="kdm-expert-header-box">
+                            <div class="kdm-expert-avatar-img">
+                                <img src="images/gaurav%20dubey%20digital%20marketing.webp" alt="Gaurav Dubey - Founder &amp; Web Development Lead" title="Gaurav Dubey - Founder &amp; Web Development Lead" class="kdm-expert-img">
+                            </div>
+                            <div class="kdm-expert-name-title">
+                                <h3 class="kdm-expert-name">Gaurav Dubey</h3>
+                                <span class="kdm-expert-role">Founder &amp; Lead Web Specialist (13+ Yrs Exp)</span>
+                            </div>
+                        </div>
+                        <p class="kdm-expert-bio">
+                            With 13+ years of digital experience, Gaurav Dubey has directed web architecture and UI/UX design for 850+ clients globally, focusing on speed, responsiveness, and conversion UI.
+                        </p>
+                        <ul class="kdm-expert-list">
+                            <li><i class="fa fa-check-circle"></i> 13+ Years Web Architecture Leadership</li>
+                            <li><i class="fa fa-check-circle"></i> 850+ Global Web Projects Delivered</li>
+                            <li><i class="fa fa-check-circle"></i> High-Converting UI/UX Strategy</li>
+                        </ul>
+                    </div>
+
+                    <!-- Expert Card 2: Delhi In-House Web Team -->
+                    <div class="kdm-expert-card">
+                        <div class="kdm-expert-header-box">
+                            <div class="kdm-expert-avatar team">12+</div>
+                            <div class="kdm-expert-name-title">
+                                <h3 class="kdm-expert-name">In-House Web UI/UX &amp; Development Team</h3>
+                                <span class="kdm-expert-role">Delhi Branch Headquarters</span>
+                            </div>
+                        </div>
+                        <p class="kdm-expert-bio">
+                            A dedicated in-house team of certified UI/UX designers, WordPress/Shopify developers, and Next.js engineers working under one roof for your web application success.
+                        </p>
+                        <ul class="kdm-expert-list">
+                            <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Web Engineers</li>
+                            <li><i class="fa fa-check-circle"></i> WordPress, Shopify &amp; Next.js Specialists</li>
+                            <li><i class="fa fa-check-circle"></i> 45 Days Free Technical Post-Launch Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== REDESIGNED POPULAR INDUSTRIES WE WORK WITH ===== -->
+        <section class="industry-slider-section">
+            <div class="container">
+                <h2 class="industry-heading">Most Popular Industries <strong>We Design For</strong></h2>
+
+                <div class="industry-slider">
+                    <div class="industry-track">
+
+                        <!-- Industry 1 -->
+                        <div class="industry-card">
+                            <div class="industry-overlay">
+                                <div class="kdm-ind-icon-hub" style="background: rgba(56, 189, 248, 0.12); border-color: rgba(56, 189, 248, 0.3);">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                </div>
+                                <div class="text-box">
+                                    <h3>Astrology</h3>
+                                    <p>Custom portals &amp; booking websites for 60+ astrology consultants and app platforms.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 2 -->
+                        <div class="industry-card">
+                            <div class="industry-overlay">
+                                <div class="kdm-ind-icon-hub" style="background: rgba(45, 212, 191, 0.12); border-color: rgba(45, 212, 191, 0.3);">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                                    </svg>
+                                </div>
+                                <div class="text-box">
+                                    <h3>Hair Transplant</h3>
+                                    <p>High-converting clinical websites for 50+ hair restoration clinics and surgeons.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 3 -->
+                        <div class="industry-card">
+                            <div class="industry-overlay">
+                                <div class="kdm-ind-icon-hub" style="background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3);">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                        <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                                    </svg>
+                                </div>
+                                <div class="text-box">
+                                    <h3>Study Abroad</h3>
+                                    <p>Lead generation education portals for 30+ overseas student recruitment consultants.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 4 -->
+                        <div class="industry-card">
+                            <div class="industry-overlay">
+                                <div class="kdm-ind-icon-hub" style="background: rgba(244, 63, 94, 0.12); border-color: rgba(244, 63, 94, 0.3);">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#f43f5e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.72-8.72 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                                    </svg>
+                                </div>
+                                <div class="text-box">
+                                    <h3>Cosmetic Surgeon</h3>
+                                    <p>Premium medical UI/UX websites for 25+ plastic and cosmetic surgery centers.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 5 -->
+                        <div class="industry-card">
+                            <div class="industry-overlay">
+                                <div class="kdm-ind-icon-hub" style="background: rgba(99, 102, 241, 0.12); border-color: rgba(99, 102, 241, 0.3);">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                        <line x1="8" y1="21" x2="16" y2="21" />
+                                        <line x1="12" y1="17" x2="12" y2="21" />
+                                    </svg>
+                                </div>
+                                <div class="text-box">
+                                    <h3>CA &amp; Finance</h3>
+                                    <p>Professional corporate websites for 20+ chartered accountant &amp; tax advisory firms.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Industry 6 -->
+                        <div class="industry-card">
+                            <div class="industry-overlay">
+                                <div class="kdm-ind-icon-hub" style="background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3);">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="9" cy="21" r="1" />
+                                        <circle cx="20" cy="21" r="1" />
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                                    </svg>
+                                </div>
+                                <div class="text-box">
+                                    <h3>Ecommerce</h3>
+                                    <p>Feature-rich online stores built on Shopify &amp; WooCommerce for 20+ retail brands.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 35px;">
+                    <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn" style="background: linear-gradient(135deg, #0284c7, #3b82f6); color: #fff; padding: 14px 32px; border-radius: 50px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 8px 25px rgba(2, 132, 199, 0.35);">See All Industries We Serve <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== WHY CHOOSE GRID SECTION ===== -->
+        <section class="locationdetails-why-section">
+            <div class="locationdetails-why-container">
+                <div style="text-align: center; margin-bottom: 25px;">
+                    <span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 14px;">
+                        <i class="fa fa-trophy"></i> INDUSTRY LEADERS IN WEB DESIGN
+                    </span>
+                    <h2 class="locationdetails-why-heading" style="color: #0f172a !important; -webkit-text-fill-color: #0f172a !important; font-size: 36px !important; font-weight: 800 !important; line-height: 1.3 !important; letter-spacing: -0.5px !important; margin-bottom: 16px !important;">
+                        Why Choose <span style="color: #0284c7 !important; -webkit-text-fill-color: #0284c7 !important;">King of Digital Marketing</span> for Website Designing Packages?
+                    </h2>
+                </div>
+
+                <p>Choosing the right website design package for your business is important for long term business growth. King of Digital Marketing offers website design and development packages in Delhi, India that focus on quality, performance, and real business results. We don't just create good looking websites but we build websites that are easy to use, fully responsive, and designed to generate inquiries and sales.</p>
+
+                <div class="locationdetails-why-cards">
+                    <!-- Why Card 1 -->
+                    <div class="why-card" style="--accent: #FF6F00">
+                        <div class="icon-box icon-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2" width="40" height="40">
+                                <rect x="3" y="4" width="18" height="12" rx="2" />
+                                <path d="M8 20h8" />
+                                <path d="M12 16v4" />
+                            </svg>
+                        </div>
+                        <h3>Business Focused Websites</h3>
+                        <p>Websites engineered specifically to build brand credibility, inquiries, and revenue.</p>
+                    </div>
+
+                    <!-- Why Card 2 -->
+                    <div class="why-card" style="--accent: #008DC2">
+                        <div class="icon-box icon-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2" width="40" height="40">
+                                <ellipse cx="12" cy="5" rx="8" ry="3" />
+                                <path d="M4 5v4c0 1.7 3.6 3 8 3s8-1.3 8-3V5" />
+                                <path d="M4 9v4c0 1.7 3.6 3 8 3s8-1.3 8-3v-4" />
+                            </svg>
+                        </div>
+                        <h3>Modern &amp; Scalable Tech</h3>
+                        <p>Built using updated tech stacks (WordPress, Shopify, Next.js) for high speed and security.</p>
+                    </div>
+
+                    <!-- Why Card 3 -->
+                    <div class="why-card" style="--accent: #0B456A">
+                        <div class="icon-box icon-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2" width="40" height="40">
+                                <rect x="2" y="3" width="20" height="14" rx="2" />
+                                <rect x="7" y="19" width="10" height="3" rx="1" />
+                                <path d="M8 3v14" />
+                                <path d="M16 3v14" />
+                            </svg>
+                        </div>
+                        <h3>User Friendly UI/UX</h3>
+                        <p>Intuitive layouts and smooth navigation that improve user engagement across all devices.</p>
+                    </div>
+
+                    <!-- Why Card 4 -->
+                    <div class="why-card" style="--accent: #6A829A">
+                        <div class="icon-box icon-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" width="40" height="40">
+                                <path d="M12 1v22M17 5H9a3 3 0 0 0 0 6h6a3 3 0 0 1 0 6H7" />
+                            </svg>
+                        </div>
+                        <h3>Flexible &amp; Transparent Pricing</h3>
+                        <p>Clear, fixed package pricing for startups, SMEs, and custom web applications with zero hidden fees.</p>
+                    </div>
+
+                    <!-- Why Card 5 -->
+                    <div class="why-card" style="--accent: #009688">
+                        <div class="icon-box icon-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="42" height="42">
+                                <path d="M3 12a9 9 0 0 1 15-6" />
+                                <path d="M21 12a9 9 0 0 1-15 6" />
+                                <path d="M18 3v3h-3" />
+                                <path d="M6 21v-3h3" />
+                                <circle cx="12" cy="12" r="3" />
+                            </svg>
+                        </div>
+                        <h3>Transparent Process &amp; Support</h3>
+                        <p>Prompt developer communication, milestone-based timelines, and 45 days post-launch support.</p>
+                    </div>
+
+                    <!-- Why Card 6 -->
+                    <div class="why-card" style="--accent: #cfba1f">
+                        <div class="icon-box icon-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" width="40" height="40">
+                                <path d="M12 3l7 4v5c0 5-3.5 8-7 9-3.5-1-7-4-7-9V7l7-4z" />
+                                <path d="M9 12l2 2 4-4" />
+                            </svg>
+                        </div>
+                        <h3>Proven Track Record</h3>
+                        <p>13+ years delivering 850+ successful websites across global markets and diverse industries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ===== -->
+        <section class="kdm-testimonial-section">
+            <div class="container">
+                <div class="kdm-testimonial-header">
+                    <span class="kdm-testimonial-badge"><i class="fa fa-star"></i> CLIENT TESTIMONIALS</span>
+                    <h2 class="kdm-testimonial-title">What Our Global Clients <strong>Say About Our Web Design Results</strong></h2>
+                    <p class="kdm-testimonial-subtitle">Real feedback from business owners and founders who built their websites with us.</p>
+                </div>
+
+                <div class="kdm-testimonial-wrapper">
+                    <div class="kdm-testimonial-slides">
+
+                        <!-- Slide 1: Aji Jeeva -->
+                        <div class="kdm-testimonial-card active">
+                            <div class="kdm-testimonial-quote-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                                </svg>
+                            </div>
+                            <div class="kdm-testimonial-stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <p class="kdm-testimonial-quote">
+                                "I hired King of Digital Marketing for website design and SEO services, and I am really happy with the final result. The website is extremely fast, beautiful, and ranking on Google. Gaurav Dubey and his team were always available to assist me."
+                            </p>
+                            <div class="kdm-testimonial-author-box">
+                                <div class="kdm-testimonial-avatar grad-1">AJ</div>
+                                <div class="kdm-testimonial-info">
+                                    <h4 class="kdm-testimonial-name">Aji Jeeva</h4>
+                                    <span class="kdm-testimonial-role">Founder — smgains.com (UK)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2: Roopak -->
+                        <div class="kdm-testimonial-card">
+                            <div class="kdm-testimonial-quote-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                                </svg>
+                            </div>
+                            <div class="kdm-testimonial-stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <p class="kdm-testimonial-quote">
+                                "King of Digital Marketing built a responsive educational portal for our university guidance service. They kept everything transparent, delivered on time, and gave great post-launch support. Highly recommended!"
+                            </p>
+                            <div class="kdm-testimonial-author-box">
+                                <div class="kdm-testimonial-avatar grad-2">R</div>
+                                <div class="kdm-testimonial-info">
+                                    <h4 class="kdm-testimonial-name">Roopak</h4>
+                                    <span class="kdm-testimonial-role">Founder — gotouniversity.com (Dubai)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3: Younus -->
+                        <div class="kdm-testimonial-card">
+                            <div class="kdm-testimonial-quote-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                                </svg>
+                            </div>
+                            <div class="kdm-testimonial-stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <p class="kdm-testimonial-quote">
+                                "The team built our travel agency website with custom booking forms and clean layouts. Gaurav Dubey personally ensured the project was delivered smoothly and trained our staff on managing the CMS."
+                            </p>
+                            <div class="kdm-testimonial-author-box">
+                                <div class="kdm-testimonial-avatar grad-3">Y</div>
+                                <div class="kdm-testimonial-info">
+                                    <h4 class="kdm-testimonial-name">Younus</h4>
+                                    <span class="kdm-testimonial-role">Founder — moroccotourismagency.com (Morocco)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4: Kejsi -->
+                        <div class="kdm-testimonial-card">
+                            <div class="kdm-testimonial-quote-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                                </svg>
+                            </div>
+                            <div class="kdm-testimonial-stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <p class="kdm-testimonial-quote">
+                                "It's been a great experience working with King of Digital Marketing. They built an e-commerce website for our hair solution products that works flawlessly on mobile devices and accepts online payments."
+                            </p>
+                            <div class="kdm-testimonial-author-box">
+                                <div class="kdm-testimonial-avatar grad-4">K</div>
+                                <div class="kdm-testimonial-info">
+                                    <h4 class="kdm-testimonial-name">Kejsi</h4>
+                                    <span class="kdm-testimonial-role">Founder — herahairsolutions.com (Turkey)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 5: David -->
+                        <div class="kdm-testimonial-card">
+                            <div class="kdm-testimonial-quote-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.432.917-3.995 3.638-3.995 5.849h3.983v10h-9.983z" />
+                                </svg>
+                            </div>
+                            <div class="kdm-testimonial-stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <p class="kdm-testimonial-quote">
+                                "Gaurav Dubey and his web design team delivered a high-quality website for Audio City USA. Page speeds are excellent, mobile layout is seamless, and customer inquiries have increased significantly."
+                            </p>
+                            <div class="kdm-testimonial-author-box">
+                                <div class="kdm-testimonial-avatar grad-5">D</div>
+                                <div class="kdm-testimonial-info">
+                                    <h4 class="kdm-testimonial-name">David</h4>
+                                    <span class="kdm-testimonial-role">Founder — audiocityusa.com (USA)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 6: Dr. Sanjay -->
+                        <div class="kdm-testimonial-card">
+                            <div class="kdm-testimonial-quote-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                                </svg>
+                            </div>
+                            <div class="kdm-testimonial-stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <p class="kdm-testimonial-quote">
+                                "Our clinical website was redesigned by King of Digital Marketing. The layout is professional, patient appointment forms work instantly, and our online conversions have improved noticeably."
+                            </p>
+                            <div class="kdm-testimonial-author-box">
+                                <div class="kdm-testimonial-avatar grad-6">DS</div>
+                                <div class="kdm-testimonial-info">
+                                    <h4 class="kdm-testimonial-name">Dr. Sanjay</h4>
+                                    <span class="kdm-testimonial-role">Founder — cocoona.in (Dubai)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Navigation Arrows -->
+                    <button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+                        <i class="fa fa-chevron-left"></i>
+                    </button>
+                    <button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+                        <i class="fa fa-chevron-right"></i>
+                    </button>
+
+                    <!-- Pagination Dots -->
+                    <div class="kdm-testimonial-dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAQ & GRAND OFFERS SECTION ===== -->
+        <section class="kdm-faq-section">
+            <div class="container">
+                <div class="row">
+                    <!-- Left: FAQ Accordion -->
+                    <div class="col-md-6">
+                        <div style="margin-bottom: 25px;">
+                            <span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+                                <i class="fa fa-question-circle"></i> FAQ
+                            </span>
+                            <h2 style="font-size: 26px; font-weight: 800; color: #1e293b; margin-top: 10px;">
+                                Frequently Asked <strong>Questions (FAQs)</strong>
+                            </h2>
+                        </div>
+
+                        <div class="kdm-faq-accordion">
+                            <div class="kdm-faq-item active">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.1. What Is Included in the Website Design Package?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The package includes web design, responsive layout, content setup, contact forms, and basic SEO friendliness.</p>
+                                </div>
+                            </div>
+
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.2. Do I Need to Buy Domain and Hosting Separately?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, domain and hosting are generally purchased by the client so you remain the owner. We can guide you on the best options.</p>
+                                </div>
+                            </div>
+
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.3. Who Will Provide Website Content and Images?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can provide content and images, or we can help create simple content and use professional free images.</p>
+                                </div>
+                            </div>
+
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.4. Which Technology or Tech Stack Will Be Used?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We build websites using WordPress, Shopify, Next.js, or HTML/CSS based on your requirements.</p>
+                                </div>
+                            </div>
+
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.5. How Much Time Will It Take to Complete the Website?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Timelines depend on project size. Basic websites take 2 to 3 weeks; custom web apps take 4 to 6 weeks.</p>
+                                </div>
+                            </div>
+
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.6. Will the Website Be Mobile-Friendly?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, all websites are fully responsive and work smoothly on mobile, tablet, and desktop devices.</p>
+                                </div>
+                            </div>
+
+                            <div class="kdm-faq-item">
+                                <button type="button" class="kdm-faq-header">
+                                    <span class="kdm-faq-question">Q.7. Do You Provide Support After Website Launch?</span>
+                                    <span class="kdm-faq-icon">+</span>
+                                </button>
+                                <div class="kdm-faq-body">
+                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 45-day free post-launch support &amp; technical maintenance guidance is included.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Grand Offers Cards -->
+                    <div class="col-md-6">
+                        <div style="margin-bottom: 25px;">
+                            <span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.3); color: #d97706; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+                                <i class="fa fa-gift"></i> SPECIAL OFFERS
+                            </span>
+                            <h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups &amp; Businesses</strong></h2>
+                        </div>
+
+                        <div class="kdm-offer-dark-list">
+                            <!-- Offer 1 -->
+                            <div class="kdm-offer-dark-card" onclick="openPackageModal('Startup Website Booster Offer (10% OFF)')">
+                                <div class="kdm-offer-dark-icon">
+                                    <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="60" height="60" rx="14" fill="url(#num_grad_d1)"/>
+                                        <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                                        <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                                        <defs><linearGradient id="num_grad_d1" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#0284c7"/><stop offset="1" stop-color="#0369a1"/></linearGradient></defs>
+                                    </svg>
+                                </div>
+                                <div class="kdm-offer-dark-content">
+                                    <h4>Startup Web Booster Offer</h4>
+                                    <p class="kdm-offer-dark-value">Get 10% OFF</p>
+                                    <h5 class="kdm-offer-dark-sub">On Basic Web Package</h5>
+                                    <h5 class="kdm-offer-dark-desc">Order your website design today &amp; get instant 10% OFF!</h5>
+                                </div>
+                            </div>
+
+                            <!-- Offer 2 -->
+                            <div class="kdm-offer-dark-card" onclick="openPackageModal('Growth Web Plan Offer (15% OFF)')">
+                                <div class="kdm-offer-dark-icon">
+                                    <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="60" height="60" rx="14" fill="url(#num_grad_d2)"/>
+                                        <line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                                        <line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                                        <line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                                        <polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+                                        <defs><linearGradient id="num_grad_d2" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#0ea5e9"/><stop offset="1" stop-color="#0284c7"/></linearGradient></defs>
+                                    </svg>
+                                </div>
+                                <div class="kdm-offer-dark-content">
+                                    <h4>Growth Business Web Offer</h4>
+                                    <p class="kdm-offer-dark-value">Get 15% OFF</p>
+                                    <h5 class="kdm-offer-dark-sub">On Advance Corporate Package</h5>
+                                    <h5 class="kdm-offer-dark-desc">Build a high-converting website &amp; save BIG!</h5>
+                                </div>
+                            </div>
+
+                            <!-- Offer 3 -->
+                            <div class="kdm-offer-dark-card" onclick="openPackageModal('E-Commerce Web Offer (20% OFF)')">
+                                <div class="kdm-offer-dark-icon">
+                                    <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="60" height="60" rx="14" fill="url(#num_grad_d3)"/>
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5"/>
+                                        <defs><linearGradient id="num_grad_d3" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
+                                    </svg>
+                                </div>
+                                <div class="kdm-offer-dark-content">
+                                    <h4>Premium E-Commerce Offer</h4>
+                                    <p class="kdm-offer-dark-value">Get 20% OFF</p>
+                                    <h5 class="kdm-offer-dark-sub">On Full Online Store Package</h5>
+                                    <h5 class="kdm-offer-dark-desc">Launch your complete online store &amp; save maximum!</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Scripts -->
+        <script src="js/international-page.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/kdm-faq.js"></script>
     </div>
-	
-    <script src="js/kdm-faq.js"></script>
 </asp:Content>

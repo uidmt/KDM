@@ -14,7 +14,7 @@
 		<meta property="og:description"
 			content="Helping businesses scale through SEO, Google Ads, Meta Ads & Performance Marketing. 13+ Years Experience | 900+ Projects.">
 		<meta property="og:image"
-			content="https://www.kingofdigitalmarketing.com/images/gauravdubey/gaurav%20dubey%20digital%20marketing.png">
+			content="https://www.kingofdigitalmarketing.com/images/gauravdubey/gaurav%20dubey%20digital%20marketing.webp">
 		<meta property="og:url" content="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx">
 		<meta property="og:type" content="website" />
 
@@ -24,7 +24,7 @@
 		<meta name="twitter:description"
 			content="Helping businesses scale through SEO, Google Ads, Meta Ads & Performance Marketing. 13+ Years Experience.">
 		<meta name="twitter:image"
-			content="https://www.kingofdigitalmarketing.com/images/gauravdubey/gaurav%20dubey%20digital%20marketing.png">
+			content="https://www.kingofdigitalmarketing.com/images/gauravdubey/gaurav%20dubey%20digital%20marketing.webp">
 
 		<meta name="Robots" content="index, follow">
 		<meta name="googlebot" content="index, follow">
@@ -54,7 +54,7 @@
 	    }
 	  ],
 	  "url": "https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx",
-	  "image": "https://www.kingofdigitalmarketing.com/images/gauravdubey/gaurav%20dubey%20digital%20marketing.png",
+	  "image": "https://www.kingofdigitalmarketing.com/images/gauravdubey/gaurav%20dubey%20digital%20marketing.webp",
 	  "sameAs": [
 	    "https://www.facebook.com/gauravdubey.in/",
 	    "https://www.linkedin.com/in/iam-gaurav-dubey/",
@@ -71,7 +71,7 @@
 	  "@context": "https://schema.org",
 	  "@type": "ProfessionalService",
 	  "name": "Gaurav Dubey Digital Marketing Consulting",
-	  "image": "https://www.kingofdigitalmarketing.com/images/gauravdubey/gaurav%20dubey%20digital%20marketing.png",
+	  "image": "https://www.kingofdigitalmarketing.com/images/gauravdubey/gaurav%20dubey%20digital%20marketing.webp",
 	  "url": "https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx",
 	  "telephone": "+919555696058",
 	  "priceRange": "$$$",

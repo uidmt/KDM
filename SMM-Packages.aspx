@@ -1,15 +1,13 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>SMM Packages, Social Media Paid Ads Price in Delhi, India</title>
-    <meta name="keywords"
-      content="SMM Package, SMM Packages india, Affordable SMM Packages, SMM Plan, SMM Pricing, SMM Price, SMM Costs Social Media Optimization Packages,Professional SMM Service Package, Quality SMM prices india, SMM price delhi India, SMM Packages in India, SMM Package in Delhi, SMM Package in Mumbai, Best SMM Package">
-    <meta name="description"
-      content="Affordable SMM Packages in Delhi, India. Paid Ads Management Price for Facebbok, Instagram, LinkedIn, YouTube. Get Best SMM Package in Chennai, Mumbai, Hyderabad, Bangalore.">
+    <title>SMM Packages, Social Media Paid Ads Price in Delhi, India</title>
+    <meta name="keywords" content="SMM Package, SMM Packages india, Affordable SMM Packages, SMM Plan, SMM Pricing, SMM Price, SMM Costs Social Media Optimization Packages, Professional SMM Service Package, Quality SMM prices india, SMM price delhi India, SMM Packages in India, SMM Package in Delhi, SMM Package in Mumbai, Best SMM Package">
+    <meta name="description" content="Affordable SMM Packages in Delhi, India. Paid Ads Management Price for Facebook, Instagram, LinkedIn, YouTube. Get Best SMM Package in Chennai, Mumbai, Hyderabad, Bangalore.">
+    <meta name="author" content="Gaurav Dubey | King of Digital Marketing">
     <link rel="canonical" href="https://www.kingofdigitalmarketing.com/SMM-Packages.aspx" />
     <meta property="og:title" content="SMM Packages, Social Media Paid Ads Price in Delhi, India">
     <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/SMM-package.jpg">
-    <meta property="og:description"
-      content="Affordable SMM Packages in Delhi, India. Paid Ads Management Price for Facebbok, Instagram, LinkedIn, YouTube. Get Best SMM Package in Chennai, Mumbai, Hyderabad, Bangalore.">
+    <meta property="og:description" content="Affordable SMM Packages in Delhi, India. Paid Ads Management Price for Facebook, Instagram, LinkedIn, YouTube. Get Best SMM Package in Chennai, Mumbai, Hyderabad, Bangalore.">
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.kingofdigitalmarketing.com/SMM-Packages.aspx">
     <meta name="twitter:card" content="summary_large_image">
@@ -23,156 +21,187 @@
     <script src="js/kdm-packages.js"></script>
     <script src="js/kdm-faq.js"></script>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<div role="main" class="main">
-                <!-- Hero Section -->
-        <section class="kdm-pkg-hero">
-            <div class="kdm-pkg-hero-content">
-                <ul class="breadcrumb" style="background: transparent; padding: 0; justify-content: center; display: flex; gap: 8px; margin-bottom: 16px;">
-                    <li><a href="https://www.kingofdigitalmarketing.com/" style="color: #94a3b8; text-decoration: none;">Home</a></li>
-                    <li class="active" style="color: #38bdf8;">SMM Packages</li>
-                </ul>
+    <div role="main" class="main">
 
-                <div class="kdm-top-badge">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="#38bdf8"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                    #1 SOCIAL MEDIA MARKETING AGENCY
-                </div>
+      <!-- ===== HERO BANNER SECTION (SAME THEME & DESIGN SYSTEM AS SEO-PACKAGE.ASPX) ===== -->
+      <section class="kdm-service-hero">
+        <div class="kdm-service-hero-container">
+          
+          <!-- Breadcrumb Trail -->
+          <nav class="kdm-service-hero-breadcrumbs" aria-label="Breadcrumb">
+            <ul>
+              <li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-sep">/</li>
+              <li class="breadcrumb-current">SMM Packages in India</li>
+            </ul>
+          </nav>
 
-                <h1>Social Media Marketing Packages</h1>
-                <p class="hero-subtitle">Grow Your Brand & Engage Customers With Result-Driven SMM Packages. Boost Your Social Media Presence Across Facebook, Instagram, LinkedIn & More.</p>
+          <!-- Top Badge Tag -->
+          <div class="kdm-service-hero-badge">
+            <i class="fa fa-trophy"></i> #1 RESULT-DRIVEN SOCIAL MEDIA MARKETING (SMM) PACKAGES
+          </div>
 
-                <!-- Benefit Highlights -->
-                <div class="kdm-benefits-grid">
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Targeted Social Media Campaigns
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Custom Content & Reel Creation
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Multi-Platform Growth Strategy
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        High Conversion Ad Optimization
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Dedicated Social Media Specialist
-                    </div>
-                    <div class="kdm-benefit-item">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                        Transparent Monthly Growth Reports
-                    </div>
-                </div>
+          <!-- Main Hero Title -->
+          <h1 class="kdm-service-hero-title">
+            Social Media Marketing (SMM) &amp; <span class="kdm-gradient-highlight">Paid Ads Packages in India</span>
+          </h1>
 
-                <!-- Stats -->
-                <div class="kdm-pkg-stats">
-                    <div class="kdm-pkg-stat-pill"><strong>900+</strong> Global Brands</div>
-                    <div class="kdm-pkg-stat-pill"><strong>900+</strong> Success Stories</div>
-                    <div class="kdm-pkg-stat-pill"><strong>13+</strong> Years Experience</div>
-                    <div class="kdm-pkg-stat-pill"><strong>4.9/5★</strong> Client Rating</div>
-                </div>
+          <!-- Subtitle / Meta Description -->
+          <p class="kdm-service-hero-subtitle">
+            Scale Brand Awareness, High-Intent Inbound Leads, E-Commerce Sales &amp; Retargeting ROI with Meta Ads (Facebook &amp; Instagram), LinkedIn Ads, YouTube Video Ads &amp; Multi-Platform Paid Campaigns.
+          </p>
 
-                <!-- Call To Action Group -->
-                <div class="kdm-pkg-cta-group">
-                    <button type="button" class="kdm-btn-primary-form" onclick="openPackageModal('SMM Package')">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                        Get Free SMM Growth Audit
-                    </button>
-                </div>
+          <!-- Social Proof & Trust Stats Bar -->
+          <div class="kdm-service-hero-stats-bar">
+            <span class="kdm-service-hero-stat-highlight">🏆 500+ Paid Social Campaigns</span>
+            <span class="kdm-service-hero-stat-divider">|</span>
+            <span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
+            <span class="kdm-service-hero-stat-divider">|</span>
+            <span class="kdm-service-hero-stat-green">🚀 4.8x Average ROAS</span>
+          </div>
+
+          <!-- Action CTA Button -->
+          <div class="kdm-service-hero-cta-wrap">
+            <a href="javascript:void(0);" onclick="openPackageModal('SMM Package Growth Audit')" class="kdm-service-hero-cta-btn">
+              <i class="fa fa-rocket"></i> Get Free SMM &amp; Meta Ads Audit <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Value Highlights Row -->
+          <div class="kdm-service-hero-highlights">
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Meta &amp; LinkedIn Certified Ad Specialists</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Facebook Pixel &amp; Conversion API Setup</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> High-CTR Ad Copywriting &amp; Reel Video Ads</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 100% Transparent Weekly CPL &amp; ROI Reports</div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== END HERO BANNER SECTION ===== -->
+
+      <!-- Intro SMM Content Section for Keyword Optimization -->
+      <section class="kdm-intro-content-section" style="padding: 40px 0 30px 0; background: #ffffff; color: #333;">
+        <div class="container">
+          <h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-bottom: 16px; text-align: center;">
+            Best Social Media Marketing (SMM) Packages in Delhi, India to Scale Leads &amp; Sales
+          </h2>
+          <p style="font-size: 15.5px; line-height: 1.75; color: #475569; max-width: 1050px; margin: 0 auto; text-align: center;">
+            Looking for the best Social Media Marketing (SMM) packages in Delhi, India to scale targeted customer inquiries and online sales? King of Digital Marketing offers result-oriented SMM and paid Meta Ads packages tailored to build brand authority, optimize Cost Per Lead (CPL), and maximize Return on Ad Spend (ROAS). Whether you run a local business, growing startup, B2B enterprise, or e-commerce store, our Meta certified ad strategists create high-converting campaigns across Facebook, Instagram, LinkedIn, and YouTube. Starting at just INR 19,999/Month, our social media marketing packages cover Business Manager setup, Pixel &amp; CAPI tracking, A/B ad creative testing, custom retargeting, and weekly reporting. Contact us today to pick the perfect SMM package for your business!
+          </p>
+        </div>
+      </section>
+
+      <!-- ===== OUR CREDENTIALS SECTION ===== -->
+      <section class="kdm-credentials-white-section">
+        <div class="container">
+          <div class="kdm-credentials-header">
+            <div class="kdm-credentials-badge">
+              <i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
             </div>
-        </section>
+            <h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+            <p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
+          </div>
 
-<div style="text-align: center; margin-bottom: 30px;">
-    <span class="kdm-pkg-badge"><i class="fa fa-trophy"></i> PROVEN TRACK RECORD</span>
-    <h2 class="kdm-pkg-title">OUR CREDENTIALS & <strong>IMPACT</strong></h2>
-    <p class="kdm-pkg-subtitle">These numbers demonstrate our 13+ years of agency performance, client trust, and campaign results.</p>
-  <section class="locationdetails-numbers-section">
-	<div class="container">
-		<div class="row center counters dark counters-row">
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-line-chart counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
-				<label class="counter-label" style="color: #ffffff;">Years in Business</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-bullseye counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
-				<label class="counter-label" style="color: #ffffff;">Projects Completed</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-globe counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">15+</strong>
-				<label class="counter-label" style="color: #ffffff;">Countries Served</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-laptop counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">32+</strong>
-				<label class="counter-label" style="color: #ffffff;">Digital Experts</label>
-			</div>
-		</div>
-	</div>
-</section>
-</section>
+          <div class="kdm-credentials-5grid counters dark counters-row">
+            <!-- Box 1: 13+ Years of Experience -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
+              <label class="kdm-cred-label">Years of Experience</label>
+            </div>
 
-          <script>
-            // Count-up animation when section appears
-            const counters = document.querySelectorAll('.ip-result-card-h3');
-            const speed = 200; // lower is faster
+            <!-- Box 2: 900+ Projects Completed -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
+              <label class="kdm-cred-label">Projects Completed</label>
+            </div>
 
-            const animateCounters = () => {
-              counters.forEach(counter => {
-                const updateCount = () => {
-                  const target = +counter.getAttribute('data-target');
-                  const count = +counter.innerText.replace(/\D/g, ''); // remove non-digits
-                  const inc = target / speed;
+            <!-- Box 3: 15+ Countries Served -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                  </path>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
+              <label class="kdm-cred-label">Countries Served</label>
+            </div>
 
-                  if (count < target) {
-                    counter.innerText = Math.ceil(count + inc) + (counter.innerText.includes('%') ? '%' : '+');
-                    setTimeout(updateCount, 20);
-                  } else {
-                    counter.innerText = target + (counter.innerText.includes('%') ? '%' : '+');
-                  }
-                };
-                updateCount();
-              });
-            };
+            <!-- Box 4: 4.9 Overall Rating -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
+              <label class="kdm-cred-label">Overall Rating</label>
+            </div>
 
-            // Trigger animation only once when visible
-            const section = document.querySelector('.ip-results');
-            let started = false;
-            window.addEventListener('scroll', () => {
-              const rect = section.getBoundingClientRect();
-              if (!started && rect.top < window.innerHeight - 100) {
-                started = true;
-                animateCounters();
-              }
-            });
-          </script>
+            <!-- Box 5: 150+ Industries Served -->
+            <div class="kdm-credentials-box">
+              <div class="kdm-cred-svg-hub">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
+              <label class="kdm-cred-label">Industries Served</label>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- ===== PACKAGES PRICING SECTION ===== -->
+      <section class="packages-section" style="color: #000000;">
+        <div style="text-align: center; margin-bottom: 35px;">
+          <div class="kdm-seo-badge"
+            style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+            <i class="fa fa-trophy"></i> AFFORDABLE &amp; TRANSPARENT PRICING
+          </div>
+          <h2>Affordable &amp; Result-Oriented <span>Social Media Marketing (SMM) Packages</span></h2>
+          <p style="max-width: 900px; margin: 0 auto; color: #475569; font-size: 15.5px; line-height: 1.7;">
+            Scale paid customer inquiries, e-commerce purchases, and brand reach across Facebook, Instagram, LinkedIn &amp; YouTube with our result-driven monthly SMM plans.
+          </p>
+        </div>
 
+        <div class="packages-container">
 
-          <section class="packages-section" style="color: #000000;">
-            <h2>SMM Packages</h2>
-            <div class="packages-container">
-
-              <!-- Basic SMO Plan -->
-              <div class="new">
-                <div class="package-box">
-                  <div class="package-header" style="padding: 20px;
+<div class="new">
+    <div class="package-box">
+        <div class="package-header" style="padding: 20px;
   text-align: center;
   background:linear-gradient(135deg, #111441, #337ab7);
   color: #fff;
   font-size: 20px;
   font-weight: 700;">Basic SMM Package <br><i class="fa fa-inr"></i>19,999/Month</div>
-                  <div class="package-subheader" style="color:#337ab7;">Ad Budget Max. <i class="fa fa-inr"></i>200,000
+        <div class="package-subheader" style="color:#337ab7;">Ad Budget Max. <i class="fa fa-inr"></i>200,000
                   </div>
-                  <div class="package-content">
-                    <h4 style="color:#337ab7;"><i class="fas fa-user-cog" style="color:#337ab7;"></i>Account & Technical
+        <div class="package-content">
+            <h4 style="color:#337ab7;"><i class="fas fa-user-cog" style="color:#337ab7;"></i>Account & Technical
                       Setup</h3>
                     <ul>
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Business Manager & Ad
@@ -274,59 +303,25 @@
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Landing Page Suggestions
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Growth Roadmap</li>
                     </ul>
-                  </div>
-                </div>
-                <div>
-                  <a href="#" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px;
-   border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:15px;"
-                    onclick="openHeroPopup(event)">Choose Plan</a>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Basic SMM Package 19,999/Month')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-                  <!-- Popup (keep it just below the button or at the end of your HTML body) -->
-                  <div id="hero-popupModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
-background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-                    <div style="position:relative;width:90%;max-width:600px;background:#317dd3;border-radius:10px;
-  padding:10px;box-shadow:0 0 25px rgba(0,0,0,0.4);">
-                      <span onclick="closeHeroPopup()" style="position:absolute;top:8px;right:15px;font-size:32px;color:#111441;cursor:pointer;
-      background:#fff;padding:0 8px;border-radius:4px;line-height:1;">&times;</span>
-                      <iframe src="contact.aspx"
-                        style="width:100%;height:500px;border:none;border-radius:6px;"></iframe>
-                    </div>
-                  </div>
-
-                  <script>
-                    function openHeroPopup(e) {
-                      e.preventDefault();
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "flex"; // center popup
-                      document.body.style.overflow = "hidden"; // stop background scroll
-                    }
-                    function closeHeroPopup() {
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "none";
-                      document.body.style.overflow = "auto";
-                    }
-                    // close when clicking outside
-                    window.addEventListener("click", function (e) {
-                      const popup = document.getElementById("hero-popupModal");
-                      if (e.target === popup) { closeHeroPopup(); }
-                    });
-                  </script>
-
-                </div>
-              </div>
-
-              <div class="new">
-                <div class="package-box">
-                  <div class="package-header" style="padding: 20px;
+<div class="new">
+    <div class="package-box">
+        <div class="package-header" style="padding: 20px;
         text-align: center;
         background:linear-gradient(135deg, #111441, #337ab7);
         color: #fff;
         font-size: 20px;
           font-weight: 700;">Standard SMM Package <br><i class="fa fa-inr"></i>39,999/Month</div>
-                  <div class="package-subheader" style="color:#337ab7;">Ad Budget Max. <i class="fa fa-inr"></i>500,000
+        <div class="package-subheader" style="color:#337ab7;">Ad Budget Max. <i class="fa fa-inr"></i>500,000
                   </div>
-                  <div class="package-content">
-                    <h4 style="color:#337ab7;"><i class="fas fa-user-cog" style="color:#337ab7;"></i>Account & Technical
+        <div class="package-content">
+            <h4 style="color:#337ab7;"><i class="fas fa-user-cog" style="color:#337ab7;"></i>Account & Technical
                       Setup</h4>
                     <ul>
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Business Manager setup
@@ -443,60 +438,25 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Ad Disapproval Handling
                       </li>
                     </ul>
-                  </div>
-                </div>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Standard SMM Package 39,999/Month')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-                <div>
-                  <a href="#" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px;
-   border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:15px;"
-                    onclick="openHeroPopup(event)">Choose Plan</a>
-
-                  <!-- Popup (keep it just below the button or at the end of your HTML body) -->
-                  <div id="hero-popupModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
-background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-                    <div style="position:relative;width:90%;max-width:600px;background:#317dd3;border-radius:10px;
-  padding:10px;box-shadow:0 0 25px rgba(0,0,0,0.4);">
-                      <span onclick="closeHeroPopup()" style="position:absolute;top:8px;right:15px;font-size:32px;color:#111441;cursor:pointer;
-      background:#fff;padding:0 8px;border-radius:4px;line-height:1;">&times;</span>
-                      <iframe src="contact.aspx"
-                        style="width:100%;height:500px;border:none;border-radius:6px;"></iframe>
-                    </div>
-                  </div>
-
-                  <script>
-                    function openHeroPopup(e) {
-                      e.preventDefault();
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "flex"; // center popup
-                      document.body.style.overflow = "hidden"; // stop background scroll
-                    }
-                    function closeHeroPopup() {
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "none";
-                      document.body.style.overflow = "auto";
-                    }
-                    // close when clicking outside
-                    window.addEventListener("click", function (e) {
-                      const popup = document.getElementById("hero-popupModal");
-                      if (e.target === popup) { closeHeroPopup(); }
-                    });
-                  </script>
-
-                </div>
-              </div>
-
-              <div class="new">
-                <div class="package-box">
-                  <div class="package-header" style="padding: 20px;
+<div class="new">
+    <div class="package-box">
+        <div class="package-header" style="padding: 20px;
   text-align: center;
   background:linear-gradient(135deg, #111441, #337ab7);
   color: #fff;
   font-size: 20px;
   font-weight: 700;">Professional SMM Package <br><i class="fa fa-inr"></i>59,999/Month</div>
-                  <div class="package-subheader" style="color:#337ab7;">Ad Budget Max. <i class="fa fa-inr"></i>700,000
+        <div class="package-subheader" style="color:#337ab7;">Ad Budget Max. <i class="fa fa-inr"></i>700,000
                   </div>
-                  <div class="package-content">
-                    <h4 style="color:#337ab7;"><i class="fas fa-user-cog" style="color:#337ab7;"></i>Account & Technical
+        <div class="package-content">
+            <h4 style="color:#337ab7;"><i class="fas fa-user-cog" style="color:#337ab7;"></i>Account & Technical
                       Setup</h4>
                     <ul>
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Business Manager setup
@@ -613,59 +573,25 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Ad Disapproval Handling
                       </li>
                     </ul>
-                  </div>
-                </div>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Professional SMM Package 59,999/Month')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-                <div>
-                  <a href="#" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px;
-   border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:15px;"
-                    onclick="openHeroPopup(event)">Choose Plan</a>
-
-                  <!-- Popup (keep it just below the button or at the end of your HTML body) -->
-                  <div id="hero-popupModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
-background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-                    <div style="position:relative;width:90%;max-width:600px;background:#317dd3;border-radius:10px;
-  padding:10px;box-shadow:0 0 25px rgba(0,0,0,0.4);">
-                      <span onclick="closeHeroPopup()" style="position:absolute;top:8px;right:15px;font-size:32px;color:#111441;cursor:pointer;
-      background:#fff;padding:0 8px;border-radius:4px;line-height:1;">&times;</span>
-                      <iframe src="contact.aspx"
-                        style="width:100%;height:500px;border:none;border-radius:6px;"></iframe>
-                    </div>
-                  </div>
-
-                  <script>
-                    function openHeroPopup(e) {
-                      e.preventDefault();
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "flex"; // center popup
-                      document.body.style.overflow = "hidden"; // stop background scroll
-                    }
-                    function closeHeroPopup() {
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "none";
-                      document.body.style.overflow = "auto";
-                    }
-                    // close when clicking outside
-                    window.addEventListener("click", function (e) {
-                      const popup = document.getElementById("hero-popupModal");
-                      if (e.target === popup) { closeHeroPopup(); }
-                    });
-                  </script>
-                </div>
-              </div>
-
-              <div class="new">
-                <div class="package-box">
-                  <div class="package-header" style="padding: 20px;
+<div class="new">
+    <div class="package-box">
+        <div class="package-header" style="padding: 20px;
   text-align: center;
   background:linear-gradient(135deg, #111441, #337ab7);
   color: #fff;
   font-size: 20px;
   font-weight: 700;">Enterprise SMM Package <br><i class="fa fa-inr"></i>99,999/Month</div>
-                  <div class="package-subheader" style="color:#337ab7;">Ad Budget Max. <i class="fa fa-inr"></i>900,000
+        <div class="package-subheader" style="color:#337ab7;">Ad Budget Max. <i class="fa fa-inr"></i>900,000
                   </div>
-                  <div class="package-content">
-                    <h4 style="color:#337ab7;"><i class="fas fa-user-cog" style="color:#337ab7;"></i>Account & Technical
+        <div class="package-content">
+            <h4 style="color:#337ab7;"><i class="fas fa-user-cog" style="color:#337ab7;"></i>Account & Technical
                       Setup</h4>
                     <ul>
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Business Manager setup
@@ -783,604 +709,909 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
                       <li><i class="fas fa-check" style="color:#28a745; margin-right:6px;"></i>Ad Disapproval Handling
                       </li>
                     </ul>
-                  </div>
-                </div>
+        </div>
+        <div style="text-align: center; padding: 15px;">
+            <a href="javascript:void(0);" onclick="openPackageModal('Enterprise SMM Package 99,999/Month')" class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
 
-                <div>
-                  <a href="#" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px;
-   border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:15px;"
-                    onclick="openHeroPopup(event)">Choose Plan</a>
+</div></section>
 
-                  <!-- Popup (keep it just below the button or at the end of your HTML body) -->
-                  <div id="hero-popupModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
-background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:center;">
-                    <div style="position:relative;width:90%;max-width:600px;background:#317dd3;border-radius:10px;
-  padding:10px;box-shadow:0 0 25px rgba(0,0,0,0.4);">
-                      <span onclick="closeHeroPopup()" style="position:absolute;top:8px;right:15px;font-size:32px;color:#111441;cursor:pointer;
-      background:#fff;padding:0 8px;border-radius:4px;line-height:1;">&times;</span>
-                      <iframe src="contact.aspx"
-                        style="width:100%;height:500px;border:none;border-radius:6px;"></iframe>
-                    </div>
-                  </div>
-
-                  <script>
-                    function openHeroPopup(e) {
-                      e.preventDefault();
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "flex"; // center popup
-                      document.body.style.overflow = "hidden"; // stop background scroll
-                    }
-                    function closeHeroPopup() {
-                      const popup = document.getElementById("hero-popupModal");
-                      popup.style.display = "none";
-                      document.body.style.overflow = "auto";
-                    }
-                    // close when clicking outside
-                    window.addEventListener("click", function (e) {
-                      const popup = document.getElementById("hero-popupModal");
-                      if (e.target === popup) { closeHeroPopup(); }
-                    });
-                  </script>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!-- Results Section -->
-
-          <!-- Industry Section -->
-          <!-- Swiper CSS -->
-          <!-- Swiper CSS -->
-          <section class="industry-slider-section">
-            <h2 class="industry-heading">Most Popular Industries <strong>We Work With</strong></h2>
-
-            <div class="industry-slider">
-              <div class="industry-track">
-
-                <div class="industry-card industry-bg1">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h4>Astrology</h3>
-                      <p>Successfully handled 60+ astrology projects for lead generation, app installs, and sales
-                        growth.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg10">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Hair Transplant</h3>
-                      <p>Successfully managed 50+ hair transplant lead generation, SEO, Social Media with consistent
-                        results.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg11">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Study Abroad Consultant</h3>
-                      <p>Trusted by 30+ study abroad consultants for high-quality student lead generation, SEO & Social
-                        Media.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg4">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Cosmetic Surgeon</h3>
-                      <p>Helped 25+ cosmetic surgeons grow their practice with high-quality leads, strong SEO, YouTube &
-                        social media</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg5">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>CA firms</h3>
-                      <p>20+ CA firms served with expert digital marketing, SEO lead generation and social media growth.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg6">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>immigration consulting</h3>
-                      <p>Strong experience of delivering SEO leads and digital marketing growth for 25+ immigration
-                        consulting firms.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg7">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Ecommerce</h3>
-                      <p>Successfully completed 20+ ecommerce projects with proven sales, organic traffic and social
-                        media growth.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg8">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Healthcare</h3>
-                      <p>We have helped 25+ healthcare brands including doctors and Ayurvedic medicines in SEO & lead
-                        generation.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg15">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>yoga studios</h3>
-                      <p>15+ yoga studios served with website SEO strategies focused on quality lead generation.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="industry-card industry-bg14">
-                  <div class="industry-overlay">
-                    <div class="text-box">
-                      <h3>Institutes</h3>
-                      <p>Successfully handled 10+ institutes for course promotions using SEO, social media and
-                        performance marketing.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn" style="background:linear-gradient(135deg,#111441,#337ab7);color:#fff;padding:12px 25px; border-radius:6px;font-weight:600;text-decoration:none;display:inline-block;margin-top:25px;">See More Industries & Our Records</a>
-          </section>
-
-          <hr class="tall" />
-
-          <div class="mainprocess">
-            <h2 class="process-title">9 Steps to a High-Performing SMM Package</h2>
-            <div class="roadmap-flow">
-              <div class="roadmap-box" data-step="1">
-                <h3>Business & Offer Audit</h3>
-                <p>We study your business, target audience, pricing, competitors, and goals to decide whether the focus
-                  should be leads, sales, or brand visibility.</p>
-              </div>
-              <div class="roadmap-box" data-step="2">
-                <h3>Meta Account & Tracking Setup</h3>
-                <p>We properly configure Business Manager, ad account, pixels, events,conversion tracking, domains, and
-                  ensure data accuracy from day one.</p>
-              </div>
-              <div class="roadmap-box" data-step="3">
-                <h3>Audience & Market Research</h3>
-                <p>Meta Ads team research interests, behaviors, demographics, custom audiences, lookalikes, and
-                  retargeting pools to reach the right people, not everyone.</p>
-              </div>
-              <div class="roadmap-box" data-step="4">
-                <h3>Campaign Funnel Strategy</h3>
-                <p>We design a full-funnel strategy (awareness -> consideration -> conversion) with the right
-                  objectives, budgets, and campaign structure.</p>
-              </div>
-              <div class="roadmap-box" data-step="5">
-                <h3>Creative & Messaging Planning</h3>
-                <p>We plan ad formats, hooks, creatives, and messaging angles based on customer pain points, buying
-                  psychology, and platform best practices.</p>
-              </div>
-              <div class="roadmap-box" data-step="6">
-                <h3>Ad Creative & Copy Development</h3>
-                <p>We design scroll-stopping creatives and write conversion-focused ad copies with strong CTAs that
-                  encourage clicks, leads, or purchases.</p>
-              </div>
-              <div class="roadmap-box" data-step="7">
-                <h3>Campaign Launch & Testing</h3>
-                <p>We launch campaigns with proper A/B testing for audiences, creatives, placements, and bidding to
-                  identify what performs best.
-                </p>
-              </div>
-              <div class="roadmap-box" data-step="8">
-                <h3>Daily Optimization & Scaling</h3>
-                <p>Our Expert team monitor ads daily and optimize budgets, creatives, audiences and bids to reduce cost
-                  per result and improve conversions or ROAS.</p>
-              </div>
-              <div class="roadmap-box" data-step="9">
-                <h3>Reporting, Insights & Growth </h3>
-                <p>PlanWe share clear performance reports, explain results in simple terms and plan next-month
-                  strategies for scaling profitable campaigns.</p>
-              </div>
-            </div>
+      <!-- ===== WHAT RESULTS DO WE MEASURE IN OUR SMM PACKAGES? (DARK THEME) ===== -->
+      <section class="kdm-seo-metrics-section">
+        <div class="container">
+          <div class="kdm-metrics-header">
+            <span class="kdm-top-badge"
+              style="background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 12px; font-weight: 800; padding: 6px 20px; border-radius: 50px; text-transform: uppercase; letter-spacing: 1.2px; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+              <i class="fa fa-line-chart"></i> TRANSPARENT METRICS &amp; TRACKING
+            </span>
+            <h2 class="kdm-metrics-title">
+              What Results Do We Measure in Our <span>SMM &amp; Meta Ads Packages?</span>
+            </h2>
+            <p class="kdm-metrics-subtitle">
+              We don't just track ad impressions — we monitor real lead generation, ROAS, and customer conversion KPIs across your paid campaign accounts.
+            </p>
           </div>
 
-          <hr class="tall" />
-
-          <section class="locationdetails-why-section">
-            <div class="locationdetails-why-container">
-              <h2 style="color: #ffffff !important;">Why Choose King of Digital Marketing for Your SMM Package (Meta Ads Package)?
-              </h2>
-
-              <p>We at King of Digital Marketing offer best SMM Package which includes Meta Ads Package. We don't run
-                ads blindly, we run result oriented Meta Ads followed by strategy, data, and experience. Our SMM Package
-                is specially designed for businesses that want real leads, sales, and measurable growth from Facebook &
-                Instagram, not just impressions and clicks.
-                With 13+ Years and 1900+ Projects done, we understand how Meta's algorithm works and changes time to
-                time. We know how to align meta rules with your business goals. Every Meta Ads Package starts with deep
-                business analysis, audience research, and funnel planning to ensure your ads reach the right people at
-                the right time. Now Meta has also AI driven targeting but still we focus on quality targeting, strong
-                creatives, and conversion focused ad copies to reduce cost per lead and improve ROI.
-                Transparency and control makes us different from another agency. Your ad spend goes directly to Meta,
-                you get full access to your ad account, and we share clear reports that are easy to understand. Our SMM
-                Package includes continuous testing, daily optimization, and performance tracking to improve results
-                weekly and month after month.
-                Whether you want leads, sales, app installs, or brand visibility, our Meta Ads Package is customized to
-                your industry, budget, and market. If you're looking for a reliable agency that treats your money like
-                its own and focuses on long term performance, King of Digital Marketing is the right partner for your
-                SMM success.
+          <div class="kdm-metrics-grid">
+            <!-- Metric 1: Click-Through Rate & Ad Frequency -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap" style="background: rgba(56, 189, 248, 0.12); border-color: rgba(56, 189, 248, 0.3); color: #38bdf8;">
+                <i class="fa fa-mouse-pointer"></i>
+              </div>
+              <h3 class="kdm-metrics-card-title">Click-Through Rate (CTR) &amp; Frequency</h3>
+              <p class="kdm-metrics-card-desc">
+                Monitoring ad creative engagement, link click CTR rates, and audience ad fatigue frequency to maintain high relevance scores.
               </p>
-
-              <div class="locationdetails-why-cards">
-                <div class="why-card" style="--accent: #FF6F00">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#ff512f,#dd2476);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Award / Medal Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="white" width="40" height="40">
-
-                      <rect x="3" y="4" width="18" height="16" rx="2" />
-                      <path d="M7 8h10M7 12h6M7 16h4" stroke-linecap="round" />
-                      <path d="M17 15l2 2 3-3" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </div>
-                  <h3>Strategy-First Approach</h3>
-                  <p>Our SMM Package starts with deep planning, not random ads. Every Meta Ads Package is built around
-                    your business goals, audience behavior, and market demand to ensure the right strategy from day one.
-                  </p>
-                </div>
-
-                <div class="why-card" style="--accent: #008DC2">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#0072ff,#00c6ff);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Projects Delivered Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="white" width="40" height="40">
-
-                      <path d="M3 11v2a2 2 0 0 0 2 2h2l5 4V5L7 9H5a2 2 0 0 0-2 2z" stroke-linejoin="round" />
-                      <path d="M16 8a4 4 0 0 1 0 8" stroke-linecap="round" />
-                    </svg>
-
-                  </div>
-                  <h3>Experienced Meta Ads</h3>
-                  <p>Specialists Your Meta Ads Package is managed by Meta Ads expert, who understand Meta latest
-                    algorithms, messaging, bidding, and targeting. We focus on improving lead quality, reducing cost,
-                    and scaling what works.
-                  </p>
-                </div>
-
-                <div class="why-card" style="--accent: #0B456A">
-                  <div class="review-image">
-                    <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#00c851,#33b5e5);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                      <!-- Globe Icon -->
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                        stroke="white" width="40" height="40">
-
-                        <circle cx="12" cy="12" r="8" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
-
-                    </div>
-
-                  </div>
-                  <h3>Custom Campaign</h3>
-                  <p>Structure We don't use fixed templates. Each SMM Package is customized with proper funnel setup, ad
-                    objectives, creatives, and audiences based on your business type and budget.</p>
-                </div>
-
-                <div class="why-card" style="--accent: #6A829A">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#ff6b6b,#feca57);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Report / Document Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="white" width="40" height="40">
-                      <path d="M9 2h6l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
-                      <path d="M9 12h6M9 16h4M9 8h1" stroke-linecap="round" />
-                    </svg>
-                  </div>
-
-                  <h3>Creative & Copy </h3>
-                  <p>That Converts Our Meta Ads Package includes high-quality creatives and clear ad copies designed to
-                    stop scrolling, build trust, and drive real actions like leads, calls, or sales.</p>
-                </div>
-
-                <div class="why-card" style="--accent: #009688">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#5f27cd,#341f97);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Team Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="white" width="40" height="40">
-
-                      <path d="M4 20v-6h4v6H4zM10 20v-10h4v10h-4zM16 20v-4h4v4h-4z" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
-                  </div>
-
-                  <h3>Continuous Optimization & Growth</h3>
-                  <p>We monitor campaigns daily and improve targeting, creatives, and budgets. This ensures your Meta
-                    Ads Package performs better over time, not just in the first month.</p>
-                </div>
-
-                <div class="why-card" style="--accent: #cfba1f">
-                  <div class="icon-box" style="
-  width:80px;height:80px;
-  background:linear-gradient(135deg,#f39c12,#e67e22);
-  border-radius:15px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:0 auto 20px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);">
-
-                    <!-- Star / Satisfaction Icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                      stroke="white" width="40" height="40">
-
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                      <path d="M14 2v6h6" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-
-                  </div>
-
-                  <h3>Transparent Spending & Reporting</h3>
-                  <p>With our SMM Package, you pay ad spend directly to Meta and get full account access. Our reports
-                    are simple, clear, and focused on results, not confusing metrics.</p>
-                </div>
-              </div>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> High Creative CTR</span>
             </div>
-          </section>
 
-
-          <hr class="tall" />
-          <h2 align="center">Testimonials</h2>
-          <div class="ts-wrapper">
-            <div class="ts-slider-container">
-              <div class="ts-testimonial ts-active">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"I hired King of Digital Marketing for SEO services a few months ago, and I am really happy with the
-                  results. My website is now ranking on the first page of Google. Gaurav Dubey and his team were always
-                  available to guide me and answer my doubts"</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Aji Jeeva (Founder - www.smgains.com - UK)</div>
+            <!-- Metric 2: Cost Per Lead (CPL) & CPA -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap" style="background: rgba(45, 212, 191, 0.12); border-color: rgba(45, 212, 191, 0.3); color: #2dd4bf;">
+                <i class="fa fa-tag"></i>
               </div>
+              <h3 class="kdm-metrics-card-title">Cost Per Lead (CPL) &amp; Acquisition (CPA)</h3>
+              <p class="kdm-metrics-card-desc">
+                Optimizing bid strategies and audience targeting to continuously drive down cost per form submit, instant lead, and call booking.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Reduced CPL Costs</span>
+            </div>
 
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"King of Digital Marketing helped increase my website traffic with their SEO strategies. They kept
-                  everything clear and gave regular updates. Thanks to Gaurav Dubey and his hardworking team, my
-                  business is getting more leads from Google now. "</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Roopak (Founder - www.gotouniversity.com - Dubai)</div>
+            <!-- Metric 3: Return on Ad Spend (ROAS) -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap" style="background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3); color: #fbbf24;">
+                <i class="fa fa-calculator"></i>
               </div>
+              <h3 class="kdm-metrics-card-title">Return on Ad Spend (ROAS) &amp; Sales</h3>
+              <p class="kdm-metrics-card-desc">
+                Tracking exact revenue returned per Rupee spent on Meta, Instagram, and LinkedIn ads to scale high-ROI campaigns.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Revenue Attribution</span>
+            </div>
 
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"I didn't know much about SEO before, but the team at King of Digital Marketing explained things in a
-                  simple way. They helped improve my website ranking and gave monthly reports. Gaurav Dubey made sure
-                  the work was always on track."</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Younus (Founder - moroccotourismagency.com - Morocco)</div>
+            <!-- Metric 4: Meta Pixel & Conversion API (CAPI) -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap" style="background: rgba(168, 85, 247, 0.12); border-color: rgba(168, 85, 247, 0.3); color: #a855f7;">
+                <i class="fa fa-code"></i>
               </div>
+              <h3 class="kdm-metrics-card-title">Meta Pixel &amp; Conversion API (CAPI)</h3>
+              <p class="kdm-metrics-card-desc">
+                Implementing server-side tracking to capture 100% of website conversions, custom events, and e-commerce transactions seamlessly.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> 100% Data Accuracy</span>
+            </div>
 
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"It's been a great experience working with King of Digital Marketing. They helped my website show up
-                  on the first page of Google. Their SEO services are professional, affordable, and result-driven. I'm
-                  glad I chose them for my business."</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Kejsi (Founder - herahairsolutions.com - Turkey)</div>
+            <!-- Metric 5: Custom Audience Retargeting Reach -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap" style="background: rgba(244, 63, 94, 0.12); border-color: rgba(244, 63, 94, 0.3); color: #f43f5e;">
+                <i class="fa fa-refresh"></i>
               </div>
+              <h3 class="kdm-metrics-card-title">Custom Audience Retargeting Reach</h3>
+              <p class="kdm-metrics-card-desc">
+                Re-engaging warm website visitors, abandoned carts, video viewers, and lead form openers to maximize conversion close rates.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Warm Lead Retargeting</span>
+            </div>
 
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"Gaurav Dubey and his SEO team at King of Digital Marketing worked hard on my website. Within a few
-                  months, I started seeing a good rise in traffic and rankings. They really know what they are doing and
-                  deliver what they promise."</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- David (Founder - audiocityusa.com - USA)</div>
+            <!-- Metric 6: Video View Rate & Reel Engagement -->
+            <div class="kdm-metrics-card">
+              <div class="kdm-metrics-icon-wrap" style="background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3); color: #10b981;">
+                <i class="fa fa-play-circle"></i>
               </div>
-
-              <div class="ts-testimonial">
-                <img src="images/Digital Marketing Services.webp" class="ts-profile-pic" alt="Client" />
-                <p>"After hiring King of Digital Marketing, I noticed real improvement in my search engine rankings.
-                  Their SEO team is experienced and friendly. Gaurav Dubey personally ensured the project was handled
-                  with care and kept me updated regularly."</p>
-                <div class="ts-stars"><i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                  <i class="fa fa-star clrright" style="color: #fbbf24;"></i>
-                </div>
-                <div class="ts-author">- Dr. Sanjay (Founder - cocoona.in - Dubai)</div>
-              </div>
-
-
-
-              <div class="ts-arrows">
-                <button class="ts-arrow" onclick="tsChangeSlide(-1)">&#10094;</button>
-                <button class="ts-arrow" onclick="tsChangeSlide(1)">&#10095;</button>
-              </div>
+              <h3 class="kdm-metrics-card-title">Video View Rate &amp; Reel Engagement</h3>
+              <p class="kdm-metrics-card-desc">
+                Measuring 3-second, 50%, and 100% video hook completion rates to test ad creatives and refine video story angles.
+              </p>
+              <span class="kdm-metrics-tag"><i class="fa fa-check-circle"></i> Reel Hook Analytics</span>
             </div>
           </div>
-          <script>
-            let tsCurrentIndex = 0;
-            const tsTestimonials = document.querySelectorAll('.ts-testimonial');
+        </div>
+      </section>
 
-            function tsShowSlide(index) {
-              tsTestimonials.forEach((t, i) => {
-                t.classList.remove('ts-active');
-                if (i === index) t.classList.add('ts-active');
-              });
-            }
+      <!-- ===== HOW FAST DO SOCIAL MEDIA ADS SHOW RESULTS? REALISTIC TIMELINE SECTION (WHITE THEME) ===== -->
+      <section class="kdm-seo-timeline-section"
+        style="background: #ffffff !important; width: 100% !important; padding: 75px 0 !important; color: #0f172a !important; position: relative; z-index: 5;">
+        <div class="container">
+          <div class="kdm-timeline-header">
+            <span class="kdm-seo-badge"
+              style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+              <i class="fa fa-clock-o"></i> REALISTIC SMM EXPECTATIONS
+            </span>
+            <h2 class="kdm-timeline-title">
+              How Fast Do Social Media Ads <span>Show Results?</span>
+            </h2>
+            <p class="kdm-timeline-subtitle">
+              Paid social media campaigns deliver instant visibility and early lead traction from Week 1. Here is a realistic timeline of campaign compounding.
+            </p>
+          </div>
 
-            function tsChangeSlide(dir) {
-              tsCurrentIndex += dir;
-              if (tsCurrentIndex < 0) tsCurrentIndex = tsTestimonials.length - 1;
-              if (tsCurrentIndex >= tsTestimonials.length) tsCurrentIndex = 0;
-              tsShowSlide(tsCurrentIndex);
-            }
+          <div class="kdm-timeline-grid">
+            <!-- Phase 1: Month 1 -->
+            <div class="kdm-timeline-card month-1">
+              <span class="kdm-timeline-badge">MONTH 1</span>
+              <div class="kdm-timeline-icon">
+                <i class="fa fa-cogs"></i>
+              </div>
+              <h3 class="kdm-timeline-card-title">Audit, Pixel Setup &amp; Ad Creative Testing</h3>
+              <p class="kdm-timeline-card-desc">
+                Setting up Business Manager, Pixel CAPI tracking, custom audiences, and launching initial A/B ad creative variations.
+              </p>
+              <ul class="kdm-timeline-list">
+                <li><i class="fa fa-check-circle"></i> Meta Pixel &amp; CAPI server tracking live</li>
+                <li><i class="fa fa-check-circle"></i> Audience persona &amp; competitor ad audit</li>
+                <li><i class="fa fa-check-circle"></i> Initial lead inquiries &amp; click data</li>
+              </ul>
+            </div>
 
-            setInterval(() => {
-              tsChangeSlide(1);
-            }, 6000);
-          </script>
+            <!-- Phase 2: Month 2-3 -->
+            <div class="kdm-timeline-card month-2">
+              <span class="kdm-timeline-badge">MONTH 2–3</span>
+              <div class="kdm-timeline-icon">
+                <i class="fa fa-line-chart"></i>
+              </div>
+              <h3 class="kdm-timeline-card-title">Audience Retargeting &amp; CPL Optimization</h3>
+              <p class="kdm-timeline-card-desc">
+                Scaling high-performing ad creatives, building website retargeting funnels, and lowering overall Cost Per Lead (CPL).
+              </p>
+              <ul class="kdm-timeline-list">
+                <li><i class="fa fa-check-circle"></i> 30%–50% reduction in Cost Per Lead</li>
+                <li><i class="fa fa-check-circle"></i> Active website &amp; video viewer retargeting</li>
+                <li><i class="fa fa-check-circle"></i> Steady daily inbound lead volume</li>
+              </ul>
+            </div>
+
+            <!-- Phase 3: Month 4-6 -->
+            <div class="kdm-timeline-card month-3">
+              <span class="kdm-timeline-badge">MONTH 4–6</span>
+              <div class="kdm-timeline-icon">
+                <i class="fa fa-rocket"></i>
+              </div>
+              <h3 class="kdm-timeline-card-title">ROAS Scaling &amp; Lookalike Expansion</h3>
+              <p class="kdm-timeline-card-desc">
+                Expanding into 1%–5% Lookalike audiences, scaling daily ad spend, and maximizing return on ad spend (ROAS).
+              </p>
+              <ul class="kdm-timeline-list">
+                <li><i class="fa fa-check-circle"></i> High-volume Lookalike audience conversions</li>
+                <li><i class="fa fa-check-circle"></i> 3.5x–5x Return on Ad Spend (ROAS)</li>
+                <li><i class="fa fa-check-circle"></i> Dominant brand presence in your niche</li>
+              </ul>
+            </div>
+
+            <!-- Phase 4: Month 6-12+ -->
+            <div class="kdm-timeline-card month-4">
+              <span class="kdm-timeline-badge">MONTH 6–12+</span>
+              <div class="kdm-timeline-icon">
+                <i class="fa fa-trophy"></i>
+              </div>
+              <h3 class="kdm-timeline-card-title">Brand Authority &amp; Omnichannel Scaling</h3>
+              <p class="kdm-timeline-card-desc">
+                Expanding campaigns across Meta, LinkedIn, and YouTube to build market leadership and compounding revenue.
+              </p>
+              <ul class="kdm-timeline-list">
+                <li><i class="fa fa-check-circle"></i> Omnichannel paid social dominance</li>
+                <li><i class="fa fa-check-circle"></i> High customer lifetime value (LTV)</li>
+                <li><i class="fa fa-check-circle"></i> Scalable automated lead machine</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="kdm-timeline-disclaimer">
+            <div class="kdm-timeline-disclaimer-icon">
+              <i class="fa fa-info-circle"></i>
+            </div>
+            <p class="kdm-timeline-disclaimer-text">
+              <strong>Important Note on Social Ads:</strong> Social media ad results go live immediately upon campaign approval (24–48 hours). Consistent testing of ad creatives, landing pages, and audience targeting allows us to achieve optimal CPL and maximum ROAS within the first 30 days.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 9 STEPS SMM PACKAGE PROCESS SECTION (DARK THEME) ===== -->
+      <div class="mainprocess">
+        <div style="text-align: center; max-width: 900px; margin: 0 auto 50px auto;">
+          <div class="kdm-seo-badge"
+            style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 12px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 16px;">
+            <i class="fa fa-cogs"></i> PROVEN WORKFLOW &amp; METHODOLOGY
+          </div>
+          <h2 class="process-title">9 Steps SMM Package Process <span>That Delivers High ROAS</span></h2>
+          <p class="process-subtitle">
+            Our systematic 9-step social media ad framework ensures every creative design, Reel script, targeting rule, and bidding strategy yields maximum customer conversions.
+          </p>
+        </div>
+
+        <div class="roadmap-flow">
+          <!-- Step 1 -->
+          <div class="roadmap-box" data-step="1">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 01</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+            <h3>Audience &amp; Competitor Audit</h3>
+            <p>Analyze competitor ad creatives, audience demographics, and high-converting offer hooks in your niche.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="roadmap-box" data-step="2">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 02</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-code"></i>
+              </div>
+            </div>
+            <h3>Pixel, CAPI &amp; Tracking Setup</h3>
+            <p>Install Meta Pixel, Conversion API (CAPI), custom conversion events, and GA4 tracking tags.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="roadmap-box" data-step="3">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 03</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-users"></i>
+              </div>
+            </div>
+            <h3>Customer Persona &amp; Targeting</h3>
+            <p>Define detailed interest clusters, Andromeda broad targeting, and demographic customer profiles.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="roadmap-box" data-step="4">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 04</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-pencil-square-o"></i>
+              </div>
+            </div>
+            <h3>Ad Copywriting &amp; Hook Scripts</h3>
+            <p>Write high-converting primary text, headline hooks, description offers, and call-to-action buttons.</p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="roadmap-box" data-step="5">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 05</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-paint-brush"></i>
+              </div>
+            </div>
+            <h3>Custom Graphic &amp; Reel Ads</h3>
+            <p>Design eye-catching carousel graphics, single image banners, and short-form video Reel ad assets.</p>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="roadmap-box" data-step="6">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 06</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-sliders"></i>
+              </div>
+            </div>
+            <h3>Campaign Structuring &amp; Bidding</h3>
+            <p>Structure CBO/ABO ad campaigns, set daily budgets, placement rules, and conversion objectives.</p>
+          </div>
+
+          <!-- Step 7 -->
+          <div class="roadmap-box" data-step="7">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 07</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-flask"></i>
+              </div>
+            </div>
+            <h3>A/B Creative &amp; Placement Testing</h3>
+            <p>Run split tests for ad copy variations, video hooks, and placements (Feed vs Stories vs Reels).</p>
+          </div>
+
+          <!-- Step 8 -->
+          <div class="roadmap-box" data-step="8">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 08</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-refresh"></i>
+              </div>
+            </div>
+            <h3>Retargeting &amp; Lookalikes</h3>
+            <p>Launch custom retargeting ads for website visitors and expand reach with 1%–5% Lookalike audiences.</p>
+          </div>
+
+          <!-- Step 9 -->
+          <div class="roadmap-box" data-step="9">
+            <div class="roadmap-box-top">
+              <span class="roadmap-step-badge">STEP 09</span>
+              <div class="roadmap-icon-hub">
+                <i class="fa fa-line-chart"></i>
+              </div>
+            </div>
+            <h3>Weekly CPL Optimization &amp; Scaling</h3>
+            <p>Deliver transparent weekly CPL &amp; ROAS reports, scale budget on winning ads, and optimize CPA.</p>
+          </div>
+        </div>
       </div>
 
+      <!-- ===== ABOUT THE EXPERTS BEHIND YOUR CAMPAIGN SECTION (WHITE THEME) ===== -->
+      <section class="kdm-experts-section">
+        <div class="container">
+          <div class="kdm-experts-header">
+            <span class="kdm-seo-badge"
+              style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+              <i class="fa fa-user-circle-o"></i> LEADERSHIP &amp; EXPERT TEAM
+            </span>
+            <h2 class="kdm-experts-title">
+              About the Experts <span>Behind Your Campaign</span>
+            </h2>
+            <p class="kdm-experts-subtitle">
+              Your SMM and Meta Ads campaigns are managed by certified paid social strategists, conversion copywriters, and video editors focused on maximizing your ROAS.
+            </p>
+          </div>
 
-      <hr class="tall" />
+          <div class="kdm-experts-grid">
+            <!-- Expert 1: Gaurav Dubey -->
+            <div class="kdm-expert-card">
+              <div class="kdm-expert-header-box">
+                <div class="kdm-expert-avatar-img">
+                  <img src="images/gaurav%20dubey%20digital%20marketing.webp"
+                    alt="Gaurav Dubey - Founder &amp; Senior SEO Expert"
+                    title="Gaurav Dubey - Founder &amp; Senior SEO Expert" class="kdm-expert-img">
+                </div>
+                <div class="kdm-expert-name-title">
+                  <h3 class="kdm-expert-name">Gaurav Dubey</h3>
+                  <span class="kdm-expert-role">Founder &amp; Senior Digital Marketing Strategist (13+ Yrs Exp)</span>
+                </div>
+              </div>
+              <p class="kdm-expert-bio">
+                With over 13+ years of digital marketing excellence, Gaurav Dubey has led 900+ successful brand campaigns across India, USA, UK, UAE &amp; global markets. Specialist in Meta Ads strategy, paid customer acquisition, conversion funnels, and ROAS scaling.
+              </p>
+              <ul class="kdm-expert-list">
+                <li><i class="fa fa-check-circle"></i> 13+ Years Proven Paid Social Growth Leadership</li>
+                <li><i class="fa fa-check-circle"></i> 900+ Meta, LinkedIn &amp; YouTube Ad Projects</li>
+                <li><i class="fa fa-check-circle"></i> High-ROAS Conversion Funnel Optimization</li>
+              </ul>
+            </div>
 
-      <section class="kdm-faq-section" style="margin-bottom: 0; padding-bottom: 20px;">
+            <!-- Expert 2: Delhi Branch Team -->
+            <div class="kdm-expert-card">
+              <div class="kdm-expert-header-box">
+                <div class="kdm-expert-avatar team">12+</div>
+                <div class="kdm-expert-name-title">
+                  <h3 class="kdm-expert-name">In-House Paid Social &amp; Meta Ads Team</h3>
+                  <span class="kdm-expert-role">Delhi Branch Headquarters</span>
+                </div>
+              </div>
+              <p class="kdm-expert-bio">
+                Our in-house team of 12 certified social media specialists at our Delhi branch includes Meta Campaign Managers, Reel Video Editors, Graphic Banners Designers, Copywriters, and GA4 Analytics Experts working full-time on your brand.
+              </p>
+              <ul class="kdm-expert-list">
+                <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Ad Managers &amp; Designers</li>
+                <li><i class="fa fa-check-circle"></i> Dedicated SMM Campaign Account Managers</li>
+                <li><i class="fa fa-check-circle"></i> Transparent Weekly CPL Reporting &amp; Ad Audits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== REDESIGNED POPULAR INDUSTRIES WE WORK WITH (SVG ICONS) ===== -->
+      <section class="industry-slider-section">
+        <div class="container">
+          <h2 class="industry-heading">Most Popular Industries <strong>We Work With</strong></h2>
+
+          <div class="industry-slider">
+            <div class="industry-track">
+
+              <!-- Industry 1: Astrology -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub"
+                    style="background: rgba(56, 189, 248, 0.12); border-color: rgba(56, 189, 248, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                      </polygon>
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Astrology</h3>
+                    <p>Successfully handled 60+ astrology projects for lead generation, app installs, and sales growth.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 2: Hair Transplant -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub"
+                    style="background: rgba(45, 212, 191, 0.12); border-color: rgba(45, 212, 191, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Hair Transplant</h3>
+                    <p>Successfully managed 50+ hair transplant lead generation, Meta Ads, and Social Media campaigns.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 3: Study Abroad Consultant -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub"
+                    style="background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                      <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Study Abroad</h3>
+                    <p>Trusted by 30+ study abroad consultants for high-quality student lead generation &amp; Meta Ads.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 4: Cosmetic Surgeon -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub"
+                    style="background: rgba(244, 63, 94, 0.12); border-color: rgba(244, 63, 94, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#f43f5e" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.72-8.72 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Cosmetic Surgeon</h3>
+                    <p>Helped 25+ cosmetic surgeons grow their practice with high-quality patient leads &amp; Meta Ads.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 5: CA Firms -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub"
+                    style="background: rgba(99, 102, 241, 0.12); border-color: rgba(99, 102, 241, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                      <line x1="8" y1="21" x2="16" y2="21" />
+                      <line x1="12" y1="17" x2="12" y2="21" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>CA Firms</h3>
+                    <p>20+ CA firms served with expert digital marketing, Meta Ads lead generation, and B2B LinkedIn Ads.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Industry 6: Ecommerce -->
+              <div class="industry-card">
+                <div class="industry-overlay">
+                  <div class="kdm-ind-icon-hub"
+                    style="background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3);">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="9" cy="21" r="1" />
+                      <circle cx="20" cy="21" r="1" />
+                      <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                    </svg>
+                  </div>
+                  <div class="text-box">
+                    <h3>Ecommerce</h3>
+                    <p>Successfully completed 20+ ecommerce projects with Catalog Ads, DPA retargeting, and proven ROAS growth.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div style="text-align: center; margin-top: 35px;">
+            <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn"
+              style="background: linear-gradient(135deg, #0284c7, #3b82f6); color: #fff; padding: 14px 32px; border-radius: 50px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 8px 25px rgba(2, 132, 199, 0.35);">See
+              More Industries &amp; Our Records <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== WHY CHOOSE KING OF DIGITAL MARKETING FOR SMM PACKAGES? (WHITE THEME) ===== -->
+      <section class="locationdetails-why-section">
+        <div class="locationdetails-why-container">
+          <div style="text-align: center; margin-bottom: 25px;">
+            <span class="kdm-seo-badge"
+              style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 14px;">
+              <i class="fa fa-trophy"></i> INDUSTRY LEADERS IN SMM &amp; META ADS
+            </span>
+            <h2 class="locationdetails-why-heading"
+              style="color: #0f172a !important; -webkit-text-fill-color: #0f172a !important; font-size: 36px !important; font-weight: 800 !important; line-height: 1.3 !important; letter-spacing: -0.5px !important; margin-bottom: 16px !important;">
+              Why Choose <span style="color: #0284c7 !important; -webkit-text-fill-color: #0284c7 !important;">King of
+                Digital Marketing</span> for SMM Packages?
+            </h2>
+          </div>
+          <p>We have 13+ Years of experience in digital marketing and paid social media services. We have successfully managed 900+ SMM and Meta Ads projects across multiple industries in India, USA, UK, UAE, and global markets. Our campaigns are managed by certified Meta ad strategists, graphic designers, copywriters, and video editors. We follow an audit-first methodology to ensure every Rupee of your ad budget is targeted towards high-intent buyers and maximum ROAS. We follow our proven 9-step SMM process to ensure every campaign is continuously optimized for lower Cost Per Lead (CPL) and higher sales volume.</p>
+
+          <!-- 6 Why Choose Pointers Grid -->
+          <div class="locationdetails-why-cards">
+            
+            <!-- Pointer 1: Customized SMM Packages -->
+            <div class="why-card" style="--accent: #FF6F00">
+              <div class="icon-box icon-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
+                  width="40" height="40">
+                  <circle cx="12" cy="12" r="10" stroke-linecap="round" stroke-linejoin="round" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+                </svg>
+              </div>
+              <h3>Customized SMM Packages</h3>
+              <p>We tailor our monthly social media marketing packages to match your specific industry, ad budget, and conversion targets for maximum ROI and lead volume.</p>
+            </div>
+
+            <!-- Pointer 2: 100% Certified Meta Ads Team -->
+            <div class="why-card" style="--accent: #008DC2">
+              <div class="icon-box icon-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
+                  width="40" height="40">
+                  <circle cx="11" cy="11" r="6" stroke-linecap="round" stroke-linejoin="round" />
+                  <line x1="16" y1="16" x2="21" y2="21" stroke-linecap="round" stroke-linejoin="round" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h4l2-3 4 6 4-5" />
+                </svg>
+              </div>
+              <h3>100% Meta &amp; LinkedIn Certified</h3>
+              <p>Your campaigns are managed by certified social media ad experts skilled in Meta Business Manager, LinkedIn Ads Manager, and CAPI server tracking.</p>
+            </div>
+
+            <!-- Pointer 3: Affordable Pricing -->
+            <div class="why-card" style="--accent: #0B456A">
+              <div class="review-image">
+                <div class="icon-box icon-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="white" width="40" height="40">
+                    <path d="M12 1v22M17 5H9a3 3 0 0 0 0 6h6a3 3 0 0 1 0 6H7" />
+                  </svg>
+                </div>
+              </div>
+              <h3>Affordable Pricing</h3>
+              <p>Our monthly SMM management plans start as low as INR 19,999/Month, offering budget-friendly pricing perfect for startups, SMEs, and growing brands.</p>
+            </div>
+
+            <!-- Pointer 4: Complete Multi-Platform Coverage -->
+            <div class="why-card" style="--accent: #6A829A">
+              <div class="icon-box icon-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
+                  width="40" height="40">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+              </div>
+              <h3>Complete Multi-Platform Coverage</h3>
+              <p>Our plans cover end-to-end paid social campaigns across Facebook, Instagram, LinkedIn, and YouTube to dominate your target market.</p>
+            </div>
+
+            <!-- Pointer 5: 100% Transparent Weekly Reports -->
+            <div class="why-card" style="--accent: #009688">
+              <div class="icon-box icon-5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
+                  width="40" height="40">
+                  <path d="M9 2h6l4 4v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
+                  <path d="M9 12h6M9 16h4M9 8h1" stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3>100% Transparent Weekly Reports</h3>
+              <p>Receive comprehensive weekly reports detailing total ad spend, impressions, clicks, CPC, Cost Per Lead (CPL), and overall campaign ROAS.</p>
+            </div>
+
+            <!-- Pointer 6: Dedicated Social Media Manager -->
+            <div class="why-card" style="--accent: #cfba1f">
+              <div class="icon-box icon-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
+                  width="40" height="40">
+                  <circle cx="9" cy="7" r="3" />
+                  <circle cx="17" cy="7" r="3" />
+                  <path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2" />
+                  <path d="M14 21v-2a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v2" />
+                </svg>
+              </div>
+              <h3>Dedicated SMM Manager</h3>
+              <p>Work with a dedicated Social Media Account Manager who monitors ad frequency daily, answers queries, and conducts weekly strategy calls.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ===== -->
+      <section class="kdm-testimonial-section">
+        <div class="container">
+          <div class="kdm-testimonial-header">
+            <span class="kdm-testimonial-badge"><i class="fa fa-star"></i> CLIENT TESTIMONIALS</span>
+            <h2 class="kdm-testimonial-title">What Our Global Clients <strong>Say About Our SMM &amp; Paid Social Results</strong></h2>
+            <p class="kdm-testimonial-subtitle">Real feedback from founders and business owners who scaled leads and revenue with King of Digital Marketing.</p>
+          </div>
+
+          <div class="kdm-testimonial-wrapper">
+            <div class="kdm-testimonial-slides">
+
+              <!-- Slide 1: Aji Jeeva -->
+              <div class="kdm-testimonial-card active">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "I hired King of Digital Marketing for Meta Ads &amp; SMM management. Our cost per lead dropped by 45% while conversion volume doubled on Instagram. Gaurav Dubey and his creative team are top class."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-1">AJ</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Aji Jeeva</h4>
+                    <span class="kdm-testimonial-role">Founder — smgains.com (UK)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2: Roopak -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "King of Digital Marketing helped increase our student lead inquiries with targeted Facebook &amp; Instagram Meta Ads. Thanks to Gaurav Dubey and his team for great campaign ROI."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-2">R</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Roopak</h4>
+                    <span class="kdm-testimonial-role">Founder — gotouniversity.com (Dubai)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3: Younus -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "The SMM team at King of Digital Marketing built our tourism agency's paid ad campaigns on Meta. They set up Pixel CAPI tracking and provided detailed weekly reports."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-3">Y</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Younus</h4>
+                    <span class="kdm-testimonial-role">Founder — moroccotourismagency.com (Morocco)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4: Kejsi -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "It's been a great experience working with King of Digital Marketing for SMM packages. Their video Reel ad creatives drive high consultation bookings daily."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-4">K</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Kejsi</h4>
+                    <span class="kdm-testimonial-role">Founder — herahairsolutions.com (Turkey)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 5: David -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "Gaurav Dubey and his SMM team worked on our ecommerce Catalog &amp; DPA retargeting ads. Within a few months, our online store sales increased by 4.2x."
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-5">D</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">David</h4>
+                    <span class="kdm-testimonial-role">Founder — audiocityusa.com (USA)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 6: Dr. Sanjay -->
+              <div class="kdm-testimonial-card">
+                <div class="kdm-testimonial-quote-icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <div class="kdm-testimonial-stars">
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </div>
+                <p class="kdm-testimonial-quote">
+                  "Their SMM &amp; Meta Ads team is creative and highly responsive. Gaurav Dubey personally ensured our campaign targeting was precise. Excellent lead generation results!"
+                </p>
+                <div class="kdm-testimonial-author-box">
+                  <div class="kdm-testimonial-avatar grad-6">DS</div>
+                  <div class="kdm-testimonial-info">
+                    <h4 class="kdm-testimonial-name">Dr. Sanjay</h4>
+                    <span class="kdm-testimonial-role">Founder — cocoona.in (Dubai)</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+              <i class="fa fa-chevron-left"></i>
+            </button>
+            <button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+              <i class="fa fa-chevron-right"></i>
+            </button>
+
+            <!-- Pagination Dots -->
+            <div class="kdm-testimonial-dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 10 CUSTOM FAQS FOR SMM PACKAGES ===== -->
+      <section class="kdm-faq-section">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h2 align="center">Frequently Asked <strong>Questions (FAQs)</strong></h2>
+              <h2 align="center">FAQs <strong>for SMM Packages</strong></h2>
               <div class="kdm-faq-accordion">
+                
+                <!-- Q1 -->
                 <div class="kdm-faq-item active">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.1. How much budget is required to start Meta Ads?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Meta Ads is not costly, you can start with a small daily budget. We usually suggest a test budget first and then increase it once results start coming.</p>
-                    </div>
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.1. What is included in your Social Media Marketing (SMM) packages?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our SMM packages include Meta Business Manager setup, Pixel &amp; CAPI tracking installation, audience persona research, custom graphic &amp; Reel ad creative design, copy writing, campaign optimization, retargeting funnels, and weekly CPL reporting.</p>
+                  </div>
                 </div>
+
+                <!-- Q2 -->
                 <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.2. How soon will I get leads or sales?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Ads can start giving results within a few days, but real optimization and stable performance usually takes 2-3 weeks.</p>
-                    </div>
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.2. Which paid social platforms do you manage (Meta, LinkedIn, YouTube)?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We manage paid ad campaigns across Meta (Facebook &amp; Instagram Ads), LinkedIn Ads Manager, YouTube Video Ads, and Pinterest Ads depending on your business goals and plan tier.</p>
+                  </div>
                 </div>
+
+                <!-- Q3 -->
                 <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.3. Do you guarantee leads or sales?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Guarantee in SMM is a scam. We focus on correct strategy, targeting, and optimization to get the best possible results.</p>
-                    </div>
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.3. Is the monthly ad spend budget included in your management fee?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No. Our package fee covers complete campaign strategy, ad copywriting, graphic/Reel creative design, technical CAPI setup, and daily bid management. Ad spend is paid directly to Meta or LinkedIn from your billing card.</p>
+                  </div>
                 </div>
+
+                <!-- Q4 -->
                 <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.4. Who will pay the ad spend - me or the agency?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You pay the ad spend directly to Meta. Our package fee is separate and charged only for management and optimization.</p>
-                    </div>
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.4. Do you create custom graphic banners and short Reel video ads?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100%. Our in-house design and multimedia video team creates high-converting graphic banners, carousel slides, and short-form video Reel ad assets tailored to your brand style.</p>
+                  </div>
                 </div>
+
+                <!-- Q5 -->
                 <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.5. Do I need a website to run Meta Ads?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> A website helps, but it's not compulsory. We can run lead form, WhatsApp, Instagram DM, or call based campaigns.</p>
-                    </div>
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.5. How fast will social media ads generate customer leads for my business?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Meta and LinkedIn ads go live within 24 to 48 hours. Once approved, you start receiving targeted lead form submits, website sales, and customer phone calls from Day 1.</p>
+                  </div>
                 </div>
+
+                <!-- Q6 -->
                 <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.6. Will I get quality leads or random inquiries?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We always strive to get high quality leads. Quality depends on targeting, offer, creatives, and follow-up.</p>
-                    </div>
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.6. What is Meta Conversion API (CAPI) and why is it important?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Meta CAPI sends conversion events directly from server-to-server, bypassing iOS privacy blocks and ad blockers. This ensures 100% lead tracking accuracy and improves ad targeting ROI.</p>
+                  </div>
                 </div>
+
+                <!-- Q7 -->
                 <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.7. What details do you need from my side to start?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We need basic business details, offer, target location, creatives, and access to your Meta Manager.</p>
-                    </div>
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.7. Is there a long-term contract or lock-in period?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No forced long-term lock-in contracts. We offer month-to-month plans so you can scale or adjust your ad budget anytime based on business growth and seasonality.</p>
+                  </div>
                 </div>
+
+                <!-- Q8 -->
                 <div class="kdm-faq-item">
-                    <button type="button" class="kdm-faq-header">
-                        <span class="kdm-faq-question">Q.8. Can I track where my money is being spent?</span>
-                        <span class="kdm-faq-icon">+</span>
-                    </button>
-                    <div class="kdm-faq-body">
-                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. You'll have full access to your ad account and can see spending, leads, and performance anytime.</p>
-                    </div>
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.8. How do custom retargeting and Lookalike audiences work?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Retargeting displays ads to past website visitors and video viewers. Lookalike audiences match your converted customer profiles to reach millions of new high-intent buyers on Meta.</p>
+                  </div>
                 </div>
+
+                <!-- Q9 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.9. How do you measure and report weekly SMM ROI &amp; CPL?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We track every lead via GTM &amp; GA4. Every week and month, we deliver a detailed report specifying total ad spend, impressions, CTR, Cost Per Lead (CPL), and campaign ROAS.</p>
+                  </div>
+                </div>
+
+                <!-- Q10 -->
+                <div class="kdm-faq-item">
+                  <button type="button" class="kdm-faq-header">
+                    <span class="kdm-faq-question">Q.10. Why choose King of Digital Marketing for SMM paid ads management?</span>
+                    <span class="kdm-faq-icon">+</span>
+                  </button>
+                  <div class="kdm-faq-body">
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of digital marketing experience, 900+ completed projects, founder leadership from Gaurav Dubey, and a dedicated team of 12 in-house Meta certified strategists, we deliver top ROAS starting at INR 19,999/Month.</p>
+                  </div>
+                </div>
+
               </div>
             </div>
 
             <!-- 3 High-Converting Dark Theme SVG Offers next to FAQ -->
             <div class="col-md-6">
-              <h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups & Businesses</strong></h2>
+              <h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups &amp; Businesses</strong></h2>
               
               <div class="kdm-offer-dark-list">
                 <!-- Offer 1 -->
@@ -1397,7 +1628,7 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
                     <h4>Startup SMM Booster Offer</h4>
                     <p class="kdm-offer-dark-value">Get 10% OFF</p>
                     <h5 class="kdm-offer-dark-sub">On Quarterly SMM Package</h5>
-                    <h5 class="kdm-offer-dark-desc">Sign up for any 3-month package & get instant 10% OFF!</h5>
+                    <h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF!</h5>
                   </div>
                 </div>
 
@@ -1417,7 +1648,7 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
                     <h4>Growth SMM Plan Offer</h4>
                     <p class="kdm-offer-dark-value">Get 15% OFF</p>
                     <h5 class="kdm-offer-dark-sub">On 6-Months SMM Package</h5>
-                    <h5 class="kdm-offer-dark-desc">Lock in long-term campaign growth and save BIG!</h5>
+                    <h5 class="kdm-offer-dark-desc">Lock in long-term paid social leads and save BIG!</h5>
                   </div>
                 </div>
 
@@ -1434,25 +1665,21 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
                     <h4>Premium SMM Plan Offer</h4>
                     <p class="kdm-offer-dark-value">Get 20% OFF</p>
                     <h5 class="kdm-offer-dark-sub">On 12-Month SMM Package</h5>
-                    <h5 class="kdm-offer-dark-desc">Scale your brand leadership and save maximum all year!</h5>
+                    <h5 class="kdm-offer-dark-desc">Dominate social leads &amp; sales all year while saving BIG!</h5>
                   </div>
                 </div>
+
               </div>
             </div>
+
           </div>
         </div>
-    </section>
+      </section>
+
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="js/international-page.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-</div>
-    <!-- Main Closed -->
-    <!-- Form Container Start -->
-
-    <div class="container">
-      <hr class="tall">
-    </div>
-	
     <script src="js/kdm-faq.js"></script>
 </asp:Content>

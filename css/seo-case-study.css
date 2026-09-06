@@ -1,0 +1,216 @@
+/* ===== SEO CASE STUDY PAGE STYLES ===== */
+
+/* Client Logo Marquee & Unstretched Frames */
+.kdm-case-clients-section {
+    background: #f8fafc;
+    padding: 50px 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.kdm-logo-slide-container {
+    overflow: hidden !important;
+    position: relative !important;
+    white-space: nowrap !important;
+    padding: 15px 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.kdm-logo-slide-track {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 16px !important;
+    animation: kdmLogoMarquee 45s linear infinite !important;
+    width: max-content !important;
+}
+
+.kdm-logo-slide-track:hover {
+    animation-play-state: paused !important;
+}
+
+@keyframes kdmLogoMarquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.kdm-logo-card-frame {
+    height: 75px !important;
+    min-width: 150px !important;
+    max-width: 190px !important;
+    padding: 12px 20px !important;
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 14px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important;
+    transition: all 0.3s ease !important;
+    flex-shrink: 0 !important;
+}
+
+.kdm-logo-card-frame:hover {
+    transform: translateY(-3px) !important;
+    border-color: #0284c7 !important;
+    box-shadow: 0 8px 20px rgba(2, 132, 199, 0.18) !important;
+}
+
+.kdm-case-logo-img {
+    max-height: 50px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
+    object-fit: contain !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+/* Category Filter Pills */
+.kdm-case-filter-pills {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important;
+    margin-bottom: 35px !important;
+}
+
+.kdm-case-filter-btn {
+    background: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    color: #475569 !important;
+    padding: 9px 22px !important;
+    border-radius: 30px !important;
+    font-size: 13.5px !important;
+    font-weight: 700 !important;
+    cursor: pointer !important;
+    transition: all 0.25s ease !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+.kdm-case-filter-btn:hover,
+.kdm-case-filter-btn.active {
+    background: #0284c7 !important;
+    color: #ffffff !important;
+    border-color: #0284c7 !important;
+    box-shadow: 0 4px 15px rgba(2, 132, 199, 0.3) !important;
+}
+
+/* Redesigned Native kdm-ppc-process-card */
+.kdm-ppc-process-grid-3 {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 28px !important;
+}
+
+@media (max-width: 991px) {
+    .kdm-ppc-process-grid-3 {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 22px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .kdm-ppc-process-grid-3 {
+        grid-template-columns: 1fr !important;
+        gap: 18px !important;
+    }
+}
+
+.kdm-ppc-process-card {
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+    position: relative !important;
+    text-align: left !important;
+    padding: 0 !important;
+}
+
+.kdm-ppc-process-card:hover {
+    transform: translateY(-6px) !important;
+    box-shadow: 0 20px 40px rgba(2, 132, 199, 0.18) !important;
+    border-color: #0284c7 !important;
+}
+
+.kdm-ppc-process-card-accent {
+    height: 4px !important;
+    background: linear-gradient(90deg, #0284c7 0%, #38bdf8 50%, #6366f1 100%) !important;
+    width: 100% !important;
+}
+
+.kdm-case-thumb-box {
+    height: 200px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    background: #f8fafc !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+}
+
+.kdm-case-thumb-img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    transition: transform 0.5s ease !important;
+}
+
+.kdm-ppc-process-card:hover .kdm-case-thumb-img {
+    transform: scale(1.05) !important;
+}
+
+.kdm-case-metric-badge {
+    position: absolute !important;
+    top: 12px !important;
+    right: 12px !important;
+    background: rgba(15, 23, 42, 0.85) !important;
+    backdrop-filter: blur(8px) !important;
+    color: #38bdf8 !important;
+    border: 1px solid rgba(56, 189, 248, 0.3) !important;
+    font-size: 11.5px !important;
+    font-weight: 800 !important;
+    padding: 4px 12px !important;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.kdm-case-card-body {
+    padding: 24px 22px 20px 22px !important;
+    flex-grow: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.kdm-ppc-process-title {
+    font-size: 19px !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    line-height: 1.35 !important;
+    margin-bottom: 12px !important;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    transition: color 0.25s ease !important;
+}
+
+.kdm-ppc-process-card:hover .kdm-ppc-process-title {
+    color: #0284c7 !important;
+}
+
+.kdm-ppc-process-desc {
+    font-size: 14.5px !important;
+    line-height: 1.65 !important;
+    color: #475569 !important;
+    margin-bottom: 18px !important;
+    flex-grow: 1 !important;
+}
+
+.kdm-case-card-footer {
+    padding-top: 14px !important;
+    border-top: 1px solid #f1f5f9 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
