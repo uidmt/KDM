@@ -92,6 +92,7 @@
         }]
     }
     </script>
+		<link rel="stylesheet" href="css/kdm-faq.css" />
 		<script src="js/kdm-faq.js"></script>
 		<style>
 			/* ==========================================================================
@@ -6057,120 +6058,127 @@
 				</div>
 			</div>
 
-			<!-- Section for FAQ -->
-			<!-- Section for FAQ -->
-			<section class="kdm-faq-section">
+			<!-- Section for FAQ Starts -->
+			<section class="kdm-faq-section" id="kdm-faq-section">
 				<div class="kdm-faq-container">
-					<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-					<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our digital
-						marketing services.</p>
+					<div class="kdm-faq-layout-grid">
+						<!-- Left Column: FAQ Accordion -->
+						<div>
+							<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
+							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our AI-powered digital marketing course in South Delhi, fees, syllabus, and placement support.</p>
 
-					<div class="kdm-faq-accordion">
-						<div class="kdm-faq-item active">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.1.
-									Digital Marketing Course Fee in South Delhi?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The fees for a digital
-									marketing course in south Delhi are around 20k to 1.5
-									lakhs depending on the course you are going for.</p>
+							<div class="kdm-faq-accordion">
+								<!-- FAQ 1 -->
+								<div class="kdm-faq-item active">
+									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+										<span class="kdm-faq-question">Q.1. What is the Digital Marketing Course fee in South Delhi?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing course fees at King of Digital Marketing start from <strong>₹24,999</strong> for the 45-Day PowerPlay Course up to <strong>₹39,999</strong> for the 4-Month Comprehensive Mastery Course, including agency internship and 100% placement support.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 2 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+										<span class="kdm-faq-question">Q.2. What are the advantages of enrolling in this digital marketing course in South Delhi?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You learn directly from agency founder <strong>Gaurav Dubey (13+ years exp.)</strong> on active client accounts with live ad budgets. The curriculum covers 60+ modules including Generative AI, SEO, Google/Meta Ads, CRM automation, paid agency internships, and guaranteed job assistance.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 3 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+										<span class="kdm-faq-question">Q.3. What is the duration of the digital marketing course in South Delhi?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Course durations vary based on the track: the <strong>PowerPlay Fast-Track Course</strong> is 45 Days, while the <strong>Mastery Comprehensive Program</strong> is 4 Months with 2 Months agency internship experience.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 4 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+										<span class="kdm-faq-question">Q.4. Can I attend classes online or classroom in South Delhi?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We offer both offline classroom training at our South Delhi (Govindpuri/Kalkaji) institute as well as live interactive online classes with 1-on-1 doubt clearing and recorded backups.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 5 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+										<span class="kdm-faq-question">Q.5. Will I get guaranteed job placement after completing the course?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide <strong>100% placement assistance</strong> with resume optimization, portfolio creation, mock HR interviews, and direct interview drives with 150+ hiring partner agencies and MNCs across Delhi NCR.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 6 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+										<span class="kdm-faq-question">Q.6. Can I attend a free demo class before enrollment?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely! You can book a free live demo session by filling out the <a href="#kdm-hero-lead-form"><strong>Enquiry Form</strong></a> or calling our counseling team directly at <strong>+91 9555696058</strong>.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 7 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+										<span class="kdm-faq-question">Q.7. Which certifications will I receive upon course completion?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>15+ industry certifications</strong> including Google Ads, Meta Certified Digital Marketing Associate, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 8 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+										<span class="kdm-faq-question">Q.8. Who can join this digital marketing course?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Anyone with basic computer and internet knowledge can join! Our batches are specially designed for college students, job seekers, working professionals wanting to switch careers, entrepreneurs, freelancers, and homemakers.</p>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.2. What
-									are the advantages of enrolling in this online digital marketing course in
-									South Delhi?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital Marketing
-									Certification programs are purpose-built to teach Digital
-									Marketing concepts. In addition, instructors provide hands-on training while
-									you work on real-world industry projects and assignments when you enroll
-									yourself in the digital marketing course in South Delhi.</p>
-							</div>
-						</div>
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.3. What
-									is the course duration of the online/offline digital marketing course in
-									south Delhi?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The duration of a
-									digital marketing course at Digital marketing Institutes in
-									South Delhi generally ranges from 3 months to 1 year (approx.)</p>
-							</div>
-						</div>
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.4. Can I
-									learn digital marketing online?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes sure.</p>
-							</div>
-						</div>
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.5. After
-									Completing my online digital marketing course, will I become a digital
-									marketing specialist?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Just completing a
-									digital marketing course or getting certification from a
-									digital marketing institute in South Delhi does not ensure you will get a
-									job. You must learn the necessary skills and complete projects and
-									internships to gain Practical knowledge.</p>
-							</div>
-						</div>
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.6. Can I
-									attend a demo session before enrollment?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes you can, to book a
-									free demo class click here - <a href="#form">demo
-										class<a> or call- +919555696058, +919205316988</p>
-							</div>
-						</div>
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.7. Which
-									is the best Digital Marketing Institute in south Delhi?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> King of digital
-									marketing is the best digital marketing Institute in south
-									Delhi.</p>
-							</div>
-						</div>
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.8. What
-									is the course duration in king of digital marketing?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The duration of the
-									digital marketing course at King of Digital Marketing is
-									three months approx.</p>
+
+						<!-- Right Column: Course Counseling & Special Scholarship Card -->
+						<div>
+							<div class="kdm-faq-offer-card">
+								<div style="font-size: 11px; font-weight: 800; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+									🎓 ADMISSION OPEN 2026
+								</div>
+								<h4>Talk to Course Mentor</h4>
+								<p style="font-size: 13px; color: #cbd5e1; margin-bottom: 12px; line-height: 1.45;">Get 1-on-1 career guidance and special scholarship offers for upcoming weekday &amp; weekend batches.</p>
+								<div class="box-styling">Special 28% Scholarship</div>
+								<div class="box-offer">✅ 100% Practical Live Projects</div>
+								<div class="box-offer">✅ 60+ AI &amp; Marketing Modules</div>
+								<div class="box-offer">✅ Agency Internship &amp; Placement</div>
+								<div class="box-offer">✅ 15+ Global Certifications</div>
+								<a href="#kdm-hero-lead-form" class="kdm-faq-offer-btn">
+									Book Free Demo Class <i class="fa fa-arrow-right" style="margin-left: 4px;"></i>
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
 			<!-- Section for FAQ Ends -->
 
 		</div>
