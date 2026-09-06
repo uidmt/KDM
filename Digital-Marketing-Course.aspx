@@ -576,7 +576,8 @@
 						</div>
 
 						<h1 class="kdm-course-hero-title">
-							Master AI-Driven <span class="kdm-hero-gradient-text">Digital Marketing</span> & Launch a
+							Master AI-Driven <span class="kdm-hero-gradient-text">Digital Marketing Course in South
+								Delhi</span> & Launch a
 							6-Figure Career
 						</h1>
 
@@ -681,10 +682,6 @@
 				</div>
 			</div>
 			<!-- Page Main Hero Section Ends -->
-
-
-
-
 
 			<!-- Page Body Part Starts-->
 			<div class="altra-sub-hero" style="padding: 40px 0 10px 0;">
@@ -1293,7 +1290,6 @@
 				</div>
 			</section>
 			<!-- Credentials of Institute -->
-
 
 			<style>
 				.career-card-animated {
@@ -2398,7 +2394,6 @@
 			</div>
 			<!-- digital marketing module course Ends-->
 
-
 			<!-- tool Logos Container -->
 			<style>
 				.tools-grid-container {
@@ -2685,7 +2680,6 @@
 				</div>
 			</div>
 			<!-- Flexible Batches Section Ends -->
-
 
 			<!-- Courses Covered Starts-->
 			<!-- Specific Modules Covered Starts -->
@@ -3035,7 +3029,6 @@
 				</div>
 			</div>
 			<!-- Specific Modules Covered Ends -->
-			<hr class="tall" />
 
 			<!-- Various Courses Section Starts -->
 			<style>
@@ -3466,27 +3459,33 @@
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Specialized Track Choice:</strong> In-depth Mastery of AI-Powered SEO <em>or</em> Google &amp; Meta Ads <em>or</em> SMM Growth</span></li>
+										</svg> <span><strong>Specialized Track Choice:</strong> In-depth Mastery of
+											AI-Powered SEO <em>or</em> Google &amp; Meta Ads <em>or</em> SMM
+											Growth</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>100% Practical Execution:</strong> Hands-on training on live client accounts &amp; actual ad spends</span></li>
+										</svg> <span><strong>100% Practical Execution:</strong> Hands-on training on
+											live client accounts &amp; actual ad spends</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>AI Marketing Workflows:</strong> Practical ChatGPT prompts for copywriting, strategy &amp; market research</span></li>
+										</svg> <span><strong>AI Marketing Workflows:</strong> Practical ChatGPT prompts
+											for copywriting, strategy &amp; market research</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Social Media Content Engine:</strong> Calendar planning, viral creative strategy &amp; engagement funnels</span></li>
+										</svg> <span><strong>Social Media Content Engine:</strong> Calendar planning,
+											viral creative strategy &amp; engagement funnels</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>10 Live Case Studies:</strong> Real-time campaign reports, performance audits &amp; ROAS optimization</span></li>
+										</svg> <span><strong>10 Live Case Studies:</strong> Real-time campaign reports,
+											performance audits &amp; ROAS optimization</span></li>
 								</ul>
 
 								<!-- Subgroup 2: Deliverables & Career Support -->
@@ -3498,22 +3497,26 @@
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>1-Month Agency Internship:</strong> Real agency project exposure with verified experience certificate</span></li>
+										</svg> <span><strong>1-Month Agency Internship:</strong> Real agency project
+											exposure with verified experience certificate</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Mock Interviews &amp; Resume Crafting:</strong> 1-on-1 interview drill sessions with hiring managers</span></li>
+										</svg> <span><strong>Mock Interviews &amp; Resume Crafting:</strong> 1-on-1
+											interview drill sessions with hiring managers</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>100% Placement Assistance:</strong> Direct interviews with leading agencies &amp; corporate brands</span></li>
+										</svg> <span><strong>100% Placement Assistance:</strong> Direct interviews with
+											leading agencies &amp; corporate brands</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Lifetime LMS &amp; Community:</strong> 24/7 access to updated learning resources &amp; alumni network</span></li>
+										</svg> <span><strong>Lifetime LMS &amp; Community:</strong> 24/7 access to
+											updated learning resources &amp; alumni network</span></li>
 								</ul>
 							</div>
 							<div>
@@ -3608,27 +3611,32 @@
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>60+ Complete Modules:</strong> Master SEO, Google Ads, Meta Ads, SMM, Email, Affiliate &amp; CRO</span></li>
+										</svg> <span><strong>60+ Complete Modules:</strong> Master SEO, Google Ads, Meta
+											Ads, SMM, Email, Affiliate &amp; CRO</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Advanced Generative AI Suite:</strong> ChatGPT-4, Midjourney, Claude, Gemini &amp; AI Workflow Automation</span></li>
+										</svg> <span><strong>Advanced Generative AI Suite:</strong> ChatGPT-4,
+											Midjourney, Claude, Gemini &amp; AI Workflow Automation</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Topical Authority &amp; Semantic SEO:</strong> Technical audits, AI search optimization &amp; link-building</span></li>
+										</svg> <span><strong>Topical Authority &amp; Semantic SEO:</strong> Technical
+											audits, AI search optimization &amp; link-building</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Marketing Automation &amp; CRM:</strong> HubSpot, Zapier, WhatsApp CRM &amp; automated lead funnels</span></li>
+										</svg> <span><strong>Marketing Automation &amp; CRM:</strong> HubSpot, Zapier,
+											WhatsApp CRM &amp; automated lead funnels</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>15+ Live Client Budgets:</strong> End-to-end multi-channel ROI execution with actual ad media spend</span></li>
+										</svg> <span><strong>15+ Live Client Budgets:</strong> End-to-end multi-channel
+											ROI execution with actual ad media spend</span></li>
 								</ul>
 
 								<!-- Subgroup 2: Executive Deliverables & Mentorship -->
@@ -3640,27 +3648,32 @@
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>2 Months Paid Agency Internship:</strong> High-impact agency client handling &amp; live experience letters</span></li>
+										</svg> <span><strong>2 Months Free Agency Internship:</strong> High-impact
+											agency client handling &amp; live experience letters</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>15+ Global Certifications:</strong> Google Ads, Meta Certified, HubSpot Academy &amp; UIDMT Master's</span></li>
+										</svg> <span><strong>Multiple Certifications:</strong> Google Ads, Meta
+											Certified, HubSpot Academy &amp; UIDMT Master's</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>1-on-1 Mentorship by Gaurav Dubey:</strong> Direct career coaching, campaign reviews &amp; strategic growth</span></li>
+										</svg> <span><strong>1-on-1 Mentorship by Gaurav Dubey:</strong> Direct career
+											coaching, campaign reviews &amp; strategic growth</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Guaranteed 100% Placement Assistance:</strong> Top MNC &amp; agency interview drives with dedicated placement manager</span></li>
+										</svg> <span><strong>Guaranteed 100% Placement Assistance:</strong> Top MNC
+											&amp; agency interview drives with dedicated placement manager</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Freelancing &amp; Agency Launchpad:</strong> Global client acquisition, proposal pitching &amp; pricing blueprint</span></li>
+										</svg> <span><strong>Freelancing &amp; Agency Launchpad:</strong> Global client
+											acquisition, proposal pitching &amp; pricing blueprint</span></li>
 								</ul>
 							</div>
 							<div>
@@ -3974,10 +3987,8 @@
 			<!-- Bonus With Digital Marketing Course Ends -->
 
 			<!-- Tools We Use Ends -->
-			<hr class="tall" />
 
 			<!-- Career Options Starts-->
-
 
 			<!-- Job Opportunities & Career Paths Redesigned Section -->
 			<style>
@@ -5621,8 +5632,7 @@
 						Presently envision when a country's Prime Minister is making awareness of Digital Marketing,
 						Think!
 						what might be the scope of digital marketing in India.</p>
-					<hr class="tall" />
-
+		
 					<h2 align="center">How Can Digital Marketing Course Help You to Grow Your Career?</h2>
 					<p align="justify">Digital marketing is a career that has ample of room for creatives, techs, and
 						business people. There are so many roads that you can follow; it is best to focus on one or two
@@ -5640,7 +5650,6 @@
 				</div>
 
 			</div>
-			<hr class="tall" />
 
 			<div class="container mt-5">
 
@@ -5666,13 +5675,10 @@
 
 				</div>
 
-
-
 			</div>
 
 			<div class="col-12">
 				<div class="container">
-
 
 					<h2 align="center">How Can Join a Digital Marketing Course In Delhi?</h2>
 					<p align="justify">
@@ -5730,7 +5736,6 @@
 				</div>
 			</div>
 
-
 			<div class="col-12">
 				<div class="container">
 					<h2 align="center">How Much Money Can You Earn After Completing Digital Marketing Course?</h2>
@@ -5764,7 +5769,6 @@
 					</ul>
 				</div>
 			</div>
-			<hr class="tall" />
 
 			<!-- Student Video Testimonials Redesigned Section -->
 			<style>
@@ -6053,8 +6057,6 @@
 				</div>
 			</div>
 
-
-
 			<!-- Section for FAQ -->
 			<!-- Section for FAQ -->
 			<section class="kdm-faq-section">
@@ -6170,10 +6172,6 @@
 			</section>
 
 			<!-- Section for FAQ Ends -->
-
-
-
-
 
 		</div>
 
