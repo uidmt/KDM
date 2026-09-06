@@ -93,382 +93,467 @@
     }
     </script>
 		<script src="js/kdm-faq.js"></script>
-    <style>
-        /* ==========================================================================
+		<style>
+			/* ==========================================================================
            KDM Course Hero Section - Attractive, Vibrant & Fully Responsive
            ========================================================================== */
-        .kdm-course-hero-wrapper {
-            position: relative;
-            background: linear-gradient(135deg, #050a18 0%, #0c1833 50%, #060e20 100%);
-            padding: 45px 0 50px 0;
-            overflow: hidden;
-            color: #ffffff;
-            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            border-bottom: 1px solid rgba(56, 189, 248, 0.2);
-        }
-        .kdm-course-hero-wrapper::before {
-            content: '';
-            position: absolute;
-            top: -20%;
-            left: -10%;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(14, 165, 233, 0.24) 0%, rgba(59, 130, 246, 0.12) 40%, transparent 70%);
-            border-radius: 50%;
-            filter: blur(60px);
-            pointer-events: none;
-            z-index: 1;
-        }
-        .kdm-course-hero-wrapper::after {
-            content: '';
-            position: absolute;
-            bottom: -20%;
-            right: -10%;
-            width: 650px;
-            height: 650px;
-            background: radial-gradient(circle, rgba(139, 92, 246, 0.22) 0%, rgba(236, 72, 153, 0.12) 40%, transparent 70%);
-            border-radius: 50%;
-            filter: blur(70px);
-            pointer-events: none;
-            z-index: 1;
-        }
-        .kdm-hero-grid-bg {
-            position: absolute;
-            inset: 0;
-            background-image: 
-                linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
-            background-size: 36px 36px;
-            pointer-events: none;
-            z-index: 1;
-        }
-        .kdm-course-hero-container {
-            max-width: 1240px;
-            margin: 0 auto;
-            padding: 0 20px;
-            position: relative;
-            z-index: 2;
-            display: flex;
-            align-items: center;
-            gap: 36px;
-        }
-        .kdm-course-hero-left {
-            flex: 1 1 62%;
-            min-width: 0;
-        }
-        .kdm-course-hero-right {
-            flex: 0 0 380px;
-            max-width: 100%;
-        }
+			.kdm-course-hero-wrapper {
+				position: relative;
+				background: linear-gradient(135deg, #050a18 0%, #0c1833 50%, #060e20 100%);
+				padding: 45px 0 50px 0;
+				overflow: hidden;
+				color: #ffffff;
+				font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+				border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+			}
 
-        /* Breadcrumbs */
-        .kdm-hero-breadcrumb {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 12px;
-            color: #94a3b8;
-            margin-bottom: 12px;
-        }
-        .kdm-hero-breadcrumb a {
-            color: #94a3b8;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-        .kdm-hero-breadcrumb a:hover {
-            color: #38bdf8;
-        }
-        .kdm-hero-breadcrumb i {
-            font-size: 9px;
-            color: #64748b;
-        }
+			.kdm-course-hero-wrapper::before {
+				content: '';
+				position: absolute;
+				top: -20%;
+				left: -10%;
+				width: 600px;
+				height: 600px;
+				background: radial-gradient(circle, rgba(14, 165, 233, 0.24) 0%, rgba(59, 130, 246, 0.12) 40%, transparent 70%);
+				border-radius: 50%;
+				filter: blur(60px);
+				pointer-events: none;
+				z-index: 1;
+			}
 
-        /* Live Pulse Badge */
-        .kdm-hero-pulse-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: linear-gradient(135deg, rgba(14, 165, 233, 0.18) 0%, rgba(99, 102, 241, 0.18) 100%);
-            border: 1px solid rgba(56, 189, 248, 0.45);
-            color: #38bdf8;
-            font-size: 11px;
-            font-weight: 800;
-            padding: 6px 14px;
-            border-radius: 9999px;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            margin-bottom: 14px;
-            box-shadow: 0 0 18px rgba(56, 189, 248, 0.2);
-        }
-        .kdm-hero-pulse-badge .pulse-dot {
-            width: 8px;
-            height: 8px;
-            background: #10b981;
-            border-radius: 50%;
-            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-            animation: kdmPulse 1.8s infinite;
-        }
-        @keyframes kdmPulse {
-            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-            70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
-            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
-        }
+			.kdm-course-hero-wrapper::after {
+				content: '';
+				position: absolute;
+				bottom: -20%;
+				right: -10%;
+				width: 650px;
+				height: 650px;
+				background: radial-gradient(circle, rgba(139, 92, 246, 0.22) 0%, rgba(236, 72, 153, 0.12) 40%, transparent 70%);
+				border-radius: 50%;
+				filter: blur(70px);
+				pointer-events: none;
+				z-index: 1;
+			}
 
-        /* Typography */
-        .kdm-course-hero-title {
-            font-size: 36px;
-            line-height: 1.22;
-            font-weight: 900;
-            color: #ffffff;
-            margin: 0 0 14px 0;
-            letter-spacing: -0.6px;
-        }
-        .kdm-hero-gradient-text {
-            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            display: inline;
-        }
-        .kdm-course-hero-subtitle {
-            font-size: 14.5px;
-            line-height: 1.6;
-            color: #cbd5e1;
-            margin: 0 0 18px 0;
-        }
-        .kdm-course-hero-subtitle strong {
-            color: #ffffff;
-            font-weight: 700;
-        }
+			.kdm-hero-grid-bg {
+				position: absolute;
+				inset: 0;
+				background-image:
+					linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+					linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+				background-size: 36px 36px;
+				pointer-events: none;
+				z-index: 1;
+			}
 
-        /* Stats Bar */
-        .kdm-hero-stats-bar {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 10px 16px;
-            background: rgba(15, 23, 42, 0.75);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            border-radius: 12px;
-            padding: 9px 16px;
-            margin-bottom: 22px;
-            width: fit-content;
-        }
-        .kdm-stat-pill {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 13px;
-            font-weight: 700;
-            color: #e2e8f0;
-        }
-        .kdm-stat-divider {
-            color: rgba(255, 255, 255, 0.22);
-        }
+			.kdm-course-hero-container {
+				max-width: 1240px;
+				margin: 0 auto;
+				padding: 0 20px;
+				position: relative;
+				z-index: 2;
+				display: flex;
+				align-items: center;
+				gap: 36px;
+			}
 
-        /* 6 Value Highlights Grid */
-        .kdm-hero-features-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            margin-bottom: 24px;
-        }
-        .kdm-hero-feat-card {
-            background: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
-            border: 1px solid rgba(255, 255, 255, 0.09);
-            border-radius: 10px;
-            padding: 10px 12px;
-            display: flex;
-            align-items: flex-start;
-            gap: 10px;
-            transition: all 0.25s ease;
-        }
-        .kdm-hero-feat-card:hover {
-            background: linear-gradient(145deg, rgba(56, 189, 248, 0.12) 0%, rgba(99, 102, 241, 0.08) 100%);
-            border-color: rgba(56, 189, 248, 0.4);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
-        }
-        .kdm-feat-icon-box {
-            width: 32px;
-            height: 32px;
-            flex-shrink: 0;
-            border-radius: 8px;
-            background: linear-gradient(135deg, rgba(14, 165, 233, 0.25) 0%, rgba(99, 102, 241, 0.25) 100%);
-            border: 1px solid rgba(56, 189, 248, 0.35);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #38bdf8;
-            font-size: 13px;
-        }
-        .kdm-feat-content {
-            min-width: 0;
-        }
-        .kdm-feat-title {
-            font-size: 12.5px;
-            font-weight: 700;
-            color: #ffffff;
-            line-height: 1.3;
-            margin-bottom: 2px;
-        }
-        .kdm-feat-desc {
-            font-size: 11px;
-            color: #94a3b8;
-            line-height: 1.3;
-        }
+			.kdm-course-hero-left {
+				flex: 1 1 62%;
+				min-width: 0;
+			}
 
-        /* CTAs */
-        .kdm-hero-cta-row {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 12px;
-        }
-        .kdm-btn-hero-primary {
-            background: linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #4f46e5 100%);
-            color: #ffffff !important;
-            font-size: 14px;
-            font-weight: 800;
-            padding: 12px 22px;
-            border-radius: 10px;
-            text-decoration: none !important;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: all 0.25s ease;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-        }
-        .kdm-btn-hero-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 12px 28px rgba(37, 99, 235, 0.6);
-            background: linear-gradient(135deg, #0369a1 0%, #1d4ed8 50%, #4338ca 100%);
-        }
-        .kdm-btn-hero-whatsapp {
-            background: linear-gradient(135deg, #059669 0%, #10b981 100%);
-            color: #ffffff !important;
-            font-size: 14px;
-            font-weight: 700;
-            padding: 12px 18px;
-            border-radius: 10px;
-            text-decoration: none !important;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            border: 1px solid rgba(255, 255, 255, 0.18);
-            box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
-            transition: all 0.25s ease;
-        }
-        .kdm-btn-hero-whatsapp:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 24px rgba(16, 185, 129, 0.5);
-            background: linear-gradient(135deg, #047857 0%, #059669 100%);
-        }
-        .kdm-hero-call-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: #e2e8f0;
-            font-size: 13px;
-            font-weight: 700;
-            text-decoration: none;
-            padding: 10px 14px;
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.06);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.2s ease;
-        }
-        .kdm-hero-call-link:hover {
-            color: #38bdf8;
-            background: rgba(255, 255, 255, 0.12);
-            border-color: rgba(56, 189, 248, 0.35);
-        }
+			.kdm-course-hero-right {
+				flex: 0 0 380px;
+				max-width: 100%;
+			}
 
-        /* Right Card Container */
-        .kdm-hero-form-card {
-            background: linear-gradient(145deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.92));
-            border: 1px solid rgba(56, 189, 248, 0.35);
-            border-radius: 18px;
-            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55), 0 0 25px rgba(56, 189, 248, 0.18);
-            overflow: hidden;
-            position: relative;
-        }
-        .kdm-hero-form-header {
-            background: linear-gradient(135deg, rgba(14, 165, 233, 0.18) 0%, rgba(99, 102, 241, 0.18) 100%);
-            padding: 12px 18px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .kdm-form-header-title {
-            font-size: 12px;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 0.6px;
-            color: #38bdf8;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .kdm-form-seat-tag {
-            font-size: 10px;
-            font-weight: 800;
-            background: rgba(245, 158, 11, 0.2);
-            border: 1px solid rgba(245, 158, 11, 0.5);
-            color: #fbbf24;
-            padding: 2px 8px;
-            border-radius: 12px;
-            text-transform: uppercase;
-        }
-        .kdm-hero-form-iframe {
-            width: 100%;
-            height: 405px;
-            border: none;
-            display: block;
-            overflow: hidden;
-        }
+			/* Breadcrumbs */
+			.kdm-hero-breadcrumb {
+				display: inline-flex;
+				align-items: center;
+				gap: 8px;
+				font-size: 12px;
+				color: #94a3b8;
+				margin-bottom: 12px;
+			}
 
-        /* Responsive */
-        @media (max-width: 1199px) {
-            .kdm-course-hero-title { font-size: 32px; }
-            .kdm-hero-features-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 991px) {
-            .kdm-course-hero-container {
-                flex-direction: column;
-                gap: 32px;
-            }
-            .kdm-course-hero-left, .kdm-course-hero-right {
-                width: 100%;
-                flex: 1 1 100%;
-            }
-            .kdm-course-hero-right {
-                max-width: 480px;
-                margin: 0 auto;
-            }
-        }
-        @media (max-width: 767px) {
-            .kdm-course-hero-wrapper { padding: 30px 0 40px 0; }
-            .kdm-course-hero-title { font-size: 25px; line-height: 1.25; }
-            .kdm-course-hero-subtitle { font-size: 13.5px; }
-            .kdm-hero-features-grid { grid-template-columns: 1fr; gap: 8px; }
-            .kdm-hero-stats-bar { width: 100%; justify-content: space-between; font-size: 11.5px; padding: 8px 12px; }
-            .kdm-stat-pill { font-size: 11.5px; }
-            .kdm-hero-cta-row { flex-direction: column; width: 100%; }
-            .kdm-btn-hero-primary, .kdm-btn-hero-whatsapp, .kdm-hero-call-link {
-                width: 100%;
-                justify-content: center;
-                text-align: center;
-            }
-            .kdm-hero-form-iframe { height: 410px; }
-        }
-    </style>
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+			.kdm-hero-breadcrumb a {
+				color: #94a3b8;
+				text-decoration: none;
+				transition: color 0.2s ease;
+			}
+
+			.kdm-hero-breadcrumb a:hover {
+				color: #38bdf8;
+			}
+
+			.kdm-hero-breadcrumb i {
+				font-size: 9px;
+				color: #64748b;
+			}
+
+			/* Live Pulse Badge */
+			.kdm-hero-pulse-badge {
+				display: inline-flex;
+				align-items: center;
+				gap: 8px;
+				background: linear-gradient(135deg, rgba(14, 165, 233, 0.18) 0%, rgba(99, 102, 241, 0.18) 100%);
+				border: 1px solid rgba(56, 189, 248, 0.45);
+				color: #38bdf8;
+				font-size: 11px;
+				font-weight: 800;
+				padding: 6px 14px;
+				border-radius: 9999px;
+				text-transform: uppercase;
+				letter-spacing: 0.8px;
+				margin-bottom: 14px;
+				box-shadow: 0 0 18px rgba(56, 189, 248, 0.2);
+			}
+
+			.kdm-hero-pulse-badge .pulse-dot {
+				width: 8px;
+				height: 8px;
+				background: #10b981;
+				border-radius: 50%;
+				box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+				animation: kdmPulse 1.8s infinite;
+			}
+
+			@keyframes kdmPulse {
+				0% {
+					transform: scale(0.95);
+					box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+				}
+
+				70% {
+					transform: scale(1);
+					box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+				}
+
+				100% {
+					transform: scale(0.95);
+					box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+				}
+			}
+
+			/* Typography */
+			.kdm-course-hero-title {
+				font-size: 36px;
+				line-height: 1.22;
+				font-weight: 900;
+				color: #ffffff;
+				margin: 0 0 14px 0;
+				letter-spacing: -0.6px;
+			}
+
+			.kdm-hero-gradient-text {
+				background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				display: inline;
+			}
+
+			.kdm-course-hero-subtitle {
+				font-size: 14.5px;
+				line-height: 1.6;
+				color: #cbd5e1;
+				margin: 0 0 18px 0;
+			}
+
+			.kdm-course-hero-subtitle strong {
+				color: #ffffff;
+				font-weight: 700;
+			}
+
+			/* Stats Bar */
+			.kdm-hero-stats-bar {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				gap: 10px 16px;
+				background: rgba(15, 23, 42, 0.75);
+				backdrop-filter: blur(10px);
+				border: 1px solid rgba(255, 255, 255, 0.12);
+				border-radius: 12px;
+				padding: 9px 16px;
+				margin-bottom: 22px;
+				width: fit-content;
+			}
+
+			.kdm-stat-pill {
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
+				font-size: 13px;
+				font-weight: 700;
+				color: #e2e8f0;
+			}
+
+			.kdm-stat-divider {
+				color: rgba(255, 255, 255, 0.22);
+			}
+
+			/* 6 Value Highlights Grid */
+			.kdm-hero-features-grid {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 10px;
+				margin-bottom: 24px;
+			}
+
+			.kdm-hero-feat-card {
+				background: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+				border: 1px solid rgba(255, 255, 255, 0.09);
+				border-radius: 10px;
+				padding: 10px 12px;
+				display: flex;
+				align-items: flex-start;
+				gap: 10px;
+				transition: all 0.25s ease;
+			}
+
+			.kdm-hero-feat-card:hover {
+				background: linear-gradient(145deg, rgba(56, 189, 248, 0.12) 0%, rgba(99, 102, 241, 0.08) 100%);
+				border-color: rgba(56, 189, 248, 0.4);
+				transform: translateY(-2px);
+				box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+			}
+
+			.kdm-feat-icon-box {
+				width: 32px;
+				height: 32px;
+				flex-shrink: 0;
+				border-radius: 8px;
+				background: linear-gradient(135deg, rgba(14, 165, 233, 0.25) 0%, rgba(99, 102, 241, 0.25) 100%);
+				border: 1px solid rgba(56, 189, 248, 0.35);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #38bdf8;
+				font-size: 13px;
+			}
+
+			.kdm-feat-content {
+				min-width: 0;
+			}
+
+			.kdm-feat-title {
+				font-size: 12.5px;
+				font-weight: 700;
+				color: #ffffff;
+				line-height: 1.3;
+				margin-bottom: 2px;
+			}
+
+			.kdm-feat-desc {
+				font-size: 11px;
+				color: #94a3b8;
+				line-height: 1.3;
+			}
+
+			/* CTAs */
+			.kdm-hero-cta-row {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				gap: 12px;
+			}
+
+			.kdm-btn-hero-primary {
+				background: linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #4f46e5 100%);
+				color: #ffffff !important;
+				font-size: 14px;
+				font-weight: 800;
+				padding: 12px 22px;
+				border-radius: 10px;
+				text-decoration: none !important;
+				display: inline-flex;
+				align-items: center;
+				gap: 8px;
+				box-shadow: 0 8px 20px rgba(37, 99, 235, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				transition: all 0.25s ease;
+				text-transform: uppercase;
+				letter-spacing: 0.4px;
+			}
+
+			.kdm-btn-hero-primary:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 12px 28px rgba(37, 99, 235, 0.6);
+				background: linear-gradient(135deg, #0369a1 0%, #1d4ed8 50%, #4338ca 100%);
+			}
+
+			.kdm-btn-hero-whatsapp {
+				background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+				color: #ffffff !important;
+				font-size: 14px;
+				font-weight: 700;
+				padding: 12px 18px;
+				border-radius: 10px;
+				text-decoration: none !important;
+				display: inline-flex;
+				align-items: center;
+				gap: 8px;
+				border: 1px solid rgba(255, 255, 255, 0.18);
+				box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+				transition: all 0.25s ease;
+			}
+
+			.kdm-btn-hero-whatsapp:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 10px 24px rgba(16, 185, 129, 0.5);
+				background: linear-gradient(135deg, #047857 0%, #059669 100%);
+			}
+
+			.kdm-hero-call-link {
+				display: inline-flex;
+				align-items: center;
+				gap: 8px;
+				color: #e2e8f0;
+				font-size: 13px;
+				font-weight: 700;
+				text-decoration: none;
+				padding: 10px 14px;
+				border-radius: 10px;
+				background: rgba(255, 255, 255, 0.06);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				transition: all 0.2s ease;
+			}
+
+			.kdm-hero-call-link:hover {
+				color: #38bdf8;
+				background: rgba(255, 255, 255, 0.12);
+				border-color: rgba(56, 189, 248, 0.35);
+			}
+
+			/* Right Card Container */
+			.kdm-hero-form-card {
+				background: linear-gradient(145deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.92));
+				border: 1px solid rgba(56, 189, 248, 0.35);
+				border-radius: 18px;
+				box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55), 0 0 25px rgba(56, 189, 248, 0.18);
+				overflow: hidden;
+				position: relative;
+			}
+
+			.kdm-hero-form-header {
+				background: linear-gradient(135deg, rgba(14, 165, 233, 0.18) 0%, rgba(99, 102, 241, 0.18) 100%);
+				padding: 12px 18px;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+
+			.kdm-form-header-title {
+				font-size: 12px;
+				font-weight: 800;
+				text-transform: uppercase;
+				letter-spacing: 0.6px;
+				color: #38bdf8;
+				display: flex;
+				align-items: center;
+				gap: 6px;
+			}
+
+			.kdm-form-seat-tag {
+				font-size: 10px;
+				font-weight: 800;
+				background: rgba(245, 158, 11, 0.2);
+				border: 1px solid rgba(245, 158, 11, 0.5);
+				color: #fbbf24;
+				padding: 2px 8px;
+				border-radius: 12px;
+				text-transform: uppercase;
+			}
+
+			.kdm-hero-form-iframe {
+				width: 100%;
+				height: 405px;
+				border: none;
+				display: block;
+				overflow: hidden;
+			}
+
+			/* Responsive */
+			@media (max-width: 1199px) {
+				.kdm-course-hero-title {
+					font-size: 32px;
+				}
+
+				.kdm-hero-features-grid {
+					grid-template-columns: repeat(2, 1fr);
+				}
+			}
+
+			@media (max-width: 991px) {
+				.kdm-course-hero-container {
+					flex-direction: column;
+					gap: 32px;
+				}
+
+				.kdm-course-hero-left,
+				.kdm-course-hero-right {
+					width: 100%;
+					flex: 1 1 100%;
+				}
+
+				.kdm-course-hero-right {
+					max-width: 480px;
+					margin: 0 auto;
+				}
+			}
+
+			@media (max-width: 767px) {
+				.kdm-course-hero-wrapper {
+					padding: 30px 0 40px 0;
+				}
+
+				.kdm-course-hero-title {
+					font-size: 25px;
+					line-height: 1.25;
+				}
+
+				.kdm-course-hero-subtitle {
+					font-size: 13.5px;
+				}
+
+				.kdm-hero-features-grid {
+					grid-template-columns: 1fr;
+					gap: 8px;
+				}
+
+				.kdm-hero-stats-bar {
+					width: 100%;
+					justify-content: space-between;
+					font-size: 11.5px;
+					padding: 8px 12px;
+				}
+
+				.kdm-stat-pill {
+					font-size: 11.5px;
+				}
+
+				.kdm-hero-cta-row {
+					flex-direction: column;
+					width: 100%;
+				}
+
+				.kdm-btn-hero-primary,
+				.kdm-btn-hero-whatsapp,
+				.kdm-hero-call-link {
+					width: 100%;
+					justify-content: center;
+					text-align: center;
+				}
+
+				.kdm-hero-form-iframe {
+					height: 410px;
+				}
+			}
+		</style>
+	</asp:Content>
+	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 		<div role="main" class="main">
 			<!-- Page Main Hero Section Starts -->
@@ -491,11 +576,15 @@
 						</div>
 
 						<h1 class="kdm-course-hero-title">
-							Master AI-Driven <span class="kdm-hero-gradient-text">Digital Marketing</span> & Launch a 6-Figure Career
+							Master AI-Driven <span class="kdm-hero-gradient-text">Digital Marketing</span> & Launch a
+							6-Figure Career
 						</h1>
 
 						<p class="kdm-course-hero-subtitle">
-							Join Delhi NCR's top agency-based digital marketing training by <strong>UIDMT & Devweboic</strong>, mentored by <strong>Gaurav Dubey (13+ Yrs Exp.)</strong>. Work on live client accounts, master <strong>60+ Generative AI & Performance Marketing Modules</strong>, and gain guaranteed placement assistance with paid internships.
+							Join Delhi NCR's top agency-based digital marketing training by <strong>UIDMT &
+								Devweboic</strong>, mentored by <strong>Gaurav Dubey (13+ Yrs Exp.)</strong>. Work on
+							live client accounts, master <strong>60+ Generative AI & Performance Marketing
+								Modules</strong>, and gain guaranteed placement assistance with paid internships.
 						</p>
 
 						<div class="kdm-hero-stats-bar">
@@ -567,7 +656,8 @@
 							<a href="#kdm-hero-lead-form" class="kdm-btn-hero-primary">
 								<i class="fa fa-paper-plane"></i> Book Free Demo Class
 							</a>
-							<a href="https://wa.me/919555696058?text=Hi%20King%20of%20Digital%20Marketing,%20I%20want%20to%20enquire%20about%20the%20AI%20Digital%20Marketing%20Course" target="_blank" class="kdm-btn-hero-whatsapp">
+							<a href="https://wa.me/919555696058?text=Hi%20King%20of%20Digital%20Marketing,%20I%20want%20to%20enquire%20about%20the%20AI%20Digital%20Marketing%20Course"
+								target="_blank" class="kdm-btn-hero-whatsapp">
 								<i class="fab fa-whatsapp"></i> Chat On WhatsApp
 							</a>
 							<a href="tel:+919555696058" class="kdm-hero-call-link">
@@ -580,10 +670,12 @@
 					<div class="kdm-course-hero-right" id="kdm-hero-lead-form">
 						<div class="kdm-hero-form-card">
 							<div class="kdm-hero-form-header">
-								<span class="kdm-form-header-title"><i class="fa fa-bolt"></i> Fast-Track Admission</span>
+								<span class="kdm-form-header-title"><i class="fa fa-bolt"></i> Fast-Track
+									Admission</span>
 								<span class="kdm-form-seat-tag">🔥 Only 5 Seats Left</span>
 							</div>
-							<iframe scrolling="no" src="digital-course-form.aspx" class="kdm-hero-form-iframe" title="Digital Marketing Course Enquiry Form"></iframe>
+							<iframe scrolling="no" src="digital-course-form.aspx" class="kdm-hero-form-iframe"
+								title="Digital Marketing Course Enquiry Form"></iframe>
 						</div>
 					</div>
 				</div>
@@ -1131,7 +1223,8 @@
 						<!-- Box 1: 13+ Years of Experience -->
 						<div class="kdm-credentials-box">
 							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 									<circle cx="12" cy="12" r="10"></circle>
 									<polyline points="12 6 12 12 16 14"></polyline>
 								</svg>
@@ -1143,7 +1236,8 @@
 						<!-- Box 2: 1850+ Students Placed -->
 						<div class="kdm-credentials-box">
 							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 									<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
 									<polyline points="22 4 12 14.01 9 11.01"></polyline>
 								</svg>
@@ -1155,10 +1249,13 @@
 						<!-- Box 3: 15+ Countries Served -->
 						<div class="kdm-credentials-box">
 							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 									<circle cx="12" cy="12" r="10"></circle>
 									<line x1="2" y1="12" x2="22" y2="12"></line>
-									<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+									<path
+										d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+									</path>
 								</svg>
 							</div>
 							<strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
@@ -1168,18 +1265,23 @@
 						<!-- Box 4: 4.9 Overall Rating -->
 						<div class="kdm-credentials-box">
 							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polygon
+										points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+									</polygon>
 								</svg>
 							</div>
-							<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
+							<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1"
+								data-append="★">4.9★</strong>
 							<label class="kdm-cred-label">Overall Rating</label>
 						</div>
 
 						<!-- Box 5: 150+ Industries Served -->
 						<div class="kdm-credentials-box">
 							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 									<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
 									<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
 								</svg>
@@ -3173,30 +3275,47 @@
 					font-weight: 800;
 				}
 
-				.course-pkg-list-title {
-					font-size: 13px;
+				.course-pkg-subgroup-title {
+					font-size: 12.5px;
 					font-weight: 800;
 					color: #0f172a;
 					text-transform: uppercase;
-					letter-spacing: 0.5px;
-					margin-bottom: 14px;
+					letter-spacing: 0.6px;
+					margin: 16px 0 10px 0;
+					display: flex;
+					align-items: center;
+					gap: 8px;
+					padding-bottom: 6px;
+					border-bottom: 1px solid #e2e8f0;
+				}
+
+				.course-pkg-subgroup-title i {
+					color: #0284c7;
+					font-size: 13px;
+				}
+
+				.course-pkg-card.featured .course-pkg-subgroup-title {
+					border-bottom-color: #bae6fd;
 				}
 
 				.course-pkg-list {
 					list-style: none;
 					padding: 0;
-					margin: 0 0 28px 0;
-					flex-grow: 1;
+					margin: 0 0 14px 0;
 				}
 
 				.course-pkg-list li {
 					display: flex;
 					align-items: flex-start;
-					gap: 10px;
-					font-size: 14px;
+					gap: 9px;
+					font-size: 13.5px;
 					color: #334155;
-					margin-bottom: 12px;
+					margin-bottom: 10px;
 					line-height: 1.45;
+				}
+
+				.course-pkg-list li strong {
+					color: #0f172a;
 				}
 
 				.course-pkg-list li svg {
@@ -3251,9 +3370,11 @@
 						grid-template-columns: 1fr;
 						max-width: 580px;
 					}
+
 					.various-courses-header h2 {
 						font-size: 26px;
 					}
+
 					.course-pkg-card {
 						padding: 30px 22px;
 					}
@@ -3265,7 +3386,8 @@
 					<div class="various-courses-header">
 						<div class="various-courses-badge">🎓 Choose Your Fast-Track Learning Path</div>
 						<h2>Flagship <span class="kdm-title-gradient">Digital Marketing Courses</span></h2>
-						<p>Industry-recognized, 100% practical, agency-backed training designed for students, job seekers, working professionals, freelancers, and entrepreneurs.</p>
+						<p>Industry-recognized, 100% practical, agency-backed training designed for students, job
+							seekers, working professionals, freelancers, and entrepreneurs.</p>
 					</div>
 
 					<div class="various-courses-grid">
@@ -3275,7 +3397,8 @@
 								<div class="course-pkg-top-badge badge-powerplay">⚡ 45-Day Fast-Track Accelerator</div>
 								<div class="course-pkg-header-row">
 									<div class="course-pkg-icon-wrap">
-										<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+										<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
+											stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 											<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
 										</svg>
 									</div>
@@ -3286,19 +3409,39 @@
 
 								<div class="course-pkg-specs-grid">
 									<div class="course-spec-item">
-										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="2.2">
+											<circle cx="12" cy="12" r="10"></circle>
+											<polyline points="12 6 12 12 16 14"></polyline>
+										</svg>
 										<span>45 Days Duration</span>
 									</div>
 									<div class="course-spec-item">
-										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-										<span>25+ Core Modules</span>
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="2.2">
+											<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+											<path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z">
+											</path>
+										</svg>
+										<span>Specific Module Track</span>
 									</div>
 									<div class="course-spec-item">
-										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="2.2">
+											<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+											<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+										</svg>
 										<span>1 Month Internship</span>
 									</div>
 									<div class="course-spec-item">
-										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="2.2">
+											<circle cx="12" cy="12" r="10"></circle>
+											<line x1="2" y1="12" x2="22" y2="12"></line>
+											<path
+												d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+											</path>
+										</svg>
 										<span>Online / Offline</span>
 									</div>
 								</div>
@@ -3314,22 +3457,70 @@
 									<div class="course-pkg-save-badge">Save ₹10,000 (28% OFF)</div>
 								</div>
 
-								<div class="course-pkg-list-title">What You'll Learn & Receive:</div>
+								<!-- Subgroup 1: Curriculum & Practical Skills -->
+								<div class="course-pkg-subgroup-title">
+									<i class="fa fa-book-open"></i> Core Modules &amp; Practical Skills
+								</div>
 								<ul class="course-pkg-list">
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>100% Practical Course</strong> on Live Client Accounts</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>AI-Powered Copywriting & ChatGPT</strong> Marketing Prompts</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Google Ads & Meta (Facebook/IG) Ads</strong> Setup & Optimization</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Core SEO Foundations:</strong> Keyword Research & On-Page SEO</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>10 Live Case Studies</strong> & Real Campaign Reports</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Mock Interviews & Resume Preparation</strong></li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>100% Placement Assistance</strong> & Career Mentorship</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Lifetime LMS & Community Support</strong></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>Specialized Track Choice:</strong> In-depth Mastery of AI-Powered SEO <em>or</em> Google &amp; Meta Ads <em>or</em> SMM Growth</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>100% Practical Execution:</strong> Hands-on training on live client accounts &amp; actual ad spends</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>AI Marketing Workflows:</strong> Practical ChatGPT prompts for copywriting, strategy &amp; market research</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>Social Media Content Engine:</strong> Calendar planning, viral creative strategy &amp; engagement funnels</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>10 Live Case Studies:</strong> Real-time campaign reports, performance audits &amp; ROAS optimization</span></li>
+								</ul>
+
+								<!-- Subgroup 2: Deliverables & Career Support -->
+								<div class="course-pkg-subgroup-title">
+									<i class="fa fa-gift"></i> Career Deliverables &amp; Benefits
+								</div>
+								<ul class="course-pkg-list">
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>1-Month Agency Internship:</strong> Real agency project exposure with verified experience certificate</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>Mock Interviews &amp; Resume Crafting:</strong> 1-on-1 interview drill sessions with hiring managers</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>100% Placement Assistance:</strong> Direct interviews with leading agencies &amp; corporate brands</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>Lifetime LMS &amp; Community:</strong> 24/7 access to updated learning resources &amp; alumni network</span></li>
 								</ul>
 							</div>
 							<div>
 								<a href="#kdm-hero-lead-form" class="course-pkg-btn">
 									Enroll in PowerPlay Course
-									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 										<line x1="5" y1="12" x2="19" y2="12"></line>
 										<polyline points="12 5 19 12 12 19"></polyline>
 									</svg>
@@ -3343,8 +3534,10 @@
 							<div>
 								<div class="course-pkg-top-badge badge-mastery">🎓 4-Month Comprehensive Mastery</div>
 								<div class="course-pkg-header-row">
-									<div class="course-pkg-icon-wrap" style="background: linear-gradient(135deg, #0284c7, #2563eb);">
-										<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<div class="course-pkg-icon-wrap"
+										style="background: linear-gradient(135deg, #0284c7, #2563eb);">
+										<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
+											stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 											<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
 											<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
 										</svg>
@@ -3356,19 +3549,39 @@
 
 								<div class="course-pkg-specs-grid">
 									<div class="course-spec-item">
-										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="2.2">
+											<circle cx="12" cy="12" r="10"></circle>
+											<polyline points="12 6 12 12 16 14"></polyline>
+										</svg>
 										<span>4 Months Deep-Dive</span>
 									</div>
 									<div class="course-spec-item">
-										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="2.2">
+											<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+											<path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z">
+											</path>
+										</svg>
 										<span>60+ Advanced Modules</span>
 									</div>
 									<div class="course-spec-item">
-										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="2.2">
+											<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+											<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+										</svg>
 										<span>2 Months Agency Internship</span>
 									</div>
 									<div class="course-spec-item">
-										<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+										<svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="2.2">
+											<circle cx="12" cy="12" r="10"></circle>
+											<line x1="2" y1="12" x2="22" y2="12"></line>
+											<path
+												d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+											</path>
+										</svg>
 										<span>Online / Offline Mode</span>
 									</div>
 								</div>
@@ -3381,25 +3594,80 @@
 											<div class="course-pkg-old-price">₹55,000</div>
 										</div>
 									</div>
-									<div class="course-pkg-save-badge" style="background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe;">Save ₹15,000 (27% OFF)</div>
+									<div class="course-pkg-save-badge"
+										style="background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe;">Save ₹15,000
+										(27% OFF)</div>
 								</div>
 
-								<div class="course-pkg-list-title">Everything in PowerPlay Plus:</div>
+								<!-- Subgroup 1: Full-Stack Curriculum -->
+								<div class="course-pkg-subgroup-title">
+									<i class="fa fa-graduation-cap"></i> 360° Full-Stack Curriculum
+								</div>
 								<ul class="course-pkg-list">
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>60+ Complete Modules</strong> (SEO, SMM, PPC, Email, Affiliate, CRO)</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Advanced Generative AI Suite</strong> (ChatGPT-4, Midjourney, Claude)</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Topical Authority SEO, Semantic SEO & Technical Audits</strong></li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Marketing Automation</strong> (HubSpot, Zapier, WhatsApp CRM)</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>15+ Global Certifications</strong> (Google, Meta, HubSpot, KDM)</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>15+ Live Client Budgets</strong> & End-to-End Campaign Execution</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Guaranteed 100% Placement & 1-on-1 Mentorship</strong> by Gaurav Dubey</li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> <strong>Freelancing & Agency Launchpad:</strong> Client Acquisition Training</li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>60+ Complete Modules:</strong> Master SEO, Google Ads, Meta Ads, SMM, Email, Affiliate &amp; CRO</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>Advanced Generative AI Suite:</strong> ChatGPT-4, Midjourney, Claude, Gemini &amp; AI Workflow Automation</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>Topical Authority &amp; Semantic SEO:</strong> Technical audits, AI search optimization &amp; link-building</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>Marketing Automation &amp; CRM:</strong> HubSpot, Zapier, WhatsApp CRM &amp; automated lead funnels</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>15+ Live Client Budgets:</strong> End-to-end multi-channel ROI execution with actual ad media spend</span></li>
+								</ul>
+
+								<!-- Subgroup 2: Executive Deliverables & Mentorship -->
+								<div class="course-pkg-subgroup-title">
+									<i class="fa fa-award"></i> Executive Deliverables &amp; Mentorship
+								</div>
+								<ul class="course-pkg-list">
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>2 Months Paid Agency Internship:</strong> High-impact agency client handling &amp; live experience letters</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>15+ Global Certifications:</strong> Google Ads, Meta Certified, HubSpot Academy &amp; UIDMT Master's</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>1-on-1 Mentorship by Gaurav Dubey:</strong> Direct career coaching, campaign reviews &amp; strategic growth</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>Guaranteed 100% Placement Assistance:</strong> Top MNC &amp; agency interview drives with dedicated placement manager</span></li>
+									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+											stroke="currentColor" stroke-width="3" stroke-linecap="round"
+											stroke-linejoin="round">
+											<polyline points="20 6 9 17 4 12"></polyline>
+										</svg> <span><strong>Freelancing &amp; Agency Launchpad:</strong> Global client acquisition, proposal pitching &amp; pricing blueprint</span></li>
 								</ul>
 							</div>
 							<div>
 								<a href="#kdm-hero-lead-form" class="course-pkg-btn btn-featured">
 									Enroll in Mastery Course (Featured)
-									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 										<line x1="5" y1="12" x2="19" y2="12"></line>
 										<polyline points="12 5 19 12 12 19"></polyline>
 									</svg>
@@ -3950,25 +4218,37 @@
 					background: #f0f9ff !important;
 					border-color: #bae6fd !important;
 				}
-				.card-fresher .salary-stat-pkg { color: #0284c7 !important; }
+
+				.card-fresher .salary-stat-pkg {
+					color: #0284c7 !important;
+				}
 
 				.card-mid {
 					background: #fffbeb !important;
 					border-color: #fde68a !important;
 				}
-				.card-mid .salary-stat-pkg { color: #d97706 !important; }
+
+				.card-mid .salary-stat-pkg {
+					color: #d97706 !important;
+				}
 
 				.card-senior {
 					background: #f0fdf4 !important;
 					border-color: #bbf7d0 !important;
 				}
-				.card-senior .salary-stat-pkg { color: #16a34a !important; }
+
+				.card-senior .salary-stat-pkg {
+					color: #16a34a !important;
+				}
 
 				.card-global {
 					background: #faf5ff !important;
 					border-color: #e9d5ff !important;
 				}
-				.card-global .salary-stat-pkg { color: #9333ea !important; }
+
+				.card-global .salary-stat-pkg {
+					color: #9333ea !important;
+				}
 
 				.salary-stat-level {
 					font-size: 11.5px !important;
@@ -4055,12 +4335,35 @@
 					flex-shrink: 0 !important;
 				}
 
-				.icon-blue-glow { background: #e0f2fe !important; color: #0284c7 !important; }
-				.icon-cyan-glow { background: #ecfeff !important; color: #0891b2 !important; }
-				.icon-purple-glow { background: #f3e8ff !important; color: #9333ea !important; }
-				.icon-emerald-glow { background: #dcfce7 !important; color: #16a34a !important; }
-				.icon-amber-glow { background: #fef3c7 !important; color: #d97706 !important; }
-				.icon-gold-glow { background: #fef9c3 !important; color: #ca8a04 !important; }
+				.icon-blue-glow {
+					background: #e0f2fe !important;
+					color: #0284c7 !important;
+				}
+
+				.icon-cyan-glow {
+					background: #ecfeff !important;
+					color: #0891b2 !important;
+				}
+
+				.icon-purple-glow {
+					background: #f3e8ff !important;
+					color: #9333ea !important;
+				}
+
+				.icon-emerald-glow {
+					background: #dcfce7 !important;
+					color: #16a34a !important;
+				}
+
+				.icon-amber-glow {
+					background: #fef3c7 !important;
+					color: #d97706 !important;
+				}
+
+				.icon-gold-glow {
+					background: #fef9c3 !important;
+					color: #ca8a04 !important;
+				}
 
 				.salary-role-name {
 					font-weight: 800 !important;
@@ -4195,7 +4498,8 @@
 						justify-content: center !important;
 					}
 
-					.modern-salary-table th, .modern-salary-table td {
+					.modern-salary-table th,
+					.modern-salary-table td {
 						padding: 12px 10px !important;
 					}
 
@@ -4203,7 +4507,9 @@
 						font-size: 13px !important;
 					}
 
-					.salary-badge-fresher, .salary-badge-mid, .salary-badge-senior {
+					.salary-badge-fresher,
+					.salary-badge-mid,
+					.salary-badge-senior {
 						font-size: 12px !important;
 						padding: 5px 10px !important;
 					}
@@ -4444,8 +4750,10 @@
 							<div class="salary-pill-badge">
 								<i class="fa fa-chart-line"></i> INDUSTRY COMPENSATION BENCHMARK 2026
 							</div>
-							<h3 class="salary-main-title">Starting Salary After <span class="salary-title-highlight">Digital Marketing Course</span></h3>
-							<p class="salary-main-desc">Estimated average annual compensation packages (LPA) based on top hiring agencies, MNCs, and corporate experience levels.</p>
+							<h3 class="salary-main-title">Starting Salary After <span
+									class="salary-title-highlight">Digital Marketing Course</span></h3>
+							<p class="salary-main-desc">Estimated average annual compensation packages (LPA) based on
+								top hiring agencies, MNCs, and corporate experience levels.</p>
 						</div>
 
 						<!-- 4 Quick Salary Level Highlight Cards -->
@@ -4487,86 +4795,122 @@
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-blue-glow"><i class="fa fa-bullseye"></i></div>
+												<div class="salary-role-icon icon-blue-glow"><i
+														class="fa fa-bullseye"></i></div>
 												<div>
-													<div class="salary-role-name">AI Performance Marketer &amp; PPC Specialist</div>
-													<div class="salary-role-skills">Google Search Ads, Meta Ads, Funnels &amp; ROAS Optimization</div>
+													<div class="salary-role-name">AI Performance Marketer &amp; PPC
+														Specialist</div>
+													<div class="salary-role-skills">Google Search Ads, Meta Ads, Funnels
+														&amp; ROAS Optimization</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 3.0 - 4.5 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 6.5 - 9.5 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 14.0 - 20.0+ LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 3.0 - 4.5
+												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 6.5 - 9.5 LPA</span>
+										</td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 14.0 - 20.0+
+												LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-cyan-glow"><i class="fa fa-search"></i></div>
+												<div class="salary-role-icon icon-cyan-glow"><i
+														class="fa fa-search"></i></div>
 												<div>
-													<div class="salary-role-name">AI SEO Specialist &amp; Search Strategist</div>
-													<div class="salary-role-skills">Technical SEO, Topical Authority, Semrush, Generative Engine SEO</div>
+													<div class="salary-role-name">AI SEO Specialist &amp; Search
+														Strategist</div>
+													<div class="salary-role-skills">Technical SEO, Topical Authority,
+														Semrush, Generative Engine SEO</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 2.8 - 4.2 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.5 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 12.0 - 18.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 2.8 - 4.2
+												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.5 LPA</span>
+										</td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 12.0 - 18.0
+												LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-purple-glow"><i class="fa fa-share-nodes"></i></div>
+												<div class="salary-role-icon icon-purple-glow"><i
+														class="fa fa-share-nodes"></i></div>
 												<div>
-													<div class="salary-role-name">Social Media &amp; Brand Growth Manager</div>
-													<div class="salary-role-skills">Viral Reels, LinkedIn Funnels, Community Building, Brand Strategy</div>
+													<div class="salary-role-name">Social Media &amp; Brand Growth
+														Manager</div>
+													<div class="salary-role-skills">Viral Reels, LinkedIn Funnels,
+														Community Building, Brand Strategy</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 2.5 - 4.0 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 5.8 - 8.5 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 11.0 - 16.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 2.5 - 4.0
+												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 5.8 - 8.5 LPA</span>
+										</td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 11.0 - 16.0
+												LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-emerald-glow"><i class="fa fa-robot"></i></div>
+												<div class="salary-role-icon icon-emerald-glow"><i
+														class="fa fa-robot"></i></div>
 												<div>
-													<div class="salary-role-name">Marketing Automation &amp; CRM Specialist</div>
-													<div class="salary-role-skills">HubSpot, WhatsApp API, Zapier, Drip Email Funnels &amp; Lead Scoring</div>
+													<div class="salary-role-name">Marketing Automation &amp; CRM
+														Specialist</div>
+													<div class="salary-role-skills">HubSpot, WhatsApp API, Zapier, Drip
+														Email Funnels &amp; Lead Scoring</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 3.8 - 5.5 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 7.0 - 11.0 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 16.0 - 24.0+ LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 3.8 - 5.5
+												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 7.0 - 11.0 LPA</span>
+										</td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 16.0 - 24.0+
+												LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-amber-glow"><i class="fa fa-pen-fancy"></i></div>
+												<div class="salary-role-icon icon-amber-glow"><i
+														class="fa fa-pen-fancy"></i></div>
 												<div>
-													<div class="salary-role-name">AI Content Strategist &amp; Copywriter</div>
-													<div class="salary-role-skills">Prompt Engineering, High-Converting Landing Copy, Midjourney Visuals</div>
+													<div class="salary-role-name">AI Content Strategist &amp; Copywriter
+													</div>
+													<div class="salary-role-skills">Prompt Engineering, High-Converting
+														Landing Copy, Midjourney Visuals</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 2.6 - 4.0 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.0 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 11.5 - 16.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 2.6 - 4.0
+												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.0 LPA</span>
+										</td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 11.5 - 16.0
+												LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-gold-glow"><i class="fa fa-crown"></i></div>
+												<div class="salary-role-icon icon-gold-glow"><i class="fa fa-crown"></i>
+												</div>
 												<div>
-													<div class="salary-role-name">Digital Marketing Director / Growth Head</div>
-													<div class="salary-role-skills">Omnichannel Strategy, Team Leadership, Multi-Crore Budget Allocation</div>
+													<div class="salary-role-name">Digital Marketing Director / Growth
+														Head</div>
+													<div class="salary-role-skills">Omnichannel Strategy, Team
+														Leadership, Multi-Crore Budget Allocation</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 4.0 - 6.0 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 9.0 - 15.0 LPA</span></td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 20.0 - 35.0+ LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 4.0 - 6.0
+												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 9.0 - 15.0 LPA</span>
+										</td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 20.0 - 35.0+
+												LPA</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -4576,7 +4920,9 @@
 						<div class="salary-footer-note">
 							<div class="salary-note-text">
 								<i class="fa fa-lightbulb" style="color: #f59e0b; font-size: 18px;"></i>
-								<span><strong>AI Salary Advantage:</strong> Candidates trained in Generative AI tools (ChatGPT, Gemini, Midjourney) command <strong>35% to 50% higher</strong> starting compensation packages.</span>
+								<span><strong>AI Salary Advantage:</strong> Candidates trained in Generative AI tools
+									(ChatGPT, Gemini, Midjourney) command <strong>35% to 50% higher</strong> starting
+									compensation packages.</span>
 							</div>
 							<a href="#kdm-hero-lead-form" class="salary-note-cta">
 								<i class="fa fa-paper-plane"></i> Get Placement Assistance
@@ -5001,7 +5347,8 @@
 					<div class="kdm-testimonial-header">
 						<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> STUDENT SUCCESS STORIES</span>
 						<h2 class="kdm-testimonial-title">Words of <strong>Digital Marketing Students</strong></h2>
-						<p class="kdm-testimonial-subtitle">Real feedback and career reviews from students, freelancers, and working professionals trained at King of Digital Marketing.</p>
+						<p class="kdm-testimonial-subtitle">Real feedback and career reviews from students, freelancers,
+							and working professionals trained at King of Digital Marketing.</p>
 					</div>
 
 					<div class="kdm-testimonial-wrapper">
@@ -5011,14 +5358,20 @@
 							<div class="kdm-testimonial-card active">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
 								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"When it comes to digital marketing I remember one name: King of Digital Marketing and Gaurav Sir. It's amazing to learn Digital marketing here at Devweboic. I completed my training here and gained practical knowledge that transformed my career. After learning digital marketing I started working as a freelancer and now I am delivering great results for my clients."
+									"When it comes to digital marketing I remember one name: King of Digital Marketing
+									and Gaurav Sir. It's amazing to learn Digital marketing here at Devweboic. I
+									completed my training here and gained practical knowledge that transformed my
+									career. After learning digital marketing I started working as a freelancer and now I
+									am delivering great results for my clients."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-1">KP</div>
@@ -5033,14 +5386,19 @@
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
 								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"At King of Digital Marketing Institute, I got to discover the different ways of mastery in the digital marketing world. I am very thankful to all the members and faculty of this Institute for teaching all modules of digital marketing with real live campaigns."
+									"At King of Digital Marketing Institute, I got to discover the different ways of
+									mastery in the digital marketing world. I am very thankful to all the members and
+									faculty of this Institute for teaching all modules of digital marketing with real
+									live campaigns."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-2">S</div>
@@ -5055,14 +5413,19 @@
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
 								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"King of Digital Marketing is one of the most reputed digital marketing institutes in South Delhi situated in Kalkaji Govindpuri. All the teachers and staff are wonderful and supportive. We worked on live agency projects during the course and learned to implement SEO, SMO, and PPC elements practically."
+									"King of Digital Marketing is one of the most reputed digital marketing institutes
+									in South Delhi situated in Kalkaji Govindpuri. All the teachers and staff are
+									wonderful and supportive. We worked on live agency projects during the course and
+									learned to implement SEO, SMO, and PPC elements practically."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-3">S</div>
@@ -5077,14 +5440,19 @@
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
 								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"It was very difficult for me initially because I was new to the digital world and had zero technical knowledge. But after completing the course from Devweboic / King of Digital Marketing, my self-confidence boosted and I am now successfully working as a performance digital marketer. Thank you Gaurav sir!"
+									"It was very difficult for me initially because I was new to the digital world and
+									had zero technical knowledge. But after completing the course from Devweboic / King
+									of Digital Marketing, my self-confidence boosted and I am now successfully working
+									as a performance digital marketer. Thank you Gaurav sir!"
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-4">D</div>
@@ -5099,20 +5467,26 @@
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
 								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"I started my career as a YouTuber, but my channel was not growing. I decided to master YouTube &amp; Video marketing at King of Digital Marketing. The course made me an expert in video SEO, algorithms, and funnel promotion. Now I also monetize my own website and get great results."
+									"I started my career as a YouTuber, but my channel was not growing. I decided to
+									master YouTube &amp; Video marketing at King of Digital Marketing. The course made
+									me an expert in video SEO, algorithms, and funnel promotion. Now I also monetize my
+									own website and get great results."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-5">RK</div>
 									<div class="kdm-testimonial-info">
 										<h4 class="kdm-testimonial-name">Rajeev Kumar</h4>
-										<span class="kdm-testimonial-role">SEO Executive &amp; YouTube Strategist — Delhi</span>
+										<span class="kdm-testimonial-role">SEO Executive &amp; YouTube Strategist —
+											Delhi</span>
 									</div>
 								</div>
 							</div>
@@ -5121,14 +5495,19 @@
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
 								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"Pursued the digital marketing course at King of Digital Marketing Institute and had a fantastic learning experience. My friend recommended Devweboic / KDM. After completing practical training and live agency assignments here, I polished my skills and secured a managerial digital marketing role."
+									"Pursued the digital marketing course at King of Digital Marketing Institute and had
+									a fantastic learning experience. My friend recommended Devweboic / KDM. After
+									completing practical training and live agency assignments here, I polished my skills
+									and secured a managerial digital marketing role."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-6">KS</div>
@@ -5143,14 +5522,19 @@
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
 								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"If you are looking to join the best digital marketing institute in South Delhi then must join King of Digital Marketing. They teach everything in depth with 100% practicals. Immediately after the 3-month course, I got hired by a digital marketing agency in West Delhi. Thank you Gaurav sir for making every concept easy to master!"
+									"If you are looking to join the best digital marketing institute in South Delhi then
+									must join King of Digital Marketing. They teach everything in depth with 100%
+									practicals. Immediately after the 3-month course, I got hired by a digital marketing
+									agency in West Delhi. Thank you Gaurav sir for making every concept easy to master!"
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-1">SJ</div>
@@ -5165,20 +5549,26 @@
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
 									</svg>
 								</div>
 								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"Mr. Gaurav Dubey sir provides top-tier real agency knowledge of digital marketing — how algorithms work, how websites rank, and how to execute high-ROI Google &amp; Meta ad campaigns. I strongly recommend King of Digital Marketing in South Delhi to anyone aiming to build a solid career."
+									"Mr. Gaurav Dubey sir provides top-tier real agency knowledge of digital marketing —
+									how algorithms work, how websites rank, and how to execute high-ROI Google &amp;
+									Meta ad campaigns. I strongly recommend King of Digital Marketing in South Delhi to
+									anyone aiming to build a solid career."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-2">CM</div>
 									<div class="kdm-testimonial-info">
 										<h4 class="kdm-testimonial-name">Cheshta Mehta</h4>
-										<span class="kdm-testimonial-role">Performance Marketing Specialist — Delhi</span>
+										<span class="kdm-testimonial-role">Performance Marketing Specialist —
+											Delhi</span>
 									</div>
 								</div>
 							</div>
@@ -5200,7 +5590,7 @@
 			</section>
 			<!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ENDS ===== -->
 			<script>
-				document.addEventListener('DOMContentLoaded', function() {
+				document.addEventListener('DOMContentLoaded', function () {
 					if (typeof initTestimonialSliders === 'function') {
 						initTestimonialSliders();
 					}
@@ -5787,7 +6177,7 @@
 
 		</div>
 
-			<script src="js/international-page.js"></script>
-			<script src="js/slider.webp" defer></script>
-			<script src="js/kdm-faq.js"></script>
+		<script src="js/international-page.js"></script>
+		<script src="js/slider.webp" defer></script>
+		<script src="js/kdm-faq.js"></script>
 	</asp:Content>
