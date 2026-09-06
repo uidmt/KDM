@@ -3852,291 +3852,294 @@
 					flex-shrink: 0;
 				}
 
-				/* Redesigned Premium Salary Breakdown Section */
+				/* ==========================================================================
+				   Redesigned Premium High-Contrast Salary Breakdown Section
+				   ========================================================================== */
 				.salary-breakdown-box {
-					background: linear-gradient(145deg, #090e1f 0%, #0f1936 50%, #080d1e 100%);
-					color: #ffffff;
-					border-radius: 24px;
-					padding: 42px 36px;
-					box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45), 0 0 25px rgba(56, 189, 248, 0.12);
-					border: 1px solid rgba(56, 189, 248, 0.28);
-					position: relative;
-					overflow: hidden;
-					margin-top: 30px;
-				}
-
-				.salary-breakdown-box::before {
-					content: '';
-					position: absolute;
-					top: -30%;
-					right: -10%;
-					width: 450px;
-					height: 450px;
-					background: radial-gradient(circle, rgba(14, 165, 233, 0.2) 0%, transparent 70%);
-					filter: blur(60px);
-					pointer-events: none;
+					background: #ffffff !important;
+					border: 2px solid #e2e8f0 !important;
+					border-radius: 24px !important;
+					padding: 38px 32px !important;
+					box-shadow: 0 15px 40px rgba(15, 23, 42, 0.08) !important;
+					position: relative !important;
+					overflow: hidden !important;
+					margin-top: 30px !important;
+					color: #0f172a !important;
 				}
 
 				.salary-header {
-					text-align: center;
-					max-width: 820px;
-					margin: 0 auto 28px auto;
-					position: relative;
-					z-index: 2;
+					text-align: center !important;
+					max-width: 820px !important;
+					margin: 0 auto 28px auto !important;
 				}
 
 				.salary-pill-badge {
-					display: inline-flex;
-					align-items: center;
-					gap: 8px;
-					background: linear-gradient(135deg, rgba(14, 165, 233, 0.15) 0%, rgba(99, 102, 241, 0.15) 100%);
-					border: 1px solid rgba(56, 189, 248, 0.4);
-					color: #38bdf8;
-					font-size: 11px;
-					font-weight: 800;
-					padding: 5px 14px;
-					border-radius: 9999px;
-					text-transform: uppercase;
-					letter-spacing: 0.8px;
-					margin-bottom: 12px;
+					display: inline-flex !important;
+					align-items: center !important;
+					gap: 8px !important;
+					background: #e0f2fe !important;
+					border: 1px solid #bae6fd !important;
+					color: #0284c7 !important;
+					font-size: 11.5px !important;
+					font-weight: 800 !important;
+					padding: 6px 16px !important;
+					border-radius: 9999px !important;
+					text-transform: uppercase !important;
+					letter-spacing: 0.8px !important;
+					margin-bottom: 12px !important;
 				}
 
-				.salary-header h3 {
-					font-size: 30px;
-					font-weight: 900;
-					color: #ffffff;
-					margin: 0 0 10px 0;
-					letter-spacing: -0.5px;
-					line-height: 1.25;
+				.salary-main-title {
+					font-size: 30px !important;
+					font-weight: 900 !important;
+					color: #0f172a !important;
+					margin: 0 0 10px 0 !important;
+					letter-spacing: -0.5px !important;
+					line-height: 1.25 !important;
 				}
 
-				.salary-header p {
-					color: #94a3b8;
-					font-size: 14.5px;
-					margin: 0;
-					line-height: 1.5;
+				.salary-title-highlight {
+					background: linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #7c3aed 100%) !important;
+					-webkit-background-clip: text !important;
+					-webkit-text-fill-color: transparent !important;
+					display: inline !important;
 				}
 
+				.salary-main-desc {
+					color: #64748b !important;
+					font-size: 14.5px !important;
+					margin: 0 !important;
+					line-height: 1.5 !important;
+				}
+
+				/* 4 Quick Stat Cards */
 				.salary-quick-stats-grid {
-					display: grid;
-					grid-template-columns: repeat(4, 1fr);
-					gap: 14px;
-					margin-bottom: 28px;
-					position: relative;
-					z-index: 2;
+					display: grid !important;
+					grid-template-columns: repeat(4, 1fr) !important;
+					gap: 16px !important;
+					margin-bottom: 28px !important;
 				}
 
 				.salary-stat-card {
-					background: rgba(255, 255, 255, 0.04);
-					border: 1px solid rgba(255, 255, 255, 0.09);
-					border-radius: 14px;
-					padding: 14px 16px;
-					text-align: center;
-					transition: all 0.3s ease;
+					border-radius: 16px !important;
+					padding: 16px 18px !important;
+					text-align: center !important;
+					transition: all 0.3s ease !important;
+					border: 1px solid !important;
 				}
 
-				.salary-stat-card:hover {
-					background: rgba(56, 189, 248, 0.1);
-					border-color: rgba(56, 189, 248, 0.35);
-					transform: translateY(-3px);
+				.card-fresher {
+					background: #f0f9ff !important;
+					border-color: #bae6fd !important;
 				}
+				.card-fresher .salary-stat-pkg { color: #0284c7 !important; }
+
+				.card-mid {
+					background: #fffbeb !important;
+					border-color: #fde68a !important;
+				}
+				.card-mid .salary-stat-pkg { color: #d97706 !important; }
+
+				.card-senior {
+					background: #f0fdf4 !important;
+					border-color: #bbf7d0 !important;
+				}
+				.card-senior .salary-stat-pkg { color: #16a34a !important; }
+
+				.card-global {
+					background: #faf5ff !important;
+					border-color: #e9d5ff !important;
+				}
+				.card-global .salary-stat-pkg { color: #9333ea !important; }
 
 				.salary-stat-level {
-					font-size: 11px;
-					font-weight: 700;
-					text-transform: uppercase;
-					letter-spacing: 0.6px;
-					color: #94a3b8;
-					margin-bottom: 4px;
+					font-size: 11.5px !important;
+					font-weight: 800 !important;
+					text-transform: uppercase !important;
+					letter-spacing: 0.6px !important;
+					color: #64748b !important;
+					margin-bottom: 5px !important;
 				}
 
 				.salary-stat-pkg {
-					font-size: 20px;
-					font-weight: 900;
-					color: #ffffff;
-					line-height: 1.2;
-					margin-bottom: 3px;
+					font-size: 22px !important;
+					font-weight: 900 !important;
+					line-height: 1.2 !important;
+					margin-bottom: 4px !important;
 				}
 
 				.salary-stat-exp {
-					font-size: 11px;
-					color: #38bdf8;
-					font-weight: 600;
+					font-size: 11.5px !important;
+					color: #475569 !important;
+					font-weight: 600 !important;
+					display: flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					gap: 5px !important;
 				}
 
+				/* Modern Salary Table */
 				.salary-table-responsive {
-					position: relative;
-					z-index: 2;
-					overflow-x: auto;
-					border-radius: 16px;
-					border: 1px solid rgba(255, 255, 255, 0.12);
-					background: rgba(15, 23, 42, 0.65);
-					backdrop-filter: blur(10px);
+					overflow-x: auto !important;
+					border-radius: 16px !important;
+					border: 1px solid #e2e8f0 !important;
+					background: #ffffff !important;
+					box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
 				}
 
 				.modern-salary-table {
-					width: 100%;
-					border-collapse: collapse;
-					min-width: 680px;
+					width: 100% !important;
+					border-collapse: collapse !important;
+					margin: 0 !important;
+					background: #ffffff !important;
 				}
 
 				.modern-salary-table th {
-					background: linear-gradient(135deg, rgba(14, 165, 233, 0.2) 0%, rgba(99, 102, 241, 0.15) 100%);
-					color: #38bdf8;
-					font-size: 13px;
-					font-weight: 800;
-					text-transform: uppercase;
-					letter-spacing: 0.6px;
-					padding: 16px 20px;
-					text-align: left;
-					border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-				}
-
-				.modern-salary-table th.text-center {
-					text-align: center;
+					background: #f8fafc !important;
+					color: #0f172a !important;
+					font-size: 13px !important;
+					font-weight: 800 !important;
+					text-transform: uppercase !important;
+					letter-spacing: 0.6px !important;
+					padding: 16px 20px !important;
+					border-bottom: 2px solid #e2e8f0 !important;
+					border-top: none !important;
+					vertical-align: middle !important;
 				}
 
 				.modern-salary-table td {
-					padding: 15px 20px;
-					font-size: 13.5px;
-					color: #e2e8f0;
-					border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-					vertical-align: middle;
-				}
-
-				.modern-salary-table tr:last-child td {
-					border-bottom: none;
+					padding: 16px 20px !important;
+					font-size: 14px !important;
+					color: #1e293b !important;
+					border-bottom: 1px solid #f1f5f9 !important;
+					background: #ffffff !important;
+					vertical-align: middle !important;
 				}
 
 				.modern-salary-table tr:hover td {
-					background: rgba(56, 189, 248, 0.05);
+					background: #f8fafc !important;
 				}
 
 				.salary-role-info {
-					display: flex;
-					align-items: center;
-					gap: 12px;
+					display: flex !important;
+					align-items: center !important;
+					gap: 14px !important;
 				}
 
 				.salary-role-icon {
-					width: 34px;
-					height: 34px;
-					border-radius: 8px;
-					background: rgba(56, 189, 248, 0.12);
-					border: 1px solid rgba(56, 189, 248, 0.25);
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					color: #38bdf8;
-					font-size: 14px;
-					flex-shrink: 0;
+					width: 38px !important;
+					height: 38px !important;
+					border-radius: 10px !important;
+					display: flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					font-size: 15px !important;
+					flex-shrink: 0 !important;
 				}
 
+				.icon-blue-glow { background: #e0f2fe !important; color: #0284c7 !important; }
+				.icon-cyan-glow { background: #ecfeff !important; color: #0891b2 !important; }
+				.icon-purple-glow { background: #f3e8ff !important; color: #9333ea !important; }
+				.icon-emerald-glow { background: #dcfce7 !important; color: #16a34a !important; }
+				.icon-amber-glow { background: #fef3c7 !important; color: #d97706 !important; }
+				.icon-gold-glow { background: #fef9c3 !important; color: #ca8a04 !important; }
+
 				.salary-role-name {
-					font-weight: 800;
-					color: #ffffff;
-					font-size: 14px;
-					line-height: 1.3;
+					font-weight: 800 !important;
+					color: #0f172a !important;
+					font-size: 14.5px !important;
+					line-height: 1.35 !important;
 				}
 
 				.salary-role-skills {
-					font-size: 11.5px;
-					color: #94a3b8;
-					margin-top: 2px;
+					font-size: 12px !important;
+					color: #64748b !important;
+					margin-top: 3px !important;
 				}
 
+				/* Badges */
 				.salary-badge-fresher {
-					background: linear-gradient(135deg, rgba(56, 189, 248, 0.2) 0%, rgba(14, 165, 233, 0.12) 100%);
-					border: 1px solid rgba(56, 189, 248, 0.4);
-					color: #38bdf8;
-					font-weight: 800;
-					font-size: 13px;
-					padding: 6px 14px;
-					border-radius: 8px;
-					display: inline-flex;
-					align-items: center;
-					gap: 5px;
-					box-shadow: 0 2px 8px rgba(56, 189, 248, 0.15);
+					background: #e0f2fe !important;
+					border: 1px solid #bae6fd !important;
+					color: #0369a1 !important;
+					font-weight: 800 !important;
+					font-size: 13.5px !important;
+					padding: 7px 16px !important;
+					border-radius: 10px !important;
+					display: inline-block !important;
 				}
 
 				.salary-badge-mid {
-					background: linear-gradient(135deg, rgba(251, 191, 36, 0.2) 0%, rgba(245, 158, 11, 0.12) 100%);
-					border: 1px solid rgba(251, 191, 36, 0.4);
-					color: #fbbf24;
-					font-weight: 800;
-					font-size: 13px;
-					padding: 6px 14px;
-					border-radius: 8px;
-					display: inline-flex;
-					align-items: center;
-					gap: 5px;
-					box-shadow: 0 2px 8px rgba(251, 191, 36, 0.15);
+					background: #fef3c7 !important;
+					border: 1px solid #fde68a !important;
+					color: #b45309 !important;
+					font-weight: 800 !important;
+					font-size: 13.5px !important;
+					padding: 7px 16px !important;
+					border-radius: 10px !important;
+					display: inline-block !important;
 				}
 
 				.salary-badge-senior {
-					background: linear-gradient(135deg, rgba(74, 222, 128, 0.2) 0%, rgba(34, 197, 94, 0.12) 100%);
-					border: 1px solid rgba(74, 222, 128, 0.4);
-					color: #4ade80;
-					font-weight: 800;
-					font-size: 13px;
-					padding: 6px 14px;
-					border-radius: 8px;
-					display: inline-flex;
-					align-items: center;
-					gap: 5px;
-					box-shadow: 0 2px 8px rgba(74, 222, 128, 0.15);
+					background: #dcfce7 !important;
+					border: 1px solid #bbf7d0 !important;
+					color: #15803d !important;
+					font-weight: 800 !important;
+					font-size: 13.5px !important;
+					padding: 7px 16px !important;
+					border-radius: 10px !important;
+					display: inline-block !important;
 				}
 
+				/* Footer Insights Note */
 				.salary-footer-note {
-					position: relative;
-					z-index: 2;
-					margin-top: 24px;
-					padding: 14px 20px;
-					background: rgba(255, 255, 255, 0.04);
-					border: 1px dashed rgba(56, 189, 248, 0.35);
-					border-radius: 12px;
-					display: flex;
-					align-items: center;
-					justify-content: space-between;
-					gap: 16px;
-					flex-wrap: wrap;
+					margin-top: 24px !important;
+					padding: 16px 22px !important;
+					background: #f8fafc !important;
+					border: 1px solid #e2e8f0 !important;
+					border-radius: 14px !important;
+					display: flex !important;
+					align-items: center !important;
+					justify-content: space-between !important;
+					gap: 16px !important;
+					flex-wrap: wrap !important;
 				}
 
 				.salary-note-text {
-					font-size: 12.5px;
-					color: #cbd5e1;
-					display: flex;
-					align-items: center;
-					gap: 8px;
+					font-size: 13px !important;
+					color: #334155 !important;
+					display: flex !important;
+					align-items: center !important;
+					gap: 10px !important;
 				}
 
 				.salary-note-text strong {
-					color: #38bdf8;
+					color: #0f172a !important;
 				}
 
 				.salary-note-cta {
-					background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+					background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%) !important;
 					color: #ffffff !important;
-					font-size: 12px;
-					font-weight: 800;
-					padding: 8px 18px;
-					border-radius: 8px;
+					font-size: 12.5px !important;
+					font-weight: 800 !important;
+					padding: 10px 20px !important;
+					border-radius: 10px !important;
 					text-decoration: none !important;
-					display: inline-flex;
-					align-items: center;
-					gap: 6px;
-					text-transform: uppercase;
-					letter-spacing: 0.4px;
-					transition: all 0.25s ease;
-					border: 1px solid rgba(255, 255, 255, 0.2);
+					display: inline-flex !important;
+					align-items: center !important;
+					gap: 8px !important;
+					text-transform: uppercase !important;
+					letter-spacing: 0.4px !important;
+					transition: all 0.25s ease !important;
+					box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3) !important;
 				}
 
 				.salary-note-cta:hover {
-					transform: translateY(-2px);
-					box-shadow: 0 6px 16px rgba(37, 99, 235, 0.45);
+					transform: translateY(-2px) !important;
+					box-shadow: 0 8px 20px rgba(37, 99, 235, 0.45) !important;
 				}
 
-				@media (max-width: 992px) {
+				@media (max-width: 991px) {
 					.career-cards-grid {
 						grid-template-columns: 1fr;
 					}
@@ -4146,32 +4149,45 @@
 					}
 
 					.salary-quick-stats-grid {
-						grid-template-columns: repeat(2, 1fr);
-						gap: 10px;
+						grid-template-columns: repeat(2, 1fr) !important;
+						gap: 12px !important;
 					}
 
 					.salary-breakdown-box {
-						padding: 30px 20px;
+						padding: 28px 18px !important;
 					}
 
-					.salary-header h3 {
-						font-size: 24px;
+					.salary-main-title {
+						font-size: 24px !important;
 					}
 				}
 
 				@media (max-width: 576px) {
 					.salary-quick-stats-grid {
-						grid-template-columns: 1fr;
+						grid-template-columns: 1fr !important;
 					}
 
 					.salary-footer-note {
-						flex-direction: column;
-						align-items: flex-start;
+						flex-direction: column !important;
+						align-items: flex-start !important;
 					}
 
 					.salary-note-cta {
-						width: 100%;
-						justify-content: center;
+						width: 100% !important;
+						justify-content: center !important;
+					}
+
+					.modern-salary-table th, .modern-salary-table td {
+						padding: 12px 10px !important;
+					}
+
+					.salary-role-name {
+						font-size: 13px !important;
+					}
+
+					.salary-badge-fresher, .salary-badge-mid, .salary-badge-senior {
+						font-size: 12px !important;
+						padding: 5px 10px !important;
 					}
 				}
 			</style>
@@ -4410,49 +4426,50 @@
 							<div class="salary-pill-badge">
 								<i class="fa fa-chart-line"></i> INDUSTRY COMPENSATION BENCHMARK 2026
 							</div>
-							<h3>Starting Salary After <span class="kdm-hero-gradient-text">Digital Marketing Course</span></h3>
-							<p>Estimated average annual compensation packages (LPA) based on top hiring agencies, tech companies, and direct campus placements.</p>
+							<h3 class="salary-main-title">Starting Salary After <span class="salary-title-highlight">Digital Marketing Course</span></h3>
+							<p class="salary-main-desc">Estimated average annual compensation packages (LPA) based on top hiring agencies, MNCs, and corporate experience levels.</p>
 						</div>
 
 						<!-- 4 Quick Salary Level Highlight Cards -->
 						<div class="salary-quick-stats-grid">
-							<div class="salary-stat-card">
+							<div class="salary-stat-card card-fresher">
 								<div class="salary-stat-level">Fresher / Entry Level</div>
-								<div class="salary-stat-pkg" style="color: #38bdf8;">₹ 3.0 - 5.0 LPA</div>
-								<div class="salary-stat-exp">0 - 1 Years Experience</div>
+								<div class="salary-stat-pkg">₹ 3.0 - 5.0 LPA</div>
+								<div class="salary-stat-exp"><i class="fa fa-clock"></i> 0 - 1 Years Experience</div>
 							</div>
-							<div class="salary-stat-card">
+							<div class="salary-stat-card card-mid">
 								<div class="salary-stat-level">Mid-Senior Specialist</div>
-								<div class="salary-stat-pkg" style="color: #fbbf24;">₹ 6.0 - 10.5 LPA</div>
-								<div class="salary-stat-exp">2 - 4 Years Experience</div>
+								<div class="salary-stat-pkg">₹ 6.0 - 10.5 LPA</div>
+								<div class="salary-stat-exp"><i class="fa fa-clock"></i> 2 - 4 Years Experience</div>
 							</div>
-							<div class="salary-stat-card">
+							<div class="salary-stat-card card-senior">
 								<div class="salary-stat-level">Lead / Manager Level</div>
-								<div class="salary-stat-pkg" style="color: #4ade80;">₹ 12.0 - 20.0+ LPA</div>
-								<div class="salary-stat-exp">5+ Years Experience</div>
+								<div class="salary-stat-pkg">₹ 12.0 - 20.0+ LPA</div>
+								<div class="salary-stat-exp"><i class="fa fa-clock"></i> 5+ Years Experience</div>
 							</div>
-							<div class="salary-stat-card">
+							<div class="salary-stat-card card-global">
 								<div class="salary-stat-level">Global Remote Marketer</div>
-								<div class="salary-stat-pkg" style="color: #c084fc;">$3,000 - $8,000/mo</div>
-								<div class="salary-stat-exp">US / UK / Gulf Clients</div>
+								<div class="salary-stat-pkg">$3,000 - $8,000/mo</div>
+								<div class="salary-stat-exp"><i class="fa fa-globe"></i> US / UK / Gulf Clients</div>
 							</div>
 						</div>
 
+						<!-- Desktop / Tablet Table View -->
 						<div class="salary-table-responsive">
 							<table class="modern-salary-table">
 								<thead>
 									<tr>
-										<th>Job Profile &amp; Core Skillset</th>
-										<th class="text-center">Fresher Level (0-1 Yr)</th>
-										<th class="text-center">Mid-Senior (2-4 Yrs)</th>
-										<th class="text-center">Senior / Lead (5+ Yrs)</th>
+										<th style="width: 40%;">Job Profile &amp; Core Skillset</th>
+										<th class="text-center" style="width: 20%;">Fresher (0-1 Yr)</th>
+										<th class="text-center" style="width: 20%;">Mid-Senior (2-4 Yrs)</th>
+										<th class="text-center" style="width: 20%;">Senior Lead (5+ Yrs)</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon"><i class="fa fa-bullseye"></i></div>
+												<div class="salary-role-icon icon-blue-glow"><i class="fa fa-bullseye"></i></div>
 												<div>
 													<div class="salary-role-name">AI Performance Marketer &amp; PPC Specialist</div>
 													<div class="salary-role-skills">Google Search Ads, Meta Ads, Funnels &amp; ROAS Optimization</div>
@@ -4466,7 +4483,7 @@
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon"><i class="fa fa-search"></i></div>
+												<div class="salary-role-icon icon-cyan-glow"><i class="fa fa-search"></i></div>
 												<div>
 													<div class="salary-role-name">AI SEO Specialist &amp; Search Strategist</div>
 													<div class="salary-role-skills">Technical SEO, Topical Authority, Semrush, Generative Engine SEO</div>
@@ -4480,7 +4497,7 @@
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon"><i class="fa fa-share-nodes"></i></div>
+												<div class="salary-role-icon icon-purple-glow"><i class="fa fa-share-nodes"></i></div>
 												<div>
 													<div class="salary-role-name">Social Media &amp; Brand Growth Manager</div>
 													<div class="salary-role-skills">Viral Reels, LinkedIn Funnels, Community Building, Brand Strategy</div>
@@ -4494,7 +4511,7 @@
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon"><i class="fa fa-robot"></i></div>
+												<div class="salary-role-icon icon-emerald-glow"><i class="fa fa-robot"></i></div>
 												<div>
 													<div class="salary-role-name">Marketing Automation &amp; CRM Specialist</div>
 													<div class="salary-role-skills">HubSpot, WhatsApp API, Zapier, Drip Email Funnels &amp; Lead Scoring</div>
@@ -4508,7 +4525,7 @@
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon"><i class="fa fa-pen-fancy"></i></div>
+												<div class="salary-role-icon icon-amber-glow"><i class="fa fa-pen-fancy"></i></div>
 												<div>
 													<div class="salary-role-name">AI Content Strategist &amp; Copywriter</div>
 													<div class="salary-role-skills">Prompt Engineering, High-Converting Landing Copy, Midjourney Visuals</div>
@@ -4522,7 +4539,7 @@
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon"><i class="fa fa-crown"></i></div>
+												<div class="salary-role-icon icon-gold-glow"><i class="fa fa-crown"></i></div>
 												<div>
 													<div class="salary-role-name">Digital Marketing Director / Growth Head</div>
 													<div class="salary-role-skills">Omnichannel Strategy, Team Leadership, Multi-Crore Budget Allocation</div>
@@ -4540,8 +4557,8 @@
 						<!-- Bottom Insights & CTA Note -->
 						<div class="salary-footer-note">
 							<div class="salary-note-text">
-								<i class="fa fa-lightbulb" style="color: #fbbf24; font-size: 16px;"></i>
-								<span><strong>AI Salary Advantage:</strong> Candidates proficient in Generative AI tools (ChatGPT, Gemini, Midjourney) command <strong>35% to 50% higher</strong> starting compensation.</span>
+								<i class="fa fa-lightbulb" style="color: #f59e0b; font-size: 18px;"></i>
+								<span><strong>AI Salary Advantage:</strong> Candidates trained in Generative AI tools (ChatGPT, Gemini, Midjourney) command <strong>35% to 50% higher</strong> starting compensation packages.</span>
 							</div>
 							<a href="#kdm-hero-lead-form" class="salary-note-cta">
 								<i class="fa fa-paper-plane"></i> Get Placement Assistance
