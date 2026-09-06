@@ -12,7 +12,7 @@
 		<meta name="twitter:card" content="summary_large_image">
 		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/SMO-Training.aspx" />
 		<META NAME="Author"
-			CONTENT="Digital Marketing Course in South Delhi, http://www.king.kingofdigitalmarketing.com">
+			CONTENT="SMO Training Course in South Delhi, http://www.king.kingofdigitalmarketing.com">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="preconnect" href="https://cdnjs.cloudflare.com">
@@ -121,7 +121,7 @@
 
 						<div class="kdm-hero-pulse-badge">
 							<span class="pulse-dot"></span>
-							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN DELHI
+							<i class="fa fa-robot"></i> #1 RATED AI-POWERED SMO & SOCIAL MEDIA INSTITUTE IN DELHI
 						</div>
 
 						<h1 class="kdm-course-hero-title">
@@ -220,7 +220,7 @@
 								<span class="kdm-form-seat-tag">🔥 Only 5 Seats Left</span>
 							</div>
 							<iframe scrolling="no" src="digital-course-form.aspx" class="kdm-hero-form-iframe"
-								title="Digital Marketing Course Enquiry Form"></iframe>
+								title="SMO Training Course Enquiry Form"></iframe>
 						</div>
 					</div>
 				</div>
@@ -233,68 +233,10 @@
 					<div class="content-box">
 						<h2
 							style="font-size: 28px; margin-bottom: 20px; font-weight: 800; color: #111441; text-align: center;">
-							Join Best Digital Marketing Institute in Delhi</h2>
-						<p align="justify">King of Digital Marketing is an agency driven leading digital marketing
-							institute
-							in
-							Delhi, India since 2013. Digital marketing certification program is conducted by <a
-								href="https://www.uidmt.com">UpNext Institute of Digital Marketing & Technology
-								(UIDMT)</a> which is an integral part of <a href="https://www.devweboic.com">Devweboic
-								Tech.
-								OPC
-								Pvt.
-								Ltd.</a>. <a href="https://gauravdubey.in">Gaurav Dubey -"A well known digital marketing
-								trainer
-								and consultant in India"</a> is director of this of this digital marketing institute. He
-							has
-							worked with more than 750 domestic and international digital marketing projects and helped
-							to
-							grow
-							many brands in a sequence. 1850+ students have got trained yet from Gaurav Dubey and his
-							team
-							through this digital marketing institute. Gaurav Dubey and his expert digital marketers have
-							designed advance digital marketing courses to train students, job seekers, professionals,
-							house
-							wife
-							and entrepreneurs. Enroll now for premium digital marketing course in South Delhi,
-							Govindpuri
-							Kalkaji and learn 10+ years of digital marketing experience in just 3 months from India's
-							best
-							trainer.</p>
-
-						<p align="justify">King of Digital Marketing is 100% dedicated to transform your passion for the
-							digital
-							marketing into a thriving career! If you have a dream to get high paying digital marketing
-							job,
-							you've come to the right institute. We have 60 trending modules, which covers all the job
-							essential
-							aspects of digital marketing, SEO in Depth (with On Page, Technical SEO and Off page SEO),
-							Social
-							Media Marketing, Google Ads, Meta Ads, YouTube Marketing, Use of AI in Digital Marketing,
-							Content
-							Marketing and more. Being best digital marketing company, we have multiple projects of each
-							modules,
-							so you get hands-on experience and practical knowledge that is directly applicable in the
-							real
-							world
-							digital marketing works. We focus on a personalized learning experience as per student's
-							goals.
-							We
-							have small batch sizes and individual attention to ensure that each student is understanding
-							the
-							digital marketing concept properly.</p>
-						<p align="justify">Our end goal is to empower you with the digital marketing skills and
-							confidence
-							to
-							get your first digital marketing job in max. 150 days. By the end of the course in 3 months,
-							you'll
-							be part of digital marketing internship and handle client's live project under guidance of
-							experts.
-							You become habitual to face digital marketing challenges. Whether it's making strategy for
-							SEO,
-							running a successful Google Ads campaign or working on Met Ads. Join delay to be part of
-							most
-							booming industry for youth and shape your future in the digital age!</p>
+							Join Best SMO & Social Media Institute in Delhi</h2>
+						<p align="justify">King of Digital Marketing is an agency-driven leading <strong>SMO & Social Media Institute in South Delhi, India</strong> since 2013. Our advanced SMO & Social Media Course certification program is conducted by <a href="https://www.uidmt.com">UpNext Institute of Digital Marketing &amp; Technology (UIDMT)</a> which is an integral part of <a href="https://www.devweboic.com">Devweboic Tech. OPC Pvt. Ltd.</a>. <a href="https://gauravdubey.in">Gaurav Dubey — "A well-known Social Media Strategist & Agency Director and Consultant in India"</a> is the director of this specialized institute. He has worked on more than 750+ domestic and international client projects and helped grow hundreds of businesses to market dominance.</p>
+						<p align="justify">Gaurav Dubey and his senior team have trained over 8,000+ students, job seekers, working professionals, and business owners. Enroll now for the premier <strong>SMO & Social Media Course in South Delhi (Govindpuri / Kalkaji / Nehru Place)</strong> and gain 10+ years of practical agency experience in just 45 days to 3 months. Master all core dimensions: Instagram Reels Algorithm, Hook Psychology, Canva Pro Graphic Design, CapCut Video Editing, Meta Business Suite, Facebook Community Building, LinkedIn B2B Lead Generation, and YouTube SEO.</p>
+						<p align="justify">Being an active digital marketing agency, we have multiple live projects for each module. We focus on a personalized learning experience with small batches (8-10 students) so every student masters real practical skills. Our end goal is to empower you with agency-level expertise and help you secure a high-paying job as a <strong>Social Media Executive, Instagram Content Creator, or Social Media Manager</strong> within 150 days. Work on live client accounts, master Meta Business Suite, Canva Pro, CapCut, Buffer, and YouTube Studio, and build a standout portfolio.</p>
 					</div>
 				</div>
 			</div>
@@ -688,7 +630,7 @@
 							360° PRACTICAL CURRICULUM
 						</span>
 						<h2 class="modules-main-title">60+ Trending &amp; AI-Powered Social Media Course Modules</h2>
-						<p class="modules-sub-title">Master complete digital marketing & Generative AI tools with
+						Master complete SMO & Generative AI tools with
 							hands-on
 							agency projects and 100% practical modules.</p>
 					</div>
@@ -696,853 +638,369 @@
 					<!-- 60 Modules SVG Grid -->
 					<div class="modules-grid-60">
 						<!-- Module 1 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-digital-marketing-overview.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<line x1="2" y1="12" x2="22" y2="12"></line>
-									<path
-										d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-									</path>
+									<circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Digital Marketing Overview</p>
-						</a>
-
+							<p class="module-title-text">Social Media Architecture & Brand Personas</p>
+						</div>
 						<!-- Module 2 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-market-research-and-analysis.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
-									<path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+									<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Market Research & Analysis</p>
-						</a>
-
+							<p class="module-title-text">Social Algorithms & Virality Fundamentals</p>
+						</div>
 						<!-- Module 3 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-digital-marketing-strategy.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<circle cx="12" cy="12" r="6"></circle>
-									<circle cx="12" cy="12" r="2"></circle>
+									<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
 								</svg>
 							</div>
-							<p class="module-title-text">Digital Marketing Strategy</p>
-						</a>
-
+							<p class="module-title-text">Instagram Organic Growth & Page Setup</p>
+						</div>
 						<!-- Module 4 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/things-to-know-about-website-design-overview-module.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-									<line x1="3" y1="9" x2="21" y2="9"></line>
-									<line x1="9" y1="21" x2="9" y2="9"></line>
+									<path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Website Design Overview</p>
-						</a>
-
+							<p class="module-title-text">Instagram Reels Scripting & Hook Psychology</p>
+						</div>
 						<!-- Module 5 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/how-to-manage-a-wordpress-website-in-easy-steps.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm-1 14.5l-3.5-9.5h2.1l2.4 7.2 2.2-7.2h2l-3.2 9.5z">
-									</path>
+									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
 								</svg>
 							</div>
-							<p class="module-title-text">WordPress Website Creation</p>
-						</a>
-
+							<p class="module-title-text">Trending Audio & Visual Timing Hacks</p>
+						</div>
 						<!-- Module 6 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-domain-and-hosting-management.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
-									<rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
-									<line x1="6" y1="6" x2="6.01" y2="6"></line>
-									<line x1="6" y1="18" x2="6.01" y2="18"></line>
+									<circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Domain & Hosting Setup</p>
-						</a>
-
+							<p class="module-title-text">Instagram Carousel Storytelling</p>
+						</div>
 						<!-- Module 7 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/mastering-content-management-for-your-static-website-a-comprehensive-guide.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="16 18 22 12 16 6"></polyline>
-									<polyline points="8 6 2 12 8 18"></polyline>
+									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Static Website Management</p>
-						</a>
-
+							<p class="module-title-text">Hashtag Optimization & Keyword Discovery</p>
+						</div>
 						<!-- Module 8 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-search-engine-optimization.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-									<polyline points="17 6 23 6 23 12"></polyline>
+									<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Search Engine Optimization</p>
-						</a>
-
+							<p class="module-title-text">Meta Business Suite & Page Management</p>
+						</div>
 						<!-- Module 9 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-seo-audit-tools.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
-									</path>
+									<circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">SEO Audit Tools</p>
-						</a>
-
+							<p class="module-title-text">Facebook Groups & Community Building</p>
+						</div>
 						<!-- Module 10 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-google-updates.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+									<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Google Core Updates</p>
-						</a>
-
+							<p class="module-title-text">Graphic Design Fundamentals in Canva Pro</p>
+						</div>
 						<!-- Module 11 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-seo-update-resources.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-									<path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+									<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
 								</svg>
 							</div>
-							<p class="module-title-text">SEO Update Resources</p>
-						</a>
-
+							<p class="module-title-text">Brand Kits, Typography & Color Palettes</p>
+						</div>
 						<!-- Module 12 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-google-analytics.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<line x1="18" y1="20" x2="18" y2="10"></line>
-									<line x1="12" y1="20" x2="12" y2="4"></line>
-									<line x1="6" y1="20" x2="6" y2="14"></line>
+									<path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Google Analytics (GA4)</p>
-						</a>
-
+							<p class="module-title-text">Short-Form Video Editing in CapCut</p>
+						</div>
 						<!-- Module 13 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-google-search-console.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-									<line x1="8" y1="21" x2="16" y2="21"></line>
-									<line x1="12" y1="17" x2="12" y2="21"></line>
+									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
 								</svg>
 							</div>
-							<p class="module-title-text">Search Console Setup</p>
-						</a>
-
+							<p class="module-title-text">Video Transitions, Sound Effects & Auto-Captions</p>
+						</div>
 						<!-- Module 14 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-voice-search-optimisation.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
-									<path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
-									<line x1="12" y1="19" x2="12" y2="23"></line>
-									<line x1="8" y1="23" x2="16" y2="23"></line>
+									<circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Voice Search Optimization</p>
-						</a>
-
+							<p class="module-title-text">LinkedIn Profile Optimization for B2B</p>
+						</div>
 						<!-- Module 15 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-search-engine-marketing.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Search Engine Marketing</p>
-						</a>
-
+							<p class="module-title-text">LinkedIn Company Pages & Lead Funnels</p>
+						</div>
 						<!-- Module 16 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/navigating-the-depths-of-google-ads-what-to-study-for-success.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M3 11l19-9-9 19-2-8-8-2z"></path>
+									<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Google Ads Masterclass</p>
-						</a>
-
+							<p class="module-title-text">LinkedIn Newsletters & Thought Leadership</p>
+						</div>
 						<!-- Module 17 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-google-search-ads.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="11" cy="11" r="8"></circle>
-									<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+									<circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Google Search Ads</p>
-						</a>
-
+							<p class="module-title-text">YouTube Channel Branding & Setup</p>
+						</div>
 						<!-- Module 18 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-google-display-ads.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-									<circle cx="8.5" cy="8.5" r="1.5"></circle>
-									<polyline points="21 15 16 10 5 21"></polyline>
+									<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Google Display Network</p>
-						</a>
-
+							<p class="module-title-text">YouTube Video SEO Tags, Titles & Descriptions</p>
+						</div>
 						<!-- Module 19 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-google-app-installation-ads.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-									<line x1="12" y1="18" x2="12.01" y2="18"></line>
+									<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
 								</svg>
 							</div>
-							<p class="module-title-text">Google App Install Ads</p>
-						</a>
-
+							<p class="module-title-text">High-CTR Thumbnail Design Psychology</p>
+						</div>
 						<!-- Module 20 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-google-video-ads.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon points="23 7 16 12 23 17 23 7"></polygon>
-									<rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+									<path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Google Video & YouTube Ads</p>
-						</a>
-
+							<p class="module-title-text">YouTube Shorts Creation & Monetization</p>
+						</div>
 						<!-- Module 21 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-google-shopping-ads.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="9" cy="21" r="1"></circle>
-									<circle cx="20" cy="21" r="1"></circle>
-									<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
 								</svg>
 							</div>
-							<p class="module-title-text">Google Shopping Ads</p>
-						</a>
-
+							<p class="module-title-text">X (Twitter) Trend-Jacking & Viral Threads</p>
+						</div>
 						<!-- Module 22 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-google-performance-max-ads.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z">
-									</path>
+									<circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Performance Max (PMax) Ads</p>
-						</a>
-
+							<p class="module-title-text">Pinterest Visual Discovery & Pin SEO</p>
+						</div>
 						<!-- Module 23 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-google-smart-campaign.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<line x1="9" y1="18" x2="15" y2="18"></line>
-									<line x1="10" y1="22" x2="14" y2="22"></line>
-									<path
-										d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14">
-									</path>
+									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Google Smart Campaigns</p>
-						</a>
-
+							<p class="module-title-text">AI Prompt Engineering with ChatGPT</p>
+						</div>
 						<!-- Module 24 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-remarketing-ads.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="23 4 23 10 17 10"></polyline>
-									<path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+									<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Remarketing & Retargeting</p>
-						</a>
-
+							<p class="module-title-text">Midjourney & DALL-E AI Visual Generation</p>
+						</div>
 						<!-- Module 25 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-tracking-ad-performance.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+									<circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Ad Tracking & Optimization</p>
-						</a>
-
+							<p class="module-title-text">Meta Ads Manager Setup & Campaign Objectives</p>
+						</div>
 						<!-- Module 26 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-important-ranking-factors.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4">
-									</path>
+									<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">200+ Google Ranking Factors</p>
-						</a>
-
+							<p class="module-title-text">Custom & Lookalike Audience Targeting</p>
+						</div>
 						<!-- Module 27 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-google-ads-on-live-projects.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-									<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+									<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
 								</svg>
 							</div>
-							<p class="module-title-text">Live Ads Client Projects</p>
-						</a>
-
+							<p class="module-title-text">Paid Retargeting Funnels for SMOs</p>
+						</div>
 						<!-- Module 28 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-content-writing.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
-									<path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+									<path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">AI Content Strategy & Writing</p>
-						</a>
-
+							<p class="module-title-text">Influencer Outreach, Negotiation & Contracts</p>
+						</div>
 						<!-- Module 29 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-copywriting.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon
-										points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-									</polygon>
+									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
 								</svg>
 							</div>
-							<p class="module-title-text">High Conversion Copywriting</p>
-						</a>
-
+							<p class="module-title-text">User-Generated Content (UGC) Strategy</p>
+						</div>
 						<!-- Module 30 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-writing-skill-enhancement.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-									<polyline points="14 2 14 8 20 8"></polyline>
-									<line x1="16" y1="13" x2="8" y2="13"></line>
-									<line x1="16" y1="17" x2="8" y2="17"></line>
+									<circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Writing Skill Enhancement</p>
-						</a>
-
+							<p class="module-title-text">Online Reputation Management (ORM) on Social</p>
+						</div>
 						<!-- Module 31 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-blogging.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z">
-									</path>
-									<line x1="6" y1="6" x2="18" y2="6"></line>
-									<line x1="6" y1="10" x2="18" y2="10"></line>
+									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Professional Blogging</p>
-						</a>
-
+							<p class="module-title-text">Crisis Management & Negative Review Handling</p>
+						</div>
 						<!-- Module 32 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-affiliate-marketing.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<line x1="12" y1="1" x2="12" y2="23"></line>
-									<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+									<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Affiliate Marketing</p>
-						</a>
-
+							<p class="module-title-text">Social Media Analytics & Engagement Reporting</p>
+						</div>
 						<!-- Module 33 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-google-adsense.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
-									<line x1="1" y1="10" x2="23" y2="10"></line>
+									<circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Google AdSense Monetization</p>
-						</a>
-
+							<p class="module-title-text">Content Calendar Planning & Scheduling (Buffer/Hootsuite)</p>
+						</div>
 						<!-- Module 34 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-social-media-optimization.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="18" cy="5" r="3"></circle>
-									<circle cx="6" cy="12" r="3"></circle>
-									<circle cx="18" cy="19" r="3"></circle>
-									<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
-									<line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+									<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Social Media Optimization</p>
-						</a>
-
+							<p class="module-title-text">Freelance SMM Client Pitching & Pricing</p>
+						</div>
 						<!-- Module 35 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-social-media-marketing.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
-									</path>
+									<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
 								</svg>
 							</div>
-							<p class="module-title-text">Social Media Marketing</p>
-						</a>
-
+							<p class="module-title-text">Agency Onboarding & Deliverables Management</p>
+						</div>
 						<!-- Module 36 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-facebook-marketing.aspx"
-							target="_blank" class="module-card-item">
+						<div class="module-card-item">
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+									<path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Meta & Facebook Ads</p>
-						</a>
-
-						<!-- Module 37 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-instagram-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-									<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-									<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-								</svg>
-							</div>
-							<p class="module-title-text">Instagram Reels Marketing</p>
-						</a>
-
-						<!-- Module 38 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-linkedIn-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
-									</path>
-									<rect x="2" y="9" width="4" height="12"></rect>
-									<circle cx="4" cy="4" r="2"></circle>
-								</svg>
-							</div>
-							<p class="module-title-text">LinkedIn B2B Marketing</p>
-						</a>
-
-						<!-- Module 39 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-graphic-design-overview.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="13.5" cy="6.5" r=".5"></circle>
-									<circle cx="17.5" cy="10.5" r=".5"></circle>
-									<circle cx="8.5" cy="7.5" r=".5"></circle>
-									<circle cx="6.5" cy="12.5" r=".5"></circle>
-									<path
-										d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.92 0 1.7-.74 1.7-1.67 0-.44-.18-.88-.47-1.21-.3-.33-.47-.77-.47-1.21 0-.93.75-1.69 1.69-1.69H17c2.76 0 5-2.24 5-5s-2.24-5-5-5h-5z">
-									</path>
-								</svg>
-							</div>
-							<p class="module-title-text">AI Graphic Design (Canva & Midjourney)</p>
-						</a>
-
-						<!-- Module 40 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-online-reputation-management.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-								</svg>
-							</div>
-							<p class="module-title-text">Online Reputation Management</p>
-						</a>
-
-						<!-- Module 41 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-email-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-									</path>
-									<polyline points="22,6 12,13 2,6"></polyline>
-								</svg>
-							</div>
-							<p class="module-title-text">Email Marketing Automation</p>
-						</a>
-
-						<!-- Module 42 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-youtube-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
-									</path>
-									<polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor">
-									</polygon>
-								</svg>
-							</div>
-							<p class="module-title-text">YouTube Channel Growth</p>
-						</a>
-
-						<!-- Module 43 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-mobile-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-									<line x1="12" y1="18" x2="12.01" y2="18"></line>
-								</svg>
-							</div>
-							<p class="module-title-text">Mobile & SMS Marketing</p>
-						</a>
-
-						<!-- Module 44 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-e-commerce-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-									<line x1="3" y1="6" x2="21" y2="6"></line>
-									<path d="M16 10a4 4 0 0 1-8 0"></path>
-								</svg>
-							</div>
-							<p class="module-title-text">E-Commerce Marketing Strategy</p>
-						</a>
-
-						<!-- Module 45 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-google-my-business-online-presence.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-									<circle cx="12" cy="10" r="3"></circle>
-								</svg>
-							</div>
-							<p class="module-title-text">Google My Business Local SEO</p>
-						</a>
-
-						<!-- Module 46 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-app-store-optimization.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="8 17 12 21 16 17"></polyline>
-									<line x1="12" y1="12" x2="12" y2="21"></line>
-									<path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path>
-								</svg>
-							</div>
-							<p class="module-title-text">App Store Optimization (ASO)</p>
-						</a>
-
-						<!-- Module 47 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-lead-generation-strategy.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-									<circle cx="8.5" cy="7" r="4"></circle>
-									<line x1="20" y1="8" x2="20" y2="14"></line>
-									<line x1="23" y1="11" x2="17" y2="11"></line>
-								</svg>
-							</div>
-							<p class="module-title-text">Lead Generation Funnels</p>
-						</a>
-
-						<!-- Module 48 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-marketing-automation.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="3"></circle>
-									<path
-										d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
-									</path>
-								</svg>
-							</div>
-							<p class="module-title-text">Marketing Automation Tools</p>
-						</a>
-
-						<!-- Module 49 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-landing-page-optimization.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-									<line x1="8" y1="21" x2="16" y2="21"></line>
-									<line x1="12" y1="17" x2="12" y2="21"></line>
-								</svg>
-							</div>
-							<p class="module-title-text">Landing Page Optimization</p>
-						</a>
-
-						<!-- Module 50 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-webinars-and-online-events.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-									<circle cx="9" cy="7" r="4"></circle>
-									<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-									<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-								</svg>
-							</div>
-							<p class="module-title-text">Webinars & Online Events</p>
-						</a>
-
-						<!-- Module 51 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-chatbot-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="3" y="11" width="18" height="10" rx="2"></rect>
-									<circle cx="12" cy="5" r="2"></circle>
-									<path d="M12 7v4"></path>
-									<line x1="8" y1="16" x2="8.01" y2="16"></line>
-									<line x1="16" y1="16" x2="16.01" y2="16"></line>
-								</svg>
-							</div>
-							<p class="module-title-text">AI Chatbot Marketing</p>
-						</a>
-
-						<!-- Module 52 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-podcast-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-									<path
-										d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
-									</path>
-								</svg>
-							</div>
-							<p class="module-title-text">Podcast Marketing</p>
-						</a>
-
-						<!-- Module 53 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-influencer-outreach-and-collaboration.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
-									</path>
-								</svg>
-							</div>
-							<p class="module-title-text">Influencer Marketing & Outreach</p>
-						</a>
-
-						<!-- Module 54 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-online-community-building.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-									<circle cx="9" cy="7" r="4"></circle>
-									<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-									<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-								</svg>
-							</div>
-							<p class="module-title-text">Online Community Building</p>
-						</a>
-
-						<!-- Module 55 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-in-ai-in-digital-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"></path>
-									<path d="M4 11a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2z">
-									</path>
-									<path d="M14 11a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2z">
-									</path>
-									<path d="M8 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2H8v-2z"></path>
-								</svg>
-							</div>
-							<p class="module-title-text">ChatGPT & Generative AI Tools</p>
-						</a>
-
-						<!-- Module 56 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-case-study-analysis-in-digital-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-									<polyline points="14 2 14 8 20 8"></polyline>
-									<line x1="16" y1="13" x2="8" y2="13"></line>
-									<line x1="16" y1="17" x2="8" y2="17"></line>
-									<polyline points="10 9 9 9 8 9"></polyline>
-								</svg>
-							</div>
-							<p class="module-title-text">Client Case Study Analysis</p>
-						</a>
-
-						<!-- Module 57 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/how-to-become-a-successful-freelancer.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-									<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-								</svg>
-							</div>
-							<p class="module-title-text">Become a Freelance Marketer</p>
-						</a>
-
-						<!-- Module 58 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-customer-services-support-in-digital-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-									<path
-										d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
-									</path>
-								</svg>
-							</div>
-							<p class="module-title-text">Customer Service & CRM Support</p>
-						</a>
-
-						<!-- Module 59 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-startup-mentorship.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.1-1.35 1.1-1.35L4.5 14.5s-.64.39-1.35 1.1z">
-									</path>
-									<path d="M12 15l-3-3 8.5-8.5a2.12 2.12 0 0 1 3 3L12 15z"></path>
-								</svg>
-							</div>
-							<p class="module-title-text">Startup Mentorship & Growth</p>
-						</a>
-
-						<!-- Module 60 -->
-						<a href="https://www.kingofdigitalmarketing.com/blog/what-to-study-about-interview-preparation-of-digital-marketing.aspx"
-							target="_blank" class="module-card-item">
-							<div class="module-icon-box">
-								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-									<polyline points="22 4 12 14.01 9 11.01"></polyline>
-								</svg>
-							</div>
-							<p class="module-title-text">Interview Prep & Resume Building</p>
-						</a>
+							<p class="module-title-text">Live Brand Campaign Case Studies</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- digital marketing module course Ends-->
+			<!-- SMO module course Ends -->
 
 			<!-- tool Logos Container -->
 			<div class="container" style="padding-top: 20px; padding-bottom: 20px;">
@@ -1552,7 +1010,7 @@
 							style="font-size: 32px; font-weight: 800; color: #111441; margin-bottom: 8px;">
 							Master 24+ Industry Leading Tools</h2>
 						<p align="center" style="color: #64748b; font-size: 15px; margin-bottom: 35px;">Gain hands-on
-							practical experience on premium digital marketing, SEO, PPC & Analytics software.</p>
+							practical experience on premium SMO, AI, and analytics tools.</p>
 
 						<div class="tools-grid-container">
 							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-1.webp" loading="lazy"
@@ -1613,7 +1071,7 @@
 			<div class="container">
 				<div class="batches-section">
 					<div class="batches-header">
-						<h2>Flexible Digital Marketing Batches</h2>
+						<h2>Flexible SMO Training Course Batches</h2>
 					</div>
 					<div class="batches-grid">
 						<!-- Batch 1: Weekdays -->
@@ -1667,7 +1125,7 @@
 							<h3 class="batch-card-title">Online Batches</h3>
 							<p class="batch-card-text">If you're far from our branch in South Delhi or Allahabad then
 								you
-								can join online digital marketing course where you get live classes on weekdays or
+								can join online smo training course where you get live classes on weekdays or
 								weekend.
 							</p>
 						</div>
@@ -1682,7 +1140,7 @@
 				<div class="container">
 					<div class="spec-modules-header">
 						<h2>DO YOU WANT TO STUDY SPECIFIC MODULE OF <strong>SOCIAL MEDIA?</strong></h2>
-						<p>If you have interest to study any specific module of digital marketing, then we provide
+						<p>If you have interest to study any specific module of social media, then we provide
 							course
 							for individual skill also. Advance SEO Course, Social Media Marketing Course, Google Ads
 							Course,
@@ -2200,11 +1658,11 @@
 			</div>
 			<!-- Various Courses Section Ends -->
 
-			<!-- Bonus With Digital Marketing Course Starts -->
+			<!-- Bonus With SMO Training Course Starts -->
 			<div class="container">
 				<div class="bonus-section-dark">
 					<div class="bonus-header-dark">
-						<h2>Bonus With Digital Marketing Course</h2>
+						<h2>Bonus With SMO Training Course</h2>
 						<p>Exclusive Premium Perks & Career Benefits Included With Every Enrolment</p>
 					</div>
 					<div class="bonus-grid-dark">
@@ -2366,7 +1824,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- Bonus With Digital Marketing Course Ends -->
+			<!-- Bonus With SMO Training Course Ends -->
 
 			<!-- Tools We Use Ends -->
 
@@ -2388,7 +1846,7 @@
 						<h2 class="job-opp-title" id="Job Opportunities">Job Opportunities After Digital Marketing
 							Course
 						</h2>
-						<p class="job-opp-subtitle">The digital marketing field is growing exponentially in India. Get
+						<p class="job-opp-subtitle">The SMO and performance marketing sector is growing exponentially in India. Get
 							hired
 							in top MNCs & agencies or launch your own online business, agency, or freelancing career
 							with
@@ -2441,7 +1899,7 @@
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Digital Marketing Executive
+									Social Media Executive
 								</li>
 								<li class="career-role-item">
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
@@ -2491,7 +1949,7 @@
 										<polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
 									</svg>
 								</div>
-								<h3>Higher Level Digital Marketing Titles</h3>
+								<h3>Higher Level SMO Career Titles</h3>
 							</div>
 							<ul class="career-role-list">
 								<li class="career-role-item">
@@ -2499,21 +1957,21 @@
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Digital Marketing Manager
+									Social Media Manager
 								</li>
 								<li class="career-role-item">
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9333ea"
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Digital Marketing Strategist
+									Creative Content Strategist
 								</li>
 								<li class="career-role-item">
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9333ea"
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Digital Marketing Head / Director
+									Social Media Head / Creative Director
 								</li>
 								<li class="career-role-item">
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9333ea"
@@ -2608,7 +2066,7 @@
 								<i class="fa fa-chart-line"></i> INDUSTRY COMPENSATION BENCHMARK 2026
 							</div>
 							<h3 class="salary-main-title">Starting Salary After <span
-									class="salary-title-highlight">Digital Marketing Course</span></h3>
+									class="salary-title-highlight">SMO Course</span></h3>
 							<p class="salary-main-desc">Estimated average annual compensation packages (LPA) based on
 								top hiring agencies, MNCs, and corporate experience levels.</p>
 						</div>
@@ -2755,7 +2213,7 @@
 												<div class="salary-role-icon icon-gold-glow"><i class="fa fa-crown"></i>
 												</div>
 												<div>
-													<div class="salary-role-name">Digital Marketing Director / Growth
+													<div class="salary-role-name">Social Media Director / Creative Head
 														Head</div>
 													<div class="salary-role-skills">Omnichannel Strategy, Team
 														Leadership, Multi-Crore Budget Allocation</div>
@@ -2798,7 +2256,7 @@
 						<div class="trainer-img-col">
 							<div class="trainer-img-card">
 								<img src="images/Gaurav Dubey Digital Marketing trainer.webp"
-									alt="Gaurav Dubey - Lead Digital Marketing Trainer & Founder at King of Digital Marketing"
+									alt="Gaurav Dubey - Lead SMO Mentor & Founder at King of Digital Marketing"
 									loading="lazy" decoding="async" width="380" height="440" />
 								<div class="trainer-badge-floating">
 									<div>
@@ -2849,7 +2307,7 @@
 								</svg>
 								MEET YOUR MENTOR & TRAINER
 							</span>
-							<h2 class="trainer-main-title">Learn Digital Marketing Directly From <span>Gaurav
+							<h2 class="trainer-main-title">Learn Social Media Marketing Directly From <span>Gaurav
 									Dubey</span>
 							</h2>
 							<p class="trainer-subtitle">Founder & Lead Digital Growth Strategist at King of Digital
@@ -3134,7 +2592,7 @@
 						<h2 class="student-reviews-title">What Our Students Say About Our Course</h2>
 						<p class="student-reviews-subtitle">Watch authentic video feedback from students who completed
 							their
-							Digital Marketing training at King of Digital Marketing Institute and built successful
+							SMO training at King of Digital Marketing Institute and built successful
 							careers.
 						</p>
 					</div>
@@ -3165,7 +2623,7 @@
 							</div>
 							<div class="student-card-info">
 								<div class="student-card-stars">★★★★★</div>
-								<h3 class="student-card-title">Practical Digital Marketing Placement Review</h3>
+								<h3 class="student-card-title">Practical SMO Placement Review</h3>
 								<p class="student-card-desc">100% placement support and agency internship experience
 									feedback by old student.</p>
 							</div>
@@ -3221,25 +2679,25 @@
 						<div>
 							<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
 							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our
-								AI-powered digital marketing course in South Delhi, fees, syllabus, and placement
+								AI-powered SMO course in South Delhi, fees, syllabus, and placement
 								support.</p>
 
 							<div class="kdm-faq-accordion">
 								<!-- FAQ 1 -->
 								<div class="kdm-faq-item active">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.1. What is the Digital Marketing Course fee in South Delhi?</span>
+										<span class="kdm-faq-question">Q.1. What is the SMO Course fee in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing course fees at King of Digital Marketing start from <strong>₹24,999</strong> for the 45-Day PowerPlay Course up to <strong>₹39,999</strong> for the 4-Month Comprehensive Mastery Course, including agency internship and 100% placement support.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> SMO course fees at King of Digital Marketing start from <strong>₹24,999</strong> for the 45-Day PowerPlay Course up to <strong>₹39,999</strong> for the 4-Month Comprehensive Mastery Course, including agency internship and 100% placement support.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 2 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.2. What are the advantages of enrolling in this digital marketing course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.2. What are the advantages of enrolling in this SMO course in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
@@ -3250,7 +2708,7 @@
 								<!-- FAQ 3 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.3. What is the duration of the digital marketing course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.3. What is the duration of the SMO course in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
@@ -3298,14 +2756,14 @@
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>15+ industry certifications</strong> including Google Ads, Meta Certified Digital Marketing Associate, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>15+ industry certifications</strong> including Google Ads, SMO Specialist Certification, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 8 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.8. Who can join this digital marketing course?</span>
+										<span class="kdm-faq-question">Q.8. Who can join this SMO course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
