@@ -29,67 +29,77 @@
 		<link rel="stylesheet" href="css/kdm-faq.css">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 		<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "1. Digital Marketing Course Fee in South Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": ""
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "1. What will I learn in the PPC & Google Ads Course in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You will learn complete paid advertising across Google Search Ads, Display Network, YouTube Video Ads, Google Shopping, Performance Max (PMax), Google Tag Manager (GTM), GA4 conversion tracking, and Landing Page CRO."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "2. Will I get to run ads on live Google accounts during the course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Unlike institutes that only show theory, King of Digital Marketing gives you live budget practice to create campaigns, test ad copies, configure conversion tracking, and analyze actual real-time ad data."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "3. What is the difference between SEO and PPC?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SEO focuses on gaining organic, non-paid rankings on Google over time, whereas PPC (Pay-Per-Click) involves running paid ads on Google and YouTube to generate instant high-intent leads and sales."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "4. Which certifications will I earn after completing the PPC training?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You will earn official Google Ads Search Certification, Google Ads Display Certification, Google Ads Video Certification, Google Analytics 4 Certification, and the King of Digital Marketing Advanced PPC Specialist Certificate."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "5. What is the average starting salary for a PPC Specialist in Delhi NCR?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Fresher PPC Executives typically start between ₹3.5 LPA to ₹5.0 LPA. With 2-3 years of proven experience managing ad budgets profitably, salaries quickly scale to ₹8.0 LPA - ₹15.0+ LPA."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "6. What are the batch timings for working professionals?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We offer flexible weekday morning/evening batches as well as dedicated weekend batches (Saturday & Sunday) tailored for working professionals and business owners."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "7. Does King of Digital Marketing guarantee job placement support?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! We provide 100% placement assistance, including mock interview rounds with senior agency media buyers, Google Ads case study presentations, resume building, and interview calls until you get placed."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "8. How can I attend a free demo class before enrolling?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can book a free demo session by submitting the lead form on this page or reaching out directly to our South Delhi training center."
+            }
         }
-      }, {
-        "@type": "Question",
-        "name": "2. What are the advantages of enrolling in this online digital marketing course in South Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Digital Marketing Certification programs are purpose-built to teach Digital Marketing concepts. In addition, instructors provide hands-on training while you work on real-world industry projects and assignments when you enroll yourself in the digital marketing course in South Delhi.."
-        }
-      }, {
-        "@type": "Question",
-        "name": "3. What is the course duration of the online/offline digital marketing course in south Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": ""
-        }
-      }, {
-        "@type": "Question",
-        "name": "4. Can I learn digital marketing online?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes sure."
-        }
-      }, {
-        "@type": "Question",
-        "name": "5. After Completing my online digital marketing course, will I become a digital marketing specialist?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Just completing a digital marketing course or getting certification from a digital marketing institute in South Delhi does not ensure you will get a job. You must learn the necessary skills and complete projects and internships to gain Practical knowledge."
-        }
-      }, {
-        "@type": "Question",
-        "name": "6. Can I attend a demo session before enrollment?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes you can, to book a free demo class click here - demo class or call- +919555696058, +919205316988."
-        }
-      }, {
-        "@type": "Question",
-        "name": "7. Which is the best Digital Marketing Institute in south Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "King of digital marketing is the best digital marketing Institute in south Delhi."
-        }
-      }, {
-        "@type": "Question",
-        "name": "8. What is the course duration in king of digital marketing?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":"The duration of the digital marketing course at King of Digital Marketing is three months approx."}
-        }]
-    }
-    </script>
+    ]
+}
+		</script>
 		<link rel="stylesheet" href="css/kdm-faq.css" />
 		</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -1671,7 +1681,7 @@
 			<div class="spec-modules-section">
 				<div class="container">
 					<div class="spec-modules-header">
-						<h2>DO YOU WANT TO STUDY SPECIFIC MODULE OF <strong>DIGITAL MARKETING?</strong></h2>
+						<h2>DO YOU WANT TO STUDY SPECIFIC MODULE OF <strong>PPC &amp; GOOGLE ADS?</strong></h2>
 						<p>If you have interest to study any specific module of digital marketing, then we provide
 							course
 							for individual skill also. Advance SEO Course, Social Media Marketing Course, Google Ads
@@ -2044,7 +2054,7 @@
 										</svg>
 									</div>
 									<div>
-										<h3 class="course-pkg-title">PPC Mastery &amp; Performance Agency Internship</h3>
+										<h3 class="course-pkg-title">PPC Mastery &amp; Agency Internship</h3>
 									</div>
 								</div>
 
@@ -2932,8 +2942,7 @@
 
 					<div class="kdm-testimonial-wrapper">
 						<div class="kdm-testimonial-slides">
-
-							<!-- Slide 1: Kritika Pandey -->
+							<!-- Slide 1: Siddharth Verma -->
 							<div class="kdm-testimonial-card active">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -2946,22 +2955,17 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"When it comes to digital marketing I remember one name: King of Digital Marketing
-									and Gaurav Sir. It's amazing to learn Digital marketing here at Devweboic. I
-									completed my training here and gained practical knowledge that transformed my
-									career. After learning digital marketing I started working as a freelancer and now I
-									am delivering great results for my clients."
+									"King of Digital Marketing is the only institute where you actually manage real live Google Ads budgets! Learning how to set up GTM conversion tags, tCPA bidding, and PMax campaigns got me hired as a Performance Marketer at a leading Gurgaon agency."
 								</p>
 								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-1">KP</div>
+									<div class="kdm-testimonial-avatar grad-1">SV</div>
 									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Kritika Pandey</h4>
-										<span class="kdm-testimonial-role">Digital Marketing Executive — Delhi</span>
+										<h4 class="kdm-testimonial-name">Siddharth Verma</h4>
+										<span class="kdm-testimonial-role">Performance Marketer — Gurgaon</span>
 									</div>
 								</div>
 							</div>
-
-							<!-- Slide 2: Subhendu -->
+							<!-- Slide 2: Pooja Singhal -->
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -2974,21 +2978,17 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"At King of Digital Marketing Institute, I got to discover the different ways of
-									mastery in the digital marketing world. I am very thankful to all the members and
-									faculty of this Institute for teaching all modules of digital marketing with real
-									live campaigns."
+									"Gaurav sir's explanations on Quality Score formulas, keyword match type restructuring, and negative keyword filtering helped me reduce wasted ad spend by 40% on my very first project!"
 								</p>
 								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-2">S</div>
+									<div class="kdm-testimonial-avatar grad-2">PS</div>
 									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Subhendu</h4>
-										<span class="kdm-testimonial-role">Digital Marketing Manager — Delhi</span>
+										<h4 class="kdm-testimonial-name">Pooja Singhal</h4>
+										<span class="kdm-testimonial-role">PPC Executive — Delhi</span>
 									</div>
 								</div>
 							</div>
-
-							<!-- Slide 3: Sapna -->
+							<!-- Slide 3: Varun Kapoor -->
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -3001,21 +3001,17 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"King of Digital Marketing is one of the most reputed digital marketing institutes
-									in South Delhi situated in Kalkaji Govindpuri. All the teachers and staff are
-									wonderful and supportive. We worked on live agency projects during the course and
-									learned to implement SEO, SMO, and PPC elements practically."
+									"The course covers everything from basic Search Ads to advanced server-side tracking, Google Merchant Center feed approvals, and Looker Studio dashboards. Truly agency-standard training!"
 								</p>
 								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-3">S</div>
+									<div class="kdm-testimonial-avatar grad-3">VK</div>
 									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Sapna</h4>
-										<span class="kdm-testimonial-role">SEO Executive — Delhi</span>
+										<h4 class="kdm-testimonial-name">Varun Kapoor</h4>
+										<span class="kdm-testimonial-role">Google Ads Specialist — Noida</span>
 									</div>
 								</div>
 							</div>
-
-							<!-- Slide 4: Dheeraj -->
+							<!-- Slide 4: Ruchika Sen -->
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -3028,21 +3024,17 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"It was very difficult for me initially because I was new to the digital world and
-									had zero technical knowledge. But after completing the course from Devweboic / King
-									of Digital Marketing, my self-confidence boosted and I am now successfully working
-									as a performance digital marketer. Thank you Gaurav sir!"
+									"I transitioned from general marketing into Paid Media Buying smoothly. Gaurav sir's live case studies and mock interview sessions gave me the confidence to handle large monthly budgets."
 								</p>
 								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-4">D</div>
+									<div class="kdm-testimonial-avatar grad-4">RS</div>
 									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Dheeraj</h4>
-										<span class="kdm-testimonial-role">SEO &amp; PPC Expert — Delhi</span>
+										<h4 class="kdm-testimonial-name">Ruchika Sen</h4>
+										<span class="kdm-testimonial-role">Media Buyer — Delhi</span>
 									</div>
 								</div>
 							</div>
-
-							<!-- Slide 5: Rajeev Kumar -->
+							<!-- Slide 5: Manish Yadav -->
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -3055,22 +3047,17 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"I started my career as a YouTuber, but my channel was not growing. I decided to
-									master YouTube &amp; Video marketing at King of Digital Marketing. The course made
-									me an expert in video SEO, algorithms, and funnel promotion. Now I also monetize my
-									own website and get great results."
+									"Scaling Google Shopping and Performance Max ads for e-commerce stores was the best part of the training. I landed a high-paying media buyer role right after the internship."
 								</p>
 								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-5">RK</div>
+									<div class="kdm-testimonial-avatar grad-5">MY</div>
 									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Rajeev Kumar</h4>
-										<span class="kdm-testimonial-role">SEO Executive &amp; YouTube Strategist —
-											Delhi</span>
+										<h4 class="kdm-testimonial-name">Manish Yadav</h4>
+										<span class="kdm-testimonial-role">eCommerce Performance Lead — Delhi</span>
 									</div>
 								</div>
 							</div>
-
-							<!-- Slide 6: Karan Singh -->
+							<!-- Slide 6: Akash Deep -->
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -3083,75 +3070,16 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"Pursued the digital marketing course at King of Digital Marketing Institute and had
-									a fantastic learning experience. My friend recommended Devweboic / KDM. After
-									completing practical training and live agency assignments here, I polished my skills
-									and secured a managerial digital marketing role."
+									"The best PPC training in South Delhi. If you want practical skills, Google certifications, and guaranteed placement calls, King of Digital Marketing is the place to join."
 								</p>
 								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-6">KS</div>
+									<div class="kdm-testimonial-avatar grad-6">AD</div>
 									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Karan Singh</h4>
-										<span class="kdm-testimonial-role">Digital Marketing Manager — Delhi</span>
+										<h4 class="kdm-testimonial-name">Akash Deep</h4>
+										<span class="kdm-testimonial-role">PPC Consultant — Delhi</span>
 									</div>
 								</div>
 							</div>
-
-							<!-- Slide 7: Shivani Jain -->
-							<div class="kdm-testimonial-card">
-								<div class="kdm-testimonial-quote-icon">
-									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path
-											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-									</svg>
-								</div>
-								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-										class="fa fa-star"></i><i class="fa fa-star"></i>
-								</div>
-								<p class="kdm-testimonial-quote">
-									"If you are looking to join the best digital marketing institute in South Delhi then
-									must join King of Digital Marketing. They teach everything in depth with 100%
-									practicals. Immediately after the 3-month course, I got hired by a digital marketing
-									agency in West Delhi. Thank you Gaurav sir for making every concept easy to master!"
-								</p>
-								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-1">SJ</div>
-									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Shivani Jain</h4>
-										<span class="kdm-testimonial-role">Digital Marketing Executive — Delhi</span>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 8: Cheshta Mehta -->
-							<div class="kdm-testimonial-card">
-								<div class="kdm-testimonial-quote-icon">
-									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path
-											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-									</svg>
-								</div>
-								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-										class="fa fa-star"></i><i class="fa fa-star"></i>
-								</div>
-								<p class="kdm-testimonial-quote">
-									"Mr. Gaurav Dubey sir provides top-tier real agency knowledge of digital marketing —
-									how algorithms work, how websites rank, and how to execute high-ROI Google &amp;
-									Meta ad campaigns. I strongly recommend King of Digital Marketing in South Delhi to
-									anyone aiming to build a solid career."
-								</p>
-								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-2">CM</div>
-									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Cheshta Mehta</h4>
-										<span class="kdm-testimonial-role">Performance Marketing Specialist —
-											Delhi</span>
-									</div>
-								</div>
-							</div>
-
 						</div>
 
 						<!-- Navigation Arrows -->
@@ -3168,145 +3096,25 @@
 				</div>
 			</section>
 			<!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ENDS ===== -->
-			<div class="container">
+						<div class="container">
 				<div class="col-md-12">
 					<h3 align="center">Scope of PPC (Pay Per Click) & Google Ads in India</h3>
-					<p align="justify">PPC and Performance Marketing is the fastest-growing sector in modern advertising. Every business demands instant, trackable, and profitable lead generation and sales. Companies in India and globally are actively hiring certified Google Ads Media Buyers with attractive salary packages starting from ₹3.5 LPA to ₹20+ LPA for experienced leads.</p>
-
-					<h2 align="center">How Can Digital Marketing Course Help You to Grow Your Career?</h2>
-					<p align="justify">Digital marketing is a career that has ample of room for creatives, techs, and
-						business people. There are so many roads that you can follow; it is best to focus on one or two
-						things that you do most excellent, then you can always learn more from there. If you have a
-						communications or business background, you may want to think about going into management.<br />
-						This is a field that is ever-changing and engaging; there is always something new to learn. And
-						if
-						you work in an agency, you will always be working with different clients, which means you will
-						probably never get bored. As this is such a dynamic field that needs ongoing learning, you need
-						to
-						be a self-starter that is eager to teach yourself new skills and technology on a constant basis.
-						If
-						you are innovative, curious, a natural leader, proactive, creative, adaptable, and have a good
-						business sense; you will possibly do well in most areas in this field.</p>
-				</div>
-
-			</div>
-
-			<div class="container mt-5">
-
-				<div class="col-12">
-					<h2 align="center">What Is The Eligibility For a Digital Marketing Course? </h2>
-					<p align="justify">
-						Being a graduate is the only eligibility criterion to get enrolled in a digital marketing
-						course.
-						The graduation degree must be from a recognized university/ educational institution
-						(UGC/AICTE/DEC/AIU/State Government) in any discipline. There is no restriction on the
-						discipline or
-						stream of study to get enrolled in a digital marketing course. So, it is not mandatory that the
-						applicant must be a graduate of the commerce or marketing stream. An engineer or IT graduate or
-						entrepreneur or anyone else who is interested in entering the field of digital marketing or
-						making a
-						career switch to digital marketing can enroll in digital marketing courses. Work experience is
-						also
-						not required in most digital marketing courses. However, the aspiring student must have a basic
-						understanding of digital media so that he/she can be able to understand how to work with the
-						various
-						platforms and media and keep up with the pace of the digital marketing course.
-					</p>
-
-				</div>
-
-			</div>
-
-			<div class="col-12">
-				<div class="container">
-
-					<h2 align="center">How Can Join a Digital Marketing Course In Delhi?</h2>
-					<p align="justify">
-
-						Before joining a digital marketing course, it is very important to research the courses of all
-						available digital marketing institutes in Delhi. Selecting the best digital marketing course is
-						not
-						easy as there are a variety of institutes offering a variety of courses. First, you need to make
-						a
-						list of all available digital marketing institutes. Then you can check the reliability of the
-						course
-						from each institute. You can check their website and validate their identities and
-						qualifications to
-						ensure they are experts in the digital marketing field. Then you examine the course curriculum
-						and
-						check if that course content is related to what you would like to learn. Most institutes offer
-						enrolment facilities on their website. After researching and finding the best digital marketing
-						institute in Delhi, you can visit their website and fill out the query form for enrollment. They
-						will contact you and make you understand the further procedure. You can also get phone numbers
-						and
-						email ids from their website. You can contact via the contact details and ask for further
-						enrolment
-						process.
-					</p>
-
-				</div>
-			</div>
-
-			<div class="col-12">
-				<div class="container">
-					<h2 align="center">Why should You Go For Digital Marketing Course in Delhi?</h2>
-					<p align="justify">The field of digital marketing is constantly evolving. While traditional
-						marketing
-						still has a vital role in the world, digital marketing is quickly taking over due to
-						affordability
-						and analytics. The popular site LinkedIn has also specified that the <b>Digital Marketing
-							Specialist</b> role is among the top 10 most in-demand jobs, with 860,000 job openings.
-						Companies are looking for efficient digital marketers to grow their online presence and stay
-						trendy
-						in the market. <br><br>
-						As the demand for digital marketers is high in the job market, opting for a digital marketing
-						course
-						in Delhi can enable you to grab this opportunity. A digital marketing course will make you a
-						smart
-						and efficient digital marketing professional. You will learn all techniques and strategies of
-						digital marketing. You will also get exposure to the latest digital tools that you can use in
-						your
-						professional career. The course will strengthen your knowledge that you can apply in your
-						professional career and take your career to the next level. You can explore a wide range of
-						career
-						options and increase your market value. Digital marketing courses can also enhance your skills
-						and
-						creativity. </p>
-
-				</div>
-			</div>
-
-			<div class="col-12">
-				<div class="container">
-					<h2 align="center">How Much Money Can You Earn After Completing Digital Marketing Course?</h2>
-					<p align="justify">After completing the digital marketing course, you will be able to earn a good
-						salary. If you are a Fresher in a digital marketing job, your salary can be between 15k to 25k.
-						After one year when your skills and experience grow, you can earn up to 35k to 50k. You can also
-						earn up to 1 lakh when you become an expert.
-					<ul style="list-style: none; padding-left: 0; margin-top: 15px;">
-						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
-								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>The salary range of
-								a Digital Marketing Manager is between INR 4,00,000 to INR 18,00,000 based on experience
-								and expertise.</span></li>
-						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
-								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>Whereas a PPC
-								analyst can start with 3 lakhs per annum and after 2 years of experience he/she can
-								expect an average of INR 4-5 Lakhs per year in India.</span></li>
-						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
-								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>An entry-level
-								digital marketing salary for a Social Media Marketing Specialist with less than 1 year
-								of experience can be an average of INR 2,50,000 in India. After having 5-9 years of
-								experience, he/she can earn around INR 6,90,923 per annum based in India.</span></li>
-						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
-								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>The digital
-								marketing salary for a fresher Search Engine Optimization Specialist with less than
-								1-year experience is an average of INR 1,75,000 per annum in India. After having 3 years
-								of experience, he/she can earn around 5 lakhs per annum.</span></li>
-					</ul>
+					<p align="justify">Pay-Per-Click (PPC) and Performance Marketing is the fastest-growing sector in modern advertising. Every business demands instant, trackable, and profitable lead generation and sales. Companies in India and globally are actively hiring certified Google Ads Media Buyers with attractive salary packages starting from ₹3.5 LPA to ₹20+ LPA for experienced leads.</p>
+					<br />
+					<h2 align="center">How Can a PPC Course Help You to Grow Your Career?</h2>
+					<p align="justify">PPC specialists directly impact a company's revenue by converting ad spend into profitable sales and leads. Mastering Google Search Ads, Performance Max, YouTube Ads, and GTM conversion tracking makes you one of the most highly paid professionals in the digital industry.</p>
+					<br />
+					<h2 align="center">What Is The Eligibility For a PPC & Google Ads Course?</h2>
+					<p align="justify">Anyone with an analytical mindset, basic computer skills, and eagerness to learn paid advertising can join! Our course starts from complete auction fundamentals and builds up to complex bidding strategies and media buying.</p>
+					<br />
+					<h2 align="center">How Can You Join a PPC Course In Delhi?</h2>
+					<p align="justify">Visit our South Delhi training center in Govindpuri / Nehru Place or enroll in our live interactive online batch. You can book a free demo session with mentor Gaurav Dubey to review live client ad dashboards before joining.</p>
+					<br />
+					<h2 align="center">Why Should You Go For PPC Training at King of Digital Marketing?</h2>
+					<p align="justify">Unlike institutes that only teach theoretical concepts, King of Digital Marketing gives you hands-on experience running live campaigns with real ad budgets, setting up real GTM conversion tags, and analyzing real-time Google Ads dashboards.</p>
+					<br />
+					<h2 align="center">How Much Money Can You Earn After Completing a PPC Course?</h2>
+					<p align="justify">A fresher PPC Executive starts at ₹3.5 LPA to ₹5.0 LPA. Experienced Media Buyers and Performance Marketing Specialists managing significant ad budgets earn between ₹7.0 LPA to ₹15.0+ LPA, with senior agency heads commanding ₹20 LPA+.</p>
 				</div>
 			</div>
 

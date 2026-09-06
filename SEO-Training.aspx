@@ -29,67 +29,77 @@
 		<link rel="stylesheet" href="css/kdm-faq.css">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 		<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "1. Digital Marketing Course Fee in South Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": ""
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "1. What are the prerequisites to join the SEO Training Course in Delhi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No prior coding or technical background is required! Basic computer and internet browsing knowledge is all you need. We teach everything from search engine architecture and keyword research to advanced technical audits and AI optimization step-by-step."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "2. Will I get to work on live client websites during the SEO course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, absolutely! At King of Digital Marketing, training is 100% practical. You will work on live client projects, perform real-time technical audits using tools like Ahrefs and Screaming Frog, and optimize actual web pages for Google ranking."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "3. What is the duration and class schedule for the SEO course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We offer flexible learning options: Fast-Track PowerPlay batch (45 Days), Mastery & Internship batch (3 to 4 Months), as well as Weekend batches specially tailored for working professionals and college students."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "4. Does King of Digital Marketing provide 100% job placement assistance?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We provide complete 100% placement support including professional SEO resume preparation, LinkedIn profile optimization, agency mock technical interviews, and direct interview scheduling with top digital marketing agencies and MNCs in Delhi NCR."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "5. What SEO tools will I learn to use during the training?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You will gain hands-on expertise with 20+ top industry tools including Ahrefs, SEMrush, Screaming Frog SEO Spider, Google Search Console, Google Analytics 4, PageSpeed Insights, Moz Pro, SurferSEO, and AI search tools."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "6. Can I start freelancing or take client SEO projects after this course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Our curriculum includes a dedicated module on Client Acquisition, SEO Proposals, Pricing Structures, and Monthly Deliverable Reporting, enabling you to take on global freelance SEO clients independently."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "7. Will I receive a recognized certification after completing the course?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You will receive the prestigious King of Digital Marketing SEO Specialist Certification, along with preparation and guidance for Google Search, Google Analytics, HubSpot, and SEMrush certifications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "8. Can I attend a free demo class before paying the fees?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! You can reserve a free 1-on-1 demo session with our lead instructor Mr. Gaurav Dubey to review the syllabus, discuss your career goals, and inspect our live training methodology."
+            }
         }
-      }, {
-        "@type": "Question",
-        "name": "2. What are the advantages of enrolling in this online digital marketing course in South Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Digital Marketing Certification programs are purpose-built to teach Digital Marketing concepts. In addition, instructors provide hands-on training while you work on real-world industry projects and assignments when you enroll yourself in the digital marketing course in South Delhi.."
-        }
-      }, {
-        "@type": "Question",
-        "name": "3. What is the course duration of the online/offline digital marketing course in south Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": ""
-        }
-      }, {
-        "@type": "Question",
-        "name": "4. Can I learn digital marketing online?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes sure."
-        }
-      }, {
-        "@type": "Question",
-        "name": "5. After Completing my online digital marketing course, will I become a digital marketing specialist?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Just completing a digital marketing course or getting certification from a digital marketing institute in South Delhi does not ensure you will get a job. You must learn the necessary skills and complete projects and internships to gain Practical knowledge."
-        }
-      }, {
-        "@type": "Question",
-        "name": "6. Can I attend a demo session before enrollment?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes you can, to book a free demo class click here - demo class or call- +919555696058, +919205316988."
-        }
-      }, {
-        "@type": "Question",
-        "name": "7. Which is the best Digital Marketing Institute in south Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "King of digital marketing is the best digital marketing Institute in south Delhi."
-        }
-      }, {
-        "@type": "Question",
-        "name": "8. What is the course duration in king of digital marketing?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":"The duration of the digital marketing course at King of Digital Marketing is three months approx."}
-        }]
-    }
-    </script>
+    ]
+}
+		</script>
 		<link rel="stylesheet" href="css/kdm-faq.css" />
 		</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -119,7 +129,7 @@
 						</h1>
 
 						<p class="kdm-course-hero-subtitle">
-							100% Job Placement Assistance | 100% Practical Live Audits | Google Certified SEO Mentors
+							100% Job Placement Assistance | Master Technical SEO &amp; Core Web Vitals | Live Agency Client Audits
 						</p>
 
 						<div class="kdm-hero-stats-bar">
@@ -1671,7 +1681,7 @@
 			<div class="spec-modules-section">
 				<div class="container">
 					<div class="spec-modules-header">
-						<h2>DO YOU WANT TO STUDY SPECIFIC MODULE OF <strong>DIGITAL MARKETING?</strong></h2>
+						<h2>DO YOU WANT TO STUDY SPECIFIC MODULE OF <strong>SEO?</strong></h2>
 						<p>If you have interest to study any specific module of digital marketing, then we provide
 							course
 							for individual skill also. Advance SEO Course, Social Media Marketing Course, Google Ads
@@ -2932,7 +2942,6 @@
 
 					<div class="kdm-testimonial-wrapper">
 						<div class="kdm-testimonial-slides">
-
 							<!-- Slide 1: Kritika Pandey -->
 							<div class="kdm-testimonial-card active">
 								<div class="kdm-testimonial-quote-icon">
@@ -2946,76 +2955,17 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"When it comes to digital marketing I remember one name: King of Digital Marketing
-									and Gaurav Sir. It's amazing to learn Digital marketing here at Devweboic. I
-									completed my training here and gained practical knowledge that transformed my
-									career. After learning digital marketing I started working as a freelancer and now I
-									am delivering great results for my clients."
+									"King of Digital Marketing is the best SEO institute in Delhi. The practical approach, live client technical audits on Screaming Frog, and Gaurav sir's step-by-step guidance helped me secure a job as an SEO Executive within 2 weeks of course completion!"
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-1">KP</div>
 									<div class="kdm-testimonial-info">
 										<h4 class="kdm-testimonial-name">Kritika Pandey</h4>
-										<span class="kdm-testimonial-role">Digital Marketing Executive — Delhi</span>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 2: Subhendu -->
-							<div class="kdm-testimonial-card">
-								<div class="kdm-testimonial-quote-icon">
-									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path
-											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-									</svg>
-								</div>
-								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-										class="fa fa-star"></i><i class="fa fa-star"></i>
-								</div>
-								<p class="kdm-testimonial-quote">
-									"At King of Digital Marketing Institute, I got to discover the different ways of
-									mastery in the digital marketing world. I am very thankful to all the members and
-									faculty of this Institute for teaching all modules of digital marketing with real
-									live campaigns."
-								</p>
-								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-2">S</div>
-									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Subhendu</h4>
-										<span class="kdm-testimonial-role">Digital Marketing Manager — Delhi</span>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 3: Sapna -->
-							<div class="kdm-testimonial-card">
-								<div class="kdm-testimonial-quote-icon">
-									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path
-											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-									</svg>
-								</div>
-								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-										class="fa fa-star"></i><i class="fa fa-star"></i>
-								</div>
-								<p class="kdm-testimonial-quote">
-									"King of Digital Marketing is one of the most reputed digital marketing institutes
-									in South Delhi situated in Kalkaji Govindpuri. All the teachers and staff are
-									wonderful and supportive. We worked on live agency projects during the course and
-									learned to implement SEO, SMO, and PPC elements practically."
-								</p>
-								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-3">S</div>
-									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Sapna</h4>
 										<span class="kdm-testimonial-role">SEO Executive — Delhi</span>
 									</div>
 								</div>
 							</div>
-
-							<!-- Slide 4: Dheeraj -->
+							<!-- Slide 2: Rohit Pal -->
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -3028,20 +2978,62 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"It was very difficult for me initially because I was new to the digital world and
-									had zero technical knowledge. But after completing the course from Devweboic / King
-									of Digital Marketing, my self-confidence boosted and I am now successfully working
-									as a performance digital marketer. Thank you Gaurav sir!"
+									"The 100% practical training on tools like Ahrefs, SEMrush, and Google Search Console made all the difference. Learning algorithmic search update recovery from Gaurav Dubey sir gave me immense confidence during agency interviews."
 								</p>
 								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-4">D</div>
+									<div class="kdm-testimonial-avatar grad-2">RP</div>
 									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Dheeraj</h4>
-										<span class="kdm-testimonial-role">SEO &amp; PPC Expert — Delhi</span>
+										<h4 class="kdm-testimonial-name">Rohit Pal</h4>
+										<span class="kdm-testimonial-role">SEO Specialist — Noida</span>
 									</div>
 								</div>
 							</div>
-
+							<!-- Slide 3: Mehak Sharma -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"I transitioned from content writing to Technical SEO seamlessly. The modules on Core Web Vitals, Schema JSON-LD markup, and SGE AI optimization are unmatched in quality. Highly recommend KDM to everyone!"
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-3">MS</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Mehak Sharma</h4>
+										<span class="kdm-testimonial-role">Technical SEO Analyst — Gurgaon</span>
+									</div>
+								</div>
+							</div>
+							<!-- Slide 4: Amit Verma -->
+							<div class="kdm-testimonial-card">
+								<div class="kdm-testimonial-quote-icon">
+									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+										<path
+											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+									</svg>
+								</div>
+								<div class="kdm-testimonial-stars">
+									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+										class="fa fa-star"></i><i class="fa fa-star"></i>
+								</div>
+								<p class="kdm-testimonial-quote">
+									"Hands-on experience on live Shopify and WordPress client sites was the highlight. I learned how to rank high-competition keywords on page 1 and earned an agency internship right after completing the course."
+								</p>
+								<div class="kdm-testimonial-author-box">
+									<div class="kdm-testimonial-avatar grad-4">AV</div>
+									<div class="kdm-testimonial-info">
+										<h4 class="kdm-testimonial-name">Amit Verma</h4>
+										<span class="kdm-testimonial-role">eCommerce SEO Lead — Delhi</span>
+									</div>
+								</div>
+							</div>
 							<!-- Slide 5: Rajeev Kumar -->
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
@@ -3055,22 +3047,17 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"I started my career as a YouTuber, but my channel was not growing. I decided to
-									master YouTube &amp; Video marketing at King of Digital Marketing. The course made
-									me an expert in video SEO, algorithms, and funnel promotion. Now I also monetize my
-									own website and get great results."
+									"The outreach and link acquisition strategies taught by Gaurav sir are pure gold. White-hat digital PR and skyscraper backlink systems helped me double my freelance earnings and manage international SEO clients."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-5">RK</div>
 									<div class="kdm-testimonial-info">
 										<h4 class="kdm-testimonial-name">Rajeev Kumar</h4>
-										<span class="kdm-testimonial-role">SEO Executive &amp; YouTube Strategist —
-											Delhi</span>
+										<span class="kdm-testimonial-role">SEO & Link Building Strategist — Delhi</span>
 									</div>
 								</div>
 							</div>
-
-							<!-- Slide 6: Karan Singh -->
+							<!-- Slide 6: Shivani Jain -->
 							<div class="kdm-testimonial-card">
 								<div class="kdm-testimonial-quote-icon">
 									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -3083,75 +3070,16 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"Pursued the digital marketing course at King of Digital Marketing Institute and had
-									a fantastic learning experience. My friend recommended Devweboic / KDM. After
-									completing practical training and live agency assignments here, I polished my skills
-									and secured a managerial digital marketing role."
+									"If you are looking for genuine agency-level SEO training in South Delhi, must join King of Digital Marketing. Gaurav sir explains complex crawl architectures and search intent mapping in the simplest way possible."
 								</p>
 								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-6">KS</div>
-									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Karan Singh</h4>
-										<span class="kdm-testimonial-role">Digital Marketing Manager — Delhi</span>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide 7: Shivani Jain -->
-							<div class="kdm-testimonial-card">
-								<div class="kdm-testimonial-quote-icon">
-									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path
-											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-									</svg>
-								</div>
-								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-										class="fa fa-star"></i><i class="fa fa-star"></i>
-								</div>
-								<p class="kdm-testimonial-quote">
-									"If you are looking to join the best digital marketing institute in South Delhi then
-									must join King of Digital Marketing. They teach everything in depth with 100%
-									practicals. Immediately after the 3-month course, I got hired by a digital marketing
-									agency in West Delhi. Thank you Gaurav sir for making every concept easy to master!"
-								</p>
-								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-1">SJ</div>
+									<div class="kdm-testimonial-avatar grad-6">SJ</div>
 									<div class="kdm-testimonial-info">
 										<h4 class="kdm-testimonial-name">Shivani Jain</h4>
-										<span class="kdm-testimonial-role">Digital Marketing Executive — Delhi</span>
+										<span class="kdm-testimonial-role">Senior SEO Executive — West Delhi</span>
 									</div>
 								</div>
 							</div>
-
-							<!-- Slide 8: Cheshta Mehta -->
-							<div class="kdm-testimonial-card">
-								<div class="kdm-testimonial-quote-icon">
-									<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
-										<path
-											d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-									</svg>
-								</div>
-								<div class="kdm-testimonial-stars">
-									<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-										class="fa fa-star"></i><i class="fa fa-star"></i>
-								</div>
-								<p class="kdm-testimonial-quote">
-									"Mr. Gaurav Dubey sir provides top-tier real agency knowledge of digital marketing —
-									how algorithms work, how websites rank, and how to execute high-ROI Google &amp;
-									Meta ad campaigns. I strongly recommend King of Digital Marketing in South Delhi to
-									anyone aiming to build a solid career."
-								</p>
-								<div class="kdm-testimonial-author-box">
-									<div class="kdm-testimonial-avatar grad-2">CM</div>
-									<div class="kdm-testimonial-info">
-										<h4 class="kdm-testimonial-name">Cheshta Mehta</h4>
-										<span class="kdm-testimonial-role">Performance Marketing Specialist —
-											Delhi</span>
-									</div>
-								</div>
-							</div>
-
 						</div>
 
 						<!-- Navigation Arrows -->
@@ -3168,145 +3096,25 @@
 				</div>
 			</section>
 			<!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ENDS ===== -->
-			<div class="container">
+						<div class="container">
 				<div class="col-md-12">
 					<h3 align="center">Scope of SEO (Search Engine Optimization) in India</h3>
-					<p align="justify">With millions of businesses competing for Google page-one visibility, the demand for certified SEO Experts, Technical SEO Analysts, and Organic Growth Heads is at an all-time high. In India alone, over 50,000+ new SEO openings arise annually with lucrative compensation packages for skilled professionals who understand modern search algorithms and AI-powered search optimization.</p>
-
-					<h2 align="center">How Can Digital Marketing Course Help You to Grow Your Career?</h2>
-					<p align="justify">Digital marketing is a career that has ample of room for creatives, techs, and
-						business people. There are so many roads that you can follow; it is best to focus on one or two
-						things that you do most excellent, then you can always learn more from there. If you have a
-						communications or business background, you may want to think about going into management.<br />
-						This is a field that is ever-changing and engaging; there is always something new to learn. And
-						if
-						you work in an agency, you will always be working with different clients, which means you will
-						probably never get bored. As this is such a dynamic field that needs ongoing learning, you need
-						to
-						be a self-starter that is eager to teach yourself new skills and technology on a constant basis.
-						If
-						you are innovative, curious, a natural leader, proactive, creative, adaptable, and have a good
-						business sense; you will possibly do well in most areas in this field.</p>
-				</div>
-
-			</div>
-
-			<div class="container mt-5">
-
-				<div class="col-12">
-					<h2 align="center">What Is The Eligibility For a Digital Marketing Course? </h2>
-					<p align="justify">
-						Being a graduate is the only eligibility criterion to get enrolled in a digital marketing
-						course.
-						The graduation degree must be from a recognized university/ educational institution
-						(UGC/AICTE/DEC/AIU/State Government) in any discipline. There is no restriction on the
-						discipline or
-						stream of study to get enrolled in a digital marketing course. So, it is not mandatory that the
-						applicant must be a graduate of the commerce or marketing stream. An engineer or IT graduate or
-						entrepreneur or anyone else who is interested in entering the field of digital marketing or
-						making a
-						career switch to digital marketing can enroll in digital marketing courses. Work experience is
-						also
-						not required in most digital marketing courses. However, the aspiring student must have a basic
-						understanding of digital media so that he/she can be able to understand how to work with the
-						various
-						platforms and media and keep up with the pace of the digital marketing course.
-					</p>
-
-				</div>
-
-			</div>
-
-			<div class="col-12">
-				<div class="container">
-
-					<h2 align="center">How Can Join a Digital Marketing Course In Delhi?</h2>
-					<p align="justify">
-
-						Before joining a digital marketing course, it is very important to research the courses of all
-						available digital marketing institutes in Delhi. Selecting the best digital marketing course is
-						not
-						easy as there are a variety of institutes offering a variety of courses. First, you need to make
-						a
-						list of all available digital marketing institutes. Then you can check the reliability of the
-						course
-						from each institute. You can check their website and validate their identities and
-						qualifications to
-						ensure they are experts in the digital marketing field. Then you examine the course curriculum
-						and
-						check if that course content is related to what you would like to learn. Most institutes offer
-						enrolment facilities on their website. After researching and finding the best digital marketing
-						institute in Delhi, you can visit their website and fill out the query form for enrollment. They
-						will contact you and make you understand the further procedure. You can also get phone numbers
-						and
-						email ids from their website. You can contact via the contact details and ask for further
-						enrolment
-						process.
-					</p>
-
-				</div>
-			</div>
-
-			<div class="col-12">
-				<div class="container">
-					<h2 align="center">Why should You Go For Digital Marketing Course in Delhi?</h2>
-					<p align="justify">The field of digital marketing is constantly evolving. While traditional
-						marketing
-						still has a vital role in the world, digital marketing is quickly taking over due to
-						affordability
-						and analytics. The popular site LinkedIn has also specified that the <b>Digital Marketing
-							Specialist</b> role is among the top 10 most in-demand jobs, with 860,000 job openings.
-						Companies are looking for efficient digital marketers to grow their online presence and stay
-						trendy
-						in the market. <br><br>
-						As the demand for digital marketers is high in the job market, opting for a digital marketing
-						course
-						in Delhi can enable you to grab this opportunity. A digital marketing course will make you a
-						smart
-						and efficient digital marketing professional. You will learn all techniques and strategies of
-						digital marketing. You will also get exposure to the latest digital tools that you can use in
-						your
-						professional career. The course will strengthen your knowledge that you can apply in your
-						professional career and take your career to the next level. You can explore a wide range of
-						career
-						options and increase your market value. Digital marketing courses can also enhance your skills
-						and
-						creativity. </p>
-
-				</div>
-			</div>
-
-			<div class="col-12">
-				<div class="container">
-					<h2 align="center">How Much Money Can You Earn After Completing Digital Marketing Course?</h2>
-					<p align="justify">After completing the digital marketing course, you will be able to earn a good
-						salary. If you are a Fresher in a digital marketing job, your salary can be between 15k to 25k.
-						After one year when your skills and experience grow, you can earn up to 35k to 50k. You can also
-						earn up to 1 lakh when you become an expert.
-					<ul style="list-style: none; padding-left: 0; margin-top: 15px;">
-						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
-								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>The salary range of
-								a Digital Marketing Manager is between INR 4,00,000 to INR 18,00,000 based on experience
-								and expertise.</span></li>
-						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
-								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>Whereas a PPC
-								analyst can start with 3 lakhs per annum and after 2 years of experience he/she can
-								expect an average of INR 4-5 Lakhs per year in India.</span></li>
-						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
-								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>An entry-level
-								digital marketing salary for a Social Media Marketing Specialist with less than 1 year
-								of experience can be an average of INR 2,50,000 in India. After having 5-9 years of
-								experience, he/she can earn around INR 6,90,923 per annum based in India.</span></li>
-						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
-								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>The digital
-								marketing salary for a fresher Search Engine Optimization Specialist with less than
-								1-year experience is an average of INR 1,75,000 per annum in India. After having 3 years
-								of experience, he/she can earn around 5 lakhs per annum.</span></li>
-					</ul>
+					<p align="justify">Search Engine Optimization is the foundation of digital marketing. With over 8.5 billion daily searches on Google, businesses are actively investing in organic rankings to capture high-intent customers without recurring ad spend. In India alone, over 50,000+ new SEO openings arise every year with attractive salary packages for skilled professionals who understand technical audits, Core Web Vitals, and AI-driven search ranking.</p>
+					<br />
+					<h2 align="center">How Can SEO Course Help You to Grow Your Career?</h2>
+					<p align="justify">Mastering SEO makes you indispensable to any business. Whether you are a college graduate looking for your first job, a marketing professional wanting a promotion, or a freelancer seeking dollar-paying international clients, practical SEO skills open doors to high-paying roles like SEO Analyst, Technical SEO Manager, and Organic Growth Director.</p>
+					<br />
+					<h2 align="center">What Is The Eligibility For an SEO Training Course?</h2>
+					<p align="justify">Anyone with basic computer skills and internet browsing curiosity can master SEO! No coding or engineering degree is required. Our batches are thoughtfully designed for fresh graduates, bloggers, web developers, business owners, and career switchers.</p>
+					<br />
+					<h2 align="center">How Can You Join an SEO Course In Delhi?</h2>
+					<p align="justify">Joining King of Digital Marketing is simple! You can visit our South Delhi center in Govindpuri / Nehru Place, attend a free 1-on-1 counseling demo session with mentor Gaurav Dubey, and choose a batch timing (Weekday or Weekend) that suits your schedule.</p>
+					<br />
+					<h2 align="center">Why Should You Go For SEO Training at King of Digital Marketing?</h2>
+					<p align="justify">Unlike theoretical academies that only show slide presentations, King of Digital Marketing is a real operational digital marketing agency. You will work on live client websites, gain hands-on access to paid tools like Ahrefs and SEMrush, and receive 100% dedicated placement support until you get hired.</p>
+					<br />
+					<h2 align="center">How Much Money Can You Earn After Completing an SEO Course?</h2>
+					<p align="justify">A fresher SEO Executive in Delhi NCR starts with a package of ₹3.0 LPA to ₹4.5 LPA. With 2-3 years of proven ranking experience, specialists earn between ₹5.5 LPA to ₹10.0+ LPA. Furthermore, seasoned SEO consultants and freelancers easily earn ₹50,000 to ₹1.5 Lakhs per month managing monthly client retainers.</p>
 				</div>
 			</div>
 
