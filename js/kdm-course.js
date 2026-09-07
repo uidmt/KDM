@@ -13,96 +13,92 @@
      * 1. Initialize Testimonials Slider for Course Pages
      */
     function initCourseTestimonials() {
-        if (typeof initTestimonialSliders === 'function') {
-            initTestimonialSliders();
-        } else {
-            // Fallback standalone slider handler if master-custom.js is not loaded
-            var wrappers = document.querySelectorAll('.kdm-testimonial-wrapper');
-            wrappers.forEach(function (wrapper) {
-                var slides = wrapper.querySelectorAll('.kdm-testimonial-card');
-                var prevBtn = wrapper.querySelector('.kdm-testimonial-arrow.prev');
-                var nextBtn = wrapper.querySelector('.kdm-testimonial-arrow.next');
-                var dotsContainer = wrapper.querySelector('.kdm-testimonial-dots');
+        var wrappers = document.querySelectorAll('.kdm-testimonial-wrapper');
+        wrappers.forEach(function (wrapper) {
+            var slides = wrapper.querySelectorAll('.kdm-testimonial-card, .kdm-testimonial-slide');
+            var prevBtn = wrapper.querySelector('.kdm-testimonial-arrow.prev, .kdm-testimonial-btn.prev, button.prev');
+            var nextBtn = wrapper.querySelector('.kdm-testimonial-arrow.next, .kdm-testimonial-btn.next, button.next');
+            var dotsContainer = wrapper.querySelector('.kdm-testimonial-dots');
 
-                if (!slides.length) return;
+            if (!slides.length) return;
 
-                var currentIndex = 0;
-                var autoPlayTimer = null;
+            var currentIndex = 0;
+            var autoPlayTimer = null;
 
-                // Create dots if not present
-                if (dotsContainer && !dotsContainer.children.length) {
-                    slides.forEach(function (_, i) {
-                        var dot = document.createElement('span');
-                        dot.className = 'kdm-testimonial-dot' + (i === 0 ? ' active' : '');
-                        dot.addEventListener('click', function () {
-                            goToSlide(i);
-                            resetAutoPlay();
-                        });
-                        dotsContainer.appendChild(dot);
-                    });
-                }
-
-                var dots = dotsContainer ? dotsContainer.querySelectorAll('.kdm-testimonial-dot') : [];
-
-                function showSlide(idx) {
-                    slides.forEach(function (slide, i) {
-                        if (i === idx) {
-                            slide.classList.add('active');
-                            slide.style.display = 'block';
-                            slide.style.opacity = '1';
-                        } else {
-                            slide.classList.remove('active');
-                            slide.style.display = 'none';
-                            slide.style.opacity = '0';
-                        }
-                    });
-                    dots.forEach(function (dot, i) {
-                        dot.classList.toggle('active', i === idx);
-                    });
-                }
-
-                function goToSlide(idx) {
-                    if (idx >= slides.length) currentIndex = 0;
-                    else if (idx < 0) currentIndex = slides.length - 1;
-                    else currentIndex = idx;
-                    showSlide(currentIndex);
-                }
-
-                function nextSlide() { goToSlide(currentIndex + 1); }
-                function prevSlide() { goToSlide(currentIndex - 1); }
-
-                if (nextBtn) {
-                    nextBtn.addEventListener('click', function (e) {
-                        e.preventDefault();
-                        nextSlide();
+            // Create dots if not present
+            if (dotsContainer) {
+                dotsContainer.innerHTML = '';
+                slides.forEach(function (_, i) {
+                    var dot = document.createElement('span');
+                    dot.className = 'kdm-testimonial-dot' + (i === 0 ? ' active' : '');
+                    dot.addEventListener('click', function () {
+                        goToSlide(i);
                         resetAutoPlay();
                     });
-                }
+                    dotsContainer.appendChild(dot);
+                });
+            }
 
-                if (prevBtn) {
-                    prevBtn.addEventListener('click', function (e) {
-                        e.preventDefault();
-                        prevSlide();
-                        resetAutoPlay();
-                    });
-                }
+            var dots = dotsContainer ? dotsContainer.querySelectorAll('.kdm-testimonial-dot') : [];
 
-                function startAutoPlay() {
-                    if (!autoPlayTimer) {
-                        autoPlayTimer = setInterval(nextSlide, 5500);
+            function showSlide(idx) {
+                slides.forEach(function (slide, i) {
+                    if (i === idx) {
+                        slide.classList.add('active');
+                        slide.style.display = 'block';
+                        slide.style.opacity = '1';
+                    } else {
+                        slide.classList.remove('active');
+                        slide.style.display = 'none';
+                        slide.style.opacity = '0';
                     }
-                }
+                });
+                dots.forEach(function (dot, i) {
+                    dot.classList.toggle('active', i === idx);
+                });
+            }
 
-                function resetAutoPlay() {
-                    clearInterval(autoPlayTimer);
-                    autoPlayTimer = null;
-                    startAutoPlay();
-                }
+            function goToSlide(idx) {
+                if (idx >= slides.length) currentIndex = 0;
+                else if (idx < 0) currentIndex = slides.length - 1;
+                else currentIndex = idx;
+                showSlide(currentIndex);
+            }
 
-                showSlide(0);
+            function nextSlide() { goToSlide(currentIndex + 1); }
+            function prevSlide() { goToSlide(currentIndex - 1); }
+
+            if (nextBtn) {
+                nextBtn.onclick = function (e) {
+                    e.preventDefault();
+                    nextSlide();
+                    resetAutoPlay();
+                };
+            }
+
+            if (prevBtn) {
+                prevBtn.onclick = function (e) {
+                    e.preventDefault();
+                    prevSlide();
+                    resetAutoPlay();
+                };
+            }
+
+            function startAutoPlay() {
+                if (!autoPlayTimer) {
+                    autoPlayTimer = setInterval(nextSlide, 5000);
+                }
+            }
+
+            function resetAutoPlay() {
+                clearInterval(autoPlayTimer);
+                autoPlayTimer = null;
                 startAutoPlay();
-            });
-        }
+            }
+
+            showSlide(0);
+            startAutoPlay();
+        });
     }
 
     /**

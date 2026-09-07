@@ -201,12 +201,12 @@
 							<a href="#kdm-hero-lead-form" class="kdm-btn-hero-primary">
 								<i class="fa fa-paper-plane"></i> Book Free Demo Class
 							</a>
-							<a href="https://wa.me/919555696058?text=Hi%20King%20of%20Digital%20Marketing,%20I%20want%20to%20enquire%20about%20the%20AI%20Digital%20Marketing%20Course"
+							<a href="https://wa.me/919821918208?text=Hi%20King%20of%20Digital%20Marketing,%20I%20want%20to%20enquire%20about%20the%20PPC%20Training%20Course"
 								target="_blank" class="kdm-btn-hero-whatsapp">
 								<i class="fab fa-whatsapp"></i> Chat On WhatsApp
 							</a>
-							<a href="tel:+919555696058" class="kdm-hero-call-link">
-								<i class="fa fa-phone-alt" style="color: #38bdf8;"></i> +91 9555696058
+							<a href="tel:+919821918208" class="kdm-hero-call-link">
+								<i class="fa fa-phone-alt" style="color: #38bdf8;"></i> +91 9821918208
 							</a>
 						</div>
 					</div>
@@ -1139,15 +1139,11 @@
 			<div class="spec-modules-section">
 				<div class="container">
 					<div class="spec-modules-header">
-						<h2>DO YOU WANT TO STUDY SPECIFIC MODULE OF <strong>PPC &amp; GOOGLE ADS?</strong></h2>
-						<p>If you have interest to study any specific module of PPC & Google Ads, then we provide
-							course
-							for individual skill also. Advance SEO Course, Social Media Marketing Course, Google Ads
-							Course,
-							Meta Ads Course, YouTube Marketing Course, Affiliate Marketing Course, App Store
-							Optimization
-							Course and Much More specific courses are available at our institute. Here are some most
-							demanding specialisation courses provided by us.</p>
+						<span class="modules-badge-pill">
+							<i class="fa fa-bullseye" style="margin-right: 5px;"></i> TARGETED SKILL SPECIALIZATIONS
+						</span>
+						<h2>Do You Want to Study a Specific Module of <strong>PPC &amp; Digital Marketing?</strong></h2>
+						<p>If you want to master a specific marketing stream, we provide dedicated individual certification tracks with hands-on live agency projects and 1-on-1 mentor guidance.</p>
 					</div>
 
 					<div class="spec-modules-grid">
@@ -1662,164 +1658,116 @@
 			<div class="container">
 				<div class="bonus-section-dark">
 					<div class="bonus-header-dark">
-						<h2>Bonus With PPC & Google Ads Course</h2>
-						<p>Exclusive Premium Perks & Career Benefits Included With Every Enrolment</p>
+						<h2>Bonus With PPC &amp; Google Ads Course</h2>
+						<p>Exclusive Premium Perks &amp; Career Benefits Included With Every Enrolment</p>
 					</div>
 					<div class="bonus-grid-dark">
 						<!-- Bonus 1 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
-									<rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
-									<line x1="6" y1="6" x2="6.01" y2="6"></line>
-									<line x1="6" y1="18" x2="6.01" y2="18"></line>
-								</svg>
+								<i class="fa fa-server" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
 							<h3 class="bonus-card-title-dark">Free Web Hosting</h3>
+							<p class="bonus-card-desc-dark">1-Year high-speed cloud hosting to build and host your personal portfolio website.</p>
 						</div>
 
 						<!-- Bonus 2 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 19l7-7 3 3-7 7-3-3z"></path>
-									<path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
-									<path d="M2 2l7.58 7.58"></path>
-									<circle cx="11" cy="11" r="2"></circle>
-								</svg>
+								<i class="fa fa-laptop-code" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">Support in Web Design</h3>
+							<h3 class="bonus-card-title-dark">Live Google Ads Budgets</h3>
+							<p class="bonus-card-desc-dark">Hands-on campaign spending on real client Google Search, Display, Shopping &amp; YouTube Ads.</p>
 						</div>
 
 						<!-- Bonus 3 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
-									</path>
-								</svg>
+								<i class="fa fa-tools" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">SEO Paid Tools</h3>
+							<h3 class="bonus-card-title-dark">Premium Tool Access</h3>
+							<p class="bonus-card-desc-dark">Free access to Google Ads Editor, Semrush, SpyFu, and AI ad copy software.</p>
 						</div>
 
 						<!-- Bonus 4 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
-									</path>
-									<path
-										d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
-									</path>
-								</svg>
+								<i class="fa fa-robot" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">Live Project Training</h3>
+							<h3 class="bonus-card-title-dark">AI PPC Prompt Library</h3>
+							<p class="bonus-card-desc-dark">500+ battle-tested AI prompts for ad copywriting, negative keyword lists, and ROAS scaling.</p>
 						</div>
 
 						<!-- Bonus 5 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-									<polyline points="14 2 14 8 20 8"></polyline>
-									<line x1="16" y1="13" x2="8" y2="13"></line>
-									<line x1="16" y1="17" x2="8" y2="17"></line>
-									<polyline points="10 9 9 9 8 9"></polyline>
-								</svg>
+								<i class="fa fa-file-alt" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">Live Case Study</h3>
+							<h3 class="bonus-card-title-dark">Resume &amp; LinkedIn Makeover</h3>
+							<p class="bonus-card-desc-dark">ATS-optimized resume and executive LinkedIn branding to attract global recruiters.</p>
 						</div>
 
 						<!-- Bonus 6 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-								</svg>
+								<i class="fa fa-headset" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">24x7 Chat Support</h3>
+							<h3 class="bonus-card-title-dark">1-on-1 Doubt Sessions</h3>
+							<p class="bonus-card-desc-dark">Unlimited personal doubt clearing with senior trainers and Gaurav Dubey.</p>
 						</div>
 
 						<!-- Bonus 7 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
-									<line x1="1" y1="10" x2="23" y2="10"></line>
-								</svg>
+								<i class="fa fa-credit-card" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">Fee in Easy EMI</h3>
+							<h3 class="bonus-card-title-dark">0% Interest EMI Option</h3>
+							<p class="bonus-card-desc-dark">Flexible installment plans with easy zero-interest monthly EMI options.</p>
 						</div>
 
 						<!-- Bonus 8 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon points="23 7 16 12 23 17 23 7"></polygon>
-									<rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
-								</svg>
+								<i class="fa fa-chalkboard-teacher" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">Online/Offline Mode</h3>
+							<h3 class="bonus-card-title-dark">Gaurav Dubey Mentorship</h3>
+							<p class="bonus-card-desc-dark">Direct strategic career coaching from agency founder with 13+ years experience.</p>
 						</div>
 
 						<!-- Bonus 9 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<polyline points="12 6 12 12 16 14"></polyline>
-								</svg>
+								<i class="fa fa-sync-alt" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">Flexible Batches</h3>
+							<h3 class="bonus-card-title-dark">Lifetime Learning Access</h3>
+							<p class="bonus-card-desc-dark">Free lifetime access to updated course materials, batch recordings &amp; alumni forum.</p>
 						</div>
 
 						<!-- Bonus 10 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-									<path d="M9 12l2 2 4-4"></path>
-								</svg>
+								<i class="fa fa-certificate" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">Lifetime Upgradation</h3>
+							<h3 class="bonus-card-title-dark">15+ Global Certifications</h3>
+							<p class="bonus-card-desc-dark">Official exam vouchers and guidance for Google, Meta, HubSpot &amp; Semrush.</p>
 						</div>
 
 						<!-- Bonus 11 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-									<line x1="12" y1="17" x2="12.01" y2="17"></line>
-								</svg>
+								<i class="fa fa-building" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">Doubt Clearing Session</h3>
+							<h3 class="bonus-card-title-dark">Agency Internship Letter</h3>
+							<p class="bonus-card-desc-dark">Official work experience certificate from an active digital agency upon completion.</p>
 						</div>
 
 						<!-- Bonus 12 -->
 						<div class="bonus-card-dark">
 							<div class="bonus-icon-wrap-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-									<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-								</svg>
+								<i class="fa fa-globe-americas" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">100% Placement Assistance</h3>
+							<h3 class="bonus-card-title-dark">Freelance Client Blueprints</h3>
+							<p class="bonus-card-desc-dark">Contract templates, NDA documents, proposal pitch decks &amp; international pricing guide.</p>
 						</div>
 					</div>
 				</div>

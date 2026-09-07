@@ -1,22 +1,21 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs"
 	Inherits="PPC_Services" %>
 	<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-		<title>Digital Marketing Course in South Delhi | Best Digital Marketing Institute in Delhi</title>
+		<title>Digital Marketing Course in {{CITY_NAME}} | Digital Marketing Institute in {{CITY_NAME}}</title>
 		<meta name="keywords"
-			content="Digital Marketing Course in South Delhi, Digital Marketing Training in South Delhi, Digital Marketing Training, Digital Marketing Course in South Delhi, Digital Marketing Institute, Digital Marketing Training, Best Digital Marketing Institute in Delhi">
+			content="SEO Course in {{CITY_NAME}}, SMO Course in {{CITY_NAME}}, Learn SEO, Digital Marketing Course in {{CITY_NAME}}, Online SEO training in {{CITY_NAME}}, PPC training in {{CITY_NAME}}">
 		<meta name="description"
-			content="Best Digital Marketing Institute in South Delhi, 10+ Years Expert Trainers, Online/Offline Classes, 100% Practical, Flexible Batches, and 100% Placement">
-		<meta property="og:title" content="India's Best Digital Marketing Course Institute in South Delhi" />
+			content="Best Digital Marketing Institute in {{CITY_NAME}} to Provide Advanced Digital Marketing Course at Low Fee. Learn SEO, Google Ads, Social Media Marketing in {{CITY_NAME_ALT}} at Top Coaching.">
+		<meta property="og:title" content="Best Digital Marketing Course Institute in {{CITY_NAME}}" />
 		<meta property="og:description"
-			content="Join Best Digital Marketing Institute in South Delhi, Expert Trainers, Online/Offline Classes, Live Projects, Flexible Batches, and 100% Placement Assistance." />
+			content="Best Digital Marketing Institute in {{CITY_NAME}} to Provide Advanced Digital Marketing Course at Low Fee. Learn SEO, Google Ads, Social Media Marketing in {{CITY_NAME_ALT}} at Top Coaching." />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" />
-		<meta property="og:image"
-			content=" https://www.kingofdigitalmarketing.com/images/digital-marketing-course.png  " />
+		<meta property="og:url"
+			content="https://www.kingofdigitalmarketing.com/{{PAGE_SLUG}}" />
+		<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/king-of-digital-marketing-rating.webp" />
 		<meta name="twitter:card" content="summary_large_image">
-		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" />
-		<META NAME="Author"
-			CONTENT="Digital Marketing Course in South Delhi, http://www.king.kingofdigitalmarketing.com">
+		<link rel="canonical"
+			href="https://www.kingofdigitalmarketing.com/{{PAGE_SLUG}}" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="preconnect" href="https://cdnjs.cloudflare.com">
@@ -38,66 +37,43 @@
       "@type": "FAQPage",
       "mainEntity": [{
         "@type": "Question",
-        "name": "1. Digital Marketing Course Fee in South Delhi?",
+        "name": "What is Digital marketing course fees in {{CITY_NAME}}?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": ""
+          "text": "The fees for a digital marketing course in {{CITY_NAME}} range from 20K to 35K, depending on the course you are going for."
         }
       }, {
         "@type": "Question",
-        "name": "2. What are the advantages of enrolling in this online digital marketing course in South Delhi?",
+        "name": "Which are top 10 digital marketing instititutes in {{CITY_NAME}} for best digital marketing course?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Digital Marketing Certification programs are purpose-built to teach Digital Marketing concepts. In addition, instructors provide hands-on training while you work on real-world industry projects and assignments when you enroll yourself in the digital marketing course in South Delhi.."
+          "text": "1. KDM, 2. Devweboic, 3. NDMIT, 4. Sapience Technologies, 5.Proideators, 6. DDMI and Others institutes of digital marketing. These are some of the Institutes that provide the best digital marketing courses in {{CITY_NAME}}."
         }
       }, {
         "@type": "Question",
-        "name": "3. What is the course duration of the online/offline digital marketing course in south Delhi?",
+        "name": "What is the duration of Digital Marketing courses in {{CITY_NAME}}?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": ""
+          "text": "The duration of a digital marketing course generally ranges from 3 months to 1 year (approx.)(s)."
         }
       }, {
         "@type": "Question",
-        "name": "4. Can I learn digital marketing online?",
+        "name": "What is the eligibility for digital marketing courses in {{CITY_NAME}}?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes sure."
+          "text": "You must have completed your class 12 or the equivalent from a recognized board educational or institution in order to enroll in any digital marketing certificate program."
         }
       }, {
         "@type": "Question",
-        "name": "5. After Completing my online digital marketing course, will I become a digital marketing specialist?",
+        "name": "What is the salary of a digital marketer in {{CITY_NAME}}?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Just completing a digital marketing course or getting certification from a digital marketing institute in South Delhi does not ensure you will get a job. You must learn the necessary skills and complete projects and internships to gain Practical knowledge."
-        }
-      }, {
-        "@type": "Question",
-        "name": "6. Can I attend a demo session before enrollment?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes you can, to book a free demo class click here - demo class or call- +919555696058, +919205316988."
-        }
-      }, {
-        "@type": "Question",
-        "name": "7. Which is the best Digital Marketing Institute in south Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "King of digital marketing is the best digital marketing Institute in south Delhi."
-        }
-      }, {
-        "@type": "Question",
-        "name": "8. What is the course duration in king of digital marketing?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":"The duration of the digital marketing course at King of Digital Marketing is three months approx."}
+          "text":"This depends on the Company, skills, and experience of the person 20k to 60k per month (approx.)"}
         }]
     }
     </script>
-		<link rel="stylesheet" href="css/kdm-faq.css" />
-		</asp:Content>
+	</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-
 		<div role="main" class="main">
 			<!-- Page Main Hero Section Starts -->
 			<div class="kdm-course-hero-wrapper">
@@ -110,25 +86,20 @@
 							<i class="fa fa-chevron-right"></i>
 							<a href="digital-marketing-course.aspx">Courses</a>
 							<i class="fa fa-chevron-right"></i>
-							<span>South Delhi</span>
+							<span>{{CITY_NAME}} ({{CITY_NAME_ALT}})</span>
 						</div>
 
 						<div class="kdm-hero-pulse-badge">
 							<span class="pulse-dot"></span>
-							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN DELHI
+							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN ALLAHABAD
 						</div>
 
 						<h1 class="kdm-course-hero-title">
-							Master AI-Driven <span class="kdm-hero-gradient-text">Digital Marketing Course in South
-								Delhi</span> & Launch a
-							6-Figure Career
+							Master AI-Driven <span class="kdm-hero-gradient-text">Digital Marketing Course in {{CITY_NAME}}</span> &amp; Launch a 6-Figure Career
 						</h1>
 
 						<p class="kdm-course-hero-subtitle">
-							Join Delhi NCR's top agency-based digital marketing training by <strong>UIDMT &
-								Devweboic</strong>, mentored by <strong>Gaurav Dubey (13+ Yrs Exp.)</strong>. Work on
-							live client accounts, master <strong>60+ Generative AI & Performance Marketing
-								Modules</strong>, and gain guaranteed placement assistance with paid internships.
+							Join {{CITY_NAME}}'s top agency-based digital marketing training by <strong>UIDMT &amp; Devweboic</strong>, mentored by <strong>Gaurav Dubey (13+ Yrs Exp.)</strong>. Work on live client accounts, master <strong>60+ Generative AI &amp; Performance Marketing Modules</strong>, and gain guaranteed placement assistance with paid agency internships in {{CITY_NAME_ALT}} &amp; Delhi NCR.
 						</p>
 
 						<div class="kdm-hero-stats-bar">
@@ -137,7 +108,7 @@
 							</div>
 							<span class="kdm-stat-divider">|</span>
 							<div class="kdm-stat-pill">
-								<span style="color: #38bdf8;">⭐ 4.9 / 5.0</span> Rating
+								<span style="color: #38bdf8;">⭐ 4.8 / 5.0</span> Rating
 							</div>
 							<span class="kdm-stat-divider">|</span>
 							<div class="kdm-stat-pill">
@@ -154,36 +125,36 @@
 							<div class="kdm-hero-feat-card">
 								<div class="kdm-feat-icon-box"><i class="fa fa-layer-group"></i></div>
 								<div class="kdm-feat-content">
-									<div class="kdm-feat-title">60+ Core & AI Modules</div>
-									<div class="kdm-feat-desc">SEO, Google Ads, Meta Ads, Funnels & CRO</div>
+									<div class="kdm-feat-title">60+ Core &amp; AI Modules</div>
+									<div class="kdm-feat-desc">SEO, Google Ads, Meta Ads, Funnels &amp; CRO</div>
 								</div>
 							</div>
 							<div class="kdm-hero-feat-card">
 								<div class="kdm-feat-icon-box"><i class="fa fa-microchip"></i></div>
 								<div class="kdm-feat-content">
-									<div class="kdm-feat-title">Generative AI & ChatGPT</div>
-									<div class="kdm-feat-desc">Prompt Engineering, Midjourney & AI Automation</div>
+									<div class="kdm-feat-title">Generative AI &amp; ChatGPT</div>
+									<div class="kdm-feat-desc">Prompt Engineering, Midjourney &amp; AI Automation</div>
 								</div>
 							</div>
 							<div class="kdm-hero-feat-card">
 								<div class="kdm-feat-icon-box"><i class="fa fa-briefcase"></i></div>
 								<div class="kdm-feat-content">
-									<div class="kdm-feat-title">100% Placement & Paid Internship</div>
+									<div class="kdm-feat-title">100% Placement &amp; Internship</div>
 									<div class="kdm-feat-desc">Live Client Accounts with Real Ad Budgets</div>
 								</div>
 							</div>
 							<div class="kdm-hero-feat-card">
 								<div class="kdm-feat-icon-box"><i class="fa fa-calendar-alt"></i></div>
 								<div class="kdm-feat-content">
-									<div class="kdm-feat-title">Weekend & Weekday Batches</div>
-									<div class="kdm-feat-desc">South Delhi Classroom + Live Interactive Online</div>
+									<div class="kdm-feat-title">Weekend &amp; Weekday Batches</div>
+									<div class="kdm-feat-desc">{{CITY_NAME}} Classroom + Live Interactive Online</div>
 								</div>
 							</div>
 							<div class="kdm-hero-feat-card">
 								<div class="kdm-feat-icon-box"><i class="fa fa-certificate"></i></div>
 								<div class="kdm-feat-content">
 									<div class="kdm-feat-title">15+ Global Certifications</div>
-									<div class="kdm-feat-desc">Google, Meta, HubSpot, Semrush & UIDMT</div>
+									<div class="kdm-feat-desc">Google, Meta, HubSpot, Semrush &amp; UIDMT</div>
 								</div>
 							</div>
 							<div class="kdm-hero-feat-card">
@@ -200,7 +171,7 @@
 							<a href="#kdm-hero-lead-form" class="kdm-btn-hero-primary">
 								<i class="fa fa-paper-plane"></i> Book Free Demo Class
 							</a>
-							<a href="https://wa.me/919821918208?text=Hi%20King%20of%20Digital%20Marketing,%20I%20want%20to%20enquire%20about%20the%20AI%20Digital%20Marketing%20Course"
+							<a href="https://wa.me/919821918208?text=Hi%20King%20of%20Digital%20Marketing,%20I%20want%20to%20enquire%20about%20the%20AI%20Digital%20Marketing%20Course%20in%20{{CITY_NAME}}"
 								target="_blank" class="kdm-btn-hero-whatsapp">
 								<i class="fab fa-whatsapp"></i> Chat On WhatsApp
 							</a>
@@ -214,8 +185,7 @@
 					<div class="kdm-course-hero-right" id="kdm-hero-lead-form">
 						<div class="kdm-hero-form-card">
 							<div class="kdm-hero-form-header">
-								<span class="kdm-form-header-title"><i class="fa fa-bolt"></i> Fast-Track
-									Admission</span>
+								<span class="kdm-form-header-title"><i class="fa fa-bolt"></i> Fast-Track Admission</span>
 								<span class="kdm-form-seat-tag">🔥 Only 5 Seats Left</span>
 							</div>
 							<iframe scrolling="no" src="digital-course-form.aspx" class="kdm-hero-form-iframe"
@@ -227,73 +197,58 @@
 			<!-- Page Main Hero Section Ends -->
 
 			<!-- Page Body Part Starts-->
-			<div class="altra-sub-hero" style="padding: 40px 0 10px 0;">
+			<div class="altra-sub-hero" style="padding: 45px 0 20px 0;">
 				<div class="altra-sub-hero-new">
 					<div class="content-box">
-						<h2
-							style="font-size: 28px; margin-bottom: 20px; font-weight: 800; color: #111441; text-align: center;">
-							Join Best Digital Marketing Institute in Delhi</h2>
-						<p align="justify">King of Digital Marketing is an agency driven leading digital marketing
-							institute
-							in
-							Delhi, India since 2013. Digital marketing certification program is conducted by <a
-								href="https://www.uidmt.com">UpNext Institute of Digital Marketing & Technology
-								(UIDMT)</a> which is an integral part of <a href="https://www.devweboic.com">Devweboic
-								Tech.
-								OPC
-								Pvt.
-								Ltd.</a>. <a href="https://gauravdubey.in">Gaurav Dubey -"A well known digital marketing
-								trainer
-								and consultant in India"</a> is director of this of this digital marketing institute. He
-							has
-							worked with more than 750 domestic and international digital marketing projects and helped
-							to
-							grow
-							many brands in a sequence. 1850+ students have got trained yet from Gaurav Dubey and his
-							team
-							through this digital marketing institute. Gaurav Dubey and his expert digital marketers have
-							designed advance digital marketing courses to train students, job seekers, professionals,
-							house
-							wife
-							and entrepreneurs. Enroll now for premium digital marketing course in South Delhi,
-							Govindpuri
-							Kalkaji and learn 10+ years of digital marketing experience in just 3 months from India's
-							best
-							trainer.</p>
+						<span class="modules-badge-pill" style="display: table; margin: 0 auto 15px auto;">
+							<i class="fa fa-award" style="margin-right: 5px;"></i> NO. 1 AGENCY-BACKED DIGITAL MARKETING INSTITUTE
+						</span>
+						<h2 style="font-size: 28px; margin-bottom: 20px; font-weight: 800; color: #111441; text-align: center; line-height: 1.35;">
+							Join Best Digital Marketing Institute in {{CITY_NAME}} ({{CITY_NAME_ALT}})
+						</h2>
+						<p align="justify">
+							<strong>King of Digital Marketing (KDM)</strong> is India's top-rated agency-driven digital marketing training institute established in 2013, with state-of-the-art training centers across <strong>{{CITY_NAME}} ({{CITY_NAME_ALT}}), South Delhi, Varanasi, and Dubai (UAE)</strong>. Our premier certification programs are conducted by <a href="https://www.uidmt.com" target="_blank" style="color: #0284c7; font-weight: 600;">UpNext Institute of Digital Marketing &amp; Technology (UIDMT)</a>, an educational initiative of <a href="https://www.devweboic.com" target="_blank" style="color: #0284c7; font-weight: 600;">Devweboic Tech. OPC Pvt. Ltd.</a>. The institute is founded and directed by <a href="https://gauravdubey.in" target="_blank" style="color: #0284c7; font-weight: 600;">Gaurav Dubey — India’s leading Digital Marketing Consultant &amp; Growth Strategist</a> with over <strong>13+ years of global industry experience</strong>. Under his direct mentorship, our agency has spearheaded <strong>900+ high-ROI performance marketing campaigns</strong> globally and successfully trained &amp; placed <strong>1,850+ students, job seekers, and business owners</strong> across Fortune 500 agencies, IT giants, and top-tier startups.
+						</p>
 
-						<p align="justify">King of Digital Marketing is 100% dedicated to transform your passion for the
-							digital
-							marketing into a thriving career! If you have a dream to get high paying digital marketing
-							job,
-							you've come to the right institute. We have 60 trending modules, which covers all the job
-							essential
-							aspects of digital marketing, SEO in Depth (with On Page, Technical SEO and Off page SEO),
-							Social
-							Media Marketing, Google Ads, Meta Ads, YouTube Marketing, Use of AI in Digital Marketing,
-							Content
-							Marketing and more. Being best digital marketing company, we have multiple projects of each
-							modules,
-							so you get hands-on experience and practical knowledge that is directly applicable in the
-							real
-							world
-							digital marketing works. We focus on a personalized learning experience as per student's
-							goals.
-							We
-							have small batch sizes and individual attention to ensure that each student is understanding
-							the
-							digital marketing concept properly.</p>
-						<p align="justify">Our end goal is to empower you with the digital marketing skills and
-							confidence
-							to
-							get your first digital marketing job in max. 150 days. By the end of the course in 3 months,
-							you'll
-							be part of digital marketing internship and handle client's live project under guidance of
-							experts.
-							You become habitual to face digital marketing challenges. Whether it's making strategy for
-							SEO,
-							running a successful Google Ads campaign or working on Met Ads. Join delay to be part of
-							most
-							booming industry for youth and shape your future in the digital age!</p>
+						<p align="justify">
+							If you are looking for the <strong>best digital marketing course in {{CITY_NAME}}</strong> with 100% practical live project execution, you have come to the right destination. Unlike conventional theoretical institutes, King of Digital Marketing trains you on <strong>60+ cutting-edge modules</strong> covering all modern marketing verticals: <strong>Advanced Search Engine Optimization (SEO &amp; GEO), Google Ads (Search, Performance Max, YouTube, Display), Meta Ads (Facebook &amp; Instagram Funnels), AI in Digital Marketing (ChatGPT, Perplexity, Claude, Midjourney), Social Media Marketing (SMM), Online Reputation Management (ORM), Content Marketing, E-commerce Growth, and Conversion Rate Optimization (CRO)</strong>. Since we are a premier global digital marketing agency, our trainees work on active client ad budgets and live websites from day one.
+						</p>
+
+						<p align="justify">
+							Our proven career-launch curriculum is engineered to get you job-ready in <strong>under 90 to 150 days</strong>. Every enrolled candidate receives an assured <strong>agency internship, hands-on portfolio creation, 15+ globally recognized industry certifications</strong> (Google, Meta, HubSpot, Semrush, UIDMT), and <strong>100% placement support</strong> including resume crafting, LinkedIn personal branding, and rigorous mock interview rounds. Whether you are a college graduate seeking your first high-paying corporate job, a working professional eyeing a lucrative career shift, a freelancer targeting global international clients, or an {{CITY_NAME}} business owner aiming to explode your online sales—enroll at King of Digital Marketing today and master the future of AI-driven digital growth!
+						</p>
+
+						<!-- 4 Quick Trust Badges Strip -->
+						<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 28px; padding-top: 20px; border-top: 1px solid #e2e8f0;">
+							<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 18px; display: flex; align-items: center; gap: 12px;">
+								<div style="width: 38px; height: 38px; border-radius: 10px; background: #e0f2fe; color: #0284c7; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0;"><i class="fa fa-user-tie"></i></div>
+								<div>
+									<div style="font-size: 13px; font-weight: 800; color: #0f172a;">13+ Yrs Agency Leadership</div>
+									<div style="font-size: 12px; color: #64748b;">Direct Mentorship by Gaurav Dubey</div>
+								</div>
+							</div>
+							<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 18px; display: flex; align-items: center; gap: 12px;">
+								<div style="width: 38px; height: 38px; border-radius: 10px; background: #e0f2fe; color: #0284c7; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0;"><i class="fa fa-layer-group"></i></div>
+								<div>
+									<div style="font-size: 13px; font-weight: 800; color: #0f172a;">60+ In-Depth Modules</div>
+									<div style="font-size: 12px; color: #64748b;">Generative AI, SEO, Ads &amp; ORM</div>
+								</div>
+							</div>
+							<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 18px; display: flex; align-items: center; gap: 12px;">
+								<div style="width: 38px; height: 38px; border-radius: 10px; background: #e0f2fe; color: #0284c7; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0;"><i class="fa fa-briefcase"></i></div>
+								<div>
+									<div style="font-size: 13px; font-weight: 800; color: #0f172a;">Agency Internship</div>
+									<div style="font-size: 12px; color: #64748b;">100% Live Client Budget Handling</div>
+								</div>
+							</div>
+							<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 18px; display: flex; align-items: center; gap: 12px;">
+								<div style="width: 38px; height: 38px; border-radius: 10px; background: #e0f2fe; color: #0284c7; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0;"><i class="fa fa-certificate"></i></div>
+								<div>
+									<div style="font-size: 13px; font-weight: 800; color: #0f172a;">15+ Certifications &amp; Jobs</div>
+									<div style="font-size: 12px; color: #64748b;">1,850+ Placed in Top Agencies</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -302,9 +257,8 @@
 			<div class="students-gallery-section">
 				<div class="container">
 					<div class="students-gallery-header">
-						<h2>Recent Student Placements & Success Stories</h2>
-						<p>During Certificate Distribution & Placement Drives at Govindpuri, Kalkaji, South Delhi Branch
-						</p>
+						<h2>Recent Student Placements &amp; Success Stories</h2>
+						<p>During Certificate Distribution &amp; Placement Drives at {{CITY_NAME}} ({{CITY_NAME_ALT}}) &amp; Delhi Centers</p>
 					</div>
 				</div>
 
@@ -463,126 +417,6 @@
 									<polyline points="20 6 9 17 4 12"></polyline>
 								</svg>PLACED</div>
 						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-19.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-20.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-21.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-22.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-23.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-24.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-25.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-26.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-28.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-29.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-30.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-31.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-32.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-33.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
-						<div class="student-card-item"><img src="images/DigitalMarketingStudentPlacement-34.webp"
-								alt="Student Placement" width="280" height="310" loading="lazy" fetchpriority="low"
-								decoding="async">
-							<div class="placed-stamp-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-									stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>PLACED</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -641,7 +475,7 @@
 							<label class="kdm-cred-label">Countries Served</label>
 						</div>
 
-						<!-- Box 4: 4.9 Overall Rating -->
+						<!-- Box 4: 4.8 Overall Rating -->
 						<div class="kdm-credentials-box">
 							<div class="kdm-cred-svg-hub">
 								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -651,8 +485,8 @@
 									</polygon>
 								</svg>
 							</div>
-							<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1"
-								data-append="★">4.9★</strong>
+							<strong class="counter-value kdm-cred-num" data-to="4.8" data-decimals="1"
+								data-append="★">4.8★</strong>
 							<label class="kdm-cred-label">Overall Rating</label>
 						</div>
 
@@ -671,8 +505,8 @@
 					</div>
 				</div>
 			</section>
-			<!-- Credentials of Institute -->
 
+			<!-- 60 Modules Section -->
 			<div class="container">
 				<div class="modules-section-wrapper">
 					<!-- Section Header -->
@@ -686,10 +520,8 @@
 							</svg>
 							360° PRACTICAL CURRICULUM
 						</span>
-						<h2 class="modules-main-title">60+ Trending & AI-Powered Digital Marketing Course Modules</h2>
-						<p class="modules-sub-title">Master complete digital marketing & Generative AI tools with
-							hands-on
-							agency projects and 100% practical modules.</p>
+						<h2 class="modules-main-title">60+ Trending &amp; AI-Powered Digital Marketing Course Modules</h2>
+						<p class="modules-sub-title">Master complete digital marketing &amp; Generative AI tools with hands-on agency projects and 100% practical modules.</p>
 					</div>
 
 					<!-- 60 Modules SVG Grid -->
@@ -720,7 +552,7 @@
 									<path d="M22 12A10 10 0 0 0 12 2v10z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Market Research & Analysis</p>
+							<p class="module-title-text">Market Research &amp; Analysis</p>
 						</a>
 
 						<!-- Module 3 -->
@@ -777,7 +609,7 @@
 									<line x1="6" y1="18" x2="6.01" y2="18"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Domain & Hosting Setup</p>
+							<p class="module-title-text">Domain &amp; Hosting Setup</p>
 						</a>
 
 						<!-- Module 7 -->
@@ -962,7 +794,7 @@
 									<rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
 								</svg>
 							</div>
-							<p class="module-title-text">Google Video & YouTube Ads</p>
+							<p class="module-title-text">Google Video &amp; YouTube Ads</p>
 						</a>
 
 						<!-- Module 21 -->
@@ -1019,7 +851,7 @@
 									<path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Remarketing & Retargeting</p>
+							<p class="module-title-text">Remarketing &amp; Retargeting</p>
 						</a>
 
 						<!-- Module 25 -->
@@ -1031,7 +863,7 @@
 									<path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Ad Tracking & Optimization</p>
+							<p class="module-title-text">Ad Tracking &amp; Optimization</p>
 						</a>
 
 						<!-- Module 26 -->
@@ -1071,7 +903,7 @@
 									<path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">AI Content Strategy & Writing</p>
+							<p class="module-title-text">AI Content Strategy &amp; Writing</p>
 						</a>
 
 						<!-- Module 29 -->
@@ -1098,6 +930,7 @@
 									<polyline points="14 2 14 8 20 8"></polyline>
 									<line x1="16" y1="13" x2="8" y2="13"></line>
 									<line x1="16" y1="17" x2="8" y2="17"></line>
+									<polyline points="10 9 9 9 8 9"></polyline>
 								</svg>
 							</div>
 							<p class="module-title-text">Writing Skill Enhancement</p>
@@ -1109,13 +942,11 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z">
-									</path>
-									<line x1="6" y1="6" x2="18" y2="6"></line>
-									<line x1="6" y1="10" x2="18" y2="10"></line>
+									<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+									<path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Professional Blogging</p>
+							<p class="module-title-text">Pro Blogging &amp; Monetization</p>
 						</a>
 
 						<!-- Module 32 -->
@@ -1128,7 +959,7 @@
 									<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Affiliate Marketing</p>
+							<p class="module-title-text">Affiliate Marketing Secrets</p>
 						</a>
 
 						<!-- Module 33 -->
@@ -1137,11 +968,12 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
-									<line x1="1" y1="10" x2="23" y2="10"></line>
+									<rect x="2" y="4" width="20" height="16" rx="2"></rect>
+									<line x1="6" y1="8" x2="10" y2="8"></line>
+									<line x1="6" y1="12" x2="14" y2="12"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Google AdSense Monetization</p>
+							<p class="module-title-text">Google AdSense Optimization</p>
 						</a>
 
 						<!-- Module 34 -->
@@ -1157,7 +989,7 @@
 									<line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Social Media Optimization</p>
+							<p class="module-title-text">Social Media Optimization (SMO)</p>
 						</a>
 
 						<!-- Module 35 -->
@@ -1166,12 +998,12 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
-									</path>
+									<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+									<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+									<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Social Media Marketing</p>
+							<p class="module-title-text">Social Media Marketing (SMM)</p>
 						</a>
 
 						<!-- Module 36 -->
@@ -1183,7 +1015,7 @@
 									<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Meta & Facebook Ads</p>
+							<p class="module-title-text">Facebook Marketing &amp; Meta Ads</p>
 						</a>
 
 						<!-- Module 37 -->
@@ -1193,11 +1025,11 @@
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 									<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-									<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+									<circle cx="12" cy="12" r="4"></circle>
 									<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Instagram Reels Marketing</p>
+							<p class="module-title-text">Instagram Reels &amp; Influencer Growth</p>
 						</a>
 
 						<!-- Module 38 -->
@@ -1213,7 +1045,7 @@
 									<circle cx="4" cy="4" r="2"></circle>
 								</svg>
 							</div>
-							<p class="module-title-text">LinkedIn B2B Marketing</p>
+							<p class="module-title-text">LinkedIn B2B Lead Funnels</p>
 						</a>
 
 						<!-- Module 39 -->
@@ -1222,16 +1054,13 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="13.5" cy="6.5" r=".5"></circle>
-									<circle cx="17.5" cy="10.5" r=".5"></circle>
-									<circle cx="8.5" cy="7.5" r=".5"></circle>
-									<circle cx="6.5" cy="12.5" r=".5"></circle>
-									<path
-										d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.92 0 1.7-.74 1.7-1.67 0-.44-.18-.88-.47-1.21-.3-.33-.47-.77-.47-1.21 0-.93.75-1.69 1.69-1.69H17c2.76 0 5-2.24 5-5s-2.24-5-5-5h-5z">
-									</path>
+									<path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+									<path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+									<path d="M2 2l7.58 7.58"></path>
+									<circle cx="11" cy="11" r="2"></circle>
 								</svg>
 							</div>
-							<p class="module-title-text">AI Graphic Design (Canva & Midjourney)</p>
+							<p class="module-title-text">Graphic Design with Canva &amp; AI</p>
 						</a>
 
 						<!-- Module 40 -->
@@ -1241,9 +1070,10 @@
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 									<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+									<polyline points="9 12 11 14 15 10"></polyline>
 								</svg>
 							</div>
-							<p class="module-title-text">Online Reputation Management</p>
+							<p class="module-title-text">Online Reputation Management (ORM)</p>
 						</a>
 
 						<!-- Module 41 -->
@@ -1252,8 +1082,7 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+									<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
 									</path>
 									<polyline points="22,6 12,13 2,6"></polyline>
 								</svg>
@@ -1270,11 +1099,10 @@
 									<path
 										d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
 									</path>
-									<polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor">
-									</polygon>
+									<polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
 								</svg>
 							</div>
-							<p class="module-title-text">YouTube Channel Growth</p>
+							<p class="module-title-text">YouTube Channel Growth &amp; SEO</p>
 						</a>
 
 						<!-- Module 43 -->
@@ -1287,7 +1115,7 @@
 									<line x1="12" y1="18" x2="12.01" y2="18"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Mobile & SMS Marketing</p>
+							<p class="module-title-text">Mobile &amp; SMS Marketing</p>
 						</a>
 
 						<!-- Module 44 -->
@@ -1296,12 +1124,12 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-									<line x1="3" y1="6" x2="21" y2="6"></line>
-									<path d="M16 10a4 4 0 0 1-8 0"></path>
+									<circle cx="9" cy="21" r="1"></circle>
+									<circle cx="20" cy="21" r="1"></circle>
+									<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">E-Commerce Marketing Strategy</p>
+							<p class="module-title-text">E-Commerce Scaling &amp; Shopify</p>
 						</a>
 
 						<!-- Module 45 -->
@@ -1314,7 +1142,7 @@
 									<circle cx="12" cy="10" r="3"></circle>
 								</svg>
 							</div>
-							<p class="module-title-text">Google My Business Local SEO</p>
+							<p class="module-title-text">Google My Business &amp; Local SEO</p>
 						</a>
 
 						<!-- Module 46 -->
@@ -1323,9 +1151,9 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="8 17 12 21 16 17"></polyline>
-									<line x1="12" y1="12" x2="12" y2="21"></line>
-									<path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"></path>
+									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+									<line x1="8" y1="21" x2="16" y2="21"></line>
+									<line x1="12" y1="17" x2="12" y2="21"></line>
 								</svg>
 							</div>
 							<p class="module-title-text">App Store Optimization (ASO)</p>
@@ -1337,13 +1165,13 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-									<circle cx="8.5" cy="7" r="4"></circle>
-									<line x1="20" y1="8" x2="20" y2="14"></line>
-									<line x1="23" y1="11" x2="17" y2="11"></line>
+									<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+									<circle cx="9" cy="7" r="4"></circle>
+									<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+									<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Lead Generation Funnels</p>
+							<p class="module-title-text">High-Ticket Lead Generation</p>
 						</a>
 
 						<!-- Module 48 -->
@@ -1358,7 +1186,7 @@
 									</path>
 								</svg>
 							</div>
-							<p class="module-title-text">Marketing Automation Tools</p>
+							<p class="module-title-text">Marketing Automation &amp; Zapier</p>
 						</a>
 
 						<!-- Module 49 -->
@@ -1367,12 +1195,12 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-									<line x1="8" y1="21" x2="16" y2="21"></line>
-									<line x1="12" y1="17" x2="12" y2="21"></line>
+									<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+									<line x1="3" y1="9" x2="21" y2="9"></line>
+									<line x1="9" y1="21" x2="9" y2="9"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Landing Page Optimization</p>
+							<p class="module-title-text">Landing Page Funnels &amp; CRO</p>
 						</a>
 
 						<!-- Module 50 -->
@@ -1381,13 +1209,11 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-									<circle cx="9" cy="7" r="4"></circle>
-									<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-									<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+									<polygon points="23 7 16 12 23 17 23 7"></polygon>
+									<rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
 								</svg>
 							</div>
-							<p class="module-title-text">Webinars & Online Events</p>
+							<p class="module-title-text">Webinar Marketing &amp; Sales</p>
 						</a>
 
 						<!-- Module 51 -->
@@ -1399,11 +1225,11 @@
 									<rect x="3" y="11" width="18" height="10" rx="2"></rect>
 									<circle cx="12" cy="5" r="2"></circle>
 									<path d="M12 7v4"></path>
-									<line x1="8" y1="16" x2="8.01" y2="16"></line>
-									<line x1="16" y1="16" x2="16.01" y2="16"></line>
+									<line x1="8" y1="16" x2="8" y2="16"></line>
+									<line x1="16" y1="16" x2="16" y2="16"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">AI Chatbot Marketing</p>
+							<p class="module-title-text">AI Chatbots &amp; WhatsApp CRM</p>
 						</a>
 
 						<!-- Module 52 -->
@@ -1412,13 +1238,13 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-									<path
-										d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
-									</path>
+									<path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+									<path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+									<line x1="12" y1="19" x2="12" y2="23"></line>
+									<line x1="8" y1="23" x2="16" y2="23"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Podcast Marketing</p>
+							<p class="module-title-text">Podcast Marketing &amp; Distribution</p>
 						</a>
 
 						<!-- Module 53 -->
@@ -1427,12 +1253,13 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
-									</path>
+									<path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+									<circle cx="8.5" cy="7" r="4"></circle>
+									<line x1="20" y1="8" x2="20" y2="14"></line>
+									<line x1="23" y1="11" x2="17" y2="11"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">Influencer Marketing & Outreach</p>
+							<p class="module-title-text">Influencer Outreach &amp; PR</p>
 						</a>
 
 						<!-- Module 54 -->
@@ -1456,15 +1283,19 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"></path>
-									<path d="M4 11a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2z">
-									</path>
-									<path d="M14 11a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2z">
-									</path>
-									<path d="M8 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2H8v-2z"></path>
+									<rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+									<rect x="9" y="9" width="6" height="6"></rect>
+									<line x1="9" y1="1" x2="9" y2="4"></line>
+									<line x1="15" y1="1" x2="15" y2="4"></line>
+									<line x1="9" y1="20" x2="9" y2="23"></line>
+									<line x1="15" y1="20" x2="15" y2="23"></line>
+									<line x1="20" y1="9" x2="23" y2="9"></line>
+									<line x1="20" y1="14" x2="23" y2="14"></line>
+									<line x1="1" y1="9" x2="4" y2="9"></line>
+									<line x1="1" y1="14" x2="4" y2="14"></line>
 								</svg>
 							</div>
-							<p class="module-title-text">ChatGPT & Generative AI Tools</p>
+							<p class="module-title-text">Generative AI Tools &amp; Prompts</p>
 						</a>
 
 						<!-- Module 56 -->
@@ -1480,7 +1311,7 @@
 									<polyline points="10 9 9 9 8 9"></polyline>
 								</svg>
 							</div>
-							<p class="module-title-text">Client Case Study Analysis</p>
+							<p class="module-title-text">Real Campaign Case Studies</p>
 						</a>
 
 						<!-- Module 57 -->
@@ -1493,7 +1324,7 @@
 									<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Become a Freelance Marketer</p>
+							<p class="module-title-text">Freelance Client Acquisition</p>
 						</a>
 
 						<!-- Module 58 -->
@@ -1502,13 +1333,10 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-									<path
-										d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
-									</path>
+									<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
 								</svg>
 							</div>
-							<p class="module-title-text">Customer Service & CRM Support</p>
+							<p class="module-title-text">Client Retention &amp; Support</p>
 						</a>
 
 						<!-- Module 59 -->
@@ -1517,13 +1345,10 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.1-1.35 1.1-1.35L4.5 14.5s-.64.39-1.35 1.1z">
-									</path>
-									<path d="M12 15l-3-3 8.5-8.5a2.12 2.12 0 0 1 3 3L12 15z"></path>
+									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
 								</svg>
 							</div>
-							<p class="module-title-text">Startup Mentorship & Growth</p>
+							<p class="module-title-text">Startup Growth &amp; Mentorship</p>
 						</a>
 
 						<!-- Module 60 -->
@@ -1532,159 +1357,25 @@
 							<div class="module-icon-box">
 								<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-									<polyline points="22 4 12 14.01 9 11.01"></polyline>
+									<circle cx="12" cy="12" r="10"></circle>
+									<polyline points="12 6 12 12 14 14"></polyline>
 								</svg>
 							</div>
-							<p class="module-title-text">Interview Prep & Resume Building</p>
+							<p class="module-title-text">HR Mock Interview Drills</p>
 						</a>
 					</div>
 				</div>
 			</div>
-			<!-- digital marketing module course Ends-->
 
-			<!-- tool Logos Container -->
-			<div class="container" style="padding-top: 20px; padding-bottom: 20px;">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 align="center"
-							style="font-size: 32px; font-weight: 800; color: #111441; margin-bottom: 8px;">
-							Master 24+ Industry Leading Tools</h2>
-						<p align="center" style="color: #64748b; font-size: 15px; margin-bottom: 35px;">Gain hands-on
-							practical experience on premium digital marketing, SEO, PPC & Analytics software.</p>
-
-						<div class="tools-grid-container">
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-1.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-2.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Ahrefs" src="images/ahrefs-tool.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="HubSpot" src="images/hubspot-tool.webp"
-									loading="lazy" decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-5.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Google Ads" src="images/google-ads-tools.webp"
-									loading="lazy" decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Meta" src="images/meta-tool.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Moz" src="images/moz-ads.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-9.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-10.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-11.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-12.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-13.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="SpyFu" src="images/spyfu-tool.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="LinkedIn" src="images/linked-in-tool.webp"
-									loading="lazy" decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-16.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Google Ads" src="images/google-ads-tool.webp"
-									loading="lazy" decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Search Console"
-									src="images/serach-console-tool.webp" loading="lazy" decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Google Tag Manager" src="images/gtm-tool.webp"
-									loading="lazy" decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Instagram Ads" src="images/instagram-ads-tool.webp"
-									loading="lazy" decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Canva" src="images/canva-tool.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-22.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-23.webp" loading="lazy"
-									decoding="async"></div>
-							<div class="tool-card-modern"><img alt="Tools" src="images/Tools-24.webp" loading="lazy"
-									decoding="async"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End of tool Logos Container -->
-
-			<!-- Flexible Batches Section Starts -->
-			<div class="container">
-				<div class="batches-section">
-					<div class="batches-header">
-						<h2>Flexible Digital Marketing Batches</h2>
-					</div>
-					<div class="batches-grid">
-						<!-- Batch 1: Weekdays -->
-						<div class="batch-card-modern">
-							<span class="batch-badge">Regular</span>
-							<div class="batch-icon-wrap">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-									<line x1="16" y1="2" x2="16" y2="6"></line>
-									<line x1="8" y1="2" x2="8" y2="6"></line>
-									<line x1="3" y1="10" x2="21" y2="10"></line>
-									<path d="M8 14h.01"></path>
-									<path d="M12 14h.01"></path>
-									<path d="M16 14h.01"></path>
-								</svg>
-							</div>
-							<h3 class="batch-card-title">Weekdays Batches</h3>
-							<p class="batch-card-text">If you are student, you can join regular batches where you get
-								three
-								days classes in a week. The duration of each class is 1:30 hours (90 minutes).</p>
-						</div>
-
-						<!-- Batch 2: Weekend -->
-						<div class="batch-card-modern">
-							<span class="batch-badge">Professional</span>
-							<div class="batch-icon-wrap">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<polyline points="12 6 12 12 16 14"></polyline>
-								</svg>
-							</div>
-							<h3 class="batch-card-title">Weekend Batches</h3>
-							<p class="batch-card-text">If you're a business owner or working professional and getting
-								time
-								only on weekends then join weekend batches. Duration of weekend class is 3:00 hours.</p>
-						</div>
-
-						<!-- Batch 3: Online -->
-						<div class="batch-card-modern">
-							<span class="batch-badge">Live Remote</span>
-							<div class="batch-icon-wrap">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-									<line x1="8" y1="21" x2="16" y2="21"></line>
-									<line x1="12" y1="17" x2="12" y2="21"></line>
-								</svg>
-							</div>
-							<h3 class="batch-card-title">Online Batches</h3>
-							<p class="batch-card-text">If you're far from our branch in South Delhi or Allahabad then
-								you
-								can join online digital marketing course where you get live classes on weekdays or
-								weekend.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Flexible Batches Section Ends -->
-
-			<!-- Courses Covered Starts-->
-			<!-- Specific Modules Covered Starts -->
-			<div class="spec-modules-section">
-				<div class="container">
+			<!-- Specific Module Specializations Section Starts -->
+			<div class="container" style="margin-top: 30px; margin-bottom: 25px;">
+				<div class="spec-modules-section">
 					<div class="spec-modules-header">
 						<span class="modules-badge-pill">
 							<i class="fa fa-bullseye" style="margin-right: 5px;"></i> TARGETED SKILL SPECIALIZATIONS
 						</span>
-						<h2>Do You Want to Study a Specific Module of <strong>Digital Marketing?</strong></h2>
-						<p>If you want to master a specific digital marketing domain, we provide dedicated individual certification tracks with hands-on live agency projects and 1-on-1 mentor guidance.</p>
+						<h2 class="spec-modules-main-title">Do You Want to Study a Specific Module of <strong>Digital Marketing?</strong></h2>
+						<p class="spec-modules-sub-title">If you want to master a specific digital marketing domain, we provide dedicated individual fast-track certification tracks with hands-on live agency projects &amp; 1-on-1 mentor guidance.</p>
 					</div>
 
 					<div class="spec-modules-grid">
@@ -1694,20 +1385,15 @@
 								<div class="spec-module-icon-wrap">
 									<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
 										stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-										<circle cx="11" cy="11" r="8"></circle>
-										<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-										<polyline points="11 8 11 11 14 11"></polyline>
+										<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+										<polyline points="17 6 23 6 23 12"></polyline>
 									</svg>
 								</div>
 								<h3 class="spec-module-title">Advance SEO Course</h3>
-								<p class="spec-module-desc">Advance SEO Training course in South Delhi, We have 100% Job
-									Assistance after advance SEO Course from King of Digital Marketing. Our SEO course
-									will
-									make you able to rank any keywords easily in Google or any Search Engines.</p>
+								<p class="spec-module-desc">Advance SEO Training Course covering Technical SEO, Core Web Vitals, Topical Authority, Link Building, and 100% Placement Assistance.</p>
 							</div>
 							<div>
-								<a href="https://www.kingofdigitalmarketing.com/SEO-Training.aspx"
-									class="spec-module-btn">
+								<a href="https://www.kingofdigitalmarketing.com/SEO-Training.aspx" class="spec-module-btn">
 									View Details
 									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
 										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1724,21 +1410,16 @@
 								<div class="spec-module-icon-wrap">
 									<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
 										stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-										<circle cx="9" cy="7" r="4"></circle>
-										<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-										<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+										<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+										<circle cx="12" cy="12" r="4"></circle>
+										<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
 									</svg>
 								</div>
-								<h3 class="spec-module-title">Social Media Course</h3>
-								<p class="spec-module-desc">Social Media optimization training course makes you aware
-									with
-									marketing strategy via social websites like Facebook Marketing, Twitter Marketing,
-									Linkedin Marketing etc. You learn all new techniques of SMO to be used in 2018.</p>
+								<h3 class="spec-module-title">Social Media Course (SMO)</h3>
+								<p class="spec-module-desc">Master organic social media marketing strategies across Instagram, Facebook, LinkedIn, Twitter, and TikTok for high audience engagement.</p>
 							</div>
 							<div>
-								<a href="https://www.kingofdigitalmarketing.com/SMO-Training.aspx"
-									class="spec-module-btn">
+								<a href="https://www.kingofdigitalmarketing.com/SMO-Training.aspx" class="spec-module-btn">
 									View Details
 									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
 										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1755,23 +1436,14 @@
 								<div class="spec-module-icon-wrap">
 									<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
 										stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-										<circle cx="12" cy="12" r="10"></circle>
-										<circle cx="12" cy="12" r="6"></circle>
-										<circle cx="12" cy="12" r="2"></circle>
+										<path d="M3 11l19-9-9 19-2-8-8-2z"></path>
 									</svg>
 								</div>
 								<h3 class="spec-module-title">Advance PPC Course</h3>
-								<p class="spec-module-desc">Being best PPC Company in South Delhi, we are providing
-									advanced
-									PPC training course in South Delhi by industry experts trainer. We have best modules
-									for
-									ppc like - Google AdWords, Bing Accreditation, Google Analytics, Google Webmaster
-									tool.
-								</p>
+								<p class="spec-module-desc">Master Google Ads, Bing Ads, Meta Ads, remarketing campaigns, conversion tracking, and high-budget scaling on live client accounts.</p>
 							</div>
 							<div>
-								<a href="https://www.kingofdigitalmarketing.com/PPC-Training.aspx"
-									class="spec-module-btn">
+								<a href="https://www.kingofdigitalmarketing.com/PPC-Training.aspx" class="spec-module-btn">
 									View Details
 									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
 										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1789,20 +1461,14 @@
 									<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
 										stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 										<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-										<polygon
-											points="12 8 13.09 10.26 15.6 10.63 13.78 12.4 14.21 14.91 12 13.74 9.79 14.91 10.22 12.4 8.4 10.63 10.91 10.26 12 8">
-										</polygon>
+										<polyline points="9 12 11 14 15 10"></polyline>
 									</svg>
 								</div>
 								<h3 class="spec-module-title">ORM Course</h3>
-								<p class="spec-module-desc">ORM course is provided by KDM, Online Reputation Management
-									(ORM) is basically requirement of every business online. A students must know
-									techniques
-									to make influencing online reputation of any brand.</p>
+								<p class="spec-module-desc">Online Reputation Management (ORM) is essential for corporate brands. Learn negative link suppression, review management &amp; brand defense.</p>
 							</div>
 							<div>
-								<a href="https://www.kingofdigitalmarketing.com/ORM-Training.aspx"
-									class="spec-module-btn">
+								<a href="https://www.kingofdigitalmarketing.com/ORM-Training.aspx" class="spec-module-btn">
 									View Details
 									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
 										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1824,15 +1490,10 @@
 									</svg>
 								</div>
 								<h3 class="spec-module-title">Mobile App Promotion</h3>
-								<p class="spec-module-desc">Mobile App Promotion module let you understand the
-									strategies to
-									promote any mobile app on play store or another. If you own any App. you must be a
-									part
-									of ORM training course at Devweboic digital marketing institute.</p>
+								<p class="spec-module-desc">Understand user acquisition strategies to promote mobile apps on Google Play Store &amp; Apple App Store with ASO &amp; install campaigns.</p>
 							</div>
 							<div>
-								<a href="https://www.kingofdigitalmarketing.com/mobile-app-promotion-services.aspx"
-									class="spec-module-btn">
+								<a href="https://www.kingofdigitalmarketing.com/mobile-app-promotion-services.aspx" class="spec-module-btn">
 									View Details
 									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
 										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1854,14 +1515,10 @@
 									</svg>
 								</div>
 								<h3 class="spec-module-title">Affiliate Marketing Course</h3>
-								<p class="spec-module-desc">Being digital marketer, you must know best way to earn money
-									through affiliate marketing. Affiliate marketing is method of promoting Amazon,
-									Flipkart
-									and others website's products and earn commision.</p>
+								<p class="spec-module-desc">Learn the best ways to earn passive revenue through Amazon, Flipkart, ClickBank, and international affiliate networks.</p>
 							</div>
 							<div>
-								<a href="https://www.kingofdigitalmarketing.com/PPC-Training.aspx"
-									class="spec-module-btn">
+								<a href="https://www.kingofdigitalmarketing.com/PPC-Training.aspx" class="spec-module-btn">
 									View Details
 									<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
 										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1874,16 +1531,14 @@
 					</div>
 				</div>
 			</div>
-			<!-- Specific Modules Covered Ends -->
 
-			<!-- Various Courses Section Starts -->
+			<!-- Flagship Various Courses Section Starts -->
 			<div class="various-courses-section" id="course-packages">
 				<div class="container">
 					<div class="various-courses-header">
 						<div class="various-courses-badge">🎓 Choose Your Fast-Track Learning Path</div>
-						<h2>Flagship <span class="kdm-title-gradient">Digital Marketing Courses</span></h2>
-						<p>Industry-recognized, 100% practical, agency-backed training designed for students, job
-							seekers, working professionals, freelancers, and entrepreneurs.</p>
+						<h2>Flagship <span class="kdm-title-gradient">Digital Marketing Courses in {{CITY_NAME}}</span></h2>
+						<p>Industry-recognized, 100% practical, agency-backed training designed for students, job seekers, working professionals, freelancers, and entrepreneurs.</p>
 					</div>
 
 					<div class="various-courses-grid">
@@ -1953,7 +1608,6 @@
 									<div class="course-pkg-save-badge">Save ₹10,000 (28% OFF)</div>
 								</div>
 
-								<!-- Subgroup 1: Curriculum & Practical Skills -->
 								<div class="course-pkg-subgroup-title">
 									<i class="fa fa-book-open"></i> Core Modules &amp; Practical Skills
 								</div>
@@ -1962,36 +1616,24 @@
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Specialized Track Choice:</strong> In-depth Mastery of
-											AI-Powered SEO <em>or</em> Google &amp; Meta Ads <em>or</em> SMM
-											Growth</span></li>
+										</svg> <span><strong>Specialized Track Choice:</strong> In-depth Mastery of AI-Powered SEO <em>or</em> Google &amp; Meta Ads <em>or</em> SMM Growth</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>100% Practical Execution:</strong> Hands-on training on
-											live client accounts &amp; actual ad spends</span></li>
+										</svg> <span><strong>100% Practical Execution:</strong> Hands-on training on live client accounts &amp; actual ad spends</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>AI Marketing Workflows:</strong> Practical ChatGPT prompts
-											for copywriting, strategy &amp; market research</span></li>
+										</svg> <span><strong>AI Marketing Workflows:</strong> Practical ChatGPT prompts for copywriting, strategy &amp; market research</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Social Media Content Engine:</strong> Calendar planning,
-											viral creative strategy &amp; engagement funnels</span></li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-											stroke="currentColor" stroke-width="3" stroke-linecap="round"
-											stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>10 Live Case Studies:</strong> Real-time campaign reports,
-											performance audits &amp; ROAS optimization</span></li>
+										</svg> <span><strong>10 Live Case Studies:</strong> Real-time campaign reports, performance audits &amp; ROAS optimization</span></li>
 								</ul>
 
-								<!-- Subgroup 2: Deliverables & Career Support -->
 								<div class="course-pkg-subgroup-title">
 									<i class="fa fa-gift"></i> Career Deliverables &amp; Benefits
 								</div>
@@ -2000,26 +1642,17 @@
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>1-Month Agency Internship:</strong> Real agency project
-											exposure with verified experience certificate</span></li>
+										</svg> <span><strong>1-Month Agency Internship:</strong> Real agency project exposure with verified experience certificate</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Mock Interviews &amp; Resume Crafting:</strong> 1-on-1
-											interview drill sessions with hiring managers</span></li>
+										</svg> <span><strong>Mock Interviews &amp; Resume Crafting:</strong> 1-on-1 interview drill sessions with hiring managers</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>100% Placement Assistance:</strong> Direct interviews with
-											leading agencies &amp; corporate brands</span></li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-											stroke="currentColor" stroke-width="3" stroke-linecap="round"
-											stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Lifetime LMS &amp; Community:</strong> 24/7 access to
-											updated learning resources &amp; alumni network</span></li>
+										</svg> <span><strong>100% Placement Assistance:</strong> Direct interviews with leading agencies &amp; corporate brands</span></li>
 								</ul>
 							</div>
 							<div>
@@ -2101,11 +1734,9 @@
 										</div>
 									</div>
 									<div class="course-pkg-save-badge"
-										style="background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe;">Save ₹15,000
-										(27% OFF)</div>
+										style="background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe;">Save ₹15,000 (27% OFF)</div>
 								</div>
 
-								<!-- Subgroup 1: Full-Stack Curriculum -->
 								<div class="course-pkg-subgroup-title">
 									<i class="fa fa-graduation-cap"></i> 360° Full-Stack Curriculum
 								</div>
@@ -2114,35 +1745,29 @@
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>60+ Complete Modules:</strong> Master SEO, Google Ads, Meta
-											Ads, SMM, Email, Affiliate &amp; CRO</span></li>
+										</svg> <span><strong>60+ Complete Modules:</strong> Master SEO, Google Ads, Meta Ads, SMM, Email, Affiliate &amp; CRO</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Advanced Generative AI Suite:</strong> ChatGPT-4,
-											Midjourney, Claude, Gemini &amp; AI Workflow Automation</span></li>
+										</svg> <span><strong>Advanced Generative AI Suite:</strong> ChatGPT-4, Midjourney, Claude, Gemini &amp; AI Workflow Automation</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Topical Authority &amp; Semantic SEO:</strong> Technical
-											audits, AI search optimization &amp; link-building</span></li>
+										</svg> <span><strong>Topical Authority &amp; Semantic SEO:</strong> Technical audits, AI search optimization &amp; link-building</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Marketing Automation &amp; CRM:</strong> HubSpot, Zapier,
-											WhatsApp CRM &amp; automated lead funnels</span></li>
+										</svg> <span><strong>Marketing Automation &amp; CRM:</strong> HubSpot, Zapier, WhatsApp CRM &amp; automated lead funnels</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>15+ Live Client Budgets:</strong> End-to-end multi-channel
-											ROI execution with actual ad media spend</span></li>
+										</svg> <span><strong>15+ Live Client Budgets:</strong> End-to-end multi-channel ROI execution with actual ad media spend</span></li>
 								</ul>
 
-								<!-- Subgroup 2: Executive Deliverables & Mentorship -->
 								<div class="course-pkg-subgroup-title">
 									<i class="fa fa-award"></i> Executive Deliverables &amp; Mentorship
 								</div>
@@ -2151,32 +1776,22 @@
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>2 Months Free Agency Internship:</strong> High-impact
-											agency client handling &amp; live experience letters</span></li>
+										</svg> <span><strong>2 Months Free Agency Internship:</strong> High-impact agency client handling &amp; live experience letters</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Multiple Certifications:</strong> Google Ads, Meta
-											Certified, HubSpot Academy &amp; UIDMT Master's</span></li>
+										</svg> <span><strong>Multiple Certifications:</strong> Google Ads, Meta Certified, HubSpot Academy &amp; UIDMT Master's</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>1-on-1 Mentorship by Gaurav Dubey:</strong> Direct career
-											coaching, campaign reviews &amp; strategic growth</span></li>
+										</svg> <span><strong>1-on-1 Mentorship by Gaurav Dubey:</strong> Direct career coaching, campaign reviews &amp; strategic growth</span></li>
 									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
 											stroke="currentColor" stroke-width="3" stroke-linecap="round"
 											stroke-linejoin="round">
 											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Guaranteed 100% Placement Assistance:</strong> Top MNC
-											&amp; agency interview drives with dedicated placement manager</span></li>
-									<li><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-											stroke="currentColor" stroke-width="3" stroke-linecap="round"
-											stroke-linejoin="round">
-											<polyline points="20 6 9 17 4 12"></polyline>
-										</svg> <span><strong>Freelancing &amp; Agency Launchpad:</strong> Global client
-											acquisition, proposal pitching &amp; pricing blueprint</span></li>
+										</svg> <span><strong>Guaranteed 100% Placement Assistance:</strong> Top MNC &amp; agency interview drives with dedicated placement manager</span></li>
 								</ul>
 							</div>
 							<div>
@@ -2193,13 +1808,12 @@
 					</div>
 				</div>
 			</div>
-			<!-- Various Courses Section Ends -->
 
 			<!-- Bonus With Digital Marketing Course Starts -->
 			<div class="container">
 				<div class="bonus-section-dark">
 					<div class="bonus-header-dark">
-						<h2>Bonus With Digital Marketing Course</h2>
+						<h2>Bonus With Digital Marketing Course in {{CITY_NAME}}</h2>
 						<p>Exclusive Premium Perks &amp; Career Benefits Included With Every Enrolment</p>
 					</div>
 					<div class="bonus-grid-dark">
@@ -2313,11 +1927,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- Bonus With Digital Marketing Course Ends -->
-
-			<!-- Tools We Use Ends -->
-
-			<!-- Career Options Starts-->
 
 			<!-- Job Opportunities & Career Paths Redesigned Section -->
 			<div class="container">
@@ -2332,14 +1941,8 @@
 							</svg>
 							HIGH DEMAND CAREER FIELD
 						</span>
-						<h2 class="job-opp-title" id="Job Opportunities">Job Opportunities After Digital Marketing
-							Course
-						</h2>
-						<p class="job-opp-subtitle">The digital marketing field is growing exponentially in India. Get
-							hired
-							in top MNCs & agencies or launch your own online business, agency, or freelancing career
-							with
-							our practical course training.</p>
+						<h2 class="job-opp-title" id="Job Opportunities">Job Opportunities After Digital Marketing Course in {{CITY_NAME}}</h2>
+						<p class="job-opp-subtitle">The digital marketing field is growing exponentially across India. Get hired in top MNCs &amp; agencies or launch your own online business, agency, or freelancing career with our practical training.</p>
 
 						<!-- Live Job Market Stats -->
 						<div class="job-stats-bar">
@@ -2380,7 +1983,7 @@
 										<polyline points="17 11 19 13 23 9"></polyline>
 									</svg>
 								</div>
-								<h3>Junior & Mid-Level Career Options</h3>
+								<h3>Junior &amp; Mid-Level Career Options</h3>
 							</div>
 							<ul class="career-role-list">
 								<li class="career-role-item">
@@ -2395,14 +1998,14 @@
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									SEO Specialist & Analyst
+									SEO Specialist &amp; Analyst
 								</li>
 								<li class="career-role-item">
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Google Ads & PPC Specialist
+									Google Ads &amp; PPC Specialist
 								</li>
 								<li class="career-role-item">
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
@@ -2481,7 +2084,7 @@
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Paid Media & Performance Lead
+									Paid Media &amp; Performance Lead
 								</li>
 							</ul>
 						</div>
@@ -2499,7 +2102,7 @@
 										<path d="M9 18l3 3 8.5-8.5a2.12 2.12 0 0 0-3-3L9 18z"></path>
 									</svg>
 								</div>
-								<h3>Online Business & Freelancing</h3>
+								<h3>Online Business &amp; Freelancing</h3>
 							</div>
 							<ul class="career-role-list">
 								<li class="career-role-item">
@@ -2514,7 +2117,7 @@
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Professional Content Creator & Blogger
+									Professional Content Creator &amp; Blogger
 								</li>
 								<li class="career-role-item">
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16a34a"
@@ -2528,21 +2131,21 @@
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Earn via Affiliate Marketing & AdSense
+									Earn via Affiliate Marketing &amp; AdSense
 								</li>
 								<li class="career-role-item">
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16a34a"
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Build & Monetize YouTube Channel
+									Build &amp; Monetize YouTube Channel
 								</li>
 								<li class="career-role-item">
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16a34a"
 										stroke-width="3">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									Consultant & Digital Growth Partner
+									Consultant &amp; Digital Growth Partner
 								</li>
 							</ul>
 						</div>
@@ -2556,8 +2159,7 @@
 							</div>
 							<h3 class="salary-main-title">Starting Salary After <span
 									class="salary-title-highlight">Digital Marketing Course</span></h3>
-							<p class="salary-main-desc">Estimated average annual compensation packages (LPA) based on
-								top hiring agencies, MNCs, and corporate experience levels.</p>
+							<p class="salary-main-desc">Estimated average annual compensation packages (LPA) based on top hiring agencies, MNCs, and corporate experience levels.</p>
 						</div>
 
 						<!-- 4 Quick Salary Level Highlight Cards -->
@@ -2599,141 +2201,101 @@
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-blue-glow"><i
-														class="fa fa-bullseye"></i></div>
+												<div class="salary-role-icon icon-blue-glow"><i class="fa fa-bullseye"></i></div>
 												<div>
-													<div class="salary-role-name">AI Performance Marketer &amp; PPC
-														Specialist</div>
-													<div class="salary-role-skills">Google Search Ads, Meta Ads, Funnels
-														&amp; ROAS Optimization</div>
+													<div class="salary-role-name">AI Performance Marketer &amp; PPC Specialist</div>
+													<div class="salary-role-skills">Google Search Ads, Meta Ads, Funnels &amp; ROAS Optimization</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 3.0 - 4.5
-												LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 6.5 - 9.5 LPA</span>
-										</td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 14.0 - 20.0+
-												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 3.0 - 4.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 6.5 - 9.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 14.0 - 20.0+ LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-cyan-glow"><i
-														class="fa fa-search"></i></div>
+												<div class="salary-role-icon icon-cyan-glow"><i class="fa fa-search"></i></div>
 												<div>
-													<div class="salary-role-name">AI SEO Specialist &amp; Search
-														Strategist</div>
-													<div class="salary-role-skills">Technical SEO, Topical Authority,
-														Semrush, Generative Engine SEO</div>
+													<div class="salary-role-name">AI SEO Specialist &amp; Search Strategist</div>
+													<div class="salary-role-skills">Technical SEO, Topical Authority, Semrush, Generative Engine SEO</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 2.8 - 4.2
-												LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.5 LPA</span>
-										</td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 12.0 - 18.0
-												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 2.8 - 4.2 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 12.0 - 18.0 LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-purple-glow"><i
-														class="fa fa-share-nodes"></i></div>
+												<div class="salary-role-icon icon-purple-glow"><i class="fa fa-share-nodes"></i></div>
 												<div>
-													<div class="salary-role-name">Social Media &amp; Brand Growth
-														Manager</div>
-													<div class="salary-role-skills">Viral Reels, LinkedIn Funnels,
-														Community Building, Brand Strategy</div>
+													<div class="salary-role-name">Social Media &amp; Brand Growth Manager</div>
+													<div class="salary-role-skills">Viral Reels, LinkedIn Funnels, Community Building, Brand Strategy</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 2.5 - 4.0
-												LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 5.8 - 8.5 LPA</span>
-										</td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 11.0 - 16.0
-												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 2.5 - 4.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 5.8 - 8.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 11.0 - 16.0 LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-emerald-glow"><i
-														class="fa fa-robot"></i></div>
+												<div class="salary-role-icon icon-emerald-glow"><i class="fa fa-robot"></i></div>
 												<div>
-													<div class="salary-role-name">Marketing Automation &amp; CRM
-														Specialist</div>
-													<div class="salary-role-skills">HubSpot, WhatsApp API, Zapier, Drip
-														Email Funnels &amp; Lead Scoring</div>
+													<div class="salary-role-name">Marketing Automation &amp; CRM Specialist</div>
+													<div class="salary-role-skills">HubSpot, WhatsApp API, Zapier, Drip Email Funnels &amp; Lead Scoring</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 3.8 - 5.5
-												LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 7.0 - 11.0 LPA</span>
-										</td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 16.0 - 24.0+
-												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 3.8 - 5.5 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 7.0 - 11.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 16.0 - 24.0+ LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-amber-glow"><i
-														class="fa fa-pen-fancy"></i></div>
+												<div class="salary-role-icon icon-amber-glow"><i class="fa fa-pen-fancy"></i></div>
 												<div>
-													<div class="salary-role-name">AI Content Strategist &amp; Copywriter
-													</div>
-													<div class="salary-role-skills">Prompt Engineering, High-Converting
-														Landing Copy, Midjourney Visuals</div>
+													<div class="salary-role-name">AI Content Strategist &amp; Copywriter</div>
+													<div class="salary-role-skills">Prompt Engineering, High-Converting Landing Copy, Midjourney Visuals</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 2.6 - 4.0
-												LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.0 LPA</span>
-										</td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 11.5 - 16.0
-												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 2.6 - 4.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 5.5 - 8.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 11.5 - 16.0 LPA</span></td>
 									</tr>
 									<tr>
 										<td>
 											<div class="salary-role-info">
-												<div class="salary-role-icon icon-gold-glow"><i class="fa fa-crown"></i>
-												</div>
+												<div class="salary-role-icon icon-gold-glow"><i class="fa fa-crown"></i></div>
 												<div>
-													<div class="salary-role-name">Digital Marketing Director / Growth
-														Head</div>
-													<div class="salary-role-skills">Omnichannel Strategy, Team
-														Leadership, Multi-Crore Budget Allocation</div>
+													<div class="salary-role-name">Digital Marketing Director / Growth Head</div>
+													<div class="salary-role-skills">Omnichannel Strategy, Team Leadership, Multi-Crore Budget Allocation</div>
 												</div>
 											</div>
 										</td>
-										<td class="text-center"><span class="salary-badge-fresher">₹ 4.0 - 6.0
-												LPA</span></td>
-										<td class="text-center"><span class="salary-badge-mid">₹ 9.0 - 15.0 LPA</span>
-										</td>
-										<td class="text-center"><span class="salary-badge-senior">₹ 20.0 - 35.0+
-												LPA</span></td>
+										<td class="text-center"><span class="salary-badge-fresher">₹ 4.0 - 6.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-mid">₹ 9.0 - 15.0 LPA</span></td>
+										<td class="text-center"><span class="salary-badge-senior">₹ 20.0 - 35.0+ LPA</span></td>
 									</tr>
 								</tbody>
 							</table>
 						</div>
 
-						<!-- Bottom Insights & CTA Note -->
 						<div class="salary-footer-note">
 							<div class="salary-note-text">
 								<i class="fa fa-lightbulb" style="color: #f59e0b; font-size: 18px;"></i>
-								<span><strong>AI Salary Advantage:</strong> Candidates trained in Generative AI tools
-									(ChatGPT, Gemini, Midjourney) command <strong>35% to 50% higher</strong> starting
-									compensation packages.</span>
+								<span><strong>AI Salary Advantage:</strong> Candidates trained in Generative AI tools (ChatGPT, Gemini, Midjourney) command <strong>35% to 50% higher</strong> starting compensation packages.</span>
 							</div>
 							<a href="#kdm-hero-lead-form" class="salary-note-cta">
 								<i class="fa fa-paper-plane"></i> Get Placement Assistance
 							</a>
 						</div>
 					</div>
-
 				</div>
 			</div>
 
@@ -2741,7 +2303,7 @@
 			<div class="container">
 				<div class="trainer-section-wrapper">
 					<div class="trainer-grid">
-						<!-- Trainer Image Column (Optimized Loading) -->
+						<!-- Trainer Image Column -->
 						<div class="trainer-img-col">
 							<div class="trainer-img-card">
 								<img src="images/Gaurav Dubey Digital Marketing trainer.webp"
@@ -2750,20 +2312,18 @@
 								<div class="trainer-badge-floating">
 									<div>
 										<p class="trainer-badge-title">Gaurav Dubey</p>
-										<p class="trainer-badge-sub">Founder & Lead Trainer</p>
+										<p class="trainer-badge-sub">Founder &amp; Lead Trainer</p>
 									</div>
 									<span
-										style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 20px; border: 1px solid rgba(56, 189, 248, 0.4);">13+
-										YRS EXP</span>
+										style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 20px; border: 1px solid rgba(56, 189, 248, 0.4);">13+ YRS EXP</span>
 								</div>
 							</div>
 
-							<!-- Social Media Icons below trainer photo & name box -->
+							<!-- Social Media Icons below trainer photo -->
 							<div class="trainer-social-links"
 								style="display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 14px;">
 								<a href="https://www.youtube.com/channel/UCkGU7-8u1zCLRHb5spjUaLQ" target="_blank"
-									rel="noopener" title="Follow Gaurav Dubey on YouTube"
-									class="trainer-social-icon icon-yt">
+									rel="noopener" title="Follow Gaurav Dubey on YouTube" class="trainer-social-icon icon-yt">
 									<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
 										<path
 											d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
@@ -2794,13 +2354,10 @@
 									<circle cx="12" cy="12" r="10"></circle>
 									<polyline points="12 6 12 12 16 14"></polyline>
 								</svg>
-								MEET YOUR MENTOR & TRAINER
+								MEET YOUR MENTOR &amp; TRAINER
 							</span>
-							<h2 class="trainer-main-title">Learn Digital Marketing Directly From <span>Gaurav
-									Dubey</span>
-							</h2>
-							<p class="trainer-subtitle">Founder & Lead Digital Growth Strategist at King of Digital
-								Marketing with over 13+ years of hands-on agency & live campaign experience.</p>
+							<h2 class="trainer-main-title">Learn Digital Marketing Directly From <span>Gaurav Dubey</span></h2>
+							<p class="trainer-subtitle">Founder &amp; Lead Digital Growth Strategist at King of Digital Marketing with over 13+ years of hands-on agency &amp; live campaign experience.</p>
 
 							<!-- Key Stats Grid -->
 							<div class="trainer-stats-row">
@@ -2829,40 +2386,33 @@
 										stroke-width="2.5">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									<span><strong>Real Agency Leadership:</strong> Founder of King of Digital Marketing,
-										Devweboic & UIDMT managing high-ROI SEO, Google Ads & Social Media campaigns for
-										domestic and international clients.</span>
+									<span><strong>Real Agency Leadership:</strong> Founder of King of Digital Marketing, Devweboic &amp; UIDMT managing high-ROI SEO, Google Ads &amp; Social Media campaigns for domestic and international clients.</span>
 								</li>
 								<li class="trainer-bio-item">
 									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
 										stroke-width="2.5">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									<span><strong>Live Campaign Mentorship:</strong> Direct practical training on live
-										client ad budgets instead of boring theoretical lectures.</span>
+									<span><strong>Live Campaign Mentorship:</strong> Direct practical training on live client ad budgets instead of boring theoretical lectures.</span>
 								</li>
 								<li class="trainer-bio-item">
 									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
 										stroke-width="2.5">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									<span><strong>AI Tools & Automation Integration:</strong> Teaches cutting-edge
-										ClaudeChatGPT, Gemini, Midjourney & AI Search Engine Optimization
-										workflows.</span>
+									<span><strong>AI Tools &amp; Automation Integration:</strong> Teaches cutting-edge ChatGPT, Gemini, Midjourney &amp; AI Search Engine Optimization workflows.</span>
 								</li>
 								<li class="trainer-bio-item">
 									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
 										stroke-width="2.5">
 										<polyline points="20 6 9 17 4 12"></polyline>
 									</svg>
-									<span><strong>Job & Freelancing Support:</strong> Personal 1-on-1 career counseling,
-										interview preparation, resume building, and guaranteed agency internship.</span>
+									<span><strong>Job &amp; Freelancing Support:</strong> Personal 1-on-1 career counseling, interview preparation, resume building, and guaranteed agency internship.</span>
 								</li>
 							</ul>
 
 							<div class="trainer-cta-group">
-								<a href="javascript:void(0);" onclick="openGlobalPopupForm()"
-									class="trainer-btn-primary">
+								<a href="#kdm-hero-lead-form" class="trainer-btn-primary">
 									Book Free Session With Trainer
 									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
 										stroke-width="2.5">
@@ -2875,7 +2425,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- About Trainer Section Ends -->
 
 			<!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ===== -->
 			<section class="kdm-testimonial-section">
@@ -2883,8 +2432,7 @@
 					<div class="kdm-testimonial-header">
 						<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> STUDENT SUCCESS STORIES</span>
 						<h2 class="kdm-testimonial-title">Words of <strong>Digital Marketing Students</strong></h2>
-						<p class="kdm-testimonial-subtitle">Real feedback and career reviews from students, freelancers,
-							and working professionals trained at King of Digital Marketing.</p>
+						<p class="kdm-testimonial-subtitle">Real feedback and career reviews from students, freelancers, and working professionals trained at King of Digital Marketing.</p>
 					</div>
 
 					<div class="kdm-testimonial-wrapper">
@@ -2903,11 +2451,7 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"When it comes to digital marketing I remember one name: King of Digital Marketing
-									and Gaurav Sir. It's amazing to learn Digital marketing here at Devweboic. I
-									completed my training here and gained practical knowledge that transformed my
-									career. After learning digital marketing I started working as a freelancer and now I
-									am delivering great results for my clients."
+									"When it comes to digital marketing I remember one name: King of Digital Marketing and Gaurav Sir. It's amazing to learn Digital marketing here at Devweboic. I completed my training here and gained practical knowledge that transformed my career. After learning digital marketing I started working as a freelancer and now I am delivering great results for my clients."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-1">KP</div>
@@ -2931,10 +2475,7 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"At King of Digital Marketing Institute, I got to discover the different ways of
-									mastery in the digital marketing world. I am very thankful to all the members and
-									faculty of this Institute for teaching all modules of digital marketing with real
-									live campaigns."
+									"At King of Digital Marketing Institute, I got to discover the different ways of mastery in the digital marketing world. I am very thankful to all the members and faculty of this Institute for teaching all modules of digital marketing with real live campaigns."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-2">S</div>
@@ -2958,10 +2499,7 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"King of Digital Marketing is one of the most reputed digital marketing institutes
-									in South Delhi situated in Kalkaji Govindpuri. All the teachers and staff are
-									wonderful and supportive. We worked on live agency projects during the course and
-									learned to implement SEO, SMO, and PPC elements practically."
+									"King of Digital Marketing is one of the most reputed digital marketing institutes in South Delhi situated in Kalkaji Govindpuri. All the teachers and staff are wonderful and supportive. We worked on live agency projects during the course and learned to implement SEO, SMO, and PPC elements practically."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-3">S</div>
@@ -2985,10 +2523,7 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"It was very difficult for me initially because I was new to the digital world and
-									had zero technical knowledge. But after completing the course from Devweboic / King
-									of Digital Marketing, my self-confidence boosted and I am now successfully working
-									as a performance digital marketer. Thank you Gaurav sir!"
+									"It was very difficult for me initially because I was new to the digital world and had zero technical knowledge. But after completing the course from Devweboic / King of Digital Marketing, my self-confidence boosted and I am now successfully working as a performance digital marketer. Thank you Gaurav sir!"
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-4">D</div>
@@ -3012,17 +2547,13 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"I started my career as a YouTuber, but my channel was not growing. I decided to
-									master YouTube &amp; Video marketing at King of Digital Marketing. The course made
-									me an expert in video SEO, algorithms, and funnel promotion. Now I also monetize my
-									own website and get great results."
+									"I started my career as a YouTuber, but my channel was not growing. I decided to master YouTube &amp; Video marketing at King of Digital Marketing. The course made me an expert in video SEO, algorithms, and funnel promotion. Now I also monetize my own website and get great results."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-5">RK</div>
 									<div class="kdm-testimonial-info">
 										<h4 class="kdm-testimonial-name">Rajeev Kumar</h4>
-										<span class="kdm-testimonial-role">SEO Executive &amp; YouTube Strategist —
-											Delhi</span>
+										<span class="kdm-testimonial-role">SEO Executive &amp; YouTube Strategist — Delhi</span>
 									</div>
 								</div>
 							</div>
@@ -3040,10 +2571,7 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"Pursued the digital marketing course at King of Digital Marketing Institute and had
-									a fantastic learning experience. My friend recommended Devweboic / KDM. After
-									completing practical training and live agency assignments here, I polished my skills
-									and secured a managerial digital marketing role."
+									"Pursued the digital marketing course at King of Digital Marketing Institute and had a fantastic learning experience. My friend recommended Devweboic / KDM. After completing practical training and live agency assignments here, I polished my skills and secured a managerial digital marketing role."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-6">KS</div>
@@ -3067,10 +2595,7 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"If you are looking to join the best digital marketing institute in South Delhi then
-									must join King of Digital Marketing. They teach everything in depth with 100%
-									practicals. Immediately after the 3-month course, I got hired by a digital marketing
-									agency in West Delhi. Thank you Gaurav sir for making every concept easy to master!"
+									"If you are looking to join the best digital marketing institute then must join King of Digital Marketing. They teach everything in depth with 100% practicals. Immediately after the 3-month course, I got hired by a digital marketing agency in West Delhi. Thank you Gaurav sir for making every concept easy to master!"
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-1">SJ</div>
@@ -3094,17 +2619,13 @@
 										class="fa fa-star"></i><i class="fa fa-star"></i>
 								</div>
 								<p class="kdm-testimonial-quote">
-									"Mr. Gaurav Dubey sir provides top-tier real agency knowledge of digital marketing —
-									how algorithms work, how websites rank, and how to execute high-ROI Google &amp;
-									Meta ad campaigns. I strongly recommend King of Digital Marketing in South Delhi to
-									anyone aiming to build a solid career."
+									"Mr. Gaurav Dubey sir provides top-tier real agency knowledge of digital marketing — how algorithms work, how websites rank, and how to execute high-ROI Google &amp; Meta ad campaigns. I strongly recommend King of Digital Marketing to anyone aiming to build a solid career."
 								</p>
 								<div class="kdm-testimonial-author-box">
 									<div class="kdm-testimonial-avatar grad-2">CM</div>
 									<div class="kdm-testimonial-info">
 										<h4 class="kdm-testimonial-name">Cheshta Mehta</h4>
-										<span class="kdm-testimonial-role">Performance Marketing Specialist —
-											Delhi</span>
+										<span class="kdm-testimonial-role">Performance Marketing Specialist — Delhi</span>
 									</div>
 								</div>
 							</div>
@@ -3124,174 +2645,66 @@
 					</div>
 				</div>
 			</section>
-			<!-- ===== CENTRALIZED VIBRANT TESTIMONIALS SECTION ENDS ===== -->
-			<div class="container">
+
+			<!-- Educational & Career Deep-Dive Starts -->
+			<div class="container" style="margin-top: 40px;">
 				<div class="col-md-12">
-					<h3 align="center">Scope of Digital Marketing in India</h3>
-					<p align="justify">The eventual fate of Digital Marketing is blasting in India as well as all parts
-						of
-						the world. The year 2022 overwhelmed the businesses with over 20 lakh openings for work in the
-						Digital Marketing space. All things considered, coming up next is a greater amazement job
-						openings
-						for digital marketers. In 2023, It is expected that almost 30L jobs will come in digital
-						marketing
-						industries. <br />
-						The studies led by a few forums have anticipated this number to develop with Digitalisation in
-						the
-						country. Our <a href="https://en.wikipedia.org/wiki/Narendra_Modi" rel=”nofollow”>Prime Minister
-							-
-							Narendra Modi</a> has been effectively promoting the possibility of Digital Marketing in
-						India
-						to extend Digital Marketing in India. PM Modi's <a href="https://www.digitalindia.gov.in/"
-							rel=”nofollow”>digital India</a> dream and campaign is reaching at highest level and being
-						accepted by each and every people of the country. The activity of Government of India is planned
-						for
-						giving simple services to its locals. <br />
-						Presently envision when a country's Prime Minister is making awareness of Digital Marketing,
-						Think!
-						what might be the scope of digital marketing in India.</p>
+					<h3 align="center" style="font-size: 26px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">Scope of Digital Marketing in {{CITY_NAME}} &amp; India</h3>
+					<p align="justify" style="color: #475569; font-size: 14.5px; line-height: 1.7;">
+						The future of Digital Marketing is booming across India and globally. Digital marketing opens up massive career opportunities across {{CITY_NAME_ALT}}, UP, Delhi NCR, and international remote teams. With millions of businesses shifting online, learning SEO, Google Ads, SMM, and AI tools positions you at the forefront of modern high-growth industries.
+					</p>
 
-					<h2 align="center">How Can Digital Marketing Course Help You to Grow Your Career?</h2>
-					<p align="justify">Digital marketing is a career that has ample of room for creatives, techs, and
-						business people. There are so many roads that you can follow; it is best to focus on one or two
-						things that you do most excellent, then you can always learn more from there. If you have a
-						communications or business background, you may want to think about going into management.<br />
-						This is a field that is ever-changing and engaging; there is always something new to learn. And
-						if
-						you work in an agency, you will always be working with different clients, which means you will
-						probably never get bored. As this is such a dynamic field that needs ongoing learning, you need
-						to
-						be a self-starter that is eager to teach yourself new skills and technology on a constant basis.
-						If
-						you are innovative, curious, a natural leader, proactive, creative, adaptable, and have a good
-						business sense; you will possibly do well in most areas in this field.</p>
+					<h2 align="center" style="font-size: 26px; font-weight: 800; color: #0f172a; margin-top: 30px; margin-bottom: 12px;">How Can Digital Marketing Course Help You to Grow Your Career?</h2>
+					<p align="justify" style="color: #475569; font-size: 14.5px; line-height: 1.7;">
+						Digital marketing is a high-rewarding career that has room for creatives, technical specialists, and business minds. Whether you are interested in performance marketing, search algorithms, social media branding, or corporate marketing management, digital skills enable rapid career progression and high salary growth.
+					</p>
 				</div>
-
 			</div>
 
-			<div class="container mt-5">
-
+			<div class="container" style="margin-top: 30px;">
 				<div class="col-12">
-					<h2 align="center">What Is The Eligibility For a Digital Marketing Course? </h2>
-					<p align="justify">
-						Being a graduate is the only eligibility criterion to get enrolled in a digital marketing
-						course.
-						The graduation degree must be from a recognized university/ educational institution
-						(UGC/AICTE/DEC/AIU/State Government) in any discipline. There is no restriction on the
-						discipline or
-						stream of study to get enrolled in a digital marketing course. So, it is not mandatory that the
-						applicant must be a graduate of the commerce or marketing stream. An engineer or IT graduate or
-						entrepreneur or anyone else who is interested in entering the field of digital marketing or
-						making a
-						career switch to digital marketing can enroll in digital marketing courses. Work experience is
-						also
-						not required in most digital marketing courses. However, the aspiring student must have a basic
-						understanding of digital media so that he/she can be able to understand how to work with the
-						various
-						platforms and media and keep up with the pace of the digital marketing course.
+					<h2 align="center" style="font-size: 24px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">What Is The Eligibility For a Digital Marketing Course in {{CITY_NAME}}?</h2>
+					<p align="justify" style="color: #475569; font-size: 14.5px; line-height: 1.7;">
+						Having completed 10+2 (Class 12) or graduation in any discipline (Arts, Commerce, Science, Engineering, Management) is the eligibility criteria. No prior coding or technical background is required. Anyone eager to build a lucrative career in online marketing can enroll.
 					</p>
-
 				</div>
-
 			</div>
 
-			<div class="col-12">
-				<div class="container">
-
-					<h2 align="center">How Can Join a Digital Marketing Course In Delhi?</h2>
-					<p align="justify">
-
-						Before joining a digital marketing course, it is very important to research the courses of all
-						available digital marketing institutes in Delhi. Selecting the best digital marketing course is
-						not
-						easy as there are a variety of institutes offering a variety of courses. First, you need to make
-						a
-						list of all available digital marketing institutes. Then you can check the reliability of the
-						course
-						from each institute. You can check their website and validate their identities and
-						qualifications to
-						ensure they are experts in the digital marketing field. Then you examine the course curriculum
-						and
-						check if that course content is related to what you would like to learn. Most institutes offer
-						enrolment facilities on their website. After researching and finding the best digital marketing
-						institute in Delhi, you can visit their website and fill out the query form for enrollment. They
-						will contact you and make you understand the further procedure. You can also get phone numbers
-						and
-						email ids from their website. You can contact via the contact details and ask for further
-						enrolment
-						process.
+			<div class="container" style="margin-top: 30px;">
+				<div class="col-12">
+					<h2 align="center" style="font-size: 24px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">How Can You Join Digital Marketing Course in {{CITY_NAME}}?</h2>
+					<p align="justify" style="color: #475569; font-size: 14.5px; line-height: 1.7;">
+						Before joining, research the course curriculum, live project exposure, and mentor credentials. At King of Digital Marketing {{CITY_NAME}}, you can schedule a free counselling session or attend a live demo class. Fill out the admission form or call our counsellors at <strong>+91 9555696058</strong> to reserve your batch seat.
 					</p>
-
 				</div>
 			</div>
 
-			<div class="col-12">
-				<div class="container">
-					<h2 align="center">Why should You Go For Digital Marketing Course in Delhi?</h2>
-					<p align="justify">The field of digital marketing is constantly evolving. While traditional
-						marketing
-						still has a vital role in the world, digital marketing is quickly taking over due to
-						affordability
-						and analytics. The popular site LinkedIn has also specified that the <b>Digital Marketing
-							Specialist</b> role is among the top 10 most in-demand jobs, with 860,000 job openings.
-						Companies are looking for efficient digital marketers to grow their online presence and stay
-						trendy
-						in the market. <br><br>
-						As the demand for digital marketers is high in the job market, opting for a digital marketing
-						course
-						in Delhi can enable you to grab this opportunity. A digital marketing course will make you a
-						smart
-						and efficient digital marketing professional. You will learn all techniques and strategies of
-						digital marketing. You will also get exposure to the latest digital tools that you can use in
-						your
-						professional career. The course will strengthen your knowledge that you can apply in your
-						professional career and take your career to the next level. You can explore a wide range of
-						career
-						options and increase your market value. Digital marketing courses can also enhance your skills
-						and
-						creativity. </p>
-
-				</div>
-			</div>
-
-			<div class="col-12">
-				<div class="container">
-					<h2 align="center">How Much Money Can You Earn After Completing Digital Marketing Course?</h2>
-					<p align="justify">After completing the digital marketing course, you will be able to earn a good
-						salary. If you are a Fresher in a digital marketing job, your salary can be between 15k to 25k.
-						After one year when your skills and experience grow, you can earn up to 35k to 50k. You can also
-						earn up to 1 lakh when you become an expert.
+			<div class="container" style="margin-top: 30px;">
+				<div class="col-12">
+					<h2 align="center" style="font-size: 24px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">How Much Money Can You Earn After Completing Digital Marketing Course?</h2>
+					<p align="justify" style="color: #475569; font-size: 14.5px; line-height: 1.7;">
+						After completing the course, freshers typically start with salaries between ₹2.5 LPA to ₹4.5 LPA. After 2-3 years of experience, digital marketers earn ₹6 LPA to ₹10 LPA, while experienced team leads and agency founders earn ₹15 LPA to ₹30+ LPA.
+					</p>
 					<ul style="list-style: none; padding-left: 0; margin-top: 15px;">
 						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
 								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>The salary range of
-								a Digital Marketing Manager is between INR 4,00,000 to INR 18,00,000 based on experience
-								and expertise.</span></li>
+								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>The salary range of a Digital Marketing Manager is between INR 4,00,000 to INR 18,00,000 based on experience and expertise.</span></li>
 						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
 								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>Whereas a PPC
-								analyst can start with 3 lakhs per annum and after 2 years of experience he/she can
-								expect an average of INR 4-5 Lakhs per year in India.</span></li>
+								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>A PPC Analyst can start with 3 Lakhs per annum and after 2 years of experience can expect an average of INR 4-6 Lakhs per year in India.</span></li>
 						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
 								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>An entry-level
-								digital marketing salary for a Social Media Marketing Specialist with less than 1 year
-								of experience can be an average of INR 2,50,000 in India. After having 5-9 years of
-								experience, he/she can earn around INR 6,90,923 per annum based in India.</span></li>
+								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>An entry-level Social Media Specialist can start with INR 2,50,000 per annum and grow to INR 6,00,000+ with hands-on campaign experience.</span></li>
 						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
 								class="fa fa-check-circle"
-								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>The digital
-								marketing salary for a fresher Search Engine Optimization Specialist with less than
-								1-year experience is an average of INR 1,75,000 per annum in India. After having 3 years
-								of experience, he/she can earn around 5 lakhs per annum.</span></li>
+								style="color: #0284c7; font-size: 16px; margin-top: 3px;"></i> <span>SEO Specialists earn an average of INR 2,00,000 to INR 5,00,000 per annum in India, scaling higher with international remote projects.</span></li>
 					</ul>
 				</div>
 			</div>
 
 			<!-- Student Video Testimonials Redesigned Section -->
-			<div class="container">
+			<div class="container" style="margin-top: 40px;">
 				<div class="student-reviews-showcase">
-					<!-- Section Header -->
 					<div class="student-reviews-header">
 						<span class="student-reviews-badge">
 							<svg width="14" height="14" viewBox="0 0 24 24" fill="#0284c7" stroke="#0284c7">
@@ -3299,14 +2712,10 @@
 									points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
 								</polygon>
 							</svg>
-							REAL STUDENT REVIEWS & TESTIMONIALS
+							REAL STUDENT REVIEWS &amp; TESTIMONIALS
 						</span>
 						<h2 class="student-reviews-title">What Our Students Say About Our Course</h2>
-						<p class="student-reviews-subtitle">Watch authentic video feedback from students who completed
-							their
-							Digital Marketing training at King of Digital Marketing Institute and built successful
-							careers.
-						</p>
+						<p class="student-reviews-subtitle">Watch authentic video feedback from students who completed their Digital Marketing training at King of Digital Marketing Institute and built successful careers.</p>
 					</div>
 
 					<!-- Video Grid (Showing top 3 videos) -->
@@ -3320,9 +2729,8 @@
 							</div>
 							<div class="student-card-info">
 								<div class="student-card-stars">★★★★★</div>
-								<h3 class="student-card-title">Student Review & Course Experience</h3>
-								<p class="student-card-desc">Practical learning experience, live project execution and
-									trainer guidance at South Delhi center.</p>
+								<h3 class="student-card-title">Student Review &amp; Course Experience</h3>
+								<p class="student-card-desc">Practical learning experience, live project execution and trainer guidance at center.</p>
 							</div>
 						</div>
 
@@ -3335,9 +2743,8 @@
 							</div>
 							<div class="student-card-info">
 								<div class="student-card-stars">★★★★★</div>
-								<h3 class="student-card-title">Practical Digital Marketing Placement Review</h3>
-								<p class="student-card-desc">100% placement support and agency internship experience
-									feedback by old student.</p>
+								<h3 class="student-card-title">Practical Placement Review</h3>
+								<p class="student-card-desc">100% placement support and agency internship experience feedback by old student.</p>
 							</div>
 						</div>
 
@@ -3351,8 +2758,7 @@
 							<div class="student-card-info">
 								<div class="student-card-stars">★★★★★</div>
 								<h3 class="student-card-title">Student Career Success Feedback</h3>
-								<p class="student-card-desc">Detailed feedback on SEO, PPC Google Ads and Social Media
-									Marketing modules.</p>
+								<p class="student-card-desc">Detailed feedback on SEO, PPC Google Ads and Social Media Marketing modules.</p>
 							</div>
 						</div>
 					</div>
@@ -3361,18 +2767,16 @@
 					<div class="reviews-redirect-bar">
 						<div class="redirect-proof">
 							<div class="redirect-stars-box">
-								<span style="font-weight: 800; color: #fbbf24; font-size: 18px; line-height: 1;">4.9 /
-									5.0</span>
+								<span style="font-weight: 800; color: #fbbf24; font-size: 18px; line-height: 1;">4.8 / 5.0</span>
 								<span style="color: #fbbf24; font-size: 13px;">★★★★★</span>
 							</div>
 							<div class="redirect-text">
-								<h< /h3>Want to see all 27+ Video Testimonials & Google Reviews?</h4>
-									<p>Explore full student feedback, YouTube Shorts, and verified Google student
-										reviews.</p>
+								<h3 style="font-size: 17px; font-weight: 800; margin: 0; color: #ffffff;">Want to see all 27+ Video Testimonials &amp; Google Reviews?</h3>
+								<p style="margin: 0; font-size: 13px; color: #cbd5e1;">Explore full student feedback, YouTube Shorts, and verified Google student reviews.</p>
 							</div>
 						</div>
 						<a href="digital-marketing-course-review.aspx" class="btn-view-all-reviews">
-							View All Reviews (27+ Videos & Google Reviews)
+							View All Reviews (27+ Videos &amp; Google Reviews)
 							<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff"
 								stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 								<line x1="5" y1="12" x2="19" y2="12"></line>
@@ -3384,69 +2788,67 @@
 			</div>
 
 			<!-- Section for FAQ Starts -->
-			<section class="kdm-faq-section" id="kdm-faq-section">
+			<section class="kdm-faq-section" id="kdm-faq-section" style="margin-top: 40px;">
 				<div class="kdm-faq-container">
 					<div class="kdm-faq-layout-grid">
 						<!-- Left Column: FAQ Accordion -->
 						<div>
 							<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our
-								AI-powered digital marketing course in South Delhi, fees, syllabus, and placement
-								support.</p>
+							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our AI-powered digital marketing course in {{CITY_NAME}}, fees, syllabus, and placement support.</p>
 
 							<div class="kdm-faq-accordion">
 								<!-- FAQ 1 -->
 								<div class="kdm-faq-item active">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.1. What is the Digital Marketing Course fee in South Delhi?</span>
+										<span class="kdm-faq-question">Q.1. What is the Digital Marketing course fee in {{CITY_NAME}}?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing course fees at King of Digital Marketing start from <strong>₹24,999</strong> for the 45-Day PowerPlay Course up to <strong>₹39,999</strong> for the 4-Month Comprehensive Mastery Course, including agency internship and 100% placement support.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing course fees in {{CITY_NAME}} at King of Digital Marketing range from <strong>₹20,000 to ₹35,000</strong> depending on the program tier (Launchpad, PowerPlay, Advanced, or Mastery), with easy 0% interest monthly installment options.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 2 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.2. What are the advantages of enrolling in this digital marketing course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.2. Which institutes provide the best digital marketing course in {{CITY_NAME}}?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You learn directly from agency founder <strong>Gaurav Dubey (13+ years exp.)</strong> on active client accounts with live ad budgets. The curriculum covers 60+ modules including Generative AI, SEO, Google/Meta Ads, CRM automation, paid agency internships, and guaranteed job assistance.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> King of Digital Marketing (KDM / Devweboic) is rated #1 for agency-driven practical training in {{CITY_NAME}}. Other institutes include NDMIT, Sapience Technologies, and DDMI. KDM is distinguished by offering live client ad budgets, paid internships, and Gaurav Dubey mentorship.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 3 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.3. What is the duration of the digital marketing course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.3. What is the duration of the digital marketing course in {{CITY_NAME}}?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Course durations vary based on the track: the <strong>PowerPlay Fast-Track Course</strong> is 45 Days, while the <strong>Mastery Comprehensive Program</strong> is 4 Months with 2 Months agency internship experience.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Course durations vary from <strong>45 Days (PowerPlay Fast-Track)</strong> to <strong>3-4 Months (Mastery Program)</strong>, followed by 1 to 2 months of guaranteed agency internship with live campaign execution.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 4 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.4. Can I attend classes online or classroom in South Delhi?</span>
+										<span class="kdm-faq-question">Q.4. What is the eligibility for digital marketing courses in {{CITY_NAME}}?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We offer both offline classroom training at our South Delhi (Govindpuri/Kalkaji) institute as well as live interactive online classes with 1-on-1 doubt clearing and recorded backups.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Anyone who has completed Class 12 or graduation in any stream can enroll. No prior coding or technical knowledge is needed.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 5 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.5. Will I get guaranteed job placement after completing the course?</span>
+										<span class="kdm-faq-question">Q.5. What is the salary of a digital marketer in {{CITY_NAME}} and India?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide <strong>100% placement assistance</strong> with resume optimization, portfolio creation, mock HR interviews, and direct interview drives with 150+ hiring partner agencies and MNCs across Delhi NCR.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Freshers typically earn between <strong>₹2.5 LPA to ₹4.5 LPA</strong>, while experienced specialists and managers earn <strong>₹6 LPA to ₹15+ LPA</strong> in India and higher with international remote projects.</p>
 									</div>
 								</div>
 
@@ -3457,45 +2859,20 @@
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely! You can book a free live demo session by filling out the <a href="#kdm-hero-lead-form"><strong>Enquiry Form</strong></a> or calling our counseling team directly at <strong>+91 9555696058</strong>.</p>
-									</div>
-								</div>
-
-								<!-- FAQ 7 -->
-								<div class="kdm-faq-item">
-									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.7. Which certifications will I receive upon course completion?</span>
-										<span class="kdm-faq-icon">+</span>
-									</button>
-									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>15+ industry certifications</strong> including Google Ads, Meta Certified Digital Marketing Associate, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
-									</div>
-								</div>
-
-								<!-- FAQ 8 -->
-								<div class="kdm-faq-item">
-									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.8. Who can join this digital marketing course?</span>
-										<span class="kdm-faq-icon">+</span>
-									</button>
-									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Anyone with basic computer and internet knowledge can join! Our batches are specially designed for college students, job seekers, working professionals wanting to switch careers, entrepreneurs, freelancers, and homemakers.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely! You can book a free live demo class by filling out the <a href="#kdm-hero-lead-form"><strong>Enquiry Form</strong></a> or calling <strong>+91 9555696058</strong>.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<!-- Right Column: Course Counseling & Special Scholarship Card -->
+						<!-- Right Column: Course Counseling Card -->
 						<div>
 							<div class="kdm-faq-offer-card">
-								<div
-									style="font-size: 11px; font-weight: 800; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
+								<div style="font-size: 11px; font-weight: 800; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">
 									🎓 ADMISSION OPEN 2026
 								</div>
 								<h4>Talk to Course Mentor</h4>
-								<p style="font-size: 13px; color: #cbd5e1; margin-bottom: 12px; line-height: 1.45;">Get
-									1-on-1 career guidance and special scholarship offers for upcoming weekday &amp;
-									weekend batches.</p>
+								<p style="font-size: 13px; color: #cbd5e1; margin-bottom: 12px; line-height: 1.45;">Get 1-on-1 career guidance and special scholarship offers for upcoming weekday &amp; weekend batches in {{CITY_NAME}}.</p>
 								<div class="box-styling">Special 28% Scholarship</div>
 								<div class="box-offer">✅ 100% Practical Live Projects</div>
 								<div class="box-offer">✅ 60+ AI &amp; Marketing Modules</div>
@@ -3509,7 +2886,19 @@
 					</div>
 				</div>
 			</section>
-			<!-- Section for FAQ Ends -->
+
+			<!-- Multi-Branch Section & {{CITY_NAME}} Map Embed -->
+			<div class="container" style="margin-top: 45px; margin-bottom: 50px;">
+				<div class="text-center" style="margin-bottom: 25px;">
+					<span class="modules-badge-pill">OUR REGIONAL CENTERS</span>
+					<h2 style="font-size: 26px; font-weight: 800; color: #0f172a; margin-top: 8px;">Visit Our Training Centre in {{CITY_NAME}} ({{CITY_NAME_ALT}})</h2>
+					<p style="color: #64748b; font-size: 15px;">Walk in for direct campus walkthrough and 1-on-1 counselor guidance.</p>
+				</div>
+				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 25px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.153685211441!2d81.81990631485039!3d25.433124983787014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398534d563ffffbd%3A0xcce4b351ee75985b!2sKDM%20-%20Digital%20Marketing%20Institute%20in%20{{CITY_NAME}}%2C%20SEO%20Services%20%26%20Web%20Design%20Company!5e0!3m2!1sen!2sin!4v1573694913781!5m2!1sen!2sin"
+						width="100%" height="400" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
 
 		</div>
 
