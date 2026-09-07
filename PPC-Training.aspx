@@ -30,76 +30,132 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 		<script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "1. What will I learn in the PPC & Google Ads Course in Delhi?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "You will learn complete paid advertising across Google Search Ads, Display Network, YouTube Video Ads, Google Shopping, Performance Max (PMax), Google Tag Manager (GTM), GA4 conversion tracking, and Landing Page CRO."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "2. Will I get to run ads on live Google accounts during the course?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes! Unlike institutes that only show theory, King of Digital Marketing gives you live budget practice to create campaigns, test ad copies, configure conversion tracking, and analyze actual real-time ad data."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "3. What is the difference between SEO and PPC?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "SEO focuses on gaining organic, non-paid rankings on Google over time, whereas PPC (Pay-Per-Click) involves running paid ads on Google and YouTube to generate instant high-intent leads and sales."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "4. Which certifications will I earn after completing the PPC training?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "You will earn official Google Ads Search Certification, Google Ads Display Certification, Google Ads Video Certification, Google Analytics 4 Certification, and the King of Digital Marketing Advanced PPC Specialist Certificate."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "5. What is the average starting salary for a PPC Specialist in Delhi NCR?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Fresher PPC Executives typically start between ₹3.5 LPA to ₹5.0 LPA. With 2-3 years of proven experience managing ad budgets profitably, salaries quickly scale to ₹8.0 LPA - ₹15.0+ LPA."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "6. What are the batch timings for working professionals?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We offer flexible weekday morning/evening batches as well as dedicated weekend batches (Saturday & Sunday) tailored for working professionals and business owners."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "7. Does King of Digital Marketing guarantee job placement support?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes! We provide 100% placement assistance, including mock interview rounds with senior agency media buyers, Google Ads case study presentations, resume building, and interview calls until you get placed."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "8. How can I attend a free demo class before enrolling?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "You can book a free demo session by submitting the lead form on this page or reaching out directly to our South Delhi training center."
-            }
-        }
-    ]
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the course fee for the Advance Google Ads (PPC) Training in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Google Ads (PPC) course fee at King of Digital Marketing ranges from ₹15,000 to ₹25,000 with flexible 0% interest monthly EMI installments and early-bird scholarship discounts of up to 28%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is covered in the Google Ads & Performance Marketing syllabus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The syllabus covers Google Search Ads, Performance Max (PMax), Display Network, YouTube Video Ads, Google Shopping / Merchant Center, Remarketing, App Install Campaigns, GTM, and GA4 Analytics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose King of Digital Marketing for PPC Training in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We manage millions of rupees in real monthly ad spend for domestic and international clients. Trainees learn directly from agency head Gaurav Dubey (13+ Yrs Exp.), work on live ad budgets, and get 100% placement support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the eligibility requirements for the PPC training course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any 12th-pass student, graduate, media buyer, marketing executive, or business owner can join. Basic computer knowledge is sufficient; no coding or math expertise is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the duration of the Google Ads training program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer 45-Day Intensive Bootcamps and 3-Month Performance Marketing Programs, followed by a guaranteed agency internship managing active client ad accounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide 100% placement support for PPC & Media Buyers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We provide 100% placement assistance including live ROAS portfolio creation, resume optimization, Google Ads mock interviews, and direct interviews with 250+ top agencies and brands."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I get to manage real ad budgets and live Google Ads accounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, 100% practical training on live ad budgets. You will set up real campaigns, configure negative keyword lists, design responsive search ads, and optimize bidding in real time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications will I receive after completing the PPC course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will receive Multiple Industry Certifications including Google Ads Search, Display & Video Certifications, Google Analytics (GA4) Certification, and the official UIDMT PPC Master Certificate with an Internship Letter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this PPC course include conversion tracking and GA4 / GTM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! You will learn how to set up Google Tag Manager (GTM), custom event triggers, GA4 conversion tracking, e-commerce purchase tracking, and Smart Bidding algorithms (tCPA, tROAS)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What salary can a PPC Analyst / Performance Marketer earn in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Freshers start between ₹3.0 LPA to ₹5.0 LPA (₹25,000 to ₹42,000/month). Experienced PPC Specialists earn ₹6.5 LPA to ₹14.0+ LPA, while freelance media buyers earn ₹50,000 to ₹2,00,000+ monthly managing global ad accounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are weekend and online live Google Ads classes available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer both offline classroom training at our South Delhi center and live online interactive batches with full recording access."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I attend a free demo session before enrolling in PPC training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can schedule a 100% free career counseling session and live campaign walkthrough with Gaurav Dubey before paying your admission fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I learn how to optimize Quality Score and lower Cost-Per-Click (CPC)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We teach keyword match types, ad copy CTR optimization, landing page relevance, ad extensions/assets, and bid strategy tuning to maximize Quality Score (8/10+) and reduce CPC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this PPC course help e-commerce and local business owners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Business owners learn how to run Google Shopping feeds, Performance Max campaigns, and high-intent local call ads to acquire profitable daily leads and e-commerce orders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What PPC tools, bidding simulators, and analytics software are covered?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will master Google Ads Editor, Google Tag Manager, GA4, Looker Studio, SpyFu, Semrush PPC Toolkit, Google Keyword Planner, and ChatGPT for Ad Copywriting."
+      }
+    }
+  ]
 }
-		</script>
+</script>
 		</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
@@ -2624,96 +2680,171 @@
 						<!-- Left Column: FAQ Accordion -->
 						<div>
 							<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our
-								AI-powered PPC course in South Delhi, fees, syllabus, and placement
-								support.</p>
+							<p class="kdm-faq-subtitle">Got questions about our Google Ads (PPC) training course in South Delhi? Here are the 15 most frequently asked questions about Performance Max, search ads, live ad budgets, fees, and 100% placement support.</p>
 
 							<div class="kdm-faq-accordion">
 								<!-- FAQ 1 -->
 								<div class="kdm-faq-item active">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.1. What is the PPC Course fee in South Delhi?</span>
+										<span class="kdm-faq-question">Q.1. What is the course fee for the Advance Google Ads (PPC) Training in Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> PPC course fees at King of Digital Marketing start from <strong>₹24,999</strong> for the 45-Day PowerPlay Course up to <strong>₹39,999</strong> for the 4-Month Comprehensive Mastery Course, including agency internship and 100% placement support.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The Google Ads (PPC) course fee at King of Digital Marketing ranges from <strong>₹15,000 to ₹25,000</strong> with flexible 0% interest monthly EMI installments and early-bird scholarship discounts of up to 28%.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 2 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.2. What are the advantages of enrolling in this PPC course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.2. What is covered in the Google Ads & Performance Marketing syllabus?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You learn directly from agency founder <strong>Gaurav Dubey (13+ years exp.)</strong> on active client accounts with live ad budgets. The curriculum covers 60+ modules including Generative AI, SEO, Google/Meta Ads, CRM automation, paid agency internships, and guaranteed job assistance.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The syllabus covers <strong>Google Search Ads, Performance Max (PMax), Display Network, YouTube Video Ads, Google Shopping / Merchant Center, Remarketing, App Install Campaigns, GTM, and GA4 Analytics</strong>.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 3 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.3. What is the duration of the PPC course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.3. Why choose King of Digital Marketing for PPC Training in Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Course durations vary based on the track: the <strong>PowerPlay Fast-Track Course</strong> is 45 Days, while the <strong>Mastery Comprehensive Program</strong> is 4 Months with 2 Months agency internship experience.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We manage millions of rupees in real monthly ad spend for domestic and international clients. Trainees learn directly from agency head Gaurav Dubey (13+ Yrs Exp.), work on live ad budgets, and get 100% placement support.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 4 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.4. Can I attend classes online or classroom in South Delhi?</span>
+										<span class="kdm-faq-question">Q.4. What are the eligibility requirements for the PPC training course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We offer both offline classroom training at our South Delhi (Govindpuri/Kalkaji) institute as well as live interactive online classes with 1-on-1 doubt clearing and recorded backups.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Any 12th-pass student, graduate, media buyer, marketing executive, or business owner can join. Basic computer knowledge is sufficient; no coding or math expertise is required.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 5 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.5. Will I get guaranteed job placement after completing the course?</span>
+										<span class="kdm-faq-question">Q.5. What is the duration of the Google Ads training program?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide <strong>100% placement assistance</strong> with resume optimization, portfolio creation, mock HR interviews, and direct interview drives with 150+ hiring partner agencies and MNCs across Delhi NCR.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer <strong>45-Day Intensive Bootcamps</strong> and <strong>3-Month Performance Marketing Programs</strong>, followed by a guaranteed agency internship managing active client ad accounts.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 6 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.6. Can I attend a free demo class before enrollment?</span>
+										<span class="kdm-faq-question">Q.6. Do you provide 100% placement support for PPC & Media Buyers?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely! You can book a free live demo session by filling out the <a href="#kdm-hero-lead-form"><strong>Enquiry Form</strong></a> or calling our counseling team directly at <strong>+91 9555696058</strong>.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide 100% placement assistance including live ROAS portfolio creation, resume optimization, Google Ads mock interviews, and direct interviews with 250+ top agencies and brands.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 7 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.7. Which certifications will I receive upon course completion?</span>
+										<span class="kdm-faq-question">Q.7. Will I get to manage real ad budgets and live Google Ads accounts?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>Multiple Industry Certifications (UIDMT, Internship, Google & Others)</strong> including Google Ads, PPC Specialist Certification, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100% practical training on live ad budgets. You will set up real campaigns, configure negative keyword lists, design responsive search ads, and optimize bidding in real time.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 8 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.8. Who can join this PPC course?</span>
+										<span class="kdm-faq-question">Q.8. What certifications will I receive after completing the PPC course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Anyone with basic computer and internet knowledge can join! Our batches are specially designed for college students, job seekers, working professionals wanting to switch careers, entrepreneurs, freelancers, and homemakers.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>Multiple Industry Certifications</strong> including Google Ads Search, Display & Video Certifications, Google Analytics (GA4) Certification, and the official UIDMT PPC Master Certificate with an Internship Letter.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 9 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.9. Does this PPC course include conversion tracking and GA4 / GTM?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! You will learn how to set up Google Tag Manager (GTM), custom event triggers, GA4 conversion tracking, e-commerce purchase tracking, and Smart Bidding algorithms (tCPA, tROAS).</p>
+									</div>
+								</div>
+
+								<!-- FAQ 10 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.10. What salary can a PPC Analyst / Performance Marketer earn in India?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Freshers start between <strong>₹3.0 LPA to ₹5.0 LPA</strong> (₹25,000 to ₹42,000/month). Experienced PPC Specialists earn <strong>₹6.5 LPA to ₹14.0+ LPA</strong>, while freelance media buyers earn ₹50,000 to ₹2,00,000+ monthly managing global ad accounts.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 11 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.11. Are weekend and online live Google Ads classes available?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we offer both offline classroom training at our South Delhi center and live online interactive batches with full recording access.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 12 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.12. Can I attend a free demo session before enrolling in PPC training?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, you can schedule a 100% free career counseling session and live campaign walkthrough with Gaurav Dubey before paying your admission fee.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 13 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.13. Will I learn how to optimize Quality Score and lower Cost-Per-Click (CPC)?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We teach keyword match types, ad copy CTR optimization, landing page relevance, ad extensions/assets, and bid strategy tuning to maximize Quality Score (8/10+) and reduce CPC.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 14 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.14. How does this PPC course help e-commerce and local business owners?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Business owners learn how to run Google Shopping feeds, Performance Max campaigns, and high-intent local call ads to acquire profitable daily leads and e-commerce orders.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 15 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.15. What PPC tools, bidding simulators, and analytics software are covered?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will master <strong>Google Ads Editor, Google Tag Manager, GA4, Looker Studio, SpyFu, Semrush PPC Toolkit, Google Keyword Planner, and ChatGPT for Ad Copywriting</strong>.</p>
 									</div>
 								</div>
 							</div>

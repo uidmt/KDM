@@ -33,76 +33,132 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 		<script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "1. What is Online Reputation Management (ORM) and why should I learn it?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Online Reputation Management (ORM) is the practice of monitoring, shaping, and protecting how a brand, executive, or public figure appears across search engines and social media. Learning ORM allows you to master negative search result suppression, review marketing, brand PR, and crisis recovery—skills with massive demand across corporate, legal, and high-net-worth markets."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "2. What are the prerequisites to join the ORM Training Course in Delhi?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No prior technical or coding background is required! Basic computer and internet browsing knowledge is all you need. We teach you search algorithms, review platforms, sentiment monitoring tools, and content suppression strategies step-by-step from beginner to advanced level."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "3. Will I get hands-on practical training on live client ORM cases?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, 100%! At King of Digital Marketing, you work on real agency accounts and case studies. You will learn to perform brand SERP audits, build high-authority positive content clusters, suppress harmful Google links, and manage Google My Business review acquisition campaigns."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "4. What is the duration and batch schedule for the ORM Course?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We offer flexible batch schedules: 45-Day PowerPlay Fast-Track Course, 4-Month Comprehensive Mastery Program with 2-Month Agency Internship, as well as Weekend batches specially designed for working executives and college students."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "5. Does King of Digital Marketing provide 100% job placement assistance?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes! We provide complete 100% placement support including professional ORM & digital marketing resume building, LinkedIn profile branding, agency mock technical interviews, and direct interview drives with leading PR firms, agencies, and MNCs across Delhi NCR."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "6. Which ORM and sentiment analysis tools will I master?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "You will master top industry tools including Brand24, Google Alerts, Mention, Talkwalker, SEMrush, Ahrefs, Screaming Frog, Trustpilot & Google Business Review management systems, along with advanced AI content generation workflows."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "7. Can I freelance or launch my own ORM consulting agency after this course?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Absolutely! Our curriculum includes a dedicated module on Client Acquisition, Non-Disclosure Agreements (NDAs), ORM Proposals, Pricing Retainers, and Monthly Deliverable Reporting, allowing you to consult corporate and celebrity clients globally."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "8. Can I attend a free demo class before paying the course fees?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes! You can reserve a free 1-on-1 demo session with agency founder Mr. Gaurav Dubey (13+ years exp.) to review the curriculum, explore live case studies, and discuss your career trajectory."
-            }
-        }
-    ]
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the course fee for Advance ORM Training in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Online Reputation Management (ORM) course fee at King of Digital Marketing ranges from ₹15,000 to ₹30,000 depending on the program tier, with easy 0% interest monthly EMI installments and scholarship discounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is covered in the Online Reputation Management (ORM) syllabus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The syllabus covers 60+ ORM modules: Negative Link Suppression on Google Page 1, Brand SERP Fortress Building, Google My Business Review PR & Moderation, Crisis Communications, Legal Defamation Takedowns, Social Sentiment AI, and Executive Branding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is King of Digital Marketing the #1 institute for ORM Training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are one of India's few active digital agencies specializing in corporate & celebrity ORM for over 13+ years. Students learn directly under Gaurav Dubey, work on real crisis PR scenarios, and get 100% placement support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who can join the Online Reputation Management training course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Graduates, PR specialists, SEO professionals, corporate communications executives, lawyers, brand managers, and business owners looking to master digital brand defense."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the duration of the ORM training course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer 45-Day Fast-Track and 3-Month Mastery Programs, followed by a guaranteed agency internship working on active crisis PR and brand monitoring accounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide 100% placement support for ORM Specialists?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We provide complete placement support including portfolio preparation with negative link suppression case studies, resume optimization, and direct interview scheduling with top corporate agencies and MNCs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I work on live crisis PR case studies and monitoring tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! You will work with real brand monitoring tools like Brand24, execute reverse-SEO suppression on test domains, handle fake review moderation appeals, and craft crisis PR response frameworks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications will I receive after completing the ORM training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will receive Multiple Industry Certifications including the UIDMT ORM Master Certificate, King of Digital Marketing Agency Internship Letter, and recognized Brand Defense Credentials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does ORM suppress negative Google search results to Page 2 & 3?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will master Reverse-SEO: building and ranking high-authority Web 2.0 properties, press releases, social profiles, Wikipedia/Wikidata entities, and Knowledge Graph assets to push negative links off Google Page 1."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What salary package can an ORM Specialist earn in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Freshers start between ₹3.5 LPA to ₹5.0 LPA (₹30,000 to ₹42,000/month). Experienced ORM & Crisis PR Managers earn ₹7.0 LPA to ₹15.0+ LPA, while freelance ORM consultants charge high monthly retainers (₹50k to ₹2.5L+ per project)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are weekend and live online ORM training classes available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide both offline classroom training at our South Delhi center and live interactive online sessions with lifetime access to recorded classes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I attend a free demo class before enrolling in ORM training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! You can book a 100% free 1-on-1 counseling session and crisis strategy walkthrough with lead mentor Gaurav Dubey before finalizing admission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I learn how to handle fake negative reviews on Google Maps and Trustpilot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We teach Google Business Profile (GBP) policy violation reporting, review appeals, legal escalation, and automated customer review generation funnels to overpower negative ratings with authentic 5-star reviews."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this ORM course help corporate brands, executives, and public figures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It gives you the skills to protect corporate brand equity, maintain positive executive reputation on Google SERP, and resolve online crisis situations before they affect revenue or investor confidence."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What reputation monitoring, sentiment, and PR tools are taught?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will master Brand24, Talkwalker, Google Alerts, Mention, SEMrush, Google Search Console, ReviewTrackers, and AI Sentiment Analysis tools."
+      }
+    }
+  ]
 }
-		</script>
+</script>
 	</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
@@ -1857,94 +1913,171 @@
 						<!-- Left Column: FAQ Accordion -->
 						<div>
 							<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our AI-powered ORM training course in South Delhi, fees, syllabus, and placement support.</p>
+							<p class="kdm-faq-subtitle">Got questions about our Online Reputation Management (ORM) course in South Delhi? Here are the 15 most frequently asked questions about negative link suppression, review PR, crisis management, fees, and 100% placement support.</p>
 
 							<div class="kdm-faq-accordion">
 								<!-- FAQ 1 -->
 								<div class="kdm-faq-item active">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.1. What is the ORM Training Course fee in South Delhi?</span>
+										<span class="kdm-faq-question">Q.1. What is the course fee for Advance ORM Training in Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> ORM training course fees at King of Digital Marketing start from <strong>₹24,999</strong> for the 45-Day PowerPlay Fast-Track Course up to <strong>₹39,999</strong> for the 4-Month Full-Stack Mastery Course, including agency internship and 100% placement support.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The Online Reputation Management (ORM) course fee at King of Digital Marketing ranges from <strong>₹15,000 to ₹30,000</strong> depending on the program tier, with easy 0% interest monthly EMI installments and scholarship discounts.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 2 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.2. What are the advantages of enrolling in this ORM training course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.2. What is covered in the Online Reputation Management (ORM) syllabus?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You learn directly from agency founder <strong>Gaurav Dubey (13+ years exp.)</strong> on active client crisis PR accounts. The curriculum covers negative link suppression, brand SERP defense, Google review marketing, sentiment monitoring tools, and guaranteed agency placement.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The syllabus covers <strong>60+ ORM modules</strong>: Negative Link Suppression on Google Page 1, Brand SERP Fortress Building, Google My Business Review PR & Moderation, Crisis Communications, Legal Defamation Takedowns, Social Sentiment AI, and Executive Branding.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 3 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.3. What is the duration of the ORM course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.3. Why is King of Digital Marketing the #1 institute for ORM Training?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Course durations vary based on the track: the <strong>Fast-Track Accelerator Track</strong> is 45 Days, while the <strong>Full-Stack Mastery Program</strong> is 4 Months with 2 Months agency internship experience.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We are one of India's few active digital agencies specializing in corporate & celebrity ORM for over 13+ years. Students learn directly under Gaurav Dubey, work on real crisis PR scenarios, and get 100% placement support.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 4 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.4. Can I attend classes online or classroom in South Delhi?</span>
+										<span class="kdm-faq-question">Q.4. Who can join the Online Reputation Management training course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We offer both offline classroom training at our South Delhi (Govindpuri/Kalkaji) institute as well as live interactive online classes with 1-on-1 doubt clearing and recorded backups.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Graduates, PR specialists, SEO professionals, corporate communications executives, lawyers, brand managers, and business owners looking to master digital brand defense.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 5 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.5. Will I get guaranteed job placement after completing the course?</span>
+										<span class="kdm-faq-question">Q.5. What is the duration of the ORM training course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide <strong>100% placement assistance</strong> with resume optimization, portfolio creation, mock HR interviews, and direct interview drives with 150+ hiring partner agencies and MNCs across Delhi NCR.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer <strong>45-Day Fast-Track</strong> and <strong>3-Month Mastery Programs</strong>, followed by a guaranteed agency internship working on active crisis PR and brand monitoring accounts.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 6 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.6. Can I attend a free demo class before enrollment?</span>
+										<span class="kdm-faq-question">Q.6. Do you provide 100% placement support for ORM Specialists?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely! You can book a free live demo session by filling out the <a href="#kdm-hero-lead-form"><strong>Enquiry Form</strong></a> or calling our counseling team directly at <strong>+91 9555696058</strong>.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide complete placement support including portfolio preparation with negative link suppression case studies, resume optimization, and direct interview scheduling with top corporate agencies and MNCs.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 7 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.7. Which certifications will I receive upon course completion?</span>
+										<span class="kdm-faq-question">Q.7. Will I work on live crisis PR case studies and monitoring tools?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>Multiple Industry Certifications (UIDMT, Internship, Google & Others)</strong> including Google Ads, Meta Certified, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! You will work with real brand monitoring tools like Brand24, execute reverse-SEO suppression on test domains, handle fake review moderation appeals, and craft crisis PR response frameworks.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 8 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.8. Who can join this ORM training course?</span>
+										<span class="kdm-faq-question">Q.8. What certifications will I receive after completing the ORM training?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Anyone with basic computer and internet knowledge can join! Our batches are specially designed for college students, job seekers, working professionals wanting to switch careers, entrepreneurs, freelancers, and PR executives.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>Multiple Industry Certifications</strong> including the UIDMT ORM Master Certificate, King of Digital Marketing Agency Internship Letter, and recognized Brand Defense Credentials.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 9 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.9. How does ORM suppress negative Google search results to Page 2 & 3?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will master Reverse-SEO: building and ranking high-authority Web 2.0 properties, press releases, social profiles, Wikipedia/Wikidata entities, and Knowledge Graph assets to push negative links off Google Page 1.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 10 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.10. What salary package can an ORM Specialist earn in India?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Freshers start between <strong>₹3.5 LPA to ₹5.0 LPA</strong> (₹30,000 to ₹42,000/month). Experienced ORM & Crisis PR Managers earn <strong>₹7.0 LPA to ₹15.0+ LPA</strong>, while freelance ORM consultants charge high monthly retainers (₹50k to ₹2.5L+ per project).</p>
+									</div>
+								</div>
+
+								<!-- FAQ 11 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.11. Are weekend and live online ORM training classes available?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide both offline classroom training at our South Delhi center and live interactive online sessions with lifetime access to recorded classes.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 12 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.12. Can I attend a free demo class before enrolling in ORM training?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! You can book a 100% free 1-on-1 counseling session and crisis strategy walkthrough with lead mentor Gaurav Dubey before finalizing admission.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 13 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.13. Will I learn how to handle fake negative reviews on Google Maps and Trustpilot?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We teach Google Business Profile (GBP) policy violation reporting, review appeals, legal escalation, and automated customer review generation funnels to overpower negative ratings with authentic 5-star reviews.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 14 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.14. How does this ORM course help corporate brands, executives, and public figures?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> It gives you the skills to protect corporate brand equity, maintain positive executive reputation on Google SERP, and resolve online crisis situations before they affect revenue or investor confidence.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 15 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.15. What reputation monitoring, sentiment, and PR tools are taught?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will master <strong>Brand24, Talkwalker, Google Alerts, Mention, SEMrush, Google Search Console, ReviewTrackers, and AI Sentiment Analysis tools</strong>.</p>
 									</div>
 								</div>
 							</div>

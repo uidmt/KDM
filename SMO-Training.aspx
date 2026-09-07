@@ -30,76 +30,132 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 		<script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "1. What will I learn in the SMO Course at King of Digital Marketing?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "You will learn complete organic Social Media Optimization (SMO) across Instagram, Facebook, LinkedIn, YouTube, and X (Twitter), along with graphic design in Canva, short-form video editing in CapCut, viral copywriting with AI, and Meta Ads fundamentals."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "2. Do I need design or video editing skills before joining?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No! We teach all graphic design and video editing skills from scratch using user-friendly modern tools like Canva Pro, CapCut, and AI creative generators. Anyone can learn and create professional brand content."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "3. Will I get practical assignments on real social media accounts?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes! You will create live posts, design reels, run engagement campaigns, and analyze real insights on active social media channels during the course."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "4. What are the job opportunities after completing SMO training?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "You can work as a Social Media Executive, Community Manager, Content Creator, Instagram Strategist, LinkedIn Specialist, or Social Media Manager in agencies, e-commerce brands, and corporate marketing departments."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "5. Can I work as a freelance social media manager after this course?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes! We dedicate a full module on how to pitch clients, package monthly social media management services (₹15,000 - ₹50,000/month per client), and manage multiple client accounts easily."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "6. What is the batch timing and duration for SMO classes?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We offer fast-track 45-day weekday batches as well as weekend batches (Saturdays & Sundays) designed specifically for college students and working professionals."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "7. Does KDM offer placement assistance for SMO students?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, we provide 100% placement support with portfolio building, resume revamps, interview prep, and direct job interviews across Delhi NCR agencies and corporate brands."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "8. How can I book a free demo session for SMO training?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Simply fill out the demo form on this page or call our South Delhi center to reserve your seat for the upcoming free demo class with mentor Mr. Gaurav Dubey."
-            }
-        }
-    ]
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the course fee for Social Media Marketing (SMO/SMM) Training in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The SMO & Social Media Marketing course fee at King of Digital Marketing ranges from ₹15,000 to ₹25,000 with easy 0% interest monthly installment options and up to 28% early enrollment scholarship discounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is covered in the Social Media Marketing training syllabus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The syllabus covers 60+ SMM modules: Instagram Growth & Reels Mastery, Facebook Marketing, LinkedIn B2B Lead Generation, YouTube Channel Monetization, X (Twitter), Pinterest, Influencer Marketing, Viral Hooks, and AI Social Content Creation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is King of Digital Marketing the best SMO institute in Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are an award-winning digital agency managing hundreds of high-engagement social media campaigns globally. Students learn directly under Gaurav Dubey (13+ Yrs Exp.), work on live brand accounts, and benefit from 100% placement support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is eligible to join the SMO/SMM training course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any 12th pass student, college graduate, aspiring influencer, content creator, marketing professional, or business owner can join. No coding or technical background is needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the duration of the Social Media Marketing course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer 45-Day Fast-Track and 3-Month Comprehensive Programs, followed by a guaranteed agency internship working on live brand deliverables and paid media campaigns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide 100% placement support for Social Media Managers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We provide complete placement support including portfolio curation with viral Reels/posts case studies, resume crafting, mock interviews, and direct interviews with 250+ agency hiring partners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I get to run live ad campaigns and create creative content?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, 100% practical. You will set up live campaigns inside Meta Business Suite, design scroll-stopping creatives in Canva, write persuasive ad copies, and edit viral short-form videos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications will I receive upon completing the SMO course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will earn Multiple Industry Certifications including the UIDMT Social Media Marketing Master Certificate, King of Digital Marketing Agency Internship Letter, Meta Certified Digital Marketing Associate, and HubSpot Social Media Certification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this SMO course cover AI tools for content creation and scheduling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! You will learn how to leverage Midjourney, ChatGPT-4, Leonardo AI, CapCut, InVideo, and Buffer/Hootsuite for automated copywriting, image generation, and multi-channel posting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What salary package can a Social Media Specialist expect in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Freshers start between ₹3.0 LPA to ₹4.5 LPA (₹25,000 to ₹38,000/month). Experienced SMM Strategists earn ₹6.0 LPA to ₹10.0+ LPA, while social media freelancers earn ₹40,000 to ₹1,50,000+ monthly managing client accounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are weekend and live online SMO training classes available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer both classroom training at our South Delhi center and live online interactive batches with lifetime access to class recordings and resources."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I attend a free demo class before enrolling in SMO training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can book a 100% free 1-on-1 counseling session and trial class with our lead trainers to experience our agency-driven training approach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I learn how to grow organic followers and engagement on Instagram?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We teach algorithm growth hacks, optimal posting timings, viral audio research, carousel storytelling, hashtag strategy, and audience retention tactics to build genuine organic followers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this SMO course help entrepreneurs and e-commerce brands?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entrepreneurs learn how to set up Instagram Shops, run high-converting Meta lead ads, partner with micro-influencers, and generate daily D2C orders without wasting marketing budget."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What social media management and design tools will I learn?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will master Meta Business Suite, Canva Pro, CapCut, Buffer, Hootsuite, Sprout Social, Creator Studio, Brand24, and ChatGPT for end-to-end social media growth."
+      }
+    }
+  ]
 }
-		</script>
+</script>
 		</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
@@ -2624,96 +2680,171 @@
 						<!-- Left Column: FAQ Accordion -->
 						<div>
 							<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our
-								AI-powered SMO course in South Delhi, fees, syllabus, and placement
-								support.</p>
+							<p class="kdm-faq-subtitle">Got questions about our Social Media Marketing course in South Delhi? Here are the 15 most frequently asked questions about Instagram growth, Meta ads, Reels strategy, fees, and 100% placement support.</p>
 
 							<div class="kdm-faq-accordion">
 								<!-- FAQ 1 -->
 								<div class="kdm-faq-item active">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.1. What is the SMO Course fee in South Delhi?</span>
+										<span class="kdm-faq-question">Q.1. What is the course fee for Social Media Marketing (SMO/SMM) Training in Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> SMO course fees at King of Digital Marketing start from <strong>₹24,999</strong> for the 45-Day PowerPlay Course up to <strong>₹39,999</strong> for the 4-Month Comprehensive Mastery Course, including agency internship and 100% placement support.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The SMO & Social Media Marketing course fee at King of Digital Marketing ranges from <strong>₹15,000 to ₹25,000</strong> with easy 0% interest monthly installment options and up to 28% early enrollment scholarship discounts.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 2 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.2. What are the advantages of enrolling in this SMO course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.2. What is covered in the Social Media Marketing training syllabus?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You learn directly from agency founder <strong>Gaurav Dubey (13+ years exp.)</strong> on active client accounts with live ad budgets. The curriculum covers 60+ modules including Generative AI, SEO, Google/Meta Ads, CRM automation, paid agency internships, and guaranteed job assistance.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The syllabus covers <strong>60+ SMM modules</strong>: Instagram Growth & Reels Mastery, Facebook Marketing, LinkedIn B2B Lead Generation, YouTube Channel Monetization, X (Twitter), Pinterest, Influencer Marketing, Viral Hooks, and AI Social Content Creation.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 3 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.3. What is the duration of the SMO course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.3. Why is King of Digital Marketing the best SMO institute in Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Course durations vary based on the track: the <strong>PowerPlay Fast-Track Course</strong> is 45 Days, while the <strong>Mastery Comprehensive Program</strong> is 4 Months with 2 Months agency internship experience.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We are an award-winning digital agency managing hundreds of high-engagement social media campaigns globally. Students learn directly under Gaurav Dubey (13+ Yrs Exp.), work on live brand accounts, and benefit from 100% placement support.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 4 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.4. Can I attend classes online or classroom in South Delhi?</span>
+										<span class="kdm-faq-question">Q.4. Who is eligible to join the SMO/SMM training course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We offer both offline classroom training at our South Delhi (Govindpuri/Kalkaji) institute as well as live interactive online classes with 1-on-1 doubt clearing and recorded backups.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Any 12th pass student, college graduate, aspiring influencer, content creator, marketing professional, or business owner can join. No coding or technical background is needed.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 5 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.5. Will I get guaranteed job placement after completing the course?</span>
+										<span class="kdm-faq-question">Q.5. What is the duration of the Social Media Marketing course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide <strong>100% placement assistance</strong> with resume optimization, portfolio creation, mock HR interviews, and direct interview drives with 150+ hiring partner agencies and MNCs across Delhi NCR.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer <strong>45-Day Fast-Track</strong> and <strong>3-Month Comprehensive Programs</strong>, followed by a guaranteed agency internship working on live brand deliverables and paid media campaigns.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 6 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.6. Can I attend a free demo class before enrollment?</span>
+										<span class="kdm-faq-question">Q.6. Do you provide 100% placement support for Social Media Managers?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely! You can book a free live demo session by filling out the <a href="#kdm-hero-lead-form"><strong>Enquiry Form</strong></a> or calling our counseling team directly at <strong>+91 9555696058</strong>.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide complete placement support including portfolio curation with viral Reels/posts case studies, resume crafting, mock interviews, and direct interviews with 250+ agency hiring partners.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 7 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.7. Which certifications will I receive upon course completion?</span>
+										<span class="kdm-faq-question">Q.7. Will I get to run live ad campaigns and create creative content?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>Multiple Industry Certifications (UIDMT, Internship, Google & Others)</strong> including Google Ads, SMO Specialist Certification, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100% practical. You will set up live campaigns inside Meta Business Suite, design scroll-stopping creatives in Canva, write persuasive ad copies, and edit viral short-form videos.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 8 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.8. Who can join this SMO course?</span>
+										<span class="kdm-faq-question">Q.8. What certifications will I receive upon completing the SMO course?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Anyone with basic computer and internet knowledge can join! Our batches are specially designed for college students, job seekers, working professionals wanting to switch careers, entrepreneurs, freelancers, and homemakers.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will earn <strong>Multiple Industry Certifications</strong> including the UIDMT Social Media Marketing Master Certificate, King of Digital Marketing Agency Internship Letter, Meta Certified Digital Marketing Associate, and HubSpot Social Media Certification.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 9 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.9. Does this SMO course cover AI tools for content creation and scheduling?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! You will learn how to leverage Midjourney, ChatGPT-4, Leonardo AI, CapCut, InVideo, and Buffer/Hootsuite for automated copywriting, image generation, and multi-channel posting.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 10 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.10. What salary package can a Social Media Specialist expect in India?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Freshers start between <strong>₹3.0 LPA to ₹4.5 LPA</strong> (₹25,000 to ₹38,000/month). Experienced SMM Strategists earn <strong>₹6.0 LPA to ₹10.0+ LPA</strong>, while social media freelancers earn ₹40,000 to ₹1,50,000+ monthly managing client accounts.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 11 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.11. Are weekend and live online SMO training classes available?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we offer both classroom training at our South Delhi center and live online interactive batches with lifetime access to class recordings and resources.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 12 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.12. Can I attend a free demo class before enrolling in SMO training?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, you can book a 100% free 1-on-1 counseling session and trial class with our lead trainers to experience our agency-driven training approach.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 13 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.13. Will I learn how to grow organic followers and engagement on Instagram?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We teach algorithm growth hacks, optimal posting timings, viral audio research, carousel storytelling, hashtag strategy, and audience retention tactics to build genuine organic followers.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 14 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.14. How does this SMO course help entrepreneurs and e-commerce brands?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Entrepreneurs learn how to set up Instagram Shops, run high-converting Meta lead ads, partner with micro-influencers, and generate daily D2C orders without wasting marketing budget.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 15 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.15. What social media management and design tools will I learn?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will master <strong>Meta Business Suite, Canva Pro, CapCut, Buffer, Hootsuite, Sprout Social, Creator Studio, Brand24, and ChatGPT</strong> for end-to-end social media growth.</p>
 									</div>
 								</div>
 							</div>
