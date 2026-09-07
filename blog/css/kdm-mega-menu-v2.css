@@ -814,10 +814,10 @@ html body .kdm-v2-navbar,
   }
 
   .kdm-v2-mega-courses {
-    width: 480px !important;
-    left: -100px !important;
+    width: 260px !important;
+    left: -50px !important;
     display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
+    grid-template-columns: 1fr !important;
     gap: 18px !important;
   }
 
