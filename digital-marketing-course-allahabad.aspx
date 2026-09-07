@@ -49,7 +49,7 @@
       "name": "Why is King of Digital Marketing (UIDMT) rated the best institute in Allahabad?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "King of Digital Marketing is an active full-service performance agency established in 2013, not just a theoretical coaching center. Trainees learn directly under senior digital consultant Gaurav Dubey (13+ Years Agency Experience, 900+ Campaigns), work on live client ad budgets, master 35+ premium tools, earn 15+ global certifications, and benefit from 100% placement assistance with over 1,850+ successfully placed alumni."
+        "text": "King of Digital Marketing is an active full-service performance agency established in 2013, not just a theoretical coaching center. Trainees learn directly under senior digital consultant Gaurav Dubey (13+ Years Agency Experience, 900+ Campaigns), work on live client ad budgets, master 35+ premium tools, earn Multiple Certifications (UIDMT, Internship, Google & Others), and benefit from 100% placement assistance with over 1,850+ successfully placed alumni."
       }
     },
     {
@@ -89,7 +89,7 @@
       "name": "What certifications will I receive after completing the course in Allahabad?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You will earn 15+ globally recognized industry certifications including Google Search & Display Ads, Google Analytics (GA4), Meta Certified Digital Marketing Associate, HubSpot Inbound Marketing, Semrush SEO Toolkit Certification, and the official King of Digital Marketing / UIDMT Agency Master Certificate."
+        "text": "You will earn Multiple Industry Certifications including the official UIDMT Master Certification, King of Digital Marketing Agency Internship Certificate, Google Ads & Analytics Certifications, and other recognized credentials."
       }
     },
     {
@@ -240,8 +240,8 @@
 							<div class="kdm-hero-feat-card">
 								<div class="kdm-feat-icon-box"><i class="fa fa-certificate"></i></div>
 								<div class="kdm-feat-content">
-									<div class="kdm-feat-title">15+ Global Certifications</div>
-									<div class="kdm-feat-desc">Google, Meta, HubSpot, Semrush &amp; UIDMT</div>
+									<div class="kdm-feat-title">Multiple Certifications</div>
+									<div class="kdm-feat-desc">UIDMT, Internship, Google &amp; Others</div>
 								</div>
 							</div>
 							<div class="kdm-hero-feat-card">
@@ -331,7 +331,7 @@
 							<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 18px; display: flex; align-items: center; gap: 12px;">
 								<div style="width: 38px; height: 38px; border-radius: 10px; background: #e0f2fe; color: #0284c7; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0;"><i class="fa fa-certificate"></i></div>
 								<div>
-									<div style="font-size: 13px; font-weight: 800; color: #0f172a;">15+ Certifications &amp; Jobs</div>
+									<div style="font-size: 13px; font-weight: 800; color: #0f172a;">Multiple Certifications &amp; Jobs</div>
 									<div style="font-size: 12px; color: #64748b;">1,850+ Placed in Top Agencies</div>
 								</div>
 							</div>
@@ -1990,7 +1990,7 @@
 							<div class="bonus-icon-wrap-dark">
 								<i class="fa fa-certificate" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">15+ Global Certifications</h3>
+							<h3 class="bonus-card-title-dark">Multiple Global Certifications</h3>
 							<p class="bonus-card-desc-dark">Official exam vouchers and guidance for Google, Meta, HubSpot &amp; Semrush.</p>
 						</div>
 
@@ -2902,7 +2902,7 @@
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> King of Digital Marketing is an active full-service performance agency established in 2013, not just a theoretical coaching center. Trainees learn directly under senior digital consultant Gaurav Dubey (13+ Years Agency Experience, 900+ Campaigns), work on live client ad budgets, master 35+ premium tools, earn 15+ global certifications, and benefit from 100% placement assistance with over 1,850+ successfully placed alumni.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> King of Digital Marketing is an active full-service performance agency established in 2013, not just a theoretical coaching center. Trainees learn directly under senior digital consultant Gaurav Dubey (13+ Years Agency Experience, 900+ Campaigns), work on live client ad budgets, master 35+ premium tools, earn Multiple Certifications (UIDMT, Internship, Google & Others), and benefit from 100% placement assistance with over 1,850+ successfully placed alumni.</p>
 									</div>
 								</div>
 
@@ -3063,7 +3063,7 @@
 								<div class="box-offer">✅ 100% Practical Live Projects</div>
 								<div class="box-offer">✅ 60+ AI &amp; Marketing Modules</div>
 								<div class="box-offer">✅ Agency Internship &amp; Placement</div>
-								<div class="box-offer">✅ 15+ Global Certifications</div>
+								<div class="box-offer">✅ Multiple Global Certifications</div>
 								<a href="#kdm-hero-lead-form" class="kdm-faq-offer-btn">
 									Book Free Demo Class <i class="fa fa-arrow-right" style="margin-left: 4px;"></i>
 								</a>

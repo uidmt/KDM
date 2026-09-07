@@ -182,8 +182,8 @@
 							<div class="kdm-hero-feat-card">
 								<div class="kdm-feat-icon-box"><i class="fa fa-certificate"></i></div>
 								<div class="kdm-feat-content">
-									<div class="kdm-feat-title">15+ Global Certifications</div>
-									<div class="kdm-feat-desc">Google, Meta, HubSpot, Semrush & UIDMT</div>
+									<div class="kdm-feat-title">Multiple Certifications</div>
+									<div class="kdm-feat-desc">UIDMT, Internship, Google &amp; Others</div>
 								</div>
 							</div>
 							<div class="kdm-hero-feat-card">
@@ -629,7 +629,7 @@
 							360° PRACTICAL CURRICULUM
 						</span>
 						<h2 class="modules-main-title">60+ Trending &amp; AI-Powered SEO Course Modules</h2>
-						Master complete SEO & Generative AI tools with
+						<p class="modules-subtitle">Master complete SEO & Generative AI tools with
 							hands-on
 							agency projects and 100% practical modules.</p>
 					</div>
@@ -1747,7 +1747,7 @@
 							<div class="bonus-icon-wrap-dark">
 								<i class="fa fa-certificate" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">15+ Global Certifications</h3>
+							<h3 class="bonus-card-title-dark">Multiple Global Certifications</h3>
 							<p class="bonus-card-desc-dark">Official exam vouchers and guidance for Google, Meta, HubSpot &amp; Semrush.</p>
 						</div>
 
@@ -2601,9 +2601,8 @@
 								<span style="color: #fbbf24; font-size: 13px;">★★★★★</span>
 							</div>
 							<div class="redirect-text">
-								<h< /h3>Want to see all 27+ Video Testimonials & Google Reviews?</h4>
-									<p>Explore full student feedback, YouTube Shorts, and verified Google student
-										reviews.</p>
+								<h3 style="font-size: 17px; font-weight: 800; margin: 0; color: #ffffff;">Want to see all 27+ Video Testimonials &amp; Google Reviews?</h3>
+								<p style="margin: 0; font-size: 13px; color: #cbd5e1;">Explore full student feedback, YouTube Shorts, and verified Google student reviews.</p>
 							</div>
 						</div>
 						<a href="digital-marketing-course-review.aspx" class="btn-view-all-reviews">
@@ -2703,7 +2702,7 @@
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>15+ industry certifications</strong> including Google Ads, SEO Specialist Certification, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>Multiple Industry Certifications (UIDMT, Internship, Google & Others)</strong> including Google Ads, SEO Specialist Certification, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
 									</div>
 								</div>
 
@@ -2735,7 +2734,7 @@
 								<div class="box-offer">✅ 100% Practical Live Projects</div>
 								<div class="box-offer">✅ 60+ AI &amp; Marketing Modules</div>
 								<div class="box-offer">✅ Agency Internship &amp; Placement</div>
-								<div class="box-offer">✅ 15+ Global Certifications</div>
+								<div class="box-offer">✅ Multiple Global Certifications</div>
 								<a href="#kdm-hero-lead-form" class="kdm-faq-offer-btn">
 									Book Free Demo Class <i class="fa fa-arrow-right" style="margin-left: 4px;"></i>
 								</a>

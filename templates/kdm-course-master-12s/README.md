@@ -9,7 +9,7 @@ This is the official high-converting 12-section standardized landing page master
 ## 12 Standardized Sections:
 1. **Hero Header & Form (`.kdm-course-hero-wrapper`)**:
    - Dark gradient, stat pills (`⭐ 4.8 / 5 Rating`, `🎯 100% Practical Live Projects`), H1 title, subtitle.
-   - 6 Key benefit cards (Agency Mentorship by Gaurav Dubey, 60+ Modules, Live Campaigns, 100% Placement, 15+ Certifications, Flexible Batches).
+   - 6 Key benefit cards (Agency Mentorship by Gaurav Dubey, 60+ Modules, Live Campaigns, 100% Placement, Multiple Certifications, Flexible Batches).
    - CTAs: Demo button (`#kdm-hero-lead-form`), WhatsApp CTA (`https://wa.me/919821918208`), Direct Call link (`tel:+919821918208`).
    - Right form column: `digital-course-form.aspx` iframe.
 2. **Overview & Strategic Intro (`.altra-sub-hero-new`)**:

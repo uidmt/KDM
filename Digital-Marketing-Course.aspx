@@ -33,68 +33,133 @@
 		<link rel="stylesheet" href="css/kdm-faq.css">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 		<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "1. Digital Marketing Course Fee in South Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": ""
-        }
-      }, {
-        "@type": "Question",
-        "name": "2. What are the advantages of enrolling in this online digital marketing course in South Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Digital Marketing Certification programs are purpose-built to teach Digital Marketing concepts. In addition, instructors provide hands-on training while you work on real-world industry projects and assignments when you enroll yourself in the digital marketing course in South Delhi.."
-        }
-      }, {
-        "@type": "Question",
-        "name": "3. What is the course duration of the online/offline digital marketing course in south Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": ""
-        }
-      }, {
-        "@type": "Question",
-        "name": "4. Can I learn digital marketing online?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes sure."
-        }
-      }, {
-        "@type": "Question",
-        "name": "5. After Completing my online digital marketing course, will I become a digital marketing specialist?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Just completing a digital marketing course or getting certification from a digital marketing institute in South Delhi does not ensure you will get a job. You must learn the necessary skills and complete projects and internships to gain Practical knowledge."
-        }
-      }, {
-        "@type": "Question",
-        "name": "6. Can I attend a demo session before enrollment?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes you can, to book a free demo class click here - demo class or call- +919555696058, +919205316988."
-        }
-      }, {
-        "@type": "Question",
-        "name": "7. Which is the best Digital Marketing Institute in south Delhi?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "King of digital marketing is the best digital marketing Institute in south Delhi."
-        }
-      }, {
-        "@type": "Question",
-        "name": "8. What is the course duration in king of digital marketing?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":"The duration of the digital marketing course at King of Digital Marketing is three months approx."}
-        }]
+      "@type": "Question",
+      "name": "What is the Digital Marketing course fee in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The digital marketing course fee in South Delhi at King of Digital Marketing ranges from ₹20,000 to ₹45,000 depending on the program tier (1-Month Fast-Track, 3-Month Practical Mastery, 6-Month Agency Launchpad, or 1-Year Master Diploma). We also provide flexible 0% interest monthly installment (EMI) options and special scholarship discounts of up to 28% for early enrollments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is King of Digital Marketing (UIDMT) rated the best institute in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "King of Digital Marketing is an active full-service performance agency established in 2013, not just a theoretical coaching center. Trainees learn directly under senior digital consultant Gaurav Dubey (13+ Years Agency Experience, 900+ Campaigns), work on live client ad budgets, master 35+ premium tools, earn Multiple Certifications (UIDMT, Internship, Google & Others), and benefit from 100% placement assistance with over 1,850+ successfully placed alumni."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the eligibility criteria to join the digital marketing course in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no technical or coding prerequisite. Any 12th-pass student, college graduate, job seeker, working professional, housewife, freelancer, or business owner in South Delhi (Delhi NCR) can enroll. Our curriculum is structured from foundational basics and progresses systematically to advanced AI-driven strategies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the duration of the digital marketing training program in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer flexible learning durations: 1-Month PowerPlay Bootcamp (fast-track essentials), 3-Month Practical Mastery (in-depth 60 modules + live projects), 6-Month Agency Launchpad (includes guaranteed agency internship), and 1-Year Master Diploma in AI & Digital Marketing. Both regular weekday and weekend batches are available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide 100% placement assistance in South Delhi and Delhi NCR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide 100% dedicated placement support through our active recruitment cell. We conduct personalized resume building, LinkedIn profile branding, mock technical and HR interview rounds, portfolio creation, and direct interview scheduling with over 250+ top hiring partner agencies, MNCs, and startups."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I get to work on real live client projects during training in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, 100% of our training is practical. Unlike traditional institutes that teach on dummy slides, King of Digital Marketing provides real client accounts and active ad budgets for Google Ads, Meta Ads (Facebook & Instagram), SEO audits, schema markup, and lead generation funnels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications will I receive after completing the course in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will earn Multiple Industry Certifications including the official UIDMT Master Certification, King of Digital Marketing Agency Internship Certificate, Google Ads & Analytics Certifications, and other recognized credentials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this digital marketing course in South Delhi include Artificial Intelligence (AI) and GEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Our updated 2026 syllabus is 100% AI-integrated. You will master Generative Engine Optimization (GEO), AI search ranking strategies, prompt engineering, and premium AI tools including ChatGPT-4, Claude, Midjourney, Perplexity AI, Leonardo AI, and marketing automation workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What career job roles can I apply for after completing the course in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Upon graduation, you can apply for high-demand corporate and agency roles including SEO Specialist, PPC & Google Ads Analyst, Social Media Marketing Manager, Performance Marketing Executive, Content Strategist, Online Reputation Manager (ORM), Growth Hacker, or Digital Marketing Lead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What salary package can I expect as a fresher or experienced marketer in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Freshers in South Delhi and Delhi NCR typically start between ₹3,00,000 to ₹4,50,000 LPA (₹25,000 to ₹38,000/month). With 1 to 3 years of experience, salaries scale rapidly to ₹6,00,000 to ₹12,00,000+ per annum, while freelancers managing global clients earn ₹50,000 to ₹1,50,000+ monthly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are online live classes and offline classroom sessions available for South Delhi students?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer both offline classroom training at our South Delhi center and interactive instructor-led live online classes with screen sharing, real-time campaign reviews, and 1-on-1 doubt clearing. All students also get lifetime access to recorded lecture sessions and study materials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I attend a free demo class before paying the admission fee in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide a 100% free career counseling session and live trial demo class. You can interact with course mentor Gaurav Dubey, evaluate the 60-module curriculum, review past student placement records, and test our practical teaching methodology before enrolling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a guaranteed agency internship provided in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Students enrolled in our 3-month and 6-month programs receive a guaranteed agency internship at King of Digital Marketing / Devweboic. You will work alongside senior specialists on live client deliverables, earn an official internship certificate, and receive letters of recommendation (LOR)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can local business owners and entrepreneurs in South Delhi benefit from this course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Business owners learn how to dominate local Google search (Google Business Profile / GMB Local SEO), generate qualified daily leads through targeted Google & Meta ad campaigns, build high-converting landing pages, execute WhatsApp/email marketing, and scale revenue without relying on third-party agencies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What premium digital marketing tools and software will I learn in South Delhi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will gain hands-on expertise in 35+ industry-leading tools including Google Search Console, Google Analytics (GA4), Google Ads Manager, Meta Business Suite, Semrush, Ahrefs, Ubersuggest, Screaming Frog, Yoast SEO, RankMath, Canva Pro, WordPress CMS, Mailchimp, Zapier, ChatGPT, and Hootsuite."
+      }
     }
-    </script>
-		<link rel="stylesheet" href="css/kdm-faq.css" />
+  ]
+}
+</script>
 		</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
@@ -182,8 +247,8 @@
 							<div class="kdm-hero-feat-card">
 								<div class="kdm-feat-icon-box"><i class="fa fa-certificate"></i></div>
 								<div class="kdm-feat-content">
-									<div class="kdm-feat-title">15+ Global Certifications</div>
-									<div class="kdm-feat-desc">Google, Meta, HubSpot, Semrush & UIDMT</div>
+									<div class="kdm-feat-title">Multiple Certifications</div>
+									<div class="kdm-feat-desc">UIDMT, Internship, Google &amp; Others</div>
 								</div>
 							</div>
 							<div class="kdm-hero-feat-card">
@@ -2289,7 +2354,7 @@
 							<div class="bonus-icon-wrap-dark">
 								<i class="fa fa-certificate" style="color: #38bdf8; font-size: 24px;"></i>
 							</div>
-							<h3 class="bonus-card-title-dark">15+ Global Certifications</h3>
+							<h3 class="bonus-card-title-dark">Multiple Global Certifications</h3>
 							<p class="bonus-card-desc-dark">Official exam vouchers and guidance for Google, Meta, HubSpot &amp; Semrush.</p>
 						</div>
 
@@ -3260,7 +3325,7 @@
 					<p align="justify">After completing the digital marketing course, you will be able to earn a good
 						salary. If you are a Fresher in a digital marketing job, your salary can be between 15k to 25k.
 						After one year when your skills and experience grow, you can earn up to 35k to 50k. You can also
-						earn up to 1 lakh when you become an expert.
+						earn up to 1 lakh when you become an expert.</p>
 					<ul style="list-style: none; padding-left: 0; margin-top: 15px;">
 						<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;"><i
 								class="fa fa-check-circle"
@@ -3366,9 +3431,8 @@
 								<span style="color: #fbbf24; font-size: 13px;">★★★★★</span>
 							</div>
 							<div class="redirect-text">
-								<h< /h3>Want to see all 27+ Video Testimonials & Google Reviews?</h4>
-									<p>Explore full student feedback, YouTube Shorts, and verified Google student
-										reviews.</p>
+								<h3 style="font-size: 17px; font-weight: 800; margin: 0; color: #ffffff;">Want to see all 27+ Video Testimonials &amp; Google Reviews?</h3>
+								<p style="margin: 0; font-size: 13px; color: #cbd5e1;">Explore full student feedback, YouTube Shorts, and verified Google student reviews.</p>
 							</div>
 						</div>
 						<a href="digital-marketing-course-review.aspx" class="btn-view-all-reviews">
@@ -3390,96 +3454,171 @@
 						<!-- Left Column: FAQ Accordion -->
 						<div>
 							<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our
-								AI-powered digital marketing course in South Delhi, fees, syllabus, and placement
-								support.</p>
+							<p class="kdm-faq-subtitle">Got questions about our digital marketing course in South Delhi? Here are the 15 most frequently asked questions about course fees, 60+ syllabus modules, Gaurav Dubey mentorship, live projects, and 100% placement support.</p>
 
 							<div class="kdm-faq-accordion">
 								<!-- FAQ 1 -->
 								<div class="kdm-faq-item active">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.1. What is the Digital Marketing Course fee in South Delhi?</span>
+										<span class="kdm-faq-question">Q.1. What is the Digital Marketing course fee in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing course fees at King of Digital Marketing start from <strong>₹24,999</strong> for the 45-Day PowerPlay Course up to <strong>₹39,999</strong> for the 4-Month Comprehensive Mastery Course, including agency internship and 100% placement support.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The digital marketing course fee in South Delhi at King of Digital Marketing ranges from <strong>₹20,000 to ₹45,000</strong> depending on the program tier (1-Month Fast-Track, 3-Month Practical Mastery, 6-Month Agency Launchpad, or 1-Year Master Diploma). We also provide flexible 0% interest monthly installment (EMI) options and special scholarship discounts of up to 28% for early enrollments.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 2 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.2. What are the advantages of enrolling in this digital marketing course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.2. Why is King of Digital Marketing (UIDMT) rated the best institute in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You learn directly from agency founder <strong>Gaurav Dubey (13+ years exp.)</strong> on active client accounts with live ad budgets. The curriculum covers 60+ modules including Generative AI, SEO, Google/Meta Ads, CRM automation, paid agency internships, and guaranteed job assistance.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> King of Digital Marketing is an active full-service performance agency established in 2013, not just a theoretical coaching center. Trainees learn directly under senior digital consultant Gaurav Dubey (13+ Years Agency Experience, 900+ Campaigns), work on live client ad budgets, master 35+ premium tools, earn Multiple Certifications (UIDMT, Internship, Google & Others), and benefit from 100% placement assistance with over 1,850+ successfully placed alumni.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 3 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.3. What is the duration of the digital marketing course in South Delhi?</span>
+										<span class="kdm-faq-question">Q.3. What is the eligibility criteria to join the digital marketing course in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Course durations vary based on the track: the <strong>PowerPlay Fast-Track Course</strong> is 45 Days, while the <strong>Mastery Comprehensive Program</strong> is 4 Months with 2 Months agency internship experience.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> There is no technical or coding prerequisite. Any 12th-pass student, college graduate, job seeker, working professional, housewife, freelancer, or business owner in South Delhi (Delhi NCR) can enroll. Our curriculum is structured from foundational basics and progresses systematically to advanced AI-driven strategies.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 4 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.4. Can I attend classes online or classroom in South Delhi?</span>
+										<span class="kdm-faq-question">Q.4. What is the duration of the digital marketing training program in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We offer both offline classroom training at our South Delhi (Govindpuri/Kalkaji) institute as well as live interactive online classes with 1-on-1 doubt clearing and recorded backups.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer flexible learning durations: <strong>1-Month PowerPlay Bootcamp</strong> (fast-track essentials), <strong>3-Month Practical Mastery</strong> (in-depth 60 modules + live projects), <strong>6-Month Agency Launchpad</strong> (includes guaranteed agency internship), and <strong>1-Year Master Diploma in AI & Digital Marketing</strong>. Both regular weekday and weekend batches are available.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 5 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.5. Will I get guaranteed job placement after completing the course?</span>
+										<span class="kdm-faq-question">Q.5. Do you provide 100% placement assistance in South Delhi and Delhi NCR?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide <strong>100% placement assistance</strong> with resume optimization, portfolio creation, mock HR interviews, and direct interview drives with 150+ hiring partner agencies and MNCs across Delhi NCR.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide 100% dedicated placement support through our active recruitment cell. We conduct personalized resume building, LinkedIn profile branding, mock technical and HR interview rounds, portfolio creation, and direct interview scheduling with over 250+ top hiring partner agencies, MNCs, and startups.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 6 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.6. Can I attend a free demo class before enrollment?</span>
+										<span class="kdm-faq-question">Q.6. Will I get to work on real live client projects during training in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely! You can book a free live demo session by filling out the <a href="#kdm-hero-lead-form"><strong>Enquiry Form</strong></a> or calling our counseling team directly at <strong>+91 9555696058</strong>.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100% of our training is practical. Unlike traditional institutes that teach on dummy slides, King of Digital Marketing provides real client accounts and active ad budgets for Google Ads, Meta Ads (Facebook & Instagram), SEO audits, schema markup, and lead generation funnels.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 7 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.7. Which certifications will I receive upon course completion?</span>
+										<span class="kdm-faq-question">Q.7. What certifications will I receive after completing the course in South Delhi?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will receive <strong>15+ industry certifications</strong> including Google Ads, Meta Certified Digital Marketing Associate, HubSpot Inbound &amp; SEO, Semrush, and the prestigious UIDMT Master’s Certificate with an official Agency Internship Letter.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will earn <strong>15+ globally recognized industry certifications</strong> including Google Search & Display Ads, Google Analytics (GA4), Meta Certified Digital Marketing Associate, HubSpot Inbound Marketing, Semrush SEO Toolkit Certification, and the official King of Digital Marketing / UIDMT Agency Master Certificate.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 8 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.8. Who can join this digital marketing course?</span>
+										<span class="kdm-faq-question">Q.8. Does this digital marketing course in South Delhi include Artificial Intelligence (AI) and GEO?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Anyone with basic computer and internet knowledge can join! Our batches are specially designed for college students, job seekers, working professionals wanting to switch careers, entrepreneurs, freelancers, and homemakers.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Our updated 2026 syllabus is 100% AI-integrated. You will master Generative Engine Optimization (GEO), AI search ranking strategies, prompt engineering, and premium AI tools including ChatGPT-4, Claude, Midjourney, Perplexity AI, Leonardo AI, and marketing automation workflows.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 9 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.9. What career job roles can I apply for after completing the course in South Delhi?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Upon graduation, you can apply for high-demand corporate and agency roles including <strong>SEO Specialist, PPC & Google Ads Analyst, Social Media Marketing Manager, Performance Marketing Executive, Content Strategist, Online Reputation Manager (ORM), Growth Hacker, or Digital Marketing Lead</strong>.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 10 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.10. What salary package can I expect as a fresher or experienced marketer in South Delhi?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Freshers in South Delhi and Delhi NCR typically start between <strong>₹3,00,000 to ₹4,50,000 LPA</strong> (₹25,000 to ₹38,000/month). With 1 to 3 years of experience, salaries scale rapidly to <strong>₹6,00,000 to ₹12,00,000+ per annum</strong>, while freelancers managing global clients earn ₹50,000 to ₹1,50,000+ monthly.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 11 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.11. Are online live classes and offline classroom sessions available for South Delhi students?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we offer both offline classroom training at our South Delhi center and interactive instructor-led live online classes with screen sharing, real-time campaign reviews, and 1-on-1 doubt clearing. All students also get lifetime access to recorded lecture sessions and study materials.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 12 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.12. Can I attend a free demo class before paying the admission fee in South Delhi?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide a 100% free career counseling session and live trial demo class. You can interact with course mentor Gaurav Dubey, evaluate the 60-module curriculum, review past student placement records, and test our practical teaching methodology before enrolling.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 13 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.13. Is there a guaranteed agency internship provided in South Delhi?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Students enrolled in our 3-month and 6-month programs receive a guaranteed agency internship at King of Digital Marketing / Devweboic. You will work alongside senior specialists on live client deliverables, earn an official internship certificate, and receive letters of recommendation (LOR).</p>
+									</div>
+								</div>
+
+								<!-- FAQ 14 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.14. How can local business owners and entrepreneurs in South Delhi benefit from this course?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Business owners learn how to dominate local Google search (Google Business Profile / GMB Local SEO), generate qualified daily leads through targeted Google & Meta ad campaigns, build high-converting landing pages, execute WhatsApp/email marketing, and scale revenue without relying on third-party agencies.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 15 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.15. What premium digital marketing tools and software will I learn in South Delhi?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will gain hands-on expertise in <strong>35+ industry-leading tools</strong> including Google Search Console, Google Analytics (GA4), Google Ads Manager, Meta Business Suite, Semrush, Ahrefs, Ubersuggest, Screaming Frog, Yoast SEO, RankMath, Canva Pro, WordPress CMS, Mailchimp, Zapier, ChatGPT, and Hootsuite.</p>
 									</div>
 								</div>
 							</div>
@@ -3500,7 +3639,7 @@
 								<div class="box-offer">✅ 100% Practical Live Projects</div>
 								<div class="box-offer">✅ 60+ AI &amp; Marketing Modules</div>
 								<div class="box-offer">✅ Agency Internship &amp; Placement</div>
-								<div class="box-offer">✅ 15+ Global Certifications</div>
+								<div class="box-offer">✅ Multiple Global Certifications</div>
 								<a href="#kdm-hero-lead-form" class="kdm-faq-offer-btn">
 									Book Free Demo Class <i class="fa fa-arrow-right" style="margin-left: 4px;"></i>
 								</a>

@@ -665,22 +665,22 @@
         </div>
       </section>
 
-      <!-- ===== 6. FEATURED CASE STUDIES SECTION ===== -->
+            <!-- ===== 6. FEATURED CASE STUDIES SECTION ===== -->
       <section class="kdm-case-v3-section">
         <div class="container">
           <div class="text-center" style="max-width: 850px; margin: 0 auto 35px auto;">
             <div class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
-              <i class="fa fa-trophy"></i> FEATURED STUDY ABROAD CASE STUDIES
+              <i class="fa fa-trophy"></i> FEATURED STUDY ABROAD CASE STUDIES &amp; CLIENTS
             </div>
             <h2 style="font-size: 34px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Proven Results For <span style="color: #0284c7;">Overseas Education Consultancies</span></h2>
-            <p style="font-size: 16px; color: #64748b; line-height: 1.6;">Explore how our specialized intake funnels generated thousands of pre-qualified student admissions for global study destinations.</p>
+            <p style="font-size: 16px; color: #64748b; line-height: 1.6;">Explore how our specialized intake funnels generated thousands of pre-qualified student admissions for 24+ premier study abroad consultancies.</p>
           </div>
 
           <!-- Brand Name Search Bar -->
           <div class="kdm-case-search-wrap">
             <div class="kdm-case-search-box">
               <i class="fa fa-search kdm-case-search-icon"></i>
-              <input type="text" id="kdmCaseSearchInput" class="kdm-case-search-input" placeholder="Search case study by name (e.g., Planet Education, Get Study Visa)..." onkeyup="filterCaseStudies()" oninput="filterCaseStudies()" aria-label="Search case study by name" />
+              <input type="text" id="kdmCaseSearchInput" class="kdm-case-search-input" placeholder="Search case study by name (e.g., Planet Education, GotoUniversity, Envision, CanX, Advisely, Focus Overseas, Newlight)..." onkeyup="filterCaseStudies()" oninput="filterCaseStudies()" aria-label="Search case study by name" />
               <button type="button" class="kdm-case-search-clear" id="kdmCaseSearchClear" onclick="clearCaseSearch()" title="Clear search"><i class="fa fa-times"></i></button>
             </div>
           </div>
@@ -694,15 +694,15 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/planet-education.webp" alt="Planet Education Noida Logo" class="kdm-case-v3-logo" loading="lazy" />
+                    <img src="images/client/planet-education.webp" alt="Planet Education Noida Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Planet Education Noida</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Australia, UK &amp; Canada Study Abroad Advisory)</h4>
+                  <h4 class="kdm-case-v3-subtitle">(Australia, UK & Canada Study Abroad Advisory)</h4>
                   <p class="kdm-case-v3-desc">Scaled student admissions across Delhi NCR for major foreign university intakes, deploying multi-step qualification ads and driving a 380% surge in enrolled applicants.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">380%</span><small class="kdm-case-v3-metric-lbl">Admissions Up</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+380%</span><small class="kdm-case-v3-metric-lbl">Admissions Up</small></div>
                     <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-44%</span><small class="kdm-case-v3-metric-lbl">CPL Cut</small></div>
                     <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.8x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
                   </div>
@@ -710,21 +710,461 @@
                 </div>
               </div>
 
-              <!-- 2. Real Verified Client: Get Study Visa -->
+              <!-- 2. Real Verified Client: Envision Overseas Education -->
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/get-study-visa.webp" alt="Get Study Visa Logo" class="kdm-case-v3-logo" loading="lazy" />
+                    <img src="images/client/envisionoverseas.webp" alt="Envision Overseas Education Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Envision Overseas Education</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Global Study Abroad & University Placement)</h4>
+                  <p class="kdm-case-v3-desc">Automated student inquiry pipelines and multi-country scholarship campaigns, delivering a steady flow of high-intent candidates for USA, UK, and European universities.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+420%</span><small class="kdm-case-v3-metric-lbl">Inbound Leads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-48%</span><small class="kdm-case-v3-metric-lbl">Cost Per Lead</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.2x</span><small class="kdm-case-v3-metric-lbl">Ad ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 3. Real Verified Client: Get Study Visa (Aaera Consultants) -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/get-study-visa.webp" alt="Get Study Visa Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Get Study Visa (Aaera Consultants)</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Global Student Visa &amp; College Admissions Agency)</h4>
+                  <h4 class="kdm-case-v3-subtitle">(Global Student Visa & College Admissions Agency)</h4>
                   <p class="kdm-case-v3-desc">Deployed localized Google Search PPC and automated WhatsApp intake follow-ups, capturing 3,200+ pre-vetted student applications and cutting lead drop-off by 51%.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
                     <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">3,200+</span><small class="kdm-case-v3-metric-lbl">Applications</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-51%</span><small class="kdm-case-v3-metric-lbl">Drop-Off</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.4x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-51%</span><small class="kdm-case-v3-metric-lbl">Drop-Off Cut</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.4x</span><small class="kdm-case-v3-metric-lbl">Campaign ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 4. Real Verified Client: GotoUniversity -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/goto-university.webp" alt="GotoUniversity Portal Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">GotoUniversity</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Global University Admissions & Course Finder Portal)</h4>
+                  <p class="kdm-case-v3-desc">Redesigned university portal UX and executed high-ranking SEO strategies across 40+ country course directories, driving massive organic student discovery and counseling bookings.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+450%</span><small class="kdm-case-v3-metric-lbl">Organic Traffic</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">2,800+</span><small class="kdm-case-v3-metric-lbl">Counseling Leads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.5x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 5. Real Verified Client: KAN Visa Direction -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/kan-visa-direction.webp" alt="KAN Visa Direction Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">KAN Visa Direction</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Overseas Education & Visa Direction Consultancy)</h4>
+                  <p class="kdm-case-v3-desc">Built a high-converting digital presence and dominant local SEO funnels, connecting hundreds of aspiring students with trusted visa counseling specialists.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+310%</span><small class="kdm-case-v3-metric-lbl">Form Inquiries</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-42%</span><small class="kdm-case-v3-metric-lbl">Acquisition Cost</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.8x</span><small class="kdm-case-v3-metric-lbl">Conversion ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 6. Real Verified Client: CanX Immigration & Education -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/canx-immigration.webp" alt="CanX Immigration & Education Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">CanX Immigration & Education</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Canada Study Permit & Express Visa Advisory)</h4>
+                  <p class="kdm-case-v3-desc">Targeted prospective Canadian university & college aspirants with specialized intake landing pages, driving qualified applications with verified IELTS scores.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">520+</span><small class="kdm-case-v3-metric-lbl">Visa Candidates</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-38%</span><small class="kdm-case-v3-metric-lbl">CPA Reduction</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.1x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 7. Real Verified Client: Immigration Express -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/immigration-express.webp" alt="Immigration Express Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Immigration Express</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Study Visa & International Admissions Consultancy)</h4>
+                  <p class="kdm-case-v3-desc">Revamped organic search rankings, managed high-conversion Meta ads, and scaled inbound overseas education inquiries across competitive metropolitan regions.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+340%</span><small class="kdm-case-v3-metric-lbl">Search Rank</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">1,900+</span><small class="kdm-case-v3-metric-lbl">Qualified Leads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.0x</span><small class="kdm-case-v3-metric-lbl">Lead ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 8. Real Verified Client: Newlight Education -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/newlight-education.webp" alt="Newlight Education Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Newlight Education</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Overseas Admissions & Foreign Language Prep Advisory)</h4>
+                  <p class="kdm-case-v3-desc">Combined test prep marketing (IELTS/TOEFL) with study abroad intake campaigns to create high-LTV student pipelines for top UK and European institutions.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+290%</span><small class="kdm-case-v3-metric-lbl">Enrollment Surge</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-46%</span><small class="kdm-case-v3-metric-lbl">CPL Reduction</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.3x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 9. Real Verified Client: Aksira Education -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/aksira-education-logo.webp" alt="Aksira Education Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Aksira Education</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Abroad Medical & University Admissions Consultancy)</h4>
+                  <p class="kdm-case-v3-desc">Specialized campaigns for MBBS & STEM abroad programs, using educational webinars and eligibility calculators to generate verified student enrollments.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+395%</span><small class="kdm-case-v3-metric-lbl">Applications</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-48%</span><small class="kdm-case-v3-metric-lbl">Cost Per Lead</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.8x</span><small class="kdm-case-v3-metric-lbl">Campaign ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 10. Real Verified Client: AS Edutech -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/as-edutech.webp" alt="AS Edutech Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">AS Edutech</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Global Higher Education Counseling & Admissions)</h4>
+                  <p class="kdm-case-v3-desc">Captured dominant local 3-pack Google Map rankings and ran targeted scholarship awareness ads, dramatically boosting physical counseling walk-ins and phone calls.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+360%</span><small class="kdm-case-v3-metric-lbl">Walk-in Growth</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">1,450+</span><small class="kdm-case-v3-metric-lbl">Student Leads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.9x</span><small class="kdm-case-v3-metric-lbl">Ad ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 11. Real Verified Client: Focus Overseas -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/focus-overseas.webp" alt="Focus Overseas Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Focus Overseas</h3>
+                  <h4 class="kdm-case-v3-subtitle">(International Career & Overseas Study Mentors)</h4>
+                  <p class="kdm-case-v3-desc">Multi-channel student acquisition funnels across Google and Meta, generating pre-screened applicants for USA, Ireland, and German university intakes.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+410%</span><small class="kdm-case-v3-metric-lbl">Organic Inquiries</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-35%</span><small class="kdm-case-v3-metric-lbl">CPA Reduction</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.7x</span><small class="kdm-case-v3-metric-lbl">Return on Spend</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 12. Real Verified Client: Enrolbuddy -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/enrolbuddy.webp" alt="Enrolbuddy Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Enrolbuddy</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Student Enrollment & Global University Matching)</h4>
+                  <p class="kdm-case-v3-desc">Executed aggressive social media video funnels and Google Ads campaigns, helping students discover global academic programs and booking direct counselor chats.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5,400+</span><small class="kdm-case-v3-metric-lbl">Active Inquiries</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+320%</span><small class="kdm-case-v3-metric-lbl">Lead Inflow</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.8x</span><small class="kdm-case-v3-metric-lbl">Target ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 13. Real Verified Client: AICS Immigration & Education -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/aics-immigration.webp" alt="AICS Immigration & Education Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">AICS Immigration & Education</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Abroad Education, PR & Student Visa Services)</h4>
+                  <p class="kdm-case-v3-desc">Elevated organic rankings and launched geo-targeted lead generation campaigns that established AICS as a premier abroad education advisory.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+375%</span><small class="kdm-case-v3-metric-lbl">Lead Flow</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-45%</span><small class="kdm-case-v3-metric-lbl">CPL Cut</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.2x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 14. Real Verified Client: Afflatus Global Visa -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/afflatus-global-visa.webp" alt="Afflatus Global Visa Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Afflatus Global Visa</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Overseas Education & Global Visa Advisory)</h4>
+                  <p class="kdm-case-v3-desc">Transformed low online visibility into a high-octane student recruitment machine using focused PPC bidding and authoritative study abroad content.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+440%</span><small class="kdm-case-v3-metric-lbl">Inbound Consults</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-40%</span><small class="kdm-case-v3-metric-lbl">Cost Per Lead</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.6x</span><small class="kdm-case-v3-metric-lbl">Conversion ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 15. Real Verified Client: MEO Immigration & Overseas Education -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/meo-immigration.webp" alt="MEO Immigration Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">MEO Immigration & Overseas Education</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Overseas Student Placements & Visa Assistance)</h4>
+                  <p class="kdm-case-v3-desc">Designed a fast, responsive study abroad portal with integrated consultation scheduling, slashing bounce rates and supercharging mobile lead capture.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+330%</span><small class="kdm-case-v3-metric-lbl">Bookings</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-50%</span><small class="kdm-case-v3-metric-lbl">Bounce Rate</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.9x</span><small class="kdm-case-v3-metric-lbl">Ad ROI</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 16. Real Verified Client: IEAC Consulting -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/ieac-education.webp" alt="IEAC Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">IEAC Consulting</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Study Abroad Admissions & Test Prep)</h4>
+                  <p class="kdm-case-v3-desc">Intake-specific ad campaigns and lead nurturing automations that captured serious study abroad candidates during peak Fall and Spring admission cycles.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+280%</span><small class="kdm-case-v3-metric-lbl">Intake Growth</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">1,600+</span><small class="kdm-case-v3-metric-lbl">Pre-screened Leads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.7x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 17. Real Verified Client: BNPS International -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/bnps-international.webp" alt="BNPS International Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">BNPS International</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Global Education & University Advisory)</h4>
+                  <p class="kdm-case-v3-desc">Targeted SEO optimization and conversion-driven landing pages that positioned BNPS as a top-tier overseas education consultant.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+350%</span><small class="kdm-case-v3-metric-lbl">Profile Inquiries</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-36%</span><small class="kdm-case-v3-metric-lbl">CPA Reduction</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.0x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 18. Real Verified Client: Advisely APP -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/advisely-app.webp" alt="Advisely APP Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Advisely APP</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Study Abroad Mobile Consultation Platform)</h4>
+                  <p class="kdm-case-v3-desc">Scaled mobile application downloads and in-app counseling requests through high-performing Google App Campaigns and interactive student matching.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">12,000+</span><small class="kdm-case-v3-metric-lbl">App Downloads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+410%</span><small class="kdm-case-v3-metric-lbl">Consult Requests</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.5x</span><small class="kdm-case-v3-metric-lbl">Target ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 19. Real Verified Client: RWICS Immigration -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/rwics-immigration.webp" alt="RWICS Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">RWICS Immigration</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Right Way Immigration & Overseas Study Advisory)</h4>
+                  <p class="kdm-case-v3-desc">Localized Google Search and citation strategies targeting tier-1 & tier-2 cities, expanding client reach across regional student hubs.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+390%</span><small class="kdm-case-v3-metric-lbl">Lead Growth</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-43%</span><small class="kdm-case-v3-metric-lbl">Cost Per Lead</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.4x</span><small class="kdm-case-v3-metric-lbl">Conversion ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 20. Real Verified Client: Unipath Education -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/unipath-education.webp" alt="Unipath Education Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Unipath Education</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Global Pathway & Overseas University Admissions)</h4>
+                  <p class="kdm-case-v3-desc">Urgency-driven deadline countdown campaigns combined with automated WhatsApp qualification flows, driving rapid course applications.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+460%</span><small class="kdm-case-v3-metric-lbl">Applications</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-47%</span><small class="kdm-case-v3-metric-lbl">CPL Reduction</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.1x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 21. Real Verified Client: IMG Overseas -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/img-overseas.webp" alt="IMG Overseas Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">IMG Overseas</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Abroad Education & Visa Consultation Services)</h4>
+                  <p class="kdm-case-v3-desc">High-ROI Meta and Google Ads management targeting students interested in premier international universities with multi-step pre-vetting.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+480%</span><small class="kdm-case-v3-metric-lbl">Inquiries Surge</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-52%</span><small class="kdm-case-v3-metric-lbl">CPL Cut</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.3x</span><small class="kdm-case-v3-metric-lbl">Ad ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 22. Real Verified Client: Continental Immigration -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/continental-immigration.webp" alt="Continental Immigration Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Continental Immigration</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Global Study Visa & Career Consultation)</h4>
+                  <p class="kdm-case-v3-desc">High-authority SEO link building and targeted search campaigns, boosting physical branch inquiries and premium consultation sign-ups.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+310%</span><small class="kdm-case-v3-metric-lbl">Consultations</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">2,100+</span><small class="kdm-case-v3-metric-lbl">Enrolled Leads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.2x</span><small class="kdm-case-v3-metric-lbl">Campaign ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 23. Real Verified Client: Visa Guruji Global -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/visagurujiglobal.webp" alt="Visa Guruji Global Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Visa Guruji Global</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Global Visa & Study Abroad Advisory)</h4>
+                  <p class="kdm-case-v3-desc">Built high-converting YouTube and Instagram video marketing funnels driving direct WhatsApp counseling appointments with prospective international scholars.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+365%</span><small class="kdm-case-v3-metric-lbl">Video Leads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-41%</span><small class="kdm-case-v3-metric-lbl">CPL Reduction</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.4x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 24. Real Verified Client: Jashvi Consultant -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/jashvi-consultant.webp" alt="Jashvi Consultant Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Jashvi Consultant</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Overseas Education & Student Visa Consultancy)</h4>
+                  <p class="kdm-case-v3-desc">Executed targeted Google Search Ads and intake countdown pages for UK, Australia & New Zealand admissions, maximizing student intake conversions.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+295%</span><small class="kdm-case-v3-metric-lbl">Admissions Up</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-45%</span><small class="kdm-case-v3-metric-lbl">Cost Per Lead</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.0x</span><small class="kdm-case-v3-metric-lbl">Campaign ROAS</small></div>
                   </div>
                   <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
                 </div>
