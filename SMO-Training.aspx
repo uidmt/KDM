@@ -100,7 +100,6 @@
     ]
 }
 		</script>
-		<link rel="stylesheet" href="css/kdm-faq.css" />
 		</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
