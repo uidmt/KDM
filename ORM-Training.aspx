@@ -118,7 +118,7 @@
 							<i class="fa fa-chevron-right"></i>
 							<a href="digital-marketing-course.aspx">Courses</a>
 							<i class="fa fa-chevron-right"></i>
-							<span>ORM Training</span>
+							<span>ORM Training (South Delhi)</span>
 						</div>
 
 						<div class="kdm-hero-pulse-badge">
@@ -127,7 +127,7 @@
 						</div>
 
 						<h1 class="kdm-course-hero-title">
-							Advance ORM Course In South Delhi
+							Advance ORM Course In <span class="kdm-hero-gradient-text">South Delhi</span>
 						</h1>
 
 						<p class="kdm-course-hero-subtitle">
@@ -152,52 +152,54 @@
 							</div>
 						</div>
 
-						<!-- Core Value Bullet Points with SVGs -->
-						<div class="kdm-hero-usps">
-							<div class="kdm-usp-item">
-								<div class="kdm-usp-icon">
-									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-										<polyline points="22 4 12 14.01 9 11.01"></polyline>
-									</svg>
+						<!-- 6 Key Benefit Feature Cards -->
+						<div class="kdm-hero-features-grid">
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-shield-alt"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">SERP Fortress &amp; Suppression</div>
+									<div class="kdm-feat-desc">Negative Link Pushdown to Google Page 2 &amp; 3</div>
 								</div>
-								<span><strong>Google SERP Fortress:</strong> Push down negative search results to Page 2 &amp; 3 with high-authority Web 2.0 assets</span>
 							</div>
-							<div class="kdm-usp-item">
-								<div class="kdm-usp-icon">
-									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-										<polyline points="22 4 12 14.01 9 11.01"></polyline>
-									</svg>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-star"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">Review PR &amp; Moderation</div>
+									<div class="kdm-feat-desc">GMB, Trustpilot &amp; Glassdoor Automated PR</div>
 								</div>
-								<span><strong>Review Management &amp; PR:</strong> Master Google My Business, Trustpilot &amp; Glassdoor review automation workflows</span>
 							</div>
-							<div class="kdm-usp-item">
-								<div class="kdm-usp-icon">
-									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-										<polyline points="22 4 12 14.01 9 11.01"></polyline>
-									</svg>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-briefcase"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">100% Placement &amp; Internship</div>
+									<div class="kdm-feat-desc">Live Crisis PR Accounts &amp; Brand24 Tracking</div>
 								</div>
-								<span><strong>Live Agency Accounts:</strong> Real crisis PR case studies, Brand24 tracking, sentiment monitoring &amp; legal takedown procedures</span>
 							</div>
-							<div class="kdm-usp-item">
-								<div class="kdm-usp-icon">
-									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-										stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-										<polyline points="22 4 12 14.01 9 11.01"></polyline>
-									</svg>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-calendar-alt"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">Weekend &amp; Weekday Batches</div>
+									<div class="kdm-feat-desc">South Delhi Classroom + Live Interactive Online</div>
 								</div>
-								<span><strong>Agency Mentorship:</strong> Direct coaching from Gaurav Dubey (13+ Yrs Exp.) with guaranteed agency internship &amp; job assistance</span>
+							</div>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-certificate"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">Multiple Certifications</div>
+									<div class="kdm-feat-desc">UIDMT, Internship, Google &amp; Others</div>
+								</div>
+							</div>
+							<div class="kdm-hero-feat-card">
+								<div class="kdm-feat-icon-box"><i class="fa fa-user-tie"></i></div>
+								<div class="kdm-feat-content">
+									<div class="kdm-feat-title">13+ Yrs Agency Mentor</div>
+									<div class="kdm-feat-desc">Direct Coaching by Gaurav Dubey</div>
+								</div>
 							</div>
 						</div>
 
-						<!-- Action CTAs -->
-						<div class="kdm-hero-cta-row" style="margin-top: 25px;">
+						<!-- CTA Buttons Row -->
+						<div class="kdm-hero-cta-row">
 							<a href="#kdm-hero-lead-form" class="kdm-btn-hero-primary">
 								<i class="fa fa-paper-plane"></i> Book Free Demo Class
 							</a>
@@ -213,24 +215,13 @@
 
 					<!-- Right Form Column -->
 					<div class="kdm-course-hero-right" id="kdm-hero-lead-form">
-						<div class="kdm-hero-card">
-							<div class="kdm-form-glow-top"></div>
-							<div class="kdm-form-badge">🚀 LIMITED SEATS AVAILABLE</div>
-							<h3 class="kdm-form-title">Book Free ORM Demo Class</h3>
-							<p class="kdm-form-desc">Get 1-on-1 counseling &amp; special scholarship offers for 2026 batches.</p>
-
-							<!-- Form Container with Responsive Iframe / WebForm -->
-							<div class="kdm-form-body">
-								<iframe src="digital-course-form.aspx" scrolling="no" frameborder="0"
-									style="width: 100%; height: 380px; border: none; overflow: hidden; display: block;"
-									loading="lazy"></iframe>
+						<div class="kdm-hero-form-card">
+							<div class="kdm-hero-form-header">
+								<span class="kdm-form-header-title"><i class="fa fa-bolt"></i> Fast-Track Admission</span>
+								<span class="kdm-form-seat-tag">🔥 Only 5 Seats Left</span>
 							</div>
-
-							<div class="kdm-form-guarantees">
-								<span><i class="fa fa-shield-alt"></i> 100% Privacy</span>
-								<span><i class="fa fa-check-circle"></i> Instant Call Back</span>
-								<span><i class="fa fa-award"></i> Free Certificate</span>
-							</div>
+							<iframe scrolling="no" src="digital-course-form.aspx" class="kdm-hero-form-iframe"
+								title="ORM Training Course Enquiry Form"></iframe>
 						</div>
 					</div>
 				</div>
