@@ -32,46 +32,133 @@
 		<link rel="stylesheet" href="css/kdm-faq.css">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 		<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "What is Digital marketing course fees in {{CITY_NAME}}?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The fees for a digital marketing course in {{CITY_NAME}} range from 20K to 35K, depending on the course you are going for."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Which are top 10 digital marketing instititutes in {{CITY_NAME}} for best digital marketing course?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "1. KDM, 2. Devweboic, 3. NDMIT, 4. Sapience Technologies, 5.Proideators, 6. DDMI and Others institutes of digital marketing. These are some of the Institutes that provide the best digital marketing courses in {{CITY_NAME}}."
-        }
-      }, {
-        "@type": "Question",
-        "name": "What is the duration of Digital Marketing courses in {{CITY_NAME}}?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The duration of a digital marketing course generally ranges from 3 months to 1 year (approx.)(s)."
-        }
-      }, {
-        "@type": "Question",
-        "name": "What is the eligibility for digital marketing courses in {{CITY_NAME}}?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You must have completed your class 12 or the equivalent from a recognized board educational or institution in order to enroll in any digital marketing certificate program."
-        }
-      }, {
-        "@type": "Question",
-        "name": "What is the salary of a digital marketer in {{CITY_NAME}}?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text":"This depends on the Company, skills, and experience of the person 20k to 60k per month (approx.)"}
-        }]
+      "@type": "Question",
+      "name": "What is the Digital Marketing course fee in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The digital marketing course fee in {{CITY_NAME}} at King of Digital Marketing ranges from ₹20,000 to ₹45,000 depending on the program tier (1-Month Fast-Track, 3-Month Practical Mastery, 6-Month Agency Launchpad, or 1-Year Master Diploma). We also provide flexible 0% interest monthly installment (EMI) options and special scholarship discounts of up to 28% for early enrollments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is King of Digital Marketing (UIDMT) rated the best institute in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "King of Digital Marketing is an active full-service performance agency established in 2013, not just a theoretical coaching center. Trainees learn directly under senior digital consultant Gaurav Dubey (13+ Years Agency Experience, 900+ Campaigns), work on live client ad budgets, master 35+ premium tools, earn 15+ global certifications, and benefit from 100% placement assistance with over 1,850+ successfully placed alumni."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the eligibility criteria to join the digital marketing course in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no technical or coding prerequisite. Any 12th-pass student, college graduate, job seeker, working professional, housewife, freelancer, or business owner in {{CITY_NAME}} ({{CITY_NAME_ALT}}) can enroll. Our curriculum is structured from foundational basics and progresses systematically to advanced AI-driven strategies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the duration of the digital marketing training program in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer flexible learning durations: 1-Month PowerPlay Bootcamp (fast-track essentials), 3-Month Practical Mastery (in-depth 60 modules + live projects), 6-Month Agency Launchpad (includes guaranteed agency internship), and 1-Year Master Diploma in AI & Digital Marketing. Both regular weekday and weekend batches are available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide 100% placement assistance in {{CITY_NAME}} and Delhi NCR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide 100% dedicated placement support through our active recruitment cell. We conduct personalized resume building, LinkedIn profile branding, mock technical and HR interview rounds, portfolio creation, and direct interview scheduling with over 250+ top hiring partner agencies, MNCs, and startups."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I get to work on real live client projects during training in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, 100% of our training is practical. Unlike traditional institutes that teach on dummy slides, King of Digital Marketing provides real client accounts and active ad budgets for Google Ads, Meta Ads (Facebook & Instagram), SEO audits, schema markup, and lead generation funnels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications will I receive after completing the course in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will earn 15+ globally recognized industry certifications including Google Search & Display Ads, Google Analytics (GA4), Meta Certified Digital Marketing Associate, HubSpot Inbound Marketing, Semrush SEO Toolkit Certification, and the official King of Digital Marketing / UIDMT Agency Master Certificate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this digital marketing course in {{CITY_NAME}} include Artificial Intelligence (AI) and GEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Our updated 2026 syllabus is 100% AI-integrated. You will master Generative Engine Optimization (GEO), AI search ranking strategies, prompt engineering, and premium AI tools including ChatGPT-4, Claude, Midjourney, Perplexity AI, Leonardo AI, and marketing automation workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What career job roles can I apply for after completing the course in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Upon graduation, you can apply for high-demand corporate and agency roles including SEO Specialist, PPC & Google Ads Analyst, Social Media Marketing Manager, Performance Marketing Executive, Content Strategist, Online Reputation Manager (ORM), Growth Hacker, or Digital Marketing Lead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What salary package can I expect as a fresher or experienced marketer in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Freshers in {{CITY_NAME}} and Delhi NCR typically start between ₹3,00,000 to ₹4,50,000 LPA (₹25,000 to ₹38,000/month). With 1 to 3 years of experience, salaries scale rapidly to ₹6,00,000 to ₹12,00,000+ per annum, while freelancers managing global clients earn ₹50,000 to ₹1,50,000+ monthly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are online live classes and offline classroom sessions available for {{CITY_NAME}} students?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer both offline classroom training at our {{CITY_NAME}} center and interactive instructor-led live online classes with screen sharing, real-time campaign reviews, and 1-on-1 doubt clearing. All students also get lifetime access to recorded lecture sessions and study materials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I attend a free demo class before paying the admission fee in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide a 100% free career counseling session and live trial demo class. You can interact with course mentor Gaurav Dubey, evaluate the 60-module curriculum, review past student placement records, and test our practical teaching methodology before enrolling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a guaranteed agency internship provided in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Students enrolled in our 3-month and 6-month programs receive a guaranteed agency internship at King of Digital Marketing / Devweboic. You will work alongside senior specialists on live client deliverables, earn an official internship certificate, and receive letters of recommendation (LOR)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can local business owners and entrepreneurs in {{CITY_NAME}} benefit from this course?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Business owners learn how to dominate local Google search (Google Business Profile / GMB Local SEO), generate qualified daily leads through targeted Google & Meta ad campaigns, build high-converting landing pages, execute WhatsApp/email marketing, and scale revenue without relying on third-party agencies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What premium digital marketing tools and software will I learn in {{CITY_NAME}}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will gain hands-on expertise in 35+ industry-leading tools including Google Search Console, Google Analytics (GA4), Google Ads Manager, Meta Business Suite, Semrush, Ahrefs, Ubersuggest, Screaming Frog, Yoast SEO, RankMath, Canva Pro, WordPress CMS, Mailchimp, Zapier, ChatGPT, and Hootsuite."
+      }
     }
-    </script>
+  ]
+}
+</script>
 	</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 		<div role="main" class="main">
@@ -2794,7 +2881,7 @@
 						<!-- Left Column: FAQ Accordion -->
 						<div>
 							<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-							<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our AI-powered digital marketing course in {{CITY_NAME}}, fees, syllabus, and placement support.</p>
+							<p class="kdm-faq-subtitle">Got questions about our digital marketing course in {{CITY_NAME}}? Here are the 15 most frequently asked questions about course fees, 60+ syllabus modules, Gaurav Dubey mentorship, live projects, and 100% placement support.</p>
 
 							<div class="kdm-faq-accordion">
 								<!-- FAQ 1 -->
@@ -2804,62 +2891,161 @@
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing course fees in {{CITY_NAME}} at King of Digital Marketing range from <strong>₹20,000 to ₹35,000</strong> depending on the program tier (Launchpad, PowerPlay, Advanced, or Mastery), with easy 0% interest monthly installment options.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The digital marketing course fee in {{CITY_NAME}} at King of Digital Marketing ranges from <strong>₹20,000 to ₹45,000</strong> depending on the program tier (1-Month Fast-Track, 3-Month Practical Mastery, 6-Month Agency Launchpad, or 1-Year Master Diploma). We also provide flexible 0% interest monthly installment (EMI) options and special scholarship discounts of up to 28% for early enrollments.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 2 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.2. Which institutes provide the best digital marketing course in {{CITY_NAME}}?</span>
+										<span class="kdm-faq-question">Q.2. Why is King of Digital Marketing (UIDMT) rated the best institute in {{CITY_NAME}}?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> King of Digital Marketing (KDM / Devweboic) is rated #1 for agency-driven practical training in {{CITY_NAME}}. Other institutes include NDMIT, Sapience Technologies, and DDMI. KDM is distinguished by offering live client ad budgets, paid internships, and Gaurav Dubey mentorship.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> King of Digital Marketing is an active full-service performance agency established in 2013, not just a theoretical coaching center. Trainees learn directly under senior digital consultant Gaurav Dubey (13+ Years Agency Experience, 900+ Campaigns), work on live client ad budgets, master 35+ premium tools, earn 15+ global certifications, and benefit from 100% placement assistance with over 1,850+ successfully placed alumni.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 3 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.3. What is the duration of the digital marketing course in {{CITY_NAME}}?</span>
+										<span class="kdm-faq-question">Q.3. What is the eligibility criteria to join the digital marketing course in {{CITY_NAME}}?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Course durations vary from <strong>45 Days (PowerPlay Fast-Track)</strong> to <strong>3-4 Months (Mastery Program)</strong>, followed by 1 to 2 months of guaranteed agency internship with live campaign execution.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> There is no technical or coding prerequisite. Any 12th-pass student, college graduate, job seeker, working professional, housewife, freelancer, or business owner in {{CITY_NAME}} ({{CITY_NAME_ALT}}) can enroll. Our curriculum is structured from foundational basics and progresses systematically to advanced AI-driven strategies.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 4 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.4. What is the eligibility for digital marketing courses in {{CITY_NAME}}?</span>
+										<span class="kdm-faq-question">Q.4. What is the duration of the digital marketing training program in {{CITY_NAME}}?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Anyone who has completed Class 12 or graduation in any stream can enroll. No prior coding or technical knowledge is needed.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer flexible learning durations: <strong>1-Month PowerPlay Bootcamp</strong> (fast-track essentials), <strong>3-Month Practical Mastery</strong> (in-depth 60 modules + live projects), <strong>6-Month Agency Launchpad</strong> (includes guaranteed agency internship), and <strong>1-Year Master Diploma in AI & Digital Marketing</strong>. Both regular weekday and weekend batches are available.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 5 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.5. What is the salary of a digital marketer in {{CITY_NAME}} and India?</span>
+										<span class="kdm-faq-question">Q.5. Do you provide 100% placement assistance in {{CITY_NAME}} and Delhi NCR?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Freshers typically earn between <strong>₹2.5 LPA to ₹4.5 LPA</strong>, while experienced specialists and managers earn <strong>₹6 LPA to ₹15+ LPA</strong> in India and higher with international remote projects.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide 100% dedicated placement support through our active recruitment cell. We conduct personalized resume building, LinkedIn profile branding, mock technical and HR interview rounds, portfolio creation, and direct interview scheduling with over 250+ top hiring partner agencies, MNCs, and startups.</p>
 									</div>
 								</div>
 
 								<!-- FAQ 6 -->
 								<div class="kdm-faq-item">
 									<button type="button" class="kdm-faq-header">
-										<span class="kdm-faq-question">Q.6. Can I attend a free demo class before enrollment?</span>
+										<span class="kdm-faq-question">Q.6. Will I get to work on real live client projects during training in {{CITY_NAME}}?</span>
 										<span class="kdm-faq-icon">+</span>
 									</button>
 									<div class="kdm-faq-body">
-										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely! You can book a free live demo class by filling out the <a href="#kdm-hero-lead-form"><strong>Enquiry Form</strong></a> or calling <strong>+91 9555696058</strong>.</p>
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100% of our training is practical. Unlike traditional institutes that teach on dummy slides, King of Digital Marketing provides real client accounts and active ad budgets for Google Ads, Meta Ads (Facebook & Instagram), SEO audits, schema markup, and lead generation funnels.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 7 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.7. What certifications will I receive after completing the course in {{CITY_NAME}}?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will earn <strong>15+ globally recognized industry certifications</strong> including Google Search & Display Ads, Google Analytics (GA4), Meta Certified Digital Marketing Associate, HubSpot Inbound Marketing, Semrush SEO Toolkit Certification, and the official King of Digital Marketing / UIDMT Agency Master Certificate.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 8 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.8. Does this digital marketing course in {{CITY_NAME}} include Artificial Intelligence (AI) and GEO?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Our updated 2026 syllabus is 100% AI-integrated. You will master Generative Engine Optimization (GEO), AI search ranking strategies, prompt engineering, and premium AI tools including ChatGPT-4, Claude, Midjourney, Perplexity AI, Leonardo AI, and marketing automation workflows.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 9 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.9. What career job roles can I apply for after completing the course in {{CITY_NAME}}?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Upon graduation, you can apply for high-demand corporate and agency roles including <strong>SEO Specialist, PPC & Google Ads Analyst, Social Media Marketing Manager, Performance Marketing Executive, Content Strategist, Online Reputation Manager (ORM), Growth Hacker, or Digital Marketing Lead</strong>.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 10 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.10. What salary package can I expect as a fresher or experienced marketer in {{CITY_NAME}}?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Freshers in {{CITY_NAME}} and Delhi NCR typically start between <strong>₹3,00,000 to ₹4,50,000 LPA</strong> (₹25,000 to ₹38,000/month). With 1 to 3 years of experience, salaries scale rapidly to <strong>₹6,00,000 to ₹12,00,000+ per annum</strong>, while freelancers managing global clients earn ₹50,000 to ₹1,50,000+ monthly.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 11 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.11. Are online live classes and offline classroom sessions available for {{CITY_NAME}} students?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we offer both offline classroom training at our {{CITY_NAME}} center and interactive instructor-led live online classes with screen sharing, real-time campaign reviews, and 1-on-1 doubt clearing. All students also get lifetime access to recorded lecture sessions and study materials.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 12 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.12. Can I attend a free demo class before paying the admission fee in {{CITY_NAME}}?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide a 100% free career counseling session and live trial demo class. You can interact with course mentor Gaurav Dubey, evaluate the 60-module curriculum, review past student placement records, and test our practical teaching methodology before enrolling.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 13 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.13. Is there a guaranteed agency internship provided in {{CITY_NAME}}?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Students enrolled in our 3-month and 6-month programs receive a guaranteed agency internship at King of Digital Marketing / Devweboic. You will work alongside senior specialists on live client deliverables, earn an official internship certificate, and receive letters of recommendation (LOR).</p>
+									</div>
+								</div>
+
+								<!-- FAQ 14 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.14. How can local business owners and entrepreneurs in {{CITY_NAME}} benefit from this course?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Business owners learn how to dominate local Google search (Google Business Profile / GMB Local SEO), generate qualified daily leads through targeted Google & Meta ad campaigns, build high-converting landing pages, execute WhatsApp/email marketing, and scale revenue without relying on third-party agencies.</p>
+									</div>
+								</div>
+
+								<!-- FAQ 15 -->
+								<div class="kdm-faq-item">
+									<button type="button" class="kdm-faq-header">
+										<span class="kdm-faq-question">Q.15. What premium digital marketing tools and software will I learn in {{CITY_NAME}}?</span>
+										<span class="kdm-faq-icon">+</span>
+									</button>
+									<div class="kdm-faq-body">
+										<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You will gain hands-on expertise in <strong>35+ industry-leading tools</strong> including Google Search Console, Google Analytics (GA4), Google Ads Manager, Meta Business Suite, Semrush, Ahrefs, Ubersuggest, Screaming Frog, Yoast SEO, RankMath, Canva Pro, WordPress CMS, Mailchimp, Zapier, ChatGPT, and Hootsuite.</p>
 									</div>
 								</div>
 							</div>
