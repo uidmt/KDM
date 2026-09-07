@@ -173,12 +173,16 @@
 
 						<div class="kdm-hero-pulse-badge">
 							<span class="pulse-dot"></span>
-							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN ALLAHABAD
+							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN VARANASI (BANARAS)
 						</div>
 
-						<h1 class="kdm-course-hero-title">Best Digital Marketing Course in <span class="kdm-text-gradient">Varanasi (Banaras)</span></h1>
+						<h1 class="kdm-course-hero-title">
+							Master AI-Driven <span class="kdm-hero-gradient-text">Digital Marketing Course in Varanasi (Banaras)</span> &amp; Launch a 6-Figure Career
+						</h1>
 
-						<p class="kdm-course-hero-subtitle">Master Advanced SEO, Generative AI, Performance Marketing, Google Ads, Meta Ads &amp; ORM with 100% practical live agency projects, Gaurav Dubey mentorship, and guaranteed placement support in Varanasi.</p>
+						<p class="kdm-course-hero-subtitle">
+							Join Varanasi's top agency-based digital marketing training by <strong>UIDMT &amp; Devweboic</strong>, mentored by <strong>Gaurav Dubey (13+ Yrs Exp.)</strong>. Work on live client accounts, master <strong>60+ Generative AI &amp; Performance Marketing Modules</strong>, and gain guaranteed placement assistance with paid agency internships in Varanasi &amp; Delhi NCR.
+						</p>
 
 						<div class="kdm-hero-stats-bar">
 							<div class="kdm-stat-pill">
@@ -186,7 +190,7 @@
 							</div>
 							<span class="kdm-stat-divider">|</span>
 							<div class="kdm-stat-pill">
-								<span style="color: #38bdf8;">⭐ 4.8 / 5.0</span> Rating
+								<span style="color: #38bdf8;">⭐ 4.9 / 5.0</span> Rating
 							</div>
 							<span class="kdm-stat-divider">|</span>
 							<div class="kdm-stat-pill">
@@ -273,6 +277,8 @@
 				</div>
 			</div>
 			<!-- Page Main Hero Section Ends -->
+
+			<!-- Page Body Part Starts-->
 
 			<!-- Page Body Part Starts-->
 			<div class="altra-sub-hero" style="padding: 45px 0 20px 0;">

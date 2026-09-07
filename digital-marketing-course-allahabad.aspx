@@ -178,7 +178,7 @@
 
 						<div class="kdm-hero-pulse-badge">
 							<span class="pulse-dot"></span>
-							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN ALLAHABAD
+							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN ALLAHABAD (PRAYAGRAJ)
 						</div>
 
 						<h1 class="kdm-course-hero-title">
@@ -195,7 +195,7 @@
 							</div>
 							<span class="kdm-stat-divider">|</span>
 							<div class="kdm-stat-pill">
-								<span style="color: #38bdf8;">⭐ 4.8 / 5.0</span> Rating
+								<span style="color: #38bdf8;">⭐ 4.9 / 5.0</span> Rating
 							</div>
 							<span class="kdm-stat-divider">|</span>
 							<div class="kdm-stat-pill">
@@ -282,6 +282,8 @@
 				</div>
 			</div>
 			<!-- Page Main Hero Section Ends -->
+
+			<!-- Page Body Part Starts-->
 
 			<!-- Page Body Part Starts-->
 			<div class="altra-sub-hero" style="padding: 45px 0 20px 0;">

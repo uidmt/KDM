@@ -178,7 +178,7 @@
 
 						<div class="kdm-hero-pulse-badge">
 							<span class="pulse-dot"></span>
-							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN ALLAHABAD
+							<i class="fa fa-robot"></i> #1 RATED AI-POWERED DIGITAL MARKETING INSTITUTE IN {{CITY_NAME}}
 						</div>
 
 						<h1 class="kdm-course-hero-title">
@@ -186,7 +186,7 @@
 						</h1>
 
 						<p class="kdm-course-hero-subtitle">
-							Join {{CITY_NAME}}'s top agency-based digital marketing training by <strong>UIDMT &amp; Devweboic</strong>, mentored by <strong>Gaurav Dubey (13+ Yrs Exp.)</strong>. Work on live client accounts, master <strong>60+ Generative AI &amp; Performance Marketing Modules</strong>, and gain guaranteed placement assistance with paid agency internships in {{CITY_NAME_ALT}} &amp; Delhi NCR.
+							Join {{CITY_NAME}}'s top agency-based digital marketing training by <strong>UIDMT &amp; Devweboic</strong>, mentored by <strong>Gaurav Dubey (13+ Yrs Exp.)</strong>. Work on live client accounts, master <strong>60+ Generative AI &amp; Performance Marketing Modules</strong>, and gain guaranteed placement assistance with paid agency internships in {{CITY_NAME}} &amp; Delhi NCR.
 						</p>
 
 						<div class="kdm-hero-stats-bar">
@@ -195,7 +195,7 @@
 							</div>
 							<span class="kdm-stat-divider">|</span>
 							<div class="kdm-stat-pill">
-								<span style="color: #38bdf8;">⭐ 4.8 / 5.0</span> Rating
+								<span style="color: #38bdf8;">⭐ 4.9 / 5.0</span> Rating
 							</div>
 							<span class="kdm-stat-divider">|</span>
 							<div class="kdm-stat-pill">
@@ -258,7 +258,7 @@
 							<a href="#kdm-hero-lead-form" class="kdm-btn-hero-primary">
 								<i class="fa fa-paper-plane"></i> Book Free Demo Class
 							</a>
-							<a href="https://wa.me/919821918208?text=Hi%20King%20of%20Digital%20Marketing,%20I%20want%20to%20enquire%20about%20the%20AI%20Digital%20Marketing%20Course%20in%20{{CITY_NAME}}"
+							<a href="https://wa.me/919821918208?text=Hi%20King%20of%20Digital%20Marketing,%20I%20want%20to%20enquire%20about%20the%20AI%20Digital%20Marketing%20Course%20in%20%7B%7BCITY_NAME%7D%7D"
 								target="_blank" class="kdm-btn-hero-whatsapp">
 								<i class="fab fa-whatsapp"></i> Chat On WhatsApp
 							</a>
@@ -282,6 +282,8 @@
 				</div>
 			</div>
 			<!-- Page Main Hero Section Ends -->
+
+			<!-- Page Body Part Starts-->
 
 			<!-- Page Body Part Starts-->
 			<div class="altra-sub-hero" style="padding: 45px 0 20px 0;">
