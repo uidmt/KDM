@@ -287,6 +287,10 @@
               </li>
 
               <li class="kdm-v2-nav-item">
+                <a href="${rootUrl}blog/" class="kdm-v2-nav-link">BLOGS</a>
+              </li>
+
+              <li class="kdm-v2-nav-item">
                 <a href="${rootUrl}Contact-Us.aspx" class="kdm-v2-nav-link">CONTACT US</a>
               </li>
             </ul>
