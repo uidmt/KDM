@@ -821,12 +821,55 @@ html body .kdm-v2-navbar,
     gap: 18px !important;
   }
 
-  .kdm-v2-mega-courses {
-    width: 260px !important;
-    left: -50px !important;
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    gap: 18px !important;
+    .kdm-v2-mega-courses {
+    width: 210px !important;
+    left: 0 !important;
+    padding: 10px !important;
+    display: block !important;
+  }
+
+  .kdm-v2-mega-courses .kdm-v2-link-list {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 6px !important;
+    width: 100% !important;
+  }
+
+  .kdm-v2-btn-link.kdm-v2-btn-internship {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%) !important;
+    border: 1.5px solid #0284c7 !important;
+    color: #0369a1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    font-weight: 800 !important;
+    box-shadow: 0 2px 8px rgba(2, 132, 199, 0.12) !important;
+    transition: all 0.25s ease !important;
+  }
+
+  .kdm-v2-btn-link.kdm-v2-btn-internship:hover {
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;
+    color: #ffffff !important;
+    border-color: #0369a1 !important;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.28) !important;
+    transform: translateY(-1px) !important;
+  }
+
+  .kdm-v2-btn-link.kdm-v2-btn-internship .kdm-badge-intern {
+    background: #0284c7 !important;
+    color: #ffffff !important;
+    font-size: 9px !important;
+    font-weight: 800 !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    letter-spacing: 0.5px !important;
+    text-transform: uppercase !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .kdm-v2-btn-link.kdm-v2-btn-internship:hover .kdm-badge-intern {
+    background: #ffffff !important;
+    color: #0284c7 !important;
   }
 
   /* Services Left Tabs & Right Content */
