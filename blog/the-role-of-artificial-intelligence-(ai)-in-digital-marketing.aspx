@@ -39,13 +39,13 @@
                         <div class="print-main">
                             <h1 class="blog-heading-css">The Role of Artificial Intelligence (AI) in Digital Marketing
                             </h1>
-                                                <div class="posted-by" style="margin-bottom: 22px;">
+                                                                    <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
-                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                                By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> &bull; <i class="fa fa-calendar-alt"></i> September 10, 2026 &bull; <i class="fa fa-clock"></i> 8 Min Read
                             </span>
                         </div>
                     </div>
