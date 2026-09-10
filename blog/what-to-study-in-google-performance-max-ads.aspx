@@ -39,9 +39,9 @@
                         <div class="print-main">
                             <h1 class="blog-heading-css">What to study in Google Performance Max Ads? 
                             </h1>
-                                                                    <div class="posted-by" style="margin-bottom: 22px;">
+                            <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
+                            <img src="../images/logo.webp" onerror="this.src='images/logo.webp'" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
@@ -115,6 +115,7 @@
                               <p class="span">Adapting to the field committing to learn and gain knowledge continuously and developing a positive attitude is key to launching successful Google Performance Max Ads campaigns. Learn new technology, improve your content creation skills, attend various seminars and webinars, and keep yourself updated with the latest rules and regulations in order the master Google Performance Max Ads campaigns.</p>
 
                               <p class="span">Google Performance Max Ads is an excellent tool to guarantee your success if it is utilized properly and systematically. This blog has covered all the basics that a digital marketer has to be thorough with to master Google Performance Max Ads. You can come back to this blog anytime if you're looking for a refresher or if you might have missed some points and want to catch up. Look out in this section for regular updates on anything new about Google Performance Max Ads.</p>
+
                     <!-- About Author Section -->
                     <div class="kdm-author-heading-wrapper">
                         <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
@@ -153,11 +154,10 @@
                             <i class="fa fa-paper-plane"></i> Get Free Lead Gen Strategy Call
                         </button>
                     </div>
-
                         </div>
                     </div>
 
-                    <div class="col-md-4 content-right content-right-top sidebar">
+<div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
     <div class="sidebar-widget" style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
         <span style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
@@ -182,7 +182,7 @@
         <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
     </div>
 
-    <!-- 3. Below that same as it -->
+    <!-- 3. Popular Categories -->
     <div class="sidebar-widget" style="margin-bottom: 25px;">
         <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;"><i class="fa fa-th-large"></i> Popular Categories</h3>
         <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
@@ -193,7 +193,8 @@
             <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
         </ul>
     </div>
-</div></div>
+</div>
+                </div>
             </div>
             <div class="clearfix"></div>
 </asp:Content>

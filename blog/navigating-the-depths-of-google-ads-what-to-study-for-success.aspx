@@ -39,9 +39,9 @@
                         <div class="print-main">
                             <h1 class="blog-heading-css">Navigating the Depths of Google Ads: What to Study for Success  
                             </h1>
-                                                                    <div class="posted-by" style="margin-bottom: 22px;">
+                            <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
+                            <img src="../images/logo.webp" onerror="this.src='images/logo.webp'" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
@@ -133,6 +133,7 @@
                                 <p class="span">
                                     So, becoming a Google Ads expert means understanding all its parts and always trying to make your campaigns better while learning new things. What makes Google Ads so strong is that it has many different parts you can work with and it keeps changing along with marketing. It's not just about doing the work right, it's also about what people think when they see your ads. Study how customers behave, look at what's happening in the market, and keep making your ads better to catch the attention of potential customers. Keep coming back to this guide to catch up on certain topics that you might have missed or need to go through a refresher once again. Mastering Google Ads is easy once you know how to approach it and this guide is the perfect one!!                
                                           </p>
+
                     <!-- About Author Section -->
                     <div class="kdm-author-heading-wrapper">
                         <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
@@ -163,7 +164,7 @@
                         <span class="kdm-cta-badge">
                             <i class="fa fa-rocket"></i> Exclusive 1-on-1 Consultation
                         </span>
-                        <h3>Ready to Scale Your Navigating the Depths of Google Ads Business to 100+ Leads Daily?</h3>
+                        <h3>Ready to Scale Your Business to 100+ Leads Daily?</h3>
                         <p>
                             Get a personalized lead generation audit and multi-channel campaign blueprint from Gaurav Dubey and the King of Digital Marketing team.
                         </p>
@@ -171,12 +172,10 @@
                             <i class="fa fa-paper-plane"></i> Get Free Lead Gen Strategy Call
                         </button>
                     </div>
-                           
-            
                         </div>
                     </div>
 
-                    <div class="col-md-4 content-right content-right-top sidebar">
+<div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
     <div class="sidebar-widget" style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
         <span style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
@@ -201,7 +200,7 @@
         <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
     </div>
 
-    <!-- 3. Below that same as it -->
+    <!-- 3. Popular Categories -->
     <div class="sidebar-widget" style="margin-bottom: 25px;">
         <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;"><i class="fa fa-th-large"></i> Popular Categories</h3>
         <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
@@ -212,7 +211,8 @@
             <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
         </ul>
     </div>
-</div></div>
+</div>
+                </div>
             </div>
             <div class="clearfix"></div>
 </asp:Content>

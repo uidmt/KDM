@@ -45,9 +45,9 @@
                 <div class="single-page col-md-8 content-left">
                         <div class="print-main">
                             <h1 class="blog-heading-css">Plastic Surgery Lead Generation</h1>
-                                                                    <div class="posted-by" style="margin-bottom: 22px;">
+                            <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
+                            <img src="../images/logo.webp" onerror="this.src='images/logo.webp'" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
@@ -304,6 +304,11 @@
                                     Contact King of Digital Marketing today and discover how our customized plastic surgery lead
                                     generation strategies can help your practice attract more qualified patients.
                                 </p>
+                        
+            
+                </div>                                      
+<!--Sidebar Starts-->
+
                     <!-- About Author Section -->
                     <div class="kdm-author-heading-wrapper">
                         <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
@@ -342,101 +347,47 @@
                             <i class="fa fa-paper-plane"></i> Get Free Lead Gen Strategy Call
                         </button>
                     </div>
-                        
-            
-                </div>                                      
-<!--Sidebar Starts-->
-                <div class="single-page col-md-4 content-right content-right-top">
-                        <a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx">
-                            <h3 class="editor-head sidebar-heading">Join Best Digital Marketing Course</h3>
-                        </a>
-                        <video width="100%" height="100%" autoplay muted loop>
-                                <source src="images/sidebar video.webp" type="video/mp4">
-                        </video>
-                            <div class="editor">
-                                <iframe scrolling="no" src="/contact.webp" style="height: 570px; width:100%; border-radius:15px !important;padding:13px;background: linear-gradient(23deg, #020107, #0352af);box-shadow:2px 2px 8px 0px rgb(119 119 119);border:5px solid white;" width="100%"> </iframe>
-                            </div>
-
-                        <h5 class="head" style="margin-top:20px;">Popular</h5>
-                        
-                            <div class="editor">
-                                <a href="best-ppc-services-in-delhi.html">
-                                    <h3 class="editor-head sidebar-heading margin-bt-head">India's Best PPC Company in Delhi</h3>
-                                </a>
-                                <img src="../images/PPC Management Company.webp" width="100%">
-                                <p align="justify" class="span">Do You Want to Run Paid Ads in Google, Facebook, Instagram? Get Best PPC Services in Delhi at Lowest Packages. <a href="best-ppc-services-in-delhi.html">Must Read</a></p>
-                            </div>
-
-                            <div class="editor">
-                                <a href="https://www.kingofdigitalmarketing.com/digital-marketing-internship.aspx">
-                                    <h3 class="editor-head sidebar-heading">Join Digital Marketing Internship Program</h3>
-                                </a>
-                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/gtSMFgg0L3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <p align="justify"  class="span"></p>
-                            </div>
-                        
-                        
-                            <div class="editor">
-                                <a href="https://www.kingofdigitalmarketing.com/blog/off-page-seo-latest-techniques-2016-17.html">
-                                    <h3 class="editor-head sidebar-heading margin-bt-head">Off Page SEO Latest Techniques</h3>
-                                </a>
-                                <img src="../images/off page seo latest techniques.webp" width="100%">
-                                <p align="justify" class="span">Are you curious to Know the Latest Trends of Off-page SEO. Here is the latest Off Page SEO Techniques to create backlinks. <a href="https://www.kingofdigitalmarketing.com/blog/off-page-seo-latest-techniques-2016-17.html">Must Read</a></p>
-                            </div>
-
-                        
-                        <div class="editor">
-                            <a href="https://www.kingofdigitalmarketing.com/SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx">
-                                <h3 class="editor-head sidebar-heading margin-bt-head">Want to Hire An SEO Freelancer?</h3>
-                            </a>
-                            <img src="../images/SEO Freelancer.webp" width="100%">
-                            <p align="justify" class="span">Hire India's Best SEO Freelancer and <a href="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx"></a>Digital Marketing Consultant</a>: Gaurav Dubey to Grow Your Business With Result Based SEO, SMM, PPC, Lead Generation Services.  Know More About <a href="https://gauravdubey.in/">Gaurav Dubey</a></p>
                         </div>
+                    </div>
 
-                        
-                        <div class="editor">
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx">
-                                <h3 class="editor-head sidebar-heading margin-bt-head"> Join Best Digital Marketing Institute In Delhi</h3>
-                            </a>
-                            <img src="" width="100%">
-                            <p align="justify" class="span">Agency Based Digital Marketing Course for Fully Practical Session. Students Can Make Career in Digital Marketing and Get a Job Ready in 90Days. Business Person Can Grow Your Business Learning Digital Marketing and Working Professional Can Upgrade His/her Profile.</p>
-                        </div>
+<div class="col-md-4 content-right content-right-top sidebar">
+    <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
+    <div class="sidebar-widget" style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
+        <span style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
+            <i class="fa fa-bolt"></i> Trending 2026 Program
+        </span>
+        <h3 style="color: #ffffff; font-size: 19px; font-weight: 800; line-height: 1.35; margin-bottom: 10px;">
+            AI-Oriented Digital Marketing Course in Delhi
+        </h3>
+        <p style="color: #cbd5e1; font-size: 13.5px; line-height: 1.5; margin-bottom: 16px;">
+            Master AI Search Optimization, ChatGPT Marketing, Prompt Engineering, Meta &amp; Google Ads Automation with Live Hands-on Projects.
+        </p>
+        <a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" class="btn btn-primary" style="font-weight: 800; width: 100%; border-radius: 8px; background: linear-gradient(135deg, #ff6600, #e05500); border: none; color: #ffffff; padding: 10px 16px; box-shadow: 0 4px 12px rgba(255, 102, 0, 0.35);">
+            <i class="fa fa-graduation-cap"></i> View Course &amp; Enroll
+        </a>
+    </div>
 
-                        <div class="editor">
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-cosmetic-surgeon.aspx">
-                                <h3 class="editor-head sidebar-heading">Digital Marketing for Cosmetic Surgeon</h3>
-                            </a>
-                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/QwpJv-yycTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <p align="justify"  class="span"></p>
-                        </div>
+    <!-- 2. Below that our contact form with good heading -->
+    <div class="sidebar-widget" style="padding: 12px; background: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 25px;">
+        <h3 class="sidebar-widget-title" style="padding: 10px 10px 8px; font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; margin-bottom: 12px;">
+            <i class="fa fa-paper-plane" style="color:#0284c7;"></i> Get Free AI &amp; Digital Marketing Strategy Call
+        </h3>
+        <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
+    </div>
 
-                        <div class="editor">
-                            <a href="https://www.youtube.com/watch?v=rTna36n_dCc">
-                                <h3 class="editor-head sidebar-heading">How to Promote Astrology Mobile App</h3>
-                            </a>
-                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/rTna36n_dCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <p align="justify"  class="span"></p>
-                        </div>
-
-                        <div class="editor">
-                            <a href="https://www.kingofdigitalmarketing.com/hair-transplant-digital-marketing-services.aspx">
-                                <h3 class="editor-head sidebar-heading">Digital Marketing for Hair Transplant Clinic</h3>
-                            </a>
-                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/6ctCffHLrcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <p align="justify"  class="span"></p>
-                        </div>
-
-                        <div class="editor">
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-astrology.aspx">
-                                <h3 class="editor-head sidebar-heading">Digital Marketing for Astrologers</h3>
-                            </a>
-                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/mwcJTJJWQo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <p align="justify"  class="span"></p>
-                        </div>
-
+    <!-- 3. Popular Categories -->
+    <div class="sidebar-widget" style="margin-bottom: 25px;">
+        <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;"><i class="fa fa-th-large"></i> Popular Categories</h3>
+        <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/SEO-Services.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>SEO &amp; Search Optimization</span> <i class="fa fa-angle-right"></i></a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/lead-generation-company.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Lead Generation Services</span> <i class="fa fa-angle-right"></i></a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/PPC-Services.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>PPC &amp; Google Ads</span> <i class="fa fa-angle-right"></i></a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/SMO-Services.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Social Media Marketing</span> <i class="fa fa-angle-right"></i></a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
+        </ul>
+    </div>
+</div>
                 </div>
-<!--Sidebar Ends-->
-            </div> <!--Content Ends-->
-    </div> <!--Container Ends-->
+            </div>
+            <div class="clearfix"></div>
 </asp:Content>
-

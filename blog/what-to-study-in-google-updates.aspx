@@ -39,9 +39,9 @@
                         <div class="print-main">
                             <h1 class="blog-heading-css">What to study in Google Updates?
                             </h1>
-                                                                    <div class="posted-by" style="margin-bottom: 22px;">
+                            <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
+                            <img src="../images/logo.webp" onerror="this.src='images/logo.webp'" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
@@ -132,6 +132,7 @@
                             <p class="span">Last but not least, making the website user-friendly and changes in content quality as useful and clear content, are basic in increasing response rates to Google updates. By giving priority to these features, experts can frame their approaches to work with Google updates and give the best user-friendly experiences. To limit my words I mean to say that a detailed study of Google updates relates to observing and adapting to changes, understanding how to become popular, and amending best effort in content and technical SEO to allow and increase popularity when clients are curiously searching options.</p>
 
                             <p class="span">By being careful about the above points or tips, you can understand Google updates better and how they affect search engine and their regulation, and can frame your ways of digital marketing accordingly and successfully. The help of a <a href="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx">digital marketing consultant</a> can be an additional benefit to excel in your business in the long run.</p>
+
                     <!-- About Author Section -->
                     <div class="kdm-author-heading-wrapper">
                         <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
@@ -162,7 +163,7 @@
                         <span class="kdm-cta-badge">
                             <i class="fa fa-rocket"></i> Exclusive 1-on-1 Consultation
                         </span>
-                        <h3>Ready to Scale Your What to study in Google Updates? Business to 100+ Leads Daily?</h3>
+                        <h3>Ready to Scale Your What to study in Google Updates Business to 100+ Leads Daily?</h3>
                         <p>
                             Get a personalized lead generation audit and multi-channel campaign blueprint from Gaurav Dubey and the King of Digital Marketing team.
                         </p>
@@ -170,12 +171,10 @@
                             <i class="fa fa-paper-plane"></i> Get Free Lead Gen Strategy Call
                         </button>
                     </div>
-
-                            
                         </div>
                     </div>
 
-                    <div class="col-md-4 content-right content-right-top sidebar">
+<div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
     <div class="sidebar-widget" style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
         <span style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
@@ -200,7 +199,7 @@
         <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
     </div>
 
-    <!-- 3. Below that same as it -->
+    <!-- 3. Popular Categories -->
     <div class="sidebar-widget" style="margin-bottom: 25px;">
         <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;"><i class="fa fa-th-large"></i> Popular Categories</h3>
         <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
@@ -211,7 +210,8 @@
             <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
         </ul>
     </div>
-</div></div>
+</div>
+                </div>
             </div>
             <div class="clearfix"></div>
 </asp:Content>

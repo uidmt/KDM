@@ -40,9 +40,9 @@
                     <div class="single-page col-md-8 content-left">
                         <div class="print-main">
                             <h1 class="blog-heading-css">Why Is It Important To Add Videos To Your Website?</h1>
-                                                                    <div class="posted-by" style="margin-bottom: 22px;">
+                            <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
+                            <img src="../images/logo.webp" onerror="this.src='images/logo.webp'" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
@@ -97,6 +97,7 @@
                             <h3 class="text-transf" id="3">Website Designing For Your Website</h3>
                             
                             <p class="span">In a website design company, there is a web designer whose responsibility is to test and improve the design of the website. We know that the first impression always makes an impact on the client either good or bad. So it is important to make good web design. And when we talk about the <a href="https://www.kingofdigitalmarketing.com/Website-Development.aspx">website design company in Delhi</a>, they are leading. Their main work is to maintain the proper appearance and formation of the websites. They also have to check the standards of the content so that they can do their work correctly. They design visual images for the website for a client and keep in mind that they are in line with the business for all the clients. This is also one kind of marketing heck to rank your website on the Google search engine.</p>
+
                     <!-- About Author Section -->
                     <div class="kdm-author-heading-wrapper">
                         <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
@@ -135,11 +136,10 @@
                             <i class="fa fa-paper-plane"></i> Get Free Lead Gen Strategy Call
                         </button>
                     </div>
-            
                         </div>
                     </div>
 
-                    <div class="col-md-4 content-right content-right-top sidebar">
+<div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
     <div class="sidebar-widget" style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
         <span style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
@@ -164,7 +164,7 @@
         <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
     </div>
 
-    <!-- 3. Below that same as it -->
+    <!-- 3. Popular Categories -->
     <div class="sidebar-widget" style="margin-bottom: 25px;">
         <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;"><i class="fa fa-th-large"></i> Popular Categories</h3>
         <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
@@ -175,8 +175,8 @@
             <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
         </ul>
     </div>
-</div></div>
+</div>
+                </div>
             </div>
             <div class="clearfix"></div>
 </asp:Content>
-

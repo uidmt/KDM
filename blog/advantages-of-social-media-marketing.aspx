@@ -41,16 +41,6 @@
                     <div class="single-page col-md-8 content-left">
                         <div class="print-main">
                             <h1 class="blog-heading-css">Advantages of Social Media Marketing</h1>
-                                        <div class="posted-by" style="margin-bottom: 22px;">
-                        <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                        </div>
-                        <div class="posted-details">
-                            <span class="posted-author">
-                                By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> &bull; <i class="fa fa-calendar-alt"></i> September 10, 2026 &bull; <i class="fa fa-clock"></i> 8 Min Read
-                            </span>
-                        </div>
-                    </div>
                             <a href="#"><img src="images/Advantages of Social Media Marketing.webp" class="img-responsive" alt="Advantages of Social Media Marketing" /></a><br>
                             <div class="cus-bullet">
                                 <h3>TABLE OF CONTENT</h3>
@@ -171,6 +161,7 @@
 
                             <h4 class="text-transf">Final Words</h4>
                             <p class="span">It is undeniable that social media marketing has brought more traffic, better search engine optimization, higher brand loyalty, healthier customer satisfaction, etc. The earlier you commence, the faster you view the growth in your business.</p>
+
                     <!-- About Author Section -->
                     <div class="kdm-author-heading-wrapper">
                         <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
@@ -201,7 +192,7 @@
                         <span class="kdm-cta-badge">
                             <i class="fa fa-rocket"></i> Exclusive 1-on-1 Consultation
                         </span>
-                        <h3>Ready to Scale Your Advantages of Social Media Marketing Business to 100+ Leads Daily?</h3>
+                        <h3>Ready to Scale Your Business to 100+ Leads Daily?</h3>
                         <p>
                             Get a personalized lead generation audit and multi-channel campaign blueprint from Gaurav Dubey and the King of Digital Marketing team.
                         </p>
@@ -212,7 +203,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 content-right content-right-top sidebar">
+<div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
     <div class="sidebar-widget" style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
         <span style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
@@ -237,7 +228,7 @@
         <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
     </div>
 
-    <!-- 3. Below that same as it -->
+    <!-- 3. Popular Categories -->
     <div class="sidebar-widget" style="margin-bottom: 25px;">
         <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;"><i class="fa fa-th-large"></i> Popular Categories</h3>
         <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
@@ -248,8 +239,8 @@
             <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
         </ul>
     </div>
-</div></div>
+</div>
+                </div>
             </div>
             <div class="clearfix"></div>
 </asp:Content>
-

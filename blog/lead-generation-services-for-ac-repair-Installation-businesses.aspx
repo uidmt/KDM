@@ -53,9 +53,9 @@
                 <div class="single-page col-md-8 content-left">
                     <div class="print-main">
                         <h1 class="blog-heading-css">Lead Generation Services for AC Repair & Installation Businesses </h1>
-                                                                <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
+                            <img src="../images/logo.webp" onerror="this.src='images/logo.webp'" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
@@ -373,7 +373,12 @@
                                     <div class="panel-body">
                                         <strong>Ans.</strong>
                                         <p>KDM integrates multiple strategies for digital marketing to draw relevant traffic as well as generate business inquiries.</p>
-                    <!-- About Author Section -->
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+<!-- About Author Section -->
                     <div class="kdm-author-heading-wrapper">
                         <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
                     </div>
@@ -403,7 +408,7 @@
                         <span class="kdm-cta-badge">
                             <i class="fa fa-rocket"></i> Exclusive 1-on-1 Consultation
                         </span>
-                        <h3>Ready to Scale Your Business to 100+ Leads Daily?</h3>
+                        <h3>Ready to Scale Your AC Repair & Installation Businesses Business to 100+ Leads Daily?</h3>
                         <p>
                             Get a personalized lead generation audit and multi-channel campaign blueprint from Gaurav Dubey and the King of Digital Marketing team.
                         </p>
@@ -411,81 +416,47 @@
                             <i class="fa fa-paper-plane"></i> Get Free Lead Gen Strategy Call
                         </button>
                     </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
-                </div>
 
-            <div class="col-md-4 content-right content-right-top sidebar">
-                <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
-                <div class="sidebar-widget"
-                    style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
-                    <span
-                        style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
-                        <i class="fa fa-bolt"></i> Trending 2026 Program
-                    </span>
-                    <h3
-                        style="color: #ffffff; font-size: 19px; font-weight: 800; line-height: 1.35; margin-bottom: 10px;">
-                        AI-Oriented Digital Marketing Course in Delhi
-                    </h3>
-                    <p style="color: #cbd5e1; font-size: 13.5px; line-height: 1.5; margin-bottom: 16px;">
-                        Master AI Search Optimization, ChatGPT Marketing, Prompt Engineering, Meta &amp; Google Ads
-                        Automation with Live Hands-on Projects.
-                    </p>
-                    <a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank"
-                        class="btn btn-primary"
-                        style="font-weight: 800; width: 100%; border-radius: 8px; background: linear-gradient(135deg, #ff6600, #e05500); border: none; color: #ffffff; padding: 10px 16px; box-shadow: 0 4px 12px rgba(255, 102, 0, 0.35);">
-                        <i class="fa fa-graduation-cap"></i> View Course &amp; Enroll
-                    </a>
-                </div>
+<div class="col-md-4 content-right content-right-top sidebar">
+    <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
+    <div class="sidebar-widget" style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
+        <span style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
+            <i class="fa fa-bolt"></i> Trending 2026 Program
+        </span>
+        <h3 style="color: #ffffff; font-size: 19px; font-weight: 800; line-height: 1.35; margin-bottom: 10px;">
+            AI-Oriented Digital Marketing Course in Delhi
+        </h3>
+        <p style="color: #cbd5e1; font-size: 13.5px; line-height: 1.5; margin-bottom: 16px;">
+            Master AI Search Optimization, ChatGPT Marketing, Prompt Engineering, Meta &amp; Google Ads Automation with Live Hands-on Projects.
+        </p>
+        <a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" class="btn btn-primary" style="font-weight: 800; width: 100%; border-radius: 8px; background: linear-gradient(135deg, #ff6600, #e05500); border: none; color: #ffffff; padding: 10px 16px; box-shadow: 0 4px 12px rgba(255, 102, 0, 0.35);">
+            <i class="fa fa-graduation-cap"></i> View Course &amp; Enroll
+        </a>
+    </div>
 
-                <!-- 2. Below that our contact form with good heading -->
-                <div class="sidebar-widget"
-                    style="padding: 12px; background: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 25px;">
-                    <h3 class="sidebar-widget-title"
-                        style="padding: 10px 10px 8px; font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; margin-bottom: 12px;">
-                        <i class="fa fa-paper-plane" style="color:#0284c7;"></i> Get Free AI &amp; Digital Marketing
-                        Strategy Call
-                    </h3>
-                    <iframe scrolling="no" src="contact.aspx"
-                        style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
-                </div>
+    <!-- 2. Below that our contact form with good heading -->
+    <div class="sidebar-widget" style="padding: 12px; background: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 25px;">
+        <h3 class="sidebar-widget-title" style="padding: 10px 10px 8px; font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; margin-bottom: 12px;">
+            <i class="fa fa-paper-plane" style="color:#0284c7;"></i> Get Free AI &amp; Digital Marketing Strategy Call
+        </h3>
+        <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
+    </div>
 
-                <!-- 3. Below that same as it -->
-                <div class="sidebar-widget" style="margin-bottom: 25px;">
-                    <h3 class="sidebar-widget-title"
-                        style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;">
-                        <i class="fa fa-th-large"></i> Popular Categories</h3>
-                    <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
-                        <li style="margin-bottom: 8px;"><a
-                                href="https://www.kingofdigitalmarketing.com/SEO-Services.aspx" target="_blank"
-                                style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>SEO
-                                    &amp; Search Optimization</span> <i class="fa fa-angle-right"></i></a></li>
-                        <li style="margin-bottom: 8px;"><a
-                                href="https://www.kingofdigitalmarketing.com/lead-generation-company.aspx"
-                                target="_blank"
-                                style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Lead
-                                    Generation Services</span> <i class="fa fa-angle-right"></i></a></li>
-                        <li style="margin-bottom: 8px;"><a
-                                href="https://www.kingofdigitalmarketing.com/PPC-Services.aspx" target="_blank"
-                                style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>PPC
-                                    &amp; Google Ads</span> <i class="fa fa-angle-right"></i></a></li>
-                        <li style="margin-bottom: 8px;"><a
-                                href="https://www.kingofdigitalmarketing.com/SMO-Services.aspx" target="_blank"
-                                style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Social
-                                    Media Marketing</span> <i class="fa fa-angle-right"></i></a></li>
-                        <li style="margin-bottom: 8px;"><a
-                                href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx"
-                                target="_blank"
-                                style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital
-                                    Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
-                    </ul>
+    <!-- 3. Popular Categories -->
+    <div class="sidebar-widget" style="margin-bottom: 25px;">
+        <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;"><i class="fa fa-th-large"></i> Popular Categories</h3>
+        <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/SEO-Services.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>SEO &amp; Search Optimization</span> <i class="fa fa-angle-right"></i></a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/lead-generation-company.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Lead Generation Services</span> <i class="fa fa-angle-right"></i></a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/PPC-Services.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>PPC &amp; Google Ads</span> <i class="fa fa-angle-right"></i></a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/SMO-Services.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Social Media Marketing</span> <i class="fa fa-angle-right"></i></a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
+        </ul>
+    </div>
+</div>
                 </div>
             </div>
-        </div>
-        </div>
-        <div class="clearfix"></div>
-    </asp:Content>
+            <div class="clearfix"></div>
+</asp:Content>

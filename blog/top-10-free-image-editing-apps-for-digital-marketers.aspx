@@ -39,9 +39,9 @@
                         <div class="print-main">
                             <h1 class="blog-heading-css">Top 10 free Image Editing Apps for Digital Marketers
                             </h1>
-                                                                    <div class="posted-by" style="margin-bottom: 22px;">
+                            <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
+                            <img src="../images/logo.webp" onerror="this.src='images/logo.webp'" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
@@ -121,6 +121,7 @@
                             <p class="span">BeFunky is a multi-functional photo and graphic editor and creation software where you can find multiple editing tools, as well as unique graphic design elements and a range of photo effects and filters. By handling this task, BeFunky allows all users, including beginners and editable designers, to come up with effective pictures rapidly. Either delivered for totally free or with a number of subscription alternatives, marketers can easily have access to BeFunky where they are empowered to a level of creativity with the effects and elements of strategic graphic designs and come up with visuals that reflect their precise target audience.</p>     
 
                             <p class="span">Certainly, with the help of BeFunky and the rest of the 10 free image and video editing apps listed in the aforementioned guide, digital marketing professionals have gained access to a very wide range of tools and resources to boost the quality of their visual content and to catch the attention of their audience in the most appealing way possible. Regardless of whether you're into social media management, blogging, or website maintenance, these apps provide the needed versatility, convenience, and professional-grade results without the necessity of using too much expensive software. Take adventurousness into account, discover the wealth of features each app has, and remain informed of each app's updates, thereby ensuring your images are always new and intriguing. Happy editing.</p>
+
                     <!-- About Author Section -->
                     <div class="kdm-author-heading-wrapper">
                         <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
@@ -158,12 +159,11 @@
                         <button type="button" onclick="openLeadGenModal('Get Free Lead Gen Strategy Call', 'Speak directly with Gaurav Dubey (King of Digital Marketing) to scale your business.')" class="kdm-cta-btn">
                             <i class="fa fa-paper-plane"></i> Get Free Lead Gen Strategy Call
                         </button>
-                    </div>     
-
+                    </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4 content-right content-right-top sidebar">
+<div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
     <div class="sidebar-widget" style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
         <span style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
@@ -188,7 +188,7 @@
         <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
     </div>
 
-    <!-- 3. Below that same as it -->
+    <!-- 3. Popular Categories -->
     <div class="sidebar-widget" style="margin-bottom: 25px;">
         <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;"><i class="fa fa-th-large"></i> Popular Categories</h3>
         <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
@@ -199,7 +199,8 @@
             <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
         </ul>
     </div>
-</div></div>
+</div>
+                </div>
             </div>
             <div class="clearfix"></div>
 </asp:Content>

@@ -39,9 +39,9 @@
                         <div class="print-main">
                             <h1 class="blog-heading-css">What to Study about Startup Mentorship?
                             </h1>
-                                                                    <div class="posted-by" style="margin-bottom: 22px;">
+                            <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
+                            <img src="../images/logo.webp" onerror="this.src='images/logo.webp'" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
@@ -93,6 +93,7 @@
 							<p class="span">Startup mentorship is an important element for the progress and achievements of new businesses. By giving guidelines, highlighting connections, giving a goal outlook, and allowing skill and qualifications, mentors play an important function in assisting startups to search their initial obstacles For an expert and candidate relationship to be deep, both the expert and candidate must be responsible, free, and active in their communications. As startup businesses are constantly evolving, this will lead to a strong mentorship relationship which will only lead to success, making it an important aspect of your progress in business.</p>    
                             
                             <p class="span">Any <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-startups.aspx">digital marketing strategy</a> for a particular business or startup must consist of computerized promotion and approaches like SEO, data display, social media promotion, e-mail promotion, and other promotions to make things work smoothly toward progress. This <a href="https://www.kingofdigitalmarketing.com/blog/can-a-good-quality-content-marketing-strategy-influence-our-seo-performance.aspx">SEO content</a> concludes by mentioning the usefulness of a strong computer-based promotion method for businesses to become popular and also achieve a successful place and raise clients in the modern world. Also creating a good expert and candidate bond accompanied by learning under his mentorship will not only accelerate your business or startup company but also will help to occupy a consistent place in society in the long run. A good modern digital strategy can bring tremendous progress to your startup company and its mentorship. So remember to note down the above minute points before digitally marketing any service or offerings to be a part of a profitable venture ahead. Lastly, startups benefit from mentorship to a great extent in terms of building good strategies, being able to solve problems related to startups, developing skills under the guidance of mentors, and in totality it helps to grow your startup business smoothly.</p>
+
                     <!-- About Author Section -->
                     <div class="kdm-author-heading-wrapper">
                         <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
@@ -123,20 +124,18 @@
                         <span class="kdm-cta-badge">
                             <i class="fa fa-rocket"></i> Exclusive 1-on-1 Consultation
                         </span>
-                        <h3>Ready to Scale Your What to Study about Startup Mentorship? Business to 100+ Leads Daily?</h3>
+                        <h3>Ready to Scale Your Business to 100+ Leads Daily?</h3>
                         <p>
                             Get a personalized lead generation audit and multi-channel campaign blueprint from Gaurav Dubey and the King of Digital Marketing team.
                         </p>
                         <button type="button" onclick="openLeadGenModal('Get Free Lead Gen Strategy Call', 'Speak directly with Gaurav Dubey (King of Digital Marketing) to scale your business.')" class="kdm-cta-btn">
                             <i class="fa fa-paper-plane"></i> Get Free Lead Gen Strategy Call
                         </button>
-                    </div>    
-
-                            
+                    </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4 content-right content-right-top sidebar">
+<div class="col-md-4 content-right content-right-top sidebar">
     <!-- 1. Promote AI Oriented Digital Marketing Course in Delhi -->
     <div class="sidebar-widget" style="padding: 20px; text-align: center; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%); color: #ffffff; border-radius: 14px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25); border: 1px solid rgba(255,255,255,0.15); margin-bottom: 25px;">
         <span style="background: rgba(255, 255, 255, 0.15); color: #38bdf8; font-size: 11px; font-weight: 800; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; display: inline-block; margin-bottom: 10px;">
@@ -161,7 +160,7 @@
         <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
     </div>
 
-    <!-- 3. Below that same as it -->
+    <!-- 3. Popular Categories -->
     <div class="sidebar-widget" style="margin-bottom: 25px;">
         <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #0284c7; padding-bottom: 8px; margin-bottom: 15px;"><i class="fa fa-th-large"></i> Popular Categories</h3>
         <ul class="sidebar-category-list" style="list-style: none; padding: 0; margin: 0;">
@@ -172,7 +171,8 @@
             <li style="margin-bottom: 8px;"><a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx" target="_blank" style="display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 8px; color: #334155; font-weight: 600; text-decoration: none;"><span>Digital Marketing Course</span> <i class="fa fa-angle-right"></i></a></li>
         </ul>
     </div>
-</div></div>
+</div>
+                </div>
             </div>
             <div class="clearfix"></div>
 </asp:Content>
