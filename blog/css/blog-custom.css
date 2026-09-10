@@ -181,60 +181,95 @@
 }
 
 /* --------------------------------------------------------------------------
-   3. Breadcrumbs
+   3. Breadcrumbs & Hero Bar (.page-top)
    -------------------------------------------------------------------------- */
 .page-top,
 section.page-top {
-  background: #f8fafc !important;
-  border-bottom: 1px solid #e2e8f0 !important;
-  padding: 14px 0 !important;
-  margin-bottom: 25px !important;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0b1329 100%) !important;
+  border-top: none !important;
+  border-bottom: 3px solid #0284c7 !important;
+  border-image: linear-gradient(90deg, #0284c7, #ff6600) 1 !important;
+  padding: 22px 0 !important;
+  margin-bottom: 30px !important;
+  position: relative !important;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.2) !important;
+  overflow: hidden !important;
 }
 
-ul.breadcrumb {
-  background: transparent !important;
-  padding: 0 !important;
+.page-top::after,
+section.page-top::after {
+  content: '' !important;
+  position: absolute !important;
+  top: -50% !important;
+  right: -10% !important;
+  width: 350px !important;
+  height: 350px !important;
+  background: radial-gradient(circle, rgba(2, 132, 199, 0.18) 0%, rgba(255, 102, 0, 0) 70%) !important;
+  pointer-events: none !important;
+  border-radius: 50% !important;
+}
+
+ul.breadcrumb,
+.page-top ul.breadcrumb,
+section.page-top ul.breadcrumb {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  padding: 8px 18px !important;
+  border-radius: 20px !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
   margin: 0 !important;
   list-style: none !important;
   font-size: 13.5px !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  display: flex !important;
-  flex-wrap: wrap !important;
-  align-items: center !important;
 }
 
-ul.breadcrumb li {
+ul.breadcrumb li,
+.page-top ul.breadcrumb li,
+section.page-top ul.breadcrumb li {
   display: inline-flex !important;
   align-items: center !important;
-  color: #64748b !important;
-  margin-left: 0 !important;
-  margin-right: 6px !important;
+  gap: 6px !important;
+  color: #94a3b8 !important;
+  margin: 0 !important;
+  font-weight: 500 !important;
 }
 
-ul.breadcrumb li a {
-  color: #0284c7 !important;
+ul.breadcrumb li a,
+.page-top ul.breadcrumb li a,
+section.page-top ul.breadcrumb li a {
+  color: #38bdf8 !important;
   text-decoration: none !important;
   font-weight: 600 !important;
   display: inline-flex !important;
   align-items: center !important;
-  gap: 5px !important;
+  gap: 6px !important;
+  transition: all 0.2s ease !important;
 }
 
-ul.breadcrumb li a:hover {
-  color: #0369a1 !important;
+ul.breadcrumb li a:hover,
+.page-top ul.breadcrumb li a:hover,
+section.page-top ul.breadcrumb li a:hover {
+  color: #ffffff !important;
   text-decoration: underline !important;
 }
 
-ul.breadcrumb li+li:before {
+ul.breadcrumb li+li:before,
+.page-top ul.breadcrumb li+li:before,
+section.page-top ul.breadcrumb li+li:before {
   content: "/\00a0" !important;
-  padding-right: 6px !important;
-  color: #94a3b8 !important;
+  color: rgba(255, 255, 255, 0.35) !important;
+  padding: 0 4px !important;
 }
 
 ul.breadcrumb li.active,
 .page-top ul.breadcrumb li.active,
 section.page-top ul.breadcrumb li.active {
-  color: #0f172a !important;
+  color: #ffffff !important;
   font-weight: 700 !important;
 }
 
