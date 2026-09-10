@@ -182,8 +182,6 @@
                 }
             }
         </style>
-        <link rel="stylesheet" href="../css/kdm-mega-menu-v2.css?v=20.0">
-        <link rel="stylesheet" href="../css/kdm-footer.css?v=3.0">
     </head>
 
     <body>
@@ -310,8 +308,6 @@
                 </div>
             </div>
         </form>
-        <script src="../js/kdm-footer-component.js?v=3.0"></script>
-        <script src="../js/kdm-header-component.js?v=3.0"></script>
     </body>
 
     </html>

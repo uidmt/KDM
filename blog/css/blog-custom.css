@@ -903,9 +903,11 @@ section.page-top ul.breadcrumb li.active {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
 }
 
-.kdm-social-btn.li { background: #0077b5 !important; }
+.kdm-social-btn.fb { background: #1877f2 !important; }
 .kdm-social-btn.insta { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important; }
 .kdm-social-btn.yt { background: #ff0000 !important; }
+.kdm-social-btn.li { background: #0077b5 !important; }
+.kdm-social-btn.x, .kdm-social-btn.tw { background: #0f1419 !important; }
 
 .kdm-social-btn:hover {
   transform: translateY(-2px) scale(1.08) !important;
