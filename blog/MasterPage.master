@@ -595,5 +595,57 @@
 <script src="../js/kdm-header-component.js?v=3.0"></script>
 <!-- Centralized FAQ Accordion Controller -->
 <script src="../js/kdm-faq.js?v=2.0"></script>
+
+<!-- Centralized Lead Gen Consultation Popup Modal -->
+<div id="kdmLeadGenModal" class="kdm-lead-modal-overlay" onclick="handleLeadModalBackdropClick(event)">
+    <div class="kdm-lead-modal-dialog">
+        <div class="kdm-lead-modal-header">
+            <div style="padding-right: 20px;">
+                <div class="kdm-modal-sub-badge"><i class="fa fa-bolt"></i> 100+ Leads Daily Blueprint</div>
+                <h3 id="kdmLeadModalTitle">Get Free Strategy Call</h3>
+                <p id="kdmLeadModalDesc">Speak directly with Gaurav Dubey (King of Digital Marketing) to scale your business.</p>
+            </div>
+            <button type="button" class="kdm-lead-modal-close" onclick="closeLeadGenModal()" aria-label="Close modal">&times;</button>
+        </div>
+        <div class="kdm-lead-modal-body">
+            <iframe id="kdmLeadModalIframe" src="contact.aspx" style="width:100%; height:520px; border:none; display:block; background:#ffffff;" title="Get Free Lead Gen Strategy Call Form"></iframe>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function openLeadGenModal(title, desc) {
+        var modal = document.getElementById('kdmLeadGenModal');
+        if (modal) {
+            if (title) {
+                var titleEl = document.getElementById('kdmLeadModalTitle');
+                if (titleEl) titleEl.innerText = title;
+            }
+            if (desc) {
+                var descEl = document.getElementById('kdmLeadModalDesc');
+                if (descEl) descEl.innerText = desc;
+            }
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+    function closeLeadGenModal() {
+        var modal = document.getElementById('kdmLeadGenModal');
+        if (modal) {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    }
+    function handleLeadModalBackdropClick(e) {
+        if (e.target && e.target.id === 'kdmLeadGenModal') {
+            closeLeadGenModal();
+        }
+    }
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeLeadGenModal();
+        }
+    });
+</script>
 </body>
 </html>

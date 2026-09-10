@@ -25,7 +25,7 @@ div[role="main"],
 .page-top,
 section.page-top,
 .content,
-.container > .content,
+.container>.content,
 .content-left,
 .content-right,
 .single-page,
@@ -67,6 +67,7 @@ section.page-top,
 }
 
 @media (max-width: 991px) {
+
   html,
   body,
   .body,
@@ -124,7 +125,8 @@ section.page-top,
   min-width: 0;
 }
 
-.blog-grid, .blog-card-grid {
+.blog-grid,
+.blog-card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 25px;
@@ -137,8 +139,9 @@ section.page-top,
 
 /* Safe Fixed Sticky Sidebar for All Blog Pages */
 @media (min-width: 992px) {
+
   .kdm-sticky-sidebar-parent,
-  .container > .content {
+  .container>.content {
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: flex-start !important;
@@ -166,10 +169,12 @@ section.page-top,
   .blog-container {
     flex-direction: column;
   }
+
   .main-content {
     flex: 1 1 100%;
     width: 100%;
   }
+
   .sidebar,
   .content-right,
   .content-right-top,
@@ -183,7 +188,8 @@ section.page-top,
   }
 }
 
-.sidebar-widget, .sidebar .editor {
+.sidebar-widget,
+.sidebar .editor {
   background: #ffffff;
   border-radius: 14px;
   padding: 22px;
@@ -192,7 +198,8 @@ section.page-top,
   border: 1px solid #e2e8f0;
 }
 
-.sidebar-widget-title, .sidebar h2 {
+.sidebar-widget-title,
+.sidebar h2 {
   font-size: 18px;
   font-weight: 800;
   color: #0f172a;
@@ -450,6 +457,7 @@ section.page-top,
 }
 
 @media (max-width: 768px) {
+
   .whatsapp_float,
   .whatsapp_float2 {
     display: none !important;
@@ -575,9 +583,11 @@ section.page-top,
   .cus-bullet {
     grid-template-columns: 1fr 1fr !important;
   }
+
   .cus-bullet ul {
     grid-template-columns: 1fr 1fr !important;
   }
+
   .kdm-toc-list {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
@@ -594,7 +604,7 @@ section.page-top,
 }
 
 .cus-bullet li a,
-.cus-bullet > a,
+.cus-bullet>a,
 .kdm-toc-list li a {
   color: #334155 !important;
   font-size: 14px !important;
@@ -615,7 +625,7 @@ section.page-top,
 }
 
 .cus-bullet li a::before,
-.cus-bullet > a::before {
+.cus-bullet>a::before {
   content: "\f105";
   font-family: "Font Awesome 5 Free", "FontAwesome", sans-serif;
   font-weight: 900;
@@ -625,7 +635,7 @@ section.page-top,
 }
 
 .cus-bullet li a:hover,
-.cus-bullet > a:hover,
+.cus-bullet>a:hover,
 .kdm-toc-list li a:hover {
   background: #f0f9ff !important;
   border-color: #bae6fd !important;
@@ -710,6 +720,7 @@ ul.breadcrumb li.active {
   object-fit: cover !important;
   border: 2px solid #0284c7 !important;
   display: block !important;
+  background: #ffffff !important;
 }
 
 .posted-details {
@@ -737,35 +748,52 @@ ul.breadcrumb li.active {
 }
 
 /* ==========================================================================
-   Centralized Author BIO Box
+   Centralized Author BIO Box (Gaurav Dubey)
    ========================================================================== */
+.kdm-author-heading-wrapper {
+  margin-top: 35px !important;
+  margin-bottom: 12px !important;
+}
+
+.kdm-author-heading-wrapper h3 {
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
 .kdm-author-card {
   background: #f8fafc !important;
   border: 1px solid #e2e8f0 !important;
-  border-radius: 14px !important;
+  border-radius: 16px !important;
   padding: 24px !important;
   display: flex !important;
   flex-direction: column !important;
-  gap: 18px !important;
-  margin: 35px 0 !important;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
+  gap: 20px !important;
+  margin: 15px 0 35px 0 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+  transition: all 0.25s ease !important;
 }
 
 @media (min-width: 600px) {
   .kdm-author-card {
     flex-direction: row !important;
-    align-items: center !important;
+    align-items: flex-start !important;
   }
 }
 
 .kdm-author-img {
-  width: 90px !important;
-  height: 90px !important;
-  border-radius: 50% !important;
+  width: 105px !important;
+  height: 105px !important;
+  border-radius: 14px !important; /* Square with curved corners */
   object-fit: cover !important;
-  border: 3px solid #0284c7 !important;
+  border: 2.5px solid #0284c7 !important;
   flex-shrink: 0 !important;
-  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2) !important;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.18) !important;
   display: block !important;
 }
 
@@ -774,28 +802,245 @@ ul.breadcrumb li.active {
 }
 
 .kdm-author-info h4 {
-  margin: 0 0 4px !important;
+  margin: 0 0 6px !important;
   font-size: 18px !important;
   font-weight: 800 !important;
   color: #0f172a !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
 
-.kdm-author-info .designation {
-  font-size: 13.5px !important;
+.author-title-link {
   color: #0284c7 !important;
   font-weight: 700 !important;
-  margin-bottom: 8px !important;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  text-decoration: none !important;
+}
+
+.author-title-link:hover {
+  text-decoration: underline !important;
+  color: #0369a1 !important;
+}
+
+.kdm-author-socials {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin: 8px 0 12px !important;
+}
+
+.kdm-social-btn {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.kdm-social-btn.li {
+  background: #0077b5 !important;
+}
+
+.kdm-social-btn.insta {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+}
+
+.kdm-social-btn.yt {
+  background: #ff0000 !important;
+}
+
+.kdm-social-btn:hover {
+  transform: translateY(-2px) scale(1.08) !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
+  color: #ffffff !important;
 }
 
 .kdm-author-info p {
   font-size: 14px !important;
-  color: #64748b !important;
+  color: #475569 !important;
   margin-bottom: 0 !important;
+  line-height: 1.65 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* ==========================================================================
+   Centralized CTA Banner
+   ========================================================================== */
+.kdm-cta-banner {
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;
+  border-radius: 16px !important;
+  padding: 32px 24px !important;
+  text-align: center !important;
+  color: #ffffff !important;
+  margin: 30px 0 40px !important;
+  box-shadow: 0 12px 30px rgba(2, 132, 199, 0.25) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.kdm-cta-badge {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  padding: 4px 14px !important;
+  border-radius: 20px !important;
+  letter-spacing: 0.6px !important;
+  display: inline-block !important;
+  margin-bottom: 12px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.kdm-cta-banner h3 {
+  color: #ffffff !important;
+  font-size: 23px !important;
+  font-weight: 800 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+  line-height: 1.35 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.kdm-cta-banner p {
+  color: #e0f2fe !important;
+  font-size: 15px !important;
+  max-width: 650px !important;
+  margin: 0 auto 22px !important;
   line-height: 1.6 !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
 
+.kdm-cta-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  background: #ffffff !important;
+  color: #0284c7 !important;
+  font-weight: 800 !important;
+  padding: 13px 30px !important;
+  border-radius: 10px !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15) !important;
+  transition: all 0.25s ease !important;
+  border: none !important;
+  cursor: pointer !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
 
+.kdm-cta-btn:hover {
+  background: #f8fafc !important;
+  color: #0369a1 !important;
+  transform: translateY(-2px) scale(1.02) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
+  text-decoration: none !important;
+}
 
+/* ==========================================================================
+   Centralized Lead Gen Consultation Popup Modal
+   ========================================================================== */
+.kdm-lead-modal-overlay {
+  display: none;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(15, 23, 42, 0.82) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  z-index: 999999999 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 15px !important;
+  box-sizing: border-box !important;
+  overflow-y: auto !important;
+  opacity: 0;
+  transition: opacity 0.25s ease !important;
+}
+
+.kdm-lead-modal-overlay.active {
+  display: flex !important;
+  opacity: 1 !important;
+}
+
+.kdm-lead-modal-dialog {
+  background: #ffffff !important;
+  width: 100% !important;
+  max-width: 580px !important;
+  border-radius: 18px !important;
+  overflow: hidden !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.1) !important;
+  position: relative !important;
+  margin: auto !important;
+  transform: translateY(20px) scale(0.97) !important;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.kdm-lead-modal-overlay.active .kdm-lead-modal-dialog {
+  transform: translateY(0) scale(1) !important;
+}
+
+.kdm-lead-modal-header {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%) !important;
+  padding: 20px 24px !important;
+  color: #ffffff !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+}
+
+.kdm-modal-sub-badge {
+  display: inline-block !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  color: #38bdf8 !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  padding: 3px 10px !important;
+  border-radius: 20px !important;
+  margin-bottom: 6px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.kdm-lead-modal-header h3 {
+  color: #ffffff !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  margin: 0 0 4px !important;
+  line-height: 1.3 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.kdm-lead-modal-header p {
+  color: #cbd5e1 !important;
+  font-size: 13px !important;
+  margin: 0 !important;
+  line-height: 1.45 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.kdm-lead-modal-close {
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.18) !important;
+  color: #ffffff !important;
+  border: none !important;
+  font-size: 24px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  transition: all 0.2s ease !important;
+}
+
+.kdm-lead-modal-close:hover {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
