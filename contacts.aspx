@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="contacts.aspx.cs" Inherits="contacts" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="contacts.aspx.cs" Inherits="contacts" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -21,6 +21,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:HiddenField ID="hfFormTimestamp" runat="server" />
+        <div style="display:none !important; visibility:hidden !important; position:absolute !important; left:-9999px !important; width:0 !important; height:0 !important; opacity:0 !important; pointer-events:none !important;" aria-hidden="true" tabindex="-1">
+            <asp:TextBox ID="txtKdmHoney" runat="server" TabIndex="-1" autocomplete="off"></asp:TextBox>
+        </div>
         <table class="style1">
             <tr>
                 <td>Name</td>
