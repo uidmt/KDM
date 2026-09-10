@@ -69,5 +69,4 @@ public partial class contacts : System.Web.UI.Page
         TextBox5.Text = "";
         TextBox7.Text = "";
     }
-    }
 }

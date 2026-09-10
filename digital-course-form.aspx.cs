@@ -63,6 +63,4 @@ public partial class contact : System.Web.UI.Page
         string script = "<script>parent.window.location.href='thankYou.aspx';</script>";
         ClientScript.RegisterStartupScript(this.GetType(), "redirect", script);
     }
-
-    }
 }
