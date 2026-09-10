@@ -5,15 +5,31 @@ Generates 100% compliant, high-converting 11-section location service pages for 
 """
 
 import os
-import re
 
-# Comprehensive configuration for all 47 location pages
+# Comprehensive configuration for all 48 location pages (including Allahabad)
 LOCATION_CONFIGS = [
+    # 0. Allahabad (Prayagraj)
+    {
+        "filename": "digital-marketing-company-in-allahabad.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
+        "city_name": "Allahabad (Prayagraj)",
+        "state_name": "Uttar Pradesh",
+        "country": "IN",
+        "lat": "25.4358",
+        "lng": "81.8463",
+        "local_areas": "Civil Lines, Katra, Georgetown, Ashok Nagar, Naini, Jhalwa, Phaphamau, Tagore Town, Mumfordganj, Lukerganj, Dhoomanganj, Chowk, Allapur, and Kydganj",
+        "special_coaching_zone": "Katra & University Area Educational Hub",
+        "real_estate_zone": "Georgetown & Naini Corridor",
+        "clinic_zone": "Civil Lines Medical Centers",
+    },
     # 1. Chandigarh
     {
         "filename": "digital-marketing-company-in-chandigarh.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Chandigarh",
         "state_name": "Chandigarh",
         "country": "IN",
@@ -29,6 +45,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-bangaluru.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Bangalore (Bengaluru)",
         "state_name": "Karnataka",
         "country": "IN",
@@ -44,6 +61,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-chennai.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Chennai",
         "state_name": "Tamil Nadu",
         "country": "IN",
@@ -59,6 +77,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-kolkata.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Kolkata",
         "state_name": "West Bengal",
         "country": "IN",
@@ -74,6 +93,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-comapny-in-hyderabad.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Hyderabad",
         "state_name": "Telangana",
         "country": "IN",
@@ -89,6 +109,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-comapny-in-pune.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Pune",
         "state_name": "Maharashtra",
         "country": "IN",
@@ -104,6 +125,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-ahmedabad.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Ahmedabad",
         "state_name": "Gujarat",
         "country": "IN",
@@ -119,6 +141,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-mumbai.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Mumbai",
         "state_name": "Maharashtra",
         "country": "IN",
@@ -134,6 +157,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-jaipur.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Jaipur",
         "state_name": "Rajasthan",
         "country": "IN",
@@ -149,6 +173,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-lucknow.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Lucknow",
         "state_name": "Uttar Pradesh",
         "country": "IN",
@@ -164,6 +189,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-bhopal.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Bhopal",
         "state_name": "Madhya Pradesh",
         "country": "IN",
@@ -179,6 +205,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-indore.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Indore",
         "state_name": "Madhya Pradesh",
         "country": "IN",
@@ -194,6 +221,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-nagpur.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Nagpur",
         "state_name": "Maharashtra",
         "country": "IN",
@@ -209,6 +237,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-patna.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Patna",
         "state_name": "Bihar",
         "country": "IN",
@@ -224,6 +253,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-bhubaneswar.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Bhubaneswar",
         "state_name": "Odisha",
         "country": "IN",
@@ -239,6 +269,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-Vadodara.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Vadodara",
         "state_name": "Gujarat",
         "country": "IN",
@@ -254,6 +285,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-surat.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Surat",
         "state_name": "Gujarat",
         "country": "IN",
@@ -269,6 +301,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-coimbatore.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Coimbatore",
         "state_name": "Tamil Nadu",
         "country": "IN",
@@ -284,6 +317,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-visakhapatnam.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Visakhapatnam (Vizag)",
         "state_name": "Andhra Pradesh",
         "country": "IN",
@@ -299,6 +333,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-ludhiana.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Ludhiana",
         "state_name": "Punjab",
         "country": "IN",
@@ -314,6 +349,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-kanpur.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Kanpur",
         "state_name": "Uttar Pradesh",
         "country": "IN",
@@ -329,6 +365,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-varanasi.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Varanasi (Kashi)",
         "state_name": "Uttar Pradesh",
         "country": "IN",
@@ -344,6 +381,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-raipur.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Raipur",
         "state_name": "Chhattisgarh",
         "country": "IN",
@@ -359,6 +397,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-dehradun.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Dehradun",
         "state_name": "Uttarakhand",
         "country": "IN",
@@ -374,6 +413,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-guwahati.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Guwahati",
         "state_name": "Assam",
         "country": "IN",
@@ -389,6 +429,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-amritsar.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Amritsar",
         "state_name": "Punjab",
         "country": "IN",
@@ -404,6 +445,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-ranchi.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Ranchi",
         "state_name": "Jharkhand",
         "country": "IN",
@@ -419,6 +461,7 @@ LOCATION_CONFIGS = [
         "filename": "digital-marketing-company-in-jodhpur.aspx",
         "service_name": "Digital Marketing Company",
         "service_type": "Digital Marketing & SEO Services",
+        "service_category": "digital_marketing",
         "city_name": "Jodhpur",
         "state_name": "Rajasthan",
         "country": "IN",
@@ -434,6 +477,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-raipur.aspx",
         "service_name": "SEO Services",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Raipur",
         "state_name": "Chhattisgarh",
         "country": "IN",
@@ -449,6 +493,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-mumbai.aspx",
         "service_name": "SEO Services",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Mumbai",
         "state_name": "Maharashtra",
         "country": "IN",
@@ -464,6 +509,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-company-in-bhopal.aspx",
         "service_name": "SEO Company",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Bhopal",
         "state_name": "Madhya Pradesh",
         "country": "IN",
@@ -479,6 +525,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-company-in-indore.aspx",
         "service_name": "SEO Company",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Indore",
         "state_name": "Madhya Pradesh",
         "country": "IN",
@@ -494,6 +541,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-company-in-okhla.aspx",
         "service_name": "SEO Company",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Okhla (Delhi NCR)",
         "state_name": "Delhi",
         "country": "IN",
@@ -509,6 +557,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-chennai-banglore-hyderabad-kolkata.aspx",
         "service_name": "SEO Services",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Chennai, Bangalore, Hyderabad & Kolkata",
         "state_name": "South & East India Metros",
         "country": "IN",
@@ -524,6 +573,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-company-in-bangalore.aspx",
         "service_name": "SEO Services Company",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Bangalore",
         "state_name": "Karnataka",
         "country": "IN",
@@ -539,6 +589,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-gurgaon-delhi-ncr.aspx",
         "service_name": "SEO Services",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Gurgaon (Gurugram) & Delhi NCR",
         "state_name": "Haryana",
         "country": "IN",
@@ -554,6 +605,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-company-in-nehru-place.aspx",
         "service_name": "SEO Company",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Nehru Place (South Delhi)",
         "state_name": "Delhi",
         "country": "IN",
@@ -569,6 +621,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-australia-nepal-usa-uk.aspx",
         "service_name": "International SEO Services",
         "service_type": "Global Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Australia, USA, UK & Nepal",
         "state_name": "Global & International Markets",
         "country": "GLOBAL",
@@ -584,6 +637,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-jharkhand.aspx",
         "service_name": "SEO Services",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Jharkhand (Ranchi, Jamshedpur, Dhanbad)",
         "state_name": "Jharkhand",
         "country": "IN",
@@ -599,6 +653,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-lucknow.aspx",
         "service_name": "SEO Services",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Lucknow",
         "state_name": "Uttar Pradesh",
         "country": "IN",
@@ -614,6 +669,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-varanasi.aspx",
         "service_name": "SEO Services",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Varanasi (Kashi)",
         "state_name": "Uttar Pradesh",
         "country": "IN",
@@ -629,6 +685,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-bihar.aspx",
         "service_name": "SEO Services",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Bihar (Patna, Gaya, Muzaffarpur, Bhagalpur)",
         "state_name": "Bihar",
         "country": "IN",
@@ -644,6 +701,7 @@ LOCATION_CONFIGS = [
         "filename": "seo-services-in-delhi-allahabad-patna-lucknow.aspx",
         "service_name": "SEO Services",
         "service_type": "Search Engine Optimization (SEO)",
+        "service_category": "seo",
         "city_name": "Delhi, Allahabad, Patna & Lucknow",
         "state_name": "North India Corridor",
         "country": "IN",
@@ -659,6 +717,7 @@ LOCATION_CONFIGS = [
         "filename": "ppc-company-in-noida.aspx",
         "service_name": "PPC & Google Ads Company",
         "service_type": "PPC & Google Ads Management",
+        "service_category": "ppc",
         "city_name": "Noida & Greater Noida",
         "state_name": "Uttar Pradesh",
         "country": "IN",
@@ -674,6 +733,7 @@ LOCATION_CONFIGS = [
         "filename": "ppc-company-in-dubai-uae.aspx",
         "service_name": "PPC & Google Ads Company",
         "service_type": "PPC & Performance Marketing",
+        "service_category": "ppc",
         "city_name": "Dubai (UAE)",
         "state_name": "Dubai",
         "country": "AE",
@@ -689,6 +749,7 @@ LOCATION_CONFIGS = [
         "filename": "ppc-company-in-mumbai.aspx",
         "service_name": "PPC & Google Ads Company",
         "service_type": "PPC & Google Ads Management",
+        "service_category": "ppc",
         "city_name": "Mumbai",
         "state_name": "Maharashtra",
         "country": "IN",
@@ -704,6 +765,7 @@ LOCATION_CONFIGS = [
         "filename": "ppc-company-in-gurgaon.aspx",
         "service_name": "PPC & Google Ads Company",
         "service_type": "PPC & Google Ads Management",
+        "service_category": "ppc",
         "city_name": "Gurgaon (Gurugram)",
         "state_name": "Haryana",
         "country": "IN",
@@ -717,10 +779,396 @@ LOCATION_CONFIGS = [
 ]
 
 
+def render_work_process(category, city_name):
+    if category == "seo":
+        return f"""
+			<div class="kdm-seo-process-header">
+				<span class="kdm-seo-badge">PROVEN 9-STAGE FRAMEWORK</span>
+				<h2 class="kdm-seo-process-title">Our SEO Work Process</h2>
+				<p class="kdm-seo-process-desc">
+					Our 9-stage data-driven SEO framework empowers businesses in {city_name} to dominate Google search results, drive continuous organic traffic, and maximize revenue.
+				</p>
+			</div>
+
+			<div class="kdm-seo-process-grid">
+				<!-- Step 1 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+							<line x1="3" y1="9" x2="21" y2="9"></line>
+							<line x1="9" y1="21" x2="9" y2="9"></line>
+							<circle cx="15" cy="15" r="3"></circle>
+							<path d="M17.5 17.5L20 20"></path>
+						</svg>
+					</div>
+					<h3>1. Technical Website Audit</h3>
+					<p>We conduct in-depth technical and architectural audits to identify crawl errors, broken links, indexing gaps, and speed bottlenecks across your web pages.</p>
+				</div>
+
+				<!-- Step 2 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="18" y1="20" x2="18" y2="10"></line>
+							<line x1="12" y1="20" x2="12" y2="4"></line>
+							<line x1="6" y1="20" x2="6" y2="14"></line>
+							<path d="M3 20h18"></path>
+						</svg>
+					</div>
+					<h3>2. Business &amp; Competitor Analysis</h3>
+					<p>Our SEO strategists analyze your business model, buyer personas, and competitors in {city_name} to reverse-engineer top-ranking organic keywords.</p>
+				</div>
+
+				<!-- Step 3 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="11" cy="11" r="8"></circle>
+							<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+							<path d="M11 8v6M8 11h6"></path>
+						</svg>
+					</div>
+					<h3>3. Commercial Keyword Research</h3>
+					<p>We discover high-converting commercial search terms and local long-tail queries that drive qualified traffic and buyer intent to your domain.</p>
+				</div>
+
+				<!-- Step 4 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+							<polyline points="14 2 14 8 20 8"></polyline>
+							<line x1="16" y1="13" x2="8" y2="13"></line>
+							<line x1="16" y1="17" x2="8" y2="17"></line>
+							<polyline points="10 9 9 9 8 9"></polyline>
+						</svg>
+					</div>
+					<h3>4. On-Page Search Optimization</h3>
+					<p>We optimize title tags, meta descriptions, H1-H6 headings, internal linking structures, LocalBusiness schema markup, and image ALT tags.</p>
+				</div>
+
+				<!-- Step 5 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+							<circle cx="12" cy="10" r="3"></circle>
+						</svg>
+					</div>
+					<h3>5. Local SEO &amp; Map 3-Pack (GMB)</h3>
+					<p>We claim, verify, and optimize your Google Business Profile with geo-tagged images, localized NAP citations, and 5-star review generation strategies.</p>
+				</div>
+
+				<!-- Step 6 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
+					</div>
+					<h3>6. Authoritative Content Writing</h3>
+					<p>We craft engaging, authoritative landing page copy and blog articles aligned with Google E-E-A-T guidelines to boost dwell time and organic rank.</p>
+				</div>
+
+				<!-- Step 7 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+						</svg>
+					</div>
+					<h3>7. Advanced Technical SEO</h3>
+					<p>We enhance Core Web Vitals, mobile responsiveness, XML sitemaps, robots.txt directives, SSL security, and page load speeds to satisfy search algorithms.</p>
+				</div>
+
+				<!-- Step 8 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+							<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+						</svg>
+					</div>
+					<h3>8. White-Hat Authority Backlinks</h3>
+					<p>We build white-hat, high-authority domain backlinks through targeted editorial outreach, guest features, and digital PR to boost domain authority.</p>
+				</div>
+
+				<!-- Step 9 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<h3>9. Keyword Ranking &amp; ROI Reports</h3>
+					<p>We provide transparent monthly ranking, traffic, and conversion reports using Google Analytics &amp; Search Console, ensuring clear tracking of your ROI.</p>
+				</div>
+			</div>
+"""
+    elif category == "ppc":
+        return f"""
+			<div class="kdm-seo-process-header">
+				<span class="kdm-seo-badge">PROVEN 9-STAGE FRAMEWORK</span>
+				<h2 class="kdm-seo-process-title">Our PPC &amp; Google Ads Work Process</h2>
+				<p class="kdm-seo-process-desc">
+					Our 9-stage PPC management framework delivers high-intent search inquiries, lower Cost Per Click (CPC), and maximum Return on Ad Spend (ROAS) for your business in {city_name}.
+				</p>
+			</div>
+
+			<div class="kdm-seo-process-grid">
+				<!-- Step 1 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+							<line x1="3" y1="9" x2="21" y2="9"></line>
+							<line x1="9" y1="21" x2="9" y2="9"></line>
+							<circle cx="15" cy="15" r="3"></circle>
+							<path d="M17.5 17.5L20 20"></path>
+						</svg>
+					</div>
+					<h3>1. PPC Account &amp; Tracking Audit</h3>
+					<p>We audit past campaign history, tracking tags, conversion pixels, and landing pages to fix ad budget leaks and optimize baseline performance.</p>
+				</div>
+
+				<!-- Step 2 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="18" y1="20" x2="18" y2="10"></line>
+							<line x1="12" y1="20" x2="12" y2="4"></line>
+							<line x1="6" y1="20" x2="6" y2="14"></line>
+							<path d="M3 20h18"></path>
+						</svg>
+					</div>
+					<h3>2. Competitor Ad Intelligence</h3>
+					<p>We reverse-engineer competitor search ad copy, bid strategies, and high-performing keywords in {city_name} to seize top ad positions at lower CPC.</p>
+				</div>
+
+				<!-- Step 3 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="11" cy="11" r="8"></circle>
+							<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+							<path d="M11 8v6M8 11h6"></path>
+						</svg>
+					</div>
+					<h3>3. High-Intent Keyword Mining</h3>
+					<p>We isolate exact match, phrase match, and commercial buyer intent search phrases that generate immediate phone inquiries and qualified leads.</p>
+				</div>
+
+				<!-- Step 4 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
+					</div>
+					<h3>4. High-CTR Ad Copywriting</h3>
+					<p>We write compelling, high-converting ad headlines, descriptions, callout assets, and sitelink extensions that boost Quality Score and click-through rates.</p>
+				</div>
+
+				<!-- Step 5 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+							<line x1="12" y1="2" x2="12" y2="12"></line>
+						</svg>
+					</div>
+					<h3>5. Negative Keyword Filtering</h3>
+					<p>We proactively curate negative keyword lists to prevent wasted ad clicks, ensuring 100% of your ad spend targets genuine potential buyers.</p>
+				</div>
+
+				<!-- Step 6 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+							<line x1="8" y1="21" x2="16" y2="21"></line>
+							<line x1="12" y1="17" x2="12" y2="21"></line>
+						</svg>
+					</div>
+					<h3>6. High-Converting Landing Pages</h3>
+					<p>We build ultra-fast, mobile-optimized landing pages with clear value propositions, trust badges, and quick lead forms to maximize conversion rates.</p>
+				</div>
+
+				<!-- Step 7 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+						</svg>
+					</div>
+					<h3>7. Smart Bidding &amp; Scaling</h3>
+					<p>We implement Target CPA, Target ROAS, and automated Smart Bidding algorithms to scale lead volume while lowering acquisition costs.</p>
+				</div>
+
+				<!-- Step 8 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+							<circle cx="9" cy="7" r="4"></circle>
+							<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+						</svg>
+					</div>
+					<h3>8. Multi-Channel Remarketing</h3>
+					<p>We re-engage past website visitors across Google Display Network, YouTube, and Meta to turn unconverted visitors into paying customers.</p>
+				</div>
+
+				<!-- Step 9 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<h3>9. Weekly ROAS &amp; Lead Tracking</h3>
+					<p>We deliver transparent weekly and monthly reporting on cost-per-acquisition (CPA), conversion rates, lead numbers, and total return on ad spend.</p>
+				</div>
+			</div>
+"""
+    else:  # Default: digital_marketing
+        return f"""
+			<div class="kdm-seo-process-header">
+				<span class="kdm-seo-badge">PROVEN 9-STAGE FRAMEWORK</span>
+				<h2 class="kdm-seo-process-title">Our 360° Digital Marketing Work Process</h2>
+				<p class="kdm-seo-process-desc">
+					Our 9-stage full-funnel digital marketing framework integrates SEO, Google Ads, Meta Ads, high-intent copywriting, and conversion optimization to deliver 100+ daily leads for your business in {city_name}.
+				</p>
+			</div>
+
+			<div class="kdm-seo-process-grid">
+				<!-- Step 1 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+							<line x1="3" y1="9" x2="21" y2="9"></line>
+							<line x1="9" y1="21" x2="9" y2="9"></line>
+							<circle cx="15" cy="15" r="3"></circle>
+							<path d="M17.5 17.5L20 20"></path>
+						</svg>
+					</div>
+					<h3>1. Website &amp; Tech Audit</h3>
+					<p>We conduct in-depth technical, UI/UX, and indexing audits to identify crawl bottlenecks, slow loading speeds, and conversion leaks on your web properties.</p>
+				</div>
+
+				<!-- Step 2 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="18" y1="20" x2="18" y2="10"></line>
+							<line x1="12" y1="20" x2="12" y2="4"></line>
+							<line x1="6" y1="20" x2="6" y2="14"></line>
+							<path d="M3 20h18"></path>
+						</svg>
+					</div>
+					<h3>2. Market &amp; Persona Analysis</h3>
+					<p>Our strategists analyze buyer demographics, competitive positioning, and customer search intent across {city_name} to build customized sales funnels.</p>
+				</div>
+
+				<!-- Step 3 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="11" cy="11" r="8"></circle>
+							<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+							<path d="M11 8v6M8 11h6"></path>
+						</svg>
+					</div>
+					<h3>3. SEO &amp; Google Map Domination</h3>
+					<p>We execute high-impact On-Page SEO, technical fixes, and Google My Business (GMB) optimizations to secure top rankings in the Google Map 3-Pack.</p>
+				</div>
+
+				<!-- Step 4 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+						</svg>
+					</div>
+					<h3>4. Google Ads &amp; PPC Search Funnels</h3>
+					<p>We build high-converting Google Search, Performance Max, and Call-Only campaigns to capture active buyers and drive instant qualified inquiries.</p>
+				</div>
+
+				<!-- Step 5 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="18" cy="5" r="3" />
+							<circle cx="6" cy="12" r="3" />
+							<circle cx="18" cy="19" r="3" />
+							<line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+							<line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+						</svg>
+					</div>
+					<h3>5. Meta Ads &amp; Social Media Marketing</h3>
+					<p>We design dynamic visual creatives, video reels, and audience retargeting funnels across Facebook and Instagram to build brand clout and leads.</p>
+				</div>
+
+				<!-- Step 6 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
+					</div>
+					<h3>6. High-Intent Content &amp; Copywriting</h3>
+					<p>We craft persuasive landing page copy, authority articles, and Google E-E-A-T compliant messaging that educates prospects and drives conversions.</p>
+				</div>
+
+				<!-- Step 7 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+							<line x1="8" y1="21" x2="16" y2="21"></line>
+							<line x1="12" y1="17" x2="12" y2="21"></line>
+						</svg>
+					</div>
+					<h3>7. Conversion Rate Optimization (CRO)</h3>
+					<p>We optimize landing page speeds, implement click-to-call CTAs, WhatsApp chat funnels, and streamlined forms to maximize lead capture rates.</p>
+				</div>
+
+				<!-- Step 8 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+							<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+						</svg>
+					</div>
+					<h3>8. Authority Backlinks &amp; Digital PR</h3>
+					<p>We build high-DA domain backlinks through targeted editorial outreach, local directory citations, and digital PR to elevate domain trust score.</p>
+				</div>
+
+				<!-- Step 9 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<h3>9. Multi-Channel Analytics &amp; ROI Reports</h3>
+					<p>We provide transparent monthly reporting covering keyword rankings, GA4 traffic, Meta &amp; Google ad spend, cost per lead, and overall ROI.</p>
+				</div>
+			</div>
+"""
+
+
 def generate_page(config):
     filename = config["filename"]
     service_name = config["service_name"]
     service_type = config["service_type"]
+    service_category = config.get("service_category", "digital_marketing")
     city_name = config["city_name"]
     state_name = config["state_name"]
     country = config["country"]
@@ -738,6 +1186,8 @@ def generate_page(config):
     # Uppercase variations
     service_name_upper = service_name.upper()
     city_name_upper = city_name.upper()
+
+    work_process_html = render_work_process(service_category, city_name)
 
     content = f"""<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
@@ -1054,67 +1504,66 @@ def generate_page(config):
 	</div>
 	<!-- ===== END HERO SECTION ===== -->
 
-	<!-- ===== 2. DETAILED PARA ABOUT SERVICES (WHITE THEME) ===== -->
-	<section class="kdm-loc-intro-section" style="background: #ffffff; padding: 65px 0; border-bottom: 1px solid #e2e8f0;">
+	<!-- ===== 2. DETAILED PARA ABOUT SERVICES (BEAUTIFULLY FRAMED WHITE THEME) ===== -->
+	<section class="kdm-loc-intro-section" style="background: #f8fafc; padding: 60px 0; border-bottom: 1px solid #e2e8f0;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div style="text-align: center; max-width: 920px; margin: 0 auto 35px auto;">
-						<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
-							<i class="fa fa-map-marker-alt"></i> TRUSTED AGENCY IN {city_name_upper}
-						</span>
-						<h2 style="font-size: 32px; font-weight: 900; color: #0f172a; margin-bottom: 15px; line-height: 1.3;">
-							Best {service_name} in <span style="color: #0284c7;">{city_name}</span>
-						</h2>
-					</div>
-					
-					<div style="font-size: 16px; color: #334155; line-height: 1.8; max-width: 1040px; margin: 0 auto;">
-						<p style="margin-bottom: 18px;">
-							If you are searching for the <strong>best {service_name.lower()} in {city_name}</strong>, then <strong>King of Digital Marketing</strong> is the name you can trust. In today's online world, every small and big business needs strong digital marketing services to grow fast. King of Digital Marketing is known as the top digital marketing agency in {city_name} that helps businesses reach more customers through the internet.
-						</p>
-						<p style="margin-bottom: 18px;">
-							The company offers many services like <a href="SEO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">SEO services in {city_name}</a>, <a href="SMO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">social media marketing</a>, <a href="Website-Designing-Packages.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">website designing</a>, <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">Google Ads management</a>, content marketing, and local SEO for {city_name} businesses. Whether you are a small shop owner, an educational coaching institute, a medical clinic, a real estate firm, or a corporate enterprise, King of Digital Marketing has a customized solution for everyone.
-						</p>
-						<p style="margin-bottom: 18px;">
-							One big reason people choose King of Digital Marketing is their easy and honest way of working. They explain everything in simple language, so even beginners can understand what is happening with their website and marketing campaigns. Many people search for terms like <em>"digital marketing agency near me"</em>, <em>"best SEO company in {city_name}"</em>, <em>"website designing company in {city_name}"</em>, and <em>"social media marketing expert in {city_name}"</em>. King of Digital Marketing ranks well for all these searches, which shows their real skill and experience.
-						</p>
-						<p style="margin-bottom: 18px;">
-							Their team uses the latest tools and strategies to bring more traffic, leads, and sales for clients. They also focus on affordable digital marketing packages, so small businesses and startups in {city_name} can also grow online without spending too much money.
-						</p>
-						<p style="margin-bottom: 0;">
-							Customer support is another strong point. The team stays in constant touch with clients, shares monthly transparent reports, and makes data-driven changes based on results. This honest and result-driven approach makes <strong>King of Digital Marketing</strong> the most trusted digital marketing company in {city_name}. If you want your business to grow online, get more customers, and build a strong brand, King of Digital Marketing is the right choice for you in {city_name}.
-						</p>
-					</div>
+			<div class="kdm-loc-intro-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 24px; padding: 45px 35px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); max-width: 1140px; margin: 0 auto;">
+				<div class="text-center" style="margin-bottom: 30px;">
+					<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+						<i class="fa fa-map-marker-alt"></i> TRUSTED AGENCY IN {city_name_upper}
+					</span>
+					<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3;">
+						Best {service_name} in <span style="color: #0284c7;">{city_name}</span>
+					</h2>
+					<div style="width: 80px; height: 4px; background: linear-gradient(90deg, #0284c7, #38bdf8); border-radius: 2px; margin: 0 auto;"></div>
+				</div>
+				
+				<div style="font-size: 16px; color: #334155; line-height: 1.85; margin-bottom: 35px;">
+					<p style="margin-bottom: 18px;">
+						If you are searching for the <strong>best {service_name.lower()} in {city_name}</strong>, then <strong>King of Digital Marketing</strong> is the name you can trust. In today's online world, every small and big business needs strong digital marketing services to grow fast. King of Digital Marketing is known as the top digital marketing agency in {city_name} that helps businesses reach more customers through the internet.
+					</p>
+					<p style="margin-bottom: 18px;">
+						The company offers many services like <a href="SEO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">SEO services in {city_name}</a>, <a href="SMO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">social media marketing</a>, <a href="Website-Designing-Packages.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">website designing</a>, <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">Google Ads management</a>, content marketing, and local SEO for {city_name} businesses. Whether you are a small shop owner, an educational coaching institute, a medical clinic, a real estate firm, or a corporate enterprise, King of Digital Marketing has a customized solution for everyone.
+					</p>
+					<p style="margin-bottom: 18px;">
+						One big reason people choose King of Digital Marketing is their easy and honest way of working. They explain everything in simple language, so even beginners can understand what is happening with their website and marketing campaigns. Many people search for terms like <em>"digital marketing agency near me"</em>, <em>"best SEO company in {city_name}"</em>, <em>"website designing company in {city_name}"</em>, and <em>"social media marketing expert in {city_name}"</em>. King of Digital Marketing ranks well for all these searches, which shows their real skill and experience.
+					</p>
+					<p style="margin-bottom: 18px;">
+						Their team uses the latest tools and strategies to bring more traffic, leads, and sales for clients. They also focus on affordable digital marketing packages, so small businesses and startups in {city_name} can also grow online without spending too much money.
+					</p>
+					<p style="margin-bottom: 0;">
+						Customer support is another strong point. The team stays in constant touch with clients, shares monthly transparent reports, and makes data-driven changes based on results. This honest and result-driven approach makes <strong>King of Digital Marketing</strong> the most trusted digital marketing company in {city_name}. If you want your business to grow online, get more customers, and build a strong brand, King of Digital Marketing is the right choice for you in {city_name}.
+					</p>
+				</div>
 
-					<!-- 4 Quick Capabilities Cards -->
-					<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 1040px; margin: 35px auto 0 auto;">
-						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
-							<div style="font-size: 24px; color: #0284c7; margin-bottom: 8px;"><i class="fa fa-chart-line"></i></div>
-							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Lead Generation</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-intent customer inquiries delivered daily in {city_name}.</p>
-						</div>
-						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
-							<div style="font-size: 24px; color: #10b981; margin-bottom: 8px;"><i class="fa fa-search"></i></div>
-							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Top Page 1 SEO</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0;">Organic rankings &amp; Google Map 3-Pack domination.</p>
-						</div>
-						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
-							<div style="font-size: 24px; color: #8b5cf6; margin-bottom: 8px;"><i class="fa fa-bullhorn"></i></div>
-							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Meta &amp; Google Ads</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-ROI paid campaigns with immediate conversions.</p>
-						</div>
-						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
-							<div style="font-size: 24px; color: #f59e0b; margin-bottom: 8px;"><i class="fa fa-laptop-code"></i></div>
-							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Modern Web Design</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0;">Fast-loading, mobile-friendly landing pages.</p>
-						</div>
+				<!-- 4 Quick Capabilities Cards -->
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #0284c7; margin-bottom: 10px;"><i class="fa fa-chart-line"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Lead Generation</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">High-intent customer inquiries delivered daily in {city_name}.</p>
+					</div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #10b981; margin-bottom: 10px;"><i class="fa fa-search"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Top Page 1 SEO</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Organic rankings &amp; Google Map 3-Pack domination.</p>
+					</div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #8b5cf6; margin-bottom: 10px;"><i class="fa fa-bullhorn"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Meta &amp; Google Ads</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">High-ROI paid campaigns with immediate conversions.</p>
+					</div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #f59e0b; margin-bottom: 10px;"><i class="fa fa-laptop-code"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Modern Web Design</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Fast-loading, mobile-friendly landing pages.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- ===== 3. CREDENTIALS & MILESTONE COUNTERS (WHITE THEME) ===== -->
+	<!-- ===== 3. CREDENTIALS & MILESTONE COUNTERS (WHITE THEME WITH INTERSECTION ANIMATION) ===== -->
 	<section class="kdm-credentials-section">
 		<div class="container">
 			<div class="kdm-credentials-grid">
@@ -1220,7 +1669,7 @@ def generate_page(config):
 						<div class="empower-icon-hub icon-blue">
 							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<circle cx="11" cy="11" r="8" />
-								<line x1="21" y1="21" x2="16.65" y2="16.65" />
+								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
 								<line x1="11" y1="8" x2="11" y2="14" />
 								<line x1="8" y1="11" x2="14" y2="11" />
 							</svg>
@@ -1284,9 +1733,9 @@ def generate_page(config):
 					<div class="empower-card-top">
 						<div class="empower-icon-hub icon-cyan">
 							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-								<line x1="8" y1="21" x2="16" y2="21" />
-								<line x1="12" y1="17" x2="12" y2="21" />
+								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+								<line x1="8" y1="21" x2="16" y2="21"></line>
+								<line x1="12" y1="17" x2="12" y2="21"></line>
 							</svg>
 						</div>
 						<span class="empower-tag">MODERN UI/UX</span>
@@ -1413,160 +1862,65 @@ def generate_page(config):
 		</div>
 	</section>
 
-	<!-- ===== 6. 9-STEP SERVICE WORK PROCESS (DARK THEME) ===== -->
+	<!-- ===== 6. 9-STEP SERVICE WORK PROCESS (CATEGORY SPECIFIC - DARK THEME) ===== -->
 	<section class="kdm-seo-process-section">
 		<div class="container">
-			<div class="kdm-seo-process-header">
-				<span class="kdm-seo-badge">PROVEN 9-STAGE FRAMEWORK</span>
-				<h2 class="kdm-seo-process-title">Our Service Work Process</h2>
-				<p class="kdm-seo-process-desc">
-					With over 13+ years of experience, our 9-stage data-driven marketing framework empowers businesses in {city_name} to dominate search engines, capture high-intent leads, and scale profitable revenue.
-				</p>
-			</div>
-
-			<div class="kdm-seo-process-grid">
-				<!-- Step 1 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-							<line x1="3" y1="9" x2="21" y2="9"></line>
-							<line x1="9" y1="21" x2="9" y2="9"></line>
-							<circle cx="15" cy="15" r="3"></circle>
-							<path d="M17.5 17.5L20 20"></path>
-						</svg>
-					</div>
-					<h3>1. Website &amp; Tech Audit</h3>
-					<p>We conduct in-depth technical and architectural audits to identify crawl errors, speed bottlenecks, and conversion gaps across your web properties.</p>
-				</div>
-
-				<!-- Step 2 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<line x1="18" y1="20" x2="18" y2="10"></line>
-							<line x1="12" y1="20" x2="12" y2="4"></line>
-							<line x1="6" y1="20" x2="6" y2="14"></line>
-							<path d="M3 20h18"></path>
-						</svg>
-					</div>
-					<h3>2. Business &amp; Market Analysis</h3>
-					<p>Our strategists analyze your business model, buyer personas, sales funnels, and target customers in {city_name} to align campaign goals directly with ROI.</p>
-				</div>
-
-				<!-- Step 3 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<circle cx="11" cy="11" r="8"></circle>
-							<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-							<path d="M11 8v6M8 11h6"></path>
-						</svg>
-					</div>
-					<h3>3. Local &amp; Keyword Research</h3>
-					<p>We discover high-converting, commercial search terms and localized keywords that drive qualified buyer intent and phone calls to your business.</p>
-				</div>
-
-				<!-- Step 4 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-						</svg>
-					</div>
-					<h3>4. Competitor Strategy Audit</h3>
-					<p>We reverse-engineer top-ranking competitors in {city_name}, identifying keyword gaps, ad strategies, and backlink profiles to outrank them on SERPs.</p>
-				</div>
-
-				<!-- Step 5 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-							<polyline points="14 2 14 8 20 8"></polyline>
-							<line x1="16" y1="13" x2="8" y2="13"></line>
-							<line x1="16" y1="17" x2="8" y2="17"></line>
-							<polyline points="10 9 9 9 8 9"></polyline>
-						</svg>
-					</div>
-					<h3>5. On-Page &amp; Schema Setup</h3>
-					<p>We optimize title tags, meta descriptions, headings, internal linking structures, LocalBusiness schema markup, and image tags for maximum relevance.</p>
-				</div>
-
-				<!-- Step 6 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-						</svg>
-					</div>
-					<h3>6. High-Intent Content Creation</h3>
-					<p>We craft engaging, authoritative landing page copy and blog content aligned with Google E-E-A-T guidelines to boost visitor dwell time and conversion.</p>
-				</div>
-
-				<!-- Step 7 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-						</svg>
-					</div>
-					<h3>7. Technical &amp; Core Web Vitals</h3>
-					<p>We optimize Core Web Vitals, mobile responsiveness, XML sitemaps, robots.txt directives, SSL security, and page load speeds for search algorithms.</p>
-				</div>
-
-				<!-- Step 8 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-							<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-						</svg>
-					</div>
-					<h3>8. Authority Links &amp; PR</h3>
-					<p>We build white-hat, high-authority domain backlinks through targeted editorial outreach, local citations, and digital PR to boost domain authority.</p>
-				</div>
-
-				<!-- Step 9 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-							<polyline points="22 4 12 14.01 9 11.01"></polyline>
-						</svg>
-					</div>
-					<h3>9. Performance &amp; ROI Reports</h3>
-					<p>We provide transparent monthly ranking, traffic, lead volume, and conversion reports using Google Analytics &amp; Search Console to verify campaign ROI.</p>
-				</div>
-			</div>
+			{work_process_html}
 		</div>
 	</section>
 
-	<!-- ===== 7. CLIENT TRUST & PARTNER LOGOS (WHITE THEME) ===== -->
-	<section class="clients-logos-section">
+	<!-- ===== 7. CLIENT TRUST & PARTNER LOGOS (EXACT FROM DEFAULT.ASPX ROOT) ===== -->
+	<section class="kdm-clients-white-section">
 		<div class="container">
-			<div class="clients-logos-header text-center">
-				<span class="clients-badge"><i class="fa fa-handshake-o"></i> PROVEN TRACK RECORD</span>
-				<h2 class="clients-title">Your Trust Made Us Top <span class="clients-title-gradient">{service_name} in {city_name}</span></h2>
-				<p class="clients-subtitle">
-					Over the last 13+ years, <strong>900+ businesses</strong> across {city_name}, India, and global markets have trusted us to scale their digital growth, customer inquiries, and brand authority.
-				</p>
-			</div>
+			<div class="row custom-row">
+				<div class="col-md-12 col-sm-12">
+					<div class="kdm-clients-header">
+						<div class="kdm-clients-badge">
+							<i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
+						</div>
+						<h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">{service_name} in {city_name}</span> To Help Flourish Your Business</h2>
+						<p class="kdm-clients-subtitle">
+							What makes us distinct is our valuable clients. We strive day in and day out to secure their branding, online reputation, visibility, high-converting traffic, and qualified lead generation.
+						</p>
+						<div class="kdm-clients-motto-wrapper">
+							<div class="kdm-clients-motto">
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Ambitious</span>
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Experts</span>
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Shepherd</span>
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are King</span>
+							</div>
+						</div>
+					</div>
 
-			<div class="clients-carousel">
-				<div class="clients-track">
-					<div class="client-logo-item"><img src="images/clients/1.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/2.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/3.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/4.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/5.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/6.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/7.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/8.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/1.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/2.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/3.png" alt="Trusted Client Partner" class="client-logo" /></div>
-					<div class="client-logo-item"><img src="images/clients/4.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="happy" id="images">
+						<div class="track">
+							<!-- Featured Priority Client Logos from default.aspx -->
+							<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
+							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
+							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg"></div>
+							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1722,63 +2076,59 @@ def generate_page(config):
 		</div>
 	</section>
 
-	<!-- ===== 10. WHAT OUR CLIENTS SAY (TESTIMONIALS SECTION) ===== -->
+	<!-- ===== 10. WHAT OUR CLIENTS SAY (BRIGHT VISIBLE TEXT ON DARK LUXURY THEME) ===== -->
 	<section class="kdm-testimonial-section">
 		<div class="container">
-			<div class="text-center" style="margin-bottom: 40px;">
-				<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
-					<i class="fa fa-star"></i> CLIENT SUCCESS STORIES
-				</span>
-				<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin-bottom: 12px;">
-					What Our Clients Say in <span style="color: #0284c7;">{city_name}</span>
-				</h2>
-				<p style="font-size: 15.5px; color: #64748b; max-width: 720px; margin: 0 auto;">
+			<div class="kdm-testimonial-header">
+				<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> CLIENT SUCCESS STORIES</span>
+				<h2 class="kdm-testimonial-title">What Our Clients Say in <span>{city_name}</span></h2>
+				<p class="kdm-testimonial-subtitle">
 					Hear from real business owners who transformed their customer pipeline and accelerated revenue growth with King of Digital Marketing.
 				</p>
 			</div>
 
-			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
+			<div class="kdm-testimonial-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; position: relative; z-index: 2;">
 				<!-- Review 1 -->
-				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
-					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
-					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
-						"King of Digital Marketing completely turned around our customer inquiries in {city_name}. Within 60 days of launching our local SEO and Google Ads campaigns, our inquiries surged by 300%. Gaurav Dubey and his team are true professionals."
+				<div class="kdm-testimonial-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 18px; padding: 28px; backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0,0,0,0.35);">
+					<div style="color: #fbbf24; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
+					<p style="font-size: 15px; color: #e2e8f0; line-height: 1.7; margin-bottom: 20px;">
+						"King of Digital Marketing completely turned around our customer inquiries in {city_name}. Within 60 days of launching our campaigns, our inquiries surged by 300%. Gaurav Dubey and his team are true professionals."
 					</p>
 					<div style="display: flex; align-items: center; gap: 12px;">
-						<div style="width: 44px; height: 44px; border-radius: 50%; background: #0284c7; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">AK</div>
+						<div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #0284c7, #38bdf8); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">AK</div>
 						<div>
-							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Anil Kumar</h4>
-							<span style="font-size: 12.5px; color: #64748b;">Managing Director, {city_name} Enterprises</span>
+							<h4 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0;">Anil Kumar</h4>
+							<span style="font-size: 12.5px; color: #94a3b8;">Managing Director, {city_name} Enterprises</span>
 						</div>
 					</div>
 				</div>
 
 				<!-- Review 2 -->
-				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
-					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
-					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
+				<div class="kdm-testimonial-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 18px; padding: 28px; backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0,0,0,0.35);">
+					<div style="color: #fbbf24; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
+					<p style="font-size: 15px; color: #e2e8f0; line-height: 1.7; margin-bottom: 20px;">
 						"We were struggling to get consistent client consultations for our clinic in {city_name}. King of Digital Marketing optimized our Google Map listing and ran targeted local search ads. Now we get 15+ daily verified appointments!"
 					</p>
 					<div style="display: flex; align-items: center; gap: 12px;">
-						<div style="width: 44px; height: 44px; border-radius: 50%; background: #10b981; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">DS</div>
+						<div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #10b981, #34d399); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">DS</div>
 						<div>
-							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Dr. S. K. Sharma</h4>
-							<span style="font-size: 12.5px; color: #64748b;">Senior Consultant, {city_name} Clinic</span>
+							<h4 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0;">Dr. S. K. Sharma</h4>
+							<span style="font-size: 12.5px; color: #94a3b8;">Senior Consultant, {city_name} Clinic</span>
 						</div>
 					</div>
 				</div>
 
 				<!-- Review 3 -->
-				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
-					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
-					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
+				<div class="kdm-testimonial-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 18px; padding: 28px; backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0,0,0,0.35);">
+					<div style="color: #fbbf24; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
+					<p style="font-size: 15px; color: #e2e8f0; line-height: 1.7; margin-bottom: 20px;">
 						"Honest pricing, clear monthly reports, and exceptional lead quality. They redesigned our website and took our organic rankings to page 1 for our top commercial keywords in {city_name}. Highly recommended agency!"
 					</p>
 					<div style="display: flex; align-items: center; gap: 12px;">
-						<div style="width: 44px; height: 44px; border-radius: 50%; background: #8b5cf6; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">RP</div>
+						<div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #8b5cf6, #a78bfa); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">RP</div>
 						<div>
-							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Rajesh Patel</h4>
-							<span style="font-size: 12.5px; color: #64748b;">Founder, {city_name} Growth Ventures</span>
+							<h4 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0;">Rajesh Patel</h4>
+							<span style="font-size: 12.5px; color: #94a3b8;">Founder, {city_name} Growth Ventures</span>
 						</div>
 					</div>
 				</div>
@@ -1786,16 +2136,20 @@ def generate_page(config):
 		</div>
 	</section>
 
-	<!-- ===== 11. FAQS & GRAND OFFERS SECTION ===== -->
-	<section class="kdm-faq-section" style="background: #f8fafc; padding: 75px 0;">
+	<!-- ===== 11. FAQS & GRAND OFFERS SECTION (CRISP HEADINGS & FULL ALIGNMENT) ===== -->
+	<section class="kdm-faq-section" style="background: #ffffff; padding: 60px 0; border-top: 1px solid #e2e8f0;">
 		<div class="container">
 			<div class="row">
 				<!-- 15 Location-Based Interactive Accordion FAQs -->
 				<div class="col-md-6">
-					<div class="kdm-faq-header-left">
-						<span class="kdm-faq-badge"><i class="fa fa-question-circle"></i> FREQUENTLY ASKED QUESTIONS</span>
-						<h2 class="kdm-faq-title">FAQs About <strong>{service_name} in {city_name}</strong></h2>
-						<p class="kdm-faq-subtitle">Everything you need to know about our proven digital marketing and SEO methodology in {city_name}.</p>
+					<div style="margin-bottom: 25px;">
+						<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
+							<i class="fa fa-question-circle"></i> FREQUENTLY ASKED QUESTIONS
+						</span>
+						<h2 style="font-size: 28px; font-weight: 900; color: #0f172a; margin: 0 0 8px 0; line-height: 1.3;">
+							FAQs About <strong style="color: #0284c7;">{service_name} in {city_name}</strong>
+						</h2>
+						<p style="font-size: 14px; color: #64748b; margin: 0;">Everything you need to know about our proven digital marketing and SEO methodology in {city_name}.</p>
 					</div>
 
 					<div class="kdm-faq-accordion">
@@ -1968,7 +2322,15 @@ def generate_page(config):
 
 				<!-- 3 High-Converting Dark Theme Grand Offers -->
 				<div class="col-md-6">
-					<h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups &amp; Businesses in {city_name}</strong></h2>
+					<div style="margin-bottom: 25px;">
+						<span class="kdm-seo-badge" style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.25); color: #d97706; font-size: 11px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
+							<i class="fa fa-gift"></i> SPECIAL PACKAGES
+						</span>
+						<h2 class="kdm-offer-section-title" style="font-size: 28px; font-weight: 900; color: #0f172a; margin: 0 0 8px 0; line-height: 1.3;">
+							Grand Offers <strong>for Businesses in {city_name}</strong>
+						</h2>
+						<p style="font-size: 14px; color: #64748b; margin: 0;">Exclusive limited-time growth packages with instant discount savings.</p>
+					</div>
 
 					<div class="kdm-offer-dark-list">
 						<!-- Offer 1 -->
@@ -2046,9 +2408,49 @@ def generate_page(config):
 		</div>
 	</section>
 
-	<!-- JS Dependencies -->
+	<!-- JS Dependencies & Smooth Counter Animation Script -->
 	<script src="js/international-page.js"></script>
 	<script src="js/kdm-faq.js"></script>
+	<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function () {{
+		var credSection = document.querySelector('.kdm-credentials-section');
+		if (!credSection) return;
+
+		var observer = new IntersectionObserver(function (entries) {{
+			entries.forEach(function (entry) {{
+				if (entry.isIntersecting) {{
+					var counters = credSection.querySelectorAll('.kdm-cred-num');
+					counters.forEach(function (counter) {{
+						if (counter.getAttribute('data-animated') === 'true') return;
+						counter.setAttribute('data-animated', 'true');
+
+						var target = parseFloat(counter.getAttribute('data-to'));
+						var decimals = parseInt(counter.getAttribute('data-decimals') || '0', 10);
+						var append = counter.getAttribute('data-append') || '';
+						var duration = 1600;
+						var startTime = null;
+
+						function step(timestamp) {{
+							if (!startTime) startTime = timestamp;
+							var progress = Math.min((timestamp - startTime) / duration, 1);
+							var current = progress * target;
+							counter.innerText = (decimals > 0 ? current.toFixed(decimals) : Math.floor(current)) + append;
+							if (progress < 1) {{
+								window.requestAnimationFrame(step);
+							}} else {{
+								counter.innerText = (decimals > 0 ? target.toFixed(decimals) : target) + append;
+							}}
+						}}
+						window.requestAnimationFrame(step);
+					}});
+					observer.unobserve(credSection);
+				}}
+			}});
+		}}, {{ threshold: 0.2 }});
+
+		observer.observe(credSection);
+	}});
+	</script>
 </asp:Content>
 """
     return content
