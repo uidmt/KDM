@@ -1,13 +1,13 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-	<title>Digital Marketing Company in Allahabad | Best Digital Marketing Agency in Prayagraj - King of Digital Marketing</title>
-	<meta name="keywords" content="Digital Marketing Company in Allahabad, Best Digital Marketing Agency in Allahabad, Top Digital Marketing Company in Prayagraj, Digital Marketing Services in Allahabad, SEO Company in Allahabad, PPC Agency in Allahabad, Social Media Marketing Allahabad, Lead Generation Allahabad">
-	<meta name="description" content="Looking for the best Digital Marketing Company in Allahabad (Prayagraj)? King of Digital Marketing delivers high-ROI SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation with guaranteed results. Call +919555696058.">
-	<link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-company-in-allahabad.aspx" />
-	<meta property="og:title" content="Best Digital Marketing Company in Allahabad | Top Digital Marketing Agency in Prayagraj">
-	<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-company-in-allahabad.jpg">
-	<meta property="og:description" content="Award-winning Digital Marketing Agency in Allahabad (Prayagraj) offering SEO, Google Ads, Meta Ads, and Inbound Lead Generation. 13+ years experience, 900+ projects completed.">
-	<meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-company-in-allahabad.aspx">
+	<title>{{SERVICE_NAME}} in {{CITY_NAME}} | Best {{SERVICE_NAME}} Agency in {{CITY_NAME}} - King of Digital Marketing</title>
+	<meta name="keywords" content="{{SERVICE_NAME}} in {{CITY_NAME}}, Best {{SERVICE_NAME}} Agency in {{CITY_NAME}}, Top {{SERVICE_NAME}} Company in {{CITY_NAME}}, {{SERVICE_NAME}} Services in {{CITY_NAME}}, SEO Company in {{CITY_NAME}}, PPC Agency in {{CITY_NAME}}, Social Media Marketing {{CITY_NAME}}, Lead Generation {{CITY_NAME}}">
+	<meta name="description" content="Looking for the best {{SERVICE_NAME}} in {{CITY_NAME}}? King of Digital Marketing delivers high-ROI SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation with guaranteed results. Call +919555696058.">
+	<link rel="canonical" href="https://www.kingofdigitalmarketing.com/{{URL_PATH}}" />
+	<meta property="og:title" content="Best {{SERVICE_NAME}} in {{CITY_NAME}} | Top {{SERVICE_NAME}} Agency in {{CITY_NAME}}">
+	<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/{{URL_SLUG}}.jpg">
+	<meta property="og:description" content="Award-winning {{SERVICE_NAME}} in {{CITY_NAME}} offering SEO, Google Ads, Meta Ads, and Inbound Lead Generation. 13+ years experience, 900+ projects completed.">
+	<meta property="og:url" content="https://www.kingofdigitalmarketing.com/{{URL_PATH}}">
 	<meta property="og:type" content="website">
 	<meta name="twitter:card" content="summary_large_image">
 	<link rel="stylesheet" href="css/home-custom.css?v=25.0">
@@ -22,24 +22,24 @@
 	    {
 	      "@type": "LocalBusiness",
 	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing - Allahabad Prayagraj",
-	      "url": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-allahabad.aspx",
+	      "name": "King of Digital Marketing - {{CITY_NAME}}",
+	      "url": "https://www.kingofdigitalmarketing.com/{{URL_PATH}}",
 	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/digital-marketing-company-in-allahabad.jpg",
-	      "description": "Leading Digital Marketing Company in Allahabad (Prayagraj) offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation.",
+	      "image": "https://www.kingofdigitalmarketing.com/images/{{URL_SLUG}}.jpg",
+	      "description": "Leading {{SERVICE_NAME}} in {{CITY_NAME}} offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation.",
 	      "telephone": "+91-9555696058",
 	      "email": "info@kingofdigitalmarketing.com",
 	      "priceRange": "$$",
 	      "address": {
 	        "@type": "PostalAddress",
-	        "addressLocality": "Allahabad",
-	        "addressRegion": "Uttar Pradesh",
+	        "addressLocality": "{{CITY_NAME}}",
+	        "addressRegion": "{{STATE_NAME}}",
 	        "addressCountry": "IN"
 	      },
 	      "geo": {
 	        "@type": "GeoCoordinates",
-	        "latitude": "25.4358",
-	        "longitude": "81.8463"
+	        "latitude": "{{LATITUDE}}",
+	        "longitude": "{{LONGITUDE}}"
 	      },
 	      "openingHoursSpecification": [
 	        {
@@ -58,8 +58,8 @@
 	    },
 	    {
 	      "@type": "Service",
-	      "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-allahabad.aspx#service",
-	      "name": "Digital Marketing Company in Allahabad Prayagraj",
+	      "@id": "https://www.kingofdigitalmarketing.com/{{URL_PATH}}#service",
+	      "name": "{{SERVICE_NAME}} in {{CITY_NAME}}",
 	      "serviceType": "Digital Marketing & SEO Services",
 	      "provider": {
 	        "@type": "LocalBusiness",
@@ -67,7 +67,7 @@
 	      },
 	      "areaServed": {
 	        "@type": "City",
-	        "name": "Allahabad"
+	        "name": "{{CITY_NAME}}"
 	      },
 	      "hasOfferCatalog": {
 	        "@type": "OfferCatalog",
@@ -116,8 +116,8 @@
 	        {
 	          "@type": "ListItem",
 	          "position": 2,
-	          "name": "Digital Marketing Company in Allahabad",
-	          "item": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-allahabad.aspx"
+	          "name": "{{SERVICE_NAME}} in {{CITY_NAME}}",
+	          "item": "https://www.kingofdigitalmarketing.com/{{URL_PATH}}"
 	        }
 	      ]
 	    }
@@ -133,15 +133,15 @@
 	  "mainEntity": [
 	    {
 	      "@type": "Question",
-	      "name": "Why is King of Digital Marketing considered the best digital marketing company in Allahabad?",
+	      "name": "Why is King of Digital Marketing considered the best {{SERVICE_NAME}} in {{CITY_NAME}}?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
-	        "text": "With 13+ years of proven industry leadership, 900+ successful client campaigns, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across Allahabad and Prayagraj."
+	        "text": "With 13+ years of proven industry leadership, 900+ successful client campaigns, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across {{CITY_NAME}}."
 	      }
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "What digital marketing services do you provide in Allahabad (Prayagraj)?",
+	      "name": "What digital marketing services do you provide in {{CITY_NAME}}?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
 	        "text": "We provide 360-degree digital marketing solutions including Search Engine Optimization (SEO & Local Map Ranking), Google Ads / PPC Management, Social Media Marketing (Facebook & Instagram Meta Ads), Lead Generation Services, High-Converting Website Design & Development, Online Reputation Management (ORM), YouTube Video Promotion, and AI Marketing Automation."
@@ -149,7 +149,7 @@
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "How quickly can my Allahabad business start generating leads with digital marketing?",
+	      "name": "How quickly can my {{CITY_NAME}} business start generating leads with digital marketing?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
 	        "text": "With Google Ads and Meta Ads campaigns, qualified inbound inquiries and phone calls start flowing within 24 to 48 hours of campaign launch. For organic SEO and Google Map Pack rankings, sustainable top-tier page 1 results are typically established within 3 to 6 months."
@@ -157,23 +157,23 @@
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "Which local areas in Allahabad (Prayagraj) do you cover?",
+	      "name": "Which local areas in {{CITY_NAME}} do you cover?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
-	        "text": "We serve businesses across all major commercial and residential hubs in Prayagraj including Civil Lines, Katra, Georgetown, Ashok Nagar, Naini, Jhalwa, Phaphamau, Tagore Town, Mumfordganj, Lukerganj, Dhoomanganj, Chowk, Allapur, Kydganj, and surrounding districts of Eastern UP."
+	        "text": "We serve businesses across all major commercial, industrial, and residential hubs in {{CITY_NAME}} and surrounding regional districts."
 	      }
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "How does local SEO help coaching institutes, doctors, and retailers in Allahabad?",
+	      "name": "How does local SEO help coaching institutes, doctors, and retailers in {{CITY_NAME}}?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
-	        "text": "Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential students, patients, or shoppers search for 'best coaching in Allahabad', 'doctor near me in Prayagraj', or local services, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic."
+	        "text": "Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential customers search for services near them in {{CITY_NAME}}, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic."
 	      }
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "Do you offer customized packages for small businesses and startups in Prayagraj?",
+	      "name": "Do you offer customized packages for small businesses and startups in {{CITY_NAME}}?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
 	        "text": "Yes! We provide flexible, affordable digital marketing packages starting from basic local visibility plans to advanced multi-channel performance packages tailored to your budget and growth targets."
@@ -197,7 +197,7 @@
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "What is the difference between SEO and Google Ads (PPC) for my Allahabad business?",
+	      "name": "What is the difference between SEO and Google Ads (PPC) for my {{CITY_NAME}} business?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
 	        "text": "Google Ads (PPC) delivers instant top-of-page visibility and immediate inquiries from day one through paid advertising. SEO builds long-term organic authority and continuous free search traffic over time. A combination of both gives maximum market dominance."
@@ -221,7 +221,7 @@
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "What industries have you worked with in Allahabad?",
+	      "name": "What industries have you worked with in {{CITY_NAME}}?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
 	        "text": "We have executed successful campaigns across 150+ industry verticals including Education & Coaching, Healthcare & Hospitals, Real Estate, E-Commerce, Astrology, Hair Transplant, Study Abroad, Travel & Tourism, Manufacturing, and Professional Local Services."
@@ -229,7 +229,7 @@
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "How do you optimize Google My Business (GMB) for local Prayagraj searches?",
+	      "name": "How do you optimize Google My Business (GMB) for local {{CITY_NAME}} searches?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
 	        "text": "We optimize your GMB profile with verified business categories, geo-tagged photos, localized service descriptions, regular posts, review generation strategies, and accurate local NAP (Name, Address, Phone) citations."
@@ -237,18 +237,18 @@
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "How can Social Media Marketing (SMM) help grow my brand in Allahabad?",
+	      "name": "How can Social Media Marketing (SMM) help grow my brand in {{CITY_NAME}}?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
-	        "text": "Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in Prayagraj, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads."
+	        "text": "Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads."
 	      }
 	    },
 	    {
 	      "@type": "Question",
-	      "name": "How do I get started with King of Digital Marketing in Allahabad?",
+	      "name": "How do I get started with King of Digital Marketing in {{CITY_NAME}}?",
 	      "acceptedAnswer": {
 	        "@type": "Answer",
-	        "text": "You can request a free digital marketing growth strategy call and website audit by filling out our online form or contacting our team directly at +91-9555696058 or info@kingofdigitalmarketing.com."
+	        "text": "You can request a free digital marketing growth strategy call and website audit by filling out our online form or contacting our team directly at +919555696058 or info@kingofdigitalmarketing.com."
 	      }
 	    }
 	  ]
@@ -265,23 +265,23 @@
 				<ul>
 					<li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
 					<li class="breadcrumb-sep">/</li>
-					<li class="breadcrumb-current">Digital Marketing Company in Allahabad</li>
+					<li class="breadcrumb-current">{{SERVICE_NAME}} in {{CITY_NAME}}</li>
 				</ul>
 			</div>
 
 			<!-- Badge Tag -->
 			<span class="kdm-service-hero-badge">
-				<i class="fa fa-trophy"></i> #1 RATED DIGITAL MARKETING AGENCY IN ALLAHABAD &amp; PRAYAGRAJ
+				<i class="fa fa-trophy"></i> #1 RATED {{SERVICE_NAME_UPPER}} IN {{CITY_NAME_UPPER}}
 			</span>
 
 			<!-- Main H1 Title -->
 			<h1 class="kdm-service-hero-title">
-				Scale Your Business with Top <span class="kdm-gradient-highlight">Digital Marketing Company in Allahabad</span>
+				Scale Your Business with Top <span class="kdm-gradient-highlight">{{SERVICE_NAME}} in {{CITY_NAME}}</span>
 			</h1>
 
 			<!-- Subtitle Paragraph -->
 			<p class="kdm-service-hero-subtitle">
-				Dominate search rankings, capture high-converting leads, and accelerate revenue growth with proven <strong>Search Engine Optimization (SEO)</strong>, <strong>Google Ads (PPC)</strong>, <strong>Meta Ads (Facebook &amp; Instagram)</strong>, and <strong>AI-Powered Lead Generation</strong> tailored for businesses in Allahabad (Prayagraj).
+				Dominate search rankings, capture high-converting leads, and accelerate revenue growth with proven <strong>Search Engine Optimization (SEO)</strong>, <strong>Google Ads (PPC)</strong>, <strong>Meta Ads (Facebook &amp; Instagram)</strong>, and <strong>AI-Powered Lead Generation</strong> tailored for businesses in {{CITY_NAME}}.
 			</p>
 
 			<!-- Trust Stats Bar -->
@@ -320,28 +320,28 @@
 				<div class="col-md-12">
 					<div style="text-align: center; max-width: 920px; margin: 0 auto 35px auto;">
 						<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
-							<i class="fa fa-map-marker-alt"></i> TRUSTED AGENCY IN ALLAHABAD PRAYAGRAJ
+							<i class="fa fa-map-marker-alt"></i> TRUSTED AGENCY IN {{CITY_NAME_UPPER}}
 						</span>
 						<h2 style="font-size: 32px; font-weight: 900; color: #0f172a; margin-bottom: 15px; line-height: 1.3;">
-							Best Digital Marketing Company in <span style="color: #0284c7;">Allahabad Prayagraj</span>
+							Best {{SERVICE_NAME}} in <span style="color: #0284c7;">{{CITY_NAME}}</span>
 						</h2>
 					</div>
 					
 					<div style="font-size: 16px; color: #334155; line-height: 1.8; max-width: 1040px; margin: 0 auto;">
 						<p style="margin-bottom: 18px;">
-							If you are searching for the <strong>best digital marketing company in Allahabad Prayagraj</strong>, then <strong>King of Digital Marketing</strong> is the name you can trust. In today's online world, every small and big business needs strong digital marketing services to grow fast. King of Digital Marketing is known as the top digital marketing agency in Prayagraj that helps businesses reach more customers through the internet.
+							If you are searching for the <strong>best {{SERVICE_NAME}} in {{CITY_NAME}}</strong>, then <strong>King of Digital Marketing</strong> is the name you can trust. In today's online world, every small and big business needs strong digital marketing services to grow fast. King of Digital Marketing is known as the top digital marketing agency in {{CITY_NAME}} that helps businesses reach more customers through the internet.
 						</p>
 						<p style="margin-bottom: 18px;">
-							The company offers many services like <a href="SEO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">SEO services in Allahabad</a>, <a href="SMO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">social media marketing</a>, <a href="Website-Designing-Packages.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">website designing</a>, <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">Google Ads management</a>, content marketing, and local SEO for Prayagraj businesses. Whether you are a small shop owner, a coaching institute in Katra, a doctor in Civil Lines, a real estate agency in Georgetown, or a corporate enterprise, King of Digital Marketing has a customized solution for everyone.
+							The company offers many services like <a href="SEO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">SEO services in {{CITY_NAME}}</a>, <a href="SMO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">social media marketing</a>, <a href="Website-Designing-Packages.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">website designing</a>, <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">Google Ads management</a>, content marketing, and local SEO for {{CITY_NAME}} businesses. Whether you are a small shop owner, a coaching institute, a doctor, a real estate developer, or a corporate enterprise, King of Digital Marketing has a customized solution for everyone.
 						</p>
 						<p style="margin-bottom: 18px;">
-							One big reason people choose King of Digital Marketing is their easy and honest way of working. They explain everything in simple language, so even beginners can understand what is happening with their website and marketing campaigns. Many people search for terms like <em>"digital marketing agency near me"</em>, <em>"best SEO company in Prayagraj"</em>, <em>"website designing company in Allahabad"</em>, and <em>"social media marketing expert in Allahabad"</em>. King of Digital Marketing ranks well for all these searches, which shows their real skill and experience.
+							One big reason people choose King of Digital Marketing is their easy and honest way of working. They explain everything in simple language, so even beginners can understand what is happening with their website and marketing campaigns. Many people search for terms like <em>"digital marketing agency near me"</em>, <em>"best SEO company in {{CITY_NAME}}"</em>, <em>"website designing company in {{CITY_NAME}}"</em>, and <em>"social media marketing expert in {{CITY_NAME}}"</em>. King of Digital Marketing ranks well for all these searches, which shows their real skill and experience.
 						</p>
 						<p style="margin-bottom: 18px;">
-							Their team uses the latest tools and strategies to bring more traffic, leads, and sales for clients. They also focus on affordable digital marketing packages, so small businesses in Allahabad and Prayagraj can also grow online without spending too much money.
+							Their team uses the latest tools and strategies to bring more traffic, leads, and sales for clients. They also focus on affordable digital marketing packages, so small businesses and startups in {{CITY_NAME}} can also grow online without spending too much money.
 						</p>
 						<p style="margin-bottom: 0;">
-							Customer support is another strong point. The team stays in constant touch with clients, shares monthly transparent reports, and makes data-driven changes based on results. This honest and result-driven approach makes <strong>King of Digital Marketing</strong> the most trusted digital marketing company in Prayagraj. If you want your business to grow online, get more customers, and build a strong brand, King of Digital Marketing is the right choice for you in Allahabad Prayagraj.
+							Customer support is another strong point. The team stays in constant touch with clients, shares monthly transparent reports, and makes data-driven changes based on results. This honest and result-driven approach makes <strong>King of Digital Marketing</strong> the most trusted digital marketing company in {{CITY_NAME}}. If you want your business to grow online, get more customers, and build a strong brand, King of Digital Marketing is the right choice for you in {{CITY_NAME}}.
 						</p>
 					</div>
 
@@ -350,7 +350,7 @@
 						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
 							<div style="font-size: 24px; color: #0284c7; margin-bottom: 8px;"><i class="fa fa-chart-line"></i></div>
 							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Lead Generation</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-intent customer inquiries delivered daily in Prayagraj.</p>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-intent customer inquiries delivered daily.</p>
 						</div>
 						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
 							<div style="font-size: 24px; color: #10b981; margin-bottom: 8px;"><i class="fa fa-search"></i></div>
@@ -360,7 +360,7 @@
 						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
 							<div style="font-size: 24px; color: #8b5cf6; margin-bottom: 8px;"><i class="fa fa-bullhorn"></i></div>
 							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Meta &amp; Google Ads</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-ROI paid campaigns with immediate conversions.</p>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-ROI paid campaigns with immediate conversion.</p>
 						</div>
 						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
 							<div style="font-size: 24px; color: #f59e0b; margin-bottom: 8px;"><i class="fa fa-laptop-code"></i></div>
@@ -445,9 +445,9 @@
 		<div class="container">
 			<div class="empower-header text-center">
 				<span class="empower-badge"><i class="fa fa-star"></i> OUR CORE SPECIALIZATIONS</span>
-				<h2 class="empower-title">How Do We Empower You <span class="empower-title-gradient">Digitally in Allahabad</span></h2>
+				<h2 class="empower-title">How Do We Empower You <span class="empower-title-gradient">Digitally in {{CITY_NAME}}</span></h2>
 				<p class="empower-subtitle">
-					At <strong>King of Digital Marketing</strong>, we build high-performing digital ecosystems designed to dominate your market in Prayagraj. Driven by 13+ years of expertise, AI technology, and top strategist talent, explore our premier specialized services below.
+					At <strong>King of Digital Marketing</strong>, we build high-performing digital ecosystems designed to dominate your market in {{CITY_NAME}}. Driven by 13+ years of expertise, AI technology, and top strategist talent, explore our premier specialized services below.
 				</p>
 			</div>
 
@@ -466,7 +466,7 @@
 					</div>
 					<h3 class="empower-card-title"><a href="lead-generation-company.aspx">Lead Generation</a></h3>
 					<p class="empower-card-text">
-						Increase quality leads with targeted sales funnels in Prayagraj. We identify, engage, and convert high-intent prospects into loyal paying customers across paid &amp; organic channels.
+						Increase quality leads with targeted sales funnels in {{CITY_NAME}}. We identify, engage, and convert high-intent prospects into loyal paying customers across paid &amp; organic channels.
 					</p>
 					<a href="lead-generation-company.aspx" class="empower-card-btn btn-emerald">
 						Explore Service <i class="fa fa-arrow-right"></i>
@@ -488,7 +488,7 @@
 					</div>
 					<h3 class="empower-card-title"><a href="PPC-Services.aspx">Google Ads (PPC)</a></h3>
 					<p class="empower-card-text">
-						Rank on Page 1 of Google immediately. Stand out before active search buyers in Allahabad to capture maximum high-value sales inquiries with optimized ROI packages.
+						Rank on Page 1 of Google immediately. Stand out before active search buyers in {{CITY_NAME}} to capture maximum high-value sales inquiries with optimized ROI packages.
 					</p>
 					<a href="PPC-Services.aspx" class="empower-card-btn btn-blue">
 						Explore Service <i class="fa fa-arrow-right"></i>
@@ -508,7 +508,7 @@
 					</div>
 					<h3 class="empower-card-title"><a href="SEO-Services.aspx">SEO Services</a></h3>
 					<p class="empower-card-text">
-						Scale organic search engine rankings and compound long-term website traffic in Allahabad. Our technical &amp; content SEO experts audit, optimize, and build domain authority.
+						Scale organic search engine rankings and compound long-term website traffic in {{CITY_NAME}}. Our technical &amp; content SEO experts audit, optimize, and build domain authority.
 					</p>
 					<a href="SEO-Services.aspx" class="empower-card-btn btn-purple">
 						Explore Service <i class="fa fa-arrow-right"></i>
@@ -531,7 +531,7 @@
 					</div>
 					<h3 class="empower-card-title"><a href="SMO-Services.aspx">Social Media Marketing</a></h3>
 					<p class="empower-card-text">
-						Engage target audiences and build brand clout across social networks. Our Social Media Optimization strategies ensure your business in Prayagraj builds active, loyal followers.
+						Engage target audiences and build brand clout across social networks. Our Social Media Optimization strategies ensure your business in {{CITY_NAME}} builds active, loyal followers.
 					</p>
 					<a href="SMO-Services.aspx" class="empower-card-btn btn-pink">
 						Explore Service <i class="fa fa-arrow-right"></i>
@@ -581,14 +581,14 @@
 		</div>
 	</section>
 
-	<!-- ===== 5. WHY CHOOSE KING OF DIGITAL MARKETING IN ALLAHABAD (WHITE THEME) ===== -->
+	<!-- ===== 5. WHY CHOOSE KING OF DIGITAL MARKETING IN CITY (WHITE THEME) ===== -->
 	<section class="kdm-why-choose-section">
 		<div class="container">
 			<div class="kdm-why-choose-header">
 				<span class="kdm-seo-badge"><i class="fa fa-check-circle"></i> WHY WORK WITH US</span>
-				<h2>Why Choose King of Digital Marketing in <strong>Allahabad Prayagraj</strong>?</h2>
+				<h2>Why Choose King of Digital Marketing in <strong>{{CITY_NAME}}</strong>?</h2>
 				<p>
-					We don't just provide generic marketing services — we engineer customized growth engines that consistently generate qualified customer inquiries, top search rankings, and predictable revenue for your Prayagraj business.
+					We don't just provide generic marketing services — we engineer customized growth engines that consistently generate qualified customer inquiries, top search rankings, and predictable revenue for your {{CITY_NAME}} business.
 				</p>
 			</div>
 
@@ -613,8 +613,8 @@
 							<circle cx="12" cy="10" r="3"></circle>
 						</svg>
 					</div>
-					<h3>Tailored Local Prayagraj Strategy</h3>
-					<p>We craft hyper-localized campaigns targeting specific commercial zones like Civil Lines, Katra, Georgetown, and Naini to maximize local inbound inquiries.</p>
+					<h3>Tailored Local {{CITY_NAME}} Strategy</h3>
+					<p>We craft hyper-localized campaigns targeting specific commercial zones and consumer segments across {{CITY_NAME}} to maximize local inbound inquiries.</p>
 				</div>
 
 				<!-- Card 3 -->
@@ -637,7 +637,7 @@
 						</svg>
 					</div>
 					<h3>High-ROI &amp; Affordable Plans</h3>
-					<p>Transparent pricing and customized packages allow startups and established enterprises in Allahabad to achieve maximum marketing ROI within their budget.</p>
+					<p>Transparent pricing and customized packages allow startups and established enterprises in {{CITY_NAME}} to achieve maximum marketing ROI within their budget.</p>
 				</div>
 
 				<!-- Card 5 -->
@@ -679,7 +679,7 @@
 				<span class="kdm-seo-badge">PROVEN 9-STAGE FRAMEWORK</span>
 				<h2 class="kdm-seo-process-title">Our Service Work Process</h2>
 				<p class="kdm-seo-process-desc">
-					With over 13+ years of experience, our 9-stage data-driven marketing framework empowers businesses in Allahabad (Prayagraj) to dominate search engines, capture high-intent leads, and scale profitable revenue.
+					With over 13+ years of experience, our 9-stage data-driven marketing framework empowers businesses in {{CITY_NAME}} to dominate search engines, capture high-intent leads, and scale profitable revenue.
 				</p>
 			</div>
 
@@ -710,7 +710,7 @@
 						</svg>
 					</div>
 					<h3>2. Business &amp; Market Analysis</h3>
-					<p>Our strategists analyze your business model, buyer personas, sales funnels, and target customers in Prayagraj to align campaign goals directly with ROI.</p>
+					<p>Our strategists analyze your business model, buyer personas, sales funnels, and target customers in {{CITY_NAME}} to align campaign goals directly with ROI.</p>
 				</div>
 
 				<!-- Step 3 -->
@@ -734,7 +734,7 @@
 						</svg>
 					</div>
 					<h3>4. Competitor Strategy Audit</h3>
-					<p>We reverse-engineer top-ranking competitors in Allahabad, identifying keyword gaps, ad strategies, and backlink profiles to outrank them on SERPs.</p>
+					<p>We reverse-engineer top-ranking competitors in {{CITY_NAME}}, identifying keyword gaps, ad strategies, and backlink profiles to outrank them on SERPs.</p>
 				</div>
 
 				<!-- Step 5 -->
@@ -806,9 +806,9 @@
 		<div class="container">
 			<div class="clients-logos-header text-center">
 				<span class="clients-badge"><i class="fa fa-handshake-o"></i> PROVEN TRACK RECORD</span>
-				<h2 class="clients-title">Your Trust Made Us Top <span class="clients-title-gradient">Digital Marketing Company in Allahabad</span></h2>
+				<h2 class="clients-title">Your Trust Made Us Top <span class="clients-title-gradient">{{SERVICE_NAME}} in {{CITY_NAME}}</span></h2>
 				<p class="clients-subtitle">
-					Over the last 13+ years, <strong>900+ businesses</strong> across Allahabad, Uttar Pradesh, India, and global markets have trusted us to scale their digital growth, customer inquiries, and brand authority.
+					Over the last 13+ years, <strong>900+ businesses</strong> across {{CITY_NAME}}, India, and global markets have trusted us to scale their digital growth, customer inquiries, and brand authority.
 				</p>
 			</div>
 
@@ -834,7 +834,7 @@
 	<!-- ===== 8. MOST POPULAR INDUSTRIES WE SERVE (DARK THEME) ===== -->
 	<section class="industry-slider-section">
 		<div class="container">
-			<h2 class="industry-heading">Most Popular Industries <strong>We Work With in Allahabad</strong></h2>
+			<h2 class="industry-heading">Most Popular Industries <strong>We Work With in {{CITY_NAME}}</strong></h2>
 
 			<div class="industry-slider">
 				<div class="industry-track">
@@ -865,7 +865,7 @@
 							</div>
 							<div class="text-box">
 								<h3>Hair Transplant &amp; Clinics</h3>
-								<p>Delivered 50+ medical lead generation, SEO, and Google Ads campaigns with consistent patient bookings in Civil Lines.</p>
+								<p>Delivered 50+ medical lead generation, SEO, and Google Ads campaigns with consistent patient bookings.</p>
 							</div>
 						</div>
 					</div>
@@ -897,7 +897,7 @@
 							</div>
 							<div class="text-box">
 								<h3>Real Estate &amp; Builders</h3>
-								<p>Generated thousands of verified site-visit inquiries and high-ticket buyer leads for residential projects in Georgetown &amp; Naini.</p>
+								<p>Generated thousands of verified site-visit inquiries and high-ticket buyer leads for residential &amp; commercial projects.</p>
 							</div>
 						</div>
 					</div>
@@ -913,7 +913,7 @@
 							</div>
 							<div class="text-box">
 								<h3>Coaching &amp; Education</h3>
-								<p>Proven track record driving massive student admissions and counseling inquiries for top IAS, SSC &amp; NEET academies in Katra.</p>
+								<p>Proven track record driving massive student admissions and counseling inquiries for top coaching academies.</p>
 							</div>
 						</div>
 					</div>
@@ -930,7 +930,7 @@
 					<i class="fa fa-user-circle-o"></i> LEADERSHIP &amp; EXPERT TEAM
 				</span>
 				<h2 class="kdm-experts-title">
-					About the Experts <span>Behind Your Campaign in Allahabad</span>
+					About the Experts <span>Behind Your Campaign in {{CITY_NAME}}</span>
 				</h2>
 				<p class="kdm-experts-subtitle">
 					Your business growth is powered by seasoned marketing strategists, industry leaders, and certified technical analysts dedicated to delivering top Google rankings and maximum ROI.
@@ -989,7 +989,7 @@
 					<i class="fa fa-star"></i> CLIENT SUCCESS STORIES
 				</span>
 				<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin-bottom: 12px;">
-					What Our Clients Say in <span style="color: #0284c7;">Allahabad Prayagraj</span>
+					What Our Clients Say in <span style="color: #0284c7;">{{CITY_NAME}}</span>
 				</h2>
 				<p style="font-size: 15.5px; color: #64748b; max-width: 720px; margin: 0 auto;">
 					Hear from real business owners who transformed their customer pipeline and accelerated revenue growth with King of Digital Marketing.
@@ -1001,13 +1001,13 @@
 				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
 					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
 					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
-						"King of Digital Marketing completely turned around our student admissions in Katra. Within 60 days of launching our local SEO and Google Ads campaigns, our student inquiries surged by 300%. Gaurav Dubey and his team are true professionals."
+						"King of Digital Marketing completely turned around our student admissions. Within 60 days of launching our local SEO and Google Ads campaigns, our phone inquiries surged by 300%. Gaurav Dubey and his team are true professionals."
 					</p>
 					<div style="display: flex; align-items: center; gap: 12px;">
 						<div style="width: 44px; height: 44px; border-radius: 50%; background: #0284c7; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">AK</div>
 						<div>
 							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Anil Kumar</h4>
-							<span style="font-size: 12.5px; color: #64748b;">Director, Competitive Academy Katra</span>
+							<span style="font-size: 12.5px; color: #64748b;">Director, Competitive Academy</span>
 						</div>
 					</div>
 				</div>
@@ -1016,13 +1016,13 @@
 				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
 					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
 					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
-						"We were struggling to get consistent patient consultations for our multi-specialty clinic in Civil Lines. King of Digital Marketing optimized our Google Map listing and ran targeted local search ads. Now we get 15+ daily verified appointments!"
+						"We were struggling to get consistent patient consultations for our multi-specialty clinic. King of Digital Marketing optimized our Google Map listing and ran targeted local search ads. Now we get 15+ daily verified appointments!"
 					</p>
 					<div style="display: flex; align-items: center; gap: 12px;">
 						<div style="width: 44px; height: 44px; border-radius: 50%; background: #10b981; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">DS</div>
 						<div>
 							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Dr. S. K. Sharma</h4>
-							<span style="font-size: 12.5px; color: #64748b;">Senior Consultant, Civil Lines Clinic</span>
+							<span style="font-size: 12.5px; color: #64748b;">Senior Consultant, Healthcare Clinic</span>
 						</div>
 					</div>
 				</div>
@@ -1031,13 +1031,13 @@
 				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
 					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
 					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
-						"Honest pricing, clear monthly reports, and exceptional lead quality. They redesigned our website and took our organic rankings to page 1 for property development in Prayagraj. Highly recommended digital marketing agency!"
+						"Honest pricing, clear monthly reports, and exceptional lead quality. They redesigned our website and took our organic rankings to page 1 for our top commercial keywords. Highly recommended digital marketing agency!"
 					</p>
 					<div style="display: flex; align-items: center; gap: 12px;">
 						<div style="width: 44px; height: 44px; border-radius: 50%; background: #8b5cf6; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">RP</div>
 						<div>
 							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Rajesh Patel</h4>
-							<span style="font-size: 12.5px; color: #64748b;">Founder, Georgetown Real Estate</span>
+							<span style="font-size: 12.5px; color: #64748b;">Founder, Real Estate Ventures</span>
 						</div>
 					</div>
 				</div>
@@ -1053,26 +1053,26 @@
 				<div class="col-md-6">
 					<div class="kdm-faq-header-left">
 						<span class="kdm-faq-badge"><i class="fa fa-question-circle"></i> FREQUENTLY ASKED QUESTIONS</span>
-						<h2 class="kdm-faq-title">FAQs About <strong>Digital Marketing in Allahabad</strong></h2>
-						<p class="kdm-faq-subtitle">Everything you need to know about our proven digital marketing and SEO methodology in Prayagraj.</p>
+						<h2 class="kdm-faq-title">FAQs About <strong>{{SERVICE_NAME}} in {{CITY_NAME}}</strong></h2>
+						<p class="kdm-faq-subtitle">Everything you need to know about our proven digital marketing and SEO methodology.</p>
 					</div>
 
 					<div class="kdm-faq-accordion">
 						<!-- Q1 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.1. Why is King of Digital Marketing considered the best digital marketing company in Allahabad?</span>
+								<span class="kdm-faq-question">Q.1. Why is King of Digital Marketing considered the best {{SERVICE_NAME}} in {{CITY_NAME}}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of experience</strong>, <strong>900+ successful client campaigns</strong>, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across Allahabad and Prayagraj.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of experience</strong>, <strong>900+ successful client campaigns</strong>, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across {{CITY_NAME}}.</p>
 							</div>
 						</div>
 
 						<!-- Q2 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.2. What digital marketing services do you provide in Allahabad (Prayagraj)?</span>
+								<span class="kdm-faq-question">Q.2. What digital marketing services do you provide in {{CITY_NAME}}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1083,7 +1083,7 @@
 						<!-- Q3 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.3. How quickly can my Allahabad business start generating leads?</span>
+								<span class="kdm-faq-question">Q.3. How quickly can my {{CITY_NAME}} business start generating leads?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1094,29 +1094,29 @@
 						<!-- Q4 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.4. Which local areas in Allahabad (Prayagraj) do you cover?</span>
+								<span class="kdm-faq-question">Q.4. Which local areas in {{CITY_NAME}} do you cover?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We serve businesses across all major commercial and residential hubs in Prayagraj including Civil Lines, Katra, Georgetown, Ashok Nagar, Naini, Jhalwa, Phaphamau, Tagore Town, Mumfordganj, Lukerganj, Dhoomanganj, Chowk, Allapur, Kydganj, and surrounding districts of Eastern UP.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We serve businesses across all major commercial, industrial, and residential hubs in {{CITY_NAME}} and surrounding regional districts.</p>
 							</div>
 						</div>
 
 						<!-- Q5 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.5. How does local SEO help coaching institutes, doctors, and retailers in Allahabad?</span>
+								<span class="kdm-faq-question">Q.5. How does local SEO help coaching institutes, doctors, and retailers?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential students, patients, or shoppers search for 'best coaching in Allahabad', 'doctor near me in Prayagraj', or local services, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential customers search for services near them in {{CITY_NAME}}, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic.</p>
 							</div>
 						</div>
 
 						<!-- Q6 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.6. Do you offer customized packages for small businesses and startups in Prayagraj?</span>
+								<span class="kdm-faq-question">Q.6. Do you offer customized packages for small businesses and startups?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1149,7 +1149,7 @@
 						<!-- Q9 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.9. What is the difference between SEO and Google Ads (PPC) for my Allahabad business?</span>
+								<span class="kdm-faq-question">Q.9. What is the difference between SEO and Google Ads (PPC)?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1182,18 +1182,18 @@
 						<!-- Q12 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.12. What industries have you worked with in Allahabad?</span>
+								<span class="kdm-faq-question">Q.12. What industries have you worked with in {{CITY_NAME}}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have executed successful campaigns across 150+ industry verticals including Education &amp; Coaching in Katra, Healthcare &amp; Hospitals in Civil Lines, Real Estate in Georgetown, E-Commerce, Astrology, Hair Transplant, Study Abroad, Travel &amp; Tourism, Manufacturing, and Professional Local Services.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have executed successful campaigns across 150+ industry verticals including Education &amp; Coaching, Healthcare &amp; Hospitals, Real Estate, E-Commerce, Astrology, Hair Transplant, Study Abroad, Travel &amp; Tourism, Manufacturing, and Professional Local Services.</p>
 							</div>
 						</div>
 
 						<!-- Q13 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.13. How do you optimize Google My Business (GMB) for local Prayagraj searches?</span>
+								<span class="kdm-faq-question">Q.13. How do you optimize Google My Business (GMB) for local searches?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1204,18 +1204,18 @@
 						<!-- Q14 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.14. How can Social Media Marketing (SMM) help grow my brand in Prayagraj?</span>
+								<span class="kdm-faq-question">Q.14. How can Social Media Marketing (SMM) help grow my brand?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in Prayagraj, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in {{CITY_NAME}}, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads.</p>
 							</div>
 						</div>
 
 						<!-- Q15 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.15. How do I get started with King of Digital Marketing in Allahabad?</span>
+								<span class="kdm-faq-question">Q.15. How do I get started with King of Digital Marketing in {{CITY_NAME}}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1227,7 +1227,7 @@
 
 				<!-- 3 High-Converting Dark Theme Grand Offers -->
 				<div class="col-md-6">
-					<h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups &amp; Businesses in Allahabad</strong></h2>
+					<h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups &amp; Businesses in {{CITY_NAME}}</strong></h2>
 
 					<div class="kdm-offer-dark-list">
 						<!-- Offer 1 -->
@@ -1249,7 +1249,7 @@
 								<h4>Startup Digital Booster Offer</h4>
 								<p class="kdm-offer-dark-value">Get 10% OFF</p>
 								<h5 class="kdm-offer-dark-sub">On Quarterly Marketing &amp; SEO Package</h5>
-								<h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF plus free audit in Prayagraj!</h5>
+								<h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF plus free audit!</h5>
 							</div>
 						</div>
 
@@ -1274,7 +1274,7 @@
 								<h4>Growth Marketing Plan Offer</h4>
 								<p class="kdm-offer-dark-value">Get 15% OFF</p>
 								<h5 class="kdm-offer-dark-sub">On 6-Months Multi-Channel Package</h5>
-								<h5 class="kdm-offer-dark-desc">Lock in long-term organic growth and scale customer acquisition in Allahabad!</h5>
+								<h5 class="kdm-offer-dark-desc">Lock in long-term organic growth and scale customer acquisition!</h5>
 							</div>
 						</div>
 
@@ -1296,7 +1296,7 @@
 								<h4>Premium Market Dominance Offer</h4>
 								<p class="kdm-offer-dark-value">Get 20% OFF</p>
 								<h5 class="kdm-offer-dark-sub">On 12-Month Annual Growth Package</h5>
-								<h5 class="kdm-offer-dark-desc">Dominate Prayagraj search results all year long while saving BIG!</h5>
+								<h5 class="kdm-offer-dark-desc">Dominate {{CITY_NAME}} search results all year long while saving BIG!</h5>
 							</div>
 						</div>
 					</div>
