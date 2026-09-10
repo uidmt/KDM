@@ -772,51 +772,177 @@
 				margin: 0;
 			}
 
-			/* 5. About & Timeline Section */
+			/* 5. Dark Theme About Gaurav Dubey Section */
+			.gd-about-dark-section {
+				background: radial-gradient(circle at 10% 20%, rgba(6, 182, 212, 0.18) 0%, transparent 45%),
+							radial-gradient(circle at 90% 70%, rgba(139, 92, 246, 0.2) 0%, transparent 50%),
+							linear-gradient(135deg, #090e1a 0%, #0d1b2e 50%, #0f172a 100%);
+				color: #ffffff;
+				padding: 75px 0;
+				position: relative;
+				overflow: hidden;
+				border-top: 1px solid rgba(56, 189, 248, 0.2);
+				border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+				isolation: isolate;
+				transform: translateZ(0);
+			}
+
+			.gd-about-badge {
+				display: inline-flex;
+				align-items: center;
+				gap: 8px;
+				background: rgba(15, 23, 42, 0.8);
+				border: 1px solid rgba(56, 189, 248, 0.4);
+				color: #38bdf8;
+				font-size: 13px;
+				font-weight: 800;
+				padding: 6px 18px;
+				border-radius: 30px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				margin-bottom: 12px;
+				box-shadow: 0 4px 15px rgba(6, 182, 212, 0.2);
+			}
+
+			.gd-about-dark-title {
+				font-size: 34px;
+				font-weight: 900;
+				color: #ffffff;
+				margin-top: 4px;
+				margin-bottom: 16px;
+				line-height: 1.25;
+				letter-spacing: -0.5px;
+			}
+
+			.gd-about-dark-desc {
+				font-size: 15.5px;
+				color: #cbd5e1;
+				line-height: 1.7;
+				margin-bottom: 24px;
+			}
+
+			.gd-about-photo-wrap {
+				position: relative;
+				display: inline-block;
+				max-width: 100%;
+			}
+
+			.gd-about-photo-glow {
+				position: absolute;
+				inset: -6px;
+				background: radial-gradient(circle, rgba(6, 182, 212, 0.4) 0%, rgba(139, 92, 246, 0.35) 60%, transparent 80%);
+				border-radius: 26px;
+				filter: blur(16px);
+				z-index: 1;
+				pointer-events: none;
+			}
+
+			.gd-about-photo-card {
+				position: relative;
+				z-index: 2;
+				background: rgba(15, 23, 42, 0.7);
+				border: 2px solid rgba(56, 189, 248, 0.35);
+				border-radius: 22px;
+				padding: 8px;
+				box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);
+				transition: transform 0.3s ease, border-color 0.3s ease;
+			}
+
+			.gd-about-photo-card:hover {
+				transform: translateY(-4px);
+				border-color: rgba(56, 189, 248, 0.6);
+			}
+
+			.gd-about-photo-card img {
+				width: 100%;
+				max-width: 100%;
+				border-radius: 16px;
+				object-fit: cover;
+				max-height: 480px;
+				display: block;
+			}
+
+			.gd-about-name-pill {
+				background: linear-gradient(135deg, #0284c7 0%, #0088cc 50%, #2563eb 100%);
+				color: #ffffff;
+				padding: 12px 20px;
+				border-radius: 12px;
+				font-weight: 800;
+				font-size: 14.5px;
+				margin-top: -24px;
+				position: relative;
+				z-index: 3;
+				box-shadow: 0 8px 24px rgba(2, 132, 199, 0.45);
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				display: inline-block;
+			}
+
+			/* Dark Timeline */
 			.gd-timeline {
 				position: relative;
-				padding-left: 30px;
-				border-left: 3px solid #0088cc;
-				margin-top: 20px;
+				padding-left: 28px;
+				border-left: 2px solid rgba(56, 189, 248, 0.35);
+				margin-top: 22px;
 			}
 
 			.gd-timeline-item {
 				position: relative;
-				margin-bottom: 22px;
+				margin-bottom: 16px;
+			}
+
+			.gd-timeline-item:last-child {
+				margin-bottom: 0;
 			}
 
 			.gd-timeline-item::before {
 				content: '';
 				position: absolute;
-				left: -37px;
-				top: 3px;
-				width: 14px;
-				height: 14px;
+				left: -35px;
+				top: 14px;
+				width: 12px;
+				height: 12px;
 				border-radius: 50%;
-				background: #0088cc;
-				border: 3px solid #ffffff;
-				box-shadow: 0 0 0 2px #0088cc;
+				background: #38bdf8;
+				border: 2px solid #0f172a;
+				box-shadow: 0 0 0 2px #38bdf8, 0 0 10px #38bdf8;
+			}
+
+			.gd-timeline-card {
+				background: rgba(255, 255, 255, 0.05);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				border-radius: 12px;
+				padding: 12px 18px;
+				transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+			}
+
+			.gd-timeline-card:hover {
+				background: rgba(255, 255, 255, 0.09);
+				border-color: rgba(56, 189, 248, 0.4);
+				transform: translateX(4px);
 			}
 
 			.gd-timeline-year {
 				font-size: 13px;
 				font-weight: 800;
-				color: #0088cc;
+				color: #38bdf8;
 				text-transform: uppercase;
 				letter-spacing: 1px;
+				display: inline-block;
+				margin-bottom: 2px;
 			}
 
 			.gd-timeline-title {
 				font-size: 16px;
-				font-weight: 700;
-				color: #0f172a;
+				font-weight: 750;
+				color: #ffffff;
 				margin: 2px 0 4px 0;
 			}
 
 			.gd-timeline-desc {
-				font-size: 14px;
-				color: #64748b;
+				font-size: 13.5px;
+				color: #94a3b8;
 				margin: 0;
+				line-height: 1.55;
 			}
 
 			/* 6. Services Grid (12 Cards) */
@@ -1480,20 +1606,22 @@
 				</div>
 			</section>
 
-			<!-- 5. ABOUT SECTION (Two Column Layout + Timeline) -->
-			<section style="padding: 60px 0; background: #ffffff;">
+			<!-- 5. ABOUT SECTION (Two Column Dark Theme Layout + Timeline) -->
+			<section class="gd-about-dark-section">
 				<div class="container">
 					<div class="row" style="display: flex; flex-wrap: wrap; align-items: center;">
-						<div class="col-md-5 text-center">
-							<div style="position: relative; display: inline-block;">
-								<img src="images/Gaurav Dubey Digital Marketing trainer.webp"
-									alt="Gaurav Dubey Digital Marketing Trainer"
-									style="max-width: 100%; border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.15); object-fit: cover; max-height: 480px;">
-								<div
-									style="background: #0088cc; color: #ffffff; padding: 12px 20px; border-radius: 10px; font-weight: 700; margin-top: -25px; position: relative; z-index: 2; box-shadow: 0 6px 20px rgba(0,88,204,0.3);">
+						<!-- Left Column: Trainer Photo & Socials -->
+						<div class="col-md-5 text-center mb-5 mb-md-0">
+							<div class="gd-about-photo-wrap">
+								<div class="gd-about-photo-glow"></div>
+								<div class="gd-about-photo-card">
+									<img src="images/gaurav-dubey/Gaurav-Dubey-Digital-Marketing-consultant-trainer.webp"
+										alt="Gaurav Dubey Digital Marketing Consultant &amp; Trainer" loading="lazy">
+								</div>
+								<div class="gd-about-name-pill">
 									Gaurav Dubey &mdash; Digital Marketing Trainer &amp; Consultant
 								</div>
-								<div class="gd-about-social">
+								<div class="gd-about-social" style="margin-top: 20px;">
 									<a href="https://www.facebook.com/gauravdubey.in/" target="_blank" class="gd-social-icon gd-social-fb" title="Facebook">
 										<svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
 									</a>
@@ -1513,52 +1641,54 @@
 							</div>
 						</div>
 
+						<!-- Right Column: Strategic Growth Copy & Dark Timeline -->
 						<div class="col-md-7">
-							<span
-								style="color: #0088cc; font-weight: 800; text-transform: uppercase; font-size: 13px; letter-spacing: 1px;">ABOUT
-								GAURAV DUBEY</span>
-							<h2
-								style="font-size: 32px; font-weight: 800; color: #0f172a; margin-top: 5px; margin-bottom: 16px;">
-								Strategic Growth Partner for Ambitious Brands
+							<span class="gd-about-badge">
+								<i class="fa fa-user-check"></i> ABOUT GAURAV DUBEY
+							</span>
+							<h2 class="gd-about-dark-title">
+								Strategic Growth Partner for <span class="gd-vibrant-name-grad">Ambitious Brands</span>
 							</h2>
-							<p style="font-size: 15px; color: #475569; line-height: 1.7; margin-bottom: 20px;">
-								Gaurav Dubey is a digital marketing strategist, agency founder, and performance
-								marketing consultant. With over 13 years of field experience, Gaurav bridges technical
-								search engine optimization with high-conversion creative strategies to help brands build
-								sustainable market dominance.
+							<p class="gd-about-dark-desc">
+								Gaurav Dubey is a digital marketing strategist, agency founder, and performance marketing consultant. With over 13 years of field experience, Gaurav bridges technical search engine optimization with high-conversion creative strategies to help brands build sustainable market dominance.
 							</p>
 
-							<!-- Timeline -->
+							<!-- Dark Interactive Timeline -->
 							<div class="gd-timeline">
 								<div class="gd-timeline-item">
-									<div class="gd-timeline-year">2013</div>
-									<div class="gd-timeline-title">Started Freelancing</div>
-									<p class="gd-timeline-desc">Began delivering SEO and Google AdWords services to
-										early clients in Delhi NCR.</p>
+									<div class="gd-timeline-card">
+										<span class="gd-timeline-year">2013</span>
+										<div class="gd-timeline-title">Started Freelancing</div>
+										<p class="gd-timeline-desc">Began delivering SEO and Google AdWords services to early clients in Delhi NCR.</p>
+									</div>
 								</div>
 								<div class="gd-timeline-item">
-									<div class="gd-timeline-year">2014</div>
-									<div class="gd-timeline-title">Founded King of Digital Marketing</div>
-									<p class="gd-timeline-desc">Established King of Digital Marketing as a full-service
-										agency team serving domestic and international clients.</p>
+									<div class="gd-timeline-card">
+										<span class="gd-timeline-year">2014</span>
+										<div class="gd-timeline-title">Founded King of Digital Marketing</div>
+										<p class="gd-timeline-desc">Established King of Digital Marketing as a full-service agency team serving domestic and international clients.</p>
+									</div>
 								</div>
 								<div class="gd-timeline-item">
-									<div class="gd-timeline-year">2018</div>
-									<div class="gd-timeline-title">Founded Devweboic Pvt. Ltd.</div>
-									<p class="gd-timeline-desc">Launched custom web development and enterprise software
-										solutions vertical.</p>
+									<div class="gd-timeline-card">
+										<span class="gd-timeline-year">2018</span>
+										<div class="gd-timeline-title">Founded Devweboic Pvt. Ltd.</div>
+										<p class="gd-timeline-desc">Launched custom web development and enterprise software solutions vertical.</p>
+									</div>
 								</div>
 								<div class="gd-timeline-item">
-									<div class="gd-timeline-year">2024</div>
-									<div class="gd-timeline-title">Built UIDMT</div>
-									<p class="gd-timeline-desc">Created the UpNext Institute of Digital Marketing
-										and Technology to educate the next generation of marketers.</p>
+									<div class="gd-timeline-card">
+										<span class="gd-timeline-year">2024</span>
+										<div class="gd-timeline-title">Built UIDMT</div>
+										<p class="gd-timeline-desc">Created the UpNext Institute of Digital Marketing and Technology to educate the next generation of marketers.</p>
+									</div>
 								</div>
 								<div class="gd-timeline-item">
-									<div class="gd-timeline-year">2026</div>
-									<div class="gd-timeline-title">Worked Across 15+ Countries</div>
-									<p class="gd-timeline-desc">Expanded consulting footprint across USA, UK, UAE,
-										Australia, Singapore, and Europe.</p>
+									<div class="gd-timeline-card">
+										<span class="gd-timeline-year">2026</span>
+										<div class="gd-timeline-title">Worked Across 15+ Countries</div>
+										<p class="gd-timeline-desc">Expanded consulting footprint across USA, UK, UAE, Australia, Singapore, and Europe.</p>
+									</div>
 								</div>
 							</div>
 						</div>
