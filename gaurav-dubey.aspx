@@ -213,7 +213,7 @@
 				}
 			}
 
-			/* 2. Vibrant Hero Section */
+			/* 2. Vibrant Hero Section - Scroll-Stable & GPU-Optimized */
 			.gd-hero {
 				background: radial-gradient(circle at 15% 25%, rgba(6, 182, 212, 0.28) 0%, transparent 45%),
 							radial-gradient(circle at 85% 30%, rgba(99, 102, 241, 0.35) 0%, transparent 50%),
@@ -225,6 +225,9 @@
 				overflow: hidden;
 				border-radius: 0 0 28px 28px;
 				border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+				isolation: isolate;
+				transform: translateZ(0);
+				backface-visibility: hidden;
 			}
 
 			.gd-hero-grid-pattern {
@@ -235,15 +238,15 @@
 				background-size: 40px 40px;
 				pointer-events: none;
 				opacity: 0.6;
+				transform: translateZ(0);
 			}
 
 			.gd-blob {
 				position: absolute;
 				border-radius: 50%;
-				filter: blur(70px);
-				opacity: 0.35;
-				animation: floatBlob 8s ease-in-out infinite;
+				filter: blur(60px);
 				pointer-events: none;
+				transform: translateZ(0);
 			}
 
 			.gd-blob-1 {
@@ -251,7 +254,7 @@
 				left: -40px;
 				width: 320px;
 				height: 320px;
-				background: #06b6d4;
+				background: rgba(6, 182, 212, 0.25);
 			}
 
 			.gd-blob-2 {
@@ -259,8 +262,7 @@
 				right: -50px;
 				width: 380px;
 				height: 380px;
-				background: #8b5cf6;
-				animation-delay: -4s;
+				background: rgba(139, 92, 246, 0.25);
 			}
 
 			.gd-blob-3 {
@@ -268,15 +270,13 @@
 				left: 50%;
 				width: 260px;
 				height: 260px;
-				background: #ec4899;
-				animation-delay: -2s;
-				opacity: 0.2;
+				background: rgba(236, 72, 153, 0.15);
 			}
 
 			.gd-floating-icon {
 				position: absolute;
 				background: rgba(255, 255, 255, 0.08);
-				backdrop-filter: blur(10px);
+				backdrop-filter: blur(8px);
 				border: 1px solid rgba(255, 255, 255, 0.18);
 				color: #38bdf8;
 				width: 46px;
@@ -287,13 +287,18 @@
 				justify-content: center;
 				font-size: 19px;
 				box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-				animation: floatIcon 6s ease-in-out infinite;
+				transition: transform 0.3s ease;
+				transform: translateZ(0);
 			}
 
-			.gd-fi-1 { top: 12%; left: 6%; animation-delay: 0s; }
-			.gd-fi-2 { top: 68%; left: 3%; animation-delay: -2s; color: #818cf8; }
-			.gd-fi-3 { top: 18%; right: 4%; animation-delay: -1s; color: #f472b6; }
-			.gd-fi-4 { top: 72%; right: 6%; animation-delay: -3s; color: #34d399; }
+			.gd-floating-icon:hover {
+				transform: translateY(-4px) scale(1.08);
+			}
+
+			.gd-fi-1 { top: 12%; left: 6%; color: #38bdf8; }
+			.gd-fi-2 { top: 68%; left: 3%; color: #818cf8; }
+			.gd-fi-3 { top: 18%; right: 4%; color: #f472b6; }
+			.gd-fi-4 { top: 72%; right: 6%; color: #34d399; }
 
 			.gd-hero-badge {
 				display: inline-flex;
@@ -325,13 +330,7 @@
 				background: #10b981;
 				border-radius: 50%;
 				box-shadow: 0 0 10px #10b981;
-				animation: livePulse 1.8s infinite;
-			}
-
-			@keyframes livePulse {
-				0% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-				70% { transform: scale(1.1); opacity: 1; box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
-				100% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+				display: inline-block;
 			}
 
 			.gd-hero h1 {
@@ -390,15 +389,15 @@
 			}
 
 			.gd-vibrant-stat-card {
-				background: rgba(255, 255, 255, 0.05);
-				border: 1px solid rgba(255, 255, 255, 0.12);
-				backdrop-filter: blur(10px);
+				background: rgba(255, 255, 255, 0.06);
+				border: 1px solid rgba(255, 255, 255, 0.14);
 				padding: 12px 14px;
 				border-radius: 14px;
 				text-align: left;
-				transition: all 0.3s ease;
+				transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 				position: relative;
 				overflow: hidden;
+				transform: translateZ(0);
 			}
 
 			.gd-vibrant-stat-card::before {
@@ -415,9 +414,9 @@
 
 			.gd-vibrant-stat-card:hover {
 				transform: translateY(-4px);
-				background: rgba(255, 255, 255, 0.09);
-				border-color: rgba(56, 189, 248, 0.4);
-				box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
+				background: rgba(255, 255, 255, 0.1);
+				border-color: rgba(56, 189, 248, 0.5);
+				box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
 			}
 
 			.gd-vibrant-stat-card:hover::before {
@@ -470,7 +469,7 @@
 				text-decoration: none !important;
 				box-shadow: 0 8px 25px rgba(2, 132, 199, 0.45);
 				border: 1px solid rgba(255, 255, 255, 0.25);
-				transition: all 0.3s ease;
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
 				position: relative;
 				overflow: hidden;
 			}
@@ -494,7 +493,7 @@
 				text-decoration: none !important;
 				box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
 				border: 1px solid rgba(255, 255, 255, 0.25);
-				transition: all 0.3s ease;
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
 			}
 
 			.gd-btn-vibrant-whatsapp:hover {
@@ -529,38 +528,35 @@
 				padding: 14px;
 				max-width: 440px;
 				margin: 0 auto;
+				transform: translateZ(0);
 			}
 
 			.gd-hero-glow-halo {
 				position: absolute;
 				inset: -8px;
-				background: conic-gradient(from 180deg at 50% 50%, #06b6d4, #3b82f6, #8b5cf6, #ec4899, #06b6d4);
+				background: radial-gradient(circle, rgba(6, 182, 212, 0.45) 0%, rgba(139, 92, 246, 0.4) 45%, rgba(236, 72, 153, 0.3) 70%, transparent 85%);
 				border-radius: 36px;
-				filter: blur(22px);
-				opacity: 0.65;
-				animation: spinGlow 14s linear infinite;
+				filter: blur(18px);
+				opacity: 0.85;
 				z-index: 1;
-			}
-
-			@keyframes spinGlow {
-				0% { transform: rotate(0deg); }
-				100% { transform: rotate(360deg); }
+				pointer-events: none;
+				transform: translateZ(0);
 			}
 
 			.gd-hero-frame-card {
 				position: relative;
 				z-index: 2;
-				background: rgba(15, 23, 42, 0.6);
-				backdrop-filter: blur(14px);
+				background: rgba(15, 23, 42, 0.7);
 				border: 2px solid rgba(255, 255, 255, 0.2);
 				border-radius: 28px;
 				padding: 10px;
 				box-shadow: 0 24px 50px rgba(0, 0, 0, 0.5);
-				transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+				transition: transform 0.3s ease, border-color 0.3s ease;
+				transform: translateZ(0);
 			}
 
 			.gd-hero-frame-card:hover {
-				transform: translateY(-4px) scale(1.01);
+				transform: translateY(-4px);
 				border-color: rgba(56, 189, 248, 0.5);
 			}
 
@@ -577,36 +573,34 @@
 			.gd-float-chip {
 				position: absolute;
 				z-index: 4;
-				background: rgba(15, 23, 42, 0.88);
-				backdrop-filter: blur(12px);
+				background: rgba(15, 23, 42, 0.92);
 				border: 1px solid rgba(255, 255, 255, 0.2);
 				border-radius: 16px;
 				padding: 10px 14px;
 				display: flex;
 				align-items: center;
 				gap: 10px;
-				box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
-				animation: chipFloat 5s ease-in-out infinite;
+				box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
 				text-align: left;
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+				transform: translateZ(0);
 			}
 
-			@keyframes chipFloat {
-				0%, 100% { transform: translateY(0px); }
-				50% { transform: translateY(-8px); }
+			.gd-float-chip:hover {
+				transform: translateY(-3px) scale(1.02);
+				box-shadow: 0 16px 32px rgba(0, 0, 0, 0.55);
 			}
 
 			.gd-chip-top-left {
 				top: 25px;
 				left: -20px;
 				border-color: rgba(245, 158, 11, 0.5);
-				animation-delay: 0s;
 			}
 
 			.gd-chip-bottom-right {
 				bottom: 30px;
 				right: -20px;
 				border-color: rgba(56, 189, 248, 0.5);
-				animation-delay: -2.5s;
 			}
 
 			.gd-chip-icon {
@@ -667,6 +661,8 @@
 				display: flex;
 				width: 200%;
 				animation: marqueeScroll 25s linear infinite;
+				transform: translateZ(0);
+				will-change: transform;
 			}
 
 			.gd-marquee-track:hover {
