@@ -1563,23 +1563,31 @@ def generate_page(config):
 		</div>
 	</section>
 
-	<!-- ===== 3. CREDENTIALS & MILESTONE COUNTERS (WHITE THEME WITH INTERSECTION ANIMATION) ===== -->
-	<section class="kdm-credentials-section">
+	<!-- ===== 3. CREDENTIALS SECTION (5 SEPARATE DARK BOXES IN 1 ROW WITH SVGs FROM DEFAULT.ASPX) ===== -->
+	<section class="kdm-credentials-white-section">
 		<div class="container">
-			<div class="kdm-credentials-grid">
-				<!-- Box 1: 13+ Years Experience -->
+			<div class="kdm-credentials-header">
+				<div class="kdm-credentials-badge">
+					<i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
+				</div>
+				<h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+				<p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
+			</div>
+
+			<div class="kdm-credentials-5grid counters dark counters-row">
+				<!-- Box 1: 13+ Years of Experience -->
 				<div class="kdm-credentials-box">
 					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<circle cx="12" cy="8" r="7"></circle>
-							<polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+							<circle cx="12" cy="12" r="10"></circle>
+							<polyline points="12 6 12 12 16 14"></polyline>
 						</svg>
 					</div>
 					<strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
-					<label class="kdm-cred-label">Years of Industry Experience</label>
+					<label class="kdm-cred-label">Years of Experience</label>
 				</div>
 
-				<!-- Box 2: 900+ Completed Projects -->
+				<!-- Box 2: 900+ Projects Completed -->
 				<div class="kdm-credentials-box">
 					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -2076,62 +2084,162 @@ def generate_page(config):
 		</div>
 	</section>
 
-	<!-- ===== 10. WHAT OUR CLIENTS SAY (BRIGHT VISIBLE TEXT ON DARK LUXURY THEME) ===== -->
+	<!-- ===== 10. WHAT OUR CLIENTS SAY (VIBRANT TESTIMONIALS SLIDER AS IN SEO-PACKAGES.ASPX) ===== -->
 	<section class="kdm-testimonial-section">
 		<div class="container">
 			<div class="kdm-testimonial-header">
-				<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> CLIENT SUCCESS STORIES</span>
-				<h2 class="kdm-testimonial-title">What Our Clients Say in <span>{city_name}</span></h2>
-				<p class="kdm-testimonial-subtitle">
-					Hear from real business owners who transformed their customer pipeline and accelerated revenue growth with King of Digital Marketing.
-				</p>
+				<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> CLIENT TESTIMONIALS</span>
+				<h2 class="kdm-testimonial-title">What Our Global Clients <strong>Say About Our Results in {city_name}</strong></h2>
+				<p class="kdm-testimonial-subtitle">Real feedback from founders and business owners who achieved Google #1 rankings, top inquiries, and accelerated growth with King of Digital Marketing.</p>
 			</div>
 
-			<div class="kdm-testimonial-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; position: relative; z-index: 2;">
-				<!-- Review 1 -->
-				<div class="kdm-testimonial-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 18px; padding: 28px; backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0,0,0,0.35);">
-					<div style="color: #fbbf24; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
-					<p style="font-size: 15px; color: #e2e8f0; line-height: 1.7; margin-bottom: 20px;">
-						"King of Digital Marketing completely turned around our customer inquiries in {city_name}. Within 60 days of launching our campaigns, our inquiries surged by 300%. Gaurav Dubey and his team are true professionals."
-					</p>
-					<div style="display: flex; align-items: center; gap: 12px;">
-						<div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #0284c7, #38bdf8); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">AK</div>
-						<div>
-							<h4 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0;">Anil Kumar</h4>
-							<span style="font-size: 12.5px; color: #94a3b8;">Managing Director, {city_name} Enterprises</span>
+			<div class="kdm-testimonial-wrapper">
+				<div class="kdm-testimonial-slides">
+
+					<!-- Slide 1: Aji Jeeva -->
+					<div class="kdm-testimonial-card active">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"I hired King of Digital Marketing for marketing and SEO services, and I am really happy with the results in {city_name}. My website is now ranking on the first page of Google. Gaurav Dubey and his team were always available to guide me and answer my doubts."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-1">AJ</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Aji Jeeva</h4>
+								<span class="kdm-testimonial-role">Founder — smgains.com (UK)</span>
+							</div>
 						</div>
 					</div>
+
+					<!-- Slide 2: Roopak -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"King of Digital Marketing helped increase our website traffic and customer inquiries in {city_name}. They kept everything clear and gave regular updates. Thanks to Gaurav Dubey and his hardworking team, our business is getting more leads from Google now."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-2">R</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Roopak</h4>
+								<span class="kdm-testimonial-role">Founder — gotouniversity.com (Dubai)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 3: Younus -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"I didn't know much about SEO before, but the team at King of Digital Marketing explained things in a simple way. They helped improve our website ranking in {city_name} and gave monthly reports. Gaurav Dubey made sure the work was always on track."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-3">Y</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Younus</h4>
+								<span class="kdm-testimonial-role">Founder — moroccotourismagency.com (Morocco)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 4: Kejsi -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"It's been a great experience working with King of Digital Marketing. They helped our business show up on the first page of Google and generate verified client appointments in {city_name}. Highly professional and result-driven team!"
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-4">K</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Kejsi</h4>
+								<span class="kdm-testimonial-role">Founder — herahairsolutions.com (Turkey)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 5: David -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"Gaurav Dubey and his team at King of Digital Marketing worked hard on our marketing campaigns. Within a few months, we started seeing a huge rise in qualified traffic, inquiries, and conversions. They deliver what they promise."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-5">D</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">David</h4>
+								<span class="kdm-testimonial-role">Founder — audiocityusa.com (USA)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 6: Dr. Sanjay -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"After hiring King of Digital Marketing, we noticed real improvement in client appointments and organic search rankings in {city_name}. Their team is experienced, proactive, and friendly. Gaurav Dubey personally ensured the project was handled with care."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-6">DS</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Dr. Sanjay</h4>
+								<span class="kdm-testimonial-role">Founder — cocoona.in (Dubai)</span>
+							</div>
+						</div>
+					</div>
+
 				</div>
 
-				<!-- Review 2 -->
-				<div class="kdm-testimonial-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 18px; padding: 28px; backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0,0,0,0.35);">
-					<div style="color: #fbbf24; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
-					<p style="font-size: 15px; color: #e2e8f0; line-height: 1.7; margin-bottom: 20px;">
-						"We were struggling to get consistent client consultations for our clinic in {city_name}. King of Digital Marketing optimized our Google Map listing and ran targeted local search ads. Now we get 15+ daily verified appointments!"
-					</p>
-					<div style="display: flex; align-items: center; gap: 12px;">
-						<div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #10b981, #34d399); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">DS</div>
-						<div>
-							<h4 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0;">Dr. S. K. Sharma</h4>
-							<span style="font-size: 12.5px; color: #94a3b8;">Senior Consultant, {city_name} Clinic</span>
-						</div>
-					</div>
-				</div>
+				<!-- Navigation Arrows -->
+				<button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+					<i class="fa fa-chevron-left"></i>
+				</button>
+				<button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+					<i class="fa fa-chevron-right"></i>
+				</button>
 
-				<!-- Review 3 -->
-				<div class="kdm-testimonial-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 18px; padding: 28px; backdrop-filter: blur(8px); box-shadow: 0 10px 30px rgba(0,0,0,0.35);">
-					<div style="color: #fbbf24; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
-					<p style="font-size: 15px; color: #e2e8f0; line-height: 1.7; margin-bottom: 20px;">
-						"Honest pricing, clear monthly reports, and exceptional lead quality. They redesigned our website and took our organic rankings to page 1 for our top commercial keywords in {city_name}. Highly recommended agency!"
-					</p>
-					<div style="display: flex; align-items: center; gap: 12px;">
-						<div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #8b5cf6, #a78bfa); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">RP</div>
-						<div>
-							<h4 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0;">Rajesh Patel</h4>
-							<span style="font-size: 12.5px; color: #94a3b8;">Founder, {city_name} Growth Ventures</span>
-						</div>
-					</div>
-				</div>
+				<!-- Pagination Dots -->
+				<div class="kdm-testimonial-dots"></div>
 			</div>
 		</div>
 	</section>
@@ -2408,48 +2516,156 @@ def generate_page(config):
 		</div>
 	</section>
 
-	<!-- JS Dependencies & Smooth Counter Animation Script -->
+	<!-- JS Dependencies, Counter Animation & Testimonial Carousel -->
 	<script src="js/international-page.js"></script>
 	<script src="js/kdm-faq.js"></script>
 	<script type="text/javascript">
-	document.addEventListener("DOMContentLoaded", function () {{
-		var credSection = document.querySelector('.kdm-credentials-section');
-		if (!credSection) return;
+	(function () {{
+		'use strict';
 
-		var observer = new IntersectionObserver(function (entries) {{
-			entries.forEach(function (entry) {{
-				if (entry.isIntersecting) {{
-					var counters = credSection.querySelectorAll('.kdm-cred-num');
-					counters.forEach(function (counter) {{
-						if (counter.getAttribute('data-animated') === 'true') return;
-						counter.setAttribute('data-animated', 'true');
+		// 1. Interactive Testimonial Slider
+		function initTestimonials() {{
+			var wrapper = document.querySelector('.kdm-testimonial-wrapper');
+			if (!wrapper) return;
 
-						var target = parseFloat(counter.getAttribute('data-to'));
-						var decimals = parseInt(counter.getAttribute('data-decimals') || '0', 10);
-						var append = counter.getAttribute('data-append') || '';
-						var duration = 1600;
-						var startTime = null;
+			var slides = wrapper.querySelectorAll('.kdm-testimonial-card');
+			var prevBtn = wrapper.querySelector('.kdm-testimonial-arrow.prev');
+			var nextBtn = wrapper.querySelector('.kdm-testimonial-arrow.next');
+			var dotsContainer = wrapper.querySelector('.kdm-testimonial-dots');
 
-						function step(timestamp) {{
-							if (!startTime) startTime = timestamp;
-							var progress = Math.min((timestamp - startTime) / duration, 1);
-							var current = progress * target;
-							counter.innerText = (decimals > 0 ? current.toFixed(decimals) : Math.floor(current)) + append;
-							if (progress < 1) {{
-								window.requestAnimationFrame(step);
-							}} else {{
-								counter.innerText = (decimals > 0 ? target.toFixed(decimals) : target) + append;
-							}}
-						}}
-						window.requestAnimationFrame(step);
+			if (!slides.length) return;
+
+			var currentIndex = 0;
+			var autoTimer = null;
+
+			// Create dots
+			if (dotsContainer) {{
+				dotsContainer.innerHTML = '';
+				slides.forEach(function (_, i) {{
+					var dot = document.createElement('span');
+					dot.className = 'dot' + (i === 0 ? ' active' : '');
+					dot.addEventListener('click', function () {{
+						goToSlide(i);
+						resetAuto();
 					}});
-					observer.unobserve(credSection);
-				}}
-			}});
-		}}, {{ threshold: 0.2 }});
+					dotsContainer.appendChild(dot);
+				}});
+			}}
 
-		observer.observe(credSection);
-	}});
+			var dots = dotsContainer ? dotsContainer.querySelectorAll('.dot') : [];
+
+			function showSlide(idx) {{
+				slides.forEach(function (slide, i) {{
+					if (i === idx) {{
+						slide.classList.add('active');
+						slide.style.display = 'block';
+						slide.style.opacity = '1';
+						slide.style.transform = 'translateY(0)';
+					}} else {{
+						slide.classList.remove('active');
+						slide.style.display = 'none';
+						slide.style.opacity = '0';
+						slide.style.transform = 'translateY(15px)';
+					}}
+				}});
+				dots.forEach(function (dot, i) {{
+					dot.classList.toggle('active', i === idx);
+				}});
+			}}
+
+			function goToSlide(idx) {{
+				if (idx >= slides.length) currentIndex = 0;
+				else if (idx < 0) currentIndex = slides.length - 1;
+				else currentIndex = idx;
+				showSlide(currentIndex);
+			}}
+
+			function nextSlide() {{ goToSlide(currentIndex + 1); }}
+			function prevSlide() {{ goToSlide(currentIndex - 1); }}
+
+			if (nextBtn) {{
+				nextBtn.addEventListener('click', function (e) {{
+					e.preventDefault();
+					nextSlide();
+					resetAuto();
+				}});
+			}}
+
+			if (prevBtn) {{
+				prevBtn.addEventListener('click', function (e) {{
+					e.preventDefault();
+					prevSlide();
+					resetAuto();
+				}});
+			}}
+
+			function startAuto() {{
+				if (!autoTimer) {{
+					autoTimer = setInterval(nextSlide, 5000);
+				}}
+			}}
+
+			function resetAuto() {{
+				clearInterval(autoTimer);
+				autoTimer = null;
+				startAuto();
+			}}
+
+			showSlide(0);
+			startAuto();
+		}}
+
+		// 2. Animated Number Counters on Scroll
+		function initCounters() {{
+			var credSection = document.querySelector('.kdm-credentials-white-section') || document.querySelector('.kdm-credentials-section');
+			if (!credSection) return;
+
+			var observer = new IntersectionObserver(function (entries) {{
+				entries.forEach(function (entry) {{
+					if (entry.isIntersecting) {{
+						var counters = credSection.querySelectorAll('.kdm-cred-num, .counter-value');
+						counters.forEach(function (counter) {{
+							if (counter.getAttribute('data-animated') === 'true') return;
+							counter.setAttribute('data-animated', 'true');
+
+							var target = parseFloat(counter.getAttribute('data-to'));
+							var decimals = parseInt(counter.getAttribute('data-decimals') || '0', 10);
+							var append = counter.getAttribute('data-append') || '';
+							var duration = 1500;
+							var startTime = null;
+
+							function step(timestamp) {{
+								if (!startTime) startTime = timestamp;
+								var progress = Math.min((timestamp - startTime) / duration, 1);
+								var current = progress * target;
+								counter.innerText = (decimals > 0 ? current.toFixed(decimals) : Math.floor(current)) + append;
+								if (progress < 1) {{
+									window.requestAnimationFrame(step);
+								}} else {{
+									counter.innerText = (decimals > 0 ? target.toFixed(decimals) : target) + append;
+								}}
+							}}
+							window.requestAnimationFrame(step);
+						}});
+						observer.unobserve(credSection);
+					}}
+				}});
+			}}, {{ threshold: 0.2 }});
+
+			observer.observe(credSection);
+		}}
+
+		// Initialize on DOM ready
+		if (document.readyState === 'loading') {{
+			document.addEventListener('DOMContentLoaded', function () {{
+				initTestimonials();
+				initCounters();
+			}});
+		}} else {{
+			initTestimonials();
+			initCounters();
+		}}
+	}})();
 	</script>
 </asp:Content>
 """
