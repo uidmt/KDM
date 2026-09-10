@@ -597,7 +597,7 @@
 <script src="../js/kdm-faq.js?v=2.0"></script>
 
 <!-- Centralized Lead Gen Consultation Popup Modal -->
-<div id="kdmLeadGenModal" class="kdm-lead-modal-overlay" onclick="handleLeadModalBackdropClick(event)">
+<div id="kdmLeadGenModal" class="kdm-lead-modal-overlay" style="display: none;" onclick="handleLeadModalBackdropClick(event)">
     <div class="kdm-lead-modal-dialog">
         <div class="kdm-lead-modal-header">
             <div style="padding-right: 20px;">
@@ -625,7 +625,10 @@
                 var descEl = document.getElementById('kdmLeadModalDesc');
                 if (descEl) descEl.innerText = desc;
             }
-            modal.classList.add('active');
+            modal.style.display = 'flex';
+            setTimeout(function() {
+                modal.classList.add('active');
+            }, 10);
             document.body.style.overflow = 'hidden';
         }
     }
@@ -633,6 +636,9 @@
         var modal = document.getElementById('kdmLeadGenModal');
         if (modal) {
             modal.classList.remove('active');
+            setTimeout(function() {
+                modal.style.display = 'none';
+            }, 200);
             document.body.style.overflow = '';
         }
     }
