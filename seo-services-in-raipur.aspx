@@ -1,406 +1,1311 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>SEO Services in Raipur, Digital Marketing SMO PPC Company in Raipur</title>
-<meta name="keywords" content="SEO Services in Raipur, SEO Company in Raipur, SEO SMO Services in Raipur, Raipur best seo services, smo services in Raipur, PPC Services in Raipur, SEO Agency in Raipur, SEO Services in Chhattisgarh, SMO Services in Chhattisgarh, SEO Company in Chhattisgarh">
-<meta name="description" content="SEO Company in Raipur. Digital Marketing Company in Raipur Chhattisgarh for the top ranking in Google Yahoo Bing MSN at the best SEO Packages in Raipur Digital Marketing SMO & PPC Services in Raipur at affordable price. Get free audit of your website and avail services by top SEO Company in Raipur.">
-<meta property="og:title" content="SEO Services in Raipur, Digital Marketing SMO PPC Company in Raipur">
-<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/seo-services-in-raipur.png">
-<meta property="og:description" content="SEO Company in Raipur. Digital Marketing Company in Raipur Chhattisgarh for the top ranking in Google Yahoo Bing MSN at the best SEO Packages in Raipur Digital Marketing SMO & PPC Services in Raipur at affordable price. Get free audit of your website and avail services by top SEO Company in Raipur.">
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.kingofdigitalmarketing.com/seo-services-in-raipur.aspx">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://www.kingofdigitalmarketing.com/seo-services-in-raipur.aspx"/> 
-<meta name="Author" content="Best SEO Services Company in Raipur, https://www.king.kingofdigitalmarketing.com">
-<link rel="stylesheet" href="css/home-custom.css?v=25.0">
-<link rel="stylesheet" href="css/location-page.css?v=2.0">
-<script src="js/kdm-faq.js"></script>
-<style>
-    /* Centered Hero Styles */
-    .locationdetails-hero-centered {
-        background: linear-gradient(135deg, #0f172a 0%, #0f2744 40%, #005580 85%, #0088cc 100%) !important;
-        padding: 65px 25px 60px 25px !important;
-        color: #ffffff !important;
-        text-align: center !important;
-        border-radius: 0 0 24px 24px !important;
-        box-shadow: 0 15px 40px rgba(15, 23, 42, 0.35) !important;
-        margin-bottom: 40px !important;
-    }
+	<title>SEO Services in Raipur | Best SEO Services Agency in Raipur - King of Digital Marketing</title>
+	<meta name="keywords" content="SEO Services in Raipur, Best SEO Services Agency in Raipur, Top SEO Services Company in Raipur, SEO Services Services in Raipur, SEO Company in Raipur, PPC Agency in Raipur, Social Media Marketing Raipur, Lead Generation Raipur">
+	<meta name="description" content="Looking for the best SEO Services in Raipur? King of Digital Marketing delivers high-ROI SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation with guaranteed results. Call +919555696058.">
+	<link rel="canonical" href="https://www.kingofdigitalmarketing.com/seo-services-in-raipur.aspx" />
+	<meta property="og:title" content="Best SEO Services in Raipur | Top SEO Services Agency in Raipur">
+	<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/seo-services-in-raipur.jpg">
+	<meta property="og:description" content="Award-winning SEO Services in Raipur offering SEO, Google Ads, Meta Ads, and Inbound Lead Generation. 13+ years experience, 900+ projects completed.">
+	<meta property="og:url" content="https://www.kingofdigitalmarketing.com/seo-services-in-raipur.aspx">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="stylesheet" href="css/home-custom.css?v=25.0">
+	<link rel="stylesheet" href="css/kdm-faq.css?v=2.0">
+	<script src="js/kdm-faq.js"></script>
 
-    .locationdetails-hero-centered .hero-content-inner {
-        max-width: 920px !important;
-        margin: 0 auto !important;
-    }
+	<!-- ===== LOCALBUSINESS & SERVICE JSON-LD SCHEMA ===== -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	    {
+	      "@type": "LocalBusiness",
+	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
+	      "name": "King of Digital Marketing - Raipur",
+	      "url": "https://www.kingofdigitalmarketing.com/seo-services-in-raipur.aspx",
+	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
+	      "image": "https://www.kingofdigitalmarketing.com/images/seo-services-in-raipur.jpg",
+	      "description": "Leading SEO Services in Raipur offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation.",
+	      "telephone": "+91-9555696058",
+	      "email": "info@kingofdigitalmarketing.com",
+	      "priceRange": "$$",
+	      "address": {
+	        "@type": "PostalAddress",
+	        "addressLocality": "Raipur",
+	        "addressRegion": "Chhattisgarh",
+	        "addressCountry": "IN"
+	      },
+	      "geo": {
+	        "@type": "GeoCoordinates",
+	        "latitude": "21.2514",
+	        "longitude": "81.6296"
+	      },
+	      "openingHoursSpecification": [
+	        {
+	          "@type": "OpeningHoursSpecification",
+	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+	          "opens": "09:30",
+	          "closes": "19:00"
+	        }
+	      ],
+	      "aggregateRating": {
+	        "@type": "AggregateRating",
+	        "ratingValue": "4.9",
+	        "reviewCount": "240",
+	        "bestRating": "5"
+	      }
+	    },
+	    {
+	      "@type": "Service",
+	      "@id": "https://www.kingofdigitalmarketing.com/seo-services-in-raipur.aspx#service",
+	      "name": "SEO Services in Raipur",
+	      "serviceType": "Search Engine Optimization (SEO)",
+	      "provider": {
+	        "@type": "LocalBusiness",
+	        "name": "King of Digital Marketing"
+	      },
+	      "areaServed": {
+	        "@type": "City",
+	        "name": "Raipur"
+	      },
+	      "hasOfferCatalog": {
+	        "@type": "OfferCatalog",
+	        "name": "Digital Marketing & SEO Services",
+	        "itemListElement": [
+	          {
+	            "@type": "Offer",
+	            "itemOffered": {
+	              "@type": "Service",
+	              "name": "Search Engine Optimization (SEO)"
+	            }
+	          },
+	          {
+	            "@type": "Offer",
+	            "itemOffered": {
+	              "@type": "Service",
+	              "name": "Google Ads / PPC Management"
+	            }
+	          },
+	          {
+	            "@type": "Offer",
+	            "itemOffered": {
+	              "@type": "Service",
+	              "name": "Social Media Marketing (SMM)"
+	            }
+	          },
+	          {
+	            "@type": "Offer",
+	            "itemOffered": {
+	              "@type": "Service",
+	              "name": "Lead Generation Services"
+	            }
+	          }
+	        ]
+	      }
+	    },
+	    {
+	      "@type": "BreadcrumbList",
+	      "itemListElement": [
+	        {
+	          "@type": "ListItem",
+	          "position": 1,
+	          "name": "Home",
+	          "item": "https://www.kingofdigitalmarketing.com/"
+	        },
+	        {
+	          "@type": "ListItem",
+	          "position": 2,
+	          "name": "SEO Services in Raipur",
+	          "item": "https://www.kingofdigitalmarketing.com/seo-services-in-raipur.aspx"
+	        }
+	      ]
+	    }
+	  ]
+	}
+	</script>
 
-    .locationdetails-hero-centered h1 {
-        font-size: 36px !important;
-        font-weight: 800 !important;
-        color: #ffffff !important;
-        margin-bottom: 18px !important;
-        line-height: 1.25 !important;
-        letter-spacing: -0.5px !important;
-        background: linear-gradient(180deg, #ffffff 0%, #e0f2fe 100%) !important;
-        -webkit-background-clip: text !important;
-        -webkit-text-fill-color: transparent !important;
-    }
-
-    .locationdetails-hero-centered p.hero-subtitle {
-        font-size: 17px !important;
-        line-height: 1.65 !important;
-        color: #cbd5e1 !important;
-        max-width: 820px !important;
-        margin: 0 auto 25px auto !important;
-    }
-
-    .locationdetails-benefits-grid {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        justify-content: center !important;
-        gap: 12px !important;
-        max-width: 880px !important;
-        margin: 0 auto 30px auto !important;
-        padding: 0 !important;
-        list-style: none !important;
-    }
-
-    .locationdetails-benefits-grid li {
-        background: rgba(255, 255, 255, 0.1) !important;
-        backdrop-filter: blur(10px) !important;
-        border: 1px solid rgba(255, 255, 255, 0.18) !important;
-        border-radius: 30px !important;
-        padding: 8px 20px !important;
-        font-size: 14px !important;
-        font-weight: 600 !important;
-        color: #f8fafc !important;
-        display: inline-flex !important;
-        align-items: center !important;
-        gap: 8px !important;
-        transition: all 0.25s ease !important;
-    }
-
-    .locationdetails-benefits-grid li:hover {
-        transform: translateY(-2px) !important;
-        background: rgba(255, 255, 255, 0.2) !important;
-        border-color: #38bdf8 !important;
-    }
-
-    /* Benefits Section Grid (Full Box Width) */
-    .kdm-benefits-fullbox-grid {
-        display: grid !important;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
-        gap: 24px !important;
-        margin-top: 30px !important;
-        width: 100% !important;
-    }
-
-    .kdm-benefit-card-svg {
-        background: #ffffff !important;
-        border: 1px solid #e2e8f0 !important;
-        border-top: 4px solid #0284c7 !important;
-        border-radius: 18px !important;
-        padding: 28px 25px !important;
-        box-shadow: 0 6px 22px rgba(0,0,0,0.04) !important;
-        transition: all 0.3s ease !important;
-        height: 100% !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
-    }
-
-    .kdm-benefit-card-svg:hover {
-        transform: translateY(-5px) !important;
-        box-shadow: 0 15px 35px rgba(2, 132, 199, 0.14) !important;
-        border-color: #38bdf8 !important;
-    }
-
-    .kdm-benefit-icon-wrap {
-        width: 58px !important;
-        height: 58px !important;
-        border-radius: 14px !important;
-        background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%) !important;
-        color: #0284c7 !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        margin-bottom: 18px !important;
-    }
-
-    .kdm-benefit-card-svg h4 {
-        font-size: 20px !important;
-        font-weight: 800 !important;
-        color: #0f172a !important;
-        margin-bottom: 10px !important;
-    }
-
-    .kdm-benefit-card-svg p {
-        font-size: 14.5px !important;
-        line-height: 1.65 !important;
-        color: #475569 !important;
-        margin: 0 !important;
-    }
-
-    /* Dark Work Process Section (Full Box Width) */
-    .kdm-process-dark-fullbox {
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
-        border-radius: 24px !important;
-        padding: 55px 35px !important;
-        color: #ffffff !important;
-        margin-top: 50px !important;
-        margin-bottom: 50px !important;
-        box-shadow: 0 15px 40px rgba(15, 23, 42, 0.25) !important;
-        width: 100% !important;
-    }
-
-    .kdm-process-grid-fullbox {
-        display: grid !important;
-        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)) !important;
-        gap: 24px !important;
-        margin-top: 35px !important;
-    }
-
-    .kdm-process-card-svg {
-        background: rgba(255, 255, 255, 0.05) !important;
-        backdrop-filter: blur(10px) !important;
-        border: 1px solid rgba(255, 255, 255, 0.12) !important;
-        border-radius: 18px !important;
-        padding: 26px 22px !important;
-        text-align: left !important;
-        transition: all 0.3s ease !important;
-        height: 100% !important;
-        display: flex !important;
-        flex-direction: column !important;
-    }
-
-    .kdm-process-card-svg:hover {
-        transform: translateY(-5px) !important;
-        background: rgba(255, 255, 255, 0.1) !important;
-        border-color: #38bdf8 !important;
-        box-shadow: 0 10px 30px rgba(56, 189, 248, 0.15) !important;
-    }
-
-    .kdm-process-svg-wrap {
-        width: 52px !important;
-        height: 52px !important;
-        border-radius: 12px !important;
-        background: rgba(56, 189, 248, 0.15) !important;
-        color: #38bdf8 !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        margin-bottom: 16px !important;
-    }
-
-    .kdm-process-card-svg h4 {
-        font-size: 19px !important;
-        font-weight: 800 !important;
-        color: #ffffff !important;
-        margin-bottom: 10px !important;
-    }
-
-    .kdm-process-card-svg p {
-        font-size: 14px !important;
-        line-height: 1.65 !important;
-        color: #cbd5e1 !important;
-        margin: 0 !important;
-    }
-
-    @media (max-width: 767px) {
-        .locationdetails-hero-centered h1 {
-            font-size: 26px !important;
-        }
-        .locationdetails-hero-centered p.hero-subtitle {
-            font-size: 14.5px !important;
-        }
-        .kdm-process-dark-fullbox {
-            padding: 35px 20px !important;
-        }
-    }
-</style>
+	<!-- ===== FAQPAGE JSON-LD STRUCTURED DATA SCHEMA ===== -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "FAQPage",
+	  "mainEntity": [
+	    {
+	      "@type": "Question",
+	      "name": "Why is King of Digital Marketing considered the best SEO Services in Raipur?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "With 13+ years of proven industry leadership, 900+ successful client campaigns, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across Raipur."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "What digital marketing services do you provide in Raipur?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We provide 360-degree digital marketing solutions including Search Engine Optimization (SEO & Local Map Ranking), Google Ads / PPC Management, Social Media Marketing (Facebook & Instagram Meta Ads), Lead Generation Services, High-Converting Website Design & Development, Online Reputation Management (ORM), YouTube Video Promotion, and AI Marketing Automation."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How quickly can my Raipur business start generating leads with digital marketing?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "With Google Ads and Meta Ads campaigns, qualified inbound inquiries and phone calls start flowing within 24 to 48 hours of campaign launch. For organic SEO and Google Map Pack rankings, sustainable top-tier page 1 results are typically established within 3 to 6 months."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Which local areas in Raipur do you cover?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We serve businesses across all major commercial, industrial, and residential hubs in Raipur including Pandri, Telibandha, Shankar Nagar, VIP Road, GE Road, Civil Lines, Samta Colony, Devendra Nagar, Tatibandh, and Naya Raipur."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How does local SEO help coaching institutes, doctors, and retailers in Raipur?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential students, patients, or shoppers search for services near them in Raipur, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Do you offer customized packages for small businesses and startups in Raipur?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Yes! We provide flexible, affordable digital marketing packages starting from basic local visibility plans to advanced multi-channel performance packages tailored to your budget and growth targets."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Are your SEO techniques 100% White-Hat and penalty-safe?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Yes, 100%. We strictly follow Google Search Essentials and Webmaster Guidelines. We focus on technical site health, high-quality E-E-A-T content, and genuine high-authority editorial backlinks."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How do you track and report campaign progress?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We believe in 100% transparency. Clients receive comprehensive monthly reports covering target keyword rank movements, Google Analytics 4 (GA4) traffic, conversions, lead counts, and return on investment (ROI)."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "What is the difference between SEO and Google Ads (PPC) for my Raipur business?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Google Ads (PPC) delivers instant top-of-page visibility and immediate inquiries from day one through paid advertising. SEO builds long-term organic authority and continuous free search traffic over time. A combination of both gives maximum market dominance."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Can you redesign my existing website to generate more leads?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Absolutely. Our UI/UX design team creates fast-loading, mobile-friendly, conversion-optimized websites with clean layouts, quick inquiry forms, and WhatsApp integration to maximize visitor-to-lead conversion rates."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Do I get a dedicated account manager for my campaign?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Yes, every client is assigned a dedicated account manager along with direct oversight from founder Gaurav Dubey to ensure seamless communication, strategy execution, and regular campaign updates."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "What industries have you worked with in Raipur?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We have executed successful campaigns across 150+ industry verticals including Education & Coaching, Healthcare & Hospitals, Real Estate, E-Commerce, Astrology, Hair Transplant, Study Abroad, Travel & Tourism, Manufacturing, and Professional Local Services."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How do you optimize Google My Business (GMB) for local searches in Raipur?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We optimize your GMB profile with verified business categories, geo-tagged photos, localized service descriptions, regular posts, review generation strategies, and accurate local NAP (Name, Address, Phone) citations."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How can Social Media Marketing (SMM) help grow my brand in Raipur?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in Raipur, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How do I get started with King of Digital Marketing in Raipur?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "You can request a free digital marketing growth strategy call and website audit by filling out our online form or contacting our team directly at +91-9555696058 or info@kingofdigitalmarketing.com."
+	      }
+	    }
+	  ]
+	}
+	</script>
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<div role="main" class="main">
 
-	<!-- ===== CENTERED HERO SECTION (NO FORM & NO TOP H1 SECTION) ===== -->
-	<div class="locationdetails-hero-centered">
-		<div class="hero-content-inner">
-			<!-- Breadcrumb Nav -->
-			<ul class="breadcrumb" style="background: transparent; padding: 0; justify-content: center; display: flex; gap: 8px; margin-bottom: 15px;">
-				<li><a href="Default.aspx" style="color: #94a3b8; text-decoration: none;">Home</a></li>
-				<li class="active" style="color: #38bdf8;">SEO Services Company in Raipur, SMO PPC Services in Raipur</li>
-			</ul>
+	<!-- ===== 1. REUSABLE SERVICE PAGE HERO SECTION COMPONENT ===== -->
+	<div class="kdm-service-hero">
+		<div class="kdm-service-hero-container">
+			<!-- Breadcrumbs Navigation -->
+			<div class="kdm-service-hero-breadcrumbs">
+				<ul>
+					<li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
+					<li class="breadcrumb-sep">/</li>
+					<li class="breadcrumb-current">SEO Services in Raipur</li>
+				</ul>
+			</div>
 
-			<!-- Main Centered H1 Title -->
-			<h1>SEO Services in Raipur - Digital Marketing Company</h1>
+			<!-- Badge Tag -->
+			<span class="kdm-service-hero-badge">
+				<i class="fa fa-trophy"></i> #1 RATED SEO SERVICES IN RAIPUR
+			</span>
+
+			<!-- Main H1 Title -->
+			<h1 class="kdm-service-hero-title">
+				Scale Your Business with Top <span class="kdm-gradient-highlight">SEO Services in Raipur</span>
+			</h1>
 
 			<!-- Subtitle Paragraph -->
-			<p class="hero-subtitle">We are the Leading SEO Company in Raipur and we are growing fast as the <strong>Best Digital Marketing Company in Raipur</strong> Chhattisgarh. Guaranteed SEO services are provided by King of Digital Marketing — giving clients genuine, long lasting search engine rankings.</p>
+			<p class="kdm-service-hero-subtitle">
+				Dominate search rankings, capture high-converting leads, and accelerate revenue growth with proven <strong>Search Engine Optimization (SEO)</strong>, <strong>Google Ads (PPC)</strong>, <strong>Meta Ads (Facebook &amp; Instagram)</strong>, and <strong>AI-Powered Lead Generation</strong> tailored for businesses in Raipur.
+			</p>
 
-			<!-- Centered Benefits List -->
-			<ul class="locationdetails-benefits-grid">
-				<li><img class="locationdetails-benefits-list-img" src="images/swipe-right.webp" alt="SEO"> Result Driven SEO for Top Google Ranking</li>
-				<li><img class="locationdetails-benefits-list-img" src="images/swipe-right.webp" alt="Leads"> Get More Traffic &amp; Higher ROI</li>
-				<li><img class="locationdetails-benefits-list-img" src="images/swipe-right.webp" alt="Audit"> Free On-Page &amp; Off-Page SEO Audit</li>
-				<li><img class="locationdetails-benefits-list-img" src="images/swipe-right.webp" alt="Clients"> 900+ Clients Served Across India &amp; Abroad</li>
-			</ul>
+			<!-- Trust Stats Bar -->
+			<div class="kdm-service-hero-stats-bar">
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-line-chart"></i> 900+ Completed Projects</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-green"><i class="fa fa-check-circle"></i> 13+ Years Regional Mastery</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-highlight">🚀 100+ Leads Daily Delivery</span>
+			</div>
 
-			<!-- Centered CTA Buttons -->
-			<div class="seobuttons-se" style="justify-content: center;">
-				<a href="https://wa.me/919821918208" target="_blank" rel="noopener noreferrer" class="seobtn-outline-se">
-					<i class="fa fa-whatsapp"></i> Talk to our Expert
+			<!-- Action CTA Button -->
+			<div class="kdm-service-hero-cta-wrap">
+				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn">
+					<i class="fa fa-paper-plane"></i> Get Free Growth Strategy Blueprint &amp; Audit <i class="fa fa-arrow-right"></i>
 				</a>
-				<button type="button" class="seobtn-filled-se" onclick="openGlobalPopupForm()">
-					<i class="fa fa-line-chart"></i> Free Website Audit
-				</button>
+			</div>
+
+			<!-- Value Highlights Row -->
+			<div class="kdm-service-hero-highlights">
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Top Google &amp; Map 3-Pack Rankings</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Google &amp; Meta Certified Experts</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> High-Converting Lead Generation Funnels</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Transparent 100% ROI Tracking</div>
 			</div>
 		</div>
 	</div>
+	<!-- ===== END HERO SECTION ===== -->
 
-	<!-- ===== SUB HERO INTRO CARD ===== -->
-	<div class="altra-sub-hero">
-		<div class="altra-sub-hero-new">
-			<div class="content-box">
-				<h2 style="text-align: center;">Leading SEO Company in Raipur Chhattisgarh</h2>
-				<h4 style="text-align: center;">Get More Traffic &amp; Higher ROI with our SEO Services in Raipur</h4>
-				<p>We are the Leading SEO Company in Raipur and we are growing fast as the <b>Best Digital Marketing Company in Raipur</b> Chhattisgarh. Guaranteed SEO services are provided by King of Digital Marketing. Our Company is providing clients a genuine and long lasting ranking in Search Engines like Google, Yahoo, Bing, MSN. We have a complete online promotion solution for you with perfect white hat techniques for your business.</p>
-				<br>
-				<p>All businesses running online or offline need high visibility in Search Engines to get more traffic and high ROI (Return on Investment). Our SEO Service in Raipur is promised to bring more positive leads to your business website and convert those leads into sales instantly. These days online promotion is the most easiest way to generate quick leads with cost efficiency and get more revenue in marketing industry.</p>
-				<br>
-				<h3 style="color: #0f172a; font-weight: 700; margin-bottom: 10px;">What Do We Do in SEO? Get a Free SEO Audit of Your Website:</h3>
-				<p>If your website has never done SEO then our experts find out all aspects like On-Page &amp; Off-Page status and ranking of your most business gaining keywords by SEO Audit. This audit gives you a report card on how your website is performing and suggests you the methods to improve it. <b>SEO Services in Raipur</b> by King of Digital Marketing provides detailed assessment of your website. Our Google certified experts design a strategy to work on your website and to rank it in top position of search engine. A customized SEO campaign will be run that will boost your website keyword ranking, traffic, conversion and sales.</p>
-			</div>
-		</div>
-	</div>
+	<!-- ===== 2. DETAILED PARA ABOUT SERVICES (WHITE THEME) ===== -->
+	<section class="kdm-loc-intro-section" style="background: #ffffff; padding: 65px 0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div style="text-align: center; max-width: 920px; margin: 0 auto 35px auto;">
+						<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
+							<i class="fa fa-map-marker-alt"></i> TRUSTED AGENCY IN RAIPUR
+						</span>
+						<h2 style="font-size: 32px; font-weight: 900; color: #0f172a; margin-bottom: 15px; line-height: 1.3;">
+							Best SEO Services in <span style="color: #0284c7;">Raipur</span>
+						</h2>
+					</div>
+					
+					<div style="font-size: 16px; color: #334155; line-height: 1.8; max-width: 1040px; margin: 0 auto;">
+						<p style="margin-bottom: 18px;">
+							If you are searching for the <strong>best seo services in Raipur</strong>, then <strong>King of Digital Marketing</strong> is the name you can trust. In today's online world, every small and big business needs strong digital marketing services to grow fast. King of Digital Marketing is known as the top digital marketing agency in Raipur that helps businesses reach more customers through the internet.
+						</p>
+						<p style="margin-bottom: 18px;">
+							The company offers many services like <a href="SEO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">SEO services in Raipur</a>, <a href="SMO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">social media marketing</a>, <a href="Website-Designing-Packages.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">website designing</a>, <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">Google Ads management</a>, content marketing, and local SEO for Raipur businesses. Whether you are a small shop owner, an educational coaching institute, a medical clinic, a real estate firm, or a corporate enterprise, King of Digital Marketing has a customized solution for everyone.
+						</p>
+						<p style="margin-bottom: 18px;">
+							One big reason people choose King of Digital Marketing is their easy and honest way of working. They explain everything in simple language, so even beginners can understand what is happening with their website and marketing campaigns. Many people search for terms like <em>"digital marketing agency near me"</em>, <em>"best SEO company in Raipur"</em>, <em>"website designing company in Raipur"</em>, and <em>"social media marketing expert in Raipur"</em>. King of Digital Marketing ranks well for all these searches, which shows their real skill and experience.
+						</p>
+						<p style="margin-bottom: 18px;">
+							Their team uses the latest tools and strategies to bring more traffic, leads, and sales for clients. They also focus on affordable digital marketing packages, so small businesses and startups in Raipur can also grow online without spending too much money.
+						</p>
+						<p style="margin-bottom: 0;">
+							Customer support is another strong point. The team stays in constant touch with clients, shares monthly transparent reports, and makes data-driven changes based on results. This honest and result-driven approach makes <strong>King of Digital Marketing</strong> the most trusted digital marketing company in Raipur. If you want your business to grow online, get more customers, and build a strong brand, King of Digital Marketing is the right choice for you in Raipur.
+						</p>
+					</div>
 
-	<!-- ===== RESULT ORIENTED SEO SERVICES FOR DIFFERENT INDUSTRIES ===== -->
-	<section class="locationdetails-numbers-section">
-	<div class="container">
-		<div class="row center counters dark counters-row">
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-line-chart counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">780+</strong>
-				<label class="counter-label" style="color: #ffffff;">Happy Clients</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-star counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">4.9/5★</strong>
-				<label class="counter-label" style="color: #ffffff;">Client Rating</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-bullseye counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
-				<label class="counter-label" style="color: #ffffff;">Projects Done</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-trophy counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
-				<label class="counter-label" style="color: #ffffff;">Years Exp.</label>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-	<!-- ===== FAQ ACCORDION SECTION ===== -->
-	<section class="kdm-faq-section" style="margin-top: 50px;">
-		<div class="kdm-faq-container">
-			<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-			<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our SEO services in Raipur.</p>
-			
-			<div class="kdm-faq-accordion">
-				<div class="kdm-faq-item active">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.1. What is SEO, and why is it crucial for businesses in Raipur?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> SEO (Search Engine Optimization) is the process of optimizing a website to improve its visibility and ranking in search engine results. For businesses in Raipur, SEO is essential for increasing online visibility, attracting local customers, and staying competitive in the digital marketplace.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.2. How can SEO services in Raipur benefit my business?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> SEO services in Raipur can benefit your business by driving targeted traffic to your website, enhancing brand visibility, generating leads, and ultimately increasing sales and revenue.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.3. Are there specific strategies that SEO services in Raipur employ to target the local market?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, SEO services in Raipur often utilize local SEO strategies, such as optimizing for location-specific keywords, creating Google My Business listings, and obtaining local citations, to help businesses attract customers from the Raipur area.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.4. How long does it typically take to see results from SEO services in Raipur?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The timeline for seeing results from SEO services in Raipur can vary depending on factors such as the competitiveness of the industry, the current state of the website, and the effectiveness of the SEO strategies implemented. Generally, businesses may begin to notice improvements in search rankings and website traffic within a few months of implementing SEO services.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.5. What types of businesses can benefit from SEO services in Raipur?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Businesses of all sizes and industries in Raipur can benefit from SEO services, including local businesses, startups, e-commerce stores, service providers, and multinational corporations targeting the Raipur market.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.6. How do SEO services in Raipur stay updated on the latest SEO trends and algorithms?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Reputable SEO services in Raipur stay updated on the latest SEO trends, algorithms, and best practices through ongoing training, participation in industry events, membership in professional organizations, and continuous monitoring of search engine updates and announcements.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.7. Can SEO services in Raipur help businesses target specific demographics or industries?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, SEO services in Raipur can be customized to target specific demographics, industries, or niches based on the client's requirements and target audience.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.8. What distinguishes reputable SEO services in Raipur from others?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Reputable SEO services in Raipur prioritize ethical and sustainable SEO practices, offer personalized strategies tailored to each client's needs, provide transparent reporting and communication, and focus on delivering measurable results aligned with business objectives.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.9. What is the typical cost of SEO services in Raipur?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The cost of SEO services in Raipur can vary depending on factors such as the scope of work, the level of competition in the industry, and the experience and expertise of the SEO agency. Businesses can expect to invest in monthly retainer fees or project-based pricing models for SEO services.</p>
-					</div>
-				</div>
-				<div class="kdm-faq-item">
-					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.10. How can businesses in Raipur initiate SEO services for their websites?</span>
-						<span class="kdm-faq-icon">+</span>
-					</button>
-					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Businesses in Raipur interested in SEO services can begin by researching and contacting reputable SEO agencies, scheduling consultations to discuss their needs and objectives, reviewing proposals and pricing, and selecting the agency that best fits their requirements and budget.</p>
+					<!-- 4 Quick Capabilities Cards -->
+					<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 1040px; margin: 35px auto 0 auto;">
+						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
+							<div style="font-size: 24px; color: #0284c7; margin-bottom: 8px;"><i class="fa fa-chart-line"></i></div>
+							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Lead Generation</h4>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-intent customer inquiries delivered daily in Raipur.</p>
+						</div>
+						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
+							<div style="font-size: 24px; color: #10b981; margin-bottom: 8px;"><i class="fa fa-search"></i></div>
+							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Top Page 1 SEO</h4>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0;">Organic rankings &amp; Google Map 3-Pack domination.</p>
+						</div>
+						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
+							<div style="font-size: 24px; color: #8b5cf6; margin-bottom: 8px;"><i class="fa fa-bullhorn"></i></div>
+							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Meta &amp; Google Ads</h4>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-ROI paid campaigns with immediate conversions.</p>
+						</div>
+						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
+							<div style="font-size: 24px; color: #f59e0b; margin-bottom: 8px;"><i class="fa fa-laptop-code"></i></div>
+							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Modern Web Design</h4>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0;">Fast-loading, mobile-friendly landing pages.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-</div>
-<script src="js/kdm-faq.js"></script>
+	<!-- ===== 3. CREDENTIALS & MILESTONE COUNTERS (WHITE THEME) ===== -->
+	<section class="kdm-credentials-section">
+		<div class="container">
+			<div class="kdm-credentials-grid">
+				<!-- Box 1: 13+ Years Experience -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="8" r="7"></circle>
+							<polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
+					<label class="kdm-cred-label">Years of Industry Experience</label>
+				</div>
+
+				<!-- Box 2: 900+ Completed Projects -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
+					<label class="kdm-cred-label">Projects Completed</label>
+				</div>
+
+				<!-- Box 3: 15+ Countries Served -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<line x1="2" y1="12" x2="22" y2="12"></line>
+							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
+					<label class="kdm-cred-label">Countries Served</label>
+				</div>
+
+				<!-- Box 4: 4.9 Overall Rating -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
+					<label class="kdm-cred-label">Overall Rating</label>
+				</div>
+
+				<!-- Box 5: 150+ Industries Served -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+							<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
+					<label class="kdm-cred-label">Industries Served</label>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 4. HOW DO WE EMPOWER YOU DIGITALLY (DARK THEME) ===== -->
+	<section class="empower-section">
+		<div class="container">
+			<div class="empower-header text-center">
+				<span class="empower-badge"><i class="fa fa-star"></i> OUR CORE SPECIALIZATIONS</span>
+				<h2 class="empower-title">How Do We Empower You <span class="empower-title-gradient">Digitally in Raipur</span></h2>
+				<p class="empower-subtitle">
+					At <strong>King of Digital Marketing</strong>, we build high-performing digital ecosystems designed to dominate your market in Raipur. Driven by 13+ years of expertise, AI technology, and top strategist talent, explore our premier specialized services below.
+				</p>
+			</div>
+
+			<div class="empower-grid">
+				<!-- Card 1: Lead Generation -->
+				<div class="empower-card card-emerald">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-emerald">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 12A10 10 0 1 1 12 2a10 10 0 0 1 10 10z" />
+								<path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
+								<path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+							</svg>
+						</div>
+						<span class="empower-tag">HIGH CONVERSION</span>
+					</div>
+					<h3 class="empower-card-title"><a href="lead-generation-company.aspx">Lead Generation</a></h3>
+					<p class="empower-card-text">
+						Increase quality leads with targeted sales funnels in Raipur. We identify, engage, and convert high-intent prospects into loyal paying customers across paid &amp; organic channels.
+					</p>
+					<a href="lead-generation-company.aspx" class="empower-card-btn btn-emerald">
+						Explore Service <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+
+				<!-- Card 2: Google Ads Services -->
+				<div class="empower-card card-blue">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-blue">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="11" cy="11" r="8" />
+								<line x1="21" y1="21" x2="16.65" y2="16.65" />
+								<line x1="11" y1="8" x2="11" y2="14" />
+								<line x1="8" y1="11" x2="14" y2="11" />
+							</svg>
+						</div>
+						<span class="empower-tag">INSTANT TRAFFIC</span>
+					</div>
+					<h3 class="empower-card-title"><a href="PPC-Services.aspx">Google Ads (PPC)</a></h3>
+					<p class="empower-card-text">
+						Rank on Page 1 of Google immediately. Stand out before active search buyers in Raipur to capture maximum high-value sales inquiries with optimized ROI packages.
+					</p>
+					<a href="PPC-Services.aspx" class="empower-card-btn btn-blue">
+						Explore Service <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+
+				<!-- Card 3: SEO Services -->
+				<div class="empower-card card-purple">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-purple">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+								<polyline points="17 6 23 6 23 12" />
+							</svg>
+						</div>
+						<span class="empower-tag">TOP RANKINGS</span>
+					</div>
+					<h3 class="empower-card-title"><a href="SEO-Services.aspx">SEO Services</a></h3>
+					<p class="empower-card-text">
+						Scale organic search engine rankings and compound long-term website traffic in Raipur. Our technical &amp; content SEO experts audit, optimize, and build domain authority.
+					</p>
+					<a href="SEO-Services.aspx" class="empower-card-btn btn-purple">
+						Explore Service <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+
+				<!-- Card 4: SMO Services -->
+				<div class="empower-card card-pink">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-pink">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="18" cy="5" r="3" />
+								<circle cx="6" cy="12" r="3" />
+								<circle cx="18" cy="19" r="3" />
+								<line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+								<line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+							</svg>
+						</div>
+						<span class="empower-tag">BRAND VIRALITY</span>
+					</div>
+					<h3 class="empower-card-title"><a href="SMO-Services.aspx">Social Media Marketing</a></h3>
+					<p class="empower-card-text">
+						Engage target audiences and build brand clout across social networks. Our Social Media Optimization strategies ensure your business in Raipur builds active, loyal followers.
+					</p>
+					<a href="SMO-Services.aspx" class="empower-card-btn btn-pink">
+						Explore Service <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+
+				<!-- Card 5: Website Designing -->
+				<div class="empower-card card-cyan">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-cyan">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+								<line x1="8" y1="21" x2="16" y2="21" />
+								<line x1="12" y1="17" x2="12" y2="21" />
+							</svg>
+						</div>
+						<span class="empower-tag">MODERN UI/UX</span>
+					</div>
+					<h3 class="empower-card-title"><a href="Website-Designing-Packages.aspx">Website Designing</a></h3>
+					<p class="empower-card-text">
+						Fast, secure, responsive, and conversion-ready websites. We engineer high-performing corporate websites, e-commerce stores, and custom landing pages designed to convert.
+					</p>
+					<a href="Website-Designing-Packages.aspx" class="empower-card-btn btn-cyan">
+						Explore Service <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+
+				<!-- Card 6: Performance Marketing -->
+				<div class="empower-card card-amber">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-amber">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+							</svg>
+						</div>
+						<span class="empower-tag">MAX ROI</span>
+					</div>
+					<h3 class="empower-card-title"><a href="performance-marketing-packages.aspx">Performance Marketing</a></h3>
+					<p class="empower-card-text">
+						Full-funnel growth campaigns combining SEO, Meta Ads, Retargeting, and Conversion Rate Optimization (CRO) to maximize customer acquisition and business revenue.
+					</p>
+					<a href="performance-marketing-packages.aspx" class="empower-card-btn btn-amber">
+						Explore Service <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 5. WHY CHOOSE KING OF DIGITAL MARKETING IN CITY (WHITE THEME) ===== -->
+	<section class="kdm-why-choose-section">
+		<div class="container">
+			<div class="kdm-why-choose-header">
+				<span class="kdm-seo-badge"><i class="fa fa-check-circle"></i> WHY WORK WITH US</span>
+				<h2>Why Choose King of Digital Marketing in <strong>Raipur</strong>?</h2>
+				<p>
+					We don't just provide generic marketing services — we engineer customized growth engines that consistently generate qualified customer inquiries, top search rankings, and predictable revenue for your Raipur business.
+				</p>
+			</div>
+
+			<div class="kdm-why-choose-grid">
+				<!-- Card 1 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="8" r="7"></circle>
+							<polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+						</svg>
+					</div>
+					<h3>13+ Years Proven Mastery</h3>
+					<p>Led by industry veteran Gaurav Dubey, our team brings over a decade of deep expertise delivering successful marketing campaigns across 900+ projects worldwide.</p>
+				</div>
+
+				<!-- Card 2 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+							<circle cx="12" cy="10" r="3"></circle>
+						</svg>
+					</div>
+					<h3>Tailored Local Raipur Strategy</h3>
+					<p>We craft hyper-localized campaigns targeting specific commercial zones and consumer segments across Raipur to maximize local inbound inquiries.</p>
+				</div>
+
+				<!-- Card 3 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+						</svg>
+					</div>
+					<h3>100% White-Hat &amp; Safe</h3>
+					<p>Our organic ranking strategies strictly follow Google Search Essentials and algorithm best practices to ensure your site is completely safe from search penalties.</p>
+				</div>
+
+				<!-- Card 4 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="12" y1="1" x2="12" y2="23"></line>
+							<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+						</svg>
+					</div>
+					<h3>High-ROI &amp; Affordable Plans</h3>
+					<p>Transparent pricing and customized packages allow startups and established enterprises in Raipur to achieve maximum marketing ROI within their budget.</p>
+				</div>
+
+				<!-- Card 5 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+							<polyline points="14 2 14 8 20 8"></polyline>
+							<line x1="16" y1="13" x2="8" y2="13"></line>
+							<line x1="16" y1="17" x2="8" y2="17"></line>
+							<polyline points="10 9 9 9 8 9"></polyline>
+						</svg>
+					</div>
+					<h3>Transparent Monthly Reports</h3>
+					<p>Track your exact keyword rankings, website visitors, conversion rates, and lead pipeline with clear, jargon-free monthly performance reporting.</p>
+				</div>
+
+				<!-- Card 6 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+							<circle cx="9" cy="7" r="4"></circle>
+							<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+						</svg>
+					</div>
+					<h3>Dedicated Account Manager</h3>
+					<p>Enjoy direct, prompt support with a dedicated growth manager who understands your business objectives and proactively optimizes your campaign.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 6. 9-STEP SERVICE WORK PROCESS (DARK THEME) ===== -->
+	<section class="kdm-seo-process-section">
+		<div class="container">
+			<div class="kdm-seo-process-header">
+				<span class="kdm-seo-badge">PROVEN 9-STAGE FRAMEWORK</span>
+				<h2 class="kdm-seo-process-title">Our Service Work Process</h2>
+				<p class="kdm-seo-process-desc">
+					With over 13+ years of experience, our 9-stage data-driven marketing framework empowers businesses in Raipur to dominate search engines, capture high-intent leads, and scale profitable revenue.
+				</p>
+			</div>
+
+			<div class="kdm-seo-process-grid">
+				<!-- Step 1 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+							<line x1="3" y1="9" x2="21" y2="9"></line>
+							<line x1="9" y1="21" x2="9" y2="9"></line>
+							<circle cx="15" cy="15" r="3"></circle>
+							<path d="M17.5 17.5L20 20"></path>
+						</svg>
+					</div>
+					<h3>1. Website &amp; Tech Audit</h3>
+					<p>We conduct in-depth technical and architectural audits to identify crawl errors, speed bottlenecks, and conversion gaps across your web properties.</p>
+				</div>
+
+				<!-- Step 2 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="18" y1="20" x2="18" y2="10"></line>
+							<line x1="12" y1="20" x2="12" y2="4"></line>
+							<line x1="6" y1="20" x2="6" y2="14"></line>
+							<path d="M3 20h18"></path>
+						</svg>
+					</div>
+					<h3>2. Business &amp; Market Analysis</h3>
+					<p>Our strategists analyze your business model, buyer personas, sales funnels, and target customers in Raipur to align campaign goals directly with ROI.</p>
+				</div>
+
+				<!-- Step 3 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="11" cy="11" r="8"></circle>
+							<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+							<path d="M11 8v6M8 11h6"></path>
+						</svg>
+					</div>
+					<h3>3. Local &amp; Keyword Research</h3>
+					<p>We discover high-converting, commercial search terms and localized keywords that drive qualified buyer intent and phone calls to your business.</p>
+				</div>
+
+				<!-- Step 4 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+						</svg>
+					</div>
+					<h3>4. Competitor Strategy Audit</h3>
+					<p>We reverse-engineer top-ranking competitors in Raipur, identifying keyword gaps, ad strategies, and backlink profiles to outrank them on SERPs.</p>
+				</div>
+
+				<!-- Step 5 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+							<polyline points="14 2 14 8 20 8"></polyline>
+							<line x1="16" y1="13" x2="8" y2="13"></line>
+							<line x1="16" y1="17" x2="8" y2="17"></line>
+							<polyline points="10 9 9 9 8 9"></polyline>
+						</svg>
+					</div>
+					<h3>5. On-Page &amp; Schema Setup</h3>
+					<p>We optimize title tags, meta descriptions, headings, internal linking structures, LocalBusiness schema markup, and image tags for maximum relevance.</p>
+				</div>
+
+				<!-- Step 6 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
+					</div>
+					<h3>6. High-Intent Content Creation</h3>
+					<p>We craft engaging, authoritative landing page copy and blog content aligned with Google E-E-A-T guidelines to boost visitor dwell time and conversion.</p>
+				</div>
+
+				<!-- Step 7 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+						</svg>
+					</div>
+					<h3>7. Technical &amp; Core Web Vitals</h3>
+					<p>We optimize Core Web Vitals, mobile responsiveness, XML sitemaps, robots.txt directives, SSL security, and page load speeds for search algorithms.</p>
+				</div>
+
+				<!-- Step 8 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+							<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+						</svg>
+					</div>
+					<h3>8. Authority Links &amp; PR</h3>
+					<p>We build white-hat, high-authority domain backlinks through targeted editorial outreach, local citations, and digital PR to boost domain authority.</p>
+				</div>
+
+				<!-- Step 9 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<h3>9. Performance &amp; ROI Reports</h3>
+					<p>We provide transparent monthly ranking, traffic, lead volume, and conversion reports using Google Analytics &amp; Search Console to verify campaign ROI.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 7. CLIENT TRUST & PARTNER LOGOS (WHITE THEME) ===== -->
+	<section class="clients-logos-section">
+		<div class="container">
+			<div class="clients-logos-header text-center">
+				<span class="clients-badge"><i class="fa fa-handshake-o"></i> PROVEN TRACK RECORD</span>
+				<h2 class="clients-title">Your Trust Made Us Top <span class="clients-title-gradient">SEO Services in Raipur</span></h2>
+				<p class="clients-subtitle">
+					Over the last 13+ years, <strong>900+ businesses</strong> across Raipur, India, and global markets have trusted us to scale their digital growth, customer inquiries, and brand authority.
+				</p>
+			</div>
+
+			<div class="clients-carousel">
+				<div class="clients-track">
+					<div class="client-logo-item"><img src="images/clients/1.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/2.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/3.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/4.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/5.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/6.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/7.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/8.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/1.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/2.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/3.png" alt="Trusted Client Partner" class="client-logo" /></div>
+					<div class="client-logo-item"><img src="images/clients/4.png" alt="Trusted Client Partner" class="client-logo" /></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 8. MOST POPULAR INDUSTRIES WE SERVE (DARK THEME) ===== -->
+	<section class="industry-slider-section">
+		<div class="container">
+			<h2 class="industry-heading">Most Popular Industries <strong>We Work With in Raipur</strong></h2>
+
+			<div class="industry-slider">
+				<div class="industry-track">
+					<!-- Industry 1: Astrology -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14" />
+									<circle cx="12" cy="12" r="4" fill="#fbbf24" fill-opacity="0.2" />
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Astrology</h3>
+								<p>Successfully handled 60+ astrology projects for lead generation, app installs, and consultation growth.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industry 2: Hair Transplant & Clinics -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(236, 72, 153, 0.12); border-color: rgba(236, 72, 153, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M12 2v10M12 12l-4-4M12 12l4-4M6 18c0-3.3 2.7-6 6-6s6 2.7 6 6" />
+									<circle cx="12" cy="20" r="2" fill="#ec4899" />
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Hair Transplant &amp; Clinics</h3>
+								<p>Delivered 50+ medical lead generation, SEO, and Google Ads campaigns with consistent patient bookings in Shankar Nagar Medical Zone.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industry 3: Study Abroad Consultants -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(129, 140, 248, 0.12); border-color: rgba(129, 140, 248, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+									<path d="M6 12v5c0 2 6 3 6 3s6-1 6-3v-5" />
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Study Abroad &amp; Immigration</h3>
+								<p>Trusted by 30+ immigration consultants for high-quality student visa inquiries and organic search dominance.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industry 4: Real Estate -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+									<polyline points="9 22 9 12 15 12 15 22"></polyline>
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Real Estate &amp; Builders</h3>
+								<p>Generated thousands of verified site-visit inquiries and high-ticket buyer leads for residential projects across VIP Road & Naya Raipur.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industry 5: Coaching & Education -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(14, 165, 233, 0.12); border-color: rgba(14, 165, 233, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+									<path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Coaching &amp; Education</h3>
+								<p>Proven track record driving massive student admissions and counseling inquiries for top academies in GE Road Educational Area.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 9. ABOUT THE EXPERTS BEHIND YOUR CAMPAIGN (WHITE THEME) ===== -->
+	<section class="kdm-experts-section">
+		<div class="container">
+			<div class="kdm-experts-header">
+				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+					<i class="fa fa-user-circle-o"></i> LEADERSHIP &amp; EXPERT TEAM
+				</span>
+				<h2 class="kdm-experts-title">
+					About the Experts <span>Behind Your Campaign in Raipur</span>
+				</h2>
+				<p class="kdm-experts-subtitle">
+					Your business growth is powered by seasoned marketing strategists, industry leaders, and certified technical analysts dedicated to delivering top Google rankings and maximum ROI.
+				</p>
+			</div>
+
+			<div class="kdm-experts-grid">
+				<!-- Expert 1: Gaurav Dubey -->
+				<div class="kdm-expert-card">
+					<div class="kdm-expert-header-box">
+						<div class="kdm-expert-avatar-img">
+							<img src="images/gaurav%20dubey%20digital%20marketing.webp" alt="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" title="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" class="kdm-expert-img">
+						</div>
+						<div class="kdm-expert-name-title">
+							<h3 class="kdm-expert-name">Gaurav Dubey</h3>
+							<span class="kdm-expert-role">Founder &amp; Senior Marketing Strategist (13+ Yrs Exp)</span>
+						</div>
+					</div>
+					<p class="kdm-expert-bio">
+						With over 13+ years of hands-on digital marketing leadership, Gaurav Dubey has spearheaded 900+ successful campaigns across India, USA, UK, UAE &amp; global markets. Specialist in advanced SEO algorithms, high-converting Google Ads funnels, Meta performance marketing, and Generative Engine Optimization (GEO).
+					</p>
+					<ul class="kdm-expert-list">
+						<li><i class="fa fa-check-circle"></i> 13+ Years Proven Digital Growth Track Record</li>
+						<li><i class="fa fa-check-circle"></i> 900+ Enterprise &amp; Startup Projects Delivered</li>
+						<li><i class="fa fa-check-circle"></i> 100% White-Hat &amp; Algorithm-Compliant Strategies</li>
+					</ul>
+				</div>
+
+				<!-- Expert 2: In-House Specialists Team -->
+				<div class="kdm-expert-card">
+					<div class="kdm-expert-header-box">
+						<div class="kdm-expert-avatar team">32+</div>
+						<div class="kdm-expert-name-title">
+							<h3 class="kdm-expert-name">In-House Marketing Specialists Team</h3>
+							<span class="kdm-expert-role">Dedicated Regional Growth Operations</span>
+						</div>
+					</div>
+					<p class="kdm-expert-bio">
+						Our dedicated team of 32+ Google and Meta certified specialists includes Technical SEO Engineers, PPC Campaign Analysts, Social Media Strategists, UI/UX Web Developers, and High-Intent Copywriters working full-time on your custom marketing campaign.
+					</p>
+					<ul class="kdm-expert-list">
+						<li><i class="fa fa-check-circle"></i> 32+ Full-Time In-House Engineers &amp; Strategists</li>
+						<li><i class="fa fa-check-circle"></i> Dedicated Account Managers &amp; Weekly KPI Reporting</li>
+						<li><i class="fa fa-check-circle"></i> Rapid Turnaround &amp; Continuous A/B Testing</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 10. WHAT OUR CLIENTS SAY (TESTIMONIALS SECTION) ===== -->
+	<section class="kdm-testimonial-section">
+		<div class="container">
+			<div class="text-center" style="margin-bottom: 40px;">
+				<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
+					<i class="fa fa-star"></i> CLIENT SUCCESS STORIES
+				</span>
+				<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin-bottom: 12px;">
+					What Our Clients Say in <span style="color: #0284c7;">Raipur</span>
+				</h2>
+				<p style="font-size: 15.5px; color: #64748b; max-width: 720px; margin: 0 auto;">
+					Hear from real business owners who transformed their customer pipeline and accelerated revenue growth with King of Digital Marketing.
+				</p>
+			</div>
+
+			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
+				<!-- Review 1 -->
+				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
+					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
+					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
+						"King of Digital Marketing completely turned around our customer inquiries in Raipur. Within 60 days of launching our local SEO and Google Ads campaigns, our inquiries surged by 300%. Gaurav Dubey and his team are true professionals."
+					</p>
+					<div style="display: flex; align-items: center; gap: 12px;">
+						<div style="width: 44px; height: 44px; border-radius: 50%; background: #0284c7; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">AK</div>
+						<div>
+							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Anil Kumar</h4>
+							<span style="font-size: 12.5px; color: #64748b;">Managing Director, Raipur Enterprises</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Review 2 -->
+				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
+					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
+					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
+						"We were struggling to get consistent client consultations for our clinic in Raipur. King of Digital Marketing optimized our Google Map listing and ran targeted local search ads. Now we get 15+ daily verified appointments!"
+					</p>
+					<div style="display: flex; align-items: center; gap: 12px;">
+						<div style="width: 44px; height: 44px; border-radius: 50%; background: #10b981; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">DS</div>
+						<div>
+							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Dr. S. K. Sharma</h4>
+							<span style="font-size: 12.5px; color: #64748b;">Senior Consultant, Raipur Clinic</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Review 3 -->
+				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
+					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
+					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
+						"Honest pricing, clear monthly reports, and exceptional lead quality. They redesigned our website and took our organic rankings to page 1 for our top commercial keywords in Raipur. Highly recommended agency!"
+					</p>
+					<div style="display: flex; align-items: center; gap: 12px;">
+						<div style="width: 44px; height: 44px; border-radius: 50%; background: #8b5cf6; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">RP</div>
+						<div>
+							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Rajesh Patel</h4>
+							<span style="font-size: 12.5px; color: #64748b;">Founder, Raipur Growth Ventures</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 11. FAQS & GRAND OFFERS SECTION ===== -->
+	<section class="kdm-faq-section" style="background: #f8fafc; padding: 75px 0;">
+		<div class="container">
+			<div class="row">
+				<!-- 15 Location-Based Interactive Accordion FAQs -->
+				<div class="col-md-6">
+					<div class="kdm-faq-header-left">
+						<span class="kdm-faq-badge"><i class="fa fa-question-circle"></i> FREQUENTLY ASKED QUESTIONS</span>
+						<h2 class="kdm-faq-title">FAQs About <strong>SEO Services in Raipur</strong></h2>
+						<p class="kdm-faq-subtitle">Everything you need to know about our proven digital marketing and SEO methodology in Raipur.</p>
+					</div>
+
+					<div class="kdm-faq-accordion">
+						<!-- Q1 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.1. Why is King of Digital Marketing considered the best SEO Services in Raipur?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of experience</strong>, <strong>900+ successful client campaigns</strong>, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across Raipur.</p>
+							</div>
+						</div>
+
+						<!-- Q2 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.2. What digital marketing services do you provide in Raipur?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide 360-degree digital marketing solutions including Search Engine Optimization (SEO &amp; Local Map Ranking), Google Ads / PPC Management, Social Media Marketing (Facebook &amp; Instagram Meta Ads), Lead Generation Services, High-Converting Website Design &amp; Development, Online Reputation Management (ORM), YouTube Video Promotion, and AI Marketing Automation.</p>
+							</div>
+						</div>
+
+						<!-- Q3 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.3. How quickly can my Raipur business start generating leads?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With Google Ads and Meta Ads campaigns, qualified inbound inquiries and phone calls start flowing within <strong>24 to 48 hours</strong> of campaign launch. For organic SEO and Google Map Pack rankings, sustainable top-tier page 1 results are typically established within 3 to 6 months.</p>
+							</div>
+						</div>
+
+						<!-- Q4 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.4. Which local areas in Raipur do you cover?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We serve businesses across all major commercial, industrial, and residential hubs in Raipur including Pandri, Telibandha, Shankar Nagar, VIP Road, GE Road, Civil Lines, Samta Colony, Devendra Nagar, Tatibandh, and Naya Raipur.</p>
+							</div>
+						</div>
+
+						<!-- Q5 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.5. How does local SEO help coaching institutes, doctors, and retailers in Raipur?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential students, patients, or shoppers search for services near them in Raipur, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic.</p>
+							</div>
+						</div>
+
+						<!-- Q6 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.6. Do you offer customized packages for small businesses and startups in Raipur?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide flexible, affordable digital marketing packages starting from basic local visibility plans to advanced multi-channel performance packages tailored to your budget and growth targets.</p>
+							</div>
+						</div>
+
+						<!-- Q7 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.7. Are your SEO techniques 100% White-Hat and penalty-safe?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100%. We strictly follow Google Search Essentials and Webmaster Guidelines. We focus on technical site health, high-quality E-E-A-T content, and genuine high-authority editorial backlinks.</p>
+							</div>
+						</div>
+
+						<!-- Q8 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.8. How do you track and report campaign progress?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We believe in 100% transparency. Clients receive comprehensive monthly reports covering target keyword rank movements, Google Analytics 4 (GA4) traffic, conversions, lead counts, and return on investment (ROI).</p>
+							</div>
+						</div>
+
+						<!-- Q9 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.9. What is the difference between SEO and Google Ads (PPC) for my Raipur business?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Google Ads (PPC) delivers instant top-of-page visibility and immediate inquiries from day one through paid advertising. SEO builds long-term organic authority and continuous free search traffic over time. A combination of both gives maximum market dominance.</p>
+							</div>
+						</div>
+
+						<!-- Q10 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.10. Can you redesign my existing website to generate more leads?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely. Our UI/UX design team creates fast-loading, mobile-friendly, conversion-optimized websites with clean layouts, quick inquiry forms, and WhatsApp integration to maximize visitor-to-lead conversion rates.</p>
+							</div>
+						</div>
+
+						<!-- Q11 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.11. Do I get a dedicated account manager for my campaign?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, every client is assigned a dedicated account manager along with direct oversight from founder Gaurav Dubey to ensure seamless communication, strategy execution, and regular campaign updates.</p>
+							</div>
+						</div>
+
+						<!-- Q12 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.12. What industries have you worked with in Raipur?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have executed successful campaigns across 150+ industry verticals including Education &amp; Coaching in GE Road Educational Area, Healthcare &amp; Hospitals in Shankar Nagar Medical Zone, Real Estate in VIP Road & Naya Raipur, E-Commerce, Astrology, Hair Transplant, Study Abroad, Travel &amp; Tourism, Manufacturing, and Professional Local Services.</p>
+							</div>
+						</div>
+
+						<!-- Q13 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.13. How do you optimize Google My Business (GMB) for local Raipur searches?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We optimize your GMB profile with verified business categories, geo-tagged photos, localized service descriptions, regular posts, review generation strategies, and accurate local NAP (Name, Address, Phone) citations.</p>
+							</div>
+						</div>
+
+						<!-- Q14 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.14. How can Social Media Marketing (SMM) help grow my brand in Raipur?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in Raipur, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads.</p>
+							</div>
+						</div>
+
+						<!-- Q15 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.15. How do I get started with King of Digital Marketing in Raipur?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can request a free digital marketing growth strategy call and website audit by filling out our online form or contacting our team directly at <strong>+91-9555696058</strong> or <strong>info@kingofdigitalmarketing.com</strong>.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 3 High-Converting Dark Theme Grand Offers -->
+				<div class="col-md-6">
+					<h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups &amp; Businesses in Raipur</strong></h2>
+
+					<div class="kdm-offer-dark-list">
+						<!-- Offer 1 -->
+						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
+							<div class="kdm-offer-dark-icon">
+								<svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="60" height="60" rx="14" fill="url(#num_grad_d1)" />
+									<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<defs>
+										<linearGradient id="num_grad_d1" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#0284c7" />
+											<stop offset="1" stop-color="#0369a1" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<div class="kdm-offer-dark-content">
+								<h4>Startup Digital Booster Offer</h4>
+								<p class="kdm-offer-dark-value">Get 10% OFF</p>
+								<h5 class="kdm-offer-dark-sub">On Quarterly Marketing &amp; SEO Package</h5>
+								<h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF plus free audit in Raipur!</h5>
+							</div>
+						</div>
+
+						<!-- Offer 2 -->
+						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
+							<div class="kdm-offer-dark-icon">
+								<svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="60" height="60" rx="14" fill="url(#num_grad_d2)" />
+									<line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
+									<defs>
+										<linearGradient id="num_grad_d2" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#0ea5e9" />
+											<stop offset="1" stop-color="#0284c7" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<div class="kdm-offer-dark-content">
+								<h4>Growth Marketing Plan Offer</h4>
+								<p class="kdm-offer-dark-value">Get 15% OFF</p>
+								<h5 class="kdm-offer-dark-sub">On 6-Months Multi-Channel Package</h5>
+								<h5 class="kdm-offer-dark-desc">Lock in long-term organic growth and scale customer acquisition in Raipur!</h5>
+							</div>
+						</div>
+
+						<!-- Offer 3 -->
+						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
+							<div class="kdm-offer-dark-icon">
+								<svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="60" height="60" rx="14" fill="url(#num_grad_d3)" />
+									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5" />
+									<defs>
+										<linearGradient id="num_grad_d3" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1e293b" />
+											<stop offset="1" stop-color="#0f172a" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<div class="kdm-offer-dark-content">
+								<h4>Premium Market Dominance Offer</h4>
+								<p class="kdm-offer-dark-value">Get 20% OFF</p>
+								<h5 class="kdm-offer-dark-sub">On 12-Month Annual Growth Package</h5>
+								<h5 class="kdm-offer-dark-desc">Dominate Raipur search results all year long while saving BIG!</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- JS Dependencies -->
+	<script src="js/international-page.js"></script>
+	<script src="js/kdm-faq.js"></script>
 </asp:Content>

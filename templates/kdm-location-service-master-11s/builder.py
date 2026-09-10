@@ -1,13 +1,754 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
+#!/usr/bin/env python3
+"""
+KDM Location Service Master 11S (KDM-LOC-11S) Bulk Page Generator.
+Generates 100% compliant, high-converting 11-section location service pages for King of Digital Marketing.
+"""
+
+import os
+import re
+
+# Comprehensive configuration for all 47 location pages
+LOCATION_CONFIGS = [
+    # 1. Chandigarh
+    {
+        "filename": "digital-marketing-company-in-chandigarh.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Chandigarh",
+        "state_name": "Chandigarh",
+        "country": "IN",
+        "lat": "30.7333",
+        "lng": "76.7794",
+        "local_areas": "Sector 17, Sector 35, Sector 22, Sector 8, Mohali Phase 7, Panchkula Sector 5, IT Park, Zirakpur, Industrial Area Phase 1 & 2, and the Tricity region",
+        "special_coaching_zone": "Sector 34 & Sector 15 Educational Hub",
+        "real_estate_zone": "Zirakpur & Mohali Aerocity",
+        "clinic_zone": "Sector 35 & Mohali Sector 70",
+    },
+    # 2. Bangaluru / Bangalore
+    {
+        "filename": "digital-marketing-company-in-bangaluru.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Bangalore (Bengaluru)",
+        "state_name": "Karnataka",
+        "country": "IN",
+        "lat": "12.9716",
+        "lng": "77.5946",
+        "local_areas": "Indiranagar, Koramangala, Whitefield, HSR Layout, Electronic City, Jayanagar, Marathahalli, BTM Layout, Malleshwaram, MG Road, and Outer Ring Road tech corridors",
+        "special_coaching_zone": "Koramangala & Jayanagar",
+        "real_estate_zone": "Whitefield & Electronic City",
+        "clinic_zone": "Indiranagar & HSR Layout",
+    },
+    # 3. Chennai
+    {
+        "filename": "digital-marketing-company-in-chennai.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Chennai",
+        "state_name": "Tamil Nadu",
+        "country": "IN",
+        "lat": "13.0827",
+        "lng": "80.2707",
+        "local_areas": "T. Nagar, Anna Nagar, OMR (Old Mahabalipuram Road), Velachery, Nungambakkam, Adyar, Guindy, Alwarpet, Porur, Kilpauk, and Chennai IT corridor",
+        "special_coaching_zone": "Anna Nagar & Nungambakkam",
+        "real_estate_zone": "OMR & Porur",
+        "clinic_zone": "T. Nagar & Adyar",
+    },
+    # 4. Kolkata
+    {
+        "filename": "digital-marketing-company-in-kolkata.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Kolkata",
+        "state_name": "West Bengal",
+        "country": "IN",
+        "lat": "22.5726",
+        "lng": "88.3639",
+        "local_areas": "Salt Lake Sector V, New Town, Park Street, Ballygunge, Alipore, Gariahat, Behala, Howrah, Rajarhat, Dum Dum, and Central Kolkata",
+        "special_coaching_zone": "Gariahat & College Street",
+        "real_estate_zone": "New Town & Rajarhat",
+        "clinic_zone": "Park Street & Alipore",
+    },
+    # 5. Hyderabad (spelled: digital-marketing-comapny-in-hyderabad.aspx)
+    {
+        "filename": "digital-marketing-comapny-in-hyderabad.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Hyderabad",
+        "state_name": "Telangana",
+        "country": "IN",
+        "lat": "17.3850",
+        "lng": "78.4867",
+        "local_areas": "Hitec City, Gachibowli, Madhapur, Banjara Hills, Jubilee Hills, Kukatpally, Kondapur, Begumpet, Secunderabad, Ameerpet, and Dilsukhnagar",
+        "special_coaching_zone": "Ameerpet & Dilsukhnagar",
+        "real_estate_zone": "Gachibowli & Kokapet",
+        "clinic_zone": "Banjara Hills & Jubilee Hills",
+    },
+    # 6. Pune (spelled: digital-marketing-comapny-in-pune.aspx)
+    {
+        "filename": "digital-marketing-comapny-in-pune.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Pune",
+        "state_name": "Maharashtra",
+        "country": "IN",
+        "lat": "18.5204",
+        "lng": "73.8567",
+        "local_areas": "Hinjewadi, Baner, Wakad, Viman Nagar, Kharadi, Koregaon Park, Aundh, Kothrud, Hadapsar, Magarpatta, Shivajinagar, and Pimpri-Chinchwad (PCMC)",
+        "special_coaching_zone": "Kothrud & FC Road",
+        "real_estate_zone": "Hinjewadi & Kharadi",
+        "clinic_zone": "Baner & Koregaon Park",
+    },
+    # 7. Ahmedabad
+    {
+        "filename": "digital-marketing-company-in-ahmedabad.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Ahmedabad",
+        "state_name": "Gujarat",
+        "country": "IN",
+        "lat": "23.0225",
+        "lng": "72.5714",
+        "local_areas": "SG Highway, Prahlad Nagar, Navrangpura, Bodakdev, Satellite, Vastrapur, Ashram Road, Maninagar, Chandkheda, Bopal, Sanand, and GIFT City corridor",
+        "special_coaching_zone": "Navrangpura & Ashram Road",
+        "real_estate_zone": "SG Highway & Bopal",
+        "clinic_zone": "Bodakdev & Satellite",
+    },
+    # 8. Mumbai
+    {
+        "filename": "digital-marketing-company-in-mumbai.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Mumbai",
+        "state_name": "Maharashtra",
+        "country": "IN",
+        "lat": "19.0760",
+        "lng": "72.8777",
+        "local_areas": "Andheri West & East, Bandra Kurla Complex (BKC), Powai, Lower Parel, Dadar, Borivali, Goregaon, Malad, Thane, Navi Mumbai, Vashi, and South Mumbai",
+        "special_coaching_zone": "Dadar & Andheri West",
+        "real_estate_zone": "Thane & Navi Mumbai",
+        "clinic_zone": "Bandra & Juhu",
+    },
+    # 9. Jaipur
+    {
+        "filename": "digital-marketing-company-in-jaipur.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Jaipur",
+        "state_name": "Rajasthan",
+        "country": "IN",
+        "lat": "26.9124",
+        "lng": "75.7873",
+        "local_areas": "Vaishali Nagar, Mansarovar, Malviya Nagar, C-Scheme, Raja Park, Tonk Road, Ajmer Road, Jagatpura, Sitapura Industrial Area, and Gopalpura Bypass",
+        "special_coaching_zone": "Gopalpura Bypass & Tonk Road",
+        "real_estate_zone": "Jagatpura & Ajmer Road",
+        "clinic_zone": "Malviya Nagar & C-Scheme",
+    },
+    # 10. Lucknow
+    {
+        "filename": "digital-marketing-company-in-lucknow.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Lucknow",
+        "state_name": "Uttar Pradesh",
+        "country": "IN",
+        "lat": "26.8467",
+        "lng": "80.9462",
+        "local_areas": "Hazratganj, Gomti Nagar, Gomti Nagar Extension, Aliganj, Indira Nagar, Mahanagar, Alambagh, Ashiyana, Rajajipuram, Vibhuti Khand, and Shaheed Path",
+        "special_coaching_zone": "Aliganj & Hazratganj",
+        "real_estate_zone": "Gomti Nagar Extension & Shaheed Path",
+        "clinic_zone": "Gomti Nagar & Mahanagar",
+    },
+    # 11. Bhopal
+    {
+        "filename": "digital-marketing-company-in-bhopal.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Bhopal",
+        "state_name": "Madhya Pradesh",
+        "country": "IN",
+        "lat": "23.2599",
+        "lng": "77.4126",
+        "local_areas": "MP Nagar Zone 1 & 2, Arera Colony, Kolar Road, Hoshangabad Road, TT Nagar, Shahpura, Koh-e-Fiza, Govindpura Industrial Area, Bairagarh, and Ayodhya Bypass",
+        "special_coaching_zone": "MP Nagar Zone 2 & TT Nagar",
+        "real_estate_zone": "Kolar Road & Hoshangabad Road",
+        "clinic_zone": "Arera Colony & Shahpura",
+    },
+    # 12. Indore
+    {
+        "filename": "digital-marketing-company-in-indore.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Indore",
+        "state_name": "Madhya Pradesh",
+        "country": "IN",
+        "lat": "22.7196",
+        "lng": "75.8577",
+        "local_areas": "Vijay Nagar, AB Road, Palasia, MG Road, Bhanwarkuan, Super Corridor, Rau, Sapna Sangeeta, Annapurna, Sanwer Road Industrial Area, and Scheme No 54",
+        "special_coaching_zone": "Bhanwarkuan & Geeta Bhawan",
+        "real_estate_zone": "Super Corridor & Bypass Road",
+        "clinic_zone": "Vijay Nagar & Old Palasia",
+    },
+    # 13. Nagpur
+    {
+        "filename": "digital-marketing-company-in-nagpur.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Nagpur",
+        "state_name": "Maharashtra",
+        "country": "IN",
+        "lat": "21.1458",
+        "lng": "79.0882",
+        "local_areas": "Dharampeth, Sitabuldi, Ramdaspeth, Wardha Road, MIHAN, Sadar, Shankar Nagar, Pratap Nagar, Manish Nagar, IT Park, and Hingna MIDC",
+        "special_coaching_zone": "Reshimbagh & Dharampeth",
+        "real_estate_zone": "MIHAN & Wardha Road",
+        "clinic_zone": "Ramdaspeth & Dhantoli",
+    },
+    # 14. Patna
+    {
+        "filename": "digital-marketing-company-in-patna.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Patna",
+        "state_name": "Bihar",
+        "country": "IN",
+        "lat": "25.5941",
+        "lng": "85.1376",
+        "local_areas": "Boring Road, Kankarbagh, Bailey Road, Frazer Road, Rajendra Nagar, Danapur, Patliputra Colony, Ashiana Nagar, Exhibition Road, Anisabad, and Saguna More",
+        "special_coaching_zone": "Boring Road & Musallahpur Hat",
+        "real_estate_zone": "Bailey Road & Bihta Corridor",
+        "clinic_zone": "Kankarbagh & Rajendra Nagar",
+    },
+    # 15. Bhubaneswar
+    {
+        "filename": "digital-marketing-company-in-bhubaneswar.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Bhubaneswar",
+        "state_name": "Odisha",
+        "country": "IN",
+        "lat": "20.2961",
+        "lng": "85.8245",
+        "local_areas": "Saheed Nagar, Patia, Infocity, Chandrasekharpur, Jayadev Vihar, Nayapalli, Rasulgarh, Khandagiri, Master Canteen, Cuttack Road, and KIIT Square",
+        "special_coaching_zone": "Nayapalli & Master Canteen",
+        "real_estate_zone": "Patia & Pahala",
+        "clinic_zone": "Saheed Nagar & Jayadev Vihar",
+    },
+    # 16. Vadodara
+    {
+        "filename": "digital-marketing-company-in-Vadodara.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Vadodara",
+        "state_name": "Gujarat",
+        "country": "IN",
+        "lat": "22.3072",
+        "lng": "73.1812",
+        "local_areas": "Alkapuri, Sayajigunj, Gotri, Vasna Road, Manjalpur, Karelibaug, Akota, Fatehgunj, Makarpura GIDC, Waghodia Road, and Sevasi",
+        "special_coaching_zone": "Fatehgunj & Sayajigunj",
+        "real_estate_zone": "Sevasi & Vasna-Bhayli Road",
+        "clinic_zone": "Alkapuri & Akota",
+    },
+    # 17. Surat
+    {
+        "filename": "digital-marketing-company-in-surat.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Surat",
+        "state_name": "Gujarat",
+        "country": "IN",
+        "lat": "21.1702",
+        "lng": "72.8311",
+        "local_areas": "Ring Road, Adajan, Vesu, Ghod Dod Road, Piplod, Varachha, Katargam, Athwa Lines, Udhna GIDC, Pal, and Hazira Industrial corridor",
+        "special_coaching_zone": "Ghod Dod Road & Adajan",
+        "real_estate_zone": "Vesu & Pal",
+        "clinic_zone": "Ring Road & Athwa Lines",
+    },
+    # 18. Coimbatore
+    {
+        "filename": "digital-marketing-company-in-coimbatore.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Coimbatore",
+        "state_name": "Tamil Nadu",
+        "country": "IN",
+        "lat": "11.0168",
+        "lng": "76.9558",
+        "local_areas": "RS Puram, Gandhipuram, Peelamedu, Saibaba Colony, Saravanampatti, Avinashi Road, Race Course, Singanallur, Ganapathy, and TIDEL Park IT hub",
+        "special_coaching_zone": "Gandhipuram & Peelamedu",
+        "real_estate_zone": "Saravanampatti & Avinashi Road",
+        "clinic_zone": "RS Puram & Race Course",
+    },
+    # 19. Visakhapatnam
+    {
+        "filename": "digital-marketing-company-in-visakhapatnam.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Visakhapatnam (Vizag)",
+        "state_name": "Andhra Pradesh",
+        "country": "IN",
+        "lat": "17.6868",
+        "lng": "83.2185",
+        "local_areas": "MVP Colony, Dwaraka Nagar, Siripuram, Gajuwaka, Madhurawada IT SEZ, Asilmetta, Rushikonda, Seethammadhara, Daba Gardens, and Autonagar",
+        "special_coaching_zone": "Dwaraka Nagar & Asilmetta",
+        "real_estate_zone": "Madhurawada & Rushikonda",
+        "clinic_zone": "MVP Colony & Maharanipeta",
+    },
+    # 20. Ludhiana
+    {
+        "filename": "digital-marketing-company-in-ludhiana.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Ludhiana",
+        "state_name": "Punjab",
+        "country": "IN",
+        "lat": "30.9010",
+        "lng": "75.8573",
+        "local_areas": "Model Town, Sarabha Nagar, Ferozepur Road, Civil Lines, Pakhowal Road, Industrial Area A & B, Focal Point, BRS Nagar, Mall Road, and Dugri",
+        "special_coaching_zone": "Model Town & Sarabha Nagar",
+        "real_estate_zone": "Pakhowal Road & South City",
+        "clinic_zone": "Civil Lines & Mall Road",
+    },
+    # 21. Kanpur
+    {
+        "filename": "digital-marketing-company-in-kanpur.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Kanpur",
+        "state_name": "Uttar Pradesh",
+        "country": "IN",
+        "lat": "26.4499",
+        "lng": "80.3319",
+        "local_areas": "Civil Lines, Kakadeo, Swaroop Nagar, Mall Road, Govind Nagar, Gumti No. 5, Kidwai Nagar, Panki Industrial Area, Fazalganj, and Kalyanpur",
+        "special_coaching_zone": "Kakadeo & Geeta Nagar (Engineering/Medical Hub)",
+        "real_estate_zone": "Kalyanpur & Ganga Barrage Road",
+        "clinic_zone": "Swaroop Nagar & Civil Lines",
+    },
+    # 22. Varanasi
+    {
+        "filename": "digital-marketing-company-in-varanasi.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Varanasi (Kashi)",
+        "state_name": "Uttar Pradesh",
+        "country": "IN",
+        "lat": "25.3176",
+        "lng": "82.9739",
+        "local_areas": "Sigra, Lanka (BHU), Cantt, Mahmoorganj, Rathyatra, Bhelupur, Pandeypur, Durgakund, Godowlia, Shivpur, and Ramnagar Industrial Area",
+        "special_coaching_zone": "Lanka & Durgakund (BHU area)",
+        "real_estate_zone": "Shivpur & Cantt Road",
+        "clinic_zone": "Mahmoorganj & Sigra",
+    },
+    # 23. Raipur
+    {
+        "filename": "digital-marketing-company-in-raipur.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Raipur",
+        "state_name": "Chhattisgarh",
+        "country": "IN",
+        "lat": "21.2514",
+        "lng": "81.6296",
+        "local_areas": "Pandri, Telibandha, Shankar Nagar, VIP Road, GE Road, Civil Lines, Samta Colony, Devendra Nagar, Tatibandh, Urla Industrial Area, and Naya Raipur (Atal Nagar)",
+        "special_coaching_zone": "GE Road & Samta Colony",
+        "real_estate_zone": "VIP Road & Naya Raipur",
+        "clinic_zone": "Shankar Nagar & Devendra Nagar",
+    },
+    # 24. Dehradun
+    {
+        "filename": "digital-marketing-company-in-dehradun.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Dehradun",
+        "state_name": "Uttarakhand",
+        "country": "IN",
+        "lat": "30.3165",
+        "lng": "78.0322",
+        "local_areas": "Rajpur Road, Jakhan, Saharanpur Road, Ballupur, Clement Town, GMS Road, Patel Nagar, Dalanwala, Hathibarkala, Prem Nagar, and IT Park Sahastradhara",
+        "special_coaching_zone": "Karanpur & EC Road",
+        "real_estate_zone": "Rajpur Road & Sahastradhara Road",
+        "clinic_zone": "Dalanwala & Astley Hall",
+    },
+    # 25. Guwahati
+    {
+        "filename": "digital-marketing-company-in-guwahati.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Guwahati",
+        "state_name": "Assam",
+        "country": "IN",
+        "lat": "26.1445",
+        "lng": "91.7362",
+        "local_areas": "GS Road, Paltan Bazaar, Ganeshguri, Christian Basti, Zoo Road, Dispur, Khanapara, Bhangagarh, Pan Bazaar, Jalukbari, and Beltola",
+        "special_coaching_zone": "Pan Bazaar & Silpukhuri",
+        "real_estate_zone": "Khanapara & VIP Road",
+        "clinic_zone": "GS Road & Christian Basti",
+    },
+    # 26. Amritsar
+    {
+        "filename": "digital-marketing-company-in-amritsar.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Amritsar",
+        "state_name": "Punjab",
+        "country": "IN",
+        "lat": "31.6340",
+        "lng": "74.8723",
+        "local_areas": "Ranjit Avenue, Mall Road, Lawrence Road, Civil Lines, Majitha Road, GT Road, Circular Road, Cantonment, Chheharta, and Heritage Street",
+        "special_coaching_zone": "Ranjit Avenue & Lawrence Road",
+        "real_estate_zone": "Airport Road & Majitha Road",
+        "clinic_zone": "Mall Road & Circular Road",
+    },
+    # 27. Ranchi
+    {
+        "filename": "digital-marketing-company-in-ranchi.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Ranchi",
+        "state_name": "Jharkhand",
+        "country": "IN",
+        "lat": "23.3441",
+        "lng": "85.3096",
+        "local_areas": "Main Road, Lalpur, Harmu, Doranda, Kanke Road, Bariatu, Hinoo, Morabadi, Ashok Nagar, Ratu Road, and Namkum Industrial Zone",
+        "special_coaching_zone": "Lalpur & Circular Road",
+        "real_estate_zone": "Kanke Road & Morabadi",
+        "clinic_zone": "Bariatu & Main Road",
+    },
+    # 28. Jodhpur
+    {
+        "filename": "digital-marketing-company-in-jodhpur.aspx",
+        "service_name": "Digital Marketing Company",
+        "service_type": "Digital Marketing & SEO Services",
+        "city_name": "Jodhpur",
+        "state_name": "Rajasthan",
+        "country": "IN",
+        "lat": "26.2389",
+        "lng": "73.0243",
+        "local_areas": "Sardarpura, Ratanada, Shastri Nagar, Pal Road, Paota, Chopasni Housing Board, Bansi Fab Industrial Area, Basni, Mandore, and Residency Road",
+        "special_coaching_zone": "Paota & Sardarpura",
+        "real_estate_zone": "Pal Road & Basni",
+        "clinic_zone": "Shastri Nagar & Ratanada",
+    },
+    # 29. SEO Services in Raipur
+    {
+        "filename": "seo-services-in-raipur.aspx",
+        "service_name": "SEO Services",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Raipur",
+        "state_name": "Chhattisgarh",
+        "country": "IN",
+        "lat": "21.2514",
+        "lng": "81.6296",
+        "local_areas": "Pandri, Telibandha, Shankar Nagar, VIP Road, GE Road, Civil Lines, Samta Colony, Devendra Nagar, Tatibandh, and Naya Raipur",
+        "special_coaching_zone": "GE Road Educational Area",
+        "real_estate_zone": "VIP Road & Naya Raipur",
+        "clinic_zone": "Shankar Nagar Medical Zone",
+    },
+    # 30. SEO Services in Mumbai
+    {
+        "filename": "seo-services-in-mumbai.aspx",
+        "service_name": "SEO Services",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Mumbai",
+        "state_name": "Maharashtra",
+        "country": "IN",
+        "lat": "19.0760",
+        "lng": "72.8777",
+        "local_areas": "Andheri, Bandra Kurla Complex (BKC), Powai, Lower Parel, Dadar, Borivali, Malad, Thane, Navi Mumbai, and South Mumbai corporate belt",
+        "special_coaching_zone": "Dadar & Andheri West",
+        "real_estate_zone": "Thane & Navi Mumbai",
+        "clinic_zone": "Bandra & Juhu",
+    },
+    # 31. SEO Company in Bhopal
+    {
+        "filename": "seo-company-in-bhopal.aspx",
+        "service_name": "SEO Company",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Bhopal",
+        "state_name": "Madhya Pradesh",
+        "country": "IN",
+        "lat": "23.2599",
+        "lng": "77.4126",
+        "local_areas": "MP Nagar, Arera Colony, Kolar Road, Hoshangabad Road, TT Nagar, Shahpura, Koh-e-Fiza, and Govindpura Industrial Area",
+        "special_coaching_zone": "MP Nagar Zone 1 & 2",
+        "real_estate_zone": "Kolar Road & Hoshangabad Road",
+        "clinic_zone": "Arera Colony & Shahpura",
+    },
+    # 32. SEO Company in Indore
+    {
+        "filename": "seo-company-in-indore.aspx",
+        "service_name": "SEO Company",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Indore",
+        "state_name": "Madhya Pradesh",
+        "country": "IN",
+        "lat": "22.7196",
+        "lng": "75.8577",
+        "local_areas": "Vijay Nagar, AB Road, Palasia, MG Road, Bhanwarkuan, Super Corridor, Rau, and Scheme 54 commercial hub",
+        "special_coaching_zone": "Bhanwarkuan & Geeta Bhawan",
+        "real_estate_zone": "Super Corridor & Bypass Road",
+        "clinic_zone": "Vijay Nagar & Palasia",
+    },
+    # 33. SEO Company in Okhla
+    {
+        "filename": "seo-company-in-okhla.aspx",
+        "service_name": "SEO Company",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Okhla (Delhi NCR)",
+        "state_name": "Delhi",
+        "country": "IN",
+        "lat": "28.5355",
+        "lng": "77.2732",
+        "local_areas": "Okhla Industrial Area Phase 1, Phase 2, Phase 3, Okhla NSIC, Jamia Nagar, Jasola Vihar, Sarita Vihar, Kalkaji, and Govindpuri",
+        "special_coaching_zone": "Kalkaji & Jamia Nagar",
+        "real_estate_zone": "Jasola Vihar & Sarita Vihar",
+        "clinic_zone": "Kalkaji & Greater Kailash",
+    },
+    # 34. SEO Services in Chennai, Bangalore, Hyderabad & Kolkata
+    {
+        "filename": "seo-services-in-chennai-banglore-hyderabad-kolkata.aspx",
+        "service_name": "SEO Services",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Chennai, Bangalore, Hyderabad & Kolkata",
+        "state_name": "South & East India Metros",
+        "country": "IN",
+        "lat": "13.0827",
+        "lng": "80.2707",
+        "local_areas": "OMR Chennai, Koramangala Bangalore, Hitec City Hyderabad, and Salt Lake Kolkata tech & industrial business corridors",
+        "special_coaching_zone": "National Examination Centers across South & East India",
+        "real_estate_zone": "Tier-1 Metro IT Real Estate Hubs",
+        "clinic_zone": "Super-Speciality Healthcare Centers",
+    },
+    # 35. SEO Services Company in Bangalore
+    {
+        "filename": "seo-services-company-in-bangalore.aspx",
+        "service_name": "SEO Services Company",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Bangalore",
+        "state_name": "Karnataka",
+        "country": "IN",
+        "lat": "12.9716",
+        "lng": "77.5946",
+        "local_areas": "Indiranagar, Koramangala, Whitefield, HSR Layout, Electronic City, Jayanagar, Marathahalli, BTM Layout, and MG Road",
+        "special_coaching_zone": "Koramangala & Jayanagar",
+        "real_estate_zone": "Whitefield & Electronic City",
+        "clinic_zone": "Indiranagar & HSR Layout",
+    },
+    # 36. SEO Services in Gurgaon & Delhi NCR
+    {
+        "filename": "seo-services-in-gurgaon-delhi-ncr.aspx",
+        "service_name": "SEO Services",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Gurgaon (Gurugram) & Delhi NCR",
+        "state_name": "Haryana",
+        "country": "IN",
+        "lat": "28.4595",
+        "lng": "77.0266",
+        "local_areas": "Cyber City, Golf Course Road, Golf Course Extension, Sohna Road, MG Road, Udyog Vihar Phase 1-5, Sector 29, Sector 56, and Manesar Industrial Belt",
+        "special_coaching_zone": "Old DLF Colony & Sector 14",
+        "real_estate_zone": "Golf Course Extension & Dwarka Expressway",
+        "clinic_zone": "Sushant Lok & Sector 54",
+    },
+    # 37. SEO Company in Nehru Place
+    {
+        "filename": "seo-company-in-nehru-place.aspx",
+        "service_name": "SEO Company",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Nehru Place (South Delhi)",
+        "state_name": "Delhi",
+        "country": "IN",
+        "lat": "28.5492",
+        "lng": "77.2533",
+        "local_areas": "Nehru Place IT Hub, Kalkaji, Greater Kailash (GK 1 & 2), CR Park, East of Kailash, Okhla, Lajpat Nagar, and South Extension",
+        "special_coaching_zone": "Kalkaji & Lajpat Nagar",
+        "real_estate_zone": "Greater Kailash & CR Park",
+        "clinic_zone": "Nehru Enclave & Greater Kailash",
+    },
+    # 38. SEO Services in Australia, Nepal, USA, UK
+    {
+        "filename": "seo-services-in-australia-nepal-usa-uk.aspx",
+        "service_name": "International SEO Services",
+        "service_type": "Global Search Engine Optimization (SEO)",
+        "city_name": "Australia, USA, UK & Nepal",
+        "state_name": "Global & International Markets",
+        "country": "GLOBAL",
+        "lat": "-33.8688",
+        "lng": "151.2093",
+        "local_areas": "Sydney, Melbourne, Brisbane (Australia), New York, California, Texas (USA), London, Manchester (UK), and Kathmandu (Nepal)",
+        "special_coaching_zone": "Global Higher Ed & Online Learning Academies",
+        "real_estate_zone": "International Property & Relocation Sectors",
+        "clinic_zone": "Medical Tourism & Private Practice Clinics",
+    },
+    # 39. SEO Services in Jharkhand
+    {
+        "filename": "seo-services-in-jharkhand.aspx",
+        "service_name": "SEO Services",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Jharkhand (Ranchi, Jamshedpur, Dhanbad)",
+        "state_name": "Jharkhand",
+        "country": "IN",
+        "lat": "23.3441",
+        "lng": "85.3096",
+        "local_areas": "Ranchi, Jamshedpur (Bistupur, Sakchi), Dhanbad (Bank More), Bokaro Steel City, Deoghar, and Hazaribagh",
+        "special_coaching_zone": "Lalpur Ranchi & Bistupur Jamshedpur",
+        "real_estate_zone": "Kanke Road Ranchi & Circuit House Area Jamshedpur",
+        "clinic_zone": "Bariatu Medical Hub & TMH Zone",
+    },
+    # 40. SEO Services in Lucknow
+    {
+        "filename": "seo-services-in-lucknow.aspx",
+        "service_name": "SEO Services",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Lucknow",
+        "state_name": "Uttar Pradesh",
+        "country": "IN",
+        "lat": "26.8467",
+        "lng": "80.9462",
+        "local_areas": "Hazratganj, Gomti Nagar, Gomti Nagar Extension, Aliganj, Indira Nagar, Mahanagar, Alambagh, and Shaheed Path",
+        "special_coaching_zone": "Aliganj & Hazratganj",
+        "real_estate_zone": "Gomti Nagar Extension & Shaheed Path",
+        "clinic_zone": "Gomti Nagar & Mahanagar",
+    },
+    # 41. SEO Services in Varanasi
+    {
+        "filename": "seo-services-in-varanasi.aspx",
+        "service_name": "SEO Services",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Varanasi (Kashi)",
+        "state_name": "Uttar Pradesh",
+        "country": "IN",
+        "lat": "25.3176",
+        "lng": "82.9739",
+        "local_areas": "Sigra, Lanka (BHU), Cantt, Mahmoorganj, Rathyatra, Bhelupur, Pandeypur, Durgakund, and Ramnagar",
+        "special_coaching_zone": "Lanka & Durgakund",
+        "real_estate_zone": "Shivpur & Cantt Road",
+        "clinic_zone": "Mahmoorganj & Sigra",
+    },
+    # 42. SEO Services in Bihar
+    {
+        "filename": "seo-services-in-bihar.aspx",
+        "service_name": "SEO Services",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Bihar (Patna, Gaya, Muzaffarpur, Bhagalpur)",
+        "state_name": "Bihar",
+        "country": "IN",
+        "lat": "25.5941",
+        "lng": "85.1376",
+        "local_areas": "Patna (Boring Road, Kankarbagh), Gaya, Muzaffarpur, Bhagalpur, Darbhanga, and Purnea commercial hubs",
+        "special_coaching_zone": "Boring Road Patna & Maripur Muzaffarpur",
+        "real_estate_zone": "Bailey Road Patna & Danapur",
+        "clinic_zone": "Kankarbagh & Rajendra Nagar Patna",
+    },
+    # 43. SEO Services in Delhi, Allahabad, Patna & Lucknow
+    {
+        "filename": "seo-services-in-delhi-allahabad-patna-lucknow.aspx",
+        "service_name": "SEO Services",
+        "service_type": "Search Engine Optimization (SEO)",
+        "city_name": "Delhi, Allahabad, Patna & Lucknow",
+        "state_name": "North India Corridor",
+        "country": "IN",
+        "lat": "28.6139",
+        "lng": "77.2090",
+        "local_areas": "Delhi NCR, Civil Lines Prayagraj, Boring Road Patna, and Gomti Nagar Lucknow major North India commercial hubs",
+        "special_coaching_zone": "North India Educational & Civil Services Belts",
+        "real_estate_zone": "Regional Real Estate Corridors",
+        "clinic_zone": "Top Healthcare & Specialist Diagnostic Centers",
+    },
+    # 44. PPC Company in Noida
+    {
+        "filename": "ppc-company-in-noida.aspx",
+        "service_name": "PPC & Google Ads Company",
+        "service_type": "PPC & Google Ads Management",
+        "city_name": "Noida & Greater Noida",
+        "state_name": "Uttar Pradesh",
+        "country": "IN",
+        "lat": "28.5355",
+        "lng": "77.3910",
+        "local_areas": "Sector 18, Sector 62, Sector 63, Sector 150, Noida Expressway, Greater Noida West (Noida Extension), Knowledge Park 1-3, Sector 16 Film City, and Pari Chowk",
+        "special_coaching_zone": "Sector 62 & Knowledge Park Greater Noida",
+        "real_estate_zone": "Noida Expressway & Sector 150",
+        "clinic_zone": "Sector 18 & Sector 50",
+    },
+    # 45. PPC Company in Dubai UAE
+    {
+        "filename": "ppc-company-in-dubai-uae.aspx",
+        "service_name": "PPC & Google Ads Company",
+        "service_type": "PPC & Performance Marketing",
+        "city_name": "Dubai (UAE)",
+        "state_name": "Dubai",
+        "country": "AE",
+        "lat": "25.2048",
+        "lng": "55.2708",
+        "local_areas": "Downtown Dubai, Business Bay, Dubai Marina, Jumeirah Lakes Towers (JLT), DIFC, Deira, Bur Dubai, Sheikh Zayed Road, Al Barsha, and Dubai Silicon Oasis",
+        "special_coaching_zone": "Dubai Knowledge Park & Academic City",
+        "real_estate_zone": "Downtown Dubai, Palm Jumeirah & Dubai Marina",
+        "clinic_zone": "Dubai Healthcare City & Jumeirah",
+    },
+    # 46. PPC Company in Mumbai
+    {
+        "filename": "ppc-company-in-mumbai.aspx",
+        "service_name": "PPC & Google Ads Company",
+        "service_type": "PPC & Google Ads Management",
+        "city_name": "Mumbai",
+        "state_name": "Maharashtra",
+        "country": "IN",
+        "lat": "19.0760",
+        "lng": "72.8777",
+        "local_areas": "Andheri, BKC (Bandra Kurla Complex), Powai, Lower Parel, Dadar, Borivali, Malad, Thane, Navi Mumbai, and Nariman Point",
+        "special_coaching_zone": "Dadar & Andheri West",
+        "real_estate_zone": "Thane, Navi Mumbai & Worli",
+        "clinic_zone": "Bandra & Juhu",
+    },
+    # 47. PPC Company in Gurgaon
+    {
+        "filename": "ppc-company-in-gurgaon.aspx",
+        "service_name": "PPC & Google Ads Company",
+        "service_type": "PPC & Google Ads Management",
+        "city_name": "Gurgaon (Gurugram)",
+        "state_name": "Haryana",
+        "country": "IN",
+        "lat": "28.4595",
+        "lng": "77.0266",
+        "local_areas": "Cyber City, Golf Course Road, Sohna Road, MG Road, Udyog Vihar, Sector 29, Golf Course Extension, and Dwarka Expressway corporate corridors",
+        "special_coaching_zone": "Sector 14 & Old DLF",
+        "real_estate_zone": "Golf Course Extension & Dwarka Expressway",
+        "clinic_zone": "Sushant Lok & Sector 54",
+    },
+]
+
+
+def generate_page(config):
+    filename = config["filename"]
+    service_name = config["service_name"]
+    service_type = config["service_type"]
+    city_name = config["city_name"]
+    state_name = config["state_name"]
+    country = config["country"]
+    lat = config["lat"]
+    lng = config["lng"]
+    local_areas = config["local_areas"]
+    special_coaching_zone = config.get("special_coaching_zone", f"Top Coaching Centers in {city_name}")
+    real_estate_zone = config.get("real_estate_zone", f"Leading Developers in {city_name}")
+    clinic_zone = config.get("clinic_zone", f"Specialist Healthcare Clinics in {city_name}")
+
+    # Canonical & Slugs
+    url_slug = filename.replace(".aspx", "")
+    url_path = filename
+
+    # Uppercase variations
+    service_name_upper = service_name.upper()
+    city_name_upper = city_name.upper()
+
+    content = f"""<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-	<title>SEO Services in Delhi, Allahabad, Patna & Lucknow | Best SEO Services Agency in Delhi, Allahabad, Patna & Lucknow - King of Digital Marketing</title>
-	<meta name="keywords" content="SEO Services in Delhi, Allahabad, Patna & Lucknow, Best SEO Services Agency in Delhi, Allahabad, Patna & Lucknow, Top SEO Services Company in Delhi, Allahabad, Patna & Lucknow, SEO Services Services in Delhi, Allahabad, Patna & Lucknow, SEO Company in Delhi, Allahabad, Patna & Lucknow, PPC Agency in Delhi, Allahabad, Patna & Lucknow, Social Media Marketing Delhi, Allahabad, Patna & Lucknow, Lead Generation Delhi, Allahabad, Patna & Lucknow">
-	<meta name="description" content="Looking for the best SEO Services in Delhi, Allahabad, Patna & Lucknow? King of Digital Marketing delivers high-ROI SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation with guaranteed results. Call +919555696058.">
-	<link rel="canonical" href="https://www.kingofdigitalmarketing.com/seo-services-in-delhi-allahabad-patna-lucknow.aspx" />
-	<meta property="og:title" content="Best SEO Services in Delhi, Allahabad, Patna & Lucknow | Top SEO Services Agency in Delhi, Allahabad, Patna & Lucknow">
-	<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/seo-services-in-delhi-allahabad-patna-lucknow.jpg">
-	<meta property="og:description" content="Award-winning SEO Services in Delhi, Allahabad, Patna & Lucknow offering SEO, Google Ads, Meta Ads, and Inbound Lead Generation. 13+ years experience, 900+ projects completed.">
-	<meta property="og:url" content="https://www.kingofdigitalmarketing.com/seo-services-in-delhi-allahabad-patna-lucknow.aspx">
+	<title>{service_name} in {city_name} | Best {service_name} Agency in {city_name} - King of Digital Marketing</title>
+	<meta name="keywords" content="{service_name} in {city_name}, Best {service_name} Agency in {city_name}, Top {service_name} Company in {city_name}, {service_name} Services in {city_name}, SEO Company in {city_name}, PPC Agency in {city_name}, Social Media Marketing {city_name}, Lead Generation {city_name}">
+	<meta name="description" content="Looking for the best {service_name} in {city_name}? King of Digital Marketing delivers high-ROI SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation with guaranteed results. Call +919555696058.">
+	<link rel="canonical" href="https://www.kingofdigitalmarketing.com/{url_path}" />
+	<meta property="og:title" content="Best {service_name} in {city_name} | Top {service_name} Agency in {city_name}">
+	<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/{url_slug}.jpg">
+	<meta property="og:description" content="Award-winning {service_name} in {city_name} offering SEO, Google Ads, Meta Ads, and Inbound Lead Generation. 13+ years experience, 900+ projects completed.">
+	<meta property="og:url" content="https://www.kingofdigitalmarketing.com/{url_path}">
 	<meta property="og:type" content="website">
 	<meta name="twitter:card" content="summary_large_image">
 	<link rel="stylesheet" href="css/home-custom.css?v=25.0">
@@ -16,243 +757,243 @@
 
 	<!-- ===== LOCALBUSINESS & SERVICE JSON-LD SCHEMA ===== -->
 	<script type="application/ld+json">
-	{
+	{{
 	  "@context": "https://schema.org",
 	  "@graph": [
-	    {
+	    {{
 	      "@type": "LocalBusiness",
 	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing - Delhi, Allahabad, Patna & Lucknow",
-	      "url": "https://www.kingofdigitalmarketing.com/seo-services-in-delhi-allahabad-patna-lucknow.aspx",
+	      "name": "King of Digital Marketing - {city_name}",
+	      "url": "https://www.kingofdigitalmarketing.com/{url_path}",
 	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/seo-services-in-delhi-allahabad-patna-lucknow.jpg",
-	      "description": "Leading SEO Services in Delhi, Allahabad, Patna & Lucknow offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation.",
+	      "image": "https://www.kingofdigitalmarketing.com/images/{url_slug}.jpg",
+	      "description": "Leading {service_name} in {city_name} offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation.",
 	      "telephone": "+91-9555696058",
 	      "email": "info@kingofdigitalmarketing.com",
 	      "priceRange": "$$",
-	      "address": {
+	      "address": {{
 	        "@type": "PostalAddress",
-	        "addressLocality": "Delhi, Allahabad, Patna & Lucknow",
-	        "addressRegion": "North India Corridor",
-	        "addressCountry": "IN"
-	      },
-	      "geo": {
+	        "addressLocality": "{city_name}",
+	        "addressRegion": "{state_name}",
+	        "addressCountry": "{country}"
+	      }},
+	      "geo": {{
 	        "@type": "GeoCoordinates",
-	        "latitude": "28.6139",
-	        "longitude": "77.2090"
-	      },
+	        "latitude": "{lat}",
+	        "longitude": "{lng}"
+	      }},
 	      "openingHoursSpecification": [
-	        {
+	        {{
 	          "@type": "OpeningHoursSpecification",
 	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
 	          "opens": "09:30",
 	          "closes": "19:00"
-	        }
+	        }}
 	      ],
-	      "aggregateRating": {
+	      "aggregateRating": {{
 	        "@type": "AggregateRating",
 	        "ratingValue": "4.9",
 	        "reviewCount": "240",
 	        "bestRating": "5"
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Service",
-	      "@id": "https://www.kingofdigitalmarketing.com/seo-services-in-delhi-allahabad-patna-lucknow.aspx#service",
-	      "name": "SEO Services in Delhi, Allahabad, Patna & Lucknow",
-	      "serviceType": "Search Engine Optimization (SEO)",
-	      "provider": {
+	      "@id": "https://www.kingofdigitalmarketing.com/{url_path}#service",
+	      "name": "{service_name} in {city_name}",
+	      "serviceType": "{service_type}",
+	      "provider": {{
 	        "@type": "LocalBusiness",
 	        "name": "King of Digital Marketing"
-	      },
-	      "areaServed": {
+	      }},
+	      "areaServed": {{
 	        "@type": "City",
-	        "name": "Delhi, Allahabad, Patna & Lucknow"
-	      },
-	      "hasOfferCatalog": {
+	        "name": "{city_name}"
+	      }},
+	      "hasOfferCatalog": {{
 	        "@type": "OfferCatalog",
 	        "name": "Digital Marketing & SEO Services",
 	        "itemListElement": [
-	          {
+	          {{
 	            "@type": "Offer",
-	            "itemOffered": {
+	            "itemOffered": {{
 	              "@type": "Service",
 	              "name": "Search Engine Optimization (SEO)"
-	            }
-	          },
-	          {
+	            }}
+	          }},
+	          {{
 	            "@type": "Offer",
-	            "itemOffered": {
+	            "itemOffered": {{
 	              "@type": "Service",
 	              "name": "Google Ads / PPC Management"
-	            }
-	          },
-	          {
+	            }}
+	          }},
+	          {{
 	            "@type": "Offer",
-	            "itemOffered": {
+	            "itemOffered": {{
 	              "@type": "Service",
 	              "name": "Social Media Marketing (SMM)"
-	            }
-	          },
-	          {
+	            }}
+	          }},
+	          {{
 	            "@type": "Offer",
-	            "itemOffered": {
+	            "itemOffered": {{
 	              "@type": "Service",
 	              "name": "Lead Generation Services"
-	            }
-	          }
+	            }}
+	          }}
 	        ]
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "BreadcrumbList",
 	      "itemListElement": [
-	        {
+	        {{
 	          "@type": "ListItem",
 	          "position": 1,
 	          "name": "Home",
 	          "item": "https://www.kingofdigitalmarketing.com/"
-	        },
-	        {
+	        }},
+	        {{
 	          "@type": "ListItem",
 	          "position": 2,
-	          "name": "SEO Services in Delhi, Allahabad, Patna & Lucknow",
-	          "item": "https://www.kingofdigitalmarketing.com/seo-services-in-delhi-allahabad-patna-lucknow.aspx"
-	        }
+	          "name": "{service_name} in {city_name}",
+	          "item": "https://www.kingofdigitalmarketing.com/{url_path}"
+	        }}
 	      ]
-	    }
+	    }}
 	  ]
-	}
+	}}
 	</script>
 
 	<!-- ===== FAQPAGE JSON-LD STRUCTURED DATA SCHEMA ===== -->
 	<script type="application/ld+json">
-	{
+	{{
 	  "@context": "https://schema.org",
 	  "@type": "FAQPage",
 	  "mainEntity": [
-	    {
+	    {{
 	      "@type": "Question",
-	      "name": "Why is King of Digital Marketing considered the best SEO Services in Delhi, Allahabad, Patna & Lucknow?",
-	      "acceptedAnswer": {
+	      "name": "Why is King of Digital Marketing considered the best {service_name} in {city_name}?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
-	        "text": "With 13+ years of proven industry leadership, 900+ successful client campaigns, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across Delhi, Allahabad, Patna & Lucknow."
-	      }
-	    },
-	    {
+	        "text": "With 13+ years of proven industry leadership, 900+ successful client campaigns, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across {city_name}."
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "What digital marketing services do you provide in Delhi, Allahabad, Patna & Lucknow?",
-	      "acceptedAnswer": {
+	      "name": "What digital marketing services do you provide in {city_name}?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "We provide 360-degree digital marketing solutions including Search Engine Optimization (SEO & Local Map Ranking), Google Ads / PPC Management, Social Media Marketing (Facebook & Instagram Meta Ads), Lead Generation Services, High-Converting Website Design & Development, Online Reputation Management (ORM), YouTube Video Promotion, and AI Marketing Automation."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "How quickly can my Delhi, Allahabad, Patna & Lucknow business start generating leads with digital marketing?",
-	      "acceptedAnswer": {
+	      "name": "How quickly can my {city_name} business start generating leads with digital marketing?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "With Google Ads and Meta Ads campaigns, qualified inbound inquiries and phone calls start flowing within 24 to 48 hours of campaign launch. For organic SEO and Google Map Pack rankings, sustainable top-tier page 1 results are typically established within 3 to 6 months."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "Which local areas in Delhi, Allahabad, Patna & Lucknow do you cover?",
-	      "acceptedAnswer": {
+	      "name": "Which local areas in {city_name} do you cover?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
-	        "text": "We serve businesses across all major commercial, industrial, and residential hubs in Delhi, Allahabad, Patna & Lucknow including Delhi NCR, Civil Lines Prayagraj, Boring Road Patna, and Gomti Nagar Lucknow major North India commercial hubs."
-	      }
-	    },
-	    {
+	        "text": "We serve businesses across all major commercial, industrial, and residential hubs in {city_name} including {local_areas}."
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "How does local SEO help coaching institutes, doctors, and retailers in Delhi, Allahabad, Patna & Lucknow?",
-	      "acceptedAnswer": {
+	      "name": "How does local SEO help coaching institutes, doctors, and retailers in {city_name}?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
-	        "text": "Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential students, patients, or shoppers search for services near them in Delhi, Allahabad, Patna & Lucknow, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic."
-	      }
-	    },
-	    {
+	        "text": "Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential students, patients, or shoppers search for services near them in {city_name}, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic."
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "Do you offer customized packages for small businesses and startups in Delhi, Allahabad, Patna & Lucknow?",
-	      "acceptedAnswer": {
+	      "name": "Do you offer customized packages for small businesses and startups in {city_name}?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "Yes! We provide flexible, affordable digital marketing packages starting from basic local visibility plans to advanced multi-channel performance packages tailored to your budget and growth targets."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
 	      "name": "Are your SEO techniques 100% White-Hat and penalty-safe?",
-	      "acceptedAnswer": {
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "Yes, 100%. We strictly follow Google Search Essentials and Webmaster Guidelines. We focus on technical site health, high-quality E-E-A-T content, and genuine high-authority editorial backlinks."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
 	      "name": "How do you track and report campaign progress?",
-	      "acceptedAnswer": {
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "We believe in 100% transparency. Clients receive comprehensive monthly reports covering target keyword rank movements, Google Analytics 4 (GA4) traffic, conversions, lead counts, and return on investment (ROI)."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "What is the difference between SEO and Google Ads (PPC) for my Delhi, Allahabad, Patna & Lucknow business?",
-	      "acceptedAnswer": {
+	      "name": "What is the difference between SEO and Google Ads (PPC) for my {city_name} business?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "Google Ads (PPC) delivers instant top-of-page visibility and immediate inquiries from day one through paid advertising. SEO builds long-term organic authority and continuous free search traffic over time. A combination of both gives maximum market dominance."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
 	      "name": "Can you redesign my existing website to generate more leads?",
-	      "acceptedAnswer": {
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "Absolutely. Our UI/UX design team creates fast-loading, mobile-friendly, conversion-optimized websites with clean layouts, quick inquiry forms, and WhatsApp integration to maximize visitor-to-lead conversion rates."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
 	      "name": "Do I get a dedicated account manager for my campaign?",
-	      "acceptedAnswer": {
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "Yes, every client is assigned a dedicated account manager along with direct oversight from founder Gaurav Dubey to ensure seamless communication, strategy execution, and regular campaign updates."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "What industries have you worked with in Delhi, Allahabad, Patna & Lucknow?",
-	      "acceptedAnswer": {
+	      "name": "What industries have you worked with in {city_name}?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "We have executed successful campaigns across 150+ industry verticals including Education & Coaching, Healthcare & Hospitals, Real Estate, E-Commerce, Astrology, Hair Transplant, Study Abroad, Travel & Tourism, Manufacturing, and Professional Local Services."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "How do you optimize Google My Business (GMB) for local searches in Delhi, Allahabad, Patna & Lucknow?",
-	      "acceptedAnswer": {
+	      "name": "How do you optimize Google My Business (GMB) for local searches in {city_name}?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "We optimize your GMB profile with verified business categories, geo-tagged photos, localized service descriptions, regular posts, review generation strategies, and accurate local NAP (Name, Address, Phone) citations."
-	      }
-	    },
-	    {
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "How can Social Media Marketing (SMM) help grow my brand in Delhi, Allahabad, Patna & Lucknow?",
-	      "acceptedAnswer": {
+	      "name": "How can Social Media Marketing (SMM) help grow my brand in {city_name}?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
-	        "text": "Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in Delhi, Allahabad, Patna & Lucknow, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads."
-	      }
-	    },
-	    {
+	        "text": "Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in {city_name}, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads."
+	      }}
+	    }},
+	    {{
 	      "@type": "Question",
-	      "name": "How do I get started with King of Digital Marketing in Delhi, Allahabad, Patna & Lucknow?",
-	      "acceptedAnswer": {
+	      "name": "How do I get started with King of Digital Marketing in {city_name}?",
+	      "acceptedAnswer": {{
 	        "@type": "Answer",
 	        "text": "You can request a free digital marketing growth strategy call and website audit by filling out our online form or contacting our team directly at +91-9555696058 or info@kingofdigitalmarketing.com."
-	      }
-	    }
+	      }}
+	    }}
 	  ]
-	}
+	}}
 	</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -265,23 +1006,23 @@
 				<ul>
 					<li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
 					<li class="breadcrumb-sep">/</li>
-					<li class="breadcrumb-current">SEO Services in Delhi, Allahabad, Patna & Lucknow</li>
+					<li class="breadcrumb-current">{service_name} in {city_name}</li>
 				</ul>
 			</div>
 
 			<!-- Badge Tag -->
 			<span class="kdm-service-hero-badge">
-				<i class="fa fa-trophy"></i> #1 RATED SEO SERVICES IN DELHI, ALLAHABAD, PATNA & LUCKNOW
+				<i class="fa fa-trophy"></i> #1 RATED {service_name_upper} IN {city_name_upper}
 			</span>
 
 			<!-- Main H1 Title -->
 			<h1 class="kdm-service-hero-title">
-				Scale Your Business with Top <span class="kdm-gradient-highlight">SEO Services in Delhi, Allahabad, Patna & Lucknow</span>
+				Scale Your Business with Top <span class="kdm-gradient-highlight">{service_name} in {city_name}</span>
 			</h1>
 
 			<!-- Subtitle Paragraph -->
 			<p class="kdm-service-hero-subtitle">
-				Dominate search rankings, capture high-converting leads, and accelerate revenue growth with proven <strong>Search Engine Optimization (SEO)</strong>, <strong>Google Ads (PPC)</strong>, <strong>Meta Ads (Facebook &amp; Instagram)</strong>, and <strong>AI-Powered Lead Generation</strong> tailored for businesses in Delhi, Allahabad, Patna & Lucknow.
+				Dominate search rankings, capture high-converting leads, and accelerate revenue growth with proven <strong>Search Engine Optimization (SEO)</strong>, <strong>Google Ads (PPC)</strong>, <strong>Meta Ads (Facebook &amp; Instagram)</strong>, and <strong>AI-Powered Lead Generation</strong> tailored for businesses in {city_name}.
 			</p>
 
 			<!-- Trust Stats Bar -->
@@ -320,28 +1061,28 @@
 				<div class="col-md-12">
 					<div style="text-align: center; max-width: 920px; margin: 0 auto 35px auto;">
 						<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
-							<i class="fa fa-map-marker-alt"></i> TRUSTED AGENCY IN DELHI, ALLAHABAD, PATNA & LUCKNOW
+							<i class="fa fa-map-marker-alt"></i> TRUSTED AGENCY IN {city_name_upper}
 						</span>
 						<h2 style="font-size: 32px; font-weight: 900; color: #0f172a; margin-bottom: 15px; line-height: 1.3;">
-							Best SEO Services in <span style="color: #0284c7;">Delhi, Allahabad, Patna & Lucknow</span>
+							Best {service_name} in <span style="color: #0284c7;">{city_name}</span>
 						</h2>
 					</div>
 					
 					<div style="font-size: 16px; color: #334155; line-height: 1.8; max-width: 1040px; margin: 0 auto;">
 						<p style="margin-bottom: 18px;">
-							If you are searching for the <strong>best seo services in Delhi, Allahabad, Patna & Lucknow</strong>, then <strong>King of Digital Marketing</strong> is the name you can trust. In today's online world, every small and big business needs strong digital marketing services to grow fast. King of Digital Marketing is known as the top digital marketing agency in Delhi, Allahabad, Patna & Lucknow that helps businesses reach more customers through the internet.
+							If you are searching for the <strong>best {service_name.lower()} in {city_name}</strong>, then <strong>King of Digital Marketing</strong> is the name you can trust. In today's online world, every small and big business needs strong digital marketing services to grow fast. King of Digital Marketing is known as the top digital marketing agency in {city_name} that helps businesses reach more customers through the internet.
 						</p>
 						<p style="margin-bottom: 18px;">
-							The company offers many services like <a href="SEO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">SEO services in Delhi, Allahabad, Patna & Lucknow</a>, <a href="SMO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">social media marketing</a>, <a href="Website-Designing-Packages.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">website designing</a>, <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">Google Ads management</a>, content marketing, and local SEO for Delhi, Allahabad, Patna & Lucknow businesses. Whether you are a small shop owner, an educational coaching institute, a medical clinic, a real estate firm, or a corporate enterprise, King of Digital Marketing has a customized solution for everyone.
+							The company offers many services like <a href="SEO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">SEO services in {city_name}</a>, <a href="SMO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">social media marketing</a>, <a href="Website-Designing-Packages.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">website designing</a>, <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">Google Ads management</a>, content marketing, and local SEO for {city_name} businesses. Whether you are a small shop owner, an educational coaching institute, a medical clinic, a real estate firm, or a corporate enterprise, King of Digital Marketing has a customized solution for everyone.
 						</p>
 						<p style="margin-bottom: 18px;">
-							One big reason people choose King of Digital Marketing is their easy and honest way of working. They explain everything in simple language, so even beginners can understand what is happening with their website and marketing campaigns. Many people search for terms like <em>"digital marketing agency near me"</em>, <em>"best SEO company in Delhi, Allahabad, Patna & Lucknow"</em>, <em>"website designing company in Delhi, Allahabad, Patna & Lucknow"</em>, and <em>"social media marketing expert in Delhi, Allahabad, Patna & Lucknow"</em>. King of Digital Marketing ranks well for all these searches, which shows their real skill and experience.
+							One big reason people choose King of Digital Marketing is their easy and honest way of working. They explain everything in simple language, so even beginners can understand what is happening with their website and marketing campaigns. Many people search for terms like <em>"digital marketing agency near me"</em>, <em>"best SEO company in {city_name}"</em>, <em>"website designing company in {city_name}"</em>, and <em>"social media marketing expert in {city_name}"</em>. King of Digital Marketing ranks well for all these searches, which shows their real skill and experience.
 						</p>
 						<p style="margin-bottom: 18px;">
-							Their team uses the latest tools and strategies to bring more traffic, leads, and sales for clients. They also focus on affordable digital marketing packages, so small businesses and startups in Delhi, Allahabad, Patna & Lucknow can also grow online without spending too much money.
+							Their team uses the latest tools and strategies to bring more traffic, leads, and sales for clients. They also focus on affordable digital marketing packages, so small businesses and startups in {city_name} can also grow online without spending too much money.
 						</p>
 						<p style="margin-bottom: 0;">
-							Customer support is another strong point. The team stays in constant touch with clients, shares monthly transparent reports, and makes data-driven changes based on results. This honest and result-driven approach makes <strong>King of Digital Marketing</strong> the most trusted digital marketing company in Delhi, Allahabad, Patna & Lucknow. If you want your business to grow online, get more customers, and build a strong brand, King of Digital Marketing is the right choice for you in Delhi, Allahabad, Patna & Lucknow.
+							Customer support is another strong point. The team stays in constant touch with clients, shares monthly transparent reports, and makes data-driven changes based on results. This honest and result-driven approach makes <strong>King of Digital Marketing</strong> the most trusted digital marketing company in {city_name}. If you want your business to grow online, get more customers, and build a strong brand, King of Digital Marketing is the right choice for you in {city_name}.
 						</p>
 					</div>
 
@@ -350,7 +1091,7 @@
 						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
 							<div style="font-size: 24px; color: #0284c7; margin-bottom: 8px;"><i class="fa fa-chart-line"></i></div>
 							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Lead Generation</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-intent customer inquiries delivered daily in Delhi, Allahabad, Patna & Lucknow.</p>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0;">High-intent customer inquiries delivered daily in {city_name}.</p>
 						</div>
 						<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-align: center;">
 							<div style="font-size: 24px; color: #10b981; margin-bottom: 8px;"><i class="fa fa-search"></i></div>
@@ -445,9 +1186,9 @@
 		<div class="container">
 			<div class="empower-header text-center">
 				<span class="empower-badge"><i class="fa fa-star"></i> OUR CORE SPECIALIZATIONS</span>
-				<h2 class="empower-title">How Do We Empower You <span class="empower-title-gradient">Digitally in Delhi, Allahabad, Patna & Lucknow</span></h2>
+				<h2 class="empower-title">How Do We Empower You <span class="empower-title-gradient">Digitally in {city_name}</span></h2>
 				<p class="empower-subtitle">
-					At <strong>King of Digital Marketing</strong>, we build high-performing digital ecosystems designed to dominate your market in Delhi, Allahabad, Patna & Lucknow. Driven by 13+ years of expertise, AI technology, and top strategist talent, explore our premier specialized services below.
+					At <strong>King of Digital Marketing</strong>, we build high-performing digital ecosystems designed to dominate your market in {city_name}. Driven by 13+ years of expertise, AI technology, and top strategist talent, explore our premier specialized services below.
 				</p>
 			</div>
 
@@ -466,7 +1207,7 @@
 					</div>
 					<h3 class="empower-card-title"><a href="lead-generation-company.aspx">Lead Generation</a></h3>
 					<p class="empower-card-text">
-						Increase quality leads with targeted sales funnels in Delhi, Allahabad, Patna & Lucknow. We identify, engage, and convert high-intent prospects into loyal paying customers across paid &amp; organic channels.
+						Increase quality leads with targeted sales funnels in {city_name}. We identify, engage, and convert high-intent prospects into loyal paying customers across paid &amp; organic channels.
 					</p>
 					<a href="lead-generation-company.aspx" class="empower-card-btn btn-emerald">
 						Explore Service <i class="fa fa-arrow-right"></i>
@@ -488,7 +1229,7 @@
 					</div>
 					<h3 class="empower-card-title"><a href="PPC-Services.aspx">Google Ads (PPC)</a></h3>
 					<p class="empower-card-text">
-						Rank on Page 1 of Google immediately. Stand out before active search buyers in Delhi, Allahabad, Patna & Lucknow to capture maximum high-value sales inquiries with optimized ROI packages.
+						Rank on Page 1 of Google immediately. Stand out before active search buyers in {city_name} to capture maximum high-value sales inquiries with optimized ROI packages.
 					</p>
 					<a href="PPC-Services.aspx" class="empower-card-btn btn-blue">
 						Explore Service <i class="fa fa-arrow-right"></i>
@@ -508,7 +1249,7 @@
 					</div>
 					<h3 class="empower-card-title"><a href="SEO-Services.aspx">SEO Services</a></h3>
 					<p class="empower-card-text">
-						Scale organic search engine rankings and compound long-term website traffic in Delhi, Allahabad, Patna & Lucknow. Our technical &amp; content SEO experts audit, optimize, and build domain authority.
+						Scale organic search engine rankings and compound long-term website traffic in {city_name}. Our technical &amp; content SEO experts audit, optimize, and build domain authority.
 					</p>
 					<a href="SEO-Services.aspx" class="empower-card-btn btn-purple">
 						Explore Service <i class="fa fa-arrow-right"></i>
@@ -531,7 +1272,7 @@
 					</div>
 					<h3 class="empower-card-title"><a href="SMO-Services.aspx">Social Media Marketing</a></h3>
 					<p class="empower-card-text">
-						Engage target audiences and build brand clout across social networks. Our Social Media Optimization strategies ensure your business in Delhi, Allahabad, Patna & Lucknow builds active, loyal followers.
+						Engage target audiences and build brand clout across social networks. Our Social Media Optimization strategies ensure your business in {city_name} builds active, loyal followers.
 					</p>
 					<a href="SMO-Services.aspx" class="empower-card-btn btn-pink">
 						Explore Service <i class="fa fa-arrow-right"></i>
@@ -586,9 +1327,9 @@
 		<div class="container">
 			<div class="kdm-why-choose-header">
 				<span class="kdm-seo-badge"><i class="fa fa-check-circle"></i> WHY WORK WITH US</span>
-				<h2>Why Choose King of Digital Marketing in <strong>Delhi, Allahabad, Patna & Lucknow</strong>?</h2>
+				<h2>Why Choose King of Digital Marketing in <strong>{city_name}</strong>?</h2>
 				<p>
-					We don't just provide generic marketing services — we engineer customized growth engines that consistently generate qualified customer inquiries, top search rankings, and predictable revenue for your Delhi, Allahabad, Patna & Lucknow business.
+					We don't just provide generic marketing services — we engineer customized growth engines that consistently generate qualified customer inquiries, top search rankings, and predictable revenue for your {city_name} business.
 				</p>
 			</div>
 
@@ -613,8 +1354,8 @@
 							<circle cx="12" cy="10" r="3"></circle>
 						</svg>
 					</div>
-					<h3>Tailored Local Delhi, Allahabad, Patna & Lucknow Strategy</h3>
-					<p>We craft hyper-localized campaigns targeting specific commercial zones and consumer segments across Delhi, Allahabad, Patna & Lucknow to maximize local inbound inquiries.</p>
+					<h3>Tailored Local {city_name} Strategy</h3>
+					<p>We craft hyper-localized campaigns targeting specific commercial zones and consumer segments across {city_name} to maximize local inbound inquiries.</p>
 				</div>
 
 				<!-- Card 3 -->
@@ -637,7 +1378,7 @@
 						</svg>
 					</div>
 					<h3>High-ROI &amp; Affordable Plans</h3>
-					<p>Transparent pricing and customized packages allow startups and established enterprises in Delhi, Allahabad, Patna & Lucknow to achieve maximum marketing ROI within their budget.</p>
+					<p>Transparent pricing and customized packages allow startups and established enterprises in {city_name} to achieve maximum marketing ROI within their budget.</p>
 				</div>
 
 				<!-- Card 5 -->
@@ -679,7 +1420,7 @@
 				<span class="kdm-seo-badge">PROVEN 9-STAGE FRAMEWORK</span>
 				<h2 class="kdm-seo-process-title">Our Service Work Process</h2>
 				<p class="kdm-seo-process-desc">
-					With over 13+ years of experience, our 9-stage data-driven marketing framework empowers businesses in Delhi, Allahabad, Patna & Lucknow to dominate search engines, capture high-intent leads, and scale profitable revenue.
+					With over 13+ years of experience, our 9-stage data-driven marketing framework empowers businesses in {city_name} to dominate search engines, capture high-intent leads, and scale profitable revenue.
 				</p>
 			</div>
 
@@ -710,7 +1451,7 @@
 						</svg>
 					</div>
 					<h3>2. Business &amp; Market Analysis</h3>
-					<p>Our strategists analyze your business model, buyer personas, sales funnels, and target customers in Delhi, Allahabad, Patna & Lucknow to align campaign goals directly with ROI.</p>
+					<p>Our strategists analyze your business model, buyer personas, sales funnels, and target customers in {city_name} to align campaign goals directly with ROI.</p>
 				</div>
 
 				<!-- Step 3 -->
@@ -734,7 +1475,7 @@
 						</svg>
 					</div>
 					<h3>4. Competitor Strategy Audit</h3>
-					<p>We reverse-engineer top-ranking competitors in Delhi, Allahabad, Patna & Lucknow, identifying keyword gaps, ad strategies, and backlink profiles to outrank them on SERPs.</p>
+					<p>We reverse-engineer top-ranking competitors in {city_name}, identifying keyword gaps, ad strategies, and backlink profiles to outrank them on SERPs.</p>
 				</div>
 
 				<!-- Step 5 -->
@@ -806,9 +1547,9 @@
 		<div class="container">
 			<div class="clients-logos-header text-center">
 				<span class="clients-badge"><i class="fa fa-handshake-o"></i> PROVEN TRACK RECORD</span>
-				<h2 class="clients-title">Your Trust Made Us Top <span class="clients-title-gradient">SEO Services in Delhi, Allahabad, Patna & Lucknow</span></h2>
+				<h2 class="clients-title">Your Trust Made Us Top <span class="clients-title-gradient">{service_name} in {city_name}</span></h2>
 				<p class="clients-subtitle">
-					Over the last 13+ years, <strong>900+ businesses</strong> across Delhi, Allahabad, Patna & Lucknow, India, and global markets have trusted us to scale their digital growth, customer inquiries, and brand authority.
+					Over the last 13+ years, <strong>900+ businesses</strong> across {city_name}, India, and global markets have trusted us to scale their digital growth, customer inquiries, and brand authority.
 				</p>
 			</div>
 
@@ -834,7 +1575,7 @@
 	<!-- ===== 8. MOST POPULAR INDUSTRIES WE SERVE (DARK THEME) ===== -->
 	<section class="industry-slider-section">
 		<div class="container">
-			<h2 class="industry-heading">Most Popular Industries <strong>We Work With in Delhi, Allahabad, Patna & Lucknow</strong></h2>
+			<h2 class="industry-heading">Most Popular Industries <strong>We Work With in {city_name}</strong></h2>
 
 			<div class="industry-slider">
 				<div class="industry-track">
@@ -865,7 +1606,7 @@
 							</div>
 							<div class="text-box">
 								<h3>Hair Transplant &amp; Clinics</h3>
-								<p>Delivered 50+ medical lead generation, SEO, and Google Ads campaigns with consistent patient bookings in Top Healthcare & Specialist Diagnostic Centers.</p>
+								<p>Delivered 50+ medical lead generation, SEO, and Google Ads campaigns with consistent patient bookings in {clinic_zone}.</p>
 							</div>
 						</div>
 					</div>
@@ -897,7 +1638,7 @@
 							</div>
 							<div class="text-box">
 								<h3>Real Estate &amp; Builders</h3>
-								<p>Generated thousands of verified site-visit inquiries and high-ticket buyer leads for residential projects across Regional Real Estate Corridors.</p>
+								<p>Generated thousands of verified site-visit inquiries and high-ticket buyer leads for residential projects across {real_estate_zone}.</p>
 							</div>
 						</div>
 					</div>
@@ -913,7 +1654,7 @@
 							</div>
 							<div class="text-box">
 								<h3>Coaching &amp; Education</h3>
-								<p>Proven track record driving massive student admissions and counseling inquiries for top academies in North India Educational & Civil Services Belts.</p>
+								<p>Proven track record driving massive student admissions and counseling inquiries for top academies in {special_coaching_zone}.</p>
 							</div>
 						</div>
 					</div>
@@ -930,7 +1671,7 @@
 					<i class="fa fa-user-circle-o"></i> LEADERSHIP &amp; EXPERT TEAM
 				</span>
 				<h2 class="kdm-experts-title">
-					About the Experts <span>Behind Your Campaign in Delhi, Allahabad, Patna & Lucknow</span>
+					About the Experts <span>Behind Your Campaign in {city_name}</span>
 				</h2>
 				<p class="kdm-experts-subtitle">
 					Your business growth is powered by seasoned marketing strategists, industry leaders, and certified technical analysts dedicated to delivering top Google rankings and maximum ROI.
@@ -989,7 +1730,7 @@
 					<i class="fa fa-star"></i> CLIENT SUCCESS STORIES
 				</span>
 				<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin-bottom: 12px;">
-					What Our Clients Say in <span style="color: #0284c7;">Delhi, Allahabad, Patna & Lucknow</span>
+					What Our Clients Say in <span style="color: #0284c7;">{city_name}</span>
 				</h2>
 				<p style="font-size: 15.5px; color: #64748b; max-width: 720px; margin: 0 auto;">
 					Hear from real business owners who transformed their customer pipeline and accelerated revenue growth with King of Digital Marketing.
@@ -1001,13 +1742,13 @@
 				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
 					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
 					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
-						"King of Digital Marketing completely turned around our customer inquiries in Delhi, Allahabad, Patna & Lucknow. Within 60 days of launching our local SEO and Google Ads campaigns, our inquiries surged by 300%. Gaurav Dubey and his team are true professionals."
+						"King of Digital Marketing completely turned around our customer inquiries in {city_name}. Within 60 days of launching our local SEO and Google Ads campaigns, our inquiries surged by 300%. Gaurav Dubey and his team are true professionals."
 					</p>
 					<div style="display: flex; align-items: center; gap: 12px;">
 						<div style="width: 44px; height: 44px; border-radius: 50%; background: #0284c7; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">AK</div>
 						<div>
 							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Anil Kumar</h4>
-							<span style="font-size: 12.5px; color: #64748b;">Managing Director, Delhi, Allahabad, Patna & Lucknow Enterprises</span>
+							<span style="font-size: 12.5px; color: #64748b;">Managing Director, {city_name} Enterprises</span>
 						</div>
 					</div>
 				</div>
@@ -1016,13 +1757,13 @@
 				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
 					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
 					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
-						"We were struggling to get consistent client consultations for our clinic in Delhi, Allahabad, Patna & Lucknow. King of Digital Marketing optimized our Google Map listing and ran targeted local search ads. Now we get 15+ daily verified appointments!"
+						"We were struggling to get consistent client consultations for our clinic in {city_name}. King of Digital Marketing optimized our Google Map listing and ran targeted local search ads. Now we get 15+ daily verified appointments!"
 					</p>
 					<div style="display: flex; align-items: center; gap: 12px;">
 						<div style="width: 44px; height: 44px; border-radius: 50%; background: #10b981; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">DS</div>
 						<div>
 							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Dr. S. K. Sharma</h4>
-							<span style="font-size: 12.5px; color: #64748b;">Senior Consultant, Delhi, Allahabad, Patna & Lucknow Clinic</span>
+							<span style="font-size: 12.5px; color: #64748b;">Senior Consultant, {city_name} Clinic</span>
 						</div>
 					</div>
 				</div>
@@ -1031,13 +1772,13 @@
 				<div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; box-shadow: 0 4px 20px rgba(0,0,0,0.04);">
 					<div style="color: #f59e0b; font-size: 16px; margin-bottom: 14px;">★★★★★</div>
 					<p style="font-size: 14.5px; color: #334155; line-height: 1.65; margin-bottom: 20px;">
-						"Honest pricing, clear monthly reports, and exceptional lead quality. They redesigned our website and took our organic rankings to page 1 for our top commercial keywords in Delhi, Allahabad, Patna & Lucknow. Highly recommended agency!"
+						"Honest pricing, clear monthly reports, and exceptional lead quality. They redesigned our website and took our organic rankings to page 1 for our top commercial keywords in {city_name}. Highly recommended agency!"
 					</p>
 					<div style="display: flex; align-items: center; gap: 12px;">
 						<div style="width: 44px; height: 44px; border-radius: 50%; background: #8b5cf6; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px;">RP</div>
 						<div>
 							<h4 style="font-size: 15px; font-weight: 800; color: #0f172a; margin: 0;">Rajesh Patel</h4>
-							<span style="font-size: 12.5px; color: #64748b;">Founder, Delhi, Allahabad, Patna & Lucknow Growth Ventures</span>
+							<span style="font-size: 12.5px; color: #64748b;">Founder, {city_name} Growth Ventures</span>
 						</div>
 					</div>
 				</div>
@@ -1053,26 +1794,26 @@
 				<div class="col-md-6">
 					<div class="kdm-faq-header-left">
 						<span class="kdm-faq-badge"><i class="fa fa-question-circle"></i> FREQUENTLY ASKED QUESTIONS</span>
-						<h2 class="kdm-faq-title">FAQs About <strong>SEO Services in Delhi, Allahabad, Patna & Lucknow</strong></h2>
-						<p class="kdm-faq-subtitle">Everything you need to know about our proven digital marketing and SEO methodology in Delhi, Allahabad, Patna & Lucknow.</p>
+						<h2 class="kdm-faq-title">FAQs About <strong>{service_name} in {city_name}</strong></h2>
+						<p class="kdm-faq-subtitle">Everything you need to know about our proven digital marketing and SEO methodology in {city_name}.</p>
 					</div>
 
 					<div class="kdm-faq-accordion">
 						<!-- Q1 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.1. Why is King of Digital Marketing considered the best SEO Services in Delhi, Allahabad, Patna & Lucknow?</span>
+								<span class="kdm-faq-question">Q.1. Why is King of Digital Marketing considered the best {service_name} in {city_name}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of experience</strong>, <strong>900+ successful client campaigns</strong>, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across Delhi, Allahabad, Patna & Lucknow.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of experience</strong>, <strong>900+ successful client campaigns</strong>, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across {city_name}.</p>
 							</div>
 						</div>
 
 						<!-- Q2 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.2. What digital marketing services do you provide in Delhi, Allahabad, Patna & Lucknow?</span>
+								<span class="kdm-faq-question">Q.2. What digital marketing services do you provide in {city_name}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1083,7 +1824,7 @@
 						<!-- Q3 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.3. How quickly can my Delhi, Allahabad, Patna & Lucknow business start generating leads?</span>
+								<span class="kdm-faq-question">Q.3. How quickly can my {city_name} business start generating leads?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1094,29 +1835,29 @@
 						<!-- Q4 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.4. Which local areas in Delhi, Allahabad, Patna & Lucknow do you cover?</span>
+								<span class="kdm-faq-question">Q.4. Which local areas in {city_name} do you cover?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We serve businesses across all major commercial, industrial, and residential hubs in Delhi, Allahabad, Patna & Lucknow including Delhi NCR, Civil Lines Prayagraj, Boring Road Patna, and Gomti Nagar Lucknow major North India commercial hubs.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We serve businesses across all major commercial, industrial, and residential hubs in {city_name} including {local_areas}.</p>
 							</div>
 						</div>
 
 						<!-- Q5 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.5. How does local SEO help coaching institutes, doctors, and retailers in Delhi, Allahabad, Patna & Lucknow?</span>
+								<span class="kdm-faq-question">Q.5. How does local SEO help coaching institutes, doctors, and retailers in {city_name}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential students, patients, or shoppers search for services near them in Delhi, Allahabad, Patna & Lucknow, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Local SEO optimizes your Google Business Profile, map citations, and local search signals so that when potential students, patients, or shoppers search for services near them in {city_name}, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic.</p>
 							</div>
 						</div>
 
 						<!-- Q6 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.6. Do you offer customized packages for small businesses and startups in Delhi, Allahabad, Patna & Lucknow?</span>
+								<span class="kdm-faq-question">Q.6. Do you offer customized packages for small businesses and startups in {city_name}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1149,7 +1890,7 @@
 						<!-- Q9 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.9. What is the difference between SEO and Google Ads (PPC) for my Delhi, Allahabad, Patna & Lucknow business?</span>
+								<span class="kdm-faq-question">Q.9. What is the difference between SEO and Google Ads (PPC) for my {city_name} business?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1182,18 +1923,18 @@
 						<!-- Q12 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.12. What industries have you worked with in Delhi, Allahabad, Patna & Lucknow?</span>
+								<span class="kdm-faq-question">Q.12. What industries have you worked with in {city_name}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have executed successful campaigns across 150+ industry verticals including Education &amp; Coaching in North India Educational & Civil Services Belts, Healthcare &amp; Hospitals in Top Healthcare & Specialist Diagnostic Centers, Real Estate in Regional Real Estate Corridors, E-Commerce, Astrology, Hair Transplant, Study Abroad, Travel &amp; Tourism, Manufacturing, and Professional Local Services.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have executed successful campaigns across 150+ industry verticals including Education &amp; Coaching in {special_coaching_zone}, Healthcare &amp; Hospitals in {clinic_zone}, Real Estate in {real_estate_zone}, E-Commerce, Astrology, Hair Transplant, Study Abroad, Travel &amp; Tourism, Manufacturing, and Professional Local Services.</p>
 							</div>
 						</div>
 
 						<!-- Q13 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.13. How do you optimize Google My Business (GMB) for local Delhi, Allahabad, Patna & Lucknow searches?</span>
+								<span class="kdm-faq-question">Q.13. How do you optimize Google My Business (GMB) for local {city_name} searches?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1204,18 +1945,18 @@
 						<!-- Q14 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.14. How can Social Media Marketing (SMM) help grow my brand in Delhi, Allahabad, Patna & Lucknow?</span>
+								<span class="kdm-faq-question">Q.14. How can Social Media Marketing (SMM) help grow my brand in {city_name}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in Delhi, Allahabad, Patna & Lucknow, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in {city_name}, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads.</p>
 							</div>
 						</div>
 
 						<!-- Q15 -->
 						<div class="kdm-faq-item">
 							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.15. How do I get started with King of Digital Marketing in Delhi, Allahabad, Patna & Lucknow?</span>
+								<span class="kdm-faq-question">Q.15. How do I get started with King of Digital Marketing in {city_name}?</span>
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
@@ -1227,7 +1968,7 @@
 
 				<!-- 3 High-Converting Dark Theme Grand Offers -->
 				<div class="col-md-6">
-					<h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups &amp; Businesses in Delhi, Allahabad, Patna & Lucknow</strong></h2>
+					<h2 class="kdm-offer-section-title">Grand Offers <strong>for Startups &amp; Businesses in {city_name}</strong></h2>
 
 					<div class="kdm-offer-dark-list">
 						<!-- Offer 1 -->
@@ -1249,7 +1990,7 @@
 								<h4>Startup Digital Booster Offer</h4>
 								<p class="kdm-offer-dark-value">Get 10% OFF</p>
 								<h5 class="kdm-offer-dark-sub">On Quarterly Marketing &amp; SEO Package</h5>
-								<h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF plus free audit in Delhi, Allahabad, Patna & Lucknow!</h5>
+								<h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF plus free audit in {city_name}!</h5>
 							</div>
 						</div>
 
@@ -1274,7 +2015,7 @@
 								<h4>Growth Marketing Plan Offer</h4>
 								<p class="kdm-offer-dark-value">Get 15% OFF</p>
 								<h5 class="kdm-offer-dark-sub">On 6-Months Multi-Channel Package</h5>
-								<h5 class="kdm-offer-dark-desc">Lock in long-term organic growth and scale customer acquisition in Delhi, Allahabad, Patna & Lucknow!</h5>
+								<h5 class="kdm-offer-dark-desc">Lock in long-term organic growth and scale customer acquisition in {city_name}!</h5>
 							</div>
 						</div>
 
@@ -1296,7 +2037,7 @@
 								<h4>Premium Market Dominance Offer</h4>
 								<p class="kdm-offer-dark-value">Get 20% OFF</p>
 								<h5 class="kdm-offer-dark-sub">On 12-Month Annual Growth Package</h5>
-								<h5 class="kdm-offer-dark-desc">Dominate Delhi, Allahabad, Patna & Lucknow search results all year long while saving BIG!</h5>
+								<h5 class="kdm-offer-dark-desc">Dominate {city_name} search results all year long while saving BIG!</h5>
 							</div>
 						</div>
 					</div>
@@ -1309,3 +2050,32 @@
 	<script src="js/international-page.js"></script>
 	<script src="js/kdm-faq.js"></script>
 </asp:Content>
+"""
+    return content
+
+
+def run_bulk_generator(root_dir="."):
+    count = 0
+    for cfg in LOCATION_CONFIGS:
+        filename = cfg["filename"]
+        target_path = os.path.join(root_dir, filename)
+        
+        # Check case-insensitive match if exact doesn't exist
+        actual_path = target_path
+        if not os.path.exists(target_path):
+            for f in os.listdir(root_dir):
+                if f.lower() == filename.lower():
+                    actual_path = os.path.join(root_dir, f)
+                    break
+
+        page_content = generate_page(cfg)
+        with open(actual_path, "w", encoding="utf-8") as f:
+            f.write(page_content)
+        count += 1
+        print(f"[{count}/{len(LOCATION_CONFIGS)}] Generated: {actual_path} ({cfg['service_name']} in {cfg['city_name']})")
+
+    print(f"\nSuccessfully generated {count} location pages using KDM-LOC-11S architecture!")
+
+
+if __name__ == "__main__":
+    run_bulk_generator(".")
