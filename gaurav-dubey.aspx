@@ -213,191 +213,446 @@
 				}
 			}
 
-			/* 2. Hero Section */
+			/* 2. Vibrant Hero Section */
 			.gd-hero {
-				background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0284c7 100%);
+				background: radial-gradient(circle at 15% 25%, rgba(6, 182, 212, 0.28) 0%, transparent 45%),
+							radial-gradient(circle at 85% 30%, rgba(99, 102, 241, 0.35) 0%, transparent 50%),
+							radial-gradient(circle at 50% 85%, rgba(236, 72, 153, 0.22) 0%, transparent 55%),
+							linear-gradient(135deg, #090e1a 0%, #0d1b2e 50%, #0f172a 100%);
 				color: #ffffff;
-				padding: 70px 0 80px;
+				padding: 75px 0 85px;
 				position: relative;
 				overflow: hidden;
-				border-radius: 0 0 24px 24px;
+				border-radius: 0 0 28px 28px;
+				border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+			}
+
+			.gd-hero-grid-pattern {
+				position: absolute;
+				inset: 0;
+				background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+								  linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+				background-size: 40px 40px;
+				pointer-events: none;
+				opacity: 0.6;
 			}
 
 			.gd-blob {
 				position: absolute;
 				border-radius: 50%;
-				filter: blur(60px);
-				opacity: 0.25;
+				filter: blur(70px);
+				opacity: 0.35;
 				animation: floatBlob 8s ease-in-out infinite;
 				pointer-events: none;
 			}
 
 			.gd-blob-1 {
-				top: -50px;
-				left: -50px;
-				width: 300px;
-				height: 300px;
-				background: #38bdf8;
+				top: -60px;
+				left: -40px;
+				width: 320px;
+				height: 320px;
+				background: #06b6d4;
 			}
 
 			.gd-blob-2 {
 				bottom: -80px;
 				right: -50px;
-				width: 350px;
-				height: 350px;
-				background: #818cf8;
+				width: 380px;
+				height: 380px;
+				background: #8b5cf6;
 				animation-delay: -4s;
+			}
+
+			.gd-blob-3 {
+				top: 40%;
+				left: 50%;
+				width: 260px;
+				height: 260px;
+				background: #ec4899;
+				animation-delay: -2s;
+				opacity: 0.2;
 			}
 
 			.gd-floating-icon {
 				position: absolute;
-				background: rgba(255, 255, 255, 0.12);
-				backdrop-filter: blur(8px);
-				border: 1px solid rgba(255, 255, 255, 0.2);
+				background: rgba(255, 255, 255, 0.08);
+				backdrop-filter: blur(10px);
+				border: 1px solid rgba(255, 255, 255, 0.18);
 				color: #38bdf8;
-				width: 48px;
-				height: 48px;
-				border-radius: 12px;
+				width: 46px;
+				height: 46px;
+				border-radius: 14px;
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				font-size: 20px;
-				box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+				font-size: 19px;
+				box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 				animation: floatIcon 6s ease-in-out infinite;
 			}
 
-			.gd-fi-1 {
-				top: 15%;
-				left: 8%;
-				animation-delay: 0s;
-			}
-
-			.gd-fi-2 {
-				top: 60%;
-				left: 4%;
-				animation-delay: -2s;
-			}
-
-			.gd-fi-3 {
-				top: 20%;
-				right: 6%;
-				animation-delay: -1s;
-			}
-
-			.gd-fi-4 {
-				top: 65%;
-				right: 8%;
-				animation-delay: -3s;
-			}
+			.gd-fi-1 { top: 12%; left: 6%; animation-delay: 0s; }
+			.gd-fi-2 { top: 68%; left: 3%; animation-delay: -2s; color: #818cf8; }
+			.gd-fi-3 { top: 18%; right: 4%; animation-delay: -1s; color: #f472b6; }
+			.gd-fi-4 { top: 72%; right: 6%; animation-delay: -3s; color: #34d399; }
 
 			.gd-hero-badge {
-				display: inline-block;
-				background: rgba(255, 255, 255, 0.15);
-				border: 1px solid rgba(255, 255, 255, 0.25);
+				display: inline-flex;
+				align-items: center;
+				gap: 10px;
+				background: rgba(15, 23, 42, 0.75);
+				border: 1px solid rgba(56, 189, 248, 0.4);
+				box-shadow: 0 4px 20px rgba(6, 182, 212, 0.25), inset 0 0 12px rgba(56, 189, 248, 0.15);
+				backdrop-filter: blur(12px);
 				color: #38bdf8;
 				font-size: 13px;
 				font-weight: 700;
-				padding: 6px 18px;
-				border-radius: 30px;
-				letter-spacing: 1px;
+				padding: 7px 20px;
+				border-radius: 50px;
+				letter-spacing: 0.8px;
 				text-transform: uppercase;
-				margin-bottom: 20px;
+				margin-bottom: 22px;
+				transition: transform 0.3s ease;
+			}
+
+			.gd-hero-badge:hover {
+				transform: translateY(-2px);
+				border-color: #38bdf8;
+			}
+
+			.gd-live-dot {
+				width: 9px;
+				height: 9px;
+				background: #10b981;
+				border-radius: 50%;
+				box-shadow: 0 0 10px #10b981;
+				animation: livePulse 1.8s infinite;
+			}
+
+			@keyframes livePulse {
+				0% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+				70% { transform: scale(1.1); opacity: 1; box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+				100% { transform: scale(0.9); opacity: 0.8; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
 			}
 
 			.gd-hero h1 {
-				font-size: 42px;
-				font-weight: 800;
+				font-size: 46px;
+				font-weight: 900;
 				color: #ffffff;
-				margin-bottom: 12px;
-				line-height: 1.25;
+				margin-bottom: 8px;
+				line-height: 1.15;
+				letter-spacing: -0.5px;
 			}
 
-			.gd-hero h2 {
-				font-size: 22px;
-				color: #e0f2fe;
-				font-weight: 600;
-				margin-bottom: 24px;
-				line-height: 1.5;
+			.gd-vibrant-name-grad {
+				background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #f472b6 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				text-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
 			}
 
-			.gd-trust-badges {
-				display: flex;
-				gap: 15px;
-				flex-wrap: wrap;
-				margin-bottom: 35px;
-			}
-
-			.gd-badge-item {
-				background: rgba(255, 255, 255, 0.1);
-				border: 1px solid rgba(255, 255, 255, 0.18);
-				padding: 10px 18px;
-				border-radius: 12px;
-				font-size: 14px;
+			.gd-hero-sub-vibrant {
+				font-size: 21px;
 				font-weight: 700;
-				color: #ffffff;
+				color: #e2e8f0;
+				margin-bottom: 18px;
+				line-height: 1.4;
 				display: flex;
 				align-items: center;
 				gap: 8px;
+				flex-wrap: wrap;
 			}
 
-			.gd-badge-item i {
+			.gd-hero-sub-vibrant span.highlight {
 				color: #38bdf8;
 			}
 
-			.gd-btn-glow {
-				background: #0088cc;
-				color: #ffffff !important;
-				font-weight: 700;
-				font-size: 16px;
-				padding: 14px 32px;
-				border-radius: 8px;
-				display: inline-block;
-				text-decoration: none !important;
+			.gd-hero-desc {
+				font-size: 15.5px;
+				color: #cbd5e1;
+				margin-bottom: 28px;
+				line-height: 1.65;
+				max-width: 620px;
+			}
+
+			/* 4 Vibrant Trust Stat Cards */
+			.gd-trust-badges-grid {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 12px;
+				margin-bottom: 30px;
+				max-width: 580px;
+			}
+
+			@media (min-width: 576px) {
+				.gd-trust-badges-grid {
+					grid-template-columns: repeat(4, 1fr);
+				}
+			}
+
+			.gd-vibrant-stat-card {
+				background: rgba(255, 255, 255, 0.05);
+				border: 1px solid rgba(255, 255, 255, 0.12);
+				backdrop-filter: blur(10px);
+				padding: 12px 14px;
+				border-radius: 14px;
+				text-align: left;
 				transition: all 0.3s ease;
-				animation: pulseGlow 3s infinite;
-			}
-
-			.gd-btn-glow:hover {
-				background: #0077b3;
-				transform: translateY(-3px);
-			}
-
-			.gd-btn-secondary {
-				background: rgba(255, 255, 255, 0.12);
-				border: 2px solid #ffffff;
-				color: #ffffff !important;
-				font-weight: 700;
-				font-size: 16px;
-				padding: 12px 28px;
-				border-radius: 8px;
-				display: inline-block;
-				text-decoration: none !important;
-				margin-left: 12px;
-				transition: all 0.3s ease;
-			}
-
-			.gd-btn-secondary:hover {
-				background: #ffffff;
-				color: #0088cc !important;
-				transform: translateY(-3px);
-			}
-
-			.gd-hero-img-container {
 				position: relative;
-				text-align: center;
+				overflow: hidden;
 			}
 
-			.gd-hero-img-container img {
-				max-width: 100%;
-				max-height: 440px;
+			.gd-vibrant-stat-card::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				height: 2px;
+				background: linear-gradient(90deg, #38bdf8, #818cf8);
+				opacity: 0;
+				transition: opacity 0.3s ease;
+			}
+
+			.gd-vibrant-stat-card:hover {
+				transform: translateY(-4px);
+				background: rgba(255, 255, 255, 0.09);
+				border-color: rgba(56, 189, 248, 0.4);
+				box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
+			}
+
+			.gd-vibrant-stat-card:hover::before {
+				opacity: 1;
+			}
+
+			.gd-stat-card-icon {
+				font-size: 18px;
+				margin-bottom: 6px;
+				display: inline-block;
+			}
+
+			.gd-stat-card-num {
+				font-size: 19px;
+				font-weight: 800;
+				color: #ffffff;
+				line-height: 1.2;
+				display: block;
+			}
+
+			.gd-stat-card-label {
+				font-size: 11.5px;
+				font-weight: 600;
+				color: #94a3b8;
+				text-transform: uppercase;
+				letter-spacing: 0.5px;
+				display: block;
+				margin-top: 2px;
+			}
+
+			/* Vibrant CTA Buttons */
+			.gd-hero-actions {
+				display: flex;
+				gap: 14px;
+				flex-wrap: wrap;
+				align-items: center;
+				margin-bottom: 22px;
+			}
+
+			.gd-btn-vibrant-primary {
+				background: linear-gradient(135deg, #0284c7 0%, #0088cc 50%, #2563eb 100%);
+				color: #ffffff !important;
+				font-weight: 800;
+				font-size: 15.5px;
+				padding: 14px 28px;
+				border-radius: 12px;
+				display: inline-flex;
+				align-items: center;
+				gap: 10px;
+				text-decoration: none !important;
+				box-shadow: 0 8px 25px rgba(2, 132, 199, 0.45);
+				border: 1px solid rgba(255, 255, 255, 0.25);
+				transition: all 0.3s ease;
+				position: relative;
+				overflow: hidden;
+			}
+
+			.gd-btn-vibrant-primary:hover {
+				background: linear-gradient(135deg, #0369a1 0%, #0284c7 50%, #1d4ed8 100%);
+				transform: translateY(-3px);
+				box-shadow: 0 12px 30px rgba(2, 132, 199, 0.6);
+			}
+
+			.gd-btn-vibrant-whatsapp {
+				background: linear-gradient(135deg, #059669 0%, #10b981 50%, #047857 100%);
+				color: #ffffff !important;
+				font-weight: 800;
+				font-size: 15.5px;
+				padding: 14px 26px;
+				border-radius: 12px;
+				display: inline-flex;
+				align-items: center;
+				gap: 10px;
+				text-decoration: none !important;
+				box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
+				border: 1px solid rgba(255, 255, 255, 0.25);
+				transition: all 0.3s ease;
+			}
+
+			.gd-btn-vibrant-whatsapp:hover {
+				background: linear-gradient(135deg, #047857 0%, #059669 50%, #065f46 100%);
+				transform: translateY(-3px);
+				box-shadow: 0 12px 30px rgba(16, 185, 129, 0.55);
+			}
+
+			.gd-hero-guarantees {
+				display: flex;
+				gap: 18px;
+				flex-wrap: wrap;
+				font-size: 13px;
+				color: #94a3b8;
+				font-weight: 600;
+			}
+
+			.gd-hero-guarantees span {
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
+			}
+
+			.gd-hero-guarantees span i {
+				color: #10b981;
+			}
+
+			/* Photo Showcase Frame */
+			.gd-hero-img-wrap {
+				position: relative;
+				display: inline-block;
+				padding: 14px;
+				max-width: 440px;
+				margin: 0 auto;
+			}
+
+			.gd-hero-glow-halo {
+				position: absolute;
+				inset: -8px;
+				background: conic-gradient(from 180deg at 50% 50%, #06b6d4, #3b82f6, #8b5cf6, #ec4899, #06b6d4);
+				border-radius: 36px;
+				filter: blur(22px);
+				opacity: 0.65;
+				animation: spinGlow 14s linear infinite;
+				z-index: 1;
+			}
+
+			@keyframes spinGlow {
+				0% { transform: rotate(0deg); }
+				100% { transform: rotate(360deg); }
+			}
+
+			.gd-hero-frame-card {
+				position: relative;
+				z-index: 2;
+				background: rgba(15, 23, 42, 0.6);
+				backdrop-filter: blur(14px);
+				border: 2px solid rgba(255, 255, 255, 0.2);
+				border-radius: 28px;
+				padding: 10px;
+				box-shadow: 0 24px 50px rgba(0, 0, 0, 0.5);
+				transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+			}
+
+			.gd-hero-frame-card:hover {
+				transform: translateY(-4px) scale(1.01);
+				border-color: rgba(56, 189, 248, 0.5);
+			}
+
+			.gd-hero-frame-card img {
+				width: 100%;
+				height: auto;
+				max-height: 420px;
+				object-fit: cover;
 				border-radius: 20px;
-				border: 4px solid rgba(255, 255, 255, 0.15);
-				box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
-				transition: transform 0.4s ease;
+				display: block;
 			}
 
-			.gd-hero-img-container img:hover {
-				transform: scale(1.02);
+			/* Floating Achievement Chips */
+			.gd-float-chip {
+				position: absolute;
+				z-index: 4;
+				background: rgba(15, 23, 42, 0.88);
+				backdrop-filter: blur(12px);
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				border-radius: 16px;
+				padding: 10px 14px;
+				display: flex;
+				align-items: center;
+				gap: 10px;
+				box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+				animation: chipFloat 5s ease-in-out infinite;
+				text-align: left;
+			}
+
+			@keyframes chipFloat {
+				0%, 100% { transform: translateY(0px); }
+				50% { transform: translateY(-8px); }
+			}
+
+			.gd-chip-top-left {
+				top: 25px;
+				left: -20px;
+				border-color: rgba(245, 158, 11, 0.5);
+				animation-delay: 0s;
+			}
+
+			.gd-chip-bottom-right {
+				bottom: 30px;
+				right: -20px;
+				border-color: rgba(56, 189, 248, 0.5);
+				animation-delay: -2.5s;
+			}
+
+			.gd-chip-icon {
+				width: 36px;
+				height: 36px;
+				border-radius: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 16px;
+				flex-shrink: 0;
+			}
+
+			.gd-chip-icon-gold {
+				background: linear-gradient(135deg, rgba(245, 158, 11, 0.25), rgba(217, 119, 6, 0.25));
+				color: #fbbf24;
+				border: 1px solid rgba(245, 158, 11, 0.4);
+			}
+
+			.gd-chip-icon-cyan {
+				background: linear-gradient(135deg, rgba(6, 182, 212, 0.25), rgba(59, 130, 246, 0.25));
+				color: #38bdf8;
+				border: 1px solid rgba(6, 182, 212, 0.4);
+			}
+
+			.gd-chip-title {
+				font-size: 13.5px;
+				font-weight: 800;
+				color: #ffffff;
+				line-height: 1.2;
+				display: block;
+			}
+
+			.gd-chip-desc {
+				font-size: 11px;
+				font-weight: 600;
+				color: #cbd5e1;
+				display: block;
+			}
+
+			@media (max-width: 767px) {
+				.gd-hero h1 { font-size: 34px; }
+				.gd-hero-sub-vibrant { font-size: 18px; }
+				.gd-chip-top-left { left: 5px; top: 10px; }
+				.gd-chip-bottom-right { right: 5px; bottom: 10px; }
+				.gd-hero { padding: 50px 0 60px; }
 			}
 
 			/* 3. Featured Logos Marquee */
@@ -1044,11 +1299,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div role="main" class="main gd-page">
 
-			<!-- ===== GAURAV DUBEY HERO SECTION ===== -->
+			<!-- ===== GAURAV DUBEY VIBRANT HERO SECTION ===== -->
 			<section class="gd-hero">
-				<!-- Background Animated Blobs -->
+				<!-- Cyber Grid & Animated Background Ambient Blobs -->
+				<div class="gd-hero-grid-pattern"></div>
 				<div class="gd-blob gd-blob-1"></div>
 				<div class="gd-blob gd-blob-2"></div>
+				<div class="gd-blob gd-blob-3"></div>
 
 				<!-- Floating Tech & Marketing Icons -->
 				<div class="gd-floating-icon gd-fi-1"><i class="fa fa-line-chart"></i></div>
@@ -1056,38 +1313,95 @@
 				<div class="gd-floating-icon gd-fi-3"><i class="fa fa-search"></i></div>
 				<div class="gd-floating-icon gd-fi-4"><i class="fa fa-bullhorn"></i></div>
 
-				<div class="container">
+				<div class="container" style="position: relative; z-index: 3;">
 					<div class="row" style="display: flex; flex-wrap: wrap; align-items: center;">
+						<!-- Left Column: Copy & CTAs -->
 						<div class="col-lg-7 col-md-7">
 							<span class="gd-hero-badge">
-								<i class="fa fa-user-tie"></i> #1 DIGITAL MARKETING CONSULTANT SINCE 2013
+								<span class="gd-live-dot"></span> #1 DIGITAL MARKETING CONSULTANT SINCE 2013
 							</span>
-							<h1>Gaurav Dubey</h1>
-							<h2>Digital Marketing Consultant &amp; Growth Strategist</h2>
-							<p style="font-size: 16px; color: #e0f2fe; margin-bottom: 25px; line-height: 1.6;">
-								Helping businesses scale through data-driven SEO strategies, high-ROI Google Ads campaigns, Meta advertising funnels, and executive digital marketing performance consulting.
+							<h1>Gaurav <span class="gd-vibrant-name-grad">Dubey</span></h1>
+							<div class="gd-hero-sub-vibrant">
+								Senior Digital Marketing Consultant &amp; <span class="highlight">Growth Architect</span>
+							</div>
+							<p class="gd-hero-desc">
+								Empowering high-growth businesses and entrepreneurs with data-driven SEO architectures, multi-million rupee Google &amp; Meta ad funnels, AI-driven automation, and executive digital marketing performance consulting.
 							</p>
 
-							<div class="gd-trust-badges">
-								<div class="gd-badge-item"><i class="fa fa-trophy"></i> 13+ Years Experience</div>
-								<div class="gd-badge-item"><i class="fa fa-briefcase"></i> 900+ Projects</div>
-								<div class="gd-badge-item"><i class="fa fa-graduation-cap"></i> 1850+ Students</div>
-								<div class="gd-badge-item"><i class="fa fa-globe"></i> 15+ Countries</div>
+							<!-- 4 Vibrant Glassmorphic Stat Cards -->
+							<div class="gd-trust-badges-grid">
+								<div class="gd-vibrant-stat-card">
+									<span class="gd-stat-card-icon" style="color: #fbbf24;"><i class="fa fa-trophy"></i></span>
+									<span class="gd-stat-card-num">13+ Yrs</span>
+									<span class="gd-stat-card-label">Experience</span>
+								</div>
+								<div class="gd-vibrant-stat-card">
+									<span class="gd-stat-card-icon" style="color: #38bdf8;"><i class="fa fa-briefcase"></i></span>
+									<span class="gd-stat-card-num">900+</span>
+									<span class="gd-stat-card-label">Projects</span>
+								</div>
+								<div class="gd-vibrant-stat-card">
+									<span class="gd-stat-card-icon" style="color: #a78bfa;"><i class="fa fa-graduation-cap"></i></span>
+									<span class="gd-stat-card-num">1,850+</span>
+									<span class="gd-stat-card-label">Mentored</span>
+								</div>
+								<div class="gd-vibrant-stat-card">
+									<span class="gd-stat-card-icon" style="color: #34d399;"><i class="fa fa-globe"></i></span>
+									<span class="gd-stat-card-num">15+</span>
+									<span class="gd-stat-card-label">Countries</span>
+								</div>
 							</div>
 
-							<div style="margin-top: 25px;">
-								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="gd-btn-glow">
-									<i class="fa fa-calendar"></i> Book Free Strategy Call
+							<!-- Vibrant Action Buttons -->
+							<div class="gd-hero-actions">
+								<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="gd-btn-vibrant-primary">
+									<i class="fa fa-calendar-check-o"></i> Book Free Strategy Call
 								</a>
-								<a href="https://api.whatsapp.com/send?phone=919821918208&amp;text=Hi%20Gaurav%20Dubey,%20I%20want%20to%20discuss%20Digital%20Marketing%20Consultation" target="_blank" class="gd-btn-secondary">
+								<a href="https://api.whatsapp.com/send?phone=919821918208&amp;text=Hi%20Gaurav%20Dubey,%20I%20want%20to%20discuss%20Digital%20Marketing%20Consultation" target="_blank" class="gd-btn-vibrant-whatsapp">
 									<i class="fa fa-whatsapp"></i> Chat on WhatsApp
 								</a>
 							</div>
+
+							<!-- Guarantees Trust Bar -->
+							<div class="gd-hero-guarantees">
+								<span><i class="fa fa-check-circle"></i> 30-Min Custom Growth Blueprint</span>
+								<span><i class="fa fa-check-circle"></i> 100% Confidential</span>
+								<span><i class="fa fa-check-circle"></i> Zero Long-Term Lock-in</span>
+							</div>
 						</div>
 
-						<div class="col-lg-5 col-md-5 text-center mt-4 mt-md-0">
-							<div class="gd-hero-img-container">
-								<img src="images/gaurav dubey digital marketing.webp" alt="Gaurav Dubey Digital Marketing Consultant">
+						<!-- Right Column: Glowing Photo Frame & Floating Achievement Chips -->
+						<div class="col-lg-5 col-md-5 text-center mt-5 mt-md-0">
+							<div class="gd-hero-img-wrap">
+								<!-- Glowing Halo Background -->
+								<div class="gd-hero-glow-halo"></div>
+
+								<!-- Floating Chip 1: Top Left Rating -->
+								<div class="gd-float-chip gd-chip-top-left">
+									<div class="gd-chip-icon gd-chip-icon-gold">
+										<i class="fa fa-star"></i>
+									</div>
+									<div>
+										<span class="gd-chip-title">4.9 / 5 Rating</span>
+										<span class="gd-chip-desc">1,280+ Client Reviews</span>
+									</div>
+								</div>
+
+								<!-- Main Photo Card Frame -->
+								<div class="gd-hero-frame-card">
+									<img src="images/gaurav dubey digital marketing.webp" alt="Gaurav Dubey Digital Marketing Consultant" loading="eager">
+								</div>
+
+								<!-- Floating Chip 2: Bottom Right Scaling -->
+								<div class="gd-float-chip gd-chip-bottom-right">
+									<div class="gd-chip-icon gd-chip-icon-cyan">
+										<i class="fa fa-rocket"></i>
+									</div>
+									<div>
+										<span class="gd-chip-title">10X Average ROI</span>
+										<span class="gd-chip-desc">High-Intent Funnel Growth</span>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
