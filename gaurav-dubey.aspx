@@ -823,16 +823,18 @@
 
 			.gd-about-photo-wrap {
 				position: relative;
-				display: inline-block;
-				max-width: 100%;
+				display: block;
+				max-width: 380px;
+				margin: 0 auto;
+				transform: translateZ(0);
 			}
 
 			.gd-about-photo-glow {
 				position: absolute;
-				inset: -6px;
-				background: radial-gradient(circle, rgba(6, 182, 212, 0.4) 0%, rgba(139, 92, 246, 0.35) 60%, transparent 80%);
-				border-radius: 26px;
-				filter: blur(16px);
+				inset: -8px;
+				background: radial-gradient(circle, rgba(6, 182, 212, 0.45) 0%, rgba(139, 92, 246, 0.35) 60%, transparent 80%);
+				border-radius: 28px;
+				filter: blur(18px);
 				z-index: 1;
 				pointer-events: none;
 			}
@@ -842,7 +844,7 @@
 				z-index: 2;
 				background: rgba(15, 23, 42, 0.7);
 				border: 2px solid rgba(56, 189, 248, 0.35);
-				border-radius: 22px;
+				border-radius: 24px;
 				padding: 8px;
 				box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);
 				transition: transform 0.3s ease, border-color 0.3s ease;
@@ -855,34 +857,36 @@
 
 			.gd-about-photo-card img {
 				width: 100%;
-				max-width: 100%;
-				border-radius: 16px;
+				height: auto;
+				border-radius: 18px;
 				object-fit: cover;
-				max-height: 480px;
+				max-height: 420px;
 				display: block;
 			}
 
 			.gd-about-name-pill {
 				background: linear-gradient(135deg, #0284c7 0%, #0088cc 50%, #2563eb 100%);
 				color: #ffffff;
-				padding: 12px 20px;
+				padding: 11px 18px;
 				border-radius: 12px;
 				font-weight: 800;
-				font-size: 14.5px;
-				margin-top: -24px;
+				font-size: 13.5px;
+				margin-top: -22px;
 				position: relative;
 				z-index: 3;
 				box-shadow: 0 8px 24px rgba(2, 132, 199, 0.45);
 				border: 1px solid rgba(255, 255, 255, 0.2);
 				display: inline-block;
+				max-width: 90%;
 			}
 
-			/* Dark Timeline */
+			/* Dark Timeline - Spaced and Protected Against Overlap */
 			.gd-timeline {
 				position: relative;
-				padding-left: 28px;
+				margin-left: 20px;
+				padding-left: 32px;
 				border-left: 2px solid rgba(56, 189, 248, 0.35);
-				margin-top: 22px;
+				margin-top: 24px;
 			}
 
 			.gd-timeline-item {
@@ -897,7 +901,7 @@
 			.gd-timeline-item::before {
 				content: '';
 				position: absolute;
-				left: -35px;
+				left: -39px;
 				top: 14px;
 				width: 12px;
 				height: 12px;
@@ -1611,12 +1615,12 @@
 				<div class="container">
 					<div class="row" style="display: flex; flex-wrap: wrap; align-items: center;">
 						<!-- Left Column: Trainer Photo & Socials -->
-						<div class="col-md-5 text-center mb-5 mb-md-0">
+						<div class="col-lg-5 col-md-5 text-center mb-5 mb-lg-0" style="padding-right: 15px;">
 							<div class="gd-about-photo-wrap">
 								<div class="gd-about-photo-glow"></div>
 								<div class="gd-about-photo-card">
-									<img src="images/gaurav-dubey/Gaurav-Dubey-Digital-Marketing-consultant-trainer.webp"
-										alt="Gaurav Dubey Digital Marketing Consultant &amp; Trainer" loading="lazy">
+									<img src="images/gaurav-dubey/digital marketing trainer gaurav dubey.webp"
+										alt="Gaurav Dubey Digital Marketing Trainer &amp; Consultant" loading="lazy">
 								</div>
 								<div class="gd-about-name-pill">
 									Gaurav Dubey &mdash; Digital Marketing Trainer &amp; Consultant
@@ -1641,53 +1645,53 @@
 							</div>
 						</div>
 
-						<!-- Right Column: Strategic Growth Copy & Dark Timeline -->
-						<div class="col-md-7">
+						<!-- Right Column: Career Timeline Story & Dark Timeline Cards -->
+						<div class="col-lg-7 col-md-7" style="padding-left: 20px;">
 							<span class="gd-about-badge">
-								<i class="fa fa-user-check"></i> ABOUT GAURAV DUBEY
+								<i class="fa fa-history"></i> CAREER TIMELINE &amp; EVOLUTION
 							</span>
 							<h2 class="gd-about-dark-title">
-								Strategic Growth Partner for <span class="gd-vibrant-name-grad">Ambitious Brands</span>
+								How Gaurav Dubey Started in <span class="gd-vibrant-name-grad">2013 as a Solo Freelancer</span> &amp; Scaled Into an International Growth Partner Today
 							</h2>
 							<p class="gd-about-dark-desc">
-								Gaurav Dubey is a digital marketing strategist, agency founder, and performance marketing consultant. With over 13 years of field experience, Gaurav bridges technical search engine optimization with high-conversion creative strategies to help brands build sustainable market dominance.
+								From mastering search engine algorithms and ranking Delhi NCR businesses back in 2013 to establishing King of Digital Marketing, building software firm Devweboic, founding UIDMT academy, and delivering high-ROI growth to 900+ brands across 15+ countries today — explore Gaurav Dubey's complete milestone journey below.
 							</p>
 
 							<!-- Dark Interactive Timeline -->
 							<div class="gd-timeline">
 								<div class="gd-timeline-item">
 									<div class="gd-timeline-card">
-										<span class="gd-timeline-year">2013</span>
-										<div class="gd-timeline-title">Started Freelancing</div>
-										<p class="gd-timeline-desc">Began delivering SEO and Google AdWords services to early clients in Delhi NCR.</p>
+										<span class="gd-timeline-year">2013 &bull; THE BEGINNING</span>
+										<div class="gd-timeline-title">Started Freelancing &amp; SEO Execution</div>
+										<p class="gd-timeline-desc">Began delivering hands-on technical SEO, Google AdWords, and local organic ranking campaigns to early businesses across Delhi NCR.</p>
 									</div>
 								</div>
 								<div class="gd-timeline-item">
 									<div class="gd-timeline-card">
-										<span class="gd-timeline-year">2014</span>
+										<span class="gd-timeline-year">2014 &bull; AGENCY FOUNDATION</span>
 										<div class="gd-timeline-title">Founded King of Digital Marketing</div>
-										<p class="gd-timeline-desc">Established King of Digital Marketing as a full-service agency team serving domestic and international clients.</p>
+										<p class="gd-timeline-desc">Established King of Digital Marketing as a full-service performance agency, building an in-house team of SEO analysts and performance marketers.</p>
 									</div>
 								</div>
 								<div class="gd-timeline-item">
 									<div class="gd-timeline-card">
-										<span class="gd-timeline-year">2018</span>
+										<span class="gd-timeline-year">2018 &bull; TECH EXPANSION</span>
 										<div class="gd-timeline-title">Founded Devweboic Pvt. Ltd.</div>
-										<p class="gd-timeline-desc">Launched custom web development and enterprise software solutions vertical.</p>
+										<p class="gd-timeline-desc">Launched custom web development, CRM automation, and enterprise web solutions vertical to deliver end-to-end digital infrastructure.</p>
 									</div>
 								</div>
 								<div class="gd-timeline-item">
 									<div class="gd-timeline-card">
-										<span class="gd-timeline-year">2024</span>
-										<div class="gd-timeline-title">Built UIDMT</div>
-										<p class="gd-timeline-desc">Created the UpNext Institute of Digital Marketing and Technology to educate the next generation of marketers.</p>
+										<span class="gd-timeline-year">2024 &bull; ACADEMY &amp; MENTORSHIP</span>
+										<div class="gd-timeline-title">Built UIDMT Institute</div>
+										<p class="gd-timeline-desc">Created the UpNext Institute of Digital Marketing and Technology (UIDMT) to train 1,850+ entrepreneurs, marketing managers, and students.</p>
 									</div>
 								</div>
 								<div class="gd-timeline-item">
 									<div class="gd-timeline-card">
-										<span class="gd-timeline-year">2026</span>
-										<div class="gd-timeline-title">Worked Across 15+ Countries</div>
-										<p class="gd-timeline-desc">Expanded consulting footprint across USA, UK, UAE, Australia, Singapore, and Europe.</p>
+										<span class="gd-timeline-year">2026 &bull; GLOBAL CONSULTING</span>
+										<div class="gd-timeline-title">Scaling 900+ Brands Across 15+ Countries</div>
+										<p class="gd-timeline-desc">Advising businesses globally across USA, UK, UAE, Australia, Singapore, and Europe with high-conversion funnels and AI-powered growth marketing.</p>
 									</div>
 								</div>
 							</div>
