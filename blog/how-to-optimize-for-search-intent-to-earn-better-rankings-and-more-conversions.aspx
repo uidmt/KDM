@@ -28,9 +28,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <ul class="breadcrumb">
-                                <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
-                                <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                            </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">How to Optimize for Search Intent to Earn Better Rankings and More Conversions?</li>
+                        </ul>
                         </div>
                     </div>
                 </div>
@@ -42,16 +43,16 @@
                 <div class="single-page col-md-8 content-left">
                     <div class="print-main">
                         <h1 class="blog-heading-css">How to Optimize for Search Intent to Earn Better Rankings and More Conversions?</h1>
-                        <div class="posted-by">
-                            <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
-                            <div class="posted-details">
-                                <span class="posted-author">By <a class="post-font"
-                                        href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on
-                                    February 14, 2026</span>
-                            </div>
+                                            <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
                         </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                         <a href="#"><img src="img/how-to-optimize-for-search-intent-to-earn-better-rankings-and-more-conversions.webp" class="img-responsive" alt="Cloud Data Storage Company" /></a><br>
                         <div class="cus-bullet">
                             <h3>TABLE OF CONTENT</h3>
@@ -198,6 +199,17 @@
                         <p class="span"><strong>Search intent optimization</strong> is not a choice anymore. When you have the right content at the right time and place, the ranking is automatic, the engagement is high and the conversions come naturally.</p>
                         
                         <p class="span">Rather than posing the question, How can I rank this keyword?, you should begin to pose the question, What does the user actually want? It is that change of perspective that makes the difference in the <strong>success of SEO.</strong></p><br>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
                     </div>
                 </div>
 

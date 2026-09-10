@@ -24,10 +24,11 @@
                     <div class="row">
                         <div class="col-md-12">
                             <ul class="breadcrumb">
-                                <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a>
-                                </li>
-                                <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                            </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">Common Google Indexing Issues and How to Fix Them? (Step-by-Step
+                            Guide)</li>
+                        </ul>
                         </div>
                     </div>
                 </div>
@@ -40,14 +41,16 @@
                     <div class="print-main">
                         <h1 class="blog-heading-css">Common Google Indexing Issues and How to Fix Them? (Step-by-Step
                             Guide)</h1>
-                        <div class="posted-by">
-                            <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
-                            <div class="posted-details">
-                                <span class="posted-author">By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on February 10, 2026</span>
-                            </div>
+                                            <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
                         </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                         <a href="#"><img src="img/common-google-indexing-issues-and-how-to-fix-them.webp" class="img-responsive" alt="Common google indexing" /></a><br>
                         <div class="cus-bullet">
                             <h3>TABLE OF CONTENT</h3>
@@ -219,6 +222,17 @@
                         <h4 class="text-tranf" id="12">Final Thoughts</h4>
                         <p class="span">It may be overwhelming to have <strong>Google indexing issues,</strong> but most of the problems are solvable through the right approach.Through the identification of mistakes followed by their correction, you would be able to make sure that your site is crawled, indexed, and ranked accordingly.</p>
                         <p class="span">A healthy site in technical sense not only enhances visibility but also generates long term trust with the search engines.</p>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
                     </div>
                 </div>
 

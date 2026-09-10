@@ -24,8 +24,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="breadcrumb">
-                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
                             <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">What is the Basic Salary of an SEO Executive?</li>
                         </ul>
                     </div>
                 </div>
@@ -37,12 +38,14 @@
             <div class="single-page col-md-8 content-left">
                 <div class="print-main">
                     <h1 class="blog-heading-css">What is the Basic Salary of an SEO Executive?</h1>
-                    <div class="posted-by">
+                                        <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                        </div>
                         <div class="posted-details">
-                            <span class="posted-author">By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on April 16, 2022</span>
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
                         </div>
                     </div>
                     <a href="#"><img src="images/what-is-the-basic-salary-of-an-seo-executive.webp" class="img-responsive" alt="What is affiliate marketing and what are its benefits?" /></a><br>
@@ -100,6 +103,17 @@
                     <a href="#"><img src="images/seoex3.webp" class="img-responsive" alt="email-marketing" /></a><br>
                     <h3 class="text-transf" id="4">SEO Executive Salary</h3>
                     <p class="span">A professional SEO executive will expect something between Rs.25,000 to Rs.30,000 per month. However, with some expertise within the field and data on the operation of SEO techniques, one will explore for Rs.40,000 to Rs. 50,000 per month. You can get the best <strong>SEO company in Delhi.</strong> And there is no process of remuneration for people who have some entrepreneurship skills and might work severally on a project basis with varied organizations at a time.</p>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 content-right content-right-top sidebar">

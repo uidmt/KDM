@@ -24,9 +24,10 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="breadcrumb">
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                                </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">How SEO Can Help you to Grow Your Businesses?</li>
+                        </ul>
                             </div>
                         </div>
                     </div>
@@ -38,14 +39,16 @@
                     <div class="single-page col-md-8 content-left">
                         <div class="print-main">
                             <h1 class="blog-heading-css">How SEO Can Help you to Grow Your Businesses?</h1>
-                            <div class="posted-by">
-                                <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
-                                <div class="posted-details">
-                                    <span class="posted-author">By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on April 19, 2022</span>
-                                </div>
-                            </div>
+                                                <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                        </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                             <a href="#"><img src="images/how-seo-is-the-best-method-to-grow-businesses-in-2022.webp" class="img-responsive" alt="How SEO is The Best Method to Grow Businesses in 2022?" /></a><br>
                             <div class="cus-bullet">
                                 <h3>TABLE OF CONTENT</h3>
@@ -94,6 +97,17 @@
                             <h3 class="text-transf" id="4"> 9. SEO may be a semipermanent promoting Strategy</h3>
                             <p class="span">SEO may be a semipermanent promoting strategy. Six months is the minimum length for a website to keep up the optimum ranking. The great news is that, though it takes what looks like an eternity to succeed in those prime ranks, propelling you down the list additionally takes time.<br><br>
                             However, Google rule often changes and updates, and alternative competitors work effortlessly on their SEO blessings too. Watching your ranking can enable you to trace your performance and build changes once fluctuations in your performance occur.</p>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
                         </div>
                     </div>
 

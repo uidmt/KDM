@@ -23,9 +23,10 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="breadcrumb">
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                                </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">What to Study about Social Media Marketing?</li>
+                        </ul>
                             </div>
                         </div>
                     </div>
@@ -38,14 +39,16 @@
                         <div class="print-main">
                             <h1 class="blog-heading-css">What to Study about Social Media Marketing?
                             </h1>
-                            <div class="posted-by">
-                                <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
-                                <div class="posted-details">
-                                    <span class="posted-author">By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on July 08, 2024</span>
-                                </div>
-                            </div>
+                                                <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                        </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                             <a href="#"><img src="img/study smm.webp" class="img-responsive" alt="Role Of Voice Search SEO" /></a><br>
                             <div class="cus-bullet">
                                 <h3>TABLE OF CONTENT</h3>
@@ -182,6 +185,17 @@
                                 <a href="https://www.kingofdigitalmarketing.com/SEO-Training.aspx">Studying Social Media Marketing</a> includes understanding the depthness of each platform, adopting easy strategies, creating good content, allowing use  of analytics, and staying updated with industry changes. Bing skilled in these aspects, any firm can easily gain their clients, build brand name for themselves, and lead to business growth through social media channels.
                                 Social Media marketing gives huge ability to businesses to connect with their clients, be involved in promoting their products or services, and achieve their market goals. By understanding social media marketing features, creating good content, using advertising options, and continuously posting new strategies, you can use the magic of social media marketing to grow and succeed for your firm. Whether you have a small business or have a big business, becoming skilled in such marketing is important in today's digital world.
                              </p>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
                            
                             
                         </div>

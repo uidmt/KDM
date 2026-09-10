@@ -25,9 +25,10 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="breadcrumb">
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                                </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">How To Effectively Use SEO And PPC Together?</li>
+                        </ul>
                             </div>
                         </div>
                     </div>
@@ -39,14 +40,16 @@
                     <div class="single-page col-md-8 content-left">
                         <div class="print-main">
                             <h1 class="blog-heading-css">How To Effectively Use SEO And PPC Together?</h1>
-                            <div class="posted-by">
-                                <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
-                                <div class="posted-details">
-                                    <span class="posted-author">By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on January 18, 2022</span>
-                                </div>
-                            </div>
+                                                <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                        </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                             <a href="#"><img src="images/How to effectively use SEO and PPC together.webp" class="img-responsive" alt="How to effectively use SEO and PPC together" /></a><br>
                             <div class="cus-bullet">
                                 <h3>TABLE OF CONTENT</h3>
@@ -113,6 +116,17 @@
                             <p class="span">
                             After reading all the above-detailed information, Many people approach SEO and PPC as completely separate strategies but still, we know that they conclude the same thing such as giving growth, increase and boost in the web traffic. And while they are different in many ways, it can be helpful to think of SEO and PPC as being two sides of the same coin. Hence, using all these strategies together can help greatly increase traffic, and give the impression that you're an established presence in a particular market with a genuine and credible identity.
                             </p>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
 
                         </div>
                     </div>

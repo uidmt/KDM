@@ -24,9 +24,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <ul class="breadcrumb">
-                                <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
-                                <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                            </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">White Hat Link Building Strategies That Still Work</li>
+                        </ul>
                         </div>
                     </div>
                 </div>
@@ -38,14 +39,16 @@
                 <div class="single-page col-md-8 content-left">
                     <div class="print-main">
                         <h1 class="blog-heading-css">White Hat Link Building Strategies That Still Work</h1>
-                        <div class="posted-by">
-                            <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
-                            <div class="posted-details">
-                                <span class="posted-author">By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on February 23, 2026</span>
-                            </div>
+                                            <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
                         </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                         <a href="#"><img src="img/white-hat-link-building-strategies-that-still-work.webp" class="img-responsive" alt="Content Cannibalization" /></a><br>
                         <div class="cus-bullet">
                             <h3>TABLE OF CONTENT</h3>
@@ -182,6 +185,17 @@
                         <h4 class="text-tranf" id="18">Conclusion</h4>
                         <p class="span">The white hat link building techniques have remained effective since they are based on value, relevance and trust. Although shortcuts might be quick, it does not last long. Ethical link building is consistent with the current search engine method of authority testing. The links that will help you increase the rankings without any risks of penalties can be created by focusing on the quality of content, credible relationships, digital PR, and good internal structure. Sustainable.</p>
                         <p class="span">SEO does not seek after algorithms. It is a matter of gaining credibility- one connection at a time.</p>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
                         
                     </div>
                 </div>

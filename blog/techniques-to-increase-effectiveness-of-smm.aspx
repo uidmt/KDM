@@ -26,9 +26,10 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="breadcrumb">
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                                </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">Techniques To Increase Effectiveness Of SMM</li>
+                        </ul>
                             </div>
                         </div>
                     </div>
@@ -40,6 +41,16 @@
                     <div class="single-page col-md-8 blog-content-level content-left">
                         <div class="print-main">
                             <h1 class="blog-heading-css">Techniques To Increase Effectiveness Of SMM</h1>
+                    <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                        </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                             <a href="#"><img src="images/Techniques to Increase Effectiveness of Social media.webp" alt="Techniques to Increase Effectiveness of Social media" class="img-responsive"  /></a><br>
                             <div class="cus-bullet">
                                 <h3>TABLE OF CONTENT</h3>
@@ -92,6 +103,17 @@
                                 <h</h3>Also Read</h4>
                                 <a href="https://www.kingofdigitalmarketing.com/blog/social-media-marketing-tips-for-every-business.aspx"><h5>Social Media Marketing Tips For Every Business</h5></a>
                                 <a href="https://www.kingofdigitalmarketing.com/blog/how-can-social-media-uplift-a-brand-image-in-marketing.aspx"><h5>How Can Social Media Uplift A Brand Image In Marketing?</h5></a>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
                             </div>
 
 

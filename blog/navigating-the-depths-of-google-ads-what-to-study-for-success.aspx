@@ -23,9 +23,10 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="breadcrumb">
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                                </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">Navigating the Depths of Google Ads: What to Study for Success</li>
+                        </ul>
                             </div>
                         </div>
                     </div>
@@ -38,14 +39,16 @@
                         <div class="print-main">
                             <h1 class="blog-heading-css">Navigating the Depths of Google Ads: What to Study for Success  
                             </h1>
-                            <div class="posted-by">
-                                <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
-                                <div class="posted-details">
-                                    <span class="posted-author">By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on April 25, 2024</span>
-                                </div>
-                            </div>
+                                                <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                        </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                             <a href="#"><img src="img/Navigating the Depths of Google Ads.webp" class="img-responsive" alt="Digital Marketing Overview" /></a><br>
                             <div class="cus-bullet">
                                 <h4>TABLE OF CONTENT</h4>
@@ -130,6 +133,17 @@
                                 <p class="span">
                                     So, becoming a Google Ads expert means understanding all its parts and always trying to make your campaigns better while learning new things. What makes Google Ads so strong is that it has many different parts you can work with and it keeps changing along with marketing. It's not just about doing the work right, it's also about what people think when they see your ads. Study how customers behave, look at what's happening in the market, and keep making your ads better to catch the attention of potential customers. Keep coming back to this guide to catch up on certain topics that you might have missed or need to go through a refresher once again. Mastering Google Ads is easy once you know how to approach it and this guide is the perfect one!!                
                                           </p>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>
                            
             
                         </div>

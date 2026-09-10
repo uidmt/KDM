@@ -23,9 +23,10 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="breadcrumb">
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                                </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">Top 10 free Image Editing Apps for Digital Marketers</li>
+                        </ul>
                             </div>
                         </div>
                     </div>
@@ -38,14 +39,16 @@
                         <div class="print-main">
                             <h1 class="blog-heading-css">Top 10 free Image Editing Apps for Digital Marketers
                             </h1>
-                            <div class="posted-by">
-                                <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
-                                <div class="posted-details">
-                                    <span class="posted-author">By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on May 23, 2024</span>
-                                </div>
-                            </div>
+                                                <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                        </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                             <a href="#"><img src="img/Image Editing Apps.webp" class="img-responsive" alt="Role Of Voice Search SEO" /></a><br>
                             <div class="cus-bullet">
                                 <h4>TABLE OF CONTENT</h4>
@@ -117,7 +120,18 @@
 
                             <p class="span">BeFunky is a multi-functional photo and graphic editor and creation software where you can find multiple editing tools, as well as unique graphic design elements and a range of photo effects and filters. By handling this task, BeFunky allows all users, including beginners and editable designers, to come up with effective pictures rapidly. Either delivered for totally free or with a number of subscription alternatives, marketers can easily have access to BeFunky where they are empowered to a level of creativity with the effects and elements of strategic graphic designs and come up with visuals that reflect their precise target audience.</p>     
 
-                            <p class="span">Certainly, with the help of BeFunky and the rest of the 10 free image and video editing apps listed in the aforementioned guide, digital marketing professionals have gained access to a very wide range of tools and resources to boost the quality of their visual content and to catch the attention of their audience in the most appealing way possible. Regardless of whether you're into social media management, blogging, or website maintenance, these apps provide the needed versatility, convenience, and professional-grade results without the necessity of using too much expensive software. Take adventurousness into account, discover the wealth of features each app has, and remain informed of each app's updates, thereby ensuring your images are always new and intriguing. Happy editing.</p>     
+                            <p class="span">Certainly, with the help of BeFunky and the rest of the 10 free image and video editing apps listed in the aforementioned guide, digital marketing professionals have gained access to a very wide range of tools and resources to boost the quality of their visual content and to catch the attention of their audience in the most appealing way possible. Regardless of whether you're into social media management, blogging, or website maintenance, these apps provide the needed versatility, convenience, and professional-grade results without the necessity of using too much expensive software. Take adventurousness into account, discover the wealth of features each app has, and remain informed of each app's updates, thereby ensuring your images are always new and intriguing. Happy editing.</p>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div>     
 
                         </div>
                     </div>

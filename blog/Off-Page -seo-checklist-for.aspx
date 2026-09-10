@@ -25,9 +25,10 @@ meta tags seo, technical seo checklist, google ranking factors 2026">
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="breadcrumb">
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com">Home</a></li>
-                                    <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                                </ul>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
+                            <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
+                            <li class="active" style="margin-left:0px;">Off-Page SEO Checklist for 2026</li>
+                        </ul>
                             </div>
                         </div>
                     </div>
@@ -39,14 +40,16 @@ meta tags seo, technical seo checklist, google ranking factors 2026">
                     <div class="single-page col-md-8 content-left">
                         <div class="print-main">
                             <h1 class="blog-heading-css">Off-Page SEO Checklist for 2026</h1>
-                            <div class="posted-by">
-                                <div class="posted-logo">
-                                    <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
-                                </div>
-                                <div class="posted-details">
-                                    <span class="posted-author">By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> on January 05, 2026</span>
-                                </div>
-                            </div>
+                                                <div class="posted-by" style="margin-bottom: 22px;">
+                        <div class="posted-logo">
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                        </div>
+                        <div class="posted-details">
+                            <span class="posted-author">
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                            </span>
+                        </div>
+                    </div>
                             <a href="#"><img src="https://www.kingofdigitalmarketing.com/blog/images/On-Page-SEO-Checklist.webp" class="img-responsive" alt="Cloud Data Storage Company" /></a><br>
                             <div class="cus-bullet">
                                 <h3>TABLE OF CONTENT</h3>
@@ -188,7 +191,18 @@ Partnership with trusted sources will create long-term relationships and natural
                      <p class="span">All the optimization that is done outside of a Web site to enhance the authority, credibility and search engine positions is called off-page SEO. <b>Off-page SEO in 2026</b> will be much more than a simple link building, as it is aimed at brand trust, presence in the digital realm, and reputation online. To enhance their presence in external platforms and search systems, businesses tend to seek professional <b>off-page services of SEO.</b>
 Search engines consider the mentioning, sharing, and referring to a brand on the internet. Backlinks, brand mentions and reviews, social engagement are some of the signals that can be used to determine the authority of a webpage. A good <b>off-page SEO plan </b>creates credibility among the user and the search engine. This is a comprehensive <b>off-page SEO </b>checklist in 2026 which includes all the necessary activities that need to be done to ensure better rankings, referral traffic, and long-term online credibility in a more competitive virtual landscape.
 
-                            </p> 
+                            </p>
+                    <!-- Author Box -->
+                    <div class="kdm-author-card">
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <div class="kdm-author-info">
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <p>
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                            </p>
+                        </div>
+                    </div> 
 
                    
                         </div>

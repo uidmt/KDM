@@ -802,7 +802,7 @@
                         <ul class="breadcrumb">
                             <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com"><i class="fa fa-home"></i> Home</a></li>
                             <li style="margin-left:0px;"><a href="https://www.kingofdigitalmarketing.com/blog/">Blog</a></li>
-                            <li class="active" style="margin-left:0px;">Lead Generation for Cleaning Services in Australia</li>
+                            <li class="active" style="margin-left:0px;">Lead Generation for Cleaning Services in Australia: How to Get 100+ Leads Daily</li>
                         </ul>
                     </div>
                 </div>
@@ -827,14 +827,13 @@
                     </h1>
 
                     <!-- Author & Published Meta -->
-                    <div class="posted-by" style="margin-bottom: 22px;">
+                                        <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/logo.webp" alt="King of Digital Marketing Logo" />
+                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
-                                By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> 
-                                &bull; <i class="fa fa-calendar-alt"></i> September 10, 2026 &bull; <i class="fa fa-clock"></i> 8 Min Read
+                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
                             </span>
                         </div>
                     </div>
@@ -1417,13 +1416,14 @@
                     </div>
 
                     <!-- Author Box -->
+                                        <!-- Author Box -->
                     <div class="kdm-author-card">
-                        <img src="../images/logo.webp" alt="Gaurav Dubey King of Digital Marketing" class="kdm-author-img" />
+                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
                         <div class="kdm-author-info">
-                            <h4>Gaurav Dubey (King of Digital Marketing)</h4>
-                            <div class="designation">Founder &bull; Lead Generation Strategist &bull; 13+ Years Experience</div>
+                            <h4>Gaurav Dubey</h4>
+                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
                             <p>
-                                Gaurav Dubey has spearheaded 900+ global digital growth campaigns. Having helped 10+ cleaning businesses across Australia generate predictable leads and scale operations, he specializes in local SEO, PPC search engines, and full-funnel conversion systems.
+                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
                             </p>
                         </div>
                     </div>
