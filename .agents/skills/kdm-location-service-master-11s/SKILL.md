@@ -37,13 +37,16 @@ All styling and scripting leverage existing centralized stylesheets (`css/home-c
      - Dedicated customer support and transparent monthly reporting
    - 4 Quick local capability cards.
 
-3. **Agency Credentials & Milestones (`.kdm-credentials-section`)** [White Theme]:
-   - 5 Animated counters:
-     - `13+` Years Experience
-     - `900+` Projects Delivered
-     - `15+` Countries Served
-     - `4.9★` Overall Client Rating
-     - `150+` Industries Served
+3. **Agency Credentials & Milestones (`.kdm-credentials-white-section`)** [White Theme - from default.aspx]:
+   - Header badge (`.kdm-credentials-badge`): `PROVEN MILESTONES & RECORD`
+   - Title (`.kdm-credentials-title`): `OUR CREDENTIALS`
+   - Subtitle: `These Numbers Speak A Lot About Our Experience`
+   - Grid (`.kdm-credentials-5grid counters dark counters-row`) with 5 dark cards & clean SVGs:
+     - `13+` Years of Experience (`data-to="13" data-append="+"`)
+     - `900+` Projects Completed (`data-to="900" data-append="+"`)
+     - `15+` Countries Served (`data-to="15" data-append="+"`)
+     - `4.9★` Overall Rating (`data-to="4.9" data-decimals="1" data-append="★"`)
+     - `150+` Industries Served (`data-to="150" data-append="+"`)
 
 4. **How Do We Empower You Digitally (`.empower-section`)** [Dark Theme]:
    - 6 Core service cards with SVGs and links:
@@ -64,20 +67,14 @@ All styling and scripting leverage existing centralized stylesheets (`css/home-c
      6. Dedicated Account Manager & 24/7 Support
 
 6. **9-Step Service Work Process (`.kdm-seo-process-section`)** [Dark Theme]:
-   - 9 Process cards with SVG icons & detailed steps:
-     1. Website & Technical Audit
-     2. Business & Target Audience Analysis
-     3. Local & Commercial Keyword Research
-     4. Competitor Strategy Reverse Engineering
-     5. On-Page & Schema Markup Optimization
-     6. High-Intent Content & Copywriting
-     7. Technical SEO & Core Web Vitals
-     8. High-Authority Link Building & Digital PR
-     9. Performance Tracking & ROI Reporting
+   - Context-aware 9 Process cards with SVG icons:
+     - **Digital Marketing Pages (360°)**: 1. Full Digital Audit & Roadmap, 2. Target Audience & Buyer Persona, 3. Multi-Channel Keyword & Market Intel, 4. Competitor Reverse Engineering, 5. Performance Web & Funnel Optimization, 6. Content & Social Media Engine, 7. Omnichannel Ads (PPC & Meta), 8. SEO & High-Authority Brand PR, 9. Live ROI Tracking & Conversion Scaling.
+     - **SEO Pages**: 1. Technical SEO Audit, 2. Keyword & Search Intent Research, 3. On-Page & Schema Optimization, 4. Competitor Gap Analysis, 5. High-Intent Content Creation, 6. Technical & Core Web Vitals, 7. Authority Link Building, 8. Local Google Maps Optimization, 9. Rank & ROI Reporting.
+     - **PPC Pages**: 1. PPC Account Audit & Goal Setup, 2. High-Intent Keyword & Audience Mining, 3. High-Converting Landing Page & Funnel, 4. Competitor Ad Copy & Bidding Intel, 5. Campaign Architecture & Negative Keywords, 6. High-CTR Ad Copywriting & Creatives, 7. Smart Bidding & Conversion Tracking, 8. Continuous A/B Testing & CPC Reduction, 9. Transparent Lead & ROI Reporting.
 
-7. **Client Trust & Partner Logos (`.clients-logos-section`)** [White Theme]:
+7. **Client Trust & Partner Logos (`.kdm-clients-white-section`)** [White Theme - from default.aspx]:
    - Heading: `Your Trust Made Us Top {{SERVICE_NAME}} in {{CITY_NAME}}`
-   - Client brand logo marquee / grid.
+   - Client brand logo marquee with top brands (e.g. Inorbit, Radisson Blu, Honda, TATA, Hero, etc.).
 
 8. **Most Popular Industries We Serve (`.industry-slider-section`)** [Dark Theme]:
    - Interactive slider/grid with SVG icons:
@@ -88,8 +85,8 @@ All styling and scripting leverage existing centralized stylesheets (`css/home-c
    - Left Card: **Gaurav Dubey** (Founder & Senior Digital Marketing Consultant, 13+ Yrs Exp, 900+ projects).
    - Right Card: **In-House 32+ Specialists Team** (Technical engineers, SEO strategists, Google Ads analysts, copywriters, dedicated account managers).
 
-10. **What Our Clients Say (`.kdm-testimonial-section`)** [Dark/Light]:
-    - Verified client reviews with 5-star ratings, client details, and results.
+10. **What Our Clients Say (`.kdm-testimonial-section`)** [Dark Theme - from SEO-Package.aspx]:
+    - Verified client reviews slider carousel (`.kdm-testimonial-wrapper > .kdm-testimonial-slides > .kdm-testimonial-card.active`) with 5-star rating badges, results metrics, author details, prev/next arrows, dot indicators, and auto-rotation.
 
 11. **Interactive FAQs & Grand Offers (`.kdm-faq-section`)**:
     - Left Column (`col-md-6`): 15 Collapsible Accordion FAQs tailored to {{CITY_NAME}} with `kdm-faq.js`.
@@ -114,6 +111,10 @@ All styling and scripting leverage existing centralized stylesheets (`css/home-c
 - **JS**:
   - `js/international-page.js`
   - `js/kdm-faq.js`
+  - Self-contained intersection-observer counter animation & testimonial slider scripts.
 
-## Master Template File:
-- [templates/kdm-location-service-template.aspx](file:///Users/gauravdubey/Desktop/KDM22Aug/templates/kdm-location-service-template.aspx)
+## Master Template & Automation Files:
+- Master Template 1: [templates/kdm-location-service-template.aspx](file:///Users/gauravdubey/Desktop/KDM22Aug/templates/kdm-location-service-template.aspx)
+- Master Template 2: [templates/kdm-location-service-master-11s/template.aspx](file:///Users/gauravdubey/Desktop/KDM22Aug/templates/kdm-location-service-master-11s/template.aspx)
+- Batch Builder Script: [templates/kdm-location-service-master-11s/builder.py](file:///Users/gauravdubey/Desktop/KDM22Aug/templates/kdm-location-service-master-11s/builder.py)
+- Documentation: [templates/kdm-location-service-master-11s/README.md](file:///Users/gauravdubey/Desktop/KDM22Aug/templates/kdm-location-service-master-11s/README.md)
