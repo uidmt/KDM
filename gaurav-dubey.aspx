@@ -1662,8 +1662,8 @@
 								<div class="gd-timeline-item">
 									<div class="gd-timeline-card">
 										<span class="gd-timeline-year">2013 &bull; THE BEGINNING</span>
-										<div class="gd-timeline-title">Started Freelancing &amp; SEO Execution</div>
-										<p class="gd-timeline-desc">Began delivering hands-on technical SEO, Google AdWords, and local organic ranking campaigns to early businesses across Delhi NCR.</p>
+										<div class="gd-timeline-title">Started Freelancing Along with Digital Marketing Executive Job</div>
+										<p class="gd-timeline-desc">Worked 1.5 years as Digital Marketing Executive to Manager while scaling freelance client campaigns.</p>
 									</div>
 								</div>
 								<div class="gd-timeline-item">
@@ -1676,8 +1676,8 @@
 								<div class="gd-timeline-item">
 									<div class="gd-timeline-card">
 										<span class="gd-timeline-year">2018 &bull; TECH EXPANSION</span>
-										<div class="gd-timeline-title">Founded Devweboic Pvt. Ltd.</div>
-										<p class="gd-timeline-desc">Launched custom web development, CRM automation, and enterprise web solutions vertical to deliver end-to-end digital infrastructure.</p>
+										<div class="gd-timeline-title">Founded Devweboic Tech. (OPC) Pvt. Ltd.</div>
+										<p class="gd-timeline-desc">Registered company and started web development and app development agency separately.</p>
 									</div>
 								</div>
 								<div class="gd-timeline-item">
