@@ -24,10 +24,10 @@ body{
     font-style: normal;
 }
 body a{
-	color: #0099e6;
+	color: #0284c7;
 	font-weight: 400;
-	font-family: "Open Sans", Arial, sans-serif;
-	margin-bottom: 0.5em;
+	font-family: inherit;
+	margin-bottom: 0;
 	text-decoration:none;
 }
 input[type="button"],input[type="submit"]{
@@ -797,10 +797,19 @@ color: #333333;
 	padding: 0px 12px 0px 12px;
     font-family: "Open Sans", Arial, sans-serif;
 	}
-p.span a:hover { color: #0099e6;
+p.span a:not(.btn):hover { 
+	color: #0369a1;
+	text-decoration-color: #0369a1;
 }
-p.span a{
-	color: #0099e6;
+p.span a:not(.btn){
+	color: #0284c7;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-color: rgba(2, 132, 199, 0.45);
+	text-underline-offset: 3px;
 }
 .features-list h3 {
 	color: #282828;
@@ -1037,7 +1046,7 @@ p.span a{
 		margin: 0.4em 0;
 	}
 	.print-main a {
-		font-size: 1.35em;
+		font-size: inherit;
 	}
 	.about-content p {
 		font-size: 1.1em;
@@ -1338,7 +1347,7 @@ p.span a{
 		padding: 1.8em 1em;
 	}
 	.print-main a {
-		font-size: 1.2em;
+		font-size: inherit;
 	}
 	p.sub_head {
 		margin: 0.1em 0 1em 0;
@@ -1520,10 +1529,21 @@ p.span a{
 	
 }
 .cus-bullet {
-    padding: 20px!important;
-    box-shadow: rgb(23 43 99 / 11%) 0 7px 28px;
-    margin-bottom: 30px;
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-left: 4px solid #0284c7 !important;
+    border-radius: 12px !important;
+    padding: 24px 20px 20px !important;
+    margin: 25px 0 35px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+    position: relative;
+    box-sizing: border-box;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+    list-style: none !important;
 }
+
 a.bigblue {
     background: #172147!important;
     color: #fff!important;

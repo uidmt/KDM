@@ -104,7 +104,89 @@
 			<div class="main-content">
 				<!-- <div id="1" class="blog-grid"> -->
 				<div id="blog-grid" class="blog-grid">
-
+					<div class="blog-card">
+						<a href="lead-generation-for-cleaning-services-in-australia.aspx">
+							<img src="images/lead-generation-for-cleaning-services-in-australia.webp" 
+								onerror="if (this.src.indexOf('images/') !== -1) { this.src = 'img/lead-generation-for-cleaning-services-in-australia.webp'; } else if (this.src.indexOf('img/') !== -1) { this.src = '../images/lead-generation-for-cleaning-services-in-australia.webp'; }"
+								alt="Lead Generation for Cleaning Services in Australia"
+								loading="eager" fetchpriority="high" decoding="async">
+						</a>
+						<div class="blog-content">
+							<div class="blog-category">Lead Generation</div>
+							<a href="lead-generation-for-cleaning-services-in-australia.aspx">
+								<div class="blog-title">Lead Generation for Cleaning Services in Australia: How to Get 100+ Leads Daily</div>
+							</a>
+							<div class="blog-description">Running a cleaning business in Australia today means competing in crowded local markets. Discover proven strategies to generate 100+ daily leads ...
+								<a href="lead-generation-for-cleaning-services-in-australia.aspx" class="read-more-btn">Read More</a>
+							</div>
+							<div class="blog-meta">
+								<span>By<a href="https://www.kingofdigitalmarketing.com/"> King of Digital
+										Marketing</a></span>
+								<span>September 10, 2026</span>
+							</div>
+						</div>
+					</div>
+					<div class="blog-card">
+						<a href="lead-generation-services-for-ac-repair-Installation-businesses.aspx">
+							<img src="img/ac-repair.webp" alt="lead-generation-services-for-ac-repair-Installation-businesses"
+								loading="eager" fetchpriority="high" decoding="async">
+						</a>
+						<div class="blog-content">
+							<div class="blog-category">Blog Topics</div>
+							<a href="lead-generation-services-for-ac-repair-Installation-businesses.aspx">
+								<div class="blog-title">Lead Generation Services for AC Repair & Installation Businesses </div>
+							</a>
+							<div class="blog-description">In the current competitive marketplace, AC repair and installation businesses can't depend on referrals from friends and family ...
+								<a href="lead-generation-services-for-ac-repair-Installation-businesses.aspx" class="read-more-btn">Read More</a>
+							</div>
+							<div class="blog-meta">
+								<span>By<a href="https://www.kingofdigitalmarketing.com/"> King of Digital
+										Marketing</a></span>
+								<span>August 20, 2026</span>
+							</div>
+						</div>
+					</div>
+					<div class="blog-card">
+						<a href="lead-generation-for-magic-show-booking.aspx">
+							<img src="img/magic-show.webp" alt="lead-generation-for-magic-show-booking"
+								loading="eager" fetchpriority="high" decoding="async">
+						</a>
+						<div class="blog-content">
+							<div class="blog-category">Blog Topics</div>
+							<a href="lead-generation-for-magic-show-booking.aspx">
+								<div class="blog-title">Lead Generation for Magic Show Booking </div>
+							</a>
+							<div class="blog-description">Shows that are magic continue to delight people at birthdays as well as corporate events, schools as well as private celebrations ...
+								<a href="lead-generation-for-magic-show-booking.aspx" class="read-more-btn">Read More</a>
+							</div>
+							<div class="blog-meta">
+								<span>By<a href="https://www.kingofdigitalmarketing.com/"> King of Digital
+										Marketing</a></span>
+								<span>August 15, 2026</span>
+							</div>
+						</div>
+					</div>
+					<div class="blog-card">
+						<a href="lead-generation-services-for-Temple-Puja-and-Pujari-Business.aspx">
+							<img src="img/puja-leads.webp" alt="lead-generation-for-puja-leads"
+								loading="eager" fetchpriority="high" decoding="async">
+						</a>
+						<div class="blog-content">
+							<div class="blog-category">Blog Topics</div>
+							<a href="lead-generation-services-for-Temple-Puja-and-Pujari-Business.aspx">
+								<div class="blog-title">Lead Generation Services for Temple Puja and Pujari Business</div>
+							</a>
+							<div class="blog-description">India is a country that is deeply rooted in religion and religion, with millions of people ...
+								<a href="lead-generation-services-for-Temple-Puja-and-Pujari-Business.aspx" class="read-more-btn">Read
+									More</a>
+							</div>
+							<div class="blog-meta">
+								<span>By<a href="https://www.kingofdigitalmarketing.com/"> King of Digital
+										Marketing</a></span>
+								<span>July 25, 2026</span>
+							</div>
+						</div>
+					</div>
 					<div class="blog-card">
 						<a href="lead-generation-for-lands-and-plot-selling.aspx">
 							<img src="img/lead-generation-for-land-plot.webp" alt="lead-generation-for-land-plot.webp"

@@ -13,13 +13,13 @@
         <link href="fontawesome/css/all.css" rel="stylesheet">
         <META NAME="Author" CONTENT="King of Digital Marketing, http://www.kingofdigitalmarketing.com">
         <link rel="stylesheet" type="text/css" href="css/custom.css">
-        <meta property="og:title" content="Lead Generation for Lands and Plots Selling | Generate More Property Buyers">
+        <meta property="og:title" content="Lead Generation Services for Temple Puja & Pujari Business">
         <meta property="og:image"
-            content="https://www.kingofdigitalmarketing.com/blog/images/Lead-generation-services-for-cruise-booking.webp">
+            content="https://www.kingofdigitalmarketing.com/blog/images/puja-leads.webp">
         <meta property="og:description"
-            content="Discover effective lead generation strategies for selling lands and plots. Attract genuine buyers through SEO, Google Ads, Facebook Ads, and conversion-focused marketing campaigns.">
+            content="Get more Puja bookings and customers with targeted lead generation services for temples, Pujaris, and religious service businesses.">
         <meta property="og:url"
-            content="https://www.kingofdigitalmarketing.com/blog/lead-generation-for-lands-and-plot-selling.aspx">
+            content="https://www.kingofdigitalmarketing.com/blog/lead-generation-services-for-Temple-Puja-and-Pujari-Business.aspx">
         <meta name="twitter:card" content="summary_large_image">
     </asp:Content>
     <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
