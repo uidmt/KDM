@@ -827,13 +827,13 @@
                     </h1>
 
                     <!-- Author & Published Meta -->
-                                        <div class="posted-by" style="margin-bottom: 22px;">
+                    <div class="posted-by" style="margin-bottom: 22px;">
                         <div class="posted-logo">
-                            <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey King of Digital Marketing" />
+                            <img src="../images/logo.webp" onerror="this.src='images/logo.webp'" alt="King of Digital Marketing Logo" />
                         </div>
                         <div class="posted-details">
                             <span class="posted-author">
-                                <a class="post-font" href="https://www.kingofdigitalmarketing.com/">Marketing</a> &bull; September 10, 2026 &bull; 8 Min Read
+                                By <a class="post-font" href="https://www.kingofdigitalmarketing.com/">King of Digital Marketing</a> &bull; <i class="fa fa-calendar-alt"></i> September 10, 2026 &bull; <i class="fa fa-clock"></i> 8 Min Read
                             </span>
                         </div>
                     </div>
@@ -1415,15 +1415,33 @@
                         </div>
                     </div>
 
-                    <!-- Author Box -->
-                                        <!-- Author Box -->
+                    <!-- About Author Section -->
+                    <div class="kdm-author-heading-wrapper">
+                        <h3><i class="fa fa-user-tie" style="color: #0284c7;"></i> About Author</h3>
+                    </div>
                     <div class="kdm-author-card">
-                        <img src="../images/gaurav-dubey/gauravdubey.webp" onerror="this.src='images/gaurav-dubey/gauravdubey.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-author-img" />
+                        <img src="../images/gaurav-dubey/Gaurav-Dubey-Digital-Marketing-consultant-trainer.webp" onerror="this.src='images/gaurav-dubey/Gaurav-Dubey-Digital-Marketing-consultant-trainer.webp'" alt="Gaurav Dubey - Digital Marketing Consultant" class="kdm-author-img" />
                         <div class="kdm-author-info">
-                            <h4>Gaurav Dubey</h4>
-                            <div class="designation">Founder King of Digital Marketing - Digital Marketing Consultant & Trainer Since 2013</div>
+                            <h4>Gaurav Dubey - <a href="https://www.gauravdubey.in/" target="_blank" rel="noopener" class="author-title-link">Digital Marketing Consultant</a></h4>
+                            <div class="kdm-author-socials">
+                                <a href="https://www.facebook.com/gauravdubey.in/" target="_blank" rel="noopener" title="Facebook" class="kdm-social-btn fb">
+                                    <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                                </a>
+                                <a href="https://www.instagram.com/gauravdubey.in/" target="_blank" rel="noopener" title="Instagram" class="kdm-social-btn insta">
+                                    <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCkGU7-8u1zCLRHb5spjUaLQ" target="_blank" rel="noopener" title="YouTube" class="kdm-social-btn yt">
+                                    <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" rel="noopener" title="LinkedIn" class="kdm-social-btn li">
+                                    <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                                </a>
+                                <a href="https://twitter.com/iamgauravdubey" target="_blank" rel="noopener" title="X (Twitter)" class="kdm-social-btn x">
+                                    <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                </a>
+                            </div>
                             <p>
-                                Gaurav Dubey is the Founder of King of Digital Marketing and an accomplished Digital Marketing Consultant & Trainer since 2013. With over 13+ years of expertise and 900+ successful projects, he specializes in high-converting SEO, Google Ads, lead generation funnels, and performance marketing strategies to scale businesses worldwide.
+                                Gaurav Dubey is a seasoned Digital Marketing Consultant &amp; Trainer with 13+ years of experience, having executed 900+ successful projects and trained 1,850+ students &amp; professionals. He specializes in high-impact lead generation, SEO, Meta Ads (Facebook &amp; Instagram), Google Ads (PPC), and Mobile App Promotion to scale businesses profitably.
                             </p>
                         </div>
                     </div>
@@ -1437,7 +1455,7 @@
                         <p>
                             Get a personalized lead generation audit and multi-channel campaign blueprint from Gaurav Dubey and the King of Digital Marketing team.
                         </p>
-                        <button type="button" onclick="openLeadGenModal('Get Free Lead Gen Strategy Call', 'Speak directly with Gaurav Dubey (King of Digital Marketing) to scale your Australian cleaning business.')" class="kdm-cta-btn" style="border: none; cursor: pointer;">
+                        <button type="button" onclick="openLeadGenModal('Get Free Digital Marketing Strategy Call', 'Speak With Digital Marketing Expert at King of Digital Marketing to Grow Your Business.')" class="kdm-cta-btn" style="border: none; cursor: pointer;">
                             <i class="fa fa-paper-plane"></i> Get Free Lead Gen Strategy Call
                         </button>
                     </div>
@@ -1487,57 +1505,5 @@
             </div>
         </div>
     </div>
-
-    <!-- Lead Gen Consultation Popup Modal (contact form iframe) -->
-    <div id="kdmLeadGenModal" class="kdm-lead-modal-overlay" onclick="handleLeadModalBackdropClick(event)">
-        <div class="kdm-lead-modal-dialog">
-            <div class="kdm-lead-modal-header">
-                <div style="padding-right: 20px;">
-                    <div class="kdm-modal-sub-badge"><i class="fa fa-bolt"></i> 100+ Leads Daily Blueprint</div>
-                    <h3 id="kdmLeadModalTitle">Get Free Lead Gen Strategy Call</h3>
-                    <p id="kdmLeadModalDesc">Speak directly with Gaurav Dubey (King of Digital Marketing) to scale your Australian cleaning business.</p>
-                </div>
-                <button type="button" class="kdm-lead-modal-close" onclick="closeLeadGenModal()" aria-label="Close modal">&times;</button>
-            </div>
-            <div class="kdm-lead-modal-body">
-                <iframe id="kdmLeadModalIframe" src="contact.aspx" style="width:100%; height:520px; border:none; display:block; background:#ffffff;" title="Get Free Lead Gen Strategy Call Form"></iframe>
-            </div>
-        </div>
-    </div>
-
-    <script type="text/javascript">
-        function openLeadGenModal(title, desc) {
-            var modal = document.getElementById('kdmLeadGenModal');
-            if (modal) {
-                if (title) {
-                    var titleEl = document.getElementById('kdmLeadModalTitle');
-                    if (titleEl) titleEl.innerText = title;
-                }
-                if (desc) {
-                    var descEl = document.getElementById('kdmLeadModalDesc');
-                    if (descEl) descEl.innerText = desc;
-                }
-                modal.classList.add('active');
-                document.body.style.overflow = 'hidden';
-            }
-        }
-        function closeLeadGenModal() {
-            var modal = document.getElementById('kdmLeadGenModal');
-            if (modal) {
-                modal.classList.remove('active');
-                document.body.style.overflow = '';
-            }
-        }
-        function handleLeadModalBackdropClick(e) {
-            if (e.target && e.target.id === 'kdmLeadGenModal') {
-                closeLeadGenModal();
-            }
-        }
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {
-                closeLeadGenModal();
-            }
-        });
-    </script>
     <div class="clearfix"></div>
 </asp:Content>
