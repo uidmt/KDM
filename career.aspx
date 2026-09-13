@@ -652,13 +652,13 @@
 					</div>
 				</div>
 
-				<!-- Internship Box 4: Content Writing Internship (WFH) -->
-				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 30px 26px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; justify-content: space-between;">
+				<!-- Internship Box 4: Content Writing Internship (WFH - Hiring Closed) -->
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 30px 26px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; justify-content: space-between; opacity: 0.9;">
 					<div>
 						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
 							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Content Writing Internship</h3>
 							<div style="display: flex; gap: 6px; flex-wrap: wrap;">
-								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+								<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
 								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">6 Months</span>
 								<span style="background: #f3e8ff; color: #9333ea; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">WFH</span>
 							</div>
@@ -668,15 +668,15 @@
 							<li><i class="fa fa-home" style="color: #0284c7; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Home (Flexible Hours)</li>
 							<li><i class="fa fa-pencil" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Daily Target:</strong> 2 - 3 SEO Blogs/Day (~2,100 words total)</li>
 							<li><i class="fa fa-check-square" style="color: #10b981; margin-right: 8px;"></i> <strong>Standard:</strong> 100% AI-Free, Plagiarism-Free Content</li>
-							<li><i class="fa fa-book" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Guidance:</strong> Comprehensive feedback on SEO Copywriting</li>
+							<li><i class="fa fa-info-circle" style="color: #64748b; margin-right: 8px;"></i> <strong>Status:</strong> Currently filled. Check back soon.</li>
 						</ul>
 					</div>
 					<div>
-						<div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #1e40af;">
-							<strong><i class="fa fa-video-camera"></i> Mode:</strong> Online Video Interview via Google Meet / Zoom
+						<div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #991b1b;">
+							<strong><i class="fa fa-clock-o"></i> Status:</strong> Applications currently closed for this batch.
 						</div>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
-							Apply for Content Internship <i class="fa fa-arrow-right"></i>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px; background: #94a3b8;">
+							Join Waitlist <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
 				</div>
