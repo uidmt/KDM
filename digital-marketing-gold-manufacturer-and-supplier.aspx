@@ -13,9 +13,6 @@
         <link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
         <link rel="stylesheet" href="css/packages.css">
     <script src="js/kdm-faq.js"></script>
-</div>
-</div>
-</div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div role="main" class="main">
@@ -304,5 +301,6 @@ Others if Required</p>
     </section>
 
 <!-- Section for FAQ Ends -->
+    </div>
     <script src="js/kdm-faq.js"></script>
 </asp:Content>

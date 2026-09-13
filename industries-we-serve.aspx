@@ -547,8 +547,7 @@
                     style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-agriculture-industry-mobile-app.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-agriculture-industry-mobile-app.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -566,8 +565,7 @@
                                 are, it's just sitting in the store, unused. That's where we step in..</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-agriculture-industry-mobile-app.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-agriculture-industry-mobile-app.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1231,8 +1229,7 @@
                             online. they're not walking into branches anymore" style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-business-loan-providers.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-business-loan-providers.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1250,8 +1247,7 @@
                                 online. They're not walking into branches anymore</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-business-loan-providers.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-business-loan-providers.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1342,8 +1338,7 @@
                             before you start." style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-car-bike-rentals.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-car-bike-rentals.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1365,8 +1360,7 @@
                                 before you start.</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-car-bike-rentals.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-car-bike-rentals.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -2015,8 +2009,7 @@
                             moving daily from states like gujarat to tamil nadu." style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-cotton-suppliers-in-india.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-cotton-suppliers-in-india.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -2039,8 +2032,7 @@
                                 moving daily from states like Gujarat to Tamil Nadu.</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-cotton-suppliers-in-india.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-cotton-suppliers-in-india.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -2399,8 +2391,7 @@
                             that's a problem." style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-diagnostic-centres.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-diagnostic-centres.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -2416,8 +2407,7 @@
                                 that's a problem.</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-diagnostic-centres.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-diagnostic-centres.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -3715,8 +3705,7 @@
                             can't find you online, it won't matter." style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-herbal-product-manufacturers.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-herbal-product-manufacturers.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -3732,8 +3721,7 @@
                                 can't find you online, it won't matter.</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-herbal-product-manufacturers.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-herbal-product-manufacturers.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -3751,8 +3739,7 @@
                             in. at king of digital marketing," style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-services-for-home-cleaning-services.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-services-for-home-cleaning-services.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -3773,8 +3760,7 @@
                                 in. At King of Digital Marketing,</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-services-for-home-cleaning-services.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-services-for-home-cleaning-services.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -3863,8 +3849,7 @@
                             and the right nudge from within." style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-homeopathy-clinics.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-homeopathy-clinics.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -3880,8 +3865,7 @@
                                 and the right nudge from within.</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-homeopathy-clinics.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-homeopathy-clinics.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -4648,8 +4632,7 @@
                     style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-loan-providers-companies.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-loan-providers-companies.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -4666,8 +4649,7 @@
                                 presence can make all the difference in attracting serious borrowers.</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-loan-providers-companies.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-loan-providers-companies.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -4882,8 +4864,7 @@
                     style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-medical-equipment-suppliers.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-medical-equipment-suppliers.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -4898,8 +4879,7 @@
                                 hospital bed, a working monitor, a sterile pack of gloves-it all matters.</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-medical-equipment-suppliers.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-medical-equipment-suppliers.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -7010,8 +6990,7 @@
                     style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-spices-exporters.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-spices-exporters.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -7030,8 +7009,7 @@
                                 from Kerala, or a secret family masala blend, the quality speaks for itself.</p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-spices-exporters.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-for-spices-exporters.aspx" target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
