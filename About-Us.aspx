@@ -187,6 +187,100 @@
 		</div>
 	</div>
 
+	<!-- ===== FOUNDER GAURAV DUBEY EXECUTIVE PROFILE SECTION ===== -->
+	<div class="kdm-founder-profile-wrapper" style="background: linear-gradient(135deg, #070a12 0%, #0f172a 60%, #0369a1 100%); padding: 85px 0; color: #ffffff; position: relative; overflow: hidden; border-bottom: 1px solid #1e293b;">
+		<!-- Background ambient glow -->
+		<div style="position: absolute; top: -30%; right: -20%; width: 700px; height: 700px; background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, transparent 65%); pointer-events: none;"></div>
+
+		<div class="container" style="position: relative; z-index: 2;">
+			<div style="background: rgba(30, 41, 59, 0.75); backdrop-filter: blur(20px); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 28px; padding: 50px 40px; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45); max-width: 1180px; margin: 0 auto;">
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 45px; align-items: center;">
+					
+					<!-- Left: Founder Image, Name & Social Media Links -->
+					<div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+						<div style="position: relative; display: inline-block; max-width: 360px; width: 100%;">
+							<div style="position: absolute; inset: -8px; background: linear-gradient(135deg, #0284c7, #38bdf8, #818cf8); border-radius: 26px; filter: blur(12px); opacity: 0.45;"></div>
+							<img src="images/gaurav-dubey/thegauravdubey.png" alt="Gaurav Dubey - Founder &amp; Chief Digital Strategist" style="width: 100%; border-radius: 22px; position: relative; z-index: 2; border: 2px solid rgba(255, 255, 255, 0.2); box-shadow: 0 20px 45px rgba(0,0,0,0.5); display: block; object-fit: cover;" />
+						</div>
+
+						<!-- Name & Title Below Image -->
+						<div style="margin-top: 20px; text-align: center; position: relative; z-index: 3;">
+							<h3 style="font-size: 24px; font-weight: 900; color: #ffffff; margin: 0 0 4px 0; letter-spacing: -0.5px;">Gaurav Dubey</h3>
+							<p style="font-size: 13.5px; color: #38bdf8; margin: 0 0 10px 0; font-weight: 700; letter-spacing: 0.3px;">Founder &amp; Chief Marketing Strategist</p>
+							<div style="display: inline-block; background: rgba(2, 132, 199, 0.25); border: 1px solid rgba(56, 189, 248, 0.4); color: #e0f2fe; font-size: 11px; font-weight: 800; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px;">
+								13+ Years Exp &bull; 900+ Projects
+							</div>
+						</div>
+
+						<!-- Social Media Icons Below Name -->
+						<div class="kdm-gd-social-wrap" style="justify-content: center;">
+							<a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" class="kdm-gd-social-link li" title="Connect with Gaurav Dubey on LinkedIn" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+							<a href="https://www.instagram.com/gauravdubey.in/" target="_blank" class="kdm-gd-social-link ig" title="Follow Gaurav Dubey on Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
+							<a href="https://www.youtube.com/@thegauravdubey" target="_blank" class="kdm-gd-social-link yt" title="Subscribe to Gaurav Dubey on YouTube" rel="noopener"><i class="fab fa-youtube"></i></a>
+							<a href="https://www.facebook.com/gauravdubey.in" target="_blank" class="kdm-gd-social-link fb" title="Follow Gaurav Dubey on Facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://x.com/iamgauravdubey" target="_blank" class="kdm-gd-social-link tw" title="Follow Gaurav Dubey on X (Twitter)" rel="noopener"><i class="fab fa-x-twitter"></i></a>
+							<a href="gaurav-dubey.aspx" class="kdm-gd-social-link web" title="View Full Profile &amp; Bio" rel="noopener"><i class="fa fa-globe"></i></a>
+						</div>
+					</div>
+
+					<!-- Right: Leadership Bio, Credentials & Vision -->
+					<div>
+						<span style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 16px;">
+							<i class="fa fa-user-tie"></i> VISIONARY FOUNDER &amp; LEADER
+						</span>
+
+						<h2 style="font-size: 34px; font-weight: 900; color: #ffffff; margin: 0 0 16px 0; line-height: 1.25;">
+							Meet <span style="background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Gaurav Dubey</span>
+						</h2>
+
+						<p style="font-size: 15.5px; color: #cbd5e1; line-height: 1.8; margin-bottom: 16px;">
+							<strong>Gaurav Dubey</strong> is an acclaimed digital marketing consultant, agency mentor, and enterprise growth strategist with <strong>13+ Years of Hands-on Leadership</strong>. Beginning his career in 2013 as one of India's most recognized SEO consultants and top-ranking freelancers, he built an unshakeable reputation by capturing #1 rankings on Google for ultra-competitive national search markets.
+						</p>
+
+						<p style="font-size: 15px; color: #94a3b8; line-height: 1.75; margin-bottom: 22px;">
+							Under his visionary direction, <strong>King of Digital Marketing</strong> has scaled into a global performance powerhouse that has handled <strong>900+ successful client campaigns</strong> across <strong>15+ countries</strong> (including India, USA, UK, UAE, Canada, Australia &amp; Europe) and trained <strong>1,850+ certified digital marketers</strong> across 150+ industry verticals.
+						</p>
+
+						<!-- 4 Milestone Counter Pills -->
+						<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-bottom: 24px;">
+							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
+								<div style="font-size: 20px; font-weight: 900; color: #38bdf8;">13+ Years</div>
+								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Proven Mastery</div>
+							</div>
+							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
+								<div style="font-size: 20px; font-weight: 900; color: #34d399;">900+ Projects</div>
+								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Campaigns Delivered</div>
+							</div>
+							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
+								<div style="font-size: 20px; font-weight: 900; color: #c084fc;">15+ Countries</div>
+								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Global Reach</div>
+							</div>
+							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
+								<div style="font-size: 20px; font-weight: 900; color: #fbbf24;">⭐ 4.9 / 5</div>
+								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Client Rating</div>
+							</div>
+						</div>
+
+						<!-- Core Philosophy Quote -->
+						<div style="border-left: 3px solid #38bdf8; padding-left: 16px; margin-bottom: 24px;">
+							<p style="font-size: 14.5px; color: #e2e8f0; font-style: italic; margin: 0; line-height: 1.65;">
+								"True performance marketing isn't about chasing vanity impressions. It is about architecting predictable, revenue-generating acquisition funnels that convert visitors into lifelong brand champions."
+							</p>
+						</div>
+
+						<!-- Action CTA -->
+						<div style="margin-top: 10px;">
+							<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="padding: 14px 28px; font-size: 15px; display: inline-flex; align-items: center; gap: 10px;">
+								<i class="fa fa-calendar-check"></i> Book Consultation with Gaurav Dubey <i class="fa fa-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- Client Logos Section Starts -->
 	<div class="kdm-ppc-clients-section">
 		<div class="container">
@@ -438,100 +532,6 @@
 					</div>
 					<h3 class="kdm-ppc-card-title">100% Transparent Reporting</h3>
 					<p class="kdm-ppc-card-desc">Granular monthly reporting with real-time KPI tracking dashboards, zero hidden costs, and complete campaign accountability.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- ===== FOUNDER GAURAV DUBEY EXECUTIVE PROFILE SECTION ===== -->
-	<div class="kdm-founder-profile-wrapper" style="background: linear-gradient(135deg, #070a12 0%, #0f172a 60%, #0369a1 100%); padding: 85px 0; color: #ffffff; position: relative; overflow: hidden; border-bottom: 1px solid #1e293b;">
-		<!-- Background ambient glow -->
-		<div style="position: absolute; top: -30%; right: -20%; width: 700px; height: 700px; background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, transparent 65%); pointer-events: none;"></div>
-
-		<div class="container" style="position: relative; z-index: 2;">
-			<div style="background: rgba(30, 41, 59, 0.75); backdrop-filter: blur(20px); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 28px; padding: 50px 40px; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45); max-width: 1180px; margin: 0 auto;">
-				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 45px; align-items: center;">
-					
-					<!-- Left: Founder Image, Name & Social Media Links -->
-					<div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
-						<div style="position: relative; display: inline-block; max-width: 360px; width: 100%;">
-							<div style="position: absolute; inset: -8px; background: linear-gradient(135deg, #0284c7, #38bdf8, #818cf8); border-radius: 26px; filter: blur(12px); opacity: 0.45;"></div>
-							<img src="images/gaurav-dubey/thegauravdubey.png" alt="Gaurav Dubey - Founder &amp; Chief Digital Strategist" style="width: 100%; border-radius: 22px; position: relative; z-index: 2; border: 2px solid rgba(255, 255, 255, 0.2); box-shadow: 0 20px 45px rgba(0,0,0,0.5); display: block; object-fit: cover;" />
-						</div>
-
-						<!-- Name & Title Below Image -->
-						<div style="margin-top: 20px; text-align: center; position: relative; z-index: 3;">
-							<h3 style="font-size: 24px; font-weight: 900; color: #ffffff; margin: 0 0 4px 0; letter-spacing: -0.5px;">Gaurav Dubey</h3>
-							<p style="font-size: 13.5px; color: #38bdf8; margin: 0 0 10px 0; font-weight: 700; letter-spacing: 0.3px;">Founder &amp; Chief Marketing Strategist</p>
-							<div style="display: inline-block; background: rgba(2, 132, 199, 0.25); border: 1px solid rgba(56, 189, 248, 0.4); color: #e0f2fe; font-size: 11px; font-weight: 800; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px;">
-								13+ Years Exp &bull; 900+ Projects
-							</div>
-						</div>
-
-						<!-- Social Media Icons Below Name -->
-						<div class="kdm-gd-social-wrap" style="justify-content: center;">
-							<a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" class="kdm-gd-social-link li" title="Connect with Gaurav Dubey on LinkedIn" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
-							<a href="https://www.instagram.com/gauravdubey.in/" target="_blank" class="kdm-gd-social-link ig" title="Follow Gaurav Dubey on Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
-							<a href="https://www.youtube.com/@thegauravdubey" target="_blank" class="kdm-gd-social-link yt" title="Subscribe to Gaurav Dubey on YouTube" rel="noopener"><i class="fab fa-youtube"></i></a>
-							<a href="https://www.facebook.com/gauravdubey.in" target="_blank" class="kdm-gd-social-link fb" title="Follow Gaurav Dubey on Facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-							<a href="https://x.com/iamgauravdubey" target="_blank" class="kdm-gd-social-link tw" title="Follow Gaurav Dubey on X (Twitter)" rel="noopener"><i class="fab fa-x-twitter"></i></a>
-							<a href="gaurav-dubey.aspx" class="kdm-gd-social-link web" title="View Full Profile &amp; Bio" rel="noopener"><i class="fa fa-globe"></i></a>
-						</div>
-					</div>
-
-					<!-- Right: Leadership Bio, Credentials & Vision -->
-					<div>
-						<span style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 16px;">
-							<i class="fa fa-user-tie"></i> VISIONARY FOUNDER &amp; LEADER
-						</span>
-
-						<h2 style="font-size: 34px; font-weight: 900; color: #ffffff; margin: 0 0 16px 0; line-height: 1.25;">
-							Meet <span style="background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Gaurav Dubey</span>
-						</h2>
-
-						<p style="font-size: 15.5px; color: #cbd5e1; line-height: 1.8; margin-bottom: 16px;">
-							<strong>Gaurav Dubey</strong> is an acclaimed digital marketing consultant, agency mentor, and enterprise growth strategist with <strong>13+ Years of Hands-on Leadership</strong>. Beginning his career in 2013 as one of India's most recognized SEO consultants and top-ranking freelancers, he built an unshakeable reputation by capturing #1 rankings on Google for ultra-competitive national search markets.
-						</p>
-
-						<p style="font-size: 15px; color: #94a3b8; line-height: 1.75; margin-bottom: 22px;">
-							Under his visionary direction, <strong>King of Digital Marketing</strong> has scaled into a global performance powerhouse that has handled <strong>900+ successful client campaigns</strong> across <strong>15+ countries</strong> (including India, USA, UK, UAE, Canada, Australia &amp; Europe) and trained <strong>1,850+ certified digital marketers</strong> across 150+ industry verticals.
-						</p>
-
-						<!-- 4 Milestone Counter Pills -->
-						<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-bottom: 24px;">
-							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
-								<div style="font-size: 20px; font-weight: 900; color: #38bdf8;">13+ Years</div>
-								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Proven Mastery</div>
-							</div>
-							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
-								<div style="font-size: 20px; font-weight: 900; color: #34d399;">900+ Projects</div>
-								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Campaigns Delivered</div>
-							</div>
-							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
-								<div style="font-size: 20px; font-weight: 900; color: #c084fc;">15+ Countries</div>
-								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Global Reach</div>
-							</div>
-							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
-								<div style="font-size: 20px; font-weight: 900; color: #fbbf24;">⭐ 4.9 / 5</div>
-								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Client Rating</div>
-							</div>
-						</div>
-
-						<!-- Core Philosophy Quote -->
-						<div style="border-left: 3px solid #38bdf8; padding-left: 16px; margin-bottom: 24px;">
-							<p style="font-size: 14.5px; color: #e2e8f0; font-style: italic; margin: 0; line-height: 1.65;">
-								"True performance marketing isn't about chasing vanity impressions. It is about architecting predictable, revenue-generating acquisition funnels that convert visitors into lifelong brand champions."
-							</p>
-						</div>
-
-						<!-- Action CTA -->
-						<div style="margin-top: 10px;">
-							<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="padding: 14px 28px; font-size: 15px; display: inline-flex; align-items: center; gap: 10px;">
-								<i class="fa fa-calendar-check"></i> Book Consultation with Gaurav Dubey <i class="fa fa-arrow-right"></i>
-							</a>
-						</div>
-					</div>
-
 				</div>
 			</div>
 		</div>
