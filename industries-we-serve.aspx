@@ -7591,8 +7591,7 @@
                     style="margin-bottom: 30px;">
                     <div class="kdm-industry-card">
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-services-for-weight-loss-clinics.aspx
-                                target=" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-services-for-weight-loss-clinics.aspx" target="_blank" class="kdm-header-link"><div class="kdm-card-header-box">
                                 <div class="kdm-icon-wrapper">
                                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -7608,8 +7607,8 @@
                             </p>
                         </div>
                         <div>
-                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-services-for-weight-loss-clinics.aspx
-                                target=" target="_blank" class="kdm-card-btn">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-services-for-weight-loss-clinics.aspx"
+                                target="_blank" class="kdm-card-btn">
                                 <span>Know More</span>
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
