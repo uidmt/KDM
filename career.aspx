@@ -131,7 +131,7 @@
 	          "name": "What is the stipend structure for internships at KDM?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "Our internships offer monthly stipends ranging from Rs 4,000 to Rs 5,000 per month depending on the domain (SEO, PPC, Video Editing, Content Writing). Top-performing interns also receive milestone bonuses, certification, and full-time hiring consideration."
+	            "text": "Our internships offer monthly stipends starting from INR 5,000 per month based on candidate knowledge, skill evaluation, and domain role (SEO, PPC, Video Editing, Content Writing). Top-performing interns also receive milestone bonuses, certification, and full-time hiring consideration."
 	          }
 	        },
 	        {
@@ -577,7 +577,7 @@
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
-							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
+							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Starting from INR 5,000 / Month</li>
 							<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Office (Kalkaji, South Delhi)</li>
 							<li><i class="fa fa-clock-o" style="color: #0284c7; margin-right: 8px;"></i> <strong>Timings:</strong> 9:30 AM - 6:00 PM (Mon to Sat)</li>
 							<li><i class="fa fa-laptop" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Requirement:</strong> Candidates must carry their own laptop</li>
@@ -606,7 +606,7 @@
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
-							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
+							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Starting from INR 5,000 / Month</li>
 							<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Office (Kalkaji, South Delhi)</li>
 							<li><i class="fa fa-clock-o" style="color: #0284c7; margin-right: 8px;"></i> <strong>Timings:</strong> 9:30 AM - 6:00 PM (Mon to Sat)</li>
 							<li><i class="fa fa-laptop" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Requirement:</strong> Candidates must carry their own laptop</li>
@@ -635,7 +635,7 @@
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
-							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
+							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Starting from INR 5,000 / Month</li>
 							<li><i class="fa fa-home" style="color: #0284c7; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Home (Flexible Hours)</li>
 							<li><i class="fa fa-bullhorn" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Daily Target:</strong> 2 Short Video Reels / Day (~4 mins total)</li>
 							<li><i class="fa fa-film" style="color: #ef4444; margin-right: 8px;"></i> <strong>Tools:</strong> CapCut Pro, Premiere Pro, or DaVinci Resolve</li>
@@ -664,7 +664,7 @@
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
-							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 4,000 / Month</li>
+							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Starting from INR 5,000 / Month</li>
 							<li><i class="fa fa-home" style="color: #0284c7; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Home (Flexible Hours)</li>
 							<li><i class="fa fa-pencil" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Daily Target:</strong> 2 - 3 SEO Blogs/Day (~2,100 words total)</li>
 							<li><i class="fa fa-check-square" style="color: #10b981; margin-right: 8px;"></i> <strong>Standard:</strong> 100% AI-Free, Plagiarism-Free Content</li>
@@ -943,7 +943,7 @@
 								<span class="kdm-faq-icon">+</span>
 							</button>
 							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our internships offer monthly stipends ranging from Rs 4,000 to Rs 5,000 per month depending on the domain (SEO, PPC, Video Editing, Content Writing). Top-performing interns also receive milestone bonuses, certification, and full-time hiring consideration.</p>
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our internships offer monthly stipends starting from INR 5,000 per month based on candidate knowledge, skill evaluation, and domain role (SEO, PPC, Video Editing, Content Writing). Top-performing interns also receive milestone bonuses, certification, and full-time hiring consideration.</p>
 							</div>
 						</div>
 
