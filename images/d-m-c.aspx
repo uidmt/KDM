@@ -1569,7 +1569,7 @@
 						</h4>
 					</div>
 					<div id="collapse6" class="panel-collapse collapse">
-						<div class="panel-body"><strong>Ans.</strong><p>Yes you can, to book a free demo class click here - <a href="#form">demo class<a> or call- +919555696058, +919205316988
+						<div class="panel-body"><strong>Ans.</strong><p>Yes you can, to book a free demo class click here - <a href="#form">demo class<a> or call- +919555696058
 
 </p>
 						</div>

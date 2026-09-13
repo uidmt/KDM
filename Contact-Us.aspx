@@ -345,7 +345,7 @@
                         </li>
                         <li>
                             <i class="fa fa-phone"></i>
-                            <div><strong>Phone Numbers:</strong> +91 9821918208, +91 9205316988</div>
+                            <div><strong>Phone Numbers:</strong> +91 9821918208</div>
                         </li>
                         <li>
                             <i class="fa fa-envelope"></i>
