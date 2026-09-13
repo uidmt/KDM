@@ -557,96 +557,178 @@
 					<i class="fa fa-graduation-cap"></i> LAUNCHPAD FOR FRESHERS
 				</span>
 				<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3;">
-					6-Month <span style="color: #059669;">Paid Internship Opportunities</span>
+					6-Month <span style="color: #059669;">Internship Opportunities</span>
 				</h2>
 				<p style="font-size: 16px; color: #64748b; max-width: 750px; margin: 0 auto; line-height: 1.6;">
-					Gain authentic agency experience, work on real client budgets, receive monthly stipends, and earn a Pre-Placement Offer (PPO).
+					Gain authentic agency experience, work on live projects, receive monthly stipends, and earn a Pre-Placement Offer (PPO).
 				</p>
 			</div>
 
 			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
 				<!-- Internship Box 1: SEO Internship -->
-				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 32px 28px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);">
-					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
-						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">SEO Executive Internship</h3>
-						<span style="background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">6 Months</span>
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 30px 26px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; justify-content: space-between;">
+					<div>
+						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
+							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">SEO Executive Internship</h3>
+							<div style="display: flex; gap: 6px;">
+								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">6 Months</span>
+							</div>
+						</div>
+						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
+							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
+							<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Office (Kalkaji, South Delhi)</li>
+							<li><i class="fa fa-clock-o" style="color: #0284c7; margin-right: 8px;"></i> <strong>Timings:</strong> 9:30 AM - 6:00 PM (Mon to Sat)</li>
+							<li><i class="fa fa-laptop" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Requirement:</strong> Candidates must carry their own laptop</li>
+							<li><i class="fa fa-trophy" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Outcome:</strong> Live SEO Projects + PPO for Top Performers</li>
+						</ul>
 					</div>
-					<ul style="list-style: none; padding: 0; margin: 0 0 20px 0; font-size: 14px; color: #334155; line-height: 2;">
-						<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
-						<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Office (Kalkaji, South Delhi)</li>
-						<li><i class="fa fa-clock-o" style="color: #0284c7; margin-right: 8px;"></i> <strong>Timings:</strong> 9:30 AM - 6:00 PM (Mon to Sat)</li>
-						<li><i class="fa fa-laptop" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Requirement:</strong> Candidates must carry their own laptop</li>
-						<li><i class="fa fa-trophy" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Outcome:</strong> Live SEO Projects + PPO for High Performers</li>
-					</ul>
-					<div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 12px; margin-bottom: 18px; font-size: 13px; color: #166534;">
-						<strong><i class="fa fa-map-pin"></i> Interview Location:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
+					<div>
+						<div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #166534;">
+							<strong><i class="fa fa-map-pin"></i> Location:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
+						</div>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+							Apply for SEO Internship <i class="fa fa-arrow-right"></i>
+						</a>
 					</div>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
-						Apply for SEO Internship <i class="fa fa-arrow-right"></i>
-					</a>
 				</div>
 
 				<!-- Internship Box 2: Google & Meta Ads Internship -->
-				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 32px 28px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);">
-					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
-						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">Performance Ads Internship</h3>
-						<span style="background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">6 Months</span>
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 30px 26px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; justify-content: space-between;">
+					<div>
+						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
+							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Performance Ads Internship</h3>
+							<div style="display: flex; gap: 6px;">
+								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">6 Months</span>
+							</div>
+						</div>
+						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
+							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
+							<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Office (Kalkaji, South Delhi)</li>
+							<li><i class="fa fa-clock-o" style="color: #0284c7; margin-right: 8px;"></i> <strong>Timings:</strong> 9:30 AM - 6:00 PM (Mon to Sat)</li>
+							<li><i class="fa fa-laptop" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Requirement:</strong> Candidates must carry their own laptop</li>
+							<li><i class="fa fa-trophy" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Outcome:</strong> Real Google &amp; Meta Ad Spend Exposure</li>
+						</ul>
 					</div>
-					<ul style="list-style: none; padding: 0; margin: 0 0 20px 0; font-size: 14px; color: #334155; line-height: 2;">
-						<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
-						<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Office (Kalkaji, South Delhi)</li>
-						<li><i class="fa fa-clock-o" style="color: #0284c7; margin-right: 8px;"></i> <strong>Timings:</strong> 9:30 AM - 6:00 PM (Mon to Sat)</li>
-						<li><i class="fa fa-laptop" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Requirement:</strong> Candidates must carry their own laptop</li>
-						<li><i class="fa fa-trophy" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Outcome:</strong> Real Google &amp; Meta Ad Spend Exposure</li>
-					</ul>
-					<div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 12px; margin-bottom: 18px; font-size: 13px; color: #166534;">
-						<strong><i class="fa fa-map-pin"></i> Interview Location:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
+					<div>
+						<div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #166534;">
+							<strong><i class="fa fa-map-pin"></i> Location:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
+						</div>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+							Apply for Ads Internship <i class="fa fa-arrow-right"></i>
+						</a>
 					</div>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
-						Apply for Ads Internship <i class="fa fa-arrow-right"></i>
-					</a>
 				</div>
 
 				<!-- Internship Box 3: Video Editor Internship (WFH) -->
-				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 32px 28px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);">
-					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
-						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">Video Editor Internship</h3>
-						<span style="background: #f3e8ff; color: #9333ea; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">Work From Home</span>
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 30px 26px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; justify-content: space-between;">
+					<div>
+						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
+							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Video Editor Internship</h3>
+							<div style="display: flex; gap: 6px;">
+								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+								<span style="background: #f3e8ff; color: #9333ea; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">WFH</span>
+							</div>
+						</div>
+						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
+							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
+							<li><i class="fa fa-home" style="color: #0284c7; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Home (Flexible Hours)</li>
+							<li><i class="fa fa-bullhorn" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Daily Target:</strong> 2 Short Video Reels / Day (~4 mins total)</li>
+							<li><i class="fa fa-film" style="color: #ef4444; margin-right: 8px;"></i> <strong>Tools:</strong> CapCut Pro, Premiere Pro, or DaVinci Resolve</li>
+							<li><i class="fa fa-user-plus" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Mentorship:</strong> 1-on-1 guidance by Senior Video Editor</li>
+						</ul>
 					</div>
-					<ul style="list-style: none; padding: 0; margin: 0 0 20px 0; font-size: 14px; color: #334155; line-height: 2;">
-						<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
-						<li><i class="fa fa-home" style="color: #0284c7; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Home (Flexible Hours)</li>
-						<li><i class="fa fa-bullhorn" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Daily Target:</strong> 2 Short Video Reels / Day (~4 mins total)</li>
-						<li><i class="fa fa-film" style="color: #ef4444; margin-right: 8px;"></i> <strong>Tools:</strong> CapCut Pro, Premiere Pro, or DaVinci Resolve</li>
-						<li><i class="fa fa-user-plus" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Mentorship:</strong> 1-on-1 guidance by Senior Video Editor</li>
-					</ul>
-					<div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 12px; margin-bottom: 18px; font-size: 13px; color: #1e40af;">
-						<strong><i class="fa fa-video-camera"></i> Interview Mode:</strong> Online Interview via Google Meet / Zoom
+					<div>
+						<div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #1e40af;">
+							<strong><i class="fa fa-video-camera"></i> Mode:</strong> Online Video Interview via Google Meet / Zoom
+						</div>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+							Apply for Video Internship <i class="fa fa-arrow-right"></i>
+						</a>
 					</div>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
-						Apply for Video Internship <i class="fa fa-arrow-right"></i>
-					</a>
 				</div>
 
 				<!-- Internship Box 4: Content Writing Internship (WFH) -->
-				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 32px 28px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);">
-					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
-						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">Content Writing Internship</h3>
-						<span style="background: #f3e8ff; color: #9333ea; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">Work From Home</span>
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 30px 26px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; justify-content: space-between;">
+					<div>
+						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
+							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Content Writing Internship</h3>
+							<div style="display: flex; gap: 6px;">
+								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+								<span style="background: #f3e8ff; color: #9333ea; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">WFH</span>
+							</div>
+						</div>
+						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
+							<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 4,000 / Month</li>
+							<li><i class="fa fa-home" style="color: #0284c7; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Home (Flexible Hours)</li>
+							<li><i class="fa fa-pencil" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Daily Target:</strong> 2 - 3 SEO Blogs/Day (~2,100 words total)</li>
+							<li><i class="fa fa-check-square" style="color: #10b981; margin-right: 8px;"></i> <strong>Standard:</strong> 100% AI-Free, Plagiarism-Free Content</li>
+							<li><i class="fa fa-book" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Guidance:</strong> Comprehensive feedback on SEO Copywriting</li>
+						</ul>
 					</div>
-					<ul style="list-style: none; padding: 0; margin: 0 0 20px 0; font-size: 14px; color: #334155; line-height: 2;">
-						<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 4,000 / Month</li>
-						<li><i class="fa fa-home" style="color: #0284c7; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Home (Flexible Hours)</li>
-						<li><i class="fa fa-pencil" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Daily Target:</strong> 2 - 3 SEO Blogs/Day (~2,100 words total)</li>
-						<li><i class="fa fa-check-square" style="color: #10b981; margin-right: 8px;"></i> <strong>Standard:</strong> 100% AI-Free, Plagiarism-Free Content</li>
-						<li><i class="fa fa-book" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Guidance:</strong> Comprehensive feedback on SEO Copywriting</li>
-					</ul>
-					<div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 12px; margin-bottom: 18px; font-size: 13px; color: #1e40af;">
-						<strong><i class="fa fa-video-camera"></i> Interview Mode:</strong> Online Interview via Google Meet / Zoom
+					<div>
+						<div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #1e40af;">
+							<strong><i class="fa fa-video-camera"></i> Mode:</strong> Online Video Interview via Google Meet / Zoom
+						</div>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+							Apply for Content Internship <i class="fa fa-arrow-right"></i>
+						</a>
 					</div>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
-						Apply for Content Internship <i class="fa fa-arrow-right"></i>
-					</a>
+				</div>
+
+				<!-- Internship Box 5: Graphic Designing Internship (Hiring Closed) -->
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 30px 26px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; justify-content: space-between; opacity: 0.9;">
+					<div>
+						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
+							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Graphic Design Internship</h3>
+							<div style="display: flex; gap: 6px;">
+								<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">6 Months</span>
+							</div>
+						</div>
+						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
+							<li><i class="fa fa-paint-brush" style="color: #ec4899; margin-right: 8px;"></i> <strong>Focus:</strong> Social Media Creatives &amp; Ad Banners</li>
+							<li><i class="fa fa-laptop" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Tools:</strong> Photoshop, Illustrator, Canva Pro</li>
+							<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Location:</strong> Kalkaji, New Delhi</li>
+							<li><i class="fa fa-info-circle" style="color: #64748b; margin-right: 8px;"></i> <strong>Status:</strong> Currently filled. Check back soon.</li>
+						</ul>
+					</div>
+					<div>
+						<div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #991b1b;">
+							<strong><i class="fa fa-clock-o"></i> Status:</strong> Applications currently closed for this batch.
+						</div>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px; background: #94a3b8;">
+							Join Waitlist <i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
+				</div>
+
+				<!-- Internship Box 6: Web Developer Internship (Hiring Closed) -->
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 30px 26px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; justify-content: space-between; opacity: 0.9;">
+					<div>
+						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
+							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Web Developer Internship</h3>
+							<div style="display: flex; gap: 6px;">
+								<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">6 Months</span>
+							</div>
+						</div>
+						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
+							<li><i class="fa fa-code" style="color: #9333ea; margin-right: 8px;"></i> <strong>Focus:</strong> HTML5, CSS3, JavaScript, ASP.NET</li>
+							<li><i class="fa fa-wordpress" style="color: #0284c7; margin-right: 8px;"></i> <strong>Platform:</strong> WordPress &amp; Custom CMS Portals</li>
+							<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Location:</strong> Kalkaji, New Delhi</li>
+							<li><i class="fa fa-info-circle" style="color: #64748b; margin-right: 8px;"></i> <strong>Status:</strong> Currently filled. Check back soon.</li>
+						</ul>
+					</div>
+					<div>
+						<div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #991b1b;">
+							<strong><i class="fa fa-clock-o"></i> Status:</strong> Applications currently closed for this batch.
+						</div>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px; background: #94a3b8;">
+							Join Waitlist <i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
