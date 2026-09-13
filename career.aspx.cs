@@ -10,7 +10,7 @@ public partial class career : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (IsPostBack)
+        if (IsPostBack || Request.HttpMethod == "POST" || !string.IsNullOrEmpty(Request.Form["name"]))
         {
             ProcessJobApplication();
         }
@@ -41,7 +41,7 @@ public partial class career : System.Web.UI.Page
                 mail.To.Add(new MailAddress("info@kingofdigitalmarketing.com"));
                 mail.CC.Add(new MailAddress("info@kingofdigitalmarketing.com"));
                 mail.Bcc.Add(new MailAddress("bde.kingofdigitalmarketing@gmail.com"));
-                mail.Subject = "KDM Career Job Application - " + name;
+                mail.Subject = "KDM Career Job Application - " + name + " (" + (string.IsNullOrEmpty(profile) ? applyFor : profile) + ")";
                 mail.IsBodyHtml = true;
 
                 if (Request.Files != null && Request.Files.Count > 0 && Request.Files["resume"] != null && Request.Files["resume"].ContentLength > 0)
@@ -70,11 +70,11 @@ public partial class career : System.Web.UI.Page
                 }
             }
 
-            Response.Redirect("thankYou.aspx");
+            Response.Redirect("thankyou.aspx");
         }
         catch (Exception)
         {
-            // Silently fail or handle error
+            Response.Redirect("thankyou.aspx");
         }
     }
 }
