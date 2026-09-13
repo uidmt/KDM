@@ -1288,6 +1288,9 @@
 	<!-- ===== DEDICATED CAREER & INTERNSHIP APPLICATION MODAL ===== -->
 	<style>
 		/* Scoped Career Modal Styling to override legacy dark inputs */
+		#careerJobModal * {
+			box-sizing: border-box !important;
+		}
 		#careerJobModal input[type="text"],
 		#careerJobModal input[type="tel"],
 		#careerJobModal input[type="email"],
@@ -1306,7 +1309,7 @@
 			height: 48px !important;
 			line-height: normal !important;
 			padding: 10px 14px !important;
-			box-sizing: border-box !important;
+			text-align: left !important;
 			width: 100% !important;
 			outline: none !important;
 			box-shadow: 0 1px 2px rgba(0,0,0,0.04) !important;
@@ -1326,9 +1329,11 @@
 			color: #94a3b8 !important;
 			-webkit-text-fill-color: #94a3b8 !important;
 			opacity: 1 !important;
+			text-align: left !important;
 		}
 		#careerJobModal select {
 			cursor: pointer !important;
+			text-align: left !important;
 			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23475569'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E") !important;
 			background-repeat: no-repeat !important;
 			background-position: right 14px center !important;
@@ -1338,10 +1343,17 @@
 			-webkit-appearance: none !important;
 			-moz-appearance: none !important;
 		}
+		#careerJobModal select option {
+			background: #ffffff !important;
+			color: #0f172a !important;
+			text-align: left !important;
+			padding: 8px 12px !important;
+		}
 		#careerJobModal textarea {
 			height: auto !important;
 			min-height: 85px !important;
 			resize: vertical !important;
+			text-align: left !important;
 		}
 		#careerJobModal input[type="file"] {
 			height: auto !important;
@@ -1349,6 +1361,7 @@
 			background: #f8fafc !important;
 			border: 1.5px dashed #0284c7 !important;
 			cursor: pointer !important;
+			text-align: left !important;
 		}
 		#careerJobModal label {
 			font-size: 12.5px !important;
@@ -1356,6 +1369,7 @@
 			color: #1e293b !important;
 			margin-bottom: 6px !important;
 			display: block !important;
+			text-align: left !important;
 			letter-spacing: 0.2px !important;
 		}
 		@media (max-width: 640px) {
@@ -1374,50 +1388,50 @@
 	</style>
 
 	<div id="careerJobModal" class="career-modal-backdrop" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(8px); z-index: 999999; justify-content: center; align-items: center; padding: 16px; box-sizing: border-box;">
-		<div class="career-modal-dialog" style="background: #ffffff; width: 100%; max-width: 620px; border-radius: 20px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4); max-height: 90vh; overflow-y: auto; position: relative; border: 1px solid #e2e8f0;">
+		<div class="career-modal-dialog" style="background: #ffffff; width: 100%; max-width: 640px; border-radius: 20px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4); max-height: 90vh; overflow-y: auto; position: relative; border: 1px solid #e2e8f0;">
 			<!-- Modal Header -->
 			<div style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 20px 24px; border-radius: 20px 20px 0 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #0284c7;">
-				<div>
+				<div style="text-align: left;">
 					<span style="background: rgba(2, 132, 199, 0.2); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 12px; text-transform: uppercase; letter-spacing: 0.5px;">KDM Careers &amp; Internships</span>
-					<h3 style="color: #ffffff; margin: 4px 0 0 0; font-size: 20px; font-weight: 900;">Job &amp; Internship Application</h3>
+					<h3 style="color: #ffffff; margin: 4px 0 0 0; font-size: 20px; font-weight: 900; text-align: left;">Job &amp; Internship Application</h3>
 				</div>
 				<button type="button" onclick="closeCareerModal()" style="background: rgba(255, 255, 255, 0.1); border: none; color: #ffffff; width: 36px; height: 36px; border-radius: 50%; font-size: 20px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.2s;" onmouseover="this.style.background='rgba(239, 68, 68, 0.8)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.1)'">&times;</button>
 			</div>
 
 			<!-- Modal Body / Form -->
-			<div class="career-modal-body" style="padding: 24px 28px; background: #ffffff;">
+			<div class="career-modal-body" style="padding: 24px 28px; background: #ffffff; text-align: left;">
 				<form id="careerApplicationForm" method="post" action="career.aspx" enctype="multipart/form-data">
 					<div class="kdm-career-form-grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
-						<div>
+						<div style="text-align: left;">
 							<label>Full Name <span style="color: #ef4444;">*</span></label>
-							<input type="text" name="name" placeholder="e.g. Rahul Sharma" required>
+							<input type="text" name="name" placeholder="Your Name" required>
 						</div>
-						<div>
+						<div style="text-align: left;">
 							<label>Phone Number <span style="color: #ef4444;">*</span></label>
 							<input type="tel" name="phone" placeholder="10-Digit Mobile No" required>
 						</div>
 					</div>
 
 					<div class="kdm-career-form-grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
-						<div>
+						<div style="text-align: left;">
 							<label>Email Address <span style="color: #ef4444;">*</span></label>
-							<input type="email" name="email" placeholder="rahul@example.com" required>
+							<input type="email" name="email" placeholder="Your Email Address" required>
 						</div>
-						<div>
+						<div style="text-align: left;">
 							<label>Current City <span style="color: #ef4444;">*</span></label>
-							<input type="text" name="city" placeholder="e.g. Delhi, Noida, Remote" required>
+							<input type="text" name="city" placeholder="Your City (e.g. Delhi, Noida, Remote)" required>
 						</div>
 					</div>
 
 					<div class="kdm-career-form-grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
-						<div>
+						<div style="text-align: left;">
 							<label>Applying For <span style="color: #ef4444;">*</span></label>
 							<select id="careerApplyFor" name="apply_for" required>
 								<option value="Job">Full-Time Job</option>
 								<option value="Internship">6-Month Paid Internship</option>
 							</select>
 						</div>
-						<div>
+						<div style="text-align: left;">
 							<label>Current Status <span style="color: #ef4444;">*</span></label>
 							<select name="status" required>
 								<option value="Student">Student</option>
@@ -1429,21 +1443,25 @@
 					</div>
 
 					<div class="kdm-career-form-grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
-						<div>
+						<div style="text-align: left;">
 							<label>Select Role / Profile <span style="color: #ef4444;">*</span></label>
 							<select id="careerProfile" name="profile" required>
 								<option value="SEO">SEO (Search Engine Optimization)</option>
 								<option value="Google Ads">Google Ads / PPC Specialist</option>
-								<option value="Meta Ads">Meta Ads &amp; Paid Social</option>
+								<option value="Meta Ads">Meta Ads &amp; Paid Social (FB/Insta)</option>
 								<option value="Video Editing">Creative Video Editing &amp; Motion</option>
 								<option value="Website developer">ASP.NET / Web Developer</option>
-								<option value="Content Writing">B2B Content Writing &amp; Copy</option>
+								<option value="Content Writing">B2B Content Writing &amp; Copywriting</option>
 								<option value="Graphic Designing">Graphic Designing &amp; Creatives</option>
 								<option value="Social Media">Social Media Management (SMO)</option>
-								<option value="Business Development">Business Development &amp; Sales</option>
+								<option value="Business Development">Business Development &amp; Sales (BDE)</option>
+								<option value="ORM">Online Reputation Management (ORM)</option>
+								<option value="Telecaller">Telecaller &amp; Inside Sales</option>
+								<option value="Digital Marketing Manager">Digital Marketing Manager / Lead</option>
+								<option value="Other">Other Profile</option>
 							</select>
 						</div>
-						<div>
+						<div style="text-align: left;">
 							<label>Total Experience <span style="color: #ef4444;">*</span></label>
 							<select name="experience" required>
 								<option value="Fresher">Fresher / 0 Exp</option>
@@ -1455,12 +1473,12 @@
 						</div>
 					</div>
 
-					<div style="margin-bottom: 14px;">
+					<div style="margin-bottom: 14px; text-align: left;">
 						<label>Upload Resume / CV (PDF / DOC) <span style="color: #ef4444;">*</span></label>
 						<input type="file" name="resume" accept=".pdf,.doc,.docx" required>
 					</div>
 
-					<div style="margin-bottom: 20px;">
+					<div style="margin-bottom: 20px; text-align: left;">
 						<label>Why Should We Hire You? / Portfolio Link</label>
 						<textarea name="reason_for_hiring" rows="3" placeholder="Briefly share your top skills, live URLs, portfolio link, or career goals..."></textarea>
 					</div>
@@ -1489,7 +1507,18 @@
 				}
 				if (profile) {
 					var profileSelect = document.getElementById('careerProfile');
-					if (profileSelect) profileSelect.value = profile;
+					if (profileSelect) {
+						var options = profileSelect.options;
+						var found = false;
+						for (var i = 0; i < options.length; i++) {
+							if (options[i].value.toLowerCase() === profile.toLowerCase() || options[i].value.toLowerCase().indexOf(profile.toLowerCase()) !== -1) {
+								profileSelect.selectedIndex = i;
+								found = true;
+								break;
+							}
+						}
+						if (!found) profileSelect.value = profile;
+					}
 				}
 			}
 		}
