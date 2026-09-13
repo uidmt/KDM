@@ -11,7 +11,41 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://www.kingofdigitalmarketing.com/About-Us.aspx" />
 <meta name="author" content="King of Digital Marketing, https://www.kingofdigitalmarketing.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="css/home-custom.css?v=25.0">
+<style>
+/* GAURAV DUBEY SOCIAL MEDIA ICONS */
+.kdm-gd-social-wrap {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.kdm-gd-social-link {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 19px;
+	color: #ffffff !important;
+	text-decoration: none !important;
+	transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.kdm-gd-social-link:hover {
+	transform: translateY(-4px) scale(1.12);
+	box-shadow: 0 10px 22px rgba(0, 0, 0, 0.4);
+}
+.kdm-gd-social-link.li { background: linear-gradient(135deg, #0a66c2, #0077b5); }
+.kdm-gd-social-link.ig { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+.kdm-gd-social-link.yt { background: linear-gradient(135deg, #ff0000, #cc0000); }
+.kdm-gd-social-link.fb { background: linear-gradient(135deg, #1877f2, #0d65d9); }
+.kdm-gd-social-link.tw { background: linear-gradient(135deg, #000000, #1e293b); }
+.kdm-gd-social-link.web { background: linear-gradient(135deg, #0284c7, #38bdf8); }
+</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div role="main" class="main">
@@ -479,14 +513,17 @@
 						</div>
 
 						<!-- Action CTA & Social Connect -->
-						<div style="display: flex; gap: 14px; align-items: center; flex-wrap: wrap;">
-							<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="padding: 12px 24px; font-size: 14px;">
-								<i class="fa fa-calendar-check"></i> Consult with Gaurav Dubey <i class="fa fa-arrow-right"></i>
+						<div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 10px;">
+							<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="padding: 13px 26px; font-size: 14.5px;">
+								<i class="fa fa-calendar-check"></i> Book Consultation with Gaurav Dubey <i class="fa fa-arrow-right"></i>
 							</a>
-							<div style="display: flex; gap: 10px;">
-								<a href="https://www.youtube.com/channel/UCD9lzE6O-6pOB7S_3MQkHYQ" target="_blank" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; color: #ff0000; font-size: 16px; transition: 0.2s;" onmouseover="this.style.background='#ff0000'; this.style.color='#fff';" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#ff0000';"><i class="fab fa-youtube"></i></a>
-								<a href="https://www.linkedin.com/company/kingofdigitalmarketing/" target="_blank" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; color: #38bdf8; font-size: 16px; transition: 0.2s;" onmouseover="this.style.background='#0a66c2'; this.style.color='#fff';" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#38bdf8';"><i class="fab fa-linkedin-in"></i></a>
-								<a href="https://www.instagram.com/kingofdigitalmarketing/" target="_blank" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; color: #f472b6; font-size: 16px; transition: 0.2s;" onmouseover="this.style.background='#e1306c'; this.style.color='#fff';" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#f472b6';"><i class="fab fa-instagram"></i></a>
+							<div class="kdm-gd-social-wrap">
+								<a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" class="kdm-gd-social-link li" title="Connect with Gaurav Dubey on LinkedIn" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+								<a href="https://www.instagram.com/thegauravdubey/" target="_blank" class="kdm-gd-social-link ig" title="Follow Gaurav Dubey on Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
+								<a href="https://www.youtube.com/channel/UCkGU7-8u1zCLRHb5spjUaLQ" target="_blank" class="kdm-gd-social-link yt" title="Subscribe to Gaurav Dubey on YouTube" rel="noopener"><i class="fab fa-youtube"></i></a>
+								<a href="https://www.facebook.com/gauravdubey.in/" target="_blank" class="kdm-gd-social-link fb" title="Follow Gaurav Dubey on Facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://twitter.com/iamgauravdubey" target="_blank" class="kdm-gd-social-link tw" title="Follow Gaurav Dubey on X (Twitter)" rel="noopener"><i class="fab fa-x-twitter"></i></a>
+								<a href="gaurav-dubey.aspx" class="kdm-gd-social-link web" title="View Full Profile &amp; Bio" rel="noopener"><i class="fa fa-globe"></i></a>
 							</div>
 						</div>
 					</div>
