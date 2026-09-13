@@ -2,12 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 <meta charset="utf-8">
 <title>Thank You | King of Digital Marketing</title>
-<meta name="keywords" content="Thank You, King of Digital Marketing, Digital Marketing Services, Contact Confirmation, SEO, PPC, Social Media Marketing, Lead Generation, Website Design">
-<meta name="description" content="Thank you for reaching out to King of Digital Marketing. We will get back to you shortly. Your interest in our digital marketing services is highly appreciated.">
+<meta name="keywords" content="Thank You, King of Digital Marketing, Digital Marketing Services, Course Confirmation, Career Application Received, Contact Confirmation">
+<meta name="description" content="Thank you for reaching out to King of Digital Marketing. We have received your submission and our team will get back to you shortly.">
 <link rel="canonical" href="https://www.kingofdigitalmarketing.com/thankyou.aspx" />
 <meta property="og:title" content="Thank You | King of Digital Marketing">
-<meta property="og:description" content="Thank you for reaching out to King of Digital Marketing. We will get back to you shortly. Your interest in our digital marketing services is highly appreciated.">
+<meta property="og:description" content="Thank you for connecting with King of Digital Marketing. We have safely received your details and will get back to you shortly.">
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/thankyou.aspx">
+<meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +17,10 @@
 <script src="js/kdm-faq.js"></script>
 
 <style>
-/* ATTRACTIVE THANK YOU PAGE STYLES */
+/* UNIVERSAL PREMIUM THANK YOU PAGE STYLES */
 .kdm-thankyou-wrapper {
 	background: linear-gradient(135deg, #070a12 0%, #0f172a 50%, #0284c7 100%);
-	padding: 80px 0 90px 0;
+	padding: 70px 0 90px 0;
 	color: #ffffff;
 	text-align: center;
 	position: relative;
@@ -30,7 +31,7 @@
 	content: '';
 	position: absolute;
 	top: -40%; left: -40%; width: 180%; height: 180%;
-	background: radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.2) 0%, transparent 65%);
+	background: radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.18) 0%, transparent 65%);
 	pointer-events: none;
 	animation: bgPulse 8s infinite alternate ease-in-out;
 }
@@ -45,8 +46,8 @@
 	backdrop-filter: blur(20px);
 	border-radius: 24px;
 	border: 1px solid rgba(255, 255, 255, 0.8);
-	padding: 50px 40px;
-	max-width: 860px;
+	padding: 45px 35px;
+	max-width: 920px;
 	margin: 0 auto;
 	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
 	color: #0f172a;
@@ -56,16 +57,16 @@
 
 /* Success Checkmark Circle */
 .kdm-success-circle {
-	width: 90px;
-	height: 90px;
+	width: 85px;
+	height: 85px;
 	border-radius: 50%;
 	background: linear-gradient(135deg, #10b981 0%, #059669 100%);
 	color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 42px;
-	margin: 0 auto 20px auto;
+	font-size: 38px;
+	margin: 0 auto 18px auto;
 	box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
 	animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -76,7 +77,7 @@
 }
 
 .kdm-thankyou-title {
-	font-size: 34px;
+	font-size: 32px;
 	font-weight: 900;
 	color: #0f172a;
 	margin-bottom: 12px;
@@ -84,11 +85,29 @@
 }
 
 .kdm-thankyou-desc {
-	font-size: 16px;
+	font-size: 15.5px;
 	color: #475569;
-	max-width: 640px;
+	max-width: 720px;
+	margin: 0 auto 28px auto;
+	line-height: 1.7;
+}
+
+/* Trust Pill Stats */
+.kdm-thankyou-stats-bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	flex-wrap: wrap;
+	background: #f8fafc;
+	border: 1px solid #e2e8f0;
+	padding: 10px 18px;
+	border-radius: 30px;
+	max-width: 720px;
 	margin: 0 auto 30px auto;
-	line-height: 1.6;
+	font-size: 12.5px;
+	font-weight: 700;
+	color: #334155;
 }
 
 /* Action Contact Buttons */
@@ -104,7 +123,7 @@
 	display: inline-flex;
 	align-items: center;
 	gap: 8px;
-	padding: 13px 24px;
+	padding: 12px 24px;
 	border-radius: 40px;
 	font-size: 14.5px;
 	font-weight: 700;
@@ -124,18 +143,6 @@
 	box-shadow: 0 8px 25px rgba(2, 132, 199, 0.5);
 }
 
-.kdm-action-btn.call-secondary {
-	background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
-	color: #ffffff !important;
-	box-shadow: 0 6px 20px rgba(15, 23, 42, 0.25);
-}
-
-.kdm-action-btn.call-secondary:hover {
-	background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
-	transform: translateY(-2px);
-	box-shadow: 0 8px 25px rgba(2, 132, 199, 0.4);
-}
-
 .kdm-action-btn.wa-btn {
 	background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
 	color: #ffffff !important;
@@ -148,6 +155,68 @@
 	box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
 }
 
+/* 4 Next Steps & Resource Cards */
+.kdm-next-steps-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 16px;
+	margin: 30px 0 25px 0;
+	text-align: left;
+}
+
+.kdm-step-card {
+	background: #f8fafc;
+	border-radius: 16px;
+	border: 1px solid #e2e8f0;
+	padding: 20px 18px;
+	transition: all 0.3s ease;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.kdm-step-card:hover {
+	border-color: #0284c7;
+	transform: translateY(-3px);
+	box-shadow: 0 8px 20px rgba(2, 132, 199, 0.08);
+}
+
+.kdm-step-icon {
+	font-size: 24px;
+	color: #0284c7;
+	margin-bottom: 10px;
+}
+
+.kdm-step-title {
+	font-size: 15px;
+	font-weight: 800;
+	color: #0f172a;
+	margin-bottom: 6px;
+}
+
+.kdm-step-desc {
+	font-size: 13px;
+	color: #64748b;
+	margin: 0 0 12px 0;
+	line-height: 1.5;
+}
+
+.kdm-step-link {
+	font-size: 12.5px;
+	font-weight: 700;
+	color: #0284c7;
+	text-decoration: none !important;
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	transition: 0.2s ease;
+}
+
+.kdm-step-link:hover {
+	color: #0369a1;
+	transform: translateX(3px);
+}
+
 /* Social Buttons */
 .kdm-social-row {
 	display: flex;
@@ -157,15 +226,15 @@
 }
 
 .kdm-social-icon {
-	width: 48px;
-	height: 48px;
+	width: 44px;
+	height: 44px;
 	border-radius: 50%;
 	background: #ffffff;
 	border: 1px solid #e2e8f0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 20px;
+	font-size: 18px;
 	color: #0284c7;
 	box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 	transition: all 0.3s ease;
@@ -184,49 +253,6 @@
 .kdm-social-icon.tw:hover { background: #000000; }
 .kdm-social-icon.li:hover { background: #0a66c2; }
 
-/* Next Steps Cards */
-.kdm-next-steps-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-	gap: 16px;
-	margin: 35px 0 25px 0;
-	text-align: left;
-}
-
-.kdm-step-card {
-	background: #f8fafc;
-	border-radius: 16px;
-	border: 1px solid #e2e8f0;
-	padding: 20px;
-	transition: all 0.3s ease;
-}
-
-.kdm-step-card:hover {
-	border-color: #38bdf8;
-	transform: translateY(-3px);
-	box-shadow: 0 8px 20px rgba(0,0,0,0.06);
-}
-
-.kdm-step-icon {
-	font-size: 24px;
-	color: #0284c7;
-	margin-bottom: 10px;
-}
-
-.kdm-step-title {
-	font-size: 15px;
-	font-weight: 700;
-	color: #0f172a;
-	margin-bottom: 6px;
-}
-
-.kdm-step-desc {
-	font-size: 13px;
-	color: #64748b;
-	margin: 0;
-	line-height: 1.5;
-}
-
 .kdm-home-link {
 	display: inline-flex;
 	align-items: center;
@@ -241,14 +267,14 @@
 
 .kdm-home-link:hover {
 	color: #0369a1;
-	transform: translateX(3px);
+	transform: translateX(-3px);
 }
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div role="main" class="main">
 
-	<!-- ===== ATTRACTIVE THANK YOU SECTION ===== -->
+	<!-- ===== UNIVERSAL THANK YOU SECTION ===== -->
 	<div class="kdm-thankyou-wrapper">
 		<div class="container">
 			<div class="row">
@@ -260,19 +286,32 @@
 						</div>
 
 						<!-- Badge Tag -->
-						<span class="kdm-badge-pill" style="margin-bottom: 12px;">
-							<i class="fa fa-paper-plane"></i> MESSAGE RECEIVED SUCCESSFULLY
+						<span class="kdm-badge-pill" style="margin-bottom: 12px; background: rgba(2, 132, 199, 0.1); color: #0284c7; border: 1px solid rgba(2, 132, 199, 0.25); padding: 5px 16px; border-radius: 20px; font-size: 11.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 6px;">
+							<i class="fa fa-paper-plane"></i> SUBMISSION RECEIVED SUCCESSFULLY
 						</span>
 
 						<!-- Main Title -->
 						<h1 class="kdm-thankyou-title">
-							Thank You For <span class="kdm-gradient-highlight">Reaching Out!</span>
+							Thank You For Connecting with <span class="kdm-gradient-highlight" style="color: #0284c7;">King of Digital Marketing</span>!
 						</h1>
 
-						<!-- Subtitle -->
+						<!-- Universal Subtitle -->
 						<p class="kdm-thankyou-desc">
-							We appreciate your interest in <strong>King of Digital Marketing</strong>. Our senior agency team led by founder <strong>Gaurav Dubey</strong> has received your message and will get back to you within 2 to 4 business hours.
+							We have safely received your details. Whether you inquired about our <strong>Performance Marketing Services</strong>, <strong>Practical Training &amp; Courses</strong>, or submitted a <strong>Job &amp; Internship Application</strong>, our dedicated team led by founder <strong>Gaurav Dubey</strong> will review your submission and reach out within <strong>2 to 4 business hours</strong>.
 						</p>
+
+						<!-- Credential Stats Bar -->
+						<div class="kdm-thankyou-stats-bar">
+							<span><i class="fa fa-history" style="color: #0284c7;"></i> 13+ Years Exp</span>
+							<span style="color: #cbd5e1;">|</span>
+							<span><i class="fa fa-briefcase" style="color: #0284c7;"></i> 900+ Completed Projects</span>
+							<span style="color: #cbd5e1;">|</span>
+							<span><i class="fa fa-globe" style="color: #0284c7;"></i> 15+ Global Countries</span>
+							<span style="color: #cbd5e1;">|</span>
+							<span><i class="fa fa-users" style="color: #0284c7;"></i> 32+ Specialists</span>
+							<span style="color: #cbd5e1;">|</span>
+							<span style="color: #eab308;">⭐ 4.9/5 Rating</span>
+						</div>
 
 						<!-- Immediate Action Buttons -->
 						<div class="kdm-thankyou-actions">
@@ -280,40 +319,56 @@
 								<i class="fa fa-phone"></i> Call Direct: +91 9821918208
 							</a>
 							<a href="https://wa.me/919821918208" target="_blank" class="kdm-action-btn wa-btn">
-								<i class="fab fa-whatsapp"></i> Chat on WhatsApp
+								<i class="fab fa-whatsapp"></i> Chat with Us on WhatsApp
 							</a>
 						</div>
 
-						<!-- Next Steps Grid -->
+						<!-- Universal Resource & Exploration Cards -->
 						<div class="kdm-next-steps-grid">
-							<!-- 1 -->
+							<!-- 1. Services -->
 							<div class="kdm-step-card">
-								<div class="kdm-step-icon"><i class="fa fa-bolt"></i></div>
-								<div class="kdm-step-title">Free Website SEO Audit</div>
-								<div class="kdm-step-desc">Analyze your website score & technical errors instantly with our audit tool.</div>
-								<a href="free-seo-audit.aspx" style="font-size: 12px; font-weight: 700; color: #0284c7; text-decoration: none; display: inline-block; margin-top: 8px;">Run Audit Tool &rarr;</a>
+								<div>
+									<div class="kdm-step-icon"><i class="fa fa-rocket"></i></div>
+									<div class="kdm-step-title">Agency Services</div>
+									<p class="kdm-step-desc">Explore our ROI-driven SEO, Google Ads, Meta Ads &amp; Web Development solutions.</p>
+								</div>
+								<a href="digital-marketing-services.aspx" class="kdm-step-link">Explore Services <i class="fa fa-arrow-right"></i></a>
 							</div>
 
-							<!-- 2 -->
+							<!-- 2. Courses -->
 							<div class="kdm-step-card">
-								<div class="kdm-step-icon"><i class="fa fa-trophy"></i></div>
-								<div class="kdm-step-title">Explore Case Studies</div>
-								<div class="kdm-step-desc">Discover how we generated 340% lead growth for real client projects.</div>
-								<a href="seo-case-study.aspx" style="font-size: 12px; font-weight: 700; color: #0284c7; text-decoration: none; display: inline-block; margin-top: 8px;">View Case Studies &rarr;</a>
+								<div>
+									<div class="kdm-step-icon"><i class="fa fa-graduation-cap"></i></div>
+									<div class="kdm-step-title">Digital Courses</div>
+									<p class="kdm-step-desc">Master 60+ practical modules with live agency client projects &amp; 100% placement.</p>
+								</div>
+								<a href="digital-marketing-course.aspx" class="kdm-step-link">View Syllabus <i class="fa fa-arrow-right"></i></a>
 							</div>
 
-							<!-- 3 -->
+							<!-- 3. Case Studies & Proof -->
 							<div class="kdm-step-card">
-								<div class="kdm-step-icon"><i class="fa fa-laptop-code"></i></div>
-								<div class="kdm-step-title">Web Design Portfolio</div>
-								<div class="kdm-step-desc">Preview over 100+ live mobile-responsive website projects built for agency clients.</div>
-								<a href="website-design-portfolio.aspx" style="font-size: 12px; font-weight: 700; color: #0284c7; text-decoration: none; display: inline-block; margin-top: 8px;">View Web Designs &rarr;</a>
+								<div>
+									<div class="kdm-step-icon"><i class="fa fa-trophy"></i></div>
+									<div class="kdm-step-title">Client Case Studies</div>
+									<p class="kdm-step-desc">Discover verified proof of 340%+ lead growth and Google #1 ranking case studies.</p>
+								</div>
+								<a href="seo-case-study.aspx" class="kdm-step-link">View Results <i class="fa fa-arrow-right"></i></a>
+							</div>
+
+							<!-- 4. Free SEO Audit Tool -->
+							<div class="kdm-step-card">
+								<div>
+									<div class="kdm-step-icon"><i class="fa fa-bolt"></i></div>
+									<div class="kdm-step-title">Free Website Audit</div>
+									<p class="kdm-step-desc">Instantly test your website health, Google Core Web Vitals &amp; technical errors.</p>
+								</div>
+								<a href="free-seo-audit.aspx" class="kdm-step-link">Run Audit Tool <i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 
 						<!-- Social Connect -->
 						<div style="margin-top: 30px; border-top: 1px solid #e2e8f0; padding-top: 25px;">
-							<h5 style="font-size: 14px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;">CONNECT WITH US ON SOCIAL MEDIA</h5>
+							<h5 style="font-size: 13px; font-weight: 800; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;">CONNECT WITH GAURAV DUBEY &amp; KDM ON SOCIAL MEDIA</h5>
 							<div class="kdm-social-row">
 								<a href="https://www.facebook.com/kingofdigitalmarket" target="_blank" class="kdm-social-icon fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
 								<a href="https://www.instagram.com/kingofdigitalmarketing/" target="_blank" class="kdm-social-icon ig" title="Instagram"><i class="fab fa-instagram"></i></a>
@@ -326,7 +381,7 @@
 						<!-- Back to Home -->
 						<div style="margin-top: 25px;">
 							<a href="Default.aspx" class="kdm-home-link">
-								<i class="fa fa-arrow-left"></i> Back to Homepage
+								<i class="fa fa-arrow-left"></i> Return to Homepage
 							</a>
 						</div>
 					</div>
