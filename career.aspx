@@ -1110,31 +1110,100 @@
 		</div>
 	</section>
 
-	<!-- ===== 7. LIFE AT KDM & LEADERSHIP MESSAGE ===== -->
-	<section style="background: #f8fafc; padding: 70px 0; border-bottom: 1px solid #e2e8f0;">
-		<div class="container">
-			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; align-items: center;">
-				<div>
-					<img src="images/work%20culture%20at%20KDM.webp" alt="Work Culture at King of Digital Marketing" style="width: 100%; border-radius: 20px; box-shadow: 0 15px 35px rgba(15, 23, 42, 0.12); border: 1px solid #e2e8f0;" />
-				</div>
-				<div>
-					<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
-						<i class="fa fa-quote-left"></i> LEADERSHIP VISION
-					</span>
-					<h2 style="font-size: 32px; font-weight: 900; color: #0f172a; margin: 0 0 16px 0; line-height: 1.3;">
-						"We Don't Just Hire Employees—We Build <span style="color: #0284c7;">Future Digital Leaders</span>."
-					</h2>
-					<p style="font-size: 15.5px; color: #475569; line-height: 1.8; margin-bottom: 16px;">
-						<em>"Digital marketing changes every single month. When you work at King of Digital Marketing, you are not trapped in repetitive corporate tasks. You get the freedom to experiment with AI SEO, manage real ad spends, test new creative hooks, and see the direct revenue impact of your work on live businesses worldwide."</em>
-					</p>
-					<p style="font-size: 15.5px; color: #475569; line-height: 1.8; margin-bottom: 24px;">
-						<em>"We believe that hunger, honesty, and execution always beat years on a static resume. If you are passionate about digital marketing and want to work with a team that values your ideas, KDM is the place for you."</em>
-					</p>
-					<div style="border-left: 4px solid #0284c7; padding-left: 16px;">
-						<h4 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 4px 0;">Gaurav Dubey</h4>
-						<p style="font-size: 13.5px; color: #64748b; margin: 0;">Founder &amp; Digital Marketing Strategist (13+ Years Exp | 900+ Projects | 15+ Countries)</p>
+	<!-- ===== 7. LEADERSHIP VISION & CULTURE SHOWCASE ===== -->
+	<section style="background: linear-gradient(180deg, #0b1329 0%, #0f172a 100%); padding: 80px 0; position: relative; overflow: hidden; border-bottom: 1px solid #1e293b;">
+		<!-- Subtle background light glow -->
+		<div style="position: absolute; top: -20%; left: 50%; transform: translateX(-50%); width: 800px; height: 400px; background: radial-gradient(circle, rgba(2, 132, 199, 0.15) 0%, transparent 70%); pointer-events: none;"></div>
+
+		<div class="container" style="position: relative; z-index: 2;">
+			<!-- Main Leadership Box -->
+			<div style="background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(16px); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 28px; padding: 50px 45px; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4); max-width: 1160px; margin: 0 auto;">
+				
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 45px; align-items: center;">
+					<!-- Left Column: Founder Quote & Message -->
+					<div>
+						<div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 18px;">
+							<i class="fa fa-quote-left"></i> FOUNDER &amp; LEADERSHIP VISION
+						</div>
+
+						<h2 style="font-size: 32px; font-weight: 900; color: #ffffff; margin: 0 0 20px 0; line-height: 1.3;">
+							"We Don't Just Hire Employees—We Build <span style="background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Future Digital Leaders</span>."
+						</h2>
+
+						<div style="position: relative; padding-left: 20px; border-left: 3px solid #0284c7; margin-bottom: 25px;">
+							<p style="font-size: 15.5px; color: #e2e8f0; line-height: 1.8; margin-bottom: 14px; font-style: italic;">
+								"Digital marketing changes every single month. When you work at King of Digital Marketing, you are not trapped in repetitive corporate tasks. You get the autonomy to experiment with AI SEO &amp; GEO, manage real ad spends, test breakthrough creative hooks, and witness the direct revenue impact of your execution across global brands."
+							</p>
+							<p style="font-size: 15px; color: #94a3b8; line-height: 1.75; margin: 0; font-style: italic;">
+								"We believe that hunger, honesty, and execution always beat static years on a resume. If you are eager to elevate your marketing craft and work with a team that values your ideas, KDM is your launchpad."
+							</p>
+						</div>
+
+						<!-- Founder Info Bar -->
+						<div style="display: flex; align-items: center; gap: 16px; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; padding: 16px 20px;">
+							<div style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #0284c7, #38bdf8); display: flex; align-items: center; justify-content: center; font-size: 22px; color: #ffffff; flex-shrink: 0; box-shadow: 0 6px 18px rgba(2, 132, 199, 0.4);">
+								<i class="fa fa-user-tie"></i>
+							</div>
+							<div>
+								<div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+									<h4 style="font-size: 17px; font-weight: 800; color: #ffffff; margin: 0;">Gaurav Dubey</h4>
+									<span style="background: #0284c7; color: #ffffff; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 8px; text-transform: uppercase;">Founder &amp; Strategist</span>
+								</div>
+								<p style="font-size: 12.5px; color: #94a3b8; margin: 4px 0 0 0;">
+									13+ Years Exp &bull; 900+ Projects &bull; 15+ Countries Served
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Right Column: 4 Culture & Leadership Pillars -->
+					<div style="display: grid; grid-template-columns: 1fr; gap: 14px;">
+						<!-- Pillar 1 -->
+						<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 18px 20px; display: flex; gap: 16px; align-items: flex-start; transition: transform 0.2s;">
+							<div style="width: 42px; height: 42px; border-radius: 12px; background: rgba(2, 132, 199, 0.2); color: #38bdf8; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+								<i class="fa fa-rocket"></i>
+							</div>
+							<div>
+								<h5 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0 0 4px 0;">100% Practical Autonomy</h5>
+								<p style="font-size: 13px; color: #94a3b8; margin: 0; line-height: 1.5;">Manage live international ad budgets and AI ranking strategies with zero red tape.</p>
+							</div>
+						</div>
+
+						<!-- Pillar 2 -->
+						<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 18px 20px; display: flex; gap: 16px; align-items: flex-start; transition: transform 0.2s;">
+							<div style="width: 42px; height: 42px; border-radius: 12px; background: rgba(16, 185, 129, 0.2); color: #34d399; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+								<i class="fa fa-chart-line"></i>
+							</div>
+							<div>
+								<h5 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0 0 4px 0;">Merit Appraisals Every 6-12 Months</h5>
+								<p style="font-size: 13px; color: #94a3b8; margin: 0; line-height: 1.5;">Your promotions, perks, and salary increments are 100% tied to your real client impact.</p>
+							</div>
+						</div>
+
+						<!-- Pillar 3 -->
+						<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 18px 20px; display: flex; gap: 16px; align-items: flex-start; transition: transform 0.2s;">
+							<div style="width: 42px; height: 42px; border-radius: 12px; background: rgba(168, 85, 247, 0.2); color: #c084fc; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+							<div>
+								<h5 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0 0 4px 0;">Direct 1-on-1 Mentorship</h5>
+								<p style="font-size: 13px; color: #94a3b8; margin: 0; line-height: 1.5;">Receive strategic guidance and campaign reviews directly from industry leaders.</p>
+							</div>
+						</div>
+
+						<!-- Pillar 4 -->
+						<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 18px 20px; display: flex; gap: 16px; align-items: flex-start; transition: transform 0.2s;">
+							<div style="width: 42px; height: 42px; border-radius: 12px; background: rgba(251, 146, 60, 0.2); color: #fb923c; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+								<i class="fa fa-tools"></i>
+							</div>
+							<div>
+								<h5 style="font-size: 15px; font-weight: 800; color: #ffffff; margin: 0 0 4px 0;">Premium Enterprise &amp; AI Stack</h5>
+								<p style="font-size: 13px; color: #94a3b8; margin: 0; line-height: 1.5;">Access SEMrush, Ahrefs, Screaming Frog, Claude, ChatGPT Plus, and Midjourney.</p>
+							</div>
+						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>
