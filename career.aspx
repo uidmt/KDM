@@ -1286,53 +1286,140 @@
 	</section>
 
 	<!-- ===== DEDICATED CAREER & INTERNSHIP APPLICATION MODAL ===== -->
-	<div id="careerJobModal" class="career-modal-backdrop" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(8px); z-index: 999999; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box;">
+	<style>
+		/* Scoped Career Modal Styling to override legacy dark inputs */
+		#careerJobModal input[type="text"],
+		#careerJobModal input[type="tel"],
+		#careerJobModal input[type="email"],
+		#careerJobModal input[type="file"],
+		#careerJobModal select,
+		#careerJobModal textarea {
+			background: #ffffff !important;
+			background-color: #ffffff !important;
+			color: #0f172a !important;
+			-webkit-text-fill-color: #0f172a !important;
+			border: 1.5px solid #cbd5e1 !important;
+			border-radius: 10px !important;
+			font-size: 14px !important;
+			font-weight: 500 !important;
+			font-family: inherit !important;
+			height: 48px !important;
+			line-height: normal !important;
+			padding: 10px 14px !important;
+			box-sizing: border-box !important;
+			width: 100% !important;
+			outline: none !important;
+			box-shadow: 0 1px 2px rgba(0,0,0,0.04) !important;
+			transition: border-color 0.2s, box-shadow 0.2s !important;
+		}
+		#careerJobModal input[type="text"]:focus,
+		#careerJobModal input[type="tel"]:focus,
+		#careerJobModal input[type="email"]:focus,
+		#careerJobModal select:focus,
+		#careerJobModal textarea:focus {
+			border-color: #0284c7 !important;
+			box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.18) !important;
+			background: #ffffff !important;
+		}
+		#careerJobModal input::placeholder,
+		#careerJobModal textarea::placeholder {
+			color: #94a3b8 !important;
+			-webkit-text-fill-color: #94a3b8 !important;
+			opacity: 1 !important;
+		}
+		#careerJobModal select {
+			cursor: pointer !important;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23475569'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E") !important;
+			background-repeat: no-repeat !important;
+			background-position: right 14px center !important;
+			background-size: 16px 16px !important;
+			padding-right: 38px !important;
+			appearance: none !important;
+			-webkit-appearance: none !important;
+			-moz-appearance: none !important;
+		}
+		#careerJobModal textarea {
+			height: auto !important;
+			min-height: 85px !important;
+			resize: vertical !important;
+		}
+		#careerJobModal input[type="file"] {
+			height: auto !important;
+			padding: 12px 14px !important;
+			background: #f8fafc !important;
+			border: 1.5px dashed #0284c7 !important;
+			cursor: pointer !important;
+		}
+		#careerJobModal label {
+			font-size: 12.5px !important;
+			font-weight: 700 !important;
+			color: #1e293b !important;
+			margin-bottom: 6px !important;
+			display: block !important;
+			letter-spacing: 0.2px !important;
+		}
+		@media (max-width: 640px) {
+			.kdm-career-form-grid-2 {
+				grid-template-columns: 1fr !important;
+				gap: 12px !important;
+			}
+			#careerJobModal .career-modal-dialog {
+				max-height: 94vh !important;
+				border-radius: 16px !important;
+			}
+			#careerJobModal .career-modal-body {
+				padding: 20px 16px !important;
+			}
+		}
+	</style>
+
+	<div id="careerJobModal" class="career-modal-backdrop" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(8px); z-index: 999999; justify-content: center; align-items: center; padding: 16px; box-sizing: border-box;">
 		<div class="career-modal-dialog" style="background: #ffffff; width: 100%; max-width: 620px; border-radius: 20px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4); max-height: 90vh; overflow-y: auto; position: relative; border: 1px solid #e2e8f0;">
 			<!-- Modal Header -->
-			<div style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 22px 28px; border-radius: 20px 20px 0 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #0284c7;">
+			<div style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 20px 24px; border-radius: 20px 20px 0 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #0284c7;">
 				<div>
 					<span style="background: rgba(2, 132, 199, 0.2); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 12px; text-transform: uppercase; letter-spacing: 0.5px;">KDM Careers &amp; Internships</span>
 					<h3 style="color: #ffffff; margin: 4px 0 0 0; font-size: 20px; font-weight: 900;">Job &amp; Internship Application</h3>
 				</div>
-				<button type="button" onclick="closeCareerModal()" style="background: rgba(255, 255, 255, 0.1); border: none; color: #ffffff; width: 36px; height: 36px; border-radius: 50%; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.2s;" onmouseover="this.style.background='rgba(239, 68, 68, 0.8)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.1)'">&times;</button>
+				<button type="button" onclick="closeCareerModal()" style="background: rgba(255, 255, 255, 0.1); border: none; color: #ffffff; width: 36px; height: 36px; border-radius: 50%; font-size: 20px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.2s;" onmouseover="this.style.background='rgba(239, 68, 68, 0.8)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.1)'">&times;</button>
 			</div>
 
 			<!-- Modal Body / Form -->
-			<div style="padding: 28px;">
+			<div class="career-modal-body" style="padding: 24px 28px; background: #ffffff;">
 				<form id="careerApplicationForm" method="post" action="career.aspx" enctype="multipart/form-data">
-					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+					<div class="kdm-career-form-grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
 						<div>
-							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Full Name <span style="color: #ef4444;">*</span></label>
-							<input type="text" name="name" placeholder="Your Full Name" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'">
+							<label>Full Name <span style="color: #ef4444;">*</span></label>
+							<input type="text" name="name" placeholder="e.g. Rahul Sharma" required>
 						</div>
 						<div>
-							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Phone Number <span style="color: #ef4444;">*</span></label>
-							<input type="tel" name="phone" placeholder="10-Digit Mobile No" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'">
-						</div>
-					</div>
-
-					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
-						<div>
-							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Email Address <span style="color: #ef4444;">*</span></label>
-							<input type="email" name="email" placeholder="name@example.com" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'">
-						</div>
-						<div>
-							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Current City</label>
-							<input type="text" name="city" placeholder="e.g. Delhi, Noida, Remote" style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'">
+							<label>Phone Number <span style="color: #ef4444;">*</span></label>
+							<input type="tel" name="phone" placeholder="10-Digit Mobile No" required>
 						</div>
 					</div>
 
-					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+					<div class="kdm-career-form-grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
 						<div>
-							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Applying For <span style="color: #ef4444;">*</span></label>
-							<select id="careerApplyFor" name="apply_for" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; background: #fff; box-sizing: border-box;">
+							<label>Email Address <span style="color: #ef4444;">*</span></label>
+							<input type="email" name="email" placeholder="rahul@example.com" required>
+						</div>
+						<div>
+							<label>Current City <span style="color: #ef4444;">*</span></label>
+							<input type="text" name="city" placeholder="e.g. Delhi, Noida, Remote" required>
+						</div>
+					</div>
+
+					<div class="kdm-career-form-grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+						<div>
+							<label>Applying For <span style="color: #ef4444;">*</span></label>
+							<select id="careerApplyFor" name="apply_for" required>
 								<option value="Job">Full-Time Job</option>
 								<option value="Internship">6-Month Paid Internship</option>
 							</select>
 						</div>
 						<div>
-							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Current Status <span style="color: #ef4444;">*</span></label>
-							<select name="status" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; background: #fff; box-sizing: border-box;">
+							<label>Current Status <span style="color: #ef4444;">*</span></label>
+							<select name="status" required>
 								<option value="Student">Student</option>
 								<option value="Working">Working Professional</option>
 								<option value="Freelancer">Freelancer</option>
@@ -1341,10 +1428,10 @@
 						</div>
 					</div>
 
-					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+					<div class="kdm-career-form-grid-2" style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
 						<div>
-							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Select Role / Profile <span style="color: #ef4444;">*</span></label>
-							<select id="careerProfile" name="profile" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; background: #fff; box-sizing: border-box;">
+							<label>Select Role / Profile <span style="color: #ef4444;">*</span></label>
+							<select id="careerProfile" name="profile" required>
 								<option value="SEO">SEO (Search Engine Optimization)</option>
 								<option value="Google Ads">Google Ads / PPC Specialist</option>
 								<option value="Meta Ads">Meta Ads &amp; Paid Social</option>
@@ -1357,8 +1444,8 @@
 							</select>
 						</div>
 						<div>
-							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Total Experience</label>
-							<select name="experience" style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; background: #fff; box-sizing: border-box;">
+							<label>Total Experience <span style="color: #ef4444;">*</span></label>
+							<select name="experience" required>
 								<option value="Fresher">Fresher / 0 Exp</option>
 								<option value="6 Months">6 Months</option>
 								<option value="1 Year">1 Year</option>
@@ -1369,13 +1456,13 @@
 					</div>
 
 					<div style="margin-bottom: 14px;">
-						<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Upload Resume / CV (PDF / DOC) <span style="color: #ef4444;">*</span></label>
-						<input type="file" name="resume" accept=".pdf,.doc,.docx" required style="width: 100%; padding: 9px 12px; border: 1.5px dashed #0284c7; background: #f0f9ff; border-radius: 10px; font-size: 13.5px; color: #0f172a; outline: none; box-sizing: border-box; cursor: pointer;">
+						<label>Upload Resume / CV (PDF / DOC) <span style="color: #ef4444;">*</span></label>
+						<input type="file" name="resume" accept=".pdf,.doc,.docx" required>
 					</div>
 
 					<div style="margin-bottom: 20px;">
-						<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Why Should We Hire You? / Portfolio Link</label>
-						<textarea name="reason_for_hiring" rows="3" placeholder="Briefly share your top skills, live URLs, portfolio link, or motivation..." style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; resize: vertical; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'"></textarea>
+						<label>Why Should We Hire You? / Portfolio Link</label>
+						<textarea name="reason_for_hiring" rows="3" placeholder="Briefly share your top skills, live URLs, portfolio link, or career goals..."></textarea>
 					</div>
 
 					<button type="submit" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; border: none; padding: 15px 24px; border-radius: 12px; font-size: 16px; font-weight: 800; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;">
