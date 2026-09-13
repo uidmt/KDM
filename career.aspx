@@ -785,101 +785,109 @@
 		</div>
 	</section>
 
-	<!-- ===== 9. FAQ ACCORDION SECTION ===== -->
-	<section class="kdm-faq-section">
-		<div class="kdm-faq-container">
-			<div class="kdm-faq-header">
-				<div class="kdm-faq-badge"><i class="fa fa-question-circle"></i> GOT QUESTIONS?</div>
-				<h2 class="kdm-faq-title">Frequently Asked <span class="kdm-blue-gradient">Questions</span></h2>
-				<p class="kdm-faq-subtitle">Everything You Need to Know About Jobs &amp; Internships at KDM</p>
+	<!-- ===== 9. FAQ ACCORDION SECTION (CENTRALIZED KDM-FAQ.JS COMPATIBLE) ===== -->
+	<section class="kdm-faq-section" style="padding: 60px 0; background: #ffffff;">
+		<div class="container">
+			<div style="text-align: center; margin-bottom: 40px;">
+				<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
+					<i class="fa fa-question-circle"></i> GOT QUESTIONS?
+				</span>
+				<h2 style="font-size: 32px; font-weight: 900; color: #0f172a; margin: 0 0 10px 0;">
+					Frequently Asked <strong style="color: #0284c7;">Questions</strong>
+				</h2>
+				<p style="font-size: 15px; color: #64748b; margin: 0;">Everything You Need to Know About Jobs &amp; Internships at King of Digital Marketing</p>
 			</div>
 
-			<div class="kdm-faq-accordion">
-				<!-- FAQ 1 -->
-				<div class="kdm-faq-item">
-					<div class="kdm-faq-question">
-						<h3>What qualifications or background do I need to apply at King of Digital Marketing?</h3>
-						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
-					</div>
-					<div class="kdm-faq-answer">
-						<p>We value practical skills, curiosity, and problem-solving over formal degrees. Whether you are a college graduate, self-taught marketer, or experienced strategist, having hands-on familiarity with digital tools (SEO, Google Ads, Meta Ads, Video Editing, or Web Development) and a strong portfolio is what matters most.</p>
-					</div>
-				</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="kdm-faq-accordion" style="max-width: 960px; margin: 0 auto;">
+						<!-- FAQ 1 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+								<span class="kdm-faq-question">Q.1. What qualifications or background do I need to apply at King of Digital Marketing?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We value practical skills, curiosity, and problem-solving over formal degrees. Whether you are a college graduate, self-taught marketer, or experienced strategist, having hands-on familiarity with digital tools (SEO, Google Ads, Meta Ads, Video Editing, or Web Development) and a strong portfolio is what matters most.</p>
+							</div>
+						</div>
 
-				<!-- FAQ 2 -->
-				<div class="kdm-faq-item">
-					<div class="kdm-faq-question">
-						<h3>Can freshers apply for digital marketing internships and full-time roles?</h3>
-						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
-					</div>
-					<div class="kdm-faq-answer">
-						<p>Yes, absolutely! We run dedicated 6-month paid internship tracks for freshers and college students across SEO, PPC, Video Editing, and Content Writing with direct mentorship from Gaurav Dubey and senior leads. Outstanding interns are offered Pre-Placement Offers (PPO) for full-time roles.</p>
-					</div>
-				</div>
+						<!-- FAQ 2 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+								<span class="kdm-faq-question">Q.2. Can freshers apply for digital marketing internships and full-time roles?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, absolutely! We run dedicated 6-month paid internship tracks for freshers and college students across SEO, PPC, Video Editing, and Content Writing with direct mentorship from Gaurav Dubey and senior leads. Outstanding interns are offered Pre-Placement Offers (PPO) for full-time roles.</p>
+							</div>
+						</div>
 
-				<!-- FAQ 3 -->
-				<div class="kdm-faq-item">
-					<div class="kdm-faq-question">
-						<h3>What is the stipend structure for internships at KDM?</h3>
-						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
-					</div>
-					<div class="kdm-faq-answer">
-						<p>Our internships offer monthly stipends ranging from Rs 4,000 to Rs 5,000 per month depending on the domain (SEO, PPC, Video Editing, Content Writing). Top-performing interns also receive milestone bonuses, certification, and full-time hiring consideration.</p>
-					</div>
-				</div>
+						<!-- FAQ 3 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+								<span class="kdm-faq-question">Q.3. What is the stipend structure for internships at KDM?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our internships offer monthly stipends ranging from Rs 4,000 to Rs 5,000 per month depending on the domain (SEO, PPC, Video Editing, Content Writing). Top-performing interns also receive milestone bonuses, certification, and full-time hiring consideration.</p>
+							</div>
+						</div>
 
-				<!-- FAQ 4 -->
-				<div class="kdm-faq-item">
-					<div class="kdm-faq-question">
-						<h3>Are remote or work-from-home positions available?</h3>
-						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
-					</div>
-					<div class="kdm-faq-answer">
-						<p>Yes. Roles like Content Writing and Video Editing offer flexible Work From Home (WFH) or hybrid arrangements. Core performance marketing, SEO, and developer roles operate primarily from our South Delhi office in Kalkaji / Govindpuri Extension for close team collaboration.</p>
-					</div>
-				</div>
+						<!-- FAQ 4 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+								<span class="kdm-faq-question">Q.4. Are remote or work-from-home positions available?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. Roles like Content Writing and Video Editing offer flexible Work From Home (WFH) or hybrid arrangements. Core performance marketing, SEO, and developer roles operate primarily from our South Delhi office in Kalkaji / Govindpuri Extension for close team collaboration.</p>
+							</div>
+						</div>
 
-				<!-- FAQ 5 -->
-				<div class="kdm-faq-item">
-					<div class="kdm-faq-question">
-						<h3>What digital tools and marketing software will I master at KDM?</h3>
-						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
-					</div>
-					<div class="kdm-faq-answer">
-						<p>Team members work with paid enterprise tools including Ahrefs, SEMrush, Screaming Frog, Google Search Console, Google Analytics 4 (GA4), Meta Ads Manager, Google Ads, CapCut Pro, Premiere Pro, Canva Pro, WordPress, and AI search tools (ChatGPT, Perplexity, Claude).</p>
-					</div>
-				</div>
+						<!-- FAQ 5 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+								<span class="kdm-faq-question">Q.5. What digital tools and marketing software will I master at KDM?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Team members work with paid enterprise tools including Ahrefs, SEMrush, Screaming Frog, Google Search Console, Google Analytics 4 (GA4), Meta Ads Manager, Google Ads, CapCut Pro, Premiere Pro, Canva Pro, WordPress, and AI search tools (ChatGPT, Perplexity, Claude).</p>
+							</div>
+						</div>
 
-				<!-- FAQ 6 -->
-				<div class="kdm-faq-item">
-					<div class="kdm-faq-question">
-						<h3>Where is the King of Digital Marketing office located for walk-in interviews?</h3>
-						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
-					</div>
-					<div class="kdm-faq-answer">
-						<p>Our office is located at First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji, New Delhi, Delhi 110019. Candidates can visit for scheduled interviews Monday to Saturday between 9:30 AM and 6:00 PM.</p>
-					</div>
-				</div>
+						<!-- FAQ 6 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+								<span class="kdm-faq-question">Q.6. Where is the King of Digital Marketing office located for walk-in interviews?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our office is located at First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji, New Delhi, Delhi 110019. Candidates can visit for scheduled interviews Monday to Saturday between 9:30 AM and 6:00 PM.</p>
+							</div>
+						</div>
 
-				<!-- FAQ 7 -->
-				<div class="kdm-faq-item">
-					<div class="kdm-faq-question">
-						<h3>What should I prepare for the practical interview assessment?</h3>
-						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
-					</div>
-					<div class="kdm-faq-answer">
-						<p>Be ready to showcase your past campaigns, live URLs, ranking proofs, ad performance metrics, video editing portfolio, or writing samples. A brief 30-minute practical assignment matching the applied role is conducted to evaluate real execution skills.</p>
-					</div>
-				</div>
+						<!-- FAQ 7 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+								<span class="kdm-faq-question">Q.7. What should I prepare for the practical interview assessment?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Be ready to showcase your past campaigns, live URLs, ranking proofs, ad performance metrics, video editing portfolio, or writing samples. A brief 30-minute practical assignment matching the applied role is conducted to evaluate real execution skills.</p>
+							</div>
+						</div>
 
-				<!-- FAQ 8 -->
-				<div class="kdm-faq-item">
-					<div class="kdm-faq-question">
-						<h3>How often are performance appraisals and salary reviews conducted?</h3>
-						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
-					</div>
-					<div class="kdm-faq-answer">
-						<p>At King of Digital Marketing, appraisals are strictly performance-driven and reviewed every 6 to 12 months. Exceptional performers who deliver outstanding client results and display leadership receive accelerated promotions, salary hikes, and performance incentives.</p>
+						<!-- FAQ 8 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
+								<span class="kdm-faq-question">Q.8. How often are performance appraisals and salary reviews conducted?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> At King of Digital Marketing, appraisals are strictly performance-driven and reviewed every 6 to 12 months. Exceptional performers who deliver outstanding client results and display leadership receive accelerated promotions, salary hikes, and performance incentives.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -904,4 +912,6 @@
 		</div>
 	</section>
 
+	<!-- Centralized Global JS Dependencies -->
+	<script src="js/kdm-faq.js"></script>
 </asp:Content>
