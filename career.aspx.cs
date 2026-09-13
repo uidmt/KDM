@@ -16,11 +16,6 @@ public partial class career : System.Web.UI.Page
         }
     }
 
-    protected void Button1_Click(object sender, EventArgs e)
-    {
-        ProcessJobApplication();
-    }
-
     private void ProcessJobApplication()
     {
         string name = Request.Form["name"];
@@ -32,14 +27,6 @@ public partial class career : System.Web.UI.Page
         string applyFor = Request.Form["apply_for"];
         string status = Request.Form["status"];
         string reason = Request.Form["reason_for_hiring"];
-
-        if (string.IsNullOrEmpty(name) && TextBox1 != null) name = TextBox1.Text;
-        if (string.IsNullOrEmpty(phone) && TextBox2 != null) phone = TextBox2.Text;
-        if (string.IsNullOrEmpty(email) && TextBox3 != null) email = TextBox3.Text;
-        if (string.IsNullOrEmpty(city) && TextBox4 != null) city = TextBox4.Text;
-        if (string.IsNullOrEmpty(experience) && TextBox5 != null) experience = TextBox5.Text;
-        if (string.IsNullOrEmpty(profile) && ddlServices != null) profile = ddlServices.SelectedValue;
-        if (string.IsNullOrEmpty(reason) && TextBox7 != null) reason = TextBox7.Text;
 
         if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(phone) || string.IsNullOrEmpty(email))
         {
@@ -61,10 +48,6 @@ public partial class career : System.Web.UI.Page
                 {
                     HttpPostedFile resumeFile = Request.Files["resume"];
                     mail.Attachments.Add(new Attachment(resumeFile.InputStream, resumeFile.FileName));
-                }
-                else if (FileUpload1 != null && FileUpload1.HasFile)
-                {
-                    mail.Attachments.Add(new Attachment(FileUpload1.PostedFile.InputStream, FileUpload1.FileName));
                 }
 
                 mail.Body = "<html><body><table width='80%'><tr><td><hr color='blue' size='5' /><table width='100%'><tr><td align='left'><h1>kingofdigitalmarketing.com - Job Application</h1></td></tr></table><hr color='Lime' size='2' />" +
@@ -89,7 +72,7 @@ public partial class career : System.Web.UI.Page
 
             Response.Redirect("thankYou.aspx");
         }
-        catch (Exception ex)
+        catch (Exception)
         {
             // Silently fail or handle error
         }
