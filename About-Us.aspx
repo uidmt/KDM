@@ -45,13 +45,13 @@
 
 			<!-- Trust Stats Bar -->
 			<div class="kdm-service-hero-stats-bar">
-				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-trophy"></i> 13+ Years Excellence</span>
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-trophy"></i> 13+ Years Exp</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
-				<span class="kdm-service-hero-stat-blue">⭐ 900+ Happy Clients</span>
+				<span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
-				<span class="kdm-service-hero-stat-green">⚡ 15+ Countries Served</span>
+				<span class="kdm-service-hero-stat-green">⚡ 900+ Projects Handled</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
-				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-graduation-cap"></i> 1850+ Students Trained</span>
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-globe"></i> 15+ Countries Served</span>
 			</div>
 
 			<!-- Action CTA Button -->
@@ -63,10 +63,10 @@
 
 			<!-- Value Highlights Row -->
 			<div class="kdm-service-hero-highlights">
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 32 In-House Digital Strategists</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 32+ In-House Specialists</div>
 				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 900+ Completed Projects</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 1850+ Certified Alumni</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 100% ROI & Growth Focus</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 15+ Global Countries</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 100% ROI &amp; Growth Focus</div>
 			</div>
 		</div>
 	</div>
@@ -79,16 +79,16 @@
 				<div class="col-md-12">
 					<div class="kdm-intro-card">
 						<div class="kdm-intro-header-row">
-							<span class="kdm-badge-pill">OUR FOUNDING STORY & LEGACY</span>
+							<span class="kdm-badge-pill">OUR FOUNDING STORY &amp; LEGACY</span>
 							<h2 class="kdm-intro-heading">Pioneering Performance Marketing — <strong class="kdm-highlight">King of Digital Marketing</strong></h2>
 						</div>
 						
 						<p class="kdm-intro-lead-text">
-							<strong>King of Digital Marketing™ is a registered flagship brand unit of Devweboic Techsolutions (OPC) Pvt. Ltd.</strong> Founded in 2013 by <strong>Mr. Gaurav Dubey (Founder & CEO)</strong>, our journey began with a bold vision: to transform how businesses acquire customers and scale revenue online through ethical, high-impact digital strategies.
+							<strong>King of Digital Marketing™ is a registered flagship brand unit of Devweboic Techsolutions (OPC) Pvt. Ltd.</strong> Founded in 2013 by <strong>Mr. Gaurav Dubey (Founder &amp; CEO)</strong>, our journey began with a bold vision: to transform how businesses acquire customers and scale revenue online through ethical, high-impact digital strategies.
 						</p>
 
 						<p class="kdm-intro-body-text">
-							Starting his career as one of India's most sought-after SEO consultants and top-ranking freelancers, Gaurav Dubey earned widespread recognition by ranking on Page 1 of Google for nationwide high-competition search queries. As enterprise demand skyrocketed, the consultancy evolved into a comprehensive full-service digital agency in 2015. Today, our multidisciplinary team of 32 certified in-house specialists delivers scalable growth for 900+ client projects across India, USA, UK, UAE, Canada, Australia, and Europe, managing performance campaigns for renowned brands such as <strong>ISKCON, Meena Bazaar, VLCC, QHT Hair Clinic, Dr. Jamuna Pai Skin Clinic, Invision Overseas, Global Opportunities, GotoUniversity, Planet Education, Continental Immigration, Kundali Expert, Astrocaller</strong>, and others, while having trained over 1850+ students in practical digital marketing.
+							Starting his career as one of India's most sought-after SEO consultants and top-ranking freelancers, Gaurav Dubey earned widespread recognition by ranking on Page 1 of Google for nationwide high-competition search queries. As enterprise demand skyrocketed, the consultancy evolved into a comprehensive full-service digital agency in 2015. Today, our multidisciplinary team of 32+ certified in-house specialists delivers scalable growth for 900+ client projects across India, USA, UK, UAE, Canada, Australia, and Europe, managing performance campaigns for renowned brands such as <strong>ISKCON, Meena Bazaar, VLCC, QHT Hair Clinic, Dr. Jamuna Pai Skin Clinic, Invision Overseas, Global Opportunities, GotoUniversity, Planet Education, Continental Immigration, Kundali Expert, Astrocaller</strong>, and others, while having trained over 1850+ students in practical digital marketing.
 						</p>
 
 						<!-- Callout Banner -->
@@ -99,7 +99,7 @@
 								</svg>
 							</div>
 							<div class="kdm-callout-content">
-								<h4 class="kdm-callout-title">Our Core Mission: Driving Scalable ROI & Lasting Digital Authority</h4>
+								<h4 class="kdm-callout-title">Our Core Mission: Driving Scalable ROI &amp; Lasting Digital Authority</h4>
 								<p class="kdm-callout-text">
 									We go far beyond vanity metrics. We construct end-to-end digital growth funnels that capture high-intent buyers, lower acquisition costs, elevate organic search rankings, build bulletproof online reputation, and drive exponential business valuation.
 								</p>
@@ -116,7 +116,7 @@
 									</svg>
 								</div>
 								<div class="kdm-pillar-text">
-									<strong>32 In-House Certified Specialists</strong>
+									<strong>32+ In-House Certified Specialists</strong>
 									<span>Dedicated strategists, media buyers, SEO architects, and web developers under one roof.</span>
 								</div>
 							</div>
@@ -142,8 +142,8 @@
 									</svg>
 								</div>
 								<div class="kdm-pillar-text">
-									<strong>15+ Countries & 1850+ Students</strong>
-									<span>Global client campaigns and hands-on digital marketing training programs since 2015.</span>
+									<strong>15+ Countries Served</strong>
+									<span>Global performance campaigns scaled across India, USA, UK, UAE &amp; 15+ international markets.</span>
 								</div>
 							</div>
 						</div>
@@ -409,114 +409,226 @@
 		</div>
 	</div>
 
-	<!-- Offered Capabilities Section Starts -->
-	<div class="kdm-offered-wrapper">
+	<!-- ===== FOUNDER GAURAV DUBEY EXECUTIVE PROFILE SECTION ===== -->
+	<div class="kdm-founder-profile-wrapper" style="background: linear-gradient(135deg, #070a12 0%, #0f172a 60%, #0369a1 100%); padding: 85px 0; color: #ffffff; position: relative; overflow: hidden; border-bottom: 1px solid #1e293b;">
+		<!-- Background ambient glow -->
+		<div style="position: absolute; top: -30%; right: -20%; width: 700px; height: 700px; background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, transparent 65%); pointer-events: none;"></div>
+
+		<div class="container" style="position: relative; z-index: 2;">
+			<div style="background: rgba(30, 41, 59, 0.75); backdrop-filter: blur(20px); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 28px; padding: 50px 40px; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45); max-width: 1180px; margin: 0 auto;">
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 45px; align-items: center;">
+					
+					<!-- Left: Founder Image with Premium Frame -->
+					<div style="text-align: center;">
+						<div style="position: relative; display: inline-block; max-width: 380px; width: 100%;">
+							<div style="position: absolute; inset: -8px; background: linear-gradient(135deg, #0284c7, #38bdf8, #818cf8); border-radius: 26px; filter: blur(12px); opacity: 0.5;"></div>
+							<img src="images/gaurav-dubey/thegauravdubey.png" alt="Gaurav Dubey - Founder &amp; Chief Digital Strategist" style="width: 100%; border-radius: 22px; position: relative; z-index: 2; border: 2px solid rgba(255, 255, 255, 0.2); box-shadow: 0 20px 45px rgba(0,0,0,0.5); display: block; object-fit: cover;" />
+							<div style="position: absolute; bottom: 14px; left: 14px; right: 14px; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); border: 1px solid rgba(56, 189, 248, 0.4); border-radius: 14px; padding: 10px 14px; z-index: 3; text-align: left; display: flex; align-items: center; justify-content: space-between;">
+								<div>
+									<h4 style="font-size: 15px; font-weight: 900; color: #ffffff; margin: 0;">Gaurav Dubey</h4>
+									<p style="font-size: 11.5px; color: #38bdf8; margin: 2px 0 0 0; font-weight: 700;">Founder &amp; Chief Marketing Strategist</p>
+								</div>
+								<span style="background: #0284c7; color: #ffffff; font-size: 10px; font-weight: 800; padding: 4px 10px; border-radius: 12px; text-transform: uppercase;">13+ Yrs Exp</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Right: Leadership Bio, Credentials & Vision -->
+					<div>
+						<span style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 16px;">
+							<i class="fa fa-user-tie"></i> VISIONARY FOUNDER &amp; LEADER
+						</span>
+
+						<h2 style="font-size: 34px; font-weight: 900; color: #ffffff; margin: 0 0 16px 0; line-height: 1.25;">
+							Meet <span style="background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Gaurav Dubey</span>
+						</h2>
+
+						<p style="font-size: 15.5px; color: #cbd5e1; line-height: 1.8; margin-bottom: 16px;">
+							<strong>Gaurav Dubey</strong> is an acclaimed digital marketing consultant, agency mentor, and enterprise growth strategist with <strong>13+ Years of Hands-on Leadership</strong>. Beginning his career in 2013 as one of India's most recognized SEO consultants and top-ranking freelancers, he built an unshakeable reputation by capturing #1 rankings on Google for ultra-competitive national search markets.
+						</p>
+
+						<p style="font-size: 15px; color: #94a3b8; line-height: 1.75; margin-bottom: 22px;">
+							Under his visionary direction, <strong>King of Digital Marketing</strong> has scaled into a global performance powerhouse that has handled <strong>900+ successful client campaigns</strong> across <strong>15+ countries</strong> (including India, USA, UK, UAE, Canada, Australia &amp; Europe) and trained <strong>1,850+ certified digital marketers</strong> across 150+ industry verticals.
+						</p>
+
+						<!-- 4 Milestone Counter Pills -->
+						<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-bottom: 24px;">
+							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
+								<div style="font-size: 20px; font-weight: 900; color: #38bdf8;">13+ Years</div>
+								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Proven Mastery</div>
+							</div>
+							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
+								<div style="font-size: 20px; font-weight: 900; color: #34d399;">900+ Projects</div>
+								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Campaigns Delivered</div>
+							</div>
+							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
+								<div style="font-size: 20px; font-weight: 900; color: #c084fc;">15+ Countries</div>
+								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Global Reach</div>
+							</div>
+							<div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 12px 14px; text-align: center;">
+								<div style="font-size: 20px; font-weight: 900; color: #fbbf24;">⭐ 4.9 / 5</div>
+								<div style="font-size: 11.5px; color: #94a3b8; font-weight: 600;">Client Rating</div>
+							</div>
+						</div>
+
+						<!-- Core Philosophy Quote -->
+						<div style="border-left: 3px solid #38bdf8; padding-left: 16px; margin-bottom: 24px;">
+							<p style="font-size: 14.5px; color: #e2e8f0; font-style: italic; margin: 0; line-height: 1.65;">
+								"True performance marketing isn't about chasing vanity impressions. It is about architecting predictable, revenue-generating acquisition funnels that convert visitors into lifelong brand champions."
+							</p>
+						</div>
+
+						<!-- Action CTA & Social Connect -->
+						<div style="display: flex; gap: 14px; align-items: center; flex-wrap: wrap;">
+							<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="padding: 12px 24px; font-size: 14px;">
+								<i class="fa fa-calendar-check"></i> Consult with Gaurav Dubey <i class="fa fa-arrow-right"></i>
+							</a>
+							<div style="display: flex; gap: 10px;">
+								<a href="https://www.youtube.com/channel/UCD9lzE6O-6pOB7S_3MQkHYQ" target="_blank" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; color: #ff0000; font-size: 16px; transition: 0.2s;" onmouseover="this.style.background='#ff0000'; this.style.color='#fff';" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#ff0000';"><i class="fab fa-youtube"></i></a>
+								<a href="https://www.linkedin.com/company/kingofdigitalmarketing/" target="_blank" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; color: #38bdf8; font-size: 16px; transition: 0.2s;" onmouseover="this.style.background='#0a66c2'; this.style.color='#fff';" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#38bdf8';"><i class="fab fa-linkedin-in"></i></a>
+								<a href="https://www.instagram.com/kingofdigitalmarketing/" target="_blank" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; color: #f472b6; font-size: 16px; transition: 0.2s;" onmouseover="this.style.background='#e1306c'; this.style.color='#fff';" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.color='#f472b6';"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ===== 32+ IN-HOUSE SPECIALISTS TEAM SHOWCASE SECTION ===== -->
+	<div class="kdm-team-structure-wrapper" style="background: #ffffff; padding: 80px 0; border-bottom: 1px solid #e2e8f0;">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">OUR CORE CAPABILITIES</span>
-						<h2 class="kdm-offered-heading">Digital Marketing Solutions <strong class="kdm-highlight">& Services Offered</strong></h2>
-						<p class="kdm-offered-subheading">From organic SEO and paid ad scaling to web engineering and digital marketing training.</p>
-					</div>
+				<div class="col-md-12 text-center" style="margin-bottom: 45px;">
+					<span class="kdm-badge-pill" style="margin-bottom: 12px; background: rgba(2, 132, 199, 0.1); color: #0284c7; border: 1px solid rgba(2, 132, 199, 0.25); padding: 5px 16px; border-radius: 20px; font-size: 11.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 6px;">
+						<i class="fa fa-users"></i> OUR IN-HOUSE TALENT POWERHOUSE
+					</span>
+					<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0;">
+						Meet Our <span style="color: #0284c7;">32+ In-House Specialists</span>
+					</h2>
+					<p style="font-size: 16px; color: #64748b; max-width: 760px; margin: 0 auto; line-height: 1.6;">
+						We do not rely on disconnected freelancers. Every campaign is engineered by <strong>32+ full-time, certified specialists</strong> working collaboratively across dedicated performance wings.
+					</p>
 				</div>
 			</div>
 
-			<div class="kdm-ppc-process-grid-3">
-				<!-- Service 1 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<circle cx="11" cy="11" r="8"></circle>
-								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-							</svg>
+			<!-- 6 Specialized Team Wings Grid -->
+			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-bottom: 40px;">
+				
+				<!-- Wing 1: SEO & Search Intelligence -->
+				<div style="background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 20px; padding: 30px 25px; transition: all 0.3s ease; position: relative;" onmouseover="this.style.borderColor='#0284c7'; this.style.transform='translateY(-4px)'; this.style.boxShadow='0 12px 30px rgba(2, 132, 199, 0.1)';" onmouseout="this.style.borderColor='#e2e8f0'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+						<div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(2, 132, 199, 0.12); color: #0284c7; display: flex; align-items: center; justify-content: center; font-size: 22px;">
+							<i class="fa fa-search"></i>
 						</div>
-						<span class="kdm-ppc-process-step-num">01</span>
+						<span style="background: #e0f2fe; color: #0369a1; font-size: 11.5px; font-weight: 800; padding: 4px 10px; border-radius: 10px;">8 Specialists</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Search Engine Optimization (SEO)</h3>
-					<p class="kdm-ppc-process-desc">Technical SEO audits, high-intent keyword ranking strategies, on-page optimization, and authority link acquisition.</p>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 10px 0;">SEO &amp; Search Intelligence Wing</h3>
+					<p style="font-size: 13.5px; color: #475569; line-height: 1.6; margin-bottom: 14px;">
+						Technical site audit architects, Generative Engine Optimization (GEO) experts, schema engineers, and high-authority link builders driving first-page rankings.
+					</p>
+					<div style="font-size: 12.5px; color: #64748b; font-weight: 600; border-top: 1px solid #e2e8f0; padding-top: 12px;">
+						<i class="fa fa-check" style="color: #10b981;"></i> Ahrefs &bull; SEMrush &bull; Screaming Frog &bull; Google Search Console
+					</div>
 				</div>
 
-				<!-- Service 2 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
-								<path d="M15 10l2 7 2-3 3 2-7-6z"></path>
-							</svg>
+				<!-- Wing 2: Performance Media Buying & PPC -->
+				<div style="background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 20px; padding: 30px 25px; transition: all 0.3s ease; position: relative;" onmouseover="this.style.borderColor='#0284c7'; this.style.transform='translateY(-4px)'; this.style.boxShadow='0 12px 30px rgba(2, 132, 199, 0.1)';" onmouseout="this.style.borderColor='#e2e8f0'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+						<div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(16, 185, 129, 0.12); color: #059669; display: flex; align-items: center; justify-content: center; font-size: 22px;">
+							<i class="fa fa-bullseye"></i>
 						</div>
-						<span class="kdm-ppc-process-step-num">02</span>
+						<span style="background: #dcfce7; color: #15803d; font-size: 11.5px; font-weight: 800; padding: 4px 10px; border-radius: 10px;">7 Specialists</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Google & Meta Ads (PPC)</h3>
-					<p class="kdm-ppc-process-desc">High-converting search, display, shopping, YouTube, and paid social campaign management engineered to maximize ROI.</p>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 10px 0;">Performance PPC &amp; Media Buying</h3>
+					<p style="font-size: 13.5px; color: #475569; line-height: 1.6; margin-bottom: 14px;">
+						Google Certified Search &amp; Display specialists, Meta Ads buyers (FB/Instagram), LinkedIn ad strategists, and conversion rate optimization (CRO) leads.
+					</p>
+					<div style="font-size: 12.5px; color: #64748b; font-weight: 600; border-top: 1px solid #e2e8f0; padding-top: 12px;">
+						<i class="fa fa-check" style="color: #10b981;"></i> Google Ads Partner &bull; Meta Ads Manager &bull; GA4 &bull; Tag Manager
+					</div>
 				</div>
 
-				<!-- Service 3 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-							</svg>
+				<!-- Wing 3: Creative Motion & Visual Design -->
+				<div style="background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 20px; padding: 30px 25px; transition: all 0.3s ease; position: relative;" onmouseover="this.style.borderColor='#0284c7'; this.style.transform='translateY(-4px)'; this.style.boxShadow='0 12px 30px rgba(2, 132, 199, 0.1)';" onmouseout="this.style.borderColor='#e2e8f0'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+						<div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(168, 85, 247, 0.12); color: #9333ea; display: flex; align-items: center; justify-content: center; font-size: 22px;">
+							<i class="fa fa-video"></i>
 						</div>
-						<span class="kdm-ppc-process-step-num">03</span>
+						<span style="background: #f3e8ff; color: #7e22ce; font-size: 11.5px; font-weight: 800; padding: 4px 10px; border-radius: 10px;">6 Specialists</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Social Media Marketing (SMM/SMO)</h3>
-					<p class="kdm-ppc-process-desc">Creative social strategy, visual branding, content calendar creation, and active community growth across channels.</p>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 10px 0;">Creative Motion &amp; Visual Design</h3>
+					<p style="font-size: 13.5px; color: #475569; line-height: 1.6; margin-bottom: 14px;">
+						Viral short-form reel video editors, motion graphic artists, visual branding specialists, and high-converting ad creative designers.
+					</p>
+					<div style="font-size: 12.5px; color: #64748b; font-weight: 600; border-top: 1px solid #e2e8f0; padding-top: 12px;">
+						<i class="fa fa-check" style="color: #10b981;"></i> Adobe Premiere Pro &bull; After Effects &bull; Photoshop &bull; Figma
+					</div>
 				</div>
 
-				<!-- Service 4 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-								<line x1="8" y1="21" x2="16" y2="21"></line>
-							</svg>
+				<!-- Wing 4: Full-Stack Web & Software Engineering -->
+				<div style="background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 20px; padding: 30px 25px; transition: all 0.3s ease; position: relative;" onmouseover="this.style.borderColor='#0284c7'; this.style.transform='translateY(-4px)'; this.style.boxShadow='0 12px 30px rgba(2, 132, 199, 0.1)';" onmouseout="this.style.borderColor='#e2e8f0'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+						<div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(234, 88, 12, 0.12); color: #c2410c; display: flex; align-items: center; justify-content: center; font-size: 22px;">
+							<i class="fa fa-laptop-code"></i>
 						</div>
-						<span class="kdm-ppc-process-step-num">04</span>
+						<span style="background: #ffedd5; color: #9a3412; font-size: 11.5px; font-weight: 800; padding: 4px 10px; border-radius: 10px;">5 Specialists</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Website Design & Development</h3>
-					<p class="kdm-ppc-process-desc">High-speed, mobile-responsive custom websites, e-commerce portals, and landing pages designed for peak lead conversion.</p>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 10px 0;">Full-Stack Web &amp; Software Dev</h3>
+					<p style="font-size: 13.5px; color: #475569; line-height: 1.6; margin-bottom: 14px;">
+						ASP.NET Web Forms, C#, PHP/WordPress, e-commerce web architects, API integration experts, and Core Web Vitals speed optimization specialists.
+					</p>
+					<div style="font-size: 12.5px; color: #64748b; font-weight: 600; border-top: 1px solid #e2e8f0; padding-top: 12px;">
+						<i class="fa fa-check" style="color: #10b981;"></i> ASP.NET &bull; C# &bull; JavaScript &bull; SQL Server &bull; WordPress
+					</div>
 				</div>
 
-				<!-- Service 5 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M12 2l7 4v6c0 5-3 9-7 10-4-1-7-5-7-10V6l7-4z"></path>
-								<path d="M9 12l2 2 4-4"></path>
-							</svg>
+				<!-- Wing 5: Content Strategy & Copywriting -->
+				<div style="background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 20px; padding: 30px 25px; transition: all 0.3s ease; position: relative;" onmouseover="this.style.borderColor='#0284c7'; this.style.transform='translateY(-4px)'; this.style.boxShadow='0 12px 30px rgba(2, 132, 199, 0.1)';" onmouseout="this.style.borderColor='#e2e8f0'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+						<div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(13, 148, 136, 0.12); color: #0f766e; display: flex; align-items: center; justify-content: center; font-size: 22px;">
+							<i class="fa fa-pen-nib"></i>
 						</div>
-						<span class="kdm-ppc-process-step-num">05</span>
+						<span style="background: #ccfbf1; color: #115e59; font-size: 11.5px; font-weight: 800; padding: 4px 10px; border-radius: 10px;">4 Specialists</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Online Reputation Management (ORM)</h3>
-					<p class="kdm-ppc-process-desc">Protecting brand image, mitigating negative search results, and cultivating positive social proof across platforms.</p>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 10px 0;">B2B Content Strategy &amp; Copywriting</h3>
+					<p style="font-size: 13.5px; color: #475569; line-height: 1.6; margin-bottom: 14px;">
+						Persuasive ad copywriters, conversion landing page storytellers, thought leadership authors, and semantic SEO content creators.
+					</p>
+					<div style="font-size: 12.5px; color: #64748b; font-weight: 600; border-top: 1px solid #e2e8f0; padding-top: 12px;">
+						<i class="fa fa-check" style="color: #10b981;"></i> Conversion Copy &bull; Digital PR &bull; Semantic Topic Clusters
+					</div>
 				</div>
 
-				<!-- Service 6 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-								<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-							</svg>
+				<!-- Wing 6: Client Success & Account Leadership -->
+				<div style="background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 20px; padding: 30px 25px; transition: all 0.3s ease; position: relative;" onmouseover="this.style.borderColor='#0284c7'; this.style.transform='translateY(-4px)'; this.style.boxShadow='0 12px 30px rgba(2, 132, 199, 0.1)';" onmouseout="this.style.borderColor='#e2e8f0'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+						<div style="width: 48px; height: 48px; border-radius: 14px; background: rgba(225, 29, 72, 0.12); color: #be123c; display: flex; align-items: center; justify-content: center; font-size: 22px;">
+							<i class="fa fa-handshake"></i>
 						</div>
-						<span class="kdm-ppc-process-step-num">06</span>
+						<span style="background: #ffe4e6; color: #9f1239; font-size: 11.5px; font-weight: 800; padding: 4px 10px; border-radius: 10px;">2 Leads</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Digital Marketing Training Institute</h3>
-					<p class="kdm-ppc-process-desc">Practical hands-on training courses in SEO, Google Ads, Meta Ads, SMM, and AI marketing conducted since 2015.</p>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 10px 0;">Client Success &amp; Account Direction</h3>
+					<p style="font-size: 13.5px; color: #475569; line-height: 1.6; margin-bottom: 14px;">
+						Dedicated strategic account managers conducting weekly sprint updates, real-time ROI tracking, and 24/7 responsive communication.
+					</p>
+					<div style="font-size: 12.5px; color: #64748b; font-weight: 600; border-top: 1px solid #e2e8f0; padding-top: 12px;">
+						<i class="fa fa-check" style="color: #10b981;"></i> Weekly Agile Sprints &bull; Live KPI Dashboards &bull; 24/7 Support
+					</div>
 				</div>
+
+			</div>
+
+			<!-- Team Trust Banner -->
+			<div style="background: linear-gradient(135deg, #091a3e 0%, #0d286d 100%); border-radius: 20px; color: #ffffff; padding: 25px 30px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+				<div>
+					<h4 style="font-size: 18px; font-weight: 900; color: #ffffff; margin: 0 0 4px 0;">Looking to Scale Your Brand with India's Premier Agency?</h4>
+					<p style="font-size: 13.5px; color: #cbd5e1; margin: 0;">Our 32+ in-house specialists are ready to architect your custom digital growth funnel.</p>
+				</div>
+				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="padding: 12px 24px; font-size: 14px;">
+					Get Free Strategy Proposal <i class="fa fa-arrow-right"></i>
+				</a>
 			</div>
 		</div>
 	</div>
