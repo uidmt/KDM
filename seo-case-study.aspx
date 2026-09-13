@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 <title>SEO Case Study | Digital Marketing & PPC Case Studies | King of Digital Marketing</title>
 <meta name="keywords" content="SEO Case Study, SMO Case Study, PPC Case Study, Website Design case Study, King of Digital Marketing success stories">
-<meta name="description" content="Explore real SEO case studies, PPC ad campaign results, website design success, and SMO case studies from King of Digital Marketing covering 850+ clients worldwide.">
+<meta name="description" content="Explore real SEO case studies, PPC ad campaign results, website design success, and SMO case studies from King of Digital Marketing covering 900+ Projects worldwide.">
 <meta property="og:title" content="SEO Case Study | Digital Marketing & PPC Case Studies">
 <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/seo-case-study_img.png">
 <meta property="og:description" content="Discover how we delivered 300%+ organic traffic growth, #1 Google rankings, and massive ROI for clients across healthcare, education, finance, and e-commerce.">

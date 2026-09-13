@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 <title>SEO Freelancer in Delhi, India, SMM, SEO, PPC Freelancer</title>
 <meta name="keywords" content="SEO Freelancer India, SMO Freelancer, PPC Freelancer, SEO Expert in Delhi, SEO Freelancer Delhi, Social Media Freelancer, Facebook Ad Freelancer, Freelance SEO in Delhi, PPC freelancer in Delhi">
-<meta name="description" content="SEO Freelancer in Delhi, India with 10+ Years of Experience. Worked on 580+ Digital Marketing Projects as Freelance SEO Consultant. Talk Expert for result-oriented SEO, Social Media, and PPC Freelance Services.">
+<meta name="description" content="SEO Freelancer in Delhi, India with 13+ Years of Experience. Worked on 580+ Digital Marketing Projects as Freelance SEO Consultant. Talk Expert for result-oriented SEO, Social Media, and PPC Freelance Services.">
 <link href="css/main.css" rel="stylesheet">
 <link rel="canonical" href="https://www.kingofdigitalmarketing.com/SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx" />
 <meta property="og:title" content="Hire Best SEO Freelancer in Delhi, India">

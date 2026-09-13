@@ -2569,18 +2569,17 @@ background:rgba(0,0,0,0.7);z-index:10000;justify-content:center;align-items:cent
             <!-- Expert 2: Delhi In-House Team -->
             <div class="kdm-expert-card">
               <div class="kdm-expert-header-box">
-                <div class="kdm-expert-avatar team">12+</div>
+                <div class="kdm-expert-avatar team">32+</div>
                 <div class="kdm-expert-name-title">
                   <h3 class="kdm-expert-name">In-House Performance Marketing Team</h3>
                   <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                 </div>
               </div>
               <p class="kdm-expert-bio">
-                A dedicated in-house team of 12 certified performance ad buyers, video Reel editors, graphic designers,
-                and GA4 analytics engineers working under one roof for your paid campaign success.
+                A dedicated in-house team of 8 certified performance ad buyers and media specialists backed by our 32 in-house experts working under one roof for your paid campaign success.
               </p>
               <ul class="kdm-expert-list">
-                <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Paid Ad Buyers</li>
+                <li><i class="fa fa-check-circle"></i> 8 Certified Performance Marketers &amp; Ad Buyers</li>
                 <li><i class="fa fa-check-circle"></i> Dedicated Campaign Account Managers</li>
                 <li><i class="fa fa-check-circle"></i> Transparent Weekly CPL Reporting &amp; Ad Audits</li>
               </ul>

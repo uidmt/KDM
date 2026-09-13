@@ -293,7 +293,7 @@
           <span class="kdm-service-hero-stat-divider">|</span>
           <span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
           <span class="kdm-service-hero-stat-divider">|</span>
-          <span class="kdm-service-hero-stat-green">🚚 850+ Projects Handled</span>
+          <span class="kdm-service-hero-stat-green">🚚 900+ Projects Handled</span>
         </div>
 
         <div class="kdm-service-hero-cta-wrap">

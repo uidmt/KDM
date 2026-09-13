@@ -5,7 +5,7 @@
 		<meta name="keywords"
 			content="Digital Marketing Course in South Delhi, Digital Marketing Training in South Delhi, Digital Marketing Training, Digital Marketing Course in South Delhi, Digital Marketing Institute, Digital Marketing Training, Best Digital Marketing Institute in Delhi">
 		<meta name="description"
-			content="Best Digital Marketing Institute in South Delhi, 10+ Years Expert Trainers, Online/Offline Classes, 100% Practical, Flexible Batches, and 100% Placement">
+			content="Best Digital Marketing Institute in South Delhi, 13+ Years Expert Trainers, Online/Offline Classes, 100% Practical, Flexible Batches, and 100% Placement">
 		<meta property="og:title" content="India's Best Digital Marketing Course Institute in South Delhi" />
 		<meta property="og:description"
 			content="Join Best Digital Marketing Institute in South Delhi, Expert Trainers, Online/Offline Classes, Live Projects, Flexible Batches, and 100% Placement Assistance." />
@@ -322,7 +322,7 @@
 							wife
 							and entrepreneurs. Enroll now for premium digital marketing course in South Delhi,
 							Govindpuri
-							Kalkaji and learn 10+ years of digital marketing experience in just 3 months from India's
+							Kalkaji and learn 13+ years of digital marketing experience in just 3 months from India's
 							best
 							trainer.</p>
 

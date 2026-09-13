@@ -1075,17 +1075,17 @@
             <!-- Expert 2: Delhi Branch Team -->
             <div class="kdm-expert-card">
               <div class="kdm-expert-header-box">
-                <div class="kdm-expert-avatar team">12+</div>
+                <div class="kdm-expert-avatar team">32+</div>
                 <div class="kdm-expert-name-title">
                   <h3 class="kdm-expert-name">In-House Paid Social &amp; Meta Ads Team</h3>
                   <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                 </div>
               </div>
               <p class="kdm-expert-bio">
-                Our in-house team of 12 certified social media specialists at our Delhi branch includes Meta Campaign Managers, Reel Video Editors, Graphic Banners Designers, Copywriters, and GA4 Analytics Experts working full-time on your brand.
+                Our in-house team of 4 social media strategists and 4 multimedia creators backed by 32 specialists at our Delhi branch includes Meta Campaign Managers, Reel Video Editors, Graphic Banners Designers, Copywriters, and GA4 Analytics Experts working full-time on your brand.
               </p>
               <ul class="kdm-expert-list">
-                <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Ad Managers &amp; Designers</li>
+                <li><i class="fa fa-check-circle"></i> 4 Social Media Leads &amp; 4 Multimedia Creators</li>
                 <li><i class="fa fa-check-circle"></i> Dedicated SMM Campaign Account Managers</li>
                 <li><i class="fa fa-check-circle"></i> Transparent Weekly CPL Reporting &amp; Ad Audits</li>
               </ul>
@@ -1602,7 +1602,7 @@
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
-                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of digital marketing experience, 900+ completed projects, founder leadership from Gaurav Dubey, and a dedicated team of 12 in-house Meta certified strategists, we deliver top ROAS starting at INR 19,999/Month.</p>
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of digital marketing experience, 900+ completed projects, founder leadership from Gaurav Dubey, and a dedicated team of 32 in-house specialists including certified Meta ads strategists, we deliver top ROAS starting at INR 19,999/Month.</p>
                   </div>
                 </div>
 

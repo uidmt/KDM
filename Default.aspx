@@ -8,19 +8,16 @@
             content="Digital Marketing Company, Digital Marketing Services, Digital Marketing Agency, Digital Marketing Firm, Digital Marketing in Delhi, Digital Marketing Services in India, Digital Marketing Agency in Delhi, Digital Marketing Services in Delhi, Digital Marketing Company in India, Best Digital Marketing Agency in Delhi">
 
         <meta name="description"
-            content="India's Best Digital Marketing Services Company in Delhi. 850+ Domestic &amp; International Clients Since 2013. Top Digital Marketing Agency in India.">
+            content="India's Best Digital Marketing Services Company in Delhi. 900+ Domestic &amp; International Projects Delivered Across 15+ Countries. Top Digital Marketing Agency in India.">
 
         <meta property="og:title" content="King of Digital Marketing | Digital Marketing Company in Delhi, India" />
         <meta property="og:description"
-            content="Result Driven Digital Marketing Services Company in Delhi. Empowered 850+ Domestic, International Clients By Expert Marketers in 12+ Years of Experience." />
+            content="Result Driven Digital Marketing Services Company in Delhi. 900+ Completed Projects, 13+ Years of Proven Industry Experience, and 32+ In-House Specialists." />
 
         <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.png">
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.kingofdigitalmarketing.com/" />
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="Robots" content="index,follow">
-        <meta name="googlebot" content="Default, follow " />
-        <meta name="Author" content="Digital Marketing Company in Delhi, https://www.kingofdigitalmarketing.com">
         <link rel="canonical" href="https://www.kingofdigitalmarketing.com" />
         <link rel="shortcut icon" type="image/x-icon" href="fevicon.png">
         <!-- Mobile Metas -->
@@ -38,59 +35,6 @@
 
         <!-- megamenu css -->
         <script src="vendor/modernizr/modernizr.js"></script>
-        <!--Schema Markup For Professional Service-->
-        <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "King of Digital Marketing",
-  "url": "https://www.kingofdigitalmarketing.com/",
-  "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-  "telephone": "+919555696058",
-  "priceRange": "$$$$",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1800/09, Govindpuri Extension, 1st Floor, Kalkaji",
-    "addressLocality": "New Delhi",
-    "addressRegion": "Delhi",
-    "postalCode": "110019",
-    "addressCountry": "IN"
-  },
-  "openingHours": "Mo-Fr 09:00-19:00, Sa 09:00-19:00",
-  "sameAs": [
-    "https://www.facebook.com/kingofdigitalmarket",
-    "https://twitter.com/kingofdgtlmrkt",
-    "https://www.linkedin.com/company/king-of-digital-marketing",
-    "https://www.instagram.com/kingofdigitalmarketing/",
-    "https://www.youtube.com/channel/UCD9lzE6O-6pOB7S_3MQkHYQ",
-    "https://in.pinterest.com/kingofdgtlmktng/"
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "119"
-  }
-}
-</script>
-        <!--Schema Markup For Professional Services Ended-->
-        <!-- Google Ads Tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17892113137"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-
-            gtag('config', 'AW-17892113137');
-        </script>
-        <!-- Google Analytics Tag -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VRK6TTWH4K"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-
-            gtag('config', 'G-VRK6TTWH4K');
-        </script>
 
         <!-- Bootstrap icon code -->
         <link rel="stylesheet"
@@ -802,7 +746,7 @@
                     <p class="empower-subtitle">
                         At <strong>King of Digital Marketing</strong>, we build high-performing digital ecosystems
                         designed to
-                        dominate your market. Driven by 12+ years of expertise, AI technology, and top strategist
+                        dominate your market. Driven by 13+ Years of expertise, AI technology, and top strategist
                         talent, explore
                         our premier specialized services below.
                     </p>

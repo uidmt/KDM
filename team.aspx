@@ -1,19 +1,16 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>Our Team - King of Digital Marketing</title>
-<meta name="keywords" content="seo experts in delhi, smo experts in delhi, ppc experts in delhi, digital marketing experts in delhi, web design experts in delhi, web development experts in delhi, content writing experts in delhi.">
-<meta name="description" content="Meet team of King of Digital Marketing - SEO experts, PPC specialists, SMO team, web design & development experts in Delhi, India.">
-<meta property="og:title" content="Our Team - King of Digital Marketing">
+<title>Our Team - 32 Digital Marketing & Web Experts | King of Digital Marketing</title>
+<meta name="keywords" content="digital marketing team, SEO experts in delhi, performance marketing team, web designers in delhi, web developers, social media specialists, PPC media buyers, Gaurav Dubey team, King of Digital Marketing">
+<meta name="description" content="Meet the 32 expert in-house team of King of Digital Marketing — 1 Founder, 3 Managers, 8 Performance Marketers, 5 SEO Specialists, 4 Multimedia Creators, 4 Social Media Leads, 3 Web Designers & Developers, 2 BDMs, and 2 Content Writers.">
+<meta property="og:title" content="Our Team - 32 Digital Marketing & Web Specialists | King of Digital Marketing">
 <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/gaurav_Digital_Marketing_Program_files.webp">
-<meta property="og:description" content="Meet the expert team of King of Digital Marketing - Certified SEO, PPC, SMO, and Web Development specialists in Delhi, India.">
+<meta property="og:description" content="Meet our multidisciplinary team of 32 certified in-house performance marketers, SEO leads, web engineers, designers, and managers driving measurable growth for 900+ brands.">
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/team.aspx">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://www.kingofdigitalmarketing.com/team.aspx" />
-<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
 <link rel="stylesheet" href="css/home-custom.css?v=25.0">
-<script src="js/kdm-faq.js"></script>
-</div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div role="main" class="main">
@@ -28,50 +25,53 @@
 					<li class="breadcrumb-sep">/</li>
 					<li class="breadcrumb-current">Our Team</li>
 				</ul>
+			</div>
 
 			<!-- Badge Tag -->
 			<span class="kdm-service-hero-badge">
-				<i class="fa fa-users"></i> Passionate Digital Specialists
+				<i class="fa fa-users"></i> 32 In-House Digital & Web Specialists
 			</span>
 
 			<!-- Main H1 Title -->
 			<h1 class="kdm-service-hero-title">
-				Our Team <span class="kdm-gradient-highlight">The Experts Behind Your Growth</span>
+				Meet Our Team <span class="kdm-gradient-highlight">32 Experts Driving Your Growth</span>
 			</h1>
 
 			<!-- Subtitle Paragraph -->
 			<p class="kdm-service-hero-subtitle">
-				Meet our certified SEO strategists, performance marketers, creative designers, and developers dedicated to driving exceptional ROI and digital success for your business.
+				Powered by 1 Founder, 3 Managers, 8 Performance Marketers, 5 SEO Specialists, 4 Multimedia Creators, 4 Social Media Strategists, 3 Web Designers & Developers, 2 Business Development Leads, and 2 Content Writers dedicated to scaling your business.
 			</p>
 
 			<!-- Trust Stats Bar -->
 			<div class="kdm-service-hero-stats-bar">
-				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-user-tie"></i> 30+ In-House Experts</span>
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-users"></i> 32 In-House Team</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
 				<span class="kdm-service-hero-stat-blue">⭐ 13+ Years Experience</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
-				<span class="kdm-service-hero-stat-green">⚡ Google & Meta Certified</span>
+				<span class="kdm-service-hero-stat-green">⚡ 900+ Projects Delivered</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-graduation-cap"></i> 1850+ Students Trained</span>
 			</div>
 
 			<!-- Action CTA Button -->
 			<div class="kdm-service-hero-cta-wrap">
 				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn">
-					<i class="fa fa-phone"></i> Speak With Our Team <i class="fa fa-arrow-right"></i>
+					<i class="fa fa-comments-o"></i> Speak With Our Strategists <i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 
 			<!-- Value Highlights Row -->
 			<div class="kdm-service-hero-highlights">
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Dedicated Account Managers</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Certified Google Ads Specialists</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Senior Technical SEO Lead</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Creative UI/UX & Video Editors</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 100% In-House Execution</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Google & Meta Certified Leads</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Full-Stack Web Engineering</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 900+ Successful Case Studies</div>
 			</div>
 		</div>
 	</div>
 	<!-- ===== END SERVICE PAGE HERO SECTION ===== -->
 
-	<!-- Overview Intro Section Starts -->
+	<!-- Overview Intro Section & Founder Spotlight Starts -->
 	<div class="kdm-intro-ppc-wrapper">
 		<div class="container">
 			<div class="row">
@@ -80,7 +80,7 @@
 					<div class="kdm-intro-card">
 						<div class="kdm-intro-header-row">
 							<span class="kdm-badge-pill">LEADERSHIP & EXPERTISE</span>
-							<h2 class="kdm-intro-heading">Meet Our Founder & <strong class="kdm-highlight">Digital Marketing Leadership</strong></h2>
+							<h2 class="kdm-intro-heading">Founder & Visionary Leadership — <strong class="kdm-highlight">Mr. Gaurav Dubey</strong></h2>
 						</div>
 						
 						<!-- Founder Spotlight Inner Layout -->
@@ -89,18 +89,18 @@
 								<div style="position: relative; display: inline-block;">
 									<img src="images/gaurav_Digital_Marketing_Program_files.webp" alt="Gaurav Dubey - Founder & CEO" style="width: 100%; max-width: 280px; height: auto; border-radius: 16px; box-shadow: 0 10px 25px rgba(2, 132, 199, 0.2); border: 4px solid #ffffff;">
 									<div style="margin-top: 12px;">
-										<h4 style="margin: 0; font-size: 1.2rem; font-weight: 700; color: #0f172a;">Mr. Gaurav Dubey</h4>
-										<span style="font-size: 0.875rem; font-weight: 600; color: #0284c7;">Founder & CEO</span>
+										<h4 style="margin: 0; font-size: 1.25rem; font-weight: 700; color: #0f172a;">Mr. Gaurav Dubey</h4>
+										<span style="font-size: 0.9rem; font-weight: 600; color: #0284c7;">Founder & CEO (13+ Years Experience)</span>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-8">
 								<p class="kdm-intro-lead-text" style="margin-top: 0;">
-									<strong>Mr. Gaurav Dubey</strong> has broad experience in both digital marketing and performance strategy, having profoundly worked with leading brands such as Meena Bazaar, Medispa, Wolk, Sagayaa, and Kundali Expert in India, as well as Creative Display, Abida Tradingz, and Afodd in Dubai, USA, Canada, and Australia.
+									<strong>Mr. Gaurav Dubey</strong> is a pioneer in digital growth architecture, having trained 1850+ marketers and accelerated 900+ brands across 15+ countries, including industry leaders such as <strong>ISKCON, Meena Bazaar, VLCC, QHT Hair Clinic, Dr. Jamuna Pai Skin Clinic, Invision Overseas, Global Opportunities, GotoUniversity, Planet Education, Continental Immigration, Kundali Expert, Astrocaller</strong>, and others across India, Dubai, USA, Canada, UK, and Australia.
 								</p>
 
 								<p class="kdm-intro-body-text">
-									With over 13+ Years of industry leadership, Gaurav Dubey leads a skilled team of 30+ certified digital marketing specialists. Our experts combine deep domain knowledge with the latest AI tools and Google algorithm insights to deliver high rankings, qualified leads, and measurable revenue growth for businesses of all sizes.
+									With over 13+ Years of hands-on industry leadership, Gaurav Dubey spearheads an elite multidisciplinary force of <strong>32 in-house digital & web specialists</strong>. Operating as a unit of <strong>Devweboic Techsolutions (OPC) Pvt. Ltd.</strong>, our team combines proprietary SEO frameworks, high-converting full-stack web development, AI-powered ad bidding algorithms, and visual storytelling to generate measurable ROI and sustained market dominance for every client.
 								</p>
 							</div>
 						</div>
@@ -116,9 +116,9 @@
 								</svg>
 							</div>
 							<div class="kdm-callout-content">
-								<h4 class="kdm-callout-title">Committed to Higher Rankings, Increased Website Traffic & Sales Conversions</h4>
+								<h4 class="kdm-callout-title">32 Specialists Structured For Rapid Execution & Maximum ROI</h4>
 								<p class="kdm-callout-text">
-									Our team specializes in Search Engine Optimization (SEO), PPC Management (Google & Meta Ads), Social Media Marketing (SMM), Online Reputation Management (ORM), and Full-Stack Web Engineering.
+									Our 32-member agency is organized into dedicated specialized pods: <strong>1 Founder</strong>, <strong>3 Strategic Managers</strong>, <strong>8 Performance Marketers</strong>, <strong>5 SEO Specialists</strong>, <strong>4 Multimedia Designers</strong>, <strong>4 Social Media Strategists</strong>, <strong>3 Web Designers & Developers</strong>, <strong>2 Business Development Leads</strong>, and <strong>2 Content Writers</strong>.
 								</p>
 							</div>
 						</div>
@@ -133,21 +133,21 @@
 									</svg>
 								</div>
 								<div class="kdm-pillar-text">
-									<strong>13+ Years Industry Experience</strong>
-									<span>Proven track record across 850+ successful campaigns worldwide.</span>
+									<strong>13+ Years Agency Leadership</strong>
+									<span>Proven track record across 900+ successful digital marketing campaigns worldwide.</span>
 								</div>
 							</div>
 
 							<div class="kdm-pillar-item">
 								<div class="kdm-pillar-icon">
 									<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-										<polyline points="22 4 12 14.01 9 11.01"></polyline>
+										<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+										<circle cx="9" cy="7" r="4"></circle>
 									</svg>
 								</div>
 								<div class="kdm-pillar-text">
-									<strong>98% Client Satisfaction Rate</strong>
-									<span>Dedicated account managers ensuring transparent, ROI-focused results.</span>
+									<strong>32 In-House Specialists</strong>
+									<span>Dedicated division heads, media buyers, SEO leads, developers, and designers.</span>
 								</div>
 							</div>
 
@@ -158,8 +158,8 @@
 									</svg>
 								</div>
 								<div class="kdm-pillar-text">
-									<strong>100% In-House Experts</strong>
-									<span>Full-time certified strategists, media buyers, designers & developers.</span>
+									<strong>100% In-House Integrity</strong>
+									<span>Zero freelance outsourcing, ensuring strict quality control and complete data security.</span>
 								</div>
 							</div>
 						</div>
@@ -174,66 +174,115 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h3 class="kdm-clients-title">Trusted By 800+ Growing Brands & Industry Leaders</h3>
-					<p class="kdm-clients-subtitle">Our Team Powers Successful Campaigns Worldwide</p>
+					<h3 class="kdm-clients-title">Trusted By 900+ Growing Brands & Industry Leaders</h3>
+					<p class="kdm-clients-subtitle">Including ISKCON, Meena Bazaar, VLCC, QHT Hair, Dr. Jamuna Pai, Global Opportunities & More</p>
 				</div>
 			</div>
 			<div class="slide-container">
 				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
+					<img alt="ISKCON" src="images/iskcon digital marketing.webp">
+					<img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp">
+					<img alt="VLCC" src="images/vlcc_img.webp">
+					<img alt="QHT Hair Clinic" src="images/qht-clinic.webp">
+					<img alt="Dr. Jamuna Pai SkinLab" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.webp">
+					<img alt="Invision Overseas" src="images/envisionoverseas_img.webp">
+					<img alt="Global Opportunities" src="images/global-oppprtunities.webp">
+					<img alt="GotoUniversity" src="images/gotouniversity_img.webp">
+					<img alt="Planet Education" src="images/planet-noida.webp">
+					<img alt="Continental Immigration" src="images/ContinentalImmigration.webp">
+					<img alt="Kundali Expert" src="images/kundali expert.webp">
+					<img alt="Astrocaller" src="images/astrocaller.webp">
 					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
 					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
 					<img alt="Olympus" src="images/Olympus_img.webp">
 					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
 				</div>
 				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
+					<img alt="ISKCON" src="images/iskcon digital marketing.webp">
+					<img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp">
+					<img alt="VLCC" src="images/vlcc_img.webp">
+					<img alt="QHT Hair Clinic" src="images/qht-clinic.webp">
+					<img alt="Dr. Jamuna Pai SkinLab" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.webp">
+					<img alt="Invision Overseas" src="images/envisionoverseas_img.webp">
+					<img alt="Global Opportunities" src="images/global-oppprtunities.webp">
+					<img alt="GotoUniversity" src="images/gotouniversity_img.webp">
+					<img alt="Planet Education" src="images/planet-noida.webp">
+					<img alt="Continental Immigration" src="images/ContinentalImmigration.webp">
+					<img alt="Kundali Expert" src="images/kundali expert.webp">
+					<img alt="Astrocaller" src="images/astrocaller.webp">
 					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
 					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
 					<img alt="Olympus" src="images/Olympus_img.webp">
 					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Departments Section Starts -->
+	<!-- 32 Team Structure & Specialized Pods Section Starts -->
 	<div class="kdm-ppc-process-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">OUR SPECIALIZED DEPARTMENTS</span>
-						<h2 class="kdm-ppc-heading">Growth-Focused <strong class="kdm-highlight">Digital Marketing Team</strong></h2>
-						<p class="kdm-ppc-subheading">Organized into specialized divisions to deliver end-to-end digital excellence.</p>
+						<span class="kdm-badge-pill">OUR 32-MEMBER SPECIALIZED PODS</span>
+						<h2 class="kdm-ppc-heading">Department Breakdown & <strong class="kdm-highlight">Specialized Roles</strong></h2>
+						<p class="kdm-ppc-subheading">A comprehensive overview of our 32 full-time in-house experts driving high-impact digital campaigns and web platforms.</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="kdm-ppc-process-grid-3">
-				<!-- 1 -->
+				<!-- Pod 1: Founder -->
+				<div class="kdm-ppc-process-card">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">01</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">1 Founder & CEO</h3>
+					<p class="kdm-ppc-process-desc"><strong>Mr. Gaurav Dubey</strong>: 13+ Years of industry leadership, designing master growth blueprints, mentoring 1850+ trainees, and guiding enterprise growth architectures across 900+ projects.</p>
+				</div>
+
+				<!-- Pod 2: Managers -->
+				<div class="kdm-ppc-process-card">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+								<circle cx="9" cy="7" r="4"></circle>
+								<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+								<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">02</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">3 Strategic Managers</h3>
+					<p class="kdm-ppc-process-desc">Dedicated Operations Lead, Client Delivery Manager, and Campaign Quality Supervisor ensuring prompt communication, milestone tracking, and QA across every client engagement.</p>
+				</div>
+
+				<!-- Pod 3: Performance Marketers -->
+				<div class="kdm-ppc-process-card">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<line x1="12" y1="1" x2="12" y2="23"></line>
+								<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">03</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">8 Performance Marketers</h3>
+					<p class="kdm-ppc-process-desc">8 certified Google Ads & Meta Ads media buyers, conversion rate optimizers, and growth funnel engineers scaling paid ad campaigns for maximum ROAS and lower acquisition costs.</p>
+				</div>
+
+				<!-- Pod 4: SEO Department -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
@@ -243,29 +292,31 @@
 								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
 							</svg>
 						</div>
-						<span class="kdm-ppc-process-step-num">01</span>
+						<span class="kdm-ppc-process-step-num">04</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Search Engine Optimization (SEO)</h3>
-					<p class="kdm-ppc-process-desc">Senior technical SEO analysts, content strategists, and link building engineers driving 1st-page Google rankings.</p>
+					<h3 class="kdm-ppc-process-title">5 SEO Department Specialists</h3>
+					<p class="kdm-ppc-process-desc">5 technical SEO architects, on-page optimization experts, schema encoders, authority link builders, and Google Local Map Pack specialists driving 1st-page Google rankings.</p>
 				</div>
 
-				<!-- 2 -->
+				<!-- Pod 5: Multimedia -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
 						<div class="kdm-ppc-process-icon-box">
 							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
-								<path d="M15 10l2 7 2-3 3 2-7-6z"></path>
+								<rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+								<line x1="7" y1="2" x2="7" y2="22"></line>
+								<line x1="17" y1="2" x2="17" y2="22"></line>
+								<line x1="2" y1="12" x2="22" y2="12"></line>
 							</svg>
 						</div>
-						<span class="kdm-ppc-process-step-num">02</span>
+						<span class="kdm-ppc-process-step-num">05</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Performance PPC & Paid Media</h3>
-					<p class="kdm-ppc-process-desc">Certified Google Ads & Meta Ads buyers managing high-ROAS lead generation and e-commerce ad campaigns.</p>
+					<h3 class="kdm-ppc-process-title">4 Multimedia & Video Creators</h3>
+					<p class="kdm-ppc-process-desc">High-impact video editors, 2D/3D motion graphics artists, visual branding specialists, and creative banner designers crafting thumb-stopping visual assets for performance ad funnels.</p>
 				</div>
 
-				<!-- 3 -->
+				<!-- Pod 6: Social Media -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
@@ -274,13 +325,13 @@
 								<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
 							</svg>
 						</div>
-						<span class="kdm-ppc-process-step-num">03</span>
+						<span class="kdm-ppc-process-step-num">06</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Social Media & Content Strategy</h3>
-					<p class="kdm-ppc-process-desc">Creative storytellers, copywriters, and social media managers crafting viral posts, Reels, and brand campaigns.</p>
+					<h3 class="kdm-ppc-process-title">4 Social Media Strategists</h3>
+					<p class="kdm-ppc-process-desc">SMM strategists, viral Instagram Reel creators, content calendar planners, and community leads building brand influence across Instagram, Facebook, LinkedIn, and YouTube.</p>
 				</div>
 
-				<!-- 4 -->
+				<!-- Pod 7: Web Designers & Developers -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
@@ -288,44 +339,44 @@
 							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
 								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
 								<line x1="8" y1="21" x2="16" y2="21"></line>
+								<line x1="12" y1="17" x2="12" y2="21"></line>
 							</svg>
 						</div>
-						<span class="kdm-ppc-process-step-num">04</span>
+						<span class="kdm-ppc-process-step-num">07</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Web Design & Full-Stack Development</h3>
-					<p class="kdm-ppc-process-desc">UI/UX designers and full-stack developers crafting high-speed, mobile-responsive web applications.</p>
+					<h3 class="kdm-ppc-process-title">3 Web Designers & Developers</h3>
+					<p class="kdm-ppc-process-desc">UI/UX web designers, front-end engineers, and full-stack developers crafting lightning-fast, mobile-first websites, conversion landing pages, and e-commerce portals.</p>
 				</div>
 
-				<!-- 5 -->
+				<!-- Pod 8: Business Development -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
 						<div class="kdm-ppc-process-icon-box">
 							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M12 2l7 4v6c0 5-3 9-7 10-4-1-7-5-7-10V6l7-4z"></path>
-								<path d="M9 12l2 2 4-4"></path>
+								<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
 							</svg>
 						</div>
-						<span class="kdm-ppc-process-step-num">05</span>
+						<span class="kdm-ppc-process-step-num">08</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Online Reputation & PR Management</h3>
-					<p class="kdm-ppc-process-desc">ORM specialists focused on protecting brand identity, review management, and online sentiment control.</p>
+					<h3 class="kdm-ppc-process-title">2 Business Development Leads</h3>
+					<p class="kdm-ppc-process-desc">Growth consultants and client acquisition strategists who analyze client requirements, conduct preliminary technical audits, and craft custom milestone proposals.</p>
 				</div>
 
-				<!-- 6 -->
+				<!-- Pod 9: Content Writers -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
 						<div class="kdm-ppc-process-icon-box">
 							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-								<circle cx="9" cy="7" r="4"></circle>
+								<path d="M12 20h9"></path>
+								<path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
 							</svg>
 						</div>
-						<span class="kdm-ppc-process-step-num">06</span>
+						<span class="kdm-ppc-process-step-num">09</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Client Success & Growth Consultation</h3>
-					<p class="kdm-ppc-process-desc">Dedicated account managers providing prompt client support, real-time reporting, and strategic growth guidance.</p>
+					<h3 class="kdm-ppc-process-title">2 Content Writers</h3>
+					<p class="kdm-ppc-process-desc">Direct-response copywriters, brand storytellers, and SEO content specialists producing high-converting ad copy, landing page scripts, and authoritative industry articles.</p>
 				</div>
 			</div>
 		</div>
@@ -337,9 +388,9 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">WHAT DRIVES US</span>
-						<h2 class="kdm-ppc-heading">Core Values That <strong class="kdm-highlight">Define Our Culture</strong></h2>
-						<p class="kdm-ppc-subheading">Guiding principles behind our work ethic, client communication, and campaign performance.</p>
+						<span class="kdm-badge-pill">WHAT DRIVES OUR TEAM</span>
+						<h2 class="kdm-ppc-heading">Core Principles That <strong class="kdm-highlight">Guide Our Work</strong></h2>
+						<p class="kdm-ppc-subheading">Guiding standards behind our work ethic, client communication, and campaign performance.</p>
 					</div>
 				</div>
 			</div>
@@ -355,7 +406,7 @@
 						</svg>
 					</div>
 					<h3 class="kdm-ppc-card-title">Client-Centric ROI Focus</h3>
-					<p class="kdm-ppc-card-desc">We measure our team's success strictly by the revenue, qualified leads, and ROI we generate for client partners.</p>
+					<p class="kdm-ppc-card-desc">We measure our team's performance strictly by the revenue, qualified sales leads, and ROAS we generate for our client partners.</p>
 				</div>
 
 				<!-- 2 -->
@@ -366,8 +417,8 @@
 							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
 						</svg>
 					</div>
-					<h3 class="kdm-ppc-card-title">Continuous Learning</h3>
-					<p class="kdm-ppc-card-desc">We stay ahead of Google algorithm updates, AI marketing tools, and changing consumer habits through ongoing training.</p>
+					<h3 class="kdm-ppc-card-title">Continuous AI Innovation</h3>
+					<p class="kdm-ppc-card-desc">Our team stays ahead of Google algorithm changes, AI marketing tools, and predictive analytics to maintain market leadership.</p>
 				</div>
 
 				<!-- 3 -->
@@ -379,8 +430,8 @@
 							<polyline points="14 2 14 8 20 8"></polyline>
 						</svg>
 					</div>
-					<h3 class="kdm-ppc-card-title">100% Transparency</h3>
-					<p class="kdm-ppc-card-desc">Clear communication, zero hidden costs, and transparent monthly performance reports for every project.</p>
+					<h3 class="kdm-ppc-card-title">100% Transparent Reporting</h3>
+					<p class="kdm-ppc-card-desc">Real-time KPI tracking dashboards, itemized milestone reports, and honest communication with zero hidden charges.</p>
 				</div>
 
 				<!-- 4 -->
@@ -392,8 +443,8 @@
 							<path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
 						</svg>
 					</div>
-					<h3 class="kdm-ppc-card-title">Creative Excellence</h3>
-					<p class="kdm-ppc-card-desc">Delivering high-impact ad copy, video creatives, and website designs that capture attention in crowded markets.</p>
+					<h3 class="kdm-ppc-card-title">Creative & Technical Excellence</h3>
+					<p class="kdm-ppc-card-desc">Delivering thumb-stopping video ads, compelling copywriting, and high-performance website architectures.</p>
 				</div>
 
 				<!-- 5 -->
@@ -406,8 +457,8 @@
 							<line x1="6" y1="20" x2="6" y2="14"></line>
 						</svg>
 					</div>
-					<h3 class="kdm-ppc-card-title">Data-Driven Execution</h3>
-					<p class="kdm-ppc-card-desc">Every campaign strategy is tested, split-tested, and optimized using empirical performance analytics.</p>
+					<h3 class="kdm-ppc-card-title">Empirical Data Execution</h3>
+					<p class="kdm-ppc-card-desc">Every marketing campaign and web build is backed by split-testing, competitor benchmarking, and empirical analytics.</p>
 				</div>
 
 				<!-- 6 -->
@@ -419,27 +470,27 @@
 						</svg>
 					</div>
 					<h3 class="kdm-ppc-card-title">Integrity & Long-Term Trust</h3>
-					<p class="kdm-ppc-card-desc">Building long-term business partnerships based on honesty, reliability, and consistent value delivery.</p>
+					<p class="kdm-ppc-card-desc">Operating with strict non-disclosure governance under Devweboic Techsolutions (OPC) Pvt. Ltd. for lasting client trust.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Solutions Section Starts -->
+	<!-- Offered Capabilities Section Starts -->
 	<div class="kdm-offered-wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">WHAT WE DELIVER</span>
-						<h2 class="kdm-offered-heading">Tailored Digital Solutions <strong class="kdm-highlight">Delivered By Our Team</strong></h2>
-						<p class="kdm-offered-subheading">From search engine optimization to performance ads, web development, and digital marketing mentorship.</p>
+						<span class="kdm-badge-pill">OUR TEAM CAPABILITIES</span>
+						<h2 class="kdm-offered-heading">End-to-End Solutions <strong class="kdm-highlight">Executed By Our Specialists</strong></h2>
+						<p class="kdm-offered-subheading">From organic SEO and performance advertising to full-stack web engineering, multimedia, and SMM.</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="kdm-ppc-process-grid-3">
-				<!-- 1 -->
+				<!-- Service 1 -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
@@ -451,11 +502,11 @@
 						</div>
 						<span class="kdm-ppc-process-step-num">01</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Local & International SEO</h3>
-					<p class="kdm-ppc-process-desc">Customized organic search strategies for local businesses, global DTC brands, and enterprise websites.</p>
+					<h3 class="kdm-ppc-process-title">Organic SEO & Ranking Pod</h3>
+					<p class="kdm-ppc-process-desc">5 dedicated SEO specialists executing technical crawl fixes, keyword matrix planning, content updates, and high-DA link acquisition.</p>
 				</div>
 
-				<!-- 2 -->
+				<!-- Service 2 -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
@@ -467,11 +518,28 @@
 						</div>
 						<span class="kdm-ppc-process-step-num">02</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Google Search & Display PPC</h3>
-					<p class="kdm-ppc-process-desc">Precision-targeted Google Ads management focused on low Cost-Per-Lead (CPL) and high return on ad spend.</p>
+					<h3 class="kdm-ppc-process-title">PPC & Performance Media Pod</h3>
+					<p class="kdm-ppc-process-desc">8 certified performance marketers optimizing Google Ads, Meta Ads, and YouTube video ad spend for high ROAS and low CPL.</p>
 				</div>
 
-				<!-- 3 -->
+				<!-- Service 3 -->
+				<div class="kdm-ppc-process-card">
+					<div class="kdm-ppc-process-card-accent"></div>
+					<div class="kdm-ppc-process-top">
+						<div class="kdm-ppc-process-icon-box">
+							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+								<line x1="8" y1="21" x2="16" y2="21"></line>
+								<line x1="12" y1="17" x2="12" y2="21"></line>
+							</svg>
+						</div>
+						<span class="kdm-ppc-process-step-num">03</span>
+					</div>
+					<h3 class="kdm-ppc-process-title">Web Engineering & UI/UX Pod</h3>
+					<p class="kdm-ppc-process-desc">3 web designers and full-stack developers crafting lightning-fast, conversion-focused websites, landing pages, and web apps.</p>
+				</div>
+
+				<!-- Service 4 -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
@@ -480,151 +548,44 @@
 								<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
 							</svg>
 						</div>
-						<span class="kdm-ppc-process-step-num">03</span>
-					</div>
-					<h3 class="kdm-ppc-process-title">Meta & Social Media Ad Scaling</h3>
-					<p class="kdm-ppc-process-desc">High-converting Facebook, Instagram, and TikTok ad campaigns engineered for maximum market reach and sales.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-ppc-process-card">
-					<div class="kdm-ppc-process-card-accent"></div>
-					<div class="kdm-ppc-process-top">
-						<div class="kdm-ppc-process-icon-box">
-							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-								<line x1="8" y1="21" x2="16" y2="21"></line>
-							</svg>
-						</div>
 						<span class="kdm-ppc-process-step-num">04</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Custom Web & E-Commerce Engineering</h3>
-					<p class="kdm-ppc-process-desc">Responsive, high-speed website development using modern frameworks, payment gateways, and CRM tools.</p>
+					<h3 class="kdm-ppc-process-title">Social Media & Community Pod</h3>
+					<p class="kdm-ppc-process-desc">4 social media managers producing engaging Reels, static visual posts, content calendars, and brand community engagement.</p>
 				</div>
 
-				<!-- 5 -->
+				<!-- Service 5 -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
 						<div class="kdm-ppc-process-icon-box">
 							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+								<rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+								<line x1="7" y1="2" x2="7" y2="22"></line>
+								<line x1="17" y1="2" x2="17" y2="22"></line>
+								<line x1="2" y1="12" x2="22" y2="12"></line>
 							</svg>
 						</div>
 						<span class="kdm-ppc-process-step-num">05</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">App Store Optimization (ASO)</h3>
-					<p class="kdm-ppc-process-desc">Driving organic Play Store and App Store downloads through keyword ranking optimization and A/B testing.</p>
+					<h3 class="kdm-ppc-process-title">Multimedia & Video Pod</h3>
+					<p class="kdm-ppc-process-desc">4 multimedia experts developing high-retention video ad creatives, motion graphics, and UI layouts engineered for conversion.</p>
 				</div>
 
-				<!-- 6 -->
+				<!-- Service 6 -->
 				<div class="kdm-ppc-process-card">
 					<div class="kdm-ppc-process-card-accent"></div>
 					<div class="kdm-ppc-process-top">
 						<div class="kdm-ppc-process-icon-box">
 							<svg class="kdm-ppc-svg-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-								<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-								<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+								<path d="M12 20h9"></path>
+								<path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
 							</svg>
 						</div>
 						<span class="kdm-ppc-process-step-num">06</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">Live Project Training & Mentorship</h3>
-					<p class="kdm-ppc-process-desc">Training future digital marketing professionals through hands-on campaign execution and live client projects.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Why Choose Us Section Starts -->
-	<div class="kdm-why-hire-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">WHY CHOOSE OUR TEAM</span>
-						<h2 class="kdm-why-hire-heading">Why Work With <strong class="kdm-highlight">King of Digital Marketing?</strong></h2>
-						<p class="kdm-why-hire-subheading">With 13+ Years experience, 850+ completed projects, and 98% client satisfaction, we are your growth team.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="kdm-why-hire-grid">
-				<!-- 1 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-							<circle cx="9" cy="7" r="4"></circle>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">30+ In-House Digital Experts</h3>
-					<p class="kdm-why-hire-card-desc">Full-time specialists working in-house to ensure high quality, rapid communication, and consistent campaign execution.</p>
-				</div>
-
-				<!-- 2 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M9 12l2 2 4-4"></path>
-							<circle cx="12" cy="12" r="10"></circle>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Proven Track Record</h3>
-					<p class="kdm-why-hire-card-desc">Accelerated 850+ brands across India, USA, UK, UAE, Canada, and Australia with high return on investment.</p>
-				</div>
-
-				<!-- 3 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<circle cx="12" cy="8" r="5"></circle>
-							<path d="M12 13v9m-4-5l4-4 4 4"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">13+ Years Industry Experience</h3>
-					<p class="kdm-why-hire-card-desc">Over a decade of hands-on expertise across all major digital marketing, search engine, and ad platform disciplines.</p>
-				</div>
-
-				<!-- 4 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-							<polyline points="14 2 14 8 20 8"></polyline>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Dedicated Campaign Manager</h3>
-					<p class="kdm-why-hire-card-desc">Direct access to a dedicated account manager for prompt communication, campaign updates, and strategy reviews.</p>
-				</div>
-
-				<!-- 5 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<line x1="12" y1="1" x2="12" y2="23"></line>
-							<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">Affordable & Transparent Pricing</h3>
-					<p class="kdm-why-hire-card-desc">Scalable package structures designed to suit bootstrapped startups, growing SMEs, and enterprise organizations.</p>
-				</div>
-
-				<!-- 6 -->
-				<div class="kdm-why-hire-card">
-					<div class="kdm-why-hire-accent"></div>
-					<div class="kdm-why-hire-icon-box">
-						<svg class="kdm-why-hire-svg-icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
-							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-						</svg>
-					</div>
-					<h3 class="kdm-why-hire-card-title">98% Client Satisfaction Rate</h3>
-					<p class="kdm-why-hire-card-desc">Hundreds of 5-star client testimonials and long-term retention driven by consistent revenue growth and transparency.</p>
+					<h3 class="kdm-ppc-process-title">Copywriting & Content Pod</h3>
+					<p class="kdm-ppc-process-desc">2 senior copywriters writing persuasive ad headlines, long-form landing page copy, email sequences, and PR articles.</p>
 				</div>
 			</div>
 		</div>
@@ -634,79 +595,86 @@
 	<section class="kdm-faq-section">
 		<div class="kdm-faq-container">
 			<h2 class="kdm-faq-title">Frequently Asked <strong>Questions (FAQs)</strong></h2>
-			<p class="kdm-faq-subtitle">Got questions? Find clear answers to common queries about our expert team.</p>
+			<p class="kdm-faq-subtitle">Clear answers regarding our 32-member team, departmental roles, and collaboration structure.</p>
 			
 			<div class="kdm-faq-accordion">
 				<div class="kdm-faq-item active">
 					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.1. Who leads the team at King of Digital Marketing?</span>
+						<span class="kdm-faq-question">Q.1. What is the total team size at King of Digital Marketing?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our team is led by Mr. Gaurav Dubey (Founder & CEO), a seasoned digital marketing strategist with over 13+ Years of hands-on experience scaling 850+ brands globally.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have an active in-house team of <strong>32 full-time specialists</strong> comprising 1 Founder & CEO, 3 Strategic Managers, 8 Performance Marketers, 5 SEO Specialists, 4 Multimedia Creators, 4 Social Media Strategists, 3 Web Designers & Developers, 2 Business Development Leads, and 2 Content Writers.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.2. Are your team members certified in digital marketing?</span>
+						<span class="kdm-faq-question">Q.2. Who heads the leadership and digital strategy?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Our team members hold official certifications from Google Search, Display, Meta Ads, YouTube, and Google Analytics, ensuring industry best practices for your campaigns.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our agency is founded and led by <strong>Mr. Gaurav Dubey (Founder & CEO)</strong>, bringing over 13+ Years of hands-on experience scaling 900+ projects globally and mentoring 1850+ digital marketing trainees.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.3. Do you outsource work to third-party freelancers?</span>
+						<span class="kdm-faq-question">Q.3. What does the 8-member Performance Marketing team handle?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No. We maintain a 100% in-house team of 30+ specialists in SEO, PPC, Social Media, Web Development, and Design, guaranteeing strict quality control and data security.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our 8 performance marketing specialists manage paid media budgets across Google Search, Display, YouTube, Meta (Facebook/Instagram), LinkedIn Ads, and TikTok. They specialize in high-ROAS lead generation funnels, conversion tracking, pixel integrations, and predictive ad bidding.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.4. Will I have a dedicated contact person for my project?</span>
+						<span class="kdm-faq-question">Q.4. What capabilities does the Web Design & Development team provide?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Every client is assigned a dedicated Account Manager who acts as your single point of contact, providing regular updates, strategy calls, and performance reports.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our 3 in-house Web Designers and Developers build custom mobile-responsive websites, landing page funnels, e-commerce stores, and web portals optimized for speed, UX conversion, and SEO compliance.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.5. What experience does the SEO team have?</span>
+						<span class="kdm-faq-question">Q.5. How is the 5-member SEO department structured?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our SEO specialists have over a decade of experience ranking local, national, and e-commerce websites on the 1st page of Google for highly competitive search keywords.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The 5 SEO specialists cover technical crawl audits, core web vitals optimization, on-page keyword structuring, schema markup, authoritative backlink acquisition, and Google Business Profile local map pack ranking.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.6. Can your team manage campaigns for international clients?</span>
+						<span class="kdm-faq-question">Q.6. What role do the 4 Multimedia and 4 Social Media creators play?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely. We currently manage campaigns for clients across 15+ countries, including the USA, UK, UAE, Canada, Australia, and various European nations.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The 4 multimedia specialists produce high-retention video ads, motion graphics, and graphic layouts, while the 4 social media strategists craft viral content calendars, manage community engagement, and optimize brand visibility across social platforms.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.7. How does the team report project progress to clients?</span>
+						<span class="kdm-faq-question">Q.7. Will I get a dedicated Manager for my account?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide transparent monthly performance reports detailing keyword rankings, website traffic, ad spend efficiency, conversion rates, and actionable next steps.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Our 3 dedicated managers coordinate directly with you, providing single-point-of-contact support, milestone tracking, weekly updates, and comprehensive monthly performance reviews.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.8. How can I schedule a consultation with your team?</span>
+						<span class="kdm-faq-question">Q.8. Does King of Digital Marketing outsource client work to freelancers?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can click any "Speak With Our Team" or "Talk About Your Business" button on our site, fill out our quick contact form, or call us directly to schedule a strategy session.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> No. All campaigns, code, designs, and optimizations are executed 100% in-house by our 32-member full-time team, ensuring institutional quality control, NDA compliance, and data security.</p>
 					</div>
 				</div>
 			</div>

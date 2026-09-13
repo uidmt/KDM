@@ -2,9 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 <title>Social Media Marketing Company in Delhi, SMM, Social Media Services</title>
 <meta name="keywords" content="Social Media, Social Media Marketing, Social Media Agency, Social Media Services Agency, Best Social Media Company, Social Media Marketing Company in India, Best Social Media Agency in Delhi, Social Media Firm, Social Media Services in Delhi">
- <meta name="description" content="Social Media Marketing Company in Delhi with 10+ Years Exp. to Deliver Best Social Media Marketing Service Packages at affordable Cost. SMM Services in India, Delhi by Reputed Social Media Agency in India committed for best Creative, Reach, Leads and Sales">
+ <meta name="description" content="Social Media Marketing Company in Delhi with 13+ Years Exp. to Deliver Best Social Media Marketing Service Packages at affordable Cost. SMM Services in India, Delhi by Reputed Social Media Agency in India committed for best Creative, Reach, Leads and Sales">
  <meta property="og:title" content="Social Media Marketing Company in Delhi, SMM, Social Media Services" />
-<meta property="og:description" content="Social Media Marketing Company in Delhi with 10+ Years Exp. to Deliver Best Social Media Marketing Service Packages at affordable Cost. SMM Services in India, Delhi by Reputed Social Media Agency in India committed for best Creative, Reach, Leads and Sales" />
+<meta property="og:description" content="Social Media Marketing Company in Delhi with 13+ Years Exp. to Deliver Best Social Media Marketing Service Packages at affordable Cost. SMM Services in India, Delhi by Reputed Social Media Agency in India committed for best Creative, Reach, Leads and Sales" />
 <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/social-media-marketing-services.png ">
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/social-media-marketing-services.aspx" />

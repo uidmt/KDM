@@ -833,19 +833,17 @@
             <!-- Expert 2: Delhi Branch Team -->
             <div class="kdm-expert-card">
               <div class="kdm-expert-header-box">
-                <div class="kdm-expert-avatar team">12+</div>
+                <div class="kdm-expert-avatar team">32+</div>
                 <div class="kdm-expert-name-title">
                   <h3 class="kdm-expert-name">In-House SEO Specialists Team</h3>
                   <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                 </div>
               </div>
               <p class="kdm-expert-bio">
-                Our dedicated team of 12 Google-certified SEO specialists at our Delhi branch includes Technical SEO
-                Engineers, On-Page Optimization Strategists, Content Marketers, and High-Authority Link Building Experts
-                working full-time on your custom SEO growth campaign.
+                Our dedicated team of 5 Google-certified SEO specialists backed by 32 in-house team members at our Delhi branch includes Technical SEO Engineers, On-Page Optimization Strategists, Content Marketers, and High-Authority Link Building Experts working full-time on your custom SEO growth campaign.
               </p>
               <ul class="kdm-expert-list">
-                <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House SEO Engineers &amp; Strategists</li>
+                <li><i class="fa fa-check-circle"></i> 5 Dedicated SEO Department Specialists</li>
                 <li><i class="fa fa-check-circle"></i> Dedicated Account Managers &amp; Weekly KPI Reporting</li>
                 <li><i class="fa fa-check-circle"></i> High-Authority White-Hat Backlink Outreach Experts</li>
               </ul>
@@ -1755,7 +1753,7 @@
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of
                         experience</strong>, <strong>900+ successful projects delivered</strong>, direct leadership from
-                      founder Gaurav Dubey, and a dedicated team of 12 full-time SEO experts at our Delhi branch, we
+                      founder Gaurav Dubey, and a dedicated team of 32 in-house specialists including certified SEO experts, we
                       deliver result-oriented, ROI-focused organic strategies starting at affordable INR 19,999/Month
                       plans.</p>
                   </div>

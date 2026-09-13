@@ -1939,17 +1939,17 @@
                     <!-- Expert 2: Delhi Marketing Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">12+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House Digital Marketing &amp; Growth Team</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            Our in-house team of 12 certified digital marketing specialists at our Delhi branch includes SEO Strategists, PPC Buyers, Reel Video Editors, Graphic Designers, Copywriters, and GA4 Analytics Experts working full-time on your brand.
+                            Our in-house team of 32 certified specialists at our Delhi branch includes SEO Strategists, PPC Buyers, Reel Video Editors, Graphic Designers, Copywriters, and GA4 Analytics Experts working full-time on your brand.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Ad Managers &amp; Designers</li>
+                            <li><i class="fa fa-check-circle"></i> 32 In-House Certified Specialists</li>
                             <li><i class="fa fa-check-circle"></i> Dedicated Campaign Account Managers</li>
                             <li><i class="fa fa-check-circle"></i> Transparent Weekly CPL Reporting &amp; Ad Audits</li>
                         </ul>

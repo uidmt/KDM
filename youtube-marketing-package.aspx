@@ -108,7 +108,7 @@
           "name": "Why choose King of Digital Marketing for YouTube Marketing?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "With 13+ years of digital marketing experience, 900+ completed projects, leadership from Gaurav Dubey, and a dedicated team of 12 in-house video specialists, we deliver maximum channel growth starting at INR 19,999/Month."
+            "text": "With 13+ years of digital marketing experience, 900+ completed projects, leadership from Gaurav Dubey, and a dedicated team of 4 in-house video & multimedia creators backed by 32 specialists, we deliver maximum channel growth starting at INR 19,999/Month."
           }
         }
       ]
@@ -934,19 +934,17 @@
             <!-- Expert 2: Delhi Branch Team -->
             <div class="kdm-expert-card">
               <div class="kdm-expert-header-box">
-                <div class="kdm-expert-avatar team">12+</div>
+                <div class="kdm-expert-avatar team">32+</div>
                 <div class="kdm-expert-name-title">
                   <h3 class="kdm-expert-name">In-House Video Marketing &amp; YouTube Ads Team</h3>
                   <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                 </div>
               </div>
               <p class="kdm-expert-bio">
-                Our in-house team of 12 certified digital marketing specialists at our Delhi branch includes Google
-                Video Ad Managers, Thumbnail Designers, Video SEO Experts, and Analytics Strategists working full-time
-                on your brand.
+                Our in-house team of 4 multimedia &amp; video creators backed by 32 specialists at our Delhi branch includes Google Video Ad Managers, Thumbnail Designers, Video SEO Experts, and Analytics Strategists working full-time on your brand.
               </p>
               <ul class="kdm-expert-list">
-                <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Video Strategists &amp; Designers</li>
+                <li><i class="fa fa-check-circle"></i> 4 Multimedia &amp; Video Creators</li>
                 <li><i class="fa fa-check-circle"></i> Dedicated YouTube Account Managers</li>
                 <li><i class="fa fa-check-circle"></i> Transparent Weekly Analytics Reporting &amp; Audits</li>
               </ul>
@@ -1527,8 +1525,8 @@
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of digital marketing
-                      experience, 900+ completed projects, leadership from Gaurav Dubey, and a dedicated team of 12
-                      in-house video specialists, we deliver maximum channel growth starting at INR 19,999/Month.</p>
+                      experience, 900+ completed projects, leadership from Gaurav Dubey, and a dedicated team of 32
+                      in-house specialists including video creators, we deliver maximum channel growth starting at INR 19,999/Month.</p>
                   </div>
                 </div>
 

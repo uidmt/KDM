@@ -980,19 +980,17 @@
             <!-- Expert 2: Delhi Branch Team -->
             <div class="kdm-expert-card">
               <div class="kdm-expert-header-box">
-                <div class="kdm-expert-avatar team">12+</div>
+                <div class="kdm-expert-avatar team">32+</div>
                 <div class="kdm-expert-name-title">
                   <h3 class="kdm-expert-name">In-House Social Media Team</h3>
                   <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                 </div>
               </div>
               <p class="kdm-expert-bio">
-                Our in-house team of 12 certified social media specialists at our Delhi branch includes Graphic
-                Designers, Reel Video Editors, Copywriters, Community Managers, and Meta Ad Campaign Specialists working
-                full-time on your brand.
+                Our in-house team of 4 social media strategists and 4 multimedia creators backed by 32 specialists at our Delhi branch includes Graphic Designers, Reel Video Editors, Copywriters, Community Managers, and Meta Ad Campaign Specialists working full-time on your brand.
               </p>
               <ul class="kdm-expert-list">
-                <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Designers &amp; Copywriters</li>
+                <li><i class="fa fa-check-circle"></i> 4 Social Media Leads &amp; 4 Multimedia Creators</li>
                 <li><i class="fa fa-check-circle"></i> Dedicated Social Media Account Managers</li>
                 <li><i class="fa fa-check-circle"></i> Transparent Analytics &amp; Monthly Performance Audits</li>
               </ul>
@@ -1150,7 +1148,7 @@
             </h2>
           </div>
           <p>We have 13+ Years of experience in digital marketing and social media services. We have successfully worked
-            with 850+ clients across multiple industries. We have served both Indian and international businesses for
+            with 900+ Projects across multiple industries. We have served both Indian and international businesses for
             Social Media needs, including clients from the UAE, UK, USA, and other global markets. Our work is managed
             by an experienced Social Media team, graphic designers, copywriters, and multimedia video editors. We follow
             an audit-first approach, ensuring every strategy is based on market research and audience data. We follow

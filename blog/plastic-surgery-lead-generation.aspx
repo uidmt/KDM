@@ -4,7 +4,7 @@
 
 <meta name="keywords" content="plastic surgery lead generation, cosmetic surgery lead generation, lead generation for plastic surgeons, plastic surgeon marketing company, plastic surgeon SEO expert, plastic surgeon PPC management, Google Ads for plastic surgeons, Facebook ads for plastic surgeons, rhinoplasty surgeons lead generation services, performance basis lead gen for plastic surgeons">
     
-<meta name="description" content="Discover proven plastic surgery lead generation strategies to attract more qualified patients through SEO, Google Ads, Facebook advertising, and lead management. Learn how King of Digital Marketing, with 12+ years of experience and 50+ successful projects, helps plastic surgeons generate consistent consultations and grow their practice.">
+<meta name="description" content="Discover proven plastic surgery lead generation strategies to attract more qualified patients through SEO, Google Ads, Facebook advertising, and lead management. Learn how King of Digital Marketing, with 13+ Years of experience and 50+ successful projects, helps plastic surgeons generate consistent consultations and grow their practice.">
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -17,7 +17,7 @@
 
 <meta property="og:image" content="https://www.kingofdigitalmarketing.com/blog/images/plastic-surgery-lead-generation.png">
 
-<meta property="og:description" content="Discover proven plastic surgery lead generation strategies using SEO, Google Ads, Facebook Ads, and lead nurturing systems. Learn how King of Digital Marketing helps plastic surgeons generate more consultations, qualified leads, and practice growth with 12+ years of experience and 50+ successful projects.">
+<meta property="og:description" content="Discover proven plastic surgery lead generation strategies using SEO, Google Ads, Facebook Ads, and lead nurturing systems. Learn how King of Digital Marketing helps plastic surgeons generate more consultations, qualified leads, and practice growth with 13+ Years of experience and 50+ successful projects.">
 
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/blog/plastic-surgery-lead-generation.aspx">
 
@@ -98,7 +98,7 @@
                             <p>
                                 In this guide, we'll explain what effective <strong>cosmetic surgery lead generation</strong> looks like,
                                 the channels that generate quality inquiries, and why many practices trust
-                                <strong>King of Digital Marketing</strong> with over <strong>12+ years of experience</strong> and
+                                <strong>King of Digital Marketing</strong> with over <strong>13+ Years of experience</strong> and
                                 <strong>50+ successful projects</strong>.
                             </p>
                         
@@ -277,7 +277,7 @@
                             </p>
                         
                             <ul>
-                                <li><strong>12+ Years Experience</strong> in healthcare marketing.</li>
+                                <li><strong>13+ Years Experience</strong> in healthcare marketing.</li>
                                 <li><strong>50+ Successful Projects</strong> completed.</li>
                                 <li>SEO, Google Ads, and Social Media expertise.</li>
                                 <li>Dedicated landing page optimization.</li>

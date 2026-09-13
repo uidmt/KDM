@@ -1361,17 +1361,17 @@
             <!-- Expert 2: Delhi Branch Team -->
             <div class="kdm-expert-card">
               <div class="kdm-expert-header-box">
-                <div class="kdm-expert-avatar team">12+</div>
+                <div class="kdm-expert-avatar team">32+</div>
                 <div class="kdm-expert-name-title">
                   <h3 class="kdm-expert-name">In-House Google Ads PPC Team</h3>
                   <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                 </div>
               </div>
               <p class="kdm-expert-bio">
-                Our in-house team of 12 certified Google Ads managers at our Delhi branch includes Search Campaign Specialists, PMax Managers, Graphic Designers for Display Banner Ads, Landing Page CRO Developers, and Analytics Tracking Experts working full-time on your account.
+                Our in-house team of 8 certified performance marketers backed by 32 specialists at our Delhi branch includes Search Campaign Specialists, PMax Managers, Graphic Designers for Display Banner Ads, Landing Page CRO Developers, and Analytics Tracking Experts working full-time on your account.
               </p>
               <ul class="kdm-expert-list">
-                <li><i class="fa fa-check-circle"></i> 12+ Google Certified PPC &amp; GA4 Specialists</li>
+                <li><i class="fa fa-check-circle"></i> 8 Certified Performance Marketers &amp; Media Buyers</li>
                 <li><i class="fa fa-check-circle"></i> Dedicated Google Ads Account Managers</li>
                 <li><i class="fa fa-check-circle"></i> Transparent Weekly Reporting &amp; Campaign Audits</li>
               </ul>
@@ -1868,7 +1868,7 @@
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
-                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of digital marketing experience, 900+ completed projects, founder leadership from Gaurav Dubey, and a dedicated team of 12 in-house Google certified PPC managers, we deliver maximum ROAS starting at INR 19,999/Month.</p>
+                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of digital marketing experience, 900+ completed projects, founder leadership from Gaurav Dubey, and a dedicated team of 32 in-house specialists including certified Google Ads managers, we deliver maximum ROAS starting at INR 19,999/Month.</p>
                   </div>
                 </div>
 

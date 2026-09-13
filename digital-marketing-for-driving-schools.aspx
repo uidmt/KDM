@@ -293,7 +293,7 @@
           <span class="kdm-service-hero-stat-divider">|</span>
           <span class="kdm-service-hero-stat-blue"><i class="fa fa-star"></i> 4.9/5 Rating</span>
           <span class="kdm-service-hero-stat-divider">|</span>
-          <span class="kdm-service-hero-stat-green"><i class="fa fa-check-circle"></i> 850+ Projects Handled</span>
+          <span class="kdm-service-hero-stat-green"><i class="fa fa-check-circle"></i> 900+ Projects Handled</span>
         </div>
 
         <div class="kdm-service-hero-cta-wrap">
@@ -2299,7 +2299,7 @@
                 </button>
                 <div class="kdm-faq-body">
                   <p class="kdm-faq-answer">
-                    <span class="kdm-ans-badge">Ans</span> With 13+ years of experience scaling 850+ projects globally, we understand local catchment radius dynamics, student batch scheduling, female trainer positioning, and RTO test psychology to deliver maximum ROI for your driving academy.
+                    <span class="kdm-ans-badge">Ans</span> With 13+ years of experience scaling 900+ projects globally, we understand local catchment radius dynamics, student batch scheduling, female trainer positioning, and RTO test psychology to deliver maximum ROI for your driving academy.
                   </p>
                 </div>
               </div>

@@ -292,7 +292,7 @@
           <span class="kdm-service-hero-stat-divider">|</span>
           <span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
           <span class="kdm-service-hero-stat-divider">|</span>
-          <span class="kdm-service-hero-stat-green">🏰 850+ Projects Handled</span>
+          <span class="kdm-service-hero-stat-green">🏰 900+ Projects Handled</span>
         </div>
 
         <div class="kdm-service-hero-cta-wrap">
@@ -693,7 +693,7 @@
             <label class="kdm-cred-label">Years of Experience</label>
           </div>
 
-          <!-- Box 2: 850+ Projects Handled -->
+          <!-- Box 2: 900+ Projects Handled -->
           <div class="kdm-credentials-box">
             <div class="kdm-cred-svg-hub">
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">

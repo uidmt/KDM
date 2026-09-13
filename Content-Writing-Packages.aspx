@@ -737,17 +737,17 @@
                     <!-- Expert 2: Delhi In-House Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">10+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House Copywriting &amp; Editorial Desk</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            A dedicated team of 10 full-time SEO copywriters, blog writers, technical researchers, and senior proofreaders crafting compelling content for your brand.
+                            A dedicated team of 2 certified content writers and copywriters backed by our 32 in-house specialists crafting compelling content for your brand.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 10+ Full-Time In-House Copywriters</li>
+                            <li><i class="fa fa-check-circle"></i> 2 Dedicated In-House Content Writers</li>
                             <li><i class="fa fa-check-circle"></i> Dedicated Proofreading &amp; Copyscape Audit Desk</li>
                             <li><i class="fa fa-check-circle"></i> Fast Turnaround &amp; Free Unlimited Revisions</li>
                         </ul>

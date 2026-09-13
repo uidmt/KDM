@@ -1884,17 +1884,17 @@
                     <!-- Expert 2: Delhi In-House Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">12+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House Mobile App Growth Studio</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            A dedicated team of 12 full-time ASO strategists, Google UAC media buyers, mobile SDK integration developers, graphic designers, and video Reel editors working full-time on your app.
+                            A dedicated team of certified ASO strategists, Google UAC media buyers, mobile SDK integration developers, and video editors backed by our 32 in-house specialists.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 12+ Full-Time Mobile App Marketers</li>
+                            <li><i class="fa fa-check-circle"></i> 32 In-House Certified Specialists</li>
                             <li><i class="fa fa-check-circle"></i> Full Play Store &amp; App Store ASO Department</li>
                             <li><i class="fa fa-check-circle"></i> Transparent Weekly CPI Reporting &amp; Calls</li>
                         </ul>

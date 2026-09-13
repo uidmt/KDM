@@ -1,19 +1,17 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>About King of Digital Marketing | Agency Since 2013</title>
-<meta name="keywords" content="King of Digital Marketing, Digital Marketing King, King of Online Marketing, Company SMO PPC, Digital Marketing Training, Online Promotion Company">
-<meta name="description" content="About King of Digital Marketing Journey - Established in 2013 by Gaurav Dubey in Delhi, India. Served 850+ Clients in 12+ Countries Yet.">
-<meta property="og:title" content="About Us | King of Digital Marketing | Best Digital Marketing Agency">
+<title>About King of Digital Marketing | Agency Journey Since 2013</title>
+<meta name="keywords" content="King of Digital Marketing, Gaurav Dubey, Devweboic Techsolutions, Best Digital Marketing Agency in India, SEO Freelancer in India, PPC Agency, Digital Marketing Training">
+<meta name="description" content="Discover the journey of King of Digital Marketing — established in 2013 by Gaurav Dubey (Unit of Devweboic Techsolutions (OPC) Pvt. Ltd.). Serving 900+ global brands across 15+ countries with 1850+ students trained.">
+<meta property="og:title" content="About Us | King of Digital Marketing | India's Leading Growth Agency">
 <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.png">
-<meta property="og:description" content="Best Digital Marketing Agency in India for services like SEO, SMM, PPC, Website Design, and Lead Generation. Served 850+ Clients in 12+ Countries.">
+<meta property="og:description" content="Leading Digital Marketing Agency in India offering SEO, PPC, SMM, Web Engineering, ORM, and practical digital training. 13+ Years of leadership, 900+ projects, 15+ countries, and 1850+ students trained.">
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/About-Us.aspx">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://www.kingofdigitalmarketing.com/About-Us.aspx" />
-<meta name="author" content="Best Digital Marketing Company in Delhi, https://www.kingofdigitalmarketing.com">
+<meta name="author" content="King of Digital Marketing, https://www.kingofdigitalmarketing.com">
 <link rel="stylesheet" href="css/home-custom.css?v=25.0">
-<script src="js/kdm-faq.js"></script>
-</div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div role="main" class="main">
@@ -28,10 +26,11 @@
 					<li class="breadcrumb-sep">/</li>
 					<li class="breadcrumb-current">About Us</li>
 				</ul>
+			</div>
 
 			<!-- Badge Tag -->
 			<span class="kdm-service-hero-badge">
-				<i class="fa fa-building"></i> Established Agency Since 2013
+				<i class="fa fa-building"></i> Established Digital Agency Since 2013
 			</span>
 
 			<!-- Main H1 Title -->
@@ -41,16 +40,18 @@
 
 			<!-- Subtitle Paragraph -->
 			<p class="kdm-service-hero-subtitle">
-				Empowering 850+ brands across 15+ countries since 2013. Founded by Gaurav Dubey, we deliver data-driven ROI through SEO, Google Ads, Meta Ads, and AI-powered performance marketing.
+				Empowering 900+ brands across 15+ countries and training 1850+ digital marketers since 2013. Founded by Gaurav Dubey and backed by Devweboic Techsolutions (OPC) Pvt. Ltd., we engineer data-driven revenue growth through advanced SEO, performance Google & Meta Ads, web engineering, and AI marketing.
 			</p>
 
 			<!-- Trust Stats Bar -->
 			<div class="kdm-service-hero-stats-bar">
 				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-trophy"></i> 13+ Years Excellence</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
-				<span class="kdm-service-hero-stat-blue">⭐ 850+ Happy Clients</span>
+				<span class="kdm-service-hero-stat-blue">⭐ 900+ Happy Clients</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
 				<span class="kdm-service-hero-stat-green">⚡ 15+ Countries Served</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-graduation-cap"></i> 1850+ Students Trained</span>
 			</div>
 
 			<!-- Action CTA Button -->
@@ -62,10 +63,10 @@
 
 			<!-- Value Highlights Row -->
 			<div class="kdm-service-hero-highlights">
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 30+ Dedicated Digital Experts</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Transparent Monthly Reporting</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 100% ROI & Growth Focused</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Customized Strategy per Niche</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 32 In-House Digital Strategists</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 900+ Completed Projects</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 1850+ Certified Alumni</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 100% ROI & Growth Focus</div>
 			</div>
 		</div>
 	</div>
@@ -78,16 +79,16 @@
 				<div class="col-md-12">
 					<div class="kdm-intro-card">
 						<div class="kdm-intro-header-row">
-							<span class="kdm-badge-pill">ESTABLISHED AGENCY SINCE 2013</span>
-							<h2 class="kdm-intro-heading">About King of Digital Marketing — <strong class="kdm-highlight">India's Leading Agency</strong></h2>
+							<span class="kdm-badge-pill">OUR FOUNDING STORY & LEGACY</span>
+							<h2 class="kdm-intro-heading">Pioneering Performance Marketing — <strong class="kdm-highlight">King of Digital Marketing</strong></h2>
 						</div>
 						
 						<p class="kdm-intro-lead-text">
-							<strong>King of Digital Marketing™ is an integral part of Devweboic Techsolutions (OPC) Pvt. Ltd.</strong> Founded in 2013 by <strong>Mr. Gaurav Dubey (Founder & CEO)</strong>, who began his journey as one of India's top SEO freelancers.
+							<strong>King of Digital Marketing™ is a registered flagship brand unit of Devweboic Techsolutions (OPC) Pvt. Ltd.</strong> Founded in 2013 by <strong>Mr. Gaurav Dubey (Founder & CEO)</strong>, our journey began with a bold vision: to transform how businesses acquire customers and scale revenue online through ethical, high-impact digital strategies.
 						</p>
 
 						<p class="kdm-intro-body-text">
-							His expertise quickly earned national recognition, with his platform ranking on the first page of Google for competitive keywords like <em>"SEO Freelancer in India"</em>. As projects grew, the need for a skilled team led to the formation of a full-service unit in 2015 — comprising SEO specialists, social media strategists, Google Ads & Meta Ads experts, graphic designers, and full-stack web developers. Today, our 30+ in-house experts deliver measurable ROI across India, USA, UK, UAE, Canada, and Australia.
+							Starting his career as one of India's most sought-after SEO consultants and top-ranking freelancers, Gaurav Dubey earned widespread recognition by ranking on Page 1 of Google for nationwide high-competition search queries. As enterprise demand skyrocketed, the consultancy evolved into a comprehensive full-service digital agency in 2015. Today, our multidisciplinary team of 32 certified in-house specialists delivers scalable growth for 900+ client projects across India, USA, UK, UAE, Canada, Australia, and Europe, managing performance campaigns for renowned brands such as <strong>ISKCON, Meena Bazaar, VLCC, QHT Hair Clinic, Dr. Jamuna Pai Skin Clinic, Invision Overseas, Global Opportunities, GotoUniversity, Planet Education, Continental Immigration, Kundali Expert, Astrocaller</strong>, and others, while having trained over 1850+ students in practical digital marketing.
 						</p>
 
 						<!-- Callout Banner -->
@@ -98,9 +99,9 @@
 								</svg>
 							</div>
 							<div class="kdm-callout-content">
-								<h4 class="kdm-callout-title">Our Core Mission: Driving Scalable ROI & Lasting Business Growth</h4>
+								<h4 class="kdm-callout-title">Our Core Mission: Driving Scalable ROI & Lasting Digital Authority</h4>
 								<p class="kdm-callout-text">
-									We don't just provide digital services; we craft custom performance marketing strategies that generate leads, increase revenue, build strong brand authority, and future-proof digital presence.
+									We go far beyond vanity metrics. We construct end-to-end digital growth funnels that capture high-intent buyers, lower acquisition costs, elevate organic search rankings, build bulletproof online reputation, and drive exponential business valuation.
 								</p>
 							</div>
 						</div>
@@ -115,8 +116,8 @@
 									</svg>
 								</div>
 								<div class="kdm-pillar-text">
-									<strong>30+ In-House Certified Specialists</strong>
-									<span>Dedicated strategists, media buyers, SEO experts, and developers.</span>
+									<strong>32 In-House Certified Specialists</strong>
+									<span>Dedicated strategists, media buyers, SEO architects, and web developers under one roof.</span>
 								</div>
 							</div>
 
@@ -128,8 +129,8 @@
 									</svg>
 								</div>
 								<div class="kdm-pillar-text">
-									<strong>850+ Global Brands Accelerated</strong>
-									<span>Delivering high rankings, qualified leads, and measurable sales growth.</span>
+									<strong>900+ Global Projects Scaled</strong>
+									<span>Proven history of driving first-page rankings, qualified leads, and measurable revenue.</span>
 								</div>
 							</div>
 
@@ -141,8 +142,8 @@
 									</svg>
 								</div>
 								<div class="kdm-pillar-text">
-									<strong>15+ Countries & Global Reach</strong>
-									<span>Serving clients across India, USA, UK, UAE, Canada, Australia & Europe.</span>
+									<strong>15+ Countries & 1850+ Students</strong>
+									<span>Global client campaigns and hands-on digital marketing training programs since 2015.</span>
 								</div>
 							</div>
 						</div>
@@ -157,46 +158,46 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h3 class="kdm-clients-title">Trusted By 800+ Growing Brands & Industry Leaders</h3>
-					<p class="kdm-clients-subtitle">Empowering Businesses Globally Since 2013</p>
+					<h3 class="kdm-clients-title">Trusted By 900+ Growing Brands & Industry Leaders</h3>
+					<p class="kdm-clients-subtitle">Including ISKCON, Meena Bazaar, VLCC, QHT Hair, Dr. Jamuna Pai, Global Opportunities & More</p>
 				</div>
 			</div>
 			<div class="slide-container">
 				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
+					<img alt="ISKCON" src="images/iskcon digital marketing.webp">
+					<img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp">
+					<img alt="VLCC" src="images/vlcc_img.webp">
+					<img alt="QHT Hair Clinic" src="images/qht-clinic.webp">
+					<img alt="Dr. Jamuna Pai SkinLab" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.webp">
+					<img alt="Invision Overseas" src="images/envisionoverseas_img.webp">
+					<img alt="Global Opportunities" src="images/global-oppprtunities.webp">
+					<img alt="GotoUniversity" src="images/gotouniversity_img.webp">
+					<img alt="Planet Education" src="images/planet-noida.webp">
+					<img alt="Continental Immigration" src="images/ContinentalImmigration.webp">
+					<img alt="Kundali Expert" src="images/kundali expert.webp">
+					<img alt="Astrocaller" src="images/astrocaller.webp">
 					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
 					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
 					<img alt="Olympus" src="images/Olympus_img.webp">
 					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
 				</div>
 				<div class="slide-now">
-					<img alt="satguru" src="images/satguru--logo.webp">
+					<img alt="ISKCON" src="images/iskcon digital marketing.webp">
+					<img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp">
+					<img alt="VLCC" src="images/vlcc_img.webp">
+					<img alt="QHT Hair Clinic" src="images/qht-clinic.webp">
+					<img alt="Dr. Jamuna Pai SkinLab" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.webp">
+					<img alt="Invision Overseas" src="images/envisionoverseas_img.webp">
+					<img alt="Global Opportunities" src="images/global-oppprtunities.webp">
+					<img alt="GotoUniversity" src="images/gotouniversity_img.webp">
+					<img alt="Planet Education" src="images/planet-noida.webp">
+					<img alt="Continental Immigration" src="images/ContinentalImmigration.webp">
+					<img alt="Kundali Expert" src="images/kundali expert.webp">
+					<img alt="Astrocaller" src="images/astrocaller.webp">
 					<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
 					<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-					<img alt="cara" src="images/cara_img.webp">
 					<img alt="Olympus" src="images/Olympus_img.webp">
 					<img alt="cocoona" src="images/cocoona.webp">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-					<img alt="MTel" src="images/MTel_img.webp">
-					<img alt="Propert" src="images/Propert-Logo.webp">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-					<img alt="go to university" src="images/go to university.webp">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp">
 				</div>
 			</div>
 		</div>
@@ -210,7 +211,7 @@
 					<div class="kdm-section-header">
 						<span class="kdm-badge-pill">OUR JOURNEY & MILESTONES</span>
 						<h2 class="kdm-ppc-heading">Our Evolution Since <strong class="kdm-highlight">2013</strong></h2>
-						<p class="kdm-ppc-subheading">From solo SEO consultancy to a full-service global digital marketing powerhouse.</p>
+						<p class="kdm-ppc-subheading">From solo SEO consultancy to a 900+ project global digital marketing powerhouse.</p>
 					</div>
 				</div>
 			</div>
@@ -228,7 +229,7 @@
 						<span class="kdm-ppc-process-step-num">01</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">2013 — Founded by Gaurav Dubey</h3>
-					<p class="kdm-ppc-process-desc">Gaurav Dubey launched his freelance SEO consultancy, achieving #1 Google rankings for competitive terms nationwide.</p>
+					<p class="kdm-ppc-process-desc">Gaurav Dubey launched his freelance SEO consultancy, achieving #1 Google rankings for competitive search queries across India.</p>
 				</div>
 
 				<!-- Stage 2 -->
@@ -244,7 +245,7 @@
 						<span class="kdm-ppc-process-step-num">02</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">2015 — Agency Team Expansion</h3>
-					<p class="kdm-ppc-process-desc">Formed a dedicated team of SEO specialists, PPC media buyers, copywriters, and web developers under King of Digital Marketing.</p>
+					<p class="kdm-ppc-process-desc">Formed a dedicated multidisciplinary agency team of SEO specialists, PPC media buyers, copywriters, and full-stack developers.</p>
 				</div>
 
 				<!-- Stage 3 -->
@@ -260,7 +261,7 @@
 						<span class="kdm-ppc-process-step-num">03</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">2015 — Training Institute Launch</h3>
-					<p class="kdm-ppc-process-desc">Established King of Digital Marketing Institute to provide practical, live-project training in SEO, PPC, and Social Media.</p>
+					<p class="kdm-ppc-process-desc">Established King of Digital Marketing Institute to provide practical, live-project training in SEO, Google Ads, Meta Ads, and Analytics — now with 1850+ trained alumni.</p>
 				</div>
 
 				<!-- Stage 4 -->
@@ -276,7 +277,7 @@
 						<span class="kdm-ppc-process-step-num">04</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">2018 — Global Footprint Expansion</h3>
-					<p class="kdm-ppc-process-desc">Scaled services globally, serving clients across the USA, UK, UAE, Canada, Australia, and European markets.</p>
+					<p class="kdm-ppc-process-desc">Scaled campaigns across international borders, managing client portfolios across 15+ countries including the USA, UK, UAE, Canada, Australia, and Europe.</p>
 				</div>
 
 				<!-- Stage 5 -->
@@ -291,8 +292,8 @@
 						</div>
 						<span class="kdm-ppc-process-step-num">05</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">2021 — Devweboic Integration</h3>
-					<p class="kdm-ppc-process-desc">Integrated King of Digital Marketing™ under Devweboic Techsolutions (OPC) Pvt. Ltd. for enterprise-level operations.</p>
+					<h3 class="kdm-ppc-process-title">2021 — Devweboic Corporate Integration</h3>
+					<p class="kdm-ppc-process-desc">Officially integrated King of Digital Marketing™ under Devweboic Techsolutions (OPC) Pvt. Ltd. for enterprise-level operational compliance.</p>
 				</div>
 
 				<!-- Stage 6 -->
@@ -307,8 +308,8 @@
 						</div>
 						<span class="kdm-ppc-process-step-num">06</span>
 					</div>
-					<h3 class="kdm-ppc-process-title">2026+ — AI-Powered Marketing Era</h3>
-					<p class="kdm-ppc-process-desc">Incorporating AI-driven ad bidding, predictive SEO, and automated lead funnels to accelerate 850+ active client brands.</p>
+					<h3 class="kdm-ppc-process-title">2026+ — AI-Driven Growth Architecture</h3>
+					<p class="kdm-ppc-process-desc">Incorporating predictive SEO, AI ad-bidding intelligence, generative creative pipelines, and automated lead nurturing systems for 900+ brands.</p>
 				</div>
 			</div>
 		</div>
@@ -320,7 +321,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="kdm-section-header">
-						<span class="kdm-badge-pill">HOW WE HELP BRANDS GROW</span>
+						<span class="kdm-badge-pill">HOW WE ACCELERATE BRANDS</span>
 						<h2 class="kdm-ppc-heading">How We Help Our Clients <strong class="kdm-highlight">Grow Digitally</strong></h2>
 						<p class="kdm-ppc-subheading">Delivering real growth, qualified leads, and brand authority across all digital channels.</p>
 					</div>
@@ -338,7 +339,7 @@
 						</svg>
 					</div>
 					<h3 class="kdm-ppc-card-title">Generate High-Intent Leads</h3>
-					<p class="kdm-ppc-card-desc">Build automated paid and organic funnels that capture qualified leads consistently and lower cost-per-acquisition.</p>
+					<p class="kdm-ppc-card-desc">Build automated paid and organic funnels that capture qualified leads consistently and lower cost-per-acquisition across search and social channels.</p>
 				</div>
 
 				<!-- 2 -->
@@ -351,7 +352,7 @@
 						</svg>
 					</div>
 					<h3 class="kdm-ppc-card-title">Increase Sales & Conversions</h3>
-					<p class="kdm-ppc-card-desc">Optimize Google Ads, Meta Ads, and landing pages to boost overall conversion rates and maximize return on ad spend.</p>
+					<p class="kdm-ppc-card-desc">Optimize Google Ads, Meta Ads, and high-speed landing pages to boost overall conversion rates and maximize return on ad spend (ROAS).</p>
 				</div>
 
 				<!-- 3 -->
@@ -363,7 +364,7 @@
 						</svg>
 					</div>
 					<h3 class="kdm-ppc-card-title">Build Strong Brand Authority</h3>
-					<p class="kdm-ppc-card-desc">Establish market credibility through Online Reputation Management (ORM), PR strategy, and engaging social content.</p>
+					<p class="kdm-ppc-card-desc">Establish market credibility through Online Reputation Management (ORM), digital PR, review generation, and engaging viral social content.</p>
 				</div>
 
 				<!-- 4 -->
@@ -375,8 +376,8 @@
 							<circle cx="9" cy="7" r="4"></circle>
 						</svg>
 					</div>
-					<h3 class="kdm-ppc-card-title">30+ Dedicated Experts</h3>
-					<p class="kdm-ppc-card-desc">Experienced copywriters, media buyers, SEO strategists, and web developers working in-house under one roof.</p>
+					<h3 class="kdm-ppc-card-title">32 In-House Certified Experts</h3>
+					<p class="kdm-ppc-card-desc">Experienced copywriters, media buyers, SEO strategists, and web developers collaborating seamlessly to drive client success.</p>
 				</div>
 
 				<!-- 5 -->
@@ -388,8 +389,8 @@
 							<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
 						</svg>
 					</div>
-					<h3 class="kdm-ppc-card-title">Practical Industry Training</h3>
-					<p class="kdm-ppc-card-desc">Educating future digital marketing professionals through hands-on live project training since 2015.</p>
+					<h3 class="kdm-ppc-card-title">1850+ Students Trained</h3>
+					<p class="kdm-ppc-card-desc">Educating future digital marketing professionals and corporate teams through hands-on live project training since 2015.</p>
 				</div>
 
 				<!-- 6 -->
@@ -402,7 +403,7 @@
 						</svg>
 					</div>
 					<h3 class="kdm-ppc-card-title">100% Transparent Reporting</h3>
-					<p class="kdm-ppc-card-desc">Clear monthly reporting with real-time KPI tracking, zero hidden costs, and total campaign accountability.</p>
+					<p class="kdm-ppc-card-desc">Granular monthly reporting with real-time KPI tracking dashboards, zero hidden costs, and complete campaign accountability.</p>
 				</div>
 			</div>
 		</div>
@@ -435,7 +436,7 @@
 						<span class="kdm-ppc-process-step-num">01</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">Search Engine Optimization (SEO)</h3>
-					<p class="kdm-ppc-process-desc">Technical SEO audits, high-intent keyword optimization, and authority link building for first-page Google rank.</p>
+					<p class="kdm-ppc-process-desc">Technical SEO audits, high-intent keyword ranking strategies, on-page optimization, and authority link acquisition.</p>
 				</div>
 
 				<!-- Service 2 -->
@@ -451,7 +452,7 @@
 						<span class="kdm-ppc-process-step-num">02</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">Google & Meta Ads (PPC)</h3>
-					<p class="kdm-ppc-process-desc">High-converting search, display, and social media ad management engineered to maximize ROI and sales.</p>
+					<p class="kdm-ppc-process-desc">High-converting search, display, shopping, YouTube, and paid social campaign management engineered to maximize ROI.</p>
 				</div>
 
 				<!-- Service 3 -->
@@ -466,7 +467,7 @@
 						<span class="kdm-ppc-process-step-num">03</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">Social Media Marketing (SMM/SMO)</h3>
-					<p class="kdm-ppc-process-desc">Creative social strategy, visual branding, community management, and viral content across Facebook & Instagram.</p>
+					<p class="kdm-ppc-process-desc">Creative social strategy, visual branding, content calendar creation, and active community growth across channels.</p>
 				</div>
 
 				<!-- Service 4 -->
@@ -482,7 +483,7 @@
 						<span class="kdm-ppc-process-step-num">04</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">Website Design & Development</h3>
-					<p class="kdm-ppc-process-desc">High-speed, mobile-responsive custom websites, e-commerce portals, and landing pages designed for lead conversion.</p>
+					<p class="kdm-ppc-process-desc">High-speed, mobile-responsive custom websites, e-commerce portals, and landing pages designed for peak lead conversion.</p>
 				</div>
 
 				<!-- Service 5 -->
@@ -498,7 +499,7 @@
 						<span class="kdm-ppc-process-step-num">05</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">Online Reputation Management (ORM)</h3>
-					<p class="kdm-ppc-process-desc">Protecting brand image, suppressing negative content, and building positive social proof across digital channels.</p>
+					<p class="kdm-ppc-process-desc">Protecting brand image, mitigating negative search results, and cultivating positive social proof across platforms.</p>
 				</div>
 
 				<!-- Service 6 -->
@@ -514,7 +515,7 @@
 						<span class="kdm-ppc-process-step-num">06</span>
 					</div>
 					<h3 class="kdm-ppc-process-title">Digital Marketing Training Institute</h3>
-					<p class="kdm-ppc-process-desc">Comprehensive hands-on training courses in SEO, SMM, PPC, and SMO conducted by senior industry professionals.</p>
+					<p class="kdm-ppc-process-desc">Practical hands-on training courses in SEO, Google Ads, Meta Ads, SMM, and AI marketing conducted since 2015.</p>
 				</div>
 			</div>
 		</div>
@@ -528,7 +529,7 @@
 					<div class="kdm-section-header">
 						<span class="kdm-badge-pill">OUR AGENCY VALUES</span>
 						<h2 class="kdm-why-hire-heading">Why Choose King of Digital Marketing <strong class="kdm-highlight">As Your Growth Partner?</strong></h2>
-						<p class="kdm-why-hire-subheading">With 13+ Years experience, 850+ completed projects, and clients in 15+ countries, we deliver unmatched results.</p>
+						<p class="kdm-why-hire-subheading">With 13+ Years experience, 900+ completed projects, 15+ countries served, and 1850+ students trained, we deliver unmatched results.</p>
 					</div>
 				</div>
 			</div>
@@ -544,7 +545,7 @@
 						</svg>
 					</div>
 					<h3 class="kdm-why-hire-card-title">13+ Years Industry Leadership</h3>
-					<p class="kdm-why-hire-card-desc">Over a decade of digital marketing excellence, constant adaptation to algorithm updates, and proven innovation.</p>
+					<p class="kdm-why-hire-card-desc">Over a decade of digital marketing excellence, rapid adaptation to search algorithm updates, and proven innovation.</p>
 				</div>
 
 				<!-- 2 -->
@@ -556,8 +557,8 @@
 							<circle cx="12" cy="12" r="10"></circle>
 						</svg>
 					</div>
-					<h3 class="kdm-why-hire-card-title">850+ Global Case Studies</h3>
-					<p class="kdm-why-hire-card-desc">Proven track record helping startups, DTC brands, healthcare clinics, educational institutes, and enterprise companies.</p>
+					<h3 class="kdm-why-hire-card-title">900+ Global Success Stories</h3>
+					<p class="kdm-why-hire-card-desc">Proven track record helping startups, DTC eCommerce, healthcare clinics, institutes, and enterprise corporations.</p>
 				</div>
 
 				<!-- 3 -->
@@ -596,7 +597,7 @@
 						</svg>
 					</div>
 					<h3 class="kdm-why-hire-card-title">Google & Meta Certified Team</h3>
-					<p class="kdm-why-hire-card-desc">Our in-house specialists hold official certifications in Google Search, Display, Meta Ads, and Google Analytics.</p>
+					<p class="kdm-why-hire-card-desc">Our in-house specialists hold official certifications in Google Search, Display, Meta Ads, and Google Analytics 4.</p>
 				</div>
 
 				<!-- 6 -->
@@ -608,8 +609,8 @@
 							<circle cx="9" cy="7" r="4"></circle>
 						</svg>
 					</div>
-					<h3 class="kdm-why-hire-card-title">End-to-End Client Partnership</h3>
-					<p class="kdm-why-hire-card-desc">Dedicated account management providing prompt support, strategy alignment, and continuous campaign optimization.</p>
+					<h3 class="kdm-why-hire-card-title">Dedicated Account Leadership</h3>
+					<p class="kdm-why-hire-card-desc">Dedicated account managers providing prompt communication, strategic updates, and proactive campaign optimization.</p>
 				</div>
 			</div>
 		</div>
@@ -628,9 +629,10 @@
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> King of Digital Marketing™ was founded in 2013 by Mr. Gaurav Dubey and later integrated under Devweboic Techsolutions (OPC) Pvt. Ltd. We have been serving clients globally for over 13+ Years.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> King of Digital Marketing™ was founded in 2013 by Mr. Gaurav Dubey and later integrated under Devweboic Techsolutions (OPC) Pvt. Ltd. We have been empowering client brands globally for over 13+ Years.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
 						<span class="kdm-faq-question">Q.2. Who is the founder of King of Digital Marketing?</span>
@@ -640,15 +642,17 @@
 						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The agency was founded by Mr. Gaurav Dubey (Founder & CEO), a pioneering digital marketing strategist and former top SEO freelancer in India.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
-						<span class="kdm-faq-question">Q.3. How many clients has the agency served globally?</span>
+						<span class="kdm-faq-question">Q.3. How many clients and projects has the agency served globally?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have successfully served over 850 clients across 15+ countries, including India, USA, UK, UAE, Canada, Australia, and European nations.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have successfully delivered 900+ projects across 15+ countries, including India, USA, UK, UAE, Canada, Australia, and European nations, while training over 1850+ students in practical digital marketing.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
 						<span class="kdm-faq-question">Q.4. What core services does King of Digital Marketing offer?</span>
@@ -658,33 +662,37 @@
 						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer end-to-end digital solutions including Search Engine Optimization (SEO), Pay-Per-Click Ads (Google & Meta), Social Media Marketing (SMM), Web Design & Development, Online Reputation Management (ORM), and Lead Generation.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
 						<span class="kdm-faq-question">Q.5. Do you offer digital marketing courses and practical training?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Since 2015, King of Digital Marketing Institute has provided practical, hands-on training on live projects in SEO, Google Ads, Meta Ads, and Social Media Marketing.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Since 2015, King of Digital Marketing Institute has trained over 1850+ students and professionals through practical, hands-on training on live projects in SEO, Google Ads, Meta Ads, and Social Media Marketing.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
 						<span class="kdm-faq-question">Q.6. Which countries do you provide digital marketing services in?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We work with businesses across the globe, including clients in India, USA, UK, UAE, Canada, Australia, New Zealand, and various countries in Europe.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We work with businesses across 15+ countries globally, including clients in India, USA, UK, UAE, Canada, Australia, New Zealand, and various countries in Europe.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
 						<span class="kdm-faq-question">Q.7. What makes King of Digital Marketing different from other agencies?</span>
 						<span class="kdm-faq-icon">+</span>
 					</button>
 					<div class="kdm-faq-body">
-						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our competitive edge lies in our 13+ Years of hands-on experience, 30+ in-house experts, transparent performance reporting, and ROI-focused customized strategies for every client niche.</p>
+						<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our competitive edge lies in our 13+ Years of hands-on experience, 32 in-house experts, 900+ completed projects, transparent performance reporting, and ROI-focused customized strategies for every client niche.</p>
 					</div>
 				</div>
+
 				<div class="kdm-faq-item">
 					<button type="button" class="kdm-faq-header">
 						<span class="kdm-faq-question">Q.8. How can a business start working with King of Digital Marketing?</span>

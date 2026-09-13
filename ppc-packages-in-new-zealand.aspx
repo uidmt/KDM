@@ -1861,17 +1861,17 @@
                     <!-- Expert 2: Delhi In-House Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">16+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House International PPC Studio</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            A dedicated team of 16 full-time Google Ads analysts, copywriters, conversion tracking coders, and campaign managers optimizing your ads.
+                            A dedicated team of 8 certified performance marketers and media buyers backed by our 32 in-house specialists optimizing your ads.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 16+ Full-Time Google Ads Specialists</li>
+                            <li><i class="fa fa-check-circle"></i> 8 Certified Performance Marketers</li>
                             <li><i class="fa fa-check-circle"></i> Full Negative Keyword &amp; Bid Optimization Desk</li>
                             <li><i class="fa fa-check-circle"></i> Transparent Weekly Reporting &amp; Calls</li>
                         </ul>

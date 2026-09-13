@@ -1834,17 +1834,17 @@
                     <!-- Expert 2: Delhi In-House Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">12+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House Performance Marketing Team</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            A dedicated in-house team of certified PPC campaign managers, GTM tracking engineers, copywriters, and banner designers working full-time on your account success.
+                            A dedicated in-house team of 8 certified performance marketers and media buyers backed by our 32 in-house specialists working full-time on your account success.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House PPC Engineers</li>
+                            <li><i class="fa fa-check-circle"></i> 8 Certified Performance Marketers &amp; Ad Buyers</li>
                             <li><i class="fa fa-check-circle"></i> Server-Side GTM &amp; CAPI Tracking Experts</li>
                             <li><i class="fa fa-check-circle"></i> Transparent Monthly KPI Reporting &amp; Calls</li>
                         </ul>

@@ -783,17 +783,17 @@
                     <!-- Expert 2: Delhi In-House Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">12+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House Video Production &amp; SEO Team</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            A dedicated in-house team of 12 full-time Video SEO specialists, thumbnail designers, scriptwriters, and Google Video Ad managers working together for your channel.
+                            A dedicated in-house team of 4 multimedia &amp; video creators backed by our 32 in-house specialists working together for your channel.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Video Engineers</li>
+                            <li><i class="fa fa-check-circle"></i> 4 Multimedia &amp; Video Creators</li>
                             <li><i class="fa fa-check-circle"></i> Dedicated Thumbnail Design &amp; Video Studio</li>
                             <li><i class="fa fa-check-circle"></i> Transparent Monthly KPI Reporting &amp; Calls</li>
                         </ul>

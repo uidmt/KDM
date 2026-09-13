@@ -979,17 +979,17 @@
                     <!-- Expert 2: Delhi In-House Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">16+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House International SEO Studio</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            A dedicated team of 16 full-time SEO analysts, link building outreach specialists, technical coders, and content copywriters working on your UK rankings.
+                            A dedicated team of 5 technical and on-page SEO specialists backed by our 32 in-house experts working on your UK rankings.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 16+ Full-Time International SEO Specialists</li>
+                            <li><i class="fa fa-check-circle"></i> 5 Dedicated SEO Department Specialists</li>
                             <li><i class="fa fa-check-circle"></i> Full Local UK Citation &amp; Outreach Desk</li>
                             <li><i class="fa fa-check-circle"></i> Transparent Weekly Reporting &amp; Calls</li>
                         </ul>

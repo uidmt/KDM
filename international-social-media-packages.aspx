@@ -865,17 +865,17 @@
                     <!-- Expert 2: Delhi In-House Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">12+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House Social Media Creative Team</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            A dedicated in-house team of 12 full-time graphic designers, video Reel editors, motion animators, and social copywriters working under one roof for your brand.
+                            A dedicated in-house team of 4 social media strategists and 4 multimedia creators backed by our 32 in-house specialists working under one roof for your brand.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House SMM Designers</li>
+                            <li><i class="fa fa-check-circle"></i> 4 Social Media Leads &amp; 4 Multimedia Creators</li>
                             <li><i class="fa fa-check-circle"></i> Dedicated Video Reel &amp; Animation Studio</li>
                             <li><i class="fa fa-check-circle"></i> Transparent Monthly KPI Reporting &amp; Calls</li>
                         </ul>

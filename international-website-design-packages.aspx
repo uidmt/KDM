@@ -1326,18 +1326,18 @@
                     <!-- Expert 2: Delhi In-House Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">12+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House Web Engineering Team</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            A dedicated in-house team of 12 full-time UI/UX designers, WordPress developers, Shopify experts, and Core PHP full-stack engineers working full-time on your project.
+                            A dedicated in-house team of 3 web designers and full-stack developers backed by our 32 in-house specialists working full-time on your project.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Web Developers</li>
-                            <li><i class="fa fa-check-circle"></i> Dedicated WordPress, Shopify &amp; PHP Studio</li>
+                            <li><i class="fa fa-check-circle"></i> 3 Web Designers &amp; Full-Stack Developers</li>
+                            <li><i class="fa fa-check-circle"></i> Dedicated WordPress, Shopify &amp; Custom Web Studio</li>
                             <li><i class="fa fa-check-circle"></i> 45 Days Free Post-Launch Maintenance</li>
                         </ul>
                     </div>

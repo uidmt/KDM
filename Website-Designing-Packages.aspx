@@ -1612,7 +1612,7 @@
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            With 13+ years of digital experience, Gaurav Dubey has directed web architecture and UI/UX design for 850+ clients globally, focusing on speed, responsiveness, and conversion UI.
+                            With 13+ years of digital experience, Gaurav Dubey has directed web architecture and UI/UX design for 900+ Projects globally, focusing on speed, responsiveness, and conversion UI.
                         </p>
                         <ul class="kdm-expert-list">
                             <li><i class="fa fa-check-circle"></i> 13+ Years Web Architecture Leadership</li>
@@ -1624,18 +1624,18 @@
                     <!-- Expert Card 2: Delhi In-House Web Team -->
                     <div class="kdm-expert-card">
                         <div class="kdm-expert-header-box">
-                            <div class="kdm-expert-avatar team">12+</div>
+                            <div class="kdm-expert-avatar team">32+</div>
                             <div class="kdm-expert-name-title">
                                 <h3 class="kdm-expert-name">In-House Web UI/UX &amp; Development Team</h3>
                                 <span class="kdm-expert-role">Delhi Branch Headquarters</span>
                             </div>
                         </div>
                         <p class="kdm-expert-bio">
-                            A dedicated in-house team of certified UI/UX designers, WordPress/Shopify developers, and Next.js engineers working under one roof for your web application success.
+                            A dedicated in-house team of 3 web designers and full-stack developers backed by our 32 in-house specialists working under one roof for your web application success.
                         </p>
                         <ul class="kdm-expert-list">
-                            <li><i class="fa fa-check-circle"></i> 12+ Full-Time In-House Web Engineers</li>
-                            <li><i class="fa fa-check-circle"></i> WordPress, Shopify &amp; Next.js Specialists</li>
+                            <li><i class="fa fa-check-circle"></i> 3 Web Designers &amp; Full-Stack Developers</li>
+                            <li><i class="fa fa-check-circle"></i> WordPress, Shopify &amp; Custom Web Specialists</li>
                             <li><i class="fa fa-check-circle"></i> 45 Days Free Technical Post-Launch Support</li>
                         </ul>
                     </div>

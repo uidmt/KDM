@@ -225,7 +225,7 @@
             <span class="kdm-service-hero-stat-divider">|</span>
             <span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
             <span class="kdm-service-hero-stat-divider">|</span>
-            <span class="kdm-service-hero-stat-green">🎉 850+ Projects Handled</span>
+            <span class="kdm-service-hero-stat-green">🎉 900+ Projects Handled</span>
           </div>
 
           <div class="kdm-service-hero-cta-wrap">
@@ -2179,7 +2179,7 @@
                   </div>
                 </div>
                 <p class="kdm-yoga-expert-bio">
-                  With over 13+ years of hands-on digital marketing leadership, senior <a href="gaurav-dubey.aspx" class="kdm-expert-text-link">Digital Marketing Consultant Gaurav Dubey</a> has spearheaded 850+ successful campaigns across India, USA, UK, UAE &amp; global markets. Specialist in Google Ads, Meta Lead Ads, GMB Map Pack SEO, and complete high-conversion lead generation systems for event management companies and wedding planners.
+                  With over 13+ years of hands-on digital marketing leadership, senior <a href="gaurav-dubey.aspx" class="kdm-expert-text-link">Digital Marketing Consultant Gaurav Dubey</a> has spearheaded 900+ successful campaigns across India, USA, UK, UAE &amp; global markets. Specialist in Google Ads, Meta Lead Ads, GMB Map Pack SEO, and complete high-conversion lead generation systems for event management companies and wedding planners.
                 </p>
               </div>
               <ul class="kdm-yoga-expert-list">
