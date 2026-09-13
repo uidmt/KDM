@@ -391,7 +391,7 @@
 							<i class="fa fa-search fa-lg"></i>
 						</div>
 						<div>
-							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+							<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
 							<h3>Senior SEO Strategist</h3>
 						</div>
 					</div>
@@ -499,7 +499,7 @@
 							<i class="fa fa-code fa-lg"></i>
 						</div>
 						<div>
-							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+							<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
 							<h3>ASP.NET &amp; Web Developer</h3>
 						</div>
 					</div>
@@ -526,7 +526,7 @@
 							<i class="fa fa-pencil fa-lg"></i>
 						</div>
 						<div>
-							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+							<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
 							<h3>B2B Content Writer</h3>
 						</div>
 					</div>
@@ -890,24 +890,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ===== 10. PRE-FOOTER CTA SECTION ===== -->
-	<section class="kdm-prefooter-cta-section">
-		<div class="kdm-cta-container">
-			<div class="kdm-cta-badge"><i class="fa fa-rocket"></i> JOIN OUR TEAM</div>
-			<h2 class="kdm-cta-title">Ready to Accelerate Your <span class="kdm-blue-gradient">Digital Career</span>?</h2>
-			<p class="kdm-cta-desc">Apply today to work on live global campaigns, learn directly from industry masters, and fast-track your professional growth.</p>
-			
-			<div class="kdm-cta-btns">
-				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-cta-primary-btn">
-					<i class="fa fa-paper-plane"></i> Apply Now <i class="fa fa-arrow-right"></i>
-				</a>
-				<a href="tel:+919555696058" class="kdm-cta-secondary-btn">
-					<i class="fa fa-phone"></i> Call HR: +91-9555696058
-				</a>
 			</div>
 		</div>
 	</section>
