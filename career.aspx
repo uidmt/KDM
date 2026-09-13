@@ -1,831 +1,870 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="career.aspx.cs" Inherits="career" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>Career | Digital Marketing Jobs in Delhi, India</title>
-<meta name="keywords" content="King of Digital Marketing Contact No., King SEO Contact, PHone Number KIng of Digital Marketing ">
-<meta name="description" content="Digital Marketing jobs in Delhi, India. SEO Jobs, SMO Jobs, PPC Jobs, Content Writing and Website Design Development Jobs in Delhi. Apply for Jobs & Internship.">
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<title>Careers & Digital Marketing Jobs in Delhi | King of Digital Marketing</title>
+	<meta name="keywords" content="digital marketing jobs delhi, seo jobs in delhi, ppc executive career, google ads jobs delhi, meta ads jobs, digital marketing internship delhi, video editor internship, content writer jobs delhi, king of digital marketing careers">
+	<meta name="description" content="Build your career with King of Digital Marketing. Explore open jobs and paid internships in SEO, PPC, Meta Ads, Video Editing, Content Writing, and Web Development in Delhi. Apply today!">
+	<link rel="canonical" href="https://www.kingofdigitalmarketing.com/career.aspx" />
+	<meta property="og:title" content="Careers & Digital Marketing Jobs in Delhi | King of Digital Marketing">
+	<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/work%20culture%20at%20KDM.webp">
+	<meta property="og:description" content="Join India's premier digital marketing agency. 32+ in-house specialists, 13+ years experience, 900+ global projects. Explore full-time roles and paid internships.">
+	<meta property="og:url" content="https://www.kingofdigitalmarketing.com/career.aspx">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/location-page.css">
+	<link rel="stylesheet" href="css/images.css">
+	<link rel="stylesheet" href="css/packages.css">
+	<link rel="stylesheet" href="css/home-custom.css?v=25.0">
+	<link rel="stylesheet" href="css/kdm-faq.css?v=2.0">
+	<link rel="stylesheet" href="css/kdm-course.css">
+	<script src="js/kdm-faq.js"></script>
 
-<!-- Font Awesome Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  
-<style>
-/* ---------------------- GENERAL RESET ---------------------- */
-body{
-    background:#f5f7fb;
-    color:#1f2937;
-    line-height:1.6;
-}
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-}
-section{
-    padding:80px 0;
-}
-a{text-decoration:none;}
-
-/* ---------------------- BUTTONS ---------------------- */
-.btn-btn-primary, .btn-outline{
-    padding:14px 30px;
-    border-radius:50px;
-    display:inline-block;
-    font-size:14px;
-    font-weight:500;
-    cursor:pointer;
-    transition:0.3s;
-    text-align:center;
-    font-family: 'Poppins', sans-serif;
-}
-.btn-btn-primary{
-    background:linear-gradient(135deg,#2563eb,#1e40af);
-    color:#fff;
-    border:none;
-    font-family: 'Poppins', sans-serif;
-}
-.btn-outline{
-    background:#fff;
-    border:2px solid #ffffff;
-    color:#2563eb;
-    font-family: 'Poppins', sans-serif;
-}
-.btn-btn-primary:hover, .btn-outline:hover{
-    opacity:0.9;
-}
-
-/* ---------------------- HEADINGS & TEXT ---------------------- */
-.heading-hero{
-    font-size:48px;
-    font-weight:700;
-    color:#fff;
-    margin-bottom:20px;
-    text-align:center;
-    font-family: 'Poppins', sans-serif;
-}
-@media (max-width: 768px) {
-    #heroSection {
-        padding: 30px 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    #heroSection {
-        padding: 40px 12px;
-    }
-}
-.heading-section{
-    font-size:36px;
-    font-weight:600;
-    color:#000;
-    margin-bottom:15px;
-    text-align:center;
-    font-family: 'Poppins', sans-serif;
-}
-.heading-subtext{
-    font-size:16px;
-    color:#ffffff;
-    margin-bottom:25px;
-    text-align:center;
-    font-family: 'Poppins', sans-serif;
-}
-.heading-card{
-    font-size:19px;
-    font-weight:600;
-    margin-bottom:12px;
-    color:#000;
-    font-family: 'Poppins', sans-serif;
-}
-.heading-cta{
-    font-size:36px;
-    font-weight:700;
-    color:#fff;
-    margin-bottom:20px;
-    text-align:center;
-    font-family: 'Poppins', sans-serif;
-}
-p.section-desc{
-    color:#4b5563;
-    font-size:16px;
-    text-align:center;
-    margin-bottom:25px;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* ---------------------- HERO SECTION ---------------------- */
-#heroSection{
-    background:linear-gradient(135deg,#0f172a,#1e3a8a);
-    color:#fff;
-    padding:120px 20px;
-    text-align:center;
-    font-family: 'Poppins', sans-serif;
-}
-
-.internship-section {
-    background: #e7e7e79e;
-    padding: 40px 20px;
-}
-
-  .internship-section .container {
-    max-width: 800px;
-    margin: auto;
-    background: #f7f5dc;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  }
-
-  .internship-section h2 {
-    margin-bottom: 20px;
-    font-size: 26px;
-  }
-
-  .internship-details {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
-  }
-
-  .internship-details li {
-    font-family: 'Poppins', sans-serif;
-    padding: 8px 0;
-    color: #121111;
-    border-bottom: 1px solid #cdb9b9;
-  }
-
-  .info-text {
-    margin: 10px 0;
-    color: #000;
-  }
-
-  .info-text a {
-    color: #007bff;
-    text-decoration: none;
-  }
-
-  .note {
-    margin-top: 15px;
-    padding: 12px;
-    color: #000;
-    background: #b9ed7c;
-    border-left: 4px solid #ffc107;
-  }
-
-  .internship-wrapper {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-}
-
-.internship-wrapper .container {
-  width: 48%;
-}
-
-/* Mobile view */
-@media (max-width: 768px) {
-  .internship-wrapper {
-    flex-direction: column;
-  }
-
-  .internship-wrapper .container {
-    width: 100%;
-  }
-}
-
-/* ---------------------- JOB CARDS ---------------------- */
-.jobs{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
-    margin-top:30px;
-}
-.job-card {
-    background: #fafaff;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 9px 10px 4px 1px rgb(0 0 0 / 25%);
-    transition: 0.3s;
-}
-.job-card:hover{transform:translateY(-8px);}
-.job-tag{
-    font-size:12px;
-    font-weight:600;
-    padding:6px 14px;
-    border-radius:50px;
-    display:inline-block;
-    margin-bottom:15px;
-}
-.job-tag.hiring{background:#dcfce7;color:#166534;}
-.job-tag.closed{background:#fee2e2;color:#991b1b;}
-
-/* ---------------------- FEATURE CARDS ---------------------- */
-.features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
-    margin-top: 30px;
-}
-
-.feature-card {
-    background: linear-gradient(135deg, #009688, #09288b);
-    padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-    text-align: center;
-    transition: 0.3s;
-}
-.feature-card h3 {
-    font-size: 18px;
-    color: #ffffff;
-    margin-bottom: 10px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.feature-card p {
-    color: #d1d1d1;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-.feature-card:hover{transform:translateY(-5px);}
-
-/* ---------------------- APPLY CARDS ---------------------- */
-.apply-cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:25px;
-    margin-top:30px;
-}
-.apply-card{
-    padding:25px;
-    border-radius:20px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.08);
-    text-align:center;
-    transition:0.3s;
-}
-.apply-card:hover{
-    transform:translateY(-5px);
-    box-shadow:0 15px 35px rgba(0,0,0,0.12);
-}
-.card-icon{
-    width:60px;
-    height:60px;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:28px;
-    margin:0 auto 15px;
-    color:#fff;
-}
-
-/* ---------------------- WORK CULTURE ---------------------- */
-.culture-content{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
-    align-items:center;
-    margin-top:30px;
-}
-.culture-img{
-    width:100%;
-    border-radius:20px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.1);
-}
-.culture-text p{
-    font-size:16px;
-    color:#4b5563;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* ---------------------- HIRING PROCESS ---------------------- */
-.process{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:25px;
-    margin-top:30px;
-}
-.step{
-    background: #ededed;
-    padding: 25px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: inset 14px 17px 40px rgba(0, 0, 0, 0.08);
-    transition: 0.3s;
-}
-.step:hover{transform:translateY(-8px);}
-.step-icon{
-    width:60px;
-    height:60px;
-    background:linear-gradient(135deg,#2563eb,#1e40af);
-    color:#fff;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:26px;
-    margin:0 auto 15px;
-}
-.step h4{
-    color:#222;
-    font-size:18px;
-    margin-bottom:8px;
-    font-family: 'Poppins', sans-serif;
-}
-.step p{
-    font-size:14px;
-    color:#4b5563;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* ---------------------- CTA SECTION ---------------------- */
-#ctaSection{
-    background: linear-gradient(135deg, #02153f, #000000);
-    color:#fff;
-    text-align:center;
-    padding:90px 20px;
-}
-#ctaSection p{color:#e5e7eb; margin-bottom:30px;}
-
-/* ---------------------- MODAL ---------------------- */
-.modal{
-    display:none;
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,0.7);
-    z-index:999;
-}
-.modal-box{
-    background:#fff;
-    width:95%;
-    max-width:850px;
-    margin:40px auto;
-    padding:35px;
-    border-radius:20px;
-    max-height:90vh;
-    overflow:auto;
-}
-.modal-close{
-    float:right;
-    font-size:22px;
-    cursor:pointer;
-}
-
-/* ---------------------- FORM ---------------------- */
-form#jobForm{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap:15px;
-    margin-top:15px;
-}
-
-/* Full width fields */
-form#jobForm textarea,
-form#jobForm button,
-form#jobForm input[type="file"]{
-    grid-column:1 / -1;
-}
-
-
-
-input[type="text"] {
-  padding: 12px 14px;
-    border-radius: 10px;
-    border: 1px solid #d1d5db;
-    font-size: 14px;
-    background: #fff;
-}
-
-form input, form select, form textarea{
-    padding:12px 14px;
-    border-radius:10px;
-    border:1px solid #d1d5db;
-    font-size:14px;
-    margin: 2px;
-}
-textarea{grid-column:1/-1;}
-form button{
-    grid-column:1/-1;
-    background:linear-gradient(135deg,#2563eb,#1e40af);
-    color:#fff;
-    padding:16px;
-    border:none;
-    border-radius:50px;
-    font-size:15px;
-    cursor:pointer;
-    transition:0.3s;
-}
-form button:hover{opacity:0.9;}
-.successMsg{
-    display:none;
-    color:green;
-    font-weight:600;
-    margin-top:15px;
-    
-}
-
-/* ---------------------- RESPONSIVE ---------------------- */
-@media(max-width:768px){
-    .heading-hero{font-size:36px;}
-    .heading-section{font-size:28px;}
-    .heading-subtext{font-size:16px;}
-    .heading-card{font-size:18px;}
-    .heading-cta{font-size:28px;}
-    section{padding:50px 15px;}
-    .jobs, .features, .apply-cards, .culture-content, .process{grid-template-columns:1fr;}
-    .btn-btn-primary, .btn-outline{width:100%; text-align:center; margin-bottom:10px;}
-}
-@media(max-width:480px){
-    .heading-hero{font-size:28px;}
-    .heading-section{font-size:24px;}
-    .heading-subtext{font-size:14px;}
-    .heading-card{font-size:16px;}
-    .heading-cta{font-size:24px;}
-}
-</style>
-    <script src="js/kdm-faq.js"></script>
+	<!-- ===== STRUCTURED DATA JSON-LD SCHEMAS ===== -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	    {
+	      "@type": "ProfessionalService",
+	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
+	      "name": "King of Digital Marketing",
+	      "url": "https://www.kingofdigitalmarketing.com/career.aspx",
+	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
+	      "image": "https://www.kingofdigitalmarketing.com/images/work%20culture%20at%20KDM.webp",
+	      "description": "Premier digital marketing agency offering careers and internships in SEO, PPC, Meta Ads, Content Writing, Video Editing, and Full-Stack Web Development.",
+	      "telephone": "+91-9555696058",
+	      "email": "info@kingofdigitalmarketing.com",
+	      "priceRange": "$$",
+	      "address": {
+	        "@type": "PostalAddress",
+	        "streetAddress": "First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji",
+	        "addressLocality": "New Delhi",
+	        "addressRegion": "Delhi",
+	        "postalCode": "110019",
+	        "addressCountry": "IN"
+	      },
+	      "geo": {
+	        "@type": "GeoCoordinates",
+	        "latitude": "28.5355",
+	        "longitude": "77.2612"
+	      },
+	      "aggregateRating": {
+	        "@type": "AggregateRating",
+	        "ratingValue": "4.9",
+	        "reviewCount": "290",
+	        "bestRating": "5"
+	      }
+	    },
+	    {
+	      "@type": "JobPosting",
+	      "title": "Senior SEO Strategist & Executive",
+	      "description": "Execute enterprise SEO, technical audits, on-page optimization, backlink acquisition, and AI SEO/GEO ranking strategies for global and national clients.",
+	      "identifier": {
+	        "@type": "PropertyValue",
+	        "name": "King of Digital Marketing",
+	        "value": "KDM-SEO-01"
+	      },
+	      "datePosted": "2026-01-01",
+	      "employmentType": "FULL_TIME",
+	      "hiringOrganization": {
+	        "@type": "Organization",
+	        "name": "King of Digital Marketing",
+	        "sameAs": "https://www.kingofdigitalmarketing.com"
+	      },
+	      "jobLocation": {
+	        "@type": "Place",
+	        "address": {
+	          "@type": "PostalAddress",
+	          "addressLocality": "New Delhi",
+	          "addressRegion": "Delhi",
+	          "addressCountry": "IN"
+	        }
+	      }
+	    },
+	    {
+	      "@type": "JobPosting",
+	      "title": "Performance Marketer (Google Ads / PPC Specialist)",
+	      "description": "Manage Google Ads Search, Display, Performance Max, and Shopping campaigns to generate high ROI and scalable leads across 150+ industry verticals.",
+	      "identifier": {
+	        "@type": "PropertyValue",
+	        "name": "King of Digital Marketing",
+	        "value": "KDM-PPC-02"
+	      },
+	      "datePosted": "2026-01-01",
+	      "employmentType": "FULL_TIME",
+	      "hiringOrganization": {
+	        "@type": "Organization",
+	        "name": "King of Digital Marketing",
+	        "sameAs": "https://www.kingofdigitalmarketing.com"
+	      },
+	      "jobLocation": {
+	        "@type": "Place",
+	        "address": {
+	          "@type": "PostalAddress",
+	          "addressLocality": "New Delhi",
+	          "addressRegion": "Delhi",
+	          "addressCountry": "IN"
+	        }
+	      }
+	    },
+	    {
+	      "@type": "FAQPage",
+	      "mainEntity": [
+	        {
+	          "@type": "Question",
+	          "name": "What qualifications or background do I need to apply at King of Digital Marketing?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "We value practical skills, curiosity, and problem-solving over formal degrees. Whether you are a college graduate, self-taught marketer, or experienced strategist, having hands-on familiarity with digital tools (SEO, Google Ads, Meta Ads, Video Editing, or Web Development) and a strong portfolio is what matters most."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "Can freshers apply for digital marketing internships and full-time roles?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Yes, absolutely! We run dedicated 6-month paid internship tracks for freshers and college students across SEO, PPC, Video Editing, and Content Writing with direct mentorship from Gaurav Dubey and senior leads. Outstanding interns are offered Pre-Placement Offers (PPO) for full-time roles."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "What is the stipend structure for internships at KDM?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Our internships offer monthly stipends ranging from Rs 4,000 to Rs 5,000 per month depending on the domain (SEO, PPC, Video Editing, Content Writing). Top-performing interns also receive milestone bonuses, certification, and full-time hiring consideration."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "Are remote or work-from-home positions available?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Yes. Roles like Content Writing and Video Editing offer flexible Work From Home (WFH) or hybrid arrangements. Core performance marketing, SEO, and developer roles operate primarily from our South Delhi office in Kalkaji / Govindpuri Extension for close team collaboration."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "What digital tools and marketing software will I master at KDM?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Team members work with paid enterprise tools including Ahrefs, SEMrush, Screaming Frog, Google Search Console, Google Analytics 4 (GA4), Meta Ads Manager, Google Ads, CapCut Pro, Premiere Pro, Canva Pro, WordPress, and AI search tools (ChatGPT, Perplexity, Claude)."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "Where is the King of Digital Marketing office located for walk-in interviews?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Our office is located at First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji, New Delhi, Delhi 110019. Candidates can visit for scheduled interviews Monday to Saturday between 9:30 AM and 6:00 PM."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "What should I prepare for the practical interview assessment?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Be ready to showcase your past campaigns, live URLs, ranking proofs, ad performance metrics, video editing portfolio, or writing samples. A brief 30-minute practical assignment matching the applied role is conducted to evaluate real execution skills."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "How often are performance appraisals and salary reviews conducted?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "At King of Digital Marketing, appraisals are strictly performance-driven and reviewed every 6 to 12 months. Exceptional performers who deliver outstanding client results and display leadership receive accelerated promotions, salary hikes, and performance incentives."
+	          }
+	        }
+	      ]
+	    }
+	  ]
+	}
+	</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<!-- HERO SECTION -->
-<section id="heroSection">
-<div class="container">
-<h3 class="heading-card" style="color:#fff; font-size:27px;font-weight:700;text-transform: none;">Build a Successful Career in 2026 Through</h3>
-<h1 class="heading-hero">Digital Marketing Job / Internship</h1>
-<p class="heading-subtext">Join a leading digital marketing company in Delhi, where you learn real skills, work on live projects,<br> and grow professionally.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply For Job</a>
-<a class="btn-outline open-form" data-target="jobModal">Apply For Internship</a>
-</div>
-</section>
 
-<!-- Internship Details Section -->
-<section class="internship-section">
-  <div class="internship-wrapper">
-    <div class="container">
-      <h2 class="heading-section">6 Months Content Writing Internship Opportunity</h2>
+	<!-- ===== 1. HERO SECTION ===== -->
+	<div class="kdm-service-hero">
+		<div class="kdm-service-hero-container">
+			<!-- Breadcrumbs Navigation -->
+			<div class="kdm-service-hero-breadcrumbs">
+				<ul>
+					<li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
+					<li class="breadcrumb-sep">/</li>
+					<li class="breadcrumb-current">Careers &amp; Open Positions</li>
+				</ul>
+			</div>
 
-      <ul class="internship-details">
-        <li><strong>Work Mode:</strong> Work From Home (Flexible Time)</li>
-        <li><strong>Duration:</strong> 6 Months</li>
-        <li><strong>Stipend:</strong> Rs 4,000 / Month</li>
-        <li><strong>Daily Target:</strong> 2 - 3 Blogs/Day (Approx. 2,100 words total)</li>
-        <li><strong>Content Requirements:</strong> Must be AI-free and Plagiarism-free Well-researched, grammatically correct, and engaging</li>
-      </ul>
+			<!-- Badge Tag -->
+			<span class="kdm-service-hero-badge">
+				<i class="fa fa-briefcase"></i> WE ARE ACTIVELY HIRING • GROW YOUR CAREER IN 2026
+			</span>
 
-      <p class="info-text">
-        <strong>Interview Mode:</strong>
-        <a href="#" target="_blank">Google Meet or Zoom</a>
-      </p>
+			<!-- Main H1 Title -->
+			<h1 class="kdm-service-hero-title">
+				Build Your High-Growth Career at <span class="kdm-gradient-highlight">King of Digital Marketing</span>
+			</h1>
 
-      <p class="note"><strong>Note:</strong> You Will be Guided To Write Better Content.</p>
-      <a class="btn-outline open-form" data-target="jobModal">Apply For Content Internship</a><br><br>
-    </div>
-   
-    <div class="container">
-      <h2 class="heading-section">6 Months SEO Internship Opportunity</h2>
+			<!-- Subtitle Paragraph -->
+			<p class="kdm-service-hero-subtitle">
+				Join India's premier performance marketing powerhouse with 32+ in-house specialists, 13+ years of proven mastery, and 900+ global client campaigns. Work on live enterprise accounts, master advanced AI tools, and elevate your skills under direct leadership.
+			</p>
 
-      <ul class="internship-details">
-        <li><strong>Duration:</strong> 6 Months</li>
-        <li><strong>Stipend:</strong> Rs 5,000 / Month</li>
-        <li><strong>Timings:</strong> 9:30 AM - 6:00 PM (Monday to Saturday)</li>
-        <li><strong>Work Mode:</strong> Work From Office</li>
-        <li><strong>Location:</strong> First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji, New Delhi, Delhi 110019</li>
-      </ul>
-      <p class="info-text">Please share your updated resume and schedule your interview timing.</p>
+			<!-- Trust Stats Bar -->
+			<div class="kdm-service-hero-stats-bar">
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-users"></i> 32+ In-House Specialists</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client &amp; Team Rating</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-green">⚡ 900+ Projects Handled</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-highlight">🌍 15+ Countries Served</span>
+			</div>
 
-      <p class="info-text">
-        <strong>Interview Location:</strong>
-        <a href="https://maps.app.goo.gl/Pi4P4teYuqCVyRdV9" target="_blank">View on Google Maps</a>
-      </p>
+			<!-- Action CTA Button -->
+			<div class="kdm-service-hero-cta-wrap">
+				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn">
+					<i class="fa fa-paper-plane"></i> Apply for Job / Internship <i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
 
-      <p class="note"><strong>Note:</strong> Candidates must carry their own laptop during the internship.</p>
-      <a class="btn-outline open-form" data-target="jobModal">Apply For Internship</a>
-    </div>
-    
+			<!-- Value Highlights Row -->
+			<div class="kdm-service-hero-highlights">
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 100% Live Client Projects</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Direct Mentorship by Gaurav Dubey</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Fast-Track Merit Appraisals</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Paid Enterprise &amp; AI Tools</div>
+			</div>
+		</div>
+	</div>
+	<!-- ===== END HERO SECTION ===== -->
 
-  </div>
-</section>
+	<!-- ===== 2. STRATEGIC OVERVIEW & WORK CULTURE ===== -->
+	<section class="kdm-loc-intro-section" style="background: #f8fafc; padding: 60px 0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="kdm-loc-intro-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 24px; padding: 45px 35px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); max-width: 1140px; margin: 0 auto;">
+				<div class="text-center" style="margin-bottom: 30px;">
+					<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+						<i class="fa fa-trophy"></i> EMPOWERING DIGITAL TALENT
+					</span>
+					<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3;">
+						Why Professionals &amp; Freshers Choose <span style="color: #0284c7;">King of Digital Marketing</span>
+					</h2>
+					<div style="width: 80px; height: 4px; background: linear-gradient(90deg, #0284c7, #38bdf8); border-radius: 2px; margin: 0 auto;"></div>
+				</div>
+				
+				<div style="font-size: 16px; color: #334155; line-height: 1.85; margin-bottom: 35px;">
+					<p style="margin-bottom: 18px;">
+						At <strong>King of Digital Marketing</strong>, we believe that an agency is only as extraordinary as the people behind its campaigns. Founded and mentored by <strong>Gaurav Dubey</strong>, our agency has grown over <strong>13+ years</strong> into one of India's most respected full-service digital marketing companies, managing <strong>900+ successful projects</strong> across <strong>15+ global countries</strong> and <strong>150+ industry verticals</strong>.
+					</p>
+					<p style="margin-bottom: 18px;">
+						Whether you are an experienced performance marketer looking to manage multi-million rupee ad budgets, an SEO executive eager to master Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO), a creative video editor crafting viral short-form reels, or a passionate fresher starting your first paid digital marketing internship—our team offers the perfect launchpad for your ambitions. We provide transparent career progression, zero corporate bureaucracy, and an inspiring environment where creative experimentation is rewarded.
+					</p>
+					<p style="margin-bottom: 0;">
+						Every team member gains hands-on exposure to live international and national client accounts, enterprise software tools (Ahrefs, SEMrush, Screaming Frog, GA4, Meta Ads Manager), and one-on-one leadership coaching. Explore our open positions below and take the next leap in your digital marketing career.
+					</p>
+				</div>
 
+				<!-- 4 Culture Highlights Cards -->
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #0284c7; margin-bottom: 10px;"><i class="fa fa-chart-line"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Merit-Based Growth</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Structured appraisals every 6-12 months driven purely by your output.</p>
+					</div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #10b981; margin-bottom: 10px;"><i class="fa fa-globe"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Global Brand Reach</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Work on enterprise campaigns across USA, UK, UAE, and India.</p>
+					</div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #8b5cf6; margin-bottom: 10px;"><i class="fa fa-laptop-code"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Paid AI &amp; Tech Stack</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Access Ahrefs, SEMrush, CapCut Pro, GA4, and modern AI toolkits.</p>
+					</div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #f59e0b; margin-bottom: 10px;"><i class="fa fa-heart"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Supportive Team Culture</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Zero toxicity, healthy work-life balance, and continuous learning.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<!-- ===== 3. CREDENTIALS SECTION ===== -->
+	<section class="kdm-credentials-white-section">
+		<div class="container">
+			<div class="kdm-credentials-header">
+				<div class="kdm-credentials-badge">
+					<i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
+				</div>
+				<h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+				<p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
+			</div>
 
-<!-- OPEN POSITIONS -->
-<section id="openPositions">
-<div class="container">
-<h2 class="heading-section">Open Positions</h2>
-<p class="section-desc">Explore exciting career and internship opportunities with us</p>
-<div class="jobs">
-<div class="job-card">
-<span class="job-tag hiring">We Are Hiring</span>
-<h3 class="heading-card">SEO Internship</h3>
-<p>Work on live SEO projects and client websites.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply Now</a>
-</div>
-<div class="job-card">
-<span class="job-tag hiring">We Are Hiring</span>
-<h3 class="heading-card">PPC Internship</h3>
-<p>Assist in Google Ads and paid campaign setup.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply Now</a>
-</div>
-<div class="job-card">
-<span class="job-tag hiring">We Are Hiring</span>
-<h3 class="heading-card">Meta Ads Internship</h3>
-<p>Work on Facebook & Instagram ad campaigns.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply Now</a>
-</div>
-<div class="job-card">
-<span class="job-tag hiring">We Are Hiring</span>
-<h3 class="heading-card">Video editing internship</h3>
-<p>Edit videos for social media, ads, and promotions.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply Now</a>
-</div>
-<div class="job-card">
-<span class="job-tag closed">Hiring Closed</span>
-<h3 class="heading-card">Graphic designing internship</h3>
-<p>Design creatives for social media, ads, and websites.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply Now</a>
-</div>
-<div class="job-card">
-<span class="job-tag hiring">We Are Hiring</span>
-<h3 class="heading-card">Content writing internship</h3>
-<p>Write blogs, website content, and social media posts.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply Now</a>
-</div>
-<div class="job-card">
-<span class="job-tag closed">Hiring Closed</span>
-<h3 class="heading-card">Website developer internship</h3>
-<p>Develop and update live websites and landing pages.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply Now</a>
-</div>
-<div class="job-card">
-<span class="job-tag hiring">We Are Hiring</span>
-<h3 class="heading-card">HR internship</h3>
-<p>Handle employee records and basic HR operations.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply Now</a>
-</div>
-<div class="job-card">
-<span class="job-tag closed">Hiring Closed</span>
-<h3 class="heading-card">SEO Executive</h3>
-<p>No openings at the moment.</p>
-</div>
-<div class="job-card">
-<span class="job-tag hiring">We Are Hiring</span>
-<h3 class="heading-card">PPC Expert</h3>
-<p>Hiring Google ads specialist ready to scale campaigns and deliver real ROI</p>
-</div>
-<div class="job-card">
-<span class="job-tag hiring">We Are Hiring</span>
-<h3 class="heading-card">Meta Ads Executive</h3>
-<p>Hiring Meta Ads specialist ready to scale campaigns and deliver real ROI</p>
-</div>
-</div>
-</div>
-</section>
+			<div class="kdm-credentials-5grid counters dark counters-row">
+				<!-- Box 1: 13+ Years of Experience -->
+				<div class="kdm-counter-card">
+					<div class="kdm-counter-icon">
+						<i class="fa fa-calendar-check-o fa-solid fa-calendar-days"></i>
+					</div>
+					<div class="kdm-counter-num">13+</div>
+					<div class="kdm-counter-lbl">Years Exp</div>
+				</div>
 
-<!-- Internship Details Section -->
-<section class="internship-section">
-  <div class="internship-wrapper">
-    <div class="container">
-      <h2 class="heading-section">6 Months Video Editor Internship Opportunity <br> (Work From Home)</h2>
+				<!-- Box 2: 900+ Completed Projects -->
+				<div class="kdm-counter-card">
+					<div class="kdm-counter-icon">
+						<i class="fa fa-check-circle-o fa-solid fa-circle-check"></i>
+					</div>
+					<div class="kdm-counter-num">900+</div>
+					<div class="kdm-counter-lbl">Projects</div>
+				</div>
 
-      <ul class="internship-details">
-        <li><strong>Work Mode:</strong> Work From Home (Flexible Time)</li>
-        <li><strong>Duration:</strong> 6 Months</li>
-        <li><strong>Stipend:</strong> Rs 5,000 / Month</li>
-        <li><strong>Daily Target:</strong> 2 Reels/Day (Approx. 4 Min. Video)</li>
-        <li><strong>Skill Requirements:</strong> Must be friendly with video editing software like CapCut, Premiere Pro, or DaVinci Resolve</li>
-      </ul>
+				<!-- Box 3: 15+ Countries Served -->
+				<div class="kdm-counter-card">
+					<div class="kdm-counter-icon">
+						<i class="fa fa-globe fa-solid fa-earth-americas"></i>
+					</div>
+					<div class="kdm-counter-num">15+</div>
+					<div class="kdm-counter-lbl">Countries</div>
+				</div>
 
-      <p class="info-text">
-        <strong>Interview Mode:</strong>
-        <a href="#" target="_blank">Google Meet or Zoom</a>
-      </p>
+				<!-- Box 4: 4.9 Client Rating -->
+				<div class="kdm-counter-card">
+					<div class="kdm-counter-icon">
+						<i class="fa fa-star fa-solid fa-star"></i>
+					</div>
+					<div class="kdm-counter-num">4.9</div>
+					<div class="kdm-counter-lbl">Rating</div>
+				</div>
 
-      <p class="note"><strong>Note:</strong> You Will be Guided by Senior Video Editor.</p>
-      <a class="btn-outline open-form" data-target="jobModal">Apply For Video Editor Internship</a><br><br>
-    </div>
-    <div class="container">
-      <h2 class="heading-section">6 Months Meta & Google Ads Internship Opportunity</h2>
+				<!-- Box 5: 32+ In-House Specialists -->
+				<div class="kdm-counter-card">
+					<div class="kdm-counter-icon">
+						<i class="fa fa-users fa-solid fa-users-gear"></i>
+					</div>
+					<div class="kdm-counter-num">32+</div>
+					<div class="kdm-counter-lbl">In-House Specialists</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-      <ul class="internship-details">
-        <li><strong>Duration:</strong> 6 Months</li>
-        <li><strong>Stipend:</strong> Rs 5,000 / Month</li>
-        <li><strong>Timings:</strong> 9:30 AM - 6:00 PM (Monday to Saturday)</li>
-        <li><strong>Work Mode:</strong> Work From Office</li>
-        <li><strong>Location:</strong> First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji, New Delhi, Delhi 110019</li>
-      </ul>
+	<!-- ===== 4. CURRENT OPEN JOB POSITIONS (FULL-TIME ROLES) ===== -->
+	<section id="openPositions" style="background: #ffffff; padding: 70px 0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="text-center" style="margin-bottom: 45px;">
+				<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+					<i class="fa fa-user-plus"></i> IMMEDIATE OPENINGS
+				</span>
+				<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3;">
+					Explore Full-Time <span style="color: #0284c7;">Career Opportunities</span>
+				</h2>
+				<p style="font-size: 16px; color: #64748b; max-width: 750px; margin: 0 auto; line-height: 1.6;">
+					Join our high-performing team in South Delhi. Work on cutting-edge campaigns, scale client ROI, and grow into leadership.
+				</p>
+			</div>
 
-      <p class="info-text">Please share your updated resume and schedule your interview timing.</p>
+			<div class="career-cards-grid">
+				<!-- Job Card 1: Senior SEO Strategist & Executive -->
+				<div class="career-role-card">
+					<div class="career-card-top">
+						<div class="career-icon-wrap icon-blue">
+							<i class="fa fa-search fa-lg"></i>
+						</div>
+						<div>
+							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+							<h3>Senior SEO Strategist</h3>
+						</div>
+					</div>
+					<div style="font-size: 13.5px; color: #64748b; margin-bottom: 16px; line-height: 1.6;">
+						<div><i class="fa fa-briefcase" style="color: #0284c7; margin-right: 6px;"></i> <strong>Exp:</strong> 1 - 4 Years</div>
+						<div><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 6px;"></i> <strong>Location:</strong> Kalkaji, New Delhi (In-Office)</div>
+						<div><i class="fa fa-clock-o" style="color: #10b981; margin-right: 6px;"></i> <strong>Shift:</strong> 9:30 AM - 6:00 PM</div>
+					</div>
+					<ul class="career-role-list" style="margin-bottom: 22px;">
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> Technical &amp; On-Page SEO Audits</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> AI SEO / AEO / GEO Entity Optimization</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> High-DA Link Building &amp; Digital PR</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> GA4, GSC &amp; Screaming Frog Mastery</li>
+					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for SEO Role <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-      <p class="info-text">
-        <strong>Interview Location:</strong>
-        <a href="https://maps.app.goo.gl/Pi4P4teYuqCVyRdV9" target="_blank">View on Google Maps</a>
-      </p>
+				<!-- Job Card 2: Performance Marketer (Google Ads / PPC Specialist) -->
+				<div class="career-role-card">
+					<div class="career-card-top">
+						<div class="career-icon-wrap icon-purple">
+							<i class="fa fa-bullseye fa-lg"></i>
+						</div>
+						<div>
+							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+							<h3>Google Ads / PPC Expert</h3>
+						</div>
+					</div>
+					<div style="font-size: 13.5px; color: #64748b; margin-bottom: 16px; line-height: 1.6;">
+						<div><i class="fa fa-briefcase" style="color: #0284c7; margin-right: 6px;"></i> <strong>Exp:</strong> 1 - 3 Years</div>
+						<div><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 6px;"></i> <strong>Location:</strong> Kalkaji, New Delhi (In-Office)</div>
+						<div><i class="fa fa-clock-o" style="color: #10b981; margin-right: 6px;"></i> <strong>Shift:</strong> 9:30 AM - 6:00 PM</div>
+					</div>
+					<ul class="career-role-list" style="margin-bottom: 22px;">
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> Search, Display &amp; Performance Max Ads</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> Conversion Tracking &amp; GTM Configuration</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> Negative Keyword &amp; Quality Score Optimization</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> ROI &amp; CAC Optimization for Global Clients</li>
+					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for PPC Role <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-      <p class="note"><strong>Note:</strong> Candidates must carry their own laptop during the internship.</p>
-      <a class="btn-outline open-form" data-target="jobModal">Apply For Internship</a>
-    </div>
-  
+				<!-- Job Card 3: Meta Ads & Paid Social Lead -->
+				<div class="career-role-card">
+					<div class="career-card-top">
+						<div class="career-icon-wrap icon-green">
+							<i class="fa fa-facebook-square fa-lg"></i>
+						</div>
+						<div>
+							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+							<h3>Meta Ads Specialist</h3>
+						</div>
+					</div>
+					<div style="font-size: 13.5px; color: #64748b; margin-bottom: 16px; line-height: 1.6;">
+						<div><i class="fa fa-briefcase" style="color: #0284c7; margin-right: 6px;"></i> <strong>Exp:</strong> 1 - 3 Years</div>
+						<div><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 6px;"></i> <strong>Location:</strong> Kalkaji, New Delhi (In-Office)</div>
+						<div><i class="fa fa-clock-o" style="color: #10b981; margin-right: 6px;"></i> <strong>Shift:</strong> 9:30 AM - 6:00 PM</div>
+					</div>
+					<ul class="career-role-list" style="margin-bottom: 22px;">
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> Facebook &amp; Instagram Lead Generation</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> D2C E-Commerce ROAS Scaling</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> Creative A/B Testing &amp; Hook Strategy</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> CAPI &amp; Meta Pixel Advanced Setup</li>
+					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for Meta Ads <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-  </div>
-</section>
+				<!-- Job Card 4: Creative Video Editor & UGC Specialist -->
+				<div class="career-role-card">
+					<div class="career-card-top">
+						<div class="career-icon-wrap icon-blue">
+							<i class="fa fa-video-camera fa-lg"></i>
+						</div>
+						<div>
+							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+							<h3>Creative Video Editor</h3>
+						</div>
+					</div>
+					<div style="font-size: 13.5px; color: #64748b; margin-bottom: 16px; line-height: 1.6;">
+						<div><i class="fa fa-briefcase" style="color: #0284c7; margin-right: 6px;"></i> <strong>Exp:</strong> 0 - 2 Years</div>
+						<div><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 6px;"></i> <strong>Location:</strong> Delhi / Hybrid</div>
+						<div><i class="fa fa-clock-o" style="color: #10b981; margin-right: 6px;"></i> <strong>Shift:</strong> 9:30 AM - 6:00 PM</div>
+					</div>
+					<ul class="career-role-list" style="margin-bottom: 22px;">
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> Instagram Reels, YouTube Shorts &amp; Ads</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> CapCut Pro, Premiere Pro &amp; After Effects</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> Dynamic Captions, Sound Design &amp; Pacing</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> Viral Video Scripting &amp; UGC Formats</li>
+					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for Video Editing <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
+				<!-- Job Card 5: Full-Stack ASP.NET & Web Developer -->
+				<div class="career-role-card">
+					<div class="career-card-top">
+						<div class="career-icon-wrap icon-purple">
+							<i class="fa fa-code fa-lg"></i>
+						</div>
+						<div>
+							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+							<h3>ASP.NET &amp; Web Developer</h3>
+						</div>
+					</div>
+					<div style="font-size: 13.5px; color: #64748b; margin-bottom: 16px; line-height: 1.6;">
+						<div><i class="fa fa-briefcase" style="color: #0284c7; margin-right: 6px;"></i> <strong>Exp:</strong> 1 - 3 Years</div>
+						<div><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 6px;"></i> <strong>Location:</strong> Kalkaji, New Delhi (In-Office)</div>
+						<div><i class="fa fa-clock-o" style="color: #10b981; margin-right: 6px;"></i> <strong>Shift:</strong> 9:30 AM - 6:00 PM</div>
+					</div>
+					<ul class="career-role-list" style="margin-bottom: 22px;">
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> C#, ASP.NET WebForms &amp; MVC</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> High-Converting Responsive HTML/CSS/JS</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> WordPress &amp; E-Commerce Landing Pages</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> PageSpeed, Core Web Vitals &amp; Security</li>
+					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for Developer <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-<!-- FEATURES SECTION -->
-<section id="whyWork">
-<div class="container">
-<h2 class="heading-section">Why Work With King of Digital Marketing?</h2>
-<div class="features">
-<div class="feature-card"><h3>13+ Years Experience</h3><p>Real digital marketing experience across industries.</p></div>
-<div class="feature-card"><h3>Live Client Projects</h3><p>Hands-on experience with real brands.</p></div>
-<div class="feature-card"><h3>Learning Focused</h3><p>Continuous learning and skill building.</p></div>
-<div class="feature-card"><h3>Friendly Team</h3><p>Supportive and growth-driven culture.</p></div>
-<div class="feature-card"><h3>Clear Growth Path</h3><p>Defined roles and promotion structure.</p></div>
-<div class="feature-card"><h3>Performance Based</h3><p>Growth depends on skills and results.</p></div>
-</div>
-</div>
-</section>
+				<!-- Job Card 6: B2B Content Strategist & Copywriter -->
+				<div class="career-role-card">
+					<div class="career-card-top">
+						<div class="career-icon-wrap icon-green">
+							<i class="fa fa-pencil-square-o fa-lg"></i>
+						</div>
+						<div>
+							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+							<h3>B2B Content Writer</h3>
+						</div>
+					</div>
+					<div style="font-size: 13.5px; color: #64748b; margin-bottom: 16px; line-height: 1.6;">
+						<div><i class="fa fa-briefcase" style="color: #0284c7; margin-right: 6px;"></i> <strong>Exp:</strong> 0 - 2 Years</div>
+						<div><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 6px;"></i> <strong>Location:</strong> Delhi / Remote Hybrid</div>
+						<div><i class="fa fa-clock-o" style="color: #10b981; margin-right: 6px;"></i> <strong>Shift:</strong> Flexible Hours</div>
+					</div>
+					<ul class="career-role-list" style="margin-bottom: 22px;">
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> SEO Articles &amp; Authority Industry Guides</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> Landing Page &amp; High-Converting Ad Copy</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> 100% Original, Plagiarism-Free Writing</li>
+						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> AI-Enhanced Topical Research Skills</li>
+					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for Content Role <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<!-- APPLY CARDS -->
-<section id="whoShouldApply">
-<div class="container">
-<h2 class="heading-section">Who Should Apply?</h2>
-<p class="section-desc">Opportunities for learners and experienced professionals</p>
-<div class="apply-cards">
-<div class="apply-card" style="background:#e0ebf7">
-<div class="card-icon" style="background:#2563eb;"><i class="fa-solid fa-user-graduate"></i></div>
-<h3 class="heading-card">Interns</h3>
-<p>Students, freshers, or career switchers who want to build a strong career in Digital Marketing, SEO, Social Media, Meta Ads, Google Ads, Content Writing, Video Editing, or YouTube Marketing. Ideal for learners who want real project exposure, guidance, and long-term growth.</p>
-</div>
-<div class="apply-card" style="background:#ffdede">
-<div class="card-icon" style="background:#dc2626;"><i class="fa-solid fa-briefcase"></i></div>
-<h3 class="heading-card">Experienced Professionals</h3>
-<p>Professionals with hands-on experience in SEO, Social Media Management, Meta Ads, Google Ads, Performance Marketing, Content Writing, Video Editing, or YouTube Marketing, who want to work on real clients, scale skills, and grow with a performance-driven team.</p>
-</div>
-</div>
-</div>
-</section>
+	<!-- ===== 5. 6-MONTH PAID INTERNSHIP SPOTLIGHT (FOR FRESHERS & STUDENTS) ===== -->
+	<section style="background: #f8fafc; padding: 70px 0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="text-center" style="margin-bottom: 45px;">
+				<span class="kdm-seo-badge" style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); color: #059669; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+					<i class="fa fa-graduation-cap"></i> LAUNCHPAD FOR FRESHERS
+				</span>
+				<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3;">
+					6-Month <span style="color: #059669;">Paid Internship Opportunities</span>
+				</h2>
+				<p style="font-size: 16px; color: #64748b; max-width: 750px; margin: 0 auto; line-height: 1.6;">
+					Gain authentic agency experience, work on real client budgets, receive monthly stipends, and earn a Pre-Placement Offer (PPO).
+				</p>
+			</div>
 
-<!-- WORK CULTURE -->
-<section id="workCulture">
-<div class="container">
-<h2 class="heading-section">Our Work Culture</h2>
-<div class="culture-content">
-<img src="images/work culture at KDM.webp" class="culture-img" alt="Work Culture">
-<div class="culture-text">
-<p>Our work culture is built on learning, respect, and continuous growth. We believe that skills matter more than titles, and improvement matters more than perfection. Every team member is encouraged to ask questions, share ideas, and learn from real projects.<br><br> We maintain a friendly and supportive environment where seniors guide juniors and teamwork is valued over individual ego. Feedback is regular, honest, and focused on improvement, not criticism. We respect time, effort, and commitment, and we expect the same from our team. <br><br>Growth here is performance-based, with clear roles and responsibilities, so everyone knows what they are working towards. We promote transparency, open communication, and mutual trust in day-to-day work. Our culture is not about pressure, but about responsibility, ownership, and building long-term careers in digital marketing together.
-</p>
-</div>
-</div>
-</div>
-</section>
+			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
+				<!-- Internship Box 1: SEO Internship -->
+				<div class="salary-breakdown-box">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
+						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">SEO Executive Internship</h3>
+						<span style="background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">6 Months</span>
+					</div>
+					<ul style="list-style: none; padding: 0; margin: 0 0 20px 0; font-size: 14px; color: #334155; line-height: 2;">
+						<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
+						<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Office (Kalkaji, South Delhi)</li>
+						<li><i class="fa fa-clock-o" style="color: #0284c7; margin-right: 8px;"></i> <strong>Timings:</strong> 9:30 AM - 6:00 PM (Mon to Sat)</li>
+						<li><i class="fa fa-laptop" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Requirement:</strong> Candidates must carry their own laptop</li>
+						<li><i class="fa fa-trophy" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Outcome:</strong> Live SEO Projects + PPO for High Performers</li>
+					</ul>
+					<div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 12px; margin-bottom: 18px; font-size: 13px; color: #166534;">
+						<strong><i class="fa fa-map-pin"></i> Interview Location:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
+					</div>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for SEO Internship <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-<!-- CTA SECTION -->
-<section id="ctaSection">
-<h2 class="heading-cta">Ready to start your digital marketing career?</h2>
-<p>Apply now and grow with a team that values learning and performance.</p>
-<a class="btn-btn-primary open-form" data-target="jobModal">Apply Now</a>
-</section>
+				<!-- Internship Box 2: Google & Meta Ads Internship -->
+				<div class="salary-breakdown-box">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
+						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">Performance Ads Internship</h3>
+						<span style="background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">6 Months</span>
+					</div>
+					<ul style="list-style: none; padding: 0; margin: 0 0 20px 0; font-size: 14px; color: #334155; line-height: 2;">
+						<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
+						<li><i class="fa fa-map-marker" style="color: #ef4444; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Office (Kalkaji, South Delhi)</li>
+						<li><i class="fa fa-clock-o" style="color: #0284c7; margin-right: 8px;"></i> <strong>Timings:</strong> 9:30 AM - 6:00 PM (Mon to Sat)</li>
+						<li><i class="fa fa-laptop" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Requirement:</strong> Candidates must carry their own laptop</li>
+						<li><i class="fa fa-trophy" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Outcome:</strong> Real Google &amp; Meta Ad Spend Exposure</li>
+					</ul>
+					<div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 12px; margin-bottom: 18px; font-size: 13px; color: #166534;">
+						<strong><i class="fa fa-map-pin"></i> Interview Location:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
+					</div>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for Ads Internship <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-<!-- HIRING PROCESS -->
-<section id="hiringProcess">
-<div class="container">
-<h2 class="heading-section">Hiring Process</h2>
-<p class="section-desc">Simple, transparent, skill-focused steps</p>
-<div class="process">
-<div class="step">
-<div class="step-icon"><i class="fa-solid fa-file-lines"></i></div>
-<h4>Application Review</h4>
-<p>We review your resume and profile.</p>
-</div>
-<div class="step">
-<div class="step-icon"><i class="fa-solid fa-video"></i></div>
-<h4>Interview</h4>
-<p>Online or offline discussion.</p>
-</div>
-<div class="step">
-<div class="step-icon"><i class="fa-solid fa-laptop-code"></i></div>
-<h4>Practical Task</h4>
-<p>Skill-based task if required.</p>
-</div>
-<div class="step">
-<div class="step-icon"><i class="fa-solid fa-comments"></i></div>
-<h4>Final Discussion</h4>
-<p>Role clarity and expectations.</p>
-</div>
-<div class="step">
-<div class="step-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
-<h4>Offer Letter</h4>
-<p>Offer shared with selected candidates.</p>
-</div>
-<div class="step">
-<div class="step-icon"><i class="fa-solid fa-handshake"></i></div>
-<h4>Joining</h4>
-<p>Welcome onboard and start working.</p>
-</div>
-</div>
-</div>
-</section>
+				<!-- Internship Box 3: Video Editor Internship (WFH) -->
+				<div class="salary-breakdown-box">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
+						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">Video Editor Internship</h3>
+						<span style="background: #f3e8ff; color: #9333ea; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">Work From Home</span>
+					</div>
+					<ul style="list-style: none; padding: 0; margin: 0 0 20px 0; font-size: 14px; color: #334155; line-height: 2;">
+						<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 5,000 / Month</li>
+						<li><i class="fa fa-home" style="color: #0284c7; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Home (Flexible Hours)</li>
+						<li><i class="fa fa-bullhorn" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Daily Target:</strong> 2 Short Video Reels / Day (~4 mins total)</li>
+						<li><i class="fa fa-film" style="color: #ef4444; margin-right: 8px;"></i> <strong>Tools:</strong> CapCut Pro, Premiere Pro, or DaVinci Resolve</li>
+						<li><i class="fa fa-user-plus" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Mentorship:</strong> 1-on-1 guidance by Senior Video Editor</li>
+					</ul>
+					<div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 12px; margin-bottom: 18px; font-size: 13px; color: #1e40af;">
+						<strong><i class="fa fa-video-camera"></i> Interview Mode:</strong> Online Interview via Google Meet / Zoom
+					</div>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for Video Internship <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
+				<!-- Internship Box 4: Content Writing Internship (WFH) -->
+				<div class="salary-breakdown-box">
+					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
+						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">Content Writing Internship</h3>
+						<span style="background: #f3e8ff; color: #9333ea; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">Work From Home</span>
+					</div>
+					<ul style="list-style: none; padding: 0; margin: 0 0 20px 0; font-size: 14px; color: #334155; line-height: 2;">
+						<li><i class="fa fa-money" style="color: #10b981; margin-right: 8px;"></i> <strong>Stipend:</strong> Rs 4,000 / Month</li>
+						<li><i class="fa fa-home" style="color: #0284c7; margin-right: 8px;"></i> <strong>Work Mode:</strong> Work From Home (Flexible Hours)</li>
+						<li><i class="fa fa-pencil" style="color: #8b5cf6; margin-right: 8px;"></i> <strong>Daily Target:</strong> 2 - 3 SEO Blogs/Day (~2,100 words total)</li>
+						<li><i class="fa fa-check-square" style="color: #10b981; margin-right: 8px;"></i> <strong>Standard:</strong> 100% AI-Free, Plagiarism-Free Content</li>
+						<li><i class="fa fa-book" style="color: #f59e0b; margin-right: 8px;"></i> <strong>Guidance:</strong> Comprehensive feedback on SEO Copywriting</li>
+					</ul>
+					<div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 12px; margin-bottom: 18px; font-size: 13px; color: #1e40af;">
+						<strong><i class="fa fa-video-camera"></i> Interview Mode:</strong> Online Interview via Google Meet / Zoom
+					</div>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						Apply for Content Internship <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<!-- ===== 6. OUR 4-STEP TRANSPARENT HIRING JOURNEY ===== -->
+	<section style="background: #ffffff; padding: 70px 0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="text-center" style="margin-bottom: 45px;">
+				<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+					<i class="fa fa-road"></i> SIMPLE &amp; FAST
+				</span>
+				<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3;">
+					Our 4-Step <span style="color: #0284c7;">Hiring Journey</span>
+				</h2>
+				<p style="font-size: 16px; color: #64748b; max-width: 750px; margin: 0 auto; line-height: 1.6;">
+					We respect your time. Our hiring process is clear, skill-focused, and completed within 3 to 5 business days.
+				</p>
+			</div>
 
-<!-- MODAL FORM -->
-<!-- JOB APPLICATION MODAL -->
-<div id="jobModal" class="modal" style="z-index:999999999 !important;">
-  <div class="modal-box">
-    <span class="modal-close" onclick="closeModal()">X</span>
+			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
+				<!-- Step 1 -->
+				<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 18px; padding: 30px 22px; text-align: center; position: relative;">
+					<div style="width: 52px; height: 52px; background: #e0f2fe; color: #0284c7; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; margin: 0 auto 16px auto;">1</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Application Review</h3>
+					<p style="font-size: 14px; color: #64748b; line-height: 1.6; margin: 0;">Our HR team screens your resume and portfolio within 24 to 48 hours of submission.</p>
+				</div>
 
-    <h2 class="heading-section">Application Form</h2>
+				<!-- Step 2 -->
+				<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 18px; padding: 30px 22px; text-align: center; position: relative;">
+					<div style="width: 52px; height: 52px; background: #f3e8ff; color: #9333ea; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; margin: 0 auto 16px auto;">2</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Practical Skill Test</h3>
+					<p style="font-size: 14px; color: #64748b; line-height: 1.6; margin: 0;">A short, real-world task or live campaign review to evaluate your technical execution ability.</p>
+				</div>
 
-    <form id="jobForm" onsubmit="return handleJobSubmit(event)" class="job-form-container">
+				<!-- Step 3 -->
+				<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 18px; padding: 30px 22px; text-align: center; position: relative;">
+					<div style="width: 52px; height: 52px; background: #dcfce7; color: #16a34a; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; margin: 0 auto 16px auto;">3</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Founder Discussion</h3>
+					<p style="font-size: 14px; color: #64748b; line-height: 1.6; margin: 0;">1-on-1 interview with Gaurav Dubey and team leads to discuss vision, role clarity, and culture fit.</p>
+				</div>
 
-      <input type="text" name="name" placeholder="Full Name" required
-        style="padding:12px 14px;border-radius:10px;border:1px solid #d1d5db;font-size:14px;background:#fff;width:100%;text-align: left;">
+				<!-- Step 4 -->
+				<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 18px; padding: 30px 22px; text-align: center; position: relative;">
+					<div style="width: 52px; height: 52px; background: #fef3c7; color: #d97706; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; margin: 0 auto 16px auto;">4</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Offer &amp; Onboarding</h3>
+					<p style="font-size: 14px; color: #64748b; line-height: 1.6; margin: 0;">Formal offer letter rollout, clear growth roadmaps, welcome kit, and dedicated onboarding.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-      <input type="email" name="email" placeholder="Email Address" required
-        style="padding:12px 14px;border-radius:10px;border:1px solid #d1d5db;font-size:14px;background:#fff;width:100%;color:#000000;">
+	<!-- ===== 7. LIFE AT KDM & LEADERSHIP MESSAGE ===== -->
+	<section style="background: #f8fafc; padding: 70px 0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; align-items: center;">
+				<div>
+					<img src="images/work%20culture%20at%20KDM.webp" alt="Work Culture at King of Digital Marketing" style="width: 100%; border-radius: 20px; box-shadow: 0 15px 35px rgba(15, 23, 42, 0.12); border: 1px solid #e2e8f0;" />
+				</div>
+				<div>
+					<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+						<i class="fa fa-quote-left"></i> LEADERSHIP VISION
+					</span>
+					<h2 style="font-size: 32px; font-weight: 900; color: #0f172a; margin: 0 0 16px 0; line-height: 1.3;">
+						"We Don't Just Hire Employees—We Build <span style="color: #0284c7;">Future Digital Leaders</span>."
+					</h2>
+					<p style="font-size: 15.5px; color: #475569; line-height: 1.8; margin-bottom: 16px;">
+						<em>"Digital marketing changes every single month. When you work at King of Digital Marketing, you are not trapped in repetitive corporate tasks. You get the freedom to experiment with AI SEO, manage real ad spends, test new creative hooks, and see the direct revenue impact of your work on live businesses worldwide."</em>
+					</p>
+					<p style="font-size: 15.5px; color: #475569; line-height: 1.8; margin-bottom: 24px;">
+						<em>"We believe that hunger, honesty, and execution always beat years on a static resume. If you are passionate about digital marketing and want to work with a team that values your ideas, KDM is the place for you."</em>
+					</p>
+					<div style="border-left: 4px solid #0284c7; padding-left: 16px;">
+						<h4 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0 0 4px 0;">Gaurav Dubey</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0;">Founder &amp; Digital Marketing Strategist (13+ Years Exp | 900+ Projects | 15+ Countries)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-      <input type="tel" name="phone" placeholder="Phone Number" required
-        style="padding:12px 14px;border-radius:10px;border:1px solid #d1d5db;font-size:14px;background:#fff;width:100%;color:#000000;">
+	<!-- ===== 8. DIRECT HR CONTACT & OFFICE LOCATION ===== -->
+	<section style="background: #ffffff; padding: 60px 0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="salary-breakdown-box" style="background: linear-gradient(135deg, #091a3e 0%, #0d286d 100%) !important; border: none !important; color: #ffffff !important; padding: 45px 35px !important;">
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; align-items: center;">
+					<div>
+						<span style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 5px 16px; border-radius: 16px; text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin-bottom: 12px;">
+							<i class="fa fa-envelope-open"></i> DIRECT HR DESK
+						</span>
+						<h2 style="font-size: 30px; font-weight: 900; color: #ffffff; margin: 0 0 12px 0;">
+							Have Questions or Want to Share Your Resume Directly?
+						</h2>
+						<p style="font-size: 15px; color: #cbd5e1; line-height: 1.7; margin: 0;">
+							You can email your updated CV/Portfolio directly to our recruitment team or connect via phone.
+						</p>
+					</div>
+					<div>
+						<div style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 16px; padding: 22px; backdrop-filter: blur(10px);">
+							<div style="font-size: 14.5px; color: #e2e8f0; margin-bottom: 12px;">
+								<i class="fa fa-envelope" style="color: #38bdf8; margin-right: 10px;"></i> <strong>Email:</strong> <a href="mailto:info@kingofdigitalmarketing.com" style="color: #ffffff; text-decoration: underline;">info@kingofdigitalmarketing.com</a>
+							</div>
+							<div style="font-size: 14.5px; color: #e2e8f0; margin-bottom: 12px;">
+								<i class="fa fa-phone" style="color: #4ade80; margin-right: 10px;"></i> <strong>HR Helpline:</strong> <a href="tel:+919555696058" style="color: #ffffff; text-decoration: underline;">+91-9555696058</a>
+							</div>
+							<div style="font-size: 14.5px; color: #e2e8f0; margin-bottom: 18px;">
+								<i class="fa fa-map-marker" style="color: #f87171; margin-right: 10px;"></i> <strong>Address:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
+							</div>
+							<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+								Submit Online Application <i class="fa fa-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-      <input type="text" name="city" placeholder="City"
-        style="padding:12px 14px;border-radius:10px;border:1px solid #d1d5db;font-size:14px;background:#fff;width:100%;text-align: left;">
+	<!-- ===== 9. FAQ ACCORDION SECTION ===== -->
+	<section class="kdm-faq-section">
+		<div class="kdm-faq-container">
+			<div class="kdm-faq-header">
+				<div class="kdm-faq-badge"><i class="fa fa-question-circle"></i> GOT QUESTIONS?</div>
+				<h2 class="kdm-faq-title">Frequently Asked <span class="kdm-blue-gradient">Questions</span></h2>
+				<p class="kdm-faq-subtitle">Everything You Need to Know About Jobs &amp; Internships at KDM</p>
+			</div>
 
-      <select name="status" required style="width:100%;padding:12px;border-radius:10px;">
-        <option value="">Current Status</option>
-        <option>Student</option>
-        <option>Working</option>
-        <option>Freelancer</option>
-        <option>Unemployed</option>
-      </select>
+			<div class="kdm-faq-accordion">
+				<!-- FAQ 1 -->
+				<div class="kdm-faq-item">
+					<div class="kdm-faq-question">
+						<h3>What qualifications or background do I need to apply at King of Digital Marketing?</h3>
+						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
+					</div>
+					<div class="kdm-faq-answer">
+						<p>We value practical skills, curiosity, and problem-solving over formal degrees. Whether you are a college graduate, self-taught marketer, or experienced strategist, having hands-on familiarity with digital tools (SEO, Google Ads, Meta Ads, Video Editing, or Web Development) and a strong portfolio is what matters most.</p>
+					</div>
+				</div>
 
-      <select name="apply_for" required style="width:100%;padding:12px;border-radius:10px;">
-        <option value="">Applying For</option>
-        <option>Job</option>
-        <option>Internship</option>
-      </select>
+				<!-- FAQ 2 -->
+				<div class="kdm-faq-item">
+					<div class="kdm-faq-question">
+						<h3>Can freshers apply for digital marketing internships and full-time roles?</h3>
+						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
+					</div>
+					<div class="kdm-faq-answer">
+						<p>Yes, absolutely! We run dedicated 6-month paid internship tracks for freshers and college students across SEO, PPC, Video Editing, and Content Writing with direct mentorship from Gaurav Dubey and senior leads. Outstanding interns are offered Pre-Placement Offers (PPO) for full-time roles.</p>
+					</div>
+				</div>
 
-      <select name="profile" required style="width:100%;padding:12px;border-radius:10px;">
-        <option value="">Select Profile</option>
-        <option>SEO</option>
-        <option>Social Media</option>
-        <option>Meta Ads</option>
-        <option>Google Ads</option>
-        <option>Business Development</option>
-        <option>Content Writing</option>
-        <option>Website developer</option>
-        <option>Video Editing</option>
-        <option>Graphic Designing</option>
-      </select>
+				<!-- FAQ 3 -->
+				<div class="kdm-faq-item">
+					<div class="kdm-faq-question">
+						<h3>What is the stipend structure for internships at KDM?</h3>
+						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
+					</div>
+					<div class="kdm-faq-answer">
+						<p>Our internships offer monthly stipends ranging from Rs 4,000 to Rs 5,000 per month depending on the domain (SEO, PPC, Video Editing, Content Writing). Top-performing interns also receive milestone bonuses, certification, and full-time hiring consideration.</p>
+					</div>
+				</div>
 
-      <select name="experience" style="width:100%;padding:12px;border-radius:10px;">
-        <option>Fresher</option>
-        <option>6 Months</option>
-        <option>1 Year</option>
-        <option>2 Years</option>
-        <option>3+ Years</option>
-      </select>
+				<!-- FAQ 4 -->
+				<div class="kdm-faq-item">
+					<div class="kdm-faq-question">
+						<h3>Are remote or work-from-home positions available?</h3>
+						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
+					</div>
+					<div class="kdm-faq-answer">
+						<p>Yes. Roles like Content Writing and Video Editing offer flexible Work From Home (WFH) or hybrid arrangements. Core performance marketing, SEO, and developer roles operate primarily from our South Delhi office in Kalkaji / Govindpuri Extension for close team collaboration.</p>
+					</div>
+				</div>
 
-      <input type="file" name="resume" required>
+				<!-- FAQ 5 -->
+				<div class="kdm-faq-item">
+					<div class="kdm-faq-question">
+						<h3>What digital tools and marketing software will I master at KDM?</h3>
+						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
+					</div>
+					<div class="kdm-faq-answer">
+						<p>Team members work with paid enterprise tools including Ahrefs, SEMrush, Screaming Frog, Google Search Console, Google Analytics 4 (GA4), Meta Ads Manager, Google Ads, CapCut Pro, Premiere Pro, Canva Pro, WordPress, and AI search tools (ChatGPT, Perplexity, Claude).</p>
+					</div>
+				</div>
 
-      <textarea name="reason_for_hiring" placeholder="Why Should We Hire You?"
-        style="width:100%;padding:12px;border-radius:10px;"></textarea>
+				<!-- FAQ 6 -->
+				<div class="kdm-faq-item">
+					<div class="kdm-faq-question">
+						<h3>Where is the King of Digital Marketing office located for walk-in interviews?</h3>
+						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
+					</div>
+					<div class="kdm-faq-answer">
+						<p>Our office is located at First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji, New Delhi, Delhi 110019. Candidates can visit for scheduled interviews Monday to Saturday between 9:30 AM and 6:00 PM.</p>
+					</div>
+				</div>
 
-      <button type="submit" class="submit-btn">Submit Application</button>
+				<!-- FAQ 7 -->
+				<div class="kdm-faq-item">
+					<div class="kdm-faq-question">
+						<h3>What should I prepare for the practical interview assessment?</h3>
+						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
+					</div>
+					<div class="kdm-faq-answer">
+						<p>Be ready to showcase your past campaigns, live URLs, ranking proofs, ad performance metrics, video editing portfolio, or writing samples. A brief 30-minute practical assignment matching the applied role is conducted to evaluate real execution skills.</p>
+					</div>
+				</div>
 
-      <p id="successMsg" style="display:none;color:#10b981;font-weight:700;margin-top:10px;text-align:center;">
-        ✓ Thank you! Your application has been submitted successfully.
-      </p>
-    </form>
-  </div>
-</div>
+				<!-- FAQ 8 -->
+				<div class="kdm-faq-item">
+					<div class="kdm-faq-question">
+						<h3>How often are performance appraisals and salary reviews conducted?</h3>
+						<div class="kdm-faq-icon"><i class="fa fa-chevron-down"></i></div>
+					</div>
+					<div class="kdm-faq-answer">
+						<p>At King of Digital Marketing, appraisals are strictly performance-driven and reviewed every 6 to 12 months. Exceptional performers who deliver outstanding client results and display leadership receive accelerated promotions, salary hikes, and performance incentives.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<!-- JS -->
-<script>
-document.querySelectorAll('.open-form').forEach(btn => {
-    btn.addEventListener('click', () => {
-        var targetId = btn.dataset.target || 'jobModal';
-        var target = document.getElementById(targetId);
-        if (target) target.style.display = 'block';
-    });
-});
+	<!-- ===== 10. PRE-FOOTER CTA SECTION ===== -->
+	<section class="kdm-prefooter-cta-section">
+		<div class="kdm-cta-container">
+			<div class="kdm-cta-badge"><i class="fa fa-rocket"></i> JOIN OUR TEAM</div>
+			<h2 class="kdm-cta-title">Ready to Accelerate Your <span class="kdm-blue-gradient">Digital Career</span>?</h2>
+			<p class="kdm-cta-desc">Apply today to work on live global campaigns, learn directly from industry masters, and fast-track your professional growth.</p>
+			
+			<div class="kdm-cta-btns">
+				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-cta-primary-btn">
+					<i class="fa fa-paper-plane"></i> Apply Now <i class="fa fa-arrow-right"></i>
+				</a>
+				<a href="tel:+919555696058" class="kdm-cta-secondary-btn">
+					<i class="fa fa-phone"></i> Call HR: +91-9555696058
+				</a>
+			</div>
+		</div>
+	</section>
 
-document.querySelectorAll('.modal-close').forEach(btn => {
-    btn.addEventListener('click', () => {
-        var modal = btn.closest('.modal');
-        if (modal) modal.style.display = 'none';
-    });
-});
-
-function handleJobSubmit(e) {
-    if (e && e.preventDefault) e.preventDefault();
-    var msg = document.getElementById('successMsg');
-    if (msg) msg.style.display = 'block';
-    setTimeout(function() {
-        var modal = document.getElementById('jobModal');
-        if (modal) modal.style.display = 'none';
-    }, 2500);
-    return false;
-}
-</script>
-    <script src="js/kdm-faq.js"></script>
 </asp:Content>
