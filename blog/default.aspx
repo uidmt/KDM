@@ -6,9 +6,9 @@
 			content="SEO Blog 2026, SEO News Blog, SEO Updates Blog, SEO Tutorial, Learn SEO, SMO Blog, PPC Blog, Daily SEO Updates, SEO SMO PPC news" />
 		<meta name="description"
 			content="Digital Marketing Latest News 2026, Read Latest Digital Marketing and SEO Blog in Trend 2026. SEO Blog provides latest news about SEO SMM PPC ORM. Learn updates of SEO Social Media and Pay Per Click trends." />
-		<meta property="og:title" content="King of Digital Marketing | Digital Marketing Company in Delhi, India" />
+		<meta property="og:title" content="Digital Marketing Insights & SEO Blogs | King of Digital Marketing" />
 		<meta property="og:description"
-			content="Result Driven Digital Marketing Services Company in Delhi. Empowered 750+ Domestic International Clients By Expert Marketers." />
+			content="Latest Digital Marketing, AI SEO, PPC & Social Media Growth Insights by King of Digital Marketing. 13+ Years of Experience, 900+ Projects." />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://www.kingofdigitalmarketing.com/blog/" />
 		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/blog/" />
@@ -16,19 +16,6 @@
 
 	</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-		<title>Digital Marketing Latest News 2026, Digital Marketing Blogs, SMO SEM Updates</title>
-		<meta name="keywords"
-			content="SEO Blog 2026, SEO News Blog, SEO Updates Blog, SEO Tutorial, Learn SEO, SMO Blog, PPC Blog, Daily SEO Updates, SEO SMO PPC news" />
-		<meta name="description"
-			content="Digital Marketing Latest News 2026, Read Latest Digital Marketing and SEO Blog in Trend 2026. SEO Blog provides latest news about SEO SMM PPC ORM. Learn updates of SEO Social Media and Pay Per Click trends." />
-		<meta property="og:title" content="King of Digital Marketing | Digital Marketing Company in Delhi, India" />
-		<meta property="og:description"
-			content="Result Driven Digital Marketing Services Company in Delhi. Empowered 750+ Domestic International Clients By Expert Marketers." />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://www.kingofdigitalmarketing.com/blog/" />
-		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/blog/" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" />
-
 		<div role="main" class="main">
 			<section class="page-top kdm-v2-blog-hero">
 				<div class="container">
