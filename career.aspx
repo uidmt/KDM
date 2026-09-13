@@ -3,13 +3,20 @@
 	<title>Careers & Digital Marketing Jobs in Delhi | King of Digital Marketing</title>
 	<meta name="keywords" content="digital marketing jobs delhi, seo jobs in delhi, ppc executive career, google ads jobs delhi, meta ads jobs, digital marketing internship delhi, video editor internship, content writer jobs delhi, king of digital marketing careers">
 	<meta name="description" content="Build your career with King of Digital Marketing. Explore open jobs and paid internships in SEO, PPC, Meta Ads, Video Editing, Content Writing, and Web Development in Delhi. Apply today!">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+	<meta name="author" content="King of Digital Marketing" />
 	<link rel="canonical" href="https://www.kingofdigitalmarketing.com/career.aspx" />
 	<meta property="og:title" content="Careers & Digital Marketing Jobs in Delhi | King of Digital Marketing">
 	<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/work%20culture%20at%20KDM.webp">
 	<meta property="og:description" content="Join India's premier digital marketing agency. 32+ in-house specialists, 13+ years experience, 900+ global projects. Explore full-time roles and paid internships.">
 	<meta property="og:url" content="https://www.kingofdigitalmarketing.com/career.aspx">
 	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="King of Digital Marketing">
+	<meta property="og:locale" content="en_IN">
 	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Careers & Digital Marketing Jobs in Delhi | King of Digital Marketing">
+	<meta name="twitter:description" content="Join India's premier digital marketing agency. 32+ in-house specialists, 13+ years experience, 900+ global projects. Explore full-time roles and paid internships.">
+	<meta name="twitter:image" content="https://www.kingofdigitalmarketing.com/images/work%20culture%20at%20KDM.webp">
 	<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/location-page.css">
 	<link rel="stylesheet" href="css/images.css">
@@ -19,19 +26,59 @@
 	<link rel="stylesheet" href="css/kdm-course.css">
 	<script src="js/kdm-faq.js"></script>
 
-	<!-- ===== STRUCTURED DATA JSON-LD SCHEMAS ===== -->
+	<!-- ===== STRUCTURED DATA JSON-LD SCHEMAS (GOOGLE FOR JOBS, KNOWLEDGE GRAPH, AI OVERVIEWS & VOICE SEARCH) ===== -->
 	<script type="application/ld+json">
 	{
 	  "@context": "https://schema.org",
 	  "@graph": [
 	    {
+	      "@type": "WebPage",
+	      "@id": "https://www.kingofdigitalmarketing.com/career.aspx#webpage",
+	      "url": "https://www.kingofdigitalmarketing.com/career.aspx",
+	      "name": "Careers & Digital Marketing Jobs in Delhi | King of Digital Marketing",
+	      "isPartOf": {
+	        "@id": "https://www.kingofdigitalmarketing.com/#organization"
+	      },
+	      "description": "Explore open digital marketing jobs and paid internships in SEO, Google Ads PPC, Meta Ads, Video Editing, Content Writing, and Web Development at King of Digital Marketing.",
+	      "breadcrumb": {
+	        "@id": "https://www.kingofdigitalmarketing.com/career.aspx#breadcrumb"
+	      },
+	      "inLanguage": "en-IN",
+	      "speakable": {
+	        "@type": "SpeakableSpecification",
+	        "cssSelector": [
+	          ".kdm-service-hero-title",
+	          ".kdm-service-hero-subtitle",
+	          ".kdm-faq-item"
+	        ]
+	      }
+	    },
+	    {
+	      "@type": "BreadcrumbList",
+	      "@id": "https://www.kingofdigitalmarketing.com/career.aspx#breadcrumb",
+	      "itemListElement": [
+	        {
+	          "@type": "ListItem",
+	          "position": 1,
+	          "name": "Home",
+	          "item": "https://www.kingofdigitalmarketing.com/"
+	        },
+	        {
+	          "@type": "ListItem",
+	          "position": 2,
+	          "name": "Careers & Open Positions",
+	          "item": "https://www.kingofdigitalmarketing.com/career.aspx"
+	        }
+	      ]
+	    },
+	    {
 	      "@type": "ProfessionalService",
 	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
 	      "name": "King of Digital Marketing",
-	      "url": "https://www.kingofdigitalmarketing.com/career.aspx",
+	      "url": "https://www.kingofdigitalmarketing.com/",
 	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
 	      "image": "https://www.kingofdigitalmarketing.com/images/work%20culture%20at%20KDM.webp",
-	      "description": "Premier digital marketing agency offering careers and internships in SEO, PPC, Meta Ads, Content Writing, Video Editing, and Full-Stack Web Development.",
+	      "description": "Premier digital marketing agency in India with 13+ years of experience, 900+ completed projects, and 32+ in-house specialists handling SEO, PPC, Social Media, and Web Development.",
 	      "telephone": "+91-9555696058",
 	      "email": "info@kingofdigitalmarketing.com",
 	      "priceRange": "$$",
@@ -48,6 +95,34 @@
 	        "latitude": "28.5355",
 	        "longitude": "77.2612"
 	      },
+	      "founder": {
+	        "@type": "Person",
+	        "name": "Gaurav Dubey",
+	        "jobTitle": "Founder & Lead Digital Growth Strategist",
+	        "sameAs": [
+	          "https://www.linkedin.com/in/gauravdubeykdm/",
+	          "https://www.youtube.com/@KingofDigitalMarketing"
+	        ],
+	        "worksFor": {
+	          "@id": "https://www.kingofdigitalmarketing.com/#organization"
+	        }
+	      },
+	      "sameAs": [
+	        "https://www.facebook.com/kingofdigitalmarketing",
+	        "https://www.instagram.com/kingofdigitalmarketing",
+	        "https://www.linkedin.com/company/kingofdigitalmarketing",
+	        "https://www.youtube.com/@KingofDigitalMarketing",
+	        "https://twitter.com/kingofdigitalm"
+	      ],
+	      "knowsAbout": [
+	        "Search Engine Optimization (SEO)",
+	        "AI Search Optimization (GEO & AEO)",
+	        "Pay-Per-Click Advertising (Google Ads)",
+	        "Social Media Marketing & Meta Ads",
+	        "Full-Stack Web Development (ASP.NET, WordPress)",
+	        "Performance Marketing & Conversion Rate Optimization",
+	        "Video Editing & Motion Graphics"
+	      ],
 	      "aggregateRating": {
 	        "@type": "AggregateRating",
 	        "ratingValue": "4.9",
@@ -57,58 +132,258 @@
 	    },
 	    {
 	      "@type": "JobPosting",
-	      "title": "Senior SEO Strategist & Executive",
-	      "description": "Execute enterprise SEO, technical audits, on-page optimization, backlink acquisition, and AI SEO/GEO ranking strategies for global and national clients.",
-	      "identifier": {
-	        "@type": "PropertyValue",
-	        "name": "King of Digital Marketing",
-	        "value": "KDM-SEO-01"
-	      },
-	      "datePosted": "2026-01-01",
-	      "employmentType": "FULL_TIME",
-	      "hiringOrganization": {
-	        "@type": "Organization",
-	        "name": "King of Digital Marketing",
-	        "sameAs": "https://www.kingofdigitalmarketing.com"
-	      },
-	      "jobLocation": {
-	        "@type": "Place",
-	        "address": {
-	          "@type": "PostalAddress",
-	          "addressLocality": "New Delhi",
-	          "addressRegion": "Delhi",
-	          "addressCountry": "IN"
-	        }
-	      }
-	    },
-	    {
-	      "@type": "JobPosting",
 	      "title": "Performance Marketer (Google Ads / PPC Specialist)",
-	      "description": "Manage Google Ads Search, Display, Performance Max, and Shopping campaigns to generate high ROI and scalable leads across 150+ industry verticals.",
+	      "description": "<p>King of Digital Marketing is actively hiring an experienced Performance Marketer &amp; Google Ads Specialist. You will strategize, build, manage, and scale high-ROI paid search, display, Performance Max, and shopping ad campaigns across 150+ diverse industry verticals.</p><h3>Key Responsibilities:</h3><ul><li>Manage Google Ads accounts with monthly ad spends across eCommerce, B2B, healthcare, education, and real estate.</li><li>Execute rigorous keyword research, negative keyword pruning, bid management, and quality score optimization.</li><li>Set up advanced conversion tracking via Google Tag Manager (GTM) and GA4.</li><li>Perform daily A/B split testing on ad copies, landing pages, and extension assets.</li></ul><h3>Requirements:</h3><ul><li>1 to 3 years hands-on experience managing profitable Google Ads campaigns.</li><li>Proficiency in Google Tag Manager, Google Analytics 4, and Looker Studio reporting.</li><li>Strong analytical mindset and ROI-driven execution skills.</li></ul>",
 	      "identifier": {
 	        "@type": "PropertyValue",
 	        "name": "King of Digital Marketing",
 	        "value": "KDM-PPC-02"
 	      },
-	      "datePosted": "2026-01-01",
+	      "datePosted": "2026-01-15T09:00:00+05:30",
+	      "validThrough": "2026-12-31T23:59:59+05:30",
 	      "employmentType": "FULL_TIME",
+	      "occupationalCategory": "13-1161.00 - Market Research Analysts and Marketing Specialists",
+	      "industry": "Digital Marketing & Advertising",
+	      "directApply": true,
+	      "experienceRequirements": {
+	        "@type": "OccupationalExperienceRequirements",
+	        "monthsOfExperience": 12
+	      },
 	      "hiringOrganization": {
 	        "@type": "Organization",
 	        "name": "King of Digital Marketing",
-	        "sameAs": "https://www.kingofdigitalmarketing.com"
+	        "sameAs": "https://www.kingofdigitalmarketing.com",
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
 	      },
 	      "jobLocation": {
 	        "@type": "Place",
 	        "address": {
 	          "@type": "PostalAddress",
+	          "streetAddress": "First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji",
 	          "addressLocality": "New Delhi",
 	          "addressRegion": "Delhi",
+	          "postalCode": "110019",
 	          "addressCountry": "IN"
+	        }
+	      },
+	      "baseSalary": {
+	        "@type": "MonetaryAmount",
+	        "currency": "INR",
+	        "value": {
+	          "@type": "QuantitativeValue",
+	          "minValue": 25000,
+	          "maxValue": 45000,
+	          "unitText": "MONTH"
+	        }
+	      }
+	    },
+	    {
+	      "@type": "JobPosting",
+	      "title": "Meta Ads & Social Media Advertising Specialist",
+	      "description": "<p>We are seeking a results-oriented Meta Ads Specialist to design, execute, and scale Facebook &amp; Instagram advertising funnels that deliver consistent leads and direct-to-consumer (D2C) sales.</p><h3>Key Responsibilities:</h3><ul><li>Structure and optimize full-funnel Meta advertising campaigns (TOFU, MOFU, BOFU).</li><li>Master custom audience creation, lookalike modeling, and Conversions API (CAPI) setup.</li><li>Collaborate with our in-house creative design and video editing team for high-converting creatives.</li><li>Conduct regular ROAS optimization and creative fatigue analysis.</li></ul><h3>Requirements:</h3><ul><li>1+ years verifiable track record in Meta Ads Manager scaling lead generation or e-commerce budgets.</li><li>Deep familiarity with Meta Pixel, CAPI, Catalog Sales, and Instant Forms.</li></ul>",
+	      "identifier": {
+	        "@type": "PropertyValue",
+	        "name": "King of Digital Marketing",
+	        "value": "KDM-META-03"
+	      },
+	      "datePosted": "2026-01-15T09:00:00+05:30",
+	      "validThrough": "2026-12-31T23:59:59+05:30",
+	      "employmentType": "FULL_TIME",
+	      "occupationalCategory": "13-1161.00 - Market Research Analysts and Marketing Specialists",
+	      "industry": "Digital Marketing & Advertising",
+	      "directApply": true,
+	      "experienceRequirements": {
+	        "@type": "OccupationalExperienceRequirements",
+	        "monthsOfExperience": 12
+	      },
+	      "hiringOrganization": {
+	        "@type": "Organization",
+	        "name": "King of Digital Marketing",
+	        "sameAs": "https://www.kingofdigitalmarketing.com",
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	      },
+	      "jobLocation": {
+	        "@type": "Place",
+	        "address": {
+	          "@type": "PostalAddress",
+	          "streetAddress": "First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji",
+	          "addressLocality": "New Delhi",
+	          "addressRegion": "Delhi",
+	          "postalCode": "110019",
+	          "addressCountry": "IN"
+	        }
+	      },
+	      "baseSalary": {
+	        "@type": "MonetaryAmount",
+	        "currency": "INR",
+	        "value": {
+	          "@type": "QuantitativeValue",
+	          "minValue": 22000,
+	          "maxValue": 40000,
+	          "unitText": "MONTH"
+	        }
+	      }
+	    },
+	    {
+	      "@type": "JobPosting",
+	      "title": "Creative Video Editor & Motion Graphics Designer",
+	      "description": "<p>King of Digital Marketing is hiring a talented Video Editor &amp; Motion Graphics Specialist to craft viral short-form reels, YouTube case studies, client testimonials, and high-converting paid ad creatives.</p><h3>Key Responsibilities:</h3><ul><li>Edit high-retention vertical reels, TikToks/Shorts, and YouTube long-form videos.</li><li>Add engaging motion typography, sound design, jump cuts, visual hooks, and dynamic b-roll.</li><li>Collaborate with campaign strategists to test video creative hooks for Meta &amp; YouTube Ads.</li></ul><h3>Requirements:</h3><ul><li>Proficiency in Adobe Premiere Pro, After Effects, CapCut Pro, or DaVinci Resolve.</li><li>Strong portfolio demonstrating rhythm, visual pacing, and modern typography animations.</li></ul>",
+	      "identifier": {
+	        "@type": "PropertyValue",
+	        "name": "King of Digital Marketing",
+	        "value": "KDM-VID-06"
+	      },
+	      "datePosted": "2026-01-15T09:00:00+05:30",
+	      "validThrough": "2026-12-31T23:59:59+05:30",
+	      "employmentType": "FULL_TIME",
+	      "occupationalCategory": "27-4032.00 - Film and Video Editors",
+	      "industry": "Media Production & Digital Marketing",
+	      "directApply": true,
+	      "jobLocationType": "TELECOMMUTE",
+	      "applicantLocationRequirements": {
+	        "@type": "Country",
+	        "name": "IN"
+	      },
+	      "hiringOrganization": {
+	        "@type": "Organization",
+	        "name": "King of Digital Marketing",
+	        "sameAs": "https://www.kingofdigitalmarketing.com",
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	      },
+	      "baseSalary": {
+	        "@type": "MonetaryAmount",
+	        "currency": "INR",
+	        "value": {
+	          "@type": "QuantitativeValue",
+	          "minValue": 20000,
+	          "maxValue": 35000,
+	          "unitText": "MONTH"
+	        }
+	      }
+	    },
+	    {
+	      "@type": "JobPosting",
+	      "title": "SEO Executive Trainee / 6 Months Internship",
+	      "description": "<p>6-Month comprehensive, hands-on SEO internship at King of Digital Marketing with monthly stipend starting from INR 5,000 / month, real live client audits, technical SEO exposure, AI search optimization (AEO/GEO), and full-time PPO opportunities.</p><h3>What You Will Learn &amp; Execute:</h3><ul><li>Keyword research, competitor analysis, and search intent mapping.</li><li>On-page SEO, schema markup implementation, internal linking structure.</li><li>Off-page outreach, high-authority backlink building, and Google Search Console analysis.</li></ul>",
+	      "identifier": {
+	        "@type": "PropertyValue",
+	        "name": "King of Digital Marketing",
+	        "value": "KDM-INT-SEO-01"
+	      },
+	      "datePosted": "2026-01-15T09:00:00+05:30",
+	      "validThrough": "2026-12-31T23:59:59+05:30",
+	      "employmentType": "INTERN",
+	      "occupationalCategory": "13-1161.00 - Market Research Analysts and Marketing Specialists",
+	      "industry": "Digital Marketing",
+	      "directApply": true,
+	      "hiringOrganization": {
+	        "@type": "Organization",
+	        "name": "King of Digital Marketing",
+	        "sameAs": "https://www.kingofdigitalmarketing.com",
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	      },
+	      "jobLocation": {
+	        "@type": "Place",
+	        "address": {
+	          "@type": "PostalAddress",
+	          "streetAddress": "First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji",
+	          "addressLocality": "New Delhi",
+	          "addressRegion": "Delhi",
+	          "postalCode": "110019",
+	          "addressCountry": "IN"
+	        }
+	      },
+	      "baseSalary": {
+	        "@type": "MonetaryAmount",
+	        "currency": "INR",
+	        "value": {
+	          "@type": "QuantitativeValue",
+	          "value": 5000,
+	          "unitText": "MONTH"
+	        }
+	      }
+	    },
+	    {
+	      "@type": "JobPosting",
+	      "title": "Performance Ads & PPC Trainee / 6 Months Internship",
+	      "description": "<p>6-Month intensive paid performance marketing internship at King of Digital Marketing. Learn to manage Google Ads, Meta Ads, remarketing funnels, conversion tracking, and analytics with monthly stipend starting from INR 5,000 / month.</p><h3>What You Will Learn &amp; Execute:</h3><ul><li>Google Ads campaign creation (Search, PMax, Display).</li><li>Meta Ads audience targeting, ad creatives testing, and lead form optimization.</li><li>Conversion tracking using GTM and Google Analytics 4.</li></ul>",
+	      "identifier": {
+	        "@type": "PropertyValue",
+	        "name": "King of Digital Marketing",
+	        "value": "KDM-INT-PPC-02"
+	      },
+	      "datePosted": "2026-01-15T09:00:00+05:30",
+	      "validThrough": "2026-12-31T23:59:59+05:30",
+	      "employmentType": "INTERN",
+	      "occupationalCategory": "13-1161.00 - Market Research Analysts and Marketing Specialists",
+	      "industry": "Digital Marketing & Paid Media",
+	      "directApply": true,
+	      "hiringOrganization": {
+	        "@type": "Organization",
+	        "name": "King of Digital Marketing",
+	        "sameAs": "https://www.kingofdigitalmarketing.com",
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	      },
+	      "jobLocation": {
+	        "@type": "Place",
+	        "address": {
+	          "@type": "PostalAddress",
+	          "streetAddress": "First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji",
+	          "addressLocality": "New Delhi",
+	          "addressRegion": "Delhi",
+	          "postalCode": "110019",
+	          "addressCountry": "IN"
+	        }
+	      },
+	      "baseSalary": {
+	        "@type": "MonetaryAmount",
+	        "currency": "INR",
+	        "value": {
+	          "@type": "QuantitativeValue",
+	          "value": 5000,
+	          "unitText": "MONTH"
+	        }
+	      }
+	    },
+	    {
+	      "@type": "JobPosting",
+	      "title": "Video Editing & Motion Graphics Trainee / 6 Months Internship",
+	      "description": "<p>6-Month remote/hybrid video editing internship at King of Digital Marketing. Work on high-impact social media reels, YouTube long videos, and client promotional ads with monthly stipend starting from INR 5,000 / month.</p><h3>What You Will Learn &amp; Execute:</h3><ul><li>Editing viral short-form reels for Instagram, YouTube Shorts, and LinkedIn.</li><li>Visual pacing, audio ducking, motion subtitles, and graphic overlays.</li><li>Collaborating with content strategists to produce high-engagement ad creatives.</li></ul>",
+	      "identifier": {
+	        "@type": "PropertyValue",
+	        "name": "King of Digital Marketing",
+	        "value": "KDM-INT-VID-03"
+	      },
+	      "datePosted": "2026-01-15T09:00:00+05:30",
+	      "validThrough": "2026-12-31T23:59:59+05:30",
+	      "employmentType": "INTERN",
+	      "occupationalCategory": "27-4032.00 - Film and Video Editors",
+	      "industry": "Media Production & Digital Marketing",
+	      "directApply": true,
+	      "jobLocationType": "TELECOMMUTE",
+	      "applicantLocationRequirements": {
+	        "@type": "Country",
+	        "name": "IN"
+	      },
+	      "hiringOrganization": {
+	        "@type": "Organization",
+	        "name": "King of Digital Marketing",
+	        "sameAs": "https://www.kingofdigitalmarketing.com",
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	      },
+	      "baseSalary": {
+	        "@type": "MonetaryAmount",
+	        "currency": "INR",
+	        "value": {
+	          "@type": "QuantitativeValue",
+	          "value": 5000,
+	          "unitText": "MONTH"
 	        }
 	      }
 	    },
 	    {
 	      "@type": "FAQPage",
+	      "@id": "https://www.kingofdigitalmarketing.com/career.aspx#faq",
 	      "mainEntity": [
 	        {
 	          "@type": "Question",
