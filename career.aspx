@@ -266,22 +266,22 @@
 
 				<!-- 4 Culture Highlights Cards -->
 				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
-					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
-						<div style="font-size: 26px; color: #0284c7; margin-bottom: 10px;"><i class="fa fa-chart-line"></i></div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center;">
+						<div style="font-size: 26px; color: #0284c7; margin-bottom: 10px;"><i class="fa fa-line-chart"></i></div>
 						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Merit-Based Growth</h4>
 						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Structured appraisals every 6-12 months driven purely by your output.</p>
 					</div>
-					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center;">
 						<div style="font-size: 26px; color: #10b981; margin-bottom: 10px;"><i class="fa fa-globe"></i></div>
 						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Global Brand Reach</h4>
 						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Work on enterprise campaigns across USA, UK, UAE, and India.</p>
 					</div>
-					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
-						<div style="font-size: 26px; color: #8b5cf6; margin-bottom: 10px;"><i class="fa fa-laptop-code"></i></div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center;">
+						<div style="font-size: 26px; color: #8b5cf6; margin-bottom: 10px;"><i class="fa fa-laptop"></i></div>
 						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Paid AI &amp; Tech Stack</h4>
 						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Access Ahrefs, SEMrush, CapCut Pro, GA4, and modern AI toolkits.</p>
 					</div>
-					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center;">
 						<div style="font-size: 26px; color: #f59e0b; margin-bottom: 10px;"><i class="fa fa-heart"></i></div>
 						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Supportive Team Culture</h4>
 						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Zero toxicity, healthy work-life balance, and continuous learning.</p>
@@ -304,48 +304,65 @@
 
 			<div class="kdm-credentials-5grid counters dark counters-row">
 				<!-- Box 1: 13+ Years of Experience -->
-				<div class="kdm-counter-card">
-					<div class="kdm-counter-icon">
-						<i class="fa fa-calendar-check-o fa-solid fa-calendar-days"></i>
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<polyline points="12 6 12 12 16 14"></polyline>
+						</svg>
 					</div>
-					<div class="kdm-counter-num">13+</div>
-					<div class="kdm-counter-lbl">Years Exp</div>
+					<strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
+					<label class="kdm-cred-label">Years of Experience</label>
 				</div>
 
-				<!-- Box 2: 900+ Completed Projects -->
-				<div class="kdm-counter-card">
-					<div class="kdm-counter-icon">
-						<i class="fa fa-check-circle-o fa-solid fa-circle-check"></i>
+				<!-- Box 2: 900+ Projects Completed -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
 					</div>
-					<div class="kdm-counter-num">900+</div>
-					<div class="kdm-counter-lbl">Projects</div>
+					<strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
+					<label class="kdm-cred-label">Projects Completed</label>
 				</div>
 
 				<!-- Box 3: 15+ Countries Served -->
-				<div class="kdm-counter-card">
-					<div class="kdm-counter-icon">
-						<i class="fa fa-globe fa-solid fa-earth-americas"></i>
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<line x1="2" y1="12" x2="22" y2="12"></line>
+							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+						</svg>
 					</div>
-					<div class="kdm-counter-num">15+</div>
-					<div class="kdm-counter-lbl">Countries</div>
+					<strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
+					<label class="kdm-cred-label">Countries Served</label>
 				</div>
 
-				<!-- Box 4: 4.9 Client Rating -->
-				<div class="kdm-counter-card">
-					<div class="kdm-counter-icon">
-						<i class="fa fa-star fa-solid fa-star"></i>
+				<!-- Box 4: 4.9 Overall Rating -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
 					</div>
-					<div class="kdm-counter-num">4.9</div>
-					<div class="kdm-counter-lbl">Rating</div>
+					<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
+					<label class="kdm-cred-label">Overall Rating</label>
 				</div>
 
-				<!-- Box 5: 32+ In-House Specialists -->
-				<div class="kdm-counter-card">
-					<div class="kdm-counter-icon">
-						<i class="fa fa-users fa-solid fa-users-gear"></i>
+				<!-- Box 5: 32+ Specialists -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+							<circle cx="9" cy="7" r="4"></circle>
+							<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+						</svg>
 					</div>
-					<div class="kdm-counter-num">32+</div>
-					<div class="kdm-counter-lbl">In-House Specialists</div>
+					<strong class="counter-value kdm-cred-num" data-to="32" data-append="+">32+</strong>
+					<label class="kdm-cred-label">In-House Specialists</label>
 				</div>
 			</div>
 		</div>
@@ -506,7 +523,7 @@
 				<div class="career-role-card">
 					<div class="career-card-top">
 						<div class="career-icon-wrap icon-green">
-							<i class="fa fa-pencil-square-o fa-lg"></i>
+							<i class="fa fa-pencil fa-lg"></i>
 						</div>
 						<div>
 							<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
@@ -549,7 +566,7 @@
 
 			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
 				<!-- Internship Box 1: SEO Internship -->
-				<div class="salary-breakdown-box">
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 32px 28px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);">
 					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
 						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">SEO Executive Internship</h3>
 						<span style="background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">6 Months</span>
@@ -570,7 +587,7 @@
 				</div>
 
 				<!-- Internship Box 2: Google & Meta Ads Internship -->
-				<div class="salary-breakdown-box">
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 32px 28px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);">
 					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
 						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">Performance Ads Internship</h3>
 						<span style="background: #e0f2fe; color: #0284c7; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">6 Months</span>
@@ -591,7 +608,7 @@
 				</div>
 
 				<!-- Internship Box 3: Video Editor Internship (WFH) -->
-				<div class="salary-breakdown-box">
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 32px 28px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);">
 					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
 						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">Video Editor Internship</h3>
 						<span style="background: #f3e8ff; color: #9333ea; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">Work From Home</span>
@@ -612,7 +629,7 @@
 				</div>
 
 				<!-- Internship Box 4: Content Writing Internship (WFH) -->
-				<div class="salary-breakdown-box">
+				<div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 24px; padding: 32px 28px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);">
 					<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px;">
 						<h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0;">Content Writing Internship</h3>
 						<span style="background: #f3e8ff; color: #9333ea; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 12px;">Work From Home</span>
@@ -635,48 +652,68 @@
 		</div>
 	</section>
 
-	<!-- ===== 6. OUR 4-STEP TRANSPARENT HIRING JOURNEY ===== -->
-	<section style="background: #ffffff; padding: 70px 0; border-bottom: 1px solid #e2e8f0;">
+	<!-- ===== 6. 4-STEP HIRING PROCESS (DARK THEME) ===== -->
+	<section class="kdm-seo-process-section">
 		<div class="container">
-			<div class="text-center" style="margin-bottom: 45px;">
-				<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
-					<i class="fa fa-road"></i> SIMPLE &amp; FAST
-				</span>
-				<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3;">
-					Our 4-Step <span style="color: #0284c7;">Hiring Journey</span>
-				</h2>
-				<p style="font-size: 16px; color: #64748b; max-width: 750px; margin: 0 auto; line-height: 1.6;">
-					We respect your time. Our hiring process is clear, skill-focused, and completed within 3 to 5 business days.
+			<div class="kdm-seo-process-header">
+				<span class="kdm-seo-badge">SIMPLE &amp; FAST PROCESS</span>
+				<h2 class="kdm-seo-process-title">Our 4-Step <strong>Hiring Roadmap</strong></h2>
+				<p class="kdm-seo-process-desc">
+					We respect your time. Our hiring process is transparent, skill-focused, and completed within 3 to 5 business days.
 				</p>
 			</div>
 
-			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
+			<div class="kdm-seo-process-grid">
 				<!-- Step 1 -->
-				<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 18px; padding: 30px 22px; text-align: center; position: relative;">
-					<div style="width: 52px; height: 52px; background: #e0f2fe; color: #0284c7; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; margin: 0 auto 16px auto;">1</div>
-					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Application Review</h3>
-					<p style="font-size: 14px; color: #64748b; line-height: 1.6; margin: 0;">Our HR team screens your resume and portfolio within 24 to 48 hours of submission.</p>
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+							<polyline points="14 2 14 8 20 8"></polyline>
+							<line x1="16" y1="13" x2="8" y2="13"></line>
+							<line x1="16" y1="17" x2="8" y2="17"></line>
+						</svg>
+					</div>
+					<h3>1. Application Review</h3>
+					<p>Our recruitment team thoroughly screens your CV, live portfolios, and work samples within 24 to 48 hours.</p>
 				</div>
 
 				<!-- Step 2 -->
-				<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 18px; padding: 30px 22px; text-align: center; position: relative;">
-					<div style="width: 52px; height: 52px; background: #f3e8ff; color: #9333ea; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; margin: 0 auto 16px auto;">2</div>
-					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Practical Skill Test</h3>
-					<p style="font-size: 14px; color: #64748b; line-height: 1.6; margin: 0;">A short, real-world task or live campaign review to evaluate your technical execution ability.</p>
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<polyline points="16 18 22 12 16 6"></polyline>
+							<polyline points="8 6 2 12 8 18"></polyline>
+						</svg>
+					</div>
+					<h3>2. Practical Skill Task</h3>
+					<p>A brief real-world task or live campaign case review tailored to your domain to evaluate hands-on execution skills.</p>
 				</div>
 
 				<!-- Step 3 -->
-				<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 18px; padding: 30px 22px; text-align: center; position: relative;">
-					<div style="width: 52px; height: 52px; background: #dcfce7; color: #16a34a; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; margin: 0 auto 16px auto;">3</div>
-					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Founder Discussion</h3>
-					<p style="font-size: 14px; color: #64748b; line-height: 1.6; margin: 0;">1-on-1 interview with Gaurav Dubey and team leads to discuss vision, role clarity, and culture fit.</p>
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+							<circle cx="9" cy="7" r="4"></circle>
+							<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+						</svg>
+					</div>
+					<h3>3. Founder Discussion</h3>
+					<p>1-on-1 interview with Gaurav Dubey and team leads to discuss your career goals, vision, compensation, and culture fit.</p>
 				</div>
 
 				<!-- Step 4 -->
-				<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 18px; padding: 30px 22px; text-align: center; position: relative;">
-					<div style="width: 52px; height: 52px; background: #fef3c7; color: #d97706; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; margin: 0 auto 16px auto;">4</div>
-					<h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Offer &amp; Onboarding</h3>
-					<p style="font-size: 14px; color: #64748b; line-height: 1.6; margin: 0;">Formal offer letter rollout, clear growth roadmaps, welcome kit, and dedicated onboarding.</p>
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<h3>4. Offer &amp; Onboarding</h3>
+					<p>Clear offer letter rollout, structured growth roadmaps, welcoming kit, and a dedicated buddy to guide your onboarding.</p>
 				</div>
 			</div>
 		</div>
@@ -714,7 +751,7 @@
 	<!-- ===== 8. DIRECT HR CONTACT & OFFICE LOCATION ===== -->
 	<section style="background: #ffffff; padding: 60px 0; border-bottom: 1px solid #e2e8f0;">
 		<div class="container">
-			<div class="salary-breakdown-box" style="background: linear-gradient(135deg, #091a3e 0%, #0d286d 100%) !important; border: none !important; color: #ffffff !important; padding: 45px 35px !important;">
+			<div style="background: linear-gradient(135deg, #091a3e 0%, #0d286d 100%); border-radius: 24px; color: #ffffff; padding: 45px 35px; box-shadow: 0 15px 40px rgba(15, 23, 42, 0.1);">
 				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; align-items: center;">
 					<div>
 						<span style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 5px 16px; border-radius: 16px; text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin-bottom: 12px;">
