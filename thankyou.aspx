@@ -155,68 +155,6 @@
 	box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
 }
 
-/* 4 Next Steps & Resource Cards */
-.kdm-next-steps-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	gap: 16px;
-	margin: 30px 0 25px 0;
-	text-align: left;
-}
-
-.kdm-step-card {
-	background: #f8fafc;
-	border-radius: 16px;
-	border: 1px solid #e2e8f0;
-	padding: 20px 18px;
-	transition: all 0.3s ease;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.kdm-step-card:hover {
-	border-color: #0284c7;
-	transform: translateY(-3px);
-	box-shadow: 0 8px 20px rgba(2, 132, 199, 0.08);
-}
-
-.kdm-step-icon {
-	font-size: 24px;
-	color: #0284c7;
-	margin-bottom: 10px;
-}
-
-.kdm-step-title {
-	font-size: 15px;
-	font-weight: 800;
-	color: #0f172a;
-	margin-bottom: 6px;
-}
-
-.kdm-step-desc {
-	font-size: 13px;
-	color: #64748b;
-	margin: 0 0 12px 0;
-	line-height: 1.5;
-}
-
-.kdm-step-link {
-	font-size: 12.5px;
-	font-weight: 700;
-	color: #0284c7;
-	text-decoration: none !important;
-	display: inline-flex;
-	align-items: center;
-	gap: 4px;
-	transition: 0.2s ease;
-}
-
-.kdm-step-link:hover {
-	color: #0369a1;
-	transform: translateX(3px);
-}
-
 /* Social Buttons */
 .kdm-social-row {
 	display: flex;
@@ -295,9 +233,9 @@
 							Thank You For Connecting with <span class="kdm-gradient-highlight" style="color: #0284c7;">King of Digital Marketing</span>!
 						</h1>
 
-						<!-- Universal Subtitle -->
+						<!-- Subtitle Paragraph -->
 						<p class="kdm-thankyou-desc">
-							We have safely received your details. Whether you inquired about our <strong>Performance Marketing Services</strong>, <strong>Practical Training &amp; Courses</strong>, or submitted a <strong>Job &amp; Internship Application</strong>, our dedicated team led by founder <strong>Gaurav Dubey</strong> will review your submission and reach out within <strong>2 to 4 business hours</strong>.
+							We have safely received your details. Our dedicated team, led by founder Gaurav Dubey, will review your submission and reach out within 2 to 4 business hours. Thank you for connecting with us!
 						</p>
 
 						<!-- Credential Stats Bar -->
@@ -323,52 +261,9 @@
 							</a>
 						</div>
 
-						<!-- Universal Resource & Exploration Cards -->
-						<div class="kdm-next-steps-grid">
-							<!-- 1. Services -->
-							<div class="kdm-step-card">
-								<div>
-									<div class="kdm-step-icon"><i class="fa fa-rocket"></i></div>
-									<div class="kdm-step-title">Agency Services</div>
-									<p class="kdm-step-desc">Explore our ROI-driven SEO, Google Ads, Meta Ads &amp; Web Development solutions.</p>
-								</div>
-								<a href="digital-marketing-services.aspx" class="kdm-step-link">Explore Services <i class="fa fa-arrow-right"></i></a>
-							</div>
-
-							<!-- 2. Courses -->
-							<div class="kdm-step-card">
-								<div>
-									<div class="kdm-step-icon"><i class="fa fa-graduation-cap"></i></div>
-									<div class="kdm-step-title">Digital Courses</div>
-									<p class="kdm-step-desc">Master 60+ practical modules with live agency client projects &amp; 100% placement.</p>
-								</div>
-								<a href="digital-marketing-course.aspx" class="kdm-step-link">View Syllabus <i class="fa fa-arrow-right"></i></a>
-							</div>
-
-							<!-- 3. Case Studies & Proof -->
-							<div class="kdm-step-card">
-								<div>
-									<div class="kdm-step-icon"><i class="fa fa-trophy"></i></div>
-									<div class="kdm-step-title">Client Case Studies</div>
-									<p class="kdm-step-desc">Discover verified proof of 340%+ lead growth and Google #1 ranking case studies.</p>
-								</div>
-								<a href="seo-case-study.aspx" class="kdm-step-link">View Results <i class="fa fa-arrow-right"></i></a>
-							</div>
-
-							<!-- 4. Free SEO Audit Tool -->
-							<div class="kdm-step-card">
-								<div>
-									<div class="kdm-step-icon"><i class="fa fa-bolt"></i></div>
-									<div class="kdm-step-title">Free Website Audit</div>
-									<p class="kdm-step-desc">Instantly test your website health, Google Core Web Vitals &amp; technical errors.</p>
-								</div>
-								<a href="free-seo-audit.aspx" class="kdm-step-link">Run Audit Tool <i class="fa fa-arrow-right"></i></a>
-							</div>
-						</div>
-
 						<!-- Social Connect -->
 						<div style="margin-top: 30px; border-top: 1px solid #e2e8f0; padding-top: 25px;">
-							<h5 style="font-size: 13px; font-weight: 800; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;">CONNECT WITH GAURAV DUBEY &amp; KDM ON SOCIAL MEDIA</h5>
+							<h5 style="font-size: 13px; font-weight: 800; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;">CONNECT WITH US ON SOCIAL MEDIA</h5>
 							<div class="kdm-social-row">
 								<a href="https://www.facebook.com/kingofdigitalmarket" target="_blank" class="kdm-social-icon fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
 								<a href="https://www.instagram.com/kingofdigitalmarketing/" target="_blank" class="kdm-social-icon ig" title="Instagram"><i class="fab fa-instagram"></i></a>
