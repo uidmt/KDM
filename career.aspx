@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="career.aspx.cs" Inherits="career" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 	<title>Careers & Digital Marketing Jobs in Delhi | King of Digital Marketing</title>
 	<meta name="keywords" content="digital marketing jobs delhi, seo jobs in delhi, ppc executive career, google ads jobs delhi, meta ads jobs, digital marketing internship delhi, video editor internship, content writer jobs delhi, king of digital marketing careers">
@@ -496,9 +496,12 @@
 			</div>
 
 			<!-- Action CTA Button -->
-			<div class="kdm-service-hero-cta-wrap">
-				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn">
-					<i class="fa fa-paper-plane"></i> Apply for Job / Internship <i class="fa fa-arrow-right"></i>
+			<div class="kdm-service-hero-cta-wrap" style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+				<a href="javascript:void(0);" onclick="openCareerModal('Job', '')" class="kdm-service-hero-cta-btn">
+					<i class="fa fa-briefcase"></i> Apply for Full-Time Job <i class="fa fa-arrow-right"></i>
+				</a>
+				<a href="javascript:void(0);" onclick="openCareerModal('Internship', '')" class="kdm-service-hero-cta-btn" style="background: linear-gradient(135deg, #059669, #10b981);">
+					<i class="fa fa-graduation-cap"></i> Apply for 6-Month Internship <i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 
@@ -681,7 +684,7 @@
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> High-DA Link Building &amp; Digital PR</li>
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> GA4, GSC &amp; Screaming Frog Mastery</li>
 					</ul>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+					<a href="javascript:void(0);" onclick="openCareerModal('Job', 'SEO')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 						Apply for SEO Role <i class="fa fa-arrow-right"></i>
 					</a>
 				</div>
@@ -708,7 +711,7 @@
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> Negative Keyword &amp; Quality Score Optimization</li>
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> ROI &amp; CAC Optimization for Global Clients</li>
 					</ul>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+					<a href="javascript:void(0);" onclick="openCareerModal('Job', 'Google Ads')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 						Apply for PPC Role <i class="fa fa-arrow-right"></i>
 					</a>
 				</div>
@@ -735,7 +738,7 @@
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> Creative A/B Testing &amp; Hook Strategy</li>
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> CAPI &amp; Meta Pixel Advanced Setup</li>
 					</ul>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+					<a href="javascript:void(0);" onclick="openCareerModal('Job', 'Meta Ads')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 						Apply for Meta Ads <i class="fa fa-arrow-right"></i>
 					</a>
 				</div>
@@ -762,7 +765,7 @@
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> Dynamic Captions, Sound Design &amp; Pacing</li>
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #0284c7;"></i> Viral Video Scripting &amp; UGC Formats</li>
 					</ul>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+					<a href="javascript:void(0);" onclick="openCareerModal('Job', 'Video Editing')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 						Apply for Video Editing <i class="fa fa-arrow-right"></i>
 					</a>
 				</div>
@@ -789,7 +792,7 @@
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> WordPress &amp; E-Commerce Landing Pages</li>
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #9333ea;"></i> PageSpeed, Core Web Vitals &amp; Security</li>
 					</ul>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+					<a href="javascript:void(0);" onclick="openCareerModal('Job', 'Website developer')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 						Apply for Developer <i class="fa fa-arrow-right"></i>
 					</a>
 				</div>
@@ -816,7 +819,7 @@
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> 100% Original, Plagiarism-Free Writing</li>
 						<li class="career-role-item"><i class="fa fa-check-circle" style="color: #16a34a;"></i> AI-Enhanced Topical Research Skills</li>
 					</ul>
-					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+					<a href="javascript:void(0);" onclick="openCareerModal('Job', 'Content Writing')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 						Apply for Content Role <i class="fa fa-arrow-right"></i>
 					</a>
 				</div>
@@ -863,7 +866,7 @@
 						<div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #166534;">
 							<strong><i class="fa fa-map-pin"></i> Location:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
 						</div>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						<a href="javascript:void(0);" onclick="openCareerModal('Internship', 'SEO')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 							Apply for SEO Internship <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
@@ -892,7 +895,7 @@
 						<div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #166534;">
 							<strong><i class="fa fa-map-pin"></i> Location:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
 						</div>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						<a href="javascript:void(0);" onclick="openCareerModal('Internship', 'Google Ads')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 							Apply for Ads Internship <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
@@ -921,7 +924,7 @@
 						<div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #1e40af;">
 							<strong><i class="fa fa-video-camera"></i> Mode:</strong> Online Video Interview via Google Meet / Zoom
 						</div>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+						<a href="javascript:void(0);" onclick="openCareerModal('Internship', 'Video Editing')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 							Apply for Video Internship <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
@@ -950,7 +953,7 @@
 						<div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #991b1b;">
 							<strong><i class="fa fa-clock-o"></i> Status:</strong> Applications currently closed for this batch.
 						</div>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px; background: #94a3b8;">
+						<a href="javascript:void(0);" onclick="openCareerModal('Internship', 'Content Writing')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px; background: #94a3b8;">
 							Join Waitlist <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
@@ -978,7 +981,7 @@
 						<div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #991b1b;">
 							<strong><i class="fa fa-clock-o"></i> Status:</strong> Applications currently closed for this batch.
 						</div>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px; background: #94a3b8;">
+						<a href="javascript:void(0);" onclick="openCareerModal('Internship', 'Graphic Designing')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px; background: #94a3b8;">
 							Join Waitlist <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
@@ -1006,7 +1009,7 @@
 						<div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 10px; padding: 10px 12px; margin-bottom: 16px; font-size: 12.5px; color: #991b1b;">
 							<strong><i class="fa fa-clock-o"></i> Status:</strong> Applications currently closed for this batch.
 						</div>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px; background: #94a3b8;">
+						<a href="javascript:void(0);" onclick="openCareerModal('Internship', 'Website developer')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px; background: #94a3b8;">
 							Join Waitlist <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
@@ -1163,7 +1166,7 @@
 							<div style="font-size: 14.5px; color: #e2e8f0; margin-bottom: 18px;">
 								<i class="fa fa-map-marker" style="color: #f87171; margin-right: 10px;"></i> <strong>Address:</strong> First Floor, 1800/09, Govindpuri Ext, Kalkaji, New Delhi 110019
 							</div>
-							<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
+							<a href="javascript:void(0);" onclick="openCareerModal('', '')" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; display: block; font-size: 14px; padding: 12px 18px; border-radius: 12px;">
 								Submit Online Application <i class="fa fa-arrow-right"></i>
 							</a>
 						</div>
@@ -1281,6 +1284,144 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- ===== DEDICATED CAREER & INTERNSHIP APPLICATION MODAL ===== -->
+	<div id="careerJobModal" class="career-modal-backdrop" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(8px); z-index: 999999; justify-content: center; align-items: center; padding: 20px; box-sizing: border-box;">
+		<div class="career-modal-dialog" style="background: #ffffff; width: 100%; max-width: 620px; border-radius: 20px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4); max-height: 90vh; overflow-y: auto; position: relative; border: 1px solid #e2e8f0;">
+			<!-- Modal Header -->
+			<div style="background: linear-gradient(135deg, #0f172a, #1e293b); padding: 22px 28px; border-radius: 20px 20px 0 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #0284c7;">
+				<div>
+					<span style="background: rgba(2, 132, 199, 0.2); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 12px; text-transform: uppercase; letter-spacing: 0.5px;">KDM Careers &amp; Internships</span>
+					<h3 style="color: #ffffff; margin: 4px 0 0 0; font-size: 20px; font-weight: 900;">Job &amp; Internship Application</h3>
+				</div>
+				<button type="button" onclick="closeCareerModal()" style="background: rgba(255, 255, 255, 0.1); border: none; color: #ffffff; width: 36px; height: 36px; border-radius: 50%; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.2s;" onmouseover="this.style.background='rgba(239, 68, 68, 0.8)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.1)'">&times;</button>
+			</div>
+
+			<!-- Modal Body / Form -->
+			<div style="padding: 28px;">
+				<form id="careerApplicationForm" method="post" action="career.aspx" enctype="multipart/form-data">
+					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+						<div>
+							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Full Name <span style="color: #ef4444;">*</span></label>
+							<input type="text" name="name" placeholder="Your Full Name" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'">
+						</div>
+						<div>
+							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Phone Number <span style="color: #ef4444;">*</span></label>
+							<input type="tel" name="phone" placeholder="10-Digit Mobile No" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'">
+						</div>
+					</div>
+
+					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+						<div>
+							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Email Address <span style="color: #ef4444;">*</span></label>
+							<input type="email" name="email" placeholder="name@example.com" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'">
+						</div>
+						<div>
+							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Current City</label>
+							<input type="text" name="city" placeholder="e.g. Delhi, Noida, Remote" style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'">
+						</div>
+					</div>
+
+					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+						<div>
+							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Applying For <span style="color: #ef4444;">*</span></label>
+							<select id="careerApplyFor" name="apply_for" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; background: #fff; box-sizing: border-box;">
+								<option value="Job">Full-Time Job</option>
+								<option value="Internship">6-Month Paid Internship</option>
+							</select>
+						</div>
+						<div>
+							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Current Status <span style="color: #ef4444;">*</span></label>
+							<select name="status" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; background: #fff; box-sizing: border-box;">
+								<option value="Student">Student</option>
+								<option value="Working">Working Professional</option>
+								<option value="Freelancer">Freelancer</option>
+								<option value="Unemployed">Actively Seeking Job</option>
+							</select>
+						</div>
+					</div>
+
+					<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
+						<div>
+							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Select Role / Profile <span style="color: #ef4444;">*</span></label>
+							<select id="careerProfile" name="profile" required style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; background: #fff; box-sizing: border-box;">
+								<option value="SEO">SEO (Search Engine Optimization)</option>
+								<option value="Google Ads">Google Ads / PPC Specialist</option>
+								<option value="Meta Ads">Meta Ads &amp; Paid Social</option>
+								<option value="Video Editing">Creative Video Editing &amp; Motion</option>
+								<option value="Website developer">ASP.NET / Web Developer</option>
+								<option value="Content Writing">B2B Content Writing &amp; Copy</option>
+								<option value="Graphic Designing">Graphic Designing &amp; Creatives</option>
+								<option value="Social Media">Social Media Management (SMO)</option>
+								<option value="Business Development">Business Development &amp; Sales</option>
+							</select>
+						</div>
+						<div>
+							<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Total Experience</label>
+							<select name="experience" style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; background: #fff; box-sizing: border-box;">
+								<option value="Fresher">Fresher / 0 Exp</option>
+								<option value="6 Months">6 Months</option>
+								<option value="1 Year">1 Year</option>
+								<option value="2 Years">2 Years</option>
+								<option value="3+ Years">3+ Years</option>
+							</select>
+						</div>
+					</div>
+
+					<div style="margin-bottom: 14px;">
+						<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Upload Resume / CV (PDF / DOC) <span style="color: #ef4444;">*</span></label>
+						<input type="file" name="resume" accept=".pdf,.doc,.docx" required style="width: 100%; padding: 9px 12px; border: 1.5px dashed #0284c7; background: #f0f9ff; border-radius: 10px; font-size: 13.5px; color: #0f172a; outline: none; box-sizing: border-box; cursor: pointer;">
+					</div>
+
+					<div style="margin-bottom: 20px;">
+						<label style="font-size: 12.5px; font-weight: 700; color: #334155; margin-bottom: 5px; display: block;">Why Should We Hire You? / Portfolio Link</label>
+						<textarea name="reason_for_hiring" rows="3" placeholder="Briefly share your top skills, live URLs, portfolio link, or motivation..." style="width: 100%; padding: 11px 14px; border: 1.5px solid #cbd5e1; border-radius: 10px; font-size: 14px; color: #0f172a; outline: none; resize: vertical; box-sizing: border-box;" onfocus="this.style.borderColor='#0284c7'" onblur="this.style.borderColor='#cbd5e1'"></textarea>
+					</div>
+
+					<button type="submit" class="kdm-service-hero-cta-btn" style="width: 100%; text-align: center; border: none; padding: 15px 24px; border-radius: 12px; font-size: 16px; font-weight: 800; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;">
+						<i class="fa fa-paper-plane"></i> Submit Application Directly <i class="fa fa-arrow-right"></i>
+					</button>
+
+					<p style="font-size: 12px; color: #64748b; text-align: center; margin: 12px 0 0 0;">
+						🔒 Your details and CV will be directly reviewed by Gaurav Dubey and the KDM HR cell.
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Career Modal JavaScript Helper -->
+	<script>
+		function openCareerModal(applyFor, profile) {
+			var modal = document.getElementById('careerJobModal');
+			if (modal) {
+				modal.style.display = 'flex';
+				if (applyFor) {
+					var applySelect = document.getElementById('careerApplyFor');
+					if (applySelect) applySelect.value = applyFor;
+				}
+				if (profile) {
+					var profileSelect = document.getElementById('careerProfile');
+					if (profileSelect) profileSelect.value = profile;
+				}
+			}
+		}
+
+		function closeCareerModal() {
+			var modal = document.getElementById('careerJobModal');
+			if (modal) {
+				modal.style.display = 'none';
+			}
+		}
+
+		// Close modal if user clicks on the backdrop outside dialog
+		window.addEventListener('click', function(e) {
+			var modal = document.getElementById('careerJobModal');
+			if (e.target === modal) {
+				closeCareerModal();
+			}
+		});
+	</script>
 
 	<!-- Centralized Global JS Dependencies -->
 	<script src="js/kdm-faq.js"></script>
