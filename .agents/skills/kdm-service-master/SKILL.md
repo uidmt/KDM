@@ -45,7 +45,7 @@ All styling and scripting leverage existing centralized stylesheets (`css/home-c
    - Marquee track with partner logos from Default.aspx.
 
 7. **Most Popular Industries We Work With (`.industry-slider-section`)** [Dark Theme]:
-   - 14 vibrant industry cards:
+   - 16 vibrant industry cards:
      1. Astrology (`digital-marketing-for-astrology.aspx`)
      2. Real Estate (`digital-marketing-for-real-estate.aspx`)
      3. Hair Transplant (`hair-transplant-digital-marketing-services.aspx`)
@@ -60,6 +60,8 @@ All styling and scripting leverage existing centralized stylesheets (`css/home-c
      12. Export Business (`digital-marketing-for-import-export.aspx`)
      13. Travel Agency (`digital-marketing-for-travel-agency.aspx`)
      14. Event Management (`digital-marketing-for-event-management-company.aspx`)
+     15. Yoga Studio (`digital-marketing-for-yoga.aspx`)
+     16. Restaurant & Cafe (`digital-marketing-for-restaurant.aspx`)
    - Bottom CTA: `View All Industries` linking to `https://www.kingofdigitalmarketing.com/industries-we-serve.aspx`.
 
 8. **About the Experts Behind {{SERVICE_NAME}} (`.kdm-experts-section`)** [White Theme]:

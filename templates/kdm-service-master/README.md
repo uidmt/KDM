@@ -21,7 +21,7 @@ Standardized, high-converting 10-section master template architecture for core &
    - Title: `Your Trust Made Us Top {{SERVICE_NAME}} Company in Delhi, India To Help Flourish Your Business`
    - Motto tags and brand marquee track (ISKCON, Meena Bazaar, VLCC, Dr. Jamuna Pai, QHT, CANX, etc.).
 7. **Most Popular Industries We Work With (`.industry-slider-section`)** [Dark Theme]:
-   - 14 distinct vibrant industry cards (Astrology, Real Estate, Hair Transplant, Study Abroad Consultant, Cosmetic Surgeon, Ecommerce, Immigration Consultant, Stock Market Institute and Advisor, Ayurvedic Products, Skin Clinic, CA Firm, Export Business, Travel Agency, Event Management).
+   - 16 distinct vibrant industry cards (Astrology, Real Estate, Hair Transplant, Study Abroad Consultant, Cosmetic Surgeon, Ecommerce, Immigration Consultant, Stock Market Institute and Advisor, Ayurvedic Products, Skin Clinic, CA Firm, Export Business, Travel Agency, Event Management, Yoga Studio, Restaurant & Cafe).
    - Bottom CTA: `View All Industries` linking to `https://www.kingofdigitalmarketing.com/industries-we-serve.aspx`.
 8. **About the Experts Behind {{SERVICE_NAME}} (`.kdm-experts-section`)** [White Theme]:
    - Gaurav Dubey profile card + 32+ In-House Specialists Team card.
