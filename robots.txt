@@ -1,4 +1,116 @@
-# robots.txt for https://www.kingofdigitalmarketing.com/
+# ==============================================================================
+# robots.txt for King of Digital Marketing (https://www.kingofdigitalmarketing.com)
+# Optimized for Google, Bing, Yahoo, Yandex, Baidu & Generative AI Search Engines (GEO)
+# ==============================================================================
+
+# 1. GLOBAL DEFAULT CRAWLER DIRECTIVES
 User-agent: *
 Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /fonts/
+Allow: /img/
+Allow: /blog/
+Allow: /llms.txt
+
+# Disallow Private, System & Administrative Directories
+Disallow: /bin/
+Disallow: /obj/
+Disallow: /App_Code/
+Disallow: /App_Data/
+Disallow: /vendor/
+Disallow: /templates/
+Disallow: /scratch/
+Disallow: /.agents/
+Disallow: /.gemini/
+
+# Disallow Form Confirmation & Error Utility Pages
+Disallow: /thankyou.aspx
+Disallow: /thank-you.aspx
+Disallow: /thankyou-lead.aspx
+Disallow: /404.aspx
+
+# Disallow System & Configuration Files
+Disallow: /web.config
+Disallow: /web.config.bak
+Disallow: /*.cs$
+Disallow: /*.config$
+Disallow: /*.bak$
+Disallow: /*.txt$
+Allow: /robots.txt
+Allow: /llms.txt
+
+# ------------------------------------------------------------------------------
+# 2. MAJOR SEARCH ENGINES (FULL ACCESS)
+# ------------------------------------------------------------------------------
+
+# Googlebot & Google Mobile / Image Search
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-Mobile
+User-agent: Googlebot-Video
+User-agent: Google-InspectionTool
+Allow: /
+
+# Microsoft Bing & Yahoo Search
+User-agent: Bingbot
+User-agent: msnbot
+User-agent: Slurp
+Allow: /
+
+# Apple Search & Siri Suggestions
+User-agent: Applebot
+Allow: /
+
+# DuckDuckGo, Yandex, Baidu
+User-agent: DuckDuckBot
+User-agent: YandexBot
+User-agent: Baiduspider
+Allow: /
+
+# ------------------------------------------------------------------------------
+# 3. GENERATIVE AI & LLM SEARCH CRAWLERS (GEO OPTIMIZED)
+# Grant full access for AI search indexing, recommendations & citations
+# ------------------------------------------------------------------------------
+
+# OpenAI ChatGPT & SearchGPT
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic Claude & Search
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI Search Engine
+User-agent: PerplexityBot
+Allow: /
+
+# Google Gemini & AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI & Llama Search
+User-agent: Meta-ExternalAgent
+User-agent: FacebookBot
+Allow: /
+
+# Cohere, Common Crawl & Other AI Indexers
+User-agent: Cohere-ai
+User-agent: CCBot
+User-agent: Diffbot
+User-agent: Bytespider
+Allow: /
+
+# ------------------------------------------------------------------------------
+# 4. XML SITEMAP LOCATION
+# ------------------------------------------------------------------------------
 Sitemap: https://www.kingofdigitalmarketing.com/sitemap.xml
