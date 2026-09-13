@@ -452,18 +452,30 @@
 			<div style="background: rgba(30, 41, 59, 0.75); backdrop-filter: blur(20px); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 28px; padding: 50px 40px; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45); max-width: 1180px; margin: 0 auto;">
 				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 45px; align-items: center;">
 					
-					<!-- Left: Founder Image with Premium Frame -->
-					<div style="text-align: center;">
-						<div style="position: relative; display: inline-block; max-width: 380px; width: 100%;">
-							<div style="position: absolute; inset: -8px; background: linear-gradient(135deg, #0284c7, #38bdf8, #818cf8); border-radius: 26px; filter: blur(12px); opacity: 0.5;"></div>
+					<!-- Left: Founder Image, Name & Social Media Links -->
+					<div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+						<div style="position: relative; display: inline-block; max-width: 360px; width: 100%;">
+							<div style="position: absolute; inset: -8px; background: linear-gradient(135deg, #0284c7, #38bdf8, #818cf8); border-radius: 26px; filter: blur(12px); opacity: 0.45;"></div>
 							<img src="images/gaurav-dubey/thegauravdubey.png" alt="Gaurav Dubey - Founder &amp; Chief Digital Strategist" style="width: 100%; border-radius: 22px; position: relative; z-index: 2; border: 2px solid rgba(255, 255, 255, 0.2); box-shadow: 0 20px 45px rgba(0,0,0,0.5); display: block; object-fit: cover;" />
-							<div style="position: absolute; bottom: 14px; left: 14px; right: 14px; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); border: 1px solid rgba(56, 189, 248, 0.4); border-radius: 14px; padding: 10px 14px; z-index: 3; text-align: left; display: flex; align-items: center; justify-content: space-between;">
-								<div>
-									<h4 style="font-size: 15px; font-weight: 900; color: #ffffff; margin: 0;">Gaurav Dubey</h4>
-									<p style="font-size: 11.5px; color: #38bdf8; margin: 2px 0 0 0; font-weight: 700;">Founder &amp; Chief Marketing Strategist</p>
-								</div>
-								<span style="background: #0284c7; color: #ffffff; font-size: 10px; font-weight: 800; padding: 4px 10px; border-radius: 12px; text-transform: uppercase;">13+ Yrs Exp</span>
+						</div>
+
+						<!-- Name & Title Below Image -->
+						<div style="margin-top: 20px; text-align: center; position: relative; z-index: 3;">
+							<h3 style="font-size: 24px; font-weight: 900; color: #ffffff; margin: 0 0 4px 0; letter-spacing: -0.5px;">Gaurav Dubey</h3>
+							<p style="font-size: 13.5px; color: #38bdf8; margin: 0 0 10px 0; font-weight: 700; letter-spacing: 0.3px;">Founder &amp; Chief Marketing Strategist</p>
+							<div style="display: inline-block; background: rgba(2, 132, 199, 0.25); border: 1px solid rgba(56, 189, 248, 0.4); color: #e0f2fe; font-size: 11px; font-weight: 800; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px;">
+								13+ Years Exp &bull; 900+ Projects
 							</div>
+						</div>
+
+						<!-- Social Media Icons Below Name -->
+						<div class="kdm-gd-social-wrap" style="justify-content: center;">
+							<a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" class="kdm-gd-social-link li" title="Connect with Gaurav Dubey on LinkedIn" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+							<a href="https://www.instagram.com/gauravdubey.in/" target="_blank" class="kdm-gd-social-link ig" title="Follow Gaurav Dubey on Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
+							<a href="https://www.youtube.com/@thegauravdubey" target="_blank" class="kdm-gd-social-link yt" title="Subscribe to Gaurav Dubey on YouTube" rel="noopener"><i class="fab fa-youtube"></i></a>
+							<a href="https://www.facebook.com/gauravdubey.in" target="_blank" class="kdm-gd-social-link fb" title="Follow Gaurav Dubey on Facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://x.com/iamgauravdubey" target="_blank" class="kdm-gd-social-link tw" title="Follow Gaurav Dubey on X (Twitter)" rel="noopener"><i class="fab fa-x-twitter"></i></a>
+							<a href="gaurav-dubey.aspx" class="kdm-gd-social-link web" title="View Full Profile &amp; Bio" rel="noopener"><i class="fa fa-globe"></i></a>
 						</div>
 					</div>
 
@@ -512,19 +524,11 @@
 							</p>
 						</div>
 
-						<!-- Action CTA & Social Connect -->
-						<div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-							<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="padding: 13px 26px; font-size: 14.5px;">
+						<!-- Action CTA -->
+						<div style="margin-top: 10px;">
+							<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn" style="padding: 14px 28px; font-size: 15px; display: inline-flex; align-items: center; gap: 10px;">
 								<i class="fa fa-calendar-check"></i> Book Consultation with Gaurav Dubey <i class="fa fa-arrow-right"></i>
 							</a>
-							<div class="kdm-gd-social-wrap">
-								<a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" class="kdm-gd-social-link li" title="Connect with Gaurav Dubey on LinkedIn" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
-								<a href="https://www.instagram.com/gauravdubey.in/" target="_blank" class="kdm-gd-social-link ig" title="Follow Gaurav Dubey on Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
-								<a href="https://www.youtube.com/@thegauravdubey" target="_blank" class="kdm-gd-social-link yt" title="Subscribe to Gaurav Dubey on YouTube" rel="noopener"><i class="fab fa-youtube"></i></a>
-								<a href="https://www.facebook.com/gauravdubey.in" target="_blank" class="kdm-gd-social-link fb" title="Follow Gaurav Dubey on Facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-								<a href="https://x.com/iamgauravdubey" target="_blank" class="kdm-gd-social-link tw" title="Follow Gaurav Dubey on X (Twitter)" rel="noopener"><i class="fab fa-x-twitter"></i></a>
-								<a href="gaurav-dubey.aspx" class="kdm-gd-social-link web" title="View Full Profile &amp; Bio" rel="noopener"><i class="fa fa-globe"></i></a>
-							</div>
 						</div>
 					</div>
 
