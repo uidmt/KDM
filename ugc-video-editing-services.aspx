@@ -93,50 +93,50 @@
 	      "mainEntity": [
 	        {
 	          "@type": "Question",
-	          "name": "What makes King of Digital Marketing the best UGC Video Editing Services company in Delhi, India?",
+	          "name": "What is UGC Video Editing Services and how does it benefit my business?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "With 13+ years of industry mastery, 900+ successful campaigns across 15+ countries, and leadership under senior consultant Gaurav Dubey, we provide customized, data-driven ugc video editing services engineered to maximize return on investment and business growth."
+	            "text": "UGC Video Editing Services is a dedicated growth solution designed to capture qualified buyer intent, elevate brand visibility, and generate scalable inquiries. Our data-backed approach ensures high conversion rates, lower customer acquisition costs, and compounding commercial ROI."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "How do your UGC Video Editing Services help grow my business?",
+	          "name": "Why is King of Digital Marketing the best UGC Video Editing Services company in Delhi, India?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "Our ugc video editing services are built around commercially focused user intent, high-converting digital funnels, and continuous technical optimization—delivering qualified leads, higher brand authority, and sustainable revenue growth."
+	            "text": "With 13+ years of industry mastery, 900+ successful campaigns across 15+ countries, and direct leadership under senior consultant Gaurav Dubey, King of Digital Marketing delivers 100% compliant, customized growth systems that outpace competitors."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "How long does it take to see measurable results from UGC Video Editing Services?",
+	          "name": "How quickly can we expect measurable results from your UGC Video Editing Services?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "While initial campaign milestones and leading metrics improve within the first 30 to 60 days, full-scale market dominance and compounded ROI are typically established within 3 to 6 months of continuous execution."
+	            "text": "Initial campaign momentum and leading metrics show strong progress within 30 to 60 days, while full-scale market dominance and compound return on investment are typically established within 3 to 6 months."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "Do you provide custom strategies tailored to my specific industry?",
+	          "name": "Do you provide custom strategies tailored specifically to our industry?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "Yes. We reject cookie-cutter approaches. We have served over 150+ industry verticals (Healthcare, Real Estate, E-Commerce, B2B, Education, Legal, etc.) and tailor every strategy to your target audience and competitive dynamics."
+	            "text": "Yes, absolutely. We have successfully served over 150+ industry verticals (Healthcare, Real Estate, E-Commerce, B2B Exporters, Education, Financial Services, SaaS). Every campaign roadmap is built from scratch around your specific target audience."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "Will I get a dedicated account manager for my UGC Video Editing Services campaign?",
+	          "name": "Will I get a dedicated account manager for our UGC Video Editing Services campaign?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "Yes, every client is assigned a dedicated senior specialist along with direct strategy oversight from founder Gaurav Dubey to ensure clear communication, rapid turnaround, and regular performance reviews."
+	            "text": "Yes. Every client is assigned a dedicated senior growth specialist along with direct strategic oversight from founder Gaurav Dubey for continuous alignment, weekly status updates, and monthly strategy reviews."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "How do you track and report UGC Video Editing Services performance?",
+	          "name": "How do you track, measure, and report campaign performance?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "We provide 100% transparent, real-time reporting dashboards with granular attribution tracking (traffic, keyword ranks, inquiries, conversion rates, and ROI metrics) delivered weekly and monthly."
+	            "text": "We provide 100% transparent, real-time monthly reports covering keyword rankings, Google Analytics 4 (GA4) traffic, qualified inbound leads, conversion attribution, and net ROI metrics."
 	          }
 	        },
 	        {
@@ -144,39 +144,39 @@
 	          "name": "What tools and modern technologies do you use for UGC Video Editing Services?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "We utilize industry-standard enterprise tools including Google Analytics 4, Search Console, SEMrush, Ahrefs, Meta Business Suite, Google Tag Manager, hotjar, and specialized AI optimization software."
+	            "text": "We utilize industry-standard enterprise software including Google Search Console, GA4, SEMrush, Ahrefs, Meta Business Suite, Google Tag Manager, hotjar, and advanced AI optimization tools."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "Can your UGC Video Editing Services integrate with my existing CRM and sales workflows?",
+	          "name": "Can your UGC Video Editing Services integrate with our existing CRM and sales workflows?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "Yes. We configure automated webhooks and API integrations connecting inbound leads directly into HubSpot, Salesforce, Zoho CRM, Google Sheets, email, and sales team WhatsApp."
+	            "text": "Yes. We configure automated webhooks and API connections pushing inbound customer leads directly into HubSpot, Salesforce, Zoho CRM, Google Sheets, email, and sales team WhatsApp within seconds."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "Are your techniques 100% safe and compliant with platform policies?",
+	          "name": "Are your methodologies 100% compliant with Google and platform policies?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "Yes, absolutely. We strictly adhere to official search engine and advertising network guidelines (Google, Meta, LinkedIn, Apple) to protect your brand reputation and domain authority."
+	            "text": "Yes, strictly 100%. We adhere to official search engine quality standards, Google Search Essentials, and ad network compliance policies to protect your long-term domain authority."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "What budgets or package tiers do you offer for UGC Video Editing Services?",
+	          "name": "What budget tiers and package options do you offer for UGC Video Editing Services?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "We provide flexible, milestone-based packages tailored for startups, SMEs, and large enterprise brands, ensuring maximum marketing efficiency at every stage of your growth."
+	            "text": "We offer flexible, milestone-based packages tailored for startups, expanding SMBs, and large enterprise brands, ensuring maximum marketing efficiency at every stage of business growth."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "How do you handle competitor analysis and market benchmarking?",
+	          "name": "How do you conduct competitor benchmarking and reverse-engineering?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "We perform deep competitor reverse-engineering—analyzing top-performing search terms, ad creatives, backlink profiles, conversion hooks, and audience segments to identify profitable opportunities."
+	            "text": "We perform deep competitor analysis—examining top-performing search terms, ad creatives, backlink profiles, conversion hooks, and audience segments to identify high-margin commercial opportunities."
 	          }
 	        },
 	        {
@@ -184,7 +184,7 @@
 	          "name": "Can you handle international and multi-regional UGC Video Editing Services campaigns?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "Yes. We have managed cross-border campaigns across 15+ countries including USA, UK, Canada, Australia, UAE, Singapore, Germany, and Ireland with complete localization support."
+	            "text": "Yes. We have executed cross-border campaigns across 15+ countries including USA, UK, Canada, Australia, UAE, Europe, and Asia-Pacific with comprehensive localization and multi-currency support."
 	          }
 	        },
 	        {
@@ -192,15 +192,15 @@
 	          "name": "Do you offer conversion rate optimization (CRO) alongside UGC Video Editing Services?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "Yes. Generating traffic is only half the battle; we optimize landing page UI/UX, CTA placement, value propositions, and form frictionless design to ensure maximum conversion percentage."
+	            "text": "Yes. Traffic without conversions is wasted budget. We optimize landing page UI/UX, CTA placement, value propositions, and form frictionless design to double your inquiry conversion rates."
 	          }
 	        },
 	        {
 	          "@type": "Question",
-	          "name": "What makes your agency different from other digital agencies in Delhi?",
+	          "name": "What makes King of Digital Marketing different from other digital agencies in Delhi?",
 	          "acceptedAnswer": {
 	            "@type": "Answer",
-	            "text": "Unlike generic agencies that outsource work, King of Digital Marketing has 32+ in-house certified specialists, 13+ years of direct agency heritage since 2013, proven transparent reporting, and direct oversight by Gaurav Dubey."
+	            "text": "Unlike generic agencies that outsource campaigns, King of Digital Marketing features 32+ in-house certified specialists, 13+ years of direct agency heritage since 2013, transparent reporting, and direct oversight by Gaurav Dubey."
 	          }
 	        },
 	        {
@@ -219,509 +219,493 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-	<!-- ===== 1. HERO SECTION ===== -->
+	<!-- ===== 1. HERO SECTION AS IT IS ===== -->
 	<div class="kdm-service-hero">
 		<div class="kdm-service-hero-container">
 			<!-- Breadcrumbs Navigation -->
-			<ul class="kdm-service-breadcrumb">
-				<li><a href="https://www.kingofdigitalmarketing.com/"><i class="fa fa-home"></i> Home</a></li>
-				<li>/</li>
-				<li class="active">UGC Video Editing Services</li>
-			</ul>
+			<div class="kdm-service-hero-breadcrumbs">
+				<ul>
+					<li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
+					<li class="breadcrumb-sep">/</li>
+					<li class="breadcrumb-current">UGC Video Editing Services</li>
+				</ul>
+			</div>
 
-			<!-- Verified Badge -->
-			<span class="kdm-service-badge">
-				<i class="fa fa-star"></i> #1 RATED UGC VIDEO EDITING SERVICES IN DELHI, INDIA
+			<!-- Badge Tag -->
+			<span class="kdm-service-hero-badge">
+				<i class="fa fa-trophy"></i> #1 RATED UGC VIDEO EDITING SERVICES IN DELHI, INDIA
 			</span>
 
-			<!-- Main Heading -->
+			<!-- Main H1 Title -->
 			<h1 class="kdm-service-hero-title">
 				Scale Your Business with Top <span class="kdm-gradient-highlight">UGC Video Editing Services</span>
 			</h1>
 
-			<!-- Hero Subtitle -->
+			<!-- Subtitle Paragraph -->
 			<p class="kdm-service-hero-subtitle">
 				Empower your brand with results-driven ugc video editing services, verified customer acquisition, and strategic execution from India's trusted digital growth agency.
 			</p>
 
-			<!-- Stats Trust Bar -->
-			<div class="kdm-service-stats-bar">
-				<div class="kdm-service-stat-item">
-					<strong>900+</strong>
-					<span>Projects Completed</span>
-				</div>
-				<div class="kdm-service-stat-item">
-					<strong>⭐ 4.9/5</strong>
-					<span>Client Satisfaction</span>
-				</div>
-				<div class="kdm-service-stat-item">
-					<strong>850+</strong>
-					<span>Active Clients</span>
-				</div>
-				<div class="kdm-service-stat-item">
-					<strong>15+</strong>
-					<span>Countries Served</span>
-				</div>
+			<!-- Trust Stats Bar -->
+			<div class="kdm-service-hero-stats-bar">
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-trophy"></i> 900+ Successful Projects</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-green">⚡ 850+ Global Clients Served</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-highlight">🌍 15+ Countries Covered</span>
 			</div>
 
-			<!-- Hero CTA Button (No Inline Form, triggers openGlobalPopupForm()) -->
-			<div class="kdm-service-cta-wrapper">
-				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-hero-btn-primary">
-					<i class="fa fa-paper-plane"></i> Get Free Strategy Blueprint &amp; Audit <i class="fa fa-arrow-right"></i>
+			<!-- Action CTA Button -->
+			<div class="kdm-service-hero-cta-wrap">
+				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn">
+					<i class="fa fa-rocket"></i> Get Free UGC Video Editing Services Proposal <i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 
-			<!-- Value Highlights Bullets -->
+			<!-- Value Highlights Row -->
 			<div class="kdm-service-hero-highlights">
-				<span class="kdm-hero-check"><i class="fa fa-check-circle"></i> 13+ Years Proven Industry Mastery</span>
-				<span class="kdm-hero-check"><i class="fa fa-check-circle"></i> 900+ Completed Projects Worldwide</span>
-				<span class="kdm-hero-check"><i class="fa fa-check-circle"></i> Dedicated Senior Account Manager</span>
-				<span class="kdm-hero-check"><i class="fa fa-check-circle"></i> Transparent Performance Reporting</span>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 13+ Years Proven Industry Mastery</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> 900+ Completed Projects Worldwide</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Dedicated Senior Account Manager</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Transparent Performance Reporting</div>
 			</div>
 		</div>
 	</div>
+	<!-- ===== END HERO SECTION ===== -->
 
-	<!-- ===== 2. WHITE THEME - INTRO & STRATEGIC POSITIONING ===== -->
-	<section class="kdm-loc-intro-section" style="padding: 70px 0; background: #ffffff;">
+	<!-- ===== 2. INTRO - BEST SERVICES IN DELHI, INDIA (300 WORDS + HIGHLIGHTS) ===== -->
+	<section class="kdm-loc-intro-section" style="background: #f8fafc; padding: 60px 0; border-bottom: 1px solid #e2e8f0;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="kdm-loc-intro-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
-						<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 16px;">
-							<i class="fa fa-check-circle"></i> STRATEGIC MARKET LEADERSHIP
-						</span>
-						<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-top: 0; margin-bottom: 20px; line-height: 1.3;">
-							Best UGC Video Editing Services in Delhi, India To Drive Real Business Results
-						</h2>
-						<p style="font-size: 15.5px; color: #334155; line-height: 1.8; margin-bottom: 18px;">
-							In an increasingly competitive digital marketplace, having expert <strong>ugc video editing services in Delhi, India</strong> is essential to establishing market authority, capturing high-intent prospects, and maximizing your return on investment.
-						</p>
-						<p style="font-size: 15.5px; color: #334155; line-height: 1.8; margin-bottom: 18px;">
-							At <strong>King of Digital Marketing</strong>, our specialized ugc video editing services team leverages over 13+ years of technical excellence, creative precision, and performance data to design custom strategies that solve your core business challenges.
-						</p>
-						<p style="font-size: 15.5px; color: #334155; line-height: 1.8; margin-bottom: 0;">
-							From startups and growing SMEs to established enterprises, we engineer customized solutions that drive measurable engagement, streamline operations, and accelerate revenue growth across domestic and global markets.
-						</p>
-					</div>
+			<div class="kdm-loc-intro-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 24px; padding: 45px 35px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); max-width: 1140px; margin: 0 auto;">
+				<div class="text-center" style="margin-bottom: 30px;">
+					<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+						<i class="fa fa-star"></i> STRATEGIC UGC VIDEO EDITING SERVICES LEADERSHIP
+					</span>
+					<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3;">
+						Best UGC Video Editing Services in <span style="color: #0284c7;">Delhi, India</span>
+					</h2>
+					<div style="width: 80px; height: 4px; background: linear-gradient(90deg, #0284c7, #38bdf8); border-radius: 2px; margin: 0 auto;"></div>
 				</div>
-			</div>
+				
+				<div style="font-size: 16px; color: #334155; line-height: 1.85; margin-bottom: 35px;">
+					<p style="margin-bottom: 18px;">
+						If you are looking for the <strong>best ugc video editing services company in Delhi, India</strong> to elevate your brand presence, attract high-intent customers, and accelerate measurable business revenue, <strong>King of Digital Marketing</strong> is your trusted strategic partner.
+					</p>
+					<p style="margin-bottom: 18px;">
+						Our dedicated team brings over <strong>13+ years of proven expertise</strong> and a track record of executing 900+ successful campaigns across India, USA, UK, UAE, and 15+ global markets. Led by veteran consultant <strong>Gaurav Dubey</strong>, we combine data-backed strategies, creative excellence, and modern technology to deliver outstanding performance.
+					</p>
+					<p style="margin-bottom: 0;">
+						From startups and growing SMEs to established enterprises, our customized ugc video editing services are engineered to solve your core business challenges, eliminate marketing inefficiencies, and deliver compounding return on investment.
+					</p>
+				</div>
 
-			<!-- 4 Capabilities Highlights Below Intro -->
-			<div class="row" style="margin-top: 35px;">
-				<div class="col-md-3 col-sm-6 mb-4">
-					<div class="kdm-loc-card">
-						<div class="kdm-loc-card-icon"><i class="fa fa-compass"></i></div>
-						<h3>Custom Strategic Planning</h3>
-						<p>In-depth market research, competitor gap analysis, and tailored ugc video editing services roadmap.</p>
+				<!-- 4 Quick Capabilities Cards -->
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #0284c7; margin-bottom: 10px;"><i class="fa fa-compass"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Custom Strategic Planning</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">In-depth market research, competitor gap analysis, and tailored ugc video editing services roadmap.</p>
 					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 mb-4">
-					<div class="kdm-loc-card">
-						<div class="kdm-loc-card-icon"><i class="fa fa-cogs"></i></div>
-						<h3>Expert Technical Execution</h3>
-						<p>Built to the highest modern standards using proven industry frameworks and tools.</p>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #10b981; margin-bottom: 10px;"><i class="fa fa-cogs"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Expert Technical Execution</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Built to the highest modern standards using proven industry frameworks and tools.</p>
 					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 mb-4">
-					<div class="kdm-loc-card">
-						<div class="kdm-loc-card-icon"><i class="fa fa-line-chart"></i></div>
-						<h3>Conversion & ROI Focus</h3>
-						<p>Engineered to turn views, clicks, and interactions into qualified client inquiries.</p>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #8b5cf6; margin-bottom: 10px;"><i class="fa fa-line-chart"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Conversion & ROI Focus</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Engineered to turn views, clicks, and interactions into qualified client inquiries.</p>
 					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 mb-4">
-					<div class="kdm-loc-card">
-						<div class="kdm-loc-card-icon"><i class="fa fa-refresh"></i></div>
-						<h3>Continuous Optimization</h3>
-						<p>Data-backed testing, performance tracking, and agile enhancements for long-term growth.</p>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #f59e0b; margin-bottom: 10px;"><i class="fa fa-refresh"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Continuous Optimization</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Data-backed testing, performance tracking, and agile enhancements for long-term growth.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- ===== 3. WHITE THEME - CREDENTIALS & MILESTONES (FROM DEFAULT.ASPX) ===== -->
-	<section class="kdm-credentials-white-section" style="padding: 60px 0; background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
+	<!-- ===== 3. CREDENTIALS SECTION (TAKEN FROM DEFAULT.ASPX) ===== -->
+	<section class="kdm-credentials-white-section">
 		<div class="container">
-			<div class="kdm-credentials-header text-center" style="margin-bottom: 40px;">
-				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
-					<i class="fa fa-trophy"></i> AGENCY MILESTONES &amp; RECORD
-				</span>
-				<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">OUR <span style="color: #0284c7;">CREDENTIALS</span></h2>
-				<p style="font-size: 15px; color: #64748b; margin: 0;">These Numbers Speak A Lot About Our Industry Experience &amp; Dedication</p>
+			<div class="kdm-credentials-header">
+				<div class="kdm-credentials-badge">
+					<i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
+				</div>
+				<h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+				<p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
 			</div>
 
-			<div class="kdm-credentials-5grid" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-				<!-- Box 1: 13+ Years Exp -->
-				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(2, 132, 199, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #0284c7;">
+			<div class="kdm-credentials-5grid counters dark counters-row">
+				<!-- Box 1: 13+ Years of Experience -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 							<circle cx="12" cy="12" r="10"></circle>
 							<polyline points="12 6 12 12 16 14"></polyline>
 						</svg>
 					</div>
-					<strong class="counter-value kdm-cred-num" data-to="13" data-append="+" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">13+</strong>
-					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Years of Experience</label>
+					<strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
+					<label class="kdm-cred-label">Years of Experience</label>
 				</div>
 
-				<!-- Box 2: 900+ Projects -->
-				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(16, 185, 129, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #10b981;">
+				<!-- Box 2: 900+ Projects Completed -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
 							<polyline points="22 4 12 14.01 9 11.01"></polyline>
 						</svg>
 					</div>
-					<strong class="counter-value kdm-cred-num" data-to="900" data-append="+" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">900+</strong>
-					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Projects Completed</label>
+					<strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
+					<label class="kdm-cred-label">Projects Completed</label>
 				</div>
 
-				<!-- Box 3: 15+ Countries -->
-				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(139, 92, 246, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #8b5cf6;">
+				<!-- Box 3: 15+ Countries Served -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 							<circle cx="12" cy="12" r="10"></circle>
 							<line x1="2" y1="12" x2="22" y2="12"></line>
 							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
 						</svg>
 					</div>
-					<strong class="counter-value kdm-cred-num" data-to="15" data-append="+" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">15+</strong>
-					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Countries Served</label>
+					<strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
+					<label class="kdm-cred-label">Countries Served</label>
 				</div>
 
-				<!-- Box 4: 4.9 Rating -->
-				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(245, 158, 11, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #f59e0b;">
+				<!-- Box 4: 4.9 Overall Rating -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
 						</svg>
 					</div>
-					<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">4.9★</strong>
-					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Overall Rating</label>
+					<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
+					<label class="kdm-cred-label">Overall Rating</label>
 				</div>
 
-				<!-- Box 5: 150+ Industries -->
-				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(239, 68, 68, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #ef4444;">
+				<!-- Box 5: 150+ Industries Served -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 							<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
 							<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
 						</svg>
 					</div>
-					<strong class="counter-value kdm-cred-num" data-to="150" data-append="+" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">150+</strong>
-					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Industries Served</label>
+					<strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
+					<label class="kdm-cred-label">Industries Served</label>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- ===== 4. WHITE THEME - WHY CHOOSE KING OF DIGITAL MARKETING ===== -->
-	<section class="kdm-why-choose-section" style="padding: 75px 0; background: #ffffff;">
+	<!-- ===== 4. WHITE THEME - WHY CHOOSE KING OF DIGITAL MARKETING FOR SERVICE NAME (6 POINTERS) ===== -->
+	<section class="kdm-why-choose-section">
+		<div class="container">
+			<div class="kdm-why-choose-header">
+				<span class="kdm-seo-badge"><i class="fa fa-check-circle"></i> WHY PARTNER WITH US</span>
+				<h2>Why Choose King of Digital Marketing for <strong>UGC Video Editing Services</strong>?</h2>
+				<p>
+					We don't offer generic marketing tactics. We build customized, high-ROI systems engineered to dominate search rankings, drive high-intent leads, and grow revenue predictably.
+				</p>
+			</div>
+
+			<div class="kdm-why-choose-grid">
+				<!-- Card 1 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="8" r="7"></circle>
+							<polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+						</svg>
+					</div>
+					<h3>13+ Years UGC Video Editing Services Leadership</h3>
+					<p>Proven track record delivering top-tier ugc video editing services across 150+ industry verticals.</p>
+				</div>
+
+				<!-- Card 2 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<line x1="2" y1="12" x2="22" y2="12"></line>
+							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+						</svg>
+					</div>
+					<h3>Certified In-House Specialists</h3>
+					<p>32+ dedicated specialists focused on high standards, creative excellence, and rapid turnaround.</p>
+				</div>
+
+				<!-- Card 3 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+						</svg>
+					</div>
+					<h3>Tailored Industry Blueprints</h3>
+					<p>No one-size-fits-all approaches; every campaign is customized to your commercial goals.</p>
+				</div>
+
+				<!-- Card 4 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="12" y1="1" x2="12" y2="23"></line>
+							<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+						</svg>
+					</div>
+					<h3>Direct Expert Consultation</h3>
+					<p>Direct strategy oversight from founder Gaurav Dubey and your dedicated account lead.</p>
+				</div>
+
+				<!-- Card 5 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+							<polyline points="14 2 14 8 20 8"></polyline>
+							<line x1="16" y1="13" x2="8" y2="13"></line>
+							<line x1="16" y1="17" x2="8" y2="17"></line>
+							<polyline points="10 9 9 9 8 9"></polyline>
+						</svg>
+					</div>
+					<h3>Transparent Metrics & Analytics</h3>
+					<p>Real-time visibility into project milestones, deliverables, and performance metrics.</p>
+				</div>
+
+				<!-- Card 6 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+							<circle cx="9" cy="7" r="4"></circle>
+							<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+						</svg>
+					</div>
+					<h3>End-to-End Digital Synergy</h3>
+					<p>Seamless integration with your existing marketing channels, CRM, and sales pipelines.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 5. 9-STEP PROCESS FOR SERVICE NAME (DARK THEME) ===== -->
+	<section class="kdm-seo-process-section">
+		<div class="container">
+			<div class="kdm-seo-process-header">
+				<span class="kdm-seo-badge">PROVEN 9-STAGE FRAMEWORK</span>
+				<h2 class="kdm-seo-process-title">9-Step Process for <strong>UGC Video Editing Services</strong></h2>
+				<p class="kdm-seo-process-desc">
+					Our systematic 9-phase framework integrates deep market auditing, targeted search execution, high-intent copywriting, and conversion rate optimization to scale your business.
+				</p>
+			</div>
+
+			<div class="kdm-seo-process-grid">
+				<!-- Step 1 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<line x1="2" y1="12" x2="22" y2="12"></line>
+							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+						</svg>
+					</div>
+					<h3>1. Discovery & Strategic Planning</h3>
+					<p>Understanding your business goals, target audience, and specific requirements for ugc video editing services.</p>
+				</div>
+
+				<!-- Step 2 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="11" cy="11" r="8"></circle>
+							<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+							<path d="M11 8v6M8 11h6"></path>
+						</svg>
+					</div>
+					<h3>2. Competitor & Market Benchmark</h3>
+					<p>In-depth audit of industry leaders, identifying strategic opportunities and key differentiators.</p>
+				</div>
+
+				<!-- Step 3 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+							<line x1="8" y1="21" x2="16" y2="21"></line>
+							<line x1="12" y1="17" x2="12" y2="21"></line>
+						</svg>
+					</div>
+					<h3>3. Custom Roadmap & Architecture</h3>
+					<p>Designing a structured milestone blueprint detailing technical and creative execution phases.</p>
+				</div>
+
+				<!-- Step 4 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polyline points="16 18 22 12 16 6"></polyline>
+							<polyline points="8 6 2 12 8 18"></polyline>
+						</svg>
+					</div>
+					<h3>4. Foundation Setup & Asset Prep</h3>
+					<p>Setting up required tracking, environments, brand guidelines, and integration workflows.</p>
+				</div>
+
+				<!-- Step 5 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+							<polyline points="14 2 14 8 20 8"></polyline>
+							<line x1="16" y1="13" x2="8" y2="13"></line>
+							<line x1="16" y1="17" x2="8" y2="17"></line>
+						</svg>
+					</div>
+					<h3>5. Core Execution Phase</h3>
+					<p>Implementing high-quality ugc video editing services adhering to best practice industry standards.</p>
+				</div>
+
+				<!-- Step 6 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+						</svg>
+					</div>
+					<h3>6. Rigorous Quality Assurance (QA)</h3>
+					<p>Multi-device testing, speed checks, functional verification, and precision review.</p>
+				</div>
+
+				<!-- Step 7 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+							<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+						</svg>
+					</div>
+					<h3>7. Deployment & Campaign Launch</h3>
+					<p>Seamless live deployment with zero downtime and full system validation.</p>
+				</div>
+
+				<!-- Step 8 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+						</svg>
+					</div>
+					<h3>8. Continuous Monitoring & Refinement</h3>
+					<p>Tracking engagement, user interaction, conversion rates, and making agile enhancements.</p>
+				</div>
+
+				<!-- Step 9 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<h3>9. Performance Review & Scaling</h3>
+					<p>Delivering detailed transparent reports and strategic scaling roadmaps for continued ROI.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 6. WHITE THEME - YOUR TRUST MADE US TOP SERVICES COMPANY (DEFAULT.ASPX LOGOS) ===== -->
+	<section class="kdm-clients-white-section">
+		<div class="container">
+			<div class="row custom-row">
+				<div class="col-md-12 col-sm-12">
+					<div class="kdm-clients-header">
+						<div class="kdm-clients-badge">
+							<i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
+						</div>
+						<h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">UGC Video Editing Services Company in Delhi, India</span> To Help Flourish Your Business</h2>
+						<p class="kdm-clients-subtitle">
+							What makes us distinct is our valuable clients. We strive day in and day out to secure their branding, online reputation, visibility, high-converting traffic, and qualified lead generation.
+						</p>
+						<div class="kdm-clients-motto-wrapper">
+							<div class="kdm-clients-motto">
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Ambitious</span>
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Experts</span>
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Shepherd</span>
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are King</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="happy" id="images">
+						<div class="track">
+							<!-- Featured Priority Client Logos from default.aspx -->
+							<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
+							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
+							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg"></div>
+							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 7. DARK THEME - MOST POPULAR INDUSTRIES WE WORK WITH (16 VIBRANT INDUSTRIES + VIEW ALL LINK) ===== -->
+	<section class="industry-slider-section" style="background: #090d16; padding: 70px 0; border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06);">
 		<div class="container">
 			<div class="text-center" style="margin-bottom: 45px;">
-				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
-					<i class="fa fa-thumbs-up"></i> PROVEN VALUE &amp; COMPETITIVE ADVANTAGE
+				<span class="kdm-seo-badge" style="background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1.2px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+					<i class="fa fa-briefcase"></i> INDUSTRY SPECIALIZATIONS
 				</span>
-				<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">
-					Why Choose King of Digital Marketing For <span style="color: #0284c7;">UGC Video Editing Services</span>?
+				<h2 class="industry-heading" style="color: #ffffff; font-size: 34px; font-weight: 900; margin: 0 0 12px 0;">
+					Most Popular Industries <strong style="background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">We Work With</strong>
 				</h2>
-				<p style="font-size: 15px; color: #64748b; max-width: 750px; margin: 0 auto;">
-					We engineer customized, high-converting digital frameworks combining deep algorithmic knowledge with commercial execution.
+				<p style="color: #94a3b8; font-size: 16px; max-width: 800px; margin: 0 auto; line-height: 1.7;">
+					We deliver high-converting marketing strategies customized for leading commercial and professional industry sectors.
 				</p>
 			</div>
 
-			<div class="row">
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
-							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-								<polyline points="22 4 12 14.01 9 11.01"></polyline>
-							</svg>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">13+ Years UGC Video Editing Services Leadership</h3>
-						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Proven track record delivering top-tier ugc video editing services across 150+ industry verticals.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
-							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-								<polyline points="22 4 12 14.01 9 11.01"></polyline>
-							</svg>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Certified In-House Specialists</h3>
-						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Dedicated specialists focused on high standards, creative excellence, and rapid turnaround.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
-							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-								<polyline points="22 4 12 14.01 9 11.01"></polyline>
-							</svg>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Tailored Industry Blueprints</h3>
-						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">No one-size-fits-all approaches; every campaign is customized to your commercial goals.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
-							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-								<polyline points="22 4 12 14.01 9 11.01"></polyline>
-							</svg>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Direct Expert Consultation</h3>
-						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Direct strategy oversight from founder Gaurav Dubey and your dedicated account lead.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
-							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-								<polyline points="22 4 12 14.01 9 11.01"></polyline>
-							</svg>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Transparent Metrics & Analytics</h3>
-						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Real-time visibility into project milestones, deliverables, and performance metrics.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
-							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-								<polyline points="22 4 12 14.01 9 11.01"></polyline>
-							</svg>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">End-to-End Digital Synergy</h3>
-						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Seamless integration with your existing marketing channels, CRM, and sales pipelines.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ===== 5. DARK THEME - 9 STEP WORK PROCESS ===== -->
-	<section class="kdm-seo-process-section" style="padding: 80px 0; background: #070a12; color: #ffffff;">
-		<div class="container">
-			<div class="text-center" style="margin-bottom: 50px;">
-				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
-					<i class="fa fa-cogs"></i> OUR SYSTEMATIC BLUEPRINT
-				</span>
-				<h2 style="font-size: 30px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">
-					9-Step Execution Process For <span style="background: linear-gradient(135deg, #38bdf8 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">UGC Video Editing Services</span>
-				</h2>
-				<p style="font-size: 15.5px; color: #94a3b8; max-width: 780px; margin: 0 auto;">
-					Our battle-tested 9-phase roadmap ensures every technical, creative, and analytical touchpoint delivers compounding commercial ROI.
-				</p>
-			</div>
-
-			<div class="row">
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
-							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-								</svg>
-							</div>
-							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">01</span>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Discovery & Strategy Consultation</h3>
-						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Understanding your business goals, target audience, and specific requirements for ugc video editing services.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
-							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-								</svg>
-							</div>
-							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">02</span>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Competitor & Market Benchmark</h3>
-						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">In-depth audit of industry leaders, identifying strategic opportunities and key differentiators.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
-							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-								</svg>
-							</div>
-							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">03</span>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Custom Roadmap & Architecture</h3>
-						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Designing a structured milestone blueprint detailing technical and creative execution phases.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
-							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-								</svg>
-							</div>
-							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">04</span>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Foundation Setup & Asset Prep</h3>
-						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Setting up required tracking, environments, brand guidelines, and integration workflows.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
-							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-								</svg>
-							</div>
-							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">05</span>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Core Execution Phase</h3>
-						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Implementing high-quality ugc video editing services adhering to best practice industry standards.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
-							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-								</svg>
-							</div>
-							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">06</span>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Rigorous Quality Assurance (QA)</h3>
-						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Multi-device testing, speed checks, functional verification, and precision review.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
-							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-								</svg>
-							</div>
-							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">07</span>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Deployment & Campaign Launch</h3>
-						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Seamless live deployment with zero downtime and full system validation.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
-							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-								</svg>
-							</div>
-							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">08</span>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Continuous Monitoring & Refinement</h3>
-						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Tracking engagement, user interaction, conversion rates, and making agile enhancements.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 mb-4">
-					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
-							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-								</svg>
-							</div>
-							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">09</span>
-						</div>
-						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Performance Review & Scaling</h3>
-						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Delivering detailed transparent reports and strategic scaling roadmaps for continued ROI.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ===== 6. WHITE THEME - CLIENT TRUST & PARTNER LOGOS (FROM DEFAULT.ASPX) ===== -->
-	<section class="kdm-clients-white-section" style="padding: 70px 0; background: #ffffff;">
-		<div class="container">
-			<div class="text-center" style="margin-bottom: 35px;">
-				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
-					<i class="fa fa-handshake-o"></i> ENTERPRISE TRUST &amp; PARTNERSHIPS
-				</span>
-				<h2 style="font-size: 26px; font-weight: 800; color: #0f172a; margin-bottom: 12px; line-height: 1.35;">
-					Your Trust Made Us Top <span style="color: #0284c7;">UGC Video Editing Services Company</span> in Delhi, India To Help Flourish Your Business
-				</h2>
-				<div class="kdm-motto-tags" style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
-					<span style="background: #f1f5f9; color: #334155; font-size: 13.5px; font-weight: 700; padding: 6px 18px; border-radius: 30px;"><i class="fa fa-check text-success"></i> Customer Satisfaction</span>
-					<span style="background: #f1f5f9; color: #334155; font-size: 13.5px; font-weight: 700; padding: 6px 18px; border-radius: 30px;"><i class="fa fa-check text-success"></i> 24/7 Support</span>
-					<span style="background: #f1f5f9; color: #334155; font-size: 13.5px; font-weight: 700; padding: 6px 18px; border-radius: 30px;"><i class="fa fa-check text-success"></i> High-Standard Results</span>
-				</div>
-			</div>
-
-			<!-- Marquee Track with Logos from Default.aspx -->
-			<div class="slide-container" style="overflow: hidden; padding: 15px 0;">
-				<div class="slide-now" style="display: flex; gap: 30px; animation: slideTrack 25s linear infinite;">
-					<img alt="satguru" src="images/satguru--logo.webp" style="height: 50px; object-fit: contain;">
-					<img alt="Skinmumma" src="images/Skinmumma-logo.webp" style="height: 50px; object-fit: contain;">
-					<img alt="Prep guru" src="images/Prep-guru-logo.webp" style="height: 50px; object-fit: contain;">
-					<img alt="cara" src="images/cara_img.webp" style="height: 50px; object-fit: contain;">
-					<img alt="Olympus" src="images/Olympus_img.webp" style="height: 50px; object-fit: contain;">
-					<img alt="cocoona" src="images/cocoona.webp" style="height: 50px; object-fit: contain;">
-					<img alt="monickaa gupta" src="images/monickaagupta_img.webp" style="height: 50px; object-fit: contain;">
-					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp" style="height: 50px; object-fit: contain;">
-					<img alt="hera hair solutions" src="images/herahairsolutions.webp" style="height: 50px; object-fit: contain;">
-					<img alt="MTel" src="images/MTel_img.webp" style="height: 50px; object-fit: contain;">
-					<img alt="Propert" src="images/Propert-Logo.webp" style="height: 50px; object-fit: contain;">
-					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp" style="height: 50px; object-fit: contain;">
-					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp" style="height: 50px; object-fit: contain;">
-					<img alt="go to university" src="images/go to university.webp" style="height: 50px; object-fit: contain;">
-					<img alt="Cityc Clinic" src="images/CitycClinic.webp" style="height: 50px; object-fit: contain;">
-					<img alt="thechocolateroom" src="images/thechocolateroom.webp" style="height: 50px; object-fit: contain;">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ===== 7. DARK THEME - MOST POPULAR INDUSTRIES WE WORK WITH ===== -->
-	<section class="industry-slider-section" style="padding: 80px 0; background: #070a12; color: #ffffff;">
-		<div class="container">
-			<div class="text-center" style="margin-bottom: 45px;">
-				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
-					<i class="fa fa-briefcase"></i> SECTOR DOMINANCE
-				</span>
-				<h2 style="font-size: 30px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">
-					Most Popular Industries We Work With
-				</h2>
-				<p style="font-size: 15.5px; color: #94a3b8; max-width: 780px; margin: 0 auto;">
-					Explore high-performing digital marketing frameworks tailored specifically for your vertical.
-				</p>
-			</div>
-
-			<!-- 16 Vibrant Industry Cards Grid -->
-			<div class="kdm-industry-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin-bottom: 40px;">
-
+			<!-- 16 Vibrant Industries Responsive Grid -->
+			<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; margin-bottom: 45px;">
+				
 				<!-- Industry 1: Astrology -->
-				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-					<div class="kdm-ind-icon-hub" style="background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(251, 191, 36, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(251, 191, 36, 0.15); border: 1px solid rgba(251, 191, 36, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
 						</svg>
 					</div>
 					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-astrology.aspx" style="color: #ffffff; text-decoration: none;">Astrology</a></h3>
-					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-converting international consultation leads for astrologers worldwide.</p>
-					<a href="digital-marketing-for-astrology.aspx" style="color: #8b5cf6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Worldwide consultation bookings and global horoscope app discovery.</p>
+					<a href="digital-marketing-for-astrology.aspx" style="color: #fbbf24; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 				</div>
 
 				<!-- Industry 2: Real Estate -->
@@ -733,46 +717,47 @@
 						</svg>
 					</div>
 					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-real-estate.aspx" style="color: #ffffff; text-decoration: none;">Real Estate</a></h3>
-					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">NRI property buyer leads and commercial project marketing worldwide.</p>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Targeting international NRI investors and luxury real estate buyers.</p>
 					<a href="digital-marketing-for-real-estate.aspx" style="color: #10b981; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 				</div>
 
 				<!-- Industry 3: Hair Transplant -->
-				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-					<div class="kdm-ind-icon-hub" style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-						</svg>
-					</div>
-					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="hair-transplant-digital-marketing-services.aspx" style="color: #ffffff; text-decoration: none;">Hair Transplant</a></h3>
-					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Medical tourism patient inquiries from USA, UK, UAE &amp; Canada.</p>
-					<a href="hair-transplant-digital-marketing-services.aspx" style="color: #38bdf8; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
-				</div>
-
-				<!-- Industry 4: Study Abroad Consultant -->
-				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-					<div class="kdm-ind-icon-hub" style="background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-							<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-						</svg>
-					</div>
-					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="study-abroad-consultant-lead-generation.aspx" style="color: #ffffff; text-decoration: none;">Study Abroad</a></h3>
-					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Qualified student admissions for UK, Canada, Australia &amp; Europe universities.</p>
-					<a href="study-abroad-consultant-lead-generation.aspx" style="color: #f59e0b; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
-				</div>
-
-				<!-- Industry 5: Cosmetic Surgeon -->
 				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(236, 72, 153, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
 					<div class="kdm-ind-icon-hub" style="background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
 						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
-							<path d="M12 2a10 10 0 0 1 10 10h-10V2z"></path>
+							<circle cx="12" cy="7" r="4"></circle>
+							<path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="hair-transplant-digital-marketing-services.aspx" style="color: #ffffff; text-decoration: none;">Hair Transplant</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">50+ successful global clinics ranking for medical tourism procedures.</p>
+					<a href="hair-transplant-digital-marketing-services.aspx" style="color: #ec4899; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 4: Study Abroad Consultant -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+							<path d="M6 12v5c0 2 6 3 6 3s6-1 6-3v-5"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="study-abroad-consultant-lead-generation.aspx" style="color: #ffffff; text-decoration: none;">Study Abroad Consultant</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-intent student lead generation across USA, UK, Canada &amp; Australia.</p>
+					<a href="study-abroad-consultant-lead-generation.aspx" style="color: #38bdf8; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 5: Cosmetic Surgeon -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+							<circle cx="12" cy="12" r="9"></circle>
 						</svg>
 					</div>
 					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #ffffff; text-decoration: none;">Cosmetic Surgeon</a></h3>
-					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-value surgical appointment bookings &amp; international patient pipeline.</p>
-					<a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #ec4899; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">International patient acquisition for aesthetic plastic &amp; cosmetic surgeries.</p>
+					<a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #a855f7; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 				</div>
 
 				<!-- Industry 6: Ecommerce -->
@@ -940,317 +925,489 @@
 		</div>
 	</section>
 
-	<!-- ===== 8. WHITE THEME - ABOUT THE EXPERTS BEHIND SERVICE ===== -->
-	<section class="kdm-experts-section" style="padding: 80px 0; background: #ffffff;">
+	<!-- ===== 8. WHITE THEME - ABOUT THE EXPERTS BEHIND SERVICE NAME ===== -->
+	<section class="kdm-experts-section">
 		<div class="container">
-			<div class="kdm-experts-header text-center" style="margin-bottom: 45px;">
+			<div class="kdm-experts-header">
 				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
 					<i class="fa fa-user-circle-o"></i> LEADERSHIP &amp; EXPERT TEAM
 				</span>
-				<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">
-					About the Experts Behind <span style="color: #0284c7;">UGC Video Editing Services</span>
+				<h2 class="kdm-experts-title">
+					About the Experts <span>Behind UGC Video Editing Services</span>
 				</h2>
-				<p style="font-size: 15px; color: #64748b; max-width: 750px; margin: 0 auto;">
-					Meet the experienced consultants, campaign architects, and technical analysts driving measurable client growth.
+				<p class="kdm-experts-subtitle">
+					Your business growth is powered by seasoned marketing strategists, industry leaders, and certified technical analysts dedicated to delivering top Google rankings and maximum ROI.
 				</p>
 			</div>
 
-			<div class="row">
+			<div class="kdm-experts-grid">
 				<!-- Expert 1: Gaurav Dubey -->
-				<div class="col-md-6 mb-4">
-					<div class="kdm-expert-card" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 20px; padding: 32px; height: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
-						<div class="kdm-expert-top" style="display: flex; gap: 20px; align-items: center; margin-bottom: 20px;">
-							<img src="images/gaurav%20dubey%20digital%20marketing.webp" alt="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" title="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" class="kdm-expert-img" style="width: 85px; height: 85px; border-radius: 50%; object-fit: cover; border: 3px solid #0284c7;">
-							<div>
-								<h3 class="kdm-expert-name" style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 4px 0;"><a href="gaurav-dubey.aspx" style="color: #0f172a; text-decoration: none;">Gaurav Dubey</a></h3>
-								<p class="kdm-expert-role" style="font-size: 13.5px; font-weight: 700; color: #0284c7; margin: 0 0 10px 0;">Founder &amp; Senior Digital Marketing Consultant</p>
-								<div class="kdm-expert-socials" style="display: flex; gap: 10px;">
-									<a href="https://www.linkedin.com/in/thegauravdubey/" target="_blank" style="color: #0077b5; font-size: 16px;"><i class="fa fa-linkedin-square"></i></a>
-									<a href="https://www.youtube.com/@TheGauravDubey" target="_blank" style="color: #ff0000; font-size: 16px;"><i class="fa fa-youtube-play"></i></a>
-									<a href="https://www.instagram.com/thegauravdubey/" target="_blank" style="color: #e4405f; font-size: 16px;"><i class="fa fa-instagram"></i></a>
-								</div>
-							</div>
+				<div class="kdm-expert-card">
+					<div class="kdm-expert-header-box">
+						<div class="kdm-expert-avatar-img">
+							<img src="images/gaurav%20dubey%20digital%20marketing.webp" alt="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" title="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" class="kdm-expert-img">
 						</div>
-						<p class="kdm-expert-bio" style="font-size: 14.5px; color: #475569; line-height: 1.7; margin-bottom: 20px;">
-							With over <strong>13+ years of hands-on digital marketing leadership</strong>, Gaurav Dubey has spearheaded <strong>900+ successful campaigns</strong> across India, USA, UK, UAE &amp; 15+ global markets. Specialist in advanced SEO algorithms, high-converting Google Ads funnels, Meta performance marketing, and Generative Engine Optimization (GEO).
-						</p>
-						<div class="kdm-expert-stats" style="display: flex; gap: 15px; border-top: 1px solid #e2e8f0; padding-top: 18px;">
-							<div style="flex: 1;">
-								<strong style="display: block; font-size: 18px; font-weight: 800; color: #0284c7;">13+ Yrs</strong>
-								<span style="font-size: 12px; color: #64748b;">Experience</span>
-							</div>
-							<div style="flex: 1;">
-								<strong style="display: block; font-size: 18px; font-weight: 800; color: #0284c7;">900+</strong>
-								<span style="font-size: 12px; color: #64748b;">Projects Handled</span>
-							</div>
-							<div style="flex: 1;">
-								<strong style="display: block; font-size: 18px; font-weight: 800; color: #0284c7;">15+</strong>
-								<span style="font-size: 12px; color: #64748b;">Countries Served</span>
-							</div>
+						<div class="kdm-expert-name-title">
+							<h3 class="kdm-expert-name">Gaurav Dubey</h3>
+							<span class="kdm-expert-role">Founder &amp; Senior Marketing Strategist (13+ Yrs Exp)</span>
 						</div>
 					</div>
+					<p class="kdm-expert-bio">
+						With over 13+ years of hands-on digital marketing leadership, Gaurav Dubey has spearheaded 900+ successful campaigns across India, USA, UK, UAE &amp; global markets. Specialist in advanced SEO algorithms, high-converting Google Ads funnels, Meta performance marketing, and Generative Engine Optimization (GEO).
+					</p>
+					<ul class="kdm-expert-list">
+						<li><i class="fa fa-check-circle"></i> 13+ Years Proven Digital Growth Track Record</li>
+						<li><i class="fa fa-check-circle"></i> 900+ Enterprise &amp; Startup Projects Delivered</li>
+						<li><i class="fa fa-check-circle"></i> 100% White-Hat &amp; Algorithm-Compliant Strategies</li>
+					</ul>
 				</div>
 
-				<!-- Expert 2: In-House Team -->
-				<div class="col-md-6 mb-4">
-					<div class="kdm-expert-card" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 20px; padding: 32px; height: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
-						<div class="kdm-expert-top" style="display: flex; gap: 20px; align-items: center; margin-bottom: 20px;">
-							<img src="images/team/kdm-team-experts.webp" alt="King of Digital Marketing Specialists Team" title="King of Digital Marketing Specialists Team" class="kdm-expert-img" style="width: 85px; height: 85px; border-radius: 50%; object-fit: cover; border: 3px solid #10b981;">
-							<div>
-								<h3 class="kdm-expert-name" style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 4px 0;"><a href="team.aspx" style="color: #0f172a; text-decoration: none;">32+ In-House Specialists</a></h3>
-								<p class="kdm-expert-role" style="font-size: 13.5px; font-weight: 700; color: #10b981; margin: 0 0 10px 0;">Technical SEO, PPC &amp; Creative Strategists</p>
-								<span style="font-size: 12.5px; background: rgba(16, 185, 129, 0.1); color: #059669; font-weight: 700; padding: 3px 10px; border-radius: 20px;">Google &amp; Meta Certified</span>
-							</div>
-						</div>
-						<p class="kdm-expert-bio" style="font-size: 14.5px; color: #475569; line-height: 1.7; margin-bottom: 20px;">
-							Our cross-functional in-house team includes technical SEO auditors, Google Ads certified professionals, copywriters, speed optimization engineers, and full-stack developers dedicated to scaling your digital visibility.
-						</p>
-						<div class="kdm-expert-stats" style="display: flex; gap: 15px; border-top: 1px solid #e2e8f0; padding-top: 18px;">
-							<div style="flex: 1;">
-								<strong style="display: block; font-size: 18px; font-weight: 800; color: #10b981;">32+</strong>
-								<span style="font-size: 12px; color: #64748b;">Specialists</span>
-							</div>
-							<div style="flex: 1;">
-								<strong style="display: block; font-size: 18px; font-weight: 800; color: #10b981;">100%</strong>
-								<span style="font-size: 12px; color: #64748b;">In-House Team</span>
-							</div>
-							<div style="flex: 1;">
-								<strong style="display: block; font-size: 18px; font-weight: 800; color: #10b981;">24/7</strong>
-								<span style="font-size: 12px; color: #64748b;">Client Support</span>
-							</div>
+				<!-- Expert 2: In-House Specialists Team -->
+				<div class="kdm-expert-card">
+					<div class="kdm-expert-header-box">
+						<div class="kdm-expert-avatar team">32+</div>
+						<div class="kdm-expert-name-title">
+							<h3 class="kdm-expert-name">In-House Marketing Specialists Team</h3>
+							<span class="kdm-expert-role">Dedicated Regional Growth Operations</span>
 						</div>
 					</div>
+					<p class="kdm-expert-bio">
+						Our dedicated team of 32+ Google and Meta certified specialists includes Technical SEO Engineers, PPC Campaign Analysts, Social Media Strategists, UI/UX Web Developers, and High-Intent Copywriters working full-time on your custom marketing campaign.
+					</p>
+					<ul class="kdm-expert-list">
+						<li><i class="fa fa-check-circle"></i> 32+ Full-Time In-House Engineers &amp; Strategists</li>
+						<li><i class="fa fa-check-circle"></i> Dedicated Account Managers &amp; Weekly KPI Reporting</li>
+						<li><i class="fa fa-check-circle"></i> Rapid Turnaround &amp; Continuous A/B Testing</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- ===== 9. DARK THEME - WHAT OUR CLIENTS SAY (TESTIMONIALS SLIDER) ===== -->
-	<section class="kdm-testimonial-section" style="padding: 80px 0; background: #070a12; color: #ffffff;">
+	<!-- ===== 9. DARK THEME - TESTIMONIALS ===== -->
+	<section class="kdm-testimonial-section">
 		<div class="container">
-			<div class="text-center" style="margin-bottom: 45px;">
-				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
-					<i class="fa fa-comments"></i> VERIFIED CLIENT REVIEWS
-				</span>
-				<h2 style="font-size: 30px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">
-					What Our Clients Say About <span style="background: linear-gradient(135deg, #38bdf8 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">UGC Video Editing Services</span>
-				</h2>
-				<p style="font-size: 15.5px; color: #94a3b8; max-width: 750px; margin: 0 auto;">
-					Discover how our data-backed strategies transformed business outcomes for partners worldwide.
-				</p>
+			<div class="kdm-testimonial-header">
+				<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> CLIENT TESTIMONIALS</span>
+				<h2 class="kdm-testimonial-title">What Our Clients Say About <strong>UGC Video Editing Services</strong></h2>
+				<p class="kdm-testimonial-subtitle">Real feedback from founders and business leaders who achieved top rankings, verified inquiries, and massive revenue growth with King of Digital Marketing.</p>
 			</div>
 
-			<div class="kdm-testimonial-slider-wrap" style="max-width: 880px; margin: 0 auto; position: relative;">
-				<div class="kdm-testi-track" id="kdmTestimonialTrack" style="display: flex; overflow: hidden;">
-					<!-- Review 1 -->
-					<div class="kdm-testi-slide" style="min-width: 100%; box-sizing: border-box; padding: 35px 30px; background: rgba(15, 23, 42, 0.85); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 24px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.4);">
-						<div style="color: #f59e0b; font-size: 20px; margin-bottom: 18px;">
+			<div class="kdm-testimonial-wrapper">
+				<div class="kdm-testimonial-slides">
+
+					<!-- Slide 1: Aji Jeeva (UK) -->
+					<div class="kdm-testimonial-card active">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
-						<p style="font-size: 17px; color: #f1f5f9; line-height: 1.8; font-style: italic; margin-bottom: 24px;">
-							"King of Digital Marketing helped us scale our inquiries by over 300% within 5 months. Their technical precision, proactive communication, and Gaurav Dubey's direct strategy guidance made a massive difference to our revenue pipeline."
+						<p class="kdm-testimonial-quote">
+							"I hired King of Digital Marketing for ugc video editing services, and I am thrilled with the worldwide ranking results. My website is now ranking on page 1 of Google UK for high-competition keywords. Gaurav Dubey and his team are always available to guide us with genuine care."
 						</p>
-						<h4 style="font-size: 17px; font-weight: 800; color: #38bdf8; margin: 0 0 4px 0;">Rajesh Khanna</h4>
-						<span style="font-size: 13.5px; color: #94a3b8;">Managing Director, Global Export Hub</span>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-1">AJ</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Aji Jeeva</h4>
+								<span class="kdm-testimonial-role">Founder — smgains.com (United Kingdom)</span>
+							</div>
+						</div>
 					</div>
+
+					<!-- Slide 2: Roopak (Dubai) -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"King of Digital Marketing helped skyrocket our student admissions and organic inquiries. Their strategic campaign execution was spot-on. Thanks to Gaurav Dubey and his team, our inquiries grew by over 240%."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-2">R</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Roopak</h4>
+								<span class="kdm-testimonial-role">Founder — gotouniversity.com (Dubai, UAE)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 3: Younus (Morocco) -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"Targeting international clients was challenging before we partnered with King of Digital Marketing. They gave transparent monthly reports and structured clear conversion paths. Highly recommend their services!"
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-3">Y</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Younus</h4>
+								<span class="kdm-testimonial-role">Founder — moroccotourismagency.com (Morocco)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 4: Kejsi (Turkey) -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"It has been a truly profitable experience working with King of Digital Marketing. They helped our clinic rank on Google's first page in the UK, Germany, and Arab countries for medical tourism queries, generating verified overseas patient consultations every single day."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-4">K</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Kejsi</h4>
+								<span class="kdm-testimonial-role">Founder — herahairsolutions.com (Turkey)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 5: David (USA) -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"Gaurav Dubey and his team at King of Digital Marketing delivered exceptional results for our business. Within four months, our qualified inbound inquiries scaled significantly. They are hands-down the best growth partner."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-5">D</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">David</h4>
+								<span class="kdm-testimonial-role">Founder — audiocityusa.com (United States)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 6: Dr. Sanjay (Dubai) -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"We noticed massive improvement in customer inquiries and online authority across the region. Gaurav Dubey's deep understanding of performance marketing and conversion optimization made all the difference."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-6">DS</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Dr. Sanjay</h4>
+								<span class="kdm-testimonial-role">Founder — cocoona.in (Dubai, UAE)</span>
+							</div>
+						</div>
+					</div>
+
 				</div>
+
+				<!-- Navigation Arrows -->
+				<button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+					<i class="fa fa-chevron-left"></i>
+				</button>
+				<button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+					<i class="fa fa-chevron-right"></i>
+				</button>
+
+				<!-- Pagination Dots -->
+				<div class="kdm-testimonial-dots"></div>
 			</div>
 		</div>
 	</section>
 
-	<!-- ===== 10. INTERACTIVE FAQS & GRAND OFFERS SECTION ===== -->
-	<section class="kdm-faq-section" style="padding: 80px 0; background: #ffffff;">
+	<!-- ===== 10. LAST FAQS & GRAND OFFERS SECTION (WHITE THEME / 15 FAQS + 3 OFFERS) ===== -->
+	<section class="kdm-faq-section" style="background: #ffffff; padding: 60px 0; border-top: 1px solid #e2e8f0;">
 		<div class="container">
 			<div class="row">
-				<!-- Left Column: 15 Accordion FAQs -->
-				<div class="col-md-6 mb-4">
-					<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 12px;">
-						<i class="fa fa-question-circle"></i> FREQUENTLY ASKED QUESTIONS
-					</span>
-					<h2 style="font-size: 26px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">
-						Got Questions About <span style="color: #0284c7;">UGC Video Editing Services</span>?
-					</h2>
-					<p style="font-size: 14.5px; color: #64748b; margin-bottom: 25px;">Find clear, transparent answers to common queries below.</p>
+				<!-- 15 Interactive Accordion FAQs -->
+				<div class="col-md-6">
+					<div style="margin-bottom: 25px;">
+						<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
+							<i class="fa fa-question-circle"></i> FREQUENTLY ASKED QUESTIONS
+						</span>
+						<h2 style="font-size: 28px; font-weight: 900; color: #0f172a; margin: 0 0 8px 0; line-height: 1.3;">
+							FAQs About <strong style="color: #0284c7;">UGC Video Editing Services</strong>
+						</h2>
+						<p style="font-size: 14px; color: #64748b; margin: 0;">Everything you need to know about our proven methodology and growth packages.</p>
+					</div>
 
 					<div class="kdm-faq-accordion">
-					<div class="kdm-faq-item active">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.1. What makes King of Digital Marketing the best UGC Video Editing Services company in Delhi, India?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of industry mastery, 900+ successful campaigns across 15+ countries, and leadership under senior consultant Gaurav Dubey, we provide customized, data-driven ugc video editing services engineered to maximize return on investment and business growth.</p>
+						<!-- Q1 -->
+						<div class="kdm-faq-item active">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.1. What is UGC Video Editing Services and how does it benefit my business?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> <strong>UGC Video Editing Services</strong> is a dedicated growth solution designed to capture qualified buyer intent, elevate brand visibility, and generate scalable inquiries. Our data-backed approach ensures high conversion rates, lower customer acquisition costs, and compounding commercial ROI.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.2. How do your UGC Video Editing Services help grow my business?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our ugc video editing services are built around commercially focused user intent, high-converting digital funnels, and continuous technical optimization—delivering qualified leads, higher brand authority, and sustainable revenue growth.</p>
+
+						<!-- Q2 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.2. Why is King of Digital Marketing the best UGC Video Editing Services company in Delhi, India?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of industry mastery</strong>, <strong>900+ successful campaigns</strong> across 15+ countries, and direct leadership under senior consultant Gaurav Dubey, King of Digital Marketing delivers 100% compliant, customized growth systems that outpace competitors.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.3. How long does it take to see measurable results from UGC Video Editing Services?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> While initial campaign milestones and leading metrics improve within the first 30 to 60 days, full-scale market dominance and compounded ROI are typically established within 3 to 6 months of continuous execution.</p>
+
+						<!-- Q3 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.3. How quickly can we expect measurable results from your UGC Video Editing Services?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Initial campaign momentum and leading metrics show strong progress within <strong>30 to 60 days</strong>, while full-scale market dominance and compound return on investment are typically established within 3 to 6 months.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.4. Do you provide custom strategies tailored to my specific industry?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We reject cookie-cutter approaches. We have served over 150+ industry verticals (Healthcare, Real Estate, E-Commerce, B2B, Education, Legal, etc.) and tailor every strategy to your target audience and competitive dynamics.</p>
+
+						<!-- Q4 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.4. Do you provide custom strategies tailored specifically to our industry?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, absolutely. We have successfully served over <strong>150+ industry verticals</strong> (Healthcare, Real Estate, E-Commerce, B2B Exporters, Education, Financial Services, SaaS). Every campaign roadmap is built from scratch around your specific target audience.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.5. Will I get a dedicated account manager for my UGC Video Editing Services campaign?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, every client is assigned a dedicated senior specialist along with direct strategy oversight from founder Gaurav Dubey to ensure clear communication, rapid turnaround, and regular performance reviews.</p>
+
+						<!-- Q5 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.5. Will I get a dedicated account manager for our UGC Video Editing Services campaign?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. Every client is assigned a dedicated senior growth specialist along with direct strategic oversight from founder Gaurav Dubey for continuous alignment, weekly status updates, and monthly strategy reviews.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.6. How do you track and report UGC Video Editing Services performance?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide 100% transparent, real-time reporting dashboards with granular attribution tracking (traffic, keyword ranks, inquiries, conversion rates, and ROI metrics) delivered weekly and monthly.</p>
+
+						<!-- Q6 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.6. How do you track, measure, and report campaign performance?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide 100% transparent, real-time monthly reports covering keyword rankings, Google Analytics 4 (GA4) traffic, qualified inbound leads, conversion attribution, and net ROI metrics.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.7. What tools and modern technologies do you use for UGC Video Editing Services?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We utilize industry-standard enterprise tools including Google Analytics 4, Search Console, SEMrush, Ahrefs, Meta Business Suite, Google Tag Manager, hotjar, and specialized AI optimization software.</p>
+
+						<!-- Q7 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.7. What tools and modern technologies do you use for UGC Video Editing Services?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We utilize industry-standard enterprise software including Google Search Console, GA4, SEMrush, Ahrefs, Meta Business Suite, Google Tag Manager, hotjar, and advanced AI optimization tools.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.8. Can your UGC Video Editing Services integrate with my existing CRM and sales workflows?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We configure automated webhooks and API integrations connecting inbound leads directly into HubSpot, Salesforce, Zoho CRM, Google Sheets, email, and sales team WhatsApp.</p>
+
+						<!-- Q8 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.8. Can your UGC Video Editing Services integrate with our existing CRM and sales workflows?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We configure automated webhooks and API connections pushing inbound customer leads directly into HubSpot, Salesforce, Zoho CRM, Google Sheets, email, and sales team WhatsApp within seconds.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.9. Are your techniques 100% safe and compliant with platform policies?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, absolutely. We strictly adhere to official search engine and advertising network guidelines (Google, Meta, LinkedIn, Apple) to protect your brand reputation and domain authority.</p>
+
+						<!-- Q9 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.9. Are your methodologies 100% compliant with Google and platform policies?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, strictly 100%. We adhere to official search engine quality standards, Google Search Essentials, and ad network compliance policies to protect your long-term domain authority.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.10. What budgets or package tiers do you offer for UGC Video Editing Services?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide flexible, milestone-based packages tailored for startups, SMEs, and large enterprise brands, ensuring maximum marketing efficiency at every stage of your growth.</p>
+
+						<!-- Q10 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.10. What budget tiers and package options do you offer for UGC Video Editing Services?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer flexible, milestone-based packages tailored for startups, expanding SMBs, and large enterprise brands, ensuring maximum marketing efficiency at every stage of business growth.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.11. How do you handle competitor analysis and market benchmarking?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We perform deep competitor reverse-engineering—analyzing top-performing search terms, ad creatives, backlink profiles, conversion hooks, and audience segments to identify profitable opportunities.</p>
+
+						<!-- Q11 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.11. How do you conduct competitor benchmarking and reverse-engineering?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We perform deep competitor analysis—examining top-performing search terms, ad creatives, backlink profiles, conversion hooks, and audience segments to identify high-margin commercial opportunities.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.12. Can you handle international and multi-regional UGC Video Editing Services campaigns?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We have managed cross-border campaigns across 15+ countries including USA, UK, Canada, Australia, UAE, Singapore, Germany, and Ireland with complete localization support.</p>
+
+						<!-- Q12 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.12. Can you handle international and multi-regional UGC Video Editing Services campaigns?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We have executed cross-border campaigns across 15+ countries including USA, UK, Canada, Australia, UAE, Europe, and Asia-Pacific with comprehensive localization and multi-currency support.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.13. Do you offer conversion rate optimization (CRO) alongside UGC Video Editing Services?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. Generating traffic is only half the battle; we optimize landing page UI/UX, CTA placement, value propositions, and form frictionless design to ensure maximum conversion percentage.</p>
+
+						<!-- Q13 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.13. Do you offer conversion rate optimization (CRO) alongside UGC Video Editing Services?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. Traffic without conversions is wasted budget. We optimize landing page UI/UX, CTA placement, value propositions, and form frictionless design to double your inquiry conversion rates.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.14. What makes your agency different from other digital agencies in Delhi?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Unlike generic agencies that outsource work, King of Digital Marketing has 32+ in-house certified specialists, 13+ years of direct agency heritage since 2013, proven transparent reporting, and direct oversight by Gaurav Dubey.</p>
+
+						<!-- Q14 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.14. What makes King of Digital Marketing different from other digital agencies in Delhi?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Unlike generic agencies that outsource campaigns, King of Digital Marketing features 32+ in-house certified specialists, 13+ years of direct agency heritage since 2013, transparent reporting, and direct oversight by Gaurav Dubey.</p>
+							</div>
 						</div>
-					</div>
-					<div class="kdm-faq-item">
-						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
-							<span class="kdm-faq-question">Q.15. How do I get started with a free strategy audit and proposal?</span>
-							<span class="kdm-faq-icon">+</span>
-						</button>
-						<div class="kdm-faq-body">
-							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can request a free comprehensive audit and customized proposal by calling us directly at +91-9555696058 or submitting our instant online inquiry form.</p>
+
+						<!-- Q15 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.15. How do I get started with a free strategy audit and proposal?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can request a free comprehensive audit and customized proposal by calling us directly at <strong>+91-9555696058</strong> or submitting our instant online inquiry form.</p>
+							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 
-				<!-- Right Column: 3 Dark Grand Offer Cards -->
-				<div class="col-md-6 mb-4">
-					<div class="kdm-grand-offers-wrap" style="position: sticky; top: 90px;">
-						<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); color: #d97706; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 12px;">
-							<i class="fa fa-gift"></i> LIMITED TIME PACKAGES
+				<!-- 3 High-Converting Dark Theme Grand Offers -->
+				<div class="col-md-6">
+					<div style="margin-bottom: 25px;">
+						<span class="kdm-seo-badge" style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.25); color: #d97706; font-size: 11px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
+							<i class="fa fa-gift"></i> SPECIAL PACKAGES
 						</span>
-						<h2 style="font-size: 26px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">
-							Exclusive Grand Offers <strong>for UGC Video Editing Services</strong>
+						<h2 class="kdm-offer-section-title" style="font-size: 28px; font-weight: 900; color: #0f172a; margin: 0 0 8px 0; line-height: 1.3;">
+							Grand Offers <strong>for UGC Video Editing Services</strong>
 						</h2>
-						<p style="font-size: 14.5px; color: #64748b; margin-bottom: 25px;">Sign up today and accelerate your growth with multi-month discounts.</p>
+						<p style="font-size: 14px; color: #64748b; margin: 0;">Exclusive limited-time growth packages with instant discount savings.</p>
+					</div>
 
-						<div class="kdm-offer-dark-list" style="display: flex; flex-direction: column; gap: 18px;">
-							<!-- Offer 1: 10% OFF -->
-							<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 18px; padding: 24px; color: #ffffff; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0,0,0,0.25);">
-								<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-									<h4 style="font-size: 18px; font-weight: 800; color: #ffffff; margin: 0;">Quarterly Growth Booster</h4>
-									<span style="background: linear-gradient(135deg, #0284c7, #38bdf8); color: #ffffff; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 20px;">10% OFF</span>
-								</div>
-								<p style="font-size: 13.5px; color: #cbd5e1; margin-bottom: 14px; line-height: 1.6;">Sign up for any 3-month growth package &amp; get instant 10% discount on total billing.</p>
-								<span style="color: #38bdf8; font-size: 13.5px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">Claim Offer Now <i class="fa fa-arrow-right"></i></span>
+					<div class="kdm-offer-dark-list">
+						<!-- Offer 1 -->
+						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
+							<div class="kdm-offer-dark-icon">
+								<svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="60" height="60" rx="14" fill="url(#num_grad_d1)" />
+									<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<defs>
+										<linearGradient id="num_grad_d1" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#0284c7" />
+											<stop offset="1" stop-color="#0369a1" />
+										</linearGradient>
+									</defs>
+								</svg>
 							</div>
-
-							<!-- Offer 2: 15% OFF -->
-							<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 18px; padding: 24px; color: #ffffff; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0,0,0,0.25);">
-								<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-									<h4 style="font-size: 18px; font-weight: 800; color: #ffffff; margin: 0;">Half-Yearly Scale Plan</h4>
-									<span style="background: linear-gradient(135deg, #10b981, #34d399); color: #ffffff; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 20px;">15% OFF</span>
-								</div>
-								<p style="font-size: 13.5px; color: #cbd5e1; margin-bottom: 14px; line-height: 1.6;">Lock in continuous market authority for 6 months and save 15% with free CRO audit.</p>
-								<span style="color: #34d399; font-size: 13.5px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">Claim Offer Now <i class="fa fa-arrow-right"></i></span>
+							<div class="kdm-offer-dark-content">
+								<h4>Startup Growth Booster Offer</h4>
+								<p class="kdm-offer-dark-value">Get 10% OFF</p>
+								<h5 class="kdm-offer-dark-sub">On Quarterly Growth Package</h5>
+								<h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF plus free audit!</h5>
 							</div>
+						</div>
 
-							<!-- Offer 3: 20% OFF -->
-							<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; padding: 24px; color: #ffffff; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0,0,0,0.25);">
-								<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
-									<h4 style="font-size: 18px; font-weight: 800; color: #ffffff; margin: 0;">Annual Market Dominance</h4>
-									<span style="background: linear-gradient(135deg, #f59e0b, #fbbf24); color: #0f172a; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 20px;">20% OFF</span>
-								</div>
-								<p style="font-size: 13.5px; color: #cbd5e1; margin-bottom: 14px; line-height: 1.6;">Achieve total category dominance for 12 months with dedicated team access &amp; 20% savings.</p>
-								<span style="color: #fbbf24; font-size: 13.5px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">Claim Offer Now <i class="fa fa-arrow-right"></i></span>
+						<!-- Offer 2 -->
+						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
+							<div class="kdm-offer-dark-icon">
+								<svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="60" height="60" rx="14" fill="url(#num_grad_d2)" />
+									<line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
+									<defs>
+										<linearGradient id="num_grad_d2" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#0ea5e9" />
+											<stop offset="1" stop-color="#0284c7" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<div class="kdm-offer-dark-content">
+								<h4>Scale Strategy Plan Offer</h4>
+								<p class="kdm-offer-dark-value">Get 15% OFF</p>
+								<h5 class="kdm-offer-dark-sub">On 6-Month Scale Plan</h5>
+								<h5 class="kdm-offer-dark-desc">Lock in sustainable rankings &amp; scale inbound inquiries!</h5>
+							</div>
+						</div>
+
+						<!-- Offer 3 -->
+						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
+							<div class="kdm-offer-dark-icon">
+								<svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="60" height="60" rx="14" fill="url(#num_grad_d3)" />
+									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5" />
+									<defs>
+										<linearGradient id="num_grad_d3" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1e293b" />
+											<stop offset="1" stop-color="#0f172a" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<div class="kdm-offer-dark-content">
+								<h4>Market Dominance Annual Offer</h4>
+								<p class="kdm-offer-dark-value">Get 20% OFF</p>
+								<h5 class="kdm-offer-dark-sub">On 12-Month Annual Growth Package</h5>
+								<h5 class="kdm-offer-dark-desc">Dominate search rankings all year round while saving BIG!</h5>
 							</div>
 						</div>
 					</div>
@@ -1259,7 +1416,155 @@
 		</div>
 	</section>
 
-	<!-- JavaScript Dependencies -->
+	<!-- JS Dependencies, Counter Animation & Testimonial Carousel -->
 	<script src="js/international-page.js"></script>
 	<script src="js/kdm-faq.js"></script>
+	<script type="text/javascript">
+	(function () {
+		'use strict';
+
+		// 1. Interactive Testimonial Slider
+		function initTestimonials() {
+			var wrapper = document.querySelector('.kdm-testimonial-wrapper');
+			if (!wrapper) return;
+
+			var slides = wrapper.querySelectorAll('.kdm-testimonial-card');
+			var prevBtn = wrapper.querySelector('.kdm-testimonial-arrow.prev');
+			var nextBtn = wrapper.querySelector('.kdm-testimonial-arrow.next');
+			var dotsContainer = wrapper.querySelector('.kdm-testimonial-dots');
+
+			if (!slides.length) return;
+
+			var currentIndex = 0;
+			var autoTimer = null;
+
+			// Create dots
+			if (dotsContainer) {
+				dotsContainer.innerHTML = '';
+				slides.forEach(function (_, i) {
+					var dot = document.createElement('span');
+					dot.className = 'dot' + (i === 0 ? ' active' : '');
+					dot.addEventListener('click', function () {
+						goToSlide(i);
+						resetAuto();
+					});
+					dotsContainer.appendChild(dot);
+				});
+			}
+
+			var dots = dotsContainer ? dotsContainer.querySelectorAll('.dot') : [];
+
+			function showSlide(idx) {
+				slides.forEach(function (slide, i) {
+					if (i === idx) {
+						slide.classList.add('active');
+						slide.style.display = 'block';
+						slide.style.opacity = '1';
+						slide.style.transform = 'translateY(0)';
+					} else {
+						slide.classList.remove('active');
+						slide.style.display = 'none';
+						slide.style.opacity = '0';
+						slide.style.transform = 'translateY(15px)';
+					}
+				});
+				dots.forEach(function (dot, i) {
+					dot.classList.toggle('active', i === idx);
+				});
+			}
+
+			function goToSlide(idx) {
+				if (idx >= slides.length) currentIndex = 0;
+				else if (idx < 0) currentIndex = slides.length - 1;
+				else currentIndex = idx;
+				showSlide(currentIndex);
+			}
+
+			function nextSlide() { goToSlide(currentIndex + 1); }
+			function prevSlide() { goToSlide(currentIndex - 1); }
+
+			if (nextBtn) {
+				nextBtn.addEventListener('click', function (e) {
+					e.preventDefault();
+					nextSlide();
+					resetAuto();
+				});
+			}
+
+			if (prevBtn) {
+				prevBtn.addEventListener('click', function (e) {
+					e.preventDefault();
+					prevSlide();
+					resetAuto();
+				});
+			}
+
+			function startAuto() {
+				if (!autoTimer) {
+					autoTimer = setInterval(nextSlide, 5000);
+				}
+			}
+
+			function resetAuto() {
+				clearInterval(autoTimer);
+				autoTimer = null;
+				startAuto();
+			}
+
+			showSlide(0);
+			startAuto();
+		}
+
+		// 2. Animated Number Counters on Scroll
+		function initCounters() {
+			var credSection = document.querySelector('.kdm-credentials-white-section') || document.querySelector('.kdm-credentials-section');
+			if (!credSection) return;
+
+			var observer = new IntersectionObserver(function (entries) {
+				entries.forEach(function (entry) {
+					if (entry.isIntersecting) {
+						var counters = credSection.querySelectorAll('.kdm-cred-num, .counter-value');
+						counters.forEach(function (counter) {
+							if (counter.getAttribute('data-animated') === 'true') return;
+							counter.setAttribute('data-animated', 'true');
+
+							var target = parseFloat(counter.getAttribute('data-to'));
+							var decimals = parseInt(counter.getAttribute('data-decimals') || '0', 10);
+							var append = counter.getAttribute('data-append') || '';
+							var duration = 1500;
+							var startTime = null;
+
+							function step(timestamp) {
+								if (!startTime) startTime = timestamp;
+								var progress = Math.min((timestamp - startTime) / duration, 1);
+								var current = progress * target;
+								counter.innerText = (decimals > 0 ? current.toFixed(decimals) : Math.floor(current)) + append;
+								if (progress < 1) {
+									window.requestAnimationFrame(step);
+								} else {
+									counter.innerText = (decimals > 0 ? target.toFixed(decimals) : target) + append;
+								}
+							}
+							window.requestAnimationFrame(step);
+						});
+						observer.unobserve(credSection);
+					}
+				});
+			}, { threshold: 0.2 });
+
+			observer.observe(credSection);
+		}
+
+		// Initialize on DOM ready
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', function () {
+				initTestimonials();
+				initCounters();
+			});
+		} else {
+			initTestimonials();
+			initCounters();
+		}
+	})();
+	</script>
 </asp:Content>

@@ -30,7 +30,7 @@
 	      "url": "https://www.kingofdigitalmarketing.com/{{CANONICAL_SLUG}}",
 	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
 	      "image": "https://www.kingofdigitalmarketing.com/images/{{OG_IMAGE}}",
-	      "description": "Leading {{SERVICE_NAME}} company delivering high-ROI, performance marketing, and organic search growth.",
+	      "description": "{{META_DESCRIPTION}}",
 	      "telephone": "+91-9555696058",
 	      "email": "info@kingofdigitalmarketing.com",
 	      "priceRange": "$$",
@@ -69,27 +69,7 @@
 	        "@type": "ProfessionalService",
 	        "name": "King of Digital Marketing"
 	      },
-	      "areaServed": "Worldwide",
-	      "hasOfferCatalog": {
-	        "@type": "OfferCatalog",
-	        "name": "{{SERVICE_NAME}} Catalog",
-	        "itemListElement": [
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "{{SERVICE_OFFER_1}}"
-	            }
-	          },
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "{{SERVICE_OFFER_2}}"
-	            }
-	          }
-	        ]
-	      }
+	      "areaServed": "Worldwide"
 	    },
 	    {
 	      "@type": "BreadcrumbList",
@@ -107,6 +87,12 @@
 	          "item": "https://www.kingofdigitalmarketing.com/{{CANONICAL_SLUG}}"
 	        }
 	      ]
+	    },
+	    {
+	      "@type": "FAQPage",
+	      "mainEntity": [
+{{FAQ_SCHEMA_JSON}}
+	      ]
 	    }
 	  ]
 	}
@@ -114,7 +100,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-	<!-- ===== 1. HERO SECTION ===== -->
+	<!-- ===== 1. HERO SECTION AS IT IS ===== -->
 	<div class="kdm-service-hero">
 		<div class="kdm-service-hero-container">
 			<!-- Breadcrumbs Navigation -->
@@ -133,7 +119,7 @@
 
 			<!-- Main H1 Title -->
 			<h1 class="kdm-service-hero-title">
-				{{HERO_TITLE_PREFIX}} <span class="kdm-gradient-highlight">{{HERO_TITLE_HIGHLIGHT}}</span>
+				{{HERO_H1_PREFIX}} <span class="kdm-gradient-highlight">{{HERO_H1_HIGHLIGHT}}</span>
 			</h1>
 
 			<!-- Subtitle Paragraph -->
@@ -155,16 +141,16 @@
 			<!-- Action CTA Button -->
 			<div class="kdm-service-hero-cta-wrap">
 				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn">
-					<i class="fa fa-rocket"></i> {{HERO_CTA_TEXT}} <i class="fa fa-arrow-right"></i>
+					<i class="fa fa-rocket"></i> Get Free {{SERVICE_NAME}} Proposal <i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 
 			<!-- Value Highlights Row -->
 			<div class="kdm-service-hero-highlights">
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> {{HERO_HIGHLIGHT_1}}</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> {{HERO_HIGHLIGHT_2}}</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> {{HERO_HIGHLIGHT_3}}</div>
-				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> {{HERO_HIGHLIGHT_4}}</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> {{HIGHLIGHT_1}}</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> {{HIGHLIGHT_2}}</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> {{HIGHLIGHT_3}}</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> {{HIGHLIGHT_4}}</div>
 			</div>
 		</div>
 	</div>
@@ -185,31 +171,20 @@
 				</div>
 				
 				<div style="font-size: 16px; color: #334155; line-height: 1.85; margin-bottom: 35px;">
-					{{INTRO_PARAGRAPHS_300_WORDS}}
+					<p style="margin-bottom: 18px;">
+						{{INTRO_P1}}
+					</p>
+					<p style="margin-bottom: 18px;">
+						{{INTRO_P2}}
+					</p>
+					<p style="margin-bottom: 0;">
+						{{INTRO_P3}}
+					</p>
 				</div>
 
 				<!-- 4 Quick Capabilities Cards -->
 				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
-					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
-						<div style="font-size: 26px; color: #0284c7; margin-bottom: 10px;"><i class="fa fa-globe"></i></div>
-						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">{{CAPABILITY_TITLE_1}}</h4>
-						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">{{CAPABILITY_DESC_1}}</p>
-					</div>
-					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
-						<div style="font-size: 26px; color: #10b981; margin-bottom: 10px;"><i class="fa fa-chart-line"></i></div>
-						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">{{CAPABILITY_TITLE_2}}</h4>
-						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">{{CAPABILITY_DESC_2}}</p>
-					</div>
-					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
-						<div style="font-size: 26px; color: #8b5cf6; margin-bottom: 10px;"><i class="fa fa-cogs"></i></div>
-						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">{{CAPABILITY_TITLE_3}}</h4>
-						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">{{CAPABILITY_DESC_3}}</p>
-					</div>
-					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
-						<div style="font-size: 26px; color: #f59e0b; margin-bottom: 10px;"><i class="fa fa-rocket"></i></div>
-						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">{{CAPABILITY_TITLE_4}}</h4>
-						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">{{CAPABILITY_DESC_4}}</p>
-					</div>
+{{CAP_CARDS_HTML}}
 				</div>
 			</div>
 		</div>
@@ -302,82 +277,7 @@
 			</div>
 
 			<div class="kdm-why-choose-grid">
-				<!-- Card 1 -->
-				<div class="kdm-why-card">
-					<div class="kdm-why-card-icon">
-						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<circle cx="12" cy="8" r="7"></circle>
-							<polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
-						</svg>
-					</div>
-					<h3>13+ Years Industry Mastery</h3>
-					<p>Led by veteran strategist Gaurav Dubey, our team brings over a decade of hands-on mastery delivering successful campaigns across 900+ client projects.</p>
-				</div>
-
-				<!-- Card 2 -->
-				<div class="kdm-why-card">
-					<div class="kdm-why-card-icon">
-						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<circle cx="12" cy="12" r="10"></circle>
-							<line x1="2" y1="12" x2="22" y2="12"></line>
-							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-						</svg>
-					</div>
-					<h3>Tailored Strategic Blueprint</h3>
-					<p>We craft data-backed, bespoke strategies tailored to your exact target audience, competitive landscape, and high-converting commercial keywords.</p>
-				</div>
-
-				<!-- Card 3 -->
-				<div class="kdm-why-card">
-					<div class="kdm-why-card-icon">
-						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-						</svg>
-					</div>
-					<h3>100% White-Hat &amp; Algorithm-Safe</h3>
-					<p>Our methodologies strictly follow search engine quality guidelines and platform best practices to protect your brand and ensure long-term stability.</p>
-				</div>
-
-				<!-- Card 4 -->
-				<div class="kdm-why-card">
-					<div class="kdm-why-card-icon">
-						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<line x1="12" y1="1" x2="12" y2="23"></line>
-							<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-						</svg>
-					</div>
-					<h3>High-ROI &amp; Cost-Effective Plans</h3>
-					<p>Transparent pricing structures and customized packages enable startups, growing SMBs, and enterprises to maximize ROI on marketing spend.</p>
-				</div>
-
-				<!-- Card 5 -->
-				<div class="kdm-why-card">
-					<div class="kdm-why-card-icon">
-						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-							<polyline points="14 2 14 8 20 8"></polyline>
-							<line x1="16" y1="13" x2="8" y2="13"></line>
-							<line x1="16" y1="17" x2="8" y2="17"></line>
-							<polyline points="10 9 9 9 8 9"></polyline>
-						</svg>
-					</div>
-					<h3>Transparent Reporting &amp; Live Tracking</h3>
-					<p>Access clear monthly performance reports tracking keyword rankings, user sessions, qualified lead conversions, and transparent pipeline metrics.</p>
-				</div>
-
-				<!-- Card 6 -->
-				<div class="kdm-why-card">
-					<div class="kdm-why-card-icon">
-						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-							<circle cx="9" cy="7" r="4"></circle>
-							<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-						</svg>
-					</div>
-					<h3>Dedicated Account Manager</h3>
-					<p>Receive prompt direct support with a dedicated growth manager who understands your business objectives and proactively scales your performance.</p>
-				</div>
+{{WHY_CARDS_HTML}}
 			</div>
 		</div>
 	</section>
@@ -394,116 +294,7 @@
 			</div>
 
 			<div class="kdm-seo-process-grid">
-				<!-- Step 1 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<circle cx="12" cy="12" r="10"></circle>
-							<line x1="2" y1="12" x2="22" y2="12"></line>
-							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-						</svg>
-					</div>
-					<h3>1. Deep Audit &amp; Opportunity Analysis</h3>
-					<p>We evaluate your digital presence, technical foundation, competitor positioning, and search gaps to build a customized growth blueprint.</p>
-				</div>
-
-				<!-- Step 2 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<circle cx="11" cy="11" r="8"></circle>
-							<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-							<path d="M11 8v6M8 11h6"></path>
-						</svg>
-					</div>
-					<h3>2. High-Intent Keyword &amp; Audience Intel</h3>
-					<p>We discover commercial-intent keywords, customer pain points, search volumes, and buyer persona intent to drive qualified traffic.</p>
-				</div>
-
-				<!-- Step 3 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-							<line x1="8" y1="21" x2="16" y2="21"></line>
-							<line x1="12" y1="17" x2="12" y2="21"></line>
-						</svg>
-					</div>
-					<h3>3. Architecture &amp; Landing Page Setup</h3>
-					<p>We structure high-converting funnels, fast landing pages, clean URLs, and modern UI/UX design to maximize visitor engagement.</p>
-				</div>
-
-				<!-- Step 4 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<polyline points="16 18 22 12 16 6"></polyline>
-							<polyline points="8 6 2 12 8 18"></polyline>
-						</svg>
-					</div>
-					<h3>4. Technical Optimization &amp; Schema</h3>
-					<p>We deploy advanced structured data schemas, Core Web Vitals fixes, mobile speed optimizations, and error-free indexing controls.</p>
-				</div>
-
-				<!-- Step 5 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-							<polyline points="14 2 14 8 20 8"></polyline>
-							<line x1="16" y1="13" x2="8" y2="13"></line>
-							<line x1="16" y1="17" x2="8" y2="17"></line>
-						</svg>
-					</div>
-					<h3>5. E-E-A-T Content &amp; Copywriting</h3>
-					<p>We craft authoritative, conversion-focused copy and informative articles that build domain expertise and compel buyers to act.</p>
-				</div>
-
-				<!-- Step 6 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-						</svg>
-					</div>
-					<h3>6. Conversion Rate Optimization (CRO)</h3>
-					<p>We implement click-to-call CTAs, WhatsApp chat funnels, A/B tested forms, and conversion triggers to double inquiry capture.</p>
-				</div>
-
-				<!-- Step 7 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-							<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-						</svg>
-					</div>
-					<h3>7. High-DA Authority Brand Building</h3>
-					<p>We secure authoritative domain backlinks, editorial PR placements, and digital brand mentions to continuously elevate trust scores.</p>
-				</div>
-
-				<!-- Step 8 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-						</svg>
-					</div>
-					<h3>8. AI Search &amp; Multi-Channel Scaling</h3>
-					<p>We optimize entity visibility across Google AI Overviews, Perplexity, Bing, and multi-channel paid retargeting funnels.</p>
-				</div>
-
-				<!-- Step 9 -->
-				<div class="kdm-seo-card">
-					<div class="kdm-seo-icon-wrap">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-							<polyline points="22 4 12 14.01 9 11.01"></polyline>
-						</svg>
-					</div>
-					<h3>9. Transparent Analytics &amp; ROI Reports</h3>
-					<p>We deliver comprehensive monthly reports detailing keyword rank increases, qualified lead inquiries, GA4 traffic, and net ROI.</p>
-				</div>
+{{PROCESS_CARDS_HTML}}
 			</div>
 		</div>
 	</section>
@@ -565,7 +356,7 @@
 		</div>
 	</section>
 
-	<!-- ===== 7. DARK THEME - MOST POPULAR INDUSTRIES WE WORK WITH (14 VIBRANT INDUSTRIES + VIEW ALL LINK) ===== -->
+	<!-- ===== 7. DARK THEME - MOST POPULAR INDUSTRIES WE WORK WITH (16 VIBRANT INDUSTRIES + VIEW ALL LINK) ===== -->
 	<section class="industry-slider-section" style="background: #090d16; padding: 70px 0; border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06);">
 		<div class="container">
 			<div class="text-center" style="margin-bottom: 45px;">
@@ -580,7 +371,7 @@
 				</p>
 			</div>
 
-			<!-- 14 Vibrant Industries Responsive Grid -->
+			<!-- 16 Vibrant Industries Responsive Grid -->
 			<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; margin-bottom: 45px;">
 				
 				<!-- Industry 1: Astrology -->
@@ -883,7 +674,7 @@
 			<div class="kdm-testimonial-wrapper">
 				<div class="kdm-testimonial-slides">
 
-					<!-- Slide 1 -->
+					<!-- Slide 1: Aji Jeeva (UK) -->
 					<div class="kdm-testimonial-card active">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -894,18 +685,18 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"I hired King of Digital Marketing for {{SERVICE_NAME}}, and I am thrilled with the results. My website is now ranking on page 1 of Google for high-competition keywords. Gaurav Dubey and his team are always available to guide us."
+							"I hired King of Digital Marketing for {{SERVICE_NAME_LOWER}}, and I am thrilled with the worldwide ranking results. My website is now ranking on page 1 of Google UK for high-competition keywords. Gaurav Dubey and his team are always available to guide us with genuine care."
 						</p>
 						<div class="kdm-testimonial-author-box">
 							<div class="kdm-testimonial-avatar grad-1">AJ</div>
 							<div class="kdm-testimonial-info">
 								<h4 class="kdm-testimonial-name">Aji Jeeva</h4>
-								<span class="kdm-testimonial-role">Founder — smgains.com (UK)</span>
+								<span class="kdm-testimonial-role">Founder — smgains.com (United Kingdom)</span>
 							</div>
 						</div>
 					</div>
 
-					<!-- Slide 2 -->
+					<!-- Slide 2: Roopak (Dubai) -->
 					<div class="kdm-testimonial-card">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -916,18 +707,18 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"King of Digital Marketing helped skyrocket our student admissions and organic search traffic. Thanks to Gaurav Dubey and his hardworking team, our business is getting high-quality inquiries from Google daily."
+							"King of Digital Marketing helped skyrocket our student admissions and organic inquiries. Their strategic campaign execution was spot-on. Thanks to Gaurav Dubey and his team, our inquiries grew by over 240%."
 						</p>
 						<div class="kdm-testimonial-author-box">
 							<div class="kdm-testimonial-avatar grad-2">R</div>
 							<div class="kdm-testimonial-info">
 								<h4 class="kdm-testimonial-name">Roopak</h4>
-								<span class="kdm-testimonial-role">Founder — gotouniversity.com (Dubai)</span>
+								<span class="kdm-testimonial-role">Founder — gotouniversity.com (Dubai, UAE)</span>
 							</div>
 						</div>
 					</div>
 
-					<!-- Slide 3 -->
+					<!-- Slide 3: Younus (Morocco) -->
 					<div class="kdm-testimonial-card">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -938,7 +729,7 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"The team at King of Digital Marketing explained everything clearly and delivered results faster than expected. Their campaigns brought continuous qualified inquiries and great ROI."
+							"Targeting international clients was challenging before we partnered with King of Digital Marketing. They gave transparent monthly reports and structured clear conversion paths. Highly recommend their services!"
 						</p>
 						<div class="kdm-testimonial-author-box">
 							<div class="kdm-testimonial-avatar grad-3">Y</div>
@@ -949,7 +740,7 @@
 						</div>
 					</div>
 
-					<!-- Slide 4 -->
+					<!-- Slide 4: Kejsi (Turkey) -->
 					<div class="kdm-testimonial-card">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -960,13 +751,57 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"It has been a truly profitable experience working with King of Digital Marketing. They helped our business show up on the first page of Google and generate verified client appointments."
+							"It has been a truly profitable experience working with King of Digital Marketing. They helped our clinic rank on Google's first page in the UK, Germany, and Arab countries for medical tourism queries, generating verified overseas patient consultations every single day."
 						</p>
 						<div class="kdm-testimonial-author-box">
 							<div class="kdm-testimonial-avatar grad-4">K</div>
 							<div class="kdm-testimonial-info">
 								<h4 class="kdm-testimonial-name">Kejsi</h4>
 								<span class="kdm-testimonial-role">Founder — herahairsolutions.com (Turkey)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 5: David (USA) -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"Gaurav Dubey and his team at King of Digital Marketing delivered exceptional results for our business. Within four months, our qualified inbound inquiries scaled significantly. They are hands-down the best growth partner."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-5">D</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">David</h4>
+								<span class="kdm-testimonial-role">Founder — audiocityusa.com (United States)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 6: Dr. Sanjay (Dubai) -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"We noticed massive improvement in customer inquiries and online authority across the region. Gaurav Dubey's deep understanding of performance marketing and conversion optimization made all the difference."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-6">DS</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Dr. Sanjay</h4>
+								<span class="kdm-testimonial-role">Founder — cocoona.in (Dubai, UAE)</span>
 							</div>
 						</div>
 					</div>
@@ -987,7 +822,7 @@
 		</div>
 	</section>
 
-	<!-- ===== 10. FAQS & GRAND OFFERS SECTION ===== -->
+	<!-- ===== 10. LAST FAQS & GRAND OFFERS SECTION (WHITE THEME / 15 FAQS + 3 OFFERS) ===== -->
 	<section class="kdm-faq-section" style="background: #ffffff; padding: 60px 0; border-top: 1px solid #e2e8f0;">
 		<div class="container">
 			<div class="row">
@@ -1004,60 +839,7 @@
 					</div>
 
 					<div class="kdm-faq-accordion">
-						<!-- Q1 -->
-						<div class="kdm-faq-item active">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.1. Why is King of Digital Marketing considered the best {{SERVICE_NAME}} company in Delhi, India?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of experience</strong>, <strong>900+ successful client campaigns</strong>, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing that generates qualified inquiries and scalable revenue.</p>
-							</div>
-						</div>
-
-						<!-- Q2 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.2. How quickly can we start seeing measurable results?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> For paid search &amp; Meta ads campaigns, qualified inbound inquiries start flowing within 24 to 48 hours of launch. For organic SEO and search authority, sustainable top-tier rankings develop within 3 to 6 months.</p>
-							</div>
-						</div>
-
-						<!-- Q3 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.3. Do you offer customized packages for startups and growing SMBs?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide flexible, affordable packages starting from basic market penetration plans to full-funnel enterprise dominance packages.</p>
-							</div>
-						</div>
-
-						<!-- Q4 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.4. Are your strategies 100% penalty-safe and algorithm-compliant?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100%. We strictly follow Google Search Essentials and Webmaster Guidelines. We focus on high-quality E-E-A-T content, technical health, and genuine authority building.</p>
-							</div>
-						</div>
-
-						<!-- Q5 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.5. How do you track and report campaign progress?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We believe in 100% transparency. Clients receive comprehensive monthly reports covering target keyword rankings, GA4 traffic, conversions, and net return on investment (ROI).</p>
-							</div>
-						</div>
+{{FAQ_ACCORDION_HTML}}
 					</div>
 				</div>
 
@@ -1090,9 +872,9 @@
 								</svg>
 							</div>
 							<div class="kdm-offer-dark-content">
-								<h4>Startup Digital Booster Offer</h4>
+								<h4>Startup Growth Booster Offer</h4>
 								<p class="kdm-offer-dark-value">Get 10% OFF</p>
-								<h5 class="kdm-offer-dark-sub">On Quarterly Package</h5>
+								<h5 class="kdm-offer-dark-sub">On Quarterly Growth Package</h5>
 								<h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF plus free audit!</h5>
 							</div>
 						</div>
@@ -1115,9 +897,9 @@
 								</svg>
 							</div>
 							<div class="kdm-offer-dark-content">
-								<h4>Growth Strategy Plan Offer</h4>
+								<h4>Scale Strategy Plan Offer</h4>
 								<p class="kdm-offer-dark-value">Get 15% OFF</p>
-								<h5 class="kdm-offer-dark-sub">On 6-Month Plan</h5>
+								<h5 class="kdm-offer-dark-sub">On 6-Month Scale Plan</h5>
 								<h5 class="kdm-offer-dark-desc">Lock in sustainable rankings &amp; scale inbound inquiries!</h5>
 							</div>
 						</div>
