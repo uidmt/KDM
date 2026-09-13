@@ -1,1145 +1,1265 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs"
-	Inherits="PPC_Services" %>
-	<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-		<title>Local SEO Services Company in Delhi NCR | Rank #1 on Google Maps 3-Pack</title>
-		<meta name="keywords"
-			content="Local SEO Services, Local SEO Company in Delhi, Google Maps SEO, GMB Optimization, Local SEO Agency India, Rank Google 3-Pack">
-		<meta name="description"
-			content="Dominate local search results in Delhi NCR & India. Best Local SEO Services Company offering Google Business Profile optimization, local citations, and Google Maps 3-Pack rankings.">
-		<meta property="og:title" content="Local SEO Services Company in Delhi NCR | Rank #1 on Google Maps 3-Pack">
-		<meta property="og:description"
-			content="Dominate local search results in Delhi NCR & India. Best Local SEO Services Company offering Google Business Profile optimization, local citations, and Google Maps 3-Pack rankings.">
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://www.kingofdigitalmarketing.com/local-seo-services.aspx">
-		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/local-seo-services.aspx" />
-		<link rel="stylesheet" href="css/home-custom.css?v=25.0">
-		<script src="js/kdm-faq.js"></script>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+	<title>Best Local SEO Services Company in Delhi, India | Google Map 3-Pack Agency</title>
+	<meta name="keywords" content="Local SEO services in Delhi, Google Maps optimization, Google Business Profile agency, local SEO company India, near me search ranking">
+	<meta name="description" content="Dominate local Google Search and Google Maps 3-Pack with India's top Local SEO services in Delhi. 13+ years exp, 900+ projects, verified local lead generation.">
+	<link rel="canonical" href="https://www.kingofdigitalmarketing.com/local-seo-services.aspx" />
+	<meta property="og:title" content="Best Local SEO Services Company in Delhi, India | Google Map 3-Pack Agency">
+	<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/local-seo.webp">
+	<meta property="og:description" content="Dominate local Google Search and Google Maps 3-Pack with India's top Local SEO services in Delhi. 13+ years exp, 900+ projects, verified local lead generation.">
+	<meta property="og:url" content="https://www.kingofdigitalmarketing.com/local-seo-services.aspx">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/location-page.css">
+	<link rel="stylesheet" href="css/images.css">
+	<link rel="stylesheet" href="css/packages.css">
+	<link rel="stylesheet" href="css/home-custom.css?v=25.0">
+	<link rel="stylesheet" href="css/kdm-faq.css?v=2.0">
+	<script src="js/kdm-faq.js"></script>
 
-		<!-- ===== FAQPAGE JSON-LD STRUCTURED DATA SCHEMA ===== -->
-		<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Local SEO and why does my business need it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Local SEO optimizes your online presence to attract customers from specific geographic locations. It ensures your business ranks at the top of Google Maps 3-Pack and local search results when nearby prospects search for your services."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does it take to rank in Google Maps 3-Pack?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most local clients see initial rank movements within 30 to 45 days. Securing a consistent top spot in the Google Maps 3-Pack usually takes 3 to 6 months depending on local competition and keyword volume in your city."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is NAP consistency in Local SEO?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "NAP stands for Name, Address, and Phone Number. Having identical NAP details across all online directories (Google Business Profile, Facebook, Justdial, Sulekha, Indiamart) builds trust with Google and significantly boosts your local map rankings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What services are included in your Local SEO packages?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our 360° Local SEO packages include Google Business Profile (GBP) setup & optimization, local citations, NAP consistency auditing, local keyword research, Google Maps geo-tagging, review acquisition strategy, local schema markup, and monthly call tracking reports."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Google Business Profile (GBP) optimization help my business?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Optimizing your GBP with primary/secondary categories, exact GEO-location data, regular posts, high-quality photos, and verified customer reviews directly improves your visibility on Google Maps and drives high-intent phone calls and direction requests."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you optimize Local SEO for multi-location businesses and franchises?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! We specialize in multi-location local SEO strategies, creating individual location landing pages with LocalBusiness schema, managing multi-branch GBP profiles, and running localized citation campaigns for franchise chains."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do 5-star Google reviews impact Local SEO rankings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Google uses review quantity, velocity, score, and keywords in review text as major local ranking signals. Higher authentic 5-star Google reviews build trust with searchers and improve your ranking position in the 3-Pack."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will my business rank for 'near me' local search queries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, our hyper-local SEO strategy optimizes your profile and website specifically for geo-targeted and 'near me' intent searches, enabling nearby mobile users to easily discover and contact your business."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What access do you need to get started with Local SEO?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We require manager access to your Google Business Profile, Google Search Console, Google Analytics, and website CMS access (if on-page local schema or location pages are included)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are your payment terms for Local SEO services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our Local SEO packages are billed on a flexible monthly retainer model paid in advance with no long-term lock-in contracts and comprehensive transparent monthly reports detailing phone calls and map rankings."
-      }
-    }
-  ]
-}
-</script>
-	</asp:Content>
+	<!-- ===== STRUCTURED DATA JSON-LD SCHEMAS ===== -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+	    {
+	      "@type": "ProfessionalService",
+	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
+	      "name": "King of Digital Marketing - Local SEO Services",
+	      "url": "https://www.kingofdigitalmarketing.com/local-seo-services.aspx",
+	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
+	      "image": "https://www.kingofdigitalmarketing.com/images/local-seo.webp",
+	      "description": "Dominate local Google Search and Google Maps 3-Pack with India's top Local SEO services in Delhi. 13+ years exp, 900+ projects, verified local lead generation.",
+	      "telephone": "+91-9555696058",
+	      "email": "info@kingofdigitalmarketing.com",
+	      "priceRange": "$$",
+	      "address": {
+	        "@type": "PostalAddress",
+	        "addressLocality": "Delhi",
+	        "addressRegion": "Delhi NCR",
+	        "addressCountry": "IN"
+	      },
+	      "geo": {
+	        "@type": "GeoCoordinates",
+	        "latitude": "28.6139",
+	        "longitude": "77.2090"
+	      },
+	      "openingHoursSpecification": [
+	        {
+	          "@type": "OpeningHoursSpecification",
+	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+	          "opens": "09:30",
+	          "closes": "19:00"
+	        }
+	      ],
+	      "aggregateRating": {
+	        "@type": "AggregateRating",
+	        "ratingValue": "4.9",
+	        "reviewCount": "290",
+	        "bestRating": "5"
+	      }
+	    },
+	    {
+	      "@type": "Service",
+	      "@id": "https://www.kingofdigitalmarketing.com/local-seo-services.aspx#service",
+	      "name": "Local SEO Services",
+	      "serviceType": "Local SEO Services",
+	      "provider": {
+	        "@type": "ProfessionalService",
+	        "name": "King of Digital Marketing"
+	      },
+	      "areaServed": "Worldwide"
+	    },
+	    {
+	      "@type": "BreadcrumbList",
+	      "itemListElement": [
+	        {
+	          "@type": "ListItem",
+	          "position": 1,
+	          "name": "Home",
+	          "item": "https://www.kingofdigitalmarketing.com/"
+	        },
+	        {
+	          "@type": "ListItem",
+	          "position": 2,
+	          "name": "Local SEO Services",
+	          "item": "https://www.kingofdigitalmarketing.com/local-seo-services.aspx"
+	        }
+	      ]
+	    },
+	    {
+	      "@type": "FAQPage",
+	      "mainEntity": [
+	        {
+	          "@type": "Question",
+	          "name": "What makes King of Digital Marketing the best Local SEO Services company in Delhi, India?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "With 13+ years of industry mastery, 900+ successful campaigns across 15+ countries, and leadership under senior consultant Gaurav Dubey, we provide customized, data-driven local seo services engineered to maximize return on investment and business growth."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "How do your Local SEO Services help grow my business?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Our local seo services are built around commercially focused user intent, high-converting digital funnels, and continuous technical optimization—delivering qualified leads, higher brand authority, and sustainable revenue growth."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "How long does it take to see measurable results from Local SEO Services?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "While initial campaign milestones and leading metrics improve within the first 30 to 60 days, full-scale market dominance and compounded ROI are typically established within 3 to 6 months of continuous execution."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "Do you provide custom strategies tailored to my specific industry?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Yes. We reject cookie-cutter approaches. We have served over 150+ industry verticals (Healthcare, Real Estate, E-Commerce, B2B, Education, Legal, etc.) and tailor every strategy to your target audience and competitive dynamics."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "Will I get a dedicated account manager for my Local SEO Services campaign?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Yes, every client is assigned a dedicated senior specialist along with direct strategy oversight from founder Gaurav Dubey to ensure clear communication, rapid turnaround, and regular performance reviews."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "How do you track and report Local SEO Services performance?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "We provide 100% transparent, real-time reporting dashboards with granular attribution tracking (traffic, keyword ranks, inquiries, conversion rates, and ROI metrics) delivered weekly and monthly."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "What tools and modern technologies do you use for Local SEO Services?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "We utilize industry-standard enterprise tools including Google Analytics 4, Search Console, SEMrush, Ahrefs, Meta Business Suite, Google Tag Manager, hotjar, and specialized AI optimization software."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "Can your Local SEO Services integrate with my existing CRM and sales workflows?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Yes. We configure automated webhooks and API integrations connecting inbound leads directly into HubSpot, Salesforce, Zoho CRM, Google Sheets, email, and sales team WhatsApp."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "Are your techniques 100% safe and compliant with platform policies?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Yes, absolutely. We strictly adhere to official search engine and advertising network guidelines (Google, Meta, LinkedIn, Apple) to protect your brand reputation and domain authority."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "What budgets or package tiers do you offer for Local SEO Services?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "We provide flexible, milestone-based packages tailored for startups, SMEs, and large enterprise brands, ensuring maximum marketing efficiency at every stage of your growth."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "How do you handle competitor analysis and market benchmarking?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "We perform deep competitor reverse-engineering—analyzing top-performing search terms, ad creatives, backlink profiles, conversion hooks, and audience segments to identify profitable opportunities."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "Can you handle international and multi-regional Local SEO Services campaigns?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Yes. We have managed cross-border campaigns across 15+ countries including USA, UK, Canada, Australia, UAE, Singapore, Germany, and Ireland with complete localization support."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "Do you offer conversion rate optimization (CRO) alongside Local SEO Services?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Yes. Generating traffic is only half the battle; we optimize landing page UI/UX, CTA placement, value propositions, and form frictionless design to ensure maximum conversion percentage."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "What makes your agency different from other digital agencies in Delhi?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "Unlike generic agencies that outsource work, King of Digital Marketing has 32+ in-house certified specialists, 13+ years of direct agency heritage since 2013, proven transparent reporting, and direct oversight by Gaurav Dubey."
+	          }
+	        },
+	        {
+	          "@type": "Question",
+	          "name": "How do I get started with a free strategy audit and proposal?",
+	          "acceptedAnswer": {
+	            "@type": "Answer",
+	            "text": "You can request a free comprehensive audit and customized proposal by calling us directly at +91-9555696058 or submitting our instant online inquiry form."
+	          }
+	        }
+	      ]
+	    }
+	  ]
+	}
+	</script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-		<div role="main" class="main">
+	<!-- ===== 1. HERO SECTION ===== -->
+	<div class="kdm-service-hero">
+		<div class="kdm-service-hero-container">
+			<!-- Breadcrumbs Navigation -->
+			<ul class="kdm-service-breadcrumb">
+				<li><a href="https://www.kingofdigitalmarketing.com/"><i class="fa fa-home"></i> Home</a></li>
+				<li>/</li>
+				<li class="active">Local SEO Services</li>
+			</ul>
 
-			<!-- ===== REUSABLE SERVICE PAGE HERO SECTION COMPONENT ===== -->
-			<div class="kdm-service-hero">
-				<div class="kdm-service-hero-container">
-					<!-- Breadcrumbs Navigation -->
-					<div class="kdm-service-hero-breadcrumbs">
-						<ul>
-							<li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
-							<li class="breadcrumb-sep">/</li>
-							<li class="breadcrumb-current">Local SEO Services in Delhi NCR</li>
-						</ul>
-					</div>
+			<!-- Verified Badge -->
+			<span class="kdm-service-badge">
+				<i class="fa fa-star"></i> #1 RATED LOCAL SEO AGENCY IN DELHI, INDIA
+			</span>
 
-					<!-- Badge Tag -->
-					<span class="kdm-service-hero-badge">
-						<i class="fa fa-map-marker"></i> #1 LOCAL SEO & GOOGLE MAPS 3-PACK AGENCY
-					</span>
+			<!-- Main Heading -->
+			<h1 class="kdm-service-hero-title">
+				Dominate Google Maps & 'Near Me' Searches with Top <span class="kdm-gradient-highlight">Local SEO Services</span>
+			</h1>
 
-					<!-- Main H1 Title -->
-					<h1 class="kdm-service-hero-title">
-						Dominate Local Search & Win Nearby Customers in <span class="kdm-gradient-highlight">Delhi
-							NCR</span>
-					</h1>
+			<!-- Hero Subtitle -->
+			<p class="kdm-service-hero-subtitle">
+				Capture high-intent local customers looking for your services nearby with Google Business Profile optimization, localized citations, and top 3-pack Map rankings.
+			</p>
 
-					<!-- Subtitle Paragraph -->
-					<p class="kdm-service-hero-subtitle">
-						Rank #1 on Google Maps 3-Pack, capture high-intent "near me" local searches, and turn nearby
-						foot traffic and phone calls into long-term revenue.
-					</p>
+			<!-- Stats Trust Bar -->
+			<div class="kdm-service-stats-bar">
+				<div class="kdm-service-stat-item">
+					<strong>900+</strong>
+					<span>Projects Completed</span>
+				</div>
+				<div class="kdm-service-stat-item">
+					<strong>⭐ 4.9/5</strong>
+					<span>Client Satisfaction</span>
+				</div>
+				<div class="kdm-service-stat-item">
+					<strong>850+</strong>
+					<span>Active Clients</span>
+				</div>
+				<div class="kdm-service-stat-item">
+					<strong>15+</strong>
+					<span>Countries Served</span>
+				</div>
+			</div>
 
-					<!-- Trust Stats Bar -->
-					<div class="kdm-service-hero-stats-bar">
-						<span class="kdm-service-hero-stat-highlight"><i class="fa fa-trophy"></i> 850+ Local Businesses
-							Ranked</span>
-						<span class="kdm-service-hero-stat-divider">|</span>
-						<span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
-						<span class="kdm-service-hero-stat-divider">|</span>
-						<span class="kdm-service-hero-stat-green">🎯 98% Map Pack Success Rate</span>
-					</div>
+			<!-- Hero CTA Button (No Inline Form, triggers openGlobalPopupForm()) -->
+			<div class="kdm-service-cta-wrapper">
+				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-hero-btn-primary">
+					<i class="fa fa-paper-plane"></i> Get Free Strategy Blueprint &amp; Audit <i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
 
-					<!-- Action CTA Button -->
-					<div class="kdm-service-hero-cta-wrap">
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn">
-							<i class="fa fa-rocket"></i> Get Free Local SEO & GBP Audit <i
-								class="fa fa-arrow-right"></i>
-						</a>
-					</div>
+			<!-- Value Highlights Bullets -->
+			<div class="kdm-service-hero-highlights">
+				<span class="kdm-hero-check"><i class="fa fa-check-circle"></i> Google Maps Top 3-Pack Rankings</span>
+				<span class="kdm-hero-check"><i class="fa fa-check-circle"></i> NAP Consistency & Citation Cleanup</span>
+				<span class="kdm-hero-check"><i class="fa fa-check-circle"></i> Local Review Generation Strategy</span>
+				<span class="kdm-hero-check"><i class="fa fa-check-circle"></i> High-Converting Geo Landing Pages</span>
+			</div>
+		</div>
+	</div>
 
-					<!-- Value Highlights Row -->
-					<div class="kdm-service-hero-highlights">
-						<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Google Business
-							Profile Optimization</div>
-						<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Local Citation &
-							NAP Consistency</div>
-						<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Google Maps
-							3-Pack Rankings</div>
-						<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Local
-							Geo-Targeted Keywords</div>
+	<!-- ===== 2. WHITE THEME - INTRO & STRATEGIC POSITIONING ===== -->
+	<section class="kdm-loc-intro-section" style="padding: 70px 0; background: #ffffff;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="kdm-loc-intro-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 20px; padding: 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+						<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 16px;">
+							<i class="fa fa-check-circle"></i> STRATEGIC MARKET LEADERSHIP
+						</span>
+						<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-top: 0; margin-bottom: 20px; line-height: 1.3;">
+							Best Local SEO Services in Delhi, India To Capture Nearby Inquiries
+						</h2>
+						<p style="font-size: 15.5px; color: #334155; line-height: 1.8; margin-bottom: 18px;">
+							Over 46% of all Google searches have local intent, and 78% of local mobile searches lead to an offline purchase within 24 hours. If your business is not visible in the top 3 Google Map pack results, your local competitors are taking away your highest-intent customers every single day.
+						</p>
+						<p style="font-size: 15.5px; color: #334155; line-height: 1.8; margin-bottom: 18px;">
+							At <strong>King of Digital Marketing</strong>, our specialized <strong>Local SEO services in Delhi, India</strong> optimize every facet of your local digital footprint—from precision Google Business Profile (GBP) categories and local schema markup to geo-tagged citations and localized review generation funnels.
+						</p>
+						<p style="font-size: 15.5px; color: #334155; line-height: 1.8; margin-bottom: 0;">
+							We empower local clinics, retail showrooms, service contractors, corporate branches, and franchises to dominate 'near me' search queries and convert local footfall into loyal, repeat customers across Delhi NCR, India, and global target locations.
+						</p>
 					</div>
 				</div>
 			</div>
-			<!-- ===== END SERVICE PAGE HERO SECTION ===== -->
 
-			<!-- ===== AWESOME SEO RESULTS SECTION (FROM HOME PAGE) ===== -->
-			<section class="kdm-seo-results-section seo-results">
-				<div class="container">
-					<div class="kdm-seo-header">
-						<div class="kdm-seo-badge">
-							<i class="fa fa-line-chart fa-solid fa-chart-line"></i> PROVEN ORGANIC RANKINGS
+			<!-- 4 Capabilities Highlights Below Intro -->
+			<div class="row" style="margin-top: 35px;">
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="kdm-loc-card">
+						<div class="kdm-loc-card-icon"><i class="fa fa-map-marker"></i></div>
+						<h3>Google Business Profile (GBP)</h3>
+						<p>Category audit, keyword-optimized descriptions, attributes & weekly posts.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="kdm-loc-card">
+						<div class="kdm-loc-card-icon"><i class="fa fa-list-alt"></i></div>
+						<h3>Local Citations & Directory Sync</h3>
+						<p>Consistent NAP (Name, Address, Phone) sync across top business directories.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="kdm-loc-card">
+						<div class="kdm-loc-card-icon"><i class="fa fa-compass"></i></div>
+						<h3>Google Map 3-Pack Dominance</h3>
+						<p>Geo-targeted radius optimization and localized search rank tracking.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 mb-4">
+					<div class="kdm-loc-card">
+						<div class="kdm-loc-card-icon"><i class="fa fa-star"></i></div>
+						<h3>Review Funnel & Reputation</h3>
+						<p>Automated review acquisition workflows and sentiment management.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 3. WHITE THEME - CREDENTIALS & MILESTONES (FROM DEFAULT.ASPX) ===== -->
+	<section class="kdm-credentials-white-section" style="padding: 60px 0; background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="kdm-credentials-header text-center" style="margin-bottom: 40px;">
+				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+					<i class="fa fa-trophy"></i> AGENCY MILESTONES &amp; RECORD
+				</span>
+				<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">OUR <span style="color: #0284c7;">CREDENTIALS</span></h2>
+				<p style="font-size: 15px; color: #64748b; margin: 0;">These Numbers Speak A Lot About Our Industry Experience &amp; Dedication</p>
+			</div>
+
+			<div class="kdm-credentials-5grid" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+				<!-- Box 1: 13+ Years Exp -->
+				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(2, 132, 199, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #0284c7;">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<polyline points="12 6 12 12 16 14"></polyline>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="13" data-append="+" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">13+</strong>
+					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Years of Experience</label>
+				</div>
+
+				<!-- Box 2: 900+ Projects -->
+				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(16, 185, 129, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #10b981;">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="900" data-append="+" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">900+</strong>
+					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Projects Completed</label>
+				</div>
+
+				<!-- Box 3: 15+ Countries -->
+				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(139, 92, 246, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #8b5cf6;">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<line x1="2" y1="12" x2="22" y2="12"></line>
+							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="15" data-append="+" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">15+</strong>
+					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Countries Served</label>
+				</div>
+
+				<!-- Box 4: 4.9 Rating -->
+				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(245, 158, 11, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #f59e0b;">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">4.9★</strong>
+					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Overall Rating</label>
+				</div>
+
+				<!-- Box 5: 150+ Industries -->
+				<div class="kdm-credentials-box" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px 20px; text-align: center; flex: 1; min-width: 180px; max-width: 220px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+					<div class="kdm-cred-svg-hub" style="width: 52px; height: 52px; border-radius: 12px; background: rgba(239, 68, 68, 0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 12px auto; color: #ef4444;">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+							<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="150" data-append="+" style="font-size: 30px; font-weight: 800; color: #0f172a; display: block; margin-bottom: 4px;">150+</strong>
+					<label class="kdm-cred-label" style="font-size: 13px; font-weight: 600; color: #64748b; margin: 0;">Industries Served</label>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 4. WHITE THEME - WHY CHOOSE KING OF DIGITAL MARKETING ===== -->
+	<section class="kdm-why-choose-section" style="padding: 75px 0; background: #ffffff;">
+		<div class="container">
+			<div class="text-center" style="margin-bottom: 45px;">
+				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+					<i class="fa fa-thumbs-up"></i> PROVEN VALUE &amp; COMPETITIVE ADVANTAGE
+				</span>
+				<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">
+					Why Choose King of Digital Marketing For <span style="color: #0284c7;">Local SEO Services</span>?
+				</h2>
+				<p style="font-size: 15px; color: #64748b; max-width: 750px; margin: 0 auto;">
+					We engineer customized, high-converting digital frameworks combining deep algorithmic knowledge with commercial execution.
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+								<polyline points="22 4 12 14.01 9 11.01"></polyline>
+							</svg>
 						</div>
-						<h2 class="kdm-seo-title">AWESOME <span class="kdm-blue-gradient">SEO RESULTS</span></h2>
-						<p class="kdm-seo-description">
-							The best feeling ever, When SEO experts are able to bring your website at top 5 ranking of
-							search engine result page. If You have the vision, You have come to the right
-							<strong>digital marketing company</strong>. We have the ability to optimize your website to
-							get more traffic leads and sales. - "If not We then Who". Tell us about your digital goals
-							and challenges, Our digital marketing experts will share our strategy and the best approach
-							for your requirements. Our SEO results speak for our Search Engine Optimization services.
-							<b>See the SEO results.</b>
+						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">13+ Years Local SEO Expertise</h3>
+						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Helped hundreds of local businesses achieve rank #1 on Google Maps.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+								<polyline points="22 4 12 14.01 9 11.01"></polyline>
+							</svg>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Geo-Targeted Keyword Research</h3>
+						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Targeting hyper-local neighborhood and city-specific search terms.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+								<polyline points="22 4 12 14.01 9 11.01"></polyline>
+							</svg>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Automated Review Funnels</h3>
+						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Ethical customer review acquisition that boosts Google Maps algorithmic trust.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+								<polyline points="22 4 12 14.01 9 11.01"></polyline>
+							</svg>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Multi-Location Franchise Support</h3>
+						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Scalable local SEO architecture for businesses with multiple branches.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+								<polyline points="22 4 12 14.01 9 11.01"></polyline>
+							</svg>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Spam & Fake Listing Removal</h3>
+						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Reporting duplicate or violating competitor listings to protect your local rank.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-why-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px 24px; height: 100%; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+						<div class="kdm-why-icon-wrap" style="width: 54px; height: 54px; border-radius: 12px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.2); display: flex; align-items: center; justify-content: center; margin-bottom: 18px;">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+								<polyline points="22 4 12 14.01 9 11.01"></polyline>
+							</svg>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Transparent Local Analytics</h3>
+						<p style="font-size: 14.5px; color: #475569; line-height: 1.65; margin: 0;">Tracking phone calls, direction requests, website clicks, and footfall.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 5. DARK THEME - 9 STEP WORK PROCESS ===== -->
+	<section class="kdm-seo-process-section" style="padding: 80px 0; background: #070a12; color: #ffffff;">
+		<div class="container">
+			<div class="text-center" style="margin-bottom: 50px;">
+				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+					<i class="fa fa-cogs"></i> OUR SYSTEMATIC BLUEPRINT
+				</span>
+				<h2 style="font-size: 30px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">
+					9-Step Execution Process For <span style="background: linear-gradient(135deg, #38bdf8 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Local SEO Services</span>
+				</h2>
+				<p style="font-size: 15.5px; color: #94a3b8; max-width: 780px; margin: 0 auto;">
+					Our battle-tested 9-phase roadmap ensures every technical, creative, and analytical touchpoint delivers compounding commercial ROI.
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">01</span>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Local SEO & GBP Audit</h3>
+						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Analyzing profile health, duplicate listings, NAP consistency, and local competitor ranking.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">02</span>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Google Business Profile Optimization</h3>
+						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Optimizing primary/secondary categories, service menus, photos, and geo-coordinates.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">03</span>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Local Keyword Mapping</h3>
+						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Discovering high-converting 'near me' and geo-modifier keywords for your locality.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">04</span>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">NAP Citation Cleanup & Building</h3>
+						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Submitting and verifying consistent business details on top local directories.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">05</span>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Geo-Targeted Landing Pages</h3>
+						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Creating location-specific service pages embedded with LocalBusiness schema markup.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">06</span>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Review Acquisition Workflow</h3>
+						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Setting up automated SMS/email review invitation links to boost 5-star ratings.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">07</span>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Local Link Building & PR</h3>
+						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Acquiring local press mentions, community sponsorships, and regional backlinks.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">08</span>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Google Posts & Q&A Optimization</h3>
+						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Regular promotional updates, seasonal offers, and pre-populated FAQ answers.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="kdm-process-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 18px; padding: 30px 24px; height: 100%; transition: all 0.35s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+							<div style="width: 52px; height: 52px; border-radius: 14px; background: rgba(2, 132, 199, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center;">
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<span style="font-size: 26px; font-weight: 900; color: rgba(56, 189, 248, 0.35); font-family: monospace;">09</span>
+						</div>
+						<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">Local Insights & Call Tracking</h3>
+						<p style="font-size: 14px; color: #cbd5e1; line-height: 1.65; margin: 0;">Monitoring GBP calls, website clicks, directional queries, and keyword grid ranks.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 6. WHITE THEME - CLIENT TRUST & PARTNER LOGOS (FROM DEFAULT.ASPX) ===== -->
+	<section class="kdm-clients-white-section" style="padding: 70px 0; background: #ffffff;">
+		<div class="container">
+			<div class="text-center" style="margin-bottom: 35px;">
+				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+					<i class="fa fa-handshake-o"></i> ENTERPRISE TRUST &amp; PARTNERSHIPS
+				</span>
+				<h2 style="font-size: 26px; font-weight: 800; color: #0f172a; margin-bottom: 12px; line-height: 1.35;">
+					Your Trust Made Us Top <span style="color: #0284c7;">Local SEO Services Company</span> in Delhi, India To Help Flourish Your Business
+				</h2>
+				<div class="kdm-motto-tags" style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
+					<span style="background: #f1f5f9; color: #334155; font-size: 13.5px; font-weight: 700; padding: 6px 18px; border-radius: 30px;"><i class="fa fa-check text-success"></i> Customer Satisfaction</span>
+					<span style="background: #f1f5f9; color: #334155; font-size: 13.5px; font-weight: 700; padding: 6px 18px; border-radius: 30px;"><i class="fa fa-check text-success"></i> 24/7 Support</span>
+					<span style="background: #f1f5f9; color: #334155; font-size: 13.5px; font-weight: 700; padding: 6px 18px; border-radius: 30px;"><i class="fa fa-check text-success"></i> High-Standard Results</span>
+				</div>
+			</div>
+
+			<!-- Marquee Track with Logos from Default.aspx -->
+			<div class="slide-container" style="overflow: hidden; padding: 15px 0;">
+				<div class="slide-now" style="display: flex; gap: 30px; animation: slideTrack 25s linear infinite;">
+					<img alt="satguru" src="images/satguru--logo.webp" style="height: 50px; object-fit: contain;">
+					<img alt="Skinmumma" src="images/Skinmumma-logo.webp" style="height: 50px; object-fit: contain;">
+					<img alt="Prep guru" src="images/Prep-guru-logo.webp" style="height: 50px; object-fit: contain;">
+					<img alt="cara" src="images/cara_img.webp" style="height: 50px; object-fit: contain;">
+					<img alt="Olympus" src="images/Olympus_img.webp" style="height: 50px; object-fit: contain;">
+					<img alt="cocoona" src="images/cocoona.webp" style="height: 50px; object-fit: contain;">
+					<img alt="monickaa gupta" src="images/monickaagupta_img.webp" style="height: 50px; object-fit: contain;">
+					<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp" style="height: 50px; object-fit: contain;">
+					<img alt="hera hair solutions" src="images/herahairsolutions.webp" style="height: 50px; object-fit: contain;">
+					<img alt="MTel" src="images/MTel_img.webp" style="height: 50px; object-fit: contain;">
+					<img alt="Propert" src="images/Propert-Logo.webp" style="height: 50px; object-fit: contain;">
+					<img alt="enrolbuddy" src="images/enrolbuddy_img.webp" style="height: 50px; object-fit: contain;">
+					<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp" style="height: 50px; object-fit: contain;">
+					<img alt="go to university" src="images/go to university.webp" style="height: 50px; object-fit: contain;">
+					<img alt="Cityc Clinic" src="images/CitycClinic.webp" style="height: 50px; object-fit: contain;">
+					<img alt="thechocolateroom" src="images/thechocolateroom.webp" style="height: 50px; object-fit: contain;">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 7. DARK THEME - MOST POPULAR INDUSTRIES WE WORK WITH ===== -->
+	<section class="industry-slider-section" style="padding: 80px 0; background: #070a12; color: #ffffff;">
+		<div class="container">
+			<div class="text-center" style="margin-bottom: 45px;">
+				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+					<i class="fa fa-briefcase"></i> SECTOR DOMINANCE
+				</span>
+				<h2 style="font-size: 30px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">
+					Most Popular Industries We Work With
+				</h2>
+				<p style="font-size: 15.5px; color: #94a3b8; max-width: 780px; margin: 0 auto;">
+					Explore high-performing digital marketing frameworks tailored specifically for your vertical.
+				</p>
+			</div>
+
+			<!-- 16 Vibrant Industry Cards Grid -->
+			<div class="kdm-industry-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin-bottom: 40px;">
+
+				<!-- Industry 1: Astrology -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-astrology.aspx" style="color: #ffffff; text-decoration: none;">Astrology</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-converting international consultation leads for astrologers worldwide.</p>
+					<a href="digital-marketing-for-astrology.aspx" style="color: #8b5cf6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 2: Real Estate -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+							<polyline points="9 22 9 12 15 12 15 22"></polyline>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-real-estate.aspx" style="color: #ffffff; text-decoration: none;">Real Estate</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">NRI property buyer leads and commercial project marketing worldwide.</p>
+					<a href="digital-marketing-for-real-estate.aspx" style="color: #10b981; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 3: Hair Transplant -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="hair-transplant-digital-marketing-services.aspx" style="color: #ffffff; text-decoration: none;">Hair Transplant</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Medical tourism patient inquiries from USA, UK, UAE &amp; Canada.</p>
+					<a href="hair-transplant-digital-marketing-services.aspx" style="color: #38bdf8; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 4: Study Abroad Consultant -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+							<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="study-abroad-consultant-lead-generation.aspx" style="color: #ffffff; text-decoration: none;">Study Abroad</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Qualified student admissions for UK, Canada, Australia &amp; Europe universities.</p>
+					<a href="study-abroad-consultant-lead-generation.aspx" style="color: #f59e0b; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 5: Cosmetic Surgeon -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(236, 72, 153, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+							<path d="M12 2a10 10 0 0 1 10 10h-10V2z"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #ffffff; text-decoration: none;">Cosmetic Surgeon</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-value surgical appointment bookings &amp; international patient pipeline.</p>
+					<a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #ec4899; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 6: Ecommerce -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(244, 63, 94, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(244, 63, 94, 0.15); border: 1px solid rgba(244, 63, 94, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f43f5e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="9" cy="21" r="1"></circle>
+							<circle cx="20" cy="21" r="1"></circle>
+							<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ecommerce.aspx" style="color: #ffffff; text-decoration: none;">Ecommerce</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Multi-country search rankings for Shopify, WooCommerce &amp; D2C stores.</p>
+					<a href="digital-marketing-for-ecommerce.aspx" style="color: #f43f5e; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 7: Immigration Consultant -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(6, 182, 212, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(6, 182, 212, 0.15); border: 1px solid rgba(6, 182, 212, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<line x1="2" y1="12" x2="22" y2="12"></line>
+							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-visa-immigration-consultant.aspx" style="color: #ffffff; text-decoration: none;">Immigration Consultant</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Global PR visa leads and work permit counseling inquiries worldwide.</p>
+					<a href="digital-marketing-for-visa-immigration-consultant.aspx" style="color: #06b6d4; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 8: Stock Market Institute and Advisor -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(249, 115, 22, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(249, 115, 22, 0.15); border: 1px solid rgba(249, 115, 22, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+							<polyline points="17 6 23 6 23 12"></polyline>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-stock-market-institute.aspx" style="color: #ffffff; text-decoration: none;">Stock Market Institute &amp; Advisor</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Course admissions and active investor lead funnels worldwide.</p>
+					<a href="digital-marketing-for-stock-market-institute.aspx" style="color: #f97316; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 9: Ayurvedic Products -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(132, 204, 22, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(132, 204, 22, 0.15); border: 1px solid rgba(132, 204, 22, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#84cc16" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+							<path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ayurvedic-products.aspx" style="color: #ffffff; text-decoration: none;">Ayurvedic Products</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Global export sales &amp; organic ranking for herbal &amp; Ayurvedic products.</p>
+					<a href="digital-marketing-for-ayurvedic-products.aspx" style="color: #84cc16; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 10: Skin Clinic -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(20, 184, 166, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(20, 184, 166, 0.15); border: 1px solid rgba(20, 184, 166, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#14b8a6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+							<path d="M12 6a6 6 0 0 0-6 6h12a6 6 0 0 0-6-6z"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-dermatologists.aspx" style="color: #ffffff; text-decoration: none;">Skin Clinic</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Generating verified patient appointments for laser, acne &amp; derma clinics.</p>
+					<a href="digital-marketing-for-dermatologists.aspx" style="color: #14b8a6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 11: CA Firm -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+							<line x1="8" y1="21" x2="16" y2="21"></line>
+							<line x1="12" y1="17" x2="12" y2="21"></line>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ca-firm.aspx" style="color: #ffffff; text-decoration: none;">CA Firm</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Cross-border tax consulting, international audit &amp; corporate accounting leads.</p>
+					<a href="digital-marketing-for-ca-firm.aspx" style="color: #3b82f6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 12: Export Business -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(217, 119, 6, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(217, 119, 6, 0.15); border: 1px solid rgba(217, 119, 6, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+							<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-import-export.aspx" style="color: #ffffff; text-decoration: none;">Export Business</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-ticket international B2B buyer leads and bulk export inquiries.</p>
+					<a href="digital-marketing-for-import-export.aspx" style="color: #d97706; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 13: Travel Agency -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 2L11 13"></path>
+							<polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-travel-agency.aspx" style="color: #ffffff; text-decoration: none;">Travel Agency</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Worldwide destination package rankings and direct holiday bookings.</p>
+					<a href="digital-marketing-for-travel-agency.aspx" style="color: #6366f1; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 14: Event Management -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(217, 70, 239, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(217, 70, 239, 0.15); border: 1px solid rgba(217, 70, 239, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d946ef" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+							<line x1="16" y1="2" x2="16" y2="6"></line>
+							<line x1="8" y1="2" x2="8" y2="6"></line>
+							<line x1="3" y1="10" x2="21" y2="10"></line>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-event-management-company.aspx" style="color: #ffffff; text-decoration: none;">Event Management</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Destination wedding &amp; corporate expo lead capture across borders.</p>
+					<a href="digital-marketing-for-event-management-company.aspx" style="color: #d946ef; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 15: Yoga Studio -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="5" r="2"></circle>
+							<path d="M12 7v5"></path>
+							<path d="M8 10l4 2 4-2"></path>
+							<path d="M6 21c1-4 3-7 6-7s5 3 6 7"></path>
+							<path d="M4 17l4-2m12 2l-4-2"></path>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-yoga.aspx" style="color: #ffffff; text-decoration: none;">Yoga Studio</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Acquiring global yoga retreat bookings and local wellness memberships.</p>
+					<a href="digital-marketing-for-yoga.aspx" style="color: #8b5cf6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+				<!-- Industry 16: Restaurant & Cafe -->
+				<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+					<div class="kdm-ind-icon-hub" style="background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+						<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+							<path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+							<line x1="6" y1="1" x2="6" y2="4"></line>
+							<line x1="10" y1="1" x2="10" y2="4"></line>
+							<line x1="14" y1="1" x2="14" y2="4"></line>
+						</svg>
+					</div>
+					<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-restaurant.aspx" style="color: #ffffff; text-decoration: none;">Restaurant &amp; Cafe</a></h3>
+					<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Local Google Map 3-pack dominance, table reservations &amp; orders.</p>
+					<a href="digital-marketing-for-restaurant.aspx" style="color: #ef4444; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+				</div>
+
+			</div>
+
+			<!-- View All Industries Button Link -->
+			<div class="text-center">
+				<a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn" style="background: linear-gradient(135deg, #0284c7, #3b82f6); color: #ffffff; padding: 15px 36px; border-radius: 50px; font-weight: 700; font-size: 15px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 10px 30px rgba(2, 132, 199, 0.4); transition: transform 0.3s ease;">
+					<i class="fa fa-th-large"></i> View All Industries <i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 8. WHITE THEME - ABOUT THE EXPERTS BEHIND SERVICE ===== -->
+	<section class="kdm-experts-section" style="padding: 80px 0; background: #ffffff;">
+		<div class="container">
+			<div class="kdm-experts-header text-center" style="margin-bottom: 45px;">
+				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+					<i class="fa fa-user-circle-o"></i> LEADERSHIP &amp; EXPERT TEAM
+				</span>
+				<h2 style="font-size: 28px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">
+					About the Experts Behind <span style="color: #0284c7;">Local SEO Services</span>
+				</h2>
+				<p style="font-size: 15px; color: #64748b; max-width: 750px; margin: 0 auto;">
+					Meet the experienced consultants, campaign architects, and technical analysts driving measurable client growth.
+				</p>
+			</div>
+
+			<div class="row">
+				<!-- Expert 1: Gaurav Dubey -->
+				<div class="col-md-6 mb-4">
+					<div class="kdm-expert-card" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 20px; padding: 32px; height: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+						<div class="kdm-expert-top" style="display: flex; gap: 20px; align-items: center; margin-bottom: 20px;">
+							<img src="images/gaurav%20dubey%20digital%20marketing.webp" alt="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" title="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" class="kdm-expert-img" style="width: 85px; height: 85px; border-radius: 50%; object-fit: cover; border: 3px solid #0284c7;">
+							<div>
+								<h3 class="kdm-expert-name" style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 4px 0;"><a href="gaurav-dubey.aspx" style="color: #0f172a; text-decoration: none;">Gaurav Dubey</a></h3>
+								<p class="kdm-expert-role" style="font-size: 13.5px; font-weight: 700; color: #0284c7; margin: 0 0 10px 0;">Founder &amp; Senior Digital Marketing Consultant</p>
+								<div class="kdm-expert-socials" style="display: flex; gap: 10px;">
+									<a href="https://www.linkedin.com/in/thegauravdubey/" target="_blank" style="color: #0077b5; font-size: 16px;"><i class="fa fa-linkedin-square"></i></a>
+									<a href="https://www.youtube.com/@TheGauravDubey" target="_blank" style="color: #ff0000; font-size: 16px;"><i class="fa fa-youtube-play"></i></a>
+									<a href="https://www.instagram.com/thegauravdubey/" target="_blank" style="color: #e4405f; font-size: 16px;"><i class="fa fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+						<p class="kdm-expert-bio" style="font-size: 14.5px; color: #475569; line-height: 1.7; margin-bottom: 20px;">
+							With over <strong>13+ years of hands-on digital marketing leadership</strong>, Gaurav Dubey has spearheaded <strong>900+ successful campaigns</strong> across India, USA, UK, UAE &amp; 15+ global markets. Specialist in advanced SEO algorithms, high-converting Google Ads funnels, Meta performance marketing, and Generative Engine Optimization (GEO).
 						</p>
-
-						<div class="kdm-seo-solutions-box">
-							<h3 class="kdm-seo-solutions-title">We Have Best Solutions For:</h3>
-							<div class="kdm-seo-solutions-grid">
-								<span class="kdm-seo-solution-item"><b>1.</b> Low Organic Traffic</span>
-								<span class="kdm-seo-solution-item"><b>2.</b> No Organic Leads</span>
-								<span class="kdm-seo-solution-item"><b>3.</b> No Keywords in 1st Page Ranking</span>
-								<span class="kdm-seo-solution-item"><b>4.</b> Low Backlinks</span>
-								<span class="kdm-seo-solution-item"><b>5.</b> Poor Domain Authority</span>
+						<div class="kdm-expert-stats" style="display: flex; gap: 15px; border-top: 1px solid #e2e8f0; padding-top: 18px;">
+							<div style="flex: 1;">
+								<strong style="display: block; font-size: 18px; font-weight: 800; color: #0284c7;">13+ Yrs</strong>
+								<span style="font-size: 12px; color: #64748b;">Experience</span>
+							</div>
+							<div style="flex: 1;">
+								<strong style="display: block; font-size: 18px; font-weight: 800; color: #0284c7;">900+</strong>
+								<span style="font-size: 12px; color: #64748b;">Projects Handled</span>
+							</div>
+							<div style="flex: 1;">
+								<strong style="display: block; font-size: 18px; font-weight: 800; color: #0284c7;">15+</strong>
+								<span style="font-size: 12px; color: #64748b;">Countries Served</span>
 							</div>
 						</div>
-					</div>
-
-					<div class="slider">
-						<div class="slides">
-							<!-- Box 1 -->
-							<div class="seo-card">
-								<div class="card-inner">
-									<div class="card-header">
-										<h3>QHT Hair Clinic</h3>
-										<span>QHT is one of the premium hair transplant clinic in India, We have been
-											working for SEO since 2024 and we have achieved top ranking related to hair
-											transplant keywords in almost all top cities of India. Helped to generate
-											high quality leads and direct calls through SEO services.</span>
-									</div>
-									<div class="keyword-list">
-										<div class="keyword-item">Dense hair implantation in Hyderabad<span
-												class="rank">#1</span></div>
-										<div class="keyword-item">Hair transplant in Hyderabad<span
-												class="rank">#3</span></div>
-										<div class="keyword-item">Dense Hair Implantation Clinic in Hyderabad<span
-												class="rank">#2</span></div>
-										<div class="keyword-item">FUE Hair Transplant clinic in Hyderabad<span
-												class="rank">#4</span></div>
-									</div>
-								</div>
-							</div>
-							<!-- Box 2 -->
-							<div class="seo-card">
-								<div class="card-inner">
-									<div class="card-header">
-										<h3>Dr. PK Talwar - Cosmetic Surgeon</h3>
-										<span>Dr. PK Talwar is one of the most experienced cosmetic and plastic surgeons
-											in Delhi, India. King of Digital Marketing started digital marketing in 2020
-											and helped to get top ranking in Google with more than 100 keywords,
-											generated high quality leads organically and promoted YouTube also.</span>
-									</div>
-									<div class="keyword-list">
-										<div class="keyword-item">Gynaecomastia Surgery in Delhi<span
-												class="rank">#3</span></div>
-										<div class="keyword-item">Liposuction Surgery in Delhi<span
-												class="rank">#4</span></div>
-										<div class="keyword-item">Cosmetic Surgeon in Delhi <span class="rank">#6</span>
-										</div>
-										<div class="keyword-item">Hair Transplant in South Delhi<span
-												class="rank">#5</span></div>
-									</div>
-								</div>
-							</div>
-							<!-- Box 3 -->
-							<div class="seo-card">
-								<div class="card-inner">
-									<div class="card-header">
-										<h3>Kidney Care Centre</h3>
-										<span>Kidney Care Centre is led by popular nephrologist in Delhi Dr. Rajesh
-											Goel. King of Digital Marketing has worked for his website to rank in Google
-											top 10. We worked and got result successfully. Our team promoted his Google
-											My Business Pages also to rank in top 3. India</span>
-									</div>
-									<div class="keyword-list">
-										<div class="keyword-item">Kidney specialist doctor in Delhi<span
-												class="rank">#3</span></div>
-										<div class="keyword-item">best nephrologist in delhi<span class="rank">#6</span>
-										</div>
-										<div class="keyword-item">Kidney doctor in Delhi<span class="rank">#5</span>
-										</div>
-										<div class="keyword-item">best dialysis centre in Delhi<span
-												class="rank">#4</span></div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Box 4 -->
-							<div class="seo-card">
-								<div class="card-inner">
-									<div class="card-header">
-										<h3>Contact Combat India</h3>
-										<span>Contact Combat India is training centre for Krav Maga and Kickboxing. Our
-											Social Media Experts and SEO Experts had worked on this project for brand
-											awareness and ranking in search engine. We got tremendous results for this
-											website.</span>
-									</div>
-									<div class="keyword-list">
-										<div class="keyword-item">Krav maga in delhi<span class="rank">#3</span></div>
-										<div class="keyword-item">Krav maga classes in delhi<span class="rank">#4</span>
-										</div>
-										<div class="keyword-item">Kids self defense in delhi<span class="rank">#9</span>
-										</div>
-										<div class="keyword-item">Krav maga near me<span class="rank">#6</span></div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Box 5 -->
-							<div class="seo-card">
-								<div class="card-inner">
-									<div class="card-header">
-										<h3>Wolk Coworking Space</h3>
-										<span>Wolk - A Coworking Community We have worked for Wolk Search Engine
-											Optimization Services, Wolk provides the best coworking spaces and shared
-											office space solutions in South Delhi. This website ranks in Delhi, Nehru
-											Place and South Delhi based Keywords now.</span>
-									</div>
-									<div class="keyword-list">
-										<div class="keyword-item">Coworking Space in Nehru Place<span
-												class="rank">#3</span></div>
-										<div class="keyword-item">Coworking Space in South Delhi<span
-												class="rank">#5</span></div>
-										<div class="keyword-item">Coworking Space in Delhi<span class="rank">#6</span>
-										</div>
-										<div class="keyword-item">Shared Office Space in South Delhi<span
-												class="rank">#7</span></div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Box 6 -->
-							<div class="seo-card">
-								<div class="card-inner">
-									<div class="card-header">
-										<h3>Geographia IAS</h3>
-										<span>Geographia IAS - SEO Services We have worked for Ajay Raj Singh Sir, Best
-											Geography Optional Teacher for IAS and UPSC aspirants. We have ranked 5 - 6
-											Keywords. Maximum we have done paid advertisement (Google Ad - Search and
-											Display) for this website.</span>
-									</div>
-									<div class="keyword-list">
-										<div class="keyword-item">Geography Coaching in Delhi<span
-												class="rank">#3</span></div>
-										<div class="keyword-item">Best Geography Institute for IAS<span
-												class="rank">#5</span></div>
-										<div class="keyword-item">Geography Coaching for IAS<span class="rank">#6</span>
-										</div>
-										<div class="keyword-item">Online Geography Coaching for IAS<span
-												class="rank">#3</span></div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Box 7 -->
-							<div class="seo-card">
-								<div class="card-inner">
-									<div class="card-header">
-										<h3>DIFA: Delhi Institute of Film & Acting</h3>
-										<span>DIFA (Delhi Institute of Film & Acting) - SEO/PPC Services SEO team worked
-											of DIFA project 4 months to bring its major keywords in 1st page of Google.
-											Almost 80% keywords are in 1st page. Our PPC team provided 350 leads through
-											paid ads in a month for DIFA.</span>
-									</div>
-									<div class="keyword-list">
-										<div class="keyword-item">Acting School in Delhi<span class="rank">#6</span>
-										</div>
-										<div class="keyword-item">Acting School in South Delhi<span
-												class="rank">#5</span></div>
-										<div class="keyword-item">Acting Institute in Delhi<span class="rank">#3</span>
-										</div>
-										<div class="keyword-item">Acting Course in Delhi <span class="rank">#4</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Slider buttons -->
-						<button class="nav-btn prev" type="button">&#10094;</button>
-						<button class="nav-btn next" type="button">&#10095;</button>
 					</div>
 				</div>
-			</section>
-			<!-- SEO Results With Ranking Ends -->
 
-			<!-- ===== BENEFITS OF LOCAL SEO AGENCY SECTION ===== -->
-			<section class="kdm-seo-benefits-section">
-				<div class="container">
-					<div class="kdm-seo-benefits-header">
-						<span class="kdm-seo-benefits-badge">BENEFITS OF LOCAL SEO AGENCY</span>
-						<h2 class="kdm-seo-benefits-title">Transform Your Business With Top <strong>Google Maps 3-Pack
-								Rankings</strong></h2>
-						<p class="kdm-seo-benefits-desc">
-							In today's mobile-first world, 76% of local searchers visit or call a business within 24
-							hours. Partnering with King of Digital Marketing gives your brand an unfair local advantage
-							to outrank nearby competitors.
+				<!-- Expert 2: In-House Team -->
+				<div class="col-md-6 mb-4">
+					<div class="kdm-expert-card" style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 20px; padding: 32px; height: 100%; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+						<div class="kdm-expert-top" style="display: flex; gap: 20px; align-items: center; margin-bottom: 20px;">
+							<img src="images/team/kdm-team-experts.webp" alt="King of Digital Marketing Specialists Team" title="King of Digital Marketing Specialists Team" class="kdm-expert-img" style="width: 85px; height: 85px; border-radius: 50%; object-fit: cover; border: 3px solid #10b981;">
+							<div>
+								<h3 class="kdm-expert-name" style="font-size: 20px; font-weight: 800; color: #0f172a; margin: 0 0 4px 0;"><a href="team.aspx" style="color: #0f172a; text-decoration: none;">32+ In-House Specialists</a></h3>
+								<p class="kdm-expert-role" style="font-size: 13.5px; font-weight: 700; color: #10b981; margin: 0 0 10px 0;">Technical SEO, PPC &amp; Creative Strategists</p>
+								<span style="font-size: 12.5px; background: rgba(16, 185, 129, 0.1); color: #059669; font-weight: 700; padding: 3px 10px; border-radius: 20px;">Google &amp; Meta Certified</span>
+							</div>
+						</div>
+						<p class="kdm-expert-bio" style="font-size: 14.5px; color: #475569; line-height: 1.7; margin-bottom: 20px;">
+							Our cross-functional in-house team includes technical SEO auditors, Google Ads certified professionals, copywriters, speed optimization engineers, and full-stack developers dedicated to scaling your digital visibility.
 						</p>
-					</div>
-
-					<div class="kdm-seo-benefits-grid">
-
-						<!-- Card 1: Higher Google Maps 3-Pack Rankings -->
-						<div class="kdm-seo-benefit-card">
-							<div class="kdm-benefit-icon-wrap">
-								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-									<circle cx="12" cy="10" r="3"></circle>
-								</svg>
+						<div class="kdm-expert-stats" style="display: flex; gap: 15px; border-top: 1px solid #e2e8f0; padding-top: 18px;">
+							<div style="flex: 1;">
+								<strong style="display: block; font-size: 18px; font-weight: 800; color: #10b981;">32+</strong>
+								<span style="font-size: 12px; color: #64748b;">Specialists</span>
 							</div>
-							<h3>1. Higher Google Maps 3-Pack Rankings</h3>
-							<p>
-								Capture prime real estate on Google SERPs. Ranking in the Google Map 3-Pack puts your
-								business directly in front of active local customers searching for your products and
-								services.
-							</p>
-						</div>
-
-						<!-- Card 2: High-Intent Local Foot Traffic & Calls -->
-						<div class="kdm-seo-benefit-card">
-							<div class="kdm-benefit-icon-wrap">
-								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-									</path>
-								</svg>
+							<div style="flex: 1;">
+								<strong style="display: block; font-size: 18px; font-weight: 800; color: #10b981;">100%</strong>
+								<span style="font-size: 12px; color: #64748b;">In-House Team</span>
 							</div>
-							<h3>2. High-Intent Local Foot Traffic & Calls</h3>
-							<p>
-								Local searchers have immediate buying intent. By optimizing your Google Business Profile
-								and local keywords, we turn nearby searches into direct phone calls, driving directions,
-								and store visits.
-							</p>
-						</div>
-
-						<!-- Card 3: Maximum Local Citation & NAP Authority -->
-						<div class="kdm-seo-benefit-card">
-							<div class="kdm-benefit-icon-wrap">
-								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-									<polyline points="9 12 11 14 15 10"></polyline>
-								</svg>
-							</div>
-							<h3>3. Maximum Local Citation & NAP Authority</h3>
-							<p>
-								We audit and align your Name, Address, and Phone Number (NAP) across 150+ top local
-								directories (Justdial, Sulekha, Indiamart), building rock-solid trust with Google
-								algorithms.
-							</p>
-						</div>
-
-						<!-- Card 4: Reputation & 5-Star Review Growth -->
-						<div class="kdm-seo-benefit-card">
-							<div class="kdm-benefit-icon-wrap">
-								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon
-										points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-									</polygon>
-								</svg>
-							</div>
-							<h3>4. Reputation & 5-Star Review Growth</h3>
-							<p>
-								Build unbeatable market credibility. We implement automated review acquisition
-								strategies that generate genuine 5-star Google reviews and professionally handle
-								customer feedback.
-							</p>
-						</div>
-
-						<!-- Card 5: Geo-Targeted Hyper-Local Domination -->
-						<div class="kdm-seo-benefit-card">
-							<div class="kdm-benefit-icon-wrap">
-								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<line x1="22" y1="12" x2="18" y2="12"></line>
-									<line x1="6" y1="12" x2="2" y2="12"></line>
-									<line x1="12" y1="6" x2="12" y2="2"></line>
-									<line x1="12" y1="22" x2="12" y2="18"></line>
-								</svg>
-							</div>
-							<h3>5. Geo-Targeted Hyper-Local Domination</h3>
-							<p>
-								Target customers in specific pin codes, neighborhoods, and nearby hubs across Delhi NCR.
-								Outrank local competitors and dominate transactional "near me" keyword searches.
-							</p>
-						</div>
-
-						<!-- Card 6: AI & Voice Search Local Discovery -->
-						<div class="kdm-seo-benefit-card">
-							<div class="kdm-benefit-icon-wrap">
-								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path>
-									<path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
-									<line x1="12" y1="19" x2="12" y2="22"></line>
-								</svg>
-							</div>
-							<h3>6. AI & Voice Search Local Discovery</h3>
-							<p>
-								Future-proof your business. We optimize your local structured schema and profile data so
-								voice assistants (Siri, Google Assistant) and AI engines recommend your brand for local
-								queries.
-							</p>
-						</div>
-
-					</div>
-				</div>
-			</section>
-			<!-- ===== END BENEFITS OF LOCAL SEO AGENCY SECTION ===== -->
-
-			<!-- ===== CLIENTS TRUST & LOGOS SECTION (WHITE THEME) ===== -->
-			<section class="kdm-clients-white-section">
-				<div class="container">
-					<div class="row custom-row">
-						<div class="col-md-12 col-sm-12">
-							<div class="kdm-clients-header">
-								<div class="kdm-clients-badge">
-									<i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED SEO COMPANY BY
-									INDUSTRY LEADERS
-								</div>
-								<h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">SEO
-										Company</span> To Help Flourish Your Business</h2>
-								<p class="kdm-clients-subtitle">
-									What makes us distinct is our valuable SEO clients. We strive day in and day out to
-									secure their Search Engine Optimization ranking, high-converting traffic, and
-									qualified lead generation.
-								</p>
-								<div class="kdm-clients-motto-wrapper">
-									<div class="kdm-clients-motto">
-										<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
-											Ambitious</span>
-										<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
-											Experts</span>
-										<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
-											Shepherd</span>
-										<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are
-											King</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="happy" id="images">
-								<div class="track">
-									<!-- Featured Priority Client Logos -->
-									<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-									<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-									<div class="slide"><img alt="SkinLab Jamuna Pai"
-											src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-									<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-									<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-									<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
-									<div class="slide"><img alt="Global Opportunities"
-											src="images/client/global-opportunies.webp"></div>
-									<div class="slide"><img alt="Planet Education"
-											src="images/client/planet-education.webp"></div>
-									<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
-									<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp">
-									</div>
-									<div class="slide"><img alt="Continental Immigration"
-											src="images/ContinentalImmigration.jpeg"></div>
-									<div class="slide"><img alt="Scala" src="images/scala.png"></div>
-									<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-									<div class="slide"><img alt="Kidney Care Centre"
-											src="images/kidney care centre.png"></div>
-									<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
-									<div class="slide"><img alt="Sareen Hair Clinic"
-											src="images/Sareen Hair Clinic.png"></div>
-									<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
-									<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-									<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png">
-									</div>
-								</div>
+							<div style="flex: 1;">
+								<strong style="display: block; font-size: 18px; font-weight: 800; color: #10b981;">24/7</strong>
+								<span style="font-size: 12px; color: #64748b;">Client Support</span>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- End of Clients Logos Portfolio Container -->
+			</div>
+		</div>
+	</section>
 
-			<!-- ===== OUR LOCAL SEO WORK PROCESS SECTION ===== -->
-			<section class="kdm-seo-process-section">
-				<div class="container">
-					<div class="kdm-seo-process-header">
-						<span class="kdm-seo-badge">PROVEN LOCAL METHODOLOGY</span>
-						<h2 class="kdm-seo-process-title">Our Local SEO Work Process</h2>
-						<p class="kdm-seo-process-desc">
-							With over 13+ years of experience, our data-driven 9-stage Local SEO framework empowers
-							businesses to dominate Google Maps 3-Pack and capture high-converting nearby searchers.
+	<!-- ===== 9. DARK THEME - WHAT OUR CLIENTS SAY (TESTIMONIALS SLIDER) ===== -->
+	<section class="kdm-testimonial-section" style="padding: 80px 0; background: #070a12; color: #ffffff;">
+		<div class="container">
+			<div class="text-center" style="margin-bottom: 45px;">
+				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #38bdf8; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+					<i class="fa fa-comments"></i> VERIFIED CLIENT REVIEWS
+				</span>
+				<h2 style="font-size: 30px; font-weight: 800; color: #ffffff; margin-bottom: 12px;">
+					What Our Clients Say About <span style="background: linear-gradient(135deg, #38bdf8 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Local SEO Services</span>
+				</h2>
+				<p style="font-size: 15.5px; color: #94a3b8; max-width: 750px; margin: 0 auto;">
+					Discover how our data-backed strategies transformed business outcomes for partners worldwide.
+				</p>
+			</div>
+
+			<div class="kdm-testimonial-slider-wrap" style="max-width: 880px; margin: 0 auto; position: relative;">
+				<div class="kdm-testi-track" id="kdmTestimonialTrack" style="display: flex; overflow: hidden;">
+					<!-- Review 1 -->
+					<div class="kdm-testi-slide" style="min-width: 100%; box-sizing: border-box; padding: 35px 30px; background: rgba(15, 23, 42, 0.85); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 24px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.4);">
+						<div style="color: #f59e0b; font-size: 20px; margin-bottom: 18px;">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p style="font-size: 17px; color: #f1f5f9; line-height: 1.8; font-style: italic; margin-bottom: 24px;">
+							"King of Digital Marketing helped us scale our inquiries by over 300% within 5 months. Their technical precision, proactive communication, and Gaurav Dubey's direct strategy guidance made a massive difference to our revenue pipeline."
 						</p>
-					</div>
-
-					<div class="kdm-seo-process-grid">
-
-						<!-- Card 1: Local Audit & Geo-Grid Scan -->
-						<div class="kdm-seo-card">
-							<div class="kdm-seo-icon-wrap">
-								<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="11" cy="11" r="8"></circle>
-									<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-								</svg>
-							</div>
-							<h3>1. Local Audit & Geo-Grid Scan</h3>
-							<p>We perform deep geo-grid tracking to analyze your current Google Map rankings across
-								specific mile radiuses and identify competitor dominance areas.</p>
-						</div>
-
-						<!-- Card 2: Google Business Profile Overhaul -->
-						<div class="kdm-seo-card">
-							<div class="kdm-seo-icon-wrap">
-								<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-									<circle cx="12" cy="10" r="3"></circle>
-								</svg>
-							</div>
-							<h3>2. Google Business Profile Overhaul</h3>
-							<p>Optimizing primary/secondary categories, business descriptions, operating hours, service
-								menus, and uploading EXIF/GEO-tagged photos.</p>
-						</div>
-
-						<!-- Card 3: NAP Consistency & Citations -->
-						<div class="kdm-seo-card">
-							<div class="kdm-seo-icon-wrap">
-								<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-									<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-								</svg>
-							</div>
-							<h3>3. NAP Consistency & Citations</h3>
-							<p>Auditing existing listings and building 150+ high-authority Indian & global local
-								directory citations ensuring 100% NAP consistency.</p>
-						</div>
-
-						<!-- Card 4: Hyper-Local Keyword Strategy -->
-						<div class="kdm-seo-card">
-							<div class="kdm-seo-icon-wrap">
-								<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<line x1="4" y1="9" x2="20" y2="9"></line>
-									<line x1="4" y1="15" x2="20" y2="15"></line>
-									<line x1="10" y1="3" x2="8" y2="21"></line>
-									<line x1="16" y1="3" x2="14" y2="21"></line>
-								</svg>
-							</div>
-							<h3>4. Hyper-Local Keyword Strategy</h3>
-							<p>Researching transactional "near me" keywords, city-specific terms, and localized search
-								phrases with high buyer intent.</p>
-						</div>
-
-						<!-- Card 5: On-Page Local Schema & GEO Pages -->
-						<div class="kdm-seo-card">
-							<div class="kdm-seo-icon-wrap">
-								<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="16 18 22 12 16 6"></polyline>
-									<polyline points="8 6 2 12 8 18"></polyline>
-								</svg>
-							</div>
-							<h3>5. On-Page Local Schema & GEO Pages</h3>
-							<p>Implementing `LocalBusiness` JSON-LD schema markup, GeoCoordinates, and location landing
-								pages to boost search engine relevance.</p>
-						</div>
-
-						<!-- Card 6: Local Authority Link Building -->
-						<div class="kdm-seo-card">
-							<div class="kdm-seo-icon-wrap">
-								<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-								</svg>
-							</div>
-							<h3>6. Local Authority Link Building</h3>
-							<p>Acquiring backlinks from regional blogs, city portals, trade associations, and localized
-								news sites to build domain trustworthiness.</p>
-						</div>
-
-						<!-- Card 7: Review Acquisition Protocol -->
-						<div class="kdm-seo-card">
-							<div class="kdm-seo-icon-wrap">
-								<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon
-										points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-									</polygon>
-								</svg>
-							</div>
-							<h3>7. Review Acquisition Protocol</h3>
-							<p>Deploying automated review collection links to consistently gather 5-star Google reviews
-								and managing response strategies.</p>
-						</div>
-
-						<!-- Card 8: Google Maps 3-Pack Rank Booster -->
-						<div class="kdm-seo-card">
-							<div class="kdm-seo-icon-wrap">
-								<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-								</svg>
-							</div>
-							<h3>8. Google Maps 3-Pack Rank Booster</h3>
-							<p>Continuously optimizing behavioral signals, local user engagement, GBP updates, and map
-								citations to retain top 3 rankings.</p>
-						</div>
-
-						<!-- Card 9: Call, Direction & Lead Tracking -->
-						<div class="kdm-seo-card">
-							<div class="kdm-seo-icon-wrap">
-								<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M23 6l-9.5 9.5-5-5L1 18"></path>
-									<path d="M17 6h6v6"></path>
-								</svg>
-							</div>
-							<h3>9. Call, Direction & Lead Tracking</h3>
-							<p>Providing transparent monthly analytics tracking phone calls, driving direction requests,
-								website clicks, and organic ROI.</p>
-						</div>
-
+						<h4 style="font-size: 17px; font-weight: 800; color: #38bdf8; margin: 0 0 4px 0;">Rajesh Khanna</h4>
+						<span style="font-size: 13.5px; color: #94a3b8;">Managing Director, Global Export Hub</span>
 					</div>
 				</div>
-			</section>
-			<!-- ===== END OUR LOCAL SEO WORK PROCESS SECTION ===== -->
+			</div>
+		</div>
+	</section>
 
-			<!-- ===== WHY CHOOSE US FOR LOCAL SEO SERVICES SECTION (LIGHT THEME) ===== -->
-			<section class="kdm-why-choose-section">
-				<div class="container">
-					<!-- Header -->
-					<div class="kdm-why-choose-header">
-						<span class="kdm-seo-badge"><i class="fa fa-trophy"></i> INDUSTRY LEADERS SINCE 2013</span>
-						<h2>Why Choose Us for <strong>Local SEO Services in Delhi NCR?</strong></h2>
-						<p>
-							At King of Digital Marketing, we focus on real foot traffic and telephone inquiries rather
-							than vanity metrics. Our Google Certified team combines 13+ years of local search mastery to
-							deliver top Google Maps 3-Pack rankings.
-						</p>
-					</div>
-
-					<!-- 6 Reason Cards Grid -->
-					<div class="kdm-why-choose-grid">
-
-						<!-- Card 1: 850+ Local Businesses Ranked -->
-						<div class="kdm-why-card">
-							<div class="kdm-why-card-icon">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-									<polyline points="9 12 11 14 15 10"></polyline>
-								</svg>
-							</div>
-							<h3>1. 850+ Local Businesses Ranked</h3>
-							<p>
-								We have propelled over 850+ local clinics, stores, service providers, and multi-branch
-								brands to top 3 Google Map Pack spots across Delhi NCR and India. See our <a
-									href="https://www.kingofdigitalmarketing.com/Our-Portfolio.aspx"
-									style="color:#0284c7; text-decoration:underline;">SEO Portfolio</a>.
-							</p>
-						</div>
-
-						<!-- Card 2: Google Certified Local Strategists -->
-						<div class="kdm-why-card">
-							<div class="kdm-why-card-icon">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon
-										points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-									</polygon>
-								</svg>
-							</div>
-							<h3>2. Google Certified Local Experts</h3>
-							<p>
-								Appraised as the #1 Local SEO Services Company in India. Our strategists hold Google
-								Analytics and GBP certifications with proven mastery over Google local ranking
-								algorithms.
-							</p>
-						</div>
-
-						<!-- Card 3: Custom Geo-Radius Optimization -->
-						<div class="kdm-why-card">
-							<div class="kdm-why-card-icon">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<circle cx="12" cy="12" r="4"></circle>
-								</svg>
-							</div>
-							<h3>3. Custom Geo-Radius Optimization</h3>
-							<p>
-								We build targeted local campaigns designed to dominate specific neighborhood radiuses,
-								pin codes, or whole metro regions to maximize your customer reach.
-							</p>
-						</div>
-
-						<!-- Card 4: 13+ Years Industry Experience -->
-						<div class="kdm-why-card">
-							<div class="kdm-why-card-icon">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<polyline points="12 6 12 12 16 14"></polyline>
-								</svg>
-							</div>
-							<h3>4. 13+ Years Industry Experience</h3>
-							<p>
-								Our <a href="SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx"
-									style="color:#0284c7; text-decoration:underline;">Local SEO experts in Delhi</a>
-								bring over a decade of hands-on expertise navigating Google Business Profile guidelines
-								and local search updates.
-							</p>
-						</div>
-
-						<!-- Card 5: Transparent Call & Lead Tracking -->
-						<div class="kdm-why-card">
-							<div class="kdm-why-card-icon">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-									<circle cx="9" cy="7" r="4"></circle>
-									<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-									<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-								</svg>
-							</div>
-							<h3>5. 97% Client Retention & Transparent Reports</h3>
-							<p>
-								Trusted by local businesses across 15+ countries. We maintain a 97% client satisfaction
-								rate by delivering transparent monthly reports detailing phone calls, directions, and
-								rank growth.
-							</p>
-						</div>
-
-						<!-- Card 6: Dedicated Local Support & Account Manager -->
-						<div class="kdm-why-card">
-							<div class="kdm-why-card-icon">
-								<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284c7"
-									stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path
-										d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3">
-									</path>
-								</svg>
-							</div>
-							<h3>6. Dedicated Local Strategy & Support</h3>
-							<p>
-								Every Local SEO campaign is custom-tailored to your location and business goals, backed
-								by a dedicated account manager and 24/7 client support.
-							</p>
-						</div>
-
-					</div>
-
-					<!-- SEO Capabilities Badges -->
-					<div class="kdm-capabilities-box">
-						<h3 class="kdm-capabilities-title"><i class="fa fa-cogs"></i> Complete 360° Local SEO
-							Capabilities We Deliver:</h3>
-						<div class="kdm-capabilities-tags">
-							<span class="kdm-cap-tag"><i class="fa fa-map-marker"></i> Google Business Profile (GBP)
-								Optimization</span>
-							<span class="kdm-cap-tag"><i class="fa fa-trophy"></i> Google Maps 3-Pack Rank
-								Booster</span>
-							<span class="kdm-cap-tag"><i class="fa fa-check-circle"></i> Local Citation & NAP
-								Consistency</span>
-							<span class="kdm-cap-tag"><i class="fa fa-star"></i> Review & Reputation Management</span>
-							<span class="kdm-cap-tag"><i class="fa fa-code"></i> Local Schema (`LocalBusiness`)
-								Markup</span>
-							<span class="kdm-cap-tag"><i class="fa fa-globe"></i> Geo-Targeted Location Landing
-								Pages</span>
-							<span class="kdm-cap-tag"><i class="fa fa-search"></i> Hyper-Local "Near Me" Keyword
-								SEO</span>
-							<span class="kdm-cap-tag"><i class="fa fa-building"></i> Multi-Location Franchise Local
-								SEO</span>
-						</div>
-					</div>
-
-					<!-- BOTTOM LOCATION OPTIONS SECTION (FULL WIDTH CHIPS) -->
-					<div class="kdm-locations-bottom-section">
-						<h3 class="kdm-locations-title"><i class="fa fa-map-marker"></i> Local SEO Services Available
-							Across Top Locations & Cities</h3>
-						<div class="kdm-locations-grid">
-							<a href="seo-services-in-mumbai.aspx" class="kdm-location-chip"><i
-									class="fa fa-location-arrow"></i> Local SEO in Mumbai</a>
-							<a href="seo-services-in-chennai-banglore-hyderabad-kolkata.aspx"
-								class="kdm-location-chip"><i class="fa fa-location-arrow"></i> Local SEO in Chennai</a>
-							<a href="seo-services-company-in-bangalore.aspx" class="kdm-location-chip"><i
-									class="fa fa-location-arrow"></i> Local SEO in Bangalore</a>
-							<a href="seo-services-in-gurgaon-delhi-ncr.aspx" class="kdm-location-chip"><i
-									class="fa fa-location-arrow"></i> Local SEO in Gurgaon</a>
-							<a href="seo-services-in-varanasi.aspx" class="kdm-location-chip"><i
-									class="fa fa-location-arrow"></i> Local SEO in Varanasi</a>
-							<a href="seo-services-in-lucknow.aspx" class="kdm-location-chip"><i
-									class="fa fa-location-arrow"></i> Local SEO in Lucknow</a>
-							<a href="seo-services-in-raipur.aspx" class="kdm-location-chip"><i
-									class="fa fa-location-arrow"></i> Local SEO in Raipur</a>
-							<a href="seo-services-in-bihar.aspx" class="kdm-location-chip"><i
-									class="fa fa-location-arrow"></i> Local SEO in Patna Bihar</a>
-							<a href="seo-services-in-delhi-allahabad-patna-lucknow.aspx" class="kdm-location-chip"><i
-									class="fa fa-location-arrow"></i> Local SEO in Allahabad</a>
-							<a href="http://kingofdigitalmarketing.com/blog/seo-services-company-in-dubai-uae-oman-kuwait.html"
-								class="kdm-location-chip"><i class="fa fa-location-arrow"></i> Local SEO in Dubai</a>
-						</div>
-					</div>
-
-				</div>
-			</section>
-			<!-- ===== END WHY CHOOSE US FOR LOCAL SEO SERVICES SECTION ===== -->
-
-			<!-- ===== CREDENTIALS SECTION (5 SEPARATE DARK BOXES IN 1 ROW WITH SVGs) ===== -->
-			<section class="kdm-credentials-white-section">
-				<div class="container">
-					<div class="kdm-credentials-header">
-						<div class="kdm-credentials-badge">
-							<i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
-						</div>
-						<h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
-						<p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
-					</div>
-
-					<div class="kdm-credentials-5grid counters dark counters-row">
-						<!-- Box 1: 13+ Years of Experience -->
-						<div class="kdm-credentials-box">
-							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<polyline points="12 6 12 12 16 14"></polyline>
-								</svg>
-							</div>
-							<strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
-							<label class="kdm-cred-label">Years of Experience</label>
-						</div>
-
-						<!-- Box 2: 900+ Projects Completed -->
-						<div class="kdm-credentials-box">
-							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-									<polyline points="22 4 12 14.01 9 11.01"></polyline>
-								</svg>
-							</div>
-							<strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
-							<label class="kdm-cred-label">Projects Completed</label>
-						</div>
-
-						<!-- Box 3: 15+ Countries Served -->
-						<div class="kdm-credentials-box">
-							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="12" cy="12" r="10"></circle>
-									<line x1="2" y1="12" x2="22" y2="12"></line>
-									<path
-										d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-									</path>
-								</svg>
-							</div>
-							<strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
-							<label class="kdm-cred-label">Countries Served</label>
-						</div>
-
-						<!-- Box 4: 4.9 Overall Rating -->
-						<div class="kdm-credentials-box">
-							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon
-										points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-									</polygon>
-								</svg>
-							</div>
-							<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1"
-								data-append="★">4.9★</strong>
-							<label class="kdm-cred-label">Overall Rating</label>
-						</div>
-
-						<!-- Box 5: 150+ Industries Served -->
-						<div class="kdm-credentials-box">
-							<div class="kdm-cred-svg-hub">
-								<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-									<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-								</svg>
-							</div>
-							<strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
-							<label class="kdm-cred-label">Industries Served</label>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!-- ===== 10 FREQUENTLY ASKED QUESTIONS (LOCAL SEO SERVICES) ===== -->
-			<section class="kdm-faq-section">
-				<div class="kdm-faq-container" style="max-width: 960px !important; margin: 0 auto !important;">
-					<h2 class="kdm-faq-title" style="text-align: center !important;">Frequently Asked <strong>Questions
-							(FAQs)</strong></h2>
-					<p class="kdm-faq-subtitle" style="text-align: center !important;">Got questions about our Local SEO
-						Services in Delhi NCR? Find clear answers to common queries about Google Maps 3-Pack, citations,
-						and ranking results.</p>
+	<!-- ===== 10. INTERACTIVE FAQS & GRAND OFFERS SECTION ===== -->
+	<section class="kdm-faq-section" style="padding: 80px 0; background: #ffffff;">
+		<div class="container">
+			<div class="row">
+				<!-- Left Column: 15 Accordion FAQs -->
+				<div class="col-md-6 mb-4">
+					<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 12px;">
+						<i class="fa fa-question-circle"></i> FREQUENTLY ASKED QUESTIONS
+					</span>
+					<h2 style="font-size: 26px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">
+						Got Questions About <span style="color: #0284c7;">Local SEO Services</span>?
+					</h2>
+					<p style="font-size: 14.5px; color: #64748b; margin-bottom: 25px;">Find clear, transparent answers to common queries below.</p>
 
 					<div class="kdm-faq-accordion">
-						<!-- FAQ Item 1 -->
-						<div class="kdm-faq-item active">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.1. What is Local SEO and why does my business need
-									it?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Local SEO optimizes
-									your online presence to attract customers from specific geographic locations. It
-									ensures your business ranks at the top of Google Maps 3-Pack and local search
-									results when nearby prospects search for your services.</p>
-							</div>
+					<div class="kdm-faq-item active">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.1. What makes King of Digital Marketing the best Local SEO Services company in Delhi, India?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of industry mastery, 900+ successful campaigns across 15+ countries, and leadership under senior consultant Gaurav Dubey, we provide customized, data-driven local seo services engineered to maximize return on investment and business growth.</p>
 						</div>
-
-						<!-- FAQ Item 2 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.2. How long does it take to rank in Google Maps
-									3-Pack?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Most local clients see
-									initial rank movements within 30 to 45 days. Securing a consistent top spot in the
-									Google Maps 3-Pack usually takes 3 to 6 months depending on local competition and
-									keyword volume in your city.</p>
-							</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.2. How do your Local SEO Services help grow my business?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our local seo services are built around commercially focused user intent, high-converting digital funnels, and continuous technical optimization—delivering qualified leads, higher brand authority, and sustainable revenue growth.</p>
 						</div>
-
-						<!-- FAQ Item 3 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.3. What is NAP consistency in Local SEO?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> NAP stands for Name,
-									Address, and Phone Number. Having identical NAP details across all online
-									directories (Google Business Profile, Facebook, Justdial, Sulekha, Indiamart) builds
-									trust with Google and significantly boosts your local map rankings.</p>
-							</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.3. How long does it take to see measurable results from Local SEO Services?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> While initial campaign milestones and leading metrics improve within the first 30 to 60 days, full-scale market dominance and compounded ROI are typically established within 3 to 6 months of continuous execution.</p>
 						</div>
-
-						<!-- FAQ Item 4 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.4. What services are included in your Local SEO
-									packages?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our 360° Local SEO
-									packages include Google Business Profile (GBP) setup & optimization, local
-									citations, NAP consistency auditing, local keyword research, Google Maps
-									geo-tagging, review acquisition strategy, local schema markup, and monthly call
-									tracking reports.</p>
-							</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.4. Do you provide custom strategies tailored to my specific industry?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We reject cookie-cutter approaches. We have served over 150+ industry verticals (Healthcare, Real Estate, E-Commerce, B2B, Education, Legal, etc.) and tailor every strategy to your target audience and competitive dynamics.</p>
 						</div>
-
-						<!-- FAQ Item 5 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.5. How does Google Business Profile (GBP) optimization
-									help my business?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Optimizing your GBP
-									with primary/secondary categories, exact GEO-location data, regular posts,
-									high-quality photos, and verified customer reviews directly improves your visibility
-									on Google Maps and drives high-intent phone calls and direction requests.</p>
-							</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.5. Will I get a dedicated account manager for my Local SEO Services campaign?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, every client is assigned a dedicated senior specialist along with direct strategy oversight from founder Gaurav Dubey to ensure clear communication, rapid turnaround, and regular performance reviews.</p>
 						</div>
-
-						<!-- FAQ Item 6 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.6. Can you optimize Local SEO for multi-location
-									businesses and franchises?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We specialize in
-									multi-location local SEO strategies, creating individual location landing pages with
-									LocalBusiness schema, managing multi-branch GBP profiles, and running localized
-									citation campaigns for franchise chains.</p>
-							</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.6. How do you track and report Local SEO Services performance?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide 100% transparent, real-time reporting dashboards with granular attribution tracking (traffic, keyword ranks, inquiries, conversion rates, and ROI metrics) delivered weekly and monthly.</p>
 						</div>
-
-						<!-- FAQ Item 7 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.7. How do 5-star Google reviews impact Local SEO
-									rankings?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Google uses review
-									quantity, velocity, score, and keywords in review text as major local ranking
-									signals. Higher authentic 5-star Google reviews build trust with searchers and
-									improve your ranking position in the 3-Pack.</p>
-							</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.7. What tools and modern technologies do you use for Local SEO Services?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We utilize industry-standard enterprise tools including Google Analytics 4, Search Console, SEMrush, Ahrefs, Meta Business Suite, Google Tag Manager, hotjar, and specialized AI optimization software.</p>
 						</div>
-
-						<!-- FAQ Item 8 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.8. Will my business rank for 'near me' local search
-									queries?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, our hyper-local
-									SEO strategy optimizes your profile and website specifically for geo-targeted and
-									'near me' intent searches, enabling nearby mobile users to easily discover and
-									contact your business.</p>
-							</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.8. Can your Local SEO Services integrate with my existing CRM and sales workflows?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We configure automated webhooks and API integrations connecting inbound leads directly into HubSpot, Salesforce, Zoho CRM, Google Sheets, email, and sales team WhatsApp.</p>
 						</div>
-
-						<!-- FAQ Item 9 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.9. What access do you need to get started with Local
-									SEO?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We require manager
-									access to your Google Business Profile, Google Search Console, Google Analytics, and
-									website CMS access (if on-page local schema or location pages are included).</p>
-							</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.9. Are your techniques 100% safe and compliant with platform policies?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, absolutely. We strictly adhere to official search engine and advertising network guidelines (Google, Meta, LinkedIn, Apple) to protect your brand reputation and domain authority.</p>
 						</div>
-
-						<!-- FAQ Item 10 -->
-						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-header">
-								<span class="kdm-faq-question">Q.10. What are your payment terms for Local SEO
-									services?</span>
-								<span class="kdm-faq-icon">+</span>
-							</button>
-							<div class="kdm-faq-body">
-								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our Local SEO packages
-									are billed on a flexible monthly retainer model paid in advance with no long-term
-									lock-in contracts and comprehensive transparent monthly reports detailing phone
-									calls and map rankings.</p>
-							</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.10. What budgets or package tiers do you offer for Local SEO Services?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide flexible, milestone-based packages tailored for startups, SMEs, and large enterprise brands, ensuring maximum marketing efficiency at every stage of your growth.</p>
 						</div>
-
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.11. How do you handle competitor analysis and market benchmarking?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We perform deep competitor reverse-engineering—analyzing top-performing search terms, ad creatives, backlink profiles, conversion hooks, and audience segments to identify profitable opportunities.</p>
+						</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.12. Can you handle international and multi-regional Local SEO Services campaigns?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We have managed cross-border campaigns across 15+ countries including USA, UK, Canada, Australia, UAE, Singapore, Germany, and Ireland with complete localization support.</p>
+						</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.13. Do you offer conversion rate optimization (CRO) alongside Local SEO Services?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. Generating traffic is only half the battle; we optimize landing page UI/UX, CTA placement, value propositions, and form frictionless design to ensure maximum conversion percentage.</p>
+						</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.14. What makes your agency different from other digital agencies in Delhi?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Unlike generic agencies that outsource work, King of Digital Marketing has 32+ in-house certified specialists, 13+ years of direct agency heritage since 2013, proven transparent reporting, and direct oversight by Gaurav Dubey.</p>
+						</div>
+					</div>
+					<div class="kdm-faq-item">
+						<button type="button" class="kdm-faq-header" onclick="toggleKdmFaq(this)">
+							<span class="kdm-faq-question">Q.15. How do I get started with a free strategy audit and proposal?</span>
+							<span class="kdm-faq-icon">+</span>
+						</button>
+						<div class="kdm-faq-body">
+							<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can request a free comprehensive audit and customized proposal by calling us directly at +91-9555696058 or submitting our instant online inquiry form.</p>
+						</div>
+					</div>
 					</div>
 				</div>
-			</section>
-			<script src="js/kdm-faq.js"></script>
 
+				<!-- Right Column: 3 Dark Grand Offer Cards -->
+				<div class="col-md-6 mb-4">
+					<div class="kdm-grand-offers-wrap" style="position: sticky; top: 90px;">
+						<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); color: #d97706; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 12px;">
+							<i class="fa fa-gift"></i> LIMITED TIME PACKAGES
+						</span>
+						<h2 style="font-size: 26px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">
+							Exclusive Grand Offers <strong>for Local SEO Services</strong>
+						</h2>
+						<p style="font-size: 14.5px; color: #64748b; margin-bottom: 25px;">Sign up today and accelerate your growth with multi-month discounts.</p>
+
+						<div class="kdm-offer-dark-list" style="display: flex; flex-direction: column; gap: 18px;">
+							<!-- Offer 1: 10% OFF -->
+							<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 18px; padding: 24px; color: #ffffff; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0,0,0,0.25);">
+								<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+									<h4 style="font-size: 18px; font-weight: 800; color: #ffffff; margin: 0;">Quarterly Growth Booster</h4>
+									<span style="background: linear-gradient(135deg, #0284c7, #38bdf8); color: #ffffff; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 20px;">10% OFF</span>
+								</div>
+								<p style="font-size: 13.5px; color: #cbd5e1; margin-bottom: 14px; line-height: 1.6;">Sign up for any 3-month growth package &amp; get instant 10% discount on total billing.</p>
+								<span style="color: #38bdf8; font-size: 13.5px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">Claim Offer Now <i class="fa fa-arrow-right"></i></span>
+							</div>
+
+							<!-- Offer 2: 15% OFF -->
+							<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 18px; padding: 24px; color: #ffffff; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0,0,0,0.25);">
+								<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+									<h4 style="font-size: 18px; font-weight: 800; color: #ffffff; margin: 0;">Half-Yearly Scale Plan</h4>
+									<span style="background: linear-gradient(135deg, #10b981, #34d399); color: #ffffff; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 20px;">15% OFF</span>
+								</div>
+								<p style="font-size: 13.5px; color: #cbd5e1; margin-bottom: 14px; line-height: 1.6;">Lock in continuous market authority for 6 months and save 15% with free CRO audit.</p>
+								<span style="color: #34d399; font-size: 13.5px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">Claim Offer Now <i class="fa fa-arrow-right"></i></span>
+							</div>
+
+							<!-- Offer 3: 20% OFF -->
+							<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 18px; padding: 24px; color: #ffffff; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0,0,0,0.25);">
+								<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+									<h4 style="font-size: 18px; font-weight: 800; color: #ffffff; margin: 0;">Annual Market Dominance</h4>
+									<span style="background: linear-gradient(135deg, #f59e0b, #fbbf24); color: #0f172a; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 20px;">20% OFF</span>
+								</div>
+								<p style="font-size: 13.5px; color: #cbd5e1; margin-bottom: 14px; line-height: 1.6;">Achieve total category dominance for 12 months with dedicated team access &amp; 20% savings.</p>
+								<span style="color: #fbbf24; font-size: 13.5px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;">Claim Offer Now <i class="fa fa-arrow-right"></i></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</asp:Content>
+	</section>
+
+	<!-- JavaScript Dependencies -->
+	<script src="js/international-page.js"></script>
+	<script src="js/kdm-faq.js"></script>
+</asp:Content>
