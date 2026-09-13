@@ -570,9 +570,10 @@
 					<div>
 						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
 							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">SEO Executive Internship</h3>
-							<div style="display: flex; gap: 6px;">
-								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
-								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">6 Months</span>
+							<div style="display: flex; gap: 6px; flex-wrap: wrap;">
+								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">6 Months</span>
+								<span style="background: #fef3c7; color: #b45309; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">WFO</span>
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
@@ -598,9 +599,10 @@
 					<div>
 						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
 							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Performance Ads Internship</h3>
-							<div style="display: flex; gap: 6px;">
-								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
-								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">6 Months</span>
+							<div style="display: flex; gap: 6px; flex-wrap: wrap;">
+								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">6 Months</span>
+								<span style="background: #fef3c7; color: #b45309; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">WFO</span>
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
@@ -626,9 +628,10 @@
 					<div>
 						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
 							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Video Editor Internship</h3>
-							<div style="display: flex; gap: 6px;">
-								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
-								<span style="background: #f3e8ff; color: #9333ea; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">WFH</span>
+							<div style="display: flex; gap: 6px; flex-wrap: wrap;">
+								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">6 Months</span>
+								<span style="background: #f3e8ff; color: #9333ea; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">WFH</span>
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
@@ -654,9 +657,10 @@
 					<div>
 						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
 							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Content Writing Internship</h3>
-							<div style="display: flex; gap: 6px;">
-								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
-								<span style="background: #f3e8ff; color: #9333ea; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">WFH</span>
+							<div style="display: flex; gap: 6px; flex-wrap: wrap;">
+								<span style="background: #dcfce7; color: #166534; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px; text-transform: uppercase;">Actively Hiring</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">6 Months</span>
+								<span style="background: #f3e8ff; color: #9333ea; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">WFH</span>
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
@@ -682,9 +686,10 @@
 					<div>
 						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
 							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Graphic Design Internship</h3>
-							<div style="display: flex; gap: 6px;">
-								<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
-								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">6 Months</span>
+							<div style="display: flex; gap: 6px; flex-wrap: wrap;">
+								<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">6 Months</span>
+								<span style="background: #fef3c7; color: #b45309; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">WFO</span>
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
@@ -709,9 +714,10 @@
 					<div>
 						<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; gap: 8px; flex-wrap: wrap;">
 							<h3 style="font-size: 19px; font-weight: 800; color: #0f172a; margin: 0;">Web Developer Internship</h3>
-							<div style="display: flex; gap: 6px;">
-								<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
-								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 10px; border-radius: 12px;">6 Months</span>
+							<div style="display: flex; gap: 6px; flex-wrap: wrap;">
+								<span style="background: #fee2e2; color: #991b1b; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px; text-transform: uppercase;">Hiring Closed</span>
+								<span style="background: #e0f2fe; color: #0284c7; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">6 Months</span>
+								<span style="background: #fef3c7; color: #b45309; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 12px;">WFO</span>
 							</div>
 						</div>
 						<ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 13.5px; color: #334155; line-height: 1.9;">
