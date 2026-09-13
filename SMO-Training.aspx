@@ -2275,7 +2275,7 @@
 							<!-- Social Media Icons below trainer photo & name box -->
 							<div class="trainer-social-links"
 								style="display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 14px;">
-								<a href="https://www.youtube.com/channel/UCkGU7-8u1zCLRHb5spjUaLQ" target="_blank"
+								<a href="https://www.youtube.com/@thegauravdubey" target="_blank"
 									rel="noopener" title="Follow Gaurav Dubey on YouTube"
 									class="trainer-social-icon icon-yt">
 									<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">

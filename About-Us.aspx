@@ -519,10 +519,10 @@
 							</a>
 							<div class="kdm-gd-social-wrap">
 								<a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" class="kdm-gd-social-link li" title="Connect with Gaurav Dubey on LinkedIn" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
-								<a href="https://www.instagram.com/thegauravdubey/" target="_blank" class="kdm-gd-social-link ig" title="Follow Gaurav Dubey on Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
-								<a href="https://www.youtube.com/channel/UCkGU7-8u1zCLRHb5spjUaLQ" target="_blank" class="kdm-gd-social-link yt" title="Subscribe to Gaurav Dubey on YouTube" rel="noopener"><i class="fab fa-youtube"></i></a>
-								<a href="https://www.facebook.com/gauravdubey.in/" target="_blank" class="kdm-gd-social-link fb" title="Follow Gaurav Dubey on Facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-								<a href="https://twitter.com/iamgauravdubey" target="_blank" class="kdm-gd-social-link tw" title="Follow Gaurav Dubey on X (Twitter)" rel="noopener"><i class="fab fa-x-twitter"></i></a>
+								<a href="https://www.instagram.com/gauravdubey.in/" target="_blank" class="kdm-gd-social-link ig" title="Follow Gaurav Dubey on Instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
+								<a href="https://www.youtube.com/@thegauravdubey" target="_blank" class="kdm-gd-social-link yt" title="Subscribe to Gaurav Dubey on YouTube" rel="noopener"><i class="fab fa-youtube"></i></a>
+								<a href="https://www.facebook.com/gauravdubey.in" target="_blank" class="kdm-gd-social-link fb" title="Follow Gaurav Dubey on Facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://x.com/iamgauravdubey" target="_blank" class="kdm-gd-social-link tw" title="Follow Gaurav Dubey on X (Twitter)" rel="noopener"><i class="fab fa-x-twitter"></i></a>
 								<a href="gaurav-dubey.aspx" class="kdm-gd-social-link web" title="View Full Profile &amp; Bio" rel="noopener"><i class="fa fa-globe"></i></a>
 							</div>
 						</div>

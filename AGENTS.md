@@ -20,6 +20,21 @@ Whenever generating, updating, or designing any landing page, section, copy, met
 
 ---
 
+## 🌐 Official Personal Social Media Channels (Gaurav Dubey)
+
+Whenever referencing, linking, or displaying personal social channels for founder **Gaurav Dubey**, always use the following exact official URLs:
+
+| Platform | Official URL | Standard Icon Class |
+| :--- | :--- | :--- |
+| **Instagram** | `https://www.instagram.com/gauravdubey.in/` | `fab fa-instagram` |
+| **Facebook** | `https://www.facebook.com/gauravdubey.in` | `fab fa-facebook-f` |
+| **YouTube** | `https://www.youtube.com/@thegauravdubey` | `fab fa-youtube` |
+| **Twitter / X** | `https://x.com/iamgauravdubey` | `fab fa-x-twitter` |
+| **LinkedIn** | `https://www.linkedin.com/in/iam-gaurav-dubey/` | `fab fa-linkedin-in` |
+| **Personal Bio / Site** | `https://gauravdubey.in` & `https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx` | `fa fa-globe` / `fa-circle-user` |
+
+---
+
 ## 🏛️ Architecture & Coding Standards
 
 1. **Standardized Page Templates**:
