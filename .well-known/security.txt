@@ -1,0 +1,7 @@
+Contact: mailto:info@kingofdigitalmarketing.com
+Contact: tel:+919555696058
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en, hi
+Canonical: https://www.kingofdigitalmarketing.com/.well-known/security.txt
+Policy: https://www.kingofdigitalmarketing.com/privacy-policy.aspx
+Hiring: https://www.kingofdigitalmarketing.com/career.aspx

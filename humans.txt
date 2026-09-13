@@ -1,0 +1,22 @@
+/* TEAM */
+Founder & CEO: Gaurav Dubey
+Location: New Delhi, India
+Website: https://gauravdubey.in
+LinkedIn: https://www.linkedin.com/in/iam-gaurav-dubey/
+Team Size: 32+ In-House Certified Specialists across 6 performance wings
+
+/* AGENCY */
+Name: King of Digital Marketing
+Parent: Devweboic Techsolutions (OPC) Pvt. Ltd.
+Established: 2013
+Website: https://www.kingofdigitalmarketing.com
+Training Institute: UpNext Institute of Digital Marketing & Technology (UIDMT)
+Rating: 4.9/5 (1,280+ Reviews)
+Projects: 900+ Completed Projects in 15+ Countries
+
+/* TECHNOLOGY & STANDARDS */
+Standards: HTML5, CSS3, ES6+, W3C Validated, Schema.org JSON-LD
+Architecture: Microsoft .NET / ASP.NET C# Framework
+Optimization: Generative Engine Optimization (GEO), Core Web Vitals, Mobile-First
+Typography: Poppins, Inter, FontAwesome 6.5.0
+Analytics: Google Analytics 4 (GA4), Google Search Console, Meta Pixel

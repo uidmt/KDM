@@ -13,6 +13,10 @@ Allow: /fonts/
 Allow: /img/
 Allow: /blog/
 Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /humans.txt
+Allow: /site.webmanifest
+Allow: /.well-known/security.txt
 
 # Disallow Private, System & Administrative Directories
 Disallow: /bin/
@@ -40,6 +44,9 @@ Disallow: /*.bak$
 Disallow: /*.txt$
 Allow: /robots.txt
 Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /humans.txt
+Allow: /.well-known/security.txt
 
 # ------------------------------------------------------------------------------
 # 2. MAJOR SEARCH ENGINES (FULL ACCESS)

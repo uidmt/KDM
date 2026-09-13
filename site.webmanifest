@@ -1,0 +1,30 @@
+{
+  "name": "King of Digital Marketing",
+  "short_name": "KDM Agency",
+  "description": "Leading Digital Marketing Agency, Performance Marketing & Training Institute in India.",
+  "start_url": "https://www.kingofdigitalmarketing.com/",
+  "display": "standalone",
+  "background_color": "#070a12",
+  "theme_color": "#0284c7",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/fevicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/fevicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "marketing",
+    "education"
+  ],
+  "lang": "en-IN"
+}
