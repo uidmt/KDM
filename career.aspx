@@ -652,14 +652,14 @@
 		</div>
 	</section>
 
-	<!-- ===== 6. 4-STEP HIRING PROCESS (DARK THEME) ===== -->
+	<!-- ===== 6. 6-STEP HIRING PROCESS (DARK THEME) ===== -->
 	<section class="kdm-seo-process-section">
 		<div class="container">
 			<div class="kdm-seo-process-header">
-				<span class="kdm-seo-badge">SIMPLE &amp; FAST PROCESS</span>
-				<h2 class="kdm-seo-process-title">Our 4-Step <strong>Hiring Roadmap</strong></h2>
+				<span class="kdm-seo-badge">SIMPLE &amp; TRANSPARENT JOURNEY</span>
+				<h2 class="kdm-seo-process-title">Our 6-Step <strong>Hiring Roadmap</strong></h2>
 				<p class="kdm-seo-process-desc">
-					We respect your time. Our hiring process is transparent, skill-focused, and completed within 3 to 5 business days.
+					We value talent, hunger, and real execution. Our structured 6-phase journey ensures mutual clarity and fast turnaround.
 				</p>
 			</div>
 
@@ -682,15 +682,28 @@
 				<div class="kdm-seo-card">
 					<div class="kdm-seo-icon-wrap">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+							<line x1="8" y1="21" x2="16" y2="21"></line>
+							<line x1="12" y1="17" x2="12" y2="21"></line>
+						</svg>
+					</div>
+					<h3>2. Offline or Video Interview</h3>
+					<p>Face-to-face in-person interview at our Delhi office or convenient online video interview via Google Meet / Zoom.</p>
+				</div>
+
+				<!-- Step 3 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 							<polyline points="16 18 22 12 16 6"></polyline>
 							<polyline points="8 6 2 12 8 18"></polyline>
 						</svg>
 					</div>
-					<h3>2. Practical Skill Task</h3>
+					<h3>3. Practical Skill Task</h3>
 					<p>A brief real-world task or live campaign case review tailored to your domain to evaluate hands-on execution skills.</p>
 				</div>
 
-				<!-- Step 3 -->
+				<!-- Step 4 -->
 				<div class="kdm-seo-card">
 					<div class="kdm-seo-icon-wrap">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -700,11 +713,11 @@
 							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
 						</svg>
 					</div>
-					<h3>3. Founder Discussion</h3>
-					<p>1-on-1 interview with Gaurav Dubey and team leads to discuss your career goals, vision, compensation, and culture fit.</p>
+					<h3>4. Founder Strategic Discussion</h3>
+					<p>1-on-1 interview with Gaurav Dubey and team leads to discuss your career goals, vision, and role clarity.</p>
 				</div>
 
-				<!-- Step 4 -->
+				<!-- Step 5 -->
 				<div class="kdm-seo-card">
 					<div class="kdm-seo-icon-wrap">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -712,8 +725,20 @@
 							<polyline points="22 4 12 14.01 9 11.01"></polyline>
 						</svg>
 					</div>
-					<h3>4. Offer &amp; Onboarding</h3>
-					<p>Clear offer letter rollout, structured growth roadmaps, welcoming kit, and a dedicated buddy to guide your onboarding.</p>
+					<h3>5. Free / Paid Offer As Per Knowledge</h3>
+					<p>Tailored offer rollout for Full-Time position or Free/Paid Internship based on your evaluated knowledge, skills, and portfolio.</p>
+				</div>
+
+				<!-- Step 6 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<polyline points="12 6 12 12 16 14"></polyline>
+						</svg>
+					</div>
+					<h3>6. Probation Period &amp; Joining</h3>
+					<p>Welcoming onboarding with a structured probation period, hands-on mentorship, and clear milestones for long-term growth.</p>
 				</div>
 			</div>
 		</div>
