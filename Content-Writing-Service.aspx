@@ -1175,167 +1175,167 @@
 
 					<div class="kdm-faq-accordion">
 						<!-- FAQ 1 -->
-						<div class="kdm-faq-item open">
-							<button class="kdm-faq-btn" type="button" aria-expanded="true">
-								<span>What are Content Writing Services and why are they essential?</span>
-								<i class="fa fa-chevron-down"></i>
+						<div class="kdm-faq-item active">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.1. What are Content Writing Services and why are they essential?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Content writing services involve planning, researching, drafting, and optimizing written material such as website copy, SEO blog posts, landing pages, articles, and corporate profiles. High-quality content educates prospective buyers, establishes domain authority on search engines, and converts visitors into paying customers.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Content writing services involve planning, researching, drafting, and optimizing written material such as website copy, SEO blog posts, landing pages, articles, and corporate profiles. High-quality content educates prospective buyers, establishes domain authority on search engines, and converts visitors into paying customers.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 2 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Why is King of Digital Marketing the best content writing company in Delhi?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.2. Why is King of Digital Marketing the best content writing company in Delhi?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>With 13+ years of experience and 900+ completed projects, King of Digital Marketing combines data-backed SEO research, 100% human-crafted storytelling, rigorous Copyscape plagiarism checks, and conversion rate optimization delivered by a dedicated team of 32+ in-house writers led by Gaurav Dubey.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of experience and 900+ completed projects, King of Digital Marketing combines data-backed SEO research, 100% human-crafted storytelling, rigorous Copyscape plagiarism checks, and conversion rate optimization delivered by a dedicated team of 32+ in-house writers led by Gaurav Dubey.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 3 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Is all content produced 100% unique and Copyscape verified?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.3. Is all content produced 100% unique and Copyscape verified?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, absolutely. Every piece of content undergoes multiple editorial reviews and a mandatory Copyscape Premium plagiarism scan to guarantee 100% originality before client delivery.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, absolutely. Every piece of content undergoes multiple editorial reviews and a mandatory Copyscape Premium plagiarism scan to guarantee 100% originality before client delivery.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 4 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>How does your SEO content rank on Google and AI engines (AEO / GEO)?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.4. How does your SEO content rank on Google and AI engines (AEO / GEO)?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>We integrate focus keywords, latent semantic indexing (LSI) terms, conversational FAQs, structured schema entities, and comprehensive topical coverage so your pages rank at the top of Google SERPs and are cited by AI answer engines like ChatGPT Search and Perplexity.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We integrate focus keywords, latent semantic indexing (LSI) terms, conversational FAQs, structured schema entities, and comprehensive topical coverage so your pages rank at the top of Google SERPs and are cited by AI answer engines like ChatGPT Search and Perplexity.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 5 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>What types of content writing services do you offer?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.5. What types of content writing services do you offer?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>We provide end-to-end content solutions including SEO blog posts, website copywriting, technical whitepapers, press releases, corporate brochures, company profiles, e-commerce product descriptions, email newsletters, and case studies.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide end-to-end content solutions including SEO blog posts, website copywriting, technical whitepapers, press releases, corporate brochures, company profiles, e-commerce product descriptions, email newsletters, and case studies.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 6 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Do you use AI tools to generate content or is it written by humans?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.6. Do you use AI tools to generate content or is it written by humans?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>All our core content is researched, structured, and crafted by experienced human writers to ensure brand voice, emotional resonance, nuanced domain expertise, and strict compliance with Google's E-E-A-T guidelines.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> All our core content is researched, structured, and crafted by experienced human writers to ensure brand voice, emotional resonance, nuanced domain expertise, and strict compliance with Google's E-E-A-T guidelines.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 7 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>What is the typical turnaround time for blog posts and website copy?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.7. What is the typical turnaround time for blog posts and website copy?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Standard blog posts (1,000 to 2,000 words) are delivered within 48 to 72 hours. Complete website copy packages (5 to 15 pages) are typically delivered within 5 to 7 business days following outline approval.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Standard blog posts (1,000 to 2,000 words) are delivered within 48 to 72 hours. Complete website copy packages (5 to 15 pages) are typically delivered within 5 to 7 business days following outline approval.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 8 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Do you offer revisions if changes are required?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.8. Do you offer revisions if changes are required?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, we provide unlimited revisions during the initial review window to ensure the copy aligns perfectly with your tone of voice, formatting guidelines, and brand vision.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide unlimited revisions during the initial review window to ensure the copy aligns perfectly with your tone of voice, formatting guidelines, and brand vision.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 9 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Can you write technical and niche-specific content?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.9. Can you write technical and niche-specific content?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes. Our 32+ in-house team includes subject-matter writers specialized in 150+ industries, including Healthcare &amp; Cosmetic Surgery, Real Estate, Finance &amp; Accounting, SaaS &amp; Tech, Astrology, and Import-Export.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. Our 32+ in-house team includes subject-matter writers specialized in 150+ industries, including Healthcare &amp; Cosmetic Surgery, Real Estate, Finance &amp; Accounting, SaaS &amp; Tech, Astrology, and Import-Export.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 10 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>How does content writing integrate with your overall SEO and digital marketing?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.10. How does content writing integrate with your overall SEO and digital marketing?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Our content team works seamlessly with our SEO engineers, PPC campaign managers, and web developers to create synchronized marketing funnels where every article drives organic backlinks, Google Ads quality score improvements, and qualified leads.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our content team works seamlessly with our SEO engineers, PPC campaign managers, and web developers to create synchronized marketing funnels where every article drives organic backlinks, Google Ads quality score improvements, and qualified leads.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 11 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Do you write product descriptions for E-Commerce portals?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.11. Do you write product descriptions for E-Commerce portals?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, we craft persuasive, feature-benefit driven, and keyword-rich e-commerce product listings designed to maximize add-to-cart conversions and improve organic visibility on search engines and marketplaces.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we craft persuasive, feature-benefit driven, and keyword-rich e-commerce product listings designed to maximize add-to-cart conversions and improve organic visibility on search engines and marketplaces.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 12 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Can you provide a monthly content marketing calendar for our business?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.12. Can you provide a monthly content marketing calendar for our business?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes. We conduct competitor keyword gap analysis and audience intent research to deliver a structured monthly content roadmap with planned titles, target keywords, publishing dates, and internal linking strategies.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We conduct competitor keyword gap analysis and audience intent research to deliver a structured monthly content roadmap with planned titles, target keywords, publishing dates, and internal linking strategies.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 13 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Do you publish and format content directly on our CMS?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.13. Do you publish and format content directly on our CMS?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, our team can directly format, upload, optimize meta tags, configure featured images, and publish articles inside your CMS as part of our full-service content management packages.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, our team can directly format, upload, optimize meta tags, configure featured images, and publish articles inside your CMS as part of our full-service content management packages.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 14 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>What are your content writing packages and pricing structure?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.14. What are your content writing packages and pricing structure?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>We offer flexible pricing based on word count, monthly retainer packages, or per-project basis. We also provide special quarterly and annual discounts with 10% to 20% savings for ongoing retainers.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer flexible pricing based on word count, monthly retainer packages, or per-project basis. We also provide special quarterly and annual discounts with 10% to 20% savings for ongoing retainers.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 15 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>How do I get started with a free content audit and proposal?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.15. How do I get started with a free content audit and proposal?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>You can request a free content audit, sample article, and customized proposal by contacting us at +91-9555696058 or submitting our instant online inquiry form.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can request a free content audit, sample article, and customized proposal by contacting us at +91-9555696058 or submitting our instant online inquiry form.</p>
 							</div>
 						</div>
 					</div>

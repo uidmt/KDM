@@ -999,134 +999,134 @@
 
 					<div class="kdm-faq-accordion">
 						<!-- FAQ 1 -->
-						<div class="kdm-faq-item open">
-							<button class="kdm-faq-btn" type="button" aria-expanded="true">
-								<span>How can our college or university organize a Digital Marketing Seminar?</span>
-								<i class="fa fa-chevron-down"></i>
+						<div class="kdm-faq-item active">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.1. How can our college or university organize a Digital Marketing Seminar?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Colleges, universities, and student societies can invite keynote speaker Gaurav Dubey by contacting our institutional team at +91-9555696058 or submitting our seminar booking form. We conduct on-campus auditorium sessions, interactive computer-lab workshops, and virtual live masterclasses tailored to your academic schedule.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Colleges, universities, and student societies can invite keynote speaker Gaurav Dubey by contacting our institutional team at +91-9555696058 or submitting our seminar booking form. We conduct on-campus auditorium sessions, interactive computer-lab workshops, and virtual live masterclasses tailored to your academic schedule.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 2 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>What key topics are covered during the Digital Marketing &amp; AI Workshop?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.2. What key topics are covered during the Digital Marketing &amp; AI Workshop?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Our workshops cover Search Engine Optimization (SEO), Generative Engine Optimization (GEO), Google Ads &amp; Performance Max, Meta Ads (Facebook &amp; Instagram), Social Media Branding, AI Marketing Tools (ChatGPT, Claude, Perplexity), Online Reputation Management (ORM), and real-time live ad campaign demonstrations.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Our workshops cover Search Engine Optimization (SEO), Generative Engine Optimization (GEO), Google Ads &amp; Performance Max, Meta Ads (Facebook &amp; Instagram), Social Media Branding, AI Marketing Tools (ChatGPT, Claude, Perplexity), Online Reputation Management (ORM), and real-time live ad campaign demonstrations.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 3 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Can corporate marketing teams and startups host custom workshops?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.3. Can corporate marketing teams and startups host custom workshops?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, we deliver customized corporate digital growth workshops and executive masterclasses designed to upskill marketing departments, sales teams, and startup founders on high-ROAS paid funnels, conversion optimization, and AI marketing workflows.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we deliver customized corporate digital growth workshops and executive masterclasses designed to upskill marketing departments, sales teams, and startup founders on high-ROAS paid funnels, conversion optimization, and AI marketing workflows.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 4 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Is an official certificate provided to all seminar and workshop attendees?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.4. Is an official certificate provided to all seminar and workshop attendees?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes! Every registered attendee receives an official Certificate of Participation from King of Digital Marketing and UIDMT, enhancing their resume and LinkedIn profile credibility.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! Every registered attendee receives an official Certificate of Participation from King of Digital Marketing and UIDMT, enhancing their resume and LinkedIn profile credibility.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 5 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>What is the duration of the digital marketing seminars and masterclasses?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.5. What is the duration of the digital marketing seminars and masterclasses?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>We offer flexible formats: 3 to 4-Hour Intensive Keynote Masterclasses, 1 to 2-Day Practical Hands-on Workshops (12 Hours), 5-Day Faculty &amp; Corporate Development Bootcamps, and ongoing Institutional Partnership Programs.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer flexible formats: 3 to 4-Hour Intensive Keynote Masterclasses, 1 to 2-Day Practical Hands-on Workshops (12 Hours), 5-Day Faculty &amp; Corporate Development Bootcamps, and ongoing Institutional Partnership Programs.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 6 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Does the seminar include live demonstrations and practical campaign setups?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.6. Does the seminar include live demonstrations and practical campaign setups?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>100% yes. Unlike theoretical presentations, Gaurav Dubey demonstrates live Google Search Console audits, keyword intelligence on Ahrefs/SEMrush, real-time Meta Ads audience targeting, and AI prompt engineering on live screen displays.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> 100% yes. Unlike theoretical presentations, Gaurav Dubey demonstrates live Google Search Console audits, keyword intelligence on Ahrefs/SEMrush, real-time Meta Ads audience targeting, and AI prompt engineering on live screen displays.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 7 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>What infrastructure is required at the venue for the seminar?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.7. What infrastructure is required at the venue for the seminar?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>The venue requires a standard audio-visual setup: HD projector or LED screen with HDMI connectivity, wireless lapel/collar microphone, sound system, and reliable high-speed internet connection for live tool demonstrations.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> The venue requires a standard audio-visual setup: HD projector or LED screen with HDMI connectivity, wireless lapel/collar microphone, sound system, and reliable high-speed internet connection for live tool demonstrations.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 8 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Can students and attendees interact directly during Q&amp;A?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.8. Can students and attendees interact directly during Q&amp;A?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, every session includes a dedicated 30 to 45-minute interactive Q&amp;A round where attendees can ask questions regarding career choices, freelancing, startup marketing, agency hiring, and personal branding.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, every session includes a dedicated 30 to 45-minute interactive Q&amp;A round where attendees can ask questions regarding career choices, freelancing, startup marketing, agency hiring, and personal branding.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 9 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Do you offer online virtual webinars for international institutions?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.9. Do you offer online virtual webinars for international institutions?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, we conduct interactive virtual webinars and multi-day online masterclasses via Zoom, Google Meet, or Microsoft Teams for overseas universities and pan-India audiences.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we conduct interactive virtual webinars and multi-day online masterclasses via Zoom, Google Meet, or Microsoft Teams for overseas universities and pan-India audiences.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 10 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>What are the commercial fees or honorarium for hosting a seminar?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.10. What are the commercial fees or honorarium for hosting a seminar?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>We offer subsidized packages for non-profit educational colleges, universities, and student chapters, alongside custom corporate consulting retainers. Contact us directly at +91-9555696058 for a formal proposal.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We offer subsidized packages for non-profit educational colleges, universities, and student chapters, alongside custom corporate consulting retainers. Contact us directly at +91-9555696058 for a formal proposal.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 11 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>Are complimentary study materials and AI prompt toolkits provided?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.11. Are complimentary study materials and AI prompt toolkits provided?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes! All participants receive downloadable digital toolkits containing ChatGPT prompt cheat sheets, SEO audit checklists, top 50 AI marketing tool directories, and performance ad templates.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! All participants receive downloadable digital toolkits containing ChatGPT prompt cheat sheets, SEO audit checklists, top 50 AI marketing tool directories, and performance ad templates.</p>
 							</div>
 						</div>
 
 						<!-- FAQ 12 -->
 						<div class="kdm-faq-item">
-							<button class="kdm-faq-btn" type="button" aria-expanded="false">
-								<span>How do we book a seminar slot with keynote speaker Gaurav Dubey?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.12. How do we book a seminar slot with keynote speaker Gaurav Dubey?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>You can submit your event requirements through our online booking form on Seminar.aspx or call +91-9555696058 to check available dates and receive a customized session itinerary.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can submit your event requirements through our online booking form on Seminar.aspx or call +91-9555696058 to check available dates and receive a customized session itinerary.</p>
 							</div>
 						</div>
 					</div>
