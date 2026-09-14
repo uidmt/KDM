@@ -224,11 +224,11 @@
 
 			<!-- Trust Stats Bar -->
 			<div class="kdm-service-hero-stats-bar">
-				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-trophy"></i> 150+ Seminars Delivered</span>
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-university"></i> 50+ Academic Institutions</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
 				<span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Participant Rating</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
-				<span class="kdm-service-hero-stat-green">⚡ 50,000+ Attendees Impacted</span>
+				<span class="kdm-service-hero-stat-green">⚡ 2,500+ Attendees Impacted</span>
 				<span class="kdm-service-hero-stat-divider">|</span>
 				<span class="kdm-service-hero-stat-highlight">🌍 15+ Countries Covered</span>
 			</div>
@@ -270,7 +270,7 @@
 						In today's rapidly transforming economy, traditional academic curricula and generic corporate presentations fall short of preparing students, entrepreneurs, and marketing teams for the real digital world. <strong>King of Digital Marketing</strong> brings you actionable, industry-grade <strong>Digital Marketing Seminars, Guest Lectures, and Hands-on Workshops</strong> conducted by renowned consultant and keynote speaker <strong>Gaurav Dubey</strong>.
 					</p>
 					<p style="margin-bottom: 18px;">
-						With over <strong>13+ years of global industry experience</strong> and 900+ successful performance marketing campaigns across India, USA, UK, UAE &amp; 15+ countries, Gaurav Dubey has addressed over <strong>150+ academic institutions, engineering campuses, MBA colleges, startup summits, and corporate leadership conclaves</strong>. Our sessions are built on 100% practical, data-driven frameworks rather than dry theoretical slides.
+						With over <strong>13+ years of global industry experience</strong> and 900+ successful performance marketing campaigns across India, USA, UK, UAE &amp; 15+ countries, Gaurav Dubey has addressed over <strong>50+ academic institutions, engineering campuses, MBA colleges, startup summits, and corporate leadership conclaves</strong>, empowering <strong>2,500+ attendees</strong>. Our sessions are built on 100% practical, data-driven frameworks rather than dry theoretical slides.
 					</p>
 					<p style="margin-bottom: 18px;">
 						Each workshop delves deep into modern digital competencies: <strong>Generative AI &amp; Prompt Engineering for Marketing (ChatGPT, Claude, Perplexity), Search Engine Optimization (SEO &amp; GEO), Google Ads &amp; Performance Max, Meta Ads Funnels (Facebook &amp; Instagram), Viral Social Media Growth, Personal Branding on LinkedIn, and High-Ticket Lead Generation</strong>. Attendees witness live audits of real accounts, keyword intelligence research, ad campaign setups, and conversion optimization tactics on live screens.
@@ -331,7 +331,7 @@
 					<label class="kdm-cred-label">Years of Experience</label>
 				</div>
 
-				<!-- Box 2: 900+ Projects Completed -->
+				<!-- Box 2: 900+ Campaigns Handled -->
 				<div class="kdm-credentials-box">
 					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -343,32 +343,33 @@
 					<label class="kdm-cred-label">Campaigns Handled</label>
 				</div>
 
-				<!-- Box 3: 150+ Seminars Delivered -->
+				<!-- Box 3: 50+ Academic Institutions -->
 				<div class="kdm-credentials-box">
 					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
-							<path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
-							<line x1="12" y1="19" x2="12" y2="23"></line>
-							<line x1="8" y1="23" x2="16" y2="23"></line>
+							<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+							<path d="M6 12v5c3 3 9 3 12 0v-5"></path>
 						</svg>
 					</div>
-					<strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
-					<label class="kdm-cred-label">Seminars Delivered</label>
+					<strong class="counter-value kdm-cred-num" data-to="50" data-append="+">50+</strong>
+					<label class="kdm-cred-label">Academic Institutions</label>
 				</div>
 
-				<!-- Box 4: 4.9 Overall Rating -->
+				<!-- Box 4: 2500+ Seminar Attendees -->
 				<div class="kdm-credentials-box">
 					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+							<circle cx="9" cy="7" r="4"></circle>
+							<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
 						</svg>
 					</div>
-					<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
-					<label class="kdm-cred-label">Attendee Rating</label>
+					<strong class="counter-value kdm-cred-num" data-to="2500" data-append="+">2500+</strong>
+					<label class="kdm-cred-label">Seminar Attendees</label>
 				</div>
 
-				<!-- Box 5: 15+ Countries Served -->
+				<!-- Box 5: 15+ Countries Covered -->
 				<div class="kdm-credentials-box">
 					<div class="kdm-cred-svg-hub">
 						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -765,7 +766,7 @@
 					About the Speaker <span>Gaurav Dubey</span>
 				</h2>
 				<p class="kdm-experts-subtitle">
-					Founder, Senior Digital Growth Consultant, Keynote Speaker, and Mentor to over 50,000+ ambitious students and professionals.
+					Founder, Senior Digital Growth Consultant, Keynote Speaker, and Mentor to over 2,500+ ambitious students, founders, and professionals across 50+ institutions.
 				</p>
 			</div>
 
@@ -786,8 +787,8 @@
 					</p>
 					<ul class="kdm-expert-list">
 						<li><i class="fa fa-check-circle"></i> 13+ Years Proven Digital Growth Track Record</li>
-						<li><i class="fa fa-check-circle"></i> 150+ Keynote Seminars &amp; Campus Workshops Delivered</li>
-						<li><i class="fa fa-check-circle"></i> 50,000+ Students, Founders &amp; Executives Mentored</li>
+						<li><i class="fa fa-check-circle"></i> 50+ Academic Institutions &amp; Campus Workshops Addressed</li>
+						<li><i class="fa fa-check-circle"></i> 2,500+ Attendees &amp; Professionals Mentored</li>
 					</ul>
 					<div class="kdm-expert-social-links" style="margin-top: 18px; display: flex; gap: 10px; align-items: center;">
 						<a href="https://www.youtube.com/@thegauravdubey" target="_blank" rel="noopener" title="YouTube" style="width: 36px; height: 36px; border-radius: 50%; background: #ff0000; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; font-size: 15px;"><i class="fab fa-youtube"></i></a>
@@ -825,15 +826,15 @@
 	<section class="kdm-testimonial-section">
 		<div class="container">
 			<div class="kdm-testimonial-header">
-				<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> ORGANIZER &amp; ATTENDEE FEEDBACK</span>
-				<h2 class="kdm-testimonial-title">What Organizers Say About <strong>Our Seminars &amp; Workshops</strong></h2>
-				<p class="kdm-testimonial-subtitle">Real feedback from university professors, event coordinators, students, and corporate directors who experienced our live sessions.</p>
+				<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> ATTENDEE &amp; PARTICIPANT FEEDBACK</span>
+				<h2 class="kdm-testimonial-title">What Attendees Say About <strong>Our Seminars &amp; Workshops</strong></h2>
+				<p class="kdm-testimonial-subtitle">Real feedback from students, faculty members, and working professionals who experienced our live sessions.</p>
 			</div>
 
 			<div class="kdm-testimonial-wrapper">
 				<div class="kdm-testimonial-slides">
 
-					<!-- Slide 1: Aji Jeeva (UK) -->
+					<!-- Slide 1: Aarav Sharma -->
 					<div class="kdm-testimonial-card active">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -844,18 +845,18 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"Gaurav Dubey conducted a brilliant virtual masterclass for our marketing and sales teams. The live demonstrations on AI prompt engineering and Google Ads optimization gave our team practical skills we implemented immediately."
+							"Attending Gaurav Sir's digital marketing and AI keynote was an eye-opener. The live demonstrations on Google Ads optimization and AI prompt engineering gave me actionable skills that I put into practice immediately."
 						</p>
 						<div class="kdm-testimonial-author-box">
-							<div class="kdm-testimonial-avatar grad-1">AJ</div>
+							<div class="kdm-testimonial-avatar grad-1">AS</div>
 							<div class="kdm-testimonial-info">
-								<h4 class="kdm-testimonial-name">Aji Jeeva</h4>
-								<span class="kdm-testimonial-role">Founder — smgains.com (United Kingdom)</span>
+								<h4 class="kdm-testimonial-name">Aarav Sharma</h4>
+								<span class="kdm-testimonial-role">Seminar Attendee</span>
 							</div>
 						</div>
 					</div>
 
-					<!-- Slide 2: Roopak (Dubai) -->
+					<!-- Slide 2: Priya Nair -->
 					<div class="kdm-testimonial-card">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -866,18 +867,18 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"We invited Gaurav Dubey for our overseas education counseling workshop. His ability to explain complex search algorithms and high-converting lead funnels in simple, captivating language was truly remarkable."
+							"The 2-day hands-on workshop on Meta Ads and SEO was simply phenomenal. Gaurav Sir breaks down complex analytics into easily actionable frameworks. Best workshop I have ever attended!"
 						</p>
 						<div class="kdm-testimonial-author-box">
-							<div class="kdm-testimonial-avatar grad-2">R</div>
+							<div class="kdm-testimonial-avatar grad-2">PN</div>
 							<div class="kdm-testimonial-info">
-								<h4 class="kdm-testimonial-name">Roopak</h4>
-								<span class="kdm-testimonial-role">Founder — gotouniversity.com (Dubai, UAE)</span>
+								<h4 class="kdm-testimonial-name">Priya Nair</h4>
+								<span class="kdm-testimonial-role">Workshop Participant</span>
 							</div>
 						</div>
 					</div>
 
-					<!-- Slide 3: Prof. Sharma (Delhi NCR) -->
+					<!-- Slide 3: Prof. S. K. Sharma -->
 					<div class="kdm-testimonial-card">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -888,18 +889,18 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"Over 450 engineering and MBA students attended Gaurav Sir's keynote seminar on campus. The auditorium was packed and students remained glued till the end. Highly recommend him for all university conclaves."
+							"Over 300 engineering and management students attended Gaurav Sir's guest lecture. The energy in the auditorium was electrifying, and every attendee gained real-world clarity on digital career pathways."
 						</p>
 						<div class="kdm-testimonial-author-box">
-							<div class="kdm-testimonial-avatar grad-3">PS</div>
+							<div class="kdm-testimonial-avatar grad-3">SK</div>
 							<div class="kdm-testimonial-info">
 								<h4 class="kdm-testimonial-name">Prof. S. K. Sharma</h4>
-								<span class="kdm-testimonial-role">Head of Training &amp; Placements (Delhi NCR)</span>
+								<span class="kdm-testimonial-role">Seminar Attendee &amp; Faculty Coordinator</span>
 							</div>
 						</div>
 					</div>
 
-					<!-- Slide 4: Kejsi (Turkey) -->
+					<!-- Slide 4: Rohan Mehta -->
 					<div class="kdm-testimonial-card">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -910,18 +911,18 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"The clinic growth workshop conducted by Gaurav Dubey was eye-opening. He showed us exact international SEO techniques that our internal team now uses every day. Outstanding speaker!"
+							"The live campaign audit and keyword research shown during the seminar were incredible. You rarely see keynote speakers who showcase real performance data and live ad dashboards on screen."
 						</p>
 						<div class="kdm-testimonial-author-box">
-							<div class="kdm-testimonial-avatar grad-4">K</div>
+							<div class="kdm-testimonial-avatar grad-4">RM</div>
 							<div class="kdm-testimonial-info">
-								<h4 class="kdm-testimonial-name">Kejsi</h4>
-								<span class="kdm-testimonial-role">Director — herahairsolutions.com (Turkey)</span>
+								<h4 class="kdm-testimonial-name">Rohan Mehta</h4>
+								<span class="kdm-testimonial-role">Seminar Attendee</span>
 							</div>
 						</div>
 					</div>
 
-					<!-- Slide 5: David (USA) -->
+					<!-- Slide 5: Ananya Verma -->
 					<div class="kdm-testimonial-card">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -932,18 +933,18 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"Gaurav Dubey's performance marketing workshop delivered massive clarity on attribution modeling and conversion rate optimization. Best growth workshop our company has ever hosted."
+							"Gaurav Dubey's session on generative AI tools and prompt engineering completely transformed how I approach content and marketing campaigns. Highly recommended for every student and professional!"
 						</p>
 						<div class="kdm-testimonial-author-box">
-							<div class="kdm-testimonial-avatar grad-5">D</div>
+							<div class="kdm-testimonial-avatar grad-5">AV</div>
 							<div class="kdm-testimonial-info">
-								<h4 class="kdm-testimonial-name">David</h4>
-								<span class="kdm-testimonial-role">Founder — audiocityusa.com (USA)</span>
+								<h4 class="kdm-testimonial-name">Ananya Verma</h4>
+								<span class="kdm-testimonial-role">Workshop Participant</span>
 							</div>
 						</div>
 					</div>
 
-					<!-- Slide 6: Dr. Sanjay (Dubai) -->
+					<!-- Slide 6: Vikramaditya Rao -->
 					<div class="kdm-testimonial-card">
 						<div class="kdm-testimonial-quote-icon">
 							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
@@ -954,13 +955,13 @@
 							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 						</div>
 						<p class="kdm-testimonial-quote">
-							"Gaurav Dubey’s deep understanding of performance marketing and healthcare lead generation made our team training session extremely rewarding. A gifted mentor and speaker."
+							"An engaging, highly practical, and value-packed keynote. Gaurav Dubey answers every question patiently and provides step-by-step career and freelancing blueprints."
 						</p>
 						<div class="kdm-testimonial-author-box">
-							<div class="kdm-testimonial-avatar grad-6">DS</div>
+							<div class="kdm-testimonial-avatar grad-6">VR</div>
 							<div class="kdm-testimonial-info">
-								<h4 class="kdm-testimonial-name">Dr. Sanjay</h4>
-								<span class="kdm-testimonial-role">Founder — cocoona.in (Dubai, UAE)</span>
+								<h4 class="kdm-testimonial-name">Vikramaditya Rao</h4>
+								<span class="kdm-testimonial-role">Seminar Attendee</span>
 							</div>
 						</div>
 					</div>
