@@ -409,113 +409,130 @@
 		</div>
 	</section>
 
-	<!-- ===== 4. POPULAR CORPORATE TRAINING MODULES (DARK THEME) ===== -->
-	<section class="empower-section">
+	<!-- ===== 4. POPULAR CORPORATE TRAINING MODULES (VIBRANT DARK THEME) ===== -->
+	<section class="empower-section" style="padding: 90px 0 100px; background: #080d1a; background-image: radial-gradient(at 0% 0%, rgba(6, 182, 212, 0.2) 0px, transparent 50%), radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.2) 0px, transparent 50%), radial-gradient(at 50% 100%, rgba(245, 158, 11, 0.18) 0px, transparent 50%); position: relative; overflow: hidden; color: #ffffff;">
 		<div class="container">
-			<div class="empower-header text-center">
-				<span class="empower-badge"><i class="fa fa-star"></i> ENTERPRISE CURRICULUM</span>
-				<h2 class="empower-title">Core Modules in Our <span class="empower-title-gradient">Corporate Training Programs</span></h2>
-				<p class="empower-subtitle">
-					Our corporate modules are engineered to solve real enterprise growth challenges, automate workflows with AI, and maximize ROI across all digital channels.
+			<div class="empower-header text-center" style="max-width: 850px; margin: 0 auto 55px; position: relative; z-index: 2;">
+				<span class="empower-badge" style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, rgba(6, 182, 212, 0.25) 0%, rgba(168, 85, 247, 0.25) 100%); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); font-size: 12px; font-weight: 800; padding: 7px 24px; border-radius: 50px; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 16px; box-shadow: 0 4px 20px rgba(6, 182, 212, 0.3);">
+					<i class="fa fa-star"></i> ENTERPRISE CURRICULUM
+				</span>
+				<h2 class="empower-title" style="font-size: 38px; font-weight: 900; color: #ffffff; margin-bottom: 16px; line-height: 1.25; letter-spacing: -0.6px;">
+					Core Modules in Our <span class="empower-title-gradient" style="background: linear-gradient(135deg, #38bdf8 0%, #a855f7 50%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Corporate Training Programs</span>
+				</h2>
+				<p class="empower-subtitle" style="font-size: 15.5px; color: #94a3b8; line-height: 1.7; margin: 0;">
+					Our corporate modules are engineered to solve real enterprise growth challenges, automate workflows with generative AI, and maximize ROI across all digital channels.
 				</p>
 			</div>
 
-			<div class="empower-grid">
-				<!-- Module 1: AI Marketing & GEO -->
-				<div class="empower-card card-cyan">
-					<div class="empower-card-top">
-						<div class="empower-icon-wrapper">
-							<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<div class="empower-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 26px; position: relative; z-index: 2;">
+				
+				<!-- Module 1: AI Marketing & GEO (Cyan) -->
+				<div class="empower-card card-cyan" style="background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-radius: 22px; padding: 32px 26px 28px; border: 1.5px solid rgba(6, 182, 212, 0.35); box-shadow: 0 15px 35px -10px rgba(6, 182, 212, 0.2); display: flex; flex-direction: column; position: relative; overflow: hidden; transition: all 0.35s ease;">
+					<div class="empower-card-top" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+						<div class="empower-icon-hub icon-cyan" style="width: 64px; height: 64px; border-radius: 18px; background: linear-gradient(135deg, #06b6d4, #0284c7); color: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(6, 182, 212, 0.45);">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
 								<circle cx="8.5" cy="8.5" r="1.5"></circle>
 								<path d="M21 15l-5-5L5 21"></path>
 							</svg>
 						</div>
-						<span class="empower-module-num">01</span>
+						<span style="font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; padding: 6px 14px; border-radius: 20px; background: rgba(6, 182, 212, 0.15); border: 1px solid rgba(6, 182, 212, 0.4); color: #22d3ee;">MODULE 01</span>
 					</div>
-					<h3 class="empower-card-title">AI &amp; Generative Marketing for Teams</h3>
-					<p class="empower-card-desc">
-						Empower your marketing team with ChatGPT-4, Claude, Perplexity, and Midjourney to accelerate ad copywriting, content scaling, competitor research, and automated growth workflows.
+					<h3 class="empower-card-title" style="font-size: 20px; font-weight: 800; color: #ffffff; margin: 0 0 12px 0; line-height: 1.35;">AI &amp; Generative Marketing for Teams</h3>
+					<p class="empower-card-text" style="font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 20px; flex: 1;">
+						Empower your workforce with ChatGPT-4, Claude, Perplexity, and Midjourney to accelerate ad copywriting, content scaling, competitor intelligence, and automated marketing workflows.
 					</p>
-					<ul class="empower-features-list">
-						<li><i class="fa fa-check"></i> Advanced Prompt Engineering for Marketing</li>
-						<li><i class="fa fa-check"></i> Generative Engine Optimization (GEO)</li>
-						<li><i class="fa fa-check"></i> Automated Content &amp; Creative Pipelines</li>
+					<ul style="list-style: none; padding: 0; margin: 0 0 22px 0; display: flex; flex-direction: column; gap: 8px;">
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #22d3ee;"></i> Advanced Prompt Engineering for Marketing</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #22d3ee;"></i> Generative Engine Optimization (GEO)</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #22d3ee;"></i> Automated Creative &amp; Content Pipelines</li>
 					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-cyan" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; background: linear-gradient(135deg, #06b6d4 0%, #0284c7 100%); color: #ffffff; box-shadow: 0 4px 15px rgba(6, 182, 212, 0.4); transition: all 0.3s ease;">
+						Inquire About This Module <i class="fa fa-arrow-right"></i>
+					</a>
 				</div>
 
-				<!-- Module 2: Performance Marketing & Paid Funnels -->
-				<div class="empower-card card-blue">
-					<div class="empower-card-top">
-						<div class="empower-icon-wrapper">
-							<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<!-- Module 2: Performance Marketing & Paid Funnels (Blue) -->
+				<div class="empower-card card-blue" style="background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-radius: 22px; padding: 32px 26px 28px; border: 1.5px solid rgba(59, 130, 246, 0.35); box-shadow: 0 15px 35px -10px rgba(59, 130, 246, 0.2); display: flex; flex-direction: column; position: relative; overflow: hidden; transition: all 0.35s ease;">
+					<div class="empower-card-top" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+						<div class="empower-icon-hub icon-blue" style="width: 64px; height: 64px; border-radius: 18px; background: linear-gradient(135deg, #2563eb, #3b82f6); color: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(37, 99, 235, 0.45);">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<line x1="12" y1="1" x2="12" y2="23"></line>
 								<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
 							</svg>
 						</div>
-						<span class="empower-module-num">02</span>
+						<span style="font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; padding: 6px 14px; border-radius: 20px; background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.4); color: #60a5fa;">MODULE 02</span>
 					</div>
-					<h3 class="empower-card-title">High-ROAS Google &amp; Meta Ad Funnels</h3>
-					<p class="empower-card-desc">
+					<h3 class="empower-card-title" style="font-size: 20px; font-weight: 800; color: #ffffff; margin: 0 0 12px 0; line-height: 1.35;">High-ROAS Google &amp; Meta Ad Funnels</h3>
+					<p class="empower-card-desc" style="font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 20px; flex: 1;">
 						Master advanced budget allocation, bid strategies, Performance Max campaigns, custom audience lookalikes, retargeting funnels, and conversion rate optimization to slash CPA.
 					</p>
-					<ul class="empower-features-list">
-						<li><i class="fa fa-check"></i> Google Search, Display &amp; Performance Max</li>
-						<li><i class="fa fa-check"></i> Meta (FB/IG) Multi-Stage Funnels</li>
-						<li><i class="fa fa-check"></i> Advanced Conversion Tracking &amp; CAPI</li>
+					<ul style="list-style: none; padding: 0; margin: 0 0 22px 0; display: flex; flex-direction: column; gap: 8px;">
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #60a5fa;"></i> Google Search, Display &amp; Performance Max</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #60a5fa;"></i> Meta (FB/IG) Multi-Stage Funnels</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #60a5fa;"></i> Advanced Conversion Tracking &amp; CAPI</li>
 					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-blue" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%); color: #ffffff; box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4); transition: all 0.3s ease;">
+						Inquire About This Module <i class="fa fa-arrow-right"></i>
+					</a>
 				</div>
 
-				<!-- Module 3: Enterprise SEO -->
-				<div class="empower-card card-purple">
-					<div class="empower-card-top">
-						<div class="empower-icon-wrapper">
-							<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<!-- Module 3: Enterprise SEO (Purple) -->
+				<div class="empower-card card-purple" style="background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-radius: 22px; padding: 32px 26px 28px; border: 1.5px solid rgba(168, 85, 247, 0.35); box-shadow: 0 15px 35px -10px rgba(168, 85, 247, 0.2); display: flex; flex-direction: column; position: relative; overflow: hidden; transition: all 0.35s ease;">
+					<div class="empower-card-top" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+						<div class="empower-icon-hub icon-purple" style="width: 64px; height: 64px; border-radius: 18px; background: linear-gradient(135deg, #7e22ce, #a855f7); color: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(168, 85, 247, 0.45);">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<circle cx="11" cy="11" r="8"></circle>
 								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
 							</svg>
 						</div>
-						<span class="empower-module-num">03</span>
+						<span style="font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; padding: 6px 14px; border-radius: 20px; background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.4); color: #c084fc;">MODULE 03</span>
 					</div>
-					<h3 class="empower-card-title">Enterprise SEO &amp; Organic Market Dominance</h3>
-					<p class="empower-card-desc">
+					<h3 class="empower-card-title" style="font-size: 20px; font-weight: 800; color: #ffffff; margin: 0 0 12px 0; line-height: 1.35;">Enterprise SEO &amp; Organic Market Dominance</h3>
+					<p class="empower-card-desc" style="font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 20px; flex: 1;">
 						Train your content and technical teams on modern SEO architecture, programmatic content strategies, semantic entity schema, Core Web Vitals, and backlink authority building.
 					</p>
-					<ul class="empower-features-list">
-						<li><i class="fa fa-check"></i> Technical &amp; Programmatic SEO Frameworks</li>
-						<li><i class="fa fa-check"></i> Semantic Knowledge Graphs &amp; Schema</li>
-						<li><i class="fa fa-check"></i> Search Intent &amp; High-Value Keyword Clustering</li>
+					<ul style="list-style: none; padding: 0; margin: 0 0 22px 0; display: flex; flex-direction: column; gap: 8px;">
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #c084fc;"></i> Technical &amp; Programmatic SEO Frameworks</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #c084fc;"></i> Semantic Knowledge Graphs &amp; Schema</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #c084fc;"></i> Search Intent &amp; High-Value Keyword Clustering</li>
 					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-purple" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; background: linear-gradient(135deg, #7e22ce 0%, #a855f7 100%); color: #ffffff; box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4); transition: all 0.3s ease;">
+						Inquire About This Module <i class="fa fa-arrow-right"></i>
+					</a>
 				</div>
 
-				<!-- Module 4: B2B LinkedIn & Social Selling -->
-				<div class="empower-card card-yellow">
-					<div class="empower-card-top">
-						<div class="empower-icon-wrapper">
-							<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<!-- Module 4: B2B LinkedIn & Social Selling (Amber) -->
+				<div class="empower-card card-amber" style="background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-radius: 22px; padding: 32px 26px 28px; border: 1.5px solid rgba(245, 158, 11, 0.35); box-shadow: 0 15px 35px -10px rgba(245, 158, 11, 0.2); display: flex; flex-direction: column; position: relative; overflow: hidden; transition: all 0.35s ease;">
+					<div class="empower-card-top" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+						<div class="empower-icon-hub icon-amber" style="width: 64px; height: 64px; border-radius: 18px; background: linear-gradient(135deg, #d97706, #f59e0b); color: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(245, 158, 11, 0.45);">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
 								<rect x="2" y="9" width="4" height="12"></rect>
 								<circle cx="4" cy="4" r="2"></circle>
 							</svg>
 						</div>
-						<span class="empower-module-num">04</span>
+						<span style="font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; padding: 6px 14px; border-radius: 20px; background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.4); color: #fbbf24;">MODULE 04</span>
 					</div>
-					<h3 class="empower-card-title">B2B LinkedIn Lead Generation &amp; ABM</h3>
-					<p class="empower-card-desc">
+					<h3 class="empower-card-title" style="font-size: 20px; font-weight: 800; color: #ffffff; margin: 0 0 12px 0; line-height: 1.35;">B2B LinkedIn Lead Generation &amp; ABM</h3>
+					<p class="empower-card-desc" style="font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 20px; flex: 1;">
 						Equip your B2B sales and marketing teams with Account-Based Marketing (ABM) playbooks, LinkedIn Thought Leadership strategies, and high-ticket pipeline acquisition funnels.
 					</p>
-					<ul class="empower-features-list">
-						<li><i class="fa fa-check"></i> LinkedIn Sales Navigator &amp; Inbound Funnels</li>
-						<li><i class="fa fa-check"></i> Executive Personal Branding for Founders</li>
-						<li><i class="fa fa-check"></i> High-Converting Cold Outreach Templates</li>
+					<ul style="list-style: none; padding: 0; margin: 0 0 22px 0; display: flex; flex-direction: column; gap: 8px;">
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #fbbf24;"></i> LinkedIn Sales Navigator &amp; Inbound Funnels</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #fbbf24;"></i> Executive Personal Branding for Founders</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #fbbf24;"></i> High-Converting Cold Outreach Templates</li>
 					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-amber" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%); color: #ffffff; box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4); transition: all 0.3s ease;">
+						Inquire About This Module <i class="fa fa-arrow-right"></i>
+					</a>
 				</div>
 
-				<!-- Module 5: Conversion Rate Optimization -->
-				<div class="empower-card card-orange">
-					<div class="empower-card-top">
-						<div class="empower-icon-wrapper">
-							<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<!-- Module 5: Conversion Rate Optimization (Orange) -->
+				<div class="empower-card card-orange" style="background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-radius: 22px; padding: 32px 26px 28px; border: 1.5px solid rgba(249, 115, 22, 0.35); box-shadow: 0 15px 35px -10px rgba(249, 115, 22, 0.2); display: flex; flex-direction: column; position: relative; overflow: hidden; transition: all 0.35s ease;">
+					<div class="empower-card-top" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+						<div class="empower-icon-hub icon-orange" style="width: 64px; height: 64px; border-radius: 18px; background: linear-gradient(135deg, #ea580c, #f97316); color: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(234, 88, 12, 0.45);">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
 								<polyline points="14 2 14 8 20 8"></polyline>
 								<line x1="16" y1="13" x2="8" y2="13"></line>
@@ -523,41 +540,48 @@
 								<polyline points="10 9 9 9 8 9"></polyline>
 							</svg>
 						</div>
-						<span class="empower-module-num">05</span>
+						<span style="font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; padding: 6px 14px; border-radius: 20px; background: rgba(249, 115, 22, 0.15); border: 1px solid rgba(249, 115, 22, 0.4); color: #fb923c;">MODULE 05</span>
 					</div>
-					<h3 class="empower-card-title">Conversion Rate Optimization (CRO) &amp; Copy</h3>
-					<p class="empower-card-desc">
+					<h3 class="empower-card-title" style="font-size: 20px; font-weight: 800; color: #ffffff; margin: 0 0 12px 0; line-height: 1.35;">Conversion Rate Optimization (CRO) &amp; Copy</h3>
+					<p class="empower-card-desc" style="font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 20px; flex: 1;">
 						Teach your designers, copywriters, and marketers how to craft persuasive landing pages, analyze heatmaps (Hotjar/Clarity), and run A/B split tests that boost conversions by 40%+.
 					</p>
-					<ul class="empower-features-list">
-						<li><i class="fa fa-check"></i> Landing Page UI/UX &amp; Funnel Architecture</li>
-						<li><i class="fa fa-check"></i> Heatmap Audits &amp; User Drop-off Analysis</li>
-						<li><i class="fa fa-check"></i> Direct-Response Copywriting Formulas</li>
+					<ul style="list-style: none; padding: 0; margin: 0 0 22px 0; display: flex; flex-direction: column; gap: 8px;">
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #fb923c;"></i> Landing Page UI/UX &amp; Funnel Architecture</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #fb923c;"></i> Heatmap Audits &amp; User Drop-off Analysis</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #fb923c;"></i> Direct-Response Copywriting Formulas</li>
 					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-orange" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; background: linear-gradient(135deg, #ea580c 0%, #f97316 100%); color: #ffffff; box-shadow: 0 4px 15px rgba(234, 88, 12, 0.4); transition: all 0.3s ease;">
+						Inquire About This Module <i class="fa fa-arrow-right"></i>
+					</a>
 				</div>
 
-				<!-- Module 6: GA4 Analytics & Attribution -->
-				<div class="empower-card card-pink">
-					<div class="empower-card-top">
-						<div class="empower-icon-wrapper">
-							<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<!-- Module 6: GA4 Analytics & Attribution (Pink) -->
+				<div class="empower-card card-pink" style="background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-radius: 22px; padding: 32px 26px 28px; border: 1.5px solid rgba(236, 72, 153, 0.35); box-shadow: 0 15px 35px -10px rgba(236, 72, 153, 0.2); display: flex; flex-direction: column; position: relative; overflow: hidden; transition: all 0.35s ease;">
+					<div class="empower-card-top" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+						<div class="empower-icon-hub icon-pink" style="width: 64px; height: 64px; border-radius: 18px; background: linear-gradient(135deg, #db2777, #ec4899); color: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(219, 39, 119, 0.45);">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<line x1="18" y1="20" x2="18" y2="10"></line>
 								<line x1="12" y1="20" x2="12" y2="4"></line>
 								<line x1="6" y1="20" x2="6" y2="14"></line>
 							</svg>
 						</div>
-						<span class="empower-module-num">06</span>
+						<span style="font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; padding: 6px 14px; border-radius: 20px; background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); color: #f472b6;">MODULE 06</span>
 					</div>
-					<h3 class="empower-card-title">GA4 Analytics &amp; Revenue Attribution</h3>
-					<p class="empower-card-desc">
+					<h3 class="empower-card-title" style="font-size: 20px; font-weight: 800; color: #ffffff; margin: 0 0 12px 0; line-height: 1.35;">GA4 Analytics &amp; Revenue Attribution</h3>
+					<p class="empower-card-desc" style="font-size: 14px; color: #94a3b8; line-height: 1.65; margin-bottom: 20px; flex: 1;">
 						Demystify Google Analytics 4 (GA4), custom event parameters, Looker Studio automated executive dashboards, and multi-touch attribution to accurately measure marketing ROI.
 					</p>
-					<ul class="empower-features-list">
-						<li><i class="fa fa-check"></i> GA4 Event Tracking &amp; Conversion Models</li>
-						<li><i class="fa fa-check"></i> Automated Looker Studio Executive Reports</li>
-						<li><i class="fa fa-check"></i> Multi-Touch Attribution &amp; Budget Optimization</li>
+					<ul style="list-style: none; padding: 0; margin: 0 0 22px 0; display: flex; flex-direction: column; gap: 8px;">
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #f472b6;"></i> GA4 Event Tracking &amp; Conversion Models</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #f472b6;"></i> Automated Looker Studio Executive Reports</li>
+						<li style="font-size: 13.5px; color: #e2e8f0; display: flex; align-items: center; gap: 8px;"><i class="fa fa-check-circle" style="color: #f472b6;"></i> Multi-Touch Attribution &amp; Budget Optimization</li>
 					</ul>
+					<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-pink" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; background: linear-gradient(135deg, #db2777 0%, #ec4899 100%); color: #ffffff; box-shadow: 0 4px 15px rgba(219, 39, 119, 0.4); transition: all 0.3s ease;">
+						Inquire About This Module <i class="fa fa-arrow-right"></i>
+					</a>
 				</div>
+
 			</div>
 		</div>
 	</section>
@@ -1174,54 +1198,105 @@
 						<p style="font-size: 14px; color: #64748b; margin: 0;">Tailored formats engineered for enterprise teams, leadership conclaves, and fast-growth startups.</p>
 					</div>
 
-					<div class="kdm-offer-dark-list">
-						<!-- Offer 1 -->
-						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
-							<div class="kdm-offer-dark-icon">
-								<i class="fa fa-bolt"></i>
-							</div>
-							<div class="kdm-offer-dark-content">
-								<div class="kdm-offer-dark-badge">EXECUTIVE INTENSIVE</div>
-								<h3 class="kdm-offer-dark-title">1-Day Executive Masterclass (6-8 Hours)</h3>
-								<p class="kdm-offer-dark-desc">
-									Fast-paced strategic masterclass for C-Suite leadership, marketing directors, and business unit heads on Generative AI, GEO, and high-level digital growth frameworks.
-								</p>
-								<div class="kdm-offer-dark-footer">
-									<span class="kdm-offer-cta-link">Request Custom Proposal <i class="fa fa-arrow-right"></i></span>
+					<div class="kdm-delivery-options-list" style="display: flex; flex-direction: column; gap: 20px;">
+						<!-- Offer 1: Executive Intensive -->
+						<div class="kdm-delivery-card" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #091e3a 0%, #031326 100%); border: 1.5px solid rgba(56, 189, 248, 0.4); border-radius: 16px; padding: 24px; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(2, 132, 199, 0.18); cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;">
+							<div style="position: absolute; top: -30px; right: -30px; width: 120px; height: 120px; background: radial-gradient(circle, rgba(56, 189, 248, 0.25) 0%, transparent 70%); border-radius: 50%; pointer-events: none;"></div>
+							<div style="display: flex; align-items: flex-start; gap: 16px;">
+								<div style="width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%); display: flex; align-items: center; justify-content: center; font-size: 22px; color: #ffffff; flex-shrink: 0; box-shadow: 0 0 20px rgba(56, 189, 248, 0.45);">
+									<i class="fa fa-bolt"></i>
+								</div>
+								<div style="flex: 1;">
+									<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
+										<span style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.5); color: #38bdf8; font-size: 11px; font-weight: 800; padding: 4px 12px; border-radius: 20px; letter-spacing: 0.8px; text-transform: uppercase;">
+											EXECUTIVE INTENSIVE
+										</span>
+										<span style="font-size: 12px; font-weight: 700; color: #94a3b8;"><i class="fa fa-clock-o" style="color: #38bdf8;"></i> 1-Day (6-8 Hours)</span>
+									</div>
+									<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin: 0 0 8px 0; line-height: 1.35;">
+										1-Day Executive Masterclass
+									</h3>
+									<p style="font-size: 13.5px; color: #cbd5e1; line-height: 1.6; margin: 0 0 14px 0;">
+										High-velocity strategic masterclass for C-Suite leadership, marketing directors, and founders focusing on Generative AI, modern growth roadmaps, and marketing capital allocation.
+									</p>
+									<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px;">
+										<span style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 6px;"><i class="fa fa-check" style="color: #38bdf8; margin-right: 4px;"></i> C-Suite &amp; BU Heads</span>
+										<span style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 6px;"><i class="fa fa-check" style="color: #38bdf8; margin-right: 4px;"></i> AI &amp; GEO Roadmap</span>
+										<span style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 6px;"><i class="fa fa-check" style="color: #38bdf8; margin-right: 4px;"></i> On-Site / Virtual</span>
+									</div>
+									<div style="display: flex; align-items: center; justify-content: flex-end;">
+										<span style="color: #38bdf8; font-weight: 800; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 6px;">
+											Request Custom Proposal <i class="fa fa-arrow-right"></i>
+										</span>
+									</div>
 								</div>
 							</div>
 						</div>
 
-						<!-- Offer 2 -->
-						<div class="kdm-offer-dark-card highlight" onclick="openGlobalPopupForm()">
-							<div class="kdm-offer-dark-icon">
-								<i class="fa fa-rocket"></i>
-							</div>
-							<div class="kdm-offer-dark-content">
-								<div class="kdm-offer-dark-badge popular">MOST POPULAR</div>
-								<h3 class="kdm-offer-dark-title">2 to 3-Day Hands-On Team Bootcamp</h3>
-								<p class="kdm-offer-dark-desc">
-									Comprehensive practical bootcamp for in-house marketing and sales teams. Live audits on active Google/Meta accounts, prompt engineering labs, and B2B lead workflows.
-								</p>
-								<div class="kdm-offer-dark-footer">
-									<span class="kdm-offer-cta-link">Request Custom Proposal <i class="fa fa-arrow-right"></i></span>
+						<!-- Offer 2: Hands-On Team Bootcamp (MOST POPULAR) -->
+						<div class="kdm-delivery-card" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #241604 0%, #150b01 100%); border: 2px solid #f59e0b; border-radius: 16px; padding: 24px; position: relative; overflow: hidden; box-shadow: 0 14px 35px rgba(245, 158, 11, 0.28); cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;">
+							<div style="position: absolute; top: -30px; right: -30px; width: 130px; height: 130px; background: radial-gradient(circle, rgba(245, 158, 11, 0.3) 0%, transparent 70%); border-radius: 50%; pointer-events: none;"></div>
+							<div style="display: flex; align-items: flex-start; gap: 16px;">
+								<div style="width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%); display: flex; align-items: center; justify-content: center; font-size: 22px; color: #ffffff; flex-shrink: 0; box-shadow: 0 0 25px rgba(245, 158, 11, 0.6);">
+									<i class="fa fa-rocket"></i>
+								</div>
+								<div style="flex: 1;">
+									<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
+										<span style="background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%); color: #0f172a; font-size: 11px; font-weight: 900; padding: 4px 12px; border-radius: 20px; letter-spacing: 0.8px; text-transform: uppercase; box-shadow: 0 2px 10px rgba(245, 158, 11, 0.4);">
+											⭐ MOST POPULAR
+										</span>
+										<span style="font-size: 12px; font-weight: 700; color: #fbbf24;"><i class="fa fa-clock-o" style="color: #fbbf24;"></i> 2 to 3-Day Intensive</span>
+									</div>
+									<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin: 0 0 8px 0; line-height: 1.35;">
+										2 to 3-Day Hands-On Team Bootcamp
+									</h3>
+									<p style="font-size: 13.5px; color: #e2e8f0; line-height: 1.6; margin: 0 0 14px 0;">
+										Deep practical immersion for marketing and sales teams. Live audits on active Google/Meta accounts, prompt engineering labs, copy creation, and B2B pipeline workflows.
+									</p>
+									<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px;">
+										<span style="background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.3); color: #fef3c7; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 6px;"><i class="fa fa-check" style="color: #f59e0b; margin-right: 4px;"></i> Live Account Audits</span>
+										<span style="background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.3); color: #fef3c7; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 6px;"><i class="fa fa-check" style="color: #f59e0b; margin-right: 4px;"></i> Hands-On Labs</span>
+										<span style="background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.3); color: #fef3c7; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 6px;"><i class="fa fa-check" style="color: #f59e0b; margin-right: 4px;"></i> Standard SOPs Provided</span>
+									</div>
+									<div style="display: flex; align-items: center; justify-content: flex-end;">
+										<span style="color: #fbbf24; font-weight: 800; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 6px;">
+											Book This Bootcamp <i class="fa fa-arrow-right"></i>
+										</span>
+									</div>
 								</div>
 							</div>
 						</div>
 
-						<!-- Offer 3 -->
-						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
-							<div class="kdm-offer-dark-icon">
-								<i class="fa fa-crown"></i>
-							</div>
-							<div class="kdm-offer-dark-content">
-								<div class="kdm-offer-dark-badge">ENTERPRISE RETAINER</div>
-								<h3 class="kdm-offer-dark-title">Custom Ongoing Corporate Upskilling Retainer</h3>
-								<p class="kdm-offer-dark-desc">
-									Quarterly skill upgrades, monthly strategic campaign audits, dedicated doubt-clearing sessions, and ongoing advisory to keep your internal workforce ahead of industry trends.
-								</p>
-								<div class="kdm-offer-dark-footer">
-									<span class="kdm-offer-cta-link">Request Custom Proposal <i class="fa fa-arrow-right"></i></span>
+						<!-- Offer 3: Custom Ongoing Corporate Retainer -->
+						<div class="kdm-delivery-card" onclick="openGlobalPopupForm()" style="background: linear-gradient(135deg, #1d0e2e 0%, #0d0615 100%); border: 1.5px solid rgba(192, 132, 252, 0.45); border-radius: 16px; padding: 24px; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(168, 85, 247, 0.18); cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;">
+							<div style="position: absolute; top: -30px; right: -30px; width: 120px; height: 120px; background: radial-gradient(circle, rgba(192, 132, 252, 0.25) 0%, transparent 70%); border-radius: 50%; pointer-events: none;"></div>
+							<div style="display: flex; align-items: flex-start; gap: 16px;">
+								<div style="width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, #9333ea 0%, #c084fc 100%); display: flex; align-items: center; justify-content: center; font-size: 22px; color: #ffffff; flex-shrink: 0; box-shadow: 0 0 20px rgba(192, 132, 252, 0.45);">
+									<i class="fa fa-crown"></i>
+								</div>
+								<div style="flex: 1;">
+									<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
+										<span style="background: rgba(192, 132, 252, 0.15); border: 1px solid rgba(192, 132, 252, 0.5); color: #c084fc; font-size: 11px; font-weight: 800; padding: 4px 12px; border-radius: 20px; letter-spacing: 0.8px; text-transform: uppercase;">
+											ENTERPRISE RETAINER
+										</span>
+										<span style="font-size: 12px; font-weight: 700; color: #c084fc;"><i class="fa fa-clock-o" style="color: #c084fc;"></i> Monthly / Quarterly</span>
+									</div>
+									<h3 style="font-size: 19px; font-weight: 800; color: #ffffff; margin: 0 0 8px 0; line-height: 1.35;">
+										Custom Ongoing Corporate Retainer
+									</h3>
+									<p style="font-size: 13.5px; color: #cbd5e1; line-height: 1.6; margin: 0 0 14px 0;">
+										Continuous capability building, monthly campaign audits, dedicated doubt-clearing clinics, and proactive algorithm updates to keep your marketing organization ahead of competitors.
+									</p>
+									<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px;">
+										<span style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 6px;"><i class="fa fa-check" style="color: #c084fc; margin-right: 4px;"></i> Monthly Skill Clinics</span>
+										<span style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 6px;"><i class="fa fa-check" style="color: #c084fc; margin-right: 4px;"></i> Dedicated Advisory</span>
+										<span style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.1); color: #e2e8f0; font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 6px;"><i class="fa fa-check" style="color: #c084fc; margin-right: 4px;"></i> Ongoing Tool Access</span>
+									</div>
+									<div style="display: flex; align-items: center; justify-content: flex-end;">
+										<span style="color: #c084fc; font-weight: 800; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 6px;">
+											Request Custom Retainer <i class="fa fa-arrow-right"></i>
+										</span>
+									</div>
 								</div>
 							</div>
 						</div>
