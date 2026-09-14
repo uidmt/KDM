@@ -1204,167 +1204,167 @@
 
 					<div class="kdm-faq-accordion">
 						<!-- Q1 -->
-						<div class="kdm-faq-item open">
-							<button type="button" class="kdm-faq-btn" aria-expanded="true">
-								<span>What website design services do you offer in Allahabad?</span>
-								<i class="fa fa-chevron-down"></i>
+						<div class="kdm-faq-item active">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.1. What website design services do you offer in Allahabad?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>We provide end-to-end web solutions including Custom Corporate Website Design, E-Commerce Store Development (Shopify/WooCommerce), WordPress CMS Portals, Educational &amp; Coaching Institute Portals, Medical Clinic Websites, Landing Page Optimization, and Website Redesign Services.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide end-to-end web solutions including Custom Corporate Website Design, E-Commerce Store Development (Shopify/WooCommerce), WordPress CMS Portals, Educational &amp; Coaching Institute Portals, Medical Clinic Websites, Landing Page Optimization, and Website Redesign Services.</p>
 							</div>
 						</div>
 
 						<!-- Q2 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Why is King of Digital Marketing the best website design company in Allahabad?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.2. Why is King of Digital Marketing the best website design company in Allahabad?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>With 13+ years of proven industry experience and 900+ completed projects, King of Digital Marketing builds modern, ultra-fast, mobile-friendly, and conversion-optimized websites. Led by Gaurav Dubey and 32+ in-house specialists, we integrate technical SEO, clean UI/UX, and lead generation funnels tailored specifically for businesses in Allahabad.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With 13+ years of proven industry experience and 900+ completed projects, King of Digital Marketing builds modern, ultra-fast, mobile-friendly, and conversion-optimized websites. Led by Gaurav Dubey and 32+ in-house specialists, we integrate technical SEO, clean UI/UX, and lead generation funnels tailored specifically for businesses in Allahabad.</p>
 							</div>
 						</div>
 
 						<!-- Q3 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Will my website be mobile-responsive and work across all devices?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.3. Will my website be mobile-responsive and work across all devices?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, 100%. Every website we design is fully responsive and thoroughly tested across smartphones, tablets, laptops, and desktop screens with optimal loading speeds and touch-friendly navigation.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100%. Every website we design is fully responsive and thoroughly tested across smartphones, tablets, laptops, and desktop screens with optimal loading speeds and touch-friendly navigation.</p>
 							</div>
 						</div>
 
 						<!-- Q4 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>How long does it take to design and launch a website in Allahabad?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.4. How long does it take to design and launch a website in Allahabad?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>A standard 5 to 10 page business website is typically completed within 7 to 10 business days. Complex custom portals and e-commerce websites take approximately 2 to 4 weeks depending on specific feature requirements.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> A standard 5 to 10 page business website is typically completed within 7 to 10 business days. Complex custom portals and e-commerce websites take approximately 2 to 4 weeks depending on specific feature requirements.</p>
 							</div>
 						</div>
 
 						<!-- Q5 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Which local areas in Allahabad (Prayagraj) do you cover?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.5. Which local areas in Allahabad (Prayagraj) do you cover?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>We serve clients across all key commercial and educational hubs in Allahabad including Civil Lines, Katra, Georgetown, Ashok Nagar, Naini, Jhalwa, Phaphamau, Tagore Town, Mumfordganj, Lukerganj, Dhoomanganj, Chowk, Allapur, and Kydganj.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We serve clients across all key commercial and educational hubs in Allahabad including Civil Lines, Katra, Georgetown, Ashok Nagar, Naini, Jhalwa, Phaphamau, Tagore Town, Mumfordganj, Lukerganj, Dhoomanganj, Chowk, Allapur, and Kydganj.</p>
 							</div>
 						</div>
 
 						<!-- Q6 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Will my website be optimized for Google Search Engine (SEO)?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.6. Will my website be optimized for Google Search Engine (SEO)?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes! We build all websites with SEO-first architecture, including semantic HTML5 structure, schema markup, fast loading speeds, meta tag configurations, XML sitemaps, and mobile optimization to ensure high Google rankings.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We build all websites with SEO-first architecture, including semantic HTML5 structure, schema markup, fast loading speeds, meta tag configurations, XML sitemaps, and mobile optimization to ensure high Google rankings.</p>
 							</div>
 						</div>
 
 						<!-- Q7 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Do you provide e-commerce website development with payment gateways?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.7. Do you provide e-commerce website development with payment gateways?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes. We create secure, feature-rich e-commerce stores with product catalogs, shopping carts, inventory tracking, SSL certificates, and seamless integration with payment gateways like Razorpay, PayU, Paytm, and UPI.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We create secure, feature-rich e-commerce stores with product catalogs, shopping carts, inventory tracking, SSL certificates, and seamless integration with payment gateways like Razorpay, PayU, Paytm, and UPI.</p>
 							</div>
 						</div>
 
 						<!-- Q8 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Can I update content, images, and products myself after launch?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.8. Can I update content, images, and products myself after launch?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes. We develop websites using user-friendly Content Management Systems (CMS) like WordPress. We provide full admin access along with step-by-step training so you can easily edit text, images, and add new pages without coding knowledge.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We develop websites using user-friendly Content Management Systems (CMS) like WordPress. We provide full admin access along with step-by-step training so you can easily edit text, images, and add new pages without coding knowledge.</p>
 							</div>
 						</div>
 
 						<!-- Q9 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Do you assist with domain registration, SSL certificates, and web hosting?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.9. Do you assist with domain registration, SSL certificates, and web hosting?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, we offer complete turnkey solutions including domain registration (.com, .in), high-speed SSD cloud hosting, free SSL security certificates, and professional business email setup.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we offer complete turnkey solutions including domain registration (.com, .in), high-speed SSD cloud hosting, free SSL security certificates, and professional business email setup.</p>
 							</div>
 						</div>
 
 						<!-- Q10 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Do you offer website redesign services for outdated websites?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.10. Do you offer website redesign services for outdated websites?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes. If your current website is slow, outdated, or not generating leads, we provide complete UI/UX modernization, mobile responsiveness upgrades, and conversion rate optimization while preserving your existing SEO rankings.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. If your current website is slow, outdated, or not generating leads, we provide complete UI/UX modernization, mobile responsiveness upgrades, and conversion rate optimization while preserving your existing SEO rankings.</p>
 							</div>
 						</div>
 
 						<!-- Q11 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>What is the cost of website designing in Allahabad?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.11. What is the cost of website designing in Allahabad?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>We provide transparent and affordable web design packages tailored for startups, small businesses, and enterprises in Allahabad. Contact us at +91-9555696058 for a customized quote based on your exact feature requirements.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide transparent and affordable web design packages tailored for startups, small businesses, and enterprises in Allahabad. Contact us at +91-9555696058 for a customized quote based on your exact feature requirements.</p>
 							</div>
 						</div>
 
 						<!-- Q12 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Do you offer website maintenance and technical support after launch?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.12. Do you offer website maintenance and technical support after launch?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes, we provide ongoing Annual Maintenance Contracts (AMC) that include regular security updates, automated backups, bug fixes, speed audits, and content updates.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, we provide ongoing Annual Maintenance Contracts (AMC) that include regular security updates, automated backups, bug fixes, speed audits, and content updates.</p>
 							</div>
 						</div>
 
 						<!-- Q13 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>Can you integrate WhatsApp chat and quick contact forms on our website?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.13. Can you integrate WhatsApp chat and quick contact forms on our website?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>Yes! We integrate floating WhatsApp chat widgets, click-to-call buttons, instant lead generation forms, Google Maps, and social media feeds to maximize visitor conversions.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We integrate floating WhatsApp chat widgets, click-to-call buttons, instant lead generation forms, Google Maps, and social media feeds to maximize visitor conversions.</p>
 							</div>
 						</div>
 
 						<!-- Q14 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>What industries in Allahabad do you specialize in for website design?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.14. What industries in Allahabad do you specialize in for website design?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>We have built websites for 150+ industries in Allahabad including Coaching Institutes &amp; Academies, Hospitals &amp; Doctors, Real Estate Builders, Hotels &amp; Restaurants, Retail Stores, Law Firms, CA Firms, and Manufacturing Units.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have built websites for 150+ industries in Allahabad including Coaching Institutes &amp; Academies, Hospitals &amp; Doctors, Real Estate Builders, Hotels &amp; Restaurants, Retail Stores, Law Firms, CA Firms, and Manufacturing Units.</p>
 							</div>
 						</div>
 
 						<!-- Q15 -->
 						<div class="kdm-faq-item">
-							<button type="button" class="kdm-faq-btn" aria-expanded="false">
-								<span>How do I get started with website design for my business in Allahabad?</span>
-								<i class="fa fa-chevron-down"></i>
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.15. How do I get started with website design for my business in Allahabad?</span>
+								<span class="kdm-faq-icon">+</span>
 							</button>
-							<div class="kdm-faq-panel">
-								<p>You can get started by calling our senior web consultants directly at <strong>+91-9555696058</strong> or submitting our online inquiry form for a free consultation and customized quote.</p>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can get started by calling our senior web consultants directly at <strong>+91-9555696058</strong> or submitting our online inquiry form for a free consultation and customized quote.</p>
 							</div>
 						</div>
 					</div>
