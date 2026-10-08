@@ -5,7 +5,7 @@
   <meta name="description" content="Accelerate enterprise B2B lead generation, high-ticket corporate contracts & industrial sales pipelines with King of Digital Marketing. Expert LinkedIn Ads, B2B SEO & Account-Based Marketing.">
   <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-strategies-for-b2b.aspx">
   <meta property="og:title" content="Digital Marketing Strategies for B2B Companies & Manufacturers | KDM">
-  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-strategies-for-b2b.jpg">
+  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-strategies-for-b2b.webp">
   <meta property="og:description" content="Accelerate enterprise B2B lead generation, high-ticket corporate contracts & industrial sales pipelines with King of Digital Marketing. Expert LinkedIn Ads, B2B SEO & Account-Based Marketing.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-strategies-for-b2b.aspx">
@@ -27,7 +27,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "serviceType": "B2B Lead Generation & Industrial Digital Marketing",
     "areaServed": "Worldwide",

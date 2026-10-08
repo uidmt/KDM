@@ -22,7 +22,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Comprehensive digital marketing, Local SEO, Google Ads, and verified client acquisition funnels engineered for stock market institute businesses.",
     "areaServed": "Global",
@@ -239,7 +239,431 @@
       </div>
     </div>
 
-    <!-- ===== 2. OVERVIEW & INDUSTRY INTRO SECTION ===== -->
+            <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
+      <section class="kdm-industry-clients-section">
+        <div class="container">
+          <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
+            <div class="kdm-client-pill-badge">
+              <i class="fa fa-star" style="color: #f59e0b;"></i> TRUSTED BY TOP STOCK MARKET INSTITUTES & TRADING ADVISORIES
+            </div>
+            <h2 class="kdm-client-main-title">
+              Stock Market Clients <span class="kdm-blue-gradient">We Have Worked With</span>
+            </h2>
+            <p class="kdm-client-subtitle">
+              From premier stock market institutes, algorithmic trading platforms, and SEBI-registered research analysts to pro trader academies — explore verified clients scaling enrollments and digital reach with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.
+            </p>
+          </div>
+
+          <!-- Dual Smooth Infinite Ticker / Marquee -->
+          <div class="kdm-client-marquee-wrapper">
+            <!-- Row 1: Left Scroll -->
+            <div class="kdm-client-marquee-track kdm-marquee-left">
+              <div class="kdm-client-marquee-group">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Allaboutfinances.webp" alt="All About Finances Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">All About Finances</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/AmpleStock%20Advisory.webp" alt="AmpleStock Advisory Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AmpleStock Advisory</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/CapitalCraftResearch.webp" alt="CapitalCraft Research Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">CapitalCraft Research</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/doontradingacademy.webp" alt="Doon Trading Academy Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Doon Trading Academy</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/EmperorBullsAcademy.webp" alt="Emperor Bulls Academy Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Emperor Bulls Academy</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Equimate.webp" alt="Equimate Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Equimate</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/FirstBull.webp" alt="First Bull Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">First Bull</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/freestockstips.webp" alt="Free Stocks Tips Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Free Stocks Tips</span>
+        </div>
+              </div>
+              <div class="kdm-client-marquee-group" aria-hidden="true">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Allaboutfinances.webp" alt="All About Finances Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">All About Finances</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/AmpleStock%20Advisory.webp" alt="AmpleStock Advisory Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AmpleStock Advisory</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/CapitalCraftResearch.webp" alt="CapitalCraft Research Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">CapitalCraft Research</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/doontradingacademy.webp" alt="Doon Trading Academy Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Doon Trading Academy</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/EmperorBullsAcademy.webp" alt="Emperor Bulls Academy Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Emperor Bulls Academy</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Equimate.webp" alt="Equimate Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Equimate</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/FirstBull.webp" alt="First Bull Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">First Bull</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/freestockstips.webp" alt="Free Stocks Tips Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Free Stocks Tips</span>
+        </div>
+              </div>
+            </div>
+
+            <!-- Row 2: Right Scroll -->
+            <div class="kdm-client-marquee-track kdm-marquee-right">
+              <div class="kdm-client-marquee-group">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/GetFXBot.webp" alt="GetFXBot Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">GetFXBot</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/LearnFX.webp" alt="LearnFX Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">LearnFX</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/masterniftyoption.webp" alt="Master Nifty Option Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Master Nifty Option</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/moral%20research.webp" alt="Moral Research Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Moral Research</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Skyriss.webp" alt="Skyriss Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Skyriss</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/TheRichTradershub.webp" alt="The Rich Traders Hub Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">The Rich Traders Hub</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/trade.webp" alt="Trade Insights Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Trade Insights</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/TriptoTrade.webp" alt="Trip To Trade Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Trip To Trade</span>
+        </div>
+              </div>
+              <div class="kdm-client-marquee-group" aria-hidden="true">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/GetFXBot.webp" alt="GetFXBot Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">GetFXBot</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/LearnFX.webp" alt="LearnFX Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">LearnFX</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/masterniftyoption.webp" alt="Master Nifty Option Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Master Nifty Option</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/moral%20research.webp" alt="Moral Research Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Moral Research</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Skyriss.webp" alt="Skyriss Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Skyriss</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/TheRichTradershub.webp" alt="The Rich Traders Hub Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">The Rich Traders Hub</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/trade.webp" alt="Trade Insights Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Trade Insights</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/TriptoTrade.webp" alt="Trip To Trade Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Trip To Trade</span>
+        </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real-Time Client Search Bar -->
+          <div class="kdm-client-search-box">
+            <i class="fa fa-search kdm-client-search-icon"></i>
+            <input type="text" id="kdmIndustryClientSearch" class="kdm-client-search-input" placeholder="Search stock market clients by brand name (e.g., Doon Trading Academy, Master Nifty Option, Equimate, Emperor Bulls)..." onkeyup="filterIndustryClients()" oninput="filterIndustryClients()" aria-label="Search client logos" />
+            <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
+          </div>
+
+          <!-- 16 Client Logos Responsive Grid (Strict A to Z) -->
+          <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
+            
+        <div class="kdm-industry-client-card" data-name="all about finances">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/Allaboutfinances.webp" alt="All About Finances Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Financial Education</span>
+            <h4 class="kdm-industry-client-title">All About Finances</h4>
+            <p class="kdm-industry-client-desc">Share Market Trading Advisory & Financial Education</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="amplestock advisory">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/AmpleStock%20Advisory.webp" alt="AmpleStock Advisory Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Stock Market Advisory</span>
+            <h4 class="kdm-industry-client-title">AmpleStock Advisory</h4>
+            <p class="kdm-industry-client-desc">Stock Research, Nifty Options & Equity Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="capitalcraft research">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/CapitalCraftResearch.webp" alt="CapitalCraft Research Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Research Advisory</span>
+            <h4 class="kdm-industry-client-title">CapitalCraft Research</h4>
+            <p class="kdm-industry-client-desc">SEBI-Registered Equity Research & Portfolio Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="doon trading academy">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/doontradingacademy.webp" alt="Doon Trading Academy Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Stock Trading Institute</span>
+            <h4 class="kdm-industry-client-title">Doon Trading Academy</h4>
+            <p class="kdm-industry-client-desc">Stock Market Institute, Price Action & Options Training</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="emperor bulls academy">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/EmperorBullsAcademy.webp" alt="Emperor Bulls Academy Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Stock Trading Academy</span>
+            <h4 class="kdm-industry-client-title">Emperor Bulls Academy</h4>
+            <p class="kdm-industry-client-desc">Advanced Stock Trading Academy & Mentorship</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="equimate">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/Equimate.webp" alt="Equimate Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Algo Trading Platform</span>
+            <h4 class="kdm-industry-client-title">Equimate</h4>
+            <p class="kdm-industry-client-desc">Algorithmic Trading & Stock Market Analytics Platform</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="first bull">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/FirstBull.webp" alt="First Bull Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Trading Academy</span>
+            <h4 class="kdm-industry-client-title">First Bull</h4>
+            <p class="kdm-industry-client-desc">Intraday & Swing Trading Academy & Research</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="free stocks tips">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/freestockstips.webp" alt="Free Stocks Tips Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Stock Tips Portal</span>
+            <h4 class="kdm-industry-client-title">Free Stocks Tips</h4>
+            <p class="kdm-industry-client-desc">Daily Stock Recommendations & Market News Portal</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="getfxbot">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/GetFXBot.webp" alt="GetFXBot Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Algo Trading Bot</span>
+            <h4 class="kdm-industry-client-title">GetFXBot</h4>
+            <p class="kdm-industry-client-desc">Automated Forex & Stock Algo Trading Solutions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="learnfx">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/LearnFX.webp" alt="LearnFX Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Trading Training Academy</span>
+            <h4 class="kdm-industry-client-title">LearnFX</h4>
+            <p class="kdm-industry-client-desc">Currency, Commodities & Stock Market Training</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="master nifty option">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/masterniftyoption.webp" alt="Master Nifty Option Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Options Trading Academy</span>
+            <h4 class="kdm-industry-client-title">Master Nifty Option</h4>
+            <p class="kdm-industry-client-desc">Options Trading Strategies, Hedging & Derivatives Course</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="moral research">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/moral%20research.webp" alt="Moral Research Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Research Analyst</span>
+            <h4 class="kdm-industry-client-title">Moral Research</h4>
+            <p class="kdm-industry-client-desc">Technical Analysis, Equity & Commodity Research</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="skyriss">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/Skyriss.webp" alt="Skyriss Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Wealth & Trading</span>
+            <h4 class="kdm-industry-client-title">Skyriss</h4>
+            <p class="kdm-industry-client-desc">Stock Trading Strategies & Wealth Management</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="the rich traders hub">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/TheRichTradershub.webp" alt="The Rich Traders Hub Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Trading Community</span>
+            <h4 class="kdm-industry-client-title">The Rich Traders Hub</h4>
+            <p class="kdm-industry-client-desc">Pro Trader Community, Live Market Calls & Training</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="trade insights">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/trade.webp" alt="Trade Insights Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Trading Advisory</span>
+            <h4 class="kdm-industry-client-title">Trade Insights</h4>
+            <p class="kdm-industry-client-desc">Smart Money Concepts & Institutional Trading Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="trip to trade">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/TriptoTrade.webp" alt="Trip To Trade Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Trading Institute</span>
+            <h4 class="kdm-industry-client-title">Trip To Trade</h4>
+            <p class="kdm-industry-client-desc">Complete Stock Market & Futures & Options Course</p>
+          </div>
+        </div>
+          </div>
+
+          <!-- Empty Search State -->
+          <div id="kdmIndustryEmptyState" class="kdm-industry-empty-state" style="display: none;">
+            <i class="fa fa-search" style="font-size: 38px; color: #94a3b8; margin-bottom: 12px;"></i>
+            <h4 style="font-size: 18px; font-weight: 700; color: #1e293b;">No Stock Market Client Found</h4>
+            <p style="font-size: 14px; color: #64748b;">Try searching with a different brand keyword or clear the search query.</p>
+            <button type="button" class="btn btn-sm btn-primary" onclick="clearIndustryClientSearch()" style="margin-top: 10px; border-radius: 20px; padding: 6px 18px;">Reset Search</button>
+          </div>
+
+          <!-- Bottom Direct CTA Banner -->
+          <div class="kdm-industry-clients-cta-strip">
+            <div class="kdm-industry-cta-content">
+              <span class="kdm-industry-cta-badge"><i class="fa fa-check-circle"></i> PROVEN INDUSTRY DOMINANCE</span>
+              <h3 class="kdm-industry-cta-title">Want Similar 420%+ Student Enrollment & Inquiries Growth For Your Stock Market Institute?</h3>
+              <p class="kdm-industry-cta-desc">Join India's most trusted digital marketing agency for stock market academies & advisory firms. Get custom SEO strategies, Google PPC, and verified high-intent trader acquisition funnels.</p>
+            </div>
+            <div class="kdm-industry-cta-btn-wrap">
+              <a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-industry-cta-button">
+                <i class="fa fa-calendar-check"></i> Book Free Strategy Call <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section><!-- ===== 2. OVERVIEW & INDUSTRY INTRO SECTION ===== -->
     <section class="kdm-intro-content-section">
       <div class="container">
         <div class="kdm-intro-card-box">
@@ -723,121 +1147,161 @@
           <button type="button" class="kdm-case-v3-arrow kdm-case-v3-prev" onclick="scrollCaseSlider(-1)" title="Previous Case Study"><i class="fa fa-chevron-left"></i></button>
 
           <div class="kdm-case-v3-track" id="kdmCaseSliderTrack">
-              <!-- 1. Apex Stock Market Institute Solutions -->
+              <!-- 1. Doon Trading Academy -->
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/client-logo.webp" alt="Apex Stock Market Institute Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/client-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/stock-market/doontradingacademy.webp" alt="Doon Trading Academy Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
-                  <h3 class="kdm-case-v3-title">Apex Stock Market Institute Solutions</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Primary Tier)</h4>
-                  <p class="kdm-case-v3-desc">Local Google Search Ads targeting high-intent commercial keywords. Built high-converting landing page with 36% conversion rate.</p>
+                  <h3 class="kdm-case-v3-title">Doon Trading Academy</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Stock Market &amp; Options Institute)</h4>
+                  <p class="kdm-case-v3-desc">Scaled student admissions for live trading batches by 380% with high-intent Google Search campaigns and Meta reels funnels.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+420%</span><small class="kdm-case-v3-metric-lbl">Inquiries</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.6x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">82%</span><small class="kdm-case-v3-metric-lbl">Repeat Rate</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+380%</span><small class="kdm-case-v3-metric-lbl">Admissions</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.8x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">#1</span><small class="kdm-case-v3-metric-lbl">Local SEO</small></div>
                   </div>
                   <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
                 </div>
               </div>
 
-              <!-- 2. Prime Stock Market Institute Hub -->
+              <!-- 2. Master Nifty Option -->
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/client-logo.webp" alt="Prime Stock Market Institute Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/client-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/stock-market/masterniftyoption.webp" alt="Master Nifty Option Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
-                  <h3 class="kdm-case-v3-title">Prime Stock Market Institute Hub</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Regional Lead)</h4>
-                  <p class="kdm-case-v3-desc">Google Local 3-Pack SEO dominating a 15km catchment radius. WhatsApp chatbot capturing 300+ monthly direct inquiries.</p>
+                  <h3 class="kdm-case-v3-title">Master Nifty Option</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Options Trading Community)</h4>
+                  <p class="kdm-case-v3-desc">Built viral webinar registration funnels driving 1,200+ monthly attendees for advanced derivatives trading masterclasses.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+360%</span><small class="kdm-case-v3-metric-lbl">Consultations</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+450%</span><small class="kdm-case-v3-metric-lbl">Webinar Leads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.2x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">₹38</span><small class="kdm-case-v3-metric-lbl">Cost/Lead</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 3. Emperor Bulls Academy -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/stock-market/EmperorBullsAcademy.webp" alt="Emperor Bulls Academy Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Emperor Bulls Academy</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Price Action &amp; Mentorship Hub)</h4>
+                  <p class="kdm-case-v3-desc">Generated consistent mentorship enrollments and Telegram community growth with precision Instagram Ads and YouTube remarketing.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+310%</span><small class="kdm-case-v3-metric-lbl">Students</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.9★</span><small class="kdm-case-v3-metric-lbl">Google Score</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">88%</span><small class="kdm-case-v3-metric-lbl">Referral Rate</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 4. Equimate -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/stock-market/Equimate.webp" alt="Equimate Algo Trading Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">Equimate</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Algo Trading &amp; Analytics Platform)</h4>
+                  <p class="kdm-case-v3-desc">Scaled software demo signups and institutional algo trading inquiries via Google PPC and B2B LinkedIn campaign funnels.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+420%</span><small class="kdm-case-v3-metric-lbl">Demo Requests</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.1x</span><small class="kdm-case-v3-metric-lbl">Pipeline</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">22 Days</span><small class="kdm-case-v3-metric-lbl">Close Time</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 5. CapitalCraft Research -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/stock-market/CapitalCraftResearch.webp" alt="CapitalCraft Research Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">CapitalCraft Research</h3>
+                  <h4 class="kdm-case-v3-subtitle">(SEBI Research &amp; Advisory)</h4>
+                  <p class="kdm-case-v3-desc">Optimized compliance-friendly Google Search ads and Local SEO, driving verified HNI inquiries for long-term equity portfolios.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+290%</span><small class="kdm-case-v3-metric-lbl">HNI Leads</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">₹18Cr+</span><small class="kdm-case-v3-metric-lbl">AUM Added</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.9★</span><small class="kdm-case-v3-metric-lbl">Client Rating</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 6. All About Finances -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/stock-market/Allaboutfinances.webp" alt="All About Finances Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">All About Finances</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Financial Education &amp; Trading)</h4>
+                  <p class="kdm-case-v3-desc">Increased digital course sales and private workshop bookings across India &amp; UAE using high-converting Meta reels and landing pages.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+340%</span><small class="kdm-case-v3-metric-lbl">Course Sales</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.4x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">12K+</span><small class="kdm-case-v3-metric-lbl">Students</small></div>
+                  </div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                </div>
+              </div>
+
+              <!-- 7. First Bull -->
+              <div class="kdm-case-v3-card">
+                <div>
+                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/stock-market/FirstBull.webp" alt="First Bull Trading Academy Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  </div>
+                  <h3 class="kdm-case-v3-title">First Bull</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Intraday Trading Academy)</h4>
+                  <p class="kdm-case-v3-desc">Dominated Google Local 3-Pack and regional search terms, generating 400+ monthly consultation calls for physical classroom batches.</p>
+                </div>
+                <div>
+                  <div class="kdm-case-v3-metrics">
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+360%</span><small class="kdm-case-v3-metric-lbl">Inquiries</small></div>
                     <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">Top 3</span><small class="kdm-case-v3-metric-lbl">Google Maps</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">48</span><small class="kdm-case-v3-metric-lbl">Monthly Signs</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">42</span><small class="kdm-case-v3-metric-lbl">Monthly Signs</small></div>
                   </div>
                   <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
                 </div>
               </div>
 
-              <!-- 3. Elite Stock Market Institute Partners -->
+              <!-- 8. Trip To Trade -->
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/client-logo.webp" alt="Elite Stock Market Institute Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/client-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/stock-market/TriptoTrade.webp" alt="Trip To Trade Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
-                  <h3 class="kdm-case-v3-title">Elite Stock Market Institute Partners</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Enterprise)</h4>
-                  <p class="kdm-case-v3-desc">Meta Video Ads targeting affluent local buyers and corporate hosts. Automated CRM follow-up bot reduced lead decay by 58%.</p>
+                  <h3 class="kdm-case-v3-title">Trip To Trade</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Stock Market Mentorship)</h4>
+                  <p class="kdm-case-v3-desc">Implemented automated WhatsApp chatbot workflows and retargeting ads, boosting webinar-to-paid-student conversion by 65%.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+490%</span><small class="kdm-case-v3-metric-lbl">Pipeline Value</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.2x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">24 Days</span><small class="kdm-case-v3-metric-lbl">Avg Close Time</small></div>
-                  </div>
-                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
-                </div>
-              </div>
-
-              <!-- 4. Vanguard Stock Market Institute Network -->
-              <div class="kdm-case-v3-card">
-                <div>
-                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/client-logo.webp" alt="Vanguard Stock Market Institute Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/client-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
-                  </div>
-                  <h3 class="kdm-case-v3-title">Vanguard Stock Market Institute Network</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Multi-Branch)</h4>
-                  <p class="kdm-case-v3-desc">ORM review generation campaign boosting Google score to 4.9 stars. Ranked #1 for high-volume commercial keywords across multiple territories.</p>
-                </div>
-                <div>
-                  <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+310%</span><small class="kdm-case-v3-metric-lbl">Footfalls</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.9★</span><small class="kdm-case-v3-metric-lbl">Google Rating</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">220+</span><small class="kdm-case-v3-metric-lbl">New Reviews</small></div>
-                  </div>
-                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
-                </div>
-              </div>
-
-              <!-- 5. NextGen Stock Market Institute Group -->
-              <div class="kdm-case-v3-card">
-                <div>
-                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/client-logo.webp" alt="NextGen Stock Market Institute Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/client-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
-                  </div>
-                  <h3 class="kdm-case-v3-title">NextGen Stock Market Institute Group</h3>
-                  <h4 class="kdm-case-v3-subtitle">(D2C & B2B)</h4>
-                  <p class="kdm-case-v3-desc">Full-funnel digital campaign driving recurring monthly client contracts. Reduced customer acquisition cost by 44% via referral loops.</p>
-                </div>
-                <div>
-                  <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+380%</span><small class="kdm-case-v3-metric-lbl">Retainers</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.1x</span><small class="kdm-case-v3-metric-lbl">LTV Growth</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">140+</span><small class="kdm-case-v3-metric-lbl">Active Accounts</small></div>
-                  </div>
-                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
-                </div>
-              </div>
-
-              <!-- 6. Imperial Stock Market Institute Studio -->
-              <div class="kdm-case-v3-card">
-                <div>
-                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/client-logo.webp" alt="Imperial Stock Market Institute Logo" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/client-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
-                  </div>
-                  <h3 class="kdm-case-v3-title">Imperial Stock Market Institute Studio</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Luxury Tier)</h4>
-                  <p class="kdm-case-v3-desc">High-intent search campaigns for premium commercial contracts. Generated over 550 verified client inquiries in 90 days.</p>
-                </div>
-                <div>
-                  <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+440%</span><small class="kdm-case-v3-metric-lbl">High-End Leads</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.8x</span><small class="kdm-case-v3-metric-lbl">Contract Value</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">12 Days</span><small class="kdm-case-v3-metric-lbl">Closing Time</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">+410%</span><small class="kdm-case-v3-metric-lbl">Conversions</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.9★</span><small class="kdm-case-v3-metric-lbl">Reviews</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">58%</span><small class="kdm-case-v3-metric-lbl">CPA Drop</small></div>
                   </div>
                   <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
                 </div>

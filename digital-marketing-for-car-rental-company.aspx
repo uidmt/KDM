@@ -5,7 +5,7 @@
     <meta name="description" content="Best Digital Marketing for Car Rental & Fleet Companies by Expert SEO, SMM, PPC Company. Scale Self-Drive Bookings, Outstation Trips & Corporate Fleet Leasing.">
     <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-car-rental-company.aspx" />
     <meta property="og:title" content="Digital Marketing for Car Rental Companies for High Quality Bookings">
-    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-car-rental-company.jpg">
+    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-car-rental-company.webp">
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Digital Marketing for Car Rental Companies, Generate Quality Direct Bookings with SEO SMM PPC Services for Fleet Operators.">
     <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-for-car-rental-company.aspx">

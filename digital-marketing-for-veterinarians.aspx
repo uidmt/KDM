@@ -27,7 +27,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "areaServed": "Global",
     "description": "Comprehensive Digital Marketing Services for Veterinarians and Pet Hospitals including Search Engine Optimization (SEO), 24/7 Emergency Google Ads PPC, Meta Video Reels, Local Google Map Pack Optimization, and WhatsApp Patient Lead Generation.",
@@ -779,7 +779,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/Skinmumma-logo.webp" alt="Advanced Pet Surgical Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Skinmumma-logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/Skinmumma-logo.webp" alt="Advanced Pet Surgical Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Skinmumma-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">Advanced Pet Surgical Clinic</h3>
                 <h4 class="kdm-case-v3-subtitle">(Orthopedic &amp; Soft Tissue Surgery)</h4>
@@ -819,7 +819,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/Prep-guru-logo.webp" alt="Feline Specialty Care Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Prep-guru-logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/Prep-guru-logo.webp" alt="Feline Specialty Care Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Prep-guru-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">Feline Specialty Care Clinic</h3>
                 <h4 class="kdm-case-v3-subtitle">(Cat-Friendly Certified Practice)</h4>
@@ -839,7 +839,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/satguru--logo.webp" alt="HappyTails Veterinary Dental &amp; Diagnostics" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/satguru--logo.webp" alt="HappyTails Veterinary Dental &amp; Diagnostics" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">HappyTails Dental &amp; Vet Diagnostics</h3>
                 <h4 class="kdm-case-v3-subtitle">(Pet Dentistry &amp; Advanced Imaging)</h4>

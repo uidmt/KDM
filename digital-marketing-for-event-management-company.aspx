@@ -5,7 +5,7 @@
   <meta name="description" content="Scale your event management company with King of Digital Marketing. Expert Google Search Ads, Meta Lead Ads, Instagram Reels & local SEO for wedding planners & corporate event managers.">
   <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-event-management-company.aspx">
   <meta property="og:title" content="Digital Marketing Services for Event Management Company & Wedding Planners | KDM">
-  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/event-management.png">
+  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/event-management.webp">
   <meta property="og:description" content="Scale your event management company with King of Digital Marketing. Expert Google Search Ads, Meta Lead Ads, Instagram Reels & local SEO for wedding planners & corporate event managers.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-for-event-management-company.aspx">
@@ -27,7 +27,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "serviceType": "Event Management Digital Marketing",
     "areaServed": "Worldwide",

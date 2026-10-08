@@ -20,201 +20,177 @@
 
 	<!-- ===== STRUCTURED DATA JSON-LD SCHEMAS ===== -->
 	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@graph": [
-	    {
-	      "@type": "ProfessionalService",
-	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing - WhatsApp Marketing Services",
-	      "url": "https://www.kingofdigitalmarketing.com/whatsapp-marketing-services.aspx",
-	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/whatsapp-marketing-services.webp",
-	      "description": "Scale your business with India's leading whatsapp marketing services company in Delhi. 13+ years experience, 900+ projects, verified results & high ROI.",
-	      "telephone": "+91-9555696058",
-	      "email": "info@kingofdigitalmarketing.com",
-	      "priceRange": "$$",
-	      "address": {
-	        "@type": "PostalAddress",
-	        "addressLocality": "Delhi",
-	        "addressRegion": "Delhi NCR",
-	        "addressCountry": "IN"
-	      },
-	      "geo": {
-	        "@type": "GeoCoordinates",
-	        "latitude": "28.6139",
-	        "longitude": "77.2090"
-	      },
-	      "openingHoursSpecification": [
-	        {
-	          "@type": "OpeningHoursSpecification",
-	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-	          "opens": "09:30",
-	          "closes": "19:00"
-	        }
-	      ],
-	      "aggregateRating": {
-	        "@type": "AggregateRating",
-	        "ratingValue": "4.9",
-	        "reviewCount": "290",
-	        "bestRating": "5"
-	      }
-	    },
-	    {
-	      "@type": "Service",
-	      "@id": "https://www.kingofdigitalmarketing.com/whatsapp-marketing-services.aspx#service",
-	      "name": "WhatsApp Marketing Services",
-	      "serviceType": "WhatsApp Marketing Services",
-	      "provider": {
-	        "@type": "ProfessionalService",
-	        "name": "King of Digital Marketing"
-	      },
-	      "areaServed": "Worldwide"
-	    },
-	    {
-	      "@type": "BreadcrumbList",
-	      "itemListElement": [
-	        {
-	          "@type": "ListItem",
-	          "position": 1,
-	          "name": "Home",
-	          "item": "https://www.kingofdigitalmarketing.com/"
-	        },
-	        {
-	          "@type": "ListItem",
-	          "position": 2,
-	          "name": "WhatsApp Marketing Services",
-	          "item": "https://www.kingofdigitalmarketing.com/whatsapp-marketing-services.aspx"
-	        }
-	      ]
-	    },
-	    {
-	      "@type": "FAQPage",
-	      "mainEntity": [
-	        {
-	          "@type": "Question",
-	          "name": "What is WhatsApp Marketing Services and how does it benefit my business?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "WhatsApp Marketing Services is a dedicated growth solution designed to capture qualified buyer intent, elevate brand visibility, and generate scalable inquiries. Our data-backed approach ensures high conversion rates, lower customer acquisition costs, and compounding commercial ROI."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Why is King of Digital Marketing the best WhatsApp Marketing Services company in Delhi, India?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "With 13+ years of industry mastery, 900+ successful campaigns across 15+ countries, and direct leadership under senior consultant Gaurav Dubey, King of Digital Marketing delivers 100% compliant, customized growth systems that outpace competitors."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How quickly can we expect measurable results from your WhatsApp Marketing Services?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Initial campaign momentum and leading metrics show strong progress within 30 to 60 days, while full-scale market dominance and compound return on investment are typically established within 3 to 6 months."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you provide custom strategies tailored specifically to our industry?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, absolutely. We have successfully served over 150+ industry verticals (Healthcare, Real Estate, E-Commerce, B2B Exporters, Education, Financial Services, SaaS). Every campaign roadmap is built from scratch around your specific target audience."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Will I get a dedicated account manager for our WhatsApp Marketing Services campaign?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. Every client is assigned a dedicated senior growth specialist along with direct strategic oversight from founder Gaurav Dubey for continuous alignment, weekly status updates, and monthly strategy reviews."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How do you track, measure, and report campaign performance?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We provide 100% transparent, real-time monthly reports covering keyword rankings, Google Analytics 4 (GA4) traffic, qualified inbound leads, conversion attribution, and net ROI metrics."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What tools and modern technologies do you use for WhatsApp Marketing Services?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We utilize industry-standard enterprise software including Google Search Console, GA4, SEMrush, Ahrefs, Meta Business Suite, Google Tag Manager, hotjar, and advanced AI optimization tools."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Can your WhatsApp Marketing Services integrate with our existing CRM and sales workflows?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. We configure automated webhooks and API connections pushing inbound customer leads directly into HubSpot, Salesforce, Zoho CRM, Google Sheets, email, and sales team WhatsApp within seconds."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Are your methodologies 100% compliant with Google and platform policies?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, strictly 100%. We adhere to official search engine quality standards, Google Search Essentials, and ad network compliance policies to protect your long-term domain authority."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What budget tiers and package options do you offer for WhatsApp Marketing Services?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We offer flexible, milestone-based packages tailored for startups, expanding SMBs, and large enterprise brands, ensuring maximum marketing efficiency at every stage of business growth."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How do you conduct competitor benchmarking and reverse-engineering?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We perform deep competitor analysis—examining top-performing search terms, ad creatives, backlink profiles, conversion hooks, and audience segments to identify high-margin commercial opportunities."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Can you handle international and multi-regional WhatsApp Marketing Services campaigns?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. We have executed cross-border campaigns across 15+ countries including USA, UK, Canada, Australia, UAE, Europe, and Asia-Pacific with comprehensive localization and multi-currency support."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you offer conversion rate optimization (CRO) alongside WhatsApp Marketing Services?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. Traffic without conversions is wasted budget. We optimize landing page UI/UX, CTA placement, value propositions, and form frictionless design to double your inquiry conversion rates."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What makes King of Digital Marketing different from other digital agencies in Delhi?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Unlike generic agencies that outsource campaigns, King of Digital Marketing features 32+ in-house certified specialists, 13+ years of direct agency heritage since 2013, transparent reporting, and direct oversight by Gaurav Dubey."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How do I get started with a free strategy audit and proposal?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "You can request a free comprehensive audit and customized proposal by calling us directly at +91-9555696058 or submitting our instant online inquiry form."
-	          }
-	        }
-	      ]
-	    }
-	  ]
-	}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kingofdigitalmarketing.com/whatsapp-marketing-services.aspx#webpage",
+      "url": "https://www.kingofdigitalmarketing.com/whatsapp-marketing-services.aspx",
+      "name": "WhatsApp Marketing Services",
+      "description": "Scale your business with India's leading whatsapp marketing services company in Delhi. 13+ years experience, 900+ projects, verified results & high ROI.",
+      "isPartOf": {
+        "@id": "https://www.kingofdigitalmarketing.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kingofdigitalmarketing.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "WhatsApp Marketing Services",
+            "item": "https://www.kingofdigitalmarketing.com/whatsapp-marketing-services.aspx"
+          }
+        ],
+        "@id": "https://www.kingofdigitalmarketing.com/whatsapp-marketing-services.aspx#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.kingofdigitalmarketing.com/whatsapp-marketing-services.aspx#service",
+      "name": "WhatsApp Marketing Services",
+      "serviceType": "WhatsApp Marketing Services",
+      "provider": {
+        "@type": "ProfessionalService",
+        "@id": "https://www.kingofdigitalmarketing.com/#organization",
+        "name": "King of Digital Marketing"
+      },
+      "areaServed": "Worldwide",
+      "description": "Scale your business with India's leading whatsapp marketing services company in Delhi. 13+ years experience, 900+ projects, verified results & high ROI."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is WhatsApp Marketing Services and how does it benefit my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WhatsApp Marketing Services is a dedicated growth solution designed to capture qualified buyer intent, elevate brand visibility, and generate scalable inquiries. Our data-backed approach ensures high conversion rates, lower customer acquisition costs, and compounding commercial ROI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is King of Digital Marketing the best WhatsApp Marketing Services company in Delhi, India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With 13+ years of industry mastery, 900+ successful campaigns across 15+ countries, and direct leadership under senior consultant Gaurav Dubey, King of Digital Marketing delivers 100% compliant, customized growth systems that outpace competitors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can we expect measurable results from your WhatsApp Marketing Services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Initial campaign momentum and leading metrics show strong progress within 30 to 60 days, while full-scale market dominance and compound return on investment are typically established within 3 to 6 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide custom strategies tailored specifically to our industry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely. We have successfully served over 150+ industry verticals (Healthcare, Real Estate, E-Commerce, B2B Exporters, Education, Financial Services, SaaS). Every campaign roadmap is built from scratch around your specific target audience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I get a dedicated account manager for our WhatsApp Marketing Services campaign?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every client is assigned a dedicated senior growth specialist along with direct strategic oversight from founder Gaurav Dubey for continuous alignment, weekly status updates, and monthly strategy reviews."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you track, measure, and report campaign performance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide 100% transparent, real-time monthly reports covering keyword rankings, Google Analytics 4 (GA4) traffic, qualified inbound leads, conversion attribution, and net ROI metrics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What tools and modern technologies do you use for WhatsApp Marketing Services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We utilize industry-standard enterprise software including Google Search Console, GA4, SEMrush, Ahrefs, Meta Business Suite, Google Tag Manager, hotjar, and advanced AI optimization tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can your WhatsApp Marketing Services integrate with our existing CRM and sales workflows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We configure automated webhooks and API connections pushing inbound customer leads directly into HubSpot, Salesforce, Zoho CRM, Google Sheets, email, and sales team WhatsApp within seconds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your methodologies 100% compliant with Google and platform policies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, strictly 100%. We adhere to official search engine quality standards, Google Search Essentials, and ad network compliance policies to protect your long-term domain authority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What budget tiers and package options do you offer for WhatsApp Marketing Services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer flexible, milestone-based packages tailored for startups, expanding SMBs, and large enterprise brands, ensuring maximum marketing efficiency at every stage of business growth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you conduct competitor benchmarking and reverse-engineering?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We perform deep competitor analysis—examining top-performing search terms, ad creatives, backlink profiles, conversion hooks, and audience segments to identify high-margin commercial opportunities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you handle international and multi-regional WhatsApp Marketing Services campaigns?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We have executed cross-border campaigns across 15+ countries including USA, UK, Canada, Australia, UAE, Europe, and Asia-Pacific with comprehensive localization and multi-currency support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer conversion rate optimization (CRO) alongside WhatsApp Marketing Services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Traffic without conversions is wasted budget. We optimize landing page UI/UX, CTA placement, value propositions, and form frictionless design to double your inquiry conversion rates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes King of Digital Marketing different from other digital agencies in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unlike generic agencies that outsource campaigns, King of Digital Marketing features 32+ in-house certified specialists, 13+ years of direct agency heritage since 2013, transparent reporting, and direct oversight by Gaurav Dubey."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with a free strategy audit and proposal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can request a free comprehensive audit and customized proposal by calling us directly at +91-9555696058 or submitting our instant online inquiry form."
+          }
+        }
+      ]
+    }
+  ]
+}
 	</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -647,30 +623,30 @@
 					<div class="happy" id="images">
 						<div class="track">
 							<!-- Featured Priority Client Logos from default.aspx -->
-							<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-							<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-							<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+							<div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.webp"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.webp"></div>
 							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
 							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
-							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"></div>
 							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
-							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.webp"></div>
 							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
-							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-							<div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
-							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp"></div>
 							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
-							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"></div>
 							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
-							<div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
-							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg"></div>
-							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
-							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg"></div>
-							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"></div>
+							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp"></div>
+							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"></div>
 						</div>
 					</div>
 				</div>

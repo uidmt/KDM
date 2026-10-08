@@ -6,14 +6,13 @@
       content="YouTube marketing packages, YouTube promotion services, YouTube SEO packages, YouTube channel growth plans, video marketing services, YouTube advertising packages, increase YouTube subscribers, affordable YouTube marketing, best YouTube marketing company, YouTube video promotion.">
     <meta name="description"
       content="Grow your YouTube channel with our expert marketing packages. Get more views, subscribers, and engagement through video SEO, ads, and targeted promotions. Affordable YouTube marketing plans for brands & creators.">
-    <link rel="canonical" href="https://www.kingofdigitalmarketing.com/video-editing-services.aspx" />
+    <link rel="canonical" href="https://www.kingofdigitalmarketing.com/YouTube-marketing-packages.aspx" />
     <meta property="og:title" content="YouTube Marketing Packages | Boost Views, Subscribers & Brand Reach">
-    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/viedo-editing.jpg">
+    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/youtube-marketing.webp">
     <meta property="og:description"
       content="Grow your YouTube channel with our expert marketing packages. Get more views, subscribers, and engagement through video SEO, ads, and targeted promotions. Affordable YouTube marketing plans for brands & creators.">
-    <meta property="og:url" content="https://www.kingofdigitalmarketing.com/video-editing-services.aspx">
+    <meta property="og:url" content="https://www.kingofdigitalmarketing.com/YouTube-marketing-packages.aspx">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="robots" content="noindex, nofollow">
     <link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/location-page.css">
     <link rel="stylesheet" href="css/international-page.css">
@@ -23,7 +22,6 @@
     <link rel="stylesheet" href="css/images.css">
     <script src="js/kdm-packages.js"></script>
     <script src="js/kdm-faq.js"></script>
-    </div>
   </asp:Content>
   <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div role="main" class="main">
@@ -380,11 +378,11 @@
         /* ✅ Background Images */
         /* ✅ Background Images */
         .industry-bg1 {
-          background-image: url("images/astrology.png");
+          background-image: url("images/Astrology.webp");
         }
 
         .industry-bg2 {
-          background-image: url("images/hair-transplant.png");
+          background-image: url("images/hair-transplant.webp");
         }
 
         .industry-bg3 {

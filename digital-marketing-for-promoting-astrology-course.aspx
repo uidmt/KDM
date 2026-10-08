@@ -25,7 +25,7 @@
         "@type": "Organization",
         "name": "King of Digital Marketing",
         "url": "https://www.kingofdigitalmarketing.com/",
-        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+        "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
       },
       "areaServed": "Global",
       "description": "Comprehensive student acquisition and digital marketing funnels for astrology courses, Vedic institutes, Tarot certification academies, and Numerology mentors including live webinar funnels, high-converting Meta ads, global NRI student targeting, and YouTube SEO.",

@@ -20,201 +20,177 @@
 
 	<!-- ===== STRUCTURED DATA JSON-LD SCHEMAS ===== -->
 	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@graph": [
-	    {
-	      "@type": "ProfessionalService",
-	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing - Content Writing Services",
-	      "url": "https://www.kingofdigitalmarketing.com/Content-Writing-Service.aspx",
-	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/Content-Writing-Service.png",
-	      "description": "Top Content Writing Services Company in Delhi, India. Professional SEO content writers, blog copywriting, website content, articles, and AI-optimized copy with 100% human-crafted quality.",
-	      "telephone": "+91-9555696058",
-	      "email": "info@kingofdigitalmarketing.com",
-	      "priceRange": "$$",
-	      "address": {
-	        "@type": "PostalAddress",
-	        "addressLocality": "Delhi",
-	        "addressRegion": "Delhi NCR",
-	        "addressCountry": "IN"
-	      },
-	      "geo": {
-	        "@type": "GeoCoordinates",
-	        "latitude": "28.6139",
-	        "longitude": "77.2090"
-	      },
-	      "openingHoursSpecification": [
-	        {
-	          "@type": "OpeningHoursSpecification",
-	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-	          "opens": "09:30",
-	          "closes": "19:00"
-	        }
-	      ],
-	      "aggregateRating": {
-	        "@type": "AggregateRating",
-	        "ratingValue": "4.9",
-	        "reviewCount": "290",
-	        "bestRating": "5"
-	      }
-	    },
-	    {
-	      "@type": "Service",
-	      "@id": "https://www.kingofdigitalmarketing.com/Content-Writing-Service.aspx#service",
-	      "name": "Content Writing Services",
-	      "serviceType": "Content Writing Services",
-	      "provider": {
-	        "@type": "ProfessionalService",
-	        "name": "King of Digital Marketing"
-	      },
-	      "areaServed": "Worldwide"
-	    },
-	    {
-	      "@type": "BreadcrumbList",
-	      "itemListElement": [
-	        {
-	          "@type": "ListItem",
-	          "position": 1,
-	          "name": "Home",
-	          "item": "https://www.kingofdigitalmarketing.com/"
-	        },
-	        {
-	          "@type": "ListItem",
-	          "position": 2,
-	          "name": "Content Writing Services",
-	          "item": "https://www.kingofdigitalmarketing.com/Content-Writing-Service.aspx"
-	        }
-	      ]
-	    },
-	    {
-	      "@type": "FAQPage",
-	      "mainEntity": [
-	        {
-	          "@type": "Question",
-	          "name": "What are Content Writing Services and why are they essential for business growth?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Content writing services involve planning, researching, drafting, and optimizing written material such as website copy, SEO blog posts, landing pages, articles, and corporate profiles. High-quality content educates prospective buyers, establishes domain authority on search engines, and converts visitors into paying customers."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Why is King of Digital Marketing considered the best content writing company in Delhi, India?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "With 13+ years of experience and 900+ completed projects, King of Digital Marketing combines data-backed SEO research, 100% human-crafted storytelling, rigorous Copyscape plagiarism checks, and conversion rate optimization delivered by a dedicated team of 32+ in-house writers led by Gaurav Dubey."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Is all content produced 100% unique and Copyscape verified?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, absolutely. Every piece of content undergoes multiple editorial reviews and a mandatory Copyscape Premium plagiarism scan to guarantee 100% originality before client delivery."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How does your SEO content writing rank on Google and AI search engines (AEO / GEO)?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We integrate focus keywords, latent semantic indexing (LSI) terms, conversational FAQs, structured schema entities, and comprehensive topical coverage so your pages rank at the top of Google SERPs and are cited by AI answer engines like ChatGPT Search and Perplexity."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What types of content writing services do you offer?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We provide end-to-end content solutions including SEO blog posts, website copywriting, technical whitepapers, press releases, corporate brochures, company profiles, e-commerce product descriptions, email newsletters, and case studies."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you use AI tools to generate content or is it written by humans?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "All our core content is researched, structured, and crafted by experienced human writers to ensure brand voice, emotional resonance, nuanced domain expertise, and strict compliance with Google's E-E-A-T guidelines."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What is the typical turnaround time for blog posts and website copy?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Standard blog posts (1,000 to 2,000 words) are delivered within 48 to 72 hours. Complete website copy packages (5 to 15 pages) are typically delivered within 5 to 7 business days following outline approval."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you offer revisions if changes are required?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, we provide unlimited revisions during the initial review window to ensure the copy aligns perfectly with your tone of voice, formatting guidelines, and brand vision."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Can you write technical and niche-specific content (Medical, Finance, Real Estate, Tech)?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. Our 32+ in-house team includes subject-matter writers specialized in 150+ industries, including Healthcare & Cosmetic Surgery, Real Estate, Finance & Accounting, SaaS & Tech, Astrology, and Import-Export."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How does content writing integrate with your overall SEO and digital marketing services?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Our content team works seamlessly with our SEO engineers, PPC campaign managers, and web developers to create synchronized marketing funnels where every article drives organic backlinks, Google Ads quality score improvements, and qualified leads."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you write optimized product descriptions for E-Commerce portals (Amazon, Shopify, WooCommerce)?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, we craft persuasive, feature-benefit driven, and keyword-rich e-commerce product listings designed to maximize add-to-cart conversions and improve organic visibility on search engines and marketplaces."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Can you provide a monthly content marketing calendar for our business?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. We conduct competitor keyword gap analysis and audience intent research to deliver a structured monthly content roadmap with planned titles, target keywords, publishing dates, and internal linking strategies."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you publish and format content directly on our CMS (WordPress, Webflow, Shopify)?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, our team can directly format, upload, optimize meta tags, configure featured images, and publish articles inside your CMS as part of our full-service content management packages."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What are your content writing packages and pricing structure?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We offer flexible pricing based on word count, monthly retainer packages, or per-project basis. We also provide special quarterly and annual discounts with 10% to 20% savings for ongoing retainers."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How do I get started with a free content audit and proposal?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "You can request a free content audit, sample article, and customized proposal by contacting us at +91-9555696058 or submitting our instant online inquiry form."
-	          }
-	        }
-	      ]
-	    }
-	  ]
-	}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kingofdigitalmarketing.com/Content-Writing-Service.aspx#webpage",
+      "url": "https://www.kingofdigitalmarketing.com/Content-Writing-Service.aspx",
+      "name": "Content Writing Services",
+      "description": "Top Content Writing Services Company in Delhi, India. Professional SEO content writers, blog copywriting, website content, articles, and AI-optimized copy with 100% human-crafted quality.",
+      "isPartOf": {
+        "@id": "https://www.kingofdigitalmarketing.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kingofdigitalmarketing.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Content Writing Services",
+            "item": "https://www.kingofdigitalmarketing.com/Content-Writing-Service.aspx"
+          }
+        ],
+        "@id": "https://www.kingofdigitalmarketing.com/Content-Writing-Service.aspx#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.kingofdigitalmarketing.com/Content-Writing-Service.aspx#service",
+      "name": "Content Writing Services",
+      "serviceType": "Content Writing Services",
+      "provider": {
+        "@type": "ProfessionalService",
+        "@id": "https://www.kingofdigitalmarketing.com/#organization",
+        "name": "King of Digital Marketing"
+      },
+      "areaServed": "Worldwide",
+      "description": "Top Content Writing Services Company in Delhi, India. Professional SEO content writers, blog copywriting, website content, articles, and AI-optimized copy with 100% human-crafted quality."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are Content Writing Services and why are they essential for business growth?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Content writing services involve planning, researching, drafting, and optimizing written material such as website copy, SEO blog posts, landing pages, articles, and corporate profiles. High-quality content educates prospective buyers, establishes domain authority on search engines, and converts visitors into paying customers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is King of Digital Marketing considered the best content writing company in Delhi, India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With 13+ years of experience and 900+ completed projects, King of Digital Marketing combines data-backed SEO research, 100% human-crafted storytelling, rigorous Copyscape plagiarism checks, and conversion rate optimization delivered by a dedicated team of 32+ in-house writers led by Gaurav Dubey."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is all content produced 100% unique and Copyscape verified?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely. Every piece of content undergoes multiple editorial reviews and a mandatory Copyscape Premium plagiarism scan to guarantee 100% originality before client delivery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does your SEO content writing rank on Google and AI search engines (AEO / GEO)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We integrate focus keywords, latent semantic indexing (LSI) terms, conversational FAQs, structured schema entities, and comprehensive topical coverage so your pages rank at the top of Google SERPs and are cited by AI answer engines like ChatGPT Search and Perplexity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of content writing services do you offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide end-to-end content solutions including SEO blog posts, website copywriting, technical whitepapers, press releases, corporate brochures, company profiles, e-commerce product descriptions, email newsletters, and case studies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you use AI tools to generate content or is it written by humans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All our core content is researched, structured, and crafted by experienced human writers to ensure brand voice, emotional resonance, nuanced domain expertise, and strict compliance with Google's E-E-A-T guidelines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical turnaround time for blog posts and website copy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard blog posts (1,000 to 2,000 words) are delivered within 48 to 72 hours. Complete website copy packages (5 to 15 pages) are typically delivered within 5 to 7 business days following outline approval."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer revisions if changes are required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we provide unlimited revisions during the initial review window to ensure the copy aligns perfectly with your tone of voice, formatting guidelines, and brand vision."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you write technical and niche-specific content (Medical, Finance, Real Estate, Tech)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our 32+ in-house team includes subject-matter writers specialized in 150+ industries, including Healthcare & Cosmetic Surgery, Real Estate, Finance & Accounting, SaaS & Tech, Astrology, and Import-Export."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does content writing integrate with your overall SEO and digital marketing services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our content team works seamlessly with our SEO engineers, PPC campaign managers, and web developers to create synchronized marketing funnels where every article drives organic backlinks, Google Ads quality score improvements, and qualified leads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you write optimized product descriptions for E-Commerce portals (Amazon, Shopify, WooCommerce)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we craft persuasive, feature-benefit driven, and keyword-rich e-commerce product listings designed to maximize add-to-cart conversions and improve organic visibility on search engines and marketplaces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you provide a monthly content marketing calendar for our business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We conduct competitor keyword gap analysis and audience intent research to deliver a structured monthly content roadmap with planned titles, target keywords, publishing dates, and internal linking strategies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you publish and format content directly on our CMS (WordPress, Webflow, Shopify)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our team can directly format, upload, optimize meta tags, configure featured images, and publish articles inside your CMS as part of our full-service content management packages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are your content writing packages and pricing structure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer flexible pricing based on word count, monthly retainer packages, or per-project basis. We also provide special quarterly and annual discounts with 10% to 20% savings for ongoing retainers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with a free content audit and proposal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can request a free content audit, sample article, and customized proposal by contacting us at +91-9555696058 or submitting our instant online inquiry form."
+          }
+        }
+      ]
+    }
+  ]
+}
 	</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -652,30 +628,30 @@
 					<div class="happy" id="images">
 						<div class="track">
 							<!-- Featured Priority Client Logos from default.aspx -->
-							<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-							<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-							<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+							<div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.webp"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.webp"></div>
 							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
 							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
-							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"></div>
 							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
-							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.webp"></div>
 							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
-							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-							<div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
-							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp"></div>
 							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
-							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"></div>
 							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
-							<div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
-							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg"></div>
-							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
-							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg"></div>
-							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"></div>
+							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp"></div>
+							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"></div>
 						</div>
 					</div>
 				</div>

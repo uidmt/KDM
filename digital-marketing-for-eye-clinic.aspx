@@ -5,7 +5,7 @@
   <meta name="description" content="Generate high-intent patient appointments for LASIK, Cataract, and Retina surgeries with King of Digital Marketing. Expert Google Search PPC, Google Maps 3-Pack SEO, and WhatsApp patient booking bots.">
   <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-eye-clinic.aspx">
   <meta property="og:title" content="Digital Marketing for Eye Clinics & LASIK Centers | Patient Inflow">
-  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-eye-clinic.jpg">
+  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-eye-clinic.webp">
   <meta property="og:description" content="Generate high-intent patient appointments for LASIK, Cataract, and Retina surgeries with King of Digital Marketing. Expert Google Search PPC, Google Maps 3-Pack SEO, and WhatsApp patient booking bots.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-for-eye-clinic.aspx">
@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Comprehensive digital marketing solutions for eye clinics, LASIK surgery centers, cataract hospitals, and ophthalmology practices including Google Search PPC, local Google Maps SEO, patient appointment bots, and social media education.",
     "areaServed": "Worldwide",
@@ -774,7 +774,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/CitycClinic.webp" alt="VisionCraft LASIK Center" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/CitycClinic.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/CitycClinic.webp" alt="VisionCraft LASIK Center" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/CitycClinic.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">VisionCraft LASIK Center</h3>
                 <h4 class="kdm-case-v3-subtitle">(Contoura Vision &amp; SMILE Laser)</h4>
@@ -834,7 +834,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/satguru--logo.webp" alt="ICL &amp; Cornea Specialty Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/satguru--logo.webp" alt="ICL &amp; Cornea Specialty Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">ClearView Cornea Care</h3>
                 <h4 class="kdm-case-v3-subtitle">(Phakic IOL &amp; Keratoconus C3R)</h4>

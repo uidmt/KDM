@@ -16,113 +16,89 @@
 
 	<!-- ===== LOCALBUSINESS & SERVICE JSON-LD SCHEMA ===== -->
 	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@graph": [
-	    {
-	      "@type": "LocalBusiness",
-	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing - Ahmedabad",
-	      "url": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-ahmedabad.aspx",
-	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/digital-marketing-company-in-ahmedabad.jpg",
-	      "description": "Leading Digital Marketing Company in Ahmedabad offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation.",
-	      "telephone": "+91-9555696058",
-	      "email": "info@kingofdigitalmarketing.com",
-	      "priceRange": "$$",
-	      "address": {
-	        "@type": "PostalAddress",
-	        "addressLocality": "Ahmedabad",
-	        "addressRegion": "Gujarat",
-	        "addressCountry": "IN"
-	      },
-	      "geo": {
-	        "@type": "GeoCoordinates",
-	        "latitude": "23.0225",
-	        "longitude": "72.5714"
-	      },
-	      "openingHoursSpecification": [
-	        {
-	          "@type": "OpeningHoursSpecification",
-	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-	          "opens": "09:30",
-	          "closes": "19:00"
-	        }
-	      ],
-	      "aggregateRating": {
-	        "@type": "AggregateRating",
-	        "ratingValue": "4.9",
-	        "reviewCount": "240",
-	        "bestRating": "5"
-	      }
-	    },
-	    {
-	      "@type": "Service",
-	      "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-ahmedabad.aspx#service",
-	      "name": "Digital Marketing Company in Ahmedabad",
-	      "serviceType": "Digital Marketing & SEO Services",
-	      "provider": {
-	        "@type": "LocalBusiness",
-	        "name": "King of Digital Marketing"
-	      },
-	      "areaServed": {
-	        "@type": "City",
-	        "name": "Ahmedabad"
-	      },
-	      "hasOfferCatalog": {
-	        "@type": "OfferCatalog",
-	        "name": "Digital Marketing & SEO Services",
-	        "itemListElement": [
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "Search Engine Optimization (SEO)"
-	            }
-	          },
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "Google Ads / PPC Management"
-	            }
-	          },
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "Social Media Marketing (SMM)"
-	            }
-	          },
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "Lead Generation Services"
-	            }
-	          }
-	        ]
-	      }
-	    },
-	    {
-	      "@type": "BreadcrumbList",
-	      "itemListElement": [
-	        {
-	          "@type": "ListItem",
-	          "position": 1,
-	          "name": "Home",
-	          "item": "https://www.kingofdigitalmarketing.com/"
-	        },
-	        {
-	          "@type": "ListItem",
-	          "position": 2,
-	          "name": "Digital Marketing Company in Ahmedabad",
-	          "item": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-ahmedabad.aspx"
-	        }
-	      ]
-	    }
-	  ]
-	}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-ahmedabad.aspx#webpage",
+      "url": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-ahmedabad.aspx",
+      "name": "Ahmedabad",
+      "description": "Leading Digital Marketing Company in Ahmedabad offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation.",
+      "isPartOf": {
+        "@id": "https://www.kingofdigitalmarketing.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kingofdigitalmarketing.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Digital Marketing Company in Ahmedabad",
+            "item": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-ahmedabad.aspx"
+          }
+        ],
+        "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-ahmedabad.aspx#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-company-in-ahmedabad.aspx#service",
+      "name": "Digital Marketing Company in Ahmedabad",
+      "serviceType": "Digital Marketing & SEO Services",
+      "provider": {
+        "@type": "ProfessionalService",
+        "@id": "https://www.kingofdigitalmarketing.com/#organization",
+        "name": "King of Digital Marketing"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Ahmedabad"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Marketing & SEO Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Search Engine Optimization (SEO)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Google Ads / PPC Management"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Social Media Marketing (SMM)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lead Generation Services"
+            }
+          }
+        ]
+      },
+      "description": "Leading Digital Marketing Company in Ahmedabad offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation."
+    }
+  ]
+}
 	</script>
 
 	<!-- ===== FAQPAGE JSON-LD STRUCTURED DATA SCHEMA ===== -->
@@ -838,30 +814,30 @@
 					<div class="happy" id="images">
 						<div class="track">
 							<!-- Featured Priority Client Logos from default.aspx -->
-							<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-							<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-							<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+							<div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.webp"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.webp"></div>
 							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
 							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
-							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"></div>
 							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
-							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.webp"></div>
 							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
-							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-							<div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
-							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp"></div>
 							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
-							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"></div>
 							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
-							<div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
-							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg"></div>
-							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
-							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg"></div>
-							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"></div>
+							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp"></div>
+							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"></div>
 						</div>
 					</div>
 				</div>

@@ -796,7 +796,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Master Nifty.jpeg" alt="Masternifty" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Master Nifty.webp" alt="Masternifty" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -925,7 +925,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Morocco-Tourism.jpeg" alt="Morocco Tourism Agency" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Morocco-Tourism.webp" alt="Morocco Tourism Agency" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -1269,7 +1269,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astromother" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astromother" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -1527,7 +1527,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/ojaswinyogaschool.jpeg" alt="Ojaswin Yoga School" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/ojaswinyogaschool.webp" alt="Ojaswin Yoga School" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -1613,7 +1613,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/One Wellness.jpeg" alt="One Wellness Fitness Club" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/One Wellness.webp" alt="One Wellness Fitness Club" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -2387,7 +2387,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/solar farmer.jpeg" alt="Solar farmer" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/solar farmer.webp" alt="Solar farmer" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -2430,7 +2430,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Dr. roshan_img.jpeg" alt="Dr. Roshan" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Dr. roshan_img.webp" alt="Dr. Roshan" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -2516,7 +2516,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astro Gagan Sharma" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astro Gagan Sharma" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -2559,7 +2559,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/The Growinfy.jpeg" alt="The Growinfy" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/The Growinfy.webp" alt="The Growinfy" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -2688,7 +2688,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astrocaller" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astrocaller" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -2774,7 +2774,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astroricha" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astroricha" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -2817,7 +2817,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astroficial" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astroficial" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -3118,7 +3118,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Propert-Logo.jpg" alt="Property lekha" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Propert-Logo.webp" alt="Property lekha" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -3161,7 +3161,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Master Nifty.jpeg" alt="Master Migrant" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Master Nifty.webp" alt="Master Migrant" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -4064,7 +4064,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astrologer MD sharma" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astrologer MD sharma" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -4279,7 +4279,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astrovedayani" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astrovedayani" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -4967,7 +4967,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/overseas education.jpg" alt="Overseas Carpet" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/overseas education.webp" alt="Overseas Carpet" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -5053,7 +5053,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astro Murli" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astro Murli" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -5612,7 +5612,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/trip-to-trade-logo.png" alt="Trip to Trade" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/trip-to-trade-logo.webp" alt="Trip to Trade" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -5784,7 +5784,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astro Hassija" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astro Hassija" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -5827,7 +5827,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Astrochats.png" alt="Astro Alka" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Astrochats.webp" alt="Astro Alka" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->

@@ -1,737 +1,1913 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>SEO Freelancer in Australia Sydney SMO PPC Expert in Australia: KDM</title>
-<meta name="keywords" content="SEO Freelancer in Australia, SEO Freelancer, SMO Freelancer in Australia, SEO Freelancer in Sydney, PPC Freelancer in Australia, SEO Expert in Australia">
-        <meta name="description" content="SEO Freelancer in Australia. SEO Expert Sydney seo freelancer in melbourne SMO PPC Freelancer in Australia by KDM Freelancer - Digital Marketing Freelance Services which provides SEO Services in Australia, SMO & PPC Services in Australia at best SEO Packages.">
+	<title>SEO Freelancer in Australia | Best Freelance SEO, PPC &amp; Digital Marketing Expert - King of Digital Marketing</title>
+	<meta name="keywords" content="SEO Freelancer in Australia, SEO Freelancer Australia, Freelance SEO Expert Australia, SEO Freelancer in Sydney, SEO Freelancer Melbourne, PPC Freelancer in Australia, Google Ads Freelancer Australia, Social Media Freelancer Australia, SMO Freelancer Australia, Freelance Digital Marketing Consultant Australia, Best SEO Freelancer Australia, Local SEO Freelancer Australia, Top SEO Expert Sydney">
+	<meta name="description" content="Looking for the best SEO Freelancer in Australia? Gaurav Dubey &amp; King of Digital Marketing deliver top-ranked Freelance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing &amp; Lead Generation in Sydney, Melbourne, Brisbane &amp; Perth with 13+ years of experience &amp; 900+ projects delivered. Call +91-9555696058.">
+	<link rel="canonical" href="https://www.kingofdigitalmarketing.com/seo-freelancer-in-australia.aspx" />
+	<meta property="og:title" content="Best SEO Freelancer in Australia | Top Freelance Digital Marketing &amp; PPC Expert">
+	<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/thumbnail/SEO%20Freelancer%20in%20India.jpg">
+	<meta property="og:description" content="Award-winning SEO Freelancer &amp; Digital Marketing Consultant in Australia offering SEO, Google Ads, Meta Ads, and Inbound Lead Generation. 13+ years experience, 900+ projects completed.">
+	<meta property="og:url" content="https://www.kingofdigitalmarketing.com/seo-freelancer-in-australia.aspx">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="stylesheet" href="css/home-custom.css?v=25.0">
+	<link rel="stylesheet" href="css/packages.css">
+	<link rel="stylesheet" href="css/kdm-faq.css?v=2.0">
+	<script src="js/kdm-faq.js"></script>
 
-		<meta property="og:title" content="SEO Freelancer in Australia Sydney SMO PPC Expert in Australia: KDM">
-<meta property="og:image" content="">
-<meta property="og:description" content="SEO Freelancer in Australia. SEO Expert Sydney seo freelancer in melbourne SMO PPC Freelancer in Australia by KDM Freelancer - Digital Marketing Freelance Services which provides SEO Services in Australia, SMO & PPC Services in Australia at best SEO Packages." />
-<meta property="og:url" content="https://www.kingofdigitalmarketing.com/seo-company-in-okhla.aspx">
+	<!-- ===== LOCALBUSINESS & SERVICE JSON-LD SCHEMA ===== -->
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kingofdigitalmarketing.com/seo-freelancer-in-australia.aspx#webpage",
+      "url": "https://www.kingofdigitalmarketing.com/seo-freelancer-in-australia.aspx",
+      "name": "SEO Freelancer Australia",
+      "description": "Leading SEO Freelancer and Digital Marketing Consultant in Australia offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation for businesses in Sydney, Melbourne, Brisbane, Perth, Adelaide, and across Australia.",
+      "isPartOf": {
+        "@id": "https://www.kingofdigitalmarketing.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kingofdigitalmarketing.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "SEO Freelancer in Australia",
+            "item": "https://www.kingofdigitalmarketing.com/seo-freelancer-in-australia.aspx"
+          }
+        ],
+        "@id": "https://www.kingofdigitalmarketing.com/seo-freelancer-in-australia.aspx#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.kingofdigitalmarketing.com/seo-freelancer-in-australia.aspx#service",
+      "name": "SEO Freelancer & Digital Marketing Services in Australia",
+      "serviceType": "Digital Marketing & SEO Freelance Services",
+      "provider": {
+        "@type": "ProfessionalService",
+        "@id": "https://www.kingofdigitalmarketing.com/#organization",
+        "name": "King of Digital Marketing"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Australia"
+        },
+        {
+          "@type": "City",
+          "name": "Sydney"
+        },
+        {
+          "@type": "City",
+          "name": "Melbourne"
+        },
+        {
+          "@type": "City",
+          "name": "Brisbane"
+        },
+        {
+          "@type": "City",
+          "name": "Perth"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Freelance Digital Marketing & SEO Services in Australia",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Search Engine Optimization (SEO) in Australia"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Google Ads / PPC Management in Australia"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Social Media Marketing (SMM/SMO) in Australia"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lead Generation Services in Australia"
+            }
+          }
+        ]
+      },
+      "description": "Leading SEO Freelancer and Digital Marketing Consultant in Australia offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation for businesses in Sydney, Melbourne, Brisbane, Perth, Adelaide, and across Australia."
+    }
+  ]
+}
+	</script>
 
-    <link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
-	    <script src="js/kdm-faq.js"></script>
-</div>
-</div>
-</div>
-</div>
-</div>
+	<!-- ===== FAQPAGE JSON-LD STRUCTURED DATA SCHEMA ===== -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "FAQPage",
+	  "mainEntity": [
+	    {
+	      "@type": "Question",
+	      "name": "Why is King of Digital Marketing considered the best SEO Freelancer & Digital Marketing Consultant in Australia?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "With 13+ years of proven industry leadership, 900+ successful client campaigns worldwide, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across Sydney, Melbourne, Brisbane, Perth, and Australia."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "What freelance digital marketing services do you provide in Australia?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We provide 360-degree digital marketing solutions including Search Engine Optimization (SEO & Local Map Ranking), Google Ads / PPC Management, Social Media Marketing (Facebook & Instagram Meta Ads), Lead Generation Services, High-Converting Website Design & Development, Online Reputation Management (ORM), YouTube Video Promotion, and E-Commerce Marketplace Marketing."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How quickly can my Australian business start generating leads with digital marketing?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "With Google Ads and Meta Ads campaigns, qualified inbound inquiries and phone calls start flowing within 24 to 48 hours of campaign launch. For organic SEO and Google Map Pack rankings in competitive Australian markets, sustainable top-tier page 1 results are typically established within 3 to 6 months."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Which cities and regions in Australia do you cover?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We serve businesses across all major cities and territories in Australia including Sydney (NSW), Melbourne (VIC), Brisbane (QLD), Perth (WA), Adelaide (SA), Gold Coast, Canberra (ACT), Newcastle, and Sunshine Coast."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How does local SEO help service businesses and professionals in Australia?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Local SEO optimizes your Google Business Profile, local map citations, and regional search signals so that when potential customers search for services near them in Sydney, Melbourne, or Brisbane, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Do you offer customized packages for Australian small businesses and startups?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Yes! We provide flexible, affordable digital marketing packages starting from basic local visibility plans to advanced multi-channel performance packages tailored to your AUD budget and growth targets."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Are your SEO techniques 100% White-Hat and penalty-safe for Google Australia (.com.au)?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Yes, 100%. We strictly follow Google Search Essentials and Webmaster Guidelines. We focus on technical site health, high-quality E-E-A-T content, and genuine high-authority editorial backlinks."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How do you track and report campaign progress for Australian clients?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We believe in 100% transparency. Clients receive comprehensive monthly reports covering target keyword rank movements, Google Analytics 4 (GA4) traffic, conversions, lead counts, and return on investment (ROI)."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "What is the difference between SEO and Google Ads (PPC) for my business in Australia?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Google Ads (PPC) delivers instant top-of-page visibility and immediate inquiries from day one through paid advertising. SEO builds long-term organic authority and continuous free search traffic over time. A combination of both gives maximum market dominance."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Can you redesign my existing website to generate more leads in Australia?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Absolutely. Our UI/UX design team creates fast-loading, mobile-friendly, conversion-optimized websites with clean layouts, quick inquiry forms, and WhatsApp/Call integration to maximize visitor-to-lead conversion rates."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "Do I get a dedicated account manager for my Australian campaign?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Yes, every client is assigned a dedicated account manager along with direct oversight from founder Gaurav Dubey to ensure seamless communication, strategy execution, and regular campaign updates aligned with Australian business hours."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "What industries have you worked with in Australia?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We have executed successful campaigns across 150+ industry verticals including Education & Migration, Healthcare & Clinics, Real Estate & Property, E-Commerce, Trades & Home Services, Travel & Hospitality, and B2B Professional Services."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How do you optimize Google My Business (GMB) for local Australian searches?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "We optimize your GMB profile with verified business categories, geo-tagged photos, localized service descriptions, regular posts, review generation strategies, and accurate local NAP (Name, Address, Phone) citations."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How can Social Media Marketing (SMM) help grow my brand in Australia?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local Australian audiences, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads."
+	      }
+	    },
+	    {
+	      "@type": "Question",
+	      "name": "How do I get started with King of Digital Marketing in Australia?",
+	      "acceptedAnswer": {
+	        "@type": "Answer",
+	        "text": "You can request a free digital marketing growth strategy call and website audit by filling out our online form or contacting our team directly at +91-9555696058 or info@kingofdigitalmarketing.com."
+	      }
+	    }
+	  ]
+	}
+	</script>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<div role="main" class="main">
 
-				<section class="page-top">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<ul class="breadcrumb">
-									<li><a href="#">Home</a></li>
-									<li class="active">SEO Freelancer in Australia</li>
-								</ul>
-						<div class="row">
-							<div class="col-md-12">
-								<h1>SEO Freelancer in Australia Sydney</h1>
-							
-						
-					</div>
-					
-				</section>
+	<!-- ===== 1. REUSABLE SERVICE PAGE HERO SECTION COMPONENT ===== -->
+	<div class="kdm-service-hero">
+		<div class="kdm-service-hero-container">
+			<!-- Breadcrumbs Navigation -->
+			<div class="kdm-service-hero-breadcrumbs">
+				<ul>
+					<li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
+					<li class="breadcrumb-sep">/</li>
+					<li class="breadcrumb-current">SEO Freelancer in Australia</li>
+				</ul>
+			</div>
+
+			<!-- Badge Tag -->
+			<span class="kdm-service-hero-badge">
+				<i class="fa fa-trophy"></i> #1 RATED SEO FREELANCER IN AUSTRALIA
+			</span>
+
+			<!-- Main H1 Title -->
+			<h1 class="kdm-service-hero-title">
+				Scale Your Business with Top <span class="kdm-gradient-highlight">SEO Freelancer in Australia</span>
+			</h1>
+
+			<!-- Subtitle Paragraph -->
+			<p class="kdm-service-hero-subtitle">
+				Dominate search rankings, capture high-converting leads, and accelerate revenue growth with proven <strong>Search Engine Optimization (SEO)</strong>, <strong>Google Ads (PPC)</strong>, <strong>Meta Ads (Facebook &amp; Instagram)</strong>, and <strong>AI-Powered Lead Generation</strong> tailored for businesses across Sydney, Melbourne, Brisbane, Perth, and all of Australia.
+			</p>
+
+			<!-- Trust Stats Bar -->
+			<div class="kdm-service-hero-stats-bar">
+				<span class="kdm-service-hero-stat-highlight"><i class="fa fa-line-chart"></i> 900+ Completed Projects</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-green"><i class="fa fa-check-circle"></i> 13+ Years Regional Mastery</span>
+				<span class="kdm-service-hero-stat-divider">|</span>
+				<span class="kdm-service-hero-stat-highlight">🚀 100+ Leads Daily Delivery</span>
+			</div>
+
+			<!-- Action CTA Button -->
+			<div class="kdm-service-hero-cta-wrap">
+				<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-service-hero-cta-btn">
+					<i class="fa fa-paper-plane"></i> Get Free Growth Strategy Blueprint &amp; Audit <i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+
+			<!-- Value Highlights Row -->
+			<div class="kdm-service-hero-highlights">
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Top Google &amp; Map 3-Pack Rankings</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Google &amp; Meta Certified Experts</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> High-Converting Lead Generation Funnels</div>
+				<div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Transparent 100% ROI Tracking</div>
+			</div>
+		</div>
+	</div>
+	<!-- ===== END HERO SECTION ===== -->
+
+	<!-- ===== 2. DETAILED PARA ABOUT SERVICES (BEAUTIFULLY FRAMED WHITE THEME) ===== -->
+	<section class="kdm-loc-intro-section" style="background: #f8fafc; padding: 60px 0; border-bottom: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="kdm-loc-intro-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 24px; padding: 45px 35px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); max-width: 1140px; margin: 0 auto;">
+				<div class="text-center" style="margin-bottom: 30px;">
+					<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+						<i class="fa fa-map-marker-alt"></i> TRUSTED SEO &amp; DIGITAL MARKETING FREELANCER IN AUSTRALIA
+					</span>
+					<h2 style="font-size: 34px; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3;">
+						Best SEO Freelancer &amp; Digital Marketing Consultant in <span style="color: #0284c7;">Australia</span>
+					</h2>
+					<div style="width: 80px; height: 4px; background: linear-gradient(90deg, #0284c7, #38bdf8); border-radius: 2px; margin: 0 auto;"></div>
+				</div>
 				
+				<div style="font-size: 16px; color: #334155; line-height: 1.85; margin-bottom: 35px;">
+					<p style="margin-bottom: 18px;">
+						If you are searching for the <strong>best SEO Freelancer in Australia</strong> or a proven <strong>Digital Marketing Freelancer in Sydney, Melbourne, or Brisbane</strong>, then <strong>Gaurav Dubey</strong> and <strong>King of Digital Marketing</strong> are the names you can trust. In today's competitive Australian market, businesses need agile, high-performing digital marketing strategies that deliver sustainable organic rankings, qualified customer inquiries, and measurable ROI.
+					</p>
+					<p style="margin-bottom: 18px;">
+						We provide complete digital growth solutions including <a href="SEO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">SEO services in Australia</a>, <a href="SMO-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">social media marketing (SMO/SMM)</a>, <a href="Website-Designing-Packages.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">conversion-ready web development</a>, <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">Google Ads (PPC) management</a>, high-intent content copywriting, and Google Map 3-Pack local SEO. Whether you run a legal consultancy in <strong>Sydney CBD</strong>, an e-commerce brand in <strong>Melbourne</strong>, a healthcare clinic in <strong>Brisbane</strong>, a trade services business in <strong>Perth</strong>, or an education and migration consultancy across Australia, we engineer customized growth engines for your exact vertical.
+					</p>
+					<p style="margin-bottom: 18px;">
+						One major advantage of partnering with us is our direct 1-on-1 collaboration. We eliminate bloated agency fees and bureaucratic overhead, providing rapid execution, strategic clarity, and complete accountability. We help Australian businesses dominate page 1 for high-value search queries such as <em>"SEO Freelancer in Australia"</em>, <em>"SEO Expert Sydney"</em>, <em>"Freelance SEO Consultant Melbourne"</em>, and <em>"PPC Freelancer Australia"</em>.
+					</p>
+					<p style="margin-bottom: 18px;">
+						Our team utilizes enterprise-grade SEO intelligence tools, Google Ads bid algorithms, and AI conversion systems to deliver consistent high-intent sales inquiries. We also offer cost-effective freelance retainers so Australian startups and SMEs can scale online profitably without overspending.
+					</p>
+					<p style="margin-bottom: 0;">
+						With 13+ years of global experience, 900+ completed projects, and a 4.9★ client satisfaction rating, <strong>King of Digital Marketing</strong> is your trusted growth partner in Australia. If you want your business to dominate Google.com.au, capture high-value clients, and scale your brand revenue, get in touch with us today.
+					</p>
+				</div>
 
-				<div class="container">
-				<div class="row push-top" id="projects">
-							<div class="col-md-12">
-								<div id="popupProject" class="popup-inline-content">
-									<h2>Digital Marketing Course</h2>
+				<!-- 4 Quick Capabilities Cards -->
+				<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #0284c7; margin-bottom: 10px;"><i class="fa fa-chart-line"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Lead Generation</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">High-intent customer inquiries delivered daily across Australia.</p>
+					</div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #10b981; margin-bottom: 10px;"><i class="fa fa-search"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Top Page 1 SEO</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Google.com.au organic rankings &amp; Local Map 3-Pack domination.</p>
+					</div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #8b5cf6; margin-bottom: 10px;"><i class="fa fa-bullhorn"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Meta &amp; Google Ads</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">High-ROI paid search &amp; social campaigns with fast conversions.</p>
+					</div>
+					<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
+						<div style="font-size: 26px; color: #f59e0b; margin-bottom: 10px;"><i class="fa fa-laptop-code"></i></div>
+						<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Modern Web Design</h4>
+						<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Fast-loading, mobile-friendly landing pages built to convert.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-									<div class="row">
-										<div class="col-md-6">
+	<!-- ===== 3. CREDENTIALS SECTION (5 SEPARATE DARK BOXES IN 1 ROW WITH SVGs FROM DEFAULT.ASPX) ===== -->
+	<section class="kdm-credentials-white-section">
+		<div class="container">
+			<div class="kdm-credentials-header">
+				<div class="kdm-credentials-badge">
+					<i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
+				</div>
+				<h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+				<p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
+			</div>
 
-											<img class="img-thumbnail img-responsive" alt="Best SEO Training Delhi" src="images/stock-market-course.webp">
+			<div class="kdm-credentials-5grid counters dark counters-row">
+				<!-- Box 1: 13+ Years of Experience -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<polyline points="12 6 12 12 16 14"></polyline>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
+					<label class="kdm-cred-label">Years of Experience</label>
+				</div>
 
-										</div>
+				<!-- Box 2: 900+ Projects Completed -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
+					<label class="kdm-cred-label">Projects Completed</label>
+				</div>
 
-										<div class="col-md-6">
+				<!-- Box 3: 15+ Countries Served -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="12" r="10"></circle>
+							<line x1="2" y1="12" x2="22" y2="12"></line>
+							<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
+					<label class="kdm-cred-label">Countries Served</label>
+				</div>
 
-											<h4><strong>Digital Marketing Course</strong></h4>
-											<p align="justify">The Digital Marketing Course offered by our Training Institute cover complete and thorough knowledge of Search Engine Optimization, which is essential for the success of online business. We create ethical strategies to promote a website in the search engines and to increase the page rank. </p>
+				<!-- Box 4: 4.9 Overall Rating -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
+					<label class="kdm-cred-label">Overall Rating</label>
+				</div>
 
-											<a href="digital-marketing-course.aspx" class="btn btn-primary">View Details</a> <span class="arrow hlb"></span>
+				<!-- Box 5: 150+ Industries Served -->
+				<div class="kdm-credentials-box">
+					<div class="kdm-cred-svg-hub">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+							<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+						</svg>
+					</div>
+					<strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
+					<label class="kdm-cred-label">Industries Served</label>
+				</div>
+			</div>
+		</div>
+	</section>
 
-											<h4 class="push-top"></h4>
+	<!-- ===== AWESOME SEO RESULTS SECTION (FROM DEFAULT.ASPX) ===== -->
+	<section class="kdm-seo-results-section seo-results">
+		<div class="container">
+			<div class="kdm-seo-header">
+				<div class="kdm-seo-badge">
+					<i class="fa fa-line-chart fa-solid fa-chart-line"></i> PROVEN ORGANIC RANKINGS
+				</div>
+				<h2 class="kdm-seo-title">AWESOME <span class="kdm-blue-gradient">SEO RESULTS</span></h2>
+				<p class="kdm-seo-description">
+					The best feeling ever is when SEO experts are able to bring your website into the top 5 rankings of search engine result pages. If you have the vision, you have come to the right <strong>digital marketing company</strong>. We have the ability to optimize your website to get more traffic, leads, and sales — "If not us, then who?". Tell us about your digital goals and challenges; our digital marketing experts will share our strategy and the best approach for your requirements. Our SEO results speak for our Search Engine Optimization services. <b>See the SEO results.</b>
+				</p>
 
-											
+				<div class="kdm-seo-solutions-box">
+					<h3 class="kdm-seo-solutions-title">We Have the Best Solutions For:</h3>
+					<div class="kdm-seo-solutions-grid">
+						<span class="kdm-seo-solution-item"><b>1.</b> Low Organic Traffic</span>
+						<span class="kdm-seo-solution-item"><b>2.</b> No Organic Leads</span>
+						<span class="kdm-seo-solution-item"><b>3.</b> No Keywords in 1st Page Rankings</span>
+						<span class="kdm-seo-solution-item"><b>4.</b> Low Backlinks</span>
+						<span class="kdm-seo-solution-item"><b>5.</b> Poor Domain Authority</span>
+					</div>
+				</div>
+			</div>
 
-										</div>
-									</div>
-								</div>
-                                <div id="popupProject2" class="popup-inline-content">
-									<h2>Digital Marketing Services</h2>
+			<div class="slider">
+				<div class="slides">
+					<!-- Box 1 -->
+					<div class="seo-card">
+						<div class="card-inner">
+							<div class="card-header">
+								<h3>QHT Hair Clinic</h3>
+								<span>QHT is one of the premium hair transplant clinics in India. We have been working on their SEO since 2024 and have achieved top rankings for hair transplant keywords across almost all top cities of India, helping generate high-quality leads and direct calls through organic SEO services.</span>
+							</div>
+							<div class="keyword-list">
+								<div class="keyword-item">Dense hair implantation in Hyderabad<span class="rank">#1</span></div>
+								<div class="keyword-item">Hair transplant in Hyderabad<span class="rank">#3</span></div>
+								<div class="keyword-item">Dense Hair Implantation Clinic in Hyderabad<span class="rank">#2</span></div>
+								<div class="keyword-item">FUE Hair Transplant clinic in Hyderabad<span class="rank">#4</span></div>
+							</div>
+						</div>
+					</div>
 
-									<div class="row">
-										<div class="col-md-6">
+					<!-- Box 2 -->
+					<div class="seo-card">
+						<div class="card-inner">
+							<div class="card-header">
+								<h3>Dr. PK Talwar - Cosmetic Surgeon</h3>
+								<span>Dr. PK Talwar is one of the most experienced cosmetic and plastic surgeons in Delhi, India. King of Digital Marketing started digital marketing campaigns in 2020 and helped achieve top rankings in Google for over 100 keywords, generating high-quality leads organically and promoting his YouTube presence.</span>
+							</div>
+							<div class="keyword-list">
+								<div class="keyword-item">Gynaecomastia Surgery in Delhi<span class="rank">#3</span></div>
+								<div class="keyword-item">Liposuction Surgery in Delhi<span class="rank">#4</span></div>
+								<div class="keyword-item">Cosmetic Surgeon in Delhi<span class="rank">#6</span></div>
+								<div class="keyword-item">Hair Transplant in South Delhi<span class="rank">#5</span></div>
+							</div>
+						</div>
+					</div>
 
-											<img class="img-thumbnail img-responsive" alt="PPC Course Delhi" src="images/web-designing-course.webp">
+					<!-- Box 3 -->
+					<div class="seo-card">
+						<div class="card-inner">
+							<div class="card-header">
+								<h3>Kidney Care Centre</h3>
+								<span>Kidney Care Centre is led by renowned Delhi nephrologist Dr. Rajesh Goel. King of Digital Marketing worked on his website to achieve top 10 Google rankings with outstanding success. Our team also optimized his Google My Business profiles to consistently rank in the top 3 across India.</span>
+							</div>
+							<div class="keyword-list">
+								<div class="keyword-item">Kidney specialist doctor in Delhi<span class="rank">#3</span></div>
+								<div class="keyword-item">Best nephrologist in Delhi<span class="rank">#6</span></div>
+								<div class="keyword-item">Kidney doctor in Delhi<span class="rank">#5</span></div>
+								<div class="keyword-item">Best dialysis centre in Delhi<span class="rank">#4</span></div>
+							</div>
+						</div>
+					</div>
 
-										</div>
+					<!-- Box 4 -->
+					<div class="seo-card">
+						<div class="card-inner">
+							<div class="card-header">
+								<h3>Contact Combat India</h3>
+								<span>Contact Combat India is a premier training center for Krav Maga and Kickboxing. Our social media and SEO experts worked closely on this project to elevate brand awareness and achieve high organic search rankings, delivering tremendous inquiry growth.</span>
+							</div>
+							<div class="keyword-list">
+								<div class="keyword-item">Krav maga in Delhi<span class="rank">#3</span></div>
+								<div class="keyword-item">Krav maga classes in Delhi<span class="rank">#4</span></div>
+								<div class="keyword-item">Kids self defense in Delhi<span class="rank">#9</span></div>
+								<div class="keyword-item">Krav maga near me<span class="rank">#6</span></div>
+							</div>
+						</div>
+					</div>
 
-										<div class="col-md-6">
+					<!-- Box 5 -->
+					<div class="seo-card">
+						<div class="card-inner">
+							<div class="card-header">
+								<h3>Wolk Coworking Space</h3>
+								<span>Wolk is a thriving coworking community offering shared office space solutions in South Delhi. We spearheaded comprehensive SEO services, enabling this website to rank at the top for highly competitive Delhi, Nehru Place, and South Delhi office space keywords.</span>
+							</div>
+							<div class="keyword-list">
+								<div class="keyword-item">Coworking Space in Nehru Place<span class="rank">#3</span></div>
+								<div class="keyword-item">Coworking Space in South Delhi<span class="rank">#5</span></div>
+								<div class="keyword-item">Coworking Space in Delhi<span class="rank">#6</span></div>
+								<div class="keyword-item">Shared Office Space in South Delhi<span class="rank">#7</span></div>
+							</div>
+						</div>
+					</div>
 
-											<h4><strong>Digital Marketing Services</strong></h4>
-											<p align="justify">King of Digital Marketing is a bundle of configurable services that equip marketers and agencies to streamline content development and unify digital data collection and assimilation. Further, Digital Marketing services enable provision of tools and core processes that facilitate development of content and new initiatives across multiple digital channels </p>
+					<!-- Box 6 -->
+					<div class="seo-card">
+						<div class="card-inner">
+							<div class="card-header">
+								<h3>Geographia IAS</h3>
+								<span>Geographia IAS is led by Ajay Raj Singh Sir, top Geography Optional mentor for IAS and UPSC aspirants. We ranked multiple core keywords on page 1 of Google and managed high-converting paid Google Ad campaigns (Search & Display) to scale admissions.</span>
+							</div>
+							<div class="keyword-list">
+								<div class="keyword-item">Geography Coaching in Delhi<span class="rank">#3</span></div>
+								<div class="keyword-item">Best Geography Institute for IAS<span class="rank">#5</span></div>
+								<div class="keyword-item">Geography Coaching for IAS<span class="rank">#6</span></div>
+								<div class="keyword-item">Online Geography Coaching for IAS<span class="rank">#3</span></div>
+							</div>
+						</div>
+					</div>
 
-											<a href="SEO-Services.aspx" class="btn btn-primary">View Details</a> <span class="arrow hlb"></span>
+					<!-- Box 7 -->
+					<div class="seo-card">
+						<div class="card-inner">
+							<div class="card-header">
+								<h3>DIFA: Delhi Institute of Film & Acting</h3>
+								<span>DIFA is a leading acting and filmmaking academy in Delhi. Our SEO team propelled 80% of target keywords onto page 1 of Google within 4 months, while our PPC experts delivered 350+ validated student admission inquiries per month through targeted paid campaigns.</span>
+							</div>
+							<div class="keyword-list">
+								<div class="keyword-item">Acting School in Delhi<span class="rank">#6</span></div>
+								<div class="keyword-item">Acting School in South Delhi<span class="rank">#5</span></div>
+								<div class="keyword-item">Acting Institute in Delhi<span class="rank">#3</span></div>
+								<div class="keyword-item">Acting Course in Delhi<span class="rank">#4</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-											
+				<!-- Slider buttons -->
+				<button class="nav-btn prev" type="button" aria-label="Previous Slide">&#10094;</button>
+				<button class="nav-btn next" type="button" aria-label="Next Slide">&#10095;</button>
+			</div>
+		</div>
+	</section>
 
-										</div>
-									</div>
-								</div>
-                        
-                               
-                                <div id="popupProject3" class="popup-inline-content">
-									<h2>Web Design and Development</h2>
+	<!-- ===== 4. HOW DO WE EMPOWER YOU DIGITALLY (DARK THEME) ===== -->
+	<section class="empower-section">
+		<div class="container">
+			<div class="empower-header text-center">
+				<span class="empower-badge"><i class="fa fa-star"></i> OUR CORE SPECIALIZATIONS</span>
+				<h2 class="empower-title">How Do We Empower You <span class="empower-title-gradient">Digitally in Australia</span></h2>
+				<p class="empower-subtitle">
+					At <strong>King of Digital Marketing</strong>, we engineer high-performing digital marketing engines designed to dominate your industry in Australia and worldwide. Backed by 13+ years of expertise and AI-driven systems, explore our specialized freelance solutions below.
+				</p>
+			</div>
 
-									<div class="row">
-										<div class="col-md-6">
+			<div class="empower-grid">
+				<!-- Card 1: Lead Generation -->
+				<div class="empower-card card-emerald">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-emerald">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 12A10 10 0 1 1 12 2a10 10 0 0 1 10 10z" />
+								<path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
+								<path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+							</svg>
+						</div>
+						<span class="empower-tag">HIGH CONVERSION</span>
+					</div>
+					<h3 class="empower-card-title"><a href="lead-generation-company.aspx">Lead Generation</a></h3>
+					<p class="empower-card-text">
+						Increase the number of quality leads with targeted lead generation campaigns in Australia. A successful lead generation campaign identifies, engages, and converts high-intent prospects. Contact us to get more leads for your business through paid and organic promotion to reap maximum benefits.
+					</p>
+					<a href="lead-generation-company.aspx" class="empower-card-btn btn-emerald">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-											<img class="img-thumbnail img-responsive" alt="Digital Marketing Course Delhi" src="images/Digital Marketing Services.webp">
+				<!-- Card 2: Google Ads Services -->
+				<div class="empower-card card-blue">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-blue">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="11" cy="11" r="8" />
+								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+								<line x1="11" y1="8" x2="11" y2="14" />
+								<line x1="8" y1="11" x2="14" y2="11" />
+							</svg>
+						</div>
+						<span class="empower-tag">INSTANT TRAFFIC</span>
+					</div>
+					<h3 class="empower-card-title"><a href="PPC-Services.aspx">Google Ads Services</a></h3>
+					<p class="empower-card-text">
+						Rank your website on page 1 of Google.com.au, get noticed, and win new business across Australia. Google Ads positions your brand at the very top before an active audience looking for your products or services. Achieve the highest ROI with Google Ads at the most profitable package.
+					</p>
+					<a href="PPC-Services.aspx" class="empower-card-btn btn-blue">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-										</div>
+				<!-- Card 3: SEO Services -->
+				<div class="empower-card card-purple">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-purple">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+								<polyline points="17 6 23 6 23 12" />
+							</svg>
+						</div>
+						<span class="empower-tag">TOP RANKINGS</span>
+					</div>
+					<h3 class="empower-card-title"><a href="SEO-Services.aspx">SEO Services</a></h3>
+					<p class="empower-card-text">
+						Organizations and businesses in Australia are rapidly growing today due to their increased online presence. With our Search Engine Optimization services, you can rapidly increase your organic visibility on Google Australia and sustainably grow your business.
+					</p>
+					<a href="SEO-Services.aspx" class="empower-card-btn btn-purple">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-										<div class="col-md-6">
+				<!-- Card 4: SMO Services -->
+				<div class="empower-card card-pink">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-pink">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="18" cy="5" r="3" />
+								<circle cx="6" cy="12" r="3" />
+								<circle cx="18" cy="19" r="3" />
+								<line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+								<line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+							</svg>
+						</div>
+						<span class="empower-tag">BRAND VIRALITY</span>
+					</div>
+					<h3 class="empower-card-title"><a href="SMO-Services.aspx">SMO Services</a></h3>
+					<p class="empower-card-text">
+						In this digital age, reaching modern audiences on social media is essential to elevate your market presence in Australia. Our strategic SMO services ensure you engage your target audience easily and effectively across all social platforms.
+					</p>
+					<a href="SMO-Services.aspx" class="empower-card-btn btn-pink">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-											<h4><strong>Web Design and Development</strong></h4>
-											<p align="justify">A web site is the most important component of your company�s marketing plan. It�s the central hub for your messaging efforts and should have all other marketing materials allocated to it. As web technology has progressed over the years, it has yielded many tools to be used in conjunction with your web marketing efforts, such as social media, Blogs and RSS feeds to name a few. Taking advantage of these resources and holding true to current and effective web practices, Wood Street�s web design and development solutions are customized to meet your needs.</p>
+				<!-- Card 5: PPC Services -->
+				<div class="empower-card card-amber">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-amber">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<line x1="12" y1="1" x2="12" y2="23"></line>
+								<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+							</svg>
+						</div>
+						<span class="empower-tag">INSTANT LEADS</span>
+					</div>
+					<h3 class="empower-card-title"><a href="PPC-Services.aspx">PPC Services</a></h3>
+					<p class="empower-card-text">
+						We are the #1 ranked PPC freelancer in Australia. Our affordable and efficient Pay Per Click services across Google Ads, Facebook Ads, and multi-channel search ensure your business is easily discovered online to deliver instant leads and sales.
+					</p>
+					<a href="PPC-Services.aspx" class="empower-card-btn btn-amber">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-											<a href="Web-Developing.aspx" class="btn btn-primary">View Details</a> <span class="arrow hlb"></span>
+				<!-- Card 6: ORM Services -->
+				<div class="empower-card card-cyan">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-cyan">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+							</svg>
+						</div>
+						<span class="empower-tag">REPUTATION</span>
+					</div>
+					<h3 class="empower-card-title"><a href="ORM-Services.aspx">ORM Services</a></h3>
+					<p class="empower-card-text">
+						For any business in Australia to flourish, maintaining a stellar online reputation is critical. Our Online Reputation Management, handled by a team of dedicated professionals, guarantees that a positive impression of your brand is maintained across the internet at all times.
+					</p>
+					<a href="ORM-Services.aspx" class="empower-card-btn btn-cyan">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-											
+				<!-- Card 7: Mobile App Development -->
+				<div class="empower-card card-purple">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-purple">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+								<line x1="12" y1="18" x2="12.01" y2="18"></line>
+							</svg>
+						</div>
+						<span class="empower-tag">APP DEV</span>
+					</div>
+					<h3 class="empower-card-title"><a href="Android-Application-Development-company.aspx">Mobile App Development</a></h3>
+					<p class="empower-card-text">
+						We provide premier mobile application development services for Australian enterprises. Our highly skilled and diligent engineering team develops high-performance Android, iOS, and cross-platform applications tailored to your exact business requirements.
+					</p>
+					<a href="Android-Application-Development-company.aspx" class="empower-card-btn btn-purple">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-										</div>
-									</div>
-								</div>
-                               
-                                <div id="popupProject4" class="popup-inline-content">
-									<h2>Android App Development</h2>
+				<!-- Card 8: Web Development Services -->
+				<div class="empower-card card-cyan">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-cyan">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+								<line x1="8" y1="21" x2="16" y2="21"></line>
+								<line x1="12" y1="17" x2="12" y2="21"></line>
+							</svg>
+						</div>
+						<span class="empower-tag">MODERN UI/UX</span>
+					</div>
+					<h3 class="empower-card-title"><a href="Website-Development.aspx">Web Development Services</a></h3>
+					<p class="empower-card-text">
+						We provide comprehensive web development services tailored to your growth goals in Australia. Our high-converting, mobile-responsive, and fast-loading websites consistently satisfy our clients and empower businesses to scale online.
+					</p>
+					<a href="Website-Development.aspx" class="empower-card-btn btn-cyan">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-									<div class="row">
-										<div class="col-md-6">
+				<!-- Card 9: Flipkart Marketing -->
+				<div class="empower-card card-amber">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-amber">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="9" cy="21" r="1"></circle>
+								<circle cx="20" cy="21" r="1"></circle>
+								<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+							</svg>
+						</div>
+						<span class="empower-tag">E-COMMERCE</span>
+					</div>
+					<h3 class="empower-card-title"><a href="flipkart-marketing-services.aspx">Flipkart Marketing</a></h3>
+					<p class="empower-card-text">
+						Partner with a dedicated agency that scales your marketplace e-commerce sales. Our marketplace marketing specialists assist sellers with onboarding, catalog listing optimization, high-ROI ad campaign management, and marketplace operations.
+					</p>
+					<a href="flipkart-marketing-services.aspx" class="empower-card-btn btn-amber">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-											<img class="img-thumbnail img-responsive" alt="SMO Course and Services" src="images/Android developer.webp">
+				<!-- Card 10: Amazon Marketing Services -->
+				<div class="empower-card card-emerald">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-emerald">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+								<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+							</svg>
+						</div>
+						<span class="empower-tag">AMS EXPERTS</span>
+					</div>
+					<h3 class="empower-card-title"><a href="amazon-marketing-services.aspx">Amazon Marketing Services</a></h3>
+					<p class="empower-card-text">
+						Amazon Marketing Services (AMS) for Amazon.com.au marketplace sellers. We help brands grow market share, optimize product listings, and increase sales through high-converting Amazon PPC and Sponsored Product campaigns.
+					</p>
+					<a href="amazon-marketing-services.aspx" class="empower-card-btn btn-emerald">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-										</div>
+				<!-- Card 11: Facebook Marketing -->
+				<div class="empower-card card-blue">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-blue">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+							</svg>
+						</div>
+						<span class="empower-tag">META ADS</span>
+					</div>
+					<h3 class="empower-card-title"><a href="facebook-marketing-services.aspx">Facebook Marketing</a></h3>
+					<p class="empower-card-text">
+						Facebook marketing services in Australia by an expert social media advertising team. Reach new customers with targeted Facebook &amp; Meta Ads, build engaging business pages, and convert active prospects into loyal buyers.
+					</p>
+					<a href="facebook-marketing-services.aspx" class="empower-card-btn btn-blue">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
 
-										<div class="col-md-6">
+				<!-- Card 12: Mobile App Promotion -->
+				<div class="empower-card card-pink">
+					<div class="empower-card-top">
+						<div class="empower-icon-hub icon-pink">
+							<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+							</svg>
+						</div>
+						<span class="empower-tag">APP INSTALLS</span>
+					</div>
+					<h3 class="empower-card-title"><a href="mobile-app-promotion-services.aspx">Mobile App Promotion</a></h3>
+					<p class="empower-card-text">
+						App promotion services with proven results by India's leading mobile growth team for Australian businesses. We help you generate verified app downloads with high user retention. Scale user acquisition and engagement on your Android or iOS app with data-driven strategies. Get a quote now!
+					</p>
+					<a href="mobile-app-promotion-services.aspx" class="empower-card-btn btn-pink">
+						Read More <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-											<h4><strong>Android App Development</strong></h4>
-											<p align="justify">we�re proud to offer a range of native mobile app development services, including Android app development. Our native Android apps are built from the ground up to take advantage of the functionality and characteristics that make this the world�s fastest growing mobile platform, and each app leverages those qualities to the utmost. When it comes to Android app development, we believe that full customization is the key, not the exception. Cookie-cutter solutions result in cookie-cutter apps � the sameness that drives consumers away from your app. Our groundbreaking, forward-thinking stance ensures that your uniqueness shines through</p>
+	<!-- ===== 5. WHY CHOOSE KING OF DIGITAL MARKETING IN AUSTRALIA (WHITE THEME) ===== -->
+	<section class="kdm-why-choose-section">
+		<div class="container">
+			<div class="kdm-why-choose-header">
+				<span class="kdm-seo-badge"><i class="fa fa-check-circle"></i> WHY WORK WITH US</span>
+				<h2>Why Choose King of Digital Marketing in <strong>Australia</strong>?</h2>
+				<p>
+					We don't just provide generic marketing services — we engineer customized growth engines that consistently generate qualified customer inquiries, top search rankings on Google Australia, and predictable revenue for your business.
+				</p>
+			</div>
 
-											<a href="Android-Application-Development-company.aspx" class="btn btn-primary">View Details</a> <span class="arrow hlb"></span>
+			<div class="kdm-why-choose-grid">
+				<!-- Card 1 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="12" cy="8" r="7"></circle>
+							<polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+						</svg>
+					</div>
+					<h3>13+ Years Proven Mastery</h3>
+					<p>Led by industry veteran Gaurav Dubey, our team brings over a decade of deep expertise delivering successful marketing campaigns across 900+ projects worldwide.</p>
+				</div>
 
-											
-										</div>
-									</div>
-								</div>
-                               
-                                <div id="popupProject5" class="popup-inline-content">
-									<h2>Content Writing Services</h2>
+				<!-- Card 2 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+							<circle cx="12" cy="10" r="3"></circle>
+						</svg>
+					</div>
+					<h3>Tailored Australian Market Strategy</h3>
+					<p>We craft hyper-localized campaigns targeting key metro markets like Sydney, Melbourne, Brisbane, and Perth across Australia.</p>
+				</div>
 
-									<div class="row">
-										<div class="col-md-6">
+				<!-- Card 3 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+						</svg>
+					</div>
+					<h3>100% White-Hat &amp; Safe</h3>
+					<p>Our organic ranking strategies strictly follow Google Search Essentials and algorithm best practices to ensure your site is completely safe from search penalties.</p>
+				</div>
 
-											<img class="img-thumbnail img-responsive" alt="Website Development Service Delhi" src="images/php-course.webp">
+				<!-- Card 4 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="12" y1="1" x2="12" y2="23"></line>
+							<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+						</svg>
+					</div>
+					<h3>High-ROI &amp; Affordable Plans</h3>
+					<p>Transparent pricing and customized packages allow Australian startups and established businesses to achieve maximum marketing ROI within their budget.</p>
+				</div>
 
-										</div>
+				<!-- Card 5 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+							<polyline points="14 2 14 8 20 8"></polyline>
+							<line x1="16" y1="13" x2="8" y2="13"></line>
+							<line x1="16" y1="17" x2="8" y2="17"></line>
+							<polyline points="10 9 9 9 8 9"></polyline>
+						</svg>
+					</div>
+					<h3>Transparent Monthly Reports</h3>
+					<p>Track your exact keyword rankings on Google Australia, website visitors, conversion rates, and lead pipeline with clear, jargon-free monthly reporting.</p>
+				</div>
 
-										<div class="col-md-6">
+				<!-- Card 6 -->
+				<div class="kdm-why-card">
+					<div class="kdm-why-card-icon">
+						<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+							<circle cx="9" cy="7" r="4"></circle>
+							<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+						</svg>
+					</div>
+					<h3>Dedicated Account Manager</h3>
+					<p>Enjoy direct, prompt support with a dedicated growth manager who understands your business objectives and proactively optimizes your campaign.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-											<h4><strong>Content Writing Services</strong></h4>
-											<p align="justify">According many digital marketing experts fresh and good quality content is the best crispy and yummy food for all major search engines. As a best digital marketing agency in India, King of Digital Marketing has expert, experienced and enthoistic content writers. For our clients need we have designed the best content writing packages..</p>
+	<!-- ===== 6. 9-STEP SERVICE WORK PROCESS (360° DIGITAL MARKETING / SEO / PPC) ===== -->
+	<section class="kdm-seo-process-section">
+		<div class="container">
+			<div class="kdm-seo-process-header">
+				<span class="kdm-seo-badge">PROVEN 9-STAGE FRAMEWORK</span>
+				<h2 class="kdm-seo-process-title">Our 360° SEO Freelancer Work Process in Australia</h2>
+				<p class="kdm-seo-process-desc">
+					Our 9-stage full-funnel digital marketing framework integrates SEO, Google Ads, Meta Ads, high-intent copywriting, and conversion optimization to deliver consistent daily leads for your business in Australia.
+				</p>
+			</div>
 
-											<a href="Content-Writing-Service.aspx" class="btn btn-primary">View Details</a> <span class="arrow hlb"></span>
+			<div class="kdm-seo-process-grid">
+				<!-- Step 1 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+							<line x1="3" y1="9" x2="21" y2="9"></line>
+							<line x1="9" y1="21" x2="9" y2="9"></line>
+							<circle cx="15" cy="15" r="3"></circle>
+							<path d="M17.5 17.5L20 20"></path>
+						</svg>
+					</div>
+					<h3>1. Website &amp; Tech Audit</h3>
+					<p>We conduct in-depth technical, UI/UX, and indexing audits to identify crawl bottlenecks, slow loading speeds, and conversion leaks on your web properties.</p>
+				</div>
 
-							
+				<!-- Step 2 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="18" y1="20" x2="18" y2="10"></line>
+							<line x1="12" y1="20" x2="12" y2="4"></line>
+							<line x1="6" y1="20" x2="6" y2="14"></line>
+							<path d="M3 20h18"></path>
+						</svg>
+					</div>
+					<h3>2. Market &amp; Persona Analysis</h3>
+					<p>Our strategists analyze Australian buyer demographics, competitive positioning, and customer search intent across Sydney, Melbourne, and Brisbane.</p>
+				</div>
 
-										</div>
-									</div>
-								</div>
+				<!-- Step 3 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="11" cy="11" r="8"></circle>
+							<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+							<path d="M11 8v6M8 11h6"></path>
+						</svg>
+					</div>
+					<h3>3. SEO &amp; Google Map Domination</h3>
+					<p>We execute high-impact On-Page SEO, technical fixes, and Google My Business (GMB) optimizations to secure top rankings in the Google Map 3-Pack.</p>
+				</div>
 
-<div id="popupProject6" class="popup-inline-content">
-									<h2>Android Development Course</h2>
+				<!-- Step 4 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+						</svg>
+					</div>
+					<h3>4. Google Ads &amp; PPC Search Funnels</h3>
+					<p>We build high-converting Google Search, Performance Max, and Call-Only campaigns to capture active buyers and drive instant qualified inquiries.</p>
+				</div>
 
-									<div class="row">
-										<div class="col-md-6">
+				<!-- Step 5 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="18" cy="5" r="3" />
+							<circle cx="6" cy="12" r="3" />
+							<circle cx="18" cy="19" r="3" />
+							<line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+							<line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+						</svg>
+					</div>
+					<h3>5. Meta Ads &amp; Social Media Marketing</h3>
+					<p>We design dynamic visual creatives, video reels, and audience retargeting funnels across Facebook and Instagram to build brand clout and leads.</p>
+				</div>
 
-											<img class="img-thumbnail img-responsive" alt="" src="images/android.webp">
+				<!-- Step 6 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+						</svg>
+					</div>
+					<h3>6. High-Intent Content &amp; Copywriting</h3>
+					<p>We craft persuasive landing page copy, authority articles, and Google E-E-A-T compliant messaging that educates prospects and drives conversions.</p>
+				</div>
 
-										</div>
+				<!-- Step 7 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+							<line x1="8" y1="21" x2="16" y2="21"></line>
+							<line x1="12" y1="17" x2="12" y2="21"></line>
+						</svg>
+					</div>
+					<h3>7. Conversion Rate Optimization (CRO)</h3>
+					<p>We optimize landing page speeds, implement click-to-call CTAs, WhatsApp chat funnels, and streamlined forms to maximize lead capture rates.</p>
+				</div>
 
-										<div class="col-md-6">
+				<!-- Step 8 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+							<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+						</svg>
+					</div>
+					<h3>8. Authority Backlinks &amp; Digital PR</h3>
+					<p>We build high-DA domain backlinks through targeted editorial outreach, local Australian directory citations, and digital PR to elevate domain trust score.</p>
+				</div>
 
-											<h4><strong>Learn Android Apps Development</strong></h4>
-											<p align="justify">There is a strong demand for android developers today. Every business today wants to have an android app to get more traffic, visitors, conversions and leads. Learn how to develop professional applications for android. Learn the art of developing an app from professionals. </p>
+				<!-- Step 9 -->
+				<div class="kdm-seo-card">
+					<div class="kdm-seo-icon-wrap">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+							<polyline points="22 4 12 14.01 9 11.01"></polyline>
+						</svg>
+					</div>
+					<h3>9. Multi-Channel Analytics &amp; ROI Reports</h3>
+					<p>We provide transparent monthly reporting covering keyword rankings, GA4 traffic, Meta &amp; Google ad spend, cost per lead, and overall ROI.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-											<a href="Android-Application-Development-company.aspx" class="btn btn-primary">View Details</a> <span class="arrow hlb"></span>
+	<!-- ===== 7. CLIENT TRUST & PARTNER LOGOS (EXACT FROM DEFAULT.ASPX ROOT) ===== -->
+	<section class="kdm-clients-white-section">
+		<div class="container">
+			<div class="row custom-row">
+				<div class="col-md-12 col-sm-12">
+					<div class="kdm-clients-header">
+						<div class="kdm-clients-badge">
+							<i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
+						</div>
+						<h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">SEO Freelancer in Australia</span> To Help Flourish Your Business</h2>
+						<p class="kdm-clients-subtitle">
+							What makes us distinct is our valuable clients. We strive day in and day out to secure their branding, online reputation, visibility, high-converting traffic, and qualified lead generation.
+						</p>
+						<div class="kdm-clients-motto-wrapper">
+							<div class="kdm-clients-motto">
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Ambitious</span>
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Experts</span>
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are Shepherd</span>
+								<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are King</span>
+							</div>
+						</div>
+					</div>
 
-											
-										</div>
-									</div>
-								</div>
-								<div class="owl-images owl-images-spaced" data-plugin-options='{"items": 4}'>
-									<div>
-										<div class="portfolio-item img-thumbnail">
-											<a class="thumb-info lightbox" href="#popupProject" data-plugin-options='{"type":"inline", preloader: false}'>
-												<img alt="Best SEO Company in Delhi" class="img-responsive" src="images/Digital Marketing Course KDM.webp">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Digital Marketing Course</span>
-													<span class="thumb-info-type">Make Your Career in SEO, SMO, PPC,ORM</span>
-												</span>
-												<span class="thumb-info-action">
-													<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div>
-										<div class="portfolio-item img-thumbnail">
-											<a class="thumb-info lightbox" href="#popupProject2" data-plugin-options='{"type":"inline", preloader: false}'>
-												<img alt="SEO Training Course Delhi" class="img-responsive" src="images/Digital Marketing Services.webp">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Digital Marketing Services</span>
-													<span class="thumb-info-type">Grow Your Business by SEO SMO PPC Services</span>
-												</span>
-												<span class="thumb-info-action">
-													<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div>
-										<div class="portfolio-item img-thumbnail">
-											<a class="thumb-info lightbox" href="#popupProject3" data-plugin-options='{"type":"inline", preloader: false}'>
-												<img alt="Digital Marketing Services" class="img-responsive" src="images/web development services KDM.webp">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Web Design & Development</span>
-													<span class="thumb-info-type">Creative High Quality Website Design  Development</span>
-												</span>
-												<span class="thumb-info-action">
-													<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div>
-										<div class="portfolio-item img-thumbnail">
-											<a class="thumb-info lightbox" href="#popupProject4" data-plugin-options='{"type":"inline", preloader: false}'>
-												<img alt="Mobile App Development Service" class="img-responsive" src="images/Mobile App Development Services KDM.webp">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Mobile App Development</span>
-													<span class="thumb-info-type">Make Android & IOS App for Your Business</span>
-												</span>
-												<span class="thumb-info-action">
-													<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div>
-										<div class="portfolio-item img-thumbnail">
-											<a class="thumb-info lightbox" href="#popupProject5" data-plugin-options='{"type":"inline", preloader: false}'>
-												<img alt="Content Writing Services in Delhi" class="img-responsive" src="images/Content Writing Services KDM.webp">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Content Writing Services</span>
-													<span class="thumb-info-type">High quality content to increase the traffic & rank.</span>
-												</span>
-												<span class="thumb-info-action">
-													<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</a>
-										</div>
-									</div>
-                                    <div>
-										<div class="portfolio-item img-thumbnail">
-											<a class="thumb-info lightbox" href="#popupProject6" data-plugin-options='{"type":"inline", preloader: false}'>
-												<img alt="Facebook Marketing Services" class="img-responsive" src="images/Facebook Marketing Services.webp">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Facebook Marketing</span>
-													<span class="thumb-info-type">Let the experts handle your brand page.</span>
-												</span>
-												<span class="thumb-info-action">
-													<span title="Universal" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</a>
-										</div>
-									</div>
-								</div>
+					<div class="happy" id="images">
+						<div class="track">
+							<!-- Featured Priority Client Logos from default.aspx -->
+							<div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.webp"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.webp"></div>
+							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
+							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"></div>
+							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.webp"></div>
+							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp"></div>
+							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"></div>
+							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"></div>
+							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp"></div>
+							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 8. MOST POPULAR INDUSTRIES WE SERVE (DARK THEME) ===== -->
+	<section class="industry-slider-section">
+		<div class="container">
+			<h2 class="industry-heading">Most Popular Industries <strong>We Work With in Australia</strong></h2>
+
+			<div class="industry-slider">
+				<div class="industry-track">
+					<!-- Industry 1: Astrology -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14" />
+									<circle cx="12" cy="12" r="4" fill="#fbbf24" fill-opacity="0.2" />
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Astrology</h3>
+								<p>Successfully handled 60+ astrology projects for lead generation, app installs, and consultation growth.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industry 2: Hair Transplant & Clinics -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(236, 72, 153, 0.12); border-color: rgba(236, 72, 153, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M12 2v10M12 12l-4-4M12 12l4-4M6 18c0-3.3 2.7-6 6-6s6 2.7 6 6" />
+									<circle cx="12" cy="20" r="2" fill="#ec4899" />
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Hair Transplant &amp; Clinics</h3>
+								<p>Delivered 50+ medical lead generation, SEO, and Google Ads campaigns with consistent patient bookings in Australia.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industry 3: Study Abroad & Migration -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(129, 140, 248, 0.12); border-color: rgba(129, 140, 248, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+									<path d="M6 12v5c0 2 6 3 6 3s6-1 6-3v-5" />
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Study Abroad &amp; Migration</h3>
+								<p>Trusted by 30+ immigration and education consultants for high-quality student visa inquiries and organic search dominance.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industry 4: Real Estate -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+									<polyline points="9 22 9 12 15 12 15 22"></polyline>
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Real Estate &amp; Builders</h3>
+								<p>Generated thousands of verified site-visit inquiries and high-ticket buyer leads for residential projects across Australia.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industry 5: Coaching & Professional Services -->
+					<div class="industry-card">
+						<div class="industry-overlay">
+							<div class="kdm-ind-icon-hub" style="background: rgba(14, 165, 233, 0.12); border-color: rgba(14, 165, 233, 0.3);">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+									<path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+								</svg>
+							</div>
+							<div class="text-box">
+								<h3>Coaching &amp; Professional Services</h3>
+								<p>Proven track record driving massive client inquiries and consultation bookings for top service providers in Australia.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 9. ABOUT THE EXPERTS BEHIND YOUR CAMPAIGN (WHITE THEME) ===== -->
+	<section class="kdm-experts-section">
+		<div class="container">
+			<div class="kdm-experts-header">
+				<span class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+					<i class="fa fa-user-circle-o"></i> LEADERSHIP &amp; EXPERT TEAM
+				</span>
+				<h2 class="kdm-experts-title">
+					About the Experts <span>Behind Your Campaign in Australia</span>
+				</h2>
+				<p class="kdm-experts-subtitle">
+					Your business growth is powered by seasoned marketing strategists, industry leaders, and certified technical analysts dedicated to delivering top Google rankings and maximum ROI.
+				</p>
+			</div>
+
+			<div class="kdm-experts-grid">
+				<!-- Expert 1: Gaurav Dubey -->
+				<div class="kdm-expert-card">
+					<div class="kdm-expert-header-box">
+						<div class="kdm-expert-avatar-img">
+							<img src="images/gaurav%20dubey%20digital%20marketing.webp" alt="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" title="Gaurav Dubey - Founder &amp; Senior Digital Marketing Consultant" class="kdm-expert-img">
+						</div>
+						<div class="kdm-expert-name-title">
+							<h3 class="kdm-expert-name">Gaurav Dubey</h3>
+							<span class="kdm-expert-role">Founder &amp; Senior Marketing Strategist (13+ Yrs Exp)</span>
+						</div>
+					</div>
+					<p class="kdm-expert-bio">
+						With over 13+ years of hands-on digital marketing leadership, Gaurav Dubey has spearheaded 900+ successful campaigns across Australia, India, USA, UK, UAE &amp; global markets. Specialist in advanced SEO algorithms, high-converting Google Ads funnels, Meta performance marketing, and Generative Engine Optimization (GEO).
+					</p>
+					<ul class="kdm-expert-list">
+						<li><i class="fa fa-check-circle"></i> 13+ Years Proven Digital Growth Track Record</li>
+						<li><i class="fa fa-check-circle"></i> 900+ Enterprise &amp; Startup Projects Delivered</li>
+						<li><i class="fa fa-check-circle"></i> 100% White-Hat &amp; Algorithm-Compliant Strategies</li>
+					</ul>
+				</div>
+
+				<!-- Expert 2: In-House Specialists Team -->
+				<div class="kdm-expert-card">
+					<div class="kdm-expert-header-box">
+						<div class="kdm-expert-avatar team">32+</div>
+						<div class="kdm-expert-name-title">
+							<h3 class="kdm-expert-name">In-House Marketing Specialists Team</h3>
+							<span class="kdm-expert-role">Dedicated Regional Growth Operations</span>
+						</div>
+					</div>
+					<p class="kdm-expert-bio">
+						Our dedicated team of 32+ Google and Meta certified specialists includes Technical SEO Engineers, PPC Campaign Analysts, Social Media Strategists, UI/UX Web Developers, and High-Intent Copywriters working full-time on your custom marketing campaign.
+					</p>
+					<ul class="kdm-expert-list">
+						<li><i class="fa fa-check-circle"></i> 32+ Full-Time In-House Engineers &amp; Strategists</li>
+						<li><i class="fa fa-check-circle"></i> Dedicated Account Managers &amp; Weekly KPI Reporting</li>
+						<li><i class="fa fa-check-circle"></i> Rapid Turnaround &amp; Continuous A/B Testing</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 10. WHAT OUR CLIENTS SAY (VIBRANT TESTIMONIALS SLIDER AS IN SEO-PACKAGES.ASPX) ===== -->
+	<section class="kdm-testimonial-section">
+		<div class="container">
+			<div class="kdm-testimonial-header">
+				<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> CLIENT TESTIMONIALS</span>
+				<h2 class="kdm-testimonial-title">What Our Global Clients <strong>Say About Our Results in Australia</strong></h2>
+				<p class="kdm-testimonial-subtitle">Real feedback from founders and business owners who achieved Google #1 rankings, top inquiries, and accelerated growth with King of Digital Marketing.</p>
+			</div>
+
+			<div class="kdm-testimonial-wrapper">
+				<div class="kdm-testimonial-slides">
+
+					<!-- Slide 1: Aji Jeeva -->
+					<div class="kdm-testimonial-card active">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"I hired King of Digital Marketing for marketing and SEO services, and I am really happy with the results in Australia. My website is now ranking on the first page of Google. Gaurav Dubey and his team were always available to guide me and answer my doubts."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-1">AJ</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Aji Jeeva</h4>
+								<span class="kdm-testimonial-role">Founder — smgains.com (UK)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 2: Roopak -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"King of Digital Marketing helped increase our website traffic and customer inquiries in Australia. They kept everything clear and gave regular updates. Thanks to Gaurav Dubey and his hardworking team, our business is getting more leads from Google now."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-2">R</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Roopak</h4>
+								<span class="kdm-testimonial-role">Founder — gotouniversity.com (Dubai)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 3: Younus -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"I didn't know much about SEO before, but the team at King of Digital Marketing explained things in a simple way. They helped improve our website ranking in Australia and gave monthly reports. Gaurav Dubey made sure the work was always on track."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-3">Y</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Younus</h4>
+								<span class="kdm-testimonial-role">Founder — moroccotourismagency.com (Morocco)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 4: Kejsi -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"It's been a great experience working with King of Digital Marketing. They helped our business show up on the first page of Google and generate verified client appointments in Australia. Highly professional and result-driven team!"
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-4">K</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Kejsi</h4>
+								<span class="kdm-testimonial-role">Founder — herahairsolutions.com (Turkey)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 5: David -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"Gaurav Dubey and his team at King of Digital Marketing worked hard on our marketing campaigns. Within a few months, we started seeing a huge rise in qualified traffic, inquiries, and conversions. They deliver what they promise."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-5">D</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">David</h4>
+								<span class="kdm-testimonial-role">Founder — audiocityusa.com (USA)</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 6: Dr. Sanjay -->
+					<div class="kdm-testimonial-card">
+						<div class="kdm-testimonial-quote-icon">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+							</svg>
+						</div>
+						<div class="kdm-testimonial-stars">
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</div>
+						<p class="kdm-testimonial-quote">
+							"After hiring King of Digital Marketing, we noticed real improvement in client appointments and organic search rankings in Australia. Their team is experienced, proactive, and friendly. Gaurav Dubey personally ensured the project was handled with care."
+						</p>
+						<div class="kdm-testimonial-author-box">
+							<div class="kdm-testimonial-avatar grad-6">DS</div>
+							<div class="kdm-testimonial-info">
+								<h4 class="kdm-testimonial-name">Dr. Sanjay</h4>
+								<span class="kdm-testimonial-role">Founder — cocoona.in (Dubai)</span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Navigation Arrows -->
+				<button class="kdm-testimonial-arrow prev" type="button" aria-label="Previous Testimonial">
+					<i class="fa fa-chevron-left"></i>
+				</button>
+				<button class="kdm-testimonial-arrow next" type="button" aria-label="Next Testimonial">
+					<i class="fa fa-chevron-right"></i>
+				</button>
+
+				<!-- Pagination Dots -->
+				<div class="kdm-testimonial-dots"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ===== 11. FAQS & GRAND OFFERS SECTION (CRISP HEADINGS & FULL ALIGNMENT) ===== -->
+	<section class="kdm-faq-section" style="background: #ffffff; padding: 60px 0; border-top: 1px solid #e2e8f0;">
+		<div class="container">
+			<div class="row">
+				<!-- 15 Location-Based Interactive Accordion FAQs -->
+				<div class="col-md-6">
+					<div style="margin-bottom: 25px;">
+						<span class="kdm-seo-badge" style="background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 11px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
+							<i class="fa fa-question-circle"></i> FREQUENTLY ASKED QUESTIONS
+						</span>
+						<h2 style="font-size: 28px; font-weight: 900; color: #0f172a; margin: 0 0 8px 0; line-height: 1.3;">
+							FAQs About <strong style="color: #0284c7;">SEO Freelancer in Australia</strong>
+						</h2>
+						<p style="font-size: 14px; color: #64748b; margin: 0;">Everything you need to know about our proven digital marketing and SEO methodology in Australia.</p>
+					</div>
+
+					<div class="kdm-faq-accordion">
+						<!-- Q1 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.1. Why is King of Digital Marketing considered the best SEO Freelancer &amp; Digital Marketing Consultant in Australia?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of experience</strong>, <strong>900+ successful client campaigns</strong>, and a 97% client retention rate, King of Digital Marketing delivers end-to-end performance marketing. We combine technical SEO, Google Ads (PPC), Meta Ads, and AI marketing automation to deliver guaranteed high-intent leads and measurable revenue growth for businesses across Australia.</p>
 							</div>
 						</div>
 
-				<div class="row">
-						
+						<!-- Q2 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.2. What digital marketing services do you provide in Australia?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide 360-degree digital marketing solutions including Search Engine Optimization (SEO &amp; Local Map Ranking), Google Ads / PPC Management, Social Media Marketing (Facebook &amp; Instagram Meta Ads), Lead Generation Services, High-Converting Website Design &amp; Development, Online Reputation Management (ORM), YouTube Video Promotion, and Marketplace Advertising.</p>
+							</div>
+						</div>
 
-							<h2 align="center" class="shorter">SEO Freelancer in Australia</h2>
-							
-												
-							<p align="center">We are a team of SEO Freelancers named KDM �We have been in this industry since 2013. KDM SEO Freelancer is a leading group of digital marketing freelancers in Australia, Dubai, India. SEO Freelancer in Australia KDM  organic helps many industries like Colleges Website, Hotel & Restaurant Website, E-Commerce Website and many more customers by getting them found in first page of Google search. <br /><b>Get higher search ranking with SEO Freelancer in Australia- KDM services. We are Australia�s most demanded SEO PCC SMO Freelancer Team.</b>
-</p><br />
-							<img src="images/SEO Company in nehru Place Delhi - King of Digital Marketing.webp"  width="100%"alt="SEO Company in nehru Place Delhi - King of Digital Marketing" />	<br /><br />
-														<h4 align="center" class="shorter">Why do you need SEO Freelancer in Australia?</h4>
+						<!-- Q3 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.3. How quickly can my Australian business start generating leads?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With Google Ads and Meta Ads campaigns, qualified inbound inquiries and phone calls start flowing within <strong>24 to 48 hours</strong> of campaign launch. For organic SEO and Google Map Pack rankings on Google.com.au, sustainable top-tier page 1 results are typically established within 3 to 6 months.</p>
+							</div>
+						</div>
 
+						<!-- Q4 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.4. Which cities and states in Australia do you cover?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We serve businesses across all major cities and territories in Australia including Sydney (NSW), Melbourne (VIC), Brisbane (QLD), Perth (WA), Adelaide (SA), Gold Coast, Canberra (ACT), Newcastle, and Sunshine Coast.</p>
+							</div>
+						</div>
 
-							<p>Are you sure? Your potential customers find your website in search engine result page when they are searching their products or required services in Google. If not then you need SEO Freelancer. You must hire a team who is expert in digital marketing like SEO expert, smo expert and ppc expert. The team will handle your digital marketing project and will start promotion of your website in all search engines. </p>
-							<p>KDM freelancers have worked a long time with Australian clients and provides comprehensive SEO services in Australia Sydney. Just after one month of starting our work you will see the improvements in website traffic leads and conversion. We being best SEO freelancer in Sydney make sure that your business is always in visible in top rank of search engines. Your customers search either your keywords used in the website or relevant keywords.</p>
-							<p>Our SEO services is based on white hat seo techniques we follow the rules and guideline of Google.. All the SEO techniques we apply are fully compliant with the industry standards. These are just some of the things that set Traffic Digital apart from other run-of-the-mill SEO companies in Dubai.</p>
-							
-							<h5>What We Do?:</h5>
-<li><b>MAKE SEO STRATEGY:</b> � Our SEO Freelancer team knows well that every website is not same and same strategy cannot be implemented to rank in SERP. To impress Google�s SERP, you need to create a different strategy for different website.  Our KDM Freelancer is expert to make traffic gaining and rank oriented strategy which is helping in businesses.
-</li>
-<li><b>SEO KEYWORD RESEARCH:</b> � Keyword plays most important role in SEO. It is a digital marketing science  where you must have expertise in research about  patterns, keyword relevancy, market analysis. This thing is important because your base � called ON Page SEO depends on keywords only. So our SEO freelancers take time and do the things right.   At KDM Freelancers, we are expert in keyword research. We offer advice on all aspects of your SEO strategy, and help you conduct detailed, insightful keyword research to get everything started the �right� way. Being a local SEO company, we understand regional search patters, and how these variances can boost up your site�s SEO.</li>
+						<!-- Q5 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.5. How does local SEO help Australian businesses outrank competitors?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Local SEO optimizes your Google Business Profile, local Australian citations, and localized search signals so that when potential clients search for services near them, your brand ranks in the top 3 Google Map Pack, driving direct phone calls and foot traffic.</p>
+							</div>
+						</div>
 
-<li><b>COMPETITOR ANALYSIS:</b> � Before starting any project for SEO Freelancing our team analyse competitors website to know their strategy. How they have targeted keywords, where the have created links. Using this information of competitors make your digital marketing even can do more profitable work for your website.</li>
+						<!-- Q6 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.6. Do you offer customized packages for small businesses and startups in Australia?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide flexible, affordable digital marketing packages starting from basic local visibility plans to advanced multi-channel performance packages tailored to your budget and growth targets in AUD.</p>
+							</div>
+						</div>
 
-<li><b>ONPAGE SEO:</b> � Using the refined keywords of the same industry and analyzing competitor�s website. We start ON Page Optimization for your website. Here Title, Meta Description, Alt tag, Anchor text, Sitemap.xml, Robots.txt etc are created. Title Meta descriptions are created combining focused keywords of the page. Every Page is having different targeted keywords. </li>
+						<!-- Q7 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.7. Are your SEO techniques 100% White-Hat and penalty-safe?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, 100%. We strictly follow Google Search Essentials and Webmaster Guidelines. We focus on technical site health, high-quality E-E-A-T content, and genuine high-authority editorial backlinks.</p>
+							</div>
+						</div>
 
-<li><b>OFF SITE SEO:</b> - Once the website is ready doing ON Page SEO, Freelancers start building links to open the site for traffic. Link building is not exactly a science but art, This art is learnt after many years of the experiences working for SEO. Simply building irrelevant links, can actually lead your site into trouble.</li>
-</p>
+						<!-- Q8 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.8. How do you track and report campaign progress?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We believe in 100% transparency. Clients receive comprehensive monthly reports covering target keyword rank movements, Google Analytics 4 (GA4) traffic, conversions, lead counts, and return on investment (ROI).</p>
+							</div>
+						</div>
 
-<p>KDM freelancers as leading - <a href="blog/seo-freelancer-in-dubai-uae.html">SEO Freelancers in Dubai</a>, <a href="SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx">SEO Freelancer in India</a>.</p>
-							<hr class="tall" />
-						<div align="center">
-							<h4>Our Digital Marketing Services</h4>
-							<div class="row smoothgraph-section">
-          <div class="col-md-6">
-            <div class="smooth-img"><img src="images/seo services.webp" alt="seo services"></div>
-            <div class="smooth-content">
-              <h4><a href="http://www.kingofdigitalmarketing.com/seo-services-company-in-bangalore.aspx">SEO Services</a></h4>
-              <p>Online business is growing rapidly and as per today�s market demand it needs to make presence online. SEO is the best process to increase your business visibility in search engine. <a href="http://www.kingofdigitalmarketing.com/seo-services-company-in-bangalore.aspx">Read More </a>
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="smooth-img"><img src="images/smo services.webp" alt="Best SMO Services"></div>
-            <div class="smooth-content">
-              <h4><a href="SMO-Services.aspx">SMO Services</a></h4>
-              <p>Social Media helps you to make connections with millions of customers by directly interacting with them through social media websites such as Facebook, Twitter, YouTube and etc.<a href="SMO-Services.aspx">Read More</a>
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="smooth-img"><img src="images/ppc services.webp" alt="Fulfill PPC Services"></div>
-            <div class="smooth-content">
-              <h4><a href="PPC-Services.aspx">PPC Services</a></h4>
-              <p>Its paid advertisement services Google and Facebook Ad words, where we do advanced keyword research, analysis and selection,Text and image Ads, Competitive analysis, Adwords management. <a href="PPC-Services.aspx">Read More</a>
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="smooth-img"><img src="images/ORM Services.webp" alt="ORM Services"></div>
-            <div class="smooth-content">
-              <h4><a href="ORM-Services.aspx">ORM Services</a></h4>
-              <p>ORM Services - Online reputation Management Services, Our ORM experts will constantly monitor your online reputation on various forums. We try to make your positive reputation over internet. <a href="ORM-Services.aspx">Read More</a>
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="smooth-img"><img src="images/app development.webp" alt="Grow Your Business by SEO"></div>
-            <div class="smooth-content">
-              <h4><a href="Android-Application-Development-company.aspx">Mobile App Development Services</a></h4>
-			  <p>We have team of highly experienced and skilled for mobile app development services. We are already top company for android app development, IOS App Developmnet or Cross Platform App Services.<a href="Android-Application-Development-company.aspx">Read More</a>
-              </p>
-              
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="smooth-img"><img src="images/web design services.webp" alt="SEO Expert in Delhi"></div>
-            <div class="smooth-content">
-              <h4><a href="Website-Development.aspx">Web Development Services</a></h4>
-              <p>We are this services web in design & development since 2011. We have many clients who started their online business and we created websites for them their website is milestne of their success. <a href="Website-Development.aspx">Read More</a>
-              </p>
-            </div>
-          </div>
-        </div>
-		</div>
-							
-	<div class="module">
-                <div class="container">
-				
-                    <h3 align="center">
-                        Digital Marketing Service Process</h3>
-						<img src="images/digital marketing services company in Nehru Place.webp" width="100%" alt="digital marketing services company in Nehru Place" /><br /><br />
-                    <div class="col first">
-					<h4>SEO Services Process</h4>
-                        <ul>
-                            <li>Technical SEO Audit</li>
-                            <li>Keyword Research</li>
-                            <li>Competetitor's Analysis</li>
-                            <li>Quality Link Building</li>
-                            <li>Tailored SEO Game Plan</li>
-                            <li>Result Monitoring</li>
-                        </ul>
-                    </div>
-                    <div class="col">
-					<h4>SMO Services Process</h4>
-                        <ul>
-                            <li>Fanpage Creation</li>
-                            <li>Quality Posts in Pages</li>
-                            <li>Target Audience</li>
-                            <li>Connect with Your Fans.</li>
-                            <li>Reply Questions</li>
-                            <li>Manage Review</li>
-                        </ul>
-                    </div>
-                    <div class="col">
-					<h4>PPC Services Process</h4>
-                        <ul>
-                            <li>Requirement Gathering</li>
-                            <li>Analysis of Business Goal</li>
-                            <li>Competetor Analysis</li>
-                            <li>Campaign Structing</li>
-                            <li>Keywords & Budget Finalizing</li>
-                            <li>GO Live and Manage Bidding</li>
-							<li>Refine Keywords & Reporting</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>	
-				
-							
-<hr class="tall" />
+						<!-- Q9 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.9. What is the difference between SEO and Google Ads (PPC) for my Australian business?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Google Ads (PPC) delivers instant top-of-page visibility and immediate inquiries from day one through paid advertising. SEO builds long-term organic authority and continuous free search traffic over time. A combination of both gives maximum market dominance.</p>
+							</div>
+						</div>
 
-							<section class="section-packages">   
-  <div class="container"> 
-  <h2 align="center">SEO, PPC & SMO Basic Packages</h2> 
-  <h4 class="text-center">Making Quality SEO Social Media and PPC Services Accessible to All Budget</h4> 
-<p class="text-center">We provide multiple digital marketing packages catering to the needs of small, medium or enterprise level web seo projects.</p> 
-      <div class="row">
-	  
-	  
-		<div class="col-md-3 packages-wrapper">
-		
-			<div class="packages-box one">         
-			<h4>Basic SEO Package<small>Upto 10 Keywords</small></h3>         
-			<div class="price"><sup><i class="fa fa-inr" aria-hidden="true"></i></sup>$250</div>         
-				<div class="description">           
-				<ul>             
-					<li>Critical Website Analysis</li>
-					<li>Back Link Analysis</li>
-					<li>Competitor Analysis (2)</li>
-					<li>Keyword Analysis</li>
-					<li>Duplicate Content Check</li>
-					<li>Google Penalty Check</li>
-					<li>Meta Tag, Header Tag, ALT, Title Tag Optimization (30 pages)</li>
-					<li>Robots.txt Creation &amp; Analysis</li>
-					<li>XML Sitemap Creation &amp; Analysis</li>
-					<li>SEO Friendly URLs (URL Rewriting)</li>
-					<li>Google Analytics Report</li>
-					<li>Google Web Master Report</li>
-					<li>Offpage SEO</li>
-					<li>Monthly Report</li>
+						<!-- Q10 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.10. Can you redesign my existing website to generate more leads in Australia?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Absolutely. Our UI/UX design team creates fast-loading, mobile-friendly, conversion-optimized websites with clean layouts, quick inquiry forms, and direct conversion funnels to maximize visitor-to-lead conversion rates.</p>
+							</div>
+						</div>
 
-				</ul>                  			
-				</div>         
-				<div class="btn-grps"> 
-		
-				<a href="SEO-Package.aspx">View More SEO Packages</a> 
-				</div>       
-			</div>
-		
-		</div>
-		<div class="col-md-3 packages-wrapper">
-		
-			<div class="packages-box two">         
-			<h3>Basic SMO Package<small>20 Posts/m</small></h3>         
-			<div class="price"><sup><i class="fa fa-inr" aria-hidden="true"></i></sup>$250
-</div>         
-				<div class="description">           
-					<ul>             
-						<li>Fan Page Creation</li>
-						<li>Facebook Page Design</li>
-						<li>Twitter Page Design</li>
-						<li>Google Plus Page Design</li>
-						<li>LinkedIn Page Design</li>
-						<li>Google Business Page Verify</li>
-						<li>1000 Likes Followers/M</li>
-						<li>20 Posts/M</li>
-						<li>Work on Max. Reach of Posts</li>
-						<li>Monthly Reporting</li>											
-					</ul>         
-				</div>         
-				<div class="btn-grps"> 
-				 
-				<a href="SMO-Package.aspx">View More SMO Packages</a> 
-				</div>       
-			</div>
-		
-		</div>
-		<div class="col-md-3 packages-wrapper">
-		
-			<div class="packages-box three">         
-			<h3>Basic PPC Package<small>Unlimites Text Ad, 1 Banner</small></h3>         
-			<div class="price"><sup><i class="fa fa-inr" aria-hidden="true"></i></sup>$250</div>         
-				<div class="description">           
-					<ul>             
-						<li>Unlimited Text Ads</li>
-						<li>Google Adwords Campaign</li>
-						<li>Facebook Advert</li>
-						<li>Instagram Advertising</li>
-						<li>Keyword Research for PPC</li>
-						<li>Landing Page Selection</li>
-						<li>Keyword Bid Optimization/li>
-						<li>Google Analytics Setup for E-Commerce</li>
-						<li>Quality Score Improvement</li>
-						<li>Weekly Reporting</li>				
-													
-					</ul>         
-				</div>         
-				<div class="btn-grps"> 
-			
-				<a href="PPC-Package.aspx">View More PPC Packages</a> 
-				</div>       
-			</div>
-		
-		</div>
-		
-		<div class="col-md-3 packages-wrapper">
-		
-			<div class="packages-box four">         
-			<h3>Basic Combo<small>SEO SMO PPC</small></h3>         
-			<div class="price"><sup><i class="fa fa-inr" aria-hidden="true"></i></sup>$450</div>          
-				<div class="description">           
-					<ul>             
-						<li>SEO for 5 Keywords</li>
-						<li>Social Media Fan Page Creation</li>
-						<li>PPC 1 Campaign Setup</li>
-						<li>Google Analytics & Webmaster</li>
-						<li>Duplicate Content Check</li>
-						<li>SMO 10 Posts/M</li>
-						<li>Meta Tag, Header Tag, ALT, Title Tag Optimization (150 pages)</li>
-						<li>Robots.txt Creation &amp; Analysis</li>
-						<li>XML Sitemap Creation &amp; Analysis</li>
-						<li>SEO Friendly URLs (URL Rewriting)</li>												
-					</ul>         
-				</div>         
-				<div class="btn-grps"> 
-				
-				<a href="Contact-Us.aspx">Start Now</a> 
-				</div>       
-			</div>
-		
-		</div>
-		
-		
-	  </div>
-  </div>
-  </section>
-  <h4 align="center" class="shorter">Why Combo packages for SEO SMO & PPC?</h3>
-							
-							<p align="center"><strong>Most Demanded Package:</strong> Our most of the clients have prefered this packages, because they are not interested to pay for different services different packages. So King of Digital marketing made a combo packages, Which includes SEO Services, SMO Services & PPC Services all 3. We promote 5 keywords in SEO part, 10 posting per month is done in Facebook, Twitter, Google Plus & Instagram in Social Media Part and 1 campaign setup in Google adwords for a single text advertisement is done in Google adwords. We give a complimentry services of facebook unlimited boosting posts services from our side.</p>
-							<p align="center"><strong>Note:</strong>Paid advertisements daily budget and monthly budgets are paid separately by business owner for Google adwords or facebook Advert.
-</p>
-							
-							<p align="center"><strong>Help Your Business in All Aspects:</strong>In this packages your all requirements are fulfilled at low cost package.</p>
-  <style>
-  .section-packages {
-    padding: 30px 0;
-    background: #f5f7fb;
-}
-.packages-wrapper .packages-box {
-    display: inline-block;
-    vertical-align: top;
-    width: 100%;
-    background: #29bed2;
-    text-align: center;
-    padding: 15px;
-    color: #fff;
-    min-height: 420px;
-}
-.packages-wrapper .packages-box h3 {
-    color: inherit;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.2;
-    position: relative;
-}
-.packages-wrapper .packages-box h3 small {
-    color: #fff;
-    font-size: 12px;
-    text-align: center;
-    display: block;
-    margin-top: 5px;
-}
-.packages-wrapper .packages-box .price {
-    color: inherit;
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 1;
-    margin: 30px auto;
-}
-.packages-wrapper .packages-box .price sup {
-    font-size: 0.4em;
-    vertical-align: middle;
-    top: -0.5em;
-}
-.packages-wrapper .packages-box .description li {
-    font-size: 13px;
-    text-align:center;
-    line-height: 1.8;
-    font-weight: 600;
-	}
-.btn-grps a:last-child {
-    background: #fff;
-    color: #393f40;
-}
-  </style>				
+						<!-- Q11 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.11. Do I get a dedicated account manager for my campaign?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, every client is assigned a dedicated account manager along with direct oversight from founder Gaurav Dubey to ensure seamless communication, strategy execution, and regular campaign updates.</p>
+							</div>
+						</div>
 
-<hr class="tall" />
+						<!-- Q12 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.12. What industries have you worked with in Australia?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have executed successful campaigns across 150+ industry verticals including Education &amp; Migration, Healthcare &amp; Medical Clinics, Real Estate &amp; Property, E-Commerce, Trades &amp; Construction, Astrology, and B2B Professional Services.</p>
+							</div>
+						</div>
 
-							
-							
-									   
-						  
-							
-							<div class="container"
-							<div>
-			<h2 align="center"><strong>Our Achievements</strong></h2>
-                <div class="row center counters dark" >
-                    <div class="col-md-3 col-sm-6">
-                        <i class="fa fa-user"></i><strong data-to="600" data-append="+">0</strong>
-                        <label>
-                            Meeting With Customers</label>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <i class="fa fa-star"></i><strong data-to="150" data-append="+">0</strong>
-                        <label>
-                           Projects Completed</label>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <i class="fa fa-coffee"></i><strong data-to="120" data-apend="+">0</strong>
-                        <label>
-                           Happy Clients</label>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <i class="fa fa-bar-chart"></i><strong data-to="5" data-append="+">0</strong>
-                        <label>
-                             Years in Industry</label>
-                    </div>
-                </div>
-               </div> 
-							
-							<br />
-							
-							<h4 align="center" class="shorter">Helpline Regarding Services: +919555696058 </h4>
-											
-							
-					  </div>
+						<!-- Q13 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.13. How do you optimize Google My Business (GMB) for local Australian searches?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We optimize your GMB profile with verified business categories, geo-tagged photos, localized service descriptions, regular posts, review generation strategies, and accurate local NAP (Name, Address, Phone) citations.</p>
+							</div>
+						</div>
+
+						<!-- Q14 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.14. How can Social Media Marketing (SMM) help grow my brand in Australia?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Social Media Marketing on Facebook, Instagram, and LinkedIn builds brand awareness, engages local audiences in Australia, and drives targeted inquiries through engaging visual creatives, video reels, and high-converting Meta lead ads.</p>
+							</div>
+						</div>
+
+						<!-- Q15 -->
+						<div class="kdm-faq-item">
+							<button type="button" class="kdm-faq-header">
+								<span class="kdm-faq-question">Q.15. How do I get started with King of Digital Marketing in Australia?</span>
+								<span class="kdm-faq-icon">+</span>
+							</button>
+							<div class="kdm-faq-body">
+								<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can request a free digital marketing growth strategy call and website audit by filling out our online form or contacting our team directly at <strong>+91-9555696058</strong> or <strong>info@kingofdigitalmarketing.com</strong>.</p>
+							</div>
+						</div>
 					</div>
-					
-					
-				
-<div class="container"></div>
-<hr class="tall" />
-		
-<section id="testimonial-main">
-        <div class="overlay">
-            <div class="container">
-                <div class="row pad-top-bottom wow bounceIn animated" data-wow-duration="1s" data-wow-delay=".2s">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"><br><br>
-                        <h4>Words of our Clients</h3>
+				</div>
 
-                        <div id="testimonials" class="images slide" data-ride="images">
+				<!-- 3 High-Converting Dark Theme Grand Offers -->
+				<div class="col-md-6">
+					<div style="margin-bottom: 25px;">
+						<span class="kdm-seo-badge" style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.25); color: #d97706; font-size: 11px; font-weight: 800; padding: 6px 18px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 12px;">
+							<i class="fa fa-gift"></i> SPECIAL PACKAGES
+						</span>
+						<h2 class="kdm-offer-section-title" style="font-size: 28px; font-weight: 900; color: #0f172a; margin: 0 0 8px 0; line-height: 1.3;">
+							Grand Offers <strong>for Businesses in Australia</strong>
+						</h2>
+						<p style="font-size: 14px; color: #64748b; margin: 0;">Exclusive limited-time growth packages with instant discount savings.</p>
+					</div>
 
-                            <ol class="images-indicators">
-                                <li data-target="#testimonials" data-slide-to="0" class=""></li>
-                                <li data-target="#testimonials" data-slide-to="1" class=""></li>
-                                <li data-target="#testimonials" data-slide-to="2" class="active"></li>
-								<li data-target="#testimonials" data-slide-to="3" class=""></li>
-								<li data-target="#testimonials" data-slide-to="4" class=""></li>
-                            </ol>
+					<div class="kdm-offer-dark-list">
+						<!-- Offer 1 -->
+						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
+							<div class="kdm-offer-dark-icon">
+								<svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="60" height="60" rx="14" fill="url(#num_grad_d1)" />
+									<path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<defs>
+										<linearGradient id="num_grad_d1" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#0284c7" />
+											<stop offset="1" stop-color="#0369a1" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<div class="kdm-offer-dark-content">
+								<h4>Startup Digital Booster Offer</h4>
+								<p class="kdm-offer-dark-value">Get 10% OFF</p>
+								<h5 class="kdm-offer-dark-sub">On Quarterly Marketing &amp; SEO Package</h5>
+								<h5 class="kdm-offer-dark-desc">Sign up for any 3-month package &amp; get instant 10% OFF plus free audit in Australia!</h5>
+							</div>
+						</div>
 
-                            <div class="images-inner">
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-                                            <p><i class="fa fa-quote-left"></i> I got good Social Media Services and Paid advertisement for my products. KDM is having good team for digital marketing works. Earlier our contract eas with diff PPC Company but KDM has given best ROI. (Google Review)<i class="fa fa-quote-right"></i></p>
-                                            <div class="user-img pull-right">
-                                                <img src="" alt="" class="img-circle image-responsive" />
-                                            </div>
-                                            <h5 class="pull-right">Leeza Cooper</h5><br>
-											<h5 class="pull-right">Marketing Manager - IELTS(Aus.)</h5>
-                                        </div>
-                                    </div>
-								</div>
-									  <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-                                            <p><i class="fa fa-quote-left"></i>I have my own institute of bank PO SSC and other competitive exams, for my own website, i learnt PPC Google adwords course from KDM, Faculty helped me alot to create campaign for my institute. Thanks KDM<i class="fa fa-quote-right"></i></p>
-                                            <div class="user-img pull-right">
-                                                <img src="" alt="" class="img-circle image-responsive" />
-                                            </div>
-                                            <h5 class="pull-right">Praveen</h5><br>
-											<h5 class="pull-right">Director - Koncept(India)</h5>
-											
-                                        </div>
-                                    </div>
-                                </div>
-									  <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-                                            <p><i class="fa fa-quote-left"></i>Very experienced faculty is at King of Digital Marketing, I had joined SEO course at Delhi branch, after completing this course, i joined job of SEO executive at first. Now i proudly say that i m digital marketing manager at weboic.<i class="fa fa-quote-right"></i></p>
-                                            <div class="user-img pull-right">
-                                                <img src="" alt="" class="img-circle image-responsive" />
-                                            </div>
-                                            <h5 class="pull-right">Gurjeet Singh</h5><br>
-											<h5 class="pull-right">SEO Manager- Weboic(India)</h5>
-											
-                                        </div>
-                                    </div>
-                                </div>
-									
-                                <div class="item active">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-                                            <p><i class="fa fa-quote-left"></i>It's a really a best place to get a best packages for your business. They use latest technique for your website. They always provide on-time reports that where you are ranked. As per your name you are really a king of digital market.<i class="fa fa-quote-right"></i></p>
-                                            <div class="user-img pull-right">
-                                                <img src="" alt="" class="img-circle image-responsive" />
-                                            </div>
-                                            <h5 class="pull-right">Amrita Singh</h5><br>
-											<h5 class="pull-right">Project Manager - Cloudwev(India)</h5>
-											
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container center">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
-                                            <p><i class="fa fa-quote-left"></i>I has heared about expertise of indian digital marketing companies. KDM has proved working on our projects of SEO services for our cctv camera saling company in Dubai. Thanks Mr. Dubey for supporting our business in ranking.<i class="fa fa-quote-right"></i></p>
-                                            <div class="user-img pull-right">
-                                                <img src="" alt="" class="img-circle image-responsive" />
-                                            </div>
-                                            <h5 class="pull-right">Md.Ahmad</h5><br>
-											<h5 class="pull-right">Founder - BYTS(Dubai)</h5>
-											
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-								<a href="#"><img src="images/read-more-king of digital marketing.webp" align="right"></a><br>
+						<!-- Offer 2 -->
+						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
+							<div class="kdm-offer-dark-icon">
+								<svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="60" height="60" rx="14" fill="url(#num_grad_d2)" />
+									<line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+									<polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
+									<defs>
+										<linearGradient id="num_grad_d2" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#0ea5e9" />
+											<stop offset="1" stop-color="#0284c7" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<div class="kdm-offer-dark-content">
+								<h4>Growth Marketing Plan Offer</h4>
+								<p class="kdm-offer-dark-value">Get 15% OFF</p>
+								<h5 class="kdm-offer-dark-sub">On 6-Months Multi-Channel Package</h5>
+								<h5 class="kdm-offer-dark-desc">Lock in long-term organic growth and scale customer acquisition in Australia!</h5>
+							</div>
+						</div>
 
-                </div>
-            </div>
-        </div>
-    </section>
+						<!-- Offer 3 -->
+						<div class="kdm-offer-dark-card" onclick="openGlobalPopupForm()">
+							<div class="kdm-offer-dark-icon">
+								<svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="60" height="60" rx="14" fill="url(#num_grad_d3)" />
+									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5" />
+									<defs>
+										<linearGradient id="num_grad_d3" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1e293b" />
+											<stop offset="1" stop-color="#0f172a" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</div>
+							<div class="kdm-offer-dark-content">
+								<h4>Premium Market Dominance Offer</h4>
+								<p class="kdm-offer-dark-value">Get 20% OFF</p>
+								<h5 class="kdm-offer-dark-sub">On 12-Month Annual Growth Package</h5>
+								<h5 class="kdm-offer-dark-desc">Dominate Australian search results all year long while saving BIG!</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-			
-	
-	<div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" align="center">
-                    <span itemprop="itemreviewed">King of Digital Marketing</span>&nbsp;<span>Ratings</span><br>
-                    <span itemprop="ratingValue">4.9</span> Rating, out of <span itemprop="bestRating">5</span> based on <span itemprop="ratingCount">536</span> Customers. 
-					
-			
-</div>
-    <script src="js/kdm-faq.js"></script>
+	<!-- JS Dependencies, Counter Animation & Testimonial Carousel -->
+	<script src="js/international-page.js"></script>
+	<script src="js/kdm-faq.js"></script>
+	<script type="text/javascript">
+	(function () {
+		'use strict';
+
+		// 1. Interactive Testimonial Slider
+		function initTestimonials() {
+			var wrapper = document.querySelector('.kdm-testimonial-wrapper');
+			if (!wrapper) return;
+
+			var slides = wrapper.querySelectorAll('.kdm-testimonial-card');
+			var prevBtn = wrapper.querySelector('.kdm-testimonial-arrow.prev');
+			var nextBtn = wrapper.querySelector('.kdm-testimonial-arrow.next');
+			var dotsContainer = wrapper.querySelector('.kdm-testimonial-dots');
+
+			if (!slides.length) return;
+
+			var currentIndex = 0;
+			var autoTimer = null;
+
+			// Create dots
+			if (dotsContainer) {
+				dotsContainer.innerHTML = '';
+				slides.forEach(function (_, i) {
+					var dot = document.createElement('span');
+					dot.className = 'dot' + (i === 0 ? ' active' : '');
+					dot.addEventListener('click', function () {
+						goToSlide(i);
+						resetAuto();
+					});
+					dotsContainer.appendChild(dot);
+				});
+			}
+
+			var dots = dotsContainer ? dotsContainer.querySelectorAll('.dot') : [];
+
+			function showSlide(idx) {
+				slides.forEach(function (slide, i) {
+					if (i === idx) {
+						slide.classList.add('active');
+						slide.style.display = 'block';
+						slide.style.opacity = '1';
+						slide.style.transform = 'translateY(0)';
+					} else {
+						slide.classList.remove('active');
+						slide.style.display = 'none';
+						slide.style.opacity = '0';
+						slide.style.transform = 'translateY(15px)';
+					}
+				});
+				dots.forEach(function (dot, i) {
+					dot.classList.toggle('active', i === idx);
+				});
+			}
+
+			function goToSlide(idx) {
+				if (idx >= slides.length) currentIndex = 0;
+				else if (idx < 0) currentIndex = slides.length - 1;
+				else currentIndex = idx;
+				showSlide(currentIndex);
+			}
+
+			function nextSlide() { goToSlide(currentIndex + 1); }
+			function prevSlide() { goToSlide(currentIndex - 1); }
+
+			if (nextBtn) {
+				nextBtn.addEventListener('click', function (e) {
+					e.preventDefault();
+					nextSlide();
+					resetAuto();
+				});
+			}
+
+			if (prevBtn) {
+				prevBtn.addEventListener('click', function (e) {
+					e.preventDefault();
+					prevSlide();
+					resetAuto();
+				});
+			}
+
+			function startAuto() {
+				if (!autoTimer) {
+					autoTimer = setInterval(nextSlide, 5000);
+				}
+			}
+
+			function resetAuto() {
+				clearInterval(autoTimer);
+				autoTimer = null;
+				startAuto();
+			}
+
+			showSlide(0);
+			startAuto();
+		}
+
+		// 2. Animated Number Counters on Scroll
+		function initCounters() {
+			var credSection = document.querySelector('.kdm-credentials-white-section') || document.querySelector('.kdm-credentials-section');
+			if (!credSection) return;
+
+			var observer = new IntersectionObserver(function (entries) {
+				entries.forEach(function (entry) {
+					if (entry.isIntersecting) {
+						var counters = credSection.querySelectorAll('.kdm-cred-num, .counter-value');
+						counters.forEach(function (counter) {
+							if (counter.getAttribute('data-animated') === 'true') return;
+							counter.setAttribute('data-animated', 'true');
+
+							var target = parseFloat(counter.getAttribute('data-to'));
+							var decimals = parseInt(counter.getAttribute('data-decimals') || '0', 10);
+							var append = counter.getAttribute('data-append') || '';
+							var duration = 1500;
+							var startTime = null;
+
+							function step(timestamp) {
+								if (!startTime) startTime = timestamp;
+								var progress = Math.min((timestamp - startTime) / duration, 1);
+								var current = progress * target;
+								counter.innerText = (decimals > 0 ? current.toFixed(decimals) : Math.floor(current)) + append;
+								if (progress < 1) {
+									window.requestAnimationFrame(step);
+								} else {
+									counter.innerText = (decimals > 0 ? target.toFixed(decimals) : target) + append;
+								}
+							}
+							window.requestAnimationFrame(step);
+						});
+						observer.unobserve(credSection);
+					}
+				});
+			}, { threshold: 0.2 });
+
+			observer.observe(credSection);
+		}
+
+		// 3. Awesome SEO Results Slider
+		function initSeoResultsSlider() {
+			var seoSection = document.querySelector('.seo-results');
+			if (!seoSection) return;
+			var slides = seoSection.querySelector('.slides');
+			var prevBtn = seoSection.querySelector('.nav-btn.prev');
+			var nextBtn = seoSection.querySelector('.nav-btn.next');
+			if (!slides || !prevBtn || !nextBtn) return;
+
+			var index = 0;
+			function showSlide() {
+				var card = seoSection.querySelector('.seo-card');
+				if (!card || !slides) return;
+				var slideWidth = card.clientWidth;
+				slides.style.transform = 'translateX(' + (-index * slideWidth) + 'px)';
+			}
+
+			nextBtn.addEventListener('click', function (e) {
+				e.preventDefault();
+				var totalCards = seoSection.querySelectorAll('.seo-card').length;
+				var maxIndex = window.innerWidth < 768 ? totalCards - 1 : Math.max(0, totalCards - 2);
+				if (index < maxIndex) {
+					index++;
+				} else {
+					index = 0;
+				}
+				showSlide();
+			});
+
+			prevBtn.addEventListener('click', function (e) {
+				e.preventDefault();
+				var totalCards = seoSection.querySelectorAll('.seo-card').length;
+				var maxIndex = window.innerWidth < 768 ? totalCards - 1 : Math.max(0, totalCards - 2);
+				if (index > 0) {
+					index--;
+				} else {
+					index = maxIndex;
+				}
+				showSlide();
+			});
+
+			window.addEventListener('resize', function () {
+				index = 0;
+				showSlide();
+			});
+		}
+
+		// Initialize on DOM ready
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', function () {
+				initTestimonials();
+				initCounters();
+				initSeoResultsSlider();
+			});
+		} else {
+			initTestimonials();
+			initCounters();
+			initSeoResultsSlider();
+		}
+	})();
+	</script>
 </asp:Content>
-

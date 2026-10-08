@@ -20,177 +20,153 @@
 
 	<!-- ===== STRUCTURED DATA JSON-LD SCHEMAS ===== -->
 	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@graph": [
-	    {
-	      "@type": "ProfessionalService",
-	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing - Seminars & Workshops",
-	      "url": "https://www.kingofdigitalmarketing.com/Seminar.aspx",
-	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/Seminar-img1.webp",
-	      "description": "High-impact Digital Marketing Seminars, AI Masterclasses, and Corporate Workshops by keynote speaker Gaurav Dubey and King of Digital Marketing.",
-	      "telephone": "+91-9555696058",
-	      "email": "info@kingofdigitalmarketing.com",
-	      "priceRange": "$$",
-	      "address": {
-	        "@type": "PostalAddress",
-	        "addressLocality": "Delhi",
-	        "addressRegion": "Delhi NCR",
-	        "addressCountry": "IN"
-	      },
-	      "geo": {
-	        "@type": "GeoCoordinates",
-	        "latitude": "28.6139",
-	        "longitude": "77.2090"
-	      },
-	      "openingHoursSpecification": [
-	        {
-	          "@type": "OpeningHoursSpecification",
-	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-	          "opens": "09:30",
-	          "closes": "19:00"
-	        }
-	      ],
-	      "aggregateRating": {
-	        "@type": "AggregateRating",
-	        "ratingValue": "4.9",
-	        "reviewCount": "290",
-	        "bestRating": "5"
-	      }
-	    },
-	    {
-	      "@type": "Service",
-	      "@id": "https://www.kingofdigitalmarketing.com/Seminar.aspx#service",
-	      "name": "Digital Marketing Seminars & Workshops",
-	      "serviceType": "Keynote Speaking, Educational Seminars & Corporate Workshops",
-	      "provider": {
-	        "@type": "ProfessionalService",
-	        "name": "King of Digital Marketing"
-	      },
-	      "areaServed": "Worldwide"
-	    },
-	    {
-	      "@type": "BreadcrumbList",
-	      "itemListElement": [
-	        {
-	          "@type": "ListItem",
-	          "position": 1,
-	          "name": "Home",
-	          "item": "https://www.kingofdigitalmarketing.com/"
-	        },
-	        {
-	          "@type": "ListItem",
-	          "position": 2,
-	          "name": "Digital Marketing Seminars & Workshops",
-	          "item": "https://www.kingofdigitalmarketing.com/Seminar.aspx"
-	        }
-	      ]
-	    },
-	    {
-	      "@type": "FAQPage",
-	      "mainEntity": [
-	        {
-	          "@type": "Question",
-	          "name": "How can our college or university organize a Digital Marketing Seminar with Gaurav Dubey?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Colleges, universities, and student societies can invite keynote speaker Gaurav Dubey by contacting our institutional team at +91-9555696058 or submitting our seminar booking form. We conduct on-campus auditorium sessions, interactive computer-lab workshops, and virtual live masterclasses tailored to your academic schedule."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What key topics are covered during the Digital Marketing & AI Workshop?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Our workshops cover Search Engine Optimization (SEO), Generative Engine Optimization (GEO), Google Ads & Performance Max, Meta Ads (Facebook & Instagram), Social Media Branding, AI Marketing Tools (ChatGPT, Claude, Perplexity), Online Reputation Management (ORM), and real-time live ad campaign demonstrations."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Can corporate marketing teams and startups host custom workshops?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, we deliver customized corporate digital growth workshops and executive masterclasses designed to upskill marketing departments, sales teams, and startup founders on high-ROAS paid funnels, conversion optimization, and AI marketing workflows."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Is an official certificate provided to all seminar and workshop attendees?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes! Every registered attendee receives an official Certificate of Participation from King of Digital Marketing and UIDMT, enhancing their resume and LinkedIn profile credibility."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What is the duration of the digital marketing seminars and masterclasses?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We offer flexible formats: 3 to 4-Hour Intensive Keynote Masterclasses, 1 to 2-Day Practical Hands-on Workshops (12 Hours), 5-Day Faculty & Corporate Development Bootcamps, and ongoing Institutional Partnership Programs."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Does the seminar include live demonstrations and practical campaign setups?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "100% yes. Unlike theoretical presentations, Gaurav Dubey demonstrates live Google Search Console audits, keyword intelligence on Ahrefs/SEMrush, real-time Meta Ads audience targeting, and AI prompt engineering on live screen displays."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What infrastructure is required at the college/corporate venue for the seminar?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "The venue requires a standard audio-visual setup: HD projector or LED screen with HDMI connectivity, wireless lapel/collar microphone, sound system, and reliable high-speed internet connection for live tool demonstrations."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Can students and attendees interact directly with Gaurav Dubey during Q&A?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, every session includes a dedicated 30 to 45-minute interactive Q&A round where attendees can ask questions regarding career choices, freelancing, startup marketing, agency hiring, and personal branding."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you offer online virtual seminars and webinars for international institutions?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, we conduct interactive virtual webinars and multi-day online masterclasses via Zoom, Google Meet, or Microsoft Teams for overseas universities and pan-India audiences."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What are the commercial fees or honorarium for hosting a seminar?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We offer subsidized packages for non-profit educational colleges, universities, and student chapters, alongside custom corporate consulting retainers. Contact us directly at +91-9555696058 for a formal proposal."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Are complimentary study materials and AI prompt toolkits provided?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes! All participants receive downloadable digital toolkits containing ChatGPT prompt cheat sheets, SEO audit checklists, top 50 AI marketing tool directories, and performance ad templates."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How do we book a seminar slot with keynote speaker Gaurav Dubey?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "You can submit your event requirements through our online booking form on Seminar.aspx or call +91-9555696058 to check available dates and receive a customized session itinerary."
-	          }
-	        }
-	      ]
-	    }
-	  ]
-	}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kingofdigitalmarketing.com/Seminar.aspx#webpage",
+      "url": "https://www.kingofdigitalmarketing.com/Seminar.aspx",
+      "name": "Seminars & Workshops",
+      "description": "High-impact Digital Marketing Seminars, AI Masterclasses, and Corporate Workshops by keynote speaker Gaurav Dubey and King of Digital Marketing.",
+      "isPartOf": {
+        "@id": "https://www.kingofdigitalmarketing.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kingofdigitalmarketing.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Digital Marketing Seminars & Workshops",
+            "item": "https://www.kingofdigitalmarketing.com/Seminar.aspx"
+          }
+        ],
+        "@id": "https://www.kingofdigitalmarketing.com/Seminar.aspx#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.kingofdigitalmarketing.com/Seminar.aspx#service",
+      "name": "Digital Marketing Seminars & Workshops",
+      "serviceType": "Keynote Speaking, Educational Seminars & Corporate Workshops",
+      "provider": {
+        "@type": "ProfessionalService",
+        "@id": "https://www.kingofdigitalmarketing.com/#organization",
+        "name": "King of Digital Marketing"
+      },
+      "areaServed": "Worldwide",
+      "description": "High-impact Digital Marketing Seminars, AI Masterclasses, and Corporate Workshops by keynote speaker Gaurav Dubey and King of Digital Marketing."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How can our college or university organize a Digital Marketing Seminar with Gaurav Dubey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Colleges, universities, and student societies can invite keynote speaker Gaurav Dubey by contacting our institutional team at +91-9555696058 or submitting our seminar booking form. We conduct on-campus auditorium sessions, interactive computer-lab workshops, and virtual live masterclasses tailored to your academic schedule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What key topics are covered during the Digital Marketing & AI Workshop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our workshops cover Search Engine Optimization (SEO), Generative Engine Optimization (GEO), Google Ads & Performance Max, Meta Ads (Facebook & Instagram), Social Media Branding, AI Marketing Tools (ChatGPT, Claude, Perplexity), Online Reputation Management (ORM), and real-time live ad campaign demonstrations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can corporate marketing teams and startups host custom workshops?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we deliver customized corporate digital growth workshops and executive masterclasses designed to upskill marketing departments, sales teams, and startup founders on high-ROAS paid funnels, conversion optimization, and AI marketing workflows."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is an official certificate provided to all seminar and workshop attendees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Every registered attendee receives an official Certificate of Participation from King of Digital Marketing and UIDMT, enhancing their resume and LinkedIn profile credibility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the duration of the digital marketing seminars and masterclasses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer flexible formats: 3 to 4-Hour Intensive Keynote Masterclasses, 1 to 2-Day Practical Hands-on Workshops (12 Hours), 5-Day Faculty & Corporate Development Bootcamps, and ongoing Institutional Partnership Programs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the seminar include live demonstrations and practical campaign setups?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "100% yes. Unlike theoretical presentations, Gaurav Dubey demonstrates live Google Search Console audits, keyword intelligence on Ahrefs/SEMrush, real-time Meta Ads audience targeting, and AI prompt engineering on live screen displays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What infrastructure is required at the college/corporate venue for the seminar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The venue requires a standard audio-visual setup: HD projector or LED screen with HDMI connectivity, wireless lapel/collar microphone, sound system, and reliable high-speed internet connection for live tool demonstrations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can students and attendees interact directly with Gaurav Dubey during Q&A?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, every session includes a dedicated 30 to 45-minute interactive Q&A round where attendees can ask questions regarding career choices, freelancing, startup marketing, agency hiring, and personal branding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer online virtual seminars and webinars for international institutions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we conduct interactive virtual webinars and multi-day online masterclasses via Zoom, Google Meet, or Microsoft Teams for overseas universities and pan-India audiences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the commercial fees or honorarium for hosting a seminar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer subsidized packages for non-profit educational colleges, universities, and student chapters, alongside custom corporate consulting retainers. Contact us directly at +91-9555696058 for a formal proposal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are complimentary study materials and AI prompt toolkits provided?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! All participants receive downloadable digital toolkits containing ChatGPT prompt cheat sheets, SEO audit checklists, top 50 AI marketing tool directories, and performance ad templates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do we book a seminar slot with keynote speaker Gaurav Dubey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can submit your event requirements through our online booking form on Seminar.aspx or call +91-9555696058 to check available dates and receive a customized session itinerary."
+          }
+        }
+      ]
+    }
+  ]
+}
 	</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -724,30 +700,30 @@
 					<div class="happy" id="images">
 						<div class="track">
 							<!-- Featured Priority Client Logos from default.aspx -->
-							<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-							<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-							<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+							<div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.webp"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.webp"></div>
 							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
 							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
-							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"></div>
 							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
-							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.webp"></div>
 							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
-							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-							<div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
-							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp"></div>
 							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
-							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"></div>
 							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
-							<div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
-							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg"></div>
-							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
-							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg"></div>
-							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"></div>
+							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp"></div>
+							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"></div>
 						</div>
 					</div>
 				</div>

@@ -20,201 +20,177 @@
 
 	<!-- ===== STRUCTURED DATA JSON-LD SCHEMAS ===== -->
 	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@graph": [
-	    {
-	      "@type": "ProfessionalService",
-	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing - Corporate Training",
-	      "url": "https://www.kingofdigitalmarketing.com/digital-marketing-corporate-training.aspx",
-	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/king-of-digital-marketing-rating.webp",
-	      "description": "High-impact Corporate Digital Marketing Training, Executive Masterclasses, and Team Upskilling Workshops by senior consultant Gaurav Dubey.",
-	      "telephone": "+91-9555696058",
-	      "email": "info@kingofdigitalmarketing.com",
-	      "priceRange": "$$",
-	      "address": {
-	        "@type": "PostalAddress",
-	        "addressLocality": "Delhi",
-	        "addressRegion": "Delhi NCR",
-	        "addressCountry": "IN"
-	      },
-	      "geo": {
-	        "@type": "GeoCoordinates",
-	        "latitude": "28.6139",
-	        "longitude": "77.2090"
-	      },
-	      "openingHoursSpecification": [
-	        {
-	          "@type": "OpeningHoursSpecification",
-	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-	          "opens": "09:30",
-	          "closes": "19:00"
-	        }
-	      ],
-	      "aggregateRating": {
-	        "@type": "AggregateRating",
-	        "ratingValue": "4.9",
-	        "reviewCount": "310",
-	        "bestRating": "5"
-	      }
-	    },
-	    {
-	      "@type": "Service",
-	      "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-corporate-training.aspx#service",
-	      "name": "Digital Marketing Corporate Training",
-	      "serviceType": "Corporate Training, Enterprise Upskilling & Executive Masterclasses",
-	      "provider": {
-	        "@type": "ProfessionalService",
-	        "name": "King of Digital Marketing"
-	      },
-	      "areaServed": "Worldwide"
-	    },
-	    {
-	      "@type": "BreadcrumbList",
-	      "itemListElement": [
-	        {
-	          "@type": "ListItem",
-	          "position": 1,
-	          "name": "Home",
-	          "item": "https://www.kingofdigitalmarketing.com/"
-	        },
-	        {
-	          "@type": "ListItem",
-	          "position": 2,
-	          "name": "Digital Marketing Corporate Training",
-	          "item": "https://www.kingofdigitalmarketing.com/digital-marketing-corporate-training.aspx"
-	        }
-	      ]
-	    },
-	    {
-	      "@type": "FAQPage",
-	      "mainEntity": [
-	        {
-	          "@type": "Question",
-	          "name": "What is Digital Marketing Corporate Training and who is it designed for?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Digital Marketing Corporate Training is customized, hands-on enterprise upskilling designed for in-house marketing departments, sales executives, brand managers, startup founders, and C-level leadership. The training bridges internal skill gaps, optimizes ad spend ROI, and equips your workforce with advanced AI, SEO, and paid performance frameworks."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Can the training curriculum be customized to our specific industry and business model?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, 100%. Before commencing the training, lead trainer Gaurav Dubey conducts a thorough skill-gap analysis and digital audit of your business. We tailor the modules, case studies, and live lab exercises specifically for your industry vertical (B2B, E-Commerce, SaaS, Healthcare, Real Estate, Finance, or Manufacturing)."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Who conducts the corporate training sessions at King of Digital Marketing?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "All corporate training workshops and executive masterclasses are personally spearheaded by Gaurav Dubey, a veteran digital marketing strategist with 13+ years of global industry experience, 900+ successful campaigns, and over 120+ corporate batches trained across 15+ countries."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you offer both on-site classroom training and live virtual webinars for corporate teams?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. We offer on-site corporate training at your office premises across India, interactive virtual live masterclasses via Zoom/Teams for pan-India and global teams, as well as hybrid delivery models."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What key topics and modules are covered during corporate training?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Key modules include Generative AI & Prompt Engineering for Marketing, High-ROAS Google Ads & Performance Max, Meta Ads Funnels, Enterprise SEO & Generative Engine Optimization (GEO), B2B LinkedIn Lead Generation, Conversion Rate Optimization (CRO), GA4 Multi-Channel Attribution, and Online Reputation Management (ORM)."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What is the typical duration of a corporate digital marketing training program?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We offer flexible formats: 1-Day Intensive Executive Bootcamps (6 to 8 hours), 2 to 3-Day Hands-on Masterclasses, 4 to 6-Week Weekend Corporate Programs, and ongoing monthly retainer consulting."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Will our team work on real company ad accounts and live campaigns during the workshop?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, absolutely. Our corporate training is 100% practical. We conduct live audits of your actual Google Ads, Meta Ads Manager, Google Analytics 4, and Search Console properties during the training, optimizing campaigns in real time."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How does corporate digital marketing training help improve company ROI?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "By upskilling your in-house workforce, your company eliminates ad budget waste, lowers cost-per-acquisition (CPA), improves lead quality, reduces reliance on expensive external agencies, and enables faster campaign execution."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do participants receive official training certificates and resource toolkits?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. Every participating team member receives an official Certificate of Corporate Training Completion from King of Digital Marketing, along with downloadable AI prompt cheat sheets, campaign audit checklists, and toolkits."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What is the recommended batch size for corporate training sessions?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We recommend batch sizes of 10 to 35 participants for interactive lab workshops to ensure personalized attention and hands-on guidance. For executive leadership keynotes and town halls, we accommodate groups of any size."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you provide post-training support and doubt-clearing sessions?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes! All corporate training programs include 30 to 60 days of post-training email/call support, follow-up campaign review sessions, and performance check-ins to ensure seamless operational implementation."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What technical infrastructure is required at our company premises?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "For on-site corporate training, your company requires a conference or training room with an HD projector or large display screen, high-speed Wi-Fi internet, audio setup, and laptops for participating attendees."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Can you train sales teams on social selling and LinkedIn B2B lead generation?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. We offer specialized B2B Social Selling modules for corporate sales teams, teaching LinkedIn profile optimization, Sales Navigator search tactics, cold outreach copywriting, and automated inbound lead generation funnels."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What is the commercial pricing for corporate training programs?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Pricing is structured based on team size, program duration, on-site vs. virtual delivery mode, and customization depth. Contact us at +91-9555696058 for a formal commercial proposal tailored to your company requirements."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How do we book a digital marketing corporate training session for our team?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "You can initiate the booking process by calling our enterprise team directly at +91-9555696058 or submitting an inquiry via our corporate consultation form on digital-marketing-corporate-training.aspx."
-	          }
-	        }
-	      ]
-	    }
-	  ]
-	}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-corporate-training.aspx#webpage",
+      "url": "https://www.kingofdigitalmarketing.com/digital-marketing-corporate-training.aspx",
+      "name": "Corporate Training",
+      "description": "High-impact Corporate Digital Marketing Training, Executive Masterclasses, and Team Upskilling Workshops by senior consultant Gaurav Dubey.",
+      "isPartOf": {
+        "@id": "https://www.kingofdigitalmarketing.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kingofdigitalmarketing.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Digital Marketing Corporate Training",
+            "item": "https://www.kingofdigitalmarketing.com/digital-marketing-corporate-training.aspx"
+          }
+        ],
+        "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-corporate-training.aspx#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-corporate-training.aspx#service",
+      "name": "Digital Marketing Corporate Training",
+      "serviceType": "Corporate Training, Enterprise Upskilling & Executive Masterclasses",
+      "provider": {
+        "@type": "ProfessionalService",
+        "@id": "https://www.kingofdigitalmarketing.com/#organization",
+        "name": "King of Digital Marketing"
+      },
+      "areaServed": "Worldwide",
+      "description": "High-impact Corporate Digital Marketing Training, Executive Masterclasses, and Team Upskilling Workshops by senior consultant Gaurav Dubey."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Digital Marketing Corporate Training and who is it designed for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Digital Marketing Corporate Training is customized, hands-on enterprise upskilling designed for in-house marketing departments, sales executives, brand managers, startup founders, and C-level leadership. The training bridges internal skill gaps, optimizes ad spend ROI, and equips your workforce with advanced AI, SEO, and paid performance frameworks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the training curriculum be customized to our specific industry and business model?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, 100%. Before commencing the training, lead trainer Gaurav Dubey conducts a thorough skill-gap analysis and digital audit of your business. We tailor the modules, case studies, and live lab exercises specifically for your industry vertical (B2B, E-Commerce, SaaS, Healthcare, Real Estate, Finance, or Manufacturing)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who conducts the corporate training sessions at King of Digital Marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All corporate training workshops and executive masterclasses are personally spearheaded by Gaurav Dubey, a veteran digital marketing strategist with 13+ years of global industry experience, 900+ successful campaigns, and over 120+ corporate batches trained across 15+ countries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer both on-site classroom training and live virtual webinars for corporate teams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer on-site corporate training at your office premises across India, interactive virtual live masterclasses via Zoom/Teams for pan-India and global teams, as well as hybrid delivery models."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What key topics and modules are covered during corporate training?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Key modules include Generative AI & Prompt Engineering for Marketing, High-ROAS Google Ads & Performance Max, Meta Ads Funnels, Enterprise SEO & Generative Engine Optimization (GEO), B2B LinkedIn Lead Generation, Conversion Rate Optimization (CRO), GA4 Multi-Channel Attribution, and Online Reputation Management (ORM)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical duration of a corporate digital marketing training program?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer flexible formats: 1-Day Intensive Executive Bootcamps (6 to 8 hours), 2 to 3-Day Hands-on Masterclasses, 4 to 6-Week Weekend Corporate Programs, and ongoing monthly retainer consulting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will our team work on real company ad accounts and live campaigns during the workshop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely. Our corporate training is 100% practical. We conduct live audits of your actual Google Ads, Meta Ads Manager, Google Analytics 4, and Search Console properties during the training, optimizing campaigns in real time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does corporate digital marketing training help improve company ROI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By upskilling your in-house workforce, your company eliminates ad budget waste, lowers cost-per-acquisition (CPA), improves lead quality, reduces reliance on expensive external agencies, and enables faster campaign execution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do participants receive official training certificates and resource toolkits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every participating team member receives an official Certificate of Corporate Training Completion from King of Digital Marketing, along with downloadable AI prompt cheat sheets, campaign audit checklists, and toolkits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the recommended batch size for corporate training sessions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We recommend batch sizes of 10 to 35 participants for interactive lab workshops to ensure personalized attention and hands-on guidance. For executive leadership keynotes and town halls, we accommodate groups of any size."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide post-training support and doubt-clearing sessions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! All corporate training programs include 30 to 60 days of post-training email/call support, follow-up campaign review sessions, and performance check-ins to ensure seamless operational implementation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What technical infrastructure is required at our company premises?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For on-site corporate training, your company requires a conference or training room with an HD projector or large display screen, high-speed Wi-Fi internet, audio setup, and laptops for participating attendees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you train sales teams on social selling and LinkedIn B2B lead generation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer specialized B2B Social Selling modules for corporate sales teams, teaching LinkedIn profile optimization, Sales Navigator search tactics, cold outreach copywriting, and automated inbound lead generation funnels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the commercial pricing for corporate training programs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing is structured based on team size, program duration, on-site vs. virtual delivery mode, and customization depth. Contact us at +91-9555696058 for a formal commercial proposal tailored to your company requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do we book a digital marketing corporate training session for our team?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can initiate the booking process by calling our enterprise team directly at +91-9555696058 or submitting an inquiry via our corporate consultation form on digital-marketing-corporate-training.aspx."
+          }
+        }
+      ]
+    }
+  ]
+}
 	</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -744,30 +720,30 @@
 					<div class="happy" id="images">
 						<div class="track">
 							<!-- Featured Priority Client Logos from default.aspx -->
-							<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-							<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-							<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+							<div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.webp"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.webp"></div>
 							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
 							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
-							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"></div>
 							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
-							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.webp"></div>
 							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
-							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-							<div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
-							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp"></div>
 							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
-							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"></div>
 							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
-							<div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
-							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg"></div>
-							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
-							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg"></div>
-							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"></div>
+							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp"></div>
+							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"></div>
 						</div>
 					</div>
 				</div>

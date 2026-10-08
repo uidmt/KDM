@@ -5,7 +5,7 @@
   <meta name="description" content="Scale your D2C handicraft store sales and generate high-ticket global B2B export orders with King of Digital Marketing. Expert Google Shopping PMax, Meta aesthetic reels, and international SEO.">
   <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-handicrafts.aspx">
   <meta property="og:title" content="Digital Marketing for Handicrafts & Artisan Brands | D2C & Export Growth">
-  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-handicrafts.jpg">
+  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-handicrafts.webp">
   <meta property="og:description" content="Scale your D2C handicraft store sales and generate high-ticket global B2B export orders with King of Digital Marketing. Expert Google Shopping PMax, Meta aesthetic reels, and international SEO.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-for-handicrafts.aspx">
@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Comprehensive digital marketing and eCommerce growth solutions for handicrafts, artisan brands, brass artifacts, handwoven textiles, and wooden decor including Google Shopping PMax, Meta aesthetic reels, international export buyer lead generation, and WhatsApp commerce.",
     "areaServed": "Worldwide",
@@ -814,7 +814,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/satguru--logo.webp" alt="JaipurBlue Pottery Exports" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/satguru--logo.webp" alt="JaipurBlue Pottery Exports" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">JaipurBlue Ceramics</h3>
                 <h4 class="kdm-case-v3-subtitle">(Handpainted Ceramic Dinnerware)</h4>
@@ -854,7 +854,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/Skinmumma-logo.webp" alt="Agra Marble Inlays" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Skinmumma-logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/Skinmumma-logo.webp" alt="Agra Marble Inlays" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Skinmumma-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">TajInlay Marble Craft</h3>
                 <h4 class="kdm-case-v3-subtitle">(Pietra Dura Semiprecious Tabletops)</h4>

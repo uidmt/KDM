@@ -8543,3 +8543,20 @@ svg.kdm-ppc-svg-icon {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   Universal Search Bars Left-Alignment Enforcement
+   ========================================================================== */
+.kdm-client-search-input,
+.kdm-case-search-input,
+.kdm-port-search-box input,
+.kdm-v2-blog-search-box input,
+.kdm-search-box input,
+.kdm-client-search-input::placeholder,
+.kdm-case-search-input::placeholder,
+.kdm-port-search-box input::placeholder,
+.kdm-v2-blog-search-box input::placeholder,
+.kdm-search-box input::placeholder {
+  text-align: left !important;
+  direction: ltr !important;
+}

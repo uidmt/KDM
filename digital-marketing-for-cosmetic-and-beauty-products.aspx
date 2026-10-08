@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Full-funnel digital marketing solutions for cosmetic, skincare, haircare, and beauty brands including Meta UGC video ads, Google Shopping PMax, E-commerce SEO, and WhatsApp retention engines.",
     "areaServed": "Worldwide",
@@ -774,7 +774,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/skinmumma-logo.webp" alt="Skinmumma Organic Skincare" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/skinmumma-logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/skinmumma-logo.webp" alt="Skinmumma Organic Skincare" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/skinmumma-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">Skinmumma Organics</h3>
                 <h4 class="kdm-case-v3-subtitle">(D2C Organic Skincare &amp; Serums)</h4>
@@ -794,7 +794,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/cara.webp" alt="Cara Beauty &amp; Cosmetics" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/cara.jpeg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/cara.webp" alt="Cara Beauty &amp; Cosmetics" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/cara.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">Cara Beauty</h3>
                 <h4 class="kdm-case-v3-subtitle">(Color Cosmetics &amp; Lip Care)</h4>
@@ -814,7 +814,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/hera-hair-solutions.webp" alt="Hera Hair Solutions" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/hera-hair-solutions.jpg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/hera-hair-solutions.webp" alt="Hera Hair Solutions" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/hera-hair-solutions.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">Hera Hair Solutions</h3>
                 <h4 class="kdm-case-v3-subtitle">(Clinical Hair Growth Oils &amp; Serums)</h4>
@@ -854,7 +854,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/aishh.webp" alt="AISHH Derma Beauty" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/aishh.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/aishh.webp" alt="AISHH Derma Beauty" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/AISHH.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">AISHH Derma Care</h3>
                 <h4 class="kdm-case-v3-subtitle">(Dermatologist-Formulated Skincare)</h4>

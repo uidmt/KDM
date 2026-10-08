@@ -22,7 +22,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "High-energy nightlife digital marketing, Instagram viral reel campaigns, VIP table reservation funnels, and weekend event ticketing engineered for premier clubs, lounges, and rooftop bars.",
     "areaServed": "Global",

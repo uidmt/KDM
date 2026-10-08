@@ -5,7 +5,7 @@
   <meta name="description" content="Elevate your sports personal brand, fan engagement, and corporate endorsement deals with King of Digital Marketing. Specialized athlete SEO, viral Instagram Reels & sports PR.">
   <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-sports-celebrity.aspx">
   <meta property="og:title" content="Digital Marketing Services for Sports Celebrities & Athletes | KDM">
-  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-sports-celebrity.jpg">
+  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-sports-celebrity.webp">
   <meta property="og:description" content="Elevate your sports personal brand, fan engagement, and corporate endorsement deals with King of Digital Marketing. Specialized athlete SEO, viral Instagram Reels & sports PR.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-for-sports-celebrity.aspx">
@@ -27,7 +27,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "serviceType": "Sports & Athlete Personal Branding Digital Marketing",
     "areaServed": "Worldwide",

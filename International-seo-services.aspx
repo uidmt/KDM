@@ -20,235 +20,211 @@
 
 	<!-- ===== STRUCTURED DATA JSON-LD SCHEMAS ===== -->
 	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@graph": [
-	    {
-	      "@type": "ProfessionalService",
-	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing - International SEO Services",
-	      "url": "https://www.kingofdigitalmarketing.com/international-seo-services.aspx",
-	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/Chandigarh-location.jpg",
-	      "description": "Award-winning International SEO Services company helping businesses scale across multiple countries, languages, and global search engines.",
-	      "telephone": "+91-9555696058",
-	      "email": "info@kingofdigitalmarketing.com",
-	      "priceRange": "$$",
-	      "address": {
-	        "@type": "PostalAddress",
-	        "addressLocality": "Delhi",
-	        "addressRegion": "Delhi NCR",
-	        "addressCountry": "IN"
-	      },
-	      "geo": {
-	        "@type": "GeoCoordinates",
-	        "latitude": "28.6139",
-	        "longitude": "77.2090"
-	      },
-	      "openingHoursSpecification": [
-	        {
-	          "@type": "OpeningHoursSpecification",
-	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-	          "opens": "09:30",
-	          "closes": "19:00"
-	        }
-	      ],
-	      "aggregateRating": {
-	        "@type": "AggregateRating",
-	        "ratingValue": "4.9",
-	        "reviewCount": "290",
-	        "bestRating": "5"
-	      }
-	    },
-	    {
-	      "@type": "Service",
-	      "@id": "https://www.kingofdigitalmarketing.com/international-seo-services.aspx#service",
-	      "name": "International SEO Services",
-	      "serviceType": "International Search Engine Optimization",
-	      "provider": {
-	        "@type": "ProfessionalService",
-	        "name": "King of Digital Marketing"
-	      },
-	      "areaServed": "Worldwide",
-	      "hasOfferCatalog": {
-	        "@type": "OfferCatalog",
-	        "name": "International SEO Services Catalog",
-	        "itemListElement": [
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "Multilingual & Multi-Regional SEO"
-	            }
-	          },
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "Hreflang & ccTLD Architecture"
-	            }
-	          },
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "International Technical & Core Web Vitals SEO"
-	            }
-	          },
-	          {
-	            "@type": "Offer",
-	            "itemOffered": {
-	              "@type": "Service",
-	              "name": "Global AI SEO & Answer Engine Optimization (AEO/GEO)"
-	            }
-	          }
-	        ]
-	      }
-	    },
-	    {
-	      "@type": "BreadcrumbList",
-	      "itemListElement": [
-	        {
-	          "@type": "ListItem",
-	          "position": 1,
-	          "name": "Home",
-	          "item": "https://www.kingofdigitalmarketing.com/"
-	        },
-	        {
-	          "@type": "ListItem",
-	          "position": 2,
-	          "name": "International SEO Services",
-	          "item": "https://www.kingofdigitalmarketing.com/international-seo-services.aspx"
-	        }
-	      ]
-	    },
-	    {
-	      "@type": "FAQPage",
-	      "mainEntity": [
-	        {
-	          "@type": "Question",
-	          "name": "What is International SEO and how is it different from standard SEO?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "International SEO is the process of optimizing your website so search engines can easily identify which countries you want to target and which languages you use for business. While standard SEO focuses on domestic rankings, International SEO optimizes for multi-regional audiences, country-specific search intent, ccTLDs/subdirectories, hreflang tags, and localized search engines like Google, Bing, Baidu, and Yandex."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Why is King of Digital Marketing the best International SEO company in Delhi, India?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "With 13+ years of proven global SEO expertise, 900+ successful projects across 15+ countries (USA, UK, Canada, Australia, UAE, Europe), and certified SEO strategists led by Gaurav Dubey, King of Digital Marketing provides data-driven, 100% white-hat international SEO strategies that deliver page 1 global rankings and measurable international ROI."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Which international markets and countries can you help us target?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We execute international SEO campaigns across North America (USA, Canada), Europe (UK, Germany, France, Netherlands), Middle East (UAE, Saudi Arabia, Qatar), Asia-Pacific (Australia, Singapore, New Zealand, Malaysia), and emerging cross-border markets."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What is Hreflang and why is it essential for International SEO?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Hreflang is an HTML attribute that signals to search engines the language and geographical targeting of a webpage. It ensures that searchers in different countries receive the correct localized language or currency version of your page, preventing duplicate content penalties."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Should I use ccTLDs, subdomains, or subdirectories for international targeting?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "The ideal structure depends on your budget and domain authority. Subdirectories (example.com/uk/ or example.com/ae/) leverage your existing domain authority and are cost-effective. ccTLDs (example.co.uk or example.ae) provide the strongest local trust signals, while subdomains offer flexibility. We audit your business model to recommend the optimal architecture."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How long does it take to achieve top rankings in international search engines?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Typically, measurable improvements in international keyword impressions and traffic appear within 3 to 4 months, while top-tier competitive page 1 rankings across multiple target countries are established within 6 to 9 months of consistent technical, on-page, and authority optimization."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do you provide multilingual content translation and localization?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. We go beyond automated translation by providing cultural localization. We optimize regional keywords, colloquial search terminology, local currencies, units of measurement, and culturally resonant messaging for maximum international engagement."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How does AI SEO (AEO / GEO) impact international search rankings?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "With the rise of Google AI Overviews, ChatGPT Search, Perplexity, and Bing Copilot, international search visibility requires Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO). We structure your global content with conversational entities and structured data schema to ensure your brand is cited as an authoritative source in AI responses."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How do you build high-authority international backlinks?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We execute 100% white-hat global digital PR, country-specific guest editorial placements, international resource citations, and niche directory listings to establish country-specific domain trust and high topical authority."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Are your International SEO practices 100% White-Hat and penalty-safe?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, absolutely. We strictly comply with Google Search Essentials, Webmaster Guidelines, and international search quality standards. We never use spammy automation or PBNs, ensuring your global domain remains protected across all core algorithm updates."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How do you track and report cross-border SEO performance?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We provide transparent, real-time monthly reports segmented by country, language, target keyword rankings, Google Search Console geo-performance, Google Analytics 4 (GA4) international traffic, conversions, and cost-per-acquisition ROI."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Do I get a dedicated International SEO strategist for my account?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes, every enterprise and startup client is assigned a dedicated senior SEO consultant along with direct strategy oversight from founder Gaurav Dubey to ensure seamless execution and rapid communication across time zones."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "Can you optimize International SEO for e-commerce websites (Shopify, Magento, WooCommerce)?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "Yes. We specialize in international e-commerce SEO including multi-currency checkout optimization, localized product descriptions, international structured schema, faceted navigation indexing control, and global CDN caching for ultra-fast page speeds."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "What industries benefit most from your International SEO services?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "We serve 150+ global industry verticals including E-Commerce, Study Abroad & Visa Consultants, Medical Tourism & Clinics, Hair Transplant Centers, Real Estate & Luxury Developers, B2B Manufacturers & Exporters, Software & SaaS, Travel & Hospitality, and Astrology."
-	          }
-	        },
-	        {
-	          "@type": "Question",
-	          "name": "How do I get started with an International SEO proposal and audit?",
-	          "acceptedAnswer": {
-	            "@type": "Answer",
-	            "text": "You can request a free comprehensive International SEO audit and global growth proposal by calling our team directly at +91-9555696058 or submitting our instant inquiry form online."
-	          }
-	        }
-	      ]
-	    }
-	  ]
-	}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kingofdigitalmarketing.com/international-seo-services.aspx#webpage",
+      "url": "https://www.kingofdigitalmarketing.com/international-seo-services.aspx",
+      "name": "International SEO Services",
+      "description": "Award-winning International SEO Services company helping businesses scale across multiple countries, languages, and global search engines.",
+      "isPartOf": {
+        "@id": "https://www.kingofdigitalmarketing.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kingofdigitalmarketing.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "International SEO Services",
+            "item": "https://www.kingofdigitalmarketing.com/international-seo-services.aspx"
+          }
+        ],
+        "@id": "https://www.kingofdigitalmarketing.com/international-seo-services.aspx#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.kingofdigitalmarketing.com/international-seo-services.aspx#service",
+      "name": "International SEO Services",
+      "serviceType": "International Search Engine Optimization",
+      "provider": {
+        "@type": "ProfessionalService",
+        "@id": "https://www.kingofdigitalmarketing.com/#organization",
+        "name": "King of Digital Marketing"
+      },
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "International SEO Services Catalog",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Multilingual & Multi-Regional SEO"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Hreflang & ccTLD Architecture"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "International Technical & Core Web Vitals SEO"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Global AI SEO & Answer Engine Optimization (AEO/GEO)"
+            }
+          }
+        ]
+      },
+      "description": "Award-winning International SEO Services company helping businesses scale across multiple countries, languages, and global search engines."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is International SEO and how is it different from standard SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "International SEO is the process of optimizing your website so search engines can easily identify which countries you want to target and which languages you use for business. While standard SEO focuses on domestic rankings, International SEO optimizes for multi-regional audiences, country-specific search intent, ccTLDs/subdirectories, hreflang tags, and localized search engines like Google, Bing, Baidu, and Yandex."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is King of Digital Marketing the best International SEO company in Delhi, India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With 13+ years of proven global SEO expertise, 900+ successful projects across 15+ countries (USA, UK, Canada, Australia, UAE, Europe), and certified SEO strategists led by Gaurav Dubey, King of Digital Marketing provides data-driven, 100% white-hat international SEO strategies that deliver page 1 global rankings and measurable international ROI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which international markets and countries can you help us target?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We execute international SEO campaigns across North America (USA, Canada), Europe (UK, Germany, France, Netherlands), Middle East (UAE, Saudi Arabia, Qatar), Asia-Pacific (Australia, Singapore, New Zealand, Malaysia), and emerging cross-border markets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Hreflang and why is it essential for International SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hreflang is an HTML attribute that signals to search engines the language and geographical targeting of a webpage. It ensures that searchers in different countries receive the correct localized language or currency version of your page, preventing duplicate content penalties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I use ccTLDs, subdomains, or subdirectories for international targeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The ideal structure depends on your budget and domain authority. Subdirectories (example.com/uk/ or example.com/ae/) leverage your existing domain authority and are cost-effective. ccTLDs (example.co.uk or example.ae) provide the strongest local trust signals, while subdomains offer flexibility. We audit your business model to recommend the optimal architecture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to achieve top rankings in international search engines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically, measurable improvements in international keyword impressions and traffic appear within 3 to 4 months, while top-tier competitive page 1 rankings across multiple target countries are established within 6 to 9 months of consistent technical, on-page, and authority optimization."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide multilingual content translation and localization?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We go beyond automated translation by providing cultural localization. We optimize regional keywords, colloquial search terminology, local currencies, units of measurement, and culturally resonant messaging for maximum international engagement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does AI SEO (AEO / GEO) impact international search rankings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With the rise of Google AI Overviews, ChatGPT Search, Perplexity, and Bing Copilot, international search visibility requires Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO). We structure your global content with conversational entities and structured data schema to ensure your brand is cited as an authoritative source in AI responses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you build high-authority international backlinks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We execute 100% white-hat global digital PR, country-specific guest editorial placements, international resource citations, and niche directory listings to establish country-specific domain trust and high topical authority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your International SEO practices 100% White-Hat and penalty-safe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely. We strictly comply with Google Search Essentials, Webmaster Guidelines, and international search quality standards. We never use spammy automation or PBNs, ensuring your global domain remains protected across all core algorithm updates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you track and report cross-border SEO performance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide transparent, real-time monthly reports segmented by country, language, target keyword rankings, Google Search Console geo-performance, Google Analytics 4 (GA4) international traffic, conversions, and cost-per-acquisition ROI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I get a dedicated International SEO strategist for my account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, every enterprise and startup client is assigned a dedicated senior SEO consultant along with direct strategy oversight from founder Gaurav Dubey to ensure seamless execution and rapid communication across time zones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you optimize International SEO for e-commerce websites (Shopify, Magento, WooCommerce)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We specialize in international e-commerce SEO including multi-currency checkout optimization, localized product descriptions, international structured schema, faceted navigation indexing control, and global CDN caching for ultra-fast page speeds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What industries benefit most from your International SEO services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve 150+ global industry verticals including E-Commerce, Study Abroad & Visa Consultants, Medical Tourism & Clinics, Hair Transplant Centers, Real Estate & Luxury Developers, B2B Manufacturers & Exporters, Software & SaaS, Travel & Hospitality, and Astrology."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started with an International SEO proposal and audit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can request a free comprehensive International SEO audit and global growth proposal by calling our team directly at +91-9555696058 or submitting our instant inquiry form online."
+          }
+        }
+      ]
+    }
+  ]
+}
 	</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -684,30 +660,30 @@
 					<div class="happy" id="images">
 						<div class="track">
 							<!-- Featured Priority Client Logos from default.aspx -->
-							<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-							<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-							<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+							<div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.webp"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.webp"></div>
 							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
 							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
-							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"></div>
 							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
-							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.webp"></div>
 							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
-							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-							<div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
-							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp"></div>
 							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
-							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"></div>
 							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
-							<div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
-							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg"></div>
-							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
-							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg"></div>
-							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"></div>
+							<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp"></div>
+							<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"></div>
 						</div>
 					</div>
 				</div>

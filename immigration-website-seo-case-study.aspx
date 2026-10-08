@@ -579,7 +579,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/Master Nifty.jpeg" alt="Master Migrant" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/Master Nifty.webp" alt="Master Migrant" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->
@@ -837,7 +837,7 @@
 						<div>
 							<!-- Top Image/Logo or Vibrant Character Avatar -->
 							<div class="kdm-case-v3-logo-wrap" style="padding: 4px;">
-								<img src="images/go to university.png" alt="GotoUniversity" class="kdm-case-v3-logo-img" loading="lazy">
+								<img src="images/go to university.webp" alt="GotoUniversity" class="kdm-case-v3-logo-img" loading="lazy">
 							</div>
 
 							<!-- Title -->

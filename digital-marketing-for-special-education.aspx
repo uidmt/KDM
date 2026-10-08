@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Comprehensive digital marketing solutions for special education centres, autism therapy clinics, speech and occupational therapy institutes, and inclusive schools including Google Maps Local SEO, child developmental screening funnels, and automated WhatsApp appointment CRMs.",
     "areaServed": "Worldwide",

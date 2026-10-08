@@ -1377,10 +1377,14 @@ html body .kdm-v2-navbar,
   color: #ffffff !important;
   font-size: 14px !important;
   font-weight: 500 !important;
+  text-align: left !important;
+  direction: ltr !important;
 }
 
 .kdm-v2-blog-search-box input::placeholder {
   color: #94a3b8 !important;
+  text-align: left !important;
+  direction: ltr !important;
 }
 
 .kdm-v2-blog-search-box .search-btn {

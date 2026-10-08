@@ -22,7 +22,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Local pet parent customer acquisition, e-commerce pet food sales funnels, grooming appointment booking systems, and Local SEO engineered for pet stores, veterinary hospitals, and grooming salons.",
     "areaServed": "Global",

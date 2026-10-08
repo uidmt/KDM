@@ -4,7 +4,7 @@
 <meta name="keywords" content="King of Digital Marketing privacy policy, data protection, privacy policy, Devweboic Techsolutions, data security">
 <meta name="description" content="Official Privacy Policy for King of Digital Marketing (Unit of Devweboic Techsolutions (OPC) Pvt. Ltd.) covering data protection, collection, and usage.">
 <meta property="og:title" content="Privacy Policy | King of Digital Marketing">
-<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.png">
+<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.webp">
 <meta property="og:description" content="Read our transparent privacy policy explaining how your personal and business data is collected, protected, and processed safely.">
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/privacy-policy.aspx">

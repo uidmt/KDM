@@ -73,10 +73,14 @@
                 color: #0f172a !important;
                 padding: 10px 10px !important;
                 background: transparent !important;
+                text-align: left !important;
+                direction: ltr !important;
             }
 
             .kdm-search-box input::placeholder {
                 color: #94a3b8 !important;
+                text-align: left !important;
+                direction: ltr !important;
             }
 
             .kdm-search-badge {
@@ -267,6 +271,13 @@
                 .kdm-search-box input {
                     font-size: 13.5px !important;
                     padding: 8px 4px !important;
+                    text-align: left !important;
+                    direction: ltr !important;
+                }
+
+                .kdm-search-box input::placeholder {
+                    text-align: left !important;
+                    direction: ltr !important;
                 }
 
                 .kdm-search-badge {

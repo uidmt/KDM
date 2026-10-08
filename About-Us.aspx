@@ -4,7 +4,7 @@
 <meta name="keywords" content="King of Digital Marketing, Gaurav Dubey, Devweboic Techsolutions, Best Digital Marketing Agency in India, SEO Freelancer in India, PPC Agency, Digital Marketing Training">
 <meta name="description" content="Discover the journey of King of Digital Marketing — established in 2013 by Gaurav Dubey (Unit of Devweboic Techsolutions (OPC) Pvt. Ltd.). Serving 900+ global brands across 15+ countries with 1850+ students trained.">
 <meta property="og:title" content="About Us | King of Digital Marketing | India's Leading Growth Agency">
-<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.png">
+<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.webp">
 <meta property="og:description" content="Leading Digital Marketing Agency in India offering SEO, PPC, SMM, Web Engineering, ORM, and practical digital training. 13+ Years of leadership, 900+ projects, 15+ countries, and 1850+ students trained.">
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/About-Us.aspx">

@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Comprehensive digital marketing and emergency lead generation solutions for home services, plumbing, HVAC, electrical, deep cleaning, painting, and appliance repair contractors including Google Maps 3-pack SEO, Call-Only PPC, and automated WhatsApp booking systems.",
     "areaServed": "Worldwide",
@@ -774,7 +774,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/Propert-Logo.webp" alt="RapidFix Plumbing &amp; Drain" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Propert-Logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/Propert-Logo.webp" alt="RapidFix Plumbing &amp; Drain" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Propert-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">RapidFix Plumbing</h3>
                 <h4 class="kdm-case-v3-subtitle">(Emergency Plumbing &amp; Sewer)</h4>
@@ -854,7 +854,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/Skinmumma-logo.webp" alt="ShieldCoat Painting &amp; Waterproofing" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Skinmumma-logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/Skinmumma-logo.webp" alt="ShieldCoat Painting &amp; Waterproofing" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Skinmumma-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">ShieldCoat Waterproofing</h3>
                 <h4 class="kdm-case-v3-subtitle">(Terrace Waterproofing &amp; Painting)</h4>
@@ -874,7 +874,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/satguru--logo.webp" alt="TotalAppliance Repairs" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/satguru--logo.webp" alt="TotalAppliance Repairs" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">TotalAppliance Care</h3>
                 <h4 class="kdm-case-v3-subtitle">(Washing Machine &amp; Fridge Repair)</h4>

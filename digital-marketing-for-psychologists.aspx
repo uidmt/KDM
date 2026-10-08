@@ -22,7 +22,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Confidential, ethical digital marketing, Local SEO, and private patient acquisition funnels engineered for licensed clinical psychologists and counselors.",
     "areaServed": "Global",

@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Full-funnel digital marketing solutions for art galleries, fine art studios, contemporary painters, sculptors, and art dealers including Google Local 3-Pack SEO, HNW collector targeting, 360° virtual exhibitions, and automated WhatsApp catalog funnels.",
     "areaServed": "Worldwide",

@@ -16,9 +16,47 @@
 		<meta name="twitter:card" content="summary_large_image">
 		<meta property="og:type" content="website" />
 		<link rel="stylesheet" href="css/home-custom.css?v=25.0">
+		<link rel="stylesheet" href="css/images.css">
 		<script src="js/kdm-faq.js"></script>
-	</div>
-</asp:Content>
+	
+		<!-- JSON-LD Schema Markup -->
+		<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-internship.aspx#webpage",
+      "url": "https://www.kingofdigitalmarketing.com/digital-marketing-internship.aspx",
+      "name": "Digital Marketing Internship in Delhi, India 2026 | 100% Placement Support",
+      "description": "Join Live Project Digital Marketing Internship in Delhi, India. Agency-based SEO, Social Media, Meta Ads, Google Ads PPC internship with 100% placement support.",
+      "isPartOf": {
+        "@id": "https://www.kingofdigitalmarketing.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.kingofdigitalmarketing.com/digital-marketing-internship.aspx#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kingofdigitalmarketing.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Digital Marketing Internship",
+            "item": "https://www.kingofdigitalmarketing.com/digital-marketing-internship.aspx"
+          }
+        ]
+      }
+    }
+  ]
+}
+	</script>
+
+	</asp:Content>
 	<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 		<div role="main" class="main">
 
@@ -184,58 +222,119 @@
 				</div>
 			</div>
 
-			<!-- Client Logos Section Starts -->
-			<div class="kdm-ppc-clients-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<h3 class="kdm-clients-title">Trusted By 800+ Brands & 150+ Successful Intern Graduates</h3>
-							<p class="kdm-clients-subtitle">Empowering Businesses & Launching Digital Marketing Careers
-								Worldwide</p>
+			<!-- ===== CLIENTS TRUST & LOGOS SECTION (WHITE THEME) ===== -->
+		<section class="kdm-clients-white-section">
+			<div class="container">
+				<div class="row custom-row">
+					<div class="col-md-12 col-sm-12">
+						<div class="kdm-clients-header">
+							<div class="kdm-clients-badge">
+								<i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
+							</div>
+							<h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">Digital
+									Marketing Company</span> To Help Flourish Your Business</h2>
+							<p class="kdm-clients-subtitle">
+								What makes us distinct is our valuable clients. We strive day in and day out to secure
+								their branding, online reputation, visibility, high-converting traffic, and qualified
+								lead generation.
+							</p>
+							<div class="kdm-clients-motto-wrapper">
+								<div class="kdm-clients-motto">
+									<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+										Ambitious</span>
+									<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+										Experts</span>
+									<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+										Shepherd</span>
+									<span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are
+										King</span>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="slide-container">
-						<div class="slide-now">
-							<img alt="satguru" src="images/satguru--logo.webp">
-							<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
-							<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-							<img alt="cara" src="images/cara_img.webp">
-							<img alt="Olympus" src="images/Olympus_img.webp">
-							<img alt="cocoona" src="images/cocoona.webp">
-							<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-							<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-							<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-							<img alt="MTel" src="images/MTel_img.webp">
-							<img alt="Propert" src="images/Propert-Logo.webp">
-							<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-							<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-							<img alt="go to university" src="images/go to university.webp">
-							<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-							<img alt="thechocolateroom" src="images/thechocolateroom.webp">
+
+						<div class="happy" id="images">
+							<div class="track">
+								<!-- Featured Priority Client Logos -->
+								<div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp"></div>
+								<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"></div>
+								<div class="slide"><img alt="SkinLab Jamuna Pai"
+										src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp"></div>
+								<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp"></div>
+								<div class="slide"><img alt="QHT" src="images/QHT.webp"></div>
+								<div class="slide"><img alt="CANX Immigration" src="images/canx.webp"></div>
+								<div class="slide"><img alt="Global Opportunities"
+										src="images/client/global-opportunies.webp">
+								</div>
+								<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp">
+								</div>
+								<div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"></div>
+								<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
+								<div class="slide"><img alt="Continental Immigration"
+										src="images/ContinentalImmigration.webp"></div>
+								<div class="slide"><img alt="Scala" src="images/scala.png"></div>
+								<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"></div>
+								<div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp">
+								</div>
+								<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp"></div>
+								<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png">
+								</div>
+								<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"></div>
+								<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
+								<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"></div>
+
+								<!-- Additional Client Logos -->
+								<div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
+								<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp">
+								</div>
+								<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"></div>
+								<div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp">
+								</div>
+								<div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"></div>
+
+								<div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.webp"></div>
+								<div class="slide"><img alt="heal24" src="images/cliniq_img.webp"></div>
+								<div class="slide"><img alt="city clinics" src="images/dncc_img.webp"></div>
+								<div class="slide"><img alt="get study visa" src="images/afflatusglobalvisa_img.webp">
+								</div>
+								<div class="slide"><img alt="heal24" src="images/monickaagupta_img.webp"></div>
+								<div class="slide"><img alt="city clinics" src="images/aicsimmigration.webp"></div>
+								<div class="slide"><img alt="get study visa" src="images/get.webp"></div>
+								<div class="slide"><img alt="Planet education" src="images/pl.webp"></div>
+								<div class="slide"><img alt="R&P" src="images/rp.webp"></div>
+								<div class="slide"><img alt="canx" src="images/canx.webp"></div>
+								<div class="slide"><img alt="Meena Bazar" src="images/mb-Meena-Bazar_img.webp"></div>
+								<div class="slide"><img alt="Lakhotia" src="images/lakhotia_img.webp"></div>
+								<div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.webp"></div>
+								<div class="slide"> <img alt="Kidney Care Centre"
+										src="images/kidney care centre_img.jpg"></div>
+								<div class="slide"><img alt="Iskcon Delhi" src="images/KAN_VISA_DIRECTIOn_img.webp">
+								</div>
+								<div class="slide"><img alt="Website Development in delhi"
+										src="images/iskcon delhi_img.webp"></div>
+								<div class="slide"><img alt="Hair Transplant Medispa"
+										src="images/hair transplant medispa_img.jpg">
+								</div>
+								<div class="slide"><img alt="Dreamzone Allahabad" src="images/dreamzone allahabad.webp">
+								</div>
+								<div class="slide"><img alt="Dr Pk Talwar" src="images/dr pk talwar_img.webp"></div>
+								<div class="slide"><img alt="go to university" src="images/go to university_img.jpg">
+								</div>
+								<div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.webp"></div>
+								<div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp"></div>
+								<div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp"></div>
+								<div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.webp"></div>
+								<div class="slide"><img alt="tradeFD" src="images/trade.webp"></div>
+								<div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg"></div>
+							</div>
 						</div>
-						<div class="slide-now">
-							<img alt="satguru" src="images/satguru--logo.webp">
-							<img alt="Skinmumma" src="images/Skinmumma-logo.webp">
-							<img alt="Prep guru" src="images/Prep-guru-logo.webp">
-							<img alt="cara" src="images/cara_img.webp">
-							<img alt="Olympus" src="images/Olympus_img.webp">
-							<img alt="cocoona" src="images/cocoona.webp">
-							<img alt="monickaa gupta" src="images/monickaagupta_img.webp">
-							<img alt="ihoroscopegpt" src="images/ihoroscopegpt_img.webp">
-							<img alt="hera hair solutions" src="images/herahairsolutions.webp">
-							<img alt="MTel" src="images/MTel_img.webp">
-							<img alt="Propert" src="images/Propert-Logo.webp">
-							<img alt="enrolbuddy" src="images/enrolbuddy_img.webp">
-							<img alt="Ankita Dhingra" src="images/Ankita Dhingra.webp">
-							<img alt="go to university" src="images/go to university.webp">
-							<img alt="Cityc Clinic" src="images/CitycClinic.webp">
-							<img alt="thechocolateroom" src="images/thechocolateroom.webp">
-						</div>
+
 					</div>
 				</div>
 			</div>
+		</section>
+		<!-- ===== END CLIENTS TRUST & LOGOS SECTION ===== -->
 
-			<!-- Recent Interns Certificate Distribution Showcase Section Starts -->
+		<!-- Recent Interns Certificate Distribution Showcase Section Starts -->
 			<div class="kdm-ppc-clients-section" style="background: #ffffff; padding: 50px 0;">
 				<div class="container">
 					<div class="row">

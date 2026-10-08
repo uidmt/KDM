@@ -1,17 +1,37 @@
 /**
  * Master Page Custom JS
  */
-function openGlobalPopupForm() {
-    var modal = document.getElementById('global-popup-modal');
-    if (modal) {
-        modal.style.display = 'flex';
+function openGlobalPopupForm(packageName) {
+    if (typeof openPackageModal === "function") {
+        openPackageModal(packageName);
+    } else {
+        var modal = document.getElementById("kdmPackageModal") || document.getElementById('global-popup-modal') || document.getElementById('popupModal');
+        if (modal) {
+            var iframe = document.getElementById("kdmPopupIframe");
+            if (iframe) {
+                var targetSrc = "/contact.aspx";
+                if (packageName) targetSrc += "?service=" + encodeURIComponent(packageName);
+                if (!iframe.src || iframe.src === "" || iframe.src === "about:blank" || iframe.src.indexOf("/contact.aspx") === -1) {
+                    iframe.src = targetSrc;
+                }
+            }
+            modal.classList.add("active");
+            modal.style.display = 'flex';
+            document.body.style.overflow = "hidden";
+        }
     }
 }
 
 function closeGlobalPopupForm() {
-    var modal = document.getElementById('global-popup-modal');
-    if (modal) {
-        modal.style.display = 'none';
+    if (typeof closePackageModal === "function") {
+        closePackageModal();
+    } else {
+        var modals = document.querySelectorAll("#kdmPackageModal, #global-popup-modal, #popupModal, .kdm-modal-overlay");
+        modals.forEach(function (m) {
+            m.classList.remove("active");
+            m.style.display = "none";
+        });
+        document.body.style.overflow = "";
     }
 }
 

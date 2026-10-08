@@ -11,7 +11,7 @@
 <META NAME="Author" CONTENT="King of Digital Marketing, http://www.kingofdigitalmarketing.com">
 <link rel="stylesheet" type="text/css" href="css/custom.css">
 <meta property="og:title" content="Importance of Hashtags , Emozis , Caption, Timing in social media">
-<meta property="og:image" content="https://www.kingofdigitalmarketing.com/blog/images/Importance of Hashtags Emozis Caption.jpeg">
+<meta property="og:image" content="https://www.kingofdigitalmarketing.com/blog/images/Importance of Hashtags Emozis Caption.webp">
 <meta property="og:description" content="Maximize social media impact! Unlock the power of hashtags, emojis, captivating captions, and perfect timing. Elevate your online presence effortlessly.">
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/blog/importance-of-hashtags-emozis-caption-timing-in-social-media.aspx">
 <meta name="twitter:card" content="summary_large_image">
@@ -173,6 +173,16 @@
             <i class="fa fa-paper-plane" style="color:#0284c7;"></i> Get Free AI &amp; Digital Marketing Strategy Call
         </h3>
         <iframe scrolling="no" src="contact.aspx" style="height: 520px; width: 100%; border-radius: 12px; border: none;" width="100%"></iframe>
+    </div>
+
+        <!-- YouTube Promo Widget -->
+    <div class="sidebar-widget" style="margin-bottom: 25px;">
+        <h3 class="sidebar-widget-title" style="font-size: 17px; font-weight: 800; color: #0f172a; border-bottom: 3px solid #ff0000; padding-bottom: 8px; margin-bottom: 12px;">
+            <i class="fab fa-youtube" style="color:#ff0000;"></i> Watch Gaurav Dubey on YouTube
+        </h3>
+        <a href="https://www.youtube.com/@thegauravdubey" target="_blank" rel="noopener" style="display: block; text-decoration: none; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; transition: transform 0.25s ease;">
+            <img src="images/gaurav-dubey-youtube-promo.webp" onerror="this.src='../images/gaurav-dubey-youtube-promo.webp'" alt="Watch Gaurav Dubey on YouTube" style="width: 100%; height: auto; display: block; border-radius: 12px;" loading="lazy" />
+        </a>
     </div>
 
     <!-- 3. Popular Categories -->

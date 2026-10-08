@@ -5,7 +5,7 @@
   <meta name="description" content="Scale direct food delivery orders and slash aggregator commissions with King of Digital Marketing. Expert Swiggy/Zomato CPC ads, WhatsApp 1-click ordering, hyper-local 5km video ads, and foodie influencer campaigns.">
   <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-cloud-kitchen.aspx">
   <meta property="og:title" content="Digital Marketing for Cloud Kitchens & Virtual Brands | Direct Food Orders">
-  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-cloud-kitchen.jpg">
+  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-cloud-kitchen.webp">
   <meta property="og:description" content="Scale direct food delivery orders and slash aggregator commissions with King of Digital Marketing. Expert Swiggy/Zomato CPC ads, WhatsApp 1-click ordering, hyper-local 5km video ads, and foodie influencer campaigns.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-for-cloud-kitchen.aspx">
@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Full-stack digital marketing and direct order generation solutions for cloud kitchens, ghost kitchens, and virtual food brands including Swiggy/Zomato in-app ad optimization, direct WhatsApp 1-click food ordering bots, hyper-local 5km radius Meta video ads, and customer loyalty retention CRMs.",
     "areaServed": "Worldwide",

@@ -273,7 +273,783 @@
         </div>
       </div>
 
-      <!-- ===== 2. OVERVIEW & INDUSTRY INTRO SECTION ===== -->
+                  <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
+      <section class="kdm-industry-clients-section">
+        <div class="container">
+          <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
+            <div class="kdm-client-pill-badge">
+              <i class="fa fa-star" style="color: #f59e0b;"></i> TRUSTED BY TOP COSMETIC & PLASTIC SURGEONS
+            </div>
+            <h2 class="kdm-client-main-title">
+              Cosmetic Surgery Clients <span class="kdm-blue-gradient">We Have Worked With</span>
+            </h2>
+            <p class="kdm-client-subtitle">
+              From premier aesthetic clinics, plastic surgeons, and rhinoplasty specialists to top hair restoration centres — explore verified clients scaling patient inquiries with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.
+            </p>
+          </div>
+
+          <!-- Dual Smooth Infinite Ticker / Marquee -->
+          <div class="kdm-client-marquee-wrapper">
+            <!-- Row 1: Left Scroll -->
+            <div class="kdm-client-marquee-track kdm-marquee-left">
+              <div class="kdm-client-marquee-group">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/adgrohair.webp" alt="AdGro Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AdGro Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/age-hair-transplant.webp" alt="AGE Hair Transplant Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AGE Hair Transplant Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/aishh.webp" alt="AISHH Hair & Aesthetic Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AISHH Hair & Aesthetic Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/auqual-logo.webp" alt="Auqual Hair & Aesthetics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Auqual Hair & Aesthetics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/cara_clinic_cosmetic%20surgeon%20mumbai.webp" alt="Cara Hair & Aesthetic Clinic (Mumbai) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cara Hair & Aesthetic Clinic (Mumbai)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/chavan-cosmetic-clinic.webp" alt="Chavan Hair & Aesthetic Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Chavan Hair & Aesthetic Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/city-clinic.webp" alt="City Hair & Skin Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">City Hair & Skin Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/cliniq-hair-transplant.webp" alt="Cliniq Hair Transplant Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cliniq Hair Transplant</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/cocoona.webp" alt="Cocoona Hair & Aesthetic Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cocoona Hair & Aesthetic Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dncc_dr-nishita%20seth-cosmetic%20surgeon.webp" alt="DNCC - Dr. Nishita Sheth Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">DNCC - Dr. Nishita Sheth Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dr-compass.webp" alt="Dr. Compass Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Compass Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/drgcgautamchaoudhary.webp" alt="Dr. Gautam Choudhary Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Gautam Choudhary Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/drgirishsharma%20karnal.webp" alt="Dr. Girish Sharma Hair Transplant (Karnal) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Girish Sharma Hair Transplant (Karnal)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dr-pk-talwar.webp" alt="Dr. P.K. Talwar Hair Transplant Surgeon Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. P.K. Talwar Hair Transplant Surgeon</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dr-sanjay-parashar.webp" alt="Dr. Sanjay Parashar Hair & Plastic Surgeon Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Sanjay Parashar Hair & Plastic Surgeon</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/enhance-clinic.webp" alt="Enhance Hair Clinics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Enhance Hair Clinics</span>
+        </div>
+              </div>
+              <div class="kdm-client-marquee-group" aria-hidden="true">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/adgrohair.webp" alt="AdGro Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AdGro Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/age-hair-transplant.webp" alt="AGE Hair Transplant Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AGE Hair Transplant Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/aishh.webp" alt="AISHH Hair & Aesthetic Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AISHH Hair & Aesthetic Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/auqual-logo.webp" alt="Auqual Hair & Aesthetics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Auqual Hair & Aesthetics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/cara_clinic_cosmetic%20surgeon%20mumbai.webp" alt="Cara Hair & Aesthetic Clinic (Mumbai) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cara Hair & Aesthetic Clinic (Mumbai)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/chavan-cosmetic-clinic.webp" alt="Chavan Hair & Aesthetic Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Chavan Hair & Aesthetic Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/city-clinic.webp" alt="City Hair & Skin Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">City Hair & Skin Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/cliniq-hair-transplant.webp" alt="Cliniq Hair Transplant Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cliniq Hair Transplant</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/cocoona.webp" alt="Cocoona Hair & Aesthetic Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cocoona Hair & Aesthetic Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dncc_dr-nishita%20seth-cosmetic%20surgeon.webp" alt="DNCC - Dr. Nishita Sheth Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">DNCC - Dr. Nishita Sheth Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dr-compass.webp" alt="Dr. Compass Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Compass Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/drgcgautamchaoudhary.webp" alt="Dr. Gautam Choudhary Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Gautam Choudhary Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/drgirishsharma%20karnal.webp" alt="Dr. Girish Sharma Hair Transplant (Karnal) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Girish Sharma Hair Transplant (Karnal)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dr-pk-talwar.webp" alt="Dr. P.K. Talwar Hair Transplant Surgeon Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. P.K. Talwar Hair Transplant Surgeon</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dr-sanjay-parashar.webp" alt="Dr. Sanjay Parashar Hair & Plastic Surgeon Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Sanjay Parashar Hair & Plastic Surgeon</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/enhance-clinic.webp" alt="Enhance Hair Clinics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Enhance Hair Clinics</span>
+        </div>
+              </div>
+            </div>
+
+            <!-- Row 2: Right Scroll -->
+            <div class="kdm-client-marquee-track kdm-marquee-right">
+              <div class="kdm-client-marquee-group">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/Eterna%20Aesthetic%20Clinic%20EVA.webp" alt="Eterna Hair & Aesthetic Clinic (EVA) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Eterna Hair & Aesthetic Clinic (EVA)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dr_as_logo_fuse-hair-transplantwebp.webp" alt="Fuse Hair Transplant (Dr. A's) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Fuse Hair Transplant (Dr. A's)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/heal24.webp" alt="Heal24 Hair Restoration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Heal24 Hair Restoration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/herahairsolutions.webp" alt="Hera Hair Solutions Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Hera Hair Solutions</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/marvelous-aesthetics.webp" alt="Marvelous Hair & Aesthetics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Marvelous Hair & Aesthetics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/medhair.webp" alt="MedHair Transplant Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">MedHair Transplant Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/medispa.webp" alt="Medispa Hair Transplant Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Medispa Hair Transplant Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/procerus-clinic.webp" alt="Procerus Hair & Skin Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Procerus Hair & Skin Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/qht.webp" alt="QHT Hair Transplant Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">QHT Hair Transplant Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/rp.webp" alt="RP Hair Transplant Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">RP Hair Transplant Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/sareen-hair-clinic.webp" alt="Sareen Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Sareen Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/scala-clinic.webp" alt="Scala Hair & Skin Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Scala Hair & Skin Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/spurt-hair-clinic.webp" alt="Spurt Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Spurt Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/vidaskinhairtransplantbangalore.webp" alt="Vida Skin & Hair Transplant (Bangalore) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Vida Skin & Hair Transplant (Bangalore)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/vivaaaesthetics.webp" alt="Vivaa Hair & Aesthetics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Vivaa Hair & Aesthetics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/vlcc-hair-build.webp" alt="VLCC Hair Build Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">VLCC Hair Build</span>
+        </div>
+              </div>
+              <div class="kdm-client-marquee-group" aria-hidden="true">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/Eterna%20Aesthetic%20Clinic%20EVA.webp" alt="Eterna Hair & Aesthetic Clinic (EVA) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Eterna Hair & Aesthetic Clinic (EVA)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/dr_as_logo_fuse-hair-transplantwebp.webp" alt="Fuse Hair Transplant (Dr. A's) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Fuse Hair Transplant (Dr. A's)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/heal24.webp" alt="Heal24 Hair Restoration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Heal24 Hair Restoration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/herahairsolutions.webp" alt="Hera Hair Solutions Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Hera Hair Solutions</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/marvelous-aesthetics.webp" alt="Marvelous Hair & Aesthetics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Marvelous Hair & Aesthetics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/medhair.webp" alt="MedHair Transplant Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">MedHair Transplant Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/medispa.webp" alt="Medispa Hair Transplant Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Medispa Hair Transplant Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/procerus-clinic.webp" alt="Procerus Hair & Skin Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Procerus Hair & Skin Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/qht.webp" alt="QHT Hair Transplant Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">QHT Hair Transplant Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/rp.webp" alt="RP Hair Transplant Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">RP Hair Transplant Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/sareen-hair-clinic.webp" alt="Sareen Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Sareen Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/scala-clinic.webp" alt="Scala Hair & Skin Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Scala Hair & Skin Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/spurt-hair-clinic.webp" alt="Spurt Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Spurt Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/vidaskinhairtransplantbangalore.webp" alt="Vida Skin & Hair Transplant (Bangalore) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Vida Skin & Hair Transplant (Bangalore)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/vivaaaesthetics.webp" alt="Vivaa Hair & Aesthetics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Vivaa Hair & Aesthetics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/hair-cosmetic-surgeon/vlcc-hair-build.webp" alt="VLCC Hair Build Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">VLCC Hair Build</span>
+        </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real-Time Client Search Bar -->
+          <div class="kdm-client-search-box">
+            <i class="fa fa-search kdm-client-search-icon"></i>
+            <input type="text" id="kdmIndustryClientSearch" class="kdm-client-search-input" placeholder="Search cosmetic & plastic surgery clients by brand name (e.g., Cocoona, Enhance, Cara Clinic, Dr. Sanjay Parashar)..." onkeyup="filterIndustryClients()" oninput="filterIndustryClients()" aria-label="Search client logos" />
+            <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
+          </div>
+
+          <!-- 32 Client Logos Responsive Grid (Strict A to Z) -->
+          <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
+            
+        <div class="kdm-industry-client-card" data-name="adgro hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/adgrohair.webp" alt="AdGro Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-cosmetic">Cosmetic & Hair Clinic</span>
+            <h4 class="kdm-industry-client-title">AdGro Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">FUE Hair Restoration & Scalp Aesthetics</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="age hair transplant clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/age-hair-transplant.webp" alt="AGE Hair Transplant Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Surgery & Hair Clinic</span>
+            <h4 class="kdm-industry-client-title">AGE Hair Transplant Clinic</h4>
+            <p class="kdm-industry-client-desc">Bio-IPT Hair Regrowth & Aesthetic Treatments</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="aishh hair & aesthetic clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/aishh.webp" alt="AISHH Hair & Aesthetic Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Aesthetic & Cosmetic Surgery</span>
+            <h4 class="kdm-industry-client-title">AISHH Hair & Aesthetic Clinic</h4>
+            <p class="kdm-industry-client-desc">Facial Aesthetics, Skin Rejuvenation & Hair Surgery</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="auqual hair & aesthetics">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/auqual-logo.webp" alt="Auqual Hair & Aesthetics Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Cosmetic Treatment & Studio</span>
+            <h4 class="kdm-industry-client-title">Auqual Hair & Aesthetics</h4>
+            <p class="kdm-industry-client-desc">Non-Surgical Hair Systems & Scalp Aesthetics</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="cara hair & aesthetic clinic (mumbai)">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/cara_clinic_cosmetic%20surgeon%20mumbai.webp" alt="Cara Hair & Aesthetic Clinic (Mumbai) Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Surgery & Aesthetics</span>
+            <h4 class="kdm-industry-client-title">Cara Hair & Aesthetic Clinic (Mumbai)</h4>
+            <p class="kdm-industry-client-desc">Robotic Hair Restoration & Facial Cosmetic Procedures</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="chavan hair & aesthetic clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/chavan-cosmetic-clinic.webp" alt="Chavan Hair & Aesthetic Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic & Hair Surgery Clinic</span>
+            <h4 class="kdm-industry-client-title">Chavan Hair & Aesthetic Clinic</h4>
+            <p class="kdm-industry-client-desc">FUE Hair Transplant, GFC & Laser Skin Aesthetics</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="city hair & skin clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/city-clinic.webp" alt="City Hair & Skin Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-dermatology">Cosmetic Dermatology & Hair</span>
+            <h4 class="kdm-industry-client-title">City Hair & Skin Clinic</h4>
+            <p class="kdm-industry-client-desc">Multi-Speciality Cosmetic Care & Hair Grafting</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="cliniq hair transplant">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/cliniq-hair-transplant.webp" alt="Cliniq Hair Transplant Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Surgery & Hair Clinic</span>
+            <h4 class="kdm-industry-client-title">Cliniq Hair Transplant</h4>
+            <p class="kdm-industry-client-desc">Scalp Reconstruction & Precision Aesthetic Care</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="cocoona hair & aesthetic centre">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/cocoona.webp" alt="Cocoona Hair & Aesthetic Centre Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Plastic & Cosmetic Surgery</span>
+            <h4 class="kdm-industry-client-title">Cocoona Hair & Aesthetic Centre</h4>
+            <p class="kdm-industry-client-desc">Body Contouring, Rhinoplasty & Hair Restoration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dncc - dr. nishita sheth hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/dncc_dr-nishita%20seth-cosmetic%20surgeon.webp" alt="DNCC - Dr. Nishita Sheth Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Dermatology & Surgery</span>
+            <h4 class="kdm-industry-client-title">DNCC - Dr. Nishita Sheth Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Anti-Aging, Skin Resurfacing & Hair Regrowth Specialist</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dr. compass hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/dr-compass.webp" alt="Dr. Compass Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Cosmetic Treatment & Hair</span>
+            <h4 class="kdm-industry-client-title">Dr. Compass Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Follicular Unit Extraction & Aesthetic Scalp Wellness</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dr. gautam choudhary hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/drgcgautamchaoudhary.webp" alt="Dr. Gautam Choudhary Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Plastic & Cosmetic Surgery</span>
+            <h4 class="kdm-industry-client-title">Dr. Gautam Choudhary Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Cosmetic Reconstruction, Rhinoplasty & Hair Grafting</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dr. girish sharma hair transplant (karnal)">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/drgirishsharma%20karnal.webp" alt="Dr. Girish Sharma Hair Transplant (Karnal) Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic & Hair Surgery</span>
+            <h4 class="kdm-industry-client-title">Dr. Girish Sharma Hair Transplant (Karnal)</h4>
+            <p class="kdm-industry-client-desc">Advanced Hairline Design & Aesthetic Surgery</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dr. p.k. talwar hair transplant surgeon">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/dr-pk-talwar.webp" alt="Dr. P.K. Talwar Hair Transplant Surgeon Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Senior Plastic & Cosmetic Surgeon</span>
+            <h4 class="kdm-industry-client-title">Dr. P.K. Talwar Hair Transplant Surgeon</h4>
+            <p class="kdm-industry-client-desc">Rhinoplasty, Facelifts, Body Contouring & Hair Surgery</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dr. sanjay parashar hair & plastic surgeon">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/dr-sanjay-parashar.webp" alt="Dr. Sanjay Parashar Hair & Plastic Surgeon Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Global Plastic & Cosmetic Surgeon</span>
+            <h4 class="kdm-industry-client-title">Dr. Sanjay Parashar Hair & Plastic Surgeon</h4>
+            <p class="kdm-industry-client-desc">Aesthetic Surgery, Body Sculpting & Hair Restoration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="enhance hair clinics">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/enhance-clinic.webp" alt="Enhance Hair Clinics Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Surgery & Hair Clinic</span>
+            <h4 class="kdm-industry-client-title">Enhance Hair Clinics</h4>
+            <p class="kdm-industry-client-desc">Multi-City Aesthetic Centre & Hair Restoration Chain</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="eterna hair & aesthetic clinic (eva)">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/Eterna%20Aesthetic%20Clinic%20EVA.webp" alt="Eterna Hair & Aesthetic Clinic (EVA) Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Aesthetic & Cosmetic Clinic</span>
+            <h4 class="kdm-industry-client-title">Eterna Hair & Aesthetic Clinic (EVA)</h4>
+            <p class="kdm-industry-client-desc">Aesthetic Hairline Design & Skin Rejuvenation</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="fuse hair transplant (dr. a's)">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/dr_as_logo_fuse-hair-transplantwebp.webp" alt="Fuse Hair Transplant (Dr. A's) Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Hair Surgery Clinic</span>
+            <h4 class="kdm-industry-client-title">Fuse Hair Transplant (Dr. A's)</h4>
+            <p class="kdm-industry-client-desc">World-Renowned FUE Hairline & Aesthetic Surgery</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="heal24 hair restoration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/heal24.webp" alt="Heal24 Hair Restoration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Cosmetic Treatment & Hair</span>
+            <h4 class="kdm-industry-client-title">Heal24 Hair Restoration</h4>
+            <p class="kdm-industry-client-desc">PRP, GFC Therapy & Advanced Aesthetic Care</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="hera hair solutions">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/herahairsolutions.webp" alt="Hera Hair Solutions Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Cosmetic Treatment & Studio</span>
+            <h4 class="kdm-industry-client-title">Hera Hair Solutions</h4>
+            <p class="kdm-industry-client-desc">Non-Surgical Hair Replacement & Scalp Aesthetics</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="marvelous hair & aesthetics">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/marvelous-aesthetics.webp" alt="Marvelous Hair & Aesthetics Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic & Hair Surgery Clinic</span>
+            <h4 class="kdm-industry-client-title">Marvelous Hair & Aesthetics</h4>
+            <p class="kdm-industry-client-desc">High-Density Hair Transplant & Facial Aesthetics</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="medhair transplant clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/medhair.webp" alt="MedHair Transplant Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Surgery & Hair Clinic</span>
+            <h4 class="kdm-industry-client-title">MedHair Transplant Clinic</h4>
+            <p class="kdm-industry-client-desc">European Hair Restoration & Cosmetic Care</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="medispa hair transplant centre">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/medispa.webp" alt="Medispa Hair Transplant Centre Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Surgery & Hair Clinic</span>
+            <h4 class="kdm-industry-client-title">Medispa Hair Transplant Centre</h4>
+            <p class="kdm-industry-client-desc">Natural Hairline Crafting & Cosmetic Scalp Surgery</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="procerus hair & skin clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/procerus-clinic.webp" alt="Procerus Hair & Skin Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-dermatology">Cosmetic Dermatology & Hair</span>
+            <h4 class="kdm-industry-client-title">Procerus Hair & Skin Clinic</h4>
+            <p class="kdm-industry-client-desc">Laser Skin Treatments, Anti-Aging & Hair Grafting</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="qht hair transplant clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/qht.webp" alt="QHT Hair Transplant Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Surgery & Hair Clinic</span>
+            <h4 class="kdm-industry-client-title">QHT Hair Transplant Clinic</h4>
+            <p class="kdm-industry-client-desc">Precision Hairline Grafting & Aesthetic Scalp Care</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="rp hair transplant clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/rp.webp" alt="RP Hair Transplant Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Cosmetic Treatment & Hair</span>
+            <h4 class="kdm-industry-client-title">RP Hair Transplant Clinic</h4>
+            <p class="kdm-industry-client-desc">Dermatology Care, Hair Regrowth & Skin Glow Therapies</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="sareen hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/sareen-hair-clinic.webp" alt="Sareen Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic & Hair Surgery Clinic</span>
+            <h4 class="kdm-industry-client-title">Sareen Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Follicular Hair Restoration & Aesthetic Scalp Therapy</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="scala hair & skin clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/scala-clinic.webp" alt="Scala Hair & Skin Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-dermatology">Cosmetic Dermatology & Hair</span>
+            <h4 class="kdm-industry-client-title">Scala Hair & Skin Clinic</h4>
+            <p class="kdm-industry-client-desc">Clinical Dermatology, Skin Polishing & Hair Care</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="spurt hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/spurt-hair-clinic.webp" alt="Spurt Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Cosmetic Treatment & Hair</span>
+            <h4 class="kdm-industry-client-title">Spurt Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Micro-FUE Hair Transplant & Cosmetic Skin Solutions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="vida skin & hair transplant (bangalore)">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/vidaskinhairtransplantbangalore.webp" alt="Vida Skin & Hair Transplant (Bangalore) Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-dermatology">Cosmetic Dermatology & Hair</span>
+            <h4 class="kdm-industry-client-title">Vida Skin & Hair Transplant (Bangalore)</h4>
+            <p class="kdm-industry-client-desc">Aesthetic Skin Rejuvenation & Follicle Restoration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="vivaa hair & aesthetics">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/vivaaaesthetics.webp" alt="Vivaa Hair & Aesthetics Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Surgery & Aesthetics</span>
+            <h4 class="kdm-industry-client-title">Vivaa Hair & Aesthetics</h4>
+            <p class="kdm-industry-client-desc">Facial Sculpting, Laser Aesthetics & Hair Restoration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="vlcc hair build">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/hair-cosmetic-surgeon/vlcc-hair-build.webp" alt="VLCC Hair Build Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Cosmetic Treatment & Clinic</span>
+            <h4 class="kdm-industry-client-title">VLCC Hair Build</h4>
+            <p class="kdm-industry-client-desc">High-Density Hair Thickening & Scalp Restoration</p>
+          </div>
+        </div>
+          </div>
+
+          <!-- Empty Search State -->
+          <div id="kdmIndustryEmptyState" class="kdm-industry-empty-state" style="display: none;">
+            <i class="fa fa-search" style="font-size: 38px; color: #94a3b8; margin-bottom: 12px;"></i>
+            <h4 style="font-size: 18px; font-weight: 700; color: #1e293b;">No Cosmetic Surgeon Client Found</h4>
+            <p style="font-size: 14px; color: #64748b;">Try searching with a different brand keyword or clear the search query.</p>
+            <button type="button" class="btn btn-sm btn-primary" onclick="clearIndustryClientSearch()" style="margin-top: 10px; border-radius: 20px; padding: 6px 18px;">Reset Search</button>
+          </div>
+
+          <!-- Bottom Direct CTA Banner -->
+          <div class="kdm-industry-clients-cta-strip">
+            <div class="kdm-industry-cta-content">
+              <span class="kdm-industry-cta-badge"><i class="fa fa-check-circle"></i> PROVEN INDUSTRY DOMINANCE</span>
+              <h3 class="kdm-industry-cta-title">Want Similar 340%+ Patient Consultation Growth For Your Cosmetic Surgery Practice?</h3>
+              <p class="kdm-industry-cta-desc">Partner with India's most trusted digital marketing agency for cosmetic and plastic surgeons. Get custom SEO, Google PPC, Meta reels, and high-intent patient acquisition funnels.</p>
+            </div>
+            <div class="kdm-industry-cta-btn-wrap">
+              <a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-industry-cta-button">
+                <i class="fa fa-calendar-check"></i> Book Free Strategy Call <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section><!-- ===== 2. OVERVIEW & INDUSTRY INTRO SECTION ===== -->
       <section class="kdm-intro-content-section">
         <div class="container">
           <div class="kdm-intro-card-box">
@@ -736,7 +1512,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/qht.webp" alt="QHT Hair Transplant &amp; Cosmetic Surgery" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/qht.jpeg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/qht.webp" alt="QHT Hair Transplant &amp; Cosmetic Surgery" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">QHT Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Hair Transplant &amp; Cosmetic Surgery)</h4>
@@ -756,7 +1532,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/dncc_dr-nishita seth-cosmetic surgeon.webp" alt="DNCC Dermatology &amp; Cosmetic Care" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/dncc_dr-nishita%20seth-cosmetic%20surgeon.webp" alt="DNCC Dermatology &amp; Cosmetic Care" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">DNCC Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Dermatology &amp; Cosmetic Care)</h4>
@@ -776,7 +1552,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/dr-pk-talwar.webp" alt="Dr. P.K. Talwar Cosmetic Surgeon" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/dr-pk-talwar.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/dr-pk-talwar.webp" alt="Dr. P.K. Talwar Cosmetic Surgeon" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Dr. P.K. Talwar</h3>
                   <h4 class="kdm-case-v3-subtitle">(Cosmetic &amp; Plastic Surgeon)</h4>
@@ -796,7 +1572,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/cara_clinic_cosmetic surgeon mumbai.webp" alt="Cara Aesthetic &amp; Cosmetic Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/cara_clinic_cosmetic%20surgeon%20mumbai.webp" alt="Cara Aesthetic &amp; Cosmetic Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Cara Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Aesthetic &amp; Cosmetic Clinic)</h4>
@@ -816,7 +1592,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/cocoona.webp" alt="Cocoona Plastic Surgery Centre" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/cocoona.jpeg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/cocoona.webp" alt="Cocoona Plastic Surgery Centre" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Cocoona Centre</h3>
                   <h4 class="kdm-case-v3-subtitle">(Plastic Surgery &amp; Aesthetic Medicine)</h4>
@@ -836,7 +1612,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/dr-sanjay-parashar.webp" alt="Dr. Sanjay Parashar Plastic Surgeon" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/dr-sanjay-parashar.jpeg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/dr-sanjay-parashar.webp" alt="Dr. Sanjay Parashar Plastic Surgeon" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Dr. Sanjay Parashar</h3>
                   <h4 class="kdm-case-v3-subtitle">(Consultant Plastic Surgeon)</h4>
@@ -856,7 +1632,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/medispa.webp" alt="Medispa Hair Transplant &amp; Cosmetic Surgery" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/medispa.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/medispa.webp" alt="Medispa Hair Transplant &amp; Cosmetic Surgery" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Medispa Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Cosmetic Surgery &amp; Hair Transplant)</h4>
@@ -876,7 +1652,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/medhair.webp" alt="Medhair Hair Transplant Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/medhair.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/medhair.webp" alt="Medhair Hair Transplant Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Medhair Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Hair Transplant &amp; Aesthetic Surgery)</h4>
@@ -896,7 +1672,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/adgrohair.webp" alt="Adgro Hair Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/adgrohair.jpeg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/adgrohair.webp" alt="Adgro Hair Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Adgro Hair Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Hair Restoration &amp; Cosmetic Surgery)</h4>
@@ -916,7 +1692,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/sareen-hair-clinic.webp" alt="Sareen Hair Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/sareen-hair-clinic.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/sareen-hair-clinic.webp" alt="Sareen Hair Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Sareen Hair Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Aesthetic Hair &amp; Cosmetic Surgery)</h4>
@@ -936,7 +1712,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/aishh.webp" alt="AISHH Aesthetic Dermatology &amp; Laser" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/aishh.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/aishh.webp" alt="AISHH Aesthetic Dermatology &amp; Laser" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">AISHH Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Aesthetic Dermatology &amp; Laser)</h4>
@@ -956,7 +1732,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/city-clinic.webp" alt="City Clinic Cosmetic Center" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/city-clinic.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/city-clinic.webp" alt="City Clinic Cosmetic Center" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">City Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Multi-Specialty Cosmetic &amp; GMB SEO)</h4>
@@ -976,7 +1752,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/scala-clinic.webp" alt="Scala Cosmetic &amp; Hair Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/scala-clinic.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/scala-clinic.webp" alt="Scala Cosmetic &amp; Hair Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Scala Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Cosmetic &amp; Hair Restoration)</h4>
@@ -996,7 +1772,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/chavan-cosmetic-clinic.webp" alt="Chavan Cosmetic Surgery Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/chavan-cosmetic-clinic.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/chavan-cosmetic-clinic.webp" alt="Chavan Cosmetic Surgery Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Chavan Cosmetic Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Plastic &amp; Cosmetic Surgery)</h4>
@@ -1016,7 +1792,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/procerus-clinic.webp" alt="Procerus Cosmo-Laser Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/procerus-clinic.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/procerus-clinic.webp" alt="Procerus Cosmo-Laser Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Procerus Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Cosmo-Laser &amp; Aesthetic Clinic)</h4>
@@ -1032,15 +1808,15 @@
                 </div>
               </div>
 
-              <!-- 16. Dr. Ankita Dhingra -->
+              <!-- 16. Dr. Gautam Choudhary -->
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/ankita-dhingra.webp" alt="Dr. Ankita Dhingra Cosmetic Dermatologist" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/ankita-dhingra.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/drgcgautamchaoudhary.webp" alt="Dr. Gautam Choudhary Cosmetic &amp; Plastic Surgery" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
-                  <h3 class="kdm-case-v3-title">Dr. Ankita Dhingra</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Cosmetic Dermatologist)</h4>
-                  <p class="kdm-case-v3-desc">Scaled personal brand visibility and cosmetic dermatology bookings by 270% using Instagram Reels and local SEO.</p>
+                  <h3 class="kdm-case-v3-title">Dr. Gautam Choudhary</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Cosmetic &amp; Plastic Surgeon)</h4>
+                  <p class="kdm-case-v3-desc">Scaled personal brand visibility and cosmetic surgery bookings by 270% using Instagram Reels and local SEO.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
@@ -1056,7 +1832,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/rp.webp" alt="RP Hair &amp; Skin Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/rp.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/rp.webp" alt="RP Hair &amp; Skin Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">RP Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Hair &amp; Aesthetic Surgery)</h4>
@@ -1076,7 +1852,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/heal24.webp" alt="Heal24 Healthcare Cosmetic Services" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/heal24.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/heal24.webp" alt="Heal24 Healthcare Cosmetic Services" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Heal24 Healthcare</h3>
                   <h4 class="kdm-case-v3-subtitle">(Medical Aesthetic Care)</h4>
@@ -1096,7 +1872,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/dr_as_logo_fuse-hair-transplantwebp.webp" alt="Dr. A's Clinic Fuse Hair" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/dr_as_logo_fuse-hair-transplantwebp.webp" alt="Dr. A's Clinic Fuse Hair" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Dr. A's Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Aesthetic &amp; Hair Transplant)</h4>
@@ -1116,7 +1892,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/enhance-clinic.webp" alt="Enhance Clinic Plastic Surgery" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/enhance-clinic.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/enhance-clinic.webp" alt="Enhance Clinic Plastic Surgery" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Enhance Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Plastic Surgery &amp; Hair Restoration)</h4>
@@ -1136,7 +1912,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/Eterna Aesthetic Clinic EVA.webp" alt="Eva Skin &amp; Cosmetic Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/eva-india.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/Eterna%20Aesthetic%20Clinic%20EVA.webp" alt="Eva Skin &amp; Cosmetic Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Eva Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Aesthetic Surgery &amp; Laser)</h4>
@@ -1156,7 +1932,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/cliniq-hair-transplant.webp" alt="Cliniq Hair Clinic Hyderabad" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/cliniq-hair-transplant.webp" alt="Cliniq Hair Clinic Hyderabad" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Cliniq Hair Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Hair Transplant &amp; Aesthetics)</h4>
@@ -1176,7 +1952,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/dr-compass.webp" alt="Dr. Compass Hair Transplant Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/dr-compass.jpeg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/dr-compass.webp" alt="Dr. Compass Hair Transplant Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Dr. Compass</h3>
                   <h4 class="kdm-case-v3-subtitle">(Hair Transplant &amp; Plastic Surgery)</h4>
@@ -1192,14 +1968,14 @@
                 </div>
               </div>
 
-              <!-- 24. Olympus Clinic -->
+              <!-- 24. Fuse Hair Clinic -->
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/olympus-clinic.webp" alt="Olympus Cosmetic Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/olympus-clinic.jpeg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/dr_as_logo_fuse-hair-transplantwebp.webp" alt="Fuse Hair Transplant &amp; Aesthetic Surgery" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
-                  <h3 class="kdm-case-v3-title">Olympus Clinic</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Cosmetic &amp; Laser Surgery)</h4>
+                  <h3 class="kdm-case-v3-title">Fuse Hair Clinic</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Cosmetic &amp; Hair Restoration)</h4>
                   <p class="kdm-case-v3-desc">Increased surgical procedure consultations by 260% using precision Google Ads Search &amp; Display Remarketing.</p>
                 </div>
                 <div>
@@ -1216,7 +1992,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/age-hair-transplant.webp" alt="Age Hair Transplant Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/age-hair-transplant.jpeg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/age-hair-transplant.webp" alt="Age Hair Transplant Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Age Hair Clinic</h3>
                   <h4 class="kdm-case-v3-subtitle">(Surgical Hair Restoration)</h4>
@@ -1232,15 +2008,15 @@
                 </div>
               </div>
 
-              <!-- 26. Novasc Clinic -->
+              <!-- 26. Spurt Clinic -->
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/novasc.webp" alt="Novasc Aesthetic Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/novasc.jpeg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/spurt-hair-clinic.webp" alt="Spurt Aesthetic &amp; Hair Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
-                  <h3 class="kdm-case-v3-title">Novasc Clinic</h3>
-                  <h4 class="kdm-case-v3-subtitle">(Aesthetic Surgery &amp; Laser)</h4>
-                  <p class="kdm-case-v3-desc">Grew facial aesthetics &amp; cosmetic laser treatment inquiries by 240% using Meta video ads &amp; landing page CRO.</p>
+                  <h3 class="kdm-case-v3-title">Spurt Clinic</h3>
+                  <h4 class="kdm-case-v3-subtitle">(Aesthetic Surgery &amp; Hair Care)</h4>
+                  <p class="kdm-case-v3-desc">Grew facial aesthetics &amp; cosmetic treatment inquiries by 240% using Meta video ads &amp; landing page CRO.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
@@ -1256,7 +2032,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/hera-hair-solutions.webp" alt="Hera Hair Solutions" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/hera-hair-solutions.jpg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/herahairsolutions.webp" alt="Hera Hair Solutions" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Hera Hair Solutions</h3>
                   <h4 class="kdm-case-v3-subtitle">(Hair Restoration &amp; Video Ads)</h4>
@@ -1276,7 +2052,7 @@
               <div class="kdm-case-v3-card">
                 <div>
                   <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/vivaa-aesthetics.webp" alt="Vivaa Aesthetics Cosmetic Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/vivaa-aesthetics.jpg';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                    <img src="images/client/hair-cosmetic-surgeon/vivaaaesthetics.webp" alt="Vivaa Aesthetics Cosmetic Clinic" class="kdm-case-v3-logo" loading="lazy" decoding="async" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                   </div>
                   <h3 class="kdm-case-v3-title">Vivaa Aesthetics</h3>
                   <h4 class="kdm-case-v3-subtitle">(Cosmetic &amp; Aesthetic Surgery)</h4>

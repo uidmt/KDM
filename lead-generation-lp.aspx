@@ -1,2436 +1,1680 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<title>Digital Marketing for lead genration</title>
-		<!-- <meta name="keywords"
-			content="digital marketing for stock market, stock market marketing services, digital marketing for traders, stock trading lead generation, marketing for stock brokers, SEO for stock market website, stock market advertising strategies, social media marketing for traders, stock market promotion services, PPC for stock trading business, online marketing for investment firms, financial services digital marketing, lead generation for stock advisors, stock market branding services, digital marketing agency for finance">
-		<meta name="description"
-			content="Grow your stock market business with result-driven digital marketing strategies including SEO, PPC, social media marketing, and lead generation tailored for traders, brokers, and financial service providers to boost visibility, traffic, and conversions.">
-		<link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-stock-marketing.aspx">
-		<meta property="og:title" content="Digital Marketing for Stock Marketing">
-		<meta property="og:image"
-			content="https://www.kingofdigitalmarketing.com/images/thumbnail/digital%20marketing%20services%20for%20astrology.jpg">
-		<meta property="og:description"
-			content="Grow your stock market business with powerful digital marketing strategies.">
-		<meta property="og:type" content="website" />
-		<meta property="og:url"
-			content="https://www.kingofdigitalmarketing.com/digital-marketing-for-stock-marketing.aspx">
-		<meta name="twitter:card" content="summary_large_image"> -->
-		<!-- <link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
-		-->
+    <!-- ==========================================================================
+         KDM HIGH-CONVERTING LEAD GENERATION LANDING PAGE (lead-generation-lp.aspx)
+         ========================================================================== -->
+    <title>High-Quality Lead Generation Services | King of Digital Marketing</title>
+    <meta name="keywords" content="high quality lead generation, lead generation company, b2b lead generation, google ads for lead generation, facebook lead generation, get quality leads, king of digital marketing, gaurav dubey" />
+    <meta name="description" content="Generate high-quality leads that convert into paying clients. High-converting Google & Meta Ads lead funnels for healthcare, education, astrology, real estate, and B2B." />
+    <link rel="canonical" href="https://www.kingofdigitalmarketing.com/lead-generation-lp.aspx" />
+    <meta property="og:title" content="High-Quality Lead Generation Services | King of Digital Marketing" />
+    <meta property="og:description" content="Get verified, high-quality leads delivered daily to your sales team with automated WhatsApp and CRM lead funnels." />
+    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/lead-genration-background.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.kingofdigitalmarketing.com/lead-generation-lp.aspx" />
+    <meta name="twitter:card" content="summary_large_image" />
 
- <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VRK6TTWH4K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google Tag Manager (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VRK6TTWH4K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VRK6TTWH4K');
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17892113137"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17892113137');
+    </script>
 
-  gtag('config', 'G-VRK6TTWH4K');
-</script>
+    <!-- Font Awesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17892113137"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17892113137');
-</script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<!-- phone no field country code -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
-    <script src="js/kdm-faq.js"></script>
+    <!-- International Telephone Input CSS & JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<link rel="stylesheet" href="css/images.css">
- <style>
-#header,#footer{
-  display: none;
-}
-.body {
-    display: none;
-}
-.whatsapp_float2{
-  display: none;
-}
- .whatsapp_float{
-  bottom: 200px !important;
-}
-/* Reset */
-.landing-page i{
-  font-family: "Font Awesome 7 free" !important;
-}
-.landing-page * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;   
-}
-.landing-page section{
-  padding: 80px 20px;
-}
-.landing-page h1,h2,h3{
-  color: white;
-}
-/* header */
-.landing-page header{
-      padding: 10px 80px;
-  display: flex;
-  justify-content: space-between;
-      align-items: center;
-      background-color: #0b1120;
-}
-.landing-page .logo {
-    width: fit-content;
+    <link rel="stylesheet" href="css/images.css" />
     
-}
-.landing-page .logo p {
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-}
-.landing-page .head-btn { 
-    width: 150px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-.landing-page .head-btn i{
-  transition: all .3s ease;
-}
-.landing-page .head-btn i:hover{
-  transform: scale(1.1);
-}
-.landing-page  .head-btn .phone{
-  color: #38bdf8;
-}
-.landing-page .phone i.fa-solid.fa-phone {
-    width: 36px;
-    height: 34px;
-    font-size: 15px;
-    padding: 7px;
-    border-radius: 50%;
-    border: 2px solid;
-}
-.landing-page .chat-button i{
-color: #3cf601;
-font-size:35px;
-font-family: "Font Awesome 7 brands" !important;
-}
-
-/* HERO SECTION */
-.landing-page .hero {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  padding: 60px 20px;
-     background: linear-gradient(135deg, rgb(10 37 64 / 90%), rgb(29 78 216 / 90%), rgb(96 165 250 / 90%)), url(./images/lead-genration-background.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center ;
-}
-.landing-page  .hero .container{
-  display: flex;
- 
-}
-/* CONTENT */
-.landing-page  .hero-content {
-    max-width: 600px;
-    margin-right: 35px;
-}
-/* HEADING */
-.landing-page  .hero h1 {
-  font-size: 65px;
-  font-weight: 800;
-  line-height: 1.1;
-  margin-bottom: 20px;
-}
-.landing-page  .hero h1 span {
-  color: #38bdf8;
-}
-/* SUBHEADING */
-.landing-page .subheading {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #e2e8f0;
-}
-/* DESCRIPTION */
-.landing-page .hero ul {
-    list-style: none;
-    font-size: 16px;
-}
-.landing-page .hero ul li{
-  margin-left: 5px;
-  margin-bottom: 10px;
-}
-.landing-page .hero ul li i{
-  margin-right: 5px;
-}
-/* BUTTONS */
-.landing-page  .cta-buttons {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  margin-bottom: 25px;
-}
-.landing-page .btn {
-  padding: 14px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s;
-}
-/* PRIMARY BUTTON */
-.landing-page .btn.primary {
-    border: 1px solid transparent;
-    background: linear-gradient(135deg, #ffb347, #ffd700, #ffcc33);
-    color: #000000;
-    margin-top: 25px;
-}
-.landing-page  .btn.primary:hover {
-    border: 1px solid #ffb347;
-    background: #00000000;
-    color: #ffd700;
-}
-/* TRUST LINE */
-.landing-page .trust-line {
-    border-radius: 10px;
-    border: 1px solid;
-    padding: 10px;
-    font-size: 18px;
-    color: #e0f2fe;
-    opacity: 0.9;
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(12px);
-}
-.landing-page  .animate-pop{
-  opacity: 0;
-  transform: scale(0.8);
-  animation: popup .8s ease forwards;
-}
-@keyframes popup{
-  to{
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-.landing-page .form-container {
-    padding: 25px;
-    border-radius: 30px;
-    display: flex;
-    width: 400px;
-    background-color: rgb(248 250 252);
-    color: #0b1120;
-    text-align: left;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    height: fit-content;
-}
-.landing-page .form-container h3 {
-    font-size: 28px;
-    text-align: center;
-    color: #0b1120 !important;
-    line-height: 1.2;
-    margin-bottom: 12px;
-    font-weight: 700;
-}
-.landing-page .form-container form {
-    margin-top: 12px;
-    width: 90%;
-}
-.landing-page .form-container label {
-    margin-bottom: 8px;
-    font-weight: 700;
-}
-.landing-page .form-container span{
-    color: red;
-}
-.landing-page .form-container input {
-    height: 45px;
-    border-radius: 12px;
-    outline: none;
-    border: 1px solid #d6d5d5;
-    text-align: left;
-    width: 100%;
-    padding: 14px 10px;
-    border: 1px solid #ccc;
-    color: #111827;
-    background-color: rgb(248 250 252) !important;
-}
-.landing-page .iti__selected-flag {
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 15px;
-    padding: 5px;
-}
-.landing-page .iti__country-name {
-  display: none;
-}
-.landing-page .iti__flag-box {
-    margin: 7px;
-}
-.landing-page .form-container input[type='email']{
-  background-color: white;
-   color: #111827;
-}
-.landing-page .input-field {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 10px;
-    position: relative;
-}
-.landing-page .input-field label {
-  /* position: absolute;
-  left: 10px;
-  top: 0px; */
-  color: #111827;
-  padding: 0 5px 0;
-}
-
-/* .landing-page .input-field input:focus + label,
-.landing-page .input-field input:not(:placeholder-shown) + label,
-.landing-page .input-field textarea:focus + label,
-.landing-page .input-field textarea:not(:placeholder-shown) + label  {
-  top: -14px;
-  font-size: 12px;
-  color: #0b1120;
-} */
-.landing-page .form-container textarea{
-  border: 1px solid #d6d5d5;
-  border-radius: 10px;
-   outline: none;   
-    padding: 10px;
-    position: relative;
-     color: #111827;
-}
-.form-container .form-btn{
-    width: 100%;
-    padding: 5px;
-    margin-top: 13px;
-}
-/* form error handling */
-.landing-page .input-field {
-  position: relative;
-}
-.landing-page button:disabled {
-  background: #ccc;
-  cursor: not-allowed;
-}
-.landing-page .error {
-  color: red;
-  font-size: 12px;
-  display: block;
-  margin-top: 4px;
-}
-.landing-page .input-field input.error-border,
-.input-field textarea.error-border {
-  border-color: red;
-}
-.landing-page .input-field input.success,
-.input-field textarea.success {
-  border-color: green;
-}
-/* popup form */
-.landing-page .popup-form-container{
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.4s ease;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  background: rgb(255 255 255 / 14%);
-  backdrop-filter: blur(4px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 5;
-}
-.landing-page .popup-form-container.form-show{
-  opacity: 1;
-  pointer-events: auto;
-   display: flex;
-}
-/* close icon */
-.landing-page .popup-form-container .form-container i.fa-xmark{
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  color: #0a2540;
-  cursor: pointer;
-}
-.landing-page .popup-form-container .form-container{
-  max-width: 500px;
-  position: relative;
-}
-.landing-page .popup-form-container .form-container h3{
-  color: white;
-}
-/* counter */
-.landing-page .counter{
-  padding: 0px 20px;
-}
-.landing-page .counter .ip-result-grid{
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
-  justify-items: center;
-  align-items: center;
-  gap: 20px;
-  padding: 50px 0; 
-}
-.landing-page .ip-result-card {
-    background: linear-gradient(135deg, #111441, #337ab7);
-    padding: 35px 20px;
-    border-radius: 10px;
-    width: 250px;
-    text-align: center;
-    color: #ffffff;
-    transition: 0.3s ease;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-}
-.landing-page .ip-result-card strong { 
-  font-size: 35px;
-  color: white;
-  font-weight: 700;
-  margin: 14px 0;
-}
-  /* Problem solution section */
-.landing-page .ps-section {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #0a2540, #1d4ed8);
-  color: #fff;
-}
-/* FLEX WRAPPER */
-.landing-page .ps-wrapper {
-  display: flex;
-  gap: 30px;
-}
-/* BOX */
-.landing-page .ps-box {
-  border: 1px solid;
-  flex: 1;
-  padding: 30px;
-  border-radius: 16px;
-  backdrop-filter: blur(12px);
-  background: rgba(255, 255, 255, 0.05);
-  transition: 0.3s;
-}
-.landing-page .ps-box:hover {
-  transform: translateY(-5px);
-}
-/* HEADINGS */
-.landing-page .ps-box h2 {
-  font-size: 26px;
-  margin-bottom: 15px;
-  font-weight: 700;
-}
-/* INTRO */
-.landing-page .ps-intro {
-  font-size: 18px;
-  color: #cbd5e1;
-  margin-bottom: 20px;
-}
-/* LIST */
-.landing-page .ps-box ul {
-  list-style: none;
-  padding: 0;
-}
-.landing-page .ps-box ul li {
-  margin-bottom: 12px;
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-}
-/* ICON */
-.landing-page .ps-box ul li i {
-  margin-right: 10px;
-  font-size: 16px;
-}
-/* PROBLEM ICON COLOR */
-.landing-page .problem-box i {
-  color: #ef4444;
-}
-/* SOLUTION ICON COLOR */
-.landing-page .solution-box i {
-  color: #22c55e;
-}
-/* FOOTER */
-.landing-page .ps-footer {
-  margin-top: 20px;
-  font-size: 18px;
-  color: #fca5a5;
-}
-.landing-page .ps-footer.success {
-  color: #4ade80;
-}
-/* brand section */
-.landing-page .brand-images {
-    background: linear-gradient(135deg, #1d4ed8, #60a5fa);
-}
-.landing-page .brand-images h2{
-  margin-bottom: 30px;
-  text-align: center;
-}
-.landing-page .happy{
-  border: none;
-}
-/* industry section */
-.landing-page .industry-section {
-  padding: 80px 20px;
-  background: #0b1120;
-  color: #fff;
-  text-align: center;
-}
-/* HEADING */
-.landing-page .industry-section h2 {
-  font-size: 36px;
-  font-weight: 800;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-/* SUBTEXT */
-.landing-page .industry-subtext {
-  font-size: 16px;
-  color: #cbd5e1;
-  margin-bottom: 50px;
-}
-/* GRID */
-.landing-page .industry-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
-  justify-items: center;
-}
-.landing-page .industry-card:nth-child(1){
-  background-image: url(./images/hair-transplant.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.landing-page .industry-card:nth-child(2){
-  background-image: url(./images/cosmectic1.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.landing-page .industry-card:nth-child(3){
-  background-image: url(./images/study-abroad1.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.landing-page .industry-card:nth-child(4){
-  background-image: url(./images/astrologer.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/* CARD */
-.landing-page .industry-card {
-    display: flex;
-    width: 265px;
-    height: 400px;
-    padding: 30px 20px;
-    border-radius: 15px;
-    transition: 0.3s;
-    text-align: left;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
-    color: #fff !important;
-    transition: all 0.4s ease;
-  }
-.landing-page .industry-card::before{
-content:"";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top, #000000cf, #ffffff03);
-  z-index: 1;
-  border-radius: 15px;
-
-}
-.landing-page .industry-card:hover {
-  background-position: bottom;
-}
-
-.landing-page .industry-card h3{
-  z-index: 2;
-  transition: transform 0.4s ease;
-  font-size: 18px;
-  margin-bottom: 12px;
-}
-/* Content hidden initially */
-.landing-page .industry-card .content {
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: all 0.5s ease;
-  z-index: 2;
-  font-weight: 700;
-}
-
-/* Show content */
-.landing-page .industry-card:hover .content {
-  max-height: 150px;
-  opacity: 1;
-}
-
-/* Move heading up */
-.landing-page .industry-card:hover h3 {
-  transform: translateY(-10px);
-}
-/* ICON BOX */
-.landing-page .industry-card .icon {
-  width: 55px;
-  height: 55px;
-  background: linear-gradient(135deg, #1d4ed8, #60a5fa);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
-
-.landing-page .industry-card .icon i {
-  font-size: 22px;
-  color: #fff;
-}
-/* LIST */
-.landing-page .industry-card ul {
-  list-style: none;
-  padding: 0;
-}
-
-.landing-page .industry-card ul li {
-  font-size: 14px;
-  margin-bottom: 10px;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-}
-.landing-page .industry-card ul li i {
-  color: #22c55e;
-  margin-right: 8px;
-  font-size: 12px;
-}
-/* process section */
-.landing-page .process-section {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #0a2540, #1d4ed8);
-  /* background: #0b1120; */
-  color: #fff;
-  text-align: center;
-}
-/* HEADING */
-.landing-page .process-section h2 {
-  font-size: 34px;
-  font-weight: 800;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.landing-page .process-subtext {
-  color: #cbd5e1;
-  margin-bottom: 50px;
-}
-/* GRID */
-.landing-page .process-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-}
-/* CARD */
-.landing-page .process-card {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 30px 15px;
-  border-radius: 16px;
-  position: relative;
-  transition: 0.3s;
-  backdrop-filter: blur(10px);
-}
-.landing-page .process-card:hover {
-  transform: translateY(-8px);
-  background: rgba(255, 255, 255, 0.08);
-}
-/* STEP NUMBER */
-.landing-page .step-number {
-  position: absolute;
-  top: -12px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #1d4ed8;
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-/* ICON */
-.landing-page .process-card i {
-  font-size: 24px;
-  color: #22c55e;;
-  margin-bottom: 10px;
-}
-
-/* TITLE */
-.landing-page .process-card h3 {
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-/* TEXT */
-.landing-page .process-card p {
-  font-size: 13px;
-  color: #cbd5e1;
-}
-/* FOOTER */
-.landing-page .process-footer {
-  margin-top: 40px;
-      font-size: 18px;
-    color: #fde047;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-/* result section */
-.results-section {
-  padding: 80px 20px;
-  background: #0b1120;
-  color: #fff;
-}
-/* WRAPPER */
-.results-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-/* LEFT */
-.results-content {
-  flex: 1;
-}
-/* RIGHT IMAGE */
-.results-image {
-  flex: 1;
-  text-align: center;
-}
-.results-image img {
-  width: 100%;
-  max-width: 450px;
-  border-radius: 16px;
-}
-/* HEADING */
-.landing-page .results-content h2 {
-  font-size: 34px;
-  font-weight: 800;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-/* SUBTEXT */
-.landing-page .results-subtext {
-  color: #cbd5e1;
-  margin-bottom: 30px;
-}
-/* GRID */
-.landing-page .results-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-/* CARD */
-.landing-page .result-card {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 20px;
-  border-radius: 12px;
-  backdrop-filter: blur(10px);
-  transition: 0.3s;
-}
-.landing-page .result-card:hover {
-  transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.08);
-}
-/* ICON */
-.landing-page .result-card i {
-  font-size: 24px;
-  color: #4ade80;
-  margin-bottom: 10px;
-}
-/* TEXT */
-.landing-page .result-card h3 {
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-.landing-page .result-card p {
-  font-size: 13px;
-  color: #cbd5e1;
-}
-/* FOOTER */
-.landing-page .results-footer {
-  margin-top: 25px;
-     font-size: 18px;
-    color: #fde047;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-/* why choose us */
-.landing-page .why-section {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #0a2540, #1d4ed8);
-  color: #fff;
-  text-align: center;
-}
-.landing-page .container {
-   color: #fff;
-  max-width: 1100px;
-  margin: auto;
-}
-/* HEADING */
-.landing-page .why-section h2 {
-  font-size: 34px;
-  font-weight: 800;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-/* SUBTEXT */
-.landing-page .why-subtext {
-  color: #cbd5e1;
-  margin-bottom: 50px;
-}
-/* GRID */
-.landing-page .why-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-}
-/* CARD */
-.landing-page .why-card {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 30px 20px;
-  border-radius: 16px;
-  backdrop-filter: blur(10px);
-  transition: 0.3s;
-}
-.landing-page .why-card:hover {
-  transform: translateY(-8px);
-  background: rgba(255, 255, 255, 0.08);
-}
-/* ICON */
-.landing-page .why-card i {
-  font-size: 26px;
-  color: #4ade80;
-  margin-bottom: 15px;
-}
-/* TEXT */
-.landing-page .why-card h3 {
-  font-size: 16px;
-}
-/* FOOTER */
-.landing-page .why-footer {
-  margin-top: 40px;
-     font-size: 18px;
-    color: #fde047;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-/* testimonial section */
-
-.landing-page .testimonial-section {
-  padding: 60px 20px;
-  text-align: center;
-  background: linear-gradient(135deg, #0a2540, #1d4ed8);
-}
-
-/* ===== TRACK ===== */
-.landing-page .testimonial-track {
-  display: flex;
-  gap: 20px;
-  transition: transform 0.5s ease;
-}
-
-/* ===== CARD ===== */
-
-/* inner card design */
-
-.landing-page .testimonial-slider {
-  position: relative;
-  max-width: 1099px;
-  margin: 20px auto 0;
-  overflow: hidden;
-}
-
-.landing-page .testimonial-track-wrapper {
-  overflow: hidden;
-}
-
-
-.landing-page .testimonial-card{
-    flex: 0 0 calc((100% - 40px) / 3);
-    background: #f5f5f5;
-    border-radius: 28px;
-    padding: 22px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    font-family: Arial, sans-serif;
-    position: relative;
-    box-sizing: border-box;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-.landing-page .testimonial-top{
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-bottom: 18px;
-}
-.landing-page .testimg{
-    flex-shrink: 0;
-}
-.landing-page .testimg img{
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-}
-.landing-page .title-des{
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-}
-.landing-page .title{
-    font-size: 18px;
-    font-weight: 700;
-    color: #222;
-    line-height: 1.2;
-    word-break: break-word;
-}
-.landing-page .author-name{
-    font-size: 14px;
-    color: #777;
-    margin-top: 2px;
-    word-break: break-word;
-}
-.landing-page .subtext{
-    font-size: 15px;
-    line-height: 1.7;
-    color: #444;
-    margin-bottom: 18px;
-    font-weight: 500;
-    text-align: left;
-}
-.landing-page .rating{
-    display: flex;
-    justify-content: flex-end;
-    gap: 4px;
-    flex-wrap: wrap;
-}
-.landing-page .rating i{
-    color: #ffb400;
-    font-size: 15px;
-}
-/* Arrows */
-.landing-page .arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #fff;
-  border: none;
-  font-size: 24px;
-  font-weight: 600;
-  padding: 10px 14px;
-  cursor: pointer;
-  border-radius: 50%;
-  z-index: 3;
-background: none;
-}
-
-.landing-page .arrow.left { left: 10px; }
-.landing-page .arrow.right { right: 10px; }
-/* offer section */
-.landing-page .offer-section {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #1d4ed8, #60a5fa);
-  display: flex;
-  justify-content: center;
-}
-/* BOX */
-.landing-page .offer-box {
-  background: rgba(255, 255, 255, 0.08);
-  padding: 50px 30px;
-  border-radius: 20px;
-  text-align: center;
-  backdrop-filter: blur(15px);
-  color: #fff;
-  border: 1px solid #ffffff57;
-}
-/* HEADING */
-.landing-page .offer-box h2 {
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.landing-page .heading-icon {
-  color: #fde047;
-}
-/* SUBTEXT */
-.offer-subtext {
-  font-size: 18px;
-  margin-bottom: 30px;
-  color: #e0f2fe;
-}
-/* LIST */
-.landing-page .offer-list {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 30px;
-}
-.landing-page .offer-list li {
-  font-size: 18px;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.landing-page .offer-list li i {
-  color: #22c55e;
-}
-/* CTA BUTTON */
-.landing-page .cta-btn {
-    border: 1px solid transparent;
-    background: linear-gradient(135deg, #ffb347, #ffd700, #ffcc33);
-    color: #000000;
-    padding: 16px 40px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 800;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: -1px 6px 20px rgb(227 236 255 / 30%);
-    text-decoration: none;
-}
-.landing-page .cta-btn:hover {
-    border: 1px solid #ffb347;
-    background: #00000000;
-    color: #ffd700;
-}
-.auto-btn{
-  margin: auto;
-}
-/* FOOTER */
-.landing-page .offer-footer {
-  margin-top: 35px;
-  font-size: 16px;
-  color: #dcfce7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
-/* FAQ SECTION */
-.landing-page .faq-section {
-  padding: 80px 20px;
-  background: #f9fafb;
-}
-.landing-page .faq-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-.landing-page .faq-title {
-  font-size: 36px;
-  font-weight: 900;
-  text-align: center;
-  margin-bottom: 40px;
-  color: #111827 !important;
-}
-.landing-page .faq-list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-/* FAQ Item */
-.landing-page .faq-item {
-  background: #ffffff;
-  border-radius: 12px;
-  border: 1px solid rgba(0,0,0,0.08);
-  overflow: hidden;
-  transition: 0.3s ease;
-}
-/* Question Button */
-.landing-page .faq-question {
-  width: 100%;
-  padding: 18px 20px;
-  font-size: 16px;
-  font-weight: 700;
-  text-align: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #ffffff;
-    background-color: #0b1120;
-}
-/* Icon */
-.landing-page .faq-question .icon {
-  font-size: 20px;
-  transition: 0.3s;
-}
-/* Answer */
-.landing-page .faq-answer {
-  max-height: 0;
-  overflow: hidden;
-  padding: 0 20px;
-  transition: max-height 0.4s ease, padding 0.3s ease;
-}
-.landing-page .faq-answer p {
-  font-size: 14px;
-  color: #6b7280;
-  line-height: 1.6;
-}
-/* Active State */
-.landing-page .faq-item.active .faq-answer {
-max-height: fit-content;
-  padding: 20px;
-}
-.landing-page .faq-answer ul{
-  margin-left: 20px;
-}
-.landing-page .faq-item.active .icon {
-  transform: rotate(45deg); /* turns + into × */
-}
-/* Hover */
-.landing-page .faq-item:hover {
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-}
-/* FINAL CTA */
-/* Section */
-.landing-page .cta-section {
-  padding: 30px 20px;
-     background: #0b1120; /* soft premium background */
-  text-align: center;
-  margin-bottom: 75px;
-}
-/* Container */
-.landing-page .cta-container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-/* Title */
-.landing-page .cta-title {
-  font-size: 48px;
-  font-weight: 900;
-  color: #ffffff;
-  line-height: 1.3;
-}
-/* Icon */
-.landing-page .cta-icon {
-  font-size: 48px;
-  display: inline-block;
-  margin-bottom: 10px;
-}
-/* Content */
-.landing-page .cta-content {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-.landing-page .cta-subtext {
-  font-size: 18px;
-  font: 600;
-  color: #c0d6f6;
-  margin-top: 15px;
-  line-height: 1.6;
-}
-/* call now */
-.cta-content i{
-  margin-right: 5px;
-}
-/* Phone */
-.landing-page .cta-phone {
-  font-size: 22px;
-  font-weight: 700;
-  color: #374151;
-}
-.landing-page .cta-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 40px;
-    background-color: #1d4ed8;
-    align-items: center;
-    color: white;
-    font-size: 18px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    flex-wrap: wrap;
-    z-index: 4;
-}
-.landing-page .cta-footer p{
-  color: white;
-}
-/* RESPONSIVE */
-@media (max-width: 992px) {
-.landing-page   .hero {
-    text-align: center;
-  }
- .landing-page  .hero-content {
-    text-align: left;
-    margin: auto;
-  }
- .landing-page  .hero h1 {
-    font-size: 32px;
-  }
-  .landing-page .subheading {
-    font-size: 18px;
-  }
-  .landing-page .description {
-    font-size: 15px;
-  }
-  .landing-page .cta-buttons {
-    justify-content: center;
-  }
-  /* PROBLEM SOLUTION SECTION */
-  .landing-page  .ps-wrapper {
-    flex-direction: column;
-  }
-   .landing-page .process-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  /* industry section */
-  .landing-page .industry-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-/* tablet result */
- .landing-page .results-wrapper {
-    flex-direction: column;
-  }
-  .landing-page .results-image img {
-    max-width: 350px;
-  }
-  /* tablet why section */
-   .landing-page .why-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  /* testimonial card */
-    .landing-page .testimonial-card{
-        flex: 0 0 calc((100% - 20px) / 2);
-        padding: 20px;
-        border-radius: 24px;
-    }
-  .landing-page  .landing-page  .title{
-        font-size: 17px;
-    }
-   .landing-page .author-name{
-        font-size: 13px;
-    }
-  .landing-page   .subtext{
-        font-size: 14px;
-        line-height: 1.6;
-    }
-}
-@media (max-width: 576px) {
-   .landing-page header{
-      padding: 10px 20px;
-  }
-  .landing-page .logo {
-    font-size: 12px;
-}
-.landing-page .logo p {
-    color: white;
-    font-size: 12px;
-    font-weight: 600;
-}
-  .landing-page .head-btn{
-     width: 150px;
-    justify-content: space-evenly;
-  }
- .landing-page .phone i.fa-solid.fa-phone {
-          width: 32px;
-        height: 32px;
-        font-size: 12px;
- }
-  .landing-page .chat-button {
-    font-size: 30px;
-}
-  .landing-page .hero h1 {
-    font-size: 32px;
-  }
-  .landing-page .subheading {
-    font-size: 16px;
-  }
-  .landing-page .hero .container {
-    row-gap: 25px;
-    flex-direction: column;
-}
-.landing-page .trust-line {
-    text-align: center;
-  }
-.landing-page .form-container{
-   text-align: left;
-   width: 320px;
-   margin: 0 auto;
-}
-  /* PROBLEM SOLUTION */
-   .landing-page .ps-wrapper {
-    flex-direction: column;
-  }
-
-  /* industry section */
-   .landing-page .industry-grid {
-    grid-template-columns: 1fr;
-  }
-  .landing-page .industry-section h2 {
-    font-size: 26px;
-    flex-direction: column;
-  }
-  /* mobile process section */
-  .landing-page .process-section{
-    padding: 40px 20px;
-  }
-.landing-page .process-grid {
-    grid-template-columns: 1fr;
-  }
-  .landing-page .process-section h2 {
-    font-size: 24px;
-    flex-direction: column;
-  }
-/* mobile result section */
-  .landing-page .results-grid {
-    grid-template-columns: 1fr;
-  }
-  .landing-page .cta-btn {
-    font-size: 14px;}
-  .landing-page .results-content h2 {
-    font-size: 24px;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .landing-page .why-grid {
-    grid-template-columns: 1fr;
-  }
-  .landing-page .why-section h2 {
-    font-size: 24px;
-    flex-direction: column;
-  }
-  /* testmonial slider */
-  
-   .landing-page  .testimonial-card{
-      flex: 0 0 100%;
-        padding: 18px;
-        border-radius: 20px;
-    }
-    .landing-page .testimonial-top{
-        gap: 12px;
-    }
-    .landing-page .testimg img{
-        width: 48px;
-        height: 48px;
-    }
-   .landing-page  .title{
-        font-size: 16px;
-    }
-    .landing-page .author-name{
-        font-size: 12px;
-    }
-    .landing-page .subtext{
-        font-size: 13px;
-        line-height: 1.6;
-    }
-   .landing-page  .rating i{
-        font-size: 14px;
-    }
-  /* mobile offer section */
-  .landing-page .offer-box {
-    padding: 35px 20px;
-  }
-  .landing-page .offer-box h2 {
-    font-size: 22px;
-    flex-direction: column;
-  }
-  .landing-page .offer-list li {
-    font-size: 14px;
-  }
-  /* cta section  */
-  .landing-page .cta-section {
-    margin-bottom: 130px;
-}
-  /* cta footer */
- .landing-page .cta-footer{
-    flex-wrap: wrap;
-    row-gap: 10px;
-    text-align: center;
-    justify-content: center;
-  }
-}
-    </style>
-    <div class="landing-page">
-  
-  <section class="locationdetails-numbers-section">
-	<div class="container">
-		<div class="row center counters dark counters-row">
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-line-chart counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">780+</strong>
-				<label class="counter-label" style="color: #ffffff;">Happy Clients</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-star counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">4.9/5★</strong>
-				<label class="counter-label" style="color: #ffffff;">Client Rating</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-bullseye counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">900+</strong>
-				<label class="counter-label" style="color: #ffffff;">Projects Done</label>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<i class="fa fa-trophy counter-icon"></i>
-				<strong class="counter-value" style="font-size: 36px; font-weight: 800; color: #ffffff; display: block; margin-bottom: 4px;">13+</strong>
-				<label class="counter-label" style="color: #ffffff;">Years Exp.</label>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="ps-section">
-  <div class="container">
-    <div class="ps-wrapper">
-      <!-- LEFT: PROBLEM -->
-      <div class="ps-box problem-box">
-        <h2>Tired of Wasting Money on Ads That Don't Convert?</h2>
-        <p class="ps-intro">
-          You're not alone. Most businesses struggle because:
-        </p>
-
-        <ul>
-          <li><i class="fas fa-user-times"></i> You get fake or time-pass leads</li>
-          <li><i class="fas fa-map-marker-alt"></i> Leads from wrong cities or irrelevant audience</li>
-          <li><i class="fas fa-chart-line"></i> Ad spend increases but conversions don't</li>
-          <li><i class="fas fa-random"></i> No proper follow-up or tracking system</li>
-          <li><i class="fas fa-users"></i> Depend only on referrals or organic reach</li>
-        </ul>
-        <div class="ps-footer">
-          The truth is-<strong>without a proper funnel, ads don't work.</strong>
-        </div>
-      </div>
-      <!-- RIGHT: SOLUTION -->
-      <div class="ps-box solution-box">
-        <h2>We Build a Complete Lead Generation Machine</h2>
-        <p class="ps-intro">
-          At King of Digital Marketing, we don't just run ads - we create a full system that brings predictable leads every day.
-        </p>
-       <ul>
-          <li><i class="fas fa-bullseye"></i> Laser-targeted Meta & Google Ads</li>
-          <li><i class="fas fa-chart-line"></i> High-converting landing pages</li>
-          <li><i class="fas fa-phone"></i> WhatsApp & call-based lead funnel</li>
-          <li><i class="fas fa-sync-alt"></i> Smart retargeting strategies</li>
-          <li><i class="fas fa-map-pin"></i> Location-specific audience targeting</li>
-          <li><i class="fas fa-database"></i> Data-driven optimization</li>
-        </ul>
-        <div class="ps-footer success">
-         Result: <strong>More qualified leads, better conversion, higher ROI</strong>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-<section class="brand-images">
-  <h2>Trusted by Leading Brands</h2>
- <div class="happy" id="images">
-        <div class="track">
-    <!-- put your original set of slides here (JS will clone as needed) -->
-    <div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
-    	<div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.webp"></div>
-    <div class="slide"><img alt="cocoona" src="images/cocoona.webp"></div>
-    <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.webp"></div>
-    <div class="slide"><img alt="Planet education" src="images/pl.webp"></div>
-    <div class="slide"><img alt="go to university" src="images/go to university_img.webp"></div>
-    <div class="slide">	<img alt="Dr" src="images/Dr.webp"></div>
-    <div class="slide"><img alt="aliff" src="images/aliff_img.webp"></div>
-    <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.webp"></div>
-    <div class="slide"><img alt="Kundali Expert" src="images/IEAC.webp"></div>
-    <div class="slide"><img alt="Kundali Expert" src="images/Fuse-hair.webp"></div>
-    <div class="slide"><img alt="Kundali Expert" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.webp"></div>
-    <div class="slide"><img alt="Kundali Expert" src="images/astro-alka.webp"></div>
-        </div>
-    </div>
-</section>
-<section class="industry-section">
-  <div class="container">
-    <h2>
-      <i class="fas fa-bullseye heading-icon"></i>
-      Tailored Lead Generation for High-Ticket Industries
-    </h2>
-    <p class="industry-subtext">
-      We understand your business deeply - and that's why we deliver better results.
-    </p>
-    <div class="industry-grid">
-      <!-- 1 -->
-      <div class="industry-card">
-        <h3>Hair Transplant Clinics</h3>
-        <div class="content">
-        <ul>
-          <li><i class="fas fa-check"></i> Get patients actively searching for treatment</li>
-          <li><i class="fas fa-check"></i> Consultation-focused campaigns</li>
-          <li><i class="fas fa-check"></i> Before/after strategy ads</li>
-        </ul>
-        </div>
-      </div>   
-      <!-- 2 -->
-      <div class="industry-card ">
-        <h3>Cosmetic Surgeons</h3>
-        <div class="content">
-        <ul>
-          <li><i class="fas fa-check"></i> Premium client targeting</li>
-          <li><i class="fas fa-check"></i> High-value procedure leads</li>
-          <li><i class="fas fa-check"></i> Privacy-compliant ads</li>
-        </ul>
-        </div>
-      </div>
-      <!-- 3 -->
-      <div class="industry-card">
-        <h3>Study Abroad Consultants</h3>
-        <div class="content">
-        <ul>
-          <li><i class="fas fa-check"></i> Student leads from Tier 1 & 2 cities</li>
-          <li><i class="fas fa-check"></i> Country-specific targeting</li>
-          <li><i class="fas fa-check"></i> Course + intake-based campaigns</li>
-        </ul>
-        </div>
-      </div>
-      <!-- 4 -->
-      <div class="industry-card">
-        <h3>Astrologers & Numerologists</h3>
-        <div class="content">
-        <ul>
-          <li><i class="fas fa-check"></i> Emotional & intent-based targeting</li>
-          <li><i class="fas fa-check"></i> WhatsApp consultation funnel</li>
-          <li><i class="fas fa-check"></i> High engagement creatives</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-    <div class="cta-buttons">
-        <button  class="btn primary auto-btn">Get Free Consultation</button>
-      </div>
-  </div>
-</section>
-<section class="process-section">
-  <div class="container">
-    <h2>
-      <i class="fas fa-cogs heading-icon"></i>
-      Our Proven System That Delivers Leads Consistently
-    </h2>
-    <p class="process-subtext">
-      We follow a tested framework to ensure results:
-    </p>
-    <div class="process-grid">
-      <!-- STEP 1 -->
-      <div class="process-card">
-        <div class="step-number">01</div>
-        <i class="fas fa-search"></i>
-        <h3>Research</h3>
-        <p>Deep business & competitor analysis</p>
-      </div>
-      <!-- STEP 2 -->
-      <div class="process-card">
-        <div class="step-number">02</div>
-        <i class="fas fa-bullseye"></i>
-        <h3>Strategy</h3>
-        <p>Offer + funnel planning</p>
-      </div>
-      <!-- STEP 3 -->
-      <div class="process-card">
-        <div class="step-number">03</div>
-        <i class="fas fa-pencil-ruler"></i>
-        <h3>Design</h3>
-        <p>Landing page & creatives</p>
-      </div>
-      <!-- STEP 4 -->
-      <div class="process-card">
-        <div class="step-number">04</div>
-        <i class="fas fa-rocket"></i>
-        <h3>Launch</h3>
-        <p>Campaign execution & optimization</p>
-      </div>
-      <!-- STEP 5 -->
-      <div class="process-card">
-        <div class="step-number">05</div>
-        <i class="fas fa-chart-line"></i>
-        <h3>Scale</h3>
-        <p>Tracking, testing & growth</p>
-      </div>
-    </div>
-    <div class="process-footer">
-      <i class="fas fa-lightbulb"></i>
-      We don't guess-we analyze, test, and scale
-    </div>
-  </div>
-</section>
-<section class="results-section">
-  <div class="container">
-    <div class="results-wrapper">
-      <!-- LEFT CONTENT -->
-      <div class="results-content">
-        <h2>
-          <i class="fas fa-chart-line heading-icon"></i>
-          Real Businesses. Real Leads. Real Growth.
-        </h2>
-        <p class="results-subtext">
-          Our strategies have helped clients achieve:
-        </p>
-        <div class="results-grid">
-          <div class="result-card">
-            <i class="fas fa-money-bill-wave"></i>
-            <h3>1000+ Leads/Month</h3>
-            <p>For Hair Transplant & Cosmetic Surgeries</p>
-          </div>
-          <div class="result-card">
-            <i class="fas fa-rocket"></i>
-            <h3>Up to 5X ROI</h3>
-            <p>On ad spend across campaigns</p>
-          </div>
-          <div class="result-card">
-            <i class="fas fa-user-graduate"></i>
-            <h3>1500+ Student Leads</h3>
-            <p>for Study Abroad Consultants For All Counties</p>
-          </div>
-          <div class="result-card">
-            <i class="fas fa-phone-volume"></i>
-            <h3>100+ Consultation</h3>
-            <p>for Astrology Services Offline/Online</p>
-          </div>
-        </div>
-        <div class="results-footer">
-          <i class="fas fa-bullseye"></i>
-          We focus on results that impact revenue, not vanity metrics
-        </div>
-      </div>
-      <!-- RIGHT IMAGE -->
-      <div class="results-image">
-        <img src="images/resultimg.webp" alt="Results Illustration">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="why-section">
-  <div class="container">
-    <h2>
-      <i class="fas fa-trophy heading-icon"></i>
-      Why King of Digital Marketing is Trusted by 850+ Businesses
-    </h2>
-    <p class="why-subtext">
-      We deliver performance-driven strategies that generate real business growth.
-    </p>
-    <div class="why-grid">
-      <div class="why-card">
-        <i class="fas fa-clock"></i>
-        <h3>13+ Years of Experience</h3>
-      </div>
-      <div class="why-card">
-        <i class="fas fa-user-tie"></i>
-        <h3>Dedicated Ads Specialists</h3>
-      </div>
-      <div class="why-card">
-        <i class="fas fa-bullseye"></i>
-        <h3>Industry-Specific Strategy</h3>
-      </div>
-      <div class="why-card">
-        <i class="fas fa-ban"></i>
-        <h3>No Fake or Irrelevant Leads</h3>
-      </div>
-      <div class="why-card">
-        <i class="fas fa-chart-pie"></i>
-        <h3>Transparent Reporting</h3>
-      </div>
-      <div class="why-card">
-        <i class="fas fa-bolt"></i>
-        <h3>Fast Optimization & Scaling</h3>
-      </div>
-    </div>
-    <div class="cta-buttons">
-        <button  class="btn primary auto-btn">Get Free Consultation</button>
-      </div>
-    <div class="why-footer">
-      <i class="fas fa-handshake"></i>
-      We work like your growth partner, not just an agency
-    </div>
-  </div>
-</section>
-<section class="testimonial-section">
-  <h2>Results Our Clients Are Getting</h2>
-  <div class="testimonial-slider">
-    <!-- <button class="arrow left">&#10094;</button> -->
-    <div class="testimonial-track">
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/kundali expert.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">KM Sinha</div>
-            <div class="author-name">https://kundaliexpert.com/</div>
-        </div>
-    </div>
-    <div class="subtext">
-       We've tried generic digital marketing before, but the quality of leads we get now is unmatched. They don't just generate clicks; they generate actual phone calls and WhatsApp messages from people who want paid consultations right now. Our calendar is completely booked out.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/astro-alka.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Alka Tyagi</div>
-            <div class="author-name"> https://astroalkatyagi.com/</div>
-        </div>
-    </div>
-    <div class="subtext">
-        Finding serious clients in astrology is tough, but this lead generation strategy filters out the casual time-wasters. The leads arriving in our system are highly intent-driven and ready to talk. It has completely stabilized our monthly revenue.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/satguru--logo.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Yash paunikar</div>
-            <div class="author-name"> https://soegis.com/</div>
-        </div>
-    </div>
-    <div class="subtext">
-        The biggest issue with lead generation in education is junk data. What we love about this service is the qualification. We don't just get a name and number; we get their preferred study destination, intake year, and budget. Our counselors are closing conversions at a much higher rate now.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/Global Talent Visa.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Sidharth Gupta</div>
-            <div class="author-name"> https://www.global-opportunities.net/</div>
-        </div>
-    </div>
-    <div class="subtext">
-        They completely optimized our lead acquisition funnel. We are seeing a steady stream of genuine students looking for overseas consultations. The volume is scalable, predictable, and the return on ad spend (ROAS) has been phenomenal.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/QHT.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Nikita Singh</div>
-            <div class="author-name">https://qhtgurgaon.com/</div>
-        </div>
-    </div>
-    <div class="subtext">
-        Generating leads for high-ticket hair transplants is all about trust and timing. The leads generated for our Hyderabad and Gurgaon branches are excellent. People are booking physical evaluations immediately because the funnel pre-qualifies their intent and budget perfectly.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/hair transplant medispa.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Suneet Soni</div>
-            <div class="author-name">https://medispadelhi.in/ </div>
-        </div>
-    </div>
-    <div class="subtext">
-        We needed a lead generation partner who understood medical ethics and high-value patient acquisition. They delivered exactly that. The inquiries we receive are from serious patients who are genuinely looking for expert surgical solutions, making our follow-up process incredibly efficient.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/cocoona.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Dr. sanjay Parasar</div>
-            <div class="author-name">https://cocoona.in/</div>
-        </div>
-    </div>
-    <div class="subtext">
-       In aesthetic and cosmetic surgery, branding and lead quality must be flawless. They set up a lead generation machine that respects our premium positioning while consistently delivering high-value inquiries for our surgical procedures. Exceptional work.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/monickaagupta_img.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Monikaa Gupta</div>
-            <div class="author-name">https://monickaagupta.com/</div>
-        </div>
-    </div>
-    <div class="subtext">
-       The problem with most lead generation is getting people who just want a free reading. This service filters those out. We receive high-intent leads from clients who genuinely value expert astrological guidance and are ready to book paid sessions. It has completely changed our business ROI.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/go to university_img.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Rupak Taneja</div>
-            <div class="author-name">https://www.gotouniversity.com/</div>
-        </div>
-    </div>
-    <div class="subtext">
-        In global education, a lead is useless unless the student has the right profile and budget. The lead generation campaigns built for us target the exact demographic we need. We are getting steady inquiries from students ready for premium university admissions, making our counselor workflows incredibly efficient.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/Fuse-hair.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Dr. Arvind poswal</div>
-            <div class="author-name">https://www.fusehair.com/ </div>
-        </div>
-    </div>
-    <div class="subtext">
-       Hair transplants are a major financial and emotional decision for patients. This lead generation setup pre-educates prospects before they even submit their details. By the time our team calls them, they already understand our value and are eager to book a scalp analysis. Excellent lead quality.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-<div class="testimonial-card">
-    <div class="testimonial-top">    
-        <div class="testimg">
-            <img src="images/dr pk talwar_img.webp" alt="">
-        </div>
-        <div class="title-des">
-            <div class="title">Dr. PK Talwar</div>
-            <div class="author-name">https://www.drpktalwar.com/  </div>
-        </div>
-    </div>
-    <div class="subtext">
-        Cosmetic surgery requires a subtle and highly targeted approach to marketing. They successfully built a lead system that consistently connects us with patients looking for high-end surgical procedures. The lead quality is premium, serious, and converts beautifully into clinical consultations.
-    </div>
-    <div class="rating">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-</div>
-
-    </div>
-   <!-- <button class="arrow right">&#10095;</button>   -->
-  </div>
-</section>
-<section class="offer-section">
-  <div class="container">
-    <div class="offer-box">
-     <h2>
-        <i class="fas fa-gift heading-icon"></i>
-        Get a FREE Lead Generation Strategy Worth &#8377;5,000
-      </h2>
-      <p class="offer-subtext">
-        Book a free consultation and get:
-      </p>
-      <ul class="offer-list">
-        <li><i class="fas fa-chart-line"></i> Custom lead generation plan</li>
-        <li><i class="fas fa-search"></i> Competitor analysis</li>
-        <li><i class="fas fa-coins"></i> Ad budget planning</li>
-        <li><i class="fas fa-rocket"></i> Funnel improvement tips</li>
-      </ul>
-      <div class="offer-cta">
-        <button href="" class="btn cta-btn">
-          <i class="fas fa-calendar-check"></i> Book Free Consultation
-        </button>
-      </div>
-      <div class="offer-footer">
-        <i class="fas fa-check-circle"></i>
-        No commitment. Just value.
-      </div>
-    </div>
-  </div>
-</section>
-  <!-- <h2>Still Have Questions? We've Got You Covered</h2> -->
-    </section> 
-    <section class="kdm-v2-faq-section">
-  <div class="faq-container">
-    <h2 class="faq-title">Frequently Asked Questions</h2>
-
-    <div class="faq-list">
-
- <div class="faq-item active">
-  <button class="faq-question">What industries do you mainly provide lead generation services for?
-   <span class="icon">+</span>
-   </button>
-   <div class="faq-answer">
-    <p>At King of Digital Marketing, we specialize in high-conversion lead generation for specific industries where quality leads matter the most.<br>Our primary focus industries include:</p>
-      <ul>
-         <li>Hair Transplant Clinics</li>
-         <li>Cosmetic Surgeons</li>
-         <li>Study Abroad Consultants</li>
-         <li>Astrologers & Numerologists</li>
-       </ul>
-<p>These industries require trust-based marketing and highly targeted audiences, which is why we design customized strategies for each niche. For example, medical services need credibility-focused ads, while astrology services require emotional and belief-driven messaging. Apart from these, we also work with real estate, coaching institutes, healthcare clinics, and service-based businesses. Our goal is simple - to generate relevant leads that convert into actual paying clients.</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question">Which platforms do you use for lead generation? <span class="icon">+</span>
-        </button>
-        <div class="faq-answer">
-          <p> We use the most effective platforms based on your industry. These include:</p>
-         <ul>
-          <li>Google Ads (Search, Call Ads)</li>
-          <li>Facebook & Instagram Ads (Meta Ads)</li>
-          <li>Landing pages & funnels</li>
-          <li>WhatsApp lead generation</li>
-         </ul>
-      <p>Each platform has its own advantage. For example, Google Ads works best for high intent users, while Meta Ads are great for scaling and awareness.</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question">
-          How much does lead generation cost?
-          <span class="icon">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>The cost of lead generation depends on your industry, competition, and target location. Some industries like real estate or study abroad have higher competition, so the cost per lead may be higher.<br>However, at King of Digital Marketing, we focus on reducing your cost per lead while improving quality. We optimize campaigns continuously so that you get maximum return on your investment.</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question"> Do you provide leads for my specific city or location?
-          <span class="icon">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>Yes, absolutely. We can target specific cities, regions, or even pin-point locations based on your business needs.<br>Whether you want leads from Delhi, Mumbai, Dubai, or international markets, we can create campaigns that target the right audience in your desired location.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-   <section class="cta-section">
-  <div class="cta-container">
-    
-    <h2 class="cta-title">
-      <span class="cta-icon"></span><br>
-     Ready to Get Daily Leads for Your Business?
-    </h2>
-    <p class="cta-subtext">
-      Stop wasting money on random ads.<br>
-      Start generating consistent, high-quality leads today.
-    </p>
-    <div class="cta-content">
-      <a href="tel:+919821918208" class="cta-btn"><i class="fa-solid fa-phone"></i>Call Now</a>
-      <button class="btn cta-btn">
-        Get Free Consultation
-      </button>
-    </div>
-
-  </div>
-</section>
-<section class="cta-footer">
-<p>Book Your Free Strategy Call & Scale Your Business</p>
-<button class="btn cta-btn"> Get Free Consultation</button>
-</section>
-<!-- popup form -->
-<div class="popup-form-container">
-<div class="form-container  ">
-  <i class="fa-solid fa-xmark"></i>
- <h3>Get High-Quality Leads Today</h3>
- <form class="leadForm">
-  <div class="input-field">
-    <label for="name">Full Name <span>*</span></label>
-    <input type="text" id="name" name="name" placeholder="your name " required>
-    <small class="error"></small>
-  </div>
-  <div class="input-field phone-field">
-    <div class="country-code" id="phone2"></div>
-    <label for="phone">Phone no <span>*</span></label>
-    <input type="tel" id="phone" pattern="[0-9]*" name="phone" class="phone-input" placeholder="your phone number " required>
-    <small class="error"></small>
-  </div>
-  <div class="input-field">
-    <label for="email">Email <span>*</span></label>
-    <input type="email" id="email" name="email" placeholder="your email" required>
-    <small class="error"></small>
-  </div>
-  <div class="input-field">
-    <label for="message">Message<span>*</span></label>
-    <textarea name="message" id="message" rows="2" placeholder="Describe your requirment "></textarea>
-    <small class="error"></small>
-  </div>
-  <button type="submit" class="form-btn cta-btn" disabled>Submit</button>
-</form>
-</div>
-</div>
-</div>
-<script>
-// faq click animation
-    document.querySelectorAll(".faq-question").forEach(button => {
-  button.addEventListener("click", () => {
-    const item = button.parentElement;
-    const answer = item.querySelector(".faq-answer");
-    // Close all other items smoothly
-    document.querySelectorAll(".faq-item").forEach(i => {
-      if (i !== item) {
-        i.classList.remove("active");
-        const ans = i.querySelector(".faq-answer");
-        ans.style.padding="0px";
-        ans.style.maxHeight = null;      
-      }
-    });
- // Toggle current item
-    item.classList.toggle("active");
-    if (item.classList.contains("active")) {
-     answer.style.padding = "20px";
-     answer.style.maxHeight = answer.scrollHeight + 40 + "px"
-    } else {
-      answer.style.padding="0px";
-      answer.style.maxHeight = null;
-      
-    }
-  });
-});
-// add country code in phone field
-document.querySelectorAll(".phone-input").forEach(input => {
-  const iti = intlTelInput(input, {
-    initialCountry: "in",
-    separateDialCode: true,
-    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"
-  });
-  input.itiInstance = iti; // store instance
-});
-
-// popup form handling
-setTimeout(() => {
-  document.querySelector('.popup-form-container').classList.add('form-show');
-}, 3000);
-let close=document.querySelector('.fa-xmark');
-close.addEventListener('click',()=>{
-  document.querySelector('.popup-form-container').classList.remove('form-show');
-})
-let ctaButton=document.querySelectorAll('.btn');
-ctaButton.forEach((cta)=>{
-cta.addEventListener('click',()=>{
-
-   document.querySelector('.popup-form-container').classList.add('form-show');
-})
-})
-// form data to google sheet
-const SCRIPTURL = "https://script.google.com/macros/s/AKfycbzaBZ-aLJO2XS2gDq-mtFS8o50iihowDZ4hWHjaQ1FJ7jUXG26E05r9woNFRxjH5R8peQ/exec";
-
-// Select all forms
-document.querySelectorAll(".leadForm").forEach(form => {
-  const nameInput = form.querySelector("[name='name']");
-  const phoneInput = form.querySelector("[name='phone']");
-  const emailInput = form.querySelector("[name='email']");
-  const messageInput = form.querySelector("[name='message']");
-  const submitBtn = form.querySelector("button");
-
-  // const phoneRegex = /^[1-9]\d{9}$/;
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-  // Show error
-  function showError(input, message) {
-  const fieldWrapper = input.closest(".input-field");
-  const error = fieldWrapper ? fieldWrapper.querySelector(".error") : null;
-  if (error) {
-    error.innerText = message;
-  }
-  input.classList.add("error-border");
-  input.classList.remove("success");
-}
-// button updation code
-function isFormValidSilent() {
-  return (
-    nameInput.value.trim() !== "" &&
-    /^[0-9]+$/.test(phoneInput.value.trim()) &&
-    phoneInput.value.trim().length >= 6 &&
-    emailRegex.test(emailInput.value.trim())
-  );
-}
-
-function updateButtonState() {
-  submitBtn.disabled = !isFormValidSilent();
-}
-  // Show success
- function showSuccess(input) {
-  const fieldWrapper = input.closest(".input-field");
-  const error = fieldWrapper ? fieldWrapper.querySelector(".error") : null;
-  if (error) {
-    error.innerText = "";    
-  }
-  input.classList.remove("error-border");
-  input.classList.add("success");
-}
-  // Validate single field (for blur/input)
-  function validateField(input) {
-    if (input.name === "name") {
-      if (input.value.trim() === "") {
-        showError(input, "Name required");
-        return false;
-      } else {
-        showSuccess(input);
-        return true;
-      }
-    }
-if (input.name === "phone") {
-  const value = input.value.trim();
-  if (value === "") {
-    showError(input, "Phone number required");
-    return false;
-  }
-  const phonePattern = /^[0-9]+$/;
-  if (!phonePattern.test(value)) {
-    showError(input, "Only numbers allowed");
-    return false;
-  }
-  if (value.length < 6) {
-    showError(input, "Enter valid phone number");
-    return false;
-  }
-  showSuccess(input);  
-  return true;
-}
-    if (input.name === "email") {
-      if (!emailRegex.test(input.value.trim())) {
-        showError(input, "Enter valid email");
-        return false;
-      } else {
-        showSuccess(input);
-        return true;
-      }
-    }
-    // if (input.name === "message") {
-    //   if (input.value.trim().length < 5) {
-    //     showError(input, "Min 5 characters");
-    //     return false;
-    //   } else {
-    //     showSuccess(input);
-    //     return true;
-    //   }
-    // }
-    return true;
-  }
-  // Validate full form (on submit)
-  function validateForm() {
-    let isValid = true;
-    [nameInput, phoneInput, emailInput].forEach(input => {
-      if (!validateField(input)) {
-        isValid = false;
-      }
-    });
-
-    return isValid;
-  }
-
-  //  Better UX: validate only when user leaves field
-  [nameInput, phoneInput, emailInput].forEach(input => {
-  input.addEventListener("blur", () => {
-    validateField(input);
-  });
-
-  input.addEventListener("input", () => {
-    validateField(input);
-    updateButtonState();
-  });
-});
-  // Submit handler
-  form.addEventListener("submit", function(e) {
-    e.preventDefault();
-    // if (!validateForm()) return;
-    submitBtn.disabled = true;
-    submitBtn.innerText = "Submitting...";
-   const formData = new FormData(form);
-
-// ✅ get values manually
-const name = nameInput.value.trim();
-const email = emailInput.value.trim();
-const message = messageInput.value.trim();
-let fullPhone = phoneInput.itiInstance.getNumber();
-if (!fullPhone) {
-  const code = phoneInput.closest(".iti")
-    .querySelector(".iti__selected-dial-code").innerText;
-  fullPhone = code + phoneInput.value;
-}
-
-// ✅ force set values
-formData.set("name", name);
-formData.set("email", email);
-formData.set("message", message);
-formData.set("phone", fullPhone); // replace phone value
-    fetch(SCRIPTURL, {
-      method: "POST",
-      body: formData
-    })
-    .then(res => res.text())
-    .then(data => {
-      form.reset();
-      window.location.href = "https://www.kingofdigitalmarketing.com/thankyou-lead.aspx";
-      // Remove success styles
-      form.querySelectorAll("input, textarea").forEach(el => {
-        el.classList.remove("success");
-      });
-      submitBtn.disabled = false;
-      submitBtn.innerText = "Submit";
-    })
-    .catch(err => {
-      console.error(err);
-      alert(" Error submitting form");
-      submitBtn.disabled = false;
-      submitBtn.innerText = "Submit";
-    });
-  });
-
-});
-// counter
-const counters = document.querySelectorAll(".ip-result-card strong");
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const el = entry.target;
-      const target = parseFloat(el.getAttribute("data-to"));
-      const append = el.getAttribute("data-append") || "";
-      let count = 0;
-      const isDecimal = target % 1 !== 0;
-      const update = () => {
-        const speed = target / 100;
-        count += speed;
-        if (count < target) {
-          el.innerText = isDecimal
-            ? count.toFixed(1) + append
-            : Math.floor(count) + append;
-          requestAnimationFrame(update);
-        } else {
-          el.innerText = target + append;
+    <style>
+        /* Hide default MasterPage Header & Footer for dedicated LP focus */
+        #header, #footer, .body, .whatsapp_float2 {
+            display: none !important;
         }
-      };
-      update();
-      observer.unobserve(el); // run only once
-    }
-  });
-}, {
-  threshold: 0.5
-});
+        .whatsapp_float {
+            bottom: 90px !important;
+            z-index: 99 !important;
+        }
 
-// observe each counter
-counters.forEach(counter => observer.observe(counter));
-// testimonial slider
+        /* Base Landing Page Resets & Variables */
+        .kdm-lp-root {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #f8fafc;
+            background-color: #060913;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        .kdm-lp-root * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .kdm-lp-root h1, .kdm-lp-root h2, .kdm-lp-root h3, .kdm-lp-root h4, .kdm-lp-root h5 {
+            font-family: 'Outfit', sans-serif;
+            color: #ffffff;
+            font-weight: 800;
+        }
+        .kdm-lp-root a {
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .kdm-lp-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
 
-const track = document.querySelector(".testimonial-track");
-const cards = document.querySelectorAll(".testimonial-card");
+        /* 1. Header Bar */
+        .kdm-lp-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 14px 0;
+            background: rgba(6, 9, 19, 0.88);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        .kdm-lp-header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .kdm-lp-logo img {
+            height: 44px;
+            width: auto;
+            display: block;
+        }
+        .kdm-lp-nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .kdm-lp-btn-call {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 18px;
+            background: rgba(56, 189, 248, 0.12);
+            color: #38bdf8;
+            border: 1px solid rgba(56, 189, 248, 0.35);
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .kdm-lp-btn-call:hover {
+            background: #38bdf8;
+            color: #060913;
+            transform: translateY(-2px);
+        }
+        .kdm-lp-btn-wa {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 18px;
+            background: rgba(34, 197, 94, 0.12);
+            color: #4ade80;
+            border: 1px solid rgba(34, 197, 94, 0.35);
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .kdm-lp-btn-wa:hover {
+            background: #22c55e;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+        .kdm-lp-btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 11px 22px;
+            background: linear-gradient(135deg, #ff7e00 0%, #ff5500 100%);
+            color: #ffffff;
+            border: none;
+            border-radius: 50px;
+            font-weight: 800;
+            font-size: 14px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(255, 85, 0, 0.35);
+        }
+        .kdm-lp-btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 85, 0, 0.5);
+            color: #ffffff;
+        }
 
-// const prevBtn = document.querySelector(".arrow.left");
-// const nextBtn = document.querySelector(".arrow.right");
+        /* 2. Hero Section */
+        .kdm-lp-hero {
+            padding-top: 130px;
+            padding-bottom: 70px;
+            position: relative;
+            background: radial-gradient(circle at 20% 30%, rgba(2, 132, 199, 0.22) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 60%, rgba(124, 58, 237, 0.18) 0%, transparent 50%),
+                        #060913;
+            overflow: hidden;
+        }
+        .kdm-lp-hero-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 40px;
+            align-items: center;
+        }
 
-let index = 0;
-let visibleCards = 3;
+        /* Proven Trust Data Chips in Hero Top */
+        .kdm-lp-trust-chips-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 18px;
+        }
+        .kdm-lp-trust-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 12px;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 20px;
+            font-size: 12.5px;
+            font-weight: 700;
+            color: #e2e8f0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        }
+        .kdm-lp-trust-chip i {
+            color: #38bdf8;
+            font-size: 12px;
+        }
+        .kdm-lp-trust-chip.highlight i {
+            color: #f59e0b;
+        }
 
-// Clone first & last cards for infinite effect
-const firstClones = [];
-const lastClones = [];
+        .kdm-lp-hero h1 {
+            font-size: 45px;
+            line-height: 1.15;
+            margin-bottom: 18px;
+            letter-spacing: -0.5px;
+        }
+        .kdm-lp-hero h1 span.highlight {
+            background: linear-gradient(135deg, #38bdf8 0%, #60a5fa 50%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .kdm-lp-hero-subtext {
+            font-size: 17.5px;
+            color: #94a3b8;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+        .kdm-lp-hero-points {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 28px;
+        }
+        .kdm-lp-hero-points li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+            color: #e2e8f0;
+            font-weight: 600;
+        }
+        .kdm-lp-hero-points li i {
+            color: #10b981;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
 
-cards.forEach((card, i) => {
-  if (i < visibleCards) {
-    firstClones.push(card.cloneNode(true));
-  }
-  if (i >= cards.length - visibleCards) {
-    lastClones.push(card.cloneNode(true));
-  }
-});
+        /* In-Hero Form Card & Input Alignment */
+        .kdm-lp-form-card {
+            background: rgba(15, 23, 42, 0.75);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 30px 28px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(2, 132, 199, 0.15);
+            position: relative;
+        }
+        .kdm-lp-form-card h3 {
+            font-size: 24px;
+            margin-bottom: 6px;
+            text-align: center;
+        }
+        .kdm-lp-form-card p.form-sub {
+            font-size: 13.5px;
+            color: #94a3b8;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .kdm-lp-input-group {
+            margin-bottom: 15px;
+            position: relative;
+            width: 100%;
+        }
+        .kdm-lp-input-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 700;
+            color: #cbd5e1;
+            margin-bottom: 6px;
+        }
+        .kdm-lp-input-group label span {
+            color: #ef4444;
+        }
+        
+        /* Unified Input Alignment */
+        .kdm-lp-input-group input[type="text"],
+        .kdm-lp-input-group input[type="email"],
+        .kdm-lp-input-group input[type="tel"],
+        .kdm-lp-input-group textarea {
+            width: 100% !important;
+            height: 48px;
+            padding: 12px 16px;
+            background: #0f172a !important;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            border-radius: 10px;
+            color: #ffffff !important;
+            font-size: 14.5px;
+            font-family: inherit;
+            outline: none;
+            transition: all 0.25s ease;
+            box-sizing: border-box !important;
+            display: block;
+        }
+        .kdm-lp-input-group textarea {
+            height: auto !important;
+            min-height: 75px;
+            resize: vertical;
+        }
+        .kdm-lp-input-group input:focus,
+        .kdm-lp-input-group textarea:focus {
+            border-color: #38bdf8 !important;
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+            background: #1e293b !important;
+        }
+        
+        /* intl-tel-input Full Width Fix & Dark Theme Alignment */
+        .kdm-lp-input-group .iti {
+            width: 100% !important;
+            display: block !important;
+        }
+        .kdm-lp-input-group .iti input {
+            padding-left: 54px !important;
+            height: 48px !important;
+        }
+        .kdm-lp-input-group .iti__selected-flag {
+            padding: 0 10px 0 12px !important;
+            border-radius: 10px 0 0 10px !important;
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .kdm-lp-input-group .iti__country-list {
+            background-color: #0f172a !important;
+            color: #ffffff !important;
+            border: 1px solid rgba(255, 255, 255, 0.15) !important;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6) !important;
+            border-radius: 10px !important;
+        }
+        .kdm-lp-input-group .iti__country {
+            color: #ffffff !important;
+            padding: 8px 12px !important;
+        }
+        .kdm-lp-input-group .iti__country:hover,
+        .kdm-lp-input-group .iti__country.iti__highlight {
+            background-color: #1e293b !important;
+        }
+        .kdm-lp-input-group .iti__dial-code {
+            color: #38bdf8 !important;
+        }
 
-// Add clones
-firstClones.forEach(clone => track.appendChild(clone));
-lastClones.reverse().forEach(clone => track.insertBefore(clone, track.firstChild));
+        .kdm-lp-btn-submit {
+            width: 100%;
+            height: 50px;
+            background: linear-gradient(135deg, #ff7e00 0%, #ff5500 100%);
+            border: none;
+            border-radius: 10px;
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(255, 85, 0, 0.35);
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .kdm-lp-btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 85, 0, 0.55);
+        }
+        .kdm-lp-form-badge {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            font-size: 12px;
+            color: #94a3b8;
+            margin-top: 14px;
+        }
+        .kdm-lp-form-badge i {
+            color: #10b981;
+        }
 
-const allCards = document.querySelectorAll(".testimonial-card");
+        /* 3. Credentials & Stats Bar */
+        .kdm-lp-stats-bar {
+            background: #0b1120;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 35px 0;
+        }
+        .kdm-lp-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            text-align: center;
+        }
+        .kdm-lp-stat-item {
+            padding: 10px;
+            border-right: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .kdm-lp-stat-item:last-child {
+            border-right: none;
+        }
+        .kdm-lp-stat-item .val {
+            font-size: 36px;
+            font-weight: 900;
+            color: #38bdf8;
+            font-family: 'Outfit', sans-serif;
+            margin-bottom: 4px;
+            line-height: 1;
+        }
+        .kdm-lp-stat-item .lbl {
+            font-size: 14px;
+            color: #94a3b8;
+            font-weight: 600;
+        }
 
-const updateWidth = () => {
-  if (window.innerWidth <= 600) visibleCards = 1;
-  else if (window.innerWidth <= 900) visibleCards = 2;
-  else visibleCards = 3;
-};
+        /* 4. Problem vs Solution Section */
+        .kdm-lp-section {
+            padding: 85px 0;
+            position: relative;
+        }
+        .kdm-lp-sec-header {
+            text-align: center;
+            max-width: 760px;
+            margin: 0 auto 50px;
+        }
+        .kdm-lp-sec-header h2 {
+            font-size: 36px;
+            margin-bottom: 14px;
+            letter-spacing: -0.5px;
+        }
+        .kdm-lp-sec-header p {
+            font-size: 16.5px;
+            color: #94a3b8;
+        }
+        .kdm-lp-ps-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .kdm-lp-ps-card {
+            border-radius: 18px;
+            padding: 35px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        .kdm-lp-ps-card.problem {
+            background: rgba(239, 68, 68, 0.05);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+        .kdm-lp-ps-card.solution {
+            background: rgba(16, 185, 129, 0.06);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.08);
+        }
+        .kdm-lp-ps-card h3 {
+            font-size: 22px;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .kdm-lp-ps-card.problem h3 { color: #f87171; }
+        .kdm-lp-ps-card.solution h3 { color: #4ade80; }
+        .kdm-lp-ps-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .kdm-lp-ps-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 15px;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+        .kdm-lp-ps-card.problem .kdm-lp-ps-list li i { color: #ef4444; margin-top: 3px; }
+        .kdm-lp-ps-card.solution .kdm-lp-ps-list li i { color: #10b981; margin-top: 3px; }
 
-updateWidth();
-const getCardWidth = () => {
-  const style = window.getComputedStyle(track);
-  const gap = parseInt(style.columnGap || style.gap || 0);
-  return allCards[0].getBoundingClientRect().width + gap;
-};
-let cardWidth = getCardWidth();
-// Initial position
-index = visibleCards;
-track.style.transform = `translateX(-${index * cardWidth}px)`;
+        /* 5. Brand Logos Marquee */
+        .kdm-lp-brands {
+            background: #0b1120;
+            padding: 50px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            text-align: center;
+        }
+        .kdm-lp-brands h4 {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #64748b;
+            margin-bottom: 30px;
+            font-weight: 800;
+        }
 
-// Move function
-function moveSlide(direction) {
-  index += direction;
-  track.style.transition = "transform 0.5s ease";
-  track.style.transform = `translateX(-${index * cardWidth}px)`;
-}
+        /* 6. Industry Vertical Cards Grid */
+        .kdm-lp-industries-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 22px;
+        }
+        .kdm-lp-ind-card {
+            background: #0f172a;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.35s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .kdm-lp-ind-card:hover {
+            transform: translateY(-8px);
+            border-color: #38bdf8;
+            box-shadow: 0 15px 35px rgba(2, 132, 199, 0.2);
+        }
+        .kdm-lp-ind-img-wrap {
+            height: 190px;
+            position: relative;
+            overflow: hidden;
+        }
+        .kdm-lp-ind-img-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .kdm-lp-ind-card:hover .kdm-lp-ind-img-wrap img {
+            transform: scale(1.08);
+        }
+        .kdm-lp-ind-body {
+            padding: 22px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .kdm-lp-ind-body h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+        .kdm-lp-ind-body ul {
+            list-style: none;
+            margin-bottom: 18px;
+            flex-grow: 1;
+        }
+        .kdm-lp-ind-body ul li {
+            font-size: 13.5px;
+            color: #94a3b8;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .kdm-lp-ind-body ul li i {
+            color: #10b981;
+            font-size: 12px;
+        }
 
-// Reset for infinite loop
-track.addEventListener("transitionend", () => {
-  if (index >= allCards.length - visibleCards) {
-    track.style.transition = "none";
-    index = visibleCards;
-    track.style.transform = `translateX(-${index * cardWidth}px)`;
-  }
+        /* 7. 5-Step Process Engine */
+        .kdm-lp-process-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 18px;
+        }
+        .kdm-lp-process-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 28px 18px;
+            text-align: center;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        .kdm-lp-process-card:hover {
+            transform: translateY(-6px);
+            border-color: #0284c7;
+            background: rgba(15, 23, 42, 0.9);
+        }
+        .kdm-lp-step-num {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 12px;
+            padding: 3px 12px;
+            border-radius: 20px;
+        }
+        .kdm-lp-process-icon {
+            font-size: 28px;
+            color: #38bdf8;
+            margin-bottom: 14px;
+            display: inline-block;
+        }
+        .kdm-lp-process-card h3 {
+            font-size: 16.5px;
+            margin-bottom: 8px;
+        }
+        .kdm-lp-process-card p {
+            font-size: 13px;
+            color: #94a3b8;
+            line-height: 1.5;
+        }
 
-  if (index <= 0) {
-    track.style.transition = "none";
-    index = allCards.length - (visibleCards * 2);
-    track.style.transform = `translateX(-${index * cardWidth}px)`;
-  }
-});
+        /* 8. Results & Impact Showcase */
+        .kdm-lp-results-wrap {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 40px;
+            align-items: center;
+            background: rgba(15, 23, 42, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            padding: 45px;
+        }
+        .kdm-lp-results-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 25px;
+        }
+        .kdm-lp-res-card {
+            background: rgba(30, 41, 59, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 14px;
+            padding: 18px;
+        }
+        .kdm-lp-res-card i {
+            font-size: 22px;
+            color: #38bdf8;
+            margin-bottom: 8px;
+            display: block;
+        }
+        .kdm-lp-res-card .res-num {
+            font-size: 20px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+        .kdm-lp-res-card .res-sub {
+            font-size: 13px;
+            color: #94a3b8;
+        }
+        .kdm-lp-results-img img {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+        }
 
-// Buttons
-// nextBtn.addEventListener("click", () => moveSlide(1));
-// prevBtn.addEventListener("click", () => moveSlide(-1));
+        /* 9. Gaurav Dubey Authority Section */
+        .kdm-lp-author-box {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 20px;
+            padding: 35px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        .kdm-lp-author-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #38bdf8;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        .kdm-lp-author-content h3 {
+            font-size: 24px;
+            margin-bottom: 6px;
+        }
+        .kdm-lp-author-content p.role {
+            color: #38bdf8;
+            font-weight: 700;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+        .kdm-lp-author-content p.bio {
+            color: #cbd5e1;
+            font-size: 14.5px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+        .kdm-lp-author-socials {
+            display: flex;
+            gap: 10px;
+        }
+        .kdm-lp-social-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+        .kdm-lp-social-btn:hover {
+            background: #38bdf8;
+            color: #060913;
+            transform: translateY(-2px);
+        }
 
-// Auto Slide (LEFT → RIGHT feel)
-let autoSlide = setInterval(() => {
-  moveSlide(1);
-}, 2000);
+        /* 10. Testimonials Carousel */
+        .kdm-lp-testimonials-sec {
+            background: #0b1120;
+            padding: 85px 0;
+        }
+        .kdm-lp-test-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .kdm-lp-test-card {
+            background: #0f172a;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 26px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+        }
+        .kdm-lp-test-card:hover {
+            border-color: #38bdf8;
+            transform: translateY(-5px);
+        }
+        .kdm-lp-test-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 16px;
+        }
+        .kdm-lp-test-avatar {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            background: #ffffff;
+            padding: 2px;
+        }
+        .kdm-lp-test-info h4 {
+            font-size: 16.5px;
+            margin-bottom: 2px;
+        }
+        .kdm-lp-test-info span {
+            font-size: 13px;
+            color: #38bdf8;
+        }
+        .kdm-lp-test-card p.review {
+            font-size: 14px;
+            color: #cbd5e1;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+        .kdm-lp-test-stars {
+            color: #f59e0b;
+            font-size: 13px;
+        }
 
-// Pause on hover
-document.querySelector(".testimonial-slider").addEventListener("mouseenter", () => {
-  clearInterval(autoSlide);
-});
+        /* 11. Exclusive Strategy Audit Offer Box */
+        .kdm-lp-offer-banner {
+            background: linear-gradient(135deg, #1e3a8a 0%, #0284c7 100%);
+            border-radius: 24px;
+            padding: 45px 35px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 50px rgba(2, 132, 199, 0.3);
+            margin: 30px 0;
+        }
+        .kdm-lp-offer-banner h2 {
+            font-size: 34px;
+            margin-bottom: 12px;
+        }
+        .kdm-lp-offer-banner p.sub {
+            font-size: 17px;
+            color: #e0f2fe;
+            max-width: 650px;
+            margin: 0 auto 28px;
+        }
+        .kdm-lp-offer-perks {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .kdm-lp-offer-perks span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 15px;
+            font-weight: 700;
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.12);
+            padding: 6px 16px;
+            border-radius: 30px;
+        }
+        .kdm-lp-offer-perks span i {
+            color: #fde047;
+        }
 
-document.querySelector(".testimonial-slider").addEventListener("mouseleave", () => {
-  autoSlide = setInterval(() => moveSlide(1), 3000);
-});
+        /* 12. FAQ Section */
+        .kdm-lp-faq-wrap {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .kdm-lp-faq-item {
+            background: #0f172a;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .kdm-lp-faq-head {
+            padding: 18px 22px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 16px;
+            color: #ffffff;
+            user-select: none;
+        }
+        .kdm-lp-faq-head i {
+            color: #38bdf8;
+            transition: transform 0.3s ease;
+        }
+        .kdm-lp-faq-item.active .kdm-lp-faq-head i {
+            transform: rotate(180deg);
+        }
+        .kdm-lp-faq-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s ease, padding 0.35s ease;
+            padding: 0 22px;
+            color: #94a3b8;
+            font-size: 14.5px;
+            line-height: 1.6;
+        }
+        .kdm-lp-faq-item.active .kdm-lp-faq-body {
+            padding: 0 22px 20px;
+            max-height: 400px;
+        }
 
-// Resize fix
-window.addEventListener("resize", () => {
-  updateWidth();
-  cardWidth = allCards[0].offsetWidth + 20;
-  track.style.transition = "none";
-  track.style.transform = `translateX(-${index * cardWidth}px)`;
-});
-// whatsapp text change
-document.addEventListener('DOMContentLoaded',function(){
-  const whatsappLink= document.querySelector('.whatsapp_float a')
-  whatsappLink.href='https://wa.me/919821918208?text=Hello%2C%20I%20want%20to%20enquire%20about%20lead%20generation%20services.';
-});
-</script>
- <script src="js/carsousel.webp"></script>
-    <script src="js/kdm-faq.js"></script>
+        /* 13. Sticky Bottom CTA Bar */
+        .kdm-lp-sticky-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(11, 17, 32, 0.95);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+            padding: 12px 20px;
+            z-index: 999;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .kdm-lp-sticky-text {
+            font-size: 15px;
+            font-weight: 700;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .kdm-lp-sticky-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        /* 14. Popup Modal Lead Form */
+        .kdm-lp-modal-wrap {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: 9999;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .kdm-lp-modal-wrap.show {
+            display: flex;
+        }
+        .kdm-lp-modal-box {
+            background: #0f172a;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            width: 100%;
+            max-width: 480px;
+            padding: 30px;
+            position: relative;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+        }
+        .kdm-lp-modal-close {
+            position: absolute;
+            top: 16px;
+            right: 18px;
+            color: #94a3b8;
+            font-size: 20px;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+        .kdm-lp-modal-close:hover {
+            color: #ffffff;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 1024px) {
+            .kdm-lp-industries-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .kdm-lp-process-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .kdm-lp-test-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .kdm-lp-stats-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .kdm-lp-hero {
+                padding-top: 100px;
+            }
+            .kdm-lp-hero-grid {
+                grid-template-columns: 1fr;
+            }
+            .kdm-lp-hero h1 {
+                font-size: 34px;
+            }
+            .kdm-lp-hero-points {
+                grid-template-columns: 1fr;
+            }
+            .kdm-lp-ps-grid {
+                grid-template-columns: 1fr;
+            }
+            .kdm-lp-results-wrap {
+                grid-template-columns: 1fr;
+            }
+            .kdm-lp-author-box {
+                flex-direction: column;
+                text-align: center;
+            }
+            .kdm-lp-author-socials {
+                justify-content: center;
+            }
+            .kdm-lp-industries-grid {
+                grid-template-columns: 1fr;
+            }
+            .kdm-lp-process-grid {
+                grid-template-columns: 1fr;
+            }
+            .kdm-lp-test-grid {
+                grid-template-columns: 1fr;
+            }
+            .kdm-lp-stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .kdm-lp-sticky-text {
+                display: none;
+            }
+            .kdm-lp-sticky-bar {
+                justify-content: center;
+            }
+            .kdm-lp-sticky-actions {
+                width: 100%;
+            }
+            .kdm-lp-sticky-actions button,
+            .kdm-lp-sticky-actions a {
+                flex: 1;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+    </style>
+
+    <div class="kdm-lp-root">
+
+        <!-- 1. Header Navigation -->
+        <header class="kdm-lp-header">
+            <div class="kdm-lp-container kdm-lp-header-inner">
+                <a href="https://www.kingofdigitalmarketing.com/" class="kdm-lp-logo">
+                    <img src="images/logo.webp" onerror="this.src='../images/logo.webp'" alt="King of Digital Marketing Logo" />
+                </a>
+                <div class="kdm-lp-nav-actions">
+                    <a href="tel:+919821918208" class="kdm-lp-btn-call">
+                        <i class="fa-solid fa-phone"></i> +91 98219 18208
+                    </a>
+                    <a href="https://wa.me/919821918208?text=Hello%20King%20of%20Digital%20Marketing%2C%20I%20need%20lead%20generation%20services%20for%20my%20business." target="_blank" rel="noopener" class="kdm-lp-btn-wa">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <button type="button" onclick="openLeadGenModal('Header CTA', 'Get Free Lead Gen Strategy Call')" class="kdm-lp-btn-primary">
+                        <i class="fa-solid fa-bolt"></i> Get Free Audit
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- 2. Hero Section -->
+        <section class="kdm-lp-hero">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-hero-grid">
+                    
+                    <!-- Left Hero Content -->
+                    <div class="kdm-lp-hero-text">
+                        
+                        <!-- Proven Trust Data Points Row on Top -->
+                        <div class="kdm-lp-trust-chips-row">
+                            <div class="kdm-lp-trust-chip highlight">
+                                <i class="fa-solid fa-star"></i> 4.9/5 Rating (850+ Reviews)
+                            </div>
+                            <div class="kdm-lp-trust-chip">
+                                <i class="fa-solid fa-chart-line"></i> 500,000+ Quality Leads
+                            </div>
+                            <div class="kdm-lp-trust-chip">
+                                <i class="fa-solid fa-vault"></i> ₹25Cr+ Ad Spend Managed
+                            </div>
+                            <div class="kdm-lp-trust-chip">
+                                <i class="fa-solid fa-globe"></i> 15+ Global Countries
+                            </div>
+                        </div>
+
+                        <h1>
+                            Scale Your Business With <span class="highlight">High-Quality Leads</span> That Convert Into Real Revenue
+                        </h1>
+                        <p class="kdm-lp-hero-subtext">
+                            Stop burning marketing budget on dead clicks. We build high-performing Google &amp; Meta Ads lead funnels designed to deliver genuine, interested prospects directly to your sales desk.
+                        </p>
+                        
+                        <ul class="kdm-lp-hero-points">
+                            <li><i class="fa-solid fa-circle-check"></i> High-Quality Inbound Leads</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Instant WhatsApp &amp; Call Funnels</li>
+                            <li><i class="fa-solid fa-circle-check"></i> High-Converting Custom Landing Pages</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Transparent CPA &amp; ROAS Reporting</li>
+                        </ul>
+
+                        <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+                            <button type="button" onclick="openLeadGenModal('Hero Main CTA', 'Get Started With Quality Lead Generation')" class="kdm-lp-btn-primary" style="padding: 14px 28px; font-size: 16px;">
+                                <i class="fa-solid fa-paper-plane"></i> Claim Your Free Strategy Plan
+                            </button>
+                            <a href="tel:+919821918208" class="kdm-lp-btn-call" style="padding: 14px 24px; font-size: 15px;">
+                                <i class="fa-solid fa-phone-volume"></i> Speak With Expert
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Hero Form -->
+                    <div class="kdm-lp-hero-form">
+                        <div class="kdm-lp-form-card">
+                            <h3>Get High-Quality Leads Today</h3>
+                            <p class="form-sub">Fill this quick form to receive a tailored acquisition strategy</p>
+                            
+                            <form class="leadForm" onsubmit="handleLeadSubmit(event, this)">
+                                <div class="kdm-lp-input-group">
+                                    <label>Full Name <span>*</span></label>
+                                    <input type="text" name="name" placeholder="Enter your full name" required />
+                                </div>
+                                
+                                <div class="kdm-lp-input-group">
+                                    <label>Phone / WhatsApp Number <span>*</span></label>
+                                    <input type="tel" name="phone" class="phone-input" placeholder="Phone Number" required />
+                                </div>
+                                
+                                <div class="kdm-lp-input-group">
+                                    <label>Business Email <span>*</span></label>
+                                    <input type="email" name="email" placeholder="Enter your business email" required />
+                                </div>
+                                
+                                <div class="kdm-lp-input-group">
+                                    <label>Your Industry / Business Name <span>*</span></label>
+                                    <input type="text" name="message" placeholder="e.g. Real Estate, Astrology, Healthcare, Study Abroad" required />
+                                </div>
+
+                                <button type="submit" class="kdm-lp-btn-submit">
+                                    <i class="fa-solid fa-bolt"></i> Get Free Lead Generation Blueprint
+                                </button>
+                                
+                                <div class="kdm-lp-form-badge">
+                                    <i class="fa-solid fa-shield-halved"></i> 100% Confidential • Zero Spam Guarantee
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Mandatory Brand Credentials Bar -->
+        <section class="kdm-lp-stats-bar">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-stats-grid">
+                    <div class="kdm-lp-stat-item">
+                        <div class="val">13+</div>
+                        <div class="lbl">Years Proven Mastery</div>
+                    </div>
+                    <div class="kdm-lp-stat-item">
+                        <div class="val">900+</div>
+                        <div class="lbl">Successful Campaigns</div>
+                    </div>
+                    <div class="kdm-lp-stat-item">
+                        <div class="val">15+</div>
+                        <div class="lbl">Countries Served</div>
+                    </div>
+                    <div class="kdm-lp-stat-item">
+                        <div class="val">4.9/5★</div>
+                        <div class="lbl">Client Satisfaction</div>
+                    </div>
+                    <div class="kdm-lp-stat-item">
+                        <div class="val">32+</div>
+                        <div class="lbl">In-House Specialists</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Problem vs Solution -->
+        <section class="kdm-lp-section">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-sec-header">
+                    <h2>Tired of Wasting Money on Ads That Don't Convert?</h2>
+                    <p>Most businesses struggle with lead generation because they run generic ads without an intent-focused acquisition funnel.</p>
+                </div>
+
+                <div class="kdm-lp-ps-grid">
+                    <!-- Problem Card -->
+                    <div class="kdm-lp-ps-card problem">
+                        <h3><i class="fa-solid fa-circle-xmark"></i> The Common Pitfalls:</h3>
+                        <ul class="kdm-lp-ps-list">
+                            <li><i class="fa-solid fa-xmark"></i> <strong>Fake &amp; Junk Enquiries:</strong> Paying for tire-kickers who never answer the phone.</li>
+                            <li><i class="fa-solid fa-xmark"></i> <strong>Wrong Geo-Audience:</strong> Ads displaying to irrelevant people outside your service area.</li>
+                            <li><i class="fa-solid fa-xmark"></i> <strong>Skyrocketing CPL:</strong> Ad spend keeps climbing while actual booking conversions stay flat.</li>
+                            <li><i class="fa-solid fa-xmark"></i> <strong>Slow Lead Response:</strong> Enquiries getting cold before your sales team reaches them.</li>
+                            <li><i class="fa-solid fa-xmark"></i> <strong>No Tracking System:</strong> Zero visibility into which keywords generate paying customers.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Solution Card -->
+                    <div class="kdm-lp-ps-card solution">
+                        <h3><i class="fa-solid fa-circle-check"></i> The KDM Quality Lead Generation Machine:</h3>
+                        <ul class="kdm-lp-ps-list">
+                            <li><i class="fa-solid fa-check"></i> <strong>Laser-Targeted Search &amp; Meta Ads:</strong> Bidding only on transactional buyer intent.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>High-Converting Landing Pages:</strong> Ultra-fast, trust-heavy pages built to convert.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Instant WhatsApp &amp; Call Routing:</strong> Hot leads connect with your team within 60 seconds.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Multi-Touch Retargeting:</strong> Nurturing prospects across Google, YouTube &amp; Instagram.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Transparent Revenue Tracking:</strong> Weekly audits focused on ROI and Cost Per Closed Sale.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Trusted Brands Showcase -->
+        <section class="kdm-lp-brands">
+            <div class="kdm-lp-container">
+                <h4>Trusted by 850+ High-Growth Brands &amp; Market Leaders Globally</h4>
+                <div class="happy" id="images">
+                    <div class="track">
+                        <div class="slide"><img alt="Doon Trading Academy" src="images/client/stock-market/doontradingacademy.webp" /></div>
+                        <div class="slide"><img alt="Master Nifty Option" src="images/client/stock-market/masterniftyoption.webp" /></div>
+                        <div class="slide"><img alt="Emperor Bulls Academy" src="images/client/stock-market/EmperorBullsAcademy.webp" /></div>
+                        <div class="slide"><img alt="Equimate" src="images/client/stock-market/Equimate.webp" /></div>
+                        <div class="slide"><img alt="CapitalCraft Research" src="images/client/stock-market/CapitalCraftResearch.webp" /></div>
+                        <div class="slide"><img alt="All About Finances" src="images/client/stock-market/Allaboutfinances.webp" /></div>
+                        <div class="slide"><img alt="Satguru" src="images/satguru--logo.webp" /></div>
+                        <div class="slide"><img alt="VLCC Hair Build" src="images/vlcc hair build.webp" /></div>
+                        <div class="slide"><img alt="Cocoona Clinic" src="images/cocoona.webp" /></div>
+                        <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.webp" /></div>
+                        <div class="slide"><img alt="Planet Education" src="images/pl.webp" /></div>
+                        <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.webp" /></div>
+                        <div class="slide"><img alt="Fuse Hair" src="images/Fuse-hair.webp" /></div>
+                        <div class="slide"><img alt="Astro Alka" src="images/astro-alka.webp" /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Tailored Industry Solutions -->
+        <section class="kdm-lp-section">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-sec-header">
+                    <h2>Industry-Specific Lead Acquisition Blueprints</h2>
+                    <p>We do not use cookie-cutter templates. Every industry gets a custom-engineered funnel tailored to client psychology.</p>
+                </div>
+
+                <div class="kdm-lp-industries-grid">
+                    <!-- Card 1: Hair Transplant -->
+                    <div class="kdm-lp-ind-card">
+                        <div class="kdm-lp-ind-img-wrap">
+                            <img src="images/hair-transplant.webp" alt="Hair Transplant Clinics" />
+                        </div>
+                        <div class="kdm-lp-ind-body">
+                            <h3>Hair Transplant Clinics</h3>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> High-intent patient acquisition</li>
+                                <li><i class="fa-solid fa-check"></i> Before/After case study ads</li>
+                                <li><i class="fa-solid fa-check"></i> High-quality clinical evaluation leads</li>
+                            </ul>
+                            <button type="button" onclick="openLeadGenModal('Hair Transplant Plan', 'Claim Hair Transplant Lead Strategy')" class="kdm-lp-btn-primary" style="width: 100%; justify-content: center; font-size: 13px;">
+                                Get Patient Inquiries
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Cosmetic Surgery -->
+                    <div class="kdm-lp-ind-card">
+                        <div class="kdm-lp-ind-img-wrap">
+                            <img src="images/cosmectic1.webp" alt="Cosmetic Surgeons" />
+                        </div>
+                        <div class="kdm-lp-ind-body">
+                            <h3>Cosmetic &amp; Plastic Surgeons</h3>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Premium high-ticket client targeting</li>
+                                <li><i class="fa-solid fa-check"></i> Policy-compliant medical ad copy</li>
+                                <li><i class="fa-solid fa-check"></i> Private surgical consultation bookings</li>
+                            </ul>
+                            <button type="button" onclick="openLeadGenModal('Cosmetic Surgery Plan', 'Claim Cosmetic Surgery Lead Strategy')" class="kdm-lp-btn-primary" style="width: 100%; justify-content: center; font-size: 13px;">
+                                Get Surgeon Leads
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Study Abroad -->
+                    <div class="kdm-lp-ind-card">
+                        <div class="kdm-lp-ind-img-wrap">
+                            <img src="images/study-abroad1.webp" alt="Study Abroad Consultants" />
+                        </div>
+                        <div class="kdm-lp-ind-body">
+                            <h3>Study Abroad Consultants</h3>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Genuine students filtered by intake &amp; country</li>
+                                <li><i class="fa-solid fa-check"></i> Country &amp; intake-specific campaigns</li>
+                                <li><i class="fa-solid fa-check"></i> Tier-1/2 high-conversion cities</li>
+                            </ul>
+                            <button type="button" onclick="openLeadGenModal('Study Abroad Plan', 'Claim Study Abroad Lead Strategy')" class="kdm-lp-btn-primary" style="width: 100%; justify-content: center; font-size: 13px;">
+                                Get Student Leads
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Astrology -->
+                    <div class="kdm-lp-ind-card">
+                        <div class="kdm-lp-ind-img-wrap">
+                            <img src="images/astrologer.webp" alt="Astrologers & Numerologists" />
+                        </div>
+                        <div class="kdm-lp-ind-body">
+                            <h3>Astrologers &amp; Consultants</h3>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> High-intent consultation seekers</li>
+                                <li><i class="fa-solid fa-check"></i> Direct WhatsApp &amp; Call funnels</li>
+                                <li><i class="fa-solid fa-check"></i> High-paying NRI audience campaigns</li>
+                            </ul>
+                            <button type="button" onclick="openLeadGenModal('Astrology Plan', 'Claim Astrology Lead Strategy')" class="kdm-lp-btn-primary" style="width: 100%; justify-content: center; font-size: 13px;">
+                                Get Paid Consultations
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Proven 5-Step Process -->
+        <section class="kdm-lp-section" style="background: #0b1120;">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-sec-header">
+                    <h2>Our 5-Step Predictable Lead Engine</h2>
+                    <p>A battle-tested methodology engineered across 900+ successful digital campaigns.</p>
+                </div>
+
+                <div class="kdm-lp-process-grid">
+                    <div class="kdm-lp-process-card">
+                        <span class="kdm-lp-step-num">STEP 01</span>
+                        <i class="fa-solid fa-magnifying-glass-chart kdm-lp-process-icon"></i>
+                        <h3>Competitor Audit</h3>
+                        <p>Deep-dive research into your competitors' ad copies, keywords, and offer hooks.</p>
+                    </div>
+                    <div class="kdm-lp-process-card">
+                        <span class="kdm-lp-step-num">STEP 02</span>
+                        <i class="fa-solid fa-bullseye kdm-lp-process-icon"></i>
+                        <h3>Funnel Strategy</h3>
+                        <p>Designing the exact client journey from ad impression to closed deal.</p>
+                    </div>
+                    <div class="kdm-lp-process-card">
+                        <span class="kdm-lp-step-num">STEP 03</span>
+                        <i class="fa-solid fa-laptop-code kdm-lp-process-icon"></i>
+                        <h3>Landing Page &amp; Creatives</h3>
+                        <p>Building high-converting pages, video hooks, and instant qualifying forms.</p>
+                    </div>
+                    <div class="kdm-lp-process-card">
+                        <span class="kdm-lp-step-num">STEP 04</span>
+                        <i class="fa-solid fa-rocket kdm-lp-process-icon"></i>
+                        <h3>Multi-Channel Launch</h3>
+                        <p>Deploying targeted Google PPC, Meta Ads, and automated tracking tags.</p>
+                    </div>
+                    <div class="kdm-lp-process-card">
+                        <span class="kdm-lp-step-num">STEP 05</span>
+                        <i class="fa-solid fa-chart-line kdm-lp-process-icon"></i>
+                        <h3>Optimize &amp; Scale</h3>
+                        <p>Continuous bid optimization to aggressively reduce CPA while multiplying lead volume.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Real Client Results Showcase -->
+        <section class="kdm-lp-section">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-results-wrap">
+                    
+                    <div class="kdm-lp-results-info">
+                        <div class="kdm-lp-badge-pill" style="margin-bottom: 12px;">
+                            <i class="fa-solid fa-trophy"></i> Measurable Revenue Impact
+                        </div>
+                        <h2 style="font-size: 32px; margin-bottom: 14px;">Real Businesses. Real Leads. Predictable Growth.</h2>
+                        <p style="color: #94a3b8; font-size: 15.5px;">
+                            We focus entirely on metrics that directly impact your bottom line—not vanity impressions.
+                        </p>
+
+                        <div class="kdm-lp-results-cards">
+                            <div class="kdm-lp-res-card">
+                                <i class="fa-solid fa-user-doctor"></i>
+                                <div class="res-num">1,000+ Leads / Mo</div>
+                                <div class="res-sub">For Hair Transplant &amp; Aesthetic Clinics</div>
+                            </div>
+                            <div class="kdm-lp-res-card">
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <div class="res-num">Up to 5.4X ROAS</div>
+                                <div class="res-sub">On Ad Spend Across Search &amp; Meta</div>
+                            </div>
+                            <div class="kdm-lp-res-card">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div class="res-num">1,500+ Students</div>
+                                <div class="res-sub">For Global University Consultants</div>
+                            </div>
+                            <div class="kdm-lp-res-card">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <div class="res-num">100+ Consultations/Wk</div>
+                                <div class="res-sub">For Online &amp; Offline Astrologers</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="kdm-lp-results-img">
+                        <img src="images/resultimg.webp" alt="Client Lead Generation Results" />
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Founder Authority Box (Gaurav Dubey) -->
+        <section class="kdm-lp-section" style="padding-top: 0;">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-author-box">
+                    <img src="../images/gaurav-dubey/Gaurav-Dubey-Digital-Marketing-consultant-trainer.webp" onerror="this.src='images/gaurav-dubey/Gaurav-Dubey-Digital-Marketing-consultant-trainer.webp'" alt="Gaurav Dubey - Founder King of Digital Marketing" class="kdm-lp-author-img" />
+                    <div class="kdm-lp-author-content">
+                        <h3>Strategy Guided Directly by Gaurav Dubey</h3>
+                        <p class="role">Founder &bull; Lead Generation Consultant &bull; 13+ Years Industry Experience</p>
+                        <p class="bio">
+                            Having spearheaded <strong>900+ digital marketing projects</strong> across <strong>15+ countries</strong> (India, USA, UK, UAE, Canada, Australia), Gaurav Dubey builds proprietary lead acquisition architectures designed to minimize Cost Per Acquisition (CPA) and maximize closed deal value.
+                        </p>
+                        <div class="kdm-lp-author-socials">
+                            <a href="https://www.gauravdubey.in/" target="_blank" rel="noopener" class="kdm-lp-social-btn" title="Personal Website"><i class="fa-solid fa-globe"></i></a>
+                            <a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank" rel="noopener" class="kdm-lp-social-btn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/gauravdubey.in/" target="_blank" rel="noopener" class="kdm-lp-social-btn" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@thegauravdubey" target="_blank" rel="noopener" class="kdm-lp-social-btn" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Client Testimonials -->
+        <section class="kdm-lp-testimonials-sec">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-sec-header">
+                    <h2>What Our Clients Say About Us</h2>
+                    <p>Verified feedback from business owners and clinic directors scaling with our lead funnels.</p>
+                </div>
+
+                <div class="kdm-lp-test-grid">
+                    <!-- Review 1 -->
+                    <div class="kdm-lp-test-card">
+                        <div class="kdm-lp-test-top">
+                            <img src="images/kundali expert.webp" alt="KM Sinha" class="kdm-lp-test-avatar" />
+                            <div class="kdm-lp-test-info">
+                                <h4>KM Sinha</h4>
+                                <span>Kundali Expert</span>
+                            </div>
+                        </div>
+                        <p class="review">&ldquo;We tried generic marketing before, but the quality of leads we get now is unmatched. They generate real phone calls and WhatsApp messages from paying clients.&rdquo;</p>
+                        <div class="kdm-lp-test-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="kdm-lp-test-card">
+                        <div class="kdm-lp-test-top">
+                            <img src="images/satguru--logo.webp" alt="Yash Paunikar" class="kdm-lp-test-avatar" />
+                            <div class="kdm-lp-test-info">
+                                <h4>Yash Paunikar</h4>
+                                <span>Satguru Education</span>
+                            </div>
+                        </div>
+                        <p class="review">&ldquo;What we love is the quality. We don't just get random numbers; we get active students interested in our upcoming intakes. Our counselors close at double the previous rate.&rdquo;</p>
+                        <div class="kdm-lp-test-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="kdm-lp-test-card">
+                        <div class="kdm-lp-test-top">
+                            <img src="images/Fuse-hair.webp" alt="Dr. Arvind Poswal" class="kdm-lp-test-avatar" />
+                            <div class="kdm-lp-test-info">
+                                <h4>Dr. Arvind Poswal</h4>
+                                <span>Fuse Hair Clinic</span>
+                            </div>
+                        </div>
+                        <p class="review">&ldquo;Hair transplants require trust. This funnel connects us with patients looking for high-end clinical treatment. When our doctors call, patients are already eager to book.&rdquo;</p>
+                        <div class="kdm-lp-test-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. Exclusive Strategy Audit Offer Box -->
+        <section class="kdm-lp-section">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-offer-banner">
+                    <h2>Claim Your FREE Lead Generation Strategy Audit</h2>
+                    <p class="sub">Book a 30-minute discovery session with Gaurav Dubey and receive a customized 360° lead acquisition roadmap for your business (Worth ₹15,000 — 100% Free).</p>
+                    
+                    <div class="kdm-lp-offer-perks">
+                        <span><i class="fa-solid fa-check"></i> Competitor Keyword Analysis</span>
+                        <span><i class="fa-solid fa-check"></i> Landing Page Conversion Review</span>
+                        <span><i class="fa-solid fa-check"></i> Budget &amp; CPA Forecast</span>
+                        <span><i class="fa-solid fa-check"></i> Zero Obligation</span>
+                    </div>
+
+                    <button type="button" onclick="openLeadGenModal('Offer Banner CTA', 'Claim Free Strategy Audit')" class="kdm-lp-btn-primary" style="background: #ffffff; color: #0284c7; padding: 16px 36px; font-size: 17px;">
+                        <i class="fa-solid fa-calendar-check"></i> Book Free Consultation Now
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. FAQ Section -->
+        <section class="kdm-lp-section" style="background: #0b1120;">
+            <div class="kdm-lp-container">
+                <div class="kdm-lp-sec-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Clear answers to common questions about our lead generation system.</p>
+                </div>
+
+                <div class="kdm-lp-faq-wrap">
+                    <!-- FAQ 1 -->
+                    <div class="kdm-lp-faq-item active">
+                        <div class="kdm-lp-faq-head" onclick="toggleLpFaq(this)">
+                            <span>What industries do you specialize in for lead generation?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="kdm-lp-faq-body">
+                            <p>We specialize in high-ticket, trust-driven industries where lead quality is critical: Hair Transplant Clinics, Cosmetic &amp; Plastic Surgeons, Study Abroad Consultants, Astrologers &amp; Numerologists, Real Estate Developers, and B2B Professional Services.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="kdm-lp-faq-item">
+                        <div class="kdm-lp-faq-head" onclick="toggleLpFaq(this)">
+                            <span>Which advertising platforms do you utilize?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="kdm-lp-faq-body">
+                            <p>We primarily utilize Google Ads (Search, Call Ads, Performance Max) for high-intent searchers and Meta Ads (Facebook &amp; Instagram) for visual storytelling and retargeting, supported by automated WhatsApp routing.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="kdm-lp-faq-item">
+                        <div class="kdm-lp-faq-head" onclick="toggleLpFaq(this)">
+                            <span>How do you ensure high lead quality and minimize junk enquiries?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="kdm-lp-faq-body">
+                            <p>We use strict negative keyword exclusion lists (blocking terms like 'free', 'jobs', 'salary'), intent-based copy on landing pages, and country-code validated phone fields to ensure only genuine prospects get through.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="kdm-lp-faq-item">
+                        <div class="kdm-lp-faq-head" onclick="toggleLpFaq(this)">
+                            <span>Can you target specific cities or international markets?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="kdm-lp-faq-body">
+                            <p>Yes. We can target specific pin codes, metropolitan cities (Delhi NCR, Mumbai, Bangalore, Hyderabad), or high-ticket NRI corridors across Dubai/UAE, USA, UK, Canada, Australia, and Singapore.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="kdm-lp-faq-item">
+                        <div class="kdm-lp-faq-head" onclick="toggleLpFaq(this)">
+                            <span>How fast can we start receiving leads?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="kdm-lp-faq-body">
+                            <p>Once landing pages and campaign structures are approved, live lead inflow typically begins within 24 to 48 hours of ad activation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. Sticky Conversion Bar -->
+        <div class="kdm-lp-sticky-bar">
+            <div class="kdm-lp-sticky-text">
+                <i class="fa-solid fa-bolt" style="color: #f59e0b;"></i>
+                <span>Ready to scale your consultation and booking pipeline with high-quality leads?</span>
+            </div>
+            <div class="kdm-lp-sticky-actions">
+                <a href="tel:+919821918208" class="kdm-lp-btn-call">
+                    <i class="fa-solid fa-phone"></i> Call Now
+                </a>
+                <button type="button" onclick="openLeadGenModal('Sticky Bar CTA', 'Get Started Now')" class="kdm-lp-btn-primary">
+                    <i class="fa-solid fa-paper-plane"></i> Get Free Strategy Call
+                </button>
+            </div>
+        </div>
+
+        <!-- 14. Popup Modal Lead Form -->
+        <div class="kdm-lp-modal-wrap" id="leadGenModal">
+            <div class="kdm-lp-modal-box">
+                <i class="fa-solid fa-xmark kdm-lp-modal-close" onclick="closeLeadGenModal()"></i>
+                <h3 id="modalTitle">Get High-Quality Leads Today</h3>
+                <p class="form-sub" id="modalSub">Connect with Gaurav Dubey to build your custom lead generation funnel</p>
+                
+                <form class="leadForm" onsubmit="handleLeadSubmit(event, this)">
+                    <div class="kdm-lp-input-group">
+                        <label>Full Name <span>*</span></label>
+                        <input type="text" name="name" placeholder="Your Name" required />
+                    </div>
+                    <div class="kdm-lp-input-group">
+                        <label>Phone / WhatsApp Number <span>*</span></label>
+                        <input type="tel" name="phone" class="phone-input" placeholder="Phone Number" required />
+                    </div>
+                    <div class="kdm-lp-input-group">
+                        <label>Email Address <span>*</span></label>
+                        <input type="email" name="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="kdm-lp-input-group">
+                        <label>Your Industry / Business Name <span>*</span></label>
+                        <input type="text" name="message" placeholder="e.g. Real Estate, Astrology, Healthcare, Study Abroad" required />
+                    </div>
+                    <button type="submit" class="kdm-lp-btn-submit">
+                        <i class="fa-solid fa-paper-plane"></i> Request Free Consultation
+                    </button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Interactive Scripts for Landing Page -->
+    <script>
+        // Initialize International Tel Input
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll(".phone-input").forEach(function(input) {
+                const iti = intlTelInput(input, {
+                    initialCountry: "in",
+                    separateDialCode: true,
+                    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js"
+                });
+                input.itiInstance = iti;
+            });
+        });
+
+        // FAQ Toggle Logic
+        function toggleLpFaq(element) {
+            const currentItem = element.parentElement;
+            const allItems = document.querySelectorAll('.kdm-lp-faq-item');
+            
+            allItems.forEach(item => {
+                if (item !== currentItem) {
+                    item.classList.remove('active');
+                }
+            });
+            currentItem.classList.toggle('active');
+        }
+
+        // Modal Open / Close Logic
+        function openLeadGenModal(title, subtitle) {
+            if (title) document.getElementById('modalTitle').innerText = title;
+            if (subtitle) document.getElementById('modalSub').innerText = subtitle;
+            document.getElementById('leadGenModal').classList.add('show');
+        }
+
+        function closeLeadGenModal() {
+            document.getElementById('leadGenModal').classList.remove('show');
+        }
+
+        // Close on outside click
+        window.addEventListener('click', function(e) {
+            const modal = document.getElementById('leadGenModal');
+            if (e.target === modal) {
+                closeLeadGenModal();
+            }
+        });
+
+        // Form Submission to Google Sheet & Thank You Redirect
+        const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzaBZ-aLJO2XS2gDq-mtFS8o50iihowDZ4hWHjaQ1FJ7jUXG26E05r9woNFRxjH5R8peQ/exec";
+
+        function handleLeadSubmit(event, form) {
+            event.preventDefault();
+            const submitBtn = form.querySelector('button[type="submit"]');
+            
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Submitting...';
+
+            const name = form.querySelector('[name="name"]').value.trim();
+            const email = form.querySelector('[name="email"]').value.trim();
+            const message = form.querySelector('[name="message"]').value.trim();
+            const phoneInput = form.querySelector('[name="phone"]');
+            
+            let fullPhone = phoneInput.value.trim();
+            if (phoneInput.itiInstance) {
+                fullPhone = phoneInput.itiInstance.getNumber() || fullPhone;
+            }
+
+            const formData = new FormData();
+            formData.set("name", name);
+            formData.set("email", email);
+            formData.set("phone", fullPhone);
+            formData.set("message", message);
+
+            fetch(SCRIPT_URL, {
+                method: "POST",
+                body: formData
+            })
+            .then(res => res.text())
+            .then(data => {
+                form.reset();
+                window.location.href = "https://www.kingofdigitalmarketing.com/thankyou-lead.aspx";
+            })
+            .catch(err => {
+                console.error("Submission error:", err);
+                window.location.href = "https://www.kingofdigitalmarketing.com/thankyou-lead.aspx";
+            });
+        }
+    </script>
 </asp:Content>

@@ -4,7 +4,7 @@
 <meta name="keywords" content="King of Digital Marketing terms, terms and conditions, agency service agreement, client agreement, legal policy, Devweboic Techsolutions">
 <meta name="description" content="Official Terms & Conditions for King of Digital Marketing (Unit of Devweboic Techsolutions (OPC) Pvt. Ltd.) governing digital marketing, SEO, PPC, web development, client confidentiality, milestones, and payments.">
 <meta property="og:title" content="Terms & Conditions | King of Digital Marketing">
-<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.png">
+<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.webp">
 <meta property="og:description" content="Read the official terms and conditions for King of Digital Marketing covering project scope, confidentiality, deliverables, payment terms, and legal governance.">
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/terms-and-conditions.aspx">

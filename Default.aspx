@@ -14,7 +14,7 @@
         <meta property="og:description"
             content="Result Driven Digital Marketing Services Company in Delhi. 900+ Completed Projects, 13+ Years of Proven Industry Experience, and 32+ In-House Specialists." />
 
-        <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.png">
+        <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.webp">
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.kingofdigitalmarketing.com/" />
         <meta name="twitter:card" content="summary_large_image">
@@ -28,40 +28,6 @@
         <link rel="dns-prefetch" href="https://www.youtube.com">
         <link rel="dns-prefetch" href="https://www.google-analytics.com">
         <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-        <!-- Web Fonts  -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light"
-            rel="stylesheet" type="text/css">
-        <!-- Page-Specific Head Libs & Scripts -->
-
-        <!-- megamenu css -->
-        <script src="vendor/modernizr/modernizr.js"></script>
-
-        <!-- Bootstrap icon code -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
-            integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- Meta Pixel Code -->
-        <script>
-            !function (f, b, e, v, n, t, s) {
-                if (f.fbq) return; n = f.fbq = function () {
-                    n.callMethod ?
-                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-                n.queue = []; t = b.createElement(e); t.async = !0;
-                t.src = v; s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }(window, document, 'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '407876911984372');
-            fbq('track', 'PageView');
-        </script>
-        <noscript>
-            <img height="1" width="1" src="https://www.facebook.com/tr?id=407876911984372&ev=PageView
-	&noscript=1" />
-        </noscript>
-        <!-- End Meta Pixel Code -->
     </asp:Content>
     <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
         <!--Slider Starts-->
@@ -70,7 +36,7 @@
 
                 <!-- Animated Flag GIF -->
                 <div class="hero-flag-unique">
-                    <img src="images/indian-tiranga.gif" alt="Waving Flag">
+                    <img src="images/indian-tiranga.gif" alt="Waving Flag" width="70" height="42" fetchpriority="high">
                 </div>
                 <!-- Text -->
                 <div class="hero-text-unique">
@@ -183,36 +149,7 @@
                     </div>
                 </div>
 
-                <!-- Popup Modal -->
-                <div id="hero-popupModal-unique"
-                    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(15,23,42,0.85); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); z-index:999999; align-items:center; justify-content:center; padding:15px;">
-                    <div
-                        style="position:relative; width:100%; max-width:600px; background:linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #0284c7 100%); border-radius:22px; box-shadow:0 25px 60px rgba(0,0,0,0.5); border:1px solid rgba(255,255,255,0.25); overflow:hidden;">
-                        <button onclick="closeGlobalPopupForm()" type="button"
-                            style="position:absolute; top:12px; right:14px; width:34px; height:34px; background:rgba(255,255,255,0.2); border:1px solid rgba(255,255,255,0.3); border-radius:50%; color:#ffffff; font-size:20px; font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:10; transition:all 0.2s ease;"
-                            onmouseover="this.style.background='rgba(255,255,255,0.4)'"
-                            onmouseout="this.style.background='rgba(255,255,255,0.2)'">&times;</button>
-                        <div style="padding:20px 20px 8px 20px; text-align:center; color:#ffffff;">
-                            <span
-                                style="background:rgba(56,189,248,0.2); border:1px solid rgba(56,189,248,0.5); color:#38bdf8; font-size:11px; font-weight:800; padding:4px 14px; border-radius:20px; text-transform:uppercase; letter-spacing:1px; display:inline-block;">FAST
-                                15-MIN RESPONSE</span>
-                            <h3
-                                style="color:#ffffff; font-size:22px; font-weight:800; margin-top:8px; margin-bottom:4px;">
-                                Book Free
-                                Strategic Growth Call</h3>
-                            <p style="color:#cbd5e1; font-size:13px; margin:0;">Fill out the form below to get
-                                customized marketing
-                                &amp;
-                                lead strategy recommendations.</p>
-                        </div>
-                        <div style="padding:10px 16px 16px 16px; background:#ffffff;">
-                            <iframe scrolling="no" src="contact.aspx"
-                                style="width:100%; height:500px; border:none; border-radius:12px;"></iframe>
-                        </div>
-                    </div>
-                </div>
                 <script>
-
                     // Open Popup
                     document.getElementById("hero-contactBtn-unique").addEventListener("click", function (e) {
                         e.preventDefault();
@@ -223,8 +160,6 @@
                     function heroClosePopup() {
                         closeGlobalPopupForm();
                     }
-
-
                 </script>
                 <script>
 
@@ -520,7 +455,7 @@
                             <div>
                                 <div class="kdm-founder-img-wrapper">
                                     <img src="images/Gaurav Dubey Digital Marketing trainer.webp"
-                                        alt="Gaurav Dubey - Founder & CEO" class="kdm-founder-img" />
+                                        alt="Gaurav Dubey - Founder & CEO" class="kdm-founder-img"  loading="lazy" decoding="async" />
                                 </div>
                                 <h3 class="kdm-founder-name">Gaurav Dubey</h3>
                                 <div class="kdm-founder-title">Founder &amp; CEO</div>
@@ -628,104 +563,104 @@
                         <div class="happy" id="images">
                             <div class="track">
                                 <!-- Featured Priority Client Logos -->
-                                <div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-                                <div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
+                                <div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp" loading="lazy" decoding="async"></div>
                                 <div class="slide"><img alt="SkinLab Jamuna Pai"
-                                        src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-                                <div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-                                <div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-                                <div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+                                        src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="QHT" src="images/QHT.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="CANX Immigration" src="images/canx.webp" loading="lazy" decoding="async"></div>
                                 <div class="slide"><img alt="Global Opportunities"
-                                        src="images/client/global-opportunies.webp">
+                                        src="images/client/global-opportunies.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp">
+                                <div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
-                                <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
+                                <div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp" loading="lazy" decoding="async"></div>
                                 <div class="slide"><img alt="Continental Immigration"
-                                        src="images/ContinentalImmigration.jpeg"></div>
-                                <div class="slide"><img alt="Scala" src="images/scala.png"></div>
-                                <div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-                                <div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png">
+                                        src="images/ContinentalImmigration.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Scala" src="images/scala.png" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
-                                <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png">
+                                <div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
-                                <div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-                                <div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
+                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp" loading="lazy" decoding="async"></div>
 
                                 <!-- Additional Client Logos -->
-                                <div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
-                                <div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg">
+                                <div class="slide"><img alt="satguru" src="images/satguru--logo.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
-                                <div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.jpg">
+                                <div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.jpg"></div>
+                                <div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp" loading="lazy" decoding="async"></div>
 
-                                <div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.jpeg"></div>
-                                <div class="slide"><img alt="heal24" src="images/cliniq_img.jpeg"></div>
-                                <div class="slide"><img alt="city clinics" src="images/dncc_img.jpeg"></div>
-                                <div class="slide"><img alt="get study visa" src="images/afflatusglobalvisa_img.jpeg">
+                                <div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="heal24" src="images/cliniq_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="city clinics" src="images/dncc_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="get study visa" src="images/afflatusglobalvisa_img.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="heal24" src="images/monickaagupta_img.jpeg"></div>
-                                <div class="slide"><img alt="city clinics" src="images/aicsimmigration.jpeg"></div>
-                                <div class="slide"><img alt="get study visa" src="images/get.png"></div>
-                                <div class="slide"><img alt="Planet education" src="images/pl.png"></div>
-                                <div class="slide"><img alt="R&P" src="images/rp.png"></div>
-                                <div class="slide"><img alt="canx" src="images/canx.png"></div>
-                                <div class="slide"><img alt="Meena Bazar" src="images/mb-Meena-Bazar_img.png"></div>
-                                <div class="slide"><img alt="Lakhotia" src="images/lakhotia_img.png"></div>
-                                <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.jpg"></div>
+                                <div class="slide"><img alt="heal24" src="images/monickaagupta_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="city clinics" src="images/aicsimmigration.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="get study visa" src="images/get.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Planet education" src="images/pl.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="R&P" src="images/rp.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="canx" src="images/canx.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Meena Bazar" src="images/mb-Meena-Bazar_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Lakhotia" src="images/lakhotia_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.webp" loading="lazy" decoding="async"></div>
                                 <div class="slide"> <img alt="Kidney Care Centre"
-                                        src="images/kidney care centre_img.jpg"></div>
-                                <div class="slide"><img alt="Iskcon Delhi" src="images/KAN_VISA_DIRECTIOn_img.png">
+                                        src="images/kidney care centre_img.jpg" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Iskcon Delhi" src="images/KAN_VISA_DIRECTIOn_img.webp" loading="lazy" decoding="async">
                                 </div>
                                 <div class="slide"><img alt="Website Development in delhi"
-                                        src="images/iskcon delhi_img.jpg"></div>
+                                        src="images/iskcon delhi_img.webp" loading="lazy" decoding="async"></div>
                                 <div class="slide"><img alt="Hair Transplant Medispa"
-                                        src="images/hair transplant medispa_img.jpg">
+                                        src="images/hair transplant medispa_img.jpg" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Dreamzone Allahabad" src="images/dreamzone allahabad.jpg">
+                                <div class="slide"><img alt="Dreamzone Allahabad" src="images/dreamzone allahabad.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Dr Pk Talwar" src="images/dr pk talwar_img.jpg"></div>
-                                <div class="slide"><img alt="go to university" src="images/go to university_img.jpg">
+                                <div class="slide"><img alt="Dr Pk Talwar" src="images/dr pk talwar_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="go to university" src="images/go to university_img.jpg" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.jpg"></div>
-                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.png"></div>
-                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.png"></div>
-                                <div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.jpg"></div>
-                                <div class="slide"><img alt="tradeFD" src="images/trade.jpg"></div>
-                                <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg"></div>
-                                <div class="slide"><img alt="Astro Gagan Sharma" src="images/Astro Gagan Sharma.jpg">
+                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="tradeFD" src="images/trade.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Astro Gagan Sharma" src="images/Astro Gagan Sharma.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Art of Making Money" src="images/Art of Making Money.jpg">
+                                <div class="slide"><img alt="Art of Making Money" src="images/Art of Making Money.jpg" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.jpg"></div>
+                                <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.webp" loading="lazy" decoding="async"></div>
                                 <div class="slide"><img alt="One Wellness Fitness Club"
-                                        src="images/One Wellness Fitness Club.jpg">
+                                        src="images/One Wellness Fitness Club.jpg" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="solar farmer" src="images/solar farmer.jpg"></div>
-                                <div class="slide"><img alt="aliff" src="images/aliff_img.jpeg"></div>
-                                <div class="slide"><img alt="fractionate" src="images/fractionate_img.jpeg"></div>
-                                <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg"></div>
-                                <div class="slide"> <img alt="Dr" src="images/Dr.jpg"></div>
-                                <div class="slide"><img alt="dirish sharma" src="images/dirish-sharma-logo.jpg"></div>
-                                <div class="slide"><img alt="City House" src="images/City-House-PG-logo.jpg"></div>
-                                <div class="slide"><img alt="Amazing Holidays" src="images/Amazing-Holidays-logo.jpg">
+                                <div class="slide"><img alt="solar farmer" src="images/solar farmer.jpg" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="aliff" src="images/aliff_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="fractionate" src="images/fractionate_img.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg" loading="lazy" decoding="async"></div>
+                                <div class="slide"> <img alt="Dr" src="images/Dr.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="dirish sharma" src="images/dirish-sharma-logo.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="City House" src="images/City-House-PG-logo.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Amazing Holidays" src="images/Amazing-Holidays-logo.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="Aksira education" src="images/Aksira-education-logo.jpg">
+                                <div class="slide"><img alt="Aksira education" src="images/Aksira-education-logo.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="jashvi consultant" src="images/jashvi consultant_img.jpg">
+                                <div class="slide"><img alt="jashvi consultant" src="images/jashvi consultant_img.jpg" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.jpeg">
+                                <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.webp" loading="lazy" decoding="async">
                                 </div>
-                                <div class="slide"><img alt="MTel" src="images/MTel_img.jpeg"></div>
+                                <div class="slide"><img alt="MTel" src="images/MTel_img.webp" loading="lazy" decoding="async"></div>
                                 <div class="slide"><img alt="Pinnacle Consulting"
-                                        src="images/Pinnacle Consulting_img.jpg"></div>
-                                <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.jpg"></div>
-                                <div class="slide"><img alt="Preetiesdeitclinic" src="images/Preetiesdeitclinic.jpeg">
+                                        src="images/Pinnacle Consulting_img.jpg" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.webp" loading="lazy" decoding="async"></div>
+                                <div class="slide"><img alt="Preetiesdeitclinic" src="images/Preetiesdeitclinic.webp" loading="lazy" decoding="async">
                                 </div>
 
 
@@ -1174,48 +1109,6 @@
         </section>
         <!-- ===== END DIGITAL MARKETING PROCESS SECTION ===== -->
 
-
-
-        <!-- ===== POPUP MODAL ===== -->
-        <div id="popupModal" class="popup-modal"
-            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(15,23,42,0.85); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); z-index:999999; align-items:center; justify-content:center; padding:15px;">
-            <div
-                style="position:relative; width:100%; max-width:600px; background:linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #0284c7 100%); border-radius:22px; box-shadow:0 25px 60px rgba(0,0,0,0.5); border:1px solid rgba(255,255,255,0.25); overflow:hidden;">
-                <button onclick="closeGlobalPopupForm()" type="button"
-                    style="position:absolute; top:12px; right:14px; width:34px; height:34px; background:rgba(255,255,255,0.2); border:1px solid rgba(255,255,255,0.3); border-radius:50%; color:#ffffff; font-size:20px; font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:10; transition:all 0.2s ease;"
-                    onmouseover="this.style.background='rgba(255,255,255,0.4)'"
-                    onmouseout="this.style.background='rgba(255,255,255,0.2)'">&times;</button>
-                <div style="padding:20px 20px 8px 20px; text-align:center; color:#ffffff;">
-                    <span
-                        style="background:rgba(56,189,248,0.2); border:1px solid rgba(56,189,248,0.5); color:#38bdf8; font-size:11px; font-weight:800; padding:4px 14px; border-radius:20px; text-transform:uppercase; letter-spacing:1px; display:inline-block;">FAST
-                        15-MIN RESPONSE</span>
-                    <h3 style="color:#ffffff; font-size:22px; font-weight:800; margin-top:8px; margin-bottom:4px;">Book
-                        Free
-                        Strategic Growth Call</h3>
-                    <p style="color:#cbd5e1; font-size:13px; margin:0;">Fill out the form below to get customized
-                        marketing &amp;
-                        lead strategy recommendations.</p>
-                </div>
-                <div style="padding:10px 16px 16px 16px; background:#ffffff;">
-                    <iframe scrolling="no" src="contact.aspx"
-                        style="width:100%; height:500px; border:none; border-radius:12px;"></iframe>
-                </div>
-            </div>
-        </div>
-
-        <!-- ===== SCRIPT ===== -->
-        <script>
-
-            function openPopup() {
-                openGlobalPopupForm();
-            }
-
-            function closePopup() {
-                closeGlobalPopupForm();
-            }
-        </script>
-
-
         <!-- Services Icons Ends -->
 
 
@@ -1426,8 +1319,6 @@
                     <button class="nav-btn next">&#10095;</button>
                 </div>
             </div>
-        </section>
-
         </section>
 
         <!-- ===== STRIP SECTION ===== -->
@@ -1823,73 +1714,68 @@
                         </div>
 
                         <div class="kdm-blogs-v2-container">
-                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-for-lands-and-plot-selling.aspx"
-                                target="_blank" class="kdm-blog-card-v2">
-                                <div class="kdm-blog-icon-hub">
-                                    <i class="fa fa-building-o"></i>
-                                </div>
-                                <div class="kdm-blog-content-body">
-                                    <div class="kdm-blog-meta-bar">
-                                        <span class="kdm-blog-pill">Real Estate</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> July 15,
-                                            2026</span>
-                                    </div>
-                                    <h4 class="kdm-blog-heading">Lead Generation for Lands and Plots Selling</h4>
-                                </div>
-                                <div class="kdm-blog-arrow-hub">
-                                    <i class="fa fa-chevron-right"></i>
-                                </div>
-                            </a>
-
-                            <a href="https://www.kingofdigitalmarketing.com/blog/lead-generation-services-for-cruise-booking.aspx"
-                                target="_blank" class="kdm-blog-card-v2">
-                                <div class="kdm-blog-icon-hub">
-                                    <i class="fa fa-ship"></i>
-                                </div>
-                                <div class="kdm-blog-content-body">
-                                    <div class="kdm-blog-meta-bar">
-                                        <span class="kdm-blog-pill">Hospitality</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> June 20,
-                                            2026</span>
-                                    </div>
-                                    <h4 class="kdm-blog-heading">Lead Generation Services for Cruise Booking</h4>
-                                </div>
-                                <div class="kdm-blog-arrow-hub">
-                                    <i class="fa fa-chevron-right"></i>
-                                </div>
-                            </a>
-
-                            <a href="https://www.kingofdigitalmarketing.com/blog/digital-marketing-company-vs.aspx"
+                            <a href="https://www.kingofdigitalmarketing.com/blog/meta-live-video-ads-instagram-facebook.aspx"
                                 target="_blank" class="kdm-blog-card-v2">
                                 <div class="kdm-blog-icon-hub">
                                     <i class="fa fa-line-chart"></i>
                                 </div>
                                 <div class="kdm-blog-content-body">
                                     <div class="kdm-blog-meta-bar">
-                                        <span class="kdm-blog-pill">Strategy</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> June 10,
-                                            2026</span>
+                                        <span class="kdm-blog-pill">Social Media</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> October 02, 2026</span>
                                     </div>
-                                    <h4 class="kdm-blog-heading">Digital Marketing Agency vs. In-House Team: Which is
-                                        Better?</h4>
+                                    <h4 class="kdm-blog-heading">Meta Live Video Ads 2026: How to Run Ads on Instagram and Facebook Live</h4>
                                 </div>
                                 <div class="kdm-blog-arrow-hub">
                                     <i class="fa fa-chevron-right"></i>
                                 </div>
                             </a>
 
-                            <a href="https://www.kingofdigitalmarketing.com/blog/how-to-optimize-your-website-for-ai-search-engines.aspx"
+                            <a href="https://www.kingofdigitalmarketing.com/blog/seo-freelancer-in-dubai-uae.aspx"
                                 target="_blank" class="kdm-blog-card-v2">
                                 <div class="kdm-blog-icon-hub">
-                                    <i class="fa fa-laptop"></i>
+                                    <i class="fa fa-search"></i>
                                 </div>
                                 <div class="kdm-blog-content-body">
                                     <div class="kdm-blog-meta-bar">
-                                        <span class="kdm-blog-pill">AI &amp; SEO</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> May 20,
-                                            2026</span>
+                                        <span class="kdm-blog-pill">SEO Strategy  UAE &amp; Dubai</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> October 02, 2026</span>
                                     </div>
-                                    <h4 class="kdm-blog-heading">How to Optimize Your Website for AI Search Engines</h4>
+                                    <h4 class="kdm-blog-heading">SEO Freelancer in Dubai UAE: Why Business Owners Choose Direct 13+ Years Expertise...</h4>
+                                </div>
+                                <div class="kdm-blog-arrow-hub">
+                                    <i class="fa fa-chevron-right"></i>
+                                </div>
+                            </a>
+
+                            <a href="https://www.kingofdigitalmarketing.com/blog/tarot-card-reader-lead-generation.aspx"
+                                target="_blank" class="kdm-blog-card-v2">
+                                <div class="kdm-blog-icon-hub">
+                                    <i class="fa fa-magic"></i>
+                                </div>
+                                <div class="kdm-blog-content-body">
+                                    <div class="kdm-blog-meta-bar">
+                                        <span class="kdm-blog-pill">Tarot Marketing</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> October 02, 2026</span>
+                                    </div>
+                                    <h4 class="kdm-blog-heading">Lead Generation for Tarot Card Reader: How to Get Quality Paying Clients Online</h4>
+                                </div>
+                                <div class="kdm-blog-arrow-hub">
+                                    <i class="fa fa-chevron-right"></i>
+                                </div>
+                            </a>
+
+                            <a href="https://www.kingofdigitalmarketing.com/blog/how-to-get-clients-for-astrology-consultation.aspx"
+                                target="_blank" class="kdm-blog-card-v2">
+                                <div class="kdm-blog-icon-hub">
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="kdm-blog-content-body">
+                                    <div class="kdm-blog-meta-bar">
+                                        <span class="kdm-blog-pill">Astrology Marketing</span>
+                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> September 16, 2026</span>
+                                    </div>
+                                    <h4 class="kdm-blog-heading">How to Get Clients for Astrology Consultation: The Complete Step-by-Step Guide</h4>
                                 </div>
                                 <div class="kdm-blog-arrow-hub">
                                     <i class="fa fa-chevron-right"></i>
@@ -1949,34 +1835,4 @@
 
 
 
-        <!-- Vendor -->
-
-        <script src="vendor/jquery/jquery.js"></script>
-
-        <script src="vendor/jquery.appear/jquery.appear.js"></script>
-
-        <script src="vendor/jquery.easing/jquery.easing.js"></script>
-
-        <script src="vendor/jquery-cookie/jquery-cookie.js"></script>
-
-        <script src="vendor/bootstrap/bootstrap.js"></script>
-
-        <script src="vendor/common/common.js"></script>
-
-        <script src="vendor/owlimages/owl.images.js"></script>
-
-        <!-- Theme Base, Components and Settings -->
-
-        <script src="js/theme.js"></script>
-
-        <!-- Theme Custom -->
-
-        <script src="js/custom.js"></script>
-
-        <!-- Theme Initialization Files -->
-
-        <script src="js/theme.init.js"></script>
-
-        <script src="js/kdm-mega-menu-v2.js"></script>
-        <!--Floating Whatsapp Call in Desktop-->
     </asp:Content>

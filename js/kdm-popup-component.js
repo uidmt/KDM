@@ -1,13 +1,19 @@
 /* ==========================================================================
    KDM Global Popup Component - Centralized Master Controller
-   Controls all popup modals across the entire website loading contact.aspx in iframe
+   Controls all popup modals across the entire website loading /contact.aspx in iframe
    ========================================================================== */
 
 (function () {
-    // 1. Inject Master Popup Modal Container with contact.aspx iframe into Document Body
+    // 1. Inject Master Popup Modal Container with /contact.aspx iframe into Document Body
     function renderKdmGlobalPopup() {
         var existingModal = document.getElementById("kdmPackageModal");
-        if (existingModal) return existingModal;
+        if (existingModal) {
+            var existingIframe = existingModal.querySelector("iframe#kdmPopupIframe");
+            if (existingIframe && (!existingIframe.src || existingIframe.src === "" || existingIframe.src === "about:blank" || existingIframe.src.indexOf("contact.aspx") === -1)) {
+                existingIframe.src = "/contact.aspx";
+            }
+            return existingModal;
+        }
 
         var modalDiv = document.createElement("div");
         modalDiv.id = "kdmPackageModal";
@@ -24,7 +30,7 @@
                 <button type="button" class="kdm-modal-close" onclick="closePackageModal()" style="width:34px; height:34px; border-radius:50%; background:rgba(255,255,255,0.2); color:#ffffff; border:none; font-size:24px; cursor:pointer; display:flex; align-items:center; justify-content:center; line-height:1; transition:background 0.2s ease;">&times;</button>
             </div>
             <div class="kdm-modal-body" style="padding:0; position:relative; background:#ffffff; min-height:540px;">
-                <iframe id="kdmPopupIframe" src="contact.aspx" style="width:100%; height:550px; border:none; display:block; background:#ffffff;" title="Contact Form"></iframe>
+                <iframe id="kdmPopupIframe" src="/contact.aspx" style="width:100%; height:550px; border:none; display:block; background:#ffffff;" title="Contact Form" loading="lazy"></iframe>
             </div>
         </div>
         `;
@@ -38,11 +44,11 @@
         if (modal) {
             var iframe = document.getElementById("kdmPopupIframe");
             if (iframe) {
-                var targetSrc = "contact.aspx";
+                var targetSrc = "/contact.aspx";
                 if (packageName) {
                     targetSrc += "?service=" + encodeURIComponent(packageName);
                 }
-                if (!iframe.src || iframe.src.indexOf("contact.aspx") === -1) {
+                if (!iframe.src || iframe.src === "" || iframe.src === "about:blank" || iframe.src.indexOf("/contact.aspx") === -1 || (packageName && iframe.src.indexOf(encodeURIComponent(packageName)) === -1)) {
                     iframe.src = targetSrc;
                 }
             }

@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Full-funnel digital marketing solutions for driving schools, motor training schools, 4-wheeler and 2-wheeler driving academies including Google Local 3-Pack SEO, high-converting student PPC ads, video reels, and automated WhatsApp enrollment funnels.",
     "areaServed": "Worldwide",

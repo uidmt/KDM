@@ -32,27 +32,34 @@ python3 templates/kdm-industry-master-12s/generator.py --file urls.txt
    - Primary CTA button (`openGlobalPopupForm()`)
    - 4-column value highlights bar with checkmark icons
 
-2. **Section 2: Industry Overview & Strategy (White Theme)**
+2. **Section 1B (Optional Showcase): Industry Clients We Have Worked With (`KDM-IND-CLIENTS-SHOWCASE`)**
+   - **Template Name**: `KDM-IND-CLIENTS-SHOWCASE`
+   - **Position**: Immediately following Hero Banner for maximum instant trust & conversion.
+   - **Styles**: Defined centrally in `css/kdm-industry.css` (`.kdm-industry-clients-section`, `.kdm-client-marquee-...`, `.kdm-client-grid-...`)
+   - **Scripts**: Defined centrally in `js/kdm-industry.js` (`filterIndustryClients()`, `clearIndustryClientSearch()`)
+   - **Features**: Dual infinite logo marquee ticker, real-time client brand search bar, responsive 50+ logo card grid, and bottom CTA strip.
+
+3. **Section 2: Industry Overview & Strategy (White Theme)**
    - Strategy badge + H2 gradient headline + H4 subtitle
    - 3 strategic positioning paragraphs
 
-3. **Section 3: 7-Step Acquisition Funnel (Dark Theme `#090d16`)**
+4. **Section 3: 7-Step Acquisition Funnel (Dark Theme `#090d16`)**
    - 7 numbered funnel cards with SVG icons & bullet lists
    - Bottom CTA banner
 
-4. **Section 4: 12 Real Industry Challenges / Struggles (White Theme)**
+5. **Section 4: 12 Real Industry Challenges / Struggles (White Theme)**
    - Red alert badge + 12 challenge cards with red SVG icons
    - Bottom solution banner
 
-5. **Section 5: Credentials & Milestone Counters (White Theme)**
+6. **Section 5: Credentials & Milestone Counters (White Theme)**
    - 5 milestone counter cards (`13+ Years`, `900+ Projects`, `15+ Countries`, `4.9★ Rating`, `150+ Industries`)
 
-6. **Section 6: Featured Case Studies Slider (Light Grey Theme)**
+7. **Section 6: Featured Case Studies Slider (Light Grey Theme)**
    - Live client/brand search bar (`filterCaseStudies()`)
    - Slider track (`kdmCaseSliderTrack`) with prev/next arrows (`scrollCaseSlider()`)
    - 6 case study cards with multiplier/percentage metrics
 
-7. **Section 7: 9 Standardized Digital Marketing Services (White Theme)**
+8. **Section 7: 9 Standardized Digital Marketing Services (White Theme)**
    - Standard 9-color card sequence:
      1. `yg-emerald` (Website Design & Development)
      2. `yg-blue` (SEO & Local Map Pack)

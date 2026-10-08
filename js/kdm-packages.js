@@ -4,8 +4,22 @@
    ========================================================================== */
 
 function openPackageModal(packageName) {
+    if (typeof window.openPackageModal === "function" && window.openPackageModal !== openPackageModal) {
+        window.openPackageModal(packageName);
+        return;
+    }
     var modal = document.getElementById("kdmPackageModal") || document.getElementById("global-popup-modal") || document.getElementById("popupModal") || document.querySelector(".kdm-modal-overlay");
     if (modal) {
+        var iframe = modal.querySelector("iframe#kdmPopupIframe") || document.getElementById("kdmPopupIframe");
+        if (iframe) {
+            var targetSrc = "/contact.aspx";
+            if (packageName) {
+                targetSrc += "?service=" + encodeURIComponent(packageName);
+            }
+            if (!iframe.src || iframe.src === "" || iframe.src === "about:blank" || iframe.src.indexOf("/contact.aspx") === -1 || (packageName && iframe.src.indexOf(encodeURIComponent(packageName)) === -1)) {
+                iframe.src = targetSrc;
+            }
+        }
         modal.classList.add("active");
         modal.style.display = "flex";
         document.body.style.overflow = "hidden"; // Prevent background scrolling

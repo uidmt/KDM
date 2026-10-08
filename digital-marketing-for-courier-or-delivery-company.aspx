@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Comprehensive digital marketing and booking generation solutions for courier services, parcel dispatchers, international cargo forwarders, and logistics delivery companies including Google Search PPC, WhatsApp shipping rate bots, B2B corporate client outreach, and local Google Maps SEO.",
     "areaServed": "Worldwide",

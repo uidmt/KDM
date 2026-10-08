@@ -1211,40 +1211,16 @@ def generate_page(config):
 	  "@context": "https://schema.org",
 	  "@graph": [
 	    {{
-	      "@type": "LocalBusiness",
-	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing - {city_name}",
+	      "@type": "WebPage",
+	      "@id": "https://www.kingofdigitalmarketing.com/{url_path}#webpage",
 	      "url": "https://www.kingofdigitalmarketing.com/{url_path}",
-	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/{url_slug}.jpg",
+	      "name": "{service_name} in {city_name}",
 	      "description": "Leading {service_name} in {city_name} offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation.",
-	      "telephone": "+91-9555696058",
-	      "email": "info@kingofdigitalmarketing.com",
-	      "priceRange": "$$",
-	      "address": {{
-	        "@type": "PostalAddress",
-	        "addressLocality": "{city_name}",
-	        "addressRegion": "{state_name}",
-	        "addressCountry": "{country}"
+	      "isPartOf": {{
+	        "@id": "https://www.kingofdigitalmarketing.com/#website"
 	      }},
-	      "geo": {{
-	        "@type": "GeoCoordinates",
-	        "latitude": "{lat}",
-	        "longitude": "{lng}"
-	      }},
-	      "openingHoursSpecification": [
-	        {{
-	          "@type": "OpeningHoursSpecification",
-	          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-	          "opens": "09:30",
-	          "closes": "19:00"
-	        }}
-	      ],
-	      "aggregateRating": {{
-	        "@type": "AggregateRating",
-	        "ratingValue": "4.9",
-	        "reviewCount": "240",
-	        "bestRating": "5"
+	      "breadcrumb": {{
+	        "@id": "https://www.kingofdigitalmarketing.com/{url_path}#breadcrumb"
 	      }}
 	    }},
 	    {{
@@ -1252,8 +1228,10 @@ def generate_page(config):
 	      "@id": "https://www.kingofdigitalmarketing.com/{url_path}#service",
 	      "name": "{service_name} in {city_name}",
 	      "serviceType": "{service_type}",
+	      "description": "Leading {service_name} in {city_name} offering performance SEO, Google Ads (PPC), Meta Ads, Social Media Marketing, and Lead Generation.",
 	      "provider": {{
-	        "@type": "LocalBusiness",
+	        "@type": "ProfessionalService",
+	        "@id": "https://www.kingofdigitalmarketing.com/#organization",
 	        "name": "King of Digital Marketing"
 	      }},
 	      "areaServed": {{

@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Comprehensive digital marketing and patient acquisition solutions for multispecialty hospitals, super-specialty medical centers, and healthcare networks including Google Maps 3-pack SEO, 24/7 emergency PPC ads, international medical tourism funnels, and automated WhatsApp OPD booking.",
     "areaServed": "Worldwide",
@@ -774,7 +774,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/CitycClinic.webp" alt="CityC Care Hospital" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/CitycClinic.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/CitycClinic.webp" alt="CityC Care Hospital" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/CitycClinic.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">CityC Multispecialty Hospital</h3>
                 <h4 class="kdm-case-v3-subtitle">(Cardiac, Ortho &amp; Critical Care)</h4>
@@ -834,7 +834,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/Skinmumma-logo.webp" alt="HopeOnco Cancer Care" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Skinmumma-logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/Skinmumma-logo.webp" alt="HopeOnco Cancer Care" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/Skinmumma-logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">HopeOnco Comprehensive Cancer</h3>
                 <h4 class="kdm-case-v3-subtitle">(Medical, Surgical &amp; Radiation Oncology)</h4>
@@ -874,7 +874,7 @@
             <div class="kdm-case-v3-card">
               <div>
                 <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                  <img src="images/client/satguru--logo.webp" alt="NeuroSpine Super Specialty" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.png';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
+                  <img src="images/client/satguru--logo.webp" alt="NeuroSpine Super Specialty" class="kdm-case-v3-logo" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='images/client/satguru--logo.webp';" style="max-height: 52px; max-width: 120px; object-fit: contain; display: block; margin: 0 auto;" />
                 </div>
                 <h3 class="kdm-case-v3-title">NeuroSpine Surgical Hospital</h3>
                 <h4 class="kdm-case-v3-subtitle">(Brain &amp; Minimally Invasive Spine)</h4>

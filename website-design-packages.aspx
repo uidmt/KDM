@@ -6,14 +6,13 @@
       content="website design packages, affordable web design plans, professional website design, responsive web design, custom website design, business website design, web design services, SEO-friendly website, web development packages">
     <meta name="description"
       content="Explore our professional website design packages tailored for startups, small businesses, and enterprises. Get affordable, responsive, and SEO-friendly web design solutions that elevate your online presence.">
-    <link rel="canonical" href="https://www.kingofdigitalmarketing.com/video-editing-services.aspx" />
+    <link rel="canonical" href="https://www.kingofdigitalmarketing.com/website-design-packages.aspx" />
     <meta property="og:title" content="Website Design Packages | Affordable Web Design Plans for Every Business">
-    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/viedo-editing.jpg">
+    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/website-design.webp">
     <meta property="og:description"
       content="Explore our professional website design packages tailored for startups, small businesses, and enterprises. Get affordable, responsive, and SEO-friendly web design solutions that elevate your online presence.">
-    <meta property="og:url" content="https://www.kingofdigitalmarketing.com/video-editing-services.aspx">
+    <meta property="og:url" content="https://www.kingofdigitalmarketing.com/website-design-packages.aspx">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="robots" content="noindex, nofollow">
     <link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/location-page.css">
     <link rel="stylesheet" href="css/location-page.css">
@@ -413,11 +412,11 @@
 
         /* ✅ Background Images */
         .industry-bg1 {
-          background-image: url("images/astrology.png");
+          background-image: url("images/Astrology.webp");
         }
 
         .industry-bg2 {
-          background-image: url("images/hair-transplant.png");
+          background-image: url("images/hair-transplant.webp");
         }
 
         .industry-bg3 {

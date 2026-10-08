@@ -12,164 +12,169 @@
     var imgPrefix = isBlog ? '../images/' : 'images/';
     var rootUrl = 'https://www.kingofdigitalmarketing.com/';
 
-    // Only inject footer HTML if the container is empty
-    if (!footerContainer.children || footerContainer.children.length === 0) {
+    footerContainer.className = 'kdm-vibrant-footer';
+
+    // Only inject footer markup if the footer container is empty or doesn't have footer columns
+    if (!footerContainer.querySelector('.kdm-footer-col')) {
       var footerHTML = `
-        <div class="footer-ribbon">
-          <span>Get in Touch</span>
+      <div class="container">
+        <div class="row" style="position: relative;">
+          
+          <!-- Top Left Get In Touch Ribbon -->
+          <div class="footer-ribbon">
+            <span>Get in Touch</span>
+          </div>
+
+          <!-- Column 1: OUR SERVICES -->
+          <div class="col-md-3 kdm-footer-col">
+            <h4 class="kdm-footer-heading">OUR SERVICES</h4>
+            <ul class="kdm-footer-links">
+              <li><a href="${rootUrl}SEO-Services.aspx" title="SEO Company in Delhi">SEARCH ENGINE OPTIMIZATION</a></li>
+              <li><a href="${rootUrl}SMO-Services.aspx" title="SMO Services in India">SOCIAL MEDIA OPTIMIZATION</a></li>
+              <li><a href="${rootUrl}PPC-Services.aspx" title="PPC Services in Delhi">PAY PER CLICK (PPC MANAGEMENT)</a></li>
+              <li><a href="${rootUrl}ORM-Services.aspx" title="ORM Services in Delhi">ONLINE REPUTATION MANAGEMENT</a></li>
+              <li><a href="${rootUrl}mobile-app-promotion-services.aspx" title="App Store Optimization">MOBILE APP PROMOTION</a></li>
+              <li><a href="${rootUrl}social-media-marketing-services.aspx" title="Social Media Marketing">SOCIAL MEDIA MARKETING SERVICES</a></li>
+              <li><a href="${rootUrl}Content-Writing-Service.aspx" title="Content Writing Services">CONTENT WRITING SERVICE</a></li>
+              <li><a href="${rootUrl}Website-Development.aspx" title="Website Design & Development">WEBSITE DESIGN &amp; DEVELOPMENT</a></li>
+              <li><a href="${rootUrl}Android-Application-Development-company.aspx" title="Android App Development">ANDROID APP DEVELOPMENT</a></li>
+              <li><a href="${rootUrl}SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx" title="SEO Freelancer">SEO FREELANCER IN INDIA</a></li>
+              <li><a href="${rootUrl}facebook-marketing-services.aspx" title="Facebook Marketing">FACEBOOK MARKETING SERVICES</a></li>
+              <li><a href="${rootUrl}lead-generation-company.aspx" title="Lead Generation">LEAD GENERATION SERVICES</a></li>
+              <li><a href="${rootUrl}flipkart-marketing-services.aspx" title="Flipkart Marketing">FLIPKART MARKETING SERVICES</a></li>
+              <li><a href="${rootUrl}amazon-marketing-services.aspx" title="Amazon Marketing">AMAZON MARKETING SERVICES</a></li>
+              <li><a href="${rootUrl}Default.aspx" class="kdm-highlight-link"><strong>DIGITAL MARKETING COMPANY</strong></a></li>
+            </ul>
+          </div>
+
+          <!-- Column 2: INDUSTRIES -->
+          <div class="col-md-3 kdm-footer-col">
+            <h4 class="kdm-footer-heading">INDUSTRIES</h4>
+            <ul class="kdm-footer-links">
+              <li><a href="${rootUrl}digital-marketing-for-astrology.aspx">ASTROLOGY</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-cosmetic-surgeon.aspx">COSMETIC/PLASTIC SURGEON</a></li>
+              <li><a href="${rootUrl}hair-transplant-digital-marketing-services.aspx">HAIR TRANSPLANT</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-visa-immigration-consultant.aspx">IMMIGRATION/VISA</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-overseas-education.aspx">OVERSEAS EDUCATION</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-yoga.aspx">YOGA STUDIO</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-nephrologist.aspx">NEPHROLOGIST</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-institutes.aspx">INSTITUTE/SCHOOLS</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-ecommerce.aspx">E-COMMERCE</a></li>
+              <li><a href="${rootUrl}coworking-space.aspx">COWORKING SPACE</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-politicians.aspx">POLITICIANS</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-gym-fitness.aspx">FITNESS TRAINER</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-startups.aspx">STARTUPS</a></li>
+              <li><a href="${rootUrl}digital-marketing-for-travel-agency.aspx">TRAVEL AGENCY/HOTELS</a></li>
+              <li><a href="${rootUrl}industries-we-serve.aspx" class="kdm-highlight-link"><strong>VIEW MORE INDUSTRIES</strong></a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: VARIOUS PACKAGES -->
+          <div class="col-md-3 kdm-footer-col">
+            <h4 class="kdm-footer-heading">VARIOUS PACKAGES</h4>
+            <ul class="kdm-footer-links">
+              <li><a href="${rootUrl}SEO-Package.aspx">SEO PACKAGES</a></li>
+              <li><a href="${rootUrl}SMO-Package.aspx">SMO PACKAGES</a></li>
+              <li><a href="${rootUrl}PPC-Package.aspx">PPC PACKAGES</a></li>
+              <li><a href="${rootUrl}ORM-Services.aspx">ORM PACKAGES</a></li>
+              <li><a href="${rootUrl}Content-Writing-Packages.aspx">CONTENT WRITING PACKAGES</a></li>
+              <li><a href="${rootUrl}Website-Designing-Packages.aspx">WEBSITE DEVELOPMENT PACKAGES</a></li>
+              <li><a href="${rootUrl}Website-Designing-Packages.aspx">WEBSITE DESIGN PACKAGES</a></li>
+              <li><a href="${rootUrl}Android-Application-Development-company.aspx">ANDROID APP DEVELOPMENT PACKAGES</a></li>
+              <li><a href="${rootUrl}SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx">SEO FREELANCE PACKAGES</a></li>
+            </ul>
+            <div class="kdm-quick-links-section">
+              <span class="kdm-sub-heading">QUICK LINKS</span>
+              <ul class="kdm-footer-links">
+                <li><a href="${rootUrl}blog/">LATEST BLOGS</a></li>
+                <li><a href="${rootUrl}career.aspx">CAREER</a></li>
+                <li><a href="${rootUrl}team.aspx">TEAM</a></li>
+                <li><a href="${rootUrl}Our-Portfolio.aspx">PORTFOLIO</a></li>
+                <li><a href="${rootUrl}seo-case-study.aspx">CASE STUDIES</a></li>
+                <li><a href="${rootUrl}digital-marketing-course.aspx" class="kdm-highlight-link"><strong>DIGITAL MARKETING COURSE</strong></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 4: CONTACT US -->
+          <div class="col-md-3 kdm-footer-col">
+            <h4 class="kdm-footer-heading">CONTACT US</h4>
+            <div class="kdm-contact-info-card">
+              <p class="contact-item">
+                <span><strong class="kdm-blue-label">Head Branch:</strong> 1800/09, 1st Floor<br>Govindpuri Extension, Kalkaji<br>New Delhi - 110019</span>
+              </p>
+              <p class="contact-item">
+                <span><strong class="kdm-blue-label">Phone:</strong> <a href="tel:+919555696058">+919555696058</a></span>
+              </p>
+              <p class="contact-item">
+                <span><strong class="kdm-blue-label">Email:</strong> <a href="mailto:info@kingofdigitalmarketing.com">info@kingofdigitalmarketing.com</a></span>
+              </p>
+              <p class="contact-item">
+                <span><strong class="kdm-blue-label">Branch Office:</strong><br>Allahabad, Uttar Pradesh - 211003<br><strong class="kdm-blue-label">Phone:</strong> <a href="tel:+919821918208">+919821918208</a></span>
+              </p>
+            </div>
+
+            <!-- SVG Vector Social Media Icons -->
+            <div class="kdm-footer-social">
+              <div class="social-btn-group">
+                <a href="https://www.facebook.com/kingofdigitalmarket" target="_blank" class="social-btn fb" title="Facebook"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                <a href="https://twitter.com/kingofdgtlmrkt" target="_blank" class="social-btn tw" title="Twitter"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                <a href="https://www.linkedin.com/company/king-of-digital-marketing" target="_blank" class="social-btn li" title="LinkedIn"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="https://www.instagram.com/kingofdigitalmarketing/" target="_blank" class="social-btn ig" title="Instagram"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                <a href="https://www.youtube.com/channel/UCD9lzE6O-6pOB7S_3MQkHYQ" target="_blank" class="social-btn yt" title="YouTube"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+              </div>
+            </div>
+
+            <!-- SVG Credit Card Make Online Payment Button -->
+            <div style="margin-top: 14px;">
+              <a href="https://rzp.io/l/IxF4cKYXfI" target="_blank" class="kdm-payment-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                <span>MAKE ONLINE PAYMENT</span>
+              </a>
+            </div>
+          </div>
+
         </div>
+
+        <!-- Credit Cards / Trust Image at Bottom -->
+        <div class="row" style="margin-top: 25px;">
+          <div class="col-12 text-center" style="width: 100%; text-align: center;">
+            <img src="${imgPrefix}credit-min.png" width="100%" alt="credit cards" style="max-width: 100%; height: auto; display: inline-block;">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright Starts -->
+      <div class="footer-copyright">
         <div class="container">
-          <div class="row" style="position: relative;">
-            
-            <!-- Column 1: OUR SERVICES -->
-            <div class="col-md-3 kdm-footer-col">
-              <h4 class="kdm-footer-heading">OUR SERVICES</h4>
-              <ul class="kdm-footer-links">
-                <li><a href="${rootUrl}SEO-Services.aspx" title="SEO Company in Delhi">SEARCH ENGINE OPTIMIZATION</a></li>
-                <li><a href="${rootUrl}SMO-Services.aspx" title="SMO Services in India">SOCIAL MEDIA OPTIMIZATION</a></li>
-                <li><a href="${rootUrl}PPC-Services.aspx" title="PPC Services in Delhi">PAY PER CLICK (PPC MANAGEMENT)</a></li>
-                <li><a href="${rootUrl}ORM-Services.aspx" title="ORM Services in Delhi">ONLINE REPUTATION MANAGEMENT</a></li>
-                <li><a href="${rootUrl}mobile-app-promotion-services.aspx" title="App Store Optimization">MOBILE APP PROMOTION</a></li>
-                <li><a href="${rootUrl}social-media-marketing-services.aspx" title="Social Media Marketing">SOCIAL MEDIA MARKETING SERVICES</a></li>
-                <li><a href="${rootUrl}Content-Writing-Service.aspx" title="Content Writing Services">CONTENT WRITING SERVICE</a></li>
-                <li><a href="${rootUrl}Website-Development.aspx" title="Website Design & Development">WEBSITE DESIGN &amp; DEVELOPMENT</a></li>
-                <li><a href="${rootUrl}Android-Application-Development-company.aspx" title="Android App Development">ANDROID APP DEVELOPMENT</a></li>
-                <li><a href="${rootUrl}SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx" title="SEO Freelancer">SEO FREELANCER IN INDIA</a></li>
-                <li><a href="${rootUrl}facebook-marketing-services.aspx" title="Facebook Marketing">FACEBOOK MARKETING SERVICES</a></li>
-                <li><a href="${rootUrl}lead-generation-company.aspx" title="Lead Generation">LEAD GENERATION SERVICES</a></li>
-                <li><a href="${rootUrl}flipkart-marketing-services.aspx" title="Flipkart Marketing">FLIPKART MARKETING SERVICES</a></li>
-                <li><a href="${rootUrl}amazon-marketing-services.aspx" title="Amazon Marketing">AMAZON MARKETING SERVICES</a></li>
-                <li><a href="${rootUrl}Default.aspx" class="kdm-highlight-link"><strong>DIGITAL MARKETING COMPANY</strong></a></li>
-              </ul>
+          <div class="row" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; margin: 0;">
+            <div style="padding: 0;">
+              <p style="color: #94a3b8; font-size: 12px; margin: 0; line-height: 1.4; white-space: nowrap;">
+                &copy; 2013-26 <a href="${rootUrl}" style="color: #38bdf8; text-decoration: none; font-weight: 600;">King of Digital Marketing</a>. All Rights Reserved.
+              </p>
             </div>
-
-            <!-- Column 2: INDUSTRIES -->
-            <div class="col-md-3 kdm-footer-col">
-              <h4 class="kdm-footer-heading">INDUSTRIES</h4>
-              <ul class="kdm-footer-links">
-                <li><a href="${rootUrl}digital-marketing-for-astrology.aspx">ASTROLOGY</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-cosmetic-surgeon.aspx">COSMETIC/PLASTIC SURGEON</a></li>
-                <li><a href="${rootUrl}hair-transplant-digital-marketing-services.aspx">HAIR TRANSPLANT</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-visa-immigration-consultant.aspx">IMMIGRATION/VISA</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-overseas-education.aspx">OVERSEAS EDUCATION</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-yoga.aspx">YOGA STUDIO</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-nephrologist.aspx">NEPHROLOGIST</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-institutes.aspx">INSTITUTE/SCHOOLS</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-ecommerce.aspx">E-COMMERCE</a></li>
-                <li><a href="${rootUrl}coworking-space.aspx">COWORKING SPACE</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-politicians.aspx">POLITICIANS</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-gym-fitness.aspx">FITNESS TRAINER</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-startups.aspx">STARTUPS</a></li>
-                <li><a href="${rootUrl}digital-marketing-for-travel-agency.aspx">TRAVEL AGENCY/HOTELS</a></li>
-                <li><a href="${rootUrl}industries-we-serve.aspx" class="kdm-highlight-link"><strong>VIEW MORE INDUSTRIES</strong></a></li>
-              </ul>
-            </div>
-
-            <!-- Column 3: VARIOUS PACKAGES -->
-            <div class="col-md-3 kdm-footer-col">
-              <h4 class="kdm-footer-heading">VARIOUS PACKAGES</h4>
-              <ul class="kdm-footer-links">
-                <li><a href="${rootUrl}SEO-Package.aspx">SEO PACKAGES</a></li>
-                <li><a href="${rootUrl}SMO-Package.aspx">SMO PACKAGES</a></li>
-                <li><a href="${rootUrl}PPC-Package.aspx">PPC PACKAGES</a></li>
-                <li><a href="${rootUrl}ORM-Services.aspx">ORM PACKAGES</a></li>
-                <li><a href="${rootUrl}Content-Writing-Packages.aspx">CONTENT WRITING PACKAGES</a></li>
-                <li><a href="${rootUrl}Website-Designing-Packages.aspx">WEBSITE DEVELOPMENT PACKAGES</a></li>
-                <li><a href="${rootUrl}Website-Designing-Packages.aspx">WEBSITE DESIGN PACKAGES</a></li>
-                <li><a href="${rootUrl}Android-Application-Development-company.aspx">ANDROID APP DEVELOPMENT PACKAGES</a></li>
-                <li><a href="${rootUrl}SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx">SEO FREELANCE PACKAGES</a></li>
-              </ul>
-              <div class="kdm-quick-links-section">
-                <span class="kdm-sub-heading">QUICK LINKS</span>
-                <ul class="kdm-footer-links">
-                  <li><a href="${rootUrl}blog/">LATEST BLOGS</a></li>
-                  <li><a href="${rootUrl}career.aspx">CAREER</a></li>
-                  <li><a href="${rootUrl}team.aspx">TEAM</a></li>
-                  <li><a href="${rootUrl}Our-Portfolio.aspx">PORTFOLIO</a></li>
-                  <li><a href="${rootUrl}seo-case-study.aspx">CASE STUDIES</a></li>
-                  <li><a href="${rootUrl}Digital-Marketing-Course.aspx" class="kdm-highlight-link"><strong>DIGITAL MARKETING COURSE</strong></a></li>
+            <div style="padding: 0;">
+              <nav id="sub-menu">
+                <ul style="list-style: none; margin: 0; padding: 0; display: flex; align-items: center; justify-content: flex-end; flex-wrap: nowrap;">
+                  <li><a href="${rootUrl}About-Us.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">About Us</a></li>
+                  <li><a href="${rootUrl}terms-and-conditions.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">Terms</a></li>
+                  <li><a href="${rootUrl}privacy-policy.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">Privacy</a></li>
+                  <li><a href="${rootUrl}refund-policy.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">Refund Policy</a></li>
+                  <li><a href="${rootUrl}Contact-Us.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">Contact Us</a></li>
                 </ul>
-              </div>
-            </div>
-
-            <!-- Column 4: CONTACT US -->
-            <div class="col-md-3 kdm-footer-col">
-              <h4 class="kdm-footer-heading">CONTACT US</h4>
-              <div class="kdm-contact-info-card">
-                <p class="contact-item">
-                  <span><strong class="kdm-blue-label">Head Branch:</strong> 1800/09, 1st Floor<br>Govindpuri Extension, Kalkaji<br>New Delhi - 110019</span>
-                </p>
-                <p class="contact-item">
-                  <span><strong class="kdm-blue-label">Phone:</strong> <a href="tel:+919555696058">+919555696058</a></span>
-                </p>
-                <p class="contact-item">
-                  <span><strong class="kdm-blue-label">Email:</strong> <a href="mailto:info@kingofdigitalmarketing.com">info@kingofdigitalmarketing.com</a></span>
-                </p>
-                <p class="contact-item">
-                  <span><strong class="kdm-blue-label">Branch Office:</strong><br>Allahabad, Uttar Pradesh - 211003<br><strong class="kdm-blue-label">Phone:</strong> <a href="tel:+919821918208">+919821918208</a></span>
-                </p>
-              </div>
-
-              <!-- SVG Vector Social Media Icons -->
-              <div class="kdm-footer-social">
-                <div class="social-btn-group">
-                  <a href="https://www.facebook.com/kingofdigitalmarket" target="_blank" class="social-btn fb" title="Facebook"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
-                  <a href="https://twitter.com/kingofdgtlmrkt" target="_blank" class="social-btn tw" title="Twitter"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
-                  <a href="https://www.linkedin.com/company/king-of-digital-marketing" target="_blank" class="social-btn li" title="LinkedIn"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
-                  <a href="https://www.instagram.com/kingofdigitalmarketing/" target="_blank" class="social-btn ig" title="Instagram"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
-                  <a href="https://www.youtube.com/channel/UCD9lzE6O-6pOB7S_3MQkHYQ" target="_blank" class="social-btn yt" title="YouTube"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
-                </div>
-              </div>
-
-              <!-- SVG Credit Card Make Online Payment Button -->
-              <div style="margin-top: 14px;">
-                <a href="https://rzp.io/l/IxF4cKYXfI" target="_blank" class="kdm-payment-link">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
-                  <span>MAKE ONLINE PAYMENT</span>
-                </a>
-              </div>
-            </div>
-
-          </div>
-
-          <!-- Credit Cards / Trust Image at Bottom -->
-          <div class="row" style="margin-top: 25px;">
-            <div class="col-12 text-center" style="width: 100%; text-align: center;">
-              <img src="${imgPrefix}credit-min.png" width="100%" alt="credit cards" style="max-width: 100%; height: auto; display: inline-block;">
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Copyright Starts -->
-        <div class="footer-copyright">
-          <div class="container">
-            <div class="row" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; margin: 0;">
-              <div style="padding: 0;">
-                <p style="color: #94a3b8; font-size: 12px; margin: 0; line-height: 1.4; white-space: nowrap;">
-                  &copy; 2013-26 <a href="${rootUrl}" style="color: #38bdf8; text-decoration: none; font-weight: 600;">King of Digital Marketing</a>. All Rights Reserved.
-                </p>
-              </div>
-              <div style="padding: 0;">
-                <nav id="sub-menu">
-                  <ul style="list-style: none; margin: 0; padding: 0; display: flex; align-items: center; justify-content: flex-end; flex-wrap: nowrap;">
-                    <li><a href="${rootUrl}About-Us.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">About Us</a></li>
-                    <li><a href="${rootUrl}terms-and-conditions.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">Terms</a></li>
-                    <li><a href="${rootUrl}privacy-policy.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">Privacy</a></li>
-                    <li><a href="${rootUrl}refund-policy.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">Refund Policy</a></li>
-                    <li><a href="${rootUrl}Contact-Us.aspx" style="color: #cbd5e1; font-size: 12px; text-decoration: none; white-space: nowrap;">Contact Us</a></li>
-                  </ul>
-                </nav>
-              </div>
+              </nav>
             </div>
           </div>
         </div>
-      `;
+      </div>
+    `;
 
-      footerContainer.innerHTML = footerHTML;
+    footerContainer.innerHTML = footerHTML;
     }
 
-    if (!document.querySelector('.kdm-mobile-sticky-bar')) {
+    // Mobile Action bar & WhatsApp floating widget
+    if (!document.querySelector('.kdm-centralized-action-wrapper')) {
       var actionBlock = document.createElement('div');
       actionBlock.className = 'kdm-centralized-action-wrapper';
       actionBlock.innerHTML = `
@@ -220,4 +225,3 @@
     renderKdmFooter();
   }
 })();
-

@@ -24,7 +24,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Full-funnel digital marketing solutions for banquet halls, marriage lawns, party venues, and luxury convention centers including Google Local 3-Pack SEO, high-converting PPC ads, drone video marketing, and WhatsApp inquiry funnels.",
     "areaServed": "Worldwide",

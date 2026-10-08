@@ -1968,3 +1968,30 @@ p.span1 a:not(.btn):not(.kdm-cta-btn):hover,
     outline-offset: 2px;
     border-radius: 2px;
 }
+
+/* Universal Blog Content Image Containment */
+.print-main img,
+.single-page img,
+.content-left img,
+.kdm-blog-wrapper img,
+.kdm-in-article-img-box img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.kdm-in-article-img-box {
+    margin: 25px 0 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05) !important;
+    background: #ffffff !important;
+    max-width: 100% !important;
+}
+
+.kdm-in-article-img-box img {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
+    height: auto !important;
+}

@@ -37,11 +37,26 @@
 	      "url": "https://www.kingofdigitalmarketing.com/career.aspx",
 	      "name": "Careers & Digital Marketing Jobs in Delhi | King of Digital Marketing",
 	      "isPartOf": {
-	        "@id": "https://www.kingofdigitalmarketing.com/#organization"
+	        "@id": "https://www.kingofdigitalmarketing.com/#website"
 	      },
 	      "description": "Explore open digital marketing jobs and paid internships in SEO, Google Ads PPC, Meta Ads, Video Editing, Content Writing, and Web Development at King of Digital Marketing.",
 	      "breadcrumb": {
-	        "@id": "https://www.kingofdigitalmarketing.com/career.aspx#breadcrumb"
+	        "@type": "BreadcrumbList",
+	        "@id": "https://www.kingofdigitalmarketing.com/career.aspx#breadcrumb",
+	        "itemListElement": [
+	          {
+	            "@type": "ListItem",
+	            "position": 1,
+	            "name": "Home",
+	            "item": "https://www.kingofdigitalmarketing.com/"
+	          },
+	          {
+	            "@type": "ListItem",
+	            "position": 2,
+	            "name": "Careers & Open Positions",
+	            "item": "https://www.kingofdigitalmarketing.com/career.aspx"
+	          }
+	        ]
 	      },
 	      "inLanguage": "en-IN",
 	      "speakable": {
@@ -51,83 +66,6 @@
 	          ".kdm-service-hero-subtitle",
 	          ".kdm-faq-item"
 	        ]
-	      }
-	    },
-	    {
-	      "@type": "BreadcrumbList",
-	      "@id": "https://www.kingofdigitalmarketing.com/career.aspx#breadcrumb",
-	      "itemListElement": [
-	        {
-	          "@type": "ListItem",
-	          "position": 1,
-	          "name": "Home",
-	          "item": "https://www.kingofdigitalmarketing.com/"
-	        },
-	        {
-	          "@type": "ListItem",
-	          "position": 2,
-	          "name": "Careers & Open Positions",
-	          "item": "https://www.kingofdigitalmarketing.com/career.aspx"
-	        }
-	      ]
-	    },
-	    {
-	      "@type": "ProfessionalService",
-	      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-	      "name": "King of Digital Marketing",
-	      "url": "https://www.kingofdigitalmarketing.com/",
-	      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
-	      "image": "https://www.kingofdigitalmarketing.com/images/work%20culture%20at%20KDM.webp",
-	      "description": "Premier digital marketing agency in India with 13+ years of experience, 900+ completed projects, and 32+ in-house specialists handling SEO, PPC, Social Media, and Web Development.",
-	      "telephone": "+91-9555696058",
-	      "email": "info@kingofdigitalmarketing.com",
-	      "priceRange": "$$",
-	      "address": {
-	        "@type": "PostalAddress",
-	        "streetAddress": "First Floor, 1800/09, near Pooja Masala Store, Govindpuri Extension, Kalkaji",
-	        "addressLocality": "New Delhi",
-	        "addressRegion": "Delhi",
-	        "postalCode": "110019",
-	        "addressCountry": "IN"
-	      },
-	      "geo": {
-	        "@type": "GeoCoordinates",
-	        "latitude": "28.5355",
-	        "longitude": "77.2612"
-	      },
-	      "founder": {
-	        "@type": "Person",
-	        "name": "Gaurav Dubey",
-	        "jobTitle": "Founder & Lead Digital Growth Strategist",
-	        "sameAs": [
-	          "https://www.linkedin.com/in/gauravdubeykdm/",
-	          "https://www.youtube.com/@KingofDigitalMarketing"
-	        ],
-	        "worksFor": {
-	          "@id": "https://www.kingofdigitalmarketing.com/#organization"
-	        }
-	      },
-	      "sameAs": [
-	        "https://www.facebook.com/kingofdigitalmarketing",
-	        "https://www.instagram.com/kingofdigitalmarketing",
-	        "https://www.linkedin.com/company/kingofdigitalmarketing",
-	        "https://www.youtube.com/@KingofDigitalMarketing",
-	        "https://twitter.com/kingofdigitalm"
-	      ],
-	      "knowsAbout": [
-	        "Search Engine Optimization (SEO)",
-	        "AI Search Optimization (GEO & AEO)",
-	        "Pay-Per-Click Advertising (Google Ads)",
-	        "Social Media Marketing & Meta Ads",
-	        "Full-Stack Web Development (ASP.NET, WordPress)",
-	        "Performance Marketing & Conversion Rate Optimization",
-	        "Video Editing & Motion Graphics"
-	      ],
-	      "aggregateRating": {
-	        "@type": "AggregateRating",
-	        "ratingValue": "4.9",
-	        "reviewCount": "290",
-	        "bestRating": "5"
 	      }
 	    },
 	    {
@@ -153,7 +91,7 @@
 	        "@type": "Organization",
 	        "name": "King of Digital Marketing",
 	        "sameAs": "https://www.kingofdigitalmarketing.com",
-	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
 	      },
 	      "jobLocation": {
 	        "@type": "Place",
@@ -200,7 +138,7 @@
 	        "@type": "Organization",
 	        "name": "King of Digital Marketing",
 	        "sameAs": "https://www.kingofdigitalmarketing.com",
-	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
 	      },
 	      "jobLocation": {
 	        "@type": "Place",
@@ -248,7 +186,7 @@
 	        "@type": "Organization",
 	        "name": "King of Digital Marketing",
 	        "sameAs": "https://www.kingofdigitalmarketing.com",
-	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
 	      },
 	      "baseSalary": {
 	        "@type": "MonetaryAmount",
@@ -280,7 +218,7 @@
 	        "@type": "Organization",
 	        "name": "King of Digital Marketing",
 	        "sameAs": "https://www.kingofdigitalmarketing.com",
-	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
 	      },
 	      "jobLocation": {
 	        "@type": "Place",
@@ -322,7 +260,7 @@
 	        "@type": "Organization",
 	        "name": "King of Digital Marketing",
 	        "sameAs": "https://www.kingofdigitalmarketing.com",
-	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
 	      },
 	      "jobLocation": {
 	        "@type": "Place",
@@ -369,7 +307,7 @@
 	        "@type": "Organization",
 	        "name": "King of Digital Marketing",
 	        "sameAs": "https://www.kingofdigitalmarketing.com",
-	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+	        "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
 	      },
 	      "baseSalary": {
 	        "@type": "MonetaryAmount",

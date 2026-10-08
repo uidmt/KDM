@@ -22,7 +22,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Compliant omni-channel digital marketing, high-intent policy comparison funnels, Google Search Ads, and automated agent recruitment engineered for insurance agencies and corporate brokers.",
     "areaServed": "Global",

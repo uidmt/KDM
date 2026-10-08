@@ -20,18 +20,31 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
-      "@id": "https://www.kingofdigitalmarketing.com/#organization",
-      "name": "King of Digital Marketing",
+      "@type": "WebPage",
+      "@id": "https://www.kingofdigitalmarketing.com/#webpage",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png",
+      "name": "King of Digital Marketing",
       "description": "Leading digital marketing company and Amazon advertising agency in India providing performance PPC, SEO, and marketplace growth solutions.",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+919555696058",
-        "contactType": "customer service",
-        "areaServed": ["IN", "US", "GB", "AE", "CA", "AU"],
-        "availableLanguage": ["English", "Hindi"]
+      "isPartOf": {
+        "@id": "https://www.kingofdigitalmarketing.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kingofdigitalmarketing.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Amazon Marketing Services",
+            "item": "https://www.kingofdigitalmarketing.com/amazon-marketing-services.aspx"
+          }
+        ],
+        "@id": "https://www.kingofdigitalmarketing.com/#breadcrumb"
       }
     },
     {
@@ -39,7 +52,9 @@
       "@id": "https://www.kingofdigitalmarketing.com/amazon-marketing-services.aspx#service",
       "name": "Amazon Marketing Services & Advertising Management",
       "provider": {
-        "@id": "https://www.kingofdigitalmarketing.com/#organization"
+        "@type": "ProfessionalService",
+        "@id": "https://www.kingofdigitalmarketing.com/#organization",
+        "name": "King of Digital Marketing"
       },
       "serviceType": "Amazon Marketing Services, Amazon PPC Management, Amazon Listing Optimization, Amazon A+ Content Design, Amazon Seller Account Management",
       "description": "Comprehensive Amazon marketing solutions including Sponsored Products, Sponsored Brands, Sponsored Display ads, keyword harvesting, listing copywriting, A+ content, and ACoS reduction.",
@@ -78,27 +93,10 @@
           }
         ]
       }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.kingofdigitalmarketing.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Amazon Marketing Services",
-          "item": "https://www.kingofdigitalmarketing.com/amazon-marketing-services.aspx"
-        }
-      ]
     }
   ]
 }
-</script>
+	</script>
 
 <!-- ===== FAQPAGE SCHEMA ===== -->
 <script type="application/ld+json">
@@ -823,28 +821,28 @@
 					<div class="happy" id="images">
 						<div class="track">
 							<!-- Verified Brand Logos -->
-							<div class="slide"><img alt="ISKCON" src="images/iskcon delhi.png"></div>
-							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.png"></div>
-							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-Logo.png"></div>
-							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.png"></div>
-							<div class="slide"><img alt="QHT" src="images/QHT.jpg"></div>
-							<div class="slide"><img alt="CANX Immigration" src="images/canx.png"></div>
+							<div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp"></div>
+							<div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"></div>
+							<div class="slide"><img alt="SkinLab Jamuna Pai" src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp"></div>
+							<div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp"></div>
+							<div class="slide"><img alt="QHT" src="images/QHT.webp"></div>
+							<div class="slide"><img alt="CANX Immigration" src="images/canx.webp"></div>
 							<div class="slide"><img alt="Global Opportunities" src="images/client/global-opportunies.webp"></div>
 							<div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp"></div>
-							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.png"></div>
+							<div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"></div>
 							<div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"></div>
-							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.jpeg"></div>
+							<div class="slide"><img alt="Continental Immigration" src="images/ContinentalImmigration.webp"></div>
 							<div class="slide"><img alt="Scala" src="images/scala.png"></div>
-							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.png"></div>
-							<div class="slide"><img alt="Kidney Care Centre" src="images/kidney care centre.png"></div>
-							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.png"></div>
+							<div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"></div>
+							<div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp"></div>
+							<div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp"></div>
 							<div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"></div>
-							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.png"></div>
+							<div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"></div>
 							<div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"></div>
-							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.png"></div>
-							<div class="slide"><img alt="satguru" src="images/satguru--logo.jpg"></div>
-							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.jpg"></div>
-							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.jpg"></div>
+							<div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"></div>
+							<div class="slide"><img alt="satguru" src="images/satguru--logo.webp"></div>
+							<div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp"></div>
+							<div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"></div>
 						</div>
 					</div>
 				</div>

@@ -137,10 +137,14 @@
                 color: #0f172a !important;
                 padding: 10px 8px !important;
                 background: transparent !important;
+                text-align: left !important;
+                direction: ltr !important;
             }
 
             .kdm-port-search-box input::placeholder {
                 color: #94a3b8 !important;
+                text-align: left !important;
+                direction: ltr !important;
             }
 
             .kdm-port-badge {

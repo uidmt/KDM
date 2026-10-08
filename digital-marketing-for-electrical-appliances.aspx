@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Comprehensive omnichannel digital marketing solutions for electrical appliances manufacturers, kitchen appliance brands, smart home electricals, and regional distributors including Google Shopping PPC, Amazon/Flipkart marketplace ads, B2B dealer funnels, and automated WhatsApp CRM.",
     "areaServed": "Worldwide",

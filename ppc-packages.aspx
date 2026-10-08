@@ -6,14 +6,13 @@
       content="Performance marketing packages, digital performance marketing, ROI-based marketing plans, PPC and social ads, online marketing packages, performance-based advertising, Google Ads packages, Meta Ads packages, result-driven marketing, performance marketing company.">
     <meta name="description"
       content="Boost your sales with our result-driven performance marketing packages. Get measurable ROI through Google Ads, Meta Ads, and multi-channel campaigns.">
-    <link rel="canonical" href="https://www.kingofdigitalmarketing.com/video-editing-services.aspx" />
+    <link rel="canonical" href="https://www.kingofdigitalmarketing.com/ppc-packages.aspx" />
     <meta property="og:title" content="Performance Marketing Packages | ROI-Driven Ad Solutions">
-    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/viedo-editing.jpg">
+    <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/ppc-services.webp">
     <meta property="og:description"
       content="Boost your sales with our result-driven performance marketing packages. Get measurable ROI through Google Ads, Meta Ads, and multi-channel campaigns.">
-    <meta property="og:url" content="https://www.kingofdigitalmarketing.com/video-editing-services.aspx">
+    <meta property="og:url" content="https://www.kingofdigitalmarketing.com/ppc-packages.aspx">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="robots" content="noindex, nofollow">
     <link href="Digital%20Marketing%20Program_files/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/location-page.css">
     <link rel="stylesheet" href="css/location-page.css">
@@ -381,11 +380,11 @@
         /* ✅ Background Images */
         /* ✅ Background Images */
         .industry-bg1 {
-          background-image: url("images/astrology.png");
+          background-image: url("images/Astrology.webp");
         }
 
         .industry-bg2 {
-          background-image: url("images/hair-transplant.png");
+          background-image: url("images/hair-transplant.webp");
         }
 
         .industry-bg3 {

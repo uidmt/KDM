@@ -5,7 +5,7 @@
   <meta name="description" content="Maximize direct hotel room bookings, slash OTA commissions & fill low-season rooms with King of Digital Marketing. Specialized hotel SEO, Google Hotel Ads & luxury lifestyle Meta funnels.">
   <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-hotel.aspx">
   <meta property="og:title" content="Digital Marketing Services for Hotels & Resorts | KDM">
-  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-hotel.jpg">
+  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-hotel.webp">
   <meta property="og:description" content="Maximize direct hotel room bookings, slash OTA commissions & fill low-season rooms with King of Digital Marketing. Specialized hotel SEO, Google Hotel Ads & luxury lifestyle Meta funnels.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-for-hotel.aspx">
@@ -27,7 +27,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "serviceType": "Hotel & Hospitality Digital Marketing",
     "areaServed": "Worldwide",

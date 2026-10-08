@@ -130,7 +130,7 @@
 
 /* FAQ Answer Content Body */
 .kdm-faq-body {
-    display: none !important;
+    display: none;
     background: #fafafa !important;
 }
 

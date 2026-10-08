@@ -178,9 +178,6 @@
                 }
             }
         </style>
-      <link rel="stylesheet" href="css/kdm-mega-menu-v2.css?v=20.0">
-  <link rel="stylesheet" href="css/kdm-footer.css?v=3.0">
-    <link rel="stylesheet" href="css/kdm-faq.css">
 </head>
 
     <body>
@@ -335,9 +332,27 @@
                     svgElem.innerHTML = serviceSvgMap[val];
                 }
             }
+
+            // Auto-select service from URL query parameter
+            (function() {
+                try {
+                    const params = new URLSearchParams(window.location.search);
+                    const srv = params.get('service');
+                    if (srv) {
+                        const ddl = document.getElementById('<%= ddlServices.ClientID %>');
+                        if (ddl) {
+                            for (let i = 0; i < ddl.options.length; i++) {
+                                if (ddl.options[i].text.toLowerCase().indexOf(srv.toLowerCase()) !== -1 || ddl.options[i].value.toLowerCase().indexOf(srv.toLowerCase()) !== -1) {
+                                    ddl.selectedIndex = i;
+                                    updateServiceIcon(ddl);
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                } catch(e) {}
+            })();
         </script>
-    <script src="js/kdm-footer-component.js?v=3.0"></script>
-<script src="js/kdm-header-component.js?v=3.0"></script>
 </body>
 
     </html>

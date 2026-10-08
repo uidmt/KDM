@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Full-funnel digital marketing solutions for delivery companies, courier services, last-mile logistics firms, and parcel startups including B2B corporate shipping funnels, Google Search PPC, WhatsApp shipping rate bots, and delivery driver recruitment campaigns.",
     "areaServed": "Worldwide",

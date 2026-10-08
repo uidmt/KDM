@@ -4,7 +4,7 @@
 <meta name="keywords" content="King of Digital Marketing refund policy, cancellation policy, service refund terms, strategy planning compensation, billing agreement, Devweboic Techsolutions">
 <meta name="description" content="Official Refund & Cancellation Policy for King of Digital Marketing (Unit of Devweboic Techsolutions (OPC) Pvt. Ltd.) covering project cancellation, 75% strategy compensation deduction, milestone agreements, and refund terms.">
 <meta property="og:title" content="Refund & Cancellation Policy | King of Digital Marketing">
-<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.png">
+<meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.webp">
 <meta property="og:description" content="Read our transparent refund and cancellation policy outlining our 24-hour review window, 75% strategy planning compensation, milestone deliverables, and billing governance.">
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.kingofdigitalmarketing.com/refund-policy.aspx">

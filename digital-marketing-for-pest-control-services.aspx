@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Full-funnel digital marketing solutions for pest control companies, termite exterminators, bed bug specialists, and commercial disinfection providers including Google Local 3-Pack SEO, emergency PPC call ads, commercial AMC funnels, and automated WhatsApp CRM.",
     "areaServed": "Worldwide",

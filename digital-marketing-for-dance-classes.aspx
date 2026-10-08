@@ -5,7 +5,7 @@
   <meta name="description" content="Scale your dance studio enrollments with King of Digital Marketing. Expert Google Local SEO, viral Instagram Choreography Reels, Meta Ads for Free Trial Classes, and automated WhatsApp student acquisition funnels.">
   <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-dance-classes.aspx">
   <meta property="og:title" content="Digital Marketing for Dance Classes | Best Dance Academy SEO, Ads & SMM">
-  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-dance-classes.jpg">
+  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-dance-classes.webp">
   <meta property="og:description" content="Scale your dance studio enrollments with King of Digital Marketing. Expert Google Local SEO, viral Instagram Choreography Reels, Meta Ads for Free Trial Classes, and automated WhatsApp student acquisition funnels.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-for-dance-classes.aspx">
@@ -25,7 +25,7 @@
       "@type": "Organization",
       "name": "King of Digital Marketing",
       "url": "https://www.kingofdigitalmarketing.com/",
-      "logo": "https://www.kingofdigitalmarketing.com/images/logo.png"
+      "logo": "https://www.kingofdigitalmarketing.com/images/logo.webp"
     },
     "description": "Comprehensive digital marketing solutions for dance academies and performing arts studios including Google Local SEO, viral choreography video campaigns, Meta trial class ads, and WhatsApp enrollment funnels.",
     "areaServed": "Worldwide",

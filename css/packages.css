@@ -947,7 +947,7 @@ h2.process-title span {
 }
 
 .ip-bg3 {
-  background-image: url('../images/institutes.jpg'), url('images/institutes.jpg'), url('https://picsum.photos/id/1025/600/400') !important;
+  background-image: url('../images/institutes.webp'), url('images/institutes.webp'), url('https://picsum.photos/id/1025/600/400') !important;
   background-size: cover;
   background-position: center;
 }
@@ -1007,13 +1007,13 @@ h2.process-title span {
 
 /* Industry Background Classes matching SEO-Package */
 .industry-bg1 {
-  background-image: url('../images/astrology.png'), url('images/astrology.png'), url('/images/astrology.png') !important;
+  background-image: url('../images/Astrology.webp'), url('images/Astrology.webp'), url('/images/Astrology.webp') !important;
   background-size: cover !important;
   background-position: center !important;
 }
 
 .industry-bg2 {
-  background-image: url('../images/hair-transplant.png'), url('images/hair-transplant.png'), url('/images/hair-transplant.png') !important;
+  background-image: url('../images/hair-transplant.webp'), url('images/hair-transplant.webp'), url('/images/hair-transplant.webp') !important;
   background-size: cover !important;
   background-position: center !important;
 }
@@ -1061,7 +1061,7 @@ h2.process-title span {
 }
 
 .industry-bg10 {
-  background-image: url('../images/hair-transplant.png'), url('images/hair-transplant.png'), url('/images/hair-transplant.png') !important;
+  background-image: url('../images/hair-transplant.webp'), url('images/hair-transplant.webp'), url('/images/hair-transplant.webp') !important;
   background-size: cover !important;
   background-position: center !important;
 }
@@ -1073,7 +1073,7 @@ h2.process-title span {
 }
 
 .industry-bg14 {
-  background-image: url('../images/Institutes.jpg'), url('images/Institutes.jpg'), url('/images/Institutes.jpg') !important;
+  background-image: url('../images/institutes.webp'), url('images/institutes.webp'), url('/images/institutes.webp') !important;
   background-size: cover !important;
   background-position: center !important;
 }
