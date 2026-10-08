@@ -243,7 +243,761 @@
         </div>
       </div>
 
-      <!-- ===== 2. OVERVIEW & INDUSTRY INTRO SECTION ===== -->
+      <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
+      <section class="kdm-industry-clients-section">
+        <div class="container">
+          <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
+            <div class="kdm-client-pill-badge">
+              <i class="fa fa-star" style="color: #f59e0b;"></i> TRUSTED BY 30+ VISA & IMMIGRATION CONSULTANCIES
+            </div>
+            <h2 class="kdm-client-main-title">
+              Visa & Immigration Clients <span class="kdm-blue-gradient">We Have Worked With</span>
+            </h2>
+            <p class="kdm-client-subtitle">
+              From leading Canada PR specialists, licensed immigration lawyers, and overseas study visa agencies to global migration advisors — explore verified clients scaling qualified visa inquiries and case approvals with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.
+            </p>
+          </div>
+
+          <!-- Dual Smooth Infinite Ticker / Marquee -->
+          <div class="kdm-client-marquee-wrapper">
+            <!-- Row 1: Left Scroll -->
+            <div class="kdm-client-marquee-track kdm-marquee-left">
+              <div class="kdm-client-marquee-group">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Advisely%20Study%20Abroad.webp" alt="Advisely Study Abroad Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Advisely Study Abroad</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Afflatus%20Global%20Visa.webp" alt="Afflatus Global Visa Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Afflatus Global Visa</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/aics-immigration.webp" alt="AICS Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AICS Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/aksira-education-logo.webp" alt="Aksira Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Aksira Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/aliff.webp" alt="Aliff Overseas Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Aliff Overseas Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/as-edutech.webp" alt="AS Edutech Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AS Edutech</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp" alt="BNPS International Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">BNPS International</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp" alt="BrighterPrep Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">BrighterPrep</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/canximmigration.webp" alt="CanX Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">CanX Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/continentalimmigration.webp" alt="Continental Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Continental Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/davesar.webp" alt="Davesar Consultants Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Davesar Consultants</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Enrollbuddy.webp" alt="Enrollbuddy Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Enrollbuddy</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/envisionoverseas.webp" alt="Envision Overseas Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Envision Overseas</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/focus-overseas.webp" alt="Focus Overseas Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Focus Overseas</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/get-study-visa.webp" alt="Get Study Visa Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Get Study Visa</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/global-opportunies.webp" alt="Global Opportunities Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Global Opportunities</span>
+        </div>
+              </div>
+              <div class="kdm-client-marquee-group" aria-hidden="true">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Advisely%20Study%20Abroad.webp" alt="Advisely Study Abroad Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Advisely Study Abroad</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Afflatus%20Global%20Visa.webp" alt="Afflatus Global Visa Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Afflatus Global Visa</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/aics-immigration.webp" alt="AICS Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AICS Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/aksira-education-logo.webp" alt="Aksira Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Aksira Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/aliff.webp" alt="Aliff Overseas Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Aliff Overseas Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/as-edutech.webp" alt="AS Edutech Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AS Edutech</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp" alt="BNPS International Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">BNPS International</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp" alt="BrighterPrep Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">BrighterPrep</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/canximmigration.webp" alt="CanX Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">CanX Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/continentalimmigration.webp" alt="Continental Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Continental Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/davesar.webp" alt="Davesar Consultants Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Davesar Consultants</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Enrollbuddy.webp" alt="Enrollbuddy Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Enrollbuddy</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/envisionoverseas.webp" alt="Envision Overseas Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Envision Overseas</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/focus-overseas.webp" alt="Focus Overseas Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Focus Overseas</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/get-study-visa.webp" alt="Get Study Visa Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Get Study Visa</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/global-opportunies.webp" alt="Global Opportunities Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Global Opportunities</span>
+        </div>
+              </div>
+            </div>
+
+            <!-- Row 2: Right Scroll -->
+            <div class="kdm-client-marquee-track kdm-marquee-right">
+              <div class="kdm-client-marquee-group">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/goto-university.webp" alt="GoTo University Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">GoTo University</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/ieac-education.webp" alt="IEAC Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">IEAC Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/IMG%20Overseas.webp" alt="IMG Overseas Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">IMG Overseas</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/immigration-express.webp" alt="Immigration Express Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Immigration Express</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/indian-institute-logo.webp" alt="Indian Institute of Foreign Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Indian Institute of Foreign Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/kan-visa-direction.webp" alt="Kan Visa Direction Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kan Visa Direction</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/meo.webp" alt="MEO Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">MEO Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/newlight-education.webp" alt="New Light Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">New Light Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Peak%20Trust%20Consultants.webp" alt="Peak Trust Consultants Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Peak Trust Consultants</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/planet-education.webp" alt="Planet Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Planet Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/prep-guru-logo.webp" alt="Prep Guru Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Prep Guru</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/rwics.webp" alt="RWICS Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">RWICS Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Satguru%20Overseas.webp" alt="Satguru Overseas Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Satguru Overseas</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/unipath-education.webp" alt="UniPath Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">UniPath Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Visa%20Guruji%20Global.webp" alt="Visa Guruji Global Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Visa Guruji Global</span>
+        </div>
+              </div>
+              <div class="kdm-client-marquee-group" aria-hidden="true">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/goto-university.webp" alt="GoTo University Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">GoTo University</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/ieac-education.webp" alt="IEAC Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">IEAC Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/IMG%20Overseas.webp" alt="IMG Overseas Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">IMG Overseas</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/immigration-express.webp" alt="Immigration Express Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Immigration Express</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/indian-institute-logo.webp" alt="Indian Institute of Foreign Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Indian Institute of Foreign Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/kan-visa-direction.webp" alt="Kan Visa Direction Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kan Visa Direction</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/meo.webp" alt="MEO Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">MEO Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/newlight-education.webp" alt="New Light Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">New Light Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Peak%20Trust%20Consultants.webp" alt="Peak Trust Consultants Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Peak Trust Consultants</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/planet-education.webp" alt="Planet Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Planet Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/prep-guru-logo.webp" alt="Prep Guru Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Prep Guru</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/rwics.webp" alt="RWICS Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">RWICS Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Satguru%20Overseas.webp" alt="Satguru Overseas Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Satguru Overseas</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/unipath-education.webp" alt="UniPath Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">UniPath Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/Visa%20Guruji%20Global.webp" alt="Visa Guruji Global Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Visa Guruji Global</span>
+        </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real-Time Client Search Bar -->
+          <div class="kdm-client-search-box">
+            <i class="fa fa-search kdm-client-search-icon"></i>
+            <input type="text" id="kdmIndustryClientSearch" class="kdm-client-search-input" placeholder="Search visa & immigration clients by brand name (e.g., Afflatus, Continental Immigration, CanX, RWICS)..." onkeyup="filterIndustryClients()" oninput="filterIndustryClients()" aria-label="Search client logos" />
+            <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
+          </div>
+
+          <!-- 31 Client Logos Responsive Grid (Strict A to Z) -->
+          <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
+            
+        <div class="kdm-industry-client-card" data-name="advisely study abroad">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/Advisely%20Study%20Abroad.webp" alt="Advisely Study Abroad Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+            <h4 class="kdm-industry-client-title">Advisely Study Abroad</h4>
+            <p class="kdm-industry-client-desc">Global Study Visa, University Filing & Student Permit Assistance</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="afflatus global visa">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/Afflatus%20Global%20Visa.webp" alt="Afflatus Global Visa Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
+            <h4 class="kdm-industry-client-title">Afflatus Global Visa</h4>
+            <p class="kdm-industry-client-desc">Canada PR, Express Entry, PNP & Global Immigration Services</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="aics immigration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/aics-immigration.webp" alt="AICS Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
+            <h4 class="kdm-industry-client-title">AICS Immigration</h4>
+            <p class="kdm-industry-client-desc">Australia & Canada Migration, Student Visas & PR Solutions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="aksira education">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/aksira-education-logo.webp" alt="Aksira Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+            <h4 class="kdm-industry-client-title">Aksira Education</h4>
+            <p class="kdm-industry-client-desc">Global Student Visa Processing & University Admissions Guidance</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="aliff overseas education">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/aliff.webp" alt="Aliff Overseas Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+            <h4 class="kdm-industry-client-title">Aliff Overseas Education</h4>
+            <p class="kdm-industry-client-desc">Pioneers in Global Student Visa & Overseas Career Guidance</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="as edutech">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/as-edutech.webp" alt="AS Edutech Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Study Visa & Admissions</span>
+            <h4 class="kdm-industry-client-title">AS Edutech</h4>
+            <p class="kdm-industry-client-desc">International Study Permits & Foreign University Admissions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="bnps international">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp" alt="BNPS International Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Visa & Education Consultant</span>
+            <h4 class="kdm-industry-client-title">BNPS International</h4>
+            <p class="kdm-industry-client-desc">Study Visa Processing, Visitor Visas & Global Intakes</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="brighterprep">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp" alt="BrighterPrep Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Abroad & Visa Prep</span>
+            <h4 class="kdm-industry-client-title">BrighterPrep</h4>
+            <p class="kdm-industry-client-desc">International Student Visa Counseling & Admissions Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="canx immigration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/canximmigration.webp" alt="CanX Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Canada PR & Visa Specialist</span>
+            <h4 class="kdm-industry-client-title">CanX Immigration</h4>
+            <p class="kdm-industry-client-desc">Canada Express Entry, Study Permits & Provincial Nominee Programs</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="continental immigration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/continentalimmigration.webp" alt="Continental Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
+            <h4 class="kdm-industry-client-title">Continental Immigration</h4>
+            <p class="kdm-industry-client-desc">Worldwide Visa Filing, PR Migration & Foreign University Placements</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="davesar consultants">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/davesar.webp" alt="Davesar Consultants Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa & IELTS Advisory</span>
+            <h4 class="kdm-industry-client-title">Davesar Consultants</h4>
+            <p class="kdm-industry-client-desc">IELTS/PTE Coaching, Student Visa Processing & Embassy Interview Prep</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="enrollbuddy">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/Enrollbuddy.webp" alt="Enrollbuddy Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Global Admissions & Visa</span>
+            <h4 class="kdm-industry-client-title">Enrollbuddy</h4>
+            <p class="kdm-industry-client-desc">Overseas University Enrollment & Student Visa Documentation</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="envision overseas">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/envisionoverseas.webp" alt="Envision Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+            <h4 class="kdm-industry-client-title">Envision Overseas</h4>
+            <p class="kdm-industry-client-desc">USA, UK, Canada & Australia Student Visa & PR Documentation</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="focus overseas">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/focus-overseas.webp" alt="Focus Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Visa & Education Consultant</span>
+            <h4 class="kdm-industry-client-title">Focus Overseas</h4>
+            <p class="kdm-industry-client-desc">Profile Assessment, University Applications & Visa Lodgement</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="get study visa">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/get-study-visa.webp" alt="Get Study Visa Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Specialist</span>
+            <h4 class="kdm-industry-client-title">Get Study Visa</h4>
+            <p class="kdm-industry-client-desc">Fast-Track Student Visa Processing & Visa Extension Support</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="global opportunities">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/global-opportunies.webp" alt="Global Opportunities Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Global Visa & Education Giant</span>
+            <h4 class="kdm-industry-client-title">Global Opportunities</h4>
+            <p class="kdm-industry-client-desc">India's Leading Study Visa & Overseas Migration Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="goto university">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/goto-university.webp" alt="GoTo University Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+            <h4 class="kdm-industry-client-title">GoTo University</h4>
+            <p class="kdm-industry-client-desc">Global Student Visa Consulting & Top University Admissions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="ieac education">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/ieac-education.webp" alt="IEAC Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Visa & Career Consultant</span>
+            <h4 class="kdm-industry-client-title">IEAC Education</h4>
+            <p class="kdm-industry-client-desc">Comprehensive Student Visa Processing & Immigration Counseling</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="img overseas">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/IMG%20Overseas.webp" alt="IMG Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+            <h4 class="kdm-industry-client-title">IMG Overseas</h4>
+            <p class="kdm-industry-client-desc">Student Visa Filing, Scholarship Support & Career Pathways</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="immigration express">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/immigration-express.webp" alt="Immigration Express Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
+            <h4 class="kdm-industry-client-title">Immigration Express</h4>
+            <p class="kdm-industry-client-desc">Express PR Visas, Post-Study Work Visas & Skilled Migration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="indian institute of foreign education">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/indian-institute-logo.webp" alt="Indian Institute of Foreign Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Foreign Education & Visa</span>
+            <h4 class="kdm-industry-client-title">Indian Institute of Foreign Education</h4>
+            <p class="kdm-industry-client-desc">Language Proficiency Training & Foreign Study Visa Filing</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="kan visa direction">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/kan-visa-direction.webp" alt="Kan Visa Direction Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Visa & Immigration Consultant</span>
+            <h4 class="kdm-industry-client-title">Kan Visa Direction</h4>
+            <p class="kdm-industry-client-desc">End-to-End Visa Application Lodgement & Immigration Direction</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="meo immigration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/meo.webp" alt="MEO Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Immigration & Study Visa</span>
+            <h4 class="kdm-industry-client-title">MEO Immigration</h4>
+            <p class="kdm-industry-client-desc">PR Visas, Student Permits, LMIA & Skilled Migration Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="new light education">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/newlight-education.webp" alt="New Light Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+            <h4 class="kdm-industry-client-title">New Light Education</h4>
+            <p class="kdm-industry-client-desc">Study Abroad Visa Filing, Documentation & University Admissions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="peak trust consultants">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/Peak%20Trust%20Consultants.webp" alt="Peak Trust Consultants Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Immigration & Visa Advisory</span>
+            <h4 class="kdm-industry-client-title">Peak Trust Consultants</h4>
+            <p class="kdm-industry-client-desc">PR Visas, Skilled Migration & Student Visa Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="planet education">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/planet-education.webp" alt="Planet Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Global Study Visa Network</span>
+            <h4 class="kdm-industry-client-title">Planet Education</h4>
+            <p class="kdm-industry-client-desc">Australia, UK, Canada & USA Study Visa & Admissions Network</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="prep guru">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/prep-guru-logo.webp" alt="Prep Guru Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Abroad & Visa Prep</span>
+            <h4 class="kdm-industry-client-title">Prep Guru</h4>
+            <p class="kdm-industry-client-desc">Test Prep, University Application & Visa Filing Guidance</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="rwics immigration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/rwics.webp" alt="RWICS Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Immigration & Study Visa</span>
+            <h4 class="kdm-industry-client-title">RWICS Immigration</h4>
+            <p class="kdm-industry-client-desc">Overseas Student Visas, LMIA, Work Permits & PR Guidance</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="satguru overseas">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/Satguru%20Overseas.webp" alt="Satguru Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Visa & Immigration Consultant</span>
+            <h4 class="kdm-industry-client-title">Satguru Overseas</h4>
+            <p class="kdm-industry-client-desc">End-to-End Study Visa, Tourist Visa & PR File Processing</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="unipath education">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/unipath-education.webp" alt="UniPath Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+            <h4 class="kdm-industry-client-title">UniPath Education</h4>
+            <p class="kdm-industry-client-desc">Personalized Student Visa Filing & University Admissions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="visa guruji global">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/Visa%20Guruji%20Global.webp" alt="Visa Guruji Global Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Global Visa Specialist</span>
+            <h4 class="kdm-industry-client-title">Visa Guruji Global</h4>
+            <p class="kdm-industry-client-desc">Visitor Visa, Study Permit & Permanent Residency Guidance</p>
+          </div>
+        </div>
+          </div>
+
+          <!-- Empty Search State -->
+          <div id="kdmIndustryEmptyState" class="kdm-industry-empty-state" style="display: none;">
+            <i class="fa fa-search" style="font-size: 38px; color: #94a3b8; margin-bottom: 12px;"></i>
+            <h4 style="font-size: 18px; font-weight: 700; color: #1e293b;">No Visa & Immigration Client Found</h4>
+            <p style="font-size: 14px; color: #64748b;">Try searching with a different brand keyword or clear the search query.</p>
+            <button type="button" class="btn btn-sm btn-primary" onclick="clearIndustryClientSearch()" style="margin-top: 10px; border-radius: 20px; padding: 6px 18px;">Reset Search</button>
+          </div>
+
+          <!-- Bottom Direct CTA Banner -->
+          <div class="kdm-industry-clients-cta-strip">
+            <div class="kdm-industry-cta-content">
+              <span class="kdm-industry-cta-badge"><i class="fa fa-check-circle"></i> PROVEN INDUSTRY DOMINANCE</span>
+              <h3 class="kdm-industry-cta-title">Want Similar 380%+ Qualified Visa & PR Lead Growth For Your Consultancy?</h3>
+              <p class="kdm-industry-cta-desc">Partner with India's most trusted digital marketing agency for visa and immigration consultants. Get high-intent PR funnels, study visa Google PPC, and verified applicant leads.</p>
+            </div>
+            <div class="kdm-industry-cta-btn-wrap">
+              <a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-industry-cta-button">
+                <i class="fa fa-calendar-check"></i> Book Free Strategy Call <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section><!-- ===== 2. OVERVIEW & INDUSTRY INTRO SECTION ===== -->
       <section class="kdm-intro-content-section">
         <div class="container">
           <div class="kdm-intro-card-box">

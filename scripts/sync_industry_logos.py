@@ -140,6 +140,34 @@ INDUSTRY_MAPPINGS = {
         'empty_title': 'No Study Abroad Client Found',
         'cta_title': 'Want Similar 380%+ Student Lead & Intake Enrollment Growth For Your Consultancy?',
         'cta_desc': "Partner with India's most trusted digital marketing agency for overseas education and study abroad consultants. Get pre-qualified student lead funnels, intake-focused Google Ads, and local SEO dominance."
+    },
+    'visa-immigration': {
+        'dir': 'study-abroad-immigration-consultant',
+        'page': 'digital-marketing-for-visa-immigration-consultant.aspx',
+        'industry_label': 'Visa & Immigration Consultant',
+        'badge': 'Immigration Client',
+        'desc': 'Verified Visa & Immigration Brand',
+        'pill_text': 'TRUSTED BY 30+ VISA & IMMIGRATION CONSULTANCIES',
+        'heading': 'Visa & Immigration Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
+        'subtitle': 'From leading Canada PR specialists, licensed immigration lawyers, and overseas study visa agencies to global migration advisors — explore verified clients scaling qualified visa inquiries and case approvals with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
+        'search_placeholder': 'Search visa & immigration clients by brand name (e.g., Afflatus, Continental Immigration, CanX, RWICS)...',
+        'empty_title': 'No Visa & Immigration Client Found',
+        'cta_title': 'Want Similar 380%+ Qualified Visa & PR Lead Growth For Your Consultancy?',
+        'cta_desc': "Partner with India's most trusted digital marketing agency for visa and immigration consultants. Get high-intent PR funnels, study visa Google PPC, and verified applicant leads."
+    },
+    'visa-immigration-consultant': {
+        'dir': 'study-abroad-immigration-consultant',
+        'page': 'digital-marketing-for-visa-immigration-consultant.aspx',
+        'industry_label': 'Visa & Immigration Consultant',
+        'badge': 'Immigration Client',
+        'desc': 'Verified Visa & Immigration Brand',
+        'pill_text': 'TRUSTED BY 30+ VISA & IMMIGRATION CONSULTANCIES',
+        'heading': 'Visa & Immigration Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
+        'subtitle': 'From leading Canada PR specialists, licensed immigration lawyers, and overseas study visa agencies to global migration advisors — explore verified clients scaling qualified visa inquiries and case approvals with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
+        'search_placeholder': 'Search visa & immigration clients by brand name (e.g., Afflatus, Continental Immigration, CanX, RWICS)...',
+        'empty_title': 'No Visa & Immigration Client Found',
+        'cta_title': 'Want Similar 380%+ Qualified Visa & PR Lead Growth For Your Consultancy?',
+        'cta_desc': "Partner with India's most trusted digital marketing agency for visa and immigration consultants. Get high-intent PR funnels, study visa Google PPC, and verified applicant leads."
     }
 }
 
@@ -612,12 +640,82 @@ OVERSEAS_EDUCATION_DESCRIPTIONS = {
     'unipath-education.webp': 'Personalized University Admissions & Scholarship Assistance'
 }
 
+VISA_IMMIGRATION_BADGES = {
+    'Advisely Study Abroad.webp': 'Study Visa Consultant',
+    'Afflatus Global Visa.webp': 'Immigration Consultant',
+    'BNPS International.webp': 'Visa & Education Consultant',
+    'BrighterPrep Test Prep.webp': 'Study Abroad & Visa Prep',
+    'BrighterPrep.webp': 'Study Abroad & Visa Prep',
+    'Enrollbuddy.webp': 'Global Admissions & Visa',
+    'IMG Overseas.webp': 'Study Visa Consultant',
+    'Peak Trust Consultants.webp': 'Immigration & Visa Advisory',
+    'Satguru Overseas.webp': 'Visa & Immigration Consultant',
+    'Visa Guruji Global.webp': 'Global Visa Specialist',
+    'aics-immigration.webp': 'Immigration Consultant',
+    'aksira-education-logo.webp': 'Study Visa Consultant',
+    'aliff.webp': 'Study Visa Consultant',
+    'as-edutech.webp': 'Study Visa & Admissions',
+    'canximmigration.webp': 'Canada PR & Visa Specialist',
+    'continentalimmigration.webp': 'Immigration Consultant',
+    'davesar.webp': 'Study Visa & IELTS Advisory',
+    'envisionoverseas.webp': 'Study Visa Consultant',
+    'focus-overseas.webp': 'Visa & Education Consultant',
+    'get-study-visa.webp': 'Study Visa Specialist',
+    'global-opportunies.webp': 'Global Visa & Education Giant',
+    'goto-university.webp': 'Study Visa Consultant',
+    'ieac-education.webp': 'Visa & Career Consultant',
+    'immigration-express.webp': 'Immigration Consultant',
+    'indian-institute-logo.webp': 'Foreign Education & Visa',
+    'kan-visa-direction.webp': 'Visa & Immigration Consultant',
+    'meo.webp': 'Immigration & Study Visa',
+    'newlight-education.webp': 'Study Visa Consultant',
+    'planet-education.webp': 'Global Study Visa Network',
+    'prep-guru-logo.webp': 'Study Abroad & Visa Prep',
+    'rwics.webp': 'Immigration & Study Visa',
+    'unipath-education.webp': 'Study Visa Consultant'
+}
+
+VISA_IMMIGRATION_DESCRIPTIONS = {
+    'Advisely Study Abroad.webp': 'Global Study Visa, University Filing & Student Permit Assistance',
+    'Afflatus Global Visa.webp': 'Canada PR, Express Entry, PNP & Global Immigration Services',
+    'BNPS International.webp': 'Study Visa Processing, Visitor Visas & Global Intakes',
+    'BrighterPrep Test Prep.webp': 'International Student Visa Counseling & Admissions Advisory',
+    'BrighterPrep.webp': 'International Student Visa Counseling & Admissions Advisory',
+    'Enrollbuddy.webp': 'Overseas University Enrollment & Student Visa Documentation',
+    'IMG Overseas.webp': 'Student Visa Filing, Scholarship Support & Career Pathways',
+    'Peak Trust Consultants.webp': 'PR Visas, Skilled Migration & Student Visa Advisory',
+    'Satguru Overseas.webp': 'End-to-End Study Visa, Tourist Visa & PR File Processing',
+    'Visa Guruji Global.webp': 'Visitor Visa, Study Permit & Permanent Residency Guidance',
+    'aics-immigration.webp': 'Australia & Canada Migration, Student Visas & PR Solutions',
+    'aksira-education-logo.webp': 'Global Student Visa Processing & University Admissions Guidance',
+    'aliff.webp': 'Pioneers in Global Student Visa & Overseas Career Guidance',
+    'as-edutech.webp': 'International Study Permits & Foreign University Admissions',
+    'canximmigration.webp': 'Canada Express Entry, Study Permits & Provincial Nominee Programs',
+    'continentalimmigration.webp': 'Worldwide Visa Filing, PR Migration & Foreign University Placements',
+    'davesar.webp': 'IELTS/PTE Coaching, Student Visa Processing & Embassy Interview Prep',
+    'envisionoverseas.webp': 'USA, UK, Canada & Australia Student Visa & PR Documentation',
+    'focus-overseas.webp': 'Profile Assessment, University Applications & Visa Lodgement',
+    'get-study-visa.webp': 'Fast-Track Student Visa Processing & Visa Extension Support',
+    'global-opportunies.webp': "India's Leading Study Visa & Overseas Migration Advisory",
+    'goto-university.webp': 'Global Student Visa Consulting & Top University Admissions',
+    'ieac-education.webp': 'Comprehensive Student Visa Processing & Immigration Counseling',
+    'immigration-express.webp': 'Express PR Visas, Post-Study Work Visas & Skilled Migration',
+    'indian-institute-logo.webp': 'Language Proficiency Training & Foreign Study Visa Filing',
+    'kan-visa-direction.webp': 'End-to-End Visa Application Lodgement & Immigration Direction',
+    'meo.webp': 'PR Visas, Student Permits, LMIA & Skilled Migration Advisory',
+    'newlight-education.webp': 'Study Abroad Visa Filing, Documentation & University Admissions',
+    'planet-education.webp': 'Australia, UK, Canada & USA Study Visa & Admissions Network',
+    'prep-guru-logo.webp': 'Test Prep, University Application & Visa Filing Guidance',
+    'rwics.webp': 'Overseas Student Visas, LMIA, Work Permits & PR Guidance',
+    'unipath-education.webp': 'Personalized Student Visa Filing & University Admissions'
+}
+
 def clean_brand_name(filename, industry_key=None):
     if industry_key in ('astrologer', 'astrology') and filename in ASTROLOGY_BRAND_OVERRIDES:
         return ASTROLOGY_BRAND_OVERRIDES[filename]
     if industry_key in ('stock-market', 'stock-market-institute') and filename in STOCK_MARKET_BRAND_OVERRIDES:
         return STOCK_MARKET_BRAND_OVERRIDES[filename]
-    if industry_key in ('overseas-education', 'study-abroad', 'study-abroad-immigration-consultant') and filename in OVERSEAS_EDUCATION_BRAND_OVERRIDES:
+    if industry_key in ('overseas-education', 'study-abroad', 'study-abroad-immigration-consultant', 'visa-immigration', 'visa-immigration-consultant') and filename in OVERSEAS_EDUCATION_BRAND_OVERRIDES:
         return OVERSEAS_EDUCATION_BRAND_OVERRIDES[filename]
     if filename in OVERSEAS_EDUCATION_BRAND_OVERRIDES:
         return OVERSEAS_EDUCATION_BRAND_OVERRIDES[filename]
@@ -725,6 +823,9 @@ def sync_industry(industry_key, custom_dir=None, custom_page=None):
         elif industry_key in ('overseas-education', 'study-abroad', 'study-abroad-immigration-consultant'):
             client_badge = OVERSEAS_EDUCATION_BADGES.get(f, badge_text)
             client_desc = OVERSEAS_EDUCATION_DESCRIPTIONS.get(f, desc_text)
+        elif industry_key in ('visa-immigration', 'visa-immigration-consultant'):
+            client_badge = VISA_IMMIGRATION_BADGES.get(f, badge_text)
+            client_desc = VISA_IMMIGRATION_DESCRIPTIONS.get(f, desc_text)
         else:
             client_badge = badge_text
             client_desc = CUSTOM_DESCRIPTIONS.get(f, desc_text)
