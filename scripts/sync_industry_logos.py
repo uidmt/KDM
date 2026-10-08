@@ -113,19 +113,33 @@ INDUSTRY_MAPPINGS = {
         'cta_title': 'Want Similar 420%+ Student Enrollment & Inquiries Growth For Your Stock Market Institute?',
         'cta_desc': "Join India's most trusted digital marketing agency for stock market academies & advisory firms. Get custom SEO strategies, Google PPC, and verified high-intent trader acquisition funnels."
     },
-    'stock-market-institute': {
-        'dir': 'stock-market',
-        'page': 'digital-marketing-for-stock-market-institute.aspx',
-        'industry_label': 'Stock Market Institute & Trading Advisory',
-        'badge': 'Stock Market Client',
-        'desc': 'Verified Stock Market Institute & Advisory Brand',
-        'pill_text': 'TRUSTED BY TOP STOCK MARKET INSTITUTES & TRADING ADVISORIES',
-        'heading': 'Stock Market Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
-        'subtitle': 'From premier stock market institutes, algorithmic trading platforms, and SEBI-registered research analysts to pro trader academies — explore verified clients scaling enrollments and digital reach with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
-        'search_placeholder': 'Search stock market clients by brand name (e.g., Doon Trading Academy, Master Nifty Option, Equimate, Emperor Bulls)...',
-        'empty_title': 'No Stock Market Client Found',
-        'cta_title': 'Want Similar 420%+ Student Enrollment & Inquiries Growth For Your Stock Market Institute?',
-        'cta_desc': "Join India's most trusted digital marketing agency for stock market academies & advisory firms. Get custom SEO strategies, Google PPC, and verified high-intent trader acquisition funnels."
+    'overseas-education': {
+        'dir': 'study-abroad-immigration-consultant',
+        'page': 'digital-marketing-for-overseas-education.aspx',
+        'industry_label': 'Overseas Education & Study Abroad',
+        'badge': 'Study Abroad Client',
+        'desc': 'Verified Study Abroad & Immigration Brand',
+        'pill_text': 'TRUSTED BY 30+ OVERSEAS EDUCATION & STUDY ABROAD CONSULTANTS',
+        'heading': 'Study Abroad & Overseas Education Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
+        'subtitle': 'From leading study abroad consultants, overseas education agencies, and test prep academies to top global immigration firms — explore verified clients filling university intakes and scaling student enrollments with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
+        'search_placeholder': 'Search study abroad & visa clients by brand name (e.g., Global Opportunities, Aliff, Continental, Planet Education)...',
+        'empty_title': 'No Study Abroad Client Found',
+        'cta_title': 'Want Similar 380%+ Student Lead & Intake Enrollment Growth For Your Consultancy?',
+        'cta_desc': "Partner with India's most trusted digital marketing agency for overseas education and study abroad consultants. Get pre-qualified student lead funnels, intake-focused Google Ads, and local SEO dominance."
+    },
+    'study-abroad-immigration-consultant': {
+        'dir': 'study-abroad-immigration-consultant',
+        'page': 'digital-marketing-for-overseas-education.aspx',
+        'industry_label': 'Overseas Education & Study Abroad',
+        'badge': 'Study Abroad Client',
+        'desc': 'Verified Study Abroad & Immigration Brand',
+        'pill_text': 'TRUSTED BY 30+ OVERSEAS EDUCATION & STUDY ABROAD CONSULTANTS',
+        'heading': 'Study Abroad & Overseas Education Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
+        'subtitle': 'From leading study abroad consultants, overseas education agencies, and test prep academies to top global immigration firms — explore verified clients filling university intakes and scaling student enrollments with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
+        'search_placeholder': 'Search study abroad & visa clients by brand name (e.g., Global Opportunities, Aliff, Continental, Planet Education)...',
+        'empty_title': 'No Study Abroad Client Found',
+        'cta_title': 'Want Similar 380%+ Student Lead & Intake Enrollment Growth For Your Consultancy?',
+        'cta_desc': "Partner with India's most trusted digital marketing agency for overseas education and study abroad consultants. Get pre-qualified student lead funnels, intake-focused Google Ads, and local SEO dominance."
     }
 }
 
@@ -493,11 +507,114 @@ STOCK_MARKET_DESCRIPTIONS = {
     'TriptoTrade.webp': 'Complete Stock Market & Futures & Options Course'
 }
 
+OVERSEAS_EDUCATION_BRAND_OVERRIDES = {
+    'Advisely Study Abroad.webp': 'Advisely Study Abroad',
+    'Afflatus Global Visa.webp': 'Afflatus Global Visa',
+    'BNPS International.webp': 'BNPS International',
+    'Enrollbuddy.webp': 'Enrollbuddy',
+    'IMG Overseas.webp': 'IMG Overseas',
+    'Peak Trust Consultants.webp': 'Peak Trust Consultants',
+    'Satguru Overseas.webp': 'Satguru Overseas',
+    'Visa Guruji Global.webp': 'Visa Guruji Global',
+    'aics-immigration.webp': 'AICS Immigration',
+    'aksira-education-logo.webp': 'Aksira Education',
+    'aliff.webp': 'Aliff Overseas Education',
+    'as-edutech.webp': 'AS Edutech',
+    'canximmigration.webp': 'CanX Immigration',
+    'continentalimmigration.webp': 'Continental Immigration',
+    'davesar.webp': 'Davesar Consultants',
+    'envisionoverseas.webp': 'Envision Overseas',
+    'focus-overseas.webp': 'Focus Overseas',
+    'get-study-visa.webp': 'Get Study Visa',
+    'global-opportunies.webp': 'Global Opportunities',
+    'goto-university.webp': 'GoTo University',
+    'ieac-education.webp': 'IEAC Education',
+    'immigration-express.webp': 'Immigration Express',
+    'indian-institute-logo.webp': 'Indian Institute of Foreign Education',
+    'kan-visa-direction.webp': 'Kan Visa Direction',
+    'meo.webp': 'MEO Immigration',
+    'newlight-education.webp': 'New Light Education',
+    'planet-education.webp': 'Planet Education',
+    'prep-guru-logo.webp': 'Prep Guru',
+    'rwics.webp': 'RWICS Immigration',
+    'unipath-education.webp': 'UniPath Education'
+}
+
+OVERSEAS_EDUCATION_BADGES = {
+    'Advisely Study Abroad.webp': 'Study Abroad Consultant',
+    'Afflatus Global Visa.webp': 'Immigration & Visa',
+    'BNPS International.webp': 'Overseas Education',
+    'Enrollbuddy.webp': 'EdTech & Admissions',
+    'IMG Overseas.webp': 'Study Abroad Consultant',
+    'Peak Trust Consultants.webp': 'Immigration & Education',
+    'Satguru Overseas.webp': 'Overseas Education',
+    'Visa Guruji Global.webp': 'Global Visa Specialist',
+    'aics-immigration.webp': 'Immigration & Visa',
+    'aksira-education-logo.webp': 'Overseas Education',
+    'aliff.webp': 'Study Abroad Consultant',
+    'as-edutech.webp': 'EdTech & Study Abroad',
+    'canximmigration.webp': 'Canada & Global Visa',
+    'continentalimmigration.webp': 'Immigration & Visa',
+    'davesar.webp': 'Study Abroad & IELTS',
+    'envisionoverseas.webp': 'Overseas Education',
+    'focus-overseas.webp': 'Study Abroad Consultant',
+    'get-study-visa.webp': 'Student Visa Specialist',
+    'global-opportunies.webp': 'Overseas Education Giant',
+    'goto-university.webp': 'Global Admissions',
+    'ieac-education.webp': 'Overseas Education',
+    'immigration-express.webp': 'Immigration & Visa',
+    'indian-institute-logo.webp': 'Test Prep & Admissions',
+    'kan-visa-direction.webp': 'Visa & Career Direction',
+    'meo.webp': 'Immigration & Study Visa',
+    'newlight-education.webp': 'Overseas Education',
+    'planet-education.webp': 'Overseas Education Network',
+    'prep-guru-logo.webp': 'Test Prep & Study Abroad',
+    'rwics.webp': 'Immigration & Study Visa',
+    'unipath-education.webp': 'Overseas Education'
+}
+
+OVERSEAS_EDUCATION_DESCRIPTIONS = {
+    'Advisely Study Abroad.webp': 'Global University Admissions, Counseling & Student Visa Guidance',
+    'Afflatus Global Visa.webp': 'Study Visa, Permanent Residency & Global Immigration Services',
+    'BNPS International.webp': 'Foreign University Intakes, Test Prep & Student Visa Assistance',
+    'Enrollbuddy.webp': 'Digital University Admissions & Student Enrollment Solutions',
+    'IMG Overseas.webp': 'Global Education Advisory, Scholarship Guidance & Visa Support',
+    'Peak Trust Consultants.webp': 'Student Visa, PR Counseling & Career Pathway Guidance',
+    'Satguru Overseas.webp': 'Comprehensive Study Abroad Counseling & Visa Processing',
+    'Visa Guruji Global.webp': 'Study Visa, Visitor Visa & University Application Support',
+    'aics-immigration.webp': 'Student Visa, PR & International Education Services',
+    'aksira-education-logo.webp': 'University Selection, Application Processing & Visa Guidance',
+    'aliff.webp': 'Pioneers in Global Education, Scholarships & Career Guidance',
+    'as-edutech.webp': 'Foreign University Intakes & International Student Admissions',
+    'canximmigration.webp': 'Study Permits, Express Entry & University Admissions',
+    'continentalimmigration.webp': 'Worldwide Student Visas, Migration & University Placements',
+    'davesar.webp': 'IELTS/PTE Coaching, University Applications & Visa Filing',
+    'envisionoverseas.webp': 'USA, UK, Canada & Australia University Admissions',
+    'focus-overseas.webp': 'Profile Evaluation, University Shortlisting & Visa Assistance',
+    'get-study-visa.webp': 'Fast-Track Student Visa Processing & University Admissions',
+    'global-opportunies.webp': "India's Premier Study Abroad & University Placement Network",
+    'goto-university.webp': 'Top 100 Global University Admissions & Essay Guidance',
+    'ieac-education.webp': 'International Education & Career Guidance Services',
+    'immigration-express.webp': 'Student Visa, PR & Post-Study Work Visa Advisory',
+    'indian-institute-logo.webp': 'IELTS, TOEFL, PTE Prep & Foreign University Placement',
+    'kan-visa-direction.webp': 'Study Abroad Counseling & End-to-End Visa Filing',
+    'meo.webp': 'Global Student Visas, Skilled Migration & PR Advisory',
+    'newlight-education.webp': 'Foreign Degree Programs, Admissions & Visa Documentation',
+    'planet-education.webp': 'Australian, UK & Canadian University Admissions Specialist',
+    'prep-guru-logo.webp': 'Standardized Test Prep & Global University Admissions',
+    'rwics.webp': 'Overseas Student Visas, LMIA & Permanent Residency Guidance',
+    'unipath-education.webp': 'Personalized University Admissions & Scholarship Assistance'
+}
+
 def clean_brand_name(filename, industry_key=None):
     if industry_key in ('astrologer', 'astrology') and filename in ASTROLOGY_BRAND_OVERRIDES:
         return ASTROLOGY_BRAND_OVERRIDES[filename]
     if industry_key in ('stock-market', 'stock-market-institute') and filename in STOCK_MARKET_BRAND_OVERRIDES:
         return STOCK_MARKET_BRAND_OVERRIDES[filename]
+    if industry_key in ('overseas-education', 'study-abroad', 'study-abroad-immigration-consultant') and filename in OVERSEAS_EDUCATION_BRAND_OVERRIDES:
+        return OVERSEAS_EDUCATION_BRAND_OVERRIDES[filename]
+    if filename in OVERSEAS_EDUCATION_BRAND_OVERRIDES:
+        return OVERSEAS_EDUCATION_BRAND_OVERRIDES[filename]
     if filename in STOCK_MARKET_BRAND_OVERRIDES:
         return STOCK_MARKET_BRAND_OVERRIDES[filename]
     if filename in ASTROLOGY_BRAND_OVERRIDES:
@@ -521,13 +638,13 @@ def get_badge_class(badge_text):
         return 'kdm-cat-cosmetic'
     if 'hair' in b:
         return 'kdm-cat-hair'
-    if 'app' in b or 'chat' in b:
+    if 'app' in b or 'chat' in b or 'admissions' in b:
         return 'kdm-cat-aesthetic'
     if 'tarot' in b or 'healing' in b:
         return 'kdm-cat-dermatology'
-    if 'numerology' in b or 'academy' in b or 'institute' in b or 'sansthan' in b:
+    if 'numerology' in b or 'academy' in b or 'institute' in b or 'sansthan' in b or 'education' in b:
         return 'kdm-cat-surgery'
-    if 'sebi' in b or 'research' in b or 'ra' in b:
+    if 'sebi' in b or 'research' in b or 'ra' in b or 'visa' in b or 'immigration' in b:
         return 'kdm-cat-surgery'
     return 'kdm-cat-brand'
 
@@ -599,6 +716,9 @@ def sync_industry(industry_key, custom_dir=None, custom_page=None):
         elif industry_key in ('stock-market', 'stock-market-institute'):
             client_badge = STOCK_MARKET_BADGES.get(f, badge_text)
             client_desc = STOCK_MARKET_DESCRIPTIONS.get(f, desc_text)
+        elif industry_key in ('overseas-education', 'study-abroad', 'study-abroad-immigration-consultant'):
+            client_badge = OVERSEAS_EDUCATION_BADGES.get(f, badge_text)
+            client_desc = OVERSEAS_EDUCATION_DESCRIPTIONS.get(f, desc_text)
         else:
             client_badge = badge_text
             client_desc = CUSTOM_DESCRIPTIONS.get(f, desc_text)
