@@ -239,7 +239,7 @@
       </div>
     </div>
 
-                  <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
+                        <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
       <section class="kdm-industry-clients-section">
         <div class="container">
           <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
@@ -506,9 +506,9 @@
             <img src="images/client/stock-market/AmpleStock%20Advisory.webp" alt="AmpleStock Advisory Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Stock Market Advisory</span>
+            <span class="kdm-client-badge kdm-cat-surgery">SEBI-Registered RA</span>
             <h4 class="kdm-industry-client-title">AmpleStock Advisory</h4>
-            <p class="kdm-industry-client-desc">Stock Research, Nifty Options & Equity Advisory</p>
+            <p class="kdm-industry-client-desc">SEBI-Registered Stock Research, Nifty Options & Equity Advisory</p>
           </div>
         </div>
         <div class="kdm-industry-client-card" data-name="capitalcraft research">
@@ -516,7 +516,7 @@
             <img src="images/client/stock-market/CapitalCraftResearch.webp" alt="CapitalCraft Research Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Research Advisory</span>
+            <span class="kdm-client-badge kdm-cat-surgery">SEBI-Registered RA</span>
             <h4 class="kdm-industry-client-title">CapitalCraft Research</h4>
             <p class="kdm-industry-client-desc">SEBI-Registered Equity Research & Portfolio Advisory</p>
           </div>
@@ -546,7 +546,7 @@
             <img src="images/client/stock-market/Equimate.webp" alt="Equimate Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Algo Trading Platform</span>
+            <span class="kdm-client-badge kdm-cat-surgery">Algo Trading Platform</span>
             <h4 class="kdm-industry-client-title">Equimate</h4>
             <p class="kdm-industry-client-desc">Algorithmic Trading & Stock Market Analytics Platform</p>
           </div>
@@ -556,7 +556,7 @@
             <img src="images/client/stock-market/Ethical%20research.webp" alt="Ethical Research Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Research Advisory</span>
+            <span class="kdm-client-badge kdm-cat-surgery">SEBI-Registered RA</span>
             <h4 class="kdm-industry-client-title">Ethical Research</h4>
             <p class="kdm-industry-client-desc">SEBI-Registered Equity Research & Stock Market Advisory</p>
           </div>
@@ -576,9 +576,9 @@
             <img src="images/client/stock-market/freestockstips.webp" alt="Free Stocks Tips Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Stock Tips Portal</span>
+            <span class="kdm-client-badge kdm-cat-surgery">SEBI-Registered RA</span>
             <h4 class="kdm-industry-client-title">Free Stocks Tips</h4>
-            <p class="kdm-industry-client-desc">Daily Stock Recommendations & Market News Portal</p>
+            <p class="kdm-industry-client-desc">SEBI-Registered Stock Tips, Market Recommendations & Advisory</p>
           </div>
         </div>
         <div class="kdm-industry-client-card" data-name="getfxbot">
@@ -586,7 +586,7 @@
             <img src="images/client/stock-market/GetFXBot.webp" alt="GetFXBot Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Algo Trading Bot</span>
+            <span class="kdm-client-badge kdm-cat-surgery">Algo Trading Bot</span>
             <h4 class="kdm-industry-client-title">GetFXBot</h4>
             <p class="kdm-industry-client-desc">Automated Forex & Stock Algo Trading Solutions</p>
           </div>
@@ -606,9 +606,9 @@
             <img src="images/client/stock-market/masterniftyoption.webp" alt="Master Nifty Option Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Options Trading Academy</span>
+            <span class="kdm-client-badge kdm-cat-surgery">SEBI-Registered RA</span>
             <h4 class="kdm-industry-client-title">Master Nifty Option</h4>
-            <p class="kdm-industry-client-desc">Options Trading Strategies, Hedging & Derivatives Course</p>
+            <p class="kdm-industry-client-desc">SEBI-Registered Options Strategies, Hedging & Derivatives Advisory</p>
           </div>
         </div>
         <div class="kdm-industry-client-card" data-name="moral research">
@@ -616,9 +616,9 @@
             <img src="images/client/stock-market/moral%20research.webp" alt="Moral Research Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Research Analyst</span>
+            <span class="kdm-client-badge kdm-cat-surgery">SEBI-Registered RA</span>
             <h4 class="kdm-industry-client-title">Moral Research</h4>
-            <p class="kdm-industry-client-desc">Technical Analysis, Equity & Commodity Research</p>
+            <p class="kdm-industry-client-desc">SEBI-Registered Research Analyst, Equity & Technical Analysis</p>
           </div>
         </div>
         <div class="kdm-industry-client-card" data-name="skyriss">
@@ -626,7 +626,7 @@
             <img src="images/client/stock-market/Skyriss.webp" alt="Skyriss Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Wealth & Trading</span>
+            <span class="kdm-client-badge kdm-cat-surgery">Wealth & Trading</span>
             <h4 class="kdm-industry-client-title">Skyriss</h4>
             <p class="kdm-industry-client-desc">Stock Trading Strategies & Wealth Management</p>
           </div>
@@ -636,7 +636,7 @@
             <img src="images/client/stock-market/TheRichTradershub.webp" alt="The Rich Traders Hub Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Trading Community</span>
+            <span class="kdm-client-badge kdm-cat-surgery">Trading Community</span>
             <h4 class="kdm-industry-client-title">The Rich Traders Hub</h4>
             <p class="kdm-industry-client-desc">Pro Trader Community, Live Market Calls & Training</p>
           </div>
@@ -646,7 +646,7 @@
             <img src="images/client/stock-market/trade.webp" alt="Trade Insights Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Trading Advisory</span>
+            <span class="kdm-client-badge kdm-cat-surgery">Trading Advisory</span>
             <h4 class="kdm-industry-client-title">Trade Insights</h4>
             <p class="kdm-industry-client-desc">Smart Money Concepts & Institutional Trading Advisory</p>
           </div>

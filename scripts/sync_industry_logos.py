@@ -455,18 +455,18 @@ STOCK_MARKET_BRAND_OVERRIDES = {
 
 STOCK_MARKET_BADGES = {
     'Allaboutfinances.webp': 'Financial Education',
-    'AmpleStock Advisory.webp': 'Stock Market Advisory',
-    'CapitalCraftResearch.webp': 'Research Advisory',
+    'AmpleStock Advisory.webp': 'SEBI-Registered RA',
+    'CapitalCraftResearch.webp': 'SEBI-Registered RA',
     'doontradingacademy.webp': 'Stock Trading Institute',
     'EmperorBullsAcademy.webp': 'Stock Trading Academy',
     'Equimate.webp': 'Algo Trading Platform',
-    'Ethical research.webp': 'Research Advisory',
+    'Ethical research.webp': 'SEBI-Registered RA',
     'FirstBull.webp': 'Trading Academy',
-    'freestockstips.webp': 'Stock Tips Portal',
+    'freestockstips.webp': 'SEBI-Registered RA',
     'GetFXBot.webp': 'Algo Trading Bot',
     'LearnFX.webp': 'Trading Training Academy',
-    'masterniftyoption.webp': 'Options Trading Academy',
-    'moral research.webp': 'Research Analyst',
+    'masterniftyoption.webp': 'SEBI-Registered RA',
+    'moral research.webp': 'SEBI-Registered RA',
     'Skyriss.webp': 'Wealth & Trading',
     'TheRichTradershub.webp': 'Trading Community',
     'trade.webp': 'Trading Advisory',
@@ -475,18 +475,18 @@ STOCK_MARKET_BADGES = {
 
 STOCK_MARKET_DESCRIPTIONS = {
     'Allaboutfinances.webp': 'Share Market Trading Advisory & Financial Education',
-    'AmpleStock Advisory.webp': 'Stock Research, Nifty Options & Equity Advisory',
+    'AmpleStock Advisory.webp': 'SEBI-Registered Stock Research, Nifty Options & Equity Advisory',
     'CapitalCraftResearch.webp': 'SEBI-Registered Equity Research & Portfolio Advisory',
     'doontradingacademy.webp': 'Stock Market Institute, Price Action & Options Training',
     'EmperorBullsAcademy.webp': 'Advanced Stock Trading Academy & Mentorship',
     'Equimate.webp': 'Algorithmic Trading & Stock Market Analytics Platform',
     'Ethical research.webp': 'SEBI-Registered Equity Research & Stock Market Advisory',
     'FirstBull.webp': 'Intraday & Swing Trading Academy & Research',
-    'freestockstips.webp': 'Daily Stock Recommendations & Market News Portal',
+    'freestockstips.webp': 'SEBI-Registered Stock Tips, Market Recommendations & Advisory',
     'GetFXBot.webp': 'Automated Forex & Stock Algo Trading Solutions',
     'LearnFX.webp': 'Currency, Commodities & Stock Market Training',
-    'masterniftyoption.webp': 'Options Trading Strategies, Hedging & Derivatives Course',
-    'moral research.webp': 'Technical Analysis, Equity & Commodity Research',
+    'masterniftyoption.webp': 'SEBI-Registered Options Strategies, Hedging & Derivatives Advisory',
+    'moral research.webp': 'SEBI-Registered Research Analyst, Equity & Technical Analysis',
     'Skyriss.webp': 'Stock Trading Strategies & Wealth Management',
     'TheRichTradershub.webp': 'Pro Trader Community, Live Market Calls & Training',
     'trade.webp': 'Smart Money Concepts & Institutional Trading Advisory',
@@ -526,6 +526,8 @@ def get_badge_class(badge_text):
     if 'tarot' in b or 'healing' in b:
         return 'kdm-cat-dermatology'
     if 'numerology' in b or 'academy' in b or 'institute' in b or 'sansthan' in b:
+        return 'kdm-cat-surgery'
+    if 'sebi' in b or 'research' in b or 'ra' in b:
         return 'kdm-cat-surgery'
     return 'kdm-cat-brand'
 
