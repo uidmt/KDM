@@ -1,24 +1,31 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs" Inherits="PPC_Services" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-  <title>Digital Marketing Services for Visa & Immigration Consultants | KDM</title>
-  <meta name="keywords" content="digital marketing for visa immigration consultant, immigration marketing agency, canada pr lead generation, study abroad digital marketing, immigration consultant seo, visa ppc advertising">
-  <meta name="description" content="Generate high-converting PR visa, study permit & work visa leads with King of Digital Marketing. Specialized immigration SEO, high-intent Google PPC & multi-step assessment funnels.">
-  <link rel="canonical" href="https://www.kingofdigitalmarketing.com/digital-marketing-for-visa-immigration-consultant.aspx">
-  <meta property="og:title" content="Digital Marketing Services for Visa & Immigration Consultants | KDM">
-  <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-visa-immigration-consultant.jpg">
-  <meta property="og:description" content="Generate high-converting PR visa, study permit & work visa leads with King of Digital Marketing. Specialized immigration SEO, high-intent Google PPC & multi-step assessment funnels.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.kingofdigitalmarketing.com/digital-marketing-for-visa-immigration-consultant.aspx">
-  <meta name="twitter:card" content="summary_large_image">
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PPC-Services.aspx.cs"
+  Inherits="PPC_Services" %>
+  <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <title>Digital Marketing Services for Visa & Immigration Consultants | KDM</title>
+    <meta name="keywords"
+      content="digital marketing for visa immigration consultant, immigration marketing agency, canada pr lead generation, study abroad digital marketing, immigration consultant seo, visa ppc advertising">
+    <meta name="description"
+      content="Generate high-converting PR visa, study permit & work visa leads with King of Digital Marketing. Specialized immigration SEO, high-intent Google PPC & multi-step assessment funnels.">
+    <link rel="canonical"
+      href="https://www.kingofdigitalmarketing.com/digital-marketing-for-visa-immigration-consultant.aspx">
+    <meta property="og:title" content="Digital Marketing Services for Visa & Immigration Consultants | KDM">
+    <meta property="og:image"
+      content="https://www.kingofdigitalmarketing.com/images/digital-marketing-for-visa-immigration-consultant.jpg">
+    <meta property="og:description"
+      content="Generate high-converting PR visa, study permit & work visa leads with King of Digital Marketing. Specialized immigration SEO, high-intent Google PPC & multi-step assessment funnels.">
+    <meta property="og:type" content="website">
+    <meta property="og:url"
+      content="https://www.kingofdigitalmarketing.com/digital-marketing-for-visa-immigration-consultant.aspx">
+    <meta name="twitter:card" content="summary_large_image">
 
-  <!-- CSS Dependencies -->
-  <link rel="stylesheet" href="css/packages.css">
-  <link rel="stylesheet" href="css/kdm-industry.css">
-  <link rel="stylesheet" href="css/kdm-faq.css">
-  <link rel="stylesheet" href="css/home-custom.css?v=25.0">
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="css/packages.css">
+    <link rel="stylesheet" href="css/kdm-industry.css">
+    <link rel="stylesheet" href="css/kdm-faq.css">
+    <link rel="stylesheet" href="css/home-custom.css?v=25.0">
 
-  <!-- JSON-LD Structured Data Schemas -->
-  <script type="application/ld+json">
+    <!-- JSON-LD Structured Data Schemas -->
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -35,7 +42,7 @@
   }
   </script>
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -62,7 +69,7 @@
   }
   </script>
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -190,9 +197,9 @@
     ]
   }
   </script>
-</asp:Content>
+  </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+  <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div role="main" class="main">
 
       <!-- ===== 1. HERO BANNER SECTION ===== -->
@@ -213,15 +220,19 @@
           </span>
 
           <h1 class="kdm-service-hero-title">
-            Best Digital Marketing Company For <span class="kdm-gradient-highlight">Visa &amp; Immigration Consultants</span>
+            Best Digital Marketing Company For <span class="kdm-gradient-highlight">Visa &amp; Immigration
+              Consultants</span>
           </h1>
 
           <p class="kdm-service-hero-subtitle">
-            Generate high-intent PR visa leads, study permit inquiries, and verified investor immigration consultations with high-converting Google Ads, local SEO, Meta funnels, and automated CRM pipelines from <a href="Default.aspx">King of Digital Marketing</a>.
+            Generate high-intent PR visa leads, study permit inquiries, and verified investor immigration consultations
+            with high-converting Google Ads, local SEO, Meta funnels, and automated CRM pipelines from <a
+              href="Default.aspx">King of Digital Marketing</a>.
           </p>
 
           <div class="kdm-service-hero-stats-bar">
-            <span class="kdm-service-hero-stat-highlight"><i class="fa fa-passport"></i> 45,000+ Qualified Visa Inquiries</span>
+            <span class="kdm-service-hero-stat-highlight"><i class="fa fa-passport"></i> 45,000+ Qualified Visa
+              Inquiries</span>
             <span class="kdm-service-hero-stat-divider">|</span>
             <span class="kdm-service-hero-stat-blue">⭐ 4.9 / 5 Client Rating</span>
             <span class="kdm-service-hero-stat-divider">|</span>
@@ -235,10 +246,14 @@
           </div>
 
           <div class="kdm-service-hero-highlights">
-            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> High-Intent Google Search Ads for Canada &amp; Australia PR</div>
-            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Multi-Step Qualification Quizzes &amp; CRS Score Calculators</div>
-            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Local SEO &amp; Google Map Pack Domination for Visa Searches</div>
-            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Automated WhatsApp Drip Follow-Ups for Lead Retention</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> High-Intent Google Search
+              Ads for Canada &amp; Australia PR</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Multi-Step Qualification
+              Quizzes &amp; CRS Score Calculators</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Local SEO &amp; Google Map
+              Pack Domination for Visa Searches</div>
+            <div class="kdm-service-hero-highlight-item"><i class="fa fa-check-circle"></i> Automated WhatsApp Drip
+              Follow-Ups for Lead Retention</div>
           </div>
         </div>
       </div>
@@ -248,13 +263,15 @@
         <div class="container">
           <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
             <div class="kdm-client-pill-badge">
-              <i class="fa fa-star" style="color: #f59e0b;"></i> TRUSTED BY 30+ VISA & IMMIGRATION CONSULTANCIES
+              <i class="fa fa-star" style="color: #f59e0b;"></i> TRUSTED BY 50+ VISA & IMMIGRATION CONSULTANCIES
             </div>
             <h2 class="kdm-client-main-title">
               Visa & Immigration Clients <span class="kdm-blue-gradient">We Have Worked With</span>
             </h2>
             <p class="kdm-client-subtitle">
-              From leading Canada PR specialists, licensed immigration lawyers, and overseas study visa agencies to global migration advisors — explore verified clients scaling qualified visa inquiries and case approvals with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.
+              From leading Canada PR specialists, licensed immigration lawyers, and overseas study visa agencies to
+              global migration advisors — explore verified clients scaling qualified visa inquiries and case approvals
+              with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.
             </p>
           </div>
 
@@ -263,392 +280,454 @@
             <!-- Row 1: Left Scroll -->
             <div class="kdm-client-marquee-track kdm-marquee-left">
               <div class="kdm-client-marquee-group">
-                
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Advisely%20Study%20Abroad.webp" alt="Advisely Study Abroad Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Advisely Study Abroad</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Afflatus%20Global%20Visa.webp" alt="Afflatus Global Visa Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Afflatus Global Visa</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/aics-immigration.webp" alt="AICS Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">AICS Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/aksira-education-logo.webp" alt="Aksira Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Aksira Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/aliff.webp" alt="Aliff Overseas Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Aliff Overseas Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/as-edutech.webp" alt="AS Edutech Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">AS Edutech</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp" alt="BNPS International Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">BNPS International</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp" alt="BrighterPrep Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">BrighterPrep</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/canximmigration.webp" alt="CanX Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">CanX Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/continentalimmigration.webp" alt="Continental Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Continental Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/davesar.webp" alt="Davesar Consultants Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Davesar Consultants</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Enrollbuddy.webp" alt="Enrollbuddy Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Enrollbuddy</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/envisionoverseas.webp" alt="Envision Overseas Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Envision Overseas</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/focus-overseas.webp" alt="Focus Overseas Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Focus Overseas</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/get-study-visa.webp" alt="Get Study Visa Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Get Study Visa</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/global-opportunies.webp" alt="Global Opportunities Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Global Opportunities</span>
-        </div>
+
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Advisely%20Study%20Abroad.webp"
+                      alt="Advisely Study Abroad Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Advisely Study Abroad</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Afflatus%20Global%20Visa.webp"
+                      alt="Afflatus Global Visa Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Afflatus Global Visa</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/aics-immigration.webp"
+                      alt="AICS Immigration Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">AICS Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/aksira-education-logo.webp"
+                      alt="Aksira Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Aksira Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/aliff.webp"
+                      alt="Aliff Overseas Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Aliff Overseas Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/as-edutech.webp" alt="AS Edutech Logo"
+                      loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">AS Edutech</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp"
+                      alt="BNPS International Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">BNPS International</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp"
+                      alt="BrighterPrep Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">BrighterPrep</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/canximmigration.webp"
+                      alt="CanX Immigration Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">CanX Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/continentalimmigration.webp"
+                      alt="Continental Immigration Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Continental Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/davesar.webp"
+                      alt="Davesar Consultants Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Davesar Consultants</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Enrollbuddy.webp" alt="Enrollbuddy Logo"
+                      loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Enrollbuddy</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/envisionoverseas.webp"
+                      alt="Envision Overseas Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Envision Overseas</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/focus-overseas.webp"
+                      alt="Focus Overseas Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Focus Overseas</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/get-study-visa.webp"
+                      alt="Get Study Visa Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Get Study Visa</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/global-opportunies.webp"
+                      alt="Global Opportunities Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Global Opportunities</span>
+                </div>
               </div>
               <div class="kdm-client-marquee-group" aria-hidden="true">
-                
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Advisely%20Study%20Abroad.webp" alt="Advisely Study Abroad Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Advisely Study Abroad</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Afflatus%20Global%20Visa.webp" alt="Afflatus Global Visa Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Afflatus Global Visa</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/aics-immigration.webp" alt="AICS Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">AICS Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/aksira-education-logo.webp" alt="Aksira Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Aksira Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/aliff.webp" alt="Aliff Overseas Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Aliff Overseas Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/as-edutech.webp" alt="AS Edutech Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">AS Edutech</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp" alt="BNPS International Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">BNPS International</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp" alt="BrighterPrep Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">BrighterPrep</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/canximmigration.webp" alt="CanX Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">CanX Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/continentalimmigration.webp" alt="Continental Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Continental Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/davesar.webp" alt="Davesar Consultants Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Davesar Consultants</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Enrollbuddy.webp" alt="Enrollbuddy Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Enrollbuddy</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/envisionoverseas.webp" alt="Envision Overseas Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Envision Overseas</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/focus-overseas.webp" alt="Focus Overseas Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Focus Overseas</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/get-study-visa.webp" alt="Get Study Visa Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Get Study Visa</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/global-opportunies.webp" alt="Global Opportunities Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Global Opportunities</span>
-        </div>
+
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Advisely%20Study%20Abroad.webp"
+                      alt="Advisely Study Abroad Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Advisely Study Abroad</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Afflatus%20Global%20Visa.webp"
+                      alt="Afflatus Global Visa Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Afflatus Global Visa</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/aics-immigration.webp"
+                      alt="AICS Immigration Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">AICS Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/aksira-education-logo.webp"
+                      alt="Aksira Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Aksira Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/aliff.webp"
+                      alt="Aliff Overseas Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Aliff Overseas Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/as-edutech.webp" alt="AS Edutech Logo"
+                      loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">AS Edutech</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp"
+                      alt="BNPS International Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">BNPS International</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp"
+                      alt="BrighterPrep Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">BrighterPrep</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/canximmigration.webp"
+                      alt="CanX Immigration Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">CanX Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/continentalimmigration.webp"
+                      alt="Continental Immigration Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Continental Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/davesar.webp"
+                      alt="Davesar Consultants Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Davesar Consultants</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Enrollbuddy.webp" alt="Enrollbuddy Logo"
+                      loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Enrollbuddy</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/envisionoverseas.webp"
+                      alt="Envision Overseas Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Envision Overseas</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/focus-overseas.webp"
+                      alt="Focus Overseas Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Focus Overseas</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/get-study-visa.webp"
+                      alt="Get Study Visa Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Get Study Visa</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/global-opportunies.webp"
+                      alt="Global Opportunities Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Global Opportunities</span>
+                </div>
               </div>
             </div>
 
             <!-- Row 2: Right Scroll -->
             <div class="kdm-client-marquee-track kdm-marquee-right">
               <div class="kdm-client-marquee-group">
-                
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/goto-university.webp" alt="GoTo University Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">GoTo University</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/ieac-education.webp" alt="IEAC Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">IEAC Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/IMG%20Overseas.webp" alt="IMG Overseas Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">IMG Overseas</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/immigration-express.webp" alt="Immigration Express Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Immigration Express</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/indian-institute-logo.webp" alt="Indian Institute of Foreign Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Indian Institute of Foreign Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/kan-visa-direction.webp" alt="Kan Visa Direction Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Kan Visa Direction</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/meo.webp" alt="MEO Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">MEO Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/newlight-education.webp" alt="New Light Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">New Light Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Peak%20Trust%20Consultants.webp" alt="Peak Trust Consultants Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Peak Trust Consultants</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/planet-education.webp" alt="Planet Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Planet Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/prep-guru-logo.webp" alt="Prep Guru Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Prep Guru</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/rwics.webp" alt="RWICS Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">RWICS Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Satguru%20Overseas.webp" alt="Satguru Overseas Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Satguru Overseas</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/unipath-education.webp" alt="UniPath Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">UniPath Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Visa%20Guruji%20Global.webp" alt="Visa Guruji Global Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Visa Guruji Global</span>
-        </div>
+
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/goto-university.webp"
+                      alt="GoTo University Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">GoTo University</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/ieac-education.webp"
+                      alt="IEAC Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">IEAC Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/IMG%20Overseas.webp"
+                      alt="IMG Overseas Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">IMG Overseas</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/immigration-express.webp"
+                      alt="Immigration Express Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Immigration Express</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/indian-institute-logo.webp"
+                      alt="Indian Institute of Foreign Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Indian Institute of Foreign Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/kan-visa-direction.webp"
+                      alt="Kan Visa Direction Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Kan Visa Direction</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/meo.webp" alt="MEO Immigration Logo"
+                      loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">MEO Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/newlight-education.webp"
+                      alt="New Light Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">New Light Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Peak%20Trust%20Consultants.webp"
+                      alt="Peak Trust Consultants Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Peak Trust Consultants</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/planet-education.webp"
+                      alt="Planet Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Planet Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/prep-guru-logo.webp"
+                      alt="Prep Guru Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Prep Guru</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/rwics.webp" alt="RWICS Immigration Logo"
+                      loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">RWICS Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Satguru%20Overseas.webp"
+                      alt="Satguru Overseas Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Satguru Overseas</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/unipath-education.webp"
+                      alt="UniPath Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">UniPath Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Visa%20Guruji%20Global.webp"
+                      alt="Visa Guruji Global Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Visa Guruji Global</span>
+                </div>
               </div>
               <div class="kdm-client-marquee-group" aria-hidden="true">
-                
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/goto-university.webp" alt="GoTo University Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">GoTo University</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/ieac-education.webp" alt="IEAC Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">IEAC Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/IMG%20Overseas.webp" alt="IMG Overseas Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">IMG Overseas</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/immigration-express.webp" alt="Immigration Express Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Immigration Express</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/indian-institute-logo.webp" alt="Indian Institute of Foreign Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Indian Institute of Foreign Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/kan-visa-direction.webp" alt="Kan Visa Direction Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Kan Visa Direction</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/meo.webp" alt="MEO Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">MEO Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/newlight-education.webp" alt="New Light Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">New Light Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Peak%20Trust%20Consultants.webp" alt="Peak Trust Consultants Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Peak Trust Consultants</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/planet-education.webp" alt="Planet Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Planet Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/prep-guru-logo.webp" alt="Prep Guru Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Prep Guru</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/rwics.webp" alt="RWICS Immigration Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">RWICS Immigration</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Satguru%20Overseas.webp" alt="Satguru Overseas Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Satguru Overseas</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/unipath-education.webp" alt="UniPath Education Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">UniPath Education</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/study-abroad-immigration-consultant/Visa%20Guruji%20Global.webp" alt="Visa Guruji Global Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Visa Guruji Global</span>
-        </div>
+
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/goto-university.webp"
+                      alt="GoTo University Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">GoTo University</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/ieac-education.webp"
+                      alt="IEAC Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">IEAC Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/IMG%20Overseas.webp"
+                      alt="IMG Overseas Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">IMG Overseas</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/immigration-express.webp"
+                      alt="Immigration Express Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Immigration Express</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/indian-institute-logo.webp"
+                      alt="Indian Institute of Foreign Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Indian Institute of Foreign Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/kan-visa-direction.webp"
+                      alt="Kan Visa Direction Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Kan Visa Direction</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/meo.webp" alt="MEO Immigration Logo"
+                      loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">MEO Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/newlight-education.webp"
+                      alt="New Light Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">New Light Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Peak%20Trust%20Consultants.webp"
+                      alt="Peak Trust Consultants Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Peak Trust Consultants</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/planet-education.webp"
+                      alt="Planet Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Planet Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/prep-guru-logo.webp"
+                      alt="Prep Guru Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Prep Guru</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/rwics.webp" alt="RWICS Immigration Logo"
+                      loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">RWICS Immigration</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Satguru%20Overseas.webp"
+                      alt="Satguru Overseas Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Satguru Overseas</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/unipath-education.webp"
+                      alt="UniPath Education Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">UniPath Education</span>
+                </div>
+                <div class="kdm-client-marquee-item">
+                  <div class="kdm-client-marquee-img-wrap">
+                    <img src="images/client/study-abroad-immigration-consultant/Visa%20Guruji%20Global.webp"
+                      alt="Visa Guruji Global Logo" loading="lazy" decoding="async" />
+                  </div>
+                  <span class="kdm-client-marquee-name">Visa Guruji Global</span>
+                </div>
               </div>
             </div>
           </div>
@@ -656,339 +735,382 @@
           <!-- Real-Time Client Search Bar -->
           <div class="kdm-client-search-box">
             <i class="fa fa-search kdm-client-search-icon"></i>
-            <input type="text" id="kdmIndustryClientSearch" class="kdm-client-search-input" placeholder="Search visa & immigration clients by brand name (e.g., Afflatus, Continental Immigration, CanX, RWICS)..." onkeyup="filterIndustryClients()" oninput="filterIndustryClients()" aria-label="Search client logos" />
-            <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
+            <input type="text" id="kdmIndustryClientSearch" class="kdm-client-search-input"
+              placeholder="Search visa & immigration clients by brand name (e.g., Afflatus, Continental Immigration, CanX, RWICS)..."
+              onkeyup="filterIndustryClients()" oninput="filterIndustryClients()" aria-label="Search client logos" />
+            <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear"
+              onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
           </div>
 
           <!-- 31 Client Logos Responsive Grid (Strict A to Z) -->
           <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
-            
-        <div class="kdm-industry-client-card" data-name="advisely study abroad">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/Advisely%20Study%20Abroad.webp" alt="Advisely Study Abroad Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
-            <h4 class="kdm-industry-client-title">Advisely Study Abroad</h4>
-            <p class="kdm-industry-client-desc">Global Study Visa, University Filing & Student Permit Assistance</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="afflatus global visa">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/Afflatus%20Global%20Visa.webp" alt="Afflatus Global Visa Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
-            <h4 class="kdm-industry-client-title">Afflatus Global Visa</h4>
-            <p class="kdm-industry-client-desc">Canada PR, Express Entry, PNP & Global Immigration Services</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="aics immigration">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/aics-immigration.webp" alt="AICS Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
-            <h4 class="kdm-industry-client-title">AICS Immigration</h4>
-            <p class="kdm-industry-client-desc">Australia & Canada Migration, Student Visas & PR Solutions</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="aksira education">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/aksira-education-logo.webp" alt="Aksira Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
-            <h4 class="kdm-industry-client-title">Aksira Education</h4>
-            <p class="kdm-industry-client-desc">Global Student Visa Processing & University Admissions Guidance</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="aliff overseas education">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/aliff.webp" alt="Aliff Overseas Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
-            <h4 class="kdm-industry-client-title">Aliff Overseas Education</h4>
-            <p class="kdm-industry-client-desc">Pioneers in Global Student Visa & Overseas Career Guidance</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="as edutech">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/as-edutech.webp" alt="AS Edutech Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-aesthetic">Study Visa & Admissions</span>
-            <h4 class="kdm-industry-client-title">AS Edutech</h4>
-            <p class="kdm-industry-client-desc">International Study Permits & Foreign University Admissions</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="bnps international">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp" alt="BNPS International Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Visa & Education Consultant</span>
-            <h4 class="kdm-industry-client-title">BNPS International</h4>
-            <p class="kdm-industry-client-desc">Study Visa Processing, Visitor Visas & Global Intakes</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="brighterprep">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp" alt="BrighterPrep Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Abroad & Visa Prep</span>
-            <h4 class="kdm-industry-client-title">BrighterPrep</h4>
-            <p class="kdm-industry-client-desc">International Student Visa Counseling & Admissions Advisory</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="canx immigration">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/canximmigration.webp" alt="CanX Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Canada PR & Visa Specialist</span>
-            <h4 class="kdm-industry-client-title">CanX Immigration</h4>
-            <p class="kdm-industry-client-desc">Canada Express Entry, Study Permits & Provincial Nominee Programs</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="continental immigration">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/continentalimmigration.webp" alt="Continental Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
-            <h4 class="kdm-industry-client-title">Continental Immigration</h4>
-            <p class="kdm-industry-client-desc">Worldwide Visa Filing, PR Migration & Foreign University Placements</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="davesar consultants">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/davesar.webp" alt="Davesar Consultants Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa & IELTS Advisory</span>
-            <h4 class="kdm-industry-client-title">Davesar Consultants</h4>
-            <p class="kdm-industry-client-desc">IELTS/PTE Coaching, Student Visa Processing & Embassy Interview Prep</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="enrollbuddy">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/Enrollbuddy.webp" alt="Enrollbuddy Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-aesthetic">Global Admissions & Visa</span>
-            <h4 class="kdm-industry-client-title">Enrollbuddy</h4>
-            <p class="kdm-industry-client-desc">Overseas University Enrollment & Student Visa Documentation</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="envision overseas">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/envisionoverseas.webp" alt="Envision Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
-            <h4 class="kdm-industry-client-title">Envision Overseas</h4>
-            <p class="kdm-industry-client-desc">USA, UK, Canada & Australia Student Visa & PR Documentation</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="focus overseas">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/focus-overseas.webp" alt="Focus Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Visa & Education Consultant</span>
-            <h4 class="kdm-industry-client-title">Focus Overseas</h4>
-            <p class="kdm-industry-client-desc">Profile Assessment, University Applications & Visa Lodgement</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="get study visa">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/get-study-visa.webp" alt="Get Study Visa Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Specialist</span>
-            <h4 class="kdm-industry-client-title">Get Study Visa</h4>
-            <p class="kdm-industry-client-desc">Fast-Track Student Visa Processing & Visa Extension Support</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="global opportunities">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/global-opportunies.webp" alt="Global Opportunities Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Global Visa & Education Giant</span>
-            <h4 class="kdm-industry-client-title">Global Opportunities</h4>
-            <p class="kdm-industry-client-desc">India's Leading Study Visa & Overseas Migration Advisory</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="goto university">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/goto-university.webp" alt="GoTo University Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
-            <h4 class="kdm-industry-client-title">GoTo University</h4>
-            <p class="kdm-industry-client-desc">Global Student Visa Consulting & Top University Admissions</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="ieac education">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/ieac-education.webp" alt="IEAC Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Visa & Career Consultant</span>
-            <h4 class="kdm-industry-client-title">IEAC Education</h4>
-            <p class="kdm-industry-client-desc">Comprehensive Student Visa Processing & Immigration Counseling</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="img overseas">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/IMG%20Overseas.webp" alt="IMG Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
-            <h4 class="kdm-industry-client-title">IMG Overseas</h4>
-            <p class="kdm-industry-client-desc">Student Visa Filing, Scholarship Support & Career Pathways</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="immigration express">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/immigration-express.webp" alt="Immigration Express Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
-            <h4 class="kdm-industry-client-title">Immigration Express</h4>
-            <p class="kdm-industry-client-desc">Express PR Visas, Post-Study Work Visas & Skilled Migration</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="indian institute of foreign education">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/indian-institute-logo.webp" alt="Indian Institute of Foreign Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Foreign Education & Visa</span>
-            <h4 class="kdm-industry-client-title">Indian Institute of Foreign Education</h4>
-            <p class="kdm-industry-client-desc">Language Proficiency Training & Foreign Study Visa Filing</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="kan visa direction">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/kan-visa-direction.webp" alt="Kan Visa Direction Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Visa & Immigration Consultant</span>
-            <h4 class="kdm-industry-client-title">Kan Visa Direction</h4>
-            <p class="kdm-industry-client-desc">End-to-End Visa Application Lodgement & Immigration Direction</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="meo immigration">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/meo.webp" alt="MEO Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Immigration & Study Visa</span>
-            <h4 class="kdm-industry-client-title">MEO Immigration</h4>
-            <p class="kdm-industry-client-desc">PR Visas, Student Permits, LMIA & Skilled Migration Advisory</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="new light education">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/newlight-education.webp" alt="New Light Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
-            <h4 class="kdm-industry-client-title">New Light Education</h4>
-            <p class="kdm-industry-client-desc">Study Abroad Visa Filing, Documentation & University Admissions</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="peak trust consultants">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/Peak%20Trust%20Consultants.webp" alt="Peak Trust Consultants Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Immigration & Visa Advisory</span>
-            <h4 class="kdm-industry-client-title">Peak Trust Consultants</h4>
-            <p class="kdm-industry-client-desc">PR Visas, Skilled Migration & Student Visa Advisory</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="planet education">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/planet-education.webp" alt="Planet Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Global Study Visa Network</span>
-            <h4 class="kdm-industry-client-title">Planet Education</h4>
-            <p class="kdm-industry-client-desc">Australia, UK, Canada & USA Study Visa & Admissions Network</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="prep guru">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/prep-guru-logo.webp" alt="Prep Guru Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Abroad & Visa Prep</span>
-            <h4 class="kdm-industry-client-title">Prep Guru</h4>
-            <p class="kdm-industry-client-desc">Test Prep, University Application & Visa Filing Guidance</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="rwics immigration">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/rwics.webp" alt="RWICS Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Immigration & Study Visa</span>
-            <h4 class="kdm-industry-client-title">RWICS Immigration</h4>
-            <p class="kdm-industry-client-desc">Overseas Student Visas, LMIA, Work Permits & PR Guidance</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="satguru overseas">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/Satguru%20Overseas.webp" alt="Satguru Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Visa & Immigration Consultant</span>
-            <h4 class="kdm-industry-client-title">Satguru Overseas</h4>
-            <p class="kdm-industry-client-desc">End-to-End Study Visa, Tourist Visa & PR File Processing</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="unipath education">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/unipath-education.webp" alt="UniPath Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
-            <h4 class="kdm-industry-client-title">UniPath Education</h4>
-            <p class="kdm-industry-client-desc">Personalized Student Visa Filing & University Admissions</p>
-          </div>
-        </div>
-        <div class="kdm-industry-client-card" data-name="visa guruji global">
-          <div class="kdm-industry-client-logo-box">
-            <img src="images/client/study-abroad-immigration-consultant/Visa%20Guruji%20Global.webp" alt="Visa Guruji Global Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
-          </div>
-          <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-surgery">Global Visa Specialist</span>
-            <h4 class="kdm-industry-client-title">Visa Guruji Global</h4>
-            <p class="kdm-industry-client-desc">Visitor Visa, Study Permit & Permanent Residency Guidance</p>
-          </div>
-        </div>
+
+            <div class="kdm-industry-client-card" data-name="advisely study abroad">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/Advisely%20Study%20Abroad.webp"
+                  alt="Advisely Study Abroad Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+                <h4 class="kdm-industry-client-title">Advisely Study Abroad</h4>
+                <p class="kdm-industry-client-desc">Global Study Visa, University Filing & Student Permit Assistance</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="afflatus global visa">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/Afflatus%20Global%20Visa.webp"
+                  alt="Afflatus Global Visa Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
+                <h4 class="kdm-industry-client-title">Afflatus Global Visa</h4>
+                <p class="kdm-industry-client-desc">Canada PR, Express Entry, PNP & Global Immigration Services</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="aics immigration">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/aics-immigration.webp"
+                  alt="AICS Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
+                <h4 class="kdm-industry-client-title">AICS Immigration</h4>
+                <p class="kdm-industry-client-desc">Australia & Canada Migration, Student Visas & PR Solutions</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="aksira education">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/aksira-education-logo.webp"
+                  alt="Aksira Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+                <h4 class="kdm-industry-client-title">Aksira Education</h4>
+                <p class="kdm-industry-client-desc">Global Student Visa Processing & University Admissions Guidance</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="aliff overseas education">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/aliff.webp"
+                  alt="Aliff Overseas Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+                <h4 class="kdm-industry-client-title">Aliff Overseas Education</h4>
+                <p class="kdm-industry-client-desc">Pioneers in Global Student Visa & Overseas Career Guidance</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="as edutech">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/as-edutech.webp" alt="AS Edutech Logo"
+                  class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-aesthetic">Study Visa & Admissions</span>
+                <h4 class="kdm-industry-client-title">AS Edutech</h4>
+                <p class="kdm-industry-client-desc">International Study Permits & Foreign University Admissions</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="bnps international">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp"
+                  alt="BNPS International Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Visa & Education Consultant</span>
+                <h4 class="kdm-industry-client-title">BNPS International</h4>
+                <p class="kdm-industry-client-desc">Study Visa Processing, Visitor Visas & Global Intakes</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="brighterprep">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp"
+                  alt="BrighterPrep Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Abroad & Visa Prep</span>
+                <h4 class="kdm-industry-client-title">BrighterPrep</h4>
+                <p class="kdm-industry-client-desc">International Student Visa Counseling & Admissions Advisory</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="canx immigration">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/canximmigration.webp"
+                  alt="CanX Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Canada PR & Visa Specialist</span>
+                <h4 class="kdm-industry-client-title">CanX Immigration</h4>
+                <p class="kdm-industry-client-desc">Canada Express Entry, Study Permits & Provincial Nominee Programs
+                </p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="continental immigration">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/continentalimmigration.webp"
+                  alt="Continental Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
+                <h4 class="kdm-industry-client-title">Continental Immigration</h4>
+                <p class="kdm-industry-client-desc">Worldwide Visa Filing, PR Migration & Foreign University Placements
+                </p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="davesar consultants">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/davesar.webp" alt="Davesar Consultants Logo"
+                  class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa & IELTS Advisory</span>
+                <h4 class="kdm-industry-client-title">Davesar Consultants</h4>
+                <p class="kdm-industry-client-desc">IELTS/PTE Coaching, Student Visa Processing & Embassy Interview Prep
+                </p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="enrollbuddy">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/Enrollbuddy.webp" alt="Enrollbuddy Logo"
+                  class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-aesthetic">Global Admissions & Visa</span>
+                <h4 class="kdm-industry-client-title">Enrollbuddy</h4>
+                <p class="kdm-industry-client-desc">Overseas University Enrollment & Student Visa Documentation</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="envision overseas">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/envisionoverseas.webp"
+                  alt="Envision Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+                <h4 class="kdm-industry-client-title">Envision Overseas</h4>
+                <p class="kdm-industry-client-desc">USA, UK, Canada & Australia Student Visa & PR Documentation</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="focus overseas">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/focus-overseas.webp"
+                  alt="Focus Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Visa & Education Consultant</span>
+                <h4 class="kdm-industry-client-title">Focus Overseas</h4>
+                <p class="kdm-industry-client-desc">Profile Assessment, University Applications & Visa Lodgement</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="get study visa">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/get-study-visa.webp"
+                  alt="Get Study Visa Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa Specialist</span>
+                <h4 class="kdm-industry-client-title">Get Study Visa</h4>
+                <p class="kdm-industry-client-desc">Fast-Track Student Visa Processing & Visa Extension Support</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="global opportunities">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/global-opportunies.webp"
+                  alt="Global Opportunities Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Global Visa & Education Giant</span>
+                <h4 class="kdm-industry-client-title">Global Opportunities</h4>
+                <p class="kdm-industry-client-desc">India's Leading Study Visa & Overseas Migration Advisory</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="goto university">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/goto-university.webp"
+                  alt="GoTo University Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+                <h4 class="kdm-industry-client-title">GoTo University</h4>
+                <p class="kdm-industry-client-desc">Global Student Visa Consulting & Top University Admissions</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="ieac education">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/ieac-education.webp"
+                  alt="IEAC Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Visa & Career Consultant</span>
+                <h4 class="kdm-industry-client-title">IEAC Education</h4>
+                <p class="kdm-industry-client-desc">Comprehensive Student Visa Processing & Immigration Counseling</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="img overseas">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/IMG%20Overseas.webp" alt="IMG Overseas Logo"
+                  class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+                <h4 class="kdm-industry-client-title">IMG Overseas</h4>
+                <p class="kdm-industry-client-desc">Student Visa Filing, Scholarship Support & Career Pathways</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="immigration express">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/immigration-express.webp"
+                  alt="Immigration Express Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Immigration Consultant</span>
+                <h4 class="kdm-industry-client-title">Immigration Express</h4>
+                <p class="kdm-industry-client-desc">Express PR Visas, Post-Study Work Visas & Skilled Migration</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="indian institute of foreign education">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/indian-institute-logo.webp"
+                  alt="Indian Institute of Foreign Education Logo" class="kdm-industry-client-img" loading="lazy"
+                  decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Foreign Education & Visa</span>
+                <h4 class="kdm-industry-client-title">Indian Institute of Foreign Education</h4>
+                <p class="kdm-industry-client-desc">Language Proficiency Training & Foreign Study Visa Filing</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="kan visa direction">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/kan-visa-direction.webp"
+                  alt="Kan Visa Direction Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Visa & Immigration Consultant</span>
+                <h4 class="kdm-industry-client-title">Kan Visa Direction</h4>
+                <p class="kdm-industry-client-desc">End-to-End Visa Application Lodgement & Immigration Direction</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="meo immigration">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/meo.webp" alt="MEO Immigration Logo"
+                  class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Immigration & Study Visa</span>
+                <h4 class="kdm-industry-client-title">MEO Immigration</h4>
+                <p class="kdm-industry-client-desc">PR Visas, Student Permits, LMIA & Skilled Migration Advisory</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="new light education">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/newlight-education.webp"
+                  alt="New Light Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+                <h4 class="kdm-industry-client-title">New Light Education</h4>
+                <p class="kdm-industry-client-desc">Study Abroad Visa Filing, Documentation & University Admissions</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="peak trust consultants">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/Peak%20Trust%20Consultants.webp"
+                  alt="Peak Trust Consultants Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Immigration & Visa Advisory</span>
+                <h4 class="kdm-industry-client-title">Peak Trust Consultants</h4>
+                <p class="kdm-industry-client-desc">PR Visas, Skilled Migration & Student Visa Advisory</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="planet education">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/planet-education.webp"
+                  alt="Planet Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Global Study Visa Network</span>
+                <h4 class="kdm-industry-client-title">Planet Education</h4>
+                <p class="kdm-industry-client-desc">Australia, UK, Canada & USA Study Visa & Admissions Network</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="prep guru">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/prep-guru-logo.webp" alt="Prep Guru Logo"
+                  class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Abroad & Visa Prep</span>
+                <h4 class="kdm-industry-client-title">Prep Guru</h4>
+                <p class="kdm-industry-client-desc">Test Prep, University Application & Visa Filing Guidance</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="rwics immigration">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/rwics.webp" alt="RWICS Immigration Logo"
+                  class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Immigration & Study Visa</span>
+                <h4 class="kdm-industry-client-title">RWICS Immigration</h4>
+                <p class="kdm-industry-client-desc">Overseas Student Visas, LMIA, Work Permits & PR Guidance</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="satguru overseas">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/Satguru%20Overseas.webp"
+                  alt="Satguru Overseas Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Visa & Immigration Consultant</span>
+                <h4 class="kdm-industry-client-title">Satguru Overseas</h4>
+                <p class="kdm-industry-client-desc">End-to-End Study Visa, Tourist Visa & PR File Processing</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="unipath education">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/unipath-education.webp"
+                  alt="UniPath Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Study Visa Consultant</span>
+                <h4 class="kdm-industry-client-title">UniPath Education</h4>
+                <p class="kdm-industry-client-desc">Personalized Student Visa Filing & University Admissions</p>
+              </div>
+            </div>
+            <div class="kdm-industry-client-card" data-name="visa guruji global">
+              <div class="kdm-industry-client-logo-box">
+                <img src="images/client/study-abroad-immigration-consultant/Visa%20Guruji%20Global.webp"
+                  alt="Visa Guruji Global Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+              </div>
+              <div class="kdm-industry-client-info">
+                <span class="kdm-client-badge kdm-cat-surgery">Global Visa Specialist</span>
+                <h4 class="kdm-industry-client-title">Visa Guruji Global</h4>
+                <p class="kdm-industry-client-desc">Visitor Visa, Study Permit & Permanent Residency Guidance</p>
+              </div>
+            </div>
           </div>
 
           <!-- Empty Search State -->
           <div id="kdmIndustryEmptyState" class="kdm-industry-empty-state" style="display: none;">
             <i class="fa fa-search" style="font-size: 38px; color: #94a3b8; margin-bottom: 12px;"></i>
             <h4 style="font-size: 18px; font-weight: 700; color: #1e293b;">No Visa & Immigration Client Found</h4>
-            <p style="font-size: 14px; color: #64748b;">Try searching with a different brand keyword or clear the search query.</p>
-            <button type="button" class="btn btn-sm btn-primary" onclick="clearIndustryClientSearch()" style="margin-top: 10px; border-radius: 20px; padding: 6px 18px;">Reset Search</button>
+            <p style="font-size: 14px; color: #64748b;">Try searching with a different brand keyword or clear the search
+              query.</p>
+            <button type="button" class="btn btn-sm btn-primary" onclick="clearIndustryClientSearch()"
+              style="margin-top: 10px; border-radius: 20px; padding: 6px 18px;">Reset Search</button>
           </div>
 
           <!-- Bottom Direct CTA Banner -->
           <div class="kdm-industry-clients-cta-strip">
             <div class="kdm-industry-cta-content">
               <span class="kdm-industry-cta-badge"><i class="fa fa-check-circle"></i> PROVEN INDUSTRY DOMINANCE</span>
-              <h3 class="kdm-industry-cta-title">Want Similar 380%+ Qualified Visa & PR Lead Growth For Your Consultancy?</h3>
-              <p class="kdm-industry-cta-desc">Partner with India's most trusted digital marketing agency for visa and immigration consultants. Get high-intent PR funnels, study visa Google PPC, and verified applicant leads.</p>
+              <h3 class="kdm-industry-cta-title">Want Similar 380%+ Qualified Visa & PR Lead Growth For Your
+                Consultancy?</h3>
+              <p class="kdm-industry-cta-desc">Partner with India's most trusted digital marketing agency for visa and
+                immigration consultants. Get high-intent PR funnels, study visa Google PPC, and verified applicant
+                leads.</p>
             </div>
             <div class="kdm-industry-cta-btn-wrap">
               <a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-industry-cta-button">
@@ -1002,20 +1124,36 @@
         <div class="container">
           <div class="kdm-intro-card-box">
             <span class="kdm-intro-badge-pill"><i class="fa fa-passport"></i> INDUSTRY OVERVIEW &amp; STRATEGY</span>
-            <h2 class="kdm-intro-main-title">Scale Visa Inquiries With <span class="kdm-gradient-highlight">Immigration Marketing</span></h2>
-            <h4 class="kdm-intro-sub-title">High-Intent Google Search PPC, Canada/Australia PR Funnels &amp; Verified Trust Signals</h4>
+            <h2 class="kdm-intro-main-title">Scale Visa Inquiries With <span class="kdm-gradient-highlight">Immigration
+                Marketing</span></h2>
+            <h4 class="kdm-intro-sub-title">High-Intent Google Search PPC, Canada/Australia PR Funnels &amp; Verified
+              Trust Signals</h4>
             <div class="kdm-intro-text-body">
               <p>
-                The global immigration, permanent residency (PR), and overseas study advisory industry is built fundamentally on trust, transparency, and legal accuracy. Aspiring immigrants and international students invest their life savings and future careers into the visa process. Consequently, prospective clients thoroughly research consultancy credentials, government licenses, client success proof, and online reviews before booking an initial case evaluation.
+                The global immigration, permanent residency (PR), and overseas study advisory industry is built
+                fundamentally on trust, transparency, and legal accuracy. Aspiring immigrants and international students
+                invest their life savings and future careers into the visa process. Consequently, prospective clients
+                thoroughly research consultancy credentials, government licenses, client success proof, and online
+                reviews before booking an initial case evaluation.
               </p>
               <p>
-                However, most immigration consultancies struggle with low-quality, unqualified leads generated by generic social media ads—wasting hundreds of counselor hours on applicants with low CRS scores, poor language skills, or insufficient settlement funds. In addition, intense competition from unlicensed local agents and high keyword bid costs on Google Ads make customer acquisition unprofitable without sophisticated lead filtering mechanisms.
+                However, most immigration consultancies struggle with low-quality, unqualified leads generated by
+                generic social media ads—wasting hundreds of counselor hours on applicants with low CRS scores, poor
+                language skills, or insufficient settlement funds. In addition, intense competition from unlicensed
+                local agents and high keyword bid costs on Google Ads make customer acquisition unprofitable without
+                sophisticated lead filtering mechanisms.
               </p>
               <p>
-                Since 2013, <strong><a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a></strong> has designed and executed high-performance patient and client acquisition campaigns for premier immigration consultancies, registered migration agents (MARA/RCIC), and study abroad firms across India, Canada, Australia, the UK, and the UAE. Our specialized immigration marketing framework combines multi-step eligibility quizzes, high-intent Google Search PPC, local Google Map pack dominance, and automated WhatsApp nurturing to deliver pre-qualified applicants ready to sign retainers.
+                Since 2013, <strong><a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a></strong>
+                has designed and executed high-performance patient and client acquisition campaigns for premier
+                immigration consultancies, registered migration agents (MARA/RCIC), and study abroad firms across India,
+                Canada, Australia, the UK, and the UAE. Our specialized immigration marketing framework combines
+                multi-step eligibility quizzes, high-intent Google Search PPC, local Google Map pack dominance, and
+                automated WhatsApp nurturing to deliver pre-qualified applicants ready to sign retainers.
               </p>
               <p>
-                Through authentic video success stories, regulatory compliance, and rapid lead response automation, we help licensed immigration consultants establish market dominance and scale client caseloads reliably.
+                Through authentic video success stories, regulatory compliance, and rapid lead response automation, we
+                help licensed immigration consultants establish market dominance and scale client caseloads reliably.
               </p>
             </div>
           </div>
@@ -1027,7 +1165,11 @@
         <div class="container">
           <div class="kdm-yoga-funnel-header">
             <span class="kdm-yoga-funnel-badge">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg> PROVEN IMMIGRATION CLIENT ACQUISITION ENGINE
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round"
+                style="display:inline-block; vertical-align:middle; margin-right:4px;">
+                <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+              </svg> PROVEN IMMIGRATION CLIENT ACQUISITION ENGINE
             </span>
             <h2 class="kdm-yoga-funnel-title">
               Visa &amp; Immigration <span>Client Acquisition Funnel</span>
@@ -1044,14 +1186,19 @@
               <div>
                 <div class="kdm-funnel-card-top">
                   <div class="kdm-funnel-icon-box">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
                   </div>
                   <span class="kdm-funnel-step-num">01</span>
                 </div>
                 <h3 class="kdm-funnel-card-title">High-Intent Google Search &amp; PR Discovery</h3>
               </div>
               <p class="kdm-funnel-card-desc">
-                Capturing active applicants searching for 'Canada Express Entry consultant', 'Australia PR eligibility', or 'Germany Opportunity Card' on Google.
+                Capturing active applicants searching for 'Canada Express Entry consultant', 'Australia PR eligibility',
+                or 'Germany Opportunity Card' on Google.
               </p>
             </div>
 
@@ -1060,14 +1207,20 @@
               <div>
                 <div class="kdm-funnel-card-top">
                   <div class="kdm-funnel-icon-box">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                      <line x1="8" y1="21" x2="16" y2="21"></line>
+                      <line x1="12" y1="17" x2="12" y2="21"></line>
+                    </svg>
                   </div>
                   <span class="kdm-funnel-step-num">02</span>
                 </div>
                 <h3 class="kdm-funnel-card-title">Free Eligibility Quiz &amp; CRS Calculator</h3>
               </div>
               <p class="kdm-funnel-card-desc">
-                Engaging prospective applicants with interactive point calculators and instant visa eligibility evaluations on high-converting mobile landing pages.
+                Engaging prospective applicants with interactive point calculators and instant visa eligibility
+                evaluations on high-converting mobile landing pages.
               </p>
             </div>
 
@@ -1076,14 +1229,21 @@
               <div>
                 <div class="kdm-funnel-card-top">
                   <div class="kdm-funnel-icon-box">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                      <line x1="16" y1="13" x2="8" y2="13"></line>
+                      <line x1="16" y1="17" x2="8" y2="17"></line>
+                    </svg>
                   </div>
                   <span class="kdm-funnel-step-num">03</span>
                 </div>
                 <h3 class="kdm-funnel-card-title">Multi-Step Profile Pre-Qualification</h3>
               </div>
               <p class="kdm-funnel-card-desc">
-                Filtering out non-viable applicants based on age, education, work experience, IELTS scores, and proof of settlement funds before counselor outreach.
+                Filtering out non-viable applicants based on age, education, work experience, IELTS scores, and proof of
+                settlement funds before counselor outreach.
               </p>
             </div>
 
@@ -1092,14 +1252,20 @@
               <div>
                 <div class="kdm-funnel-card-top">
                   <div class="kdm-funnel-icon-box">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                      </path>
+                    </svg>
                   </div>
                   <span class="kdm-funnel-step-num">04</span>
                 </div>
                 <h3 class="kdm-funnel-card-title">Direct 1-on-1 Consultation Scheduling</h3>
               </div>
               <p class="kdm-funnel-card-desc">
-                Connecting qualified applicants instantly to your immigration counselors via automated WhatsApp calendar bookings and direct phone calls.
+                Connecting qualified applicants instantly to your immigration counselors via automated WhatsApp calendar
+                bookings and direct phone calls.
               </p>
             </div>
 
@@ -1108,14 +1274,19 @@
               <div>
                 <div class="kdm-funnel-card-top">
                   <div class="kdm-funnel-icon-box">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 14 14"></polyline>
+                    </svg>
                   </div>
                   <span class="kdm-funnel-step-num">05</span>
                 </div>
                 <h3 class="kdm-funnel-card-title">Automated Policy Update Follow-Ups</h3>
               </div>
               <p class="kdm-funnel-card-desc">
-                Nurturing undecided leads with automated WhatsApp drip broadcasts sharing recent Express Entry draw cutoffs, PNP updates, and visa rule changes.
+                Nurturing undecided leads with automated WhatsApp drip broadcasts sharing recent Express Entry draw
+                cutoffs, PNP updates, and visa rule changes.
               </p>
             </div>
 
@@ -1124,14 +1295,19 @@
               <div>
                 <div class="kdm-funnel-card-top">
                   <div class="kdm-funnel-icon-box">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
                   </div>
                   <span class="kdm-funnel-step-num">06</span>
                 </div>
                 <h3 class="kdm-funnel-card-title">Retainer Agreement &amp; File Opening</h3>
               </div>
               <p class="kdm-funnel-card-desc">
-                Converting informed, qualified leads into paid contract retainers for complete documentation, ECA evaluation, and visa filing representation.
+                Converting informed, qualified leads into paid contract retainers for complete documentation, ECA
+                evaluation, and visa filing representation.
               </p>
             </div>
 
@@ -1140,14 +1316,20 @@
               <div>
                 <div class="kdm-funnel-card-top">
                   <div class="kdm-funnel-icon-box">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                      </polygon>
+                    </svg>
                   </div>
                   <span class="kdm-funnel-step-num">07</span>
                 </div>
                 <h3 class="kdm-funnel-card-title">Visa Approval Proof &amp; Referral Loops</h3>
               </div>
               <p class="kdm-funnel-card-desc">
-                Showcasing approved visa stamps, passport unboxing videos, and 5-star client testimonials to generate a continuous stream of word-of-mouth referrals.
+                Showcasing approved visa stamps, passport unboxing videos, and 5-star client testimonials to generate a
+                continuous stream of word-of-mouth referrals.
               </p>
             </div>
 
@@ -1157,7 +1339,8 @@
           <div class="kdm-funnel-cta-box">
             <div class="kdm-funnel-cta-text">
               <h4>Ready to Scale Your Immigration Consultancy?</h4>
-              <p>Get a custom visa lead generation, Google Ads optimization &amp; local SEO roadmap engineered specifically for immigration consultants.</p>
+              <p>Get a custom visa lead generation, Google Ads optimization &amp; local SEO roadmap engineered
+                specifically for immigration consultants.</p>
             </div>
             <a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-funnel-cta-btn">
               Launch Immigration Funnel <i class="fa fa-arrow-right"></i>
@@ -1172,13 +1355,21 @@
         <div class="container">
           <div class="kdm-yoga-struggle-header">
             <span class="kdm-yoga-struggle-badge">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg> REAL INDUSTRY CHALLENGES
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round"
+                style="display:inline-block; vertical-align:middle; margin-right:4px;">
+                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z">
+                </path>
+                <line x1="12" y1="9" x2="12" y2="13"></line>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+              </svg> REAL INDUSTRY CHALLENGES
             </span>
             <h2 class="kdm-yoga-struggle-title">
               Why Immigration Consultancies <span>Struggle with Lead Quality &amp; Scale?</span>
             </h2>
             <p class="kdm-yoga-struggle-subtitle">
-              Overcoming the 12 critical operational and digital bottlenecks that drain marketing budgets and waste counselors' time.
+              Overcoming the 12 critical operational and digital bottlenecks that drain marketing budgets and waste
+              counselors' time.
             </p>
           </div>
 
@@ -1188,12 +1379,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Overwhelming Deluge of Unqualified Leads</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Counselors wasting 80% of their working hours calling unqualified leads who lack required academic degrees, minimum IELTS band scores, or settlement funds.
+                Counselors wasting 80% of their working hours calling unqualified leads who lack required academic
+                degrees, minimum IELTS band scores, or settlement funds.
               </p>
             </div>
 
@@ -1201,12 +1398,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Skyrocketing Google Ads CPC</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Cost-per-click on high-intent terms like 'Canada PR consultant' exceeding ₹200 to ₹450, burning ad budgets rapidly when landing pages fail to convert.
+                Cost-per-click on high-intent terms like 'Canada PR consultant' exceeding ₹200 to ₹450, burning ad
+                budgets rapidly when landing pages fail to convert.
               </p>
             </div>
 
@@ -1214,12 +1417,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Constant Global Visa Policy Shifts</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Sudden cap limits, category draw pivots, and student visa restrictions in Canada, Australia, and the UK triggering market panic and freezing client decisions.
+                Sudden cap limits, category draw pivots, and student visa restrictions in Canada, Australia, and the UK
+                triggering market panic and freezing client decisions.
               </p>
             </div>
 
@@ -1227,12 +1436,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Unfair Competition from Ghost Agents</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Losing genuine clients to unscrupulous unlicensed local agents who offer fake job offer promises and unrealistic '100% guarantee' claims.
+                Losing genuine clients to unscrupulous unlicensed local agents who offer fake job offer promises and
+                unrealistic '100% guarantee' claims.
               </p>
             </div>
 
@@ -1240,12 +1455,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Low Form-to-Consultation Conversion</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Experiencing a high drop-off between website lead form fills and actual office visits or telephone counseling sessions due to slow manual follow-ups.
+                Experiencing a high drop-off between website lead form fills and actual office visits or telephone
+                counseling sessions due to slow manual follow-ups.
               </p>
             </div>
 
@@ -1253,12 +1474,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Weak Google Maps &amp; Local Pack Presence</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Failing to rank in the top 3 Google Map pack results for 'immigration consultant in [city]', losing high-intent local walk-in clients to nearby competitors.
+                Failing to rank in the top 3 Google Map pack results for 'immigration consultant in [city]', losing
+                high-intent local walk-in clients to nearby competitors.
               </p>
             </div>
 
@@ -1266,12 +1493,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Inability to Build High Online Trust</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Lacking visible government licensing badges (RCIC/MARA), client visa grant video proof, and transparent process milestones that reassure nervous applicants.
+                Lacking visible government licensing badges (RCIC/MARA), client visa grant video proof, and transparent
+                process milestones that reassure nervous applicants.
               </p>
             </div>
 
@@ -1279,12 +1512,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Ad Account Bans &amp; Policy Restrictions</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Meta and Google ad accounts getting banned or restricted due to strict immigration advertising policies, non-compliant phrasing, or missing legal disclaimers.
+                Meta and Google ad accounts getting banned or restricted due to strict immigration advertising policies,
+                non-compliant phrasing, or missing legal disclaimers.
               </p>
             </div>
 
@@ -1292,12 +1531,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Zero Automated Lead Nurturing</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Leads who do not sign up on the first call go completely cold, with zero automated WhatsApp broadcasts or educational drip sequences to reactivate them.
+                Leads who do not sign up on the first call go completely cold, with zero automated WhatsApp broadcasts
+                or educational drip sequences to reactivate them.
               </p>
             </div>
 
@@ -1305,12 +1550,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Unchecked Negative Reviews &amp; Slander</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Frustrated applicants whose visas were rejected by government authorities posting 1-star reviews online, damaging the firm's hard-earned brand reputation.
+                Frustrated applicants whose visas were rejected by government authorities posting 1-star reviews online,
+                damaging the firm's hard-earned brand reputation.
               </p>
             </div>
 
@@ -1318,12 +1569,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Extreme Seasonality in Student Intakes</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Suffering severe cash-flow dry spells between university intake cycles (Fall/Spring) without diversified PR visa, job seeker, or visitor visa marketing channels.
+                Suffering severe cash-flow dry spells between university intake cycles (Fall/Spring) without diversified
+                PR visa, job seeker, or visitor visa marketing channels.
               </p>
             </div>
 
@@ -1331,12 +1588,18 @@
             <div class="kdm-yoga-struggle-card">
               <div class="kdm-struggle-card-header">
                 <div class="kdm-struggle-icon-box">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
                 </div>
                 <h3 class="kdm-struggle-card-title">Client Dropouts During Long Processing</h3>
               </div>
               <p class="kdm-struggle-card-desc">
-                Clients losing patience during 6-to-18-month government processing backlogs, demanding refunds because the consultancy lacks automated status updates.
+                Clients losing patience during 6-to-18-month government processing backlogs, demanding refunds because
+                the consultancy lacks automated status updates.
               </p>
             </div>
 
@@ -1359,7 +1622,8 @@
             <!-- Box 1: 13+ Years of Experience -->
             <div class="kdm-credentials-box">
               <div class="kdm-cred-svg-hub">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <circle cx="12" cy="12" r="10"></circle>
                   <polyline points="12 6 12 12 16 14"></polyline>
                 </svg>
@@ -1371,7 +1635,8 @@
             <!-- Box 2: 900+ Projects Completed -->
             <div class="kdm-credentials-box">
               <div class="kdm-cred-svg-hub">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                   <polyline points="22 4 12 14.01 9 11.01"></polyline>
                 </svg>
@@ -1383,7 +1648,8 @@
             <!-- Box 3: 15+ Countries Served -->
             <div class="kdm-credentials-box">
               <div class="kdm-cred-svg-hub">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <circle cx="12" cy="12" r="10"></circle>
                   <line x1="2" y1="12" x2="22" y2="12"></line>
                   <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z"></path>
@@ -1396,8 +1662,11 @@
             <!-- Box 4: 4.9 Overall Rating -->
             <div class="kdm-credentials-box">
               <div class="kdm-cred-svg-hub">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
                 </svg>
               </div>
               <strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1" data-append="★">4.9★</strong>
@@ -1407,7 +1676,8 @@
             <!-- Box 5: 150+ Industries Served -->
             <div class="kdm-credentials-box">
               <div class="kdm-cred-svg-hub">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
                   <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                 </svg>
@@ -1423,90 +1693,122 @@
       <section class="kdm-case-v3-section">
         <div class="container">
           <div class="text-center" style="max-width: 850px; margin: 0 auto 35px auto;">
-            <div class="kdm-seo-badge" style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
+            <div class="kdm-seo-badge"
+              style="display: inline-flex; align-items: center; gap: 8px; background: rgba(2, 132, 199, 0.08); border: 1px solid rgba(2, 132, 199, 0.25); color: #0284c7; font-size: 12.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 20px; border-radius: 50px; margin-bottom: 14px;">
               <i class="fa fa-trophy"></i> FEATURED IMMIGRATION CASE STUDIES
             </div>
-            <h2 style="font-size: 34px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Proven Results For <span style="color: #0284c7;">Visa &amp; Immigration Consultants</span></h2>
-            <p style="font-size: 16px; color: #64748b; line-height: 1.6;">Explore how our specialized immigration funnels generated pre-qualified PR visa, study permit, and investor consultation caseloads.</p>
+            <h2 style="font-size: 34px; font-weight: 800; color: #0f172a; margin-bottom: 10px;">Proven Results For <span
+                style="color: #0284c7;">Visa &amp; Immigration Consultants</span></h2>
+            <p style="font-size: 16px; color: #64748b; line-height: 1.6;">Explore how our specialized immigration
+              funnels generated pre-qualified PR visa, study permit, and investor consultation caseloads.</p>
           </div>
 
           <!-- Brand Name Search Bar -->
           <div class="kdm-case-search-wrap">
             <div class="kdm-case-search-box">
               <i class="fa fa-search kdm-case-search-icon"></i>
-              <input type="text" id="kdmCaseSearchInput" class="kdm-case-search-input" placeholder="Search case study by name (e.g., Can X, Immigration Express)..." onkeyup="filterCaseStudies()" oninput="filterCaseStudies()" aria-label="Search case study by name" />
-              <button type="button" class="kdm-case-search-clear" id="kdmCaseSearchClear" onclick="clearCaseSearch()" title="Clear search"><i class="fa fa-times"></i></button>
+              <input type="text" id="kdmCaseSearchInput" class="kdm-case-search-input"
+                placeholder="Search case study by name (e.g., Can X, Immigration Express)..."
+                onkeyup="filterCaseStudies()" oninput="filterCaseStudies()" aria-label="Search case study by name" />
+              <button type="button" class="kdm-case-search-clear" id="kdmCaseSearchClear" onclick="clearCaseSearch()"
+                title="Clear search"><i class="fa fa-times"></i></button>
             </div>
           </div>
 
           <div class="kdm-case-v3-slider-wrap">
-            <button type="button" class="kdm-case-v3-arrow kdm-case-v3-prev" onclick="scrollCaseSlider(-1)" title="Previous Case Study"><i class="fa fa-chevron-left"></i></button>
+            <button type="button" class="kdm-case-v3-arrow kdm-case-v3-prev" onclick="scrollCaseSlider(-1)"
+              title="Previous Case Study"><i class="fa fa-chevron-left"></i></button>
 
             <div class="kdm-case-v3-track" id="kdmCaseSliderTrack">
 
               <!-- 1. Real Verified Client: Can X Immigration -->
               <div class="kdm-case-v3-card">
                 <div>
-                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/canximmigration.webp" alt="Can X Immigration Logo" class="kdm-case-v3-logo" loading="lazy" />
+                  <div class="kdm-case-v3-logo-wrap"
+                    style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/canximmigration.webp" alt="Can X Immigration Logo" class="kdm-case-v3-logo"
+                      loading="lazy" />
                   </div>
                   <h3 class="kdm-case-v3-title">Can X Immigration</h3>
                   <h4 class="kdm-case-v3-subtitle">(Canada PR, PNP &amp; Express Entry Advisory)</h4>
-                  <p class="kdm-case-v3-desc">Deployed multi-step CRS score calculator funnels and high-intent Google PPC, driving 410% surge in pre-qualified Canada PR consultations with 48% lower CPL.</p>
+                  <p class="kdm-case-v3-desc">Deployed multi-step CRS score calculator funnels and high-intent Google
+                    PPC, driving 410% surge in pre-qualified Canada PR consultations with 48% lower CPL.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">410%</span><small class="kdm-case-v3-metric-lbl">Lead Growth</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-48%</span><small class="kdm-case-v3-metric-lbl">CPL Reduction</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.6x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">410%</span><small
+                        class="kdm-case-v3-metric-lbl">Lead Growth</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-48%</span><small
+                        class="kdm-case-v3-metric-lbl">CPL Reduction</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">5.6x</span><small
+                        class="kdm-case-v3-metric-lbl">ROAS</small></div>
                   </div>
-                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);"
+                      onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i
+                        class="fa fa-arrow-right"></i></a></div>
                 </div>
               </div>
 
               <!-- 2. Real Verified Client: Immigration Express -->
               <div class="kdm-case-v3-card">
                 <div>
-                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/immigration-express.webp" alt="Immigration Express Logo" class="kdm-case-v3-logo" loading="lazy" />
+                  <div class="kdm-case-v3-logo-wrap"
+                    style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/immigration-express.webp" alt="Immigration Express Logo"
+                      class="kdm-case-v3-logo" loading="lazy" />
                   </div>
                   <h3 class="kdm-case-v3-title">Immigration Express</h3>
                   <h4 class="kdm-case-v3-subtitle">(Australia Skilled Migration &amp; Study Abroad Consultancy)</h4>
-                  <p class="kdm-case-v3-desc">Dominated local Google Map pack rankings and deployed Meta video retargeting, scaling monthly student visa enrollments and skilled migration retainers by 340%.</p>
+                  <p class="kdm-case-v3-desc">Dominated local Google Map pack rankings and deployed Meta video
+                    retargeting, scaling monthly student visa enrollments and skilled migration retainers by 340%.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">340%</span><small class="kdm-case-v3-metric-lbl">Retainers Up</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">Top 3</span><small class="kdm-case-v3-metric-lbl">GMB Ranks</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.2x</span><small class="kdm-case-v3-metric-lbl">ROAS</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">340%</span><small
+                        class="kdm-case-v3-metric-lbl">Retainers Up</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">Top 3</span><small
+                        class="kdm-case-v3-metric-lbl">GMB Ranks</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">6.2x</span><small
+                        class="kdm-case-v3-metric-lbl">ROAS</small></div>
                   </div>
-                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);"
+                      onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i
+                        class="fa fa-arrow-right"></i></a></div>
                 </div>
               </div>
 
               <!-- 3. Real Verified Client: Meo Immigration -->
               <div class="kdm-case-v3-card">
                 <div>
-                  <div class="kdm-case-v3-logo-wrap" style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
-                    <img src="images/client/meo.webp" alt="Meo Immigration Logo" class="kdm-case-v3-logo" loading="lazy" />
+                  <div class="kdm-case-v3-logo-wrap"
+                    style="background: #ffffff; padding: 4px; border: 1px solid #e2e8f0;">
+                    <img src="images/client/meo.webp" alt="Meo Immigration Logo" class="kdm-case-v3-logo"
+                      loading="lazy" />
                   </div>
                   <h3 class="kdm-case-v3-title">Meo Immigration</h3>
                   <h4 class="kdm-case-v3-subtitle">(Global Visa Solutions &amp; European Work Permits)</h4>
-                  <p class="kdm-case-v3-desc">Built automated WhatsApp lead nurturing flows and localized Google Search campaigns, generating 2,800+ qualified visa evaluations and cutting lead drop-off by 52%.</p>
+                  <p class="kdm-case-v3-desc">Built automated WhatsApp lead nurturing flows and localized Google Search
+                    campaigns, generating 2,800+ qualified visa evaluations and cutting lead drop-off by 52%.</p>
                 </div>
                 <div>
                   <div class="kdm-case-v3-metrics">
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">2,800+</span><small class="kdm-case-v3-metric-lbl">Evaluations</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-52%</span><small class="kdm-case-v3-metric-lbl">Drop-Off</small></div>
-                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.8★</span><small class="kdm-case-v3-metric-lbl">Client Trust</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">2,800+</span><small
+                        class="kdm-case-v3-metric-lbl">Evaluations</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">-52%</span><small
+                        class="kdm-case-v3-metric-lbl">Drop-Off</small></div>
+                    <div class="kdm-case-v3-metric"><span class="kdm-case-v3-metric-val">4.8★</span><small
+                        class="kdm-case-v3-metric-lbl">Client Trust</small></div>
                   </div>
-                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i class="fa fa-arrow-right"></i></a></div>
+                  <div style="text-align: center; margin-top: 15px;"><a href="javascript:void(0);"
+                      onclick="openGlobalPopupForm()" class="kdm-case-v3-btn">Get Similar Results <i
+                        class="fa fa-arrow-right"></i></a></div>
                 </div>
               </div>
 
             </div>
 
-            <button type="button" class="kdm-case-v3-arrow kdm-case-v3-next" onclick="scrollCaseSlider(1)" title="Next Case Study"><i class="fa fa-chevron-right"></i></button>
+            <button type="button" class="kdm-case-v3-arrow kdm-case-v3-next" onclick="scrollCaseSlider(1)"
+              title="Next Case Study"><i class="fa fa-chevron-right"></i></button>
           </div>
         </div>
       </section>
@@ -1516,9 +1818,11 @@
         <div class="container">
           <div class="kdm-yg-header">
             <span class="kdm-yg-badge"><i class="fa fa-star"></i> COMPREHENSIVE GROWTH SERVICES</span>
-            <h2 class="kdm-yg-title">Digital Marketing Services for <span class="kdm-yg-gradient-text">Immigration Consultants</span></h2>
+            <h2 class="kdm-yg-title">Digital Marketing Services for <span class="kdm-yg-gradient-text">Immigration
+                Consultants</span></h2>
             <p class="kdm-yg-subtitle">
-              Capture pre-qualified applicants, dominate regional visa searches, and maximize retainer contracts with our 9 specialized immigration digital marketing solutions.
+              Capture pre-qualified applicants, dominate regional visa searches, and maximize retainer contracts with
+              our 9 specialized immigration digital marketing solutions.
             </p>
           </div>
 
@@ -1529,21 +1833,27 @@
               <div>
                 <div class="kdm-yg-top-row">
                   <div class="kdm-yg-icon-box">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round">
                       <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                       <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                     </svg>
                   </div>
                   <span class="kdm-yg-step-number">SERVICE 01</span>
                 </div>
-                <h3 class="kdm-yg-card-title"><a href="SMO-Services.aspx">Meta PR Points Calculator &amp; Visa Assessment Lead Funnels</a></h3>
-                <p class="kdm-yg-card-desc">Deploying interactive Instagram and Facebook assessment ads that calculate CRS points and pre-qualify applicants based on age, education, and language test scores.</p>
+                <h3 class="kdm-yg-card-title"><a href="SMO-Services.aspx">Meta PR Points Calculator &amp; Visa
+                    Assessment Lead Funnels</a></h3>
+                <p class="kdm-yg-card-desc">Deploying interactive Instagram and Facebook assessment ads that calculate
+                  CRS points and pre-qualify applicants based on age, education, and language test scores.</p>
                 <div class="kdm-yg-features">
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Dynamic Multi-Step Qualification Forms with Zero Fake Leads</div>
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> High-Converting Canada Express Entry &amp; Australia PR Creatives</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Dynamic Multi-Step Qualification
+                    Forms with Zero Fake Leads</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> High-Converting Canada Express
+                    Entry &amp; Australia PR Creatives</div>
                 </div>
                 <div class="kdm-yg-flow-box">
-                  <i class="fa fa-bullseye"></i> <strong>Ad Funnel:</strong> Assessment Ad &rarr; CRS Quiz &rarr; Pre-Vetted Lead &rarr; Retainer Signed
+                  <i class="fa fa-bullseye"></i> <strong>Ad Funnel:</strong> Assessment Ad &rarr; CRS Quiz &rarr;
+                  Pre-Vetted Lead &rarr; Retainer Signed
                 </div>
               </div>
               <a href="SMO-Services.aspx" class="kdm-yg-btn">Explore Service <i class="fa fa-arrow-right"></i></a>
@@ -1554,21 +1864,27 @@
               <div>
                 <div class="kdm-yg-top-row">
                   <div class="kdm-yg-icon-box">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round">
                       <circle cx="11" cy="11" r="8"></circle>
                       <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                     </svg>
                   </div>
                   <span class="kdm-yg-step-number">SERVICE 02</span>
                 </div>
-                <h3 class="kdm-yg-card-title"><a href="PPC-Services.aspx">High-Intent Google Search PPC for Canada &amp; Australia PR</a></h3>
-                <p class="kdm-yg-card-desc">Bidding on high-converting transactional search terms like 'best Canada immigration consultant' or 'licensed MARA agent' to drive immediate counseling appointments.</p>
+                <h3 class="kdm-yg-card-title"><a href="PPC-Services.aspx">High-Intent Google Search PPC for Canada &amp;
+                    Australia PR</a></h3>
+                <p class="kdm-yg-card-desc">Bidding on high-converting transactional search terms like 'best Canada
+                  immigration consultant' or 'licensed MARA agent' to drive immediate counseling appointments.</p>
                 <div class="kdm-yg-features">
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Exact-Match Keyword Targeting &amp; Negative Keyword Pruning</div>
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Call Extensions &amp; 1-Click WhatsApp Lead Submissions</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Exact-Match Keyword Targeting
+                    &amp; Negative Keyword Pruning</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Call Extensions &amp; 1-Click
+                    WhatsApp Lead Submissions</div>
                 </div>
                 <div class="kdm-yg-flow-box">
-                  <i class="fa fa-search"></i> <strong>PPC Keywords:</strong> Canada PR &bull; Express Entry &bull; Australia PR &bull; Study Visa
+                  <i class="fa fa-search"></i> <strong>PPC Keywords:</strong> Canada PR &bull; Express Entry &bull;
+                  Australia PR &bull; Study Visa
                 </div>
               </div>
               <a href="PPC-Services.aspx" class="kdm-yg-btn">Explore Service <i class="fa fa-arrow-right"></i></a>
@@ -1579,20 +1895,28 @@
               <div>
                 <div class="kdm-yg-top-row">
                   <div class="kdm-yg-icon-box">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                      </polygon>
                     </svg>
                   </div>
                   <span class="kdm-yg-step-number">SERVICE 03</span>
                 </div>
-                <h3 class="kdm-yg-card-title"><a href="SEO-Services.aspx">Immigration Consultant Local SEO &amp; Google Map Pack</a></h3>
-                <p class="kdm-yg-card-desc">Dominating the top 3 Google Maps positions in your city for searches like 'immigration office near me', capturing high-trust walk-in clients organically.</p>
+                <h3 class="kdm-yg-card-title"><a href="SEO-Services.aspx">Immigration Consultant Local SEO &amp; Google
+                    Map Pack</a></h3>
+                <p class="kdm-yg-card-desc">Dominating the top 3 Google Maps positions in your city for searches like
+                  'immigration office near me', capturing high-trust walk-in clients organically.</p>
                 <div class="kdm-yg-features">
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Google Business Profile Optimization &amp; Category Mapping</div>
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Geo-Tagged City Landing Pages &amp; Local Citation Directory Setup</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Google Business Profile
+                    Optimization &amp; Category Mapping</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Geo-Tagged City Landing Pages
+                    &amp; Local Citation Directory Setup</div>
                 </div>
                 <div class="kdm-yg-flow-box">
-                  <i class="fa fa-map-marker"></i> <strong>Local SEO:</strong> 'Visa Consultant Near Me' &rarr; Top 3 Map &rarr; Office Visit &rarr; Deal
+                  <i class="fa fa-map-marker"></i> <strong>Local SEO:</strong> 'Visa Consultant Near Me' &rarr; Top 3
+                  Map &rarr; Office Visit &rarr; Deal
                 </div>
               </div>
               <a href="SEO-Services.aspx" class="kdm-yg-btn">Explore Service <i class="fa fa-arrow-right"></i></a>
@@ -1603,7 +1927,8 @@
               <div>
                 <div class="kdm-yg-top-row">
                   <div class="kdm-yg-icon-box">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round">
                       <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                       <line x1="8" y1="21" x2="16" y2="21"></line>
                       <line x1="12" y1="17" x2="12" y2="21"></line>
@@ -1611,17 +1936,23 @@
                   </div>
                   <span class="kdm-yg-step-number">SERVICE 04</span>
                 </div>
-                <h3 class="kdm-yg-card-title"><a href="Website-Development.aspx">High-Trust Immigration Website Design &amp; Assessment UX</a></h3>
-                <p class="kdm-yg-card-desc">Designing lightning-fast, mobile-friendly websites with embedded points calculators, credential badges, client video reviews, and direct WhatsApp booking.</p>
+                <h3 class="kdm-yg-card-title"><a href="Website-Development.aspx">High-Trust Immigration Website Design
+                    &amp; Assessment UX</a></h3>
+                <p class="kdm-yg-card-desc">Designing lightning-fast, mobile-friendly websites with embedded points
+                  calculators, credential badges, client video reviews, and direct WhatsApp booking.</p>
                 <div class="kdm-yg-features">
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Interactive CRS Score &amp; Eligibility Calculation Widgets</div>
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Trust-Driven Design with Licensed RCIC/MARA Badges</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Interactive CRS Score &amp;
+                    Eligibility Calculation Widgets</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Trust-Driven Design with Licensed
+                    RCIC/MARA Badges</div>
                 </div>
                 <div class="kdm-yg-flow-box">
-                  <i class="fa fa-desktop"></i> <strong>Site Stack:</strong> Home &rarr; CRS Calculator &rarr; Trust Badges &rarr; WhatsApp Lead
+                  <i class="fa fa-desktop"></i> <strong>Site Stack:</strong> Home &rarr; CRS Calculator &rarr; Trust
+                  Badges &rarr; WhatsApp Lead
                 </div>
               </div>
-              <a href="Website-Development.aspx" class="kdm-yg-btn">Explore Service <i class="fa fa-arrow-right"></i></a>
+              <a href="Website-Development.aspx" class="kdm-yg-btn">Explore Service <i
+                  class="fa fa-arrow-right"></i></a>
             </div>
 
             <!-- Service 5: Video Updates & Marketing -->
@@ -1629,23 +1960,30 @@
               <div>
                 <div class="kdm-yg-top-row">
                   <div class="kdm-yg-icon-box">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round">
                       <polygon points="5 3 19 12 5 21 5 3"></polygon>
                     </svg>
                   </div>
                   <span class="kdm-yg-step-number">SERVICE 05</span>
                 </div>
-                <h3 class="kdm-yg-card-title"><a href="Content-Writing-Service.aspx">Visa Rule Updates, Success Stories &amp; YouTube Video Marketing</a></h3>
-                <p class="kdm-yg-card-desc">Creating authoritative YouTube videos and Instagram Reels analyzing the latest Express Entry draws, PNP news, and student visa regulations to build mass trust.</p>
+                <h3 class="kdm-yg-card-title"><a href="Content-Writing-Service.aspx">Visa Rule Updates, Success Stories
+                    &amp; YouTube Video Marketing</a></h3>
+                <p class="kdm-yg-card-desc">Creating authoritative YouTube videos and Instagram Reels analyzing the
+                  latest Express Entry draws, PNP news, and student visa regulations to build mass trust.</p>
                 <div class="kdm-yg-features">
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Rapid Explainer Videos on Breaking Immigration News</div>
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Passport Stamping &amp; Client Video Testimonial Production</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Rapid Explainer Videos on Breaking
+                    Immigration News</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Passport Stamping &amp; Client
+                    Video Testimonial Production</div>
                 </div>
                 <div class="kdm-yg-flow-box">
-                  <i class="fa fa-play-circle"></i> <strong>Video Funnel:</strong> Policy Explainer &rarr; Establish Authority &rarr; Inbound Leads
+                  <i class="fa fa-play-circle"></i> <strong>Video Funnel:</strong> Policy Explainer &rarr; Establish
+                  Authority &rarr; Inbound Leads
                 </div>
               </div>
-              <a href="Content-Writing-Service.aspx" class="kdm-yg-btn">Explore Service <i class="fa fa-arrow-right"></i></a>
+              <a href="Content-Writing-Service.aspx" class="kdm-yg-btn">Explore Service <i
+                  class="fa fa-arrow-right"></i></a>
             </div>
 
             <!-- Service 6: Study Abroad Retargeting -->
@@ -1653,24 +1991,31 @@
               <div>
                 <div class="kdm-yg-top-row">
                   <div class="kdm-yg-icon-box">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round">
                       <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
                       <polyline points="17 6 23 6 23 12"></polyline>
                     </svg>
                   </div>
                   <span class="kdm-yg-step-number">SERVICE 06</span>
                 </div>
-                <h3 class="kdm-yg-card-title"><a href="lead-generation-company.aspx">Study Abroad &amp; Work Permit Conversion Retargeting</a></h3>
-                <p class="kdm-yg-card-desc">Retargeting website visitors and past applicants with multi-channel WhatsApp drips and social proof ads, turning hesitated leads into paid contract retainers.</p>
+                <h3 class="kdm-yg-card-title"><a href="lead-generation-company.aspx">Study Abroad &amp; Work Permit
+                    Conversion Retargeting</a></h3>
+                <p class="kdm-yg-card-desc">Retargeting website visitors and past applicants with multi-channel WhatsApp
+                  drips and social proof ads, turning hesitated leads into paid contract retainers.</p>
                 <div class="kdm-yg-features">
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Automated Multi-Stage WhatsApp Nurturing Sequences</div>
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Custom Audience Retargeting with Recent Visa Approval Proof</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Automated Multi-Stage WhatsApp
+                    Nurturing Sequences</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Custom Audience Retargeting with
+                    Recent Visa Approval Proof</div>
                 </div>
                 <div class="kdm-yg-flow-box">
-                  <i class="fa fa-graduation-cap"></i> <strong>Nurture Stack:</strong> Lead &rarr; WhatsApp Drip &rarr; Approval Proof &rarr; Retainer Signed
+                  <i class="fa fa-graduation-cap"></i> <strong>Nurture Stack:</strong> Lead &rarr; WhatsApp Drip &rarr;
+                  Approval Proof &rarr; Retainer Signed
                 </div>
               </div>
-              <a href="lead-generation-company.aspx" class="kdm-yg-btn">Explore Service <i class="fa fa-arrow-right"></i></a>
+              <a href="lead-generation-company.aspx" class="kdm-yg-btn">Explore Service <i
+                  class="fa fa-arrow-right"></i></a>
             </div>
 
             <!-- Service 7: AI Search Optimization -->
@@ -1678,7 +2023,8 @@
               <div>
                 <div class="kdm-yg-top-row">
                   <div class="kdm-yg-icon-box">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round">
                       <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                       <line x1="8" y1="21" x2="16" y2="21"></line>
                       <line x1="12" y1="17" x2="12" y2="21"></line>
@@ -1686,17 +2032,23 @@
                   </div>
                   <span class="kdm-yg-step-number">SERVICE 07</span>
                 </div>
-                <h3 class="kdm-yg-card-title"><a href="digital-marketing-packages.aspx">AI Search &amp; Immigration Knowledge Engine Optimization</a></h3>
-                <p class="kdm-yg-card-desc">Optimizing your website schema and authority so ChatGPT, Perplexity, and Google AI Overviews cite and recommend your consultancy for immigration queries.</p>
+                <h3 class="kdm-yg-card-title"><a href="digital-marketing-packages.aspx">AI Search &amp; Immigration
+                    Knowledge Engine Optimization</a></h3>
+                <p class="kdm-yg-card-desc">Optimizing your website schema and authority so ChatGPT, Perplexity, and
+                  Google AI Overviews cite and recommend your consultancy for immigration queries.</p>
                 <div class="kdm-yg-features">
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> LegalService &amp; Organization Structured Schema Markup</div>
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Generative AI Overview Citations for Immigration Searches</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> LegalService &amp; Organization
+                    Structured Schema Markup</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Generative AI Overview Citations
+                    for Immigration Searches</div>
                 </div>
                 <div class="kdm-yg-flow-box">
-                  <i class="fa fa-microchip"></i> <strong>AI Search:</strong> Visa Query &rarr; AI Recommendation &rarr; Official Portal &rarr; Client
+                  <i class="fa fa-microchip"></i> <strong>AI Search:</strong> Visa Query &rarr; AI Recommendation &rarr;
+                  Official Portal &rarr; Client
                 </div>
               </div>
-              <a href="digital-marketing-packages.aspx" class="kdm-yg-btn">Explore Service <i class="fa fa-arrow-right"></i></a>
+              <a href="digital-marketing-packages.aspx" class="kdm-yg-btn">Explore Service <i
+                  class="fa fa-arrow-right"></i></a>
             </div>
 
             <!-- Service 8: GA4 Telemetry & Analytics -->
@@ -1704,7 +2056,8 @@
               <div>
                 <div class="kdm-yg-top-row">
                   <div class="kdm-yg-icon-box">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round">
                       <line x1="18" y1="20" x2="18" y2="10"></line>
                       <line x1="12" y1="20" x2="12" y2="4"></line>
                       <line x1="6" y1="20" x2="6" y2="14"></line>
@@ -1712,17 +2065,23 @@
                   </div>
                   <span class="kdm-yg-step-number">SERVICE 08</span>
                 </div>
-                <h3 class="kdm-yg-card-title"><a href="digital-marketing-case-study.aspx">GA4 Lead Quality Tracking &amp; CRM Pipeline Telemetry</a></h3>
-                <p class="kdm-yg-card-desc">Tracking lead quality all the way to signed retainer contracts, optimizing ad campaigns around actual revenue generated rather than raw form submissions.</p>
+                <h3 class="kdm-yg-card-title"><a href="digital-marketing-case-study.aspx">GA4 Lead Quality Tracking
+                    &amp; CRM Pipeline Telemetry</a></h3>
+                <p class="kdm-yg-card-desc">Tracking lead quality all the way to signed retainer contracts, optimizing
+                  ad campaigns around actual revenue generated rather than raw form submissions.</p>
                 <div class="kdm-yg-features">
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> End-to-End CRM Integration (HubSpot, LeadSquared, Zoho)</div>
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Cost-Per-Signed-Retainer Analytics Dashboards</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> End-to-End CRM Integration
+                    (HubSpot, LeadSquared, Zoho)</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Cost-Per-Signed-Retainer Analytics
+                    Dashboards</div>
                 </div>
                 <div class="kdm-yg-flow-box">
-                  <i class="fa fa-bar-chart"></i> <strong>Analytics:</strong> Click &rarr; Lead &rarr; CRM Qualification &rarr; Closed Retainer ROI
+                  <i class="fa fa-bar-chart"></i> <strong>Analytics:</strong> Click &rarr; Lead &rarr; CRM Qualification
+                  &rarr; Closed Retainer ROI
                 </div>
               </div>
-              <a href="digital-marketing-case-study.aspx" class="kdm-yg-btn">Explore Service <i class="fa fa-arrow-right"></i></a>
+              <a href="digital-marketing-case-study.aspx" class="kdm-yg-btn">Explore Service <i
+                  class="fa fa-arrow-right"></i></a>
             </div>
 
             <!-- Service 9: Google Review ORM -->
@@ -1730,20 +2089,26 @@
               <div>
                 <div class="kdm-yg-top-row">
                   <div class="kdm-yg-icon-box">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round">
                       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                     </svg>
                   </div>
                   <span class="kdm-yg-step-number">SERVICE 09</span>
                 </div>
-                <h3 class="kdm-yg-card-title"><a href="ORM-Services.aspx">Verified Trust Building, Google Review Management &amp; ORM</a></h3>
-                <p class="kdm-yg-card-desc">Generating hundreds of authentic 5-star Google reviews from successfully settled clients while suppressing negative competitor attacks and unfair slander.</p>
+                <h3 class="kdm-yg-card-title"><a href="ORM-Services.aspx">Verified Trust Building, Google Review
+                    Management &amp; ORM</a></h3>
+                <p class="kdm-yg-card-desc">Generating hundreds of authentic 5-star Google reviews from successfully
+                  settled clients while suppressing negative competitor attacks and unfair slander.</p>
                 <div class="kdm-yg-features">
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Automated Post-Visa Grant Google Review Collection Workflows</div>
-                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Negative Review De-escalation &amp; Search Result Reputation Shield</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Automated Post-Visa Grant Google
+                    Review Collection Workflows</div>
+                  <div class="kdm-yg-feature-item"><i class="fa fa-check-circle"></i> Negative Review De-escalation
+                    &amp; Search Result Reputation Shield</div>
                 </div>
                 <div class="kdm-yg-flow-box">
-                  <i class="fa fa-shield"></i> <strong>ORM Stack:</strong> Visa Approved &rarr; Review Request &rarr; 5★ Feedback &rarr; Trust Surge
+                  <i class="fa fa-shield"></i> <strong>ORM Stack:</strong> Visa Approved &rarr; Review Request &rarr; 5★
+                  Feedback &rarr; Trust Surge
                 </div>
               </div>
               <a href="ORM-Services.aspx" class="kdm-yg-btn">Explore Service <i class="fa fa-arrow-right"></i></a>
@@ -1762,7 +2127,8 @@
           </div>
           <h2>Digital Marketing Packages for <span>Immigration Consultants</span></h2>
           <p class="packages-section-desc">
-            Choose the best digital marketing plan tailored for your immigration firm, study abroad consultancy, or overseas advisory. Generate pre-qualified
+            Choose the best digital marketing plan tailored for your immigration firm, study abroad consultancy, or
+            overseas advisory. Generate pre-qualified
             visa leads, dominate local Google search, and maximize signed retainers.
           </p>
         </div>
@@ -1770,7 +2136,8 @@
 
           <div class="new">
             <div class="package-box">
-              <div class="package-header">Basic Digital Marketing Package <br><i class="fa fa-inr"></i>49,999 | $999 /Month</div>
+              <div class="package-header">Basic Digital Marketing Package <br><i class="fa fa-inr"></i>49,999 | $999
+                /Month</div>
               <div class="package-subheader">20 Keywords</div>
               <div class="package-content">
                 <h4><i class="fas fa-clipboard-check"></i>Project Audit &amp; Strategy</h4>
@@ -1966,8 +2333,7 @@
                 </ul>
               </div>
               <div style="text-align: center; padding: 15px;">
-                <a href="javascript:void(0);"
-                  onclick="openPackageModal('Basic Digital Marketing Package 49,999/Month')"
+                <a href="javascript:void(0);" onclick="openPackageModal('Basic Digital Marketing Package 49,999/Month')"
                   class="package-btn">Choose Plan <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
@@ -1975,7 +2341,8 @@
 
           <div class="new">
             <div class="package-box">
-              <div class="package-header">Standard Digital Marketing Package <br><i class="fa fa-inr"></i>79,999 | $1,799 /Month</div>
+              <div class="package-header">Standard Digital Marketing Package <br><i class="fa fa-inr"></i>79,999 |
+                $1,799 /Month</div>
               <div class="package-subheader">50 Keywords</div>
               <div class="package-content">
                 <h4><i class="fas fa-clipboard-check"></i>Project Audit &amp; Strategy</h4>
@@ -2180,7 +2547,8 @@
 
           <div class="new">
             <div class="package-box">
-              <div class="package-header">Professional Digital Marketing Package <br><i class="fa fa-inr"></i>1,29,999 | $2,399 /Month</div>
+              <div class="package-header">Professional Digital Marketing Package <br><i class="fa fa-inr"></i>1,29,999 |
+                $2,399 /Month</div>
               <div class="package-subheader">90 Keywords</div>
               <div class="package-content">
                 <h4><i class="fas fa-clipboard-check"></i>Project Audit &amp; Strategy</h4>
@@ -2385,7 +2753,8 @@
 
           <div class="new">
             <div class="package-box">
-              <div class="package-header">Enterprise Digital Marketing Package <br><i class="fa fa-inr"></i>1,99,999 | $3,999 /Month</div>
+              <div class="package-header">Enterprise Digital Marketing Package <br><i class="fa fa-inr"></i>1,99,999 |
+                $3,999 /Month</div>
               <div class="package-subheader">200 Keywords</div>
               <div class="package-content">
                 <h4><i class="fas fa-clipboard-check"></i>Project Audit &amp; Strategy</h4>
@@ -2596,78 +2965,95 @@
         <div class="container">
           <div class="kdm-why-header">
             <span class="kdm-why-badge"><i class="fa fa-shield"></i> IMMIGRATION PR &amp; LEAD GEN MASTERY</span>
-            <h2 class="kdm-why-title">Why Immigration Consultants Choose <a href="Default.aspx" class="kdm-brand-link-dark">King of Digital Marketing</a>?</h2>
+            <h2 class="kdm-why-title">Why Immigration Consultants Choose <a href="Default.aspx"
+                class="kdm-brand-link-dark">King of Digital Marketing</a>?</h2>
             <p class="kdm-why-subtitle">
-              Empowering registered migration agents, visa consultants, and overseas study agencies with pre-qualified applicants, superior Google rankings, and predictable retainer growth.
+              Empowering registered migration agents, visa consultants, and overseas study agencies with pre-qualified
+              applicants, superior Google rankings, and predictable retainer growth.
             </p>
           </div>
 
           <div class="kdm-why-grid">
             <div class="kdm-why-dark-card">
               <div class="kdm-why-dark-icon-wrap">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
               <h3 class="kdm-why-dark-card-title">13+ Years Immigration Marketing Expertise</h3>
               <p class="kdm-why-dark-card-desc">
-                Operating continuously since 2013, King of Digital Marketing brings 13+ years of specialized experience in generating verified immigration, study abroad, and PR leads.
+                Operating continuously since 2013, King of Digital Marketing brings 13+ years of specialized experience
+                in generating verified immigration, study abroad, and PR leads.
               </p>
             </div>
 
             <div class="kdm-why-dark-card">
               <div class="kdm-why-dark-icon-wrap">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
                 </svg>
               </div>
               <h3 class="kdm-why-dark-card-title">Multi-Step Pre-Qualification Filtering</h3>
               <p class="kdm-why-dark-card-desc">
-                We eliminate unqualified inquiries by validating applicant age, degree credentials, IELTS bands, and settlement funds before passing leads to your counseling team.
+                We eliminate unqualified inquiries by validating applicant age, degree credentials, IELTS bands, and
+                settlement funds before passing leads to your counseling team.
               </p>
             </div>
 
             <div class="kdm-why-dark-card">
               <div class="kdm-why-dark-icon-wrap">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <circle cx="11" cy="11" r="8"></circle>
                   <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
               </div>
               <h3 class="kdm-why-dark-card-title">High-Intent Google Search PPC Campaigns</h3>
               <p class="kdm-why-dark-card-desc">
-                We capture active clients searching for Canada Express Entry, Australia Subclass 189/190, and UK student visas with tightly managed negative keyword architecture.
+                We capture active clients searching for Canada Express Entry, Australia Subclass 189/190, and UK student
+                visas with tightly managed negative keyword architecture.
               </p>
             </div>
 
             <div class="kdm-why-dark-card">
               <div class="kdm-why-dark-icon-wrap">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
               </div>
               <h3 class="kdm-why-dark-card-title">Top 3 Google Map Pack Rankings</h3>
               <p class="kdm-why-dark-card-desc">
-                We optimize your Google Business Profile and local citations to rank in the top 3 positions for local visa searches, driving walk-in office consultations daily.
+                We optimize your Google Business Profile and local citations to rank in the top 3 positions for local
+                visa searches, driving walk-in office consultations daily.
               </p>
             </div>
 
             <div class="kdm-why-dark-card">
               <div class="kdm-why-dark-icon-wrap">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                  </path>
                 </svg>
               </div>
               <h3 class="kdm-why-dark-card-title">Automated WhatsApp Drip Follow-Up</h3>
               <p class="kdm-why-dark-card-desc">
-                We connect your CRM to automated WhatsApp workflows that instantly send appointment confirmations and follow up with undecided applicants over 60 days.
+                We connect your CRM to automated WhatsApp workflows that instantly send appointment confirmations and
+                follow up with undecided applicants over 60 days.
               </p>
             </div>
 
             <div class="kdm-why-dark-card">
               <div class="kdm-why-dark-icon-wrap">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                   <line x1="8" y1="21" x2="16" y2="21"></line>
                   <line x1="12" y1="17" x2="12" y2="21"></line>
@@ -2675,25 +3061,29 @@
               </div>
               <h3 class="kdm-why-dark-card-title">Custom CRS Calculators &amp; Assessment Tools</h3>
               <p class="kdm-why-dark-card-desc">
-                We develop interactive points calculation tools embedded on your website that generate viral organic shares and highly qualified inbound inquiries.
+                We develop interactive points calculation tools embedded on your website that generate viral organic
+                shares and highly qualified inbound inquiries.
               </p>
             </div>
 
             <div class="kdm-why-dark-card">
               <div class="kdm-why-dark-icon-wrap">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <polygon points="5 3 19 12 5 21 5 3"></polygon>
                 </svg>
               </div>
               <h3 class="kdm-why-dark-card-title">Fast Video News Production for Policy Draws</h3>
               <p class="kdm-why-dark-card-desc">
-                Our multimedia studio scripts and edits rapid-response Reels and YouTube shorts analyzing breaking immigration draws within hours of release.
+                Our multimedia studio scripts and edits rapid-response Reels and YouTube shorts analyzing breaking
+                immigration draws within hours of release.
               </p>
             </div>
 
             <div class="kdm-why-dark-card">
               <div class="kdm-why-dark-icon-wrap">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <line x1="18" y1="20" x2="18" y2="10"></line>
                   <line x1="12" y1="20" x2="12" y2="4"></line>
                   <line x1="6" y1="20" x2="6" y2="14"></line>
@@ -2701,20 +3091,23 @@
               </div>
               <h3 class="kdm-why-dark-card-title">Full Ad Policy &amp; Compliance Protection</h3>
               <p class="kdm-why-dark-card-desc">
-                We safeguard your Meta and Google ad accounts with policy-compliant copy, eliminating the risk of ad rejections or permanent account suspensions.
+                We safeguard your Meta and Google ad accounts with policy-compliant copy, eliminating the risk of ad
+                rejections or permanent account suspensions.
               </p>
             </div>
 
             <div class="kdm-why-dark-card">
               <div class="kdm-why-dark-icon-wrap">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                   <polyline points="22 4 12 14.01 9 11.01"></polyline>
                 </svg>
               </div>
               <h3 class="kdm-why-dark-card-title">Online Review Defense &amp; Reputation Shield</h3>
               <p class="kdm-why-dark-card-desc">
-                We proactively capture 5-star reviews from approved applicants while suppressing negative competitor attacks to keep your Google rating above 4.8 stars.
+                We proactively capture 5-star reviews from approved applicants while suppressing negative competitor
+                attacks to keep your Google rating above 4.8 stars.
               </p>
             </div>
           </div>
@@ -2728,7 +3121,9 @@
             <span class="kdm-yoga-process-badge"><i class="fa fa-cogs"></i> PROVEN ROADMAP TO GROWTH</span>
             <h2 class="kdm-yoga-process-title">9 Steps <span>Digital Marketing Process</span> For Visa Consultants</h2>
             <p class="kdm-yoga-process-subtitle">
-              From market assessment to multi-step qualification quizzes and paid retainer onboarding, discover how <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a> systematically scales your immigration practice.
+              From market assessment to multi-step qualification quizzes and paid retainer onboarding, discover how <a
+                href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a> systematically scales your
+              immigration practice.
             </p>
           </div>
 
@@ -2742,14 +3137,16 @@
                   <span class="kdm-yoga-step-tag">Phase 1: Market Audit</span>
                 </div>
                 <div class="kdm-yoga-step-icon-wrap">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="11" cy="11" r="8"></circle>
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                   </svg>
                 </div>
                 <h3 class="kdm-yoga-step-title">Country &amp; Visa Stream Market Audit</h3>
                 <p class="kdm-yoga-step-desc">
-                  We audit your primary visa streams (Canada PR, Australia Skilled, UK Study, Europe Work), analyze competitor CPLs, and identify high-margin opportunities.
+                  We audit your primary visa streams (Canada PR, Australia Skilled, UK Study, Europe Work), analyze
+                  competitor CPLs, and identify high-margin opportunities.
                 </p>
               </div>
               <div class="kdm-yoga-step-outcome">
@@ -2765,7 +3162,8 @@
                   <span class="kdm-yoga-step-tag">Phase 2: Funnel Architecture</span>
                 </div>
                 <div class="kdm-yoga-step-icon-wrap">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
                     <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                     <line x1="8" y1="21" x2="16" y2="21"></line>
                     <line x1="12" y1="17" x2="12" y2="21"></line>
@@ -2773,7 +3171,8 @@
                 </div>
                 <h3 class="kdm-yoga-step-title">Multi-Step Eligibility Assessment Pages</h3>
                 <p class="kdm-yoga-step-desc">
-                  We build conversion-optimized landing pages with integrated CRS points calculators and qualification quizzes that filter out non-viable applicants.
+                  We build conversion-optimized landing pages with integrated CRS points calculators and qualification
+                  quizzes that filter out non-viable applicants.
                 </p>
               </div>
               <div class="kdm-yoga-step-outcome">
@@ -2789,14 +3188,16 @@
                   <span class="kdm-yoga-step-tag">Phase 3: Search PPC</span>
                 </div>
                 <div class="kdm-yoga-step-icon-wrap">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="11" cy="11" r="8"></circle>
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                   </svg>
                 </div>
                 <h3 class="kdm-yoga-step-title">Google Search PR &amp; Visa Campaigns</h3>
                 <p class="kdm-yoga-step-desc">
-                  We deploy targeted Google Ads for high-intent search queries, utilizing exact match keywords and tight location geo-fencing to capture active buyers.
+                  We deploy targeted Google Ads for high-intent search queries, utilizing exact match keywords and tight
+                  location geo-fencing to capture active buyers.
                 </p>
               </div>
               <div class="kdm-yoga-step-outcome">
@@ -2812,14 +3213,16 @@
                   <span class="kdm-yoga-step-tag">Phase 4: Local Dominance</span>
                 </div>
                 <div class="kdm-yoga-step-icon-wrap">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                     <circle cx="12" cy="10" r="3"></circle>
                   </svg>
                 </div>
                 <h3 class="kdm-yoga-step-title">Google Maps &amp; Local Pack SEO</h3>
                 <p class="kdm-yoga-step-desc">
-                  We optimize your Google Business Profile and publish geo-targeted city service pages to rank in the top 3 Google Map pack results in your metropolitan area.
+                  We optimize your Google Business Profile and publish geo-targeted city service pages to rank in the
+                  top 3 Google Map pack results in your metropolitan area.
                 </p>
               </div>
               <div class="kdm-yoga-step-outcome">
@@ -2835,14 +3238,16 @@
                   <span class="kdm-yoga-step-tag">Phase 5: Meta Social Ads</span>
                 </div>
                 <div class="kdm-yoga-step-icon-wrap">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                   </svg>
                 </div>
                 <h3 class="kdm-yoga-step-title">Meta Assessment &amp; Retargeting Ads</h3>
                 <p class="kdm-yoga-step-desc">
-                  We run highly engaging Instagram Reels and Facebook lead ads featuring points assessment quizzes and client success stories to capture passive seekers.
+                  We run highly engaging Instagram Reels and Facebook lead ads featuring points assessment quizzes and
+                  client success stories to capture passive seekers.
                 </p>
               </div>
               <div class="kdm-yoga-step-outcome">
@@ -2858,13 +3263,17 @@
                   <span class="kdm-yoga-step-tag">Phase 6: CRM Automation</span>
                 </div>
                 <div class="kdm-yoga-step-icon-wrap">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                    </path>
                   </svg>
                 </div>
                 <h3 class="kdm-yoga-step-title">Automated WhatsApp Counseling Drip</h3>
                 <p class="kdm-yoga-step-desc">
-                  We integrate your leads into instant WhatsApp drip notifications, booking counseling sessions automatically and nurturing cold applicants over time.
+                  We integrate your leads into instant WhatsApp drip notifications, booking counseling sessions
+                  automatically and nurturing cold applicants over time.
                 </p>
               </div>
               <div class="kdm-yoga-step-outcome">
@@ -2880,13 +3289,15 @@
                   <span class="kdm-yoga-step-tag">Phase 7: Video Content</span>
                 </div>
                 <div class="kdm-yoga-step-icon-wrap">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
                     <polygon points="5 3 19 12 5 21 5 3"></polygon>
                   </svg>
                 </div>
                 <h3 class="kdm-yoga-step-title">Policy News YouTube &amp; Reels Marketing</h3>
                 <p class="kdm-yoga-step-desc">
-                  We script and produce timely analysis videos of Express Entry draws, provincial nominations, and visa rule updates, cementing your firm's expert status.
+                  We script and produce timely analysis videos of Express Entry draws, provincial nominations, and visa
+                  rule updates, cementing your firm's expert status.
                 </p>
               </div>
               <div class="kdm-yoga-step-outcome">
@@ -2902,13 +3313,17 @@
                   <span class="kdm-yoga-step-tag">Phase 8: Reputation ORM</span>
                 </div>
                 <div class="kdm-yoga-step-icon-wrap">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
                   </svg>
                 </div>
                 <h3 class="kdm-yoga-step-title">Client Visa Stamp Reviews &amp; ORM</h3>
                 <p class="kdm-yoga-step-desc">
-                  We capture video unboxings of passport visa stamps and collect genuine 5-star Google reviews from settled clients to construct an unshakeable reputation shield.
+                  We capture video unboxings of passport visa stamps and collect genuine 5-star Google reviews from
+                  settled clients to construct an unshakeable reputation shield.
                 </p>
               </div>
               <div class="kdm-yoga-step-outcome">
@@ -2924,14 +3339,16 @@
                   <span class="kdm-yoga-step-tag">Phase 9: Branch Scale</span>
                 </div>
                 <div class="kdm-yoga-step-icon-wrap">
-                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
                     <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
                     <polyline points="17 6 23 6 23 12"></polyline>
                   </svg>
                 </div>
                 <h3 class="kdm-yoga-step-title">National Expansion &amp; Multi-Branch Scale</h3>
                 <p class="kdm-yoga-step-desc">
-                  We expand your campaign infrastructure across multiple cities and regional office branches, optimizing ad budgets for maximum monthly signed retainers.
+                  We expand your campaign infrastructure across multiple cities and regional office branches, optimizing
+                  ad budgets for maximum monthly signed retainers.
                 </p>
               </div>
               <div class="kdm-yoga-step-outcome">
@@ -2952,7 +3369,9 @@
               About the Experts <span>Behind Your Campaigns</span>
             </h2>
             <p class="kdm-yoga-experts-subtitle">
-              Your immigration lead generation and local search campaigns are driven by 32+ certified immigration digital marketers, Google Ads media buyers, and SEO strategists at <a href="Default.aspx" class="kdm-brand-link-dark">King of Digital Marketing</a>.
+              Your immigration lead generation and local search campaigns are driven by 32+ certified immigration
+              digital marketers, Google Ads media buyers, and SEO strategists at <a href="Default.aspx"
+                class="kdm-brand-link-dark">King of Digital Marketing</a>.
             </p>
           </div>
 
@@ -2970,18 +3389,24 @@
                     </a>
                   </div>
                   <div class="kdm-yoga-expert-name-title">
-                    <h3 class="kdm-yoga-expert-name"><a href="gaurav-dubey.aspx" class="kdm-expert-name-link">Gaurav Dubey</a></h3>
+                    <h3 class="kdm-yoga-expert-name"><a href="gaurav-dubey.aspx" class="kdm-expert-name-link">Gaurav
+                        Dubey</a></h3>
                     <span class="kdm-yoga-expert-role">Lead Generation Expert &amp; Founder (13+ Yrs Exp)</span>
                   </div>
                 </div>
                 <p class="kdm-yoga-expert-bio">
-                  With over 13+ years of hands-on Search Engine Optimization leadership, senior <a href="gaurav-dubey.aspx" class="kdm-expert-text-link">Digital Marketing Consultant Gaurav Dubey</a> has spearheaded 900+ successful campaigns across India, USA, UK, UAE &amp; global markets. Specialist in Immigration Consultant Marketing, High-Intent Google Search PPC for Canada &amp; Australia PR, multi-step qualification quizzes, and CRM lead nurturing systems for licensed migration agents.
+                  With over 13+ years of hands-on Search Engine Optimization leadership, senior <a
+                    href="gaurav-dubey.aspx" class="kdm-expert-text-link">Digital Marketing Consultant Gaurav Dubey</a>
+                  has spearheaded 900+ successful campaigns across India, USA, UK, UAE &amp; global markets. Specialist
+                  in Immigration Consultant Marketing, High-Intent Google Search PPC for Canada &amp; Australia PR,
+                  multi-step qualification quizzes, and CRM lead nurturing systems for licensed migration agents.
                 </p>
               </div>
               <ul class="kdm-yoga-expert-list">
                 <li><i class="fa fa-check-circle"></i> High-Intent Google Search &amp; PR Visa PPC Architect</li>
                 <li><i class="fa fa-check-circle"></i> Local SEO &amp; Google Map Pack Dominance Expert</li>
-                <li><i class="fa fa-check-circle"></i> Complete 360&deg; Digital Marketing Solutions for Immigration Firms</li>
+                <li><i class="fa fa-check-circle"></i> Complete 360&deg; Digital Marketing Solutions for Immigration
+                  Firms</li>
               </ul>
             </div>
 
@@ -2996,7 +3421,9 @@
                   </div>
                 </div>
                 <p class="kdm-yoga-expert-bio">
-                  Our full-time team of 32+ digital marketing professionals includes Immigration Policy Video Editors, CRM Automation Engineers, Google Ads Certified Media Buyers, Web Developers, and Reputation Management Specialists working in unison to scale your firm.
+                  Our full-time team of 32+ digital marketing professionals includes Immigration Policy Video Editors,
+                  CRM Automation Engineers, Google Ads Certified Media Buyers, Web Developers, and Reputation Management
+                  Specialists working in unison to scale your firm.
                 </p>
               </div>
               <ul class="kdm-yoga-expert-list">
@@ -3017,7 +3444,9 @@
               Frequently Asked Questions About <span>Digital Marketing for Immigration Consultants</span>
             </h2>
             <p class="kdm-faq-main-subtitle">
-              Get clear, transparent answers to common questions about generating pre-qualified visa leads, dominating local search, and scaling your immigration practice with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.
+              Get clear, transparent answers to common questions about generating pre-qualified visa leads, dominating
+              local search, and scaling your immigration practice with <a href="Default.aspx"
+                class="kdm-brand-link">King of Digital Marketing</a>.
             </p>
           </div>
 
@@ -3031,12 +3460,16 @@
                 <!-- Q1 -->
                 <div class="kdm-faq-item active">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.1. Why is specialized digital marketing essential for visa and immigration consultants?</span>
+                    <span class="kdm-faq-question">Q.1. Why is specialized digital marketing essential for visa and
+                      immigration consultants?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> Immigration is a high-ticket, trust-driven decision involving life savings and career aspirations. Generic marketing fails to filter unqualified leads. Specialized digital marketing targets applicants with valid profiles, high IELTS scores, and genuine financial readiness through multi-step qualification funnels.
+                      <span class="kdm-ans-badge">Ans</span> Immigration is a high-ticket, trust-driven decision
+                      involving life savings and career aspirations. Generic marketing fails to filter unqualified
+                      leads. Specialized digital marketing targets applicants with valid profiles, high IELTS scores,
+                      and genuine financial readiness through multi-step qualification funnels.
                     </p>
                   </div>
                 </div>
@@ -3044,12 +3477,15 @@
                 <!-- Q2 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.2. How do you filter out fake or unqualified visa leads from ad campaigns?</span>
+                    <span class="kdm-faq-question">Q.2. How do you filter out fake or unqualified visa leads from ad
+                      campaigns?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> We implement multi-step qualification quizzes, asking applicants for their age, highest educational qualification, language proficiency (IELTS/PTE), and available funds before allowing form submission, ensuring counselors only call pre-vetted leads.
+                      <span class="kdm-ans-badge">Ans</span> We implement multi-step qualification quizzes, asking
+                      applicants for their age, highest educational qualification, language proficiency (IELTS/PTE), and
+                      available funds before allowing form submission, ensuring counselors only call pre-vetted leads.
                     </p>
                   </div>
                 </div>
@@ -3057,12 +3493,15 @@
                 <!-- Q3 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.3. How does Google Search PPC generate high-intent immigration clients?</span>
+                    <span class="kdm-faq-question">Q.3. How does Google Search PPC generate high-intent immigration
+                      clients?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> We target high-intent transactional search terms like 'Canada PR visa consultant near me', 'Australia skilled migration agent', or 'UK study visa guidance', capturing clients who are actively looking to hire a licensed consultant today.
+                      <span class="kdm-ans-badge">Ans</span> We target high-intent transactional search terms like
+                      'Canada PR visa consultant near me', 'Australia skilled migration agent', or 'UK study visa
+                      guidance', capturing clients who are actively looking to hire a licensed consultant today.
                     </p>
                   </div>
                 </div>
@@ -3070,12 +3509,15 @@
                 <!-- Q4 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.4. How do you build trust and credibility for an immigration consultancy?</span>
+                    <span class="kdm-faq-question">Q.4. How do you build trust and credibility for an immigration
+                      consultancy?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> We showcase verified client visa grant letters, video testimonials with passport stamps, licensed RCIC/MARA credentials, Google 5-star review widgets, and clear fee transparency across landing pages.
+                      <span class="kdm-ans-badge">Ans</span> We showcase verified client visa grant letters, video
+                      testimonials with passport stamps, licensed RCIC/MARA credentials, Google 5-star review widgets,
+                      and clear fee transparency across landing pages.
                     </p>
                   </div>
                 </div>
@@ -3083,12 +3525,15 @@
                 <!-- Q5 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.5. How do you handle frequent immigration policy changes (e.g., Canada Express Entry draws)?</span>
+                    <span class="kdm-faq-question">Q.5. How do you handle frequent immigration policy changes (e.g.,
+                      Canada Express Entry draws)?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> Our content team rapidly turns breaking immigration news, Express Entry category-based draws, and PNP updates into informative Reels, email newsletters, and blog updates that position your firm as an authoritative thought leader.
+                      <span class="kdm-ans-badge">Ans</span> Our content team rapidly turns breaking immigration news,
+                      Express Entry category-based draws, and PNP updates into informative Reels, email newsletters, and
+                      blog updates that position your firm as an authoritative thought leader.
                     </p>
                   </div>
                 </div>
@@ -3096,12 +3541,15 @@
                 <!-- Q6 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.6. Can digital marketing help rank my consultancy on Google Maps in my city?</span>
+                    <span class="kdm-faq-question">Q.6. Can digital marketing help rank my consultancy on Google Maps in
+                      my city?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> Yes! Through hyper-local Google Business Profile optimization, local citation building, customer review generation, and localized geo-targeted pages, we rank your consultancy in the top 3 Google Map pack results.
+                      <span class="kdm-ans-badge">Ans</span> Yes! Through hyper-local Google Business Profile
+                      optimization, local citation building, customer review generation, and localized geo-targeted
+                      pages, we rank your consultancy in the top 3 Google Map pack results.
                     </p>
                   </div>
                 </div>
@@ -3109,12 +3557,15 @@
                 <!-- Q7 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.7. How do you prevent ad account disapprovals on Google and Meta for visa services?</span>
+                    <span class="kdm-faq-question">Q.7. How do you prevent ad account disapprovals on Google and Meta
+                      for visa services?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> We strictly adhere to advertising policies by avoiding misleading guarantees (e.g., '100% Visa Guaranteed'), using compliant legal disclaimers, and framing offers around eligibility assessments and professional representation.
+                      <span class="kdm-ans-badge">Ans</span> We strictly adhere to advertising policies by avoiding
+                      misleading guarantees (e.g., '100% Visa Guaranteed'), using compliant legal disclaimers, and
+                      framing offers around eligibility assessments and professional representation.
                     </p>
                   </div>
                 </div>
@@ -3122,12 +3573,15 @@
                 <!-- Q8 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.8. Do you design custom immigration websites and CRS score assessment tools?</span>
+                    <span class="kdm-faq-question">Q.8. Do you design custom immigration websites and CRS score
+                      assessment tools?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> Yes! We build high-converting websites featuring interactive CRS point score calculators, country-specific eligibility assessments, appointment booking calendars, and direct WhatsApp counseling integrations.
+                      <span class="kdm-ans-badge">Ans</span> Yes! We build high-converting websites featuring
+                      interactive CRS point score calculators, country-specific eligibility assessments, appointment
+                      booking calendars, and direct WhatsApp counseling integrations.
                     </p>
                   </div>
                 </div>
@@ -3135,12 +3589,15 @@
                 <!-- Q9 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.9. What is the average cost-per-lead (CPL) for immigration campaigns?</span>
+                    <span class="kdm-faq-question">Q.9. What is the average cost-per-lead (CPL) for immigration
+                      campaigns?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> Cost per qualified lead typically ranges from ₹250 to ₹650 for study permits and ₹500 to ₹1,200 for skilled PR migration, depending on target countries and strictness of lead qualification criteria.
+                      <span class="kdm-ans-badge">Ans</span> Cost per qualified lead typically ranges from ₹250 to ₹650
+                      for study permits and ₹500 to ₹1,200 for skilled PR migration, depending on target countries and
+                      strictness of lead qualification criteria.
                     </p>
                   </div>
                 </div>
@@ -3148,12 +3605,15 @@
                 <!-- Q10 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.10. How do you re-engage cold leads who haven't signed retainers yet?</span>
+                    <span class="kdm-faq-question">Q.10. How do you re-engage cold leads who haven't signed retainers
+                      yet?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> We deploy automated WhatsApp drip sequences, policy update newsletters, and Meta custom audience retargeting ads highlighting recent client visa approvals to revive cold leads and convert them into signed retainers.
+                      <span class="kdm-ans-badge">Ans</span> We deploy automated WhatsApp drip sequences, policy update
+                      newsletters, and Meta custom audience retargeting ads highlighting recent client visa approvals to
+                      revive cold leads and convert them into signed retainers.
                     </p>
                   </div>
                 </div>
@@ -3161,12 +3621,15 @@
                 <!-- Q11 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.11. How do you optimize immigration agencies for AI search engines like ChatGPT and Perplexity?</span>
+                    <span class="kdm-faq-question">Q.11. How do you optimize immigration agencies for AI search engines
+                      like ChatGPT and Perplexity?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> We implement structured LegalService and Organization schemas, publish detailed country immigration criteria guides, and cite licensed practitioner accreditations so AI engines recommend your consultancy.
+                      <span class="kdm-ans-badge">Ans</span> We implement structured LegalService and Organization
+                      schemas, publish detailed country immigration criteria guides, and cite licensed practitioner
+                      accreditations so AI engines recommend your consultancy.
                     </p>
                   </div>
                 </div>
@@ -3174,12 +3637,15 @@
                 <!-- Q12 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.12. Can you target niche visa categories like Investor Visas, Golden Visas, and Work Permits?</span>
+                    <span class="kdm-faq-question">Q.12. Can you target niche visa categories like Investor Visas,
+                      Golden Visas, and Work Permits?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> Yes! We craft high-net-worth individual (HNWI) campaigns for EB-5 investor visas, Portugal Golden Visas, UAE Golden Visas, and European corporate intracompany work permits with bespoke B2B targeting.
+                      <span class="kdm-ans-badge">Ans</span> Yes! We craft high-net-worth individual (HNWI) campaigns
+                      for EB-5 investor visas, Portugal Golden Visas, UAE Golden Visas, and European corporate
+                      intracompany work permits with bespoke B2B targeting.
                     </p>
                   </div>
                 </div>
@@ -3187,12 +3653,15 @@
                 <!-- Q13 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.13. How fast can an immigration digital marketing campaign go live?</span>
+                    <span class="kdm-faq-question">Q.13. How fast can an immigration digital marketing campaign go
+                      live?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> Our dedicated immigration marketing team can set up landing pages, tracking pixels, qualification forms, and ad campaigns to go live within 5 to 7 business days.
+                      <span class="kdm-ans-badge">Ans</span> Our dedicated immigration marketing team can set up landing
+                      pages, tracking pixels, qualification forms, and ad campaigns to go live within 5 to 7 business
+                      days.
                     </p>
                   </div>
                 </div>
@@ -3200,12 +3669,15 @@
                 <!-- Q14 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.14. What monthly marketing packages do you offer for immigration consultants?</span>
+                    <span class="kdm-faq-question">Q.14. What monthly marketing packages do you offer for immigration
+                      consultants?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> Our packages start at ₹49,999 (Basic Plan for local visa agencies) up to ₹1,99,999 (Enterprise Plan for multi-branch national consultancies handling high lead volumes across multiple destination countries).
+                      <span class="kdm-ans-badge">Ans</span> Our packages start at ₹49,999 (Basic Plan for local visa
+                      agencies) up to ₹1,99,999 (Enterprise Plan for multi-branch national consultancies handling high
+                      lead volumes across multiple destination countries).
                     </p>
                   </div>
                 </div>
@@ -3213,12 +3685,15 @@
                 <!-- Q15 -->
                 <div class="kdm-faq-item">
                   <button type="button" class="kdm-faq-header" onclick="toggleFaqItem(this)">
-                    <span class="kdm-faq-question">Q.15. How can an immigration consultancy get started with King of Digital Marketing?</span>
+                    <span class="kdm-faq-question">Q.15. How can an immigration consultancy get started with King of
+                      Digital Marketing?</span>
                     <span class="kdm-faq-icon">+</span>
                   </button>
                   <div class="kdm-faq-body">
                     <p class="kdm-faq-answer">
-                      <span class="kdm-ans-badge">Ans</span> Simply click any 'Get Free Strategy Call' button on this page or submit our inquiry form. Our immigration marketing specialists will audit your current website, local rankings, and ad accounts to deliver a customized growth roadmap.
+                      <span class="kdm-ans-badge">Ans</span> Simply click any 'Get Free Strategy Call' button on this
+                      page or submit our inquiry form. Our immigration marketing specialists will audit your current
+                      website, local rankings, and ad accounts to deliver a customized growth roadmap.
                     </p>
                   </div>
                 </div>
@@ -3232,14 +3707,19 @@
 
               <div class="kdm-offer-dark-list">
                 <!-- Offer 1 -->
-                <div class="kdm-offer-dark-card" onclick="openPackageModal('Startup Visa &amp; Immigration Booster Offer (10% OFF)')">
+                <div class="kdm-offer-dark-card"
+                  onclick="openPackageModal('Startup Visa &amp; Immigration Booster Offer (10% OFF)')">
                   <div class="kdm-offer-dark-icon">
                     <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect width="60" height="60" rx="14" fill="url(#num_grad_visa1)" />
-                      <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
-                      <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+                      <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71.79-1.81.79-1.81"
+                        transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+                      <path
+                        d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-3.05 11a22.35 22.35 0 0 1-3.95 2L12 15z"
+                        transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
                       <defs>
-                        <linearGradient id="num_grad_visa1" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+                        <linearGradient id="num_grad_visa1" x1="0" y1="0" x2="60" y2="60"
+                          gradientUnits="userSpaceOnUse">
                           <stop stop-color="#0284c7" />
                           <stop offset="1" stop-color="#0369a1" />
                         </linearGradient>
@@ -3250,21 +3730,28 @@
                     <h4>Startup Visa &amp; Immigration Booster Offer</h4>
                     <p class="kdm-offer-dark-value">Get 10% OFF</p>
                     <h5 class="kdm-offer-dark-sub">On Quarterly Digital Marketing Package</h5>
-                    <h5 class="kdm-offer-dark-desc">Sign up for any 3-month growth package &amp; get instant 10% OFF!</h5>
+                    <h5 class="kdm-offer-dark-desc">Sign up for any 3-month growth package &amp; get instant 10% OFF!
+                    </h5>
                   </div>
                 </div>
 
                 <!-- Offer 2 -->
-                <div class="kdm-offer-dark-card" onclick="openPackageModal('Visa &amp; Immigration Scaling Plan Offer (15% OFF)')">
+                <div class="kdm-offer-dark-card"
+                  onclick="openPackageModal('Visa &amp; Immigration Scaling Plan Offer (15% OFF)')">
                   <div class="kdm-offer-dark-icon">
                     <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect width="60" height="60" rx="14" fill="url(#num_grad_visa2)" />
-                      <line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
-                      <line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
-                      <line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white" stroke-width="2.5" stroke-linecap="round" />
-                      <polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
+                      <line x1="18" y1="20" x2="18" y2="10" transform="translate(18, 14)" stroke="white"
+                        stroke-width="2.5" stroke-linecap="round" />
+                      <line x1="12" y1="20" x2="12" y2="4" transform="translate(18, 14)" stroke="white"
+                        stroke-width="2.5" stroke-linecap="round" />
+                      <line x1="6" y1="20" x2="6" y2="14" transform="translate(18, 14)" stroke="white"
+                        stroke-width="2.5" stroke-linecap="round" />
+                      <polyline points="18 6 12 2 6 8" transform="translate(18, 14)" stroke="#F59E0B" stroke-width="2.5"
+                        stroke-linecap="round" />
                       <defs>
-                        <linearGradient id="num_grad_visa2" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+                        <linearGradient id="num_grad_visa2" x1="0" y1="0" x2="60" y2="60"
+                          gradientUnits="userSpaceOnUse">
                           <stop stop-color="#0ea5e9" />
                           <stop offset="1" stop-color="#0284c7" />
                         </linearGradient>
@@ -3280,13 +3767,17 @@
                 </div>
 
                 <!-- Offer 3 -->
-                <div class="kdm-offer-dark-card" onclick="openPackageModal('Full Year Market Dominance Offer (20% OFF)')">
+                <div class="kdm-offer-dark-card"
+                  onclick="openPackageModal('Full Year Market Dominance Offer (20% OFF)')">
                   <div class="kdm-offer-dark-icon">
                     <svg width="56" height="56" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect width="60" height="60" rx="14" fill="url(#num_grad_visa3)" />
-                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5" />
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                        transform="translate(18, 14)" fill="#F59E0B" stroke="white" stroke-width="1.5" />
                       <defs>
-                        <linearGradient id="num_grad_visa3" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+                        <linearGradient id="num_grad_visa3" x1="0" y1="0" x2="60" y2="60"
+                          gradientUnits="userSpaceOnUse">
                           <stop stop-color="#1e293b" />
                           <stop offset="1" stop-color="#0f172a" />
                         </linearGradient>
@@ -3297,7 +3788,8 @@
                     <h4>Full Year Market Dominance Offer</h4>
                     <p class="kdm-offer-dark-value">Get 20% OFF</p>
                     <h5 class="kdm-offer-dark-sub">On 12-Month Digital Marketing Package</h5>
-                    <h5 class="kdm-offer-dark-desc">Dominate immigration searches in your city all year round while saving maximum budget!</h5>
+                    <h5 class="kdm-offer-dark-desc">Dominate immigration searches in your city all year round while
+                      saving maximum budget!</h5>
                   </div>
                 </div>
 
@@ -3312,4 +3804,4 @@
       <script src="js/kdm-packages.js" defer></script>
       <script src="js/kdm-faq.js" defer></script>
     </div>
-</asp:Content>
+  </asp:Content>
