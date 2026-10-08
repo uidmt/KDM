@@ -239,7 +239,7 @@
       </div>
     </div>
 
-            <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
+                  <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
       <section class="kdm-industry-clients-section">
         <div class="container">
           <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
@@ -298,6 +298,12 @@
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Ethical%20research.webp" alt="Ethical Research Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Ethical Research</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
             <img src="images/client/stock-market/FirstBull.webp" alt="First Bull Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">First Bull</span>
@@ -346,6 +352,12 @@
             <img src="images/client/stock-market/Equimate.webp" alt="Equimate Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">Equimate</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Ethical%20research.webp" alt="Ethical Research Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Ethical Research</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -476,7 +488,7 @@
             <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
           </div>
 
-          <!-- 16 Client Logos Responsive Grid (Strict A to Z) -->
+          <!-- 17 Client Logos Responsive Grid (Strict A to Z) -->
           <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
             
         <div class="kdm-industry-client-card" data-name="all about finances">
@@ -537,6 +549,16 @@
             <span class="kdm-client-badge kdm-cat-brand">Algo Trading Platform</span>
             <h4 class="kdm-industry-client-title">Equimate</h4>
             <p class="kdm-industry-client-desc">Algorithmic Trading & Stock Market Analytics Platform</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="ethical research">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/Ethical%20research.webp" alt="Ethical Research Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Research Advisory</span>
+            <h4 class="kdm-industry-client-title">Ethical Research</h4>
+            <p class="kdm-industry-client-desc">SEBI-Registered Equity Research & Stock Market Advisory</p>
           </div>
         </div>
         <div class="kdm-industry-client-card" data-name="first bull">
