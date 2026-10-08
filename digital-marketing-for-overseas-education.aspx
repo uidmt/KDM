@@ -243,7 +243,7 @@
         </div>
       </div>
 
-      <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
+            <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
       <section class="kdm-industry-clients-section">
         <div class="container">
           <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
@@ -305,6 +305,12 @@
             <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp" alt="BNPS International Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">BNPS International</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp" alt="BrighterPrep Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">BrighterPrep</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -398,6 +404,12 @@
             <img src="images/client/study-abroad-immigration-consultant/BNPS%20International.webp" alt="BNPS International Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">BNPS International</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp" alt="BrighterPrep Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">BrighterPrep</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -648,7 +660,7 @@
             <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
           </div>
 
-          <!-- 30 Client Logos Responsive Grid (Strict A to Z) -->
+          <!-- 31 Client Logos Responsive Grid (Strict A to Z) -->
           <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
             
         <div class="kdm-industry-client-card" data-name="advisely study abroad">
@@ -719,6 +731,16 @@
             <span class="kdm-client-badge kdm-cat-surgery">Overseas Education</span>
             <h4 class="kdm-industry-client-title">BNPS International</h4>
             <p class="kdm-industry-client-desc">Foreign University Intakes, Test Prep & Student Visa Assistance</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="brighterprep">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/study-abroad-immigration-consultant/BrighterPrep%20Test%20Prep.webp" alt="BrighterPrep Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Test Prep & Admissions</span>
+            <h4 class="kdm-industry-client-title">BrighterPrep</h4>
+            <p class="kdm-industry-client-desc">SAT, ACT, GMAT, GRE & Global University Admissions</p>
           </div>
         </div>
         <div class="kdm-industry-client-card" data-name="canx immigration">
