@@ -243,6 +243,292 @@
         </div>
       </div>
 
+            <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
+      <section class="kdm-industry-clients-section">
+        <div class="container">
+          <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
+            <div class="kdm-client-pill-badge">
+              <i class="fa fa-star" style="color: #f59e0b;"></i> TRUSTED BY TOP NEPHROLOGISTS & KIDNEY CARE CLINICS
+            </div>
+            <h2 class="kdm-client-main-title">
+              Nephrology & Kidney Care Clients <span class="kdm-blue-gradient">We Have Worked With</span>
+            </h2>
+            <p class="kdm-client-subtitle">
+              Explore top nephrologists, kidney care hospitals, dialysis centres, and renal specialists scaling patient consultations with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.
+            </p>
+          </div>
+
+          <!-- Dual Smooth Infinite Ticker / Marquee -->
+          <div class="kdm-client-marquee-wrapper">
+            <!-- Row 1: Left Scroll -->
+            <div class="kdm-client-marquee-track kdm-marquee-left">
+              <div class="kdm-client-marquee-group">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+              </div>
+              <div class="kdm-client-marquee-group" aria-hidden="true">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+              </div>
+            </div>
+
+            <!-- Row 2: Right Scroll -->
+            <div class="kdm-client-marquee-track kdm-marquee-right">
+              <div class="kdm-client-marquee-group">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+              </div>
+              <div class="kdm-client-marquee-group" aria-hidden="true">
+                
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Rajesh Goyal</span>
+        </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real-Time Client Search Bar -->
+          <div class="kdm-client-search-box">
+            <i class="fa fa-search kdm-client-search-icon"></i>
+            <input type="text" id="kdmIndustryClientSearch" class="kdm-client-search-input" placeholder="Search nephrology and kidney care clients by name (e.g., Dr. Rajesh Goyal, Kidney Care Centre)..." onkeyup="filterIndustryClients()" oninput="filterIndustryClients()" aria-label="Search client logos" />
+            <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
+          </div>
+
+          <!-- 2 Client Logos Responsive Grid (Strict A to Z) -->
+          <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
+            
+        <div class="kdm-industry-client-card" data-name="dr. rajesh goyal">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/nephrologists/Dr.%20Rajesh%20Goyal.webp" alt="Dr. Rajesh Goyal Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Senior Nephrologist</span>
+            <h4 class="kdm-industry-client-title">Dr. Rajesh Goyal</h4>
+            <p class="kdm-industry-client-desc">Renowned Senior Nephrologist, Kidney Transplant & Renal Care Specialist</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="kidney care centre">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/nephrologists/Kidney%20Care%20Centre.webp" alt="Kidney Care Centre Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Nephrology & Dialysis Centre</span>
+            <h4 class="kdm-industry-client-title">Kidney Care Centre</h4>
+            <p class="kdm-industry-client-desc">Comprehensive Renal Healthcare, Hemodialysis & CKD Management Clinic</p>
+          </div>
+        </div>
+          </div>
+
+          <!-- Empty Search State -->
+          <div id="kdmIndustryEmptyState" class="kdm-industry-empty-state" style="display: none;">
+            <i class="fa fa-search" style="font-size: 38px; color: #94a3b8; margin-bottom: 12px;"></i>
+            <h4 style="font-size: 18px; font-weight: 700; color: #1e293b;">No Nephrologist Client Found</h4>
+            <p style="font-size: 14px; color: #64748b;">Try searching with a different brand keyword or clear the search query.</p>
+            <button type="button" class="btn btn-sm btn-primary" onclick="clearIndustryClientSearch()" style="margin-top: 10px; border-radius: 20px; padding: 6px 18px;">Reset Search</button>
+          </div>
+
+          <!-- Bottom Direct CTA Banner -->
+          <div class="kdm-industry-clients-cta-strip">
+            <div class="kdm-industry-cta-content">
+              <span class="kdm-industry-cta-badge"><i class="fa fa-check-circle"></i> PROVEN INDUSTRY DOMINANCE</span>
+              <h3 class="kdm-industry-cta-title">Want Similar High-Intent Patient Consultation Growth For Your Nephrology Practice?</h3>
+              <p class="kdm-industry-cta-desc">Partner with India's most trusted digital marketing agency for nephrologists, kidney doctors, and dialysis centers. Get ethical medical SEO, Google PPC, and verified patient acquisition funnels.</p>
+            </div>
+            <div class="kdm-industry-cta-btn-wrap">
+              <a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-industry-cta-button">
+                <i class="fa fa-calendar-check"></i> Book Free Strategy Call <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- ===== 2. OVERVIEW & INDUSTRY INTRO SECTION ===== -->
       <section class="kdm-intro-content-section">
         <div class="container">

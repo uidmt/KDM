@@ -155,19 +155,33 @@ INDUSTRY_MAPPINGS = {
         'cta_title': 'Want Similar 380%+ Qualified Visa & PR Lead Growth For Your Consultancy?',
         'cta_desc': "Partner with India's most trusted digital marketing agency for visa and immigration consultants. Get high-intent PR funnels, study visa Google PPC, and verified applicant leads."
     },
-    'visa-immigration-consultant': {
-        'dir': 'study-abroad-immigration-consultant',
-        'page': 'digital-marketing-for-visa-immigration-consultant.aspx',
-        'industry_label': 'Visa & Immigration Consultant',
-        'badge': 'Immigration Client',
-        'desc': 'Verified Visa & Immigration Brand',
-        'pill_text': 'TRUSTED BY 30+ VISA & IMMIGRATION CONSULTANCIES',
-        'heading': 'Visa & Immigration Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
-        'subtitle': 'From leading Canada PR specialists, licensed immigration lawyers, and overseas study visa agencies to global migration advisors — explore verified clients scaling qualified visa inquiries and case approvals with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
-        'search_placeholder': 'Search visa & immigration clients by brand name (e.g., Afflatus, Continental Immigration, CanX, RWICS)...',
-        'empty_title': 'No Visa & Immigration Client Found',
-        'cta_title': 'Want Similar 380%+ Qualified Visa & PR Lead Growth For Your Consultancy?',
-        'cta_desc': "Partner with India's most trusted digital marketing agency for visa and immigration consultants. Get high-intent PR funnels, study visa Google PPC, and verified applicant leads."
+    'nephrologists': {
+        'dir': 'nephrologists',
+        'page': 'digital-marketing-for-nephrologist.aspx',
+        'industry_label': 'Nephrologists & Kidney Care',
+        'badge': 'Nephrology & Renal Care Client',
+        'desc': 'Verified Nephrologist & Dialysis Centre',
+        'pill_text': 'TRUSTED BY TOP NEPHROLOGISTS & KIDNEY CARE CLINICS',
+        'heading': 'Nephrology & Kidney Care Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
+        'subtitle': 'Explore top nephrologists, kidney care hospitals, dialysis centres, and renal specialists scaling patient consultations with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
+        'search_placeholder': 'Search nephrology and kidney care clients by name (e.g., Dr. Rajesh Goyal, Kidney Care Centre)...',
+        'empty_title': 'No Nephrologist Client Found',
+        'cta_title': 'Want Similar High-Intent Patient Consultation Growth For Your Nephrology Practice?',
+        'cta_desc': "Partner with India's most trusted digital marketing agency for nephrologists, kidney doctors, and dialysis centers. Get ethical medical SEO, Google PPC, and verified patient acquisition funnels."
+    },
+    'nephrologist': {
+        'dir': 'nephrologists',
+        'page': 'digital-marketing-for-nephrologist.aspx',
+        'industry_label': 'Nephrologists & Kidney Care',
+        'badge': 'Nephrology & Renal Care Client',
+        'desc': 'Verified Nephrologist & Dialysis Centre',
+        'pill_text': 'TRUSTED BY TOP NEPHROLOGISTS & KIDNEY CARE CLINICS',
+        'heading': 'Nephrology & Kidney Care Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
+        'subtitle': 'Explore top nephrologists, kidney care hospitals, dialysis centres, and renal specialists scaling patient consultations with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
+        'search_placeholder': 'Search nephrology and kidney care clients by name (e.g., Dr. Rajesh Goyal, Kidney Care Centre)...',
+        'empty_title': 'No Nephrologist Client Found',
+        'cta_title': 'Want Similar High-Intent Patient Consultation Growth For Your Nephrology Practice?',
+        'cta_desc': "Partner with India's most trusted digital marketing agency for nephrologists, kidney doctors, and dialysis centers. Get ethical medical SEO, Google PPC, and verified patient acquisition funnels."
     }
 }
 
@@ -710,7 +724,26 @@ VISA_IMMIGRATION_DESCRIPTIONS = {
     'unipath-education.webp': 'Personalized Student Visa Filing & University Admissions'
 }
 
+NEPHROLOGIST_BRAND_OVERRIDES = {
+    'Dr. Rajesh Goyal.webp': 'Dr. Rajesh Goyal',
+    'Kidney Care Centre.webp': 'Kidney Care Centre'
+}
+
+NEPHROLOGIST_BADGES = {
+    'Dr. Rajesh Goyal.webp': 'Senior Nephrologist',
+    'Kidney Care Centre.webp': 'Nephrology & Dialysis Centre'
+}
+
+NEPHROLOGIST_DESCRIPTIONS = {
+    'Dr. Rajesh Goyal.webp': 'Renowned Senior Nephrologist, Kidney Transplant & Renal Care Specialist',
+    'Kidney Care Centre.webp': 'Comprehensive Renal Healthcare, Hemodialysis & CKD Management Clinic'
+}
+
 def clean_brand_name(filename, industry_key=None):
+    if industry_key in ('nephrologists', 'nephrologist') and filename in NEPHROLOGIST_BRAND_OVERRIDES:
+        return NEPHROLOGIST_BRAND_OVERRIDES[filename]
+    if filename in NEPHROLOGIST_BRAND_OVERRIDES:
+        return NEPHROLOGIST_BRAND_OVERRIDES[filename]
     if industry_key in ('astrologer', 'astrology') and filename in ASTROLOGY_BRAND_OVERRIDES:
         return ASTROLOGY_BRAND_OVERRIDES[filename]
     if industry_key in ('stock-market', 'stock-market-institute') and filename in STOCK_MARKET_BRAND_OVERRIDES:
@@ -826,6 +859,9 @@ def sync_industry(industry_key, custom_dir=None, custom_page=None):
         elif industry_key in ('visa-immigration', 'visa-immigration-consultant'):
             client_badge = VISA_IMMIGRATION_BADGES.get(f, badge_text)
             client_desc = VISA_IMMIGRATION_DESCRIPTIONS.get(f, desc_text)
+        elif industry_key in ('nephrologists', 'nephrologist'):
+            client_badge = NEPHROLOGIST_BADGES.get(f, badge_text)
+            client_desc = NEPHROLOGIST_DESCRIPTIONS.get(f, desc_text)
         else:
             client_badge = badge_text
             client_desc = CUSTOM_DESCRIPTIONS.get(f, desc_text)
@@ -842,13 +878,21 @@ def sync_industry(industry_key, custom_dir=None, custom_page=None):
     # Strict A to Z alphabetical ordering
     clients.sort(key=lambda c: c['name'].lower())
 
-    half = (len(clients) + 1) // 2
-    row1 = clients[:half]
-    row2 = clients[half:]
+    if len(clients) <= 4:
+        row1 = clients
+        row2 = list(reversed(clients))
+    else:
+        half = (len(clients) + 1) // 2
+        row1 = clients[:half]
+        row2 = clients[half:]
 
     def build_marquee_items(items):
         html = ''
-        for item in items:
+        display_items = list(items)
+        if 0 < len(display_items) < 6:
+            multiplier = (6 // len(display_items)) + 1
+            display_items = display_items * multiplier
+        for item in display_items:
             enc_file = urllib.parse.quote(item['file'])
             src = f'images/client/{dir_name}/{enc_file}' if (dir_name and os.path.exists(os.path.join(REPO_ROOT, 'images/client', dir_name))) else f'images/client/{enc_file}'
             html += f'''
