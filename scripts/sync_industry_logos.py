@@ -770,6 +770,7 @@ NEPHROLOGIST_DESCRIPTIONS = {
 YOGA_BRAND_OVERRIDES = {
     'Manovaidya.webp': 'Manovaidya',
     'Nurturers.webp': 'Nurturers',
+    'One Wellness Fitness Club.webp': 'One Wellness Fitness Club',
     'healthfirstwellnesscentre.webp': 'Health First Wellness Centre',
     'heartland.webp': 'Heartland Yoga',
     'life-chakra.webp': 'Life Chakra',
@@ -777,12 +778,13 @@ YOGA_BRAND_OVERRIDES = {
     'ojaswin-yoga-school.webp': 'Ojaswin Yoga School',
     'preetiesdeitclinic.webp': "Preeti's Diet & Yoga Clinic",
     'soundenergyhealing.webp': 'Sound Energy Healing',
-    'swami-parmanand.webp': 'Swami Parmanand Yoga Sansthan'
+    'swami-parmanand.webp': 'Swami Parmanand Prakritik Chikitshalaya'
 }
 
 YOGA_BADGES = {
     'Manovaidya.webp': 'Mind-Body & Yoga Therapy',
     'Nurturers.webp': 'Prenatal Yoga & Mindfulness',
+    'One Wellness Fitness Club.webp': 'Yoga & Fitness Club',
     'healthfirstwellnesscentre.webp': 'Therapeutic Yoga Centre',
     'heartland.webp': 'Yoga Studio & Retreat',
     'life-chakra.webp': 'Chakra Healing & Yoga',
@@ -790,12 +792,13 @@ YOGA_BADGES = {
     'ojaswin-yoga-school.webp': 'Yoga Teacher Training (TTC)',
     'preetiesdeitclinic.webp': 'Diet & Yoga Clinic',
     'soundenergyhealing.webp': 'Nada Yoga & Sound Healing',
-    'swami-parmanand.webp': 'Vedic Yoga Ashram & TTC'
+    'swami-parmanand.webp': 'Yoga & Naturopathy Hospital'
 }
 
 YOGA_DESCRIPTIONS = {
     'Manovaidya.webp': 'Integrative Mind-Body Healing, Therapeutic Yoga & Stress Management',
     'Nurturers.webp': 'Mindfulness, Prenatal Yoga, Postnatal Recovery & Holistic Wellbeing',
+    'One Wellness Fitness Club.webp': 'Premium Yoga Classes, Functional Fitness & Holistic Lifestyle Club',
     'healthfirstwellnesscentre.webp': 'Therapeutic Yoga Asanas, Physical Fitness & Preventative Wellness',
     'heartland.webp': 'Authentic Hatha & Vinyasa Yoga Retreats, Workshops & Daily Classes',
     'life-chakra.webp': 'Chakra Alignment, Kundalini Meditation & Spiritual Yoga Practice',
@@ -803,7 +806,7 @@ YOGA_DESCRIPTIONS = {
     'ojaswin-yoga-school.webp': 'Yoga Alliance Certified 200/300-Hour TTC & Vedic Studies',
     'preetiesdeitclinic.webp': 'Holistic Nutrition, Weight Loss Yoga & Personalized Wellness Care',
     'soundenergyhealing.webp': 'Tibetan Singing Bowls, Nada Yoga Therapy & Healing Vibrations',
-    'swami-parmanand.webp': 'Traditional Gurukul Yoga System, Naturopathy & Teacher Certifications'
+    'swami-parmanand.webp': 'Vedic Naturopathy, Holistic Healing, Yoga Therapy & Wellness Sansthan'
 }
 
 def clean_brand_name(filename, industry_key=None):

@@ -248,7 +248,7 @@
         </div>
       </div>
 
-      <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
+            <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
       <section class="kdm-industry-clients-section">
         <div class="container">
           <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
@@ -301,33 +301,9 @@
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/healthfirstwellnesscentre.webp" alt="Health First Wellness Centre Logo" loading="lazy" decoding="async" />
+            <img src="images/client/yoga-studio/Nurturers.webp" alt="Nurturers Logo" loading="lazy" decoding="async" />
           </div>
-          <span class="kdm-client-marquee-name">Health First Wellness Centre</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/heartland.webp" alt="Heartland Yoga Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Heartland Yoga</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/life-chakra.webp" alt="Life Chakra Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Life Chakra</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/Manovaidya.webp" alt="Manovaidya Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Manovaidya</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/mistic.webp" alt="Mistic Yoga Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Mistic Yoga</span>
+          <span class="kdm-client-marquee-name">Nurturers</span>
         </div>
               </div>
               <div class="kdm-client-marquee-group" aria-hidden="true">
@@ -364,33 +340,9 @@
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/healthfirstwellnesscentre.webp" alt="Health First Wellness Centre Logo" loading="lazy" decoding="async" />
+            <img src="images/client/yoga-studio/Nurturers.webp" alt="Nurturers Logo" loading="lazy" decoding="async" />
           </div>
-          <span class="kdm-client-marquee-name">Health First Wellness Centre</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/heartland.webp" alt="Heartland Yoga Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Heartland Yoga</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/life-chakra.webp" alt="Life Chakra Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Life Chakra</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/Manovaidya.webp" alt="Manovaidya Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Manovaidya</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/mistic.webp" alt="Mistic Yoga Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Mistic Yoga</span>
+          <span class="kdm-client-marquee-name">Nurturers</span>
         </div>
               </div>
             </div>
@@ -401,15 +353,15 @@
                 
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/Nurturers.webp" alt="Nurturers Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Nurturers</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
             <img src="images/client/yoga-studio/ojaswin-yoga-school.webp" alt="Ojaswin Yoga School Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">Ojaswin Yoga School</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/yoga-studio/One%20Wellness%20Fitness%20Club.webp" alt="One Wellness Fitness Club Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">One Wellness Fitness Club</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -425,21 +377,21 @@
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Yoga Sansthan Logo" loading="lazy" decoding="async" />
+            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Prakritik Chikitshalaya Logo" loading="lazy" decoding="async" />
           </div>
-          <span class="kdm-client-marquee-name">Swami Parmanand Yoga Sansthan</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/Nurturers.webp" alt="Nurturers Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Nurturers</span>
+          <span class="kdm-client-marquee-name">Swami Parmanand Prakritik Chikitshalaya</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
             <img src="images/client/yoga-studio/ojaswin-yoga-school.webp" alt="Ojaswin Yoga School Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">Ojaswin Yoga School</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/yoga-studio/One%20Wellness%20Fitness%20Club.webp" alt="One Wellness Fitness Club Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">One Wellness Fitness Club</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -455,24 +407,24 @@
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Yoga Sansthan Logo" loading="lazy" decoding="async" />
+            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Prakritik Chikitshalaya Logo" loading="lazy" decoding="async" />
           </div>
-          <span class="kdm-client-marquee-name">Swami Parmanand Yoga Sansthan</span>
+          <span class="kdm-client-marquee-name">Swami Parmanand Prakritik Chikitshalaya</span>
         </div>
               </div>
               <div class="kdm-client-marquee-group" aria-hidden="true">
                 
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/Nurturers.webp" alt="Nurturers Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Nurturers</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
             <img src="images/client/yoga-studio/ojaswin-yoga-school.webp" alt="Ojaswin Yoga School Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">Ojaswin Yoga School</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/yoga-studio/One%20Wellness%20Fitness%20Club.webp" alt="One Wellness Fitness Club Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">One Wellness Fitness Club</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -488,21 +440,21 @@
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Yoga Sansthan Logo" loading="lazy" decoding="async" />
+            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Prakritik Chikitshalaya Logo" loading="lazy" decoding="async" />
           </div>
-          <span class="kdm-client-marquee-name">Swami Parmanand Yoga Sansthan</span>
-        </div>
-        <div class="kdm-client-marquee-item">
-          <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/Nurturers.webp" alt="Nurturers Logo" loading="lazy" decoding="async" />
-          </div>
-          <span class="kdm-client-marquee-name">Nurturers</span>
+          <span class="kdm-client-marquee-name">Swami Parmanand Prakritik Chikitshalaya</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
             <img src="images/client/yoga-studio/ojaswin-yoga-school.webp" alt="Ojaswin Yoga School Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">Ojaswin Yoga School</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/yoga-studio/One%20Wellness%20Fitness%20Club.webp" alt="One Wellness Fitness Club Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">One Wellness Fitness Club</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -518,9 +470,9 @@
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
-            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Yoga Sansthan Logo" loading="lazy" decoding="async" />
+            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Prakritik Chikitshalaya Logo" loading="lazy" decoding="async" />
           </div>
-          <span class="kdm-client-marquee-name">Swami Parmanand Yoga Sansthan</span>
+          <span class="kdm-client-marquee-name">Swami Parmanand Prakritik Chikitshalaya</span>
         </div>
               </div>
             </div>
@@ -533,7 +485,7 @@
             <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
           </div>
 
-          <!-- 10 Client Logos Responsive Grid (Strict A to Z) -->
+          <!-- 11 Client Logos Responsive Grid (Strict A to Z) -->
           <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
             
         <div class="kdm-industry-client-card" data-name="health first wellness centre">
@@ -606,6 +558,16 @@
             <p class="kdm-industry-client-desc">Yoga Alliance Certified 200/300-Hour TTC & Vedic Studies</p>
           </div>
         </div>
+        <div class="kdm-industry-client-card" data-name="one wellness fitness club">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/yoga-studio/One%20Wellness%20Fitness%20Club.webp" alt="One Wellness Fitness Club Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-aesthetic">Yoga & Fitness Club</span>
+            <h4 class="kdm-industry-client-title">One Wellness Fitness Club</h4>
+            <p class="kdm-industry-client-desc">Premium Yoga Classes, Functional Fitness & Holistic Lifestyle Club</p>
+          </div>
+        </div>
         <div class="kdm-industry-client-card" data-name="preeti's diet & yoga clinic">
           <div class="kdm-industry-client-logo-box">
             <img src="images/client/yoga-studio/preetiesdeitclinic.webp" alt="Preeti's Diet & Yoga Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
@@ -626,14 +588,14 @@
             <p class="kdm-industry-client-desc">Tibetan Singing Bowls, Nada Yoga Therapy & Healing Vibrations</p>
           </div>
         </div>
-        <div class="kdm-industry-client-card" data-name="swami parmanand yoga sansthan">
+        <div class="kdm-industry-client-card" data-name="swami parmanand prakritik chikitshalaya">
           <div class="kdm-industry-client-logo-box">
-            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Yoga Sansthan Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+            <img src="images/client/yoga-studio/swami-parmanand.webp" alt="Swami Parmanand Prakritik Chikitshalaya Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-aesthetic">Vedic Yoga Ashram & TTC</span>
-            <h4 class="kdm-industry-client-title">Swami Parmanand Yoga Sansthan</h4>
-            <p class="kdm-industry-client-desc">Traditional Gurukul Yoga System, Naturopathy & Teacher Certifications</p>
+            <span class="kdm-client-badge kdm-cat-aesthetic">Yoga & Naturopathy Hospital</span>
+            <h4 class="kdm-industry-client-title">Swami Parmanand Prakritik Chikitshalaya</h4>
+            <p class="kdm-industry-client-desc">Vedic Naturopathy, Holistic Healing, Yoga Therapy & Wellness Sansthan</p>
           </div>
         </div>
           </div>
