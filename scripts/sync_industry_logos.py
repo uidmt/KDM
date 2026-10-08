@@ -182,6 +182,34 @@ INDUSTRY_MAPPINGS = {
         'empty_title': 'No Nephrologist Client Found',
         'cta_title': 'Want Similar High-Intent Patient Consultation Growth For Your Nephrology Practice?',
         'cta_desc': "Partner with India's most trusted digital marketing agency for nephrologists, kidney doctors, and dialysis centers. Get ethical medical SEO, Google PPC, and verified patient acquisition funnels."
+    },
+    'yoga-studio': {
+        'dir': 'yoga-studio',
+        'page': 'digital-marketing-for-yoga.aspx',
+        'industry_label': 'Yoga Studio & Wellness',
+        'badge': 'Yoga Studio Client',
+        'desc': 'Verified Yoga Studio & Wellness Brand',
+        'pill_text': 'TRUSTED BY TOP YOGA STUDIOS, TTC SCHOOLS & WELLNESS CENTRES',
+        'heading': 'Yoga Studios & Wellness Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
+        'subtitle': 'Explore leading yoga studios, Yoga Teacher Training (TTC) schools, holistic retreat centers, and wellness practitioners scaling class enrollments with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
+        'search_placeholder': 'Search yoga and wellness clients by brand name (e.g., Ojaswin Yoga School, Swami Parmanand, Manovaidya)...',
+        'empty_title': 'No Yoga Studio Client Found',
+        'cta_title': 'Want Similar 350%+ Student Enrollment & Batch Growth For Your Yoga Studio?',
+        'cta_desc': "Partner with India's most trusted digital marketing agency for yoga studios, TTC institutes, and wellness centers. Get hyper-local Google Ads, Instagram Reels lead funnels, and local SEO dominance."
+    },
+    'yoga': {
+        'dir': 'yoga-studio',
+        'page': 'digital-marketing-for-yoga.aspx',
+        'industry_label': 'Yoga Studio & Wellness',
+        'badge': 'Yoga Studio Client',
+        'desc': 'Verified Yoga Studio & Wellness Brand',
+        'pill_text': 'TRUSTED BY TOP YOGA STUDIOS, TTC SCHOOLS & WELLNESS CENTRES',
+        'heading': 'Yoga Studios & Wellness Clients <span class="kdm-blue-gradient">We Have Worked With</span>',
+        'subtitle': 'Explore leading yoga studios, Yoga Teacher Training (TTC) schools, holistic retreat centers, and wellness practitioners scaling class enrollments with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.',
+        'search_placeholder': 'Search yoga and wellness clients by brand name (e.g., Ojaswin Yoga School, Swami Parmanand, Manovaidya)...',
+        'empty_title': 'No Yoga Studio Client Found',
+        'cta_title': 'Want Similar 350%+ Student Enrollment & Batch Growth For Your Yoga Studio?',
+        'cta_desc': "Partner with India's most trusted digital marketing agency for yoga studios, TTC institutes, and wellness centers. Get hyper-local Google Ads, Instagram Reels lead funnels, and local SEO dominance."
     }
 }
 
@@ -739,7 +767,50 @@ NEPHROLOGIST_DESCRIPTIONS = {
     'Kidney Care Centre.webp': 'Comprehensive Renal Healthcare, Hemodialysis & CKD Management Clinic'
 }
 
+YOGA_BRAND_OVERRIDES = {
+    'Manovaidya.webp': 'Manovaidya',
+    'Nurturers.webp': 'Nurturers',
+    'healthfirstwellnesscentre.webp': 'Health First Wellness Centre',
+    'heartland.webp': 'Heartland Yoga',
+    'life-chakra.webp': 'Life Chakra',
+    'mistic.webp': 'Mistic Yoga',
+    'ojaswin-yoga-school.webp': 'Ojaswin Yoga School',
+    'preetiesdeitclinic.webp': "Preeti's Diet & Yoga Clinic",
+    'soundenergyhealing.webp': 'Sound Energy Healing',
+    'swami-parmanand.webp': 'Swami Parmanand Yoga Sansthan'
+}
+
+YOGA_BADGES = {
+    'Manovaidya.webp': 'Mind-Body & Yoga Therapy',
+    'Nurturers.webp': 'Prenatal Yoga & Mindfulness',
+    'healthfirstwellnesscentre.webp': 'Therapeutic Yoga Centre',
+    'heartland.webp': 'Yoga Studio & Retreat',
+    'life-chakra.webp': 'Chakra Healing & Yoga',
+    'mistic.webp': 'Yoga & Meditation Studio',
+    'ojaswin-yoga-school.webp': 'Yoga Teacher Training (TTC)',
+    'preetiesdeitclinic.webp': 'Diet & Yoga Clinic',
+    'soundenergyhealing.webp': 'Nada Yoga & Sound Healing',
+    'swami-parmanand.webp': 'Vedic Yoga Ashram & TTC'
+}
+
+YOGA_DESCRIPTIONS = {
+    'Manovaidya.webp': 'Integrative Mind-Body Healing, Therapeutic Yoga & Stress Management',
+    'Nurturers.webp': 'Mindfulness, Prenatal Yoga, Postnatal Recovery & Holistic Wellbeing',
+    'healthfirstwellnesscentre.webp': 'Therapeutic Yoga Asanas, Physical Fitness & Preventative Wellness',
+    'heartland.webp': 'Authentic Hatha & Vinyasa Yoga Retreats, Workshops & Daily Classes',
+    'life-chakra.webp': 'Chakra Alignment, Kundalini Meditation & Spiritual Yoga Practice',
+    'mistic.webp': 'Traditional Yogic Wisdom, Pranayama, Asana & Meditation Studio',
+    'ojaswin-yoga-school.webp': 'Yoga Alliance Certified 200/300-Hour TTC & Vedic Studies',
+    'preetiesdeitclinic.webp': 'Holistic Nutrition, Weight Loss Yoga & Personalized Wellness Care',
+    'soundenergyhealing.webp': 'Tibetan Singing Bowls, Nada Yoga Therapy & Healing Vibrations',
+    'swami-parmanand.webp': 'Traditional Gurukul Yoga System, Naturopathy & Teacher Certifications'
+}
+
 def clean_brand_name(filename, industry_key=None):
+    if industry_key in ('yoga-studio', 'yoga') and filename in YOGA_BRAND_OVERRIDES:
+        return YOGA_BRAND_OVERRIDES[filename]
+    if filename in YOGA_BRAND_OVERRIDES:
+        return YOGA_BRAND_OVERRIDES[filename]
     if industry_key in ('nephrologists', 'nephrologist') and filename in NEPHROLOGIST_BRAND_OVERRIDES:
         return NEPHROLOGIST_BRAND_OVERRIDES[filename]
     if filename in NEPHROLOGIST_BRAND_OVERRIDES:
@@ -769,7 +840,7 @@ def get_badge_class(badge_text):
         return 'kdm-cat-surgery'
     if 'dermatology' in b or 'skin' in b:
         return 'kdm-cat-dermatology'
-    if 'aesthetic' in b or 'treatment' in b or 'studio' in b:
+    if 'aesthetic' in b or 'treatment' in b or 'studio' in b or 'yoga' in b or 'wellness' in b or 'healing' in b:
         return 'kdm-cat-aesthetic'
     if 'cosmetic' in b:
         return 'kdm-cat-cosmetic'
@@ -777,9 +848,9 @@ def get_badge_class(badge_text):
         return 'kdm-cat-hair'
     if 'app' in b or 'chat' in b or 'admissions' in b:
         return 'kdm-cat-aesthetic'
-    if 'tarot' in b or 'healing' in b:
+    if 'tarot' in b:
         return 'kdm-cat-dermatology'
-    if 'numerology' in b or 'academy' in b or 'institute' in b or 'sansthan' in b or 'education' in b:
+    if 'numerology' in b or 'academy' in b or 'institute' in b or 'sansthan' in b or 'education' in b or 'school' in b or 'ttc' in b:
         return 'kdm-cat-surgery'
     if 'sebi' in b or 'research' in b or 'ra' in b or 'visa' in b or 'immigration' in b:
         return 'kdm-cat-surgery'
@@ -862,6 +933,9 @@ def sync_industry(industry_key, custom_dir=None, custom_page=None):
         elif industry_key in ('nephrologists', 'nephrologist'):
             client_badge = NEPHROLOGIST_BADGES.get(f, badge_text)
             client_desc = NEPHROLOGIST_DESCRIPTIONS.get(f, desc_text)
+        elif industry_key in ('yoga-studio', 'yoga'):
+            client_badge = YOGA_BADGES.get(f, badge_text)
+            client_desc = YOGA_DESCRIPTIONS.get(f, desc_text)
         else:
             client_badge = badge_text
             client_desc = CUSTOM_DESCRIPTIONS.get(f, desc_text)
