@@ -518,6 +518,7 @@ ASTROLOGY_DESCRIPTIONS = {
 }
 
 STOCK_MARKET_BRAND_OVERRIDES = {
+    'ART of Making Money.webp': 'Art of Making Money',
     'Allaboutfinances.webp': 'All About Finances',
     'AmpleStock Advisory.webp': 'AmpleStock Advisory',
     'CapitalCraftResearch.webp': 'CapitalCraft Research',
@@ -531,13 +532,16 @@ STOCK_MARKET_BRAND_OVERRIDES = {
     'LearnFX.webp': 'LearnFX',
     'masterniftyoption.webp': 'Master Nifty Option',
     'moral research.webp': 'Moral Research',
+    'Mtel Technical Analysis Software.webp': 'Mtel Technical Analysis Software',
     'Skyriss.webp': 'Skyriss',
+    'The Learning Room.webp': 'The Learning Room',
     'TheRichTradershub.webp': 'The Rich Traders Hub',
     'trade.webp': 'Trade Insights',
     'TriptoTrade.webp': 'Trip To Trade'
 }
 
 STOCK_MARKET_BADGES = {
+    'ART of Making Money.webp': 'Trading Academy',
     'Allaboutfinances.webp': 'Financial Education',
     'AmpleStock Advisory.webp': 'SEBI-Registered RA',
     'CapitalCraftResearch.webp': 'SEBI-Registered RA',
@@ -551,13 +555,16 @@ STOCK_MARKET_BADGES = {
     'LearnFX.webp': 'Trading Training Academy',
     'masterniftyoption.webp': 'SEBI-Registered RA',
     'moral research.webp': 'SEBI-Registered RA',
+    'Mtel Technical Analysis Software.webp': 'Trading Software',
     'Skyriss.webp': 'Wealth & Trading',
+    'The Learning Room.webp': 'Stock Market Institute',
     'TheRichTradershub.webp': 'Trading Community',
     'trade.webp': 'Trading Advisory',
     'TriptoTrade.webp': 'Trading Institute'
 }
 
 STOCK_MARKET_DESCRIPTIONS = {
+    'ART of Making Money.webp': 'Stock Market Strategies, Wealth Creation & Price Action Mentorship',
     'Allaboutfinances.webp': 'Share Market Trading Advisory & Financial Education',
     'AmpleStock Advisory.webp': 'SEBI-Registered Stock Research, Nifty Options & Equity Advisory',
     'CapitalCraftResearch.webp': 'SEBI-Registered Equity Research & Portfolio Advisory',
@@ -571,7 +578,9 @@ STOCK_MARKET_DESCRIPTIONS = {
     'LearnFX.webp': 'Currency, Commodities & Stock Market Training',
     'masterniftyoption.webp': 'SEBI-Registered Options Strategies, Hedging & Derivatives Advisory',
     'moral research.webp': 'SEBI-Registered Research Analyst, Equity & Technical Analysis',
+    'Mtel Technical Analysis Software.webp': 'Advanced Technical Analysis Tools, Charting Software & Market Indicators',
     'Skyriss.webp': 'Stock Trading Strategies & Wealth Management',
+    'The Learning Room.webp': 'Comprehensive Stock Market Education, Options Trading & Mentorship',
     'TheRichTradershub.webp': 'Pro Trader Community, Live Market Calls & Training',
     'trade.webp': 'Smart Money Concepts & Institutional Trading Advisory',
     'TriptoTrade.webp': 'Complete Stock Market & Futures & Options Course'

@@ -239,7 +239,7 @@
       </div>
     </div>
 
-                        <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
+                              <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: INDUSTRY CLIENTS SHOWCASE SECTION ===== -->
       <section class="kdm-industry-clients-section">
         <div class="container">
           <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
@@ -271,6 +271,12 @@
             <img src="images/client/stock-market/AmpleStock%20Advisory.webp" alt="AmpleStock Advisory Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">AmpleStock Advisory</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/ART%20of%20Making%20Money.webp" alt="Art of Making Money Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Art of Making Money</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -328,6 +334,12 @@
             <img src="images/client/stock-market/AmpleStock%20Advisory.webp" alt="AmpleStock Advisory Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">AmpleStock Advisory</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/ART%20of%20Making%20Money.webp" alt="Art of Making Money Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Art of Making Money</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -404,9 +416,21 @@
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Mtel%20Technical%20Analysis%20Software.webp" alt="Mtel Technical Analysis Software Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Mtel Technical Analysis Software</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
             <img src="images/client/stock-market/Skyriss.webp" alt="Skyriss Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">Skyriss</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/The%20Learning%20Room.webp" alt="The Learning Room Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">The Learning Room</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -455,9 +479,21 @@
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/Mtel%20Technical%20Analysis%20Software.webp" alt="Mtel Technical Analysis Software Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Mtel Technical Analysis Software</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
             <img src="images/client/stock-market/Skyriss.webp" alt="Skyriss Logo" loading="lazy" decoding="async" />
           </div>
           <span class="kdm-client-marquee-name">Skyriss</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/stock-market/The%20Learning%20Room.webp" alt="The Learning Room Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">The Learning Room</span>
         </div>
         <div class="kdm-client-marquee-item">
           <div class="kdm-client-marquee-img-wrap">
@@ -488,7 +524,7 @@
             <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
           </div>
 
-          <!-- 17 Client Logos Responsive Grid (Strict A to Z) -->
+          <!-- 20 Client Logos Responsive Grid (Strict A to Z) -->
           <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
             
         <div class="kdm-industry-client-card" data-name="all about finances">
@@ -496,7 +532,7 @@
             <img src="images/client/stock-market/Allaboutfinances.webp" alt="All About Finances Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
           </div>
           <div class="kdm-industry-client-info">
-            <span class="kdm-client-badge kdm-cat-brand">Financial Education</span>
+            <span class="kdm-client-badge kdm-cat-surgery">Financial Education</span>
             <h4 class="kdm-industry-client-title">All About Finances</h4>
             <p class="kdm-industry-client-desc">Share Market Trading Advisory & Financial Education</p>
           </div>
@@ -509,6 +545,16 @@
             <span class="kdm-client-badge kdm-cat-surgery">SEBI-Registered RA</span>
             <h4 class="kdm-industry-client-title">AmpleStock Advisory</h4>
             <p class="kdm-industry-client-desc">SEBI-Registered Stock Research, Nifty Options & Equity Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="art of making money">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/ART%20of%20Making%20Money.webp" alt="Art of Making Money Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Trading Academy</span>
+            <h4 class="kdm-industry-client-title">Art of Making Money</h4>
+            <p class="kdm-industry-client-desc">Stock Market Strategies, Wealth Creation & Price Action Mentorship</p>
           </div>
         </div>
         <div class="kdm-industry-client-card" data-name="capitalcraft research">
@@ -621,6 +667,16 @@
             <p class="kdm-industry-client-desc">SEBI-Registered Research Analyst, Equity & Technical Analysis</p>
           </div>
         </div>
+        <div class="kdm-industry-client-card" data-name="mtel technical analysis software">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/Mtel%20Technical%20Analysis%20Software.webp" alt="Mtel Technical Analysis Software Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Trading Software</span>
+            <h4 class="kdm-industry-client-title">Mtel Technical Analysis Software</h4>
+            <p class="kdm-industry-client-desc">Advanced Technical Analysis Tools, Charting Software & Market Indicators</p>
+          </div>
+        </div>
         <div class="kdm-industry-client-card" data-name="skyriss">
           <div class="kdm-industry-client-logo-box">
             <img src="images/client/stock-market/Skyriss.webp" alt="Skyriss Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
@@ -629,6 +685,16 @@
             <span class="kdm-client-badge kdm-cat-surgery">Wealth & Trading</span>
             <h4 class="kdm-industry-client-title">Skyriss</h4>
             <p class="kdm-industry-client-desc">Stock Trading Strategies & Wealth Management</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="the learning room">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/stock-market/The%20Learning%20Room.webp" alt="The Learning Room Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Stock Market Institute</span>
+            <h4 class="kdm-industry-client-title">The Learning Room</h4>
+            <p class="kdm-industry-client-desc">Comprehensive Stock Market Education, Options Trading & Mentorship</p>
           </div>
         </div>
         <div class="kdm-industry-client-card" data-name="the rich traders hub">
