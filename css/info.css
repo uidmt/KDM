@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Oswald:wght@500&display=swap');
-@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+/* info.css - external heavy imports removed to eliminate render blocking */
 
 /* grid layout */
 .infodesign, .infodesign::before, .infodesign::after, 
