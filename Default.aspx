@@ -34,10 +34,6 @@
         <div role="main" class="main">
             <section class="hero-section-unique">
 
-                <!-- Animated Flag GIF -->
-                <div class="hero-flag-unique">
-                    <img src="images/indian-tiranga.gif" alt="Waving Flag" width="70" height="42" fetchpriority="high">
-                </div>
                 <!-- Text -->
                 <div class="hero-text-unique">
                     <h2 id="hero-line1-unique">
