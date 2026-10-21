@@ -1,5 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs"
     Inherits="_Default" %>
+<%@ OutputCache Duration="1800" VaryByParam="none" Location="ServerAndClient" %>
     <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
         <!-- Basic -->
         <meta charset="utf-8">
@@ -190,7 +191,9 @@
                         }, 500);
                     }
 
-                    setInterval(heroUpdateText, 7500);
+                    setTimeout(function () {
+                        setInterval(heroUpdateText, 8000);
+                    }, 2500);
                 </script>
             </section>
 
