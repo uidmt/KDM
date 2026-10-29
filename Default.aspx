@@ -2413,6 +2413,94 @@
                                     </div>
                                 </div>
 
+                                <!-- Review Card 9: Asslam Shaikh (Aliff Overseas) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-9">AS</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">Asslam Shaikh</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Aliff
+                                                    Overseas · Study Abroad</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">Study Abroad Lead Gen</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"King of Digital Marketing has been our trusted digital
+                                            growth partner for Aliff Overseas. Gaurav Dubey and his dedicated team built
+                                            high-converting lead funnels that consistently generate qualified student
+                                            inquiries for overseas education. Outstanding lead generation results!"</p>
+                                    </div>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> Aliff
+                                            Overseas (Study Abroad)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Review Card 10: Mr. Ashish (Satguru Overseas) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-10">MA</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">Mr. Ashish</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i>
+                                                    Satguru Overseas · Overseas Education</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">Education Leads, SEO &amp; SMO</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"Outstanding digital marketing results for Satguru
+                                            Overseas! Gaurav Dubey's team managed our complete overseas education student
+                                            lead generation, first-page Google SEO rankings, and SMO campaigns. Reliable,
+                                            transparent, and ROI-focused digital marketing agency."</p>
+                                    </div>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> Satguru
+                                            Overseas (Overseas Education)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
