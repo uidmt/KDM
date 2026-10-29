@@ -1,2167 +1,2449 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs"
     Inherits="_Default" %>
-<%@ OutputCache Duration="1800" VaryByParam="none" Location="ServerAndClient" %>
-    <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-        <!-- Basic -->
-        <meta charset="utf-8">
-        <title>King of Digital Marketing | Digital Marketing Company Delhi</title>
-        <meta name="keywords"
-            content="Digital Marketing Company, Digital Marketing Services, Digital Marketing Agency, Digital Marketing Firm, Digital Marketing in Delhi, Digital Marketing Services in India, Digital Marketing Agency in Delhi, Digital Marketing Services in Delhi, Digital Marketing Company in India, Best Digital Marketing Agency in Delhi">
+    <%@ OutputCache Duration="1800" VaryByParam="none" Location="ServerAndClient" %>
+        <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+            <!-- Basic -->
+            <meta charset="utf-8">
+            <title>King of Digital Marketing | Digital Marketing Company Delhi</title>
+            <meta name="keywords"
+                content="Digital Marketing Company, Digital Marketing Services, Digital Marketing Agency, Digital Marketing Firm, Digital Marketing in Delhi, Digital Marketing Services in India, Digital Marketing Agency in Delhi, Digital Marketing Services in Delhi, Digital Marketing Company in India, Best Digital Marketing Agency in Delhi">
 
-        <meta name="description"
-            content="India's Best Digital Marketing Services Company in Delhi. 900+ Domestic &amp; International Projects Delivered Across 15+ Countries. Top Digital Marketing Agency in India.">
+            <meta name="description"
+                content="India's Best Digital Marketing Services Company in Delhi. 900+ Domestic &amp; International Projects Delivered Across 15+ Countries. Top Digital Marketing Agency in India.">
 
-        <meta property="og:title" content="King of Digital Marketing | Digital Marketing Company in Delhi, India" />
-        <meta property="og:description"
-            content="Result Driven Digital Marketing Services Company in Delhi. 900+ Completed Projects, 13+ Years of Proven Industry Experience, and 32+ In-House Specialists." />
+            <meta property="og:title" content="King of Digital Marketing | Digital Marketing Company in Delhi, India" />
+            <meta property="og:description"
+                content="Result Driven Digital Marketing Services Company in Delhi. 900+ Completed Projects, 13+ Years of Proven Industry Experience, and 32+ In-House Specialists." />
 
-        <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.webp">
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.kingofdigitalmarketing.com/" />
-        <meta name="twitter:card" content="summary_large_image">
-        <link rel="canonical" href="https://www.kingofdigitalmarketing.com" />
-        <link rel="shortcut icon" type="image/x-icon" href="fevicon.png">
-        <!-- Mobile Metas -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-        <link rel="dns-prefetch" href="https://www.youtube.com">
-        <link rel="dns-prefetch" href="https://www.google-analytics.com">
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-    </asp:Content>
-    <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <!--Slider Starts-->
-        <div role="main" class="main">
-            <section class="hero-section-unique">
+            <meta property="og:image" content="https://www.kingofdigitalmarketing.com/images/logo.webp">
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.kingofdigitalmarketing.com/" />
+            <meta name="twitter:card" content="summary_large_image">
+            <link rel="canonical" href="https://www.kingofdigitalmarketing.com" />
+            <link rel="shortcut icon" type="image/x-icon" href="fevicon.png">
+            <!-- Mobile Metas -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+            <link rel="dns-prefetch" href="https://www.youtube.com">
+            <link rel="dns-prefetch" href="https://www.google-analytics.com">
+            <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+        </asp:Content>
+        <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+            <!--Slider Starts-->
+            <div role="main" class="main">
+                <section class="hero-section-unique">
 
-                <!-- Text -->
-                <div class="hero-text-unique">
-                    <h2 id="hero-line1-unique">
-                        AI-Powered &amp; Next-Gen
-                    </h2>
-                    <h2 id="hero-line2-unique">
-                        AI Based Digital Marketing Services
-                    </h2>
-                    <h3 id="hero-line3-unique">
-                        REVOLUTIONIZING SEO, PPC, SMM &amp; GROWTH WITH ADVANCED AI STRATEGIES
-                    </h3>
-                </div>
-
-                <!-- Button -->
-                <a id="hero-contactBtn-unique" href="javascript:void(0);" onclick="openGlobalPopupForm()">
-                    REQUEST A CALL
-                </a>
-
-                <!-- Vibrant Trust Badges -->
-                <div class="kdm-hero-trust-wrapper">
-                    <div class="kdm-tb-headline">
-                        <span class="kdm-tb-pulse-dot"></span> RATED <strong>4.8/5 OVERALL</strong> ACROSS TOP REVIEW
-                        PLATFORMS
+                    <!-- Text -->
+                    <div class="hero-text-unique">
+                        <h2 id="hero-line1-unique">
+                            AI-Powered &amp; Next-Gen
+                        </h2>
+                        <h2 id="hero-line2-unique">
+                            AI Based Digital Marketing Services
+                        </h2>
+                        <h3 id="hero-line3-unique">
+                            REVOLUTIONIZING SEO, PPC, SMM &amp; GROWTH WITH ADVANCED AI STRATEGIES
+                        </h3>
                     </div>
-                    <div class="kdm-hero-trust-badges">
-                        <!-- Google 4.9 -->
-                        <div class="kdm-trust-badge-pill google-badge">
-                            <div class="kdm-tb-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                    <path
-                                        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-                                        fill="#4285F4" />
-                                    <path
-                                        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                                        fill="#34A853" />
-                                    <path
-                                        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
-                                        fill="#FBBC05" />
-                                    <path
-                                        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
-                                        fill="#EA4335" />
-                                </svg>
-                            </div>
-                            <div class="kdm-tb-info">
-                                <span class="kdm-tb-name">Google</span>
-                                <span class="kdm-tb-rating">4.9 <i class="fa fa-star kdm-tb-star"></i></span>
-                            </div>
-                        </div>
 
-                        <!-- Facebook 4.8 -->
-                        <div class="kdm-trust-badge-pill facebook-badge">
-                            <div class="kdm-tb-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="#1877F2">
-                                    <path
-                                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                                </svg>
-                            </div>
-                            <div class="kdm-tb-info">
-                                <span class="kdm-tb-name">Facebook</span>
-                                <span class="kdm-tb-rating">4.8 <i class="fa fa-star kdm-tb-star"></i></span>
-                            </div>
-                        </div>
+                    <!-- Button -->
+                    <a id="hero-contactBtn-unique" href="javascript:void(0);" onclick="openGlobalPopupForm()">
+                        REQUEST A CALL
+                    </a>
 
-                        <!-- Clutch 4.6 -->
-                        <div class="kdm-trust-badge-pill clutch-badge">
-                            <div class="kdm-tb-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.89 6.11a5.5 5.5 0 1 0 0 7.78.8.8 0 1 0-1.13-1.13 3.9 3.9 0 1 1 0-5.52.8.8 0 0 0 1.13-1.13z"
-                                        fill="#ffffff" />
-                                    <circle cx="17.5" cy="6.5" r="2.8" fill="#FF4742" />
-                                </svg>
-                            </div>
-                            <div class="kdm-tb-info">
-                                <span class="kdm-tb-name">Clutch</span>
-                                <span class="kdm-tb-rating">4.6 <i class="fa fa-star kdm-tb-star"></i></span>
-                            </div>
+                    <!-- Vibrant Trust Badges -->
+                    <div class="kdm-hero-trust-wrapper">
+                        <div class="kdm-tb-headline">
+                            <span class="kdm-tb-pulse-dot"></span> RATED <strong>4.8/5 OVERALL</strong> ACROSS TOP
+                            REVIEW
+                            PLATFORMS
                         </div>
+                        <div class="kdm-hero-trust-badges">
+                            <!-- Google 4.9 -->
+                            <div class="kdm-trust-badge-pill google-badge">
+                                <div class="kdm-tb-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <path
+                                            d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                                            fill="#4285F4" />
+                                        <path
+                                            d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                                            fill="#34A853" />
+                                        <path
+                                            d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
+                                            fill="#FBBC05" />
+                                        <path
+                                            d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
+                                            fill="#EA4335" />
+                                    </svg>
+                                </div>
+                                <div class="kdm-tb-info">
+                                    <span class="kdm-tb-name">Google</span>
+                                    <span class="kdm-tb-rating">4.9 <i class="fa fa-star kdm-tb-star"></i></span>
+                                </div>
+                            </div>
 
-                        <!-- Justdial 4.7 -->
-                        <div class="kdm-trust-badge-pill justdial-badge">
-                            <div class="kdm-tb-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                    <rect width="24" height="24" rx="6" fill="#FF6600" />
-                                    <text x="12" y="16.5" font-family="Arial, sans-serif" font-weight="900"
-                                        font-size="13" fill="#FFFFFF" text-anchor="middle">JD</text>
-                                </svg>
+                            <!-- Facebook 4.8 -->
+                            <div class="kdm-trust-badge-pill facebook-badge">
+                                <div class="kdm-tb-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#1877F2">
+                                        <path
+                                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                    </svg>
+                                </div>
+                                <div class="kdm-tb-info">
+                                    <span class="kdm-tb-name">Facebook</span>
+                                    <span class="kdm-tb-rating">4.8 <i class="fa fa-star kdm-tb-star"></i></span>
+                                </div>
                             </div>
-                            <div class="kdm-tb-info">
-                                <span class="kdm-tb-name">Justdial</span>
-                                <span class="kdm-tb-rating">4.7 <i class="fa fa-star kdm-tb-star"></i></span>
-                            </div>
-                        </div>
 
-                        <!-- GoodFirms 4.4 -->
-                        <div class="kdm-trust-badge-pill goodwork-badge">
-                            <div class="kdm-tb-icon">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                    <rect width="24" height="24" rx="6" fill="#1C61AC" />
-                                    <path d="M7 12.5l3.2 3.2L17 8.5" stroke="#FFFFFF" stroke-width="2.8"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
+                            <!-- Clutch 4.6 -->
+                            <div class="kdm-trust-badge-pill clutch-badge">
+                                <div class="kdm-tb-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.89 6.11a5.5 5.5 0 1 0 0 7.78.8.8 0 1 0-1.13-1.13 3.9 3.9 0 1 1 0-5.52.8.8 0 0 0 1.13-1.13z"
+                                            fill="#ffffff" />
+                                        <circle cx="17.5" cy="6.5" r="2.8" fill="#FF4742" />
+                                    </svg>
+                                </div>
+                                <div class="kdm-tb-info">
+                                    <span class="kdm-tb-name">Clutch</span>
+                                    <span class="kdm-tb-rating">4.6 <i class="fa fa-star kdm-tb-star"></i></span>
+                                </div>
                             </div>
-                            <div class="kdm-tb-info">
-                                <span class="kdm-tb-name">GoodFirms</span>
-                                <span class="kdm-tb-rating">4.4 <i class="fa fa-star kdm-tb-star"></i></span>
+
+                            <!-- Justdial 4.7 -->
+                            <div class="kdm-trust-badge-pill justdial-badge">
+                                <div class="kdm-tb-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <rect width="24" height="24" rx="6" fill="#FF6600" />
+                                        <text x="12" y="16.5" font-family="Arial, sans-serif" font-weight="900"
+                                            font-size="13" fill="#FFFFFF" text-anchor="middle">JD</text>
+                                    </svg>
+                                </div>
+                                <div class="kdm-tb-info">
+                                    <span class="kdm-tb-name">Justdial</span>
+                                    <span class="kdm-tb-rating">4.7 <i class="fa fa-star kdm-tb-star"></i></span>
+                                </div>
+                            </div>
+
+                            <!-- GoodFirms 4.4 -->
+                            <div class="kdm-trust-badge-pill goodwork-badge">
+                                <div class="kdm-tb-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <rect width="24" height="24" rx="6" fill="#1C61AC" />
+                                        <path d="M7 12.5l3.2 3.2L17 8.5" stroke="#FFFFFF" stroke-width="2.8"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div class="kdm-tb-info">
+                                    <span class="kdm-tb-name">GoodFirms</span>
+                                    <span class="kdm-tb-rating">4.4 <i class="fa fa-star kdm-tb-star"></i></span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <script>
-                    // Open Popup
-                    document.getElementById("hero-contactBtn-unique").addEventListener("click", function (e) {
-                        e.preventDefault();
-                        openGlobalPopupForm();
-                    });
+                    <script>
+                        // Open Popup
+                        document.getElementById("hero-contactBtn-unique").addEventListener("click", function (e) {
+                            e.preventDefault();
+                            openGlobalPopupForm();
+                        });
 
-                    // Close Popup
-                    function heroClosePopup() {
-                        closeGlobalPopupForm();
-                    }
-                </script>
-                <script>
+                        // Close Popup
+                        function heroClosePopup() {
+                            closeGlobalPopupForm();
+                        }
+                    </script>
+                    <script>
 
-                    const heroLines = [
-                        { l1: "AI-POWERED & NEXT-GEN", l2: "AI Based Digital Marketing Services", l3: "REVOLUTIONIZING SEO, PPC, SMM & GROWTH WITH ADVANCED AI STRATEGIES" },
-                        // { l1: "Results Driven", l2: "Digital Marketing Services", l3: "TRUSTED BY 850+ BRANDS WORLDWIDE TO DRIVE TRAFFIC, LEADS & GROWTH" },
-                        { l1: "PERFORMANCE FOCUSED", l2: "LEAD GENERATION SERVICES", l3: "Helped 400+ Clients Achieve Over 10Lakh+ Qualified Leads Since 2013" },
-                        { l1: "SMART SALES STRATEGIES FOR", l2: "ECOMMERCE MARKETING", l3: "Maximizing Conversions & ROI with Meta, Google, Flipkart, Amazon Ads" },
-                        { l1: "NEXT-GEN & AI-ORIENTED", l2: "AI ORIENTED SEO SERVICES", l3: "OPTIMIZING FOR GOOGLE, CHATGPT, PERPLEXITY & AI OVERVIEWS WITH TOP RANKINGS" },
-                        { l1: "INNOVATIVE STRATEGIES FOR", l2: "SOCIAL MEDIA SERVICES", l3: "Helping Brands Boost Engagement, Grow Followers, and Maximize ROI" }
-                    ];
+                        const heroLines = [
+                            { l1: "AI-POWERED & NEXT-GEN", l2: "AI Based Digital Marketing Services", l3: "REVOLUTIONIZING SEO, PPC, SMM & GROWTH WITH ADVANCED AI STRATEGIES" },
+                            // { l1: "Results Driven", l2: "Digital Marketing Services", l3: "TRUSTED BY 850+ BRANDS WORLDWIDE TO DRIVE TRAFFIC, LEADS & GROWTH" },
+                            { l1: "PERFORMANCE FOCUSED", l2: "LEAD GENERATION SERVICES", l3: "Helped 400+ Clients Achieve Over 10Lakh+ Qualified Leads Since 2013" },
+                            { l1: "SMART SALES STRATEGIES FOR", l2: "ECOMMERCE MARKETING", l3: "Maximizing Conversions & ROI with Meta, Google, Flipkart, Amazon Ads" },
+                            { l1: "NEXT-GEN & AI-ORIENTED", l2: "AI ORIENTED SEO SERVICES", l3: "OPTIMIZING FOR GOOGLE, CHATGPT, PERPLEXITY & AI OVERVIEWS WITH TOP RANKINGS" },
+                            { l1: "INNOVATIVE STRATEGIES FOR", l2: "SOCIAL MEDIA SERVICES", l3: "Helping Brands Boost Engagement, Grow Followers, and Maximize ROI" }
+                        ];
 
-                    let heroIndex = 0;
-                    const hL1 = document.getElementById("hero-line1-unique");
-                    const hL2 = document.getElementById("hero-line2-unique");
-                    const hL3 = document.getElementById("hero-line3-unique");
+                        let heroIndex = 0;
+                        const hL1 = document.getElementById("hero-line1-unique");
+                        const hL2 = document.getElementById("hero-line2-unique");
+                        const hL3 = document.getElementById("hero-line3-unique");
 
-                    function heroUpdateText() {
-                        hL1.style.animation = "heroFadeOut .5s ease forwards";
-                        hL2.style.animation = "heroFadeOut .5s ease forwards";
-                        hL3.style.animation = "heroFadeOut .5s ease forwards";
+                        function heroUpdateText() {
+                            hL1.style.animation = "heroFadeOut .5s ease forwards";
+                            hL2.style.animation = "heroFadeOut .5s ease forwards";
+                            hL3.style.animation = "heroFadeOut .5s ease forwards";
 
-                        setTimeout(() => {
-                            heroIndex = (heroIndex + 1) % heroLines.length;
-                            hL1.textContent = heroLines[heroIndex].l1;
-                            hL2.textContent = heroLines[heroIndex].l2;
-                            hL3.textContent = heroLines[heroIndex].l3;
+                            setTimeout(() => {
+                                heroIndex = (heroIndex + 1) % heroLines.length;
+                                hL1.textContent = heroLines[heroIndex].l1;
+                                hL2.textContent = heroLines[heroIndex].l2;
+                                hL3.textContent = heroLines[heroIndex].l3;
 
-                            hL1.style.animation = "heroFadeIn .8s ease forwards";
-                            hL2.style.animation = "heroFadeIn .8s .3s ease forwards";
-                            hL3.style.animation = "heroFadeIn .8s .6s ease forwards";
-                        }, 500);
-                    }
+                                hL1.style.animation = "heroFadeIn .8s ease forwards";
+                                hL2.style.animation = "heroFadeIn .8s .3s ease forwards";
+                                hL3.style.animation = "heroFadeIn .8s .6s ease forwards";
+                            }, 500);
+                        }
 
-                    setTimeout(function () {
-                        setInterval(heroUpdateText, 8000);
-                    }, 2500);
-                </script>
-            </section>
+                        setTimeout(function () {
+                            setInterval(heroUpdateText, 8000);
+                        }, 2500);
+                    </script>
+                </section>
 
 
-        </div>
-        <!--Strip Below Slider-->
-        <div id="strip"></div>
-        <div class="home-intro">
-            <div class="container ">
-                <div class="row custom-row">
-                    <div class="col-md-8">
-                        <p>Your Business and Goals, Our Solution and Results <em>We Strictly Focus on ROI</em>
-                            <span>Let's Take
-                                Your Business Global With Performance Driven Digital Marketing Services.</span>
-                        </p>
-                    </div>
-                    <div class="col-md-4">
+            </div>
+            <!--Strip Below Slider-->
+            <div id="strip"></div>
+            <div class="home-intro">
+                <div class="container ">
+                    <div class="row custom-row">
+                        <div class="col-md-8">
+                            <p>Your Business and Goals, Our Solution and Results <em>We Strictly Focus on ROI</em>
+                                <span>Let's Take
+                                    Your Business Global With Performance Driven Digital Marketing Services.</span>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Strip Below Slider Ends-->
-        <!--Expertise Carousel Starts-->
-        <!-- Services Carousel Section -->
-        <section class="top">
-            <div class="container ">
-                <div class="row push-top" id="projects">
-                    <h1 align="center">BEST DIGITAL MARKETING COMPANY IN DELHI, INDIA</h1>
-                    <div class="col-md-12">
+            <!--Strip Below Slider Ends-->
+            <!--Expertise Carousel Starts-->
+            <!-- Services Carousel Section -->
+            <section class="top">
+                <div class="container ">
+                    <div class="row push-top" id="projects">
+                        <h1 align="center">BEST DIGITAL MARKETING COMPANY IN DELHI, INDIA</h1>
                         <div class="col-md-12">
-                            <h2 align="center"><strong>Our Expertise</strong></h2>
+                            <div class="col-md-12">
+                                <h2 align="center"><strong>Our Expertise</strong></h2>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="services-images-section">
-                        <div class="services-images-container">
-                            <div class="container ">
-                                <div class="row">
-                                    <div class="services-images-track">
+                        <div class="services-images-section">
+                            <div class="services-images-container">
+                                <div class="container ">
+                                    <div class="row">
+                                        <div class="services-images-track">
 
-                                        <!-- Service 1 -->
-                                        <div class="service-images-item">
-                                            <div class="service-images-box text-center">
-                                                <div class="service-icon">
-                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
-                                                        stroke="#4ecdc4" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                        <circle cx="12" cy="12" r="10" />
-                                                        <circle cx="12" cy="12" r="6" />
-                                                        <circle cx="12" cy="12" r="2" />
-                                                    </svg>
+                                            <!-- Service 1 -->
+                                            <div class="service-images-item">
+                                                <div class="service-images-box text-center">
+                                                    <div class="service-icon">
+                                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                            stroke="#4ecdc4" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <circle cx="12" cy="12" r="10" />
+                                                            <circle cx="12" cy="12" r="6" />
+                                                            <circle cx="12" cy="12" r="2" />
+                                                        </svg>
+                                                    </div>
+                                                    <h3 class="service-name">Lead Generation</h3>
+                                                    <div class="projects-done" style="color:#4ecdc4;">620+</div>
+                                                    <div class="projects-label">Projects Done</div>
                                                 </div>
-                                                <h3 class="service-name">Lead Generation</h3>
-                                                <div class="projects-done" style="color:#4ecdc4;">620+</div>
-                                                <div class="projects-label">Projects Done</div>
                                             </div>
-                                        </div>
 
-                                        <!-- Service 2 -->
-                                        <div class="service-images-item">
-                                            <div class="service-images-box text-center">
-                                                <div class="service-icon">
-                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
-                                                        stroke="#4ecdc4" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                        <circle cx="11" cy="11" r="8" />
-                                                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                                                        <polyline points="7 14 10 11 13 13 16 9" />
-                                                    </svg>
+                                            <!-- Service 2 -->
+                                            <div class="service-images-item">
+                                                <div class="service-images-box text-center">
+                                                    <div class="service-icon">
+                                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                            stroke="#4ecdc4" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <circle cx="11" cy="11" r="8" />
+                                                            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                                            <polyline points="7 14 10 11 13 13 16 9" />
+                                                        </svg>
+                                                    </div>
+                                                    <h3 class="service-name">SEO Services</h3>
+                                                    <div class="projects-done" style="color:#4ecdc4;">550+</div>
+                                                    <div class="projects-label">Projects Done</div>
                                                 </div>
-                                                <h3 class="service-name">SEO Services</h3>
-                                                <div class="projects-done" style="color:#4ecdc4;">550+</div>
-                                                <div class="projects-label">Projects Done</div>
                                             </div>
-                                        </div>
 
-                                        <!-- Service 3 -->
-                                        <div class="service-images-item">
-                                            <div class="service-images-box text-center">
-                                                <div class="service-icon">
-                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="#a78bfa">
-                                                        <path
-                                                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                                                    </svg>
+                                            <!-- Service 3 -->
+                                            <div class="service-images-item">
+                                                <div class="service-images-box text-center">
+                                                    <div class="service-icon">
+                                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="#a78bfa">
+                                                            <path
+                                                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                                        </svg>
+                                                    </div>
+                                                    <h3 class="service-name">Meta Ads Services</h3>
+                                                    <div class="projects-done" style="color:#a78bfa;">370+</div>
+                                                    <div class="projects-label">Projects Done</div>
                                                 </div>
-                                                <h3 class="service-name">Meta Ads Services</h3>
-                                                <div class="projects-done" style="color:#a78bfa;">370+</div>
-                                                <div class="projects-label">Projects Done</div>
                                             </div>
-                                        </div>
 
-                                        <!-- Service 4 -->
-                                        <div class="service-images-item">
-                                            <div class="service-images-box text-center">
-                                                <div class="service-icon">
-                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="#06d6a0">
-                                                        <path
-                                                            d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
-                                                    </svg>
+                                            <!-- Service 4 -->
+                                            <div class="service-images-item">
+                                                <div class="service-images-box text-center">
+                                                    <div class="service-icon">
+                                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="#06d6a0">
+                                                            <path
+                                                                d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                                                        </svg>
+                                                    </div>
+                                                    <h3 class="service-name">LinkedIn Ads</h3>
+                                                    <div class="projects-done" style="color:#06d6a0;">25+</div>
+                                                    <div class="projects-label">Projects Done</div>
                                                 </div>
-                                                <h3 class="service-name">LinkedIn Ads</h3>
-                                                <div class="projects-done" style="color:#06d6a0;">25+</div>
-                                                <div class="projects-label">Projects Done</div>
                                             </div>
-                                        </div>
 
-                                        <!-- Service 5 -->
-                                        <div class="service-images-item">
-                                            <div class="service-images-box text-center">
-                                                <div class="service-icon">
-                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
-                                                        stroke="#ffd166" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                        <circle cx="11" cy="11" r="8" />
-                                                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                                                        <line x1="11" y1="8" x2="11" y2="14" />
-                                                        <line x1="8" y1="11" x2="14" y2="11" />
-                                                    </svg>
+                                            <!-- Service 5 -->
+                                            <div class="service-images-item">
+                                                <div class="service-images-box text-center">
+                                                    <div class="service-icon">
+                                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                            stroke="#ffd166" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <circle cx="11" cy="11" r="8" />
+                                                            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                                            <line x1="11" y1="8" x2="11" y2="14" />
+                                                            <line x1="8" y1="11" x2="14" y2="11" />
+                                                        </svg>
+                                                    </div>
+                                                    <h3 class="service-name">Google Ads Services</h3>
+                                                    <div class="projects-done" style="color:#ffd166;">220+</div>
+                                                    <div class="projects-label">Projects Done</div>
                                                 </div>
-                                                <h3 class="service-name">Google Ads Services</h3>
-                                                <div class="projects-done" style="color:#ffd166;">220+</div>
-                                                <div class="projects-label">Projects Done</div>
                                             </div>
-                                        </div>
 
-                                        <!-- Service 6 -->
-                                        <div class="service-images-item">
-                                            <div class="service-images-box text-center">
-                                                <div class="service-icon">
-                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
-                                                        stroke="#ff9f1c" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                                                        <circle cx="9" cy="7" r="4" />
-                                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                                                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                                                    </svg>
+                                            <!-- Service 6 -->
+                                            <div class="service-images-item">
+                                                <div class="service-images-box text-center">
+                                                    <div class="service-icon">
+                                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                            stroke="#ff9f1c" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                                            <circle cx="9" cy="7" r="4" />
+                                                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                                        </svg>
+                                                    </div>
+                                                    <h3 class="service-name">Social Media Management</h3>
+                                                    <div class="projects-done" style="color:#ff9f1c;">700+</div>
+                                                    <div class="projects-label">Projects Done</div>
                                                 </div>
-                                                <h3 class="service-name">Social Media Management</h3>
-                                                <div class="projects-done" style="color:#ff9f1c;">700+</div>
-                                                <div class="projects-label">Projects Done</div>
                                             </div>
-                                        </div>
 
-                                        <!-- Service 7 -->
-                                        <div class="service-images-item">
-                                            <div class="service-images-box text-center">
-                                                <div class="service-icon">
-                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
-                                                        stroke="#118ab2" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                        <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
-                                                        <line x1="12" y1="18" x2="12.01" y2="18" />
-                                                    </svg>
+                                            <!-- Service 7 -->
+                                            <div class="service-images-item">
+                                                <div class="service-images-box text-center">
+                                                    <div class="service-icon">
+                                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                            stroke="#118ab2" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                                                            <line x1="12" y1="18" x2="12.01" y2="18" />
+                                                        </svg>
+                                                    </div>
+                                                    <h3 class="service-name">Mobile App Promotion</h3>
+                                                    <div class="projects-done" style="color:#118ab2;">75+</div>
+                                                    <div class="projects-label">Projects Done</div>
                                                 </div>
-                                                <h3 class="service-name">Mobile App Promotion</h3>
-                                                <div class="projects-done" style="color:#118ab2;">75+</div>
-                                                <div class="projects-label">Projects Done</div>
                                             </div>
-                                        </div>
 
-                                        <!-- Service 8 -->
-                                        <div class="service-images-item">
-                                            <div class="service-images-box text-center">
-                                                <div class="service-icon">
-                                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
-                                                        stroke="#ef476f" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round">
-                                                        <circle cx="9" cy="21" r="1" />
-                                                        <circle cx="20" cy="21" r="1" />
-                                                        <path
-                                                            d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-                                                    </svg>
+                                            <!-- Service 8 -->
+                                            <div class="service-images-item">
+                                                <div class="service-images-box text-center">
+                                                    <div class="service-icon">
+                                                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                            stroke="#ef476f" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <circle cx="9" cy="21" r="1" />
+                                                            <circle cx="20" cy="21" r="1" />
+                                                            <path
+                                                                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                                                        </svg>
+                                                    </div>
+                                                    <h3 class="service-name">Amazon/Flipkart Marketing</h3>
+                                                    <div class="projects-done" style="color:#ef476f;">45+</div>
+                                                    <div class="projects-label">Projects Done</div>
                                                 </div>
-                                                <h3 class="service-name">Amazon/Flipkart Marketing</h3>
-                                                <div class="projects-done" style="color:#ef476f;">45+</div>
-                                                <div class="projects-label">Projects Done</div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Navigation -->
-                            <div class="services-images-nav">
-                                <button class="services-images-btn services-images-prev">
-                                    <svg viewBox="0 0 24 24">
-                                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
-                                    </svg>
-                                </button>
+                                <!-- Navigation -->
+                                <div class="services-images-nav">
+                                    <button class="services-images-btn services-images-prev">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                                        </svg>
+                                    </button>
 
-                                <button class="services-images-btn services-images-next">
-                                    <svg viewBox="0 0 24 24">
-                                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
-                                    </svg>
-                                </button>
+                                    <button class="services-images-btn services-images-next">
+                                        <svg viewBox="0 0 24 24">
+                                            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                                        </svg>
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
                     </div>
                 </div>
-        </section>
-        <!-- King of Digital Marketing Dark Section Starts -->
-        <section class="kdm-intro-dark-section">
+            </section>
+            <!-- King of Digital Marketing Dark Section Starts -->
+            <section class="kdm-intro-dark-section">
 
-            <div class="container" style="position: relative; z-index: 2;">
-                <div class="row custom-row align-items-center">
+                <div class="container" style="position: relative; z-index: 2;">
+                    <div class="row custom-row align-items-center">
 
-                    <!-- Left Column: Agency Overview & Highlights -->
-                    <div class="col-md-7">
-                        <div class="kdm-theme-badge">
-                            <i class="fa fa-crown"></i> ESTABLISHED SINCE 2013
+                        <!-- Left Column: Agency Overview & Highlights -->
+                        <div class="col-md-7">
+                            <div class="kdm-theme-badge">
+                                <i class="fa fa-crown"></i> ESTABLISHED SINCE 2013
+                            </div>
+                            <h2 class="kdm-dark-heading">
+                                King of <span class="kdm-theme-gradient">Digital Marketing</span>
+                            </h2>
+
+                            <p align="justify">
+                                Since 2013, King of Digital Marketing has been helping businesses across India and 15+
+                                countries worldwide. We are a Delhi-based digital marketing company built on one simple
+                                belief: <b>results matter more than reports</b>. Over the past decade, our team has
+                                worked
+                                across <b>900+ projects</b> from India and the United States, United Kingdom, Canada,
+                                Australia, Germany, UAE, Singapore, Turkey, Russia, and beyond. From domestic projects
+                                to
+                                international clients, we have helped small, mid-sized, and large businesses solve real
+                                problems like poor lead quality, low organic traffic, poor Google rankings, stagnant
+                                leads
+                                and flat conversion rates.
+                            </p>
+
+                            <p align="justify">
+                                <b>What We Do?</b> We bring together professionalism, passion, and performance through
+                                our
+                                proven <a href="lead-generation-company.aspx">Lead Generation Services</a> with <a
+                                    href="social-media-marketing-services.aspx">Social Media Marketing</a> or <a
+                                    href="blog/best-ppc-services-in-delhi.html">PPC Management (Google Ads)</a>. King of
+                                Digital Marketing is an integral part of <strong>Devweboic Tech. OPC Pvt. Ltd.</strong>
+                                - A
+                                group of digital marketing company, Digital Marketing Freelancer and Digital Marketing
+                                Training Institute. We are here to help you become the best in your industry. We assign
+                                a
+                                team of digital marketing experts to provide amplification for your brand. Our Dedicated
+                                digital marketing specialists are with over 13+ years of experience in their field. They
+                                are
+                                passionate about growing your business by driving qualified leads, increasing sales and
+                                maximizing your visibility across Google and social media platforms. We have experts for
+                                <a href="SEO-Services.aspx">SEO services</a>, <a href="SMO-Services.aspx">Social Media
+                            </p>
+
+                            <div style="margin-top: 24px;">
+                                <a href="tel:+919821918208" target="_blank" class="kdm-btn-primary-glow">
+                                    <i class="fa fa-phone fa-solid fa-phone"></i> Let's Talk About Your Business
+                                </a>
+                                <a href="/About-Us.aspx" target="_blank" class="kdm-btn-glass">
+                                    Know More About Us <i class="fa fa-arrow-right fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
-                        <h2 class="kdm-dark-heading">
-                            King of <span class="kdm-theme-gradient">Digital Marketing</span>
-                        </h2>
 
-                        <p align="justify">
-                            Since 2013, King of Digital Marketing has been helping businesses across India and 15+
-                            countries worldwide. We are a Delhi-based digital marketing company built on one simple
-                            belief: <b>results matter more than reports</b>. Over the past decade, our team has worked
-                            across <b>900+ projects</b> from India and the United States, United Kingdom, Canada,
-                            Australia, Germany, UAE, Singapore, Turkey, Russia, and beyond. From domestic projects to
-                            international clients, we have helped small, mid-sized, and large businesses solve real
-                            problems like poor lead quality, low organic traffic, poor Google rankings, stagnant leads
-                            and flat conversion rates.
+                        <!-- Right Column: Founder & CEO Profile Card -->
+                        <div class="col-md-5">
+                            <div class="kdm-founder-card">
+                                <div>
+                                    <div class="kdm-founder-img-wrapper">
+                                        <img src="images/Gaurav Dubey Digital Marketing trainer.webp"
+                                            alt="Gaurav Dubey - Founder & CEO" class="kdm-founder-img" loading="lazy"
+                                            decoding="async" />
+                                    </div>
+                                    <h3 class="kdm-founder-name">Gaurav Dubey</h3>
+                                    <div class="kdm-founder-title">Founder &amp; CEO</div>
+                                    <div class="kdm-founder-quote">
+                                        <i class="fa fa-quote-left fa-solid fa-quote-left"></i> Driving data-driven
+                                        digital
+                                        growth, high ROI &amp; lead ecosystems across 15+ countries since 2013.
+                                    </div>
+                                </div>
+
+                                <!-- 4 Stats Cards Grid Above Social Icons -->
+                                <div class="kdm-left-stats-grid kdm-founder-stats-grid">
+                                    <div class="kdm-left-stat-card">
+                                        <div class="kdm-left-stat-icon"><i
+                                                class="fa fa-user-md fa-solid fa-user-tie"></i>
+                                        </div>
+                                        <div class="kdm-left-stat-info">
+                                            <strong>13+ Yrs Exp.</strong>
+                                            <span>Senior Consultants</span>
+                                        </div>
+                                    </div>
+                                    <div class="kdm-left-stat-card">
+                                        <div class="kdm-left-stat-icon"><i
+                                                class="fa fa-check-circle fa-solid fa-circle-check"></i></div>
+                                        <div class="kdm-left-stat-info">
+                                            <strong>900+ Projects</strong>
+                                            <span>High ROI Delivered</span>
+                                        </div>
+                                    </div>
+                                    <div class="kdm-left-stat-card">
+                                        <div class="kdm-left-stat-icon"><i class="fa fa-globe fa-solid fa-globe"></i>
+                                        </div>
+                                        <div class="kdm-left-stat-info">
+                                            <strong>15+ Countries</strong>
+                                            <span>Global Clients Served</span>
+                                        </div>
+                                    </div>
+                                    <div class="kdm-left-stat-card">
+                                        <div class="kdm-left-stat-icon"><i
+                                                class="fa fa-graduation-cap fa-solid fa-graduation-cap"></i></div>
+                                        <div class="kdm-left-stat-info">
+                                            <strong>1,850+ Students</strong>
+                                            <span>Trained Professionals</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="kdm-founder-socials">
+                                    <a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank"
+                                        class="kdm-founder-social-btn linkedin" title="LinkedIn"><i
+                                            class="fa fa-linkedin fa-brands fa-linkedin"></i></a>
+                                    <a href="https://www.facebook.com/gauravdubey.in" target="_blank"
+                                        class="kdm-founder-social-btn facebook" title="Facebook"><i
+                                            class="fa fa-facebook fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://x.com/iamgauravdubey" target="_blank"
+                                        class="kdm-founder-social-btn twitter" title="Twitter / X"><i
+                                            class="fa fa-twitter fa-brands fa-x-twitter"></i></a>
+                                    <a href="https://www.instagram.com/gauravdubey.in/" target="_blank"
+                                        class="kdm-founder-social-btn instagram" title="Instagram"><i
+                                            class="fa fa-instagram fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/@thegauravdubey" target="_blank"
+                                        class="kdm-founder-social-btn youtube" title="YouTube"><i
+                                            class="fa fa-youtube-play fa-brands fa-youtube"></i></a>
+                                </div>
+
+                                <a href="gaurav-dubey.aspx" target="_blank" class="kdm-founder-profile-link">
+                                    <i class="fa fa-user-circle fa-solid fa-circle-user"></i> View Gaurav Dubey's Full
+                                    Profile
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- King of Digital Marketing Dark Section Ends -->
+
+            <!-- ===== CLIENTS TRUST & LOGOS SECTION (WHITE THEME) ===== -->
+            <section class="kdm-clients-white-section">
+                <div class="container">
+                    <div class="row custom-row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="kdm-clients-header">
+                                <div class="kdm-clients-badge">
+                                    <i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
+                                </div>
+                                <h2 class="kdm-clients-title">Your Trust Made Us Top <span
+                                        class="kdm-blue-gradient">Digital
+                                        Marketing Company</span> To Help Flourish Your Business</h2>
+                                <p class="kdm-clients-subtitle">
+                                    What makes us distinct is our valuable clients. We strive day in and day out to
+                                    secure
+                                    their branding, online reputation, visibility, high-converting traffic, and
+                                    qualified
+                                    lead generation.
+                                </p>
+                                <div class="kdm-clients-motto-wrapper">
+                                    <div class="kdm-clients-motto">
+                                        <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+                                            Ambitious</span>
+                                        <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+                                            Experts</span>
+                                        <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
+                                            Shepherd</span>
+                                        <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are
+                                            King</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="happy" id="images">
+                                <div class="track">
+                                    <!-- Featured Priority Client Logos -->
+                                    <div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="SkinLab Jamuna Pai"
+                                            src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="QHT" src="images/QHT.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="CANX Immigration" src="images/canx.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="Global Opportunities"
+                                            src="images/client/global-opportunies.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Planet Education"
+                                            src="images/client/planet-education.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Continental Immigration"
+                                            src="images/ContinentalImmigration.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Scala" src="images/scala.png" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Kidney Care Centre"
+                                            src="images/Kidney care centre.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"
+                                            loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"
+                                            loading="lazy" decoding="async"></div>
+
+                                    <!-- Additional Client Logos -->
+                                    <div class="slide"><img alt="satguru" src="images/satguru--logo.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="Indian-Institute"
+                                            src="images/Indian-Institute-logo.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp"
+                                            loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"
+                                            loading="lazy" decoding="async"></div>
+
+                                    <div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="heal24" src="images/cliniq_img.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="city clinics" src="images/dncc_img.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="get study visa"
+                                            src="images/afflatusglobalvisa_img.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="heal24" src="images/monickaagupta_img.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="city clinics" src="images/aicsimmigration.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="get study visa" src="images/get.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="Planet education" src="images/pl.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="R&P" src="images/rp.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="canx" src="images/canx.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="Meena Bazar" src="images/mb-Meena-Bazar_img.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Lakhotia" src="images/lakhotia_img.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"> <img alt="Kidney Care Centre"
+                                            src="images/kidney care centre_img.jpg" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Iskcon Delhi" src="images/KAN_VISA_DIRECTIOn_img.webp"
+                                            loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Website Development in delhi"
+                                            src="images/iskcon delhi_img.webp" loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Hair Transplant Medispa"
+                                            src="images/hair transplant medispa_img.jpg" loading="lazy"
+                                            decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Dreamzone Allahabad"
+                                            src="images/dreamzone allahabad.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Dr Pk Talwar" src="images/dr pk talwar_img.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="go to university" src="images/go to university_img.jpg"
+                                            loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="tradeFD" src="images/trade.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Astro Gagan Sharma"
+                                            src="images/Astro Gagan Sharma.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Art of Making Money"
+                                            src="images/Art of Making Money.jpg" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="One Wellness Fitness Club"
+                                            src="images/One Wellness Fitness Club.jpg" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="solar farmer" src="images/solar farmer.jpg"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="aliff" src="images/aliff_img.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="fractionate" src="images/fractionate_img.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"> <img alt="Dr" src="images/Dr.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="dirish sharma" src="images/dirish-sharma-logo.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="City House" src="images/City-House-PG-logo.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Amazing Holidays"
+                                            src="images/Amazing-Holidays-logo.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Aksira education"
+                                            src="images/Aksira-education-logo.webp" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="jashvi consultant"
+                                            src="images/jashvi consultant_img.jpg" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.webp"
+                                            loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="MTel" src="images/MTel_img.webp" loading="lazy"
+                                            decoding="async"></div>
+                                    <div class="slide"><img alt="Pinnacle Consulting"
+                                            src="images/Pinnacle Consulting_img.jpg" loading="lazy" decoding="async">
+                                    </div>
+                                    <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.webp"
+                                            loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img alt="Preetiesdeitclinic"
+                                            src="images/Preetiesdeitclinic.webp" loading="lazy" decoding="async">
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Clients Logos Portfolio Container -->
+            <!-- ===== HOW DO WE EMPOWER YOU DIGITALLY SECTION ===== -->
+            <section class="empower-section">
+                <div class="container">
+                    <div class="empower-header text-center">
+                        <span class="empower-badge"><i class="fa fa-star"></i> OUR CORE SPECIALIZATIONS</span>
+                        <h2 class="empower-title">How Do We Empower You <span
+                                class="empower-title-gradient">Digitally</span></h2>
+                        <p class="empower-subtitle">
+                            At <strong>King of Digital Marketing</strong>, we build high-performing digital ecosystems
+                            designed to
+                            dominate your market. Driven by 13+ Years of expertise, AI technology, and top strategist
+                            talent, explore
+                            our premier specialized services below.
                         </p>
+                    </div>
 
-                        <p align="justify">
-                            <b>What We Do?</b> We bring together professionalism, passion, and performance through our
-                            proven <a href="lead-generation-company.aspx">Lead Generation Services</a> with <a
-                                href="social-media-marketing-services.aspx">Social Media Marketing</a> or <a
-                                href="blog/best-ppc-services-in-delhi.html">PPC Management (Google Ads)</a>. King of
-                            Digital Marketing is an integral part of <strong>Devweboic Tech. OPC Pvt. Ltd.</strong> - A
-                            group of digital marketing company, Digital Marketing Freelancer and Digital Marketing
-                            Training Institute. We are here to help you become the best in your industry. We assign a
-                            team of digital marketing experts to provide amplification for your brand. Our Dedicated
-                            digital marketing specialists are with over 13+ years of experience in their field. They are
-                            passionate about growing your business by driving qualified leads, increasing sales and
-                            maximizing your visibility across Google and social media platforms. We have experts for <a
-                                href="SEO-Services.aspx">SEO services</a>, <a href="SMO-Services.aspx">Social Media
+                    <div class="empower-grid">
+
+                        <!-- Card 1: Lead Generation -->
+                        <div class="empower-card card-emerald">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-emerald">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 12A10 10 0 1 1 12 2a10 10 0 0 1 10 10z" />
+                                        <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
+                                        <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">HIGH CONVERSION</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="lead-generation-company.aspx">Lead Generation</a>
+                            </h3>
+                            <p class="empower-card-text">
+                                Increase quality leads with targeted sales funnels. We identify, create, engage, and
+                                convert
+                                high-intent
+                                prospects into loyal buyers across paid &amp; organic channels.
+                            </p>
+                            <a href="lead-generation-company.aspx" class="empower-card-btn btn-emerald">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 2: Google Ads Services -->
+                        <div class="empower-card card-blue">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-blue">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="11" cy="11" r="8" />
+                                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                        <line x1="11" y1="8" x2="11" y2="14" />
+                                        <line x1="8" y1="11" x2="14" y2="11" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">INSTANT TRAFFIC</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="blog/best-ppc-services-in-delhi.html">Google Ads
+                                    Services</a></h3>
+                            <p class="empower-card-text">
+                                Rank on Page 1 of Google immediately. Stand out before active search buyers to capture
+                                maximum high-value
+                                sales inquiries with optimized ROI packages.
+                            </p>
+                            <a href="blog/best-ppc-services-in-delhi.html" class="empower-card-btn btn-blue">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 3: SEO Services -->
+                        <div class="empower-card card-purple">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-purple">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+                                        <polyline points="17 6 23 6 23 12" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">TOP RANKINGS</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="SEO-Services.aspx">SEO Services</a></h3>
+                            <p class="empower-card-text">
+                                Scale organic search engine rankings and compound long-term website traffic. Our
+                                technical
+                                &amp; content
+                                SEO experts audit, optimize, and build domain authority.
+                            </p>
+                            <a href="SEO-Services.aspx" class="empower-card-btn btn-purple">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 4: SMO Services -->
+                        <div class="empower-card card-pink">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-pink">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="18" cy="5" r="3" />
+                                        <circle cx="6" cy="12" r="3" />
+                                        <circle cx="18" cy="19" r="3" />
+                                        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">BRAND VIRALITY</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="SMO-Services.aspx">SMO Services</a></h3>
+                            <p class="empower-card-text">
+                                Engage target audiences and build brand clout across social networks. Our Social Media
+                                Optimization
+                                strategies ensure your business builds active, loyal followers.
+                            </p>
+                            <a href="SMO-Services.aspx" class="empower-card-btn btn-pink">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 5: PPC Services -->
+                        <div class="empower-card card-amber">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-amber">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                        <line x1="8" y1="21" x2="16" y2="21" />
+                                        <line x1="12" y1="17" x2="12" y2="21" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">MAXIMIZED ROI</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="blog/best-ppc-services-in-delhi.html">PPC
+                                    Services</a>
+                            </h3>
+                            <p class="empower-card-text">
+                                Ranked #1 PPC agency. Our pay-per-click management across Google, Meta, and Bing ensures
+                                immediate sales
+                                and leads at the absolute lowest cost-per-acquisition.
+                            </p>
+                            <a href="blog/best-ppc-services-in-delhi.html" class="empower-card-btn btn-amber">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 6: ORM Services -->
+                        <div class="empower-card card-teal">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-teal">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                        <path d="M9 12l2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">24/7 PROTECTION</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="ORM-Services.aspx">ORM Services</a></h3>
+                            <p class="empower-card-text">
+                                Protect and elevate your online brand image. Our Online Reputation Management
+                                specialists
+                                monitor reviews,
+                                counter negative PR, and maintain positive brand perception.
+                            </p>
+                            <a href="ORM-Services.aspx" class="empower-card-btn btn-teal">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 7: Mobile App Development -->
+                        <div class="empower-card card-indigo">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-indigo">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                                        <line x1="12" y1="18" x2="12.01" y2="18" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">iOS &amp; ANDROID</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="Android-Application-Development-company.aspx">Mobile
+                                    App
+                                    Development</a></h3>
+                            <p class="empower-card-text">
+                                High-performance Android, iOS, and Flutter mobile applications engineered for ultra-fast
+                                load speed, sleek
+                                UI/UX design, and seamless user interaction.
+                            </p>
+                            <a href="Android-Application-Development-company.aspx" class="empower-card-btn btn-indigo">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 8: Web Development Services -->
+                        <div class="empower-card card-sky">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-sky">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="16 18 22 12 16 6" />
+                                        <polyline points="8 6 2 12 8 18" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">FAST &amp; SECURE</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="Website-Development.aspx">Web Development
+                                    Services</a>
+                            </h3>
+                            <p class="empower-card-text">
+                                Conversion-focused custom website design &amp; web application development. We craft
+                                responsive, secure,
+                                and modern websites tailored to generate revenue.
+                            </p>
+                            <a href="Website-Development.aspx" class="empower-card-btn btn-sky">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 9: Flipkart Marketing -->
+                        <div class="empower-card card-royal">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-royal">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                                        <line x1="3" y1="6" x2="21" y2="6" />
+                                        <path d="M16 10a4 4 0 0 1-8 0" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">E-COMMERCE SCALE</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="flipkart-marketing-services.aspx">Flipkart
+                                    Marketing</a>
+                            </h3>
+                            <p class="empower-card-text">
+                                Dominate Flipkart seller search rankings. We handle product cataloging, listing
+                                optimization, account
+                                growth, and sponsored ad management to boost orders.
+                            </p>
+                            <a href="flipkart-marketing-services.aspx" class="empower-card-btn btn-royal">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 10: Amazon Marketing Services -->
+                        <div class="empower-card card-orange">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-orange">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="9" cy="21" r="1" />
+                                        <circle cx="20" cy="21" r="1" />
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">SELLER GROWTH</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="amazon-marketing-services.aspx">Amazon Marketing
+                                    Services</a></h3>
+                            <p class="empower-card-text">
+                                Amazon Advertising (AMS) experts. Drive active shopper purchases, optimize product
+                                listings,
+                                run Sponsored
+                                Products, and scale Amazon store revenue.
+                            </p>
+                            <a href="amazon-marketing-services.aspx" class="empower-card-btn btn-orange">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 11: Facebook Marketing Services -->
+                        <div class="empower-card card-cobalt">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-cobalt">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">META ADS EXPERT</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="facebook-marketing-services.aspx">Facebook Marketing
+                                    Services</a>
+                            </h3>
+                            <p class="empower-card-text">
+                                Target exact customer demographics with Meta Ads. We create high-converting ad copy,
+                                visual
+                                assets, custom
+                                retargeting audiences, and lead generation campaigns.
+                            </p>
+                            <a href="facebook-marketing-services.aspx" class="empower-card-btn btn-cobalt">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- Card 12: Mobile App Promotion -->
+                        <div class="empower-card card-cyan">
+                            <div class="empower-card-top">
+                                <div class="empower-icon-hub icon-cyan">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.1-1.63 1.1-2.5 0-1.1-.9-2-2-2-.87 0-1.79.39-2.5 1.1z" />
+                                        <path d="M12 15l-3-3 7.5-7.5.78.78c.84.84.84 2.2 0 3.04L12 15z" />
+                                        <path d="M16 11l2.5-2.5" />
+                                        <path d="M8.5 18.5L6 21" />
+                                    </svg>
+                                </div>
+                                <span class="empower-tag">MORE INSTALLS</span>
+                            </div>
+                            <h3 class="empower-card-title"><a href="mobile-app-promotion-services.aspx">Mobile App
+                                    Promotion</a></h3>
+                            <p class="empower-card-text">
+                                App Store Optimization (ASO) &amp; paid app installation campaigns. Increase daily
+                                installs,
+                                active user
+                                retention, and store keyword ranks for Play Store &amp; App Store.
+                            </p>
+                            <a href="mobile-app-promotion-services.aspx" class="empower-card-btn btn-cyan">
+                                Explore Service <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- ===== DIGITAL MARKETING PROCESS SECTION (WHITE THEME) ===== -->
+            <section class="kdm-process-white-section">
+                <div class="container" style="position: relative; z-index: 2;">
+
+                    <!-- Header -->
+                    <div class="kdm-process-header">
+                        <div class="kdm-process-light-badge">
+                            <i class="fa fa-cogs fa-solid fa-gears"></i> OUR PROVEN APPROACH
+                        </div>
+                        <h2 class="kdm-process-light-title">DIGITAL MARKETING <span
+                                class="kdm-process-blue-gradient">PROCESS</span></h2>
+                        <p class="kdm-process-light-subtitle">
+                            From strategy to execution, our systematic 4-step process delivers measurable growth and
+                            scalable ROI for your business.
                         </p>
+                    </div>
 
-                        <div style="margin-top: 24px;">
+                    <!-- 4 Steps Grid -->
+                    <div class="kdm-process-grid">
+
+                        <!-- Step 1 -->
+                        <div class="kdm-process-card-wrapper">
+                            <div class="kdm-process-light-card">
+                                <div class="kdm-process-light-num">01</div>
+                                <div class="kdm-process-light-icon-box">
+                                    <i class="fa fa-users fa-solid fa-people-group"></i>
+                                </div>
+                                <h3 class="kdm-process-light-card-title">Workshops</h3>
+                                <div class="kdm-process-light-divider"></div>
+                                <ul class="kdm-process-light-bullets">
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Business Analysis
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Campaign Objective
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Preparing Proposal
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Deciding
+                                        Deliverables
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="kdm-process-card-wrapper">
+                            <div class="kdm-process-light-card">
+                                <div class="kdm-process-light-num">02</div>
+                                <div class="kdm-process-light-icon-box">
+                                    <i class="fa fa-clipboard fa-solid fa-clipboard-list"></i>
+                                </div>
+                                <h3 class="kdm-process-light-card-title">Planning</h3>
+                                <div class="kdm-process-light-divider"></div>
+                                <ul class="kdm-process-light-bullets">
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Industry Research
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Competitor Research
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Selecting Channels
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy Development
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="kdm-process-card-wrapper">
+                            <div class="kdm-process-light-card">
+                                <div class="kdm-process-light-num">03</div>
+                                <div class="kdm-process-light-icon-box">
+                                    <i class="fa fa-flask fa-solid fa-vial"></i>
+                                </div>
+                                <h3 class="kdm-process-light-card-title">A/B Testing</h3>
+                                <div class="kdm-process-light-divider"></div>
+                                <ul class="kdm-process-light-bullets">
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Experimenting with
+                                        Ads
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Content Variation
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> SEO Experiments</li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Audience Analysis
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="kdm-process-card-wrapper">
+                            <div class="kdm-process-light-card">
+                                <div class="kdm-process-light-num">04</div>
+                                <div class="kdm-process-light-icon-box">
+                                    <i class="fa fa-rocket fa-solid fa-rocket"></i>
+                                </div>
+                                <h3 class="kdm-process-light-card-title">Execution</h3>
+                                <div class="kdm-process-light-divider"></div>
+                                <ul class="kdm-process-light-bullets">
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Creating Campaign
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Content Production
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy
+                                        Optimization
+                                    </li>
+                                    <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Analysis &amp;
+                                        Reporting
+                                    </li>
+                                </ul>
+                                <div class="kdm-process-light-final-tag">
+                                    <i class="fa fa-check fa-solid fa-check"></i> Maximum ROI Step
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Process Call To Action -->
+                    <div class="kdm-process-light-cta-box">
+                        <h3 class="kdm-process-light-cta-title">Ready to Transform Your Digital Presence?</h3>
+                        <p class="kdm-process-light-cta-text">Let's discuss how our proven 4-step process can drive
+                            growth
+                            and qualified leads for your business.</p>
+                        <div>
                             <a href="tel:+919821918208" target="_blank" class="kdm-btn-primary-glow">
                                 <i class="fa fa-phone fa-solid fa-phone"></i> Let's Talk About Your Business
                             </a>
-                            <a href="/About-Us.aspx" target="_blank" class="kdm-btn-glass">
-                                Know More About Us <i class="fa fa-arrow-right fa-solid fa-arrow-right"></i>
+                            <a href="javascript:void(0);" onclick="openPopup()" class="kdm-btn-glass">
+                                Get Started Today <i class="fa fa-arrow-right fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
 
-                    <!-- Right Column: Founder & CEO Profile Card -->
-                    <div class="col-md-5">
-                        <div class="kdm-founder-card">
+                </div>
+            </section>
+            <!-- ===== END DIGITAL MARKETING PROCESS SECTION ===== -->
+
+            <!-- Services Icons Ends -->
+
+
+            <!--SEO Result Section Starts-->
+
+            <!--SEO Result Section Starts-->
+            <section class="kdm-seo-results-section seo-results">
+                <div class="container">
+                    <div class="kdm-seo-header">
+                        <div class="kdm-seo-badge">
+                            <i class="fa fa-line-chart fa-solid fa-chart-line"></i> PROVEN ORGANIC RANKINGS
+                        </div>
+                        <h2 class="kdm-seo-title">AWESOME <span class="kdm-blue-gradient">SEO RESULTS</span></h2>
+                        <p class="kdm-seo-description">
+                            The best feeling ever, When SEO experts are able to bring your website at top 5 ranking of
+                            searh
+                            engine result page. If You have the vision, You have come to the right <strong>digital
+                                marketing
+                                company</strong>. We have the ability to optimize your website to get more traffic leads
+                            and
+                            sales. - "If not We then Who". Tell us about your digital goals and challenges, Our digital
+                            marketing experts will share our strategy and the best approach for your requirements. Our
+                            SEO
+                            results speak for our Search Engine Optimization services. <b>See the SEO results.</b>
+                        </p>
+
+                        <div class="kdm-seo-solutions-box">
+                            <h3 class="kdm-seo-solutions-title">We Have Best Solutions For:</h3>
+                            <div class="kdm-seo-solutions-grid">
+                                <span class="kdm-seo-solution-item"><b>1.</b> Low Organic Traffic</span>
+                                <span class="kdm-seo-solution-item"><b>2.</b> No Organic Leads</span>
+                                <span class="kdm-seo-solution-item"><b>3.</b> No Keywords in 1st Page Ranking</span>
+                                <span class="kdm-seo-solution-item"><b>4.</b> Low Backlinks</span>
+                                <span class="kdm-seo-solution-item"><b>5.</b> Poor Domain Authority</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider">
+                        <div class="slides">
+                            <!-- Box 1 -->
+                            <div class="seo-card">
+                                <div class="card-inner">
+                                    <div class="card-header">
+                                        <h3>QHT Hair Clinic</h3>
+                                        <span>QHT is one of the premium hair transplant clinic in India, We have been
+                                            working for SEO since
+                                            2024
+                                            and we have achieved top ranking related to hair transplant keywords in
+                                            almost all top cities of
+                                            India. Helped to generate high quality leads and direct calls through SEO
+                                            services.</span>
+                                    </div>
+                                    <div class="keyword-list">
+                                        <div class="keyword-item">Dense hair implantation in Hyderabad<span
+                                                class="rank">#1</span></div>
+                                        <div class="keyword-item">Hair transplant in Hyderabad<span
+                                                class="rank">#3</span>
+                                        </div>
+                                        <div class="keyword-item">Dense Hair Implantation Clinic in Hyderabad<span
+                                                class="rank">#2</span>
+                                        </div>
+                                        <div class="keyword-item">FUE Hair Transplant clinic in Hyderabad<span
+                                                class="rank">#4</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Box 2 -->
+                            <div class="seo-card">
+                                <div class="card-inner">
+                                    <div class="card-header">
+                                        <h3>Dr. PK Talwar - Cosmetic Surgeon</h3>
+                                        <span>Dr. PK Talwar is one of the most experienced cosmetic and plastic surgeons
+                                            in
+                                            Delhi, India. King
+                                            of Digital Marketing started digital marketing in 2020 and helped to get top
+                                            ranking in Google with
+                                            more than 100 keywords, generated high quality leads organically and
+                                            promoted
+                                            YouTube also.</span>
+                                    </div>
+                                    <div class="keyword-list">
+                                        <div class="keyword-item">Gynaecomastia Surgery in Delhi<span
+                                                class="rank">#3</span>
+                                        </div>
+                                        <div class="keyword-item">Liposuction Surgery in Delhi<span
+                                                class="rank">#4</span>
+                                        </div>
+                                        <div class="keyword-item">Cosmetic Surgeon in Delhi <span class="rank">#6</span>
+                                        </div>
+                                        <div class="keyword-item">Hair Transplant in South Delhi<span
+                                                class="rank">#5</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Box 3 -->
+                            <div class="seo-card">
+                                <div class="card-inner">
+                                    <div class="card-header">
+                                        <h3>Kidney Care Centre</h3>
+                                        <span>Kidney Care Centre is led by popular nephrologist in Delhi Dr. Rajesh
+                                            Goel.
+                                            King of Digital
+                                            Marketing has worked for his website to rank in Google top 10. We worked and
+                                            got
+                                            result
+                                            successfully.
+                                            Ourteam promoted his Google My Business Pages also to rank in top 3.
+                                            India</span>
+                                    </div>
+                                    <div class="keyword-list">
+                                        <div class="keyword-item">Kidney specialist doctor in Delhi<span
+                                                class="rank">#3</span></div>
+                                        <div class="keyword-item">best nephrologist in delhi<span class="rank">#6</span>
+                                        </div>
+                                        <div class="keyword-item">Kidney doctor in Delhi<span class="rank">#5</span>
+                                        </div>
+                                        <div class="keyword-item">best dialysis centre in Delhi<span
+                                                class="rank">#4</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Box 4 -->
+                            <div class="seo-card">
+                                <div class="card-inner">
+                                    <div class="card-header">
+                                        <h3>Contact Combat India</h3>
+                                        <span>Contact Combat India is training centre for Krav Maga and Kickboxing. Our
+                                            Social Media Experts
+                                            and
+                                            SEO Experts had worked on this project for brand awarensss and ranking in
+                                            search
+                                            engine. We got
+                                            tremendous results for this website.</span>
+                                    </div>
+                                    <div class="keyword-list">
+                                        <div class="keyword-item">Krav maga in delhi<span class="rank">#3</span></div>
+                                        <div class="keyword-item">Krav maga classes in delhi<span class="rank">#4</span>
+                                        </div>
+                                        <div class="keyword-item">Kids self defense in delhi<span class="rank">#9</span>
+                                        </div>
+                                        <div class="keyword-item">Krav maga near me<span class="rank">#6</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Box 5 -->
+                            <div class="seo-card">
+                                <div class="card-inner">
+                                    <div class="card-header">
+                                        <h3>Wolk Coworking Space</h3>
+                                        <span>Wolk - A Coworking Community We have worked for Wolk Search Engine
+                                            Optimization Services, Wolk
+                                            provides the best coworking spaces and shared office space solutions in
+                                            South
+                                            Delhi. This website
+                                            ranks in Delhi, Nehru Place and South Delhi based Keywords now.</span>
+                                    </div>
+                                    <div class="keyword-list">
+                                        <div class="keyword-item">Coworking Space in Nehru Place<span
+                                                class="rank">#3</span>
+                                        </div>
+                                        <div class="keyword-item">Coworking Space in South Delhi<span
+                                                class="rank">#5</span>
+                                        </div>
+                                        <div class="keyword-item">Coworking Space in Delhi<span class="rank">#6</span>
+                                        </div>
+                                        <div class="keyword-item">Shared Office Space in South Delhi<span
+                                                class="rank">#7</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Box 6 -->
+                            <div class="seo-card">
+                                <div class="card-inner">
+                                    <div class="card-header">
+                                        <h3>Geographia IAS</h3>
+                                        <span>Geographia IAS - SEO Services We have worked for Ajay Raj Singh Sir, Best
+                                            Geography Optional
+                                            Teacher for IAs and UPSC aspirants. We have ranked 5 - 6 Keywords. Maximum
+                                            we
+                                            have done paid
+                                            advertisement(Google Ad - Search and Display) for this website.</span>
+                                    </div>
+                                    <div class="keyword-list">
+                                        <div class="keyword-item">Geography Coaching in Delhi<span
+                                                class="rank">#3</span>
+                                        </div>
+                                        <div class="keyword-item">Best Geography Institute for IAS<span
+                                                class="rank">#5</span></div>
+                                        <div class="keyword-item">Geography Coaching for IAS<span class="rank">#6</span>
+                                        </div>
+                                        <div class="keyword-item">Online Geography Coaching for IAS<span
+                                                class="rank">#3</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Box 7 -->
+                            <div class="seo-card">
+                                <div class="card-inner">
+                                    <div class="card-header">
+                                        <h3>DIFA: Delhi Institute of Film & Acting</h3>
+                                        <span>DIFA (Delhi Institute of Film & Acting) - SEO/PPC Services SEO team worked
+                                            of
+                                            DIFA project 4
+                                            months to bring its major keywords in 1st page of Google. Almost 80%
+                                            keywords
+                                            are in 1st page. Our
+                                            PPC
+                                            team provided 350 leads through paid ads in a month for DIFA.</span>
+                                    </div>
+                                    <div class="keyword-list">
+                                        <div class="keyword-item">Acting School in Delhi<span class="rank">#6</span>
+                                        </div>
+                                        <div class="keyword-item">Acting School in South Delhi<span
+                                                class="rank">#5</span>
+                                        </div>
+                                        <div class="keyword-item">Acting Institute in Delhi<span class="rank">#3</span>
+                                        </div>
+                                        <div class="keyword-item">Acting Course in Delhi <span class="rank">#4</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slider buttons -->
+                        <button class="nav-btn prev">&#10094;</button>
+                        <button class="nav-btn next">&#10095;</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== STRIP SECTION ===== -->
+            <div class="strip-section">
+                <h2 class="strip-title">
+                    Let's Kickstart Your Digital Success Today!
+                </h2>
+                <p class="strip-text">
+                    For over 13 years, King of Digital Marketing has delivered consistent growth through digital
+                    marketing
+                    services
+                    like SEO, PPC, and lead generation campaigns. Let's create a winning plan for your business.
+                </p>
+                <a href="javascript:void(0);" onclick="openPopup()" class="strip-btn">
+                    Send Me a Proposal!
+                </a>
+            </div>
+
+
+
+            <!-- ===== NUMBERS DO SPEAK A LOT SECTION (DARK THEME WITH SVGs) ===== -->
+            <section class="kdm-numbers-dark-section">
+                <div class="container">
+                    <div class="kdm-numbers-header-dark">
+                        <div class="kdm-numbers-badge-dark">
+                            <i class="fa fa-bar-chart fa-solid fa-chart-simple"></i> PROVEN MILESTONES &amp; IMPACT
+                        </div>
+                        <h2 class="kdm-numbers-title-dark">NUMBERS DO <span class="kdm-theme-gradient">SPEAK A LOT
+                                !</span>
+                        </h2>
+                        <p class="kdm-numbers-subtitle-dark">
+                            King of Digital Marketing is one of India's best digital marketing services company. Having
+                            13+
+                            years of experience proves that we have a professional and result oriented digital marketing
+                            team who has nailed the power of consulting, discovering, planning, executing and reporting.
+                            With the experience of working for over 900+ companies worldwide, we have achieved the
+                            confidence to take care of digital marketing strategies for your company. We have worked
+                            with
+                            more than 400 case of success with our determination to provide the best. Some of those
+                            companies are VLCC, Meena Bazaar, ISKCON, SkinLab by Dr. Jamuna Pai, QHT, SkinMumma, Dr. A's
+                            Clinic, Planet Education, Aliff, Global Opportunies and the list is everlasting. With more
+                            than
+                            400 case studies we have created consistent growth on multi channel digital platforms. Last
+                            but
+                            not least, gaining the trust and reviews of 410+ individuals with 4.9 ratings on Google,
+                            Facebook, Glassdoor &amp; JustDial, we have the confidence to say that King of Digital
+                            Marketing
+                            has the whole package for your growing company to ace the Digital Market with excellence.
+                        </p>
+                    </div>
+
+                    <div class="row custom-row">
+                        <!-- Card 1: Experience of Working on Different Projects -->
+                        <div class="col-md-6 col-sm-12">
+                            <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx"
+                                class="kdm-number-card-dark-link">
+                                <div class="kdm-number-card-dark">
+                                    <div class="kdm-number-svg-box">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                                            <path
+                                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-number-info-dark">
+                                        <h4>Experience of Working on Different Projects</h4>
+                                        <p class="kdm-number-val-dark">250+ Industries</p>
+                                        <h5 class="kdm-number-sub-dark">For More Than 12 Countries</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Card 2: Few Brands We've Worked With -->
+                        <div class="col-md-6 col-sm-12">
+                            <a href="https://www.kingofdigitalmarketing.com/Our-Portfolio.aspx"
+                                class="kdm-number-card-dark-link">
+                                <div class="kdm-number-card-dark">
+                                    <div class="kdm-number-svg-box">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-number-info-dark">
+                                        <h4>Few Brands We've Worked With</h4>
+                                        <p class="kdm-number-val-dark">150+ Success Stories</p>
+                                        <h5 class="kdm-number-sub-dark">Of Most Influential Brands</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Card 3: Growth We've Driven In Numbers -->
+                        <div class="col-md-6 col-sm-12">
+                            <a href="https://www.kingofdigitalmarketing.com/seo-case-study.aspx"
+                                class="kdm-number-card-dark-link">
+                                <div class="kdm-number-card-dark">
+                                    <div class="kdm-number-svg-box">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                            <polyline points="17 6 23 6 23 12"></polyline>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-number-info-dark">
+                                        <h4>Growth We've Driven In Numbers</h4>
+                                        <p class="kdm-number-val-dark">400+ Case Studies</p>
+                                        <h5 class="kdm-number-sub-dark">Created Consistent Growth on Multi-channel</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Card 4: We're a 4.9 Rated Agency -->
+                        <div class="col-md-6 col-sm-12">
+                            <a href="#" class="kdm-number-card-dark-link">
+                                <div class="kdm-number-card-dark">
+                                    <div class="kdm-number-svg-box">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path
+                                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-number-info-dark">
+                                        <h4>We're a 4.9 Rated Agency</h4>
+                                        <p class="kdm-number-val-dark">410+ Reviews</p>
+                                        <h5 class="kdm-number-sub-dark">On Google, Facebook &amp; Others</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Card 5: Discovery, Planning & Execution -->
+                        <div class="col-md-6 col-sm-12">
+                            <a href="https://www.kingofdigitalmarketing.com/team.aspx"
+                                class="kdm-number-card-dark-link">
+                                <div class="kdm-number-card-dark">
+                                    <div class="kdm-number-svg-box">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="9" cy="7" r="4"></circle>
+                                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-number-info-dark">
+                                        <h4>Discovery, Planning &amp; Execution</h4>
+                                        <p class="kdm-number-val-dark">13+ Years Experience</p>
+                                        <h5 class="kdm-number-sub-dark">Team for Your Success</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Card 6: Experience That Speaks -->
+                        <div class="col-md-6 col-sm-12">
+                            <a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx"
+                                class="kdm-number-card-dark-link">
+                                <div class="kdm-number-card-dark">
+                                    <div class="kdm-number-svg-box">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-number-info-dark">
+                                        <h4>Experience That Speaks</h4>
+                                        <p class="kdm-number-val-dark">900+ Projects Done</p>
+                                        <h5 class="kdm-number-sub-dark">Delivering Excellence Across Worldwide</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of NUMBERS DO SPEAK A LOT ! -->
+
+            <!-- ===== CREDENTIALS SECTION (5 SEPARATE DARK BOXES IN 1 ROW WITH SVGs) ===== -->
+            <section class="kdm-credentials-white-section">
+                <div class="container">
+                    <div class="kdm-credentials-header">
+                        <div class="kdm-credentials-badge">
+                            <i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
+                        </div>
+                        <h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
+                        <p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
+                    </div>
+
+                    <div class="kdm-credentials-5grid counters dark counters-row">
+                        <!-- Box 1: 13+ Years of Experience -->
+                        <div class="kdm-credentials-box">
+                            <div class="kdm-cred-svg-hub">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
+                            <label class="kdm-cred-label">Years of Experience</label>
+                        </div>
+
+                        <!-- Box 2: 900+ Projects Completed -->
+                        <div class="kdm-credentials-box">
+                            <div class="kdm-cred-svg-hub">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                            </div>
+                            <strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
+                            <label class="kdm-cred-label">Projects Completed</label>
+                        </div>
+
+                        <!-- Box 3: 15+ Countries Served -->
+                        <div class="kdm-credentials-box">
+                            <div class="kdm-cred-svg-hub">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                                    <path
+                                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
+                            <label class="kdm-cred-label">Countries Served</label>
+                        </div>
+
+                        <!-- Box 4: 4.9 Overall Rating -->
+                        <div class="kdm-credentials-box">
+                            <div class="kdm-cred-svg-hub">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                    </polygon>
+                                </svg>
+                            </div>
+                            <strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1"
+                                data-append="★">4.9★</strong>
+                            <label class="kdm-cred-label">Overall Rating</label>
+                        </div>
+
+                        <!-- Box 5: 150+ Industries Served -->
+                        <div class="kdm-credentials-box">
+                            <div class="kdm-cred-svg-hub">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>
+                            </div>
+                            <strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
+                            <label class="kdm-cred-label">Industries Served</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Credential Container -->
+
+
+            <!-- Section for FAQ -->
+            <section class="kdm-v2-faq-default-section">
+                <div class="container">
+                    <div class="row custom-row">
+                        <div class="col-md-6">
+                            <div class="kdm-faq-column-header">
+                                <h2>Any Doubt? <strong>Here are FAQ's</strong></h2>
+                                <p>Quick answers to common questions about our services</p>
+                            </div>
+
+                            <div class="kdm-faq-accordion">
+                                <div class="kdm-faq-item active">
+                                    <button type="button" class="kdm-faq-header">
+                                        <span class="kdm-faq-question">Q.1. How Do You Help Solving My Digital Marketing
+                                            Problems?</span>
+                                        <span class="kdm-faq-icon">+</span>
+                                    </button>
+                                    <div class="kdm-faq-body">
+                                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We solve
+                                            challenges
+                                            of low ranking, low traffic, low quality leads, sales &amp; conversion
+                                            issues
+                                            and reaching targeted audiences. Our digital marketing strategies connect
+                                            businesses with targeted audiences to generate more leads and revenue using
+                                            activities such as SEO, GEO, AEO, Social Media, Meta Ads, Google Ads,
+                                            website
+                                            designing, and development.</p>
+                                    </div>
+                                </div>
+
+                                <div class="kdm-faq-item">
+                                    <button type="button" class="kdm-faq-header">
+                                        <span class="kdm-faq-question">Q.2. Would My Business Benefit From Digital
+                                            Marketing?</span>
+                                        <span class="kdm-faq-icon">+</span>
+                                    </button>
+                                    <div class="kdm-faq-body">
+                                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> It is a
+                                            definite
+                                            YES. Your business definitely requires digital marketing. It enables
+                                            companies
+                                            to reach and interact with their target audience in real-time and maximize
+                                            brand
+                                            awareness at an affordable cost with unlimited reach.</p>
+                                    </div>
+                                </div>
+
+                                <div class="kdm-faq-item">
+                                    <button type="button" class="kdm-faq-header">
+                                        <span class="kdm-faq-question">Q.3. Why Should I Hire a Digital Marketing
+                                            Company?</span>
+                                        <span class="kdm-faq-icon">+</span>
+                                    </button>
+                                    <div class="kdm-faq-body">
+                                        <div class="kdm-faq-answer">
+                                            <span class="kdm-ans-badge">Ans</span> Digital marketing offers numerous
+                                            advantages over traditional methods to attract more customers:
+                                            <ul>
+                                                <li>Advertise where you are actively being searched</li>
+                                                <li>Ability to reach global customers</li>
+                                                <li>Cost-effective — reach more customers for less investment</li>
+                                                <li>Build a brand by understanding your customers personally</li>
+                                                <li>Track all expenses, sales, conversions, and metrics</li>
+                                                <li>Time savvy</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="kdm-faq-item">
+                                    <button type="button" class="kdm-faq-header">
+                                        <span class="kdm-faq-question">Q.4. What does a Digital Marketing Agency
+                                            Do?</span>
+                                        <span class="kdm-faq-icon">+</span>
+                                    </button>
+                                    <div class="kdm-faq-body">
+                                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> A digital
+                                            marketing
+                                            agency understands client requirements and creates result-oriented marketing
+                                            strategies. They focus on delivering ROI, spreading brand awareness to
+                                            targeted
+                                            audiences, and driving quality lead generation while maintaining user
+                                            experience
+                                            excellence.</p>
+                                    </div>
+                                </div>
+
+                                <div class="kdm-faq-item">
+                                    <button type="button" class="kdm-faq-header">
+                                        <span class="kdm-faq-question">Q.5. What is brand awareness in digital
+                                            marketing?</span>
+                                        <span class="kdm-faq-icon">+</span>
+                                    </button>
+                                    <div class="kdm-faq-body">
+                                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> In digital
+                                            marketing, brand awareness means creating a solid digital identity for your
+                                            company among target customers. It builds and disseminates key information
+                                            about
+                                            your products/services when launching new offerings.</p>
+                                    </div>
+                                </div>
+
+                                <div class="kdm-faq-item">
+                                    <button type="button" class="kdm-faq-header">
+                                        <span class="kdm-faq-question">Q.6. How Can I Get The Services Started?</span>
+                                        <span class="kdm-faq-icon">+</span>
+                                    </button>
+                                    <div class="kdm-faq-body">
+                                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Find top
+                                            digital
+                                            marketing experts, list your requirements, and consult a <a
+                                                href="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx">digital
+                                                marketing consultant</a>. Review past work, results, timelines, and
+                                            digital
+                                            marketing packages before signing a contract to ensure complete confidence.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="kdm-faq-item">
+                                    <button type="button" class="kdm-faq-header">
+                                        <span class="kdm-faq-question">Q.7. How much do you charge for digital
+                                            marketing?</span>
+                                        <span class="kdm-faq-icon">+</span>
+                                    </button>
+                                    <div class="kdm-faq-body">
+                                        <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital
+                                            marketing
+                                            packages are tailored to project requirements. We offer bespoke combined
+                                            packages covering SEO, SMO, PPC, Web Design, Content Creation, and Link
+                                            Building
+                                            tailored specifically for your business goals.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 kdm-blog-col-wrapper">
+                            <div class="kdm-blog-column-header">
+                                <h2>Recent <strong>News &amp; Blog</strong></h2>
+                                <p>Stay updated with our latest digital marketing trends &amp; insights</p>
+                            </div>
+
+                            <div class="kdm-blogs-v2-container">
+                                <a href="https://www.kingofdigitalmarketing.com/blog/meta-live-video-ads-instagram-facebook.aspx"
+                                    target="_blank" class="kdm-blog-card-v2">
+                                    <div class="kdm-blog-icon-hub">
+                                        <i class="fa fa-line-chart"></i>
+                                    </div>
+                                    <div class="kdm-blog-content-body">
+                                        <div class="kdm-blog-meta-bar">
+                                            <span class="kdm-blog-pill">Social Media</span>
+                                            <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> October 02,
+                                                2026</span>
+                                        </div>
+                                        <h4 class="kdm-blog-heading">Meta Live Video Ads 2026: How to Run Ads on
+                                            Instagram and Facebook Live</h4>
+                                    </div>
+                                    <div class="kdm-blog-arrow-hub">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.kingofdigitalmarketing.com/blog/seo-freelancer-in-dubai-uae.aspx"
+                                    target="_blank" class="kdm-blog-card-v2">
+                                    <div class="kdm-blog-icon-hub">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <div class="kdm-blog-content-body">
+                                        <div class="kdm-blog-meta-bar">
+                                            <span class="kdm-blog-pill">SEO Strategy UAE &amp; Dubai</span>
+                                            <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> October 02,
+                                                2026</span>
+                                        </div>
+                                        <h4 class="kdm-blog-heading">SEO Freelancer in Dubai UAE: Why Business Owners
+                                            Choose Direct 13+ Years Expertise...</h4>
+                                    </div>
+                                    <div class="kdm-blog-arrow-hub">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.kingofdigitalmarketing.com/blog/tarot-card-reader-lead-generation.aspx"
+                                    target="_blank" class="kdm-blog-card-v2">
+                                    <div class="kdm-blog-icon-hub">
+                                        <i class="fa fa-magic"></i>
+                                    </div>
+                                    <div class="kdm-blog-content-body">
+                                        <div class="kdm-blog-meta-bar">
+                                            <span class="kdm-blog-pill">Tarot Marketing</span>
+                                            <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> October 02,
+                                                2026</span>
+                                        </div>
+                                        <h4 class="kdm-blog-heading">Lead Generation for Tarot Card Reader: How to Get
+                                            Quality Paying Clients Online</h4>
+                                    </div>
+                                    <div class="kdm-blog-arrow-hub">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.kingofdigitalmarketing.com/blog/how-to-get-clients-for-astrology-consultation.aspx"
+                                    target="_blank" class="kdm-blog-card-v2">
+                                    <div class="kdm-blog-icon-hub">
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="kdm-blog-content-body">
+                                        <div class="kdm-blog-meta-bar">
+                                            <span class="kdm-blog-pill">Astrology Marketing</span>
+                                            <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> September
+                                                16, 2026</span>
+                                        </div>
+                                        <h4 class="kdm-blog-heading">How to Get Clients for Astrology Consultation: The
+                                            Complete Step-by-Step Guide</h4>
+                                    </div>
+                                    <div class="kdm-blog-arrow-hub">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="kdm-more-blogs-btn-wrap">
+                                <a href="https://www.kingofdigitalmarketing.com/blog/" target="_blank"
+                                    class="kdm-more-blogs-btn">
+                                    <span>Read More Blogs</span> <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section for FAQ Ends -->
+
+            <!-- Get Started Section Starts -->
+            <section class="kdm-v2-cta-banner-section">
+                <div class="container">
+                    <div class="kdm-cta-cards-row">
+                        <!-- CTA Card 1 -->
+                        <div class="kdm-cta-box-card">
                             <div>
-                                <div class="kdm-founder-img-wrapper">
-                                    <img src="images/Gaurav Dubey Digital Marketing trainer.webp"
-                                        alt="Gaurav Dubey - Founder & CEO" class="kdm-founder-img"  loading="lazy" decoding="async" />
-                                </div>
-                                <h3 class="kdm-founder-name">Gaurav Dubey</h3>
-                                <div class="kdm-founder-title">Founder &amp; CEO</div>
-                                <div class="kdm-founder-quote">
-                                    <i class="fa fa-quote-left fa-solid fa-quote-left"></i> Driving data-driven digital
-                                    growth, high ROI &amp; lead ecosystems across 15+ countries since 2013.
+                                <span class="kdm-cta-badge"><i class="fa fa-rocket"></i> GET STARTED TODAY</span>
+                                <h3 class="kdm-cta-card-title">GET STARTED <strong>WITH US TODAY!</strong></h3>
+                                <p class="kdm-cta-card-desc">Request a 100% Free Website Audit &amp; Custom Growth
+                                    Blueprint
+                                    from our experts.</p>
+                            </div>
+                            <a href="free-seo-audit.aspx" target="_blank" class="kdm-cta-btn-glow">
+                                <span>Free Website Audit!</span> <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- CTA Card 2 -->
+                        <div class="kdm-cta-box-card">
+                            <div>
+                                <span class="kdm-cta-badge"><i class="fa fa-trophy"></i> PROVEN RESULTS</span>
+                                <h3 class="kdm-cta-card-title">Helping Brands Grow <strong>Revenue &amp;
+                                        Profit!</strong>
+                                </h3>
+                                <p class="kdm-cta-card-desc">Explore 900+ successful client works, case studies, and
+                                    digital
+                                    marketing results.</p>
+                            </div>
+                            <a href="Our-Portfolio.aspx" target="_blank" class="kdm-cta-btn-outline">
+                                <span>Our Works!</span> <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Get Started Section Ends -->
+
+            <!-- Google Reviews Slider Section Starts (Just Above Footer) -->
+            <section class="kdm-google-reviews-section" id="google-reviews">
+                <div class="container">
+                    <!-- Top Trust & Header Row -->
+                    <div class="kdm-gr-header-row">
+                        <div class="kdm-gr-header-left">
+                            <div class="kdm-gr-badge">
+                                <svg class="kdm-google-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="#4285F4"
+                                        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                    <path fill="#34A853"
+                                        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                    <path fill="#FBBC05"
+                                        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                    <path fill="#EA4335"
+                                        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                </svg>
+                                <span>VERIFIED GOOGLE REVIEWS</span>
+                            </div>
+                            <h2 class="kdm-gr-title">What Clients Say About Us On <strong>Google</strong></h2>
+                            <p class="kdm-gr-subtitle">Real feedback from founders and global business owners who
+                                achieved Google #1 rankings, verified high-intent leads, and accelerated revenue with
+                                King of Digital Marketing.</p>
+                        </div>
+
+                        <!-- Overall Google Rating Summary Card -->
+                        <div class="kdm-gr-score-card">
+                            <div class="kdm-gr-score-top">
+                                <span class="kdm-gr-score-num">4.9</span>
+                                <div class="kdm-gr-score-details">
+                                    <div class="kdm-gr-stars-gold">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </div>
+                                    <span class="kdm-gr-score-label">⭐ 4.9/5 Rating · 150+ Reviews</span>
                                 </div>
                             </div>
-
-                            <!-- 4 Stats Cards Grid Above Social Icons -->
-                            <div class="kdm-left-stats-grid kdm-founder-stats-grid">
-                                <div class="kdm-left-stat-card">
-                                    <div class="kdm-left-stat-icon"><i class="fa fa-user-md fa-solid fa-user-tie"></i>
-                                    </div>
-                                    <div class="kdm-left-stat-info">
-                                        <strong>13+ Yrs Exp.</strong>
-                                        <span>Senior Consultants</span>
-                                    </div>
-                                </div>
-                                <div class="kdm-left-stat-card">
-                                    <div class="kdm-left-stat-icon"><i
-                                            class="fa fa-check-circle fa-solid fa-circle-check"></i></div>
-                                    <div class="kdm-left-stat-info">
-                                        <strong>900+ Projects</strong>
-                                        <span>High ROI Delivered</span>
-                                    </div>
-                                </div>
-                                <div class="kdm-left-stat-card">
-                                    <div class="kdm-left-stat-icon"><i class="fa fa-globe fa-solid fa-globe"></i></div>
-                                    <div class="kdm-left-stat-info">
-                                        <strong>15+ Countries</strong>
-                                        <span>Global Clients Served</span>
-                                    </div>
-                                </div>
-                                <div class="kdm-left-stat-card">
-                                    <div class="kdm-left-stat-icon"><i
-                                            class="fa fa-graduation-cap fa-solid fa-graduation-cap"></i></div>
-                                    <div class="kdm-left-stat-info">
-                                        <strong>1,850+ Students</strong>
-                                        <span>Trained Professionals</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="kdm-founder-socials">
-                                <a href="https://www.linkedin.com/in/iam-gaurav-dubey/" target="_blank"
-                                    class="kdm-founder-social-btn linkedin" title="LinkedIn"><i
-                                        class="fa fa-linkedin fa-brands fa-linkedin"></i></a>
-                                <a href="https://www.facebook.com/gauravdubey.in" target="_blank"
-                                    class="kdm-founder-social-btn facebook" title="Facebook"><i
-                                        class="fa fa-facebook fa-brands fa-facebook-f"></i></a>
-                                <a href="https://x.com/iamgauravdubey" target="_blank"
-                                    class="kdm-founder-social-btn twitter" title="Twitter / X"><i
-                                        class="fa fa-twitter fa-brands fa-x-twitter"></i></a>
-                                <a href="https://www.instagram.com/gauravdubey.in/" target="_blank"
-                                    class="kdm-founder-social-btn instagram" title="Instagram"><i
-                                        class="fa fa-instagram fa-brands fa-instagram"></i></a>
-                                <a href="https://www.youtube.com/@thegauravdubey" target="_blank"
-                                    class="kdm-founder-social-btn youtube" title="YouTube"><i
-                                        class="fa fa-youtube-play fa-brands fa-youtube"></i></a>
-                            </div>
-
-                            <a href="gaurav-dubey.aspx" target="_blank" class="kdm-founder-profile-link">
-                                <i class="fa fa-user-circle fa-solid fa-circle-user"></i> View Gaurav Dubey's Full
-                                Profile
+                            <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                rel="noopener noreferrer" class="kdm-gr-review-btn">
+                                <i class="fa fa-pencil-square-o"></i> <span>Write a Review</span>
                             </a>
                         </div>
                     </div>
 
-                </div>
-            </div>
-        </section>
-        <!-- King of Digital Marketing Dark Section Ends -->
+                    <!-- Slider Wrapper -->
+                    <div class="kdm-gr-slider-wrapper">
+                        <!-- Navigation Arrows -->
+                        <button class="kdm-gr-nav-arrow prev" type="button" aria-label="Previous Google Reviews">
+                            <i class="fa fa-chevron-left"></i>
+                        </button>
+                        <button class="kdm-gr-nav-arrow next" type="button" aria-label="Next Google Reviews">
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
 
-        <!-- ===== CLIENTS TRUST & LOGOS SECTION (WHITE THEME) ===== -->
-        <section class="kdm-clients-white-section">
-            <div class="container">
-                <div class="row custom-row">
-                    <div class="col-md-12 col-sm-12">
-                        <div class="kdm-clients-header">
-                            <div class="kdm-clients-badge">
-                                <i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
-                            </div>
-                            <h2 class="kdm-clients-title">Your Trust Made Us Top <span class="kdm-blue-gradient">Digital
-                                    Marketing Company</span> To Help Flourish Your Business</h2>
-                            <p class="kdm-clients-subtitle">
-                                What makes us distinct is our valuable clients. We strive day in and day out to secure
-                                their branding, online reputation, visibility, high-converting traffic, and qualified
-                                lead generation.
-                            </p>
-                            <div class="kdm-clients-motto-wrapper">
-                                <div class="kdm-clients-motto">
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
-                                        Ambitious</span>
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
-                                        Experts</span>
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
-                                        Shepherd</span>
-                                    <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are
-                                        King</span>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- Slider Container -->
+                        <div class="kdm-gr-slider" id="kdmGoogleReviewsSlider">
+                            <div class="kdm-gr-track">
 
-                        <div class="happy" id="images">
-                            <div class="track">
-                                <!-- Featured Priority Client Logos -->
-                                <div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="SkinLab Jamuna Pai"
-                                        src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="QHT" src="images/QHT.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="CANX Immigration" src="images/canx.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Global Opportunities"
-                                        src="images/client/global-opportunies.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Planet Education" src="images/client/planet-education.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Continental Immigration"
-                                        src="images/ContinentalImmigration.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Scala" src="images/scala.png" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Kidney Care Centre" src="images/Kidney care centre.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp" loading="lazy" decoding="async"></div>
-
-                                <!-- Additional Client Logos -->
-                                <div class="slide"><img alt="satguru" src="images/satguru--logo.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Indian-Institute" src="images/Indian-Institute-logo.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp" loading="lazy" decoding="async"></div>
-
-                                <div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="heal24" src="images/cliniq_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="city clinics" src="images/dncc_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="get study visa" src="images/afflatusglobalvisa_img.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="heal24" src="images/monickaagupta_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="city clinics" src="images/aicsimmigration.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="get study visa" src="images/get.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Planet education" src="images/pl.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="R&P" src="images/rp.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="canx" src="images/canx.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Meena Bazar" src="images/mb-Meena-Bazar_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Lakhotia" src="images/lakhotia_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"> <img alt="Kidney Care Centre"
-                                        src="images/kidney care centre_img.jpg" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Iskcon Delhi" src="images/KAN_VISA_DIRECTIOn_img.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Website Development in delhi"
-                                        src="images/iskcon delhi_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Hair Transplant Medispa"
-                                        src="images/hair transplant medispa_img.jpg" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Dreamzone Allahabad" src="images/dreamzone allahabad.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Dr Pk Talwar" src="images/dr pk talwar_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="go to university" src="images/go to university_img.jpg" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="tradeFD" src="images/trade.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Astro Gagan Sharma" src="images/Astro Gagan Sharma.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Art of Making Money" src="images/Art of Making Money.jpg" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="One Wellness Fitness Club"
-                                        src="images/One Wellness Fitness Club.jpg" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="solar farmer" src="images/solar farmer.jpg" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="aliff" src="images/aliff_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="fractionate" src="images/fractionate_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg" loading="lazy" decoding="async"></div>
-                                <div class="slide"> <img alt="Dr" src="images/Dr.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="dirish sharma" src="images/dirish-sharma-logo.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="City House" src="images/City-House-PG-logo.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Amazing Holidays" src="images/Amazing-Holidays-logo.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="Aksira education" src="images/Aksira-education-logo.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="jashvi consultant" src="images/jashvi consultant_img.jpg" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.webp" loading="lazy" decoding="async">
-                                </div>
-                                <div class="slide"><img alt="MTel" src="images/MTel_img.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Pinnacle Consulting"
-                                        src="images/Pinnacle Consulting_img.jpg" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.webp" loading="lazy" decoding="async"></div>
-                                <div class="slide"><img alt="Preetiesdeitclinic" src="images/Preetiesdeitclinic.webp" loading="lazy" decoding="async">
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of Clients Logos Portfolio Container -->
-        <!-- ===== HOW DO WE EMPOWER YOU DIGITALLY SECTION ===== -->
-        <section class="empower-section">
-            <div class="container">
-                <div class="empower-header text-center">
-                    <span class="empower-badge"><i class="fa fa-star"></i> OUR CORE SPECIALIZATIONS</span>
-                    <h2 class="empower-title">How Do We Empower You <span
-                            class="empower-title-gradient">Digitally</span></h2>
-                    <p class="empower-subtitle">
-                        At <strong>King of Digital Marketing</strong>, we build high-performing digital ecosystems
-                        designed to
-                        dominate your market. Driven by 13+ Years of expertise, AI technology, and top strategist
-                        talent, explore
-                        our premier specialized services below.
-                    </p>
-                </div>
-
-                <div class="empower-grid">
-
-                    <!-- Card 1: Lead Generation -->
-                    <div class="empower-card card-emerald">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-emerald">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M22 12A10 10 0 1 1 12 2a10 10 0 0 1 10 10z" />
-                                    <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
-                                    <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">HIGH CONVERSION</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="lead-generation-company.aspx">Lead Generation</a></h3>
-                        <p class="empower-card-text">
-                            Increase quality leads with targeted sales funnels. We identify, create, engage, and convert
-                            high-intent
-                            prospects into loyal buyers across paid &amp; organic channels.
-                        </p>
-                        <a href="lead-generation-company.aspx" class="empower-card-btn btn-emerald">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 2: Google Ads Services -->
-                    <div class="empower-card card-blue">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-blue">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="11" cy="11" r="8" />
-                                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                                    <line x1="11" y1="8" x2="11" y2="14" />
-                                    <line x1="8" y1="11" x2="14" y2="11" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">INSTANT TRAFFIC</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="blog/best-ppc-services-in-delhi.html">Google Ads
-                                Services</a></h3>
-                        <p class="empower-card-text">
-                            Rank on Page 1 of Google immediately. Stand out before active search buyers to capture
-                            maximum high-value
-                            sales inquiries with optimized ROI packages.
-                        </p>
-                        <a href="blog/best-ppc-services-in-delhi.html" class="empower-card-btn btn-blue">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 3: SEO Services -->
-                    <div class="empower-card card-purple">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-purple">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
-                                    <polyline points="17 6 23 6 23 12" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">TOP RANKINGS</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="SEO-Services.aspx">SEO Services</a></h3>
-                        <p class="empower-card-text">
-                            Scale organic search engine rankings and compound long-term website traffic. Our technical
-                            &amp; content
-                            SEO experts audit, optimize, and build domain authority.
-                        </p>
-                        <a href="SEO-Services.aspx" class="empower-card-btn btn-purple">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 4: SMO Services -->
-                    <div class="empower-card card-pink">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-pink">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="18" cy="5" r="3" />
-                                    <circle cx="6" cy="12" r="3" />
-                                    <circle cx="18" cy="19" r="3" />
-                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
-                                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">BRAND VIRALITY</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="SMO-Services.aspx">SMO Services</a></h3>
-                        <p class="empower-card-text">
-                            Engage target audiences and build brand clout across social networks. Our Social Media
-                            Optimization
-                            strategies ensure your business builds active, loyal followers.
-                        </p>
-                        <a href="SMO-Services.aspx" class="empower-card-btn btn-pink">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 5: PPC Services -->
-                    <div class="empower-card card-amber">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-amber">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-                                    <line x1="8" y1="21" x2="16" y2="21" />
-                                    <line x1="12" y1="17" x2="12" y2="21" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">MAXIMIZED ROI</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="blog/best-ppc-services-in-delhi.html">PPC Services</a>
-                        </h3>
-                        <p class="empower-card-text">
-                            Ranked #1 PPC agency. Our pay-per-click management across Google, Meta, and Bing ensures
-                            immediate sales
-                            and leads at the absolute lowest cost-per-acquisition.
-                        </p>
-                        <a href="blog/best-ppc-services-in-delhi.html" class="empower-card-btn btn-amber">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 6: ORM Services -->
-                    <div class="empower-card card-teal">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-teal">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                                    <path d="M9 12l2 2 4-4" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">24/7 PROTECTION</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="ORM-Services.aspx">ORM Services</a></h3>
-                        <p class="empower-card-text">
-                            Protect and elevate your online brand image. Our Online Reputation Management specialists
-                            monitor reviews,
-                            counter negative PR, and maintain positive brand perception.
-                        </p>
-                        <a href="ORM-Services.aspx" class="empower-card-btn btn-teal">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 7: Mobile App Development -->
-                    <div class="empower-card card-indigo">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-indigo">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
-                                    <line x1="12" y1="18" x2="12.01" y2="18" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">iOS &amp; ANDROID</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="Android-Application-Development-company.aspx">Mobile App
-                                Development</a></h3>
-                        <p class="empower-card-text">
-                            High-performance Android, iOS, and Flutter mobile applications engineered for ultra-fast
-                            load speed, sleek
-                            UI/UX design, and seamless user interaction.
-                        </p>
-                        <a href="Android-Application-Development-company.aspx" class="empower-card-btn btn-indigo">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 8: Web Development Services -->
-                    <div class="empower-card card-sky">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-sky">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="16 18 22 12 16 6" />
-                                    <polyline points="8 6 2 12 8 18" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">FAST &amp; SECURE</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="Website-Development.aspx">Web Development Services</a>
-                        </h3>
-                        <p class="empower-card-text">
-                            Conversion-focused custom website design &amp; web application development. We craft
-                            responsive, secure,
-                            and modern websites tailored to generate revenue.
-                        </p>
-                        <a href="Website-Development.aspx" class="empower-card-btn btn-sky">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 9: Flipkart Marketing -->
-                    <div class="empower-card card-royal">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-royal">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
-                                    <line x1="3" y1="6" x2="21" y2="6" />
-                                    <path d="M16 10a4 4 0 0 1-8 0" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">E-COMMERCE SCALE</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="flipkart-marketing-services.aspx">Flipkart Marketing</a>
-                        </h3>
-                        <p class="empower-card-text">
-                            Dominate Flipkart seller search rankings. We handle product cataloging, listing
-                            optimization, account
-                            growth, and sponsored ad management to boost orders.
-                        </p>
-                        <a href="flipkart-marketing-services.aspx" class="empower-card-btn btn-royal">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 10: Amazon Marketing Services -->
-                    <div class="empower-card card-orange">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-orange">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="9" cy="21" r="1" />
-                                    <circle cx="20" cy="21" r="1" />
-                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">SELLER GROWTH</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="amazon-marketing-services.aspx">Amazon Marketing
-                                Services</a></h3>
-                        <p class="empower-card-text">
-                            Amazon Advertising (AMS) experts. Drive active shopper purchases, optimize product listings,
-                            run Sponsored
-                            Products, and scale Amazon store revenue.
-                        </p>
-                        <a href="amazon-marketing-services.aspx" class="empower-card-btn btn-orange">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 11: Facebook Marketing Services -->
-                    <div class="empower-card card-cobalt">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-cobalt">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
-                                    <path
-                                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">META ADS EXPERT</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="facebook-marketing-services.aspx">Facebook Marketing
-                                Services</a>
-                        </h3>
-                        <p class="empower-card-text">
-                            Target exact customer demographics with Meta Ads. We create high-converting ad copy, visual
-                            assets, custom
-                            retargeting audiences, and lead generation campaigns.
-                        </p>
-                        <a href="facebook-marketing-services.aspx" class="empower-card-btn btn-cobalt">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- Card 12: Mobile App Promotion -->
-                    <div class="empower-card card-cyan">
-                        <div class="empower-card-top">
-                            <div class="empower-icon-hub icon-cyan">
-                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path
-                                        d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.1-1.63 1.1-2.5 0-1.1-.9-2-2-2-.87 0-1.79.39-2.5 1.1z" />
-                                    <path d="M12 15l-3-3 7.5-7.5.78.78c.84.84.84 2.2 0 3.04L12 15z" />
-                                    <path d="M16 11l2.5-2.5" />
-                                    <path d="M8.5 18.5L6 21" />
-                                </svg>
-                            </div>
-                            <span class="empower-tag">MORE INSTALLS</span>
-                        </div>
-                        <h3 class="empower-card-title"><a href="mobile-app-promotion-services.aspx">Mobile App
-                                Promotion</a></h3>
-                        <p class="empower-card-text">
-                            App Store Optimization (ASO) &amp; paid app installation campaigns. Increase daily installs,
-                            active user
-                            retention, and store keyword ranks for Play Store &amp; App Store.
-                        </p>
-                        <a href="mobile-app-promotion-services.aspx" class="empower-card-btn btn-cyan">
-                            Explore Service <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- ===== DIGITAL MARKETING PROCESS SECTION (WHITE THEME) ===== -->
-        <section class="kdm-process-white-section">
-            <div class="container" style="position: relative; z-index: 2;">
-
-                <!-- Header -->
-                <div class="kdm-process-header">
-                    <div class="kdm-process-light-badge">
-                        <i class="fa fa-cogs fa-solid fa-gears"></i> OUR PROVEN APPROACH
-                    </div>
-                    <h2 class="kdm-process-light-title">DIGITAL MARKETING <span
-                            class="kdm-process-blue-gradient">PROCESS</span></h2>
-                    <p class="kdm-process-light-subtitle">
-                        From strategy to execution, our systematic 4-step process delivers measurable growth and
-                        scalable ROI for your business.
-                    </p>
-                </div>
-
-                <!-- 4 Steps Grid -->
-                <div class="kdm-process-grid">
-
-                    <!-- Step 1 -->
-                    <div class="kdm-process-card-wrapper">
-                        <div class="kdm-process-light-card">
-                            <div class="kdm-process-light-num">01</div>
-                            <div class="kdm-process-light-icon-box">
-                                <i class="fa fa-users fa-solid fa-people-group"></i>
-                            </div>
-                            <h3 class="kdm-process-light-card-title">Workshops</h3>
-                            <div class="kdm-process-light-divider"></div>
-                            <ul class="kdm-process-light-bullets">
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Business Analysis</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Campaign Objective</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Preparing Proposal</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Deciding Deliverables
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Step 2 -->
-                    <div class="kdm-process-card-wrapper">
-                        <div class="kdm-process-light-card">
-                            <div class="kdm-process-light-num">02</div>
-                            <div class="kdm-process-light-icon-box">
-                                <i class="fa fa-clipboard fa-solid fa-clipboard-list"></i>
-                            </div>
-                            <h3 class="kdm-process-light-card-title">Planning</h3>
-                            <div class="kdm-process-light-divider"></div>
-                            <ul class="kdm-process-light-bullets">
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Industry Research</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Competitor Research</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Selecting Channels</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy Development
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Step 3 -->
-                    <div class="kdm-process-card-wrapper">
-                        <div class="kdm-process-light-card">
-                            <div class="kdm-process-light-num">03</div>
-                            <div class="kdm-process-light-icon-box">
-                                <i class="fa fa-flask fa-solid fa-vial"></i>
-                            </div>
-                            <h3 class="kdm-process-light-card-title">A/B Testing</h3>
-                            <div class="kdm-process-light-divider"></div>
-                            <ul class="kdm-process-light-bullets">
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Experimenting with Ads
-                                </li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Content Variation</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> SEO Experiments</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Audience Analysis</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Step 4 -->
-                    <div class="kdm-process-card-wrapper">
-                        <div class="kdm-process-light-card">
-                            <div class="kdm-process-light-num">04</div>
-                            <div class="kdm-process-light-icon-box">
-                                <i class="fa fa-rocket fa-solid fa-rocket"></i>
-                            </div>
-                            <h3 class="kdm-process-light-card-title">Execution</h3>
-                            <div class="kdm-process-light-divider"></div>
-                            <ul class="kdm-process-light-bullets">
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Creating Campaign</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Content Production</li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Strategy Optimization
-                                </li>
-                                <li><i class="fa fa-check-circle fa-solid fa-circle-check"></i> Analysis &amp; Reporting
-                                </li>
-                            </ul>
-                            <div class="kdm-process-light-final-tag">
-                                <i class="fa fa-check fa-solid fa-check"></i> Maximum ROI Step
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Process Call To Action -->
-                <div class="kdm-process-light-cta-box">
-                    <h3 class="kdm-process-light-cta-title">Ready to Transform Your Digital Presence?</h3>
-                    <p class="kdm-process-light-cta-text">Let's discuss how our proven 4-step process can drive growth
-                        and qualified leads for your business.</p>
-                    <div>
-                        <a href="tel:+919821918208" target="_blank" class="kdm-btn-primary-glow">
-                            <i class="fa fa-phone fa-solid fa-phone"></i> Let's Talk About Your Business
-                        </a>
-                        <a href="javascript:void(0);" onclick="openPopup()" class="kdm-btn-glass">
-                            Get Started Today <i class="fa fa-arrow-right fa-solid fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- ===== END DIGITAL MARKETING PROCESS SECTION ===== -->
-
-        <!-- Services Icons Ends -->
-
-
-        <!--SEO Result Section Starts-->
-
-        <!--SEO Result Section Starts-->
-        <section class="kdm-seo-results-section seo-results">
-            <div class="container">
-                <div class="kdm-seo-header">
-                    <div class="kdm-seo-badge">
-                        <i class="fa fa-line-chart fa-solid fa-chart-line"></i> PROVEN ORGANIC RANKINGS
-                    </div>
-                    <h2 class="kdm-seo-title">AWESOME <span class="kdm-blue-gradient">SEO RESULTS</span></h2>
-                    <p class="kdm-seo-description">
-                        The best feeling ever, When SEO experts are able to bring your website at top 5 ranking of searh
-                        engine result page. If You have the vision, You have come to the right <strong>digital marketing
-                            company</strong>. We have the ability to optimize your website to get more traffic leads and
-                        sales. - "If not We then Who". Tell us about your digital goals and challenges, Our digital
-                        marketing experts will share our strategy and the best approach for your requirements. Our SEO
-                        results speak for our Search Engine Optimization services. <b>See the SEO results.</b>
-                    </p>
-
-                    <div class="kdm-seo-solutions-box">
-                        <h3 class="kdm-seo-solutions-title">We Have Best Solutions For:</h3>
-                        <div class="kdm-seo-solutions-grid">
-                            <span class="kdm-seo-solution-item"><b>1.</b> Low Organic Traffic</span>
-                            <span class="kdm-seo-solution-item"><b>2.</b> No Organic Leads</span>
-                            <span class="kdm-seo-solution-item"><b>3.</b> No Keywords in 1st Page Ranking</span>
-                            <span class="kdm-seo-solution-item"><b>4.</b> Low Backlinks</span>
-                            <span class="kdm-seo-solution-item"><b>5.</b> Poor Domain Authority</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slider">
-                    <div class="slides">
-                        <!-- Box 1 -->
-                        <div class="seo-card">
-                            <div class="card-inner">
-                                <div class="card-header">
-                                    <h3>QHT Hair Clinic</h3>
-                                    <span>QHT is one of the premium hair transplant clinic in India, We have been
-                                        working for SEO since
-                                        2024
-                                        and we have achieved top ranking related to hair transplant keywords in
-                                        almost all top cities of
-                                        India. Helped to generate high quality leads and direct calls through SEO
-                                        services.</span>
-                                </div>
-                                <div class="keyword-list">
-                                    <div class="keyword-item">Dense hair implantation in Hyderabad<span
-                                            class="rank">#1</span></div>
-                                    <div class="keyword-item">Hair transplant in Hyderabad<span class="rank">#3</span>
+                                <!-- Review Card 1: Aji Jeeva (UK) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-1">AJ</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">Aji Jeeva</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i>
+                                                    Verified Client · UK</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">SEO &amp; ORM</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"We hired King of Digital Marketing for organic search
+                                            rankings and online reputation management. Gaurav Dubey and his dedicated
+                                            team got our high-competition UK keywords ranking on Google Page 1.
+                                            Outstanding ROI, constant communication, and verified monthly growth!"</p>
                                     </div>
-                                    <div class="keyword-item">Dense Hair Implantation Clinic in Hyderabad<span
-                                            class="rank">#2</span>
-                                    </div>
-                                    <div class="keyword-item">FUE Hair Transplant clinic in Hyderabad<span
-                                            class="rank">#4</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Box 2 -->
-                        <div class="seo-card">
-                            <div class="card-inner">
-                                <div class="card-header">
-                                    <h3>Dr. PK Talwar - Cosmetic Surgeon</h3>
-                                    <span>Dr. PK Talwar is one of the most experienced cosmetic and plastic surgeons in
-                                        Delhi, India. King
-                                        of Digital Marketing started digital marketing in 2020 and helped to get top
-                                        ranking in Google with
-                                        more than 100 keywords, generated high quality leads organically and promoted
-                                        YouTube also.</span>
-                                </div>
-                                <div class="keyword-list">
-                                    <div class="keyword-item">Gynaecomastia Surgery in Delhi<span class="rank">#3</span>
-                                    </div>
-                                    <div class="keyword-item">Liposuction Surgery in Delhi<span class="rank">#4</span>
-                                    </div>
-                                    <div class="keyword-item">Cosmetic Surgeon in Delhi <span class="rank">#6</span>
-                                    </div>
-                                    <div class="keyword-item">Hair Transplant in South Delhi<span class="rank">#5</span>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> smgains.com
+                                            (UK)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
                                     </div>
                                 </div>
+
+                                <!-- Review Card 2: Dr. PK Talwar (Cosmetic Surgeon) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-2">PT</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">Dr. PK Talwar</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i>
+                                                    Cosmetic Surgeon · New Delhi</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">Lead Gen, SEO &amp; YouTube</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"King of Digital Marketing completely transformed our
+                                            patient acquisition. Under Gaurav Dubey's leadership, our cosmetic surgery
+                                            consultations, high-ranking Google SEO keywords, and YouTube channel growth
+                                            scaled tremendously. Outstanding medical marketing results!"</p>
+                                    </div>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> Dr. PK Talwar
+                                            (New Delhi)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Review Card 3: Kejsi Qirko (Turkey / UK) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-4">KQ</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">Kejsi Qirko</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i>
+                                                    Verified Client · Turkey</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">Medical Tourism SEO, Leads, SMO</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"Hands down the best digital marketing agency we've
+                                            collaborated with. Their team ranked our clinic on Google's first page in
+                                            the UK, Germany, and GCC for medical tourism queries, generating verified
+                                            overseas patient consultations every single week."</p>
+                                    </div>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i>
+                                            herahairsolutions.com (Turkey)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Review Card 4: David Miller (USA) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-5">DM</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">David Miller</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i>
+                                                    Verified Client · California, USA</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">Ecommerce SEO</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"Gaurav Dubey and his 32+ specialist team at King of
+                                            Digital Marketing delivered exceptional ecommerce marketing results for us
+                                            in the USA. Our qualified inbound organic inquiries scaled significantly,
+                                            lowering our overall CAC. Highest recommendation!"</p>
+                                    </div>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i>
+                                            audiocityusa.com (USA)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Review Card 5: Dr. Sanjay Parashar (Dubai & Delhi) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-6">SP</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">Dr. Sanjay Parashar</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Local
+                                                    Guide · Dubai &amp; Delhi</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">Healthcare SEO</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"We noticed massive improvement in patient consultations,
+                                            organic brand authority, and local search visibility. Gaurav Dubey's 13+
+                                            years of hands-on expertise and performance marketing execution made a huge
+                                            impact on our business growth."</p>
+                                    </div>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> cocoona.in
+                                            (Dubai)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Review Card 6: KM Sinha (Kundali Expert) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-3">KM</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">KM Sinha (Kundali Expert)</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i>
+                                                    Astrologer · New Delhi</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">YouTube, SEO &amp; Social</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"Gaurav Dubey and his dedicated marketing team at King
+                                            of Digital Marketing helped us achieve massive YouTube subscriber growth,
+                                            top Google search rankings, and viral social media engagement for Kundali
+                                            Expert. Highly recommended for astrology brand scaling!"</p>
+                                    </div>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i>
+                                            Kundali Expert (KM Sinha)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Review Card 7: Dr. Swapnil Kale (PlotX Developer) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-7">SK</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">Dr. Swapnil Kale</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> PlotX
+                                                    Developer · Real Estate</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">Real Estate Lead Gen</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"King of Digital Marketing is phenomenal for PlotX
+                                            Developer real estate lead generation. Their performance marketing, targeted
+                                            Google Ads, and Meta campaigns consistently delivered high-ticket property
+                                            buyer leads with verified intent. Excellent ROI and professional support!"</p>
+                                    </div>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> PlotX
+                                            Developer (Real Estate)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Review Card 8: Nikita Singh (QHT Clinic) -->
+                                <div class="kdm-gr-card">
+                                    <div>
+                                        <div class="kdm-gr-card-head">
+                                            <div class="kdm-gr-avatar grad-8">NS</div>
+                                            <div class="kdm-gr-user-info">
+                                                <h4 class="kdm-gr-user-name">Nikita Singh</h4>
+                                                <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> QHT
+                                                    Clinic · Hair Transplant</span>
+                                            </div>
+                                            <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path fill="#4285F4"
+                                                    d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                                                <path fill="#34A853"
+                                                    d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                                                <path fill="#FBBC05"
+                                                    d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                                                <path fill="#EA4335"
+                                                    d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                                            </svg>
+                                        </div>
+                                        <div class="kdm-gr-card-rating">
+                                            <div class="kdm-gr-stars">
+                                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i>
+                                            </div>
+                                            <span class="kdm-gr-tag">Lead Gen, SEO &amp; Social</span>
+                                        </div>
+                                        <p class="kdm-gr-text">"Partnering with King of Digital Marketing was the best
+                                            decision for QHT Clinic. Gaurav Dubey's team managed our full-funnel lead
+                                            generation, first-page Google SEO rankings, and engaging social media
+                                            campaigns, driving consistent patient bookings every month."</p>
+                                    </div>
+                                    <div class="kdm-gr-card-foot">
+                                        <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> QHT Clinic
+                                            (Haridwar &amp; Delhi)</span>
+                                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank"
+                                            rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                            <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                        <!-- Box 3 -->
-                        <div class="seo-card">
-                            <div class="card-inner">
-                                <div class="card-header">
-                                    <h3>Kidney Care Centre</h3>
-                                    <span>Kidney Care Centre is led by popular nephrologist in Delhi Dr. Rajesh Goel.
-                                        King of Digital
-                                        Marketing has worked for his website to rank in Google top 10. We worked and got
-                                        result
-                                        successfully.
-                                        Ourteam promoted his Google My Business Pages also to rank in top 3.
-                                        India</span>
-                                </div>
-                                <div class="keyword-list">
-                                    <div class="keyword-item">Kidney specialist doctor in Delhi<span
-                                            class="rank">#3</span></div>
-                                    <div class="keyword-item">best nephrologist in delhi<span class="rank">#6</span>
-                                    </div>
-                                    <div class="keyword-item">Kidney doctor in Delhi<span class="rank">#5</span></div>
-                                    <div class="keyword-item">best dialysis centre in Delhi<span class="rank">#4</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- Box 4 -->
-                        <div class="seo-card">
-                            <div class="card-inner">
-                                <div class="card-header">
-                                    <h3>Contact Combat India</h3>
-                                    <span>Contact Combat India is training centre for Krav Maga and Kickboxing. Our
-                                        Social Media Experts
-                                        and
-                                        SEO Experts had worked on this project for brand awarensss and ranking in search
-                                        engine. We got
-                                        tremendous results for this website.</span>
-                                </div>
-                                <div class="keyword-list">
-                                    <div class="keyword-item">Krav maga in delhi<span class="rank">#3</span></div>
-                                    <div class="keyword-item">Krav maga classes in delhi<span class="rank">#4</span>
-                                    </div>
-                                    <div class="keyword-item">Kids self defense in delhi<span class="rank">#9</span>
-                                    </div>
-                                    <div class="keyword-item">Krav maga near me<span class="rank">#6</span></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Box 5 -->
-                        <div class="seo-card">
-                            <div class="card-inner">
-                                <div class="card-header">
-                                    <h3>Wolk Coworking Space</h3>
-                                    <span>Wolk - A Coworking Community We have worked for Wolk Search Engine
-                                        Optimization Services, Wolk
-                                        provides the best coworking spaces and shared office space solutions in South
-                                        Delhi. This website
-                                        ranks in Delhi, Nehru Place and South Delhi based Keywords now.</span>
-                                </div>
-                                <div class="keyword-list">
-                                    <div class="keyword-item">Coworking Space in Nehru Place<span class="rank">#3</span>
-                                    </div>
-                                    <div class="keyword-item">Coworking Space in South Delhi<span class="rank">#5</span>
-                                    </div>
-                                    <div class="keyword-item">Coworking Space in Delhi<span class="rank">#6</span></div>
-                                    <div class="keyword-item">Shared Office Space in South Delhi<span
-                                            class="rank">#7</span></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Box 6 -->
-                        <div class="seo-card">
-                            <div class="card-inner">
-                                <div class="card-header">
-                                    <h3>Geographia IAS</h3>
-                                    <span>Geographia IAS - SEO Services We have worked for Ajay Raj Singh Sir, Best
-                                        Geography Optional
-                                        Teacher for IAs and UPSC aspirants. We have ranked 5 - 6 Keywords. Maximum we
-                                        have done paid
-                                        advertisement(Google Ad - Search and Display) for this website.</span>
-                                </div>
-                                <div class="keyword-list">
-                                    <div class="keyword-item">Geography Coaching in Delhi<span class="rank">#3</span>
-                                    </div>
-                                    <div class="keyword-item">Best Geography Institute for IAS<span
-                                            class="rank">#5</span></div>
-                                    <div class="keyword-item">Geography Coaching for IAS<span class="rank">#6</span>
-                                    </div>
-                                    <div class="keyword-item">Online Geography Coaching for IAS<span
-                                            class="rank">#3</span></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Box 7 -->
-                        <div class="seo-card">
-                            <div class="card-inner">
-                                <div class="card-header">
-                                    <h3>DIFA: Delhi Institute of Film & Acting</h3>
-                                    <span>DIFA (Delhi Institute of Film & Acting) - SEO/PPC Services SEO team worked of
-                                        DIFA project 4
-                                        months to bring its major keywords in 1st page of Google. Almost 80% keywords
-                                        are in 1st page. Our
-                                        PPC
-                                        team provided 350 leads through paid ads in a month for DIFA.</span>
-                                </div>
-                                <div class="keyword-list">
-                                    <div class="keyword-item">Acting School in Delhi<span class="rank">#6</span></div>
-                                    <div class="keyword-item">Acting School in South Delhi<span class="rank">#5</span>
-                                    </div>
-                                    <div class="keyword-item">Acting Institute in Delhi<span class="rank">#3</span>
-                                    </div>
-                                    <div class="keyword-item">Acting Course in Delhi <span class="rank">#4</span></div>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- Pagination Dots -->
+                        <div class="kdm-gr-dots" id="kdmGoogleReviewsDots"></div>
                     </div>
 
-                    <!-- Slider buttons -->
-                    <button class="nav-btn prev">&#10094;</button>
-                    <button class="nav-btn next">&#10095;</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== STRIP SECTION ===== -->
-        <div class="strip-section">
-            <h2 class="strip-title">
-                Let's Kickstart Your Digital Success Today!
-            </h2>
-            <p class="strip-text">
-                For over 13 years, King of Digital Marketing has delivered consistent growth through digital marketing
-                services
-                like SEO, PPC, and lead generation campaigns. Let's create a winning plan for your business.
-            </p>
-            <a href="javascript:void(0);" onclick="openPopup()" class="strip-btn">
-                Send Me a Proposal!
-            </a>
-        </div>
-
-
-
-        <!-- ===== NUMBERS DO SPEAK A LOT SECTION (DARK THEME WITH SVGs) ===== -->
-        <section class="kdm-numbers-dark-section">
-            <div class="container">
-                <div class="kdm-numbers-header-dark">
-                    <div class="kdm-numbers-badge-dark">
-                        <i class="fa fa-bar-chart fa-solid fa-chart-simple"></i> PROVEN MILESTONES &amp; IMPACT
-                    </div>
-                    <h2 class="kdm-numbers-title-dark">NUMBERS DO <span class="kdm-theme-gradient">SPEAK A LOT !</span>
-                    </h2>
-                    <p class="kdm-numbers-subtitle-dark">
-                        King of Digital Marketing is one of India's best digital marketing services company. Having 13+
-                        years of experience proves that we have a professional and result oriented digital marketing
-                        team who has nailed the power of consulting, discovering, planning, executing and reporting.
-                        With the experience of working for over 900+ companies worldwide, we have achieved the
-                        confidence to take care of digital marketing strategies for your company. We have worked with
-                        more than 400 case of success with our determination to provide the best. Some of those
-                        companies are VLCC, Meena Bazaar, ISKCON, SkinLab by Dr. Jamuna Pai, QHT, SkinMumma, Dr. A's
-                        Clinic, Planet Education, Aliff, Global Opportunies and the list is everlasting. With more than
-                        400 case studies we have created consistent growth on multi channel digital platforms. Last but
-                        not least, gaining the trust and reviews of 410+ individuals with 4.9 ratings on Google,
-                        Facebook, Glassdoor &amp; JustDial, we have the confidence to say that King of Digital Marketing
-                        has the whole package for your growing company to ace the Digital Market with excellence.
-                    </p>
-                </div>
-
-                <div class="row custom-row">
-                    <!-- Card 1: Experience of Working on Different Projects -->
-                    <div class="col-md-6 col-sm-12">
-                        <a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx"
-                            class="kdm-number-card-dark-link">
-                            <div class="kdm-number-card-dark">
-                                <div class="kdm-number-svg-box">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                                        <path
-                                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <div class="kdm-number-info-dark">
-                                    <h4>Experience of Working on Different Projects</h4>
-                                    <p class="kdm-number-val-dark">250+ Industries</p>
-                                    <h5 class="kdm-number-sub-dark">For More Than 12 Countries</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Card 2: Few Brands We've Worked With -->
-                    <div class="col-md-6 col-sm-12">
-                        <a href="https://www.kingofdigitalmarketing.com/Our-Portfolio.aspx"
-                            class="kdm-number-card-dark-link">
-                            <div class="kdm-number-card-dark">
-                                <div class="kdm-number-svg-box">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polygon
-                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                                        </polygon>
-                                    </svg>
-                                </div>
-                                <div class="kdm-number-info-dark">
-                                    <h4>Few Brands We've Worked With</h4>
-                                    <p class="kdm-number-val-dark">150+ Success Stories</p>
-                                    <h5 class="kdm-number-sub-dark">Of Most Influential Brands</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Card 3: Growth We've Driven In Numbers -->
-                    <div class="col-md-6 col-sm-12">
-                        <a href="https://www.kingofdigitalmarketing.com/seo-case-study.aspx"
-                            class="kdm-number-card-dark-link">
-                            <div class="kdm-number-card-dark">
-                                <div class="kdm-number-svg-box">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                                        <polyline points="17 6 23 6 23 12"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="kdm-number-info-dark">
-                                    <h4>Growth We've Driven In Numbers</h4>
-                                    <p class="kdm-number-val-dark">400+ Case Studies</p>
-                                    <h5 class="kdm-number-sub-dark">Created Consistent Growth on Multi-channel</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Card 4: We're a 4.9 Rated Agency -->
-                    <div class="col-md-6 col-sm-12">
-                        <a href="#" class="kdm-number-card-dark-link">
-                            <div class="kdm-number-card-dark">
-                                <div class="kdm-number-svg-box">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path
-                                            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <div class="kdm-number-info-dark">
-                                    <h4>We're a 4.9 Rated Agency</h4>
-                                    <p class="kdm-number-val-dark">410+ Reviews</p>
-                                    <h5 class="kdm-number-sub-dark">On Google, Facebook &amp; Others</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Card 5: Discovery, Planning & Execution -->
-                    <div class="col-md-6 col-sm-12">
-                        <a href="https://www.kingofdigitalmarketing.com/team.aspx" class="kdm-number-card-dark-link">
-                            <div class="kdm-number-card-dark">
-                                <div class="kdm-number-svg-box">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                        <circle cx="9" cy="7" r="4"></circle>
-                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                                    </svg>
-                                </div>
-                                <div class="kdm-number-info-dark">
-                                    <h4>Discovery, Planning &amp; Execution</h4>
-                                    <p class="kdm-number-val-dark">13+ Years Experience</p>
-                                    <h5 class="kdm-number-sub-dark">Team for Your Success</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Card 6: Experience That Speaks -->
-                    <div class="col-md-6 col-sm-12">
-                        <a href="https://www.kingofdigitalmarketing.com/digital-marketing-course.aspx"
-                            class="kdm-number-card-dark-link">
-                            <div class="kdm-number-card-dark">
-                                <div class="kdm-number-svg-box">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="kdm-number-info-dark">
-                                    <h4>Experience That Speaks</h4>
-                                    <p class="kdm-number-val-dark">900+ Projects Done</p>
-                                    <h5 class="kdm-number-sub-dark">Delivering Excellence Across Worldwide</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of NUMBERS DO SPEAK A LOT ! -->
-
-        <!-- ===== CREDENTIALS SECTION (5 SEPARATE DARK BOXES IN 1 ROW WITH SVGs) ===== -->
-        <section class="kdm-credentials-white-section">
-            <div class="container">
-                <div class="kdm-credentials-header">
-                    <div class="kdm-credentials-badge">
-                        <i class="fa fa-certificate fa-solid fa-award"></i> PROVEN MILESTONES &amp; RECORD
-                    </div>
-                    <h2 class="kdm-credentials-title">OUR <span class="kdm-blue-gradient">CREDENTIALS</span></h2>
-                    <p class="kdm-credentials-subtitle">These Numbers Speak A Lot About Our Experience</p>
-                </div>
-
-                <div class="kdm-credentials-5grid counters dark counters-row">
-                    <!-- Box 1: 13+ Years of Experience -->
-                    <div class="kdm-credentials-box">
-                        <div class="kdm-cred-svg-hub">
-                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <polyline points="12 6 12 12 16 14"></polyline>
-                            </svg>
-                        </div>
-                        <strong class="counter-value kdm-cred-num" data-to="13" data-append="+">13+</strong>
-                        <label class="kdm-cred-label">Years of Experience</label>
-                    </div>
-
-                    <!-- Box 2: 900+ Projects Completed -->
-                    <div class="kdm-credentials-box">
-                        <div class="kdm-cred-svg-hub">
-                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                            </svg>
-                        </div>
-                        <strong class="counter-value kdm-cred-num" data-to="900" data-append="+">900+</strong>
-                        <label class="kdm-cred-label">Projects Completed</label>
-                    </div>
-
-                    <!-- Box 3: 15+ Countries Served -->
-                    <div class="kdm-credentials-box">
-                        <div class="kdm-cred-svg-hub">
-                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <!-- Bottom Trust Strip -->
+                    <div class="kdm-gr-footer-strip">
+                        <div class="kdm-gr-strip-content">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                                 <path
-                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                                </path>
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"
+                                    fill="#EA4335" />
                             </svg>
+                            <span>Find King of Digital Marketing on Google Maps — Kalkaji &amp; Govindpuri, New
+                                Delhi</span>
                         </div>
-                        <strong class="counter-value kdm-cred-num" data-to="15" data-append="+">15+</strong>
-                        <label class="kdm-cred-label">Countries Served</label>
-                    </div>
-
-                    <!-- Box 4: 4.9 Overall Rating -->
-                    <div class="kdm-credentials-box">
-                        <div class="kdm-cred-svg-hub">
-                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                <polygon
-                                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                                </polygon>
-                            </svg>
-                        </div>
-                        <strong class="counter-value kdm-cred-num" data-to="4.9" data-decimals="1"
-                            data-append="★">4.9★</strong>
-                        <label class="kdm-cred-label">Overall Rating</label>
-                    </div>
-
-                    <!-- Box 5: 150+ Industries Served -->
-                    <div class="kdm-credentials-box">
-                        <div class="kdm-cred-svg-hub">
-                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                            </svg>
-                        </div>
-                        <strong class="counter-value kdm-cred-num" data-to="150" data-append="+">150+</strong>
-                        <label class="kdm-cred-label">Industries Served</label>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Credential Container -->
-
-
-        <!-- Section for FAQ -->
-        <section class="kdm-v2-faq-default-section">
-            <div class="container">
-                <div class="row custom-row">
-                    <div class="col-md-6">
-                        <div class="kdm-faq-column-header">
-                            <h2>Any Doubt? <strong>Here are FAQ's</strong></h2>
-                            <p>Quick answers to common questions about our services</p>
-                        </div>
-
-                        <div class="kdm-faq-accordion">
-                            <div class="kdm-faq-item active">
-                                <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.1. How Do You Help Solving My Digital Marketing
-                                        Problems?</span>
-                                    <span class="kdm-faq-icon">+</span>
-                                </button>
-                                <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We solve challenges
-                                        of low ranking, low traffic, low quality leads, sales &amp; conversion issues
-                                        and reaching targeted audiences. Our digital marketing strategies connect
-                                        businesses with targeted audiences to generate more leads and revenue using
-                                        activities such as SEO, GEO, AEO, Social Media, Meta Ads, Google Ads, website
-                                        designing, and development.</p>
-                                </div>
-                            </div>
-
-                            <div class="kdm-faq-item">
-                                <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.2. Would My Business Benefit From Digital
-                                        Marketing?</span>
-                                    <span class="kdm-faq-icon">+</span>
-                                </button>
-                                <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> It is a definite
-                                        YES. Your business definitely requires digital marketing. It enables companies
-                                        to reach and interact with their target audience in real-time and maximize brand
-                                        awareness at an affordable cost with unlimited reach.</p>
-                                </div>
-                            </div>
-
-                            <div class="kdm-faq-item">
-                                <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.3. Why Should I Hire a Digital Marketing
-                                        Company?</span>
-                                    <span class="kdm-faq-icon">+</span>
-                                </button>
-                                <div class="kdm-faq-body">
-                                    <div class="kdm-faq-answer">
-                                        <span class="kdm-ans-badge">Ans</span> Digital marketing offers numerous
-                                        advantages over traditional methods to attract more customers:
-                                        <ul>
-                                            <li>Advertise where you are actively being searched</li>
-                                            <li>Ability to reach global customers</li>
-                                            <li>Cost-effective — reach more customers for less investment</li>
-                                            <li>Build a brand by understanding your customers personally</li>
-                                            <li>Track all expenses, sales, conversions, and metrics</li>
-                                            <li>Time savvy</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="kdm-faq-item">
-                                <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.4. What does a Digital Marketing Agency Do?</span>
-                                    <span class="kdm-faq-icon">+</span>
-                                </button>
-                                <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> A digital marketing
-                                        agency understands client requirements and creates result-oriented marketing
-                                        strategies. They focus on delivering ROI, spreading brand awareness to targeted
-                                        audiences, and driving quality lead generation while maintaining user experience
-                                        excellence.</p>
-                                </div>
-                            </div>
-
-                            <div class="kdm-faq-item">
-                                <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.5. What is brand awareness in digital
-                                        marketing?</span>
-                                    <span class="kdm-faq-icon">+</span>
-                                </button>
-                                <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> In digital
-                                        marketing, brand awareness means creating a solid digital identity for your
-                                        company among target customers. It builds and disseminates key information about
-                                        your products/services when launching new offerings.</p>
-                                </div>
-                            </div>
-
-                            <div class="kdm-faq-item">
-                                <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.6. How Can I Get The Services Started?</span>
-                                    <span class="kdm-faq-icon">+</span>
-                                </button>
-                                <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Find top digital
-                                        marketing experts, list your requirements, and consult a <a
-                                            href="https://www.kingofdigitalmarketing.com/gaurav-dubey.aspx">digital
-                                            marketing consultant</a>. Review past work, results, timelines, and digital
-                                        marketing packages before signing a contract to ensure complete confidence.</p>
-                                </div>
-                            </div>
-
-                            <div class="kdm-faq-item">
-                                <button type="button" class="kdm-faq-header">
-                                    <span class="kdm-faq-question">Q.7. How much do you charge for digital
-                                        marketing?</span>
-                                    <span class="kdm-faq-icon">+</span>
-                                </button>
-                                <div class="kdm-faq-body">
-                                    <p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Digital marketing
-                                        packages are tailored to project requirements. We offer bespoke combined
-                                        packages covering SEO, SMO, PPC, Web Design, Content Creation, and Link Building
-                                        tailored specifically for your business goals.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 kdm-blog-col-wrapper">
-                        <div class="kdm-blog-column-header">
-                            <h2>Recent <strong>News &amp; Blog</strong></h2>
-                            <p>Stay updated with our latest digital marketing trends &amp; insights</p>
-                        </div>
-
-                        <div class="kdm-blogs-v2-container">
-                            <a href="https://www.kingofdigitalmarketing.com/blog/meta-live-video-ads-instagram-facebook.aspx"
-                                target="_blank" class="kdm-blog-card-v2">
-                                <div class="kdm-blog-icon-hub">
-                                    <i class="fa fa-line-chart"></i>
-                                </div>
-                                <div class="kdm-blog-content-body">
-                                    <div class="kdm-blog-meta-bar">
-                                        <span class="kdm-blog-pill">Social Media</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> October 02, 2026</span>
-                                    </div>
-                                    <h4 class="kdm-blog-heading">Meta Live Video Ads 2026: How to Run Ads on Instagram and Facebook Live</h4>
-                                </div>
-                                <div class="kdm-blog-arrow-hub">
-                                    <i class="fa fa-chevron-right"></i>
-                                </div>
-                            </a>
-
-                            <a href="https://www.kingofdigitalmarketing.com/blog/seo-freelancer-in-dubai-uae.aspx"
-                                target="_blank" class="kdm-blog-card-v2">
-                                <div class="kdm-blog-icon-hub">
-                                    <i class="fa fa-search"></i>
-                                </div>
-                                <div class="kdm-blog-content-body">
-                                    <div class="kdm-blog-meta-bar">
-                                        <span class="kdm-blog-pill">SEO Strategy  UAE &amp; Dubai</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> October 02, 2026</span>
-                                    </div>
-                                    <h4 class="kdm-blog-heading">SEO Freelancer in Dubai UAE: Why Business Owners Choose Direct 13+ Years Expertise...</h4>
-                                </div>
-                                <div class="kdm-blog-arrow-hub">
-                                    <i class="fa fa-chevron-right"></i>
-                                </div>
-                            </a>
-
-                            <a href="https://www.kingofdigitalmarketing.com/blog/tarot-card-reader-lead-generation.aspx"
-                                target="_blank" class="kdm-blog-card-v2">
-                                <div class="kdm-blog-icon-hub">
-                                    <i class="fa fa-magic"></i>
-                                </div>
-                                <div class="kdm-blog-content-body">
-                                    <div class="kdm-blog-meta-bar">
-                                        <span class="kdm-blog-pill">Tarot Marketing</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> October 02, 2026</span>
-                                    </div>
-                                    <h4 class="kdm-blog-heading">Lead Generation for Tarot Card Reader: How to Get Quality Paying Clients Online</h4>
-                                </div>
-                                <div class="kdm-blog-arrow-hub">
-                                    <i class="fa fa-chevron-right"></i>
-                                </div>
-                            </a>
-
-                            <a href="https://www.kingofdigitalmarketing.com/blog/how-to-get-clients-for-astrology-consultation.aspx"
-                                target="_blank" class="kdm-blog-card-v2">
-                                <div class="kdm-blog-icon-hub">
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <div class="kdm-blog-content-body">
-                                    <div class="kdm-blog-meta-bar">
-                                        <span class="kdm-blog-pill">Astrology Marketing</span>
-                                        <span class="kdm-blog-date-text"><i class="fa fa-calendar"></i> September 16, 2026</span>
-                                    </div>
-                                    <h4 class="kdm-blog-heading">How to Get Clients for Astrology Consultation: The Complete Step-by-Step Guide</h4>
-                                </div>
-                                <div class="kdm-blog-arrow-hub">
-                                    <i class="fa fa-chevron-right"></i>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="kdm-more-blogs-btn-wrap">
-                            <a href="https://www.kingofdigitalmarketing.com/blog/" target="_blank"
-                                class="kdm-more-blogs-btn">
-                                <span>Read More Blogs</span> <i class="fa fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Section for FAQ Ends -->
-
-        <!-- Get Started Section Starts -->
-        <section class="kdm-v2-cta-banner-section">
-            <div class="container">
-                <div class="kdm-cta-cards-row">
-                    <!-- CTA Card 1 -->
-                    <div class="kdm-cta-box-card">
-                        <div>
-                            <span class="kdm-cta-badge"><i class="fa fa-rocket"></i> GET STARTED TODAY</span>
-                            <h3 class="kdm-cta-card-title">GET STARTED <strong>WITH US TODAY!</strong></h3>
-                            <p class="kdm-cta-card-desc">Request a 100% Free Website Audit &amp; Custom Growth Blueprint
-                                from our experts.</p>
-                        </div>
-                        <a href="free-seo-audit.aspx" target="_blank" class="kdm-cta-btn-glow">
-                            <span>Free Website Audit!</span> <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <!-- CTA Card 2 -->
-                    <div class="kdm-cta-box-card">
-                        <div>
-                            <span class="kdm-cta-badge"><i class="fa fa-trophy"></i> PROVEN RESULTS</span>
-                            <h3 class="kdm-cta-card-title">Helping Brands Grow <strong>Revenue &amp; Profit!</strong>
-                            </h3>
-                            <p class="kdm-cta-card-desc">Explore 900+ successful client works, case studies, and digital
-                                marketing results.</p>
-                        </div>
-                        <a href="Our-Portfolio.aspx" target="_blank" class="kdm-cta-btn-outline">
-                            <span>Our Works!</span> <i class="fa fa-arrow-right"></i>
+                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer"
+                            class="kdm-gr-map-link">
+                            <span>View on Google Maps</span> <i class="fa fa-external-link"></i>
                         </a>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Get Started Section Ends -->
+            </section>
+            <!-- Google Reviews Slider Section Ends -->
 
-        <!-- Google Reviews Slider Section Starts (Just Above Footer) -->
-        <section class="kdm-google-reviews-section" id="google-reviews">
-            <div class="container">
-                <!-- Top Trust & Header Row -->
-                <div class="kdm-gr-header-row">
-                    <div class="kdm-gr-header-left">
-                        <div class="kdm-gr-badge">
-                            <svg class="kdm-google-icon" viewBox="0 0 24 24" aria-hidden="true">
-                                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                            </svg>
-                            <span>VERIFIED GOOGLE REVIEWS</span>
-                        </div>
-                        <h2 class="kdm-gr-title">What Clients Say About Us On <strong>Google</strong></h2>
-                        <p class="kdm-gr-subtitle">Real feedback from founders and global business owners who achieved Google #1 rankings, verified high-intent leads, and accelerated revenue with King of Digital Marketing.</p>
-                    </div>
-
-                    <!-- Overall Google Rating Summary Card -->
-                    <div class="kdm-gr-score-card">
-                        <div class="kdm-gr-score-top">
-                            <span class="kdm-gr-score-num">4.9</span>
-                            <div class="kdm-gr-score-details">
-                                <div class="kdm-gr-stars-gold">
-                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                </div>
-                                <span class="kdm-gr-score-label">⭐ 4.9/5 Rating · 150+ Reviews</span>
-                            </div>
-                        </div>
-                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-review-btn">
-                            <i class="fa fa-pencil-square-o"></i> <span>Write a Review</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Slider Wrapper -->
-                <div class="kdm-gr-slider-wrapper">
-                    <!-- Navigation Arrows -->
-                    <button class="kdm-gr-nav-arrow prev" type="button" aria-label="Previous Google Reviews">
-                        <i class="fa fa-chevron-left"></i>
-                    </button>
-                    <button class="kdm-gr-nav-arrow next" type="button" aria-label="Next Google Reviews">
-                        <i class="fa fa-chevron-right"></i>
-                    </button>
-
-                    <!-- Slider Container -->
-                    <div class="kdm-gr-slider" id="kdmGoogleReviewsSlider">
-                        <div class="kdm-gr-track">
-
-                            <!-- Review Card 1: Aji Jeeva (UK) -->
-                            <div class="kdm-gr-card">
-                                <div>
-                                    <div class="kdm-gr-card-head">
-                                        <div class="kdm-gr-avatar grad-1">AJ</div>
-                                        <div class="kdm-gr-user-info">
-                                            <h4 class="kdm-gr-user-name">Aji Jeeva</h4>
-                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · UK</span>
-                                        </div>
-                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
-                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="kdm-gr-card-rating">
-                                        <div class="kdm-gr-stars">
-                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                        </div>
-                                        <span class="kdm-gr-tag">SEO &amp; ORM</span>
-                                    </div>
-                                    <p class="kdm-gr-text">"We hired King of Digital Marketing for organic search rankings and online reputation management. Gaurav Dubey and his dedicated team got our high-competition UK keywords ranking on Google Page 1. Outstanding ROI, constant communication, and verified monthly growth!"</p>
-                                </div>
-                                <div class="kdm-gr-card-foot">
-                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> smgains.com (UK)</span>
-                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
-                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- Review Card 2: Roopak Sharma (Dubai) -->
-                            <div class="kdm-gr-card">
-                                <div>
-                                    <div class="kdm-gr-card-head">
-                                        <div class="kdm-gr-avatar grad-2">RS</div>
-                                        <div class="kdm-gr-user-info">
-                                            <h4 class="kdm-gr-user-name">Roopak Sharma</h4>
-                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Local Guide · Dubai, UAE</span>
-                                        </div>
-                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
-                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="kdm-gr-card-rating">
-                                        <div class="kdm-gr-stars">
-                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                        </div>
-                                        <span class="kdm-gr-tag">PPC &amp; Lead Gen</span>
-                                    </div>
-                                    <p class="kdm-gr-text">"King of Digital Marketing completely transformed our lead acquisition pipeline across the UAE and Middle East. Student inquiries surged by over 240% within 4 months through targeted PPC and organic search. Gaurav Dubey is an incredible digital marketing strategist."</p>
-                                </div>
-                                <div class="kdm-gr-card-foot">
-                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> gotouniversity.com (Dubai)</span>
-                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
-                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- Review Card 3: Kejsi Qirko (Turkey / UK) -->
-                            <div class="kdm-gr-card">
-                                <div>
-                                    <div class="kdm-gr-card-head">
-                                        <div class="kdm-gr-avatar grad-4">KQ</div>
-                                        <div class="kdm-gr-user-info">
-                                            <h4 class="kdm-gr-user-name">Kejsi Qirko</h4>
-                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · Turkey</span>
-                                        </div>
-                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
-                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="kdm-gr-card-rating">
-                                        <div class="kdm-gr-stars">
-                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                        </div>
-                                        <span class="kdm-gr-tag">Medical Tourism SEO</span>
-                                    </div>
-                                    <p class="kdm-gr-text">"Hands down the best digital marketing agency we've collaborated with. Their team ranked our clinic on Google's first page in the UK, Germany, and GCC for medical tourism queries, generating verified overseas patient consultations every single week."</p>
-                                </div>
-                                <div class="kdm-gr-card-foot">
-                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> herahairsolutions.com (Turkey)</span>
-                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
-                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- Review Card 4: David Miller (USA) -->
-                            <div class="kdm-gr-card">
-                                <div>
-                                    <div class="kdm-gr-card-head">
-                                        <div class="kdm-gr-avatar grad-5">DM</div>
-                                        <div class="kdm-gr-user-info">
-                                            <h4 class="kdm-gr-user-name">David Miller</h4>
-                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · California, USA</span>
-                                        </div>
-                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
-                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="kdm-gr-card-rating">
-                                        <div class="kdm-gr-stars">
-                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                        </div>
-                                        <span class="kdm-gr-tag">Ecommerce SEO</span>
-                                    </div>
-                                    <p class="kdm-gr-text">"Gaurav Dubey and his 32+ specialist team at King of Digital Marketing delivered exceptional ecommerce marketing results for us in the USA. Our qualified inbound organic inquiries scaled significantly, lowering our overall CAC. Highest recommendation!"</p>
-                                </div>
-                                <div class="kdm-gr-card-foot">
-                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> audiocityusa.com (USA)</span>
-                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
-                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- Review Card 5: Dr. Sanjay Parashar (Dubai & Delhi) -->
-                            <div class="kdm-gr-card">
-                                <div>
-                                    <div class="kdm-gr-card-head">
-                                        <div class="kdm-gr-avatar grad-6">SP</div>
-                                        <div class="kdm-gr-user-info">
-                                            <h4 class="kdm-gr-user-name">Dr. Sanjay Parashar</h4>
-                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Local Guide · Dubai &amp; Delhi</span>
-                                        </div>
-                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
-                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="kdm-gr-card-rating">
-                                        <div class="kdm-gr-stars">
-                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                        </div>
-                                        <span class="kdm-gr-tag">Healthcare SEO</span>
-                                    </div>
-                                    <p class="kdm-gr-text">"We noticed massive improvement in patient consultations, organic brand authority, and local search visibility. Gaurav Dubey's 13+ years of hands-on expertise and performance marketing execution made a huge impact on our business growth."</p>
-                                </div>
-                                <div class="kdm-gr-card-foot">
-                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> cocoona.in (Dubai)</span>
-                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
-                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- Review Card 6: Younus Bennani (Morocco) -->
-                            <div class="kdm-gr-card">
-                                <div>
-                                    <div class="kdm-gr-card-head">
-                                        <div class="kdm-gr-avatar grad-3">YB</div>
-                                        <div class="kdm-gr-user-info">
-                                            <h4 class="kdm-gr-user-name">Younus Bennani</h4>
-                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · Morocco</span>
-                                        </div>
-                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
-                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="kdm-gr-card-rating">
-                                        <div class="kdm-gr-stars">
-                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                        </div>
-                                        <span class="kdm-gr-tag">International SEO</span>
-                                    </div>
-                                    <p class="kdm-gr-text">"Securing international tourist bookings from the UK, USA, and Europe was tough until we partnered with Gaurav Dubey's team. King of Digital Marketing built high-converting multilingual landing pages and top Google search rankings. Truly top-class digital marketing agency!"</p>
-                                </div>
-                                <div class="kdm-gr-card-foot">
-                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> moroccotourismagency.com</span>
-                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
-                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- Review Card 7: Vikas Malhotra (Delhi NCR) -->
-                            <div class="kdm-gr-card">
-                                <div>
-                                    <div class="kdm-gr-card-head">
-                                        <div class="kdm-gr-avatar grad-7">VM</div>
-                                        <div class="kdm-gr-user-info">
-                                            <h4 class="kdm-gr-user-name">Vikas Malhotra</h4>
-                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · Delhi NCR</span>
-                                        </div>
-                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
-                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="kdm-gr-card-rating">
-                                        <div class="kdm-gr-stars">
-                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                        </div>
-                                        <span class="kdm-gr-tag">Real Estate Marketing</span>
-                                    </div>
-                                    <p class="kdm-gr-text">"King of Digital Marketing is phenomenal for real estate lead generation. Their targeted Google Ads and Meta campaigns generated high-ticket buyer inquiries with verified phone numbers. Highly reliable and transparent reporting every week."</p>
-                                </div>
-                                <div class="kdm-gr-card-foot">
-                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> Malhotra Realty (Delhi NCR)</span>
-                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
-                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- Review Card 8: Pooja Agarwal (India) -->
-                            <div class="kdm-gr-card">
-                                <div>
-                                    <div class="kdm-gr-card-head">
-                                        <div class="kdm-gr-avatar grad-8">PA</div>
-                                        <div class="kdm-gr-user-info">
-                                            <h4 class="kdm-gr-user-name">Pooja Agarwal</h4>
-                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Local Guide · India</span>
-                                        </div>
-                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
-                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="kdm-gr-card-rating">
-                                        <div class="kdm-gr-stars">
-                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                        </div>
-                                        <span class="kdm-gr-tag">Performance Marketing</span>
-                                    </div>
-                                    <p class="kdm-gr-text">"Working with King of Digital Marketing was the turning point for our D2C brand. Our organic search sales grew by 3.5X and our Google Shopping ROAS stayed consistently above 4.8. Truly the king of performance marketing in India!"</p>
-                                </div>
-                                <div class="kdm-gr-card-foot">
-                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> Aadvik Naturals (India)</span>
-                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
-                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- Pagination Dots -->
-                    <div class="kdm-gr-dots" id="kdmGoogleReviewsDots"></div>
-                </div>
-
-                <!-- Bottom Trust Strip -->
-                <div class="kdm-gr-footer-strip">
-                    <div class="kdm-gr-strip-content">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#EA4335"/>
-                        </svg>
-                        <span>Find King of Digital Marketing on Google Maps — Kalkaji &amp; Govindpuri, New Delhi</span>
-                    </div>
-                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-map-link">
-                        <span>View on Google Maps</span> <i class="fa fa-external-link"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Google Reviews Slider Section Ends -->
-
-        <!--Footer Starts-->
+            <!--Footer Starts-->
 
 
 
 
 
-    </asp:Content>
+        </asp:Content>
