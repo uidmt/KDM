@@ -1828,6 +1828,336 @@
             </div>
         </section>
         <!-- Get Started Section Ends -->
+
+        <!-- Google Reviews Slider Section Starts (Just Above Footer) -->
+        <section class="kdm-google-reviews-section" id="google-reviews">
+            <div class="container">
+                <!-- Top Trust & Header Row -->
+                <div class="kdm-gr-header-row">
+                    <div class="kdm-gr-header-left">
+                        <div class="kdm-gr-badge">
+                            <svg class="kdm-google-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                            </svg>
+                            <span>VERIFIED GOOGLE REVIEWS</span>
+                        </div>
+                        <h2 class="kdm-gr-title">What Clients Say About Us On <strong>Google</strong></h2>
+                        <p class="kdm-gr-subtitle">Real feedback from founders and global business owners who achieved Google #1 rankings, verified high-intent leads, and accelerated revenue with King of Digital Marketing.</p>
+                    </div>
+
+                    <!-- Overall Google Rating Summary Card -->
+                    <div class="kdm-gr-score-card">
+                        <div class="kdm-gr-score-top">
+                            <span class="kdm-gr-score-num">4.9</span>
+                            <div class="kdm-gr-score-details">
+                                <div class="kdm-gr-stars-gold">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                                <span class="kdm-gr-score-label">⭐ 4.9/5 Rating · 150+ Reviews</span>
+                            </div>
+                        </div>
+                        <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-review-btn">
+                            <i class="fa fa-pencil-square-o"></i> <span>Write a Review</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Slider Wrapper -->
+                <div class="kdm-gr-slider-wrapper">
+                    <!-- Navigation Arrows -->
+                    <button class="kdm-gr-nav-arrow prev" type="button" aria-label="Previous Google Reviews">
+                        <i class="fa fa-chevron-left"></i>
+                    </button>
+                    <button class="kdm-gr-nav-arrow next" type="button" aria-label="Next Google Reviews">
+                        <i class="fa fa-chevron-right"></i>
+                    </button>
+
+                    <!-- Slider Container -->
+                    <div class="kdm-gr-slider" id="kdmGoogleReviewsSlider">
+                        <div class="kdm-gr-track">
+
+                            <!-- Review Card 1: Aji Jeeva (UK) -->
+                            <div class="kdm-gr-card">
+                                <div>
+                                    <div class="kdm-gr-card-head">
+                                        <div class="kdm-gr-avatar grad-1">AJ</div>
+                                        <div class="kdm-gr-user-info">
+                                            <h4 class="kdm-gr-user-name">Aji Jeeva</h4>
+                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · UK</span>
+                                        </div>
+                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-gr-card-rating">
+                                        <div class="kdm-gr-stars">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                        <span class="kdm-gr-tag">SEO &amp; ORM</span>
+                                    </div>
+                                    <p class="kdm-gr-text">"We hired King of Digital Marketing for organic search rankings and online reputation management. Gaurav Dubey and his dedicated team got our high-competition UK keywords ranking on Google Page 1. Outstanding ROI, constant communication, and verified monthly growth!"</p>
+                                </div>
+                                <div class="kdm-gr-card-foot">
+                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> smgains.com (UK)</span>
+                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Review Card 2: Roopak Sharma (Dubai) -->
+                            <div class="kdm-gr-card">
+                                <div>
+                                    <div class="kdm-gr-card-head">
+                                        <div class="kdm-gr-avatar grad-2">RS</div>
+                                        <div class="kdm-gr-user-info">
+                                            <h4 class="kdm-gr-user-name">Roopak Sharma</h4>
+                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Local Guide · Dubai, UAE</span>
+                                        </div>
+                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-gr-card-rating">
+                                        <div class="kdm-gr-stars">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                        <span class="kdm-gr-tag">PPC &amp; Lead Gen</span>
+                                    </div>
+                                    <p class="kdm-gr-text">"King of Digital Marketing completely transformed our lead acquisition pipeline across the UAE and Middle East. Student inquiries surged by over 240% within 4 months through targeted PPC and organic search. Gaurav Dubey is an incredible digital marketing strategist."</p>
+                                </div>
+                                <div class="kdm-gr-card-foot">
+                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> gotouniversity.com (Dubai)</span>
+                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Review Card 3: Kejsi Qirko (Turkey / UK) -->
+                            <div class="kdm-gr-card">
+                                <div>
+                                    <div class="kdm-gr-card-head">
+                                        <div class="kdm-gr-avatar grad-4">KQ</div>
+                                        <div class="kdm-gr-user-info">
+                                            <h4 class="kdm-gr-user-name">Kejsi Qirko</h4>
+                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · Turkey</span>
+                                        </div>
+                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-gr-card-rating">
+                                        <div class="kdm-gr-stars">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                        <span class="kdm-gr-tag">Medical Tourism SEO</span>
+                                    </div>
+                                    <p class="kdm-gr-text">"Hands down the best digital marketing agency we've collaborated with. Their team ranked our clinic on Google's first page in the UK, Germany, and GCC for medical tourism queries, generating verified overseas patient consultations every single week."</p>
+                                </div>
+                                <div class="kdm-gr-card-foot">
+                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> herahairsolutions.com (Turkey)</span>
+                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Review Card 4: David Miller (USA) -->
+                            <div class="kdm-gr-card">
+                                <div>
+                                    <div class="kdm-gr-card-head">
+                                        <div class="kdm-gr-avatar grad-5">DM</div>
+                                        <div class="kdm-gr-user-info">
+                                            <h4 class="kdm-gr-user-name">David Miller</h4>
+                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · California, USA</span>
+                                        </div>
+                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-gr-card-rating">
+                                        <div class="kdm-gr-stars">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                        <span class="kdm-gr-tag">Ecommerce SEO</span>
+                                    </div>
+                                    <p class="kdm-gr-text">"Gaurav Dubey and his 32+ specialist team at King of Digital Marketing delivered exceptional ecommerce marketing results for us in the USA. Our qualified inbound organic inquiries scaled significantly, lowering our overall CAC. Highest recommendation!"</p>
+                                </div>
+                                <div class="kdm-gr-card-foot">
+                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> audiocityusa.com (USA)</span>
+                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Review Card 5: Dr. Sanjay Parashar (Dubai & Delhi) -->
+                            <div class="kdm-gr-card">
+                                <div>
+                                    <div class="kdm-gr-card-head">
+                                        <div class="kdm-gr-avatar grad-6">SP</div>
+                                        <div class="kdm-gr-user-info">
+                                            <h4 class="kdm-gr-user-name">Dr. Sanjay Parashar</h4>
+                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Local Guide · Dubai &amp; Delhi</span>
+                                        </div>
+                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-gr-card-rating">
+                                        <div class="kdm-gr-stars">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                        <span class="kdm-gr-tag">Healthcare SEO</span>
+                                    </div>
+                                    <p class="kdm-gr-text">"We noticed massive improvement in patient consultations, organic brand authority, and local search visibility. Gaurav Dubey's 13+ years of hands-on expertise and performance marketing execution made a huge impact on our business growth."</p>
+                                </div>
+                                <div class="kdm-gr-card-foot">
+                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> cocoona.in (Dubai)</span>
+                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Review Card 6: Younus Bennani (Morocco) -->
+                            <div class="kdm-gr-card">
+                                <div>
+                                    <div class="kdm-gr-card-head">
+                                        <div class="kdm-gr-avatar grad-3">YB</div>
+                                        <div class="kdm-gr-user-info">
+                                            <h4 class="kdm-gr-user-name">Younus Bennani</h4>
+                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · Morocco</span>
+                                        </div>
+                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-gr-card-rating">
+                                        <div class="kdm-gr-stars">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                        <span class="kdm-gr-tag">International SEO</span>
+                                    </div>
+                                    <p class="kdm-gr-text">"Securing international tourist bookings from the UK, USA, and Europe was tough until we partnered with Gaurav Dubey's team. King of Digital Marketing built high-converting multilingual landing pages and top Google search rankings. Truly top-class digital marketing agency!"</p>
+                                </div>
+                                <div class="kdm-gr-card-foot">
+                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> moroccotourismagency.com</span>
+                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Review Card 7: Vikas Malhotra (Delhi NCR) -->
+                            <div class="kdm-gr-card">
+                                <div>
+                                    <div class="kdm-gr-card-head">
+                                        <div class="kdm-gr-avatar grad-7">VM</div>
+                                        <div class="kdm-gr-user-info">
+                                            <h4 class="kdm-gr-user-name">Vikas Malhotra</h4>
+                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Verified Client · Delhi NCR</span>
+                                        </div>
+                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-gr-card-rating">
+                                        <div class="kdm-gr-stars">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                        <span class="kdm-gr-tag">Real Estate Marketing</span>
+                                    </div>
+                                    <p class="kdm-gr-text">"King of Digital Marketing is phenomenal for real estate lead generation. Their targeted Google Ads and Meta campaigns generated high-ticket buyer inquiries with verified phone numbers. Highly reliable and transparent reporting every week."</p>
+                                </div>
+                                <div class="kdm-gr-card-foot">
+                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> Malhotra Realty (Delhi NCR)</span>
+                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Review Card 8: Pooja Agarwal (India) -->
+                            <div class="kdm-gr-card">
+                                <div>
+                                    <div class="kdm-gr-card-head">
+                                        <div class="kdm-gr-avatar grad-8">PA</div>
+                                        <div class="kdm-gr-user-info">
+                                            <h4 class="kdm-gr-user-name">Pooja Agarwal</h4>
+                                            <span class="kdm-gr-user-meta"><i class="fa fa-check-circle"></i> Local Guide · India</span>
+                                        </div>
+                                        <svg class="kdm-gr-google-badge" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="kdm-gr-card-rating">
+                                        <div class="kdm-gr-stars">
+                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                        </div>
+                                        <span class="kdm-gr-tag">Performance Marketing</span>
+                                    </div>
+                                    <p class="kdm-gr-text">"Working with King of Digital Marketing was the turning point for our D2C brand. Our organic search sales grew by 3.5X and our Google Shopping ROAS stayed consistently above 4.8. Truly the king of performance marketing in India!"</p>
+                                </div>
+                                <div class="kdm-gr-card-foot">
+                                    <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> Aadvik Naturals (India)</span>
+                                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-posted-link">
+                                        <span>Posted on Google</span> <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Pagination Dots -->
+                    <div class="kdm-gr-dots" id="kdmGoogleReviewsDots"></div>
+                </div>
+
+                <!-- Bottom Trust Strip -->
+                <div class="kdm-gr-footer-strip">
+                    <div class="kdm-gr-strip-content">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#EA4335"/>
+                        </svg>
+                        <span>Find King of Digital Marketing on Google Maps — Kalkaji &amp; Govindpuri, New Delhi</span>
+                    </div>
+                    <a href="https://maps.app.goo.gl/FUFB8vvFBRCeLjam7" target="_blank" rel="noopener noreferrer" class="kdm-gr-map-link">
+                        <span>View on Google Maps</span> <i class="fa fa-external-link"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Google Reviews Slider Section Ends -->
+
         <!--Footer Starts-->
 
 
