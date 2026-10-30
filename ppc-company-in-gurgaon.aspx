@@ -245,25 +245,26 @@
 					<ul>
 						<li><a href="Default.aspx"><i class="fa fa-home"></i> Home</a></li>
 						<li class="breadcrumb-sep">/</li>
-						<li class="breadcrumb-current">PPC & Google Ads Company in Gurgaon (Gurugram)</li>
+						<li class="breadcrumb-current">PPC & Google Ads Company in Gurgaon</li>
 					</ul>
 				</div>
 
 				<!-- Badge Tag -->
 				<span class="kdm-service-hero-badge">
-					<i class="fa fa-trophy"></i> #1 RATED PPC & GOOGLE ADS COMPANY IN GURGAON (GURUGRAM)
+					<i class="fa fa-trophy"></i> #1 RATED PPC COMPANY IN GURGAON
 				</span>
 
 				<!-- Main H1 Title -->
 				<h1 class="kdm-service-hero-title">
-					Best PPC Company in Gurgaon<span class="kdm-gradient-highlight">Scale Your Business with Us</span>
+					Best PPC Company in Gurgaon <br><span class="kdm-gradient-highlight">Scale Your Business with
+						Us</span>
 				</h1>
 
 				<!-- Subtitle Paragraph -->
 				<p class="kdm-service-hero-subtitle">
 					Dominate paid search rankings, capture high-converting leads, and accelerate revenue growth with
 					proven
-					<strong>PPC Agency in Gurgaon</strong>, Avail<strong>Meta
+					<strong>PPC Agency in Gurgaon</strong>, Avail <strong>Meta
 						Ads (Facebook &amp; Instagram)</strong>, and <strong>AI-Powered Lead Generation</strong>
 					tailored for businesses in Gurugram.
 				</p>
@@ -326,19 +327,49 @@
 
 					<div style="font-size: 16px; color: #334155; line-height: 1.85; margin-bottom: 35px;">
 						<p style="margin-bottom: 18px;">
-							If you are looking for the <strong>best PPC company in Gurgaon</strong> or a high-performance <strong>Google Ads agency in Gurgaon</strong>, then <strong>King of Digital Marketing</strong> is your trusted growth partner. In Gurgaon’s fast-moving business ecosystem, businesses need immediate visibility and qualified customer inquiries to stay ahead of competitors. Our specialized pay-per-click advertising services ensure that every single rupee of your advertising budget is directed toward verified, high-intent prospective buyers who are actively searching for your products or services.
+							If you are looking for the <strong>best PPC company in Gurgaon</strong> or a
+							high-performance <strong>Google Ads agency in Gurgaon</strong>, then <strong>King of Digital
+								Marketing</strong> is your trusted growth partner. In Gurgaon’s fast-moving business
+							ecosystem, businesses need immediate visibility and qualified customer inquiries to stay
+							ahead of competitors. Our specialized pay-per-click advertising services ensure that every
+							single rupee of your advertising budget is directed toward verified, high-intent prospective
+							buyers who are actively searching for your products or services.
 						</p>
 						<p style="margin-bottom: 18px;">
-							As a premier <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">PPC agency Gurgaon</a>, we provide comprehensive <a href="PPC-Services.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">Google Ads management services</a> tailored for local businesses, corporate enterprises, clinics, institutes, and real estate developers across Cyber City, Golf Course Road, Sohna Road, MG Road, and Udyog Vihar. We specialize in high-converting Google Search Ads, Google Display Network campaigns, Shopping Ads (Product Listing Ads), Remarketing funnels, and performance-driven <a href="lead-generation-company.aspx" style="color: #0284c7; font-weight: 700; text-decoration: underline;">lead generation campaigns</a> designed to maximize your Return on Ad Spend (ROAS).
+							As a premier PPC agency
+							Gurgaon, we provide comprehensive Google Ads
+							management services tailored for local businesses, corporate enterprises, clinics,
+							institutes, and real estate developers across Cyber City, Golf Course Road, Sohna Road, MG
+							Road, and Udyog Vihar. We specialize in high-converting Google Search Ads, Google Display
+							Network campaigns, Shopping Ads (Product Listing Ads), Remarketing funnels, and
+							performance-driven lead generation campaigns designed to maximize your Return on Ad Spend
+							(ROAS).
+							campaigns</a> designed to maximize your Return on Ad Spend (ROAS).
 						</p>
 						<p style="margin-bottom: 18px;">
-							What sets King of Digital Marketing apart as the most reliable <strong>Google Ads company in Gurgaon</strong> is our systematic, data-backed approach to campaign management. We conduct in-depth commercial intent keyword research, craft compelling high-CTR ad copies, structure tightly-themed ad groups, and implement exhaustive negative keyword lists to prevent wasted ad clicks. By improving your Google Ads Quality Score, we help you secure top Page 1 ad positions while simultaneously lowering your Cost Per Click (CPC) and Cost Per Acquisition (CPA).
+							What sets King of Digital Marketing apart as the most reliable <strong>Google Ads company in
+								Gurgaon</strong> is our systematic, data-backed approach to campaign management. We
+							conduct in-depth commercial intent keyword research, craft compelling high-CTR ad copies,
+							structure tightly-themed ad groups, and implement exhaustive negative keyword lists to
+							prevent wasted ad clicks. By improving your Google Ads Quality Score, we help you secure top
+							Page 1 ad positions while simultaneously lowering your Cost Per Click (CPC) and Cost Per
+							Acquisition (CPA).
 						</p>
 						<p style="margin-bottom: 18px;">
-							Our certified Google Ads management specialists combine automated smart bidding algorithms (Target CPA, Target ROAS, Maximize Conversions) with continuous manual A/B split testing of ad headlines, descriptions, extensions, and landing pages. This relentless optimization ensures that your Google Ads campaigns consistently outrank competitors in Gurgaon and generate a steady stream of phone calls, WhatsApp inquiries, and booked appointments.
+							Our certified Google Ads management specialists combine automated smart bidding algorithms
+							(Target CPA, Target ROAS, Maximize Conversions) with continuous manual A/B split testing of
+							ad headlines, descriptions, extensions, and landing pages. This relentless optimization
+							ensures that your Google Ads campaigns consistently outrank competitors in Gurgaon and
+							generate a steady stream of phone calls, WhatsApp inquiries, and booked appointments.
 						</p>
 						<p style="margin-bottom: 0;">
-							Transparency and client support are at the core of our working philosophy. We provide detailed weekly and monthly performance reports with zero technical jargon, giving you complete clarity on ad spend, impressions, clicks, conversion rates, and total revenue generated. If you want immediate sales, lower acquisition costs, and verified ROI from your advertising budget, choose <strong>King of Digital Marketing</strong> — the top-rated <strong>PPC company in Gurgaon</strong>. Contact us today for a free Google Ads account audit and customized growth roadmap.
+							Transparency and client support are at the core of our working philosophy. We provide
+							detailed weekly and monthly performance reports with zero technical jargon, giving you
+							complete clarity on ad spend, impressions, clicks, conversion rates, and total revenue
+							generated. If you want immediate sales, lower acquisition costs, and verified ROI from your
+							advertising budget, choose <strong>King of Digital Marketing</strong> — the top-rated
+							<strong>PPC company in Gurgaon</strong>. Contact us today for a free Google Ads account
+							audit and customized growth roadmap.
 						</p>
 					</div>
 
@@ -348,29 +379,37 @@
 							style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
 							<div style="font-size: 26px; color: #0284c7; margin-bottom: 10px;"><i
 									class="fa fa-bullhorn"></i></div>
-							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Google Search Ads</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Instant #1 Google ad placements targeting active buyer searches in Gurgaon.</p>
+							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Google
+								Search Ads</h4>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Instant #1 Google
+								ad placements targeting active buyer searches in Gurgaon.</p>
 						</div>
 						<div
 							style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
 							<div style="font-size: 26px; color: #10b981; margin-bottom: 10px;"><i
 									class="fa fa-sliders"></i></div>
-							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Google Ads Management</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">End-to-end account setup, negative keywords &amp; Quality Score optimization.</p>
+							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Google
+								Ads Management</h4>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">End-to-end
+								account setup, negative keywords &amp; Quality Score optimization.</p>
 						</div>
 						<div
 							style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
 							<div style="font-size: 26px; color: #8b5cf6; margin-bottom: 10px;"><i
 									class="fa fa-retweet"></i></div>
-							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Display &amp; Remarketing</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Re-engage interested visitors across millions of websites and apps to close sales.</p>
+							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">Display
+								&amp; Remarketing</h4>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Re-engage
+								interested visitors across millions of websites and apps to close sales.</p>
 						</div>
 						<div
 							style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 18px; text-align: center; transition: transform 0.3s ease;">
 							<div style="font-size: 26px; color: #f59e0b; margin-bottom: 10px;"><i
 									class="fa fa-line-chart"></i></div>
-							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">High-ROAS Lead Gen</h4>
-							<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">Conversion-optimized landing pages and smart bidding for maximum ROI in Gurgaon.</p>
+							<h4 style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">High-ROAS
+								Lead Gen</h4>
+							<p style="font-size: 13.5px; color: #64748b; margin: 0; line-height: 1.5;">
+								Conversion-optimized landing pages and smart bidding for maximum ROI in Gurgaon.</p>
 						</div>
 					</div>
 				</div>
@@ -466,10 +505,15 @@
 		<section class="empower-section">
 			<div class="container">
 				<div class="empower-header text-center">
-					<span class="empower-badge"><i class="fa fa-star"></i> OUR CORE PPC &amp; GOOGLE ADS SPECIALIZATIONS</span>
-					<h2 class="empower-title">How Do We Empower Your Business <span class="empower-title-gradient">Through PPC in Gurgaon</span></h2>
+					<span class="empower-badge"><i class="fa fa-star"></i> OUR CORE PPC &amp; GOOGLE ADS
+						SPECIALIZATIONS</span>
+					<h2 class="empower-title">How Do We Empower Your Business <span
+							class="empower-title-gradient">Through PPC in Gurgaon</span></h2>
 					<p class="empower-subtitle">
-						At <strong>King of Digital Marketing</strong>, we engineer high-performing pay-per-click advertising funnels designed to dominate paid search results across Gurgaon. Driven by 13+ years of Google Ads expertise and certified marketing strategists, explore our core PPC specializations below.
+						At <strong>King of Digital Marketing</strong>, we engineer high-performing pay-per-click
+						advertising funnels designed to dominate paid search results across Gurgaon. Driven by 13+ years
+						of Google Ads expertise and certified marketing strategists, explore our core PPC
+						specializations below.
 					</p>
 				</div>
 
@@ -490,7 +534,10 @@
 						</div>
 						<h3 class="empower-card-title"><a href="PPC-Services.aspx">Google Ads Management</a></h3>
 						<p class="empower-card-text">
-							End-to-end Google Ads management in Gurgaon covering high-intent Search Ads, Google Display Network, Shopping campaigns, YouTube video ads, and Performance Max. We optimize negative keywords, ad copy, and Quality Scores to deliver maximum qualified traffic and lowest Cost Per Acquisition (CPA).
+							End-to-end Google Ads management in Gurgaon covering high-intent Search Ads, Google Display
+							Network, Shopping campaigns, YouTube video ads, and Performance Max. We optimize negative
+							keywords, ad copy, and Quality Scores to deliver maximum qualified traffic and lowest Cost
+							Per Acquisition (CPA).
 						</p>
 						<a href="PPC-Services.aspx" class="empower-card-btn btn-emerald">
 							Explore Google Ads <i class="fa fa-arrow-right"></i>
@@ -513,7 +560,9 @@
 						</div>
 						<h3 class="empower-card-title"><a href="meta-ads-services.aspx">Meta Ads Management</a></h3>
 						<p class="empower-card-text">
-							Reach high-intent customers and drive immediate action across Facebook, Instagram, and WhatsApp. We build high-converting lead generation funnels, eye-catching creatives, and custom retargeting audiences that turn Gurgaon buyers into active leads and paying clients.
+							Reach high-intent customers and drive immediate action across Facebook, Instagram, and
+							WhatsApp. We build high-converting lead generation funnels, eye-catching creatives, and
+							custom retargeting audiences that turn Gurgaon buyers into active leads and paying clients.
 						</p>
 						<a href="meta-ads-services.aspx" class="empower-card-btn btn-blue">
 							Explore Meta Ads <i class="fa fa-arrow-right"></i>
@@ -533,11 +582,15 @@
 							</div>
 							<span class="empower-tag">HIGH-CONVERTING CRO</span>
 						</div>
-						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">Landing Page Design</a></h3>
+						<h3 class="empower-card-title"><a href="javascript:void(0);"
+								onclick="openGlobalPopupForm()">Landing Page Design</a></h3>
 						<p class="empower-card-text">
-							Campaign-specific landing pages designed to convert PPC visitors into leads and revenue. Engineered with lightning-fast load speeds, persuasive headlines, clear value propositions, trust badges, click-to-call buttons, and friction-free inquiry forms.
+							Campaign-specific landing pages designed to convert PPC visitors into leads and revenue.
+							Engineered with lightning-fast load speeds, persuasive headlines, clear value propositions,
+							trust badges, click-to-call buttons, and friction-free inquiry forms.
 						</p>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-purple">
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()"
+							class="empower-card-btn btn-purple">
 							Get Landing Page <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
@@ -553,9 +606,12 @@
 							</div>
 							<span class="empower-tag">GA4, GTM &amp; CAPI ATTRIBUTION</span>
 						</div>
-						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">Conversion Tracking</a></h3>
+						<h3 class="empower-card-title"><a href="javascript:void(0);"
+								onclick="openGlobalPopupForm()">Conversion Tracking</a></h3>
 						<p class="empower-card-text">
-							Accurate, end-to-end attribution setup with Google Analytics 4 (GA4), Google Tag Manager (GTM), Meta Pixel, Conversions API (CAPI), and CRM webhook integrations. Track every phone call, form fill, and conversion with zero tracking loss for precise ROI reporting.
+							Accurate, end-to-end attribution setup with Google Analytics 4 (GA4), Google Tag Manager
+							(GTM), Meta Pixel, Conversions API (CAPI), and CRM webhook integrations. Track every phone
+							call, form fill, and conversion with zero tracking loss for precise ROI reporting.
 						</p>
 						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-pink">
 							Setup Tracking <i class="fa fa-arrow-right"></i>
@@ -575,9 +631,12 @@
 							</div>
 							<span class="empower-tag">SHOPPING &amp; CATALOG ADS</span>
 						</div>
-						<h3 class="empower-card-title"><a href="performance-marketing-packages.aspx">E-commerce PPC</a></h3>
+						<h3 class="empower-card-title"><a href="performance-marketing-packages.aspx">E-commerce PPC</a>
+						</h3>
 						<p class="empower-card-text">
-							Accelerate online store revenue and maximize Return on Ad Spend (ROAS) through Google Shopping Ads, merchant product feed optimization, dynamic catalog ads, and performance marketing that consistently drive profitable repeat sales.
+							Accelerate online store revenue and maximize Return on Ad Spend (ROAS) through Google
+							Shopping Ads, merchant product feed optimization, dynamic catalog ads, and performance
+							marketing that consistently drive profitable repeat sales.
 						</p>
 						<a href="performance-marketing-packages.aspx" class="empower-card-btn btn-amber">
 							Explore Shopping Ads <i class="fa fa-arrow-right"></i>
@@ -597,9 +656,12 @@
 							</div>
 							<span class="empower-tag">BUDGET &amp; QUALITY SCORE AUDIT</span>
 						</div>
-						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">PPC Audit &amp; Optimization</a></h3>
+						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">PPC
+								Audit &amp; Optimization</a></h3>
 						<p class="empower-card-text">
-							Deep 360° account audits identifying wasted ad budget, search query mismatches, and Quality Score bottlenecks. We restructure keyword match types, negative lists, and bidding algorithms to improve campaign efficiency, lead quality, and return on ad spend.
+							Deep 360° account audits identifying wasted ad budget, search query mismatches, and Quality
+							Score bottlenecks. We restructure keyword match types, negative lists, and bidding
+							algorithms to improve campaign efficiency, lead quality, and return on ad spend.
 						</p>
 						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-cyan">
 							Request PPC Audit <i class="fa fa-arrow-right"></i>
@@ -619,9 +681,13 @@
 							</div>
 							<span class="empower-tag">EXPERT 1-ON-1 STRATEGY</span>
 						</div>
-						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">PPC Consultation in Gurgaon</a></h3>
+						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">PPC
+								Consultation in Gurgaon</a></h3>
 						<p class="empower-card-text">
-							Get 1-on-1 strategic Google Ads consultation and deep account audits from senior PPC strategist Gaurav Dubey (13+ years experience, 900+ projects). We analyze past budget leaks, competitor bids, Quality Scores, and deliver an actionable scaling blueprint for your Gurgaon business.
+							Get 1-on-1 strategic Google Ads consultation and deep account audits from senior PPC
+							strategist Gaurav Dubey (13+ years experience, 900+ projects). We analyze past budget leaks,
+							competitor bids, Quality Scores, and deliver an actionable scaling blueprint for your
+							Gurgaon business.
 						</p>
 						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-teal">
 							Book Consultation <i class="fa fa-arrow-right"></i>
@@ -641,11 +707,15 @@
 							</div>
 							<span class="empower-tag">MARKETPLACE ADS</span>
 						</div>
-						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">Amazon &amp; Flipkart Ads</a></h3>
+						<h3 class="empower-card-title"><a href="javascript:void(0);"
+								onclick="openGlobalPopupForm()">Amazon &amp; Flipkart Ads</a></h3>
 						<p class="empower-card-text">
-							Scale marketplace e-commerce sales with hyper-targeted Amazon Sponsored Products, Sponsored Brands, Display ads, and Flipkart PLA campaigns. We optimize search keyword bids and reduce ACOS to maximize net profit margins for manufacturers and D2C brands.
+							Scale marketplace e-commerce sales with hyper-targeted Amazon Sponsored Products, Sponsored
+							Brands, Display ads, and Flipkart PLA campaigns. We optimize search keyword bids and reduce
+							ACOS to maximize net profit margins for manufacturers and D2C brands.
 						</p>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-orange">
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()"
+							class="empower-card-btn btn-orange">
 							Scale Marketplace Ads <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
@@ -660,7 +730,9 @@
 					<span class="kdm-seo-badge"><i class="fa fa-check-circle"></i> WHY CHOOSE OUR PPC AGENCY</span>
 					<h2>Why Choose King of Digital Marketing as Your <strong>PPC Company in Gurgaon</strong>?</h2>
 					<p>
-						We don't just run ads — we engineer high-converting paid search campaigns that deliver verified customer inquiries, lower Cost Per Click (CPC), and predictable Return on Ad Spend (ROAS) for your business in Gurgaon.
+						We don't just run ads — we engineer high-converting paid search campaigns that deliver verified
+						customer inquiries, lower Cost Per Click (CPC), and predictable Return on Ad Spend (ROAS) for
+						your business in Gurgaon.
 					</p>
 				</div>
 
@@ -675,7 +747,8 @@
 							</svg>
 						</div>
 						<h3>13+ Years Proven PPC Mastery</h3>
-						<p>Led by veteran Google Ads strategist Gaurav Dubey, our team brings over 13+ years of hands-on expertise managing high-ROI PPC campaigns across 900+ projects globally.</p>
+						<p>Led by veteran Google Ads strategist Gaurav Dubey, our team brings over 13+ years of hands-on
+							expertise managing high-ROI PPC campaigns across 900+ projects globally.</p>
 					</div>
 
 					<!-- Card 2 -->
@@ -688,7 +761,8 @@
 							</svg>
 						</div>
 						<h3>Hyper-Targeted Gurgaon Geofencing</h3>
-						<p>We target specific high-value commercial zones, tech corridors, and affluent residential catchments in Gurgaon — including DLF Cyber City, Golf Course Road, and Sohna Road.</p>
+						<p>We target specific high-value commercial zones, tech corridors, and affluent residential
+							catchments in Gurgaon — including DLF Cyber City, Golf Course Road, and Sohna Road.</p>
 					</div>
 
 					<!-- Card 3 -->
@@ -700,7 +774,8 @@
 							</svg>
 						</div>
 						<h3>Google Partner Certified Agency</h3>
-						<p>Our PPC specialists are officially certified in Google Search, Display, Shopping, and Measurement, ensuring best-practice campaign structuring and maximum Quality Scores.</p>
+						<p>Our PPC specialists are officially certified in Google Search, Display, Shopping, and
+							Measurement, ensuring best-practice campaign structuring and maximum Quality Scores.</p>
 					</div>
 
 					<!-- Card 4 -->
@@ -713,7 +788,8 @@
 							</svg>
 						</div>
 						<h3>Zero Ad Spend Waste &amp; Negative Keywords</h3>
-						<p>We aggressively build and refine negative keyword lists to prevent irrelevant clicks, ensuring 100% of your advertising budget is focused strictly on real prospective buyers.</p>
+						<p>We aggressively build and refine negative keyword lists to prevent irrelevant clicks,
+							ensuring 100% of your advertising budget is focused strictly on real prospective buyers.</p>
 					</div>
 
 					<!-- Card 5 -->
@@ -729,7 +805,8 @@
 							</svg>
 						</div>
 						<h3>100% Transparent ROI &amp; Conversion Tracking</h3>
-						<p>Track every phone call, form inquiry, WhatsApp lead, and transaction with GA4, Google Tag Manager, and custom conversion tracking dashboards with zero guesswork.</p>
+						<p>Track every phone call, form inquiry, WhatsApp lead, and transaction with GA4, Google Tag
+							Manager, and custom conversion tracking dashboards with zero guesswork.</p>
 					</div>
 
 					<!-- Card 6 -->
@@ -744,7 +821,8 @@
 							</svg>
 						</div>
 						<h3>Dedicated PPC Campaign Manager</h3>
-						<p>Receive direct, proactive strategy updates from a dedicated PPC account specialist who constantly tests ad variations, monitors bids, and optimizes your CPA.</p>
+						<p>Receive direct, proactive strategy updates from a dedicated PPC account specialist who
+							constantly tests ad variations, monitors bids, and optimizes your CPA.</p>
 					</div>
 				</div>
 			</div>
@@ -975,104 +1053,249 @@
 			</div>
 		</section>
 
-		<!-- ===== 8. MOST POPULAR INDUSTRIES WE SERVE (DARK THEME) ===== -->
-		<section class="industry-slider-section">
+		<!-- ===== 8. DARK THEME - MOST POPULAR INDUSTRIES WE WORK WITH (16 VIBRANT INDUSTRIES + VIEW ALL LINK) ===== -->
+		<section class="industry-slider-section" style="background: #090d16; padding: 70px 0; border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06);">
 			<div class="container">
-				<h2 class="industry-heading">Most Popular Industries <strong>We Power With Google Ads in Gurgaon</strong>
-				</h2>
+				<div class="text-center" style="margin-bottom: 45px;">
+					<span class="kdm-seo-badge" style="background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1.2px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+						<i class="fa fa-briefcase"></i> INDUSTRY SPECIALIZATIONS
+					</span>
+					<h2 class="industry-heading" style="color: #ffffff; font-size: 34px; font-weight: 900; margin: 0 0 12px 0;">
+						Most Popular Industries <strong style="background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">We Work With</strong>
+					</h2>
+					<p style="color: #94a3b8; font-size: 16px; max-width: 800px; margin: 0 auto; line-height: 1.7;">
+						We deliver high-converting marketing strategies customized for leading commercial and professional industry sectors.
+					</p>
+				</div>
 
-				<div class="industry-slider">
-					<div class="industry-track">
-						<!-- Industry 1: Astrology -->
-						<div class="industry-card">
-							<div class="industry-overlay">
-								<div class="kdm-ind-icon-hub"
-									style="background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3);">
-									<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#fbbf24"
-										stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14" />
-										<circle cx="12" cy="12" r="4" fill="#fbbf24" fill-opacity="0.2" />
-									</svg>
-								</div>
-								<div class="text-box">
-									<h3>Astrology</h3>
-									<p>Successfully managed 60+ astrology Google Ads and PPC campaigns for instant client calls, WhatsApp inquiries, and consultation bookings.</p>
-								</div>
-							</div>
+				<!-- 16 Vibrant Industries Responsive Grid -->
+				<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; margin-bottom: 45px;">
+					
+					<!-- Industry 1: Astrology -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(251, 191, 36, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(251, 191, 36, 0.15); border: 1px solid rgba(251, 191, 36, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+							</svg>
 						</div>
-
-						<!-- Industry 2: Hair Transplant & Clinics -->
-						<div class="industry-card">
-							<div class="industry-overlay">
-								<div class="kdm-ind-icon-hub"
-									style="background: rgba(236, 72, 153, 0.12); border-color: rgba(236, 72, 153, 0.3);">
-									<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#ec4899"
-										stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M12 2v10M12 12l-4-4M12 12l4-4M6 18c0-3.3 2.7-6 6-6s6 2.7 6 6" />
-										<circle cx="12" cy="20" r="2" fill="#ec4899" />
-									</svg>
-								</div>
-								<div class="text-box">
-									<h3>Hair Transplant &amp; Clinics</h3>
-									<p>Delivered 50+ medical lead generation and Google Ads PPC campaigns with consistent patient appointment bookings in Sushant Lok & Sector 54.</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- Industry 3: Study Abroad Consultants -->
-						<div class="industry-card">
-							<div class="industry-overlay">
-								<div class="kdm-ind-icon-hub"
-									style="background: rgba(129, 140, 248, 0.12); border-color: rgba(129, 140, 248, 0.3);">
-									<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#818cf8"
-										stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-										<path d="M6 12v5c0 2 6 3 6 3s6-1 6-3v-5" />
-									</svg>
-								</div>
-								<div class="text-box">
-									<h3>Study Abroad &amp; Immigration</h3>
-									<p>Trusted by 30+ immigration consultants for high-intent student visa inquiries and high-converting Google Search ad campaigns.</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- Industry 4: Real Estate -->
-						<div class="industry-card">
-							<div class="industry-overlay">
-								<div class="kdm-ind-icon-hub"
-									style="background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.3);">
-									<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#10b981"
-										stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-										<polyline points="9 22 9 12 15 12 15 22"></polyline>
-									</svg>
-								</div>
-								<div class="text-box">
-									<h3>Real Estate &amp; Builders</h3>
-									<p>Generated thousands of verified site-visit inquiries and high-ticket property buyer leads via Google Search & Display PPC for projects across Golf Course Extension & Dwarka Expressway.</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- Industry 5: Coaching & Education -->
-						<div class="industry-card">
-							<div class="industry-overlay">
-								<div class="kdm-ind-icon-hub"
-									style="background: rgba(14, 165, 233, 0.12); border-color: rgba(14, 165, 233, 0.3);">
-									<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9"
-										stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-										<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-										<path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-									</svg>
-								</div>
-								<div class="text-box">
-									<h3>Coaching &amp; Education</h3>
-									<p>Proven track record driving massive student admissions and counseling inquiries through hyper-targeted Google Ads for top institutes in Sector 14 & Old DLF.</p>
-								</div>
-							</div>
-						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-astrology.aspx" style="color: #ffffff; text-decoration: none;">Astrology</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Worldwide consultation bookings and global horoscope app discovery.</p>
+						<a href="digital-marketing-for-astrology.aspx" style="color: #fbbf24; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
+
+					<!-- Industry 2: Real Estate -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3); rendering-intent: auto;">
+						<div class="kdm-ind-icon-hub" style="background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+								<polyline points="9 22 9 12 15 12 15 22"></polyline>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-real-estate.aspx" style="color: #ffffff; text-decoration: none;">Real Estate</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Targeting international NRI investors and luxury real estate buyers.</p>
+						<a href="digital-marketing-for-real-estate.aspx" style="color: #10b981; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 3: Hair Transplant -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(236, 72, 153, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="12" cy="7" r="4"></circle>
+								<path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"></path>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="hair-transplant-digital-marketing-services.aspx" style="color: #ffffff; text-decoration: none;">Hair Transplant</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">50+ successful global clinics ranking for medical tourism procedures.</p>
+						<a href="hair-transplant-digital-marketing-services.aspx" style="color: #ec4899; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 4: Study Abroad Consultant -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+								<path d="M6 12v5c0 2 6 3 6 3s6-1 6-3v-5"></path>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="study-abroad-consultant-lead-generation.aspx" style="color: #ffffff; text-decoration: none;">Study Abroad Consultant</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-intent student lead generation across USA, UK, Canada &amp; Australia.</p>
+						<a href="study-abroad-consultant-lead-generation.aspx" style="color: #38bdf8; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 5: Cosmetic Surgeon -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+								<circle cx="12" cy="12" r="9"></circle>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #ffffff; text-decoration: none;">Cosmetic Surgeon</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">International patient acquisition for aesthetic plastic &amp; cosmetic surgeries.</p>
+						<a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #a855f7; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 6: Ecommerce -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(244, 63, 94, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(244, 63, 94, 0.15); border: 1px solid rgba(244, 63, 94, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f43f5e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="9" cy="21" r="1"></circle>
+								<circle cx="20" cy="21" r="1"></circle>
+								<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ecommerce.aspx" style="color: #ffffff; text-decoration: none;">Ecommerce</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Multi-country search rankings for Shopify, WooCommerce &amp; D2C stores.</p>
+						<a href="digital-marketing-for-ecommerce.aspx" style="color: #f43f5e; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 7: Immigration Consultant -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(6, 182, 212, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(6, 182, 212, 0.15); border: 1px solid rgba(6, 182, 212, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="12" cy="12" r="10"></circle>
+								<line x1="2" y1="12" x2="22" y2="12"></line>
+								<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-visa-immigration-consultant.aspx" style="color: #ffffff; text-decoration: none;">Immigration Consultant</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Global PR visa leads and work permit counseling inquiries worldwide.</p>
+						<a href="digital-marketing-for-visa-immigration-consultant.aspx" style="color: #06b6d4; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 8: Stock Market Institute and Advisor -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(249, 115, 22, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(249, 115, 22, 0.15); border: 1px solid rgba(249, 115, 22, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+								<polyline points="17 6 23 6 23 12"></polyline>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-stock-market-institute.aspx" style="color: #ffffff; text-decoration: none;">Stock Market Institute &amp; Advisor</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Course admissions and active investor lead funnels worldwide.</p>
+						<a href="digital-marketing-for-stock-market-institute.aspx" style="color: #f97316; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 9: Ayurvedic Products -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(132, 204, 22, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(132, 204, 22, 0.15); border: 1px solid rgba(132, 204, 22, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#84cc16" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+								<path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ayurvedic-products.aspx" style="color: #ffffff; text-decoration: none;">Ayurvedic Products</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Global export sales &amp; organic ranking for herbal &amp; Ayurvedic products.</p>
+						<a href="digital-marketing-for-ayurvedic-products.aspx" style="color: #84cc16; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 10: Skin Clinic -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(20, 184, 166, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(20, 184, 166, 0.15); border: 1px solid rgba(20, 184, 166, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#14b8a6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+								<path d="M12 6a6 6 0 0 0-6 6h12a6 6 0 0 0-6-6z"></path>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-dermatologists.aspx" style="color: #ffffff; text-decoration: none;">Skin Clinic</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Generating verified patient appointments for laser, acne &amp; derma clinics.</p>
+						<a href="digital-marketing-for-dermatologists.aspx" style="color: #14b8a6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 11: CA Firm -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+								<line x1="8" y1="21" x2="16" y2="21"></line>
+								<line x1="12" y1="17" x2="12" y2="21"></line>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ca-firm.aspx" style="color: #ffffff; text-decoration: none;">CA Firm</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Cross-border tax consulting, international audit &amp; corporate accounting leads.</p>
+						<a href="digital-marketing-for-ca-firm.aspx" style="color: #3b82f6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 12: Export Business -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(217, 119, 6, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(217, 119, 6, 0.15); border: 1px solid rgba(217, 119, 6, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+								<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-import-export.aspx" style="color: #ffffff; text-decoration: none;">Export Business</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-ticket international B2B buyer leads and bulk export inquiries.</p>
+						<a href="digital-marketing-for-import-export.aspx" style="color: #d97706; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 13: Travel Agency -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M22 2L11 13"></path>
+								<polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-travel-agency.aspx" style="color: #ffffff; text-decoration: none;">Travel Agency</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Worldwide destination package rankings and direct holiday bookings.</p>
+						<a href="digital-marketing-for-travel-agency.aspx" style="color: #6366f1; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 14: Event Management -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(217, 70, 239, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(217, 70, 239, 0.15); border: 1px solid rgba(217, 70, 239, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d946ef" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+								<line x1="16" y1="2" x2="16" y2="6"></line>
+								<line x1="8" y1="2" x2="8" y2="6"></line>
+								<line x1="3" y1="10" x2="21" y2="10"></line>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-event-management-company.aspx" style="color: #ffffff; text-decoration: none;">Event Management</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Destination wedding &amp; corporate expo lead capture across borders.</p>
+						<a href="digital-marketing-for-event-management-company.aspx" style="color: #d946ef; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 15: Yoga Studio -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="12" cy="5" r="2"></circle>
+								<path d="M12 7v5"></path>
+								<path d="M8 10l4 2 4-2"></path>
+								<path d="M6 21c1-4 3-7 6-7s5 3 6 7"></path>
+								<path d="M4 17l4-2m12 2l-4-2"></path>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-yoga.aspx" style="color: #ffffff; text-decoration: none;">Yoga Studio</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Acquiring global yoga retreat bookings and local wellness memberships.</p>
+						<a href="digital-marketing-for-yoga.aspx" style="color: #8b5cf6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- Industry 16: Restaurant & Cafe -->
+					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub" style="background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+								<path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+								<line x1="6" y1="1" x2="6" y2="4"></line>
+								<line x1="10" y1="1" x2="10" y2="4"></line>
+								<line x1="14" y1="1" x2="14" y2="4"></line>
+							</svg>
+						</div>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-restaurant.aspx" style="color: #ffffff; text-decoration: none;">Restaurant &amp; Cafe</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Local Google Map 3-pack dominance, table reservations &amp; orders.</p>
+						<a href="digital-marketing-for-restaurant.aspx" style="color: #ef4444; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+				</div>
+
+				<!-- View All Industries Button Link -->
+				<div class="text-center">
+					<a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn" style="background: linear-gradient(135deg, #0284c7, #3b82f6); color: #ffffff; padding: 15px 36px; border-radius: 50px; font-weight: 700; font-size: 15px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 10px 30px rgba(2, 132, 199, 0.4); transition: transform 0.3s ease;">
+						<i class="fa fa-th-large"></i> View All Industries <i class="fa fa-arrow-right"></i>
+					</a>
 				</div>
 			</div>
 		</section>
@@ -1089,7 +1312,8 @@
 						About the Experts <span>Behind Your Google Ads Campaigns in Gurgaon</span>
 					</h2>
 					<p class="kdm-experts-subtitle">
-						Your business growth is powered by seasoned Google Ads certified strategists and PPC analysts dedicated to maximizing your Return on Ad Spend (ROAS).
+						Your business growth is powered by seasoned Google Ads certified strategists and PPC analysts
+						dedicated to maximizing your Return on Ad Spend (ROAS).
 					</p>
 				</div>
 
@@ -1110,7 +1334,10 @@
 							</div>
 						</div>
 						<p class="kdm-expert-bio">
-							With over 13+ years of hands-on digital advertising leadership, Gaurav Dubey has spearheaded 900+ successful PPC campaigns across India, USA, UK, UAE &amp; global markets. Specialist in high-converting Google Ads funnels, advanced PPC bidding strategies, Meta performance marketing, and conversion rate optimization (CRO).
+							With over 13+ years of hands-on digital advertising leadership, Gaurav Dubey has spearheaded
+							900+ successful PPC campaigns across India, USA, UK, UAE &amp; global markets. Specialist in
+							high-converting Google Ads funnels, advanced PPC bidding strategies, Meta performance
+							marketing, and conversion rate optimization (CRO).
 						</p>
 						<ul class="kdm-expert-list">
 							<li><i class="fa fa-check-circle"></i> 13+ Years Proven Digital Growth Track Record</li>
@@ -1130,10 +1357,13 @@
 							</div>
 						</div>
 						<p class="kdm-expert-bio">
-							Our dedicated team of 32+ Google certified specialists includes PPC Campaign Strategists, Search Ad Copywriters, Smart Bidding Analysts, UI/UX Landing Page Developers, and Conversion Tracking Engineers working full-time on your custom marketing campaign.
+							Our dedicated team of 32+ Google certified specialists includes PPC Campaign Strategists,
+							Search Ad Copywriters, Smart Bidding Analysts, UI/UX Landing Page Developers, and Conversion
+							Tracking Engineers working full-time on your custom marketing campaign.
 						</p>
 						<ul class="kdm-expert-list">
-							<li><i class="fa fa-check-circle"></i> 32+ Full-Time In-House Google Certified Analysts &amp; Copywriters
+							<li><i class="fa fa-check-circle"></i> 32+ Full-Time In-House Google Certified Analysts
+								&amp; Copywriters
 							</li>
 							<li><i class="fa fa-check-circle"></i> Dedicated Account Managers &amp; Weekly KPI Reporting
 							</li>
@@ -1149,8 +1379,11 @@
 			<div class="container">
 				<div class="kdm-testimonial-header">
 					<span class="kdm-testimonial-badge"><i class="fa fa-star"></i> CLIENT TESTIMONIALS</span>
-					<h2 class="kdm-testimonial-title">What Our Global Clients <strong>Say About Our PPC Results in Gurgaon</strong></h2>
-					<p class="kdm-testimonial-subtitle">Real feedback from founders and business owners who achieved top Google ad rankings, high-intent inquiries, and accelerated revenue with King of Digital Marketing.</p>
+					<h2 class="kdm-testimonial-title">What Our Global Clients <strong>Say About Our PPC Results in
+							Gurgaon</strong></h2>
+					<p class="kdm-testimonial-subtitle">Real feedback from founders and business owners who achieved top
+						Google ad rankings, high-intent inquiries, and accelerated revenue with King of Digital
+						Marketing.</p>
 				</div>
 
 				<div class="kdm-testimonial-wrapper">
@@ -1169,7 +1402,10 @@
 									class="fa fa-star"></i><i class="fa fa-star"></i>
 							</div>
 							<p class="kdm-testimonial-quote">
-								"We hired King of Digital Marketing for our PPC and Google Ads campaigns. Gaurav Dubey and his dedicated team optimized our keywords, lowered our cost per lead, and scaled our qualified inquiries significantly. Outstanding PPC management and continuous ROI growth!"
+								"We hired King of Digital Marketing for our PPC and Google Ads campaigns. Gaurav Dubey
+								and his dedicated team optimized our keywords, lowered our cost per lead, and scaled our
+								qualified inquiries significantly. Outstanding PPC management and continuous ROI
+								growth!"
 							</p>
 							<div class="kdm-testimonial-author-box">
 								<div class="kdm-testimonial-avatar grad-1">AJ</div>
@@ -1193,7 +1429,10 @@
 									class="fa fa-star"></i><i class="fa fa-star"></i>
 							</div>
 							<p class="kdm-testimonial-quote">
-								"King of Digital Marketing helped skyrocket our student inquiries and course enrollments through laser-focused Google Ads in Gurgaon. Gaurav Dubey and his hardworking team kept everything transparent with regular performance updates. Our cost per acquisition dropped dramatically."
+								"King of Digital Marketing helped skyrocket our student inquiries and course enrollments
+								through laser-focused Google Ads in Gurgaon. Gaurav Dubey and his hardworking team kept
+								everything transparent with regular performance updates. Our cost per acquisition
+								dropped dramatically."
 							</p>
 							<div class="kdm-testimonial-author-box">
 								<div class="kdm-testimonial-avatar grad-2">R</div>
@@ -1217,7 +1456,9 @@
 									class="fa fa-star"></i><i class="fa fa-star"></i>
 							</div>
 							<p class="kdm-testimonial-quote">
-								"We needed fast, high-intent buyer inquiries for our tourism business. The team at King of Digital Marketing structured our Google Ads campaigns with precision. Gaurav Dubey personally ensured our budget delivered maximum returns. Truly the best PPC agency!"
+								"We needed fast, high-intent buyer inquiries for our tourism business. The team at King
+								of Digital Marketing structured our Google Ads campaigns with precision. Gaurav Dubey
+								personally ensured our budget delivered maximum returns. Truly the best PPC agency!"
 							</p>
 							<div class="kdm-testimonial-author-box">
 								<div class="kdm-testimonial-avatar grad-3">Y</div>
@@ -1242,7 +1483,9 @@
 									class="fa fa-star"></i><i class="fa fa-star"></i>
 							</div>
 							<p class="kdm-testimonial-quote">
-								"It has been a fantastic experience partnering with King of Digital Marketing. Their Google Ads experts got our clinic ads ranking in the top sponsored positions, generating steady daily patient appointments in Gurgaon. Highly recommended PPC company!"
+								"It has been a fantastic experience partnering with King of Digital Marketing. Their
+								Google Ads experts got our clinic ads ranking in the top sponsored positions, generating
+								steady daily patient appointments in Gurgaon. Highly recommended PPC company!"
 							</p>
 							<div class="kdm-testimonial-author-box">
 								<div class="kdm-testimonial-avatar grad-4">K</div>
@@ -1266,7 +1509,9 @@
 									class="fa fa-star"></i><i class="fa fa-star"></i>
 							</div>
 							<p class="kdm-testimonial-quote">
-								"Gaurav Dubey and his team at King of Digital Marketing completely transformed our paid search advertising. Within weeks, we saw an immense jump in qualified buyer traffic, lower CPC, and surging conversion rates. They deliver real business results."
+								"Gaurav Dubey and his team at King of Digital Marketing completely transformed our paid
+								search advertising. Within weeks, we saw an immense jump in qualified buyer traffic,
+								lower CPC, and surging conversion rates. They deliver real business results."
 							</p>
 							<div class="kdm-testimonial-author-box">
 								<div class="kdm-testimonial-avatar grad-5">D</div>
@@ -1290,7 +1535,10 @@
 									class="fa fa-star"></i><i class="fa fa-star"></i>
 							</div>
 							<p class="kdm-testimonial-quote">
-								"After hiring King of Digital Marketing for our Google Ads management, we noticed an immediate surge in consultation bookings in Gurgaon. Their PPC team is responsive, analytical, and ROI-driven. Gaurav Dubey personally ensured every campaign was optimized to perfection."
+								"After hiring King of Digital Marketing for our Google Ads management, we noticed an
+								immediate surge in consultation bookings in Gurgaon. Their PPC team is responsive,
+								analytical, and ROI-driven. Gaurav Dubey personally ensured every campaign was optimized
+								to perfection."
 							</p>
 							<div class="kdm-testimonial-author-box">
 								<div class="kdm-testimonial-avatar grad-6">DS</div>
@@ -1332,172 +1580,247 @@
 								style="font-size: 28px; font-weight: 900; color: #0f172a; margin: 0 0 8px 0; line-height: 1.3;">
 								FAQs About <strong style="color: #0284c7;">PPC & Google Ads Company in Gurgaon</strong>
 							</h2>
-							<p style="font-size: 14px; color: #64748b; margin: 0;">Everything you need to know about our proven PPC company, Google Ads management services, and lead generation in Gurgaon.</p>
+							<p style="font-size: 14px; color: #64748b; margin: 0;">Everything you need to know about our
+								proven PPC company, Google Ads management services, and lead generation in Gurgaon.</p>
 						</div>
 
 						<div class="kdm-faq-accordion">
 							<!-- Q1 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.1. Why is King of Digital Marketing considered the best PPC & Google Ads Company in Gurgaon?</span>
+									<span class="kdm-faq-question">Q.1. Why is King of Digital Marketing considered the
+										best PPC & Google Ads Company in Gurgaon?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+ years of experience</strong>, <strong>900+ successful client campaigns</strong>, and certified Google Partners, King of Digital Marketing is the top PPC agency Gurgaon trusts. We deliver end-to-end Google Ads management, high-converting search campaigns, display retargeting, and negative keyword filtering to deliver guaranteed high-intent leads and maximum ROAS for businesses across Gurgaon.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> With <strong>13+
+											years of experience</strong>, <strong>900+ successful client
+											campaigns</strong>, and certified Google Partners, King of Digital Marketing
+										is the top PPC agency Gurgaon trusts. We deliver end-to-end Google Ads
+										management, high-converting search campaigns, display retargeting, and negative
+										keyword filtering to deliver guaranteed high-intent leads and maximum ROAS for
+										businesses across Gurgaon.</p>
 								</div>
 							</div>
 
 							<!-- Q2 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.2. What Google Ads management services do you provide in Gurgaon?</span>
+									<span class="kdm-faq-question">Q.2. What Google Ads management services do you
+										provide in Gurgaon?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide complete 360-degree PPC solutions including Google Search Ads, Google Display Network (GDN) advertising, Google Shopping Ads (PLA), YouTube Video Ads, Performance Max (P-Max) campaigns, Remarketing funnels, conversion-optimized landing page design, negative keyword audits, and daily bid management.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We provide complete
+										360-degree PPC solutions including Google Search Ads, Google Display Network
+										(GDN) advertising, Google Shopping Ads (PLA), YouTube Video Ads, Performance Max
+										(P-Max) campaigns, Remarketing funnels, conversion-optimized landing page
+										design, negative keyword audits, and daily bid management.</p>
 								</div>
 							</div>
 
 							<!-- Q3 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.3. How quickly can my Gurgaon business start generating leads with Google Ads?</span>
+									<span class="kdm-faq-question">Q.3. How quickly can my Gurgaon business start
+										generating leads with Google Ads?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Google Ads provides near-instant visibility. Once our certified PPC team designs, structures, and launches your campaign, qualified phone calls, WhatsApp inquiries, and form submissions typically start flowing within <strong>24 to 48 hours</strong> of campaign activation.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Google Ads provides
+										near-instant visibility. Once our certified PPC team designs, structures, and
+										launches your campaign, qualified phone calls, WhatsApp inquiries, and form
+										submissions typically start flowing within <strong>24 to 48 hours</strong> of
+										campaign activation.</p>
 								</div>
 							</div>
 
 							<!-- Q4 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.4. Which local areas in Gurgaon do your PPC and Google Ads services cover?</span>
+									<span class="kdm-faq-question">Q.4. Which local areas in Gurgaon do your PPC and
+										Google Ads services cover?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We manage hyper-targeted Google Ads campaigns across all major commercial and residential hubs in Gurgaon, including DLF Cyber City, Golf Course Road, Sohna Road, MG Road, Udyog Vihar, Sector 29, Golf Course Extension, Manesar, Sushant Lok, and Dwarka Expressway.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We manage
+										hyper-targeted Google Ads campaigns across all major commercial and residential
+										hubs in Gurgaon, including DLF Cyber City, Golf Course Road, Sohna Road, MG
+										Road, Udyog Vihar, Sector 29, Golf Course Extension, Manesar, Sushant Lok, and
+										Dwarka Expressway.</p>
 								</div>
 							</div>
 
 							<!-- Q5 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.5. How does Google Ads help clinics, institutes, and local businesses in Gurgaon?</span>
+									<span class="kdm-faq-question">Q.5. How does Google Ads help clinics, institutes,
+										and local businesses in Gurgaon?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Google Ads positions your business at the very top of Google when prospective patients, students, or clients search terms like 'best clinic in Gurgaon' or 'coaching near me'. With click-to-call assets, local map extensions, and lead forms, high-intent local prospects can contact you immediately.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Google Ads
+										positions your business at the very top of Google when prospective patients,
+										students, or clients search terms like 'best clinic in Gurgaon' or 'coaching
+										near me'. With click-to-call assets, local map extensions, and lead forms,
+										high-intent local prospects can contact you immediately.</p>
 								</div>
 							</div>
 
 							<!-- Q6 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.6. Do you offer customized PPC packages for small businesses and startups in Gurgaon?</span>
+									<span class="kdm-faq-question">Q.6. Do you offer customized PPC packages for small
+										businesses and startups in Gurgaon?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide flexible, affordable Google Ads management packages starting from small business starter plans to multi-campaign enterprise packages tailored to your budget and customer acquisition targets.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes! We provide
+										flexible, affordable Google Ads management packages starting from small business
+										starter plans to multi-campaign enterprise packages tailored to your budget and
+										customer acquisition targets.</p>
 								</div>
 							</div>
 
 							<!-- Q7 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.7. How do your Google Ads experts prevent wasted ad spend and invalid clicks?</span>
+									<span class="kdm-faq-question">Q.7. How do your Google Ads experts prevent wasted ad
+										spend and invalid clicks?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We protect your ad budget through daily negative keyword pruning, search term query audits, geo-fence exclusion, click fraud prevention, and bid adjustments. This ensures 100% of your advertising budget is focused strictly on real, qualified buyers in Gurgaon.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We protect your ad
+										budget through daily negative keyword pruning, search term query audits,
+										geo-fence exclusion, click fraud prevention, and bid adjustments. This ensures
+										100% of your advertising budget is focused strictly on real, qualified buyers in
+										Gurgaon.</p>
 								</div>
 							</div>
 
 							<!-- Q8 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.8. How do you optimize Google Ads Quality Score to lower Cost Per Click (CPC)?</span>
+									<span class="kdm-faq-question">Q.8. How do you optimize Google Ads Quality Score to
+										lower Cost Per Click (CPC)?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We optimize Quality Score by building tightly themed ad groups with highly relevant ad copy, utilizing all eligible ad extensions, and ensuring fast-loading, highly relevant landing pages. A higher Quality Score slashes your Cost Per Click (CPC) and Cost Per Acquisition (CPA).</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We optimize Quality
+										Score by building tightly themed ad groups with highly relevant ad copy,
+										utilizing all eligible ad extensions, and ensuring fast-loading, highly relevant
+										landing pages. A higher Quality Score slashes your Cost Per Click (CPC) and Cost
+										Per Acquisition (CPA).</p>
 								</div>
 							</div>
 
 							<!-- Q9 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.9. What is the advantage of hiring a professional PPC company in Gurgaon over doing it in-house?</span>
+									<span class="kdm-faq-question">Q.9. What is the advantage of hiring a professional
+										PPC company in Gurgaon over doing it in-house?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Self-managed accounts frequently waste budget on broad match keywords, irrelevant clicks, and poor bid pacing. A professional PPC agency like King of Digital Marketing utilizes 13+ years of data, smart bidding algorithms, conversion tracking, and A/B split testing to double or triple your lead volume while lowering costs.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Self-managed
+										accounts frequently waste budget on broad match keywords, irrelevant clicks, and
+										poor bid pacing. A professional PPC agency like King of Digital Marketing
+										utilizes 13+ years of data, smart bidding algorithms, conversion tracking, and
+										A/B split testing to double or triple your lead volume while lowering costs.</p>
 								</div>
 							</div>
 
 							<!-- Q10 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.10. Do you design and optimize dedicated landing pages for Google Ads?</span>
+									<span class="kdm-faq-question">Q.10. Do you design and optimize dedicated landing
+										pages for Google Ads?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, absolutely. A high Quality Score and conversion rate require a high-converting landing page. We design fast, mobile-first PPC landing pages with compelling value propositions, trust proof, click-to-call buttons, and frictionless forms to convert maximum ad clicks into paying clients.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, absolutely. A
+										high Quality Score and conversion rate require a high-converting landing page.
+										We design fast, mobile-first PPC landing pages with compelling value
+										propositions, trust proof, click-to-call buttons, and frictionless forms to
+										convert maximum ad clicks into paying clients.</p>
 								</div>
 							</div>
 
 							<!-- Q11 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.11. Do I get a dedicated PPC account manager for my campaign?</span>
+									<span class="kdm-faq-question">Q.11. Do I get a dedicated PPC account manager for my
+										campaign?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, every client is assigned a dedicated Google Ads certified campaign manager along with direct oversight from founder Gaurav Dubey to ensure seamless communication, daily bid optimization, and weekly performance reviews.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes, every client
+										is assigned a dedicated Google Ads certified campaign manager along with direct
+										oversight from founder Gaurav Dubey to ensure seamless communication, daily bid
+										optimization, and weekly performance reviews.</p>
 								</div>
 							</div>
 
 							<!-- Q12 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.12. What industries do you manage Google Ads and PPC for in Gurgaon?</span>
+									<span class="kdm-faq-question">Q.12. What industries do you manage Google Ads and
+										PPC for in Gurgaon?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have successfully managed Google Ads campaigns across 150+ industries in Gurgaon, including Real Estate, Healthcare &amp; Clinics, Study Abroad &amp; Visa Consultants, Coaching &amp; Education, E-Commerce, Astrology, Hair Transplant, B2B Manufacturing, and Professional Local Services.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We have
+										successfully managed Google Ads campaigns across 150+ industries in Gurgaon,
+										including Real Estate, Healthcare &amp; Clinics, Study Abroad &amp; Visa
+										Consultants, Coaching &amp; Education, E-Commerce, Astrology, Hair Transplant,
+										B2B Manufacturing, and Professional Local Services.</p>
 								</div>
 							</div>
 
 							<!-- Q13 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.13. Can you set up Google Remarketing to re-engage past website visitors?</span>
+									<span class="kdm-faq-question">Q.13. Can you set up Google Remarketing to re-engage
+										past website visitors?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We build responsive Google Display Network and YouTube remarketing funnels to re-engage prospective clients who visited your website without converting, bringing them back with targeted offers to complete their inquiry or purchase.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> Yes. We build
+										responsive Google Display Network and YouTube remarketing funnels to re-engage
+										prospective clients who visited your website without converting, bringing them
+										back with targeted offers to complete their inquiry or purchase.</p>
 								</div>
 							</div>
 
 							<!-- Q14 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.14. How do you track conversions and report return on ad spend (ROAS)?</span>
+									<span class="kdm-faq-question">Q.14. How do you track conversions and report return
+										on ad spend (ROAS)?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We implement robust conversion tracking via Google Tag Manager (GTM), GA4, and call-tracking tools. Clients receive transparent weekly and monthly reports showing exact impressions, clicks, Cost Per Lead (CPL), conversions, and total ROAS.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> We implement robust
+										conversion tracking via Google Tag Manager (GTM), GA4, and call-tracking tools.
+										Clients receive transparent weekly and monthly reports showing exact
+										impressions, clicks, Cost Per Lead (CPL), conversions, and total ROAS.</p>
 								</div>
 							</div>
 
 							<!-- Q15 -->
 							<div class="kdm-faq-item">
 								<button type="button" class="kdm-faq-header">
-									<span class="kdm-faq-question">Q.15. How do I get started with the best Google Ads agency in Gurgaon?</span>
+									<span class="kdm-faq-question">Q.15. How do I get started with the best Google Ads
+										agency in Gurgaon?</span>
 									<span class="kdm-faq-icon">+</span>
 								</button>
 								<div class="kdm-faq-body">
-									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can request a free Google Ads account audit and customized PPC growth strategy proposal by filling out our online form or calling our team directly at <strong>+91-9555696058</strong> or emailing <strong>info@kingofdigitalmarketing.com</strong>.</p>
+									<p class="kdm-faq-answer"><span class="kdm-ans-badge">Ans</span> You can request a
+										free Google Ads account audit and customized PPC growth strategy proposal by
+										filling out our online form or calling our team directly at
+										<strong>+91-9555696058</strong> or emailing
+										<strong>info@kingofdigitalmarketing.com</strong>.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -1514,7 +1837,8 @@
 								style="font-size: 28px; font-weight: 900; color: #0f172a; margin: 0 0 8px 0; line-height: 1.3;">
 								Grand Offers <strong>for Businesses in Gurgaon</strong>
 							</h2>
-							<p style="font-size: 14px; color: #64748b; margin: 0;">Exclusive limited-time growth packages with instant discount savings on Google Ads management.</p>
+							<p style="font-size: 14px; color: #64748b; margin: 0;">Exclusive limited-time growth
+								packages with instant discount savings on Google Ads management.</p>
 						</div>
 
 						<div class="kdm-offer-dark-list">
@@ -1544,7 +1868,8 @@
 									<h4>Startup PPC Booster Offer</h4>
 									<p class="kdm-offer-dark-value">Get 10% OFF</p>
 									<h5 class="kdm-offer-dark-sub">On 3-Month Google Ads Management Package</h5>
-									<h5 class="kdm-offer-dark-desc">Sign up for any 3-month PPC package &amp; get instant 10% OFF plus free campaign audit in Gurgaon!</h5>
+									<h5 class="kdm-offer-dark-desc">Sign up for any 3-month PPC package &amp; get
+										instant 10% OFF plus free campaign audit in Gurgaon!</h5>
 								</div>
 							</div>
 
@@ -1575,7 +1900,8 @@
 									<h4>Growth Marketing Plan Offer</h4>
 									<p class="kdm-offer-dark-value">Get 15% OFF</p>
 									<h5 class="kdm-offer-dark-sub">On 6-Month Multi-Campaign Google Ads Plan</h5>
-									<h5 class="kdm-offer-dark-desc">Scale qualified leads and maximize Return on Ad Spend across Gurgaon with 15% savings!</h5>
+									<h5 class="kdm-offer-dark-desc">Scale qualified leads and maximize Return on Ad
+										Spend across Gurgaon with 15% savings!</h5>
 								</div>
 							</div>
 
@@ -1602,7 +1928,8 @@
 									<h4>Premium Market Dominance Offer</h4>
 									<p class="kdm-offer-dark-value">Get 20% OFF</p>
 									<h5 class="kdm-offer-dark-sub">On 12-Month Annual PPC Management Package</h5>
-									<h5 class="kdm-offer-dark-desc">Dominate Gurgaon Google paid search results all year long while saving BIG on management fees!</h5>
+									<h5 class="kdm-offer-dark-desc">Dominate Gurgaon Google paid search results all year
+										long while saving BIG on management fees!</h5>
 								</div>
 							</div>
 						</div>
