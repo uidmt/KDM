@@ -474,7 +474,7 @@
 				</div>
 
 				<div class="empower-grid">
-					<!-- Card 1: Google Search Ads -->
+					<!-- Card 1: Google Ads Management -->
 					<div class="empower-card card-emerald">
 						<div class="empower-card-top">
 							<div class="empower-icon-hub icon-emerald">
@@ -486,21 +486,44 @@
 									<line x1="8" y1="11" x2="14" y2="11" />
 								</svg>
 							</div>
-							<span class="empower-tag">INSTANT BUYER INTENT</span>
+							<span class="empower-tag">SEARCH, DISPLAY &amp; P-MAX</span>
 						</div>
-						<h3 class="empower-card-title"><a href="PPC-Services.aspx">Google Search Ads (PPC)</a></h3>
+						<h3 class="empower-card-title"><a href="PPC-Services.aspx">Google Ads Management</a></h3>
 						<p class="empower-card-text">
-							Capture ready-to-buy customers at the precise moment they search for your services in Gurgaon. We target high-intent transactional keywords with compelling ad copy to drive phone calls, form fills, and immediate sales.
+							End-to-end Google Ads management in Gurgaon covering high-intent Search Ads, Google Display Network, Shopping campaigns, YouTube video ads, and Performance Max. We optimize negative keywords, ad copy, and Quality Scores to deliver maximum qualified traffic and lowest Cost Per Acquisition (CPA).
 						</p>
 						<a href="PPC-Services.aspx" class="empower-card-btn btn-emerald">
-							Explore PPC Services <i class="fa fa-arrow-right"></i>
+							Explore Google Ads <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
 
-					<!-- Card 2: Google Ads Management Services -->
+					<!-- Card 2: Meta Ads Management -->
 					<div class="empower-card card-blue">
 						<div class="empower-card-top">
 							<div class="empower-icon-hub icon-blue">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+									<circle cx="9" cy="7" r="4"></circle>
+									<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+									<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+								</svg>
+							</div>
+							<span class="empower-tag">FACEBOOK, INSTAGRAM &amp; WHATSAPP</span>
+						</div>
+						<h3 class="empower-card-title"><a href="meta-ads-services.aspx">Meta Ads Management</a></h3>
+						<p class="empower-card-text">
+							Reach high-intent customers and drive immediate action across Facebook, Instagram, and WhatsApp. We build high-converting lead generation funnels, eye-catching creatives, and custom retargeting audiences that turn Gurgaon buyers into active leads and paying clients.
+						</p>
+						<a href="meta-ads-services.aspx" class="empower-card-btn btn-blue">
+							Explore Meta Ads <i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
+
+					<!-- Card 3: Landing Page Design -->
+					<div class="empower-card card-purple">
+						<div class="empower-card-top">
+							<div class="empower-icon-hub icon-purple">
 								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 									<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
@@ -508,98 +531,122 @@
 									<line x1="12" y1="17" x2="12" y2="21"></line>
 								</svg>
 							</div>
-							<span class="empower-tag">END-TO-END MANAGEMENT</span>
+							<span class="empower-tag">HIGH-CONVERTING CRO</span>
 						</div>
-						<h3 class="empower-card-title"><a href="PPC-Services.aspx">Google Ads Management Services</a></h3>
+						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">Landing Page Design</a></h3>
 						<p class="empower-card-text">
-							Comprehensive account architecture, bid management, negative keyword pruning, Quality Score enhancement, and daily budget pacing handled by certified Google Ads experts to maximize your ROAS in Gurgaon.
+							Campaign-specific landing pages designed to convert PPC visitors into leads and revenue. Engineered with lightning-fast load speeds, persuasive headlines, clear value propositions, trust badges, click-to-call buttons, and friction-free inquiry forms.
 						</p>
-						<a href="PPC-Services.aspx" class="empower-card-btn btn-blue">
-							Explore Management <i class="fa fa-arrow-right"></i>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-purple">
+							Get Landing Page <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
 
-					<!-- Card 3: Display Network & Remarketing -->
-					<div class="empower-card card-purple">
-						<div class="empower-card-top">
-							<div class="empower-icon-hub icon-purple">
-								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
-									<polyline points="17 6 23 6 23 12" />
-								</svg>
-							</div>
-							<span class="empower-tag">HIGH-IMPACT VISIBILITY</span>
-						</div>
-						<h3 class="empower-card-title"><a href="PPC-Services.aspx">Display Network &amp; Remarketing</a></h3>
-						<p class="empower-card-text">
-							Keep your brand top-of-mind across 3+ million websites, apps, and YouTube. Re-engage past website visitors who did not convert initially and turn them into paying clients at a lower Cost Per Acquisition (CPA).
-						</p>
-						<a href="PPC-Services.aspx" class="empower-card-btn btn-purple">
-							Explore Remarketing <i class="fa fa-arrow-right"></i>
-						</a>
-					</div>
-
-					<!-- Card 4: PPC Lead Generation Funnels -->
+					<!-- Card 4: Conversion Tracking -->
 					<div class="empower-card card-pink">
 						<div class="empower-card-top">
 							<div class="empower-icon-hub icon-pink">
 								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M22 12A10 10 0 1 1 12 2a10 10 0 0 1 10 10z" />
-									<path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
-									<path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
 								</svg>
 							</div>
-							<span class="empower-tag">HIGH CONVERSION</span>
+							<span class="empower-tag">GA4, GTM &amp; CAPI ATTRIBUTION</span>
 						</div>
-						<h3 class="empower-card-title"><a href="lead-generation-company.aspx">PPC Lead Generation Funnels</a></h3>
+						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">Conversion Tracking</a></h3>
 						<p class="empower-card-text">
-							B2B and high-ticket service lead generation engineered specifically for Gurgaon businesses. We design dedicated conversion funnels that deliver qualified, verified inquiries directly to your sales team daily.
+							Accurate, end-to-end attribution setup with Google Analytics 4 (GA4), Google Tag Manager (GTM), Meta Pixel, Conversions API (CAPI), and CRM webhook integrations. Track every phone call, form fill, and conversion with zero tracking loss for precise ROI reporting.
 						</p>
-						<a href="lead-generation-company.aspx" class="empower-card-btn btn-pink">
-							Explore Lead Gen <i class="fa fa-arrow-right"></i>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-pink">
+							Setup Tracking <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
 
-					<!-- Card 5: Landing Page CRO for PPC -->
-					<div class="empower-card card-cyan">
-						<div class="empower-card-top">
-							<div class="empower-icon-hub icon-cyan">
-								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-								</svg>
-							</div>
-							<span class="empower-tag">CONVERSION OPTIMIZATION</span>
-						</div>
-						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">Landing Page Optimization &amp; CRO</a>
-						</h3>
-						<p class="empower-card-text">
-							Do not waste ad spend on low-converting pages. We build ultra-fast, mobile-first PPC landing pages with persuasive headlines, trust badges, WhatsApp integrations, and frictionless lead forms.
-						</p>
-						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-cyan">
-							Optimize Your Funnel <i class="fa fa-arrow-right"></i>
-						</a>
-					</div>
-
-					<!-- Card 6: Google Shopping & Performance Max -->
+					<!-- Card 5: E-commerce PPC -->
 					<div class="empower-card card-amber">
 						<div class="empower-card-top">
 							<div class="empower-icon-hub icon-amber">
 								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-									<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+									<circle cx="9" cy="21" r="1"></circle>
+									<circle cx="20" cy="21" r="1"></circle>
+									<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
 								</svg>
 							</div>
-							<span class="empower-tag">MAX ROAS</span>
+							<span class="empower-tag">SHOPPING &amp; CATALOG ADS</span>
 						</div>
-						<h3 class="empower-card-title"><a href="performance-marketing-packages.aspx">Google Shopping &amp; P-Max</a></h3>
+						<h3 class="empower-card-title"><a href="performance-marketing-packages.aspx">E-commerce PPC</a></h3>
 						<p class="empower-card-text">
-							Scale retail and e-commerce revenue with Google Shopping Ads (PLA) and AI-driven Performance Max campaigns across Search, Display, Discover, Maps, and YouTube with verified Return on Ad Spend.
+							Accelerate online store revenue and maximize Return on Ad Spend (ROAS) through Google Shopping Ads, merchant product feed optimization, dynamic catalog ads, and performance marketing that consistently drive profitable repeat sales.
 						</p>
 						<a href="performance-marketing-packages.aspx" class="empower-card-btn btn-amber">
 							Explore Shopping Ads <i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
+
+					<!-- Card 6: PPC Audit & Optimization -->
+					<div class="empower-card card-cyan">
+						<div class="empower-card-top">
+							<div class="empower-icon-hub icon-cyan">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<circle cx="12" cy="12" r="10"></circle>
+									<circle cx="12" cy="12" r="6"></circle>
+									<circle cx="12" cy="12" r="2"></circle>
+								</svg>
+							</div>
+							<span class="empower-tag">BUDGET &amp; QUALITY SCORE AUDIT</span>
+						</div>
+						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">PPC Audit &amp; Optimization</a></h3>
+						<p class="empower-card-text">
+							Deep 360° account audits identifying wasted ad budget, search query mismatches, and Quality Score bottlenecks. We restructure keyword match types, negative lists, and bidding algorithms to improve campaign efficiency, lead quality, and return on ad spend.
+						</p>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-cyan">
+							Request PPC Audit <i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
+
+					<!-- Card 7: PPC Consultation in Gurgaon -->
+					<div class="empower-card card-teal">
+						<div class="empower-card-top">
+							<div class="empower-icon-hub icon-teal">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+									<line x1="9" y1="9" x2="15" y2="9"></line>
+									<line x1="12" y1="6" x2="12" y2="12"></line>
+								</svg>
+							</div>
+							<span class="empower-tag">EXPERT 1-ON-1 STRATEGY</span>
+						</div>
+						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">PPC Consultation in Gurgaon</a></h3>
+						<p class="empower-card-text">
+							Get 1-on-1 strategic Google Ads consultation and deep account audits from senior PPC strategist Gaurav Dubey (13+ years experience, 900+ projects). We analyze past budget leaks, competitor bids, Quality Scores, and deliver an actionable scaling blueprint for your Gurgaon business.
+						</p>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-teal">
+							Book Consultation <i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
+
+					<!-- Card 8: Amazon & Flipkart Ads -->
+					<div class="empower-card card-orange">
+						<div class="empower-card-top">
+							<div class="empower-icon-hub icon-orange">
+								<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+									stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+									<line x1="3" y1="6" x2="21" y2="6"></line>
+									<path d="M16 10a4 4 0 0 1-8 0"></path>
+								</svg>
+							</div>
+							<span class="empower-tag">MARKETPLACE ADS</span>
+						</div>
+						<h3 class="empower-card-title"><a href="javascript:void(0);" onclick="openGlobalPopupForm()">Amazon &amp; Flipkart Ads</a></h3>
+						<p class="empower-card-text">
+							Scale marketplace e-commerce sales with hyper-targeted Amazon Sponsored Products, Sponsored Brands, Display ads, and Flipkart PLA campaigns. We optimize search keyword bids and reduce ACOS to maximize net profit margins for manufacturers and D2C brands.
+						</p>
+						<a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="empower-card-btn btn-orange">
+							Scale Marketplace Ads <i class="fa fa-arrow-right"></i>
 						</a>
 					</div>
 				</div>
