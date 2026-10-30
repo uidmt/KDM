@@ -1061,10 +1061,10 @@
 						<i class="fa fa-briefcase"></i> INDUSTRY SPECIALIZATIONS
 					</span>
 					<h2 class="industry-heading" style="color: #ffffff; font-size: 34px; font-weight: 900; margin: 0 0 12px 0;">
-						Most Popular Industries <strong style="background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">We Work With</strong>
+						Most Popular Industries <strong style="background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">We Power With Google Ads &amp; Meta Ads</strong>
 					</h2>
 					<p style="color: #94a3b8; font-size: 16px; max-width: 800px; margin: 0 auto; line-height: 1.7;">
-						We deliver high-converting marketing strategies customized for leading commercial and professional industry sectors.
+						We engineer high-converting Google Ads and Meta Ads campaigns tailored for your specific industry — driving qualified lead generation for service businesses and scalable online sales for products.
 					</p>
 				</div>
 
@@ -1079,7 +1079,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-astrology.aspx" style="color: #ffffff; text-decoration: none;">Astrology</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Worldwide consultation bookings and global horoscope app discovery.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-converting Google Search &amp; Meta Ads generating instant phone calls, WhatsApp consultations, and verified client leads.</p>
 						<a href="digital-marketing-for-astrology.aspx" style="color: #fbbf24; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1092,7 +1092,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-real-estate.aspx" style="color: #ffffff; text-decoration: none;">Real Estate</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Targeting international NRI investors and luxury real estate buyers.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Targeted Google Search, P-Max &amp; Meta Ads driving verified site-visit bookings and high-ticket buyer leads for developers.</p>
 						<a href="digital-marketing-for-real-estate.aspx" style="color: #10b981; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1105,7 +1105,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="hair-transplant-digital-marketing-services.aspx" style="color: #ffffff; text-decoration: none;">Hair Transplant</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">50+ successful global clinics ranking for medical tourism procedures.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Precision Google Ads &amp; Meta lead funnels capturing high-intent patients searching for hair restoration and clinical consultations.</p>
 						<a href="hair-transplant-digital-marketing-services.aspx" style="color: #ec4899; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1118,7 +1118,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="study-abroad-consultant-lead-generation.aspx" style="color: #ffffff; text-decoration: none;">Study Abroad Consultant</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-intent student lead generation across USA, UK, Canada &amp; Australia.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Google Search &amp; Instagram lead generation delivering high-intent student inquiries for university admissions and visa counseling.</p>
 						<a href="study-abroad-consultant-lead-generation.aspx" style="color: #38bdf8; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1131,7 +1131,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #ffffff; text-decoration: none;">Cosmetic Surgeon</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">International patient acquisition for aesthetic plastic &amp; cosmetic surgeries.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Premium Google Ads &amp; Meta campaigns generating confidential, high-intent consultation inquiries for cosmetic and plastic surgery.</p>
 						<a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #a855f7; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1145,7 +1145,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ecommerce.aspx" style="color: #ffffff; text-decoration: none;">Ecommerce</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Multi-country search rankings for Shopify, WooCommerce &amp; D2C stores.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Scalable Google Shopping, Performance Max &amp; Meta Catalog Ads driving high-volume product sales, repeat orders, and maximum ROAS.</p>
 						<a href="digital-marketing-for-ecommerce.aspx" style="color: #f43f5e; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1159,7 +1159,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-visa-immigration-consultant.aspx" style="color: #ffffff; text-decoration: none;">Immigration Consultant</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Global PR visa leads and work permit counseling inquiries worldwide.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Laser-targeted Google Search &amp; Meta Ads driving qualified applicant leads for PR visas, work permits, and overseas migration.</p>
 						<a href="digital-marketing-for-visa-immigration-consultant.aspx" style="color: #06b6d4; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1172,7 +1172,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-stock-market-institute.aspx" style="color: #ffffff; text-decoration: none;">Stock Market Institute &amp; Advisor</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Course admissions and active investor lead funnels worldwide.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-converting Google Search &amp; Meta Ads generating webinar registrations, paid trading course admissions, and advisory client leads.</p>
 						<a href="digital-marketing-for-stock-market-institute.aspx" style="color: #f97316; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1185,7 +1185,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ayurvedic-products.aspx" style="color: #ffffff; text-decoration: none;">Ayurvedic Products</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Global export sales &amp; organic ranking for herbal &amp; Ayurvedic products.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Multi-channel Google Shopping &amp; Meta Ads driving profitable repeat product orders, high cart values, and scalable D2C e-commerce sales.</p>
 						<a href="digital-marketing-for-ayurvedic-products.aspx" style="color: #84cc16; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1198,7 +1198,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-dermatologists.aspx" style="color: #ffffff; text-decoration: none;">Skin Clinic</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Generating verified patient appointments for laser, acne &amp; derma clinics.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Local Google Ads geofencing &amp; Meta Ads driving steady walk-ins, phone calls, and appointment bookings for laser &amp; derma treatments.</p>
 						<a href="digital-marketing-for-dermatologists.aspx" style="color: #14b8a6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1212,7 +1212,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ca-firm.aspx" style="color: #ffffff; text-decoration: none;">CA Firm</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Cross-border tax consulting, international audit &amp; corporate accounting leads.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Targeted B2B Google Search Ads capturing corporate client inquiries for business audits, GST filing, and tax advisory services.</p>
 						<a href="digital-marketing-for-ca-firm.aspx" style="color: #3b82f6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1225,7 +1225,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-import-export.aspx" style="color: #ffffff; text-decoration: none;">Export Business</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-ticket international B2B buyer leads and bulk export inquiries.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Global Google Search &amp; Meta Ads capturing verified international B2B buyer inquiries and high-volume container export orders.</p>
 						<a href="digital-marketing-for-import-export.aspx" style="color: #d97706; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1238,7 +1238,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-travel-agency.aspx" style="color: #ffffff; text-decoration: none;">Travel Agency</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Worldwide destination package rankings and direct holiday bookings.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Google Search Ads &amp; Meta visual campaigns driving qualified inquiries and fast bookings for holiday packages and customized tours.</p>
 						<a href="digital-marketing-for-travel-agency.aspx" style="color: #6366f1; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1253,7 +1253,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-event-management-company.aspx" style="color: #ffffff; text-decoration: none;">Event Management</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Destination wedding &amp; corporate expo lead capture across borders.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-impact Google &amp; Meta Ads capturing qualified leads for destination weddings, corporate galas, trade shows, and celebrations.</p>
 						<a href="digital-marketing-for-event-management-company.aspx" style="color: #d946ef; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1269,7 +1269,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-yoga.aspx" style="color: #ffffff; text-decoration: none;">Yoga Studio</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Acquiring global yoga retreat bookings and local wellness memberships.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Local Google Search &amp; Meta Ads driving studio walk-in visits, monthly class memberships, and retreat workshop registrations.</p>
 						<a href="digital-marketing-for-yoga.aspx" style="color: #8b5cf6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
@@ -1285,7 +1285,7 @@
 							</svg>
 						</div>
 						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-restaurant.aspx" style="color: #ffffff; text-decoration: none;">Restaurant &amp; Cafe</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Local Google Map 3-pack dominance, table reservations &amp; orders.</p>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Geo-targeted Google Search &amp; Meta visual Ads driving table reservations, party event inquiries, and surging local customer footfall.</p>
 						<a href="digital-marketing-for-restaurant.aspx" style="color: #ef4444; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
