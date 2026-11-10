@@ -146,7 +146,7 @@
 		<link rel="stylesheet" href="css/skins/default.css">
 		<link rel="stylesheet" href="css/info.css?v=14.0">
 		<link rel="stylesheet" href="css/kdm-mega-menu-v2.css?v=20.0">
-		<link rel="stylesheet" href="css/kdm-footer.css?v=2.0">
+		<link rel="stylesheet" href="css/kdm-footer.css?v=2.1">
 		<!-- Global Search CSS -->
 		<link rel="stylesheet" href="css/kdm-global-search.css?v=1.0">
 		<link rel="stylesheet" href="css/home-custom.css?v=25.0">
@@ -664,118 +664,6 @@
 
       </div>
 
-      <!-- ==========================================================================
-           GIANT FOOTER TYPOGRAPHY BANNER (DESKTOP ONLY)
-           Sarvam Style with Digital Marketing Icons Embedded
-           ========================================================================== -->
-      <div class="kdm-footer-brand-monument" aria-label="King of Digital Marketing">
-        <div class="kdm-brand-monument-inner">
-          
-          <!-- Floating Digital Marketing Interactive Icon Badges -->
-          <div class="kdm-floating-dm-pills">
-            <div class="kdm-dm-pill seo" title="Search Engine Optimization">
-              <i class="fa fa-search"></i> <span>SEO Ranking</span>
-            </div>
-            <div class="kdm-dm-pill ppc" title="Pay Per Click Management">
-              <i class="fa fa-crosshairs"></i> <span>PPC &amp; Google Ads</span>
-            </div>
-            <div class="kdm-dm-pill roi" title="Strictly Focus on ROI">
-              <i class="fa fa-line-chart"></i> <span>Strictly Focus on ROI</span>
-            </div>
-            <div class="kdm-dm-pill cro" title="Conversion Rate Optimization">
-              <i class="fa fa-bolt"></i> <span>Lead Generation CRO</span>
-            </div>
-            <div class="kdm-dm-pill smo" title="Social Media Optimization">
-              <i class="fa fa-bullhorn"></i> <span>Meta Ads &amp; SMO</span>
-            </div>
-            <div class="kdm-dm-pill crown" title="King of Digital Marketing">
-              <i class="fa fa-trophy"></i> <span>👑 13+ Years • 900+ Projects • 15+ Countries</span>
-            </div>
-          </div>
-
-          <!-- Monumental SVG Canvas (100% Responsive, Vector Scaled) -->
-          <div class="kdm-brand-svg-canvas">
-            <svg viewBox="0 0 1600 370" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="kdmGradTheme" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#00d2ff" />
-                  <stop offset="25%" stop-color="#3b82f6" />
-                  <stop offset="50%" stop-color="#8b5cf6" />
-                  <stop offset="75%" stop-color="#ec4899" />
-                  <stop offset="100%" stop-color="#0ea5e9" />
-                </linearGradient>
-
-                <!-- Pattern filled with Digital Marketing Icons -->
-                <pattern id="kdmDmPattern" width="800" height="370" patternUnits="userSpaceOnUse">
-                  <rect width="800" height="370" fill="url(#kdmGradTheme)" />
-
-                  <g opacity="0.75" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
-                    <!-- SEO Magnifying Glass -->
-                    <circle cx="110" cy="95" r="26" fill="none" stroke-width="5" />
-                    <line x1="128" y1="115" x2="155" y2="142" stroke-width="5" />
-                    <text x="95" y="103" fill="#ffffff" font-size="18" font-weight="bold" stroke="none" font-family="sans-serif">#1</text>
-
-                    <!-- PPC Target -->
-                    <circle cx="340" cy="85" r="42" fill="none" stroke-width="4.5" stroke-dasharray="8,5" />
-                    <circle cx="340" cy="85" r="24" fill="none" stroke-width="4" />
-                    <circle cx="340" cy="85" r="7" fill="#ffffff" stroke="none" />
-
-                    <!-- Growth Chart & Bars -->
-                    <polyline points="510,130 560,85 610,105 670,35 720,65" fill="none" stroke-width="5.5" stroke="#ffffff" />
-                    <rect x="530" y="105" width="16" height="35" fill="rgba(255,255,255,0.4)" stroke="none" rx="3" />
-                    <rect x="570" y="85" width="16" height="55" fill="rgba(255,255,255,0.5)" stroke="none" rx="3" />
-                    <rect x="610" y="55" width="16" height="85" fill="#ffffff" stroke="none" rx="3" />
-                    <rect x="650" y="35" width="16" height="105" fill="#ffffff" stroke="none" rx="3" />
-
-                    <!-- Rocket -->
-                    <g transform="translate(170, 235)">
-                      <path d="M40,0 C40,25 65,45 65,70 L15,70 C15,45 40,25 40,0 Z" fill="rgba(255,255,255,0.35)" stroke-width="3" />
-                      <circle cx="40" cy="35" r="8" fill="#ffffff" stroke="none" />
-                    </g>
-
-                    <!-- Social Megaphone -->
-                    <g transform="translate(420, 235)">
-                      <path d="M20,40 L50,25 L80,25 L80,55 L50,55 L20,40 Z" fill="rgba(255,255,255,0.35)" stroke-width="3" />
-                      <path d="M50,55 L55,75 L45,75 Z" fill="rgba(255,255,255,0.35)" stroke-width="2" />
-                      <path d="M95,30 A18,18 0 0,1 95,50" fill="none" stroke-width="3" />
-                    </g>
-
-                    <!-- Golden Crown -->
-                    <g transform="translate(640, 215)">
-                      <path d="M10,50 L25,15 L50,40 L75,15 L90,50 Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="3" />
-                      <circle cx="25" cy="15" r="5" fill="#fef08a" stroke="none" />
-                      <circle cx="50" cy="40" r="4" fill="#fef08a" stroke="none" />
-                      <circle cx="75" cy="15" r="5" fill="#fef08a" stroke="none" />
-                      <rect x="10" y="50" width="80" height="10" rx="3" fill="#f59e0b" stroke="none" />
-                    </g>
-                  </g>
-                </pattern>
-              </defs>
-
-              <!-- Text Filled with Digital Marketing Pattern -->
-              <text x="50%" y="145" text-anchor="middle" font-family="'Montserrat', 'Arial Black', -apple-system, BlinkMacSystemFont, sans-serif" font-size="142" font-weight="900" letter-spacing="-1" fill="url(#kdmDmPattern)">KING OF DIGITAL</text>
-              <text x="50%" y="340" text-anchor="middle" font-family="'Montserrat', 'Arial Black', -apple-system, BlinkMacSystemFont, sans-serif" font-size="224" font-weight="900" letter-spacing="3" fill="url(#kdmDmPattern)">MARKETING</text>
-            </svg>
-          </div>
-
-          <!-- Monument Ticker Strip -->
-          <div class="kdm-monument-ticker">
-            <span><i class="fa fa-search"></i> SEO Optimization</span>
-            <span class="kdm-monument-dot"></span>
-            <span><i class="fa fa-crosshairs"></i> Google Ads (PPC)</span>
-            <span class="kdm-monument-dot"></span>
-            <span><i class="fa fa-line-chart"></i> Performance ROI</span>
-            <span class="kdm-monument-dot"></span>
-            <span><i class="fa fa-share-alt"></i> Social Media &amp; Meta</span>
-            <span class="kdm-monument-dot"></span>
-            <span><i class="fa fa-globe"></i> 15+ Countries Served</span>
-            <span class="kdm-monument-dot"></span>
-            <span><i class="fa fa-pie-chart"></i> GA4 &amp; CRO Analytics</span>
-          </div>
-
-        </div>
-      </div>
-
       <!-- Copyright Starts -->
       <div class="footer-copyright">
         <div class="container">
@@ -796,6 +684,51 @@
                 </ul>
               </nav>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================================================
+           GIANT ONE-LINE FOOTER MONUMENT (DESKTOP ONLY)
+           Sarvam Style at Lowest Bottom with Digital Marketing Icons Embedded
+           ========================================================================== -->
+      <div class="kdm-footer-brand-monument" aria-hidden="true">
+        <div class="kdm-brand-monument-inner">
+          <div class="kdm-brand-svg-canvas">
+            <svg viewBox="0 0 2500 120" width="100%" height="auto" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <!-- Clean Metallic Platinum & Subtle Slate Gradient (No Funky Colors) -->
+                <linearGradient id="kdmCleanMetallic" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+                  <stop offset="65%" stop-color="#e2e8f0" stop-opacity="0.9" />
+                  <stop offset="100%" stop-color="#94a3b8" stop-opacity="0.75" />
+                </linearGradient>
+
+                <!-- Repeatable Digital Marketing Vector Icons Pattern -->
+                <pattern id="kdmCleanDmPattern" width="625" height="120" patternUnits="userSpaceOnUse">
+                  <rect width="625" height="120" fill="url(#kdmCleanMetallic)" />
+                  <g opacity="0.30" stroke="#090e1a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                    <!-- SEO Magnifying Glass -->
+                    <circle cx="70" cy="55" r="22" stroke-width="5" />
+                    <line x1="86" y1="71" x2="110" y2="95" stroke-width="5" />
+                    <text x="58" y="63" font-family="'Montserrat', sans-serif" font-size="15" font-weight="900" fill="#090e1a" stroke="none">#1</text>
+                    <!-- PPC Target -->
+                    <circle cx="210" cy="55" r="30" stroke-width="3.5" stroke-dasharray="6,4" />
+                    <circle cx="210" cy="55" r="15" stroke-width="3.5" />
+                    <circle cx="210" cy="55" r="5" fill="#090e1a" stroke="none" />
+                    <!-- Growth Chart -->
+                    <polyline points="325,85 360,50 395,65 440,20 475,40" stroke-width="4.5" stroke="#090e1a" />
+                    <rect x="340" y="65" width="12" height="25" fill="#090e1a" stroke="none" rx="2" opacity="0.6" />
+                    <rect x="375" y="50" width="12" height="40" fill="#090e1a" stroke="none" rx="2" opacity="0.8" />
+                    <rect x="410" y="30" width="12" height="60" fill="#090e1a" stroke="none" rx="2" />
+                    <!-- Rocket -->
+                    <path d="M540,25 C540,45 558,60 558,80 L522,80 C522,60 540,45 540,25 Z" fill="#090e1a" opacity="0.4" stroke-width="3" />
+                    <circle cx="540" cy="52" r="5" fill="#ffffff" stroke="none" />
+                  </g>
+                </pattern>
+              </defs>
+              <text x="1250" y="138" text-anchor="middle" font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="152" font-weight="900" letter-spacing="4" fill="url(#kdmCleanDmPattern)">KING OF DIGITAL MARKETING</text>
+            </svg>
           </div>
         </div>
       </div>

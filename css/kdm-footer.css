@@ -592,20 +592,21 @@ footer.kdm-vibrant-footer {
 }
 
 /* ==========================================================================
-   GIANT FOOTER TYPOGRAPHY BANNER (Sarvam Style with Digital Marketing Icons)
-   Desktop Only (>= 992px)
+   GIANT FOOTER TYPOGRAPHY MONUMENT (Sarvam Style at Lowest Bottom)
+   Desktop Only (>= 992px) - One Line, Clean Metallic & Vector Icons
    ========================================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .kdm-footer-brand-monument {
   position: relative;
   width: 100%;
-  padding: 30px 0 15px 0;
-  margin-top: 15px;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  line-height: 0;
   user-select: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-  background: radial-gradient(ellipse at 50% 100%, rgba(14, 165, 233, 0.12) 0%, rgba(10, 15, 29, 0) 75%);
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(9, 14, 26, 0) 0%, rgba(14, 165, 233, 0.04) 100%);
 }
 
 /* Strictly hidden on mobile & tablet devices */
@@ -617,160 +618,23 @@ footer.kdm-vibrant-footer {
 
 .kdm-brand-monument-inner {
   position: relative;
-  max-width: 1250px;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
   text-align: center;
+  line-height: 0;
 }
 
-/* Floating Digital Marketing Interactive Icon Badges */
-.kdm-floating-dm-pills {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 3;
-}
-
-.kdm-dm-pill {
-  position: absolute;
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 11.5px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-  pointer-events: auto;
-  cursor: default;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  animation: kdmFloatDmPill 5s ease-in-out infinite;
-}
-
-.kdm-dm-pill:hover {
-  transform: translateY(-5px) scale(1.08) !important;
-  box-shadow: 0 14px 30px rgba(14, 165, 233, 0.45);
-}
-
-.kdm-dm-pill.seo {
-  top: 6%;
-  left: 4%;
-  background: rgba(14, 165, 233, 0.16);
-  border: 1px solid rgba(14, 165, 233, 0.45);
-  color: #38bdf8;
-  animation-delay: 0s;
-}
-.kdm-dm-pill.ppc {
-  top: 8%;
-  right: 6%;
-  background: rgba(234, 179, 8, 0.16);
-  border: 1px solid rgba(234, 179, 8, 0.45);
-  color: #facc15;
-  animation-delay: 1.2s;
-}
-.kdm-dm-pill.roi {
-  top: 2%;
-  left: 46%;
-  background: rgba(99, 102, 241, 0.18);
-  border: 1px solid rgba(99, 102, 241, 0.45);
-  color: #c7d2fe;
-  animation-delay: 2.2s;
-}
-.kdm-dm-pill.cro {
-  bottom: 22%;
-  left: 6%;
-  background: rgba(16, 185, 129, 0.16);
-  border: 1px solid rgba(16, 185, 129, 0.45);
-  color: #34d399;
-  animation-delay: 1.8s;
-}
-.kdm-dm-pill.smo {
-  bottom: 20%;
-  right: 8%;
-  background: rgba(236, 72, 153, 0.16);
-  border: 1px solid rgba(236, 72, 153, 0.45);
-  color: #f472b6;
-  animation-delay: 0.8s;
-}
-.kdm-dm-pill.crown {
-  bottom: 12%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.22), rgba(217, 119, 6, 0.12));
-  border: 1px solid rgba(245, 158, 11, 0.55);
-  color: #fbbf24;
-  animation-delay: 2.8s;
-}
-
-@keyframes kdmFloatDmPill {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-7px); }
-}
-
-/* SVG Typography Stage */
 .kdm-brand-svg-canvas {
-  position: relative;
   width: 100%;
-  filter: drop-shadow(0 20px 45px rgba(14, 165, 233, 0.4));
-  transition: filter 0.3s ease;
-  cursor: default;
-}
-
-.kdm-footer-brand-monument:hover .kdm-brand-svg-canvas {
-  filter: drop-shadow(0 25px 55px rgba(56, 189, 248, 0.55));
+  display: block;
+  line-height: 0;
 }
 
 .kdm-brand-svg-canvas svg {
   width: 100%;
   height: auto;
   display: block;
-}
-
-/* Subline Ticker beneath Monument */
-.kdm-monument-ticker {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 24px;
-  margin-top: 15px;
-  padding-top: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  color: #64748b;
-  font-size: 11.5px;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-}
-
-.kdm-monument-ticker span {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  color: #94a3b8;
-  transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.kdm-monument-ticker span:hover {
-  color: #38bdf8;
-  transform: translateY(-2px);
-}
-
-.kdm-monument-ticker i {
-  color: #0ea5e9;
-  font-size: 12px;
-}
-
-.kdm-monument-dot {
-  width: 4px;
-  height: 4px;
-  background: rgba(255, 255, 255, 0.18);
-  border-radius: 50%;
+  line-height: 0;
 }
 
