@@ -256,9 +256,7 @@
 
 				<!-- Main H1 Title -->
 				<h1 class="kdm-service-hero-title">
-					Best PPC Company in Gurgaon <br><span class="kdm-gradient-highlight">Scale Your Business with
-						Us</span>
-				</h1>
+					Best PPC Company in Gurgaon</h1>
 
 				<!-- Subtitle Paragraph -->
 				<p class="kdm-service-hero-subtitle">
@@ -1054,213 +1052,358 @@
 		</section>
 
 		<!-- ===== 8. DARK THEME - MOST POPULAR INDUSTRIES WE WORK WITH (16 VIBRANT INDUSTRIES + VIEW ALL LINK) ===== -->
-		<section class="industry-slider-section" style="background: #090d16; padding: 70px 0; border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06);">
+		<section class="industry-slider-section"
+			style="background: #090d16; padding: 70px 0; border-top: 1px solid rgba(255,255,255,0.06); border-bottom: 1px solid rgba(255,255,255,0.06);">
 			<div class="container">
 				<div class="text-center" style="margin-bottom: 45px;">
-					<span class="kdm-seo-badge" style="background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1.2px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
+					<span class="kdm-seo-badge"
+						style="background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 11.5px; font-weight: 800; padding: 6px 20px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1.2px; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;">
 						<i class="fa fa-briefcase"></i> INDUSTRY SPECIALIZATIONS
 					</span>
-					<h2 class="industry-heading" style="color: #ffffff; font-size: 34px; font-weight: 900; margin: 0 0 12px 0;">
-						Most Popular Industries <strong style="background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">We Power With Google Ads &amp; Meta Ads</strong>
+					<h2 class="industry-heading"
+						style="color: #ffffff; font-size: 34px; font-weight: 900; margin: 0 0 12px 0;">
+						Most Popular Industries <strong
+							style="background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">We
+							Power With Google Ads &amp; Meta Ads</strong>
 					</h2>
 					<p style="color: #94a3b8; font-size: 16px; max-width: 800px; margin: 0 auto; line-height: 1.7;">
-						We engineer high-converting Google Ads and Meta Ads campaigns tailored for your specific industry — driving qualified lead generation for service businesses and scalable online sales for products.
+						We engineer high-converting Google Ads and Meta Ads campaigns tailored for your specific
+						industry — driving qualified lead generation for service businesses and scalable online sales
+						for products.
 					</p>
 				</div>
 
 				<!-- 16 Vibrant Industries Responsive Grid -->
-				<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; margin-bottom: 45px;">
-					
+				<div
+					style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; margin-bottom: 45px;">
+
 					<!-- Industry 1: Astrology -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(251, 191, 36, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(251, 191, 36, 0.15); border: 1px solid rgba(251, 191, 36, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(251, 191, 36, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(251, 191, 36, 0.15); border: 1px solid rgba(251, 191, 36, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fbbf24"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<polygon
+									points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+								</polygon>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-astrology.aspx" style="color: #ffffff; text-decoration: none;">Astrology</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-converting Google Search &amp; Meta Ads generating instant phone calls, WhatsApp consultations, and verified client leads.</p>
-						<a href="digital-marketing-for-astrology.aspx" style="color: #fbbf24; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-astrology.aspx"
+								style="color: #ffffff; text-decoration: none;">Astrology</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">
+							High-converting Google Search &amp; Meta Ads generating instant phone calls, WhatsApp
+							consultations, and verified client leads.</p>
+						<a href="digital-marketing-for-astrology.aspx"
+							style="color: #fbbf24; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 2: Real Estate -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3); rendering-intent: auto;">
-						<div class="kdm-ind-icon-hub" style="background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3); rendering-intent: auto;">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#10b981"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
 								<polyline points="9 22 9 12 15 12 15 22"></polyline>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-real-estate.aspx" style="color: #ffffff; text-decoration: none;">Real Estate</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Targeted Google Search, P-Max &amp; Meta Ads driving verified site-visit bookings and high-ticket buyer leads for developers.</p>
-						<a href="digital-marketing-for-real-estate.aspx" style="color: #10b981; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-real-estate.aspx"
+								style="color: #ffffff; text-decoration: none;">Real Estate</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Targeted
+							Google Search, P-Max &amp; Meta Ads driving verified site-visit bookings and high-ticket
+							buyer leads for developers.</p>
+						<a href="digital-marketing-for-real-estate.aspx"
+							style="color: #10b981; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 3: Hair Transplant -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(236, 72, 153, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(236, 72, 153, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ec4899"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<circle cx="12" cy="7" r="4"></circle>
 								<path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"></path>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="hair-transplant-digital-marketing-services.aspx" style="color: #ffffff; text-decoration: none;">Hair Transplant</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Precision Google Ads &amp; Meta lead funnels capturing high-intent patients searching for hair restoration and clinical consultations.</p>
-						<a href="hair-transplant-digital-marketing-services.aspx" style="color: #ec4899; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="hair-transplant-digital-marketing-services.aspx"
+								style="color: #ffffff; text-decoration: none;">Hair Transplant</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Precision
+							Google Ads &amp; Meta lead funnels capturing high-intent patients searching for hair
+							restoration and clinical consultations.</p>
+						<a href="hair-transplant-digital-marketing-services.aspx"
+							style="color: #ec4899; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 4: Study Abroad Consultant -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#38bdf8"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
 								<path d="M6 12v5c0 2 6 3 6 3s6-1 6-3v-5"></path>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="study-abroad-consultant-lead-generation.aspx" style="color: #ffffff; text-decoration: none;">Study Abroad Consultant</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Google Search &amp; Instagram lead generation delivering high-intent student inquiries for university admissions and visa counseling.</p>
-						<a href="study-abroad-consultant-lead-generation.aspx" style="color: #38bdf8; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="study-abroad-consultant-lead-generation.aspx"
+								style="color: #ffffff; text-decoration: none;">Study Abroad Consultant</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Google Search
+							&amp; Instagram lead generation delivering high-intent student inquiries for university
+							admissions and visa counseling.</p>
+						<a href="study-abroad-consultant-lead-generation.aspx"
+							style="color: #38bdf8; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 5: Cosmetic Surgeon -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(168, 85, 247, 0.15); border: 1px solid rgba(168, 85, 247, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#a855f7"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
 								<circle cx="12" cy="12" r="9"></circle>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #ffffff; text-decoration: none;">Cosmetic Surgeon</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Premium Google Ads &amp; Meta campaigns generating confidential, high-intent consultation inquiries for cosmetic and plastic surgery.</p>
-						<a href="digital-marketing-for-cosmetic-surgeon.aspx" style="color: #a855f7; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-cosmetic-surgeon.aspx"
+								style="color: #ffffff; text-decoration: none;">Cosmetic Surgeon</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Premium
+							Google Ads &amp; Meta campaigns generating confidential, high-intent consultation inquiries
+							for cosmetic and plastic surgery.</p>
+						<a href="digital-marketing-for-cosmetic-surgeon.aspx"
+							style="color: #a855f7; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 6: Ecommerce -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(244, 63, 94, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(244, 63, 94, 0.15); border: 1px solid rgba(244, 63, 94, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f43f5e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(244, 63, 94, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(244, 63, 94, 0.15); border: 1px solid rgba(244, 63, 94, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f43f5e"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<circle cx="9" cy="21" r="1"></circle>
 								<circle cx="20" cy="21" r="1"></circle>
 								<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ecommerce.aspx" style="color: #ffffff; text-decoration: none;">Ecommerce</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Scalable Google Shopping, Performance Max &amp; Meta Catalog Ads driving high-volume product sales, repeat orders, and maximum ROAS.</p>
-						<a href="digital-marketing-for-ecommerce.aspx" style="color: #f43f5e; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-ecommerce.aspx"
+								style="color: #ffffff; text-decoration: none;">Ecommerce</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Scalable
+							Google Shopping, Performance Max &amp; Meta Catalog Ads driving high-volume product sales,
+							repeat orders, and maximum ROAS.</p>
+						<a href="digital-marketing-for-ecommerce.aspx"
+							style="color: #f43f5e; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 7: Immigration Consultant -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(6, 182, 212, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(6, 182, 212, 0.15); border: 1px solid rgba(6, 182, 212, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(6, 182, 212, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(6, 182, 212, 0.15); border: 1px solid rgba(6, 182, 212, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#06b6d4"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<circle cx="12" cy="12" r="10"></circle>
 								<line x1="2" y1="12" x2="22" y2="12"></line>
-								<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+								<path
+									d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+								</path>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-visa-immigration-consultant.aspx" style="color: #ffffff; text-decoration: none;">Immigration Consultant</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Laser-targeted Google Search &amp; Meta Ads driving qualified applicant leads for PR visas, work permits, and overseas migration.</p>
-						<a href="digital-marketing-for-visa-immigration-consultant.aspx" style="color: #06b6d4; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-visa-immigration-consultant.aspx"
+								style="color: #ffffff; text-decoration: none;">Immigration Consultant</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">
+							Laser-targeted Google Search &amp; Meta Ads driving qualified applicant leads for PR visas,
+							work permits, and overseas migration.</p>
+						<a href="digital-marketing-for-visa-immigration-consultant.aspx"
+							style="color: #06b6d4; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 8: Stock Market Institute and Advisor -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(249, 115, 22, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(249, 115, 22, 0.15); border: 1px solid rgba(249, 115, 22, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(249, 115, 22, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(249, 115, 22, 0.15); border: 1px solid rgba(249, 115, 22, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#f97316"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
 								<polyline points="17 6 23 6 23 12"></polyline>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-stock-market-institute.aspx" style="color: #ffffff; text-decoration: none;">Stock Market Institute &amp; Advisor</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-converting Google Search &amp; Meta Ads generating webinar registrations, paid trading course admissions, and advisory client leads.</p>
-						<a href="digital-marketing-for-stock-market-institute.aspx" style="color: #f97316; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-stock-market-institute.aspx"
+								style="color: #ffffff; text-decoration: none;">Stock Market Institute &amp; Advisor</a>
+						</h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">
+							High-converting Google Search &amp; Meta Ads generating webinar registrations, paid trading
+							course admissions, and advisory client leads.</p>
+						<a href="digital-marketing-for-stock-market-institute.aspx"
+							style="color: #f97316; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 9: Ayurvedic Products -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(132, 204, 22, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(132, 204, 22, 0.15); border: 1px solid rgba(132, 204, 22, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#84cc16" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(132, 204, 22, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(132, 204, 22, 0.15); border: 1px solid rgba(132, 204, 22, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#84cc16"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path
+									d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z">
+								</path>
 								<path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ayurvedic-products.aspx" style="color: #ffffff; text-decoration: none;">Ayurvedic Products</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Multi-channel Google Shopping &amp; Meta Ads driving profitable repeat product orders, high cart values, and scalable D2C e-commerce sales.</p>
-						<a href="digital-marketing-for-ayurvedic-products.aspx" style="color: #84cc16; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-ayurvedic-products.aspx"
+								style="color: #ffffff; text-decoration: none;">Ayurvedic Products</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Multi-channel
+							Google Shopping &amp; Meta Ads driving profitable repeat product orders, high cart values,
+							and scalable D2C e-commerce sales.</p>
+						<a href="digital-marketing-for-ayurvedic-products.aspx"
+							style="color: #84cc16; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 10: Skin Clinic -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(20, 184, 166, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(20, 184, 166, 0.15); border: 1px solid rgba(20, 184, 166, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#14b8a6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(20, 184, 166, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(20, 184, 166, 0.15); border: 1px solid rgba(20, 184, 166, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#14b8a6"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z">
+								</path>
 								<path d="M12 6a6 6 0 0 0-6 6h12a6 6 0 0 0-6-6z"></path>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-dermatologists.aspx" style="color: #ffffff; text-decoration: none;">Skin Clinic</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Local Google Ads geofencing &amp; Meta Ads driving steady walk-ins, phone calls, and appointment bookings for laser &amp; derma treatments.</p>
-						<a href="digital-marketing-for-dermatologists.aspx" style="color: #14b8a6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-dermatologists.aspx"
+								style="color: #ffffff; text-decoration: none;">Skin Clinic</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Local Google
+							Ads geofencing &amp; Meta Ads driving steady walk-ins, phone calls, and appointment bookings
+							for laser &amp; derma treatments.</p>
+						<a href="digital-marketing-for-dermatologists.aspx"
+							style="color: #14b8a6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 11: CA Firm -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#3b82f6"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
 								<line x1="8" y1="21" x2="16" y2="21"></line>
 								<line x1="12" y1="17" x2="12" y2="21"></line>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-ca-firm.aspx" style="color: #ffffff; text-decoration: none;">CA Firm</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Targeted B2B Google Search Ads capturing corporate client inquiries for business audits, GST filing, and tax advisory services.</p>
-						<a href="digital-marketing-for-ca-firm.aspx" style="color: #3b82f6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-ca-firm.aspx"
+								style="color: #ffffff; text-decoration: none;">CA Firm</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Targeted B2B
+							Google Search Ads capturing corporate client inquiries for business audits, GST filing, and
+							tax advisory services.</p>
+						<a href="digital-marketing-for-ca-firm.aspx"
+							style="color: #3b82f6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 12: Export Business -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(217, 119, 6, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(217, 119, 6, 0.15); border: 1px solid rgba(217, 119, 6, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(217, 119, 6, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(217, 119, 6, 0.15); border: 1px solid rgba(217, 119, 6, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d97706"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
 								<path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-import-export.aspx" style="color: #ffffff; text-decoration: none;">Export Business</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Global Google Search &amp; Meta Ads capturing verified international B2B buyer inquiries and high-volume container export orders.</p>
-						<a href="digital-marketing-for-import-export.aspx" style="color: #d97706; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-import-export.aspx"
+								style="color: #ffffff; text-decoration: none;">Export Business</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Global Google
+							Search &amp; Meta Ads capturing verified international B2B buyer inquiries and high-volume
+							container export orders.</p>
+						<a href="digital-marketing-for-import-export.aspx"
+							style="color: #d97706; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 13: Travel Agency -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6366f1"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M22 2L11 13"></path>
 								<polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-travel-agency.aspx" style="color: #ffffff; text-decoration: none;">Travel Agency</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Google Search Ads &amp; Meta visual campaigns driving qualified inquiries and fast bookings for holiday packages and customized tours.</p>
-						<a href="digital-marketing-for-travel-agency.aspx" style="color: #6366f1; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-travel-agency.aspx"
+								style="color: #ffffff; text-decoration: none;">Travel Agency</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Google Search
+							Ads &amp; Meta visual campaigns driving qualified inquiries and fast bookings for holiday
+							packages and customized tours.</p>
+						<a href="digital-marketing-for-travel-agency.aspx"
+							style="color: #6366f1; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 14: Event Management -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(217, 70, 239, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(217, 70, 239, 0.15); border: 1px solid rgba(217, 70, 239, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d946ef" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(217, 70, 239, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(217, 70, 239, 0.15); border: 1px solid rgba(217, 70, 239, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d946ef"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
 								<line x1="16" y1="2" x2="16" y2="6"></line>
 								<line x1="8" y1="2" x2="8" y2="6"></line>
 								<line x1="3" y1="10" x2="21" y2="10"></line>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-event-management-company.aspx" style="color: #ffffff; text-decoration: none;">Event Management</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-impact Google &amp; Meta Ads capturing qualified leads for destination weddings, corporate galas, trade shows, and celebrations.</p>
-						<a href="digital-marketing-for-event-management-company.aspx" style="color: #d946ef; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-event-management-company.aspx"
+								style="color: #ffffff; text-decoration: none;">Event Management</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">High-impact
+							Google &amp; Meta Ads capturing qualified leads for destination weddings, corporate galas,
+							trade shows, and celebrations.</p>
+						<a href="digital-marketing-for-event-management-company.aspx"
+							style="color: #d946ef; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 15: Yoga Studio -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<circle cx="12" cy="5" r="2"></circle>
 								<path d="M12 7v5"></path>
 								<path d="M8 10l4 2 4-2"></path>
@@ -1268,15 +1411,24 @@
 								<path d="M4 17l4-2m12 2l-4-2"></path>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-yoga.aspx" style="color: #ffffff; text-decoration: none;">Yoga Studio</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Local Google Search &amp; Meta Ads driving studio walk-in visits, monthly class memberships, and retreat workshop registrations.</p>
-						<a href="digital-marketing-for-yoga.aspx" style="color: #8b5cf6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-yoga.aspx"
+								style="color: #ffffff; text-decoration: none;">Yoga Studio</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Local Google
+							Search &amp; Meta Ads driving studio walk-in visits, monthly class memberships, and retreat
+							workshop registrations.</p>
+						<a href="digital-marketing-for-yoga.aspx"
+							style="color: #8b5cf6; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 					<!-- Industry 16: Restaurant & Cafe -->
-					<div class="industry-card" style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-						<div class="kdm-ind-icon-hub" style="background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
-							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+					<div class="industry-card"
+						style="background: rgba(15, 23, 42, 0.75); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 18px; padding: 24px 20px; text-align: center; transition: all 0.35s ease; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
+						<div class="kdm-ind-icon-hub"
+							style="background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.4); width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px auto; display: flex; align-items: center; justify-content: center;">
+							<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ef4444"
+								stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
 								<path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
 								<line x1="6" y1="1" x2="6" y2="4"></line>
@@ -1284,16 +1436,23 @@
 								<line x1="14" y1="1" x2="14" y2="4"></line>
 							</svg>
 						</div>
-						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a href="digital-marketing-for-restaurant.aspx" style="color: #ffffff; text-decoration: none;">Restaurant &amp; Cafe</a></h3>
-						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Geo-targeted Google Search &amp; Meta visual Ads driving table reservations, party event inquiries, and surging local customer footfall.</p>
-						<a href="digital-marketing-for-restaurant.aspx" style="color: #ef4444; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn More <i class="fa fa-arrow-right"></i></a>
+						<h3 style="font-size: 18px; font-weight: 800; color: #ffffff; margin-bottom: 8px;"><a
+								href="digital-marketing-for-restaurant.aspx"
+								style="color: #ffffff; text-decoration: none;">Restaurant &amp; Cafe</a></h3>
+						<p style="font-size: 13px; color: #cbd5e1; line-height: 1.6; margin-bottom: 14px;">Geo-targeted
+							Google Search &amp; Meta visual Ads driving table reservations, party event inquiries, and
+							surging local customer footfall.</p>
+						<a href="digital-marketing-for-restaurant.aspx"
+							style="color: #ef4444; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">Learn
+							More <i class="fa fa-arrow-right"></i></a>
 					</div>
 
 				</div>
 
 				<!-- View All Industries Button Link -->
 				<div class="text-center">
-					<a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn" style="background: linear-gradient(135deg, #0284c7, #3b82f6); color: #ffffff; padding: 15px 36px; border-radius: 50px; font-weight: 700; font-size: 15px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 10px 30px rgba(2, 132, 199, 0.4); transition: transform 0.3s ease;">
+					<a href="https://www.kingofdigitalmarketing.com/industries-we-serve.aspx" class="package-btn"
+						style="background: linear-gradient(135deg, #0284c7, #3b82f6); color: #ffffff; padding: 15px 36px; border-radius: 50px; font-weight: 700; font-size: 15px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 10px 30px rgba(2, 132, 199, 0.4); transition: transform 0.3s ease;">
 						<i class="fa fa-th-large"></i> View All Industries <i class="fa fa-arrow-right"></i>
 					</a>
 				</div>
