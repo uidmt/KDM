@@ -149,7 +149,7 @@
 		<link rel="stylesheet" href="css/kdm-footer.css?v=1.0">
 		<!-- Global Search CSS -->
 		<link rel="stylesheet" href="css/kdm-global-search.css?v=1.0">
-		<link rel="stylesheet" href="css/home-custom.css?v=26.0">
+		<link rel="stylesheet" href="css/home-custom.css?v=25.0">
 
 		<!-- Secondary Stylesheets -->
 		<link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
