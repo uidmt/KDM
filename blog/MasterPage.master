@@ -160,7 +160,7 @@
 		<!-- Blog Custom CSS (Scoped strictly to blog folder) -->
 		<link rel="stylesheet" href="css/blog-custom.css?v=2.0">
 		<link rel="stylesheet" href="../css/kdm-faq.css?v=2.0">
-		<link rel="stylesheet" href="../css/kdm-footer.css?v=4.2">
+		<link rel="stylesheet" href="../css/kdm-footer.css?v=4.3">
 
 		<!-- Current Page CSS -->
 		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">

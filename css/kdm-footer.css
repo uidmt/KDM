@@ -290,20 +290,32 @@ footer.kdm-vibrant-footer {
   justify-content: flex-end !important;
 }
 
+#footer .footer-copyright nav ul li,
 #footer #sub-menu ul li {
+  border: none !important;
+  border-left: none !important;
+  border-right: none !important;
   display: inline-flex !important;
   align-items: center !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
+#footer .footer-copyright nav ul li:first-child,
+#footer #sub-menu ul li:first-child {
+  border: none !important;
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
 #footer #sub-menu ul li:not(:last-child)::after {
   content: "|" !important;
-  color: #475569 !important;
+  color: rgba(255, 255, 255, 0.28) !important;
   margin-left: 10px !important;
   margin-right: 10px !important;
   font-size: 11px !important;
-  opacity: 0.5 !important;
+  font-weight: 300 !important;
+  opacity: 0.7 !important;
 }
 
 #footer #sub-menu ul li a {
@@ -576,8 +588,21 @@ footer.kdm-vibrant-footer {
   }
 
   #footer #sub-menu ul {
+    display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
+    align-items: center !important;
+    margin-top: 8px !important;
+    padding: 0 !important;
+  }
+
+  #footer .footer-copyright nav ul li,
+  #footer #sub-menu ul li {
+    border: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
   #footer #sub-menu ul li a {
@@ -586,8 +611,12 @@ footer.kdm-vibrant-footer {
   }
 
   #footer #sub-menu ul li:not(:last-child)::after {
+    content: "|" !important;
+    color: rgba(255, 255, 255, 0.28) !important;
     margin-left: 6px !important;
     margin-right: 6px !important;
+    font-size: 10px !important;
+    opacity: 0.6 !important;
   }
 }
 
