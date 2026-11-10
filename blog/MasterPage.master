@@ -160,7 +160,7 @@
 		<!-- Blog Custom CSS (Scoped strictly to blog folder) -->
 		<link rel="stylesheet" href="css/blog-custom.css?v=2.0">
 		<link rel="stylesheet" href="../css/kdm-faq.css?v=2.0">
-		<link rel="stylesheet" href="../css/kdm-footer.css?v=4.3">
+		<link rel="stylesheet" href="../css/kdm-footer.css?v=4.5">
 
 		<!-- Current Page CSS -->
 		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
@@ -638,10 +638,31 @@
 
         </div>
 
-        <!-- Credit Cards / Trust Image at Bottom -->
-        <div class="row" style="margin-top: 25px;">
+        <!-- Trust & Accreditation Badges (Modern Responsive Strip) -->
+        <div class="row kdm-trust-badges-row">
           <div class="col-12 text-center" style="width: 100%; text-align: center;">
-            <img src="https://www.kingofdigitalmarketing.com/images/credit-min.png" width="100%" alt="credit cards" style="max-width: 100%; height: auto; display: inline-block;">
+            <div class="kdm-trust-badges-wrapper">
+              <ul class="kdm-trust-badges-list">
+                <li class="kdm-trust-badge-item" title="24/7 Dedicated Client Support">
+                  <img src="https://www.kingofdigitalmarketing.com/images/badges/badge-247-support.webp" alt="24/7 Customer Support" width="120" height="120" loading="lazy" decoding="async">
+                </li>
+                <li class="kdm-trust-badge-item" title="100% Satisfaction Guaranteed">
+                  <img src="https://www.kingofdigitalmarketing.com/images/badges/badge-100-guarantee.webp" alt="100% Satisfaction Guaranteed" width="128" height="120" loading="lazy" decoding="async">
+                </li>
+                <li class="kdm-trust-badge-item" title="ISO 9001:2015 Certified Digital Marketing Agency">
+                  <img src="https://www.kingofdigitalmarketing.com/images/badges/badge-iso-9001.webp" alt="ISO 9001:2015 Certified Agency" width="120" height="120" loading="lazy" decoding="async">
+                </li>
+                <li class="kdm-trust-badge-item kdm-trust-badge-uaf" title="United Accreditation Foundation (UAF) Accredited">
+                  <img src="https://www.kingofdigitalmarketing.com/images/badges/badge-uaf-accredited.webp" alt="United Accreditation Foundation Accredited" width="220" height="102" loading="lazy" decoding="async">
+                </li>
+                <li class="kdm-trust-badge-item" title="Top Ranked Agency Award Winner by 10SEOS">
+                  <img src="https://www.kingofdigitalmarketing.com/images/badges/badge-10seos-winner.webp" alt="Winner 10SEOS.com" width="166" height="120" loading="lazy" decoding="async">
+                </li>
+                <li class="kdm-trust-badge-item" title="Clutch Verified - Clients Say We Deliver">
+                  <img src="https://www.kingofdigitalmarketing.com/images/badges/badge-clutch-deliver.webp" alt="Clutch Verified - Clients Say We Deliver" width="120" height="120" loading="lazy" decoding="async">
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 

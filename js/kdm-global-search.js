@@ -2093,11 +2093,11 @@
     "k": "ppc company in dubai uae ppc & google ads company in dubai (uae), best ppc & google ads company agency in dubai (uae), top ppc & google ads company company in dubai (uae), ppc"
   },
   {
-    "t": "PPC & Google Ads Company in Gurgaon (Gurugram)",
+    "t": "PPC Company in Gurgaon",
     "u": "https://www.kingofdigitalmarketing.com/ppc-company-in-gurgaon.aspx",
     "c": "Location",
-    "d": "Looking for the best PPC & Google Ads Company in Gurgaon (Gurugram)? King of Digital Marketing delivers high-ROI SEO, Google Ad...",
-    "k": "ppc company in gurgaon ppc & google ads company in gurgaon (gurugram), best ppc & google ads company agency in gurgaon (gurugram), top ppc & google ads company company in gu"
+    "d": "Looking for the best PPC Company in Gurgaon? King of Digital Marketing delivers high-ROI Google Ads (PPC), Meta Ads, SMM, and L...",
+    "k": "ppc company in gurgaon ppc & google ads company in gurgaon, best ppc & google ads company agency in gurgaon, top ppc & google ads company company in gurgaon, ppc & google ad"
   },
   {
     "t": "PPC & Google Ads Company in Mumbai",

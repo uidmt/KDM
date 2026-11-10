@@ -667,3 +667,116 @@ footer.kdm-vibrant-footer {
   line-height: 0;
 }
 
+/* ==========================================================================
+   MODERN RESPONSIVE TRUST & ACCREDITATION BADGES (Dark Mode Seamless Strip)
+   ========================================================================== */
+.kdm-trust-badges-row {
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
+  width: 100% !important;
+}
+
+.kdm-trust-badges-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.kdm-trust-badges-list {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  gap: 20px 38px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.kdm-trust-badge-item {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), filter 0.25s ease !important;
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.45));
+}
+
+.kdm-trust-badge-item:hover {
+  transform: translateY(-3px) scale(1.06) !important;
+  filter: drop-shadow(0 6px 16px rgba(56, 189, 248, 0.35)) !important;
+}
+
+.kdm-trust-badge-item img {
+  height: 64px !important;
+  width: auto !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+.kdm-trust-badge-item.kdm-trust-badge-uaf img {
+  height: 52px !important;
+}
+
+/* Tablet (<= 991px) */
+@media (max-width: 991px) {
+  .kdm-trust-badges-row {
+    margin-top: 24px !important;
+    margin-bottom: 16px !important;
+  }
+  .kdm-trust-badges-list {
+    gap: 16px 26px !important;
+  }
+  .kdm-trust-badge-item img {
+    height: 54px !important;
+  }
+  .kdm-trust-badge-item.kdm-trust-badge-uaf img {
+    height: 44px !important;
+  }
+}
+
+/* Mobile (<= 640px) */
+@media (max-width: 640px) {
+  .kdm-trust-badges-row {
+    margin-top: 18px !important;
+    margin-bottom: 12px !important;
+  }
+  .kdm-trust-badges-list {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 16px 8px !important;
+    align-items: center !important;
+    justify-items: center !important;
+    width: 100% !important;
+    max-width: 360px !important;
+  }
+  .kdm-trust-badge-item img {
+    height: 44px !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+  .kdm-trust-badge-item.kdm-trust-badge-uaf img {
+    height: 36px !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Very small phones (<= 360px) */
+@media (max-width: 360px) {
+  .kdm-trust-badges-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 14px 8px !important;
+  }
+  .kdm-trust-badge-item img {
+    height: 40px !important;
+  }
+  .kdm-trust-badge-item.kdm-trust-badge-uaf img {
+    height: 32px !important;
+  }
+}
+
+
