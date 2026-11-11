@@ -9046,3 +9046,54 @@ svg.kdm-ppc-svg-icon {
     gap: 10px;
   }
 }
+
+/* ==========================================================================
+   HOMEPAGE H1 INTRODUCTORY LEAD PARAGRAPH
+   ========================================================================== */
+.kdm-h1-intro-wrap {
+  width: 100% !important;
+  max-width: 1140px !important;
+  margin: 18px auto 26px !important;
+  padding: 0 15px !important;
+  box-sizing: border-box !important;
+}
+
+.kdm-h1-intro {
+  font-size: 15.5px !important;
+  line-height: 1.85 !important;
+  color: #334155 !important;
+  text-align: justify !important;
+  margin: 0 !important;
+  letter-spacing: -0.01em !important;
+}
+
+.kdm-h1-intro strong {
+  color: #0f172a !important;
+  font-weight: 700 !important;
+}
+
+.kdm-h1-intro a {
+  color: #0284c7 !important;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(2, 132, 199, 0.4) !important;
+  text-underline-offset: 3px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+}
+
+.kdm-h1-intro a:hover {
+  color: #0369a1 !important;
+  text-decoration-color: #0369a1 !important;
+}
+
+@media (max-width: 768px) {
+  .kdm-h1-intro-wrap {
+    margin: 12px auto 20px !important;
+    padding: 0 10px !important;
+  }
+  .kdm-h1-intro {
+    font-size: 14px !important;
+    line-height: 1.7 !important;
+    text-align: left !important;
+  }
+}

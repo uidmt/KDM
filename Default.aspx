@@ -223,6 +223,11 @@
                 <div class="container ">
                     <div class="row push-top" id="projects">
                         <h1 align="center">BEST DIGITAL MARKETING COMPANY IN DELHI, INDIA</h1>
+                        <div class="col-12 kdm-h1-intro-wrap">
+                            <p class="kdm-h1-intro">
+                                As the <strong>Best Digital Marketing Agency in Delhi</strong>, <strong>King of Digital Marketing</strong> is a top-rated, ROI-driven <strong>Digital Marketing Company</strong> dedicated to turning online visibility into tangible business growth for ambitious brands. Backed by <strong>13+ years of proven industry mastery</strong> and a trusted <strong>4.9/5 client satisfaction rating</strong>, we provide high-performance <a href="SEO-Services.aspx" title="Digital Marketing Services"><strong>digital marketing services</strong></a> that deliver measurable results across domestic and international markets. Our verifiable track record spans over <strong>900+ completed projects</strong> across <strong>15+ countries</strong>, driven by real execution: managing <strong>700+</strong> impactful <a href="social-media-marketing-services.aspx"><strong>Social Media Management</strong></a> campaigns, generating qualified pipelines through <strong>620+</strong> high-intent <a href="lead-generation-company.aspx"><strong>Lead Generation</strong></a> funnels, securing Google page #1 dominance with <strong>550+</strong> organic <a href="SEO-Services.aspx"><strong>SEO Services</strong></a> campaigns, scaling <strong>370+</strong> profitable <a href="meta-ads-services.aspx"><strong>Meta Ads</strong></a> (Facebook &amp; Instagram) setups, managing <strong>220+</strong> performance <a href="PPC-Services.aspx"><strong>Google Ads (PPC)</strong></a> accounts, executing <strong>75+</strong> Mobile App Promotion drives, accelerating <strong>45+</strong> Amazon &amp; Flipkart e-commerce growth stores, and orchestrating <strong>25+</strong> targeted B2B LinkedIn Ads campaigns. Whether you are an expanding startup or an established enterprise, our holistic approach ensures every marketing rupee converts into qualified leads, higher sales, and sustainable market leadership.
+                            </p>
+                        </div>
                         <div class="col-md-12">
                             <div class="col-md-12">
                                 <h2 align="center"><strong>Our Expertise</strong></h2>
@@ -437,13 +442,13 @@
                                 - A
                                 group of digital marketing company, Digital Marketing Freelancer and Digital Marketing
                                 Training Institute. We are here to help you become the best in your industry. We assign
-                                a
-                                team of digital marketing experts to provide amplification for your brand. Our Dedicated
+                                a team of digital marketing experts to provide amplification for your brand. Our
+                                Dedicated
                                 digital marketing specialists are with over 13+ years of experience in their field. They
                                 are
                                 passionate about growing your business by driving qualified leads, increasing sales and
                                 maximizing your visibility across Google and social media platforms. We have experts for
-                                <a href="SEO-Services.aspx">SEO services</a>, <a href="SMO-Services.aspx">Social Media
+                                <a href="SEO-Services.aspx">SEO services</a>, and <a href="SMO-Services.aspx">Social Media Marketing</a>.
                             </p>
 
                             <div style="margin-top: 24px;">
@@ -553,12 +558,11 @@
                                 <h2 class="kdm-clients-title">Your Trust Made Us Top <span
                                         class="kdm-blue-gradient">Digital
                                         Marketing Company</span> To Help Flourish Your Business</h2>
-                                <p class="kdm-clients-subtitle">
-                                    What makes us distinct is our valuable clients. We strive day in and day out to
-                                    secure
-                                    their branding, online reputation, visibility, high-converting traffic, and
-                                    qualified
-                                    lead generation.
+                                <p class="kdm-clients-subtitle">What makes King of Digital Marketing different from
+                                    other digital marketing agencies is our strong relationships with our clients. We
+                                    work every day to grow their brand, build a strategic digital marketing plan,
+                                    improve online visibility, attract the right audience, and generate quality leads
+                                    that convert into customers.
                                 </p>
                                 <div class="kdm-clients-motto-wrapper">
                                     <div class="kdm-clients-motto">
@@ -2357,7 +2361,8 @@
                                         <p class="kdm-gr-text">"King of Digital Marketing is phenomenal for PlotX
                                             Developer real estate lead generation. Their performance marketing, targeted
                                             Google Ads, and Meta campaigns consistently delivered high-ticket property
-                                            buyer leads with verified intent. Excellent ROI and professional support!"</p>
+                                            buyer leads with verified intent. Excellent ROI and professional support!"
+                                        </p>
                                     </div>
                                     <div class="kdm-gr-card-foot">
                                         <span class="kdm-gr-date"><i class="fa fa-calendar-check-o"></i> PlotX
@@ -2443,7 +2448,8 @@
                                             <span class="kdm-gr-tag">Study Abroad Lead Gen</span>
                                         </div>
                                         <p class="kdm-gr-text">"King of Digital Marketing has been our trusted digital
-                                            growth partner for Aliff Overseas. Gaurav Dubey and his dedicated team built
+                                            marketing agency for Aliff Overseas. Gaurav Dubey and his dedicated team
+                                            built
                                             high-converting lead funnels that consistently generate qualified student
                                             inquiries for overseas education. Outstanding lead generation results!"</p>
                                     </div>
@@ -2487,8 +2493,10 @@
                                             <span class="kdm-gr-tag">Education Leads, SEO &amp; SMO</span>
                                         </div>
                                         <p class="kdm-gr-text">"Outstanding digital marketing results for Satguru
-                                            Overseas! Gaurav Dubey's team managed our complete overseas education student
-                                            lead generation, first-page Google SEO rankings, and SMO campaigns. Reliable,
+                                            Overseas! Gaurav Dubey's team managed our complete overseas education
+                                            student
+                                            lead generation, first-page Google SEO rankings, and SMO campaigns.
+                                            Reliable,
                                             transparent, and ROI-focused digital marketing agency."</p>
                                     </div>
                                     <div class="kdm-gr-card-foot">
