@@ -1484,7 +1484,7 @@
                                 </div>
                                 <span class="empower-tag">iOS &amp; ANDROID</span>
                             </div>
-                            <h3 class="empower-card-title"><a href="Android-Application-Development-company.aspx">Mobile
+                            <h3 class="empower-card-title"><a href="mobile-app-development-company.aspx">Mobile
                                     App
                                     Development</a></h3>
                             <p class="empower-card-text">
@@ -1492,7 +1492,7 @@
                                 load speed, sleek
                                 UI/UX design, and seamless user interaction.
                             </p>
-                            <a href="Android-Application-Development-company.aspx" class="empower-card-btn btn-indigo">
+                            <a href="mobile-app-development-company.aspx" class="empower-card-btn btn-indigo">
                                 Explore Service <i class="fa fa-arrow-right"></i>
                             </a>
                         </div>

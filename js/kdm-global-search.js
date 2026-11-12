@@ -21,11 +21,11 @@
     "k": "about us king of digital marketing, gaurav dubey, devweboic techsolutions, best digital marketing agency in india, seo freelancer in india, ppc agency, digital"
   },
   {
-    "t": "Best Android App Development Services Company in Delhi, India",
+    "t": "301 Moved Permanently",
     "u": "https://www.kingofdigitalmarketing.com/Android-Application-Development-company.aspx",
     "c": "Service",
-    "d": "Scale your business with India's leading android app development services company in Delhi. 13+ years experience, 900+ projects...",
-    "k": "android application development company android app development services in delhi, best android app development services company, android app development services agency india, top android a"
+    "d": "",
+    "k": "android application development company "
   },
   {
     "t": "Contact Us",
@@ -2049,6 +2049,13 @@
     "c": "Service",
     "d": "Scale revenue and inquiries with expert Meta Ads services in Delhi. Certified Facebook & Instagram advertising specialists gene...",
     "k": "meta ads services meta ads services in delhi, facebook ads agency india, instagram advertising company, meta marketing partner, social media paid ads"
+  },
+  {
+    "t": "Best Mobile App Development Company in Delhi, India",
+    "u": "https://www.kingofdigitalmarketing.com/mobile-app-development-company.aspx",
+    "c": "Service",
+    "d": "Scale your business with India&apos;s leading mobile app development company in Delhi. Custom iOS, Android &amp; Flutter mobile...",
+    "k": "mobile app development company mobile app development company in delhi, best mobile app development company, ios app development, mobile app development services, flutter app develo"
   },
   {
     "t": "Mobile App Promotion Services in Delhi India",

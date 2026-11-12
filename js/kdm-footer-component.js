@@ -37,7 +37,7 @@
               <li><a href="${rootUrl}social-media-marketing-services.aspx" title="Social Media Marketing">SOCIAL MEDIA MARKETING SERVICES</a></li>
               <li><a href="${rootUrl}Content-Writing-Service.aspx" title="Content Writing Services">CONTENT WRITING SERVICE</a></li>
               <li><a href="${rootUrl}Website-Development.aspx" title="Website Design & Development">WEBSITE DESIGN &amp; DEVELOPMENT</a></li>
-              <li><a href="${rootUrl}Android-Application-Development-company.aspx" title="Android App Development">ANDROID APP DEVELOPMENT</a></li>
+              <li><a href="${rootUrl}mobile-app-development-company.aspx" title="Mobile App Development">MOBILE APP DEVELOPMENT</a></li>
               <li><a href="${rootUrl}SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx" title="SEO Freelancer">SEO FREELANCER IN INDIA</a></li>
               <li><a href="${rootUrl}facebook-marketing-services.aspx" title="Facebook Marketing">FACEBOOK MARKETING SERVICES</a></li>
               <li><a href="${rootUrl}lead-generation-company.aspx" title="Lead Generation">LEAD GENERATION SERVICES</a></li>
@@ -80,7 +80,7 @@
               <li><a href="${rootUrl}Content-Writing-Packages.aspx">CONTENT WRITING PACKAGES</a></li>
               <li><a href="${rootUrl}Website-Designing-Packages.aspx">WEBSITE DEVELOPMENT PACKAGES</a></li>
               <li><a href="${rootUrl}Website-Designing-Packages.aspx">WEBSITE DESIGN PACKAGES</a></li>
-              <li><a href="${rootUrl}Android-Application-Development-company.aspx">ANDROID APP DEVELOPMENT PACKAGES</a></li>
+              <li><a href="${rootUrl}mobile-app-development-company.aspx">MOBILE APP DEVELOPMENT PACKAGES</a></li>
               <li><a href="${rootUrl}SEO-Freelancer-India-SMO-PPC-Service-Delhi.aspx">SEO FREELANCE PACKAGES</a></li>
             </ul>
             <div class="kdm-quick-links-section">

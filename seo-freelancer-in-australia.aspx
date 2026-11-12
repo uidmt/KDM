@@ -737,11 +737,11 @@
 						</div>
 						<span class="empower-tag">APP DEV</span>
 					</div>
-					<h3 class="empower-card-title"><a href="Android-Application-Development-company.aspx">Mobile App Development</a></h3>
+					<h3 class="empower-card-title"><a href="mobile-app-development-company.aspx">Mobile App Development</a></h3>
 					<p class="empower-card-text">
 						We provide premier mobile application development services for Australian enterprises. Our highly skilled and diligent engineering team develops high-performance Android, iOS, and cross-platform applications tailored to your exact business requirements.
 					</p>
-					<a href="Android-Application-Development-company.aspx" class="empower-card-btn btn-purple">
+					<a href="mobile-app-development-company.aspx" class="empower-card-btn btn-purple">
 						Read More <i class="fa fa-arrow-right"></i>
 					</a>
 				</div>

@@ -166,7 +166,7 @@
                         <span class="kdm-v2-card-heading">Website Development Services</span>
                         <span class="kdm-v2-card-subtext">Custom Web Development with Latest Technologies</span>
                       </a>
-                      <a href="${rootUrl}Android-Application-Development-company.aspx" class="kdm-v2-service-card">
+                      <a href="${rootUrl}mobile-app-development-company.aspx" class="kdm-v2-service-card">
                         <span class="kdm-v2-card-heading">Mobile App Development</span>
                         <span class="kdm-v2-card-subtext">Android &amp; iOS App Development Services</span>
                       </a>
