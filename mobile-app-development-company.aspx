@@ -347,6 +347,228 @@
 			</div>
 		</section>
 
+		<!-- ===== 2B. DARK GRADIENT THEME - MOBILE APP DEVELOPMENT SERVICES WITH AI-POWERED SOLUTIONS ===== -->
+		<section class="kdm-app-solutions-dark">
+			<div class="container" style="max-width: 1240px;">
+				<!-- Section Header -->
+				<div style="text-align: center;">
+					<span class="kdm-dark-badge">
+						<i class="fa fa-cubes"></i> END-TO-END MOBILE EXCELLENCE
+					</span>
+					<h2 class="kdm-solutions-title">
+						Mobile App Development Services for Growing Businesses <span class="kdm-ai-gradient-text">with AI-Powered Solutions</span>
+					</h2>
+					<p class="kdm-solutions-subtitle">
+						As India's trusted mobile app engineering and growth agency, King of Digital Marketing helps startups, enterprises, and growing businesses turn ambitious ideas into scalable, production-ready digital products. We build native iOS, Android, and cross-platform apps with intuitive UI/UX design, reliable cloud technology, and AI-powered features that improve efficiency, enhance user experiences, and support long-term growth.
+					</p>
+				</div>
+
+				<!-- 12 Solutions Grid -->
+				<div class="kdm-solutions-grid">
+					<!-- 1. AI Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+								<path d="M5 3v4M3 5h4M19 17v4M17 19h4"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">AI Development</h3>
+						<p class="kdm-solution-desc">
+							As an experienced AI app development company, King of Digital Marketing integrates machine learning models, predictive intelligence, and generative AI to build intelligent, production-ready apps.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 2. Mobile App Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+								<path d="M12 18h.01"/>
+								<path d="M9 6h6"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">Mobile App Development</h3>
+						<p class="kdm-solution-desc">
+							We are an award-winning mobile app development company in Delhi, India. We engineer custom mobile applications with intuitive navigation, ultra-low latency, and reliable offline architectures that delight users.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 3. Website Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="12" cy="12" r="10"/>
+								<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+								<path d="M2 12h20"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">Website Development</h3>
+						<p class="kdm-solution-desc">
+							King of Digital Marketing builds high-performing, mobile-responsive websites, enterprise portals, and SaaS web platforms that seamlessly sync with your mobile ecosystem and maximize conversion rates.
+						</p>
+						<a href="Website-Development.aspx" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 4. Custom Software & MVP -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<polyline points="16 18 22 12 16 6"/>
+								<polyline points="8 6 2 12 8 18"/>
+								<line x1="14" y1="4" x2="10" y2="20"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">Custom Software &amp; MVP</h3>
+						<p class="kdm-solution-desc">
+							Accelerate your market launch with a high-impact Minimum Viable Product (MVP). We engineer scalable custom software architectures, cloud APIs, and SaaS platforms built for rapid user validation.
+						</p>
+						<a href="saas-application-development-services.aspx" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 5. Swift App Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">Swift App Development</h3>
+						<p class="kdm-solution-desc">
+							Leverage the speed, security, and power of Apple's modern Swift &amp; SwiftUI language. We build native iPhone &amp; iPad apps with buttery-smooth 120fps animations and flawless iOS hardware integration.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 6. Hybrid App Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<rect width="12" height="18" x="2" y="3" rx="2"/>
+								<rect width="10" height="14" x="12" y="7" rx="2"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">Hybrid App Development</h3>
+						<p class="kdm-solution-desc">
+							Being a premier hybrid app development agency in Delhi, India, we build cost-effective cross-platform apps that deploy across both Android and iOS from a unified, high-performing codebase.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 7. CRM / ERP Solutions -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<rect width="7" height="7" x="3" y="3" rx="1"/>
+								<rect width="7" height="7" x="14" y="3" rx="1"/>
+								<rect width="7" height="7" x="14" y="14" rx="1"/>
+								<rect width="7" height="7" x="3" y="14" rx="1"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">CRM / ERP Solutions</h3>
+						<p class="kdm-solution-desc">
+							We design custom enterprise CRM &amp; ERP systems to manage sales funnels, track customer lifecycles, automate billing, and sync field sales teams through secure, real-time mobile dashboards.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 8. Android App Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M4 10a8 8 0 0 1 16 0v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8z"/>
+								<line x1="6" y1="4" x2="8" y2="7"/>
+								<line x1="18" y1="4" x2="16" y2="7"/>
+								<circle cx="9" cy="12" r="1" fill="currentColor"/>
+								<circle cx="15" cy="12" r="1" fill="currentColor"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">Android App Development</h3>
+						<p class="kdm-solution-desc">
+							King of Digital Marketing provides full-stack Android app development in Delhi, India using modern Kotlin and Java. Engineered for high fragmentation resilience and Google Play Store dominance.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 9. iOS App Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+								<path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.84c.66-.82 1.11-1.96.99-3.1-.96.04-2.18.66-2.87 1.48-.59.7-.1.14 1.87-1.01 3.02 1.07.08 2.21-.57 2.89-1.4"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">iOS App Development</h3>
+						<p class="kdm-solution-desc">
+							Our senior iOS developers engineer premium apps for the Apple ecosystem, including iPhone, iPad, Apple Watch, and Apple TV with strict adherence to Apple Human Interface and App Store Review guidelines.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 10. Offshore Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+								<circle cx="9" cy="7" r="4"/>
+								<path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+								<path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">Offshore Development</h3>
+						<p class="kdm-solution-desc">
+							Scale your tech team instantly with dedicated offshore mobile engineers, UI/UX designers, and QA testers. Reduce development overhead by up to 60% with complete intellectual property protection.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 11. React Native App Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+								<ellipse cx="12" cy="12" rx="10" ry="4.2"/>
+								<ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(60 12 12)"/>
+								<ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(120 12 12)"/>
+								<circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">React Native App Development</h3>
+						<p class="kdm-solution-desc">
+							We are a top React Native app development company offering robust cross-platform mobile apps with native UI components, high-speed rendering, and seamless third-party API integrations.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+
+					<!-- 12. Flutter App Development -->
+					<div class="kdm-solution-card">
+						<div class="kdm-solution-icon-box">
+							<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="m3 14 8-8h7L7 17Z"/>
+								<path d="m14 14 4-4h4l-6 6 6 6h-4l-4-4Z"/>
+							</svg>
+						</div>
+						<h3 class="kdm-solution-title">Flutter App Development</h3>
+						<p class="kdm-solution-desc">
+							Build expressive, native-compiled mobile apps from a single codebase with Google Flutter and Dart. Deliver fluid 60fps animations, custom UI widgets, and rapid time-to-market on iOS and Android.
+						</p>
+						<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solution-link">Learn more <i class="fa fa-arrow-right"></i></a>
+					</div>
+				</div>
+
+				<!-- Bottom Conversion Bar -->
+				<div class="kdm-solutions-cta-box">
+					<div class="kdm-solutions-cta-text">
+						<h3>Ready to Turn Your Mobile App Vision into Reality?</h3>
+						<p>Get a comprehensive technical roadmap, architecture review, and zero-obligation cost estimation from our senior app consultants.</p>
+					</div>
+					<a href="javascript:void(0)" onclick="openGlobalPopupForm()" class="kdm-solutions-cta-btn">
+						<i class="fa fa-comments"></i> Request Free Consultation
+					</a>
+				</div>
+			</div>
+		</section>
+
 		<!-- ===== 3. CREDENTIALS SECTION (TAKEN FROM DEFAULT.ASPX) ===== -->
 		<section class="kdm-credentials-white-section">
 			<div class="container">
