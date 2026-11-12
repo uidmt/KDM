@@ -631,3 +631,52 @@ function initGoogleReviewsSlider() {
 if (document.readyState === 'complete' || document.readyState === 'interactive') {
     initGoogleReviewsSlider();
 }
+
+
+/* ==============================================================================
+   KDM CLIENT SHOWCASE SEARCH & REAL-TIME FILTER
+   Reusable across Homepage and Landing Pages
+   ============================================================================== */
+function filterIndustryClients(containerSelector) {
+    var scope = containerSelector ? document.querySelector(containerSelector) : document;
+    if (!scope) scope = document;
+    
+    var searchInput = scope.querySelector("#kdmIndustryClientSearch, .kdm-client-search-input");
+    var clearBtn = scope.querySelector("#kdmIndustrySearchClear, .kdm-client-search-clear");
+    var query = (searchInput ? searchInput.value : "").trim().toLowerCase();
+    
+    if (clearBtn) {
+        clearBtn.style.display = query.length > 0 ? "block" : "none";
+    }
+
+    var cards = scope.querySelectorAll(".kdm-industry-client-card");
+    var visibleCount = 0;
+
+    cards.forEach(function(card) {
+        var cardName = (card.getAttribute("data-name") || card.textContent || "").toLowerCase();
+        var matchesQuery = (query === "" || cardName.indexOf(query) !== -1);
+
+        if (matchesQuery) {
+            card.style.display = "flex";
+            visibleCount++;
+        } else {
+            card.style.display = "none";
+        }
+    });
+
+    var emptyState = scope.querySelector("#kdmIndustryEmptyState, .kdm-industry-empty-state");
+    if (emptyState) {
+        emptyState.style.display = visibleCount === 0 ? "block" : "none";
+    }
+}
+
+function clearIndustryClientSearch(containerSelector) {
+    var scope = containerSelector ? document.querySelector(containerSelector) : document;
+    if (!scope) scope = document;
+    
+    var searchInput = scope.querySelector("#kdmIndustryClientSearch, .kdm-client-search-input");
+    if (searchInput) {
+        searchInput.value = "";
+    }
+    filterIndustryClients(containerSelector);
+}

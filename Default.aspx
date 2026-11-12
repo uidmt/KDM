@@ -546,210 +546,1390 @@
             </section>
             <!-- King of Digital Marketing Dark Section Ends -->
 
-            <!-- ===== CLIENTS TRUST & LOGOS SECTION (WHITE THEME) ===== -->
-            <section class="kdm-clients-white-section">
+            <!-- ===== 1B. KDM-IND-CLIENTS-SHOWCASE: CLIENTS TRUST & LOGOS SECTION ===== -->
+            <section class="kdm-industry-clients-section">
                 <div class="container">
-                    <div class="row custom-row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="kdm-clients-header">
-                                <div class="kdm-clients-badge">
-                                    <i class="fa fa-handshake-o fa-solid fa-handshake"></i> TRUSTED BY INDUSTRY LEADERS
-                                </div>
-                                <h2 class="kdm-clients-title">Your Trust Made Us Top <span
-                                        class="kdm-blue-gradient">Digital
-                                        Marketing Company</span> To Help Flourish Your Business</h2>
-                                <p class="kdm-clients-subtitle">What makes King of Digital Marketing different from
-                                    other digital marketing agencies is our strong relationships with our clients. We
-                                    work every day to grow their brand, build a strategic digital marketing plan,
-                                    improve online visibility, attract the right audience, and generate quality leads
-                                    that convert into customers.
-                                </p>
-                                <div class="kdm-clients-motto-wrapper">
-                                    <div class="kdm-clients-motto">
-                                        <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
-                                            Ambitious</span>
-                                        <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
-                                            Experts</span>
-                                        <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> We Are
-                                            Shepherd</span>
-                                        <span><i class="fa fa-check-circle fa-solid fa-circle-check"></i> So, We Are
-                                            King</span>
-                                    </div>
-                                </div>
+                    <div class="text-center" style="max-width: 900px; margin: 0 auto 35px auto;">
+                        <div class="kdm-client-pill-badge">
+                            <i class="fa fa-star" style="color: #f59e0b;"></i> TRUSTED BY 900+ BRANDS ACROSS 15+ COUNTRIES
+                        </div>
+                        <h2 class="kdm-client-main-title">
+                            Featured Clients &amp; Brands <span class="kdm-blue-gradient">We Have Worked With</span>
+                        </h2>
+                        <p class="kdm-client-subtitle">
+                            What makes King of Digital Marketing different from other digital marketing agencies is our genuine partnership with ambitious brands. From global enterprises and healthcare leaders to fast-growing startups — explore verified clients scaling with <a href="Default.aspx" class="kdm-brand-link">King of Digital Marketing</a>.
+                        </p>
+                    </div>
+
+                    <!-- Dual Smooth Infinite Ticker / Marquee -->
+                    <div class="kdm-client-marquee-wrapper">
+                        <!-- Row 1: Left Scroll -->
+                        <div class="kdm-client-marquee-track kdm-marquee-left">
+                            <div class="kdm-client-marquee-group">
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/adgrohair.webp" alt="AdGro Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AdGro Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/afflatus-global-visa.webp" alt="Afflatus Global Visa Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Afflatus Global Visa</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/aksira-education-logo.webp" alt="Aksira Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Aksira Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/amazing-holidays-logo.webp" alt="Amazing Holidays Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Amazing Holidays</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/astropush.webp" alt="AstroPush Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AstroPush</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/canximmigration.webp" alt="CANX Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">CANX Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/cliniq-hair-transplant.webp" alt="Cliniq Hair Transplant Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cliniq Hair Transplant</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/contact-combat-india.webp" alt="Contact Combat India Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Contact Combat India</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/davesar.webp" alt="Davesar Consultants Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Davesar Consultants</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dr-jamuna-pais-skinlab-logo.webp" alt="Dr. Jamuna Pai SkinLab Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Jamuna Pai SkinLab</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dr-pk-talwar.webp" alt="Dr. PK Talwar Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. PK Talwar</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dreamzone-allahabad.webp" alt="Dreamzone Allahabad Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dreamzone Allahabad</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/enhance-clinic.webp" alt="Enhance Clinics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Enhance Clinics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dr_as_logo_fuse-hair-transplantwebp.webp" alt="Fuse Hair (Dr. A) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Fuse Hair (Dr. A)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/global-opportunies.webp" alt="Global Opportunities Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Global Opportunities</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/heal24.webp" alt="Heal24 Restoration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Heal24 Restoration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/imperial-matrimonial.webp" alt="Imperial Matrimonial Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Imperial Matrimonial</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/iskcon-delhi.webp" alt="ISKCON Delhi Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">ISKCON Delhi</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/kidney-care-centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/medispa.webp" alt="Medispa Hair Transplant Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Medispa Hair Transplant</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/mindyourtax.webp" alt="MindYourTax Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">MindYourTax</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/morocco-tourism.webp" alt="Morocco Tourism Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Morocco Tourism</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/ojaswin-yoga-school.webp" alt="Ojaswin Yoga School Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Ojaswin Yoga School</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/planet-education.webp" alt="Planet Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Planet Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/qht.webp" alt="QHT Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">QHT Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/sareen-hair-clinic.webp" alt="Sareen Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Sareen Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/scala-clinic.webp" alt="Scala Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Scala Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/spurt-hair-clinic.webp" alt="Spurt Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Spurt Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/thechocolateroom.webp" alt="The Chocolate Room Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">The Chocolate Room</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/vlcc-hair-build.webp" alt="VLCC Hair Build Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">VLCC Hair Build</span>
+        </div>
                             </div>
-
-                            <div class="happy" id="images">
-                                <div class="track">
-                                    <!-- Featured Priority Client Logos -->
-                                    <div class="slide"><img alt="ISKCON" src="images/ISKCON Delhi.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="Meena Bazaar" src="images/mb-Meena-Bazar.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="SkinLab Jamuna Pai"
-                                            src="images/Dr.-Jamuna-Pais-SkinLab-logo.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="VLCC" src="images/vlcc-hair-build.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="QHT" src="images/QHT.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="CANX Immigration" src="images/canx.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="Global Opportunities"
-                                            src="images/client/global-opportunies.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Planet Education"
-                                            src="images/client/planet-education.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="City Clinics" src="images/CitycClinic.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Aliff study abroad" src="images/client/aliff.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Continental Immigration"
-                                            src="images/ContinentalImmigration.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Scala" src="images/scala.png" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="GotoUniversity" src="images/GotoUniversity.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Kidney Care Centre"
-                                            src="images/Kidney care centre.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Dr Lakhotia" src="images/lakhotia.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="Sareen Hair Clinic" src="images/Sareen Hair Clinic.png"
-                                            loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Enhance Clinic" src="images/Enhance-Clinic.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Dr. A's Clinic" src="images/Fuse-hair.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Medispa" src="images/hair transplant medispa.webp"
-                                            loading="lazy" decoding="async"></div>
-
-                                    <!-- Additional Client Logos -->
-                                    <div class="slide"><img alt="satguru" src="images/satguru--logo.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="Indian-Institute"
-                                            src="images/Indian-Institute-logo.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Yash-Ayurveda" src="images/Yash-Ayurveda-logo.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Tarot-Card" src="images/Tarot-Card-Classes-logo.webp"
-                                            loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Skinmumma" src="images/Skinmumma-logo.webp"
-                                            loading="lazy" decoding="async"></div>
-
-                                    <div class="slide"><img alt="city clinics" src="images/enrolbuddy_img.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="heal24" src="images/cliniq_img.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="city clinics" src="images/dncc_img.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="get study visa"
-                                            src="images/afflatusglobalvisa_img.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="heal24" src="images/monickaagupta_img.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="city clinics" src="images/aicsimmigration.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="get study visa" src="images/get.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="Planet education" src="images/pl.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="R&P" src="images/rp.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="canx" src="images/canx.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="Meena Bazar" src="images/mb-Meena-Bazar_img.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Lakhotia" src="images/lakhotia_img.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="Kundali Expert" src="images/kundali expert_img.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"> <img alt="Kidney Care Centre"
-                                            src="images/kidney care centre_img.jpg" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Iskcon Delhi" src="images/KAN_VISA_DIRECTIOn_img.webp"
-                                            loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Website Development in delhi"
-                                            src="images/iskcon delhi_img.webp" loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Hair Transplant Medispa"
-                                            src="images/hair transplant medispa_img.jpg" loading="lazy"
-                                            decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Dreamzone Allahabad"
-                                            src="images/dreamzone allahabad.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Dr Pk Talwar" src="images/dr pk talwar_img.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="go to university" src="images/go to university_img.jpg"
-                                            loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Enhance Clinic" src="images/Enhance Clinic.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="astrosatva" src="images/astrosatva_img.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="vlcc hair build" src="images/vlcc hair build.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="tradeFD" src="images/trade.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="The Growinfy" src="images/The Growinfy.jpg"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Astro Gagan Sharma"
-                                            src="images/Astro Gagan Sharma.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Art of Making Money"
-                                            src="images/Art of Making Money.jpg" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Ranglal Shastri" src="images/Ranglal Shastri.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="One Wellness Fitness Club"
-                                            src="images/One Wellness Fitness Club.jpg" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="solar farmer" src="images/solar farmer.jpg"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="aliff" src="images/aliff_img.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="fractionate" src="images/fractionate_img.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Dr. roshan" src="images/Dr. roshan_img.jpg"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"> <img alt="Dr" src="images/Dr.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="dirish sharma" src="images/dirish-sharma-logo.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="City House" src="images/City-House-PG-logo.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Amazing Holidays"
-                                            src="images/Amazing-Holidays-logo.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Aksira education"
-                                            src="images/Aksira-education-logo.webp" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="jashvi consultant"
-                                            src="images/jashvi consultant_img.jpg" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="engineersheaven" src="images/engineersheaven_img.webp"
-                                            loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="MTel" src="images/MTel_img.webp" loading="lazy"
-                                            decoding="async"></div>
-                                    <div class="slide"><img alt="Pinnacle Consulting"
-                                            src="images/Pinnacle Consulting_img.jpg" loading="lazy" decoding="async">
-                                    </div>
-                                    <div class="slide"><img alt="Numberology Flow" src="images/Numberology Flow.webp"
-                                            loading="lazy" decoding="async"></div>
-                                    <div class="slide"><img alt="Preetiesdeitclinic"
-                                            src="images/Preetiesdeitclinic.webp" loading="lazy" decoding="async">
-                                    </div>
-
-
-                                </div>
+                            <div class="kdm-client-marquee-group" aria-hidden="true">
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/adgrohair.webp" alt="AdGro Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AdGro Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/afflatus-global-visa.webp" alt="Afflatus Global Visa Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Afflatus Global Visa</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/aksira-education-logo.webp" alt="Aksira Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Aksira Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/amazing-holidays-logo.webp" alt="Amazing Holidays Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Amazing Holidays</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/astropush.webp" alt="AstroPush Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AstroPush</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/canximmigration.webp" alt="CANX Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">CANX Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/cliniq-hair-transplant.webp" alt="Cliniq Hair Transplant Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cliniq Hair Transplant</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/contact-combat-india.webp" alt="Contact Combat India Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Contact Combat India</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/davesar.webp" alt="Davesar Consultants Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Davesar Consultants</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dr-jamuna-pais-skinlab-logo.webp" alt="Dr. Jamuna Pai SkinLab Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Jamuna Pai SkinLab</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dr-pk-talwar.webp" alt="Dr. PK Talwar Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. PK Talwar</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dreamzone-allahabad.webp" alt="Dreamzone Allahabad Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dreamzone Allahabad</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/enhance-clinic.webp" alt="Enhance Clinics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Enhance Clinics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dr_as_logo_fuse-hair-transplantwebp.webp" alt="Fuse Hair (Dr. A) Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Fuse Hair (Dr. A)</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/global-opportunies.webp" alt="Global Opportunities Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Global Opportunities</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/heal24.webp" alt="Heal24 Restoration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Heal24 Restoration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/imperial-matrimonial.webp" alt="Imperial Matrimonial Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Imperial Matrimonial</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/iskcon-delhi.webp" alt="ISKCON Delhi Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">ISKCON Delhi</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/kidney-care-centre.webp" alt="Kidney Care Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kidney Care Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/medispa.webp" alt="Medispa Hair Transplant Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Medispa Hair Transplant</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/mindyourtax.webp" alt="MindYourTax Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">MindYourTax</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/morocco-tourism.webp" alt="Morocco Tourism Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Morocco Tourism</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/ojaswin-yoga-school.webp" alt="Ojaswin Yoga School Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Ojaswin Yoga School</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/planet-education.webp" alt="Planet Education Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Planet Education</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/qht.webp" alt="QHT Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">QHT Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/sareen-hair-clinic.webp" alt="Sareen Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Sareen Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/scala-clinic.webp" alt="Scala Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Scala Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/spurt-hair-clinic.webp" alt="Spurt Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Spurt Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/thechocolateroom.webp" alt="The Chocolate Room Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">The Chocolate Room</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/vlcc-hair-build.webp" alt="VLCC Hair Build Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">VLCC Hair Build</span>
+        </div>
                             </div>
+                        </div>
+
+                        <!-- Row 2: Right Scroll -->
+                        <div class="kdm-client-marquee-track kdm-marquee-right">
+                            <div class="kdm-client-marquee-group">
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/adiricha-clothing.webp" alt="Adiricha Clothing Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Adiricha Clothing</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/aics-immigration.webp" alt="AICS Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AICS Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/aliff.webp" alt="Aliff Study Abroad Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Aliff Study Abroad</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/astro-gagan-sharma.webp" alt="Astro Gagan Sharma Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Astro Gagan Sharma</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/astrosatva.webp" alt="Astrosatva Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Astrosatva</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/city-clinic.webp" alt="City Clinics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">City Clinics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/cocoona.webp" alt="Cocoona Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cocoona Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/continentalimmigration.webp" alt="Continental Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Continental Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dncc_dr-nishita%20seth-cosmetic%20surgeon.webp" alt="DNCC - Dr. Nishita Sheth Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">DNCC - Dr. Nishita Sheth</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/lakhotia.webp" alt="Dr. Lakhotia Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Lakhotia</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dr-sanjay-parashar.webp" alt="Dr. Sanjay Parashar Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Sanjay Parashar</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/engineersheaven.webp" alt="EngineersHeaven Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">EngineersHeaven</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/enrolbuddy.webp" alt="Enrolbuddy Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Enrolbuddy</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/get-study-visa.webp" alt="Get Study Visa Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Get Study Visa</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/gotouniversity.webp" alt="GotoUniversity Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">GotoUniversity</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/ihoroscopegpt.webp" alt="iHoroscopeGPT Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">iHoroscopeGPT</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/indian-institute-logo.webp" alt="Indian Institute Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Indian Institute</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/kan-visa-direction.webp" alt="KAN Visa Direction Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">KAN Visa Direction</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/kundali-expert.webp" alt="Kundali Expert Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kundali Expert</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/mb-meena-bazar.webp" alt="Meena Bazaar Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Meena Bazaar</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/monickaagupta.webp" alt="Monickaa Gupta Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Monickaa Gupta</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/numberology-flow.webp" alt="Numerology Flow Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Numerology Flow</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/olympus-clinic.webp" alt="Olympus Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Olympus Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/preetiesdeitclinic.webp" alt="Preeti Diet Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Preeti Diet Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/rp.webp" alt="RP Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">RP Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/satguru--logo.webp" alt="Satguru International Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Satguru International</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/skinmumma-logo.webp" alt="Skinmumma Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Skinmumma</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/tarot-card-classes-logo.webp" alt="Tarot Card Classes Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Tarot Card Classes</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/trade.webp" alt="TradeFD Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">TradeFD</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/yash-ayurveda-logo.webp" alt="Yash Ayurveda Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Yash Ayurveda</span>
+        </div>
+                            </div>
+                            <div class="kdm-client-marquee-group" aria-hidden="true">
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/adiricha-clothing.webp" alt="Adiricha Clothing Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Adiricha Clothing</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/aics-immigration.webp" alt="AICS Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">AICS Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/aliff.webp" alt="Aliff Study Abroad Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Aliff Study Abroad</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/astro-gagan-sharma.webp" alt="Astro Gagan Sharma Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Astro Gagan Sharma</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/astrosatva.webp" alt="Astrosatva Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Astrosatva</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/city-clinic.webp" alt="City Clinics Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">City Clinics</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/cocoona.webp" alt="Cocoona Centre Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Cocoona Centre</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/continentalimmigration.webp" alt="Continental Immigration Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Continental Immigration</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dncc_dr-nishita%20seth-cosmetic%20surgeon.webp" alt="DNCC - Dr. Nishita Sheth Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">DNCC - Dr. Nishita Sheth</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/lakhotia.webp" alt="Dr. Lakhotia Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Lakhotia</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/dr-sanjay-parashar.webp" alt="Dr. Sanjay Parashar Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Dr. Sanjay Parashar</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/engineersheaven.webp" alt="EngineersHeaven Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">EngineersHeaven</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/enrolbuddy.webp" alt="Enrolbuddy Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Enrolbuddy</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/get-study-visa.webp" alt="Get Study Visa Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Get Study Visa</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/gotouniversity.webp" alt="GotoUniversity Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">GotoUniversity</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/ihoroscopegpt.webp" alt="iHoroscopeGPT Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">iHoroscopeGPT</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/indian-institute-logo.webp" alt="Indian Institute Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Indian Institute</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/kan-visa-direction.webp" alt="KAN Visa Direction Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">KAN Visa Direction</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/kundali-expert.webp" alt="Kundali Expert Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Kundali Expert</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/mb-meena-bazar.webp" alt="Meena Bazaar Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Meena Bazaar</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/monickaagupta.webp" alt="Monickaa Gupta Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Monickaa Gupta</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/numberology-flow.webp" alt="Numerology Flow Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Numerology Flow</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/olympus-clinic.webp" alt="Olympus Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Olympus Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/preetiesdeitclinic.webp" alt="Preeti Diet Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Preeti Diet Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/rp.webp" alt="RP Hair Clinic Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">RP Hair Clinic</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/satguru--logo.webp" alt="Satguru International Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Satguru International</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/skinmumma-logo.webp" alt="Skinmumma Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Skinmumma</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/tarot-card-classes-logo.webp" alt="Tarot Card Classes Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Tarot Card Classes</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/trade.webp" alt="TradeFD Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">TradeFD</span>
+        </div>
+        <div class="kdm-client-marquee-item">
+          <div class="kdm-client-marquee-img-wrap">
+            <img src="images/client/yash-ayurveda-logo.webp" alt="Yash Ayurveda Logo" loading="lazy" decoding="async" />
+          </div>
+          <span class="kdm-client-marquee-name">Yash Ayurveda</span>
+        </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Real-Time Client Search Bar -->
+                    <div class="kdm-client-search-box">
+                        <i class="fa fa-search kdm-client-search-icon"></i>
+                        <input type="text" id="kdmIndustryClientSearch" class="kdm-client-search-input" placeholder="Search 60+ verified clients by brand name (e.g., ISKCON, Meena Bazaar, VLCC, CANX, SkinLab, Medispa)..." onkeyup="filterIndustryClients()" oninput="filterIndustryClients()" aria-label="Search client logos" />
+                        <button type="button" class="kdm-client-search-clear" id="kdmIndustrySearchClear" onclick="clearIndustryClientSearch()" title="Clear Search"><i class="fa fa-times"></i></button>
+                    </div>
+
+                    <!-- 60 Client Logos Responsive Grid (Strict A to Z) -->
+                    <div class="kdm-industry-clients-grid" id="kdmIndustryClientsGrid">
+        <div class="kdm-industry-client-card" data-name="adgro hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/adgrohair.webp" alt="AdGro Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-hair">Hair Restoration</span>
+            <h4 class="kdm-industry-client-title">AdGro Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Advanced FUE Hair Regrowth & Grafting Clinic</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="adiricha clothing">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/adiricha-clothing.webp" alt="Adiricha Clothing Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-ecommerce">Fashion E-Commerce</span>
+            <h4 class="kdm-industry-client-title">Adiricha Clothing</h4>
+            <p class="kdm-industry-client-desc">Handcrafted Designer Ethnic Wear E-Store</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="afflatus global visa">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/afflatus-global-visa.webp" alt="Afflatus Global Visa Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-consultant">Immigration & Visa</span>
+            <h4 class="kdm-industry-client-title">Afflatus Global Visa</h4>
+            <p class="kdm-industry-client-desc">Immigration Law & Student Visa Assistance</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="aics immigration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/aics-immigration.webp" alt="AICS Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-consultant">Immigration & Visa</span>
+            <h4 class="kdm-industry-client-title">AICS Immigration</h4>
+            <p class="kdm-industry-client-desc">PR, Work Permit & Global Relocation Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="aksira education">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/aksira-education-logo.webp" alt="Aksira Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-app">Education & Coaching</span>
+            <h4 class="kdm-industry-client-title">Aksira Education</h4>
+            <p class="kdm-industry-client-desc">Competitive Exam Coaching & Academic Guidance</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="aliff study abroad">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/aliff.webp" alt="Aliff Study Abroad Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-app">Education & Study Abroad</span>
+            <h4 class="kdm-industry-client-title">Aliff Study Abroad</h4>
+            <p class="kdm-industry-client-desc">Leading Overseas Education Mentors & Counselors</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="amazing holidays">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/amazing-holidays-logo.webp" alt="Amazing Holidays Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Travel & Tourism</span>
+            <h4 class="kdm-industry-client-title">Amazing Holidays</h4>
+            <p class="kdm-industry-client-desc">Bespoke International Tour & Travel Packages</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="astro gagan sharma">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/astro-gagan-sharma.webp" alt="Astro Gagan Sharma Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-astrologer">Astrology</span>
+            <h4 class="kdm-industry-client-title">Astro Gagan Sharma</h4>
+            <p class="kdm-industry-client-desc">Celebrity Vedic Astrologer & Life Strategist</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="astropush">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/astropush.webp" alt="AstroPush Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-tech">Astrology App</span>
+            <h4 class="kdm-industry-client-title">AstroPush</h4>
+            <p class="kdm-industry-client-desc">Leading Online Astrologer Consultation App</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="astrosatva">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/astrosatva.webp" alt="Astrosatva Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-astrologer">Astrology</span>
+            <h4 class="kdm-industry-client-title">Astrosatva</h4>
+            <p class="kdm-industry-client-desc">Digital Horoscope & Vedic Jyotish Solutions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="canx immigration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/canximmigration.webp" alt="CANX Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-consultant">Immigration & Visa</span>
+            <h4 class="kdm-industry-client-title">CANX Immigration</h4>
+            <p class="kdm-industry-client-desc">Licensed Canadian Immigration & Visa Consultancy</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="city clinics">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/city-clinic.webp" alt="City Clinics Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-clinic">Healthcare</span>
+            <h4 class="kdm-industry-client-title">City Clinics</h4>
+            <p class="kdm-industry-client-desc">Multi-Specialty Healthcare & Aesthetic Care</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="cliniq hair transplant">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/cliniq-hair-transplant.webp" alt="Cliniq Hair Transplant Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Hair Restoration</span>
+            <h4 class="kdm-industry-client-title">Cliniq Hair Transplant</h4>
+            <p class="kdm-industry-client-desc">Advanced Robotic FUE & Hair Restoration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="cocoona centre">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/cocoona.webp" alt="Cocoona Centre Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-cosmetic">Aesthetic Medicine</span>
+            <h4 class="kdm-industry-client-title">Cocoona Centre</h4>
+            <p class="kdm-industry-client-desc">International Aesthetic & Plastic Surgery Chain</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="contact combat india">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/contact-combat-india.webp" alt="Contact Combat India Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Fitness & Defense</span>
+            <h4 class="kdm-industry-client-title">Contact Combat India</h4>
+            <p class="kdm-industry-client-desc">Premier Krav Maga & Self-Defense Academy</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="continental immigration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/continentalimmigration.webp" alt="Continental Immigration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-consultant">Immigration & Visa</span>
+            <h4 class="kdm-industry-client-title">Continental Immigration</h4>
+            <p class="kdm-industry-client-desc">Global Visa Solutions & Relocation Specialists</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="davesar consultants">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/davesar.webp" alt="Davesar Consultants Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-consultant">Corporate Consulting</span>
+            <h4 class="kdm-industry-client-title">Davesar Consultants</h4>
+            <p class="kdm-industry-client-desc">Corporate Legal & Business Advisory Services</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dncc - dr. nishita sheth">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/dncc_dr-nishita%20seth-cosmetic%20surgeon.webp" alt="DNCC - Dr. Nishita Sheth Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-cosmetic">Cosmetic Surgery</span>
+            <h4 class="kdm-industry-client-title">DNCC - Dr. Nishita Sheth</h4>
+            <p class="kdm-industry-client-desc">Leading Cosmetic Surgery & Laser Dermatology</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dr. jamuna pai skinlab">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/dr-jamuna-pais-skinlab-logo.webp" alt="Dr. Jamuna Pai SkinLab Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-clinic">Healthcare & Aesthetics</span>
+            <h4 class="kdm-industry-client-title">Dr. Jamuna Pai SkinLab</h4>
+            <p class="kdm-industry-client-desc">Celebrity Cosmetic & Medical Aesthetics Clinic</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dr. lakhotia">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/lakhotia.webp" alt="Dr. Lakhotia Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-clinic">Healthcare & Medical</span>
+            <h4 class="kdm-industry-client-title">Dr. Lakhotia</h4>
+            <p class="kdm-industry-client-desc">Renowned Medical Specialist & Clinical Practice</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dr. pk talwar">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/dr-pk-talwar.webp" alt="Dr. PK Talwar Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Cosmetic Surgery</span>
+            <h4 class="kdm-industry-client-title">Dr. PK Talwar</h4>
+            <p class="kdm-industry-client-desc">Senior Aesthetic & Plastic Surgeon (Delhi)</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dr. sanjay parashar">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/dr-sanjay-parashar.webp" alt="Dr. Sanjay Parashar Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Plastic Surgery</span>
+            <h4 class="kdm-industry-client-title">Dr. Sanjay Parashar</h4>
+            <p class="kdm-industry-client-desc">Renowned Board-Certified Plastic Surgeon</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="dreamzone allahabad">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/dreamzone-allahabad.webp" alt="Dreamzone Allahabad Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-app">Design & Education</span>
+            <h4 class="kdm-industry-client-title">Dreamzone Allahabad</h4>
+            <p class="kdm-industry-client-desc">Creative Arts, Interior & Fashion Design School</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="engineersheaven">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/engineersheaven.webp" alt="EngineersHeaven Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-tech">Tech & E-Learning</span>
+            <h4 class="kdm-industry-client-title">EngineersHeaven</h4>
+            <p class="kdm-industry-client-desc">Online Engineering & Technical Learning Platform</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="enhance clinics">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/enhance-clinic.webp" alt="Enhance Clinics Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-cosmetic">Cosmetic Surgery</span>
+            <h4 class="kdm-industry-client-title">Enhance Clinics</h4>
+            <p class="kdm-industry-client-desc">Aesthetic Plastic Surgery & Dermatology Chain</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="enrolbuddy">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/enrolbuddy.webp" alt="Enrolbuddy Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-tech">EdTech & Software</span>
+            <h4 class="kdm-industry-client-title">Enrolbuddy</h4>
+            <p class="kdm-industry-client-desc">AI-Powered College Admission & Discovery App</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="fuse hair (dr. a)">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/dr_as_logo_fuse-hair-transplantwebp.webp" alt="Fuse Hair (Dr. A) Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Hair Restoration</span>
+            <h4 class="kdm-industry-client-title">Fuse Hair (Dr. A)</h4>
+            <p class="kdm-industry-client-desc">World-Renowned FUE Hair Restoration Practice</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="get study visa">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/get-study-visa.webp" alt="Get Study Visa Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-app">Education & Visa</span>
+            <h4 class="kdm-industry-client-title">Get Study Visa</h4>
+            <p class="kdm-industry-client-desc">Fast-Track Student Visa & University Admissions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="global opportunities">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/global-opportunies.webp" alt="Global Opportunities Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-app">Education & Study Abroad</span>
+            <h4 class="kdm-industry-client-title">Global Opportunities</h4>
+            <p class="kdm-industry-client-desc">Premier Overseas Study & University Education</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="gotouniversity">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/gotouniversity.webp" alt="GotoUniversity Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-app">Education & EdTech</span>
+            <h4 class="kdm-industry-client-title">GotoUniversity</h4>
+            <p class="kdm-industry-client-desc">Worldwide University Admissions & Scholarship Hub</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="heal24 restoration">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/heal24.webp" alt="Heal24 Restoration Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-hair">Hair Clinic</span>
+            <h4 class="kdm-industry-client-title">Heal24 Restoration</h4>
+            <p class="kdm-industry-client-desc">PRP, GFC Therapy & Advanced Hair Restoration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="ihoroscopegpt">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/ihoroscopegpt.webp" alt="iHoroscopeGPT Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-tech">AI & Astrology</span>
+            <h4 class="kdm-industry-client-title">iHoroscopeGPT</h4>
+            <p class="kdm-industry-client-desc">AI-Powered Vedic Astrology & Horoscope Platform</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="imperial matrimonial">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/imperial-matrimonial.webp" alt="Imperial Matrimonial Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-consultant">Premium Matchmaking</span>
+            <h4 class="kdm-industry-client-title">Imperial Matrimonial</h4>
+            <p class="kdm-industry-client-desc">Elite High-Net-Worth Matchmaking Service</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="indian institute">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/indian-institute-logo.webp" alt="Indian Institute Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-app">Education & Training</span>
+            <h4 class="kdm-industry-client-title">Indian Institute</h4>
+            <p class="kdm-industry-client-desc">Professional Skill Training & Higher Academics</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="iskcon delhi">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/iskcon-delhi.webp" alt="ISKCON Delhi Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Spiritual & NGO</span>
+            <h4 class="kdm-industry-client-title">ISKCON Delhi</h4>
+            <p class="kdm-industry-client-desc">Global Spiritual & Cultural Foundation</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="kan visa direction">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/kan-visa-direction.webp" alt="KAN Visa Direction Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-consultant">Immigration & Visa</span>
+            <h4 class="kdm-industry-client-title">KAN Visa Direction</h4>
+            <p class="kdm-industry-client-desc">International Visa Consultation & Migration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="kidney care centre">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/kidney-care-centre.webp" alt="Kidney Care Centre Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-hospital">Hospital & Healthcare</span>
+            <h4 class="kdm-industry-client-title">Kidney Care Centre</h4>
+            <p class="kdm-industry-client-desc">Super-Specialty Renal Care & Nephrology Hospital</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="kundali expert">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/kundali-expert.webp" alt="Kundali Expert Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-astrologer">Astrology</span>
+            <h4 class="kdm-industry-client-title">Kundali Expert</h4>
+            <p class="kdm-industry-client-desc">Vedic Horoscope Reading & Astro Consultations</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="medispa hair transplant">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/medispa.webp" alt="Medispa Hair Transplant Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Hair Restoration</span>
+            <h4 class="kdm-industry-client-title">Medispa Hair Transplant</h4>
+            <p class="kdm-industry-client-desc">Pioneers in FUT, FUE & Natural Hair Restoration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="meena bazaar">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/mb-meena-bazar.webp" alt="Meena Bazaar Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-ecommerce">Fashion & Retail</span>
+            <h4 class="kdm-industry-client-title">Meena Bazaar</h4>
+            <p class="kdm-industry-client-desc">Iconic Indian Ethnic Wear & Fashion Retailer</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="mindyourtax">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/mindyourtax.webp" alt="MindYourTax Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-consultant">Tax & Financial</span>
+            <h4 class="kdm-industry-client-title">MindYourTax</h4>
+            <p class="kdm-industry-client-desc">Chartered Accounting & Corporate Tax Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="monickaa gupta">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/monickaagupta.webp" alt="Monickaa Gupta Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-astrologer">Astrology & Vastu</span>
+            <h4 class="kdm-industry-client-title">Monickaa Gupta</h4>
+            <p class="kdm-industry-client-desc">Celebrity Astrologer & Tarot Consultant</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="morocco tourism">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/morocco-tourism.webp" alt="Morocco Tourism Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Travel & Tourism</span>
+            <h4 class="kdm-industry-client-title">Morocco Tourism</h4>
+            <p class="kdm-industry-client-desc">Destination Promotion & Cultural Tourism Board</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="numerology flow">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/numberology-flow.webp" alt="Numerology Flow Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-numerology">Numerology</span>
+            <h4 class="kdm-industry-client-title">Numerology Flow</h4>
+            <p class="kdm-industry-client-desc">Name Correction & Scientific Numerology Services</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="ojaswin yoga school">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/ojaswin-yoga-school.webp" alt="Ojaswin Yoga School Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-clinic">Yoga & Wellness</span>
+            <h4 class="kdm-industry-client-title">Ojaswin Yoga School</h4>
+            <p class="kdm-industry-client-desc">RYS Yoga Alliance Teacher Training Centre</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="olympus clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/olympus-clinic.webp" alt="Olympus Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-clinic">Aesthetics & Derma</span>
+            <h4 class="kdm-industry-client-title">Olympus Clinic</h4>
+            <p class="kdm-industry-client-desc">Precision Aesthetic & Dermatology Centre</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="planet education">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/planet-education.webp" alt="Planet Education Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-app">Education & EdTech</span>
+            <h4 class="kdm-industry-client-title">Planet Education</h4>
+            <p class="kdm-industry-client-desc">Global Higher Education & Admission Partners</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="preeti diet clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/preetiesdeitclinic.webp" alt="Preeti Diet Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-clinic">Health & Nutrition</span>
+            <h4 class="kdm-industry-client-title">Preeti Diet Clinic</h4>
+            <p class="kdm-industry-client-desc">Clinical Dietetics & Personalized Nutrition Plans</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="qht hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/qht.webp" alt="QHT Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-surgery">Hair Restoration</span>
+            <h4 class="kdm-industry-client-title">QHT Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Quick Hair Transplant & Follicle Restoration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="rp hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/rp.webp" alt="RP Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-hair">Hair Restoration</span>
+            <h4 class="kdm-industry-client-title">RP Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Trichology, Scalp Micro & Hair Restoration</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="sareen hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/sareen-hair-clinic.webp" alt="Sareen Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-hair">Hair Restoration</span>
+            <h4 class="kdm-industry-client-title">Sareen Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Trichological Hair Regrowth & Grafting Solutions</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="satguru international">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/satguru--logo.webp" alt="Satguru International Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Trading & Export</span>
+            <h4 class="kdm-industry-client-title">Satguru International</h4>
+            <p class="kdm-industry-client-desc">Global Export, Trading & Logistics Firm</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="scala hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/scala-clinic.webp" alt="Scala Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-hair">Hair Restoration</span>
+            <h4 class="kdm-industry-client-title">Scala Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Advanced Scalp Follicle & Hairline Design</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="skinmumma">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/skinmumma-logo.webp" alt="Skinmumma Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-ecommerce">Beauty & Skincare</span>
+            <h4 class="kdm-industry-client-title">Skinmumma</h4>
+            <p class="kdm-industry-client-desc">Derma Skincare Formulations & Beauty Care</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="spurt hair clinic">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/spurt-hair-clinic.webp" alt="Spurt Hair Clinic Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-hair">Hair Restoration</span>
+            <h4 class="kdm-industry-client-title">Spurt Hair Clinic</h4>
+            <p class="kdm-industry-client-desc">Precision FUE Grafting & Scalp Follicle Care</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="tarot card classes">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/tarot-card-classes-logo.webp" alt="Tarot Card Classes Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-tarot">Occult & Training</span>
+            <h4 class="kdm-industry-client-title">Tarot Card Classes</h4>
+            <p class="kdm-industry-client-desc">Certified Tarot Reading & Occult Science Academy</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="the chocolate room">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/thechocolateroom.webp" alt="The Chocolate Room Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Food & Hospitality</span>
+            <h4 class="kdm-industry-client-title">The Chocolate Room</h4>
+            <p class="kdm-industry-client-desc">Global Chocolate Cafe & Food Franchise Brand</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="tradefd">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/trade.webp" alt="TradeFD Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-brand">Finance & Trading</span>
+            <h4 class="kdm-industry-client-title">TradeFD</h4>
+            <p class="kdm-industry-client-desc">Financial Markets Research & Trading Advisory</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="vlcc hair build">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/vlcc-hair-build.webp" alt="VLCC Hair Build Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-hair">Wellness & Hair</span>
+            <h4 class="kdm-industry-client-title">VLCC Hair Build</h4>
+            <p class="kdm-industry-client-desc">Premier Wellness & Hair Restoration Brand</p>
+          </div>
+        </div>
+        <div class="kdm-industry-client-card" data-name="yash ayurveda">
+          <div class="kdm-industry-client-logo-box">
+            <img src="images/client/yash-ayurveda-logo.webp" alt="Yash Ayurveda Logo" class="kdm-industry-client-img" loading="lazy" decoding="async" />
+          </div>
+          <div class="kdm-industry-client-info">
+            <span class="kdm-client-badge kdm-cat-clinic">Ayurveda & Health</span>
+            <h4 class="kdm-industry-client-title">Yash Ayurveda</h4>
+            <p class="kdm-industry-client-desc">Holistic Ayurvedic Wellness & Herbal Formulations</p>
+          </div>
+        </div>
+                    </div>
+
+                    <!-- Empty Search State -->
+                    <div id="kdmIndustryEmptyState" class="kdm-industry-empty-state" style="display: none;">
+                        <i class="fa fa-search" style="font-size: 38px; color: #94a3b8; margin-bottom: 12px; display: block;"></i>
+                        <h4 style="font-size: 18px; font-weight: 700; color: #1e293b; margin-bottom: 6px;">No Client Brand Found</h4>
+                        <p style="font-size: 14px; color: #64748b; margin-bottom: 14px;">We could not find any client matching your search query. Try another brand name.</p>
+                        <button type="button" class="btn btn-sm btn-primary" onclick="clearIndustryClientSearch()" style="border-radius: 20px; padding: 6px 18px; font-weight: 600;">Reset Search</button>
+                    </div>
+
+                    <!-- Bottom Direct CTA Banner -->
+                    <div class="kdm-industry-clients-cta-strip">
+                        <div class="kdm-industry-cta-content">
+                            <span class="kdm-industry-cta-badge"><i class="fa fa-check-circle"></i> PROVEN INDUSTRY DOMINANCE</span>
+                            <h3 class="kdm-industry-cta-title">Want Similar Scalable Growth &amp; High-Converting Leads For Your Brand?</h3>
+                            <p class="kdm-industry-cta-desc">Partner with King of Digital Marketing — backed by 13+ years of proven experience and 900+ successful campaigns across 15+ countries.</p>
+                        </div>
+                        <div class="kdm-industry-cta-btn-wrap">
+                            <a href="javascript:void(0);" onclick="openGlobalPopupForm()" class="kdm-industry-cta-button">
+                                <i class="fa fa-calendar-check"></i> Book Free Strategy Call <i class="fa fa-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
