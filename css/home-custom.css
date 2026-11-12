@@ -9072,6 +9072,11 @@ svg.kdm-ppc-svg-icon {
   font-weight: 700 !important;
 }
 
+.kdm-h1-intro .kdm-text-blue {
+  color: #0088cc !important;
+  font-weight: 700 !important;
+}
+
 .kdm-h1-intro a {
   color: #0284c7 !important;
   text-decoration: underline !important;
